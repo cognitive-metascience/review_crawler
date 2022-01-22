@@ -6,6 +6,7 @@ todo: save data to json files as we crawl, instead of creating a gigantic list o
 """
 
 import json
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -72,19 +73,26 @@ def parse_article(url):
         assert url == metadata['url']
 
         metadata['authors'] = [x.get('content') for x in soup.findAll('meta', {"name": "citation_author"})]
-        metadata['journal_abbrev'] = soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2]
-        metadata['journal_title'] = soup.find('meta', {'name': "citation_journal_title"}).get('content')
-        metadata['journal_volume'] = soup.find('meta', {'name': "citation_volume"}).get('content')
+
+        jrnl_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
+                     'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
         issue = soup.find('meta', {'name': "citation_issue"})
         if issue is not None:
-            metadata['journal_issue'] = issue.get('content')
+            jrnl_dict['issue'] = int(issue.get('content'))
+        metadata['journal'] = jrnl_dict
+
+        pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
+        metadata['publication_date'] = {'year': int(pubdate_string.split('/')[0]), 'month': int(pubdate_string.split('/')[1])}
+
+        keywords = soup.find('span', {'itemprop': 'keywords'})
+        if keywords is not None:
+            metadata['keywords'] = keywords.getText().strip().split('; ')
+        else:
+            metadata['keywords'] = []
         metadata['fulltext_pdf_url'] = soup.find('meta', {'name': 'fulltext_pdf'}).get('content')
         if "This is an early access version" not in soup.getText():
             metadata['fulltext_xml_url'] = soup.find('meta', {'name': 'fulltext_xml'}).get('content')
             metadata['fulltext_html_url'] = soup.find('meta', {'name': 'fulltext_html'}).get('content')
-        metadata['keywords'] = soup.find('span', {'itemprop': 'keywords'}).getText().strip().split('; ')
-
-        # todo: publication date
 
         bib_identity = soup.find('div', {'class': 'bib-identity'})
         metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
@@ -107,10 +115,12 @@ def parse_article(url):
     return metadata
 
 
-def page_crawl(url):
+def page_crawl(url, dump_dir=None):
     """
     Crawls through a single page of MDPI search results. It's able to get 15 at most.
 
+    :param dump_dir:
+    :type dump_dir:
     :param url: Webpage with certain search results.
     :type url: str
     :return: A list of dicts containing metadata of found articles.
@@ -128,18 +138,35 @@ def page_crawl(url):
     article_div: BeautifulSoup
     for article_div in soup.findAll('div', {'class': 'article-content'}):
         a_title = article_div.find('a', {'class': 'title-link'})
-        scraped_articles.append(parse_article(BASE_URL + a_title.get('href')))
+        parsed = parse_article(BASE_URL + a_title.get('href'))
+
+        scraped_articles.append(parsed)
+        if dump_dir is not None:
+            print("| Trying to save to to file.", end=" | ")
+            filename = f"{os.path.join(dump_dir, parsed['doi'].split('/')[-1])}.json"
+            if os.path.exists(filename):
+                print("Warning! File already exists. Will overwrite.", end=" | ")
+            with open(filename, 'w+') as fp:
+                json.dump(parsed, fp, ensure_ascii=False)
+            print(f"Saved metadata to {filename}. | ")
 
     return scraped_articles
 
 
-def crawl():
+def crawl(dump_dir=None):
     """
     Crawls through the MDPI database.
 
+    :param dump_dir:
+    :type dump_dir:
     :return: a list of dicts containing metadata of found articles.
     :rtype: list
     """
+
+    if dump_dir is not None:
+        if not os.path.exists(dump_dir):
+            os.mkdir(dump_dir)
+
     soup = _cook(BASE_SEARCH_URL)
 
     pages_count = learn_search_pages(soup)
@@ -148,8 +175,9 @@ def crawl():
 
     # for i in range(int(pages_count)):
     for i in range(2):  # change this line to the one above to crawl through everything
-        scraped_articles += page_crawl(f"{BASE_SEARCH_URL}&page_no={i + 1}")
-        print(f"{i + 1} search pages crawled.")
+        scraped_articles += page_crawl(f"{BASE_SEARCH_URL}&page_no={i + 1}", dump_dir=dump_dir)
+        print(f"{i + 1} search pages crawled.", end=" ")
+        print(f"{len(os.listdir(dump_dir))} files in dump_dir.")
 
     print("Done crawling through MDPI.")
     print("Total number of scraped articles: ", len(scraped_articles))
@@ -158,13 +186,9 @@ def crawl():
 
 
 if __name__ == '__main__':
-    scraped = crawl()
+    scraped = crawl(dump_dir="scraped/mdpi/articles")
 
     with open("scraped_mdpi_articles_metadata.json", 'w+') as fp:
         json.dump(scraped, fp)
 
     print(f"Number of reviewed articles found: {len([a for a in scraped if a['has_reviews']])}")
-    # registered_dois = []
-    # for item in scraped:
-    #     if item['doi_registered']: registered_dois.append(item)
-    # print("Total number of registeed dois found: ", len(registered_dois))

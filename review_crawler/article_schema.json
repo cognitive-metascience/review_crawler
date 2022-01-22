@@ -10,7 +10,7 @@
         "publication_date",
         "keywords",
         "retracted",
-        "reviews"
+        "has_reviews"
     ],
     "title": "The schema of an article.",
     "type": "object",
@@ -56,13 +56,13 @@
             "title": "Journal in which the article was published.",
             "examples": [
                 {
-                    "name": "Entropy",
+                    "title": "Entropy",
                     "volume": 22,
                     "issue": 5
                 }
             ],
             "required": [
-                "name",
+                "title",
                 "volume"
             ],
             "type": "object",
