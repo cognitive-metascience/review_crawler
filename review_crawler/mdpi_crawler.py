@@ -1,5 +1,6 @@
 """
 test crawler for the MDPI database.
+skonczyles na 484.
 goes through first 2 pages of search results = 20 articles
 currently scrapes a lot of metadata for found articles and dumps all data into a single json file
 todo: save data to json files as we crawl, instead of creating a gigantic list of articles
@@ -89,10 +90,16 @@ def parse_article(url):
             metadata['keywords'] = keywords.getText().strip().split('; ')
         else:
             metadata['keywords'] = []
-        metadata['fulltext_pdf_url'] = soup.find('meta', {'name': 'fulltext_pdf'}).get('content')
-        if "This is an early access version" not in soup.getText():
-            metadata['fulltext_xml_url'] = soup.find('meta', {'name': 'fulltext_xml'}).get('content')
-            metadata['fulltext_html_url'] = soup.find('meta', {'name': 'fulltext_html'}).get('content')
+
+        pdf_tag = soup.find('meta', {'name': 'fulltext_pdf'})
+        if pdf_tag is not None:
+            metadata['fulltext_pdf_url'] = pdf_tag.get('content')
+        xml_tag = soup.find('meta', {'name': 'fulltext_xml'})
+        if xml_tag is not None:
+            metadata['fulltext_xml_url'] = xml_tag.get('content')
+        html_tag = soup.find('meta', {'name': 'fulltext_html'})
+        if html_tag is not None:
+            metadata['fulltext_html_url'] = html_tag.get('content')
 
         bib_identity = soup.find('div', {'class': 'bib-identity'})
         metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
@@ -138,7 +145,11 @@ def page_crawl(url, dump_dir=None):
     article_div: BeautifulSoup
     for article_div in soup.findAll('div', {'class': 'article-content'}):
         a_title = article_div.find('a', {'class': 'title-link'})
-        parsed = parse_article(BASE_URL + a_title.get('href'))
+        try:
+            parsed = parse_article(BASE_URL + a_title.get('href'))
+        except Exception as e:
+            print("\t", e.args[0])
+            continue
 
         scraped_articles.append(parsed)
         if dump_dir is not None:
@@ -146,7 +157,7 @@ def page_crawl(url, dump_dir=None):
             filename = f"{os.path.join(dump_dir, parsed['doi'].split('/')[-1])}.json"
             if os.path.exists(filename):
                 print("Warning! File already exists. Will overwrite.", end=" | ")
-            with open(filename, 'w+') as fp:
+            with open(filename, 'w+', encoding="utf-8") as fp:
                 json.dump(parsed, fp, ensure_ascii=False)
             print(f"Saved metadata to {filename}. | ")
 
@@ -173,7 +184,7 @@ def crawl(dump_dir=None):
 
     scraped_articles = []
 
-    # for i in range(int(pages_count)):
+    # for i in range(int(0, pages_count)):
     for i in range(2):  # change this line to the one above to crawl through everything
         scraped_articles += page_crawl(f"{BASE_SEARCH_URL}&page_no={i + 1}", dump_dir=dump_dir)
         print(f"{i + 1} search pages crawled.", end=" ")
@@ -188,7 +199,7 @@ def crawl(dump_dir=None):
 if __name__ == '__main__':
     scraped = crawl(dump_dir="scraped/mdpi/articles")
 
-    with open("scraped_mdpi_articles_metadata.json", 'w+') as fp:
-        json.dump(scraped, fp)
+    # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:
+    #     json.dump(scraped, fp)
 
     print(f"Number of reviewed articles found: {len([a for a in scraped if a['has_reviews']])}")
