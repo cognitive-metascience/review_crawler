@@ -52,8 +52,9 @@ def learn_journals(soup):
 
 def parse_article(url, dump_dir=None):
     """
-    Parses an MDPI article with the given url.
+    Parses an MDPI article with the given url. Saves output to a JSON file if dump_dir is specified.
 
+    :type dump_dir: str
     :type url:
     :return: dict containing scraped metadata
     :rtype: dict
@@ -61,10 +62,10 @@ def parse_article(url, dump_dir=None):
     if not url.startswith("https://www.mdpi.com/"):
         raise Exception("Invalid url for parse_article.")
 
-    soup = _cook(url)
     metadata = {}
-
+    # parsing
     try:
+        soup = _cook(url)
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
         print(f"| Currently parsing: {metadata['title']}")
 
@@ -110,21 +111,20 @@ def parse_article(url, dump_dir=None):
         else:
             metadata['has_reviews'] = True
             metadata['reviews_url'] = url + "/review_report"
-
     # todo: more metadata, parse reviews
 
     except Exception as e:
         print("There's a problem with this article:", metadata)  # todo: better error logging
         raise e
-
-    if dump_dir is not None:
-        print("| Trying to save to to file.", end=" | ")
-        filename = f"{os.path.join(dump_dir, metadata['doi'].split('/')[-1])}.json"
-        if os.path.exists(filename):
-            print("Warning! File already exists. Will overwrite.", end=" | ")
-        with open(filename, 'w+', encoding="utf-8") as fp:
-            json.dump(metadata, fp, ensure_ascii=False)
-        print(f"Saved metadata to {filename}. | ")
+    else:
+        if dump_dir is not None:
+            print("| Trying to save to to file.", end=" | ")
+            filename = f"{os.path.join(dump_dir, metadata['doi'].split('/')[-1])}.json"
+            if os.path.exists(filename):
+                print("Warning! File already exists. Will overwrite.", end=" | ")
+            with open(filename, 'w+', encoding="utf-8") as fp:
+                json.dump(metadata, fp, ensure_ascii=False)
+            print(f"Saved metadata to {filename}. | ")
 
     return metadata
 
@@ -149,15 +149,16 @@ def page_crawl(url, dump_dir=None):
     scraped_articles = []
 
     # using threading to parse all articles on this search page at the same time
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        futures = []
-        # iterate over all article-content divs on the page to find urls
-        for article_div in soup.findAll('div', {'class': 'article-content'}):
-            a_title = article_div.find('a', {'class': 'title-link'})
-            futures.append(executor.submit(parse_article, url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
-        for future in concurrent.futures.as_completed(futures):
-            scraped_articles.append(future.result())
-
+    # with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor = concurrent.futures.ThreadPoolExecutor()
+    futures = []
+    # iterate over all article-content divs on the page to find urls
+    for article_div in soup.findAll('div', {'class': 'article-content'}):
+        a_title = article_div.find('a', {'class': 'title-link'})
+        futures.append(executor.submit(parse_article, url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
+    # for future in concurrent.futures.as_completed(futures):
+    #     scraped_articles.append(future.result())
+    # todo: implement queueing
     return scraped_articles
 
 
@@ -185,7 +186,8 @@ def crawl(dump_dir=None):
     for i in range(2):  # change this line to the one above to crawl through everything
         searchpage_url = f"{BASE_SEARCH_URL}&page_no={i + 1}"
         print(f"Crawling through search page: {searchpage_url.split('&')[-1]}")
-        scraped_articles += page_crawl(searchpage_url, dump_dir=dump_dir)
+        # scraped_articles += page_crawl(searchpage_url, dump_dir=dump_dir)
+        page_crawl(searchpage_url, dump_dir=dump_dir)
         print(f"{i + 1} search pages crawled. {len(os.listdir(dump_dir))} files in dump_dir.")
 
     print("Done crawling through MDPI.")
