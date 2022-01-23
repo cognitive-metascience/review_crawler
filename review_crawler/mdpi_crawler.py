@@ -1,16 +1,14 @@
 """
 test crawler for the MDPI database.
-skonczyles na 484.
 goes through first 2 pages of search results = 20 articles
-currently scrapes a lot of metadata for found articles and dumps all data into a single json file
-todo: save data to json files as we crawl, instead of creating a gigantic list of articles
 """
-
-import json
 import os
+import json
 import re
 import requests
 from bs4 import BeautifulSoup
+import concurrent.futures
+import time
 
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&view=compact"
@@ -52,9 +50,9 @@ def learn_journals(soup):
     return journals
 
 
-def parse_article(url):
+def parse_article(url, dump_dir=None):
     """
-    Parses an article with the givenurl.
+    Parses an MDPI article with the given url.
 
     :type url:
     :return: dict containing scraped metadata
@@ -103,7 +101,7 @@ def parse_article(url):
 
         bib_identity = soup.find('div', {'class': 'bib-identity'})
         metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
-        metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is not None  # unregistered DOI probably means that the article is in early access
+        metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
         metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
 
         if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
@@ -118,6 +116,15 @@ def parse_article(url):
     except Exception as e:
         print("There's a problem with this article:", metadata)  # todo: better error logging
         raise e
+
+    if dump_dir is not None:
+        print("| Trying to save to to file.", end=" | ")
+        filename = f"{os.path.join(dump_dir, metadata['doi'].split('/')[-1])}.json"
+        if os.path.exists(filename):
+            print("Warning! File already exists. Will overwrite.", end=" | ")
+        with open(filename, 'w+', encoding="utf-8") as fp:
+            json.dump(metadata, fp, ensure_ascii=False)
+        print(f"Saved metadata to {filename}. | ")
 
     return metadata
 
@@ -141,35 +148,25 @@ def page_crawl(url, dump_dir=None):
 
     scraped_articles = []
 
-    # iterate over all article-content divs on the page to find urls
-    article_div: BeautifulSoup
-    for article_div in soup.findAll('div', {'class': 'article-content'}):
-        a_title = article_div.find('a', {'class': 'title-link'})
-        try:
-            parsed = parse_article(BASE_URL + a_title.get('href'))
-        except Exception as e:
-            print("\t", e.args[0])
-            continue
-
-        scraped_articles.append(parsed)
-        if dump_dir is not None:
-            print("| Trying to save to to file.", end=" | ")
-            filename = f"{os.path.join(dump_dir, parsed['doi'].split('/')[-1])}.json"
-            if os.path.exists(filename):
-                print("Warning! File already exists. Will overwrite.", end=" | ")
-            with open(filename, 'w+', encoding="utf-8") as fp:
-                json.dump(parsed, fp, ensure_ascii=False)
-            print(f"Saved metadata to {filename}. | ")
+    # using threading to parse all articles on this search page at the same time
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        # iterate over all article-content divs on the page to find urls
+        for article_div in soup.findAll('div', {'class': 'article-content'}):
+            a_title = article_div.find('a', {'class': 'title-link'})
+            futures.append(executor.submit(parse_article, url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
+        for future in concurrent.futures.as_completed(futures):
+            scraped_articles.append(future.result())
 
     return scraped_articles
 
 
 def crawl(dump_dir=None):
     """
-    Crawls through the MDPI database.
+    Crawls through the MDPI database. Optionally provide a path to a directory if you want to save metadata to json files.
 
-    :param dump_dir:
-    :type dump_dir:
+    :param dump_dir: path do directory in which json files will be dumped.
+    :type dump_dir: str
     :return: a list of dicts containing metadata of found articles.
     :rtype: list
     """
@@ -184,11 +181,12 @@ def crawl(dump_dir=None):
 
     scraped_articles = []
 
-    # for i in range(int(0, pages_count)):
+    # for i in range(pages_count):
     for i in range(2):  # change this line to the one above to crawl through everything
-        scraped_articles += page_crawl(f"{BASE_SEARCH_URL}&page_no={i + 1}", dump_dir=dump_dir)
-        print(f"{i + 1} search pages crawled.", end=" ")
-        print(f"{len(os.listdir(dump_dir))} files in dump_dir.")
+        searchpage_url = f"{BASE_SEARCH_URL}&page_no={i + 1}"
+        print(f"Crawling through search page: {searchpage_url.split('&')[-1]}")
+        scraped_articles += page_crawl(searchpage_url, dump_dir=dump_dir)
+        print(f"{i + 1} search pages crawled. {len(os.listdir(dump_dir))} files in dump_dir.")
 
     print("Done crawling through MDPI.")
     print("Total number of scraped articles: ", len(scraped_articles))
