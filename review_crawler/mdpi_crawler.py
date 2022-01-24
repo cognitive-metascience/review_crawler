@@ -1,7 +1,8 @@
 """
 test crawler for the MDPI database.
-goes through first 2 pages of search results = 20 articles
+goes through first 2 pages of search results = 20 articles and dumps files in scraped/mdpi/articles
 """
+import logging
 import os
 import json
 import re
@@ -15,12 +16,19 @@ BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-articl
 
 # regex patterns
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
-UNREGISTERED_DOI_PATTERN = re.compile(DOI_PATTERN.pattern + r'\s+\(registering\s+DOI\)')
+UNREGISTERED_DOI_PATTERN = re.compile(DOI_PATTERN.pattern + r'\s+\(registering\s+DOI\)')    # the sum of two regexes is a regex
 SEARCH_PAGES_PATTERN = re.compile(r"Displaying article \d+-\d+ on page \d+ of \d+.")
 RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 
+# for logging:
+logs_path = os.path.join(os.path.dirname(__file__), 'logs')
+runtime_dirname = '_'.join(time.ctime().split(' ')[1:4]).replace(':', '_')
+
 
 def _cook(url: str) -> BeautifulSoup: return BeautifulSoup(requests.get(url).content, 'lxml')
+
+
+def _shorten(doi: str) -> str: return doi.split('/')[-1]
 
 
 def learn_search_pages(search_soup):
@@ -50,7 +58,7 @@ def learn_journals(soup):
     return journals
 
 
-def parse_article(url, dump_dir=None):
+def parse_article(doi, url=None, dump_dir=None):
     """
     Parses an MDPI article with the given url. Saves output to a JSON file if dump_dir is specified.
 
@@ -59,6 +67,7 @@ def parse_article(url, dump_dir=None):
     :return: dict containing scraped metadata
     :rtype: dict
     """
+
     if not url.startswith("https://www.mdpi.com/"):
         raise Exception("Invalid url for parse_article.")
 
@@ -67,22 +76,23 @@ def parse_article(url, dump_dir=None):
     try:
         soup = _cook(url)
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
-        print(f"| Currently parsing: {metadata['title']}")
+        print(f"| Parsing: {metadata['title']}")
 
         metadata['url'] = soup.find('meta', {'property': 'og:url'}).get('content').strip()
-        assert url == metadata['url']
 
         metadata['authors'] = [x.get('content') for x in soup.findAll('meta', {"name": "citation_author"})]
 
-        jrnl_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
-                     'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
+        journal_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
+                        'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
         issue = soup.find('meta', {'name': "citation_issue"})
         if issue is not None:
-            jrnl_dict['issue'] = int(issue.get('content'))
-        metadata['journal'] = jrnl_dict
+            journal_dict['issue'] = int(issue.get('content'))
+        metadata['journal'] = journal_dict
 
         pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
         metadata['publication_date'] = {'year': int(pubdate_string.split('/')[0]), 'month': int(pubdate_string.split('/')[1])}
+
+        metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
 
         keywords = soup.find('span', {'itemprop': 'keywords'})
         if keywords is not None:
@@ -103,7 +113,6 @@ def parse_article(url, dump_dir=None):
         bib_identity = soup.find('div', {'class': 'bib-identity'})
         metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
         metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
-        metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
 
         if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
             # article has no open access reviews
@@ -111,15 +120,19 @@ def parse_article(url, dump_dir=None):
         else:
             metadata['has_reviews'] = True
             metadata['reviews_url'] = url + "/review_report"
+
     # todo: more metadata, parse reviews
 
     except Exception as e:
         print("There's a problem with this article:", metadata)  # todo: better error logging
-        raise e
+        log_filename = _shorten(doi) + ".log"
+        logger = logging.getLogger("logger")
+        logger.addHandler(logging.FileHandler(os.path.join(logs_path, runtime_dirname, log_filename)))
+        logger.error(e)
     else:
         if dump_dir is not None:
             print("| Trying to save to to file.", end=" | ")
-            filename = f"{os.path.join(dump_dir, metadata['doi'].split('/')[-1])}.json"
+            filename = f"{os.path.join(dump_dir, _shorten(doi))}.json"
             if os.path.exists(filename):
                 print("Warning! File already exists. Will overwrite.", end=" | ")
             with open(filename, 'w+', encoding="utf-8") as fp:
@@ -148,33 +161,42 @@ def page_crawl(url, dump_dir=None):
 
     scraped_articles = []
 
-    # using threading to parse all articles on this search page at the same time
-    # with concurrent.futures.ThreadPoolExecutor() as executor:
-    executor = concurrent.futures.ThreadPoolExecutor()
-    futures = []
     # iterate over all article-content divs on the page to find urls
-    for article_div in soup.findAll('div', {'class': 'article-content'}):
-        a_title = article_div.find('a', {'class': 'title-link'})
-        futures.append(executor.submit(parse_article, url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
-    # for future in concurrent.futures.as_completed(futures):
-    #     scraped_articles.append(future.result())
+    article_divs = soup.findAll('div', {'class': 'article-content'})
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        for div in article_divs:
+            a_title = div.find('a', {'class': 'title-link'})
+            doi = DOI_PATTERN.search(div.getText()).group()
+            # using threading to parse all articles on this search page at the same time
+            futures.append(executor.submit(parse_article, doi=doi, url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
+        for future in concurrent.futures.as_completed(futures):
+            scraped_articles.append(future.result())
+
     # todo: implement queueing
     return scraped_articles
 
 
-def crawl(dump_dir=None):
+def crawl(dump_dir, make_logs=False):
     """
-    Crawls through the MDPI database. Optionally provide a path to a directory if you want to save metadata to json files.
+    Crawls through the MDPI database, dumping scraped article metadata into json files.
+    Provide a path to a directory if you want to save metadata to json files.
 
     :param dump_dir: path do directory in which json files will be dumped.
     :type dump_dir: str
+    :param make_logs: set this flag to True if you want to see logfiles generated in the working directory.
+    :type make_logs: bool
     :return: a list of dicts containing metadata of found articles.
     :rtype: list
     """
 
-    if dump_dir is not None:
-        if not os.path.exists(dump_dir):
-            os.mkdir(dump_dir)
+    if not os.path.exists(os.path.realpath(dump_dir)):
+        os.makedirs(dump_dir)
+
+    log_dir = os.path.join(logs_path, runtime_dirname)
+    if make_logs:
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
 
     soup = _cook(BASE_SEARCH_URL)
 
@@ -186,18 +208,24 @@ def crawl(dump_dir=None):
     for i in range(2):  # change this line to the one above to crawl through everything
         searchpage_url = f"{BASE_SEARCH_URL}&page_no={i + 1}"
         print(f"Crawling through search page: {searchpage_url.split('&')[-1]}")
-        # scraped_articles += page_crawl(searchpage_url, dump_dir=dump_dir)
-        page_crawl(searchpage_url, dump_dir=dump_dir)
+        scraped_articles += page_crawl(searchpage_url, dump_dir=dump_dir)
         print(f"{i + 1} search pages crawled. {len(os.listdir(dump_dir))} files in dump_dir.")
 
     print("Done crawling through MDPI.")
     print("Total number of scraped articles: ", len(scraped_articles))
 
+    if make_logs:
+        logfiles_count = len(os.listdir(log_dir))
+        print(f"Number of errors while crawling: {logfiles_count}")
+
+        if logfiles_count == 0:
+            os.rmdir(log_dir)
+
     return scraped_articles
 
 
 if __name__ == '__main__':
-    scraped = crawl(dump_dir="scraped/mdpi/articles")
+    scraped = crawl(dump_dir="scraped/mdpi/articles", make_logs=True)
 
     # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:
     #     json.dump(scraped, fp)
