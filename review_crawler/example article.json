@@ -8,7 +8,7 @@
     "doi": "https://doi.org/10.3390/e22050516",
     "url": "https://www.mdpi.com/1099-4300/22/5/516",
     "journal": {
-        "name": "Entropy",
+        "title": "Entropy",
         "volume": 22,
         "issue": 5
     },
@@ -66,5 +66,6 @@
             },
             "round": 2
         }
-    ]
+    ],
+    "has_reviews": true
 }
