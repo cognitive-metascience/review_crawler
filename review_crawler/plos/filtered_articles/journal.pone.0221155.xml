@@ -1,0 +1,1441 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221155</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17566</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Migraine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Migraine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Cluster headache</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Cluster headache</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Secondary headaches</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Headaches</subject><subj-group><subject>Secondary headaches</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Mental health and psychiatry</subject><subj-group><subject>Psychological stress</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychological stress</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychological stress</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Habits</subject><subj-group><subject>Smoking habits</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Habits</subject><subj-group><subject>Smoking habits</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Face</subject><subj-group><subject>Forehead</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Face</subject><subj-group><subject>Forehead</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Face</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Face</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Clinical features of chronic cluster headache based on the third edition of the International Classification of Headache Disorders: A prospective multicentre study</article-title>
+<alt-title alt-title-type="running-head">Clinical features of chronic cluster headache</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Cho</surname>
+<given-names>Soo-Jin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-1364-1969</contrib-id>
+<name name-style="western">
+<surname>Lee</surname>
+<given-names>Mi Ji</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Byung-Kun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Moon</surname>
+<given-names>Heui-Soo</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Chung</surname>
+<given-names>Pil-Wook</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Sohn</surname>
+<given-names>Jong-Hee</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Soo-Kyoung</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Choi</surname>
+<given-names>Yunju</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Song</surname>
+<given-names>Tae-Jin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Jae-Moon</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff009"><sup>9</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Daeyoung</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff009"><sup>9</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Park</surname>
+<given-names>Jeong Wook</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff010"><sup>10</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Park</surname>
+<given-names>Kwang-Yeol</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff011"><sup>11</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Chung</surname>
+<given-names>Jae-Myun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff012"><sup>12</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Ahn</surname>
+<given-names>Jin-Young</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff013"><sup>13</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Byung-Su</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff014"><sup>14</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Oh</surname>
+<given-names>Kyungmi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff015"><sup>15</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Bae</surname>
+<given-names>Dae-Woong</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff016"><sup>16</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6221-1346</contrib-id>
+<name name-style="western">
+<surname>Chu</surname>
+<given-names>Min Kyung</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff017"><sup>17</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Chung</surname>
+<given-names>Chin-Sang</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Neurology, Dongtan Sacred Heart Hospital, Hallym University College of Medicine, Hwaseong, Korea</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Neurology, Neuroscience Center, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Neurology, Eulji University School of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Neurology, Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Department of Neurology, Chuncheon Sacred Heart Hospital, Hallym University College of Medicine, Chuncheon, Korea</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Department of Neurology, Gyeongsang National University College of Medicine, Jinju, Korea</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Department of Neurology, Presbyterian Medical Center, Jeonju, Korea</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Department of Neurology, Ewha Womans University School of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff009"><label>9</label> <addr-line>Department of Neurology, Chungnam National University College of Medicine, Daejeon, Korea</addr-line></aff>
+<aff id="aff010"><label>10</label> <addr-line>Department of Neurology, Uijeongbu St.Mary&#8217;s Hospital, The Catholic University of Korea College of Medicine, Uijeongbu, Korea</addr-line></aff>
+<aff id="aff011"><label>11</label> <addr-line>Department of Neurology, Chung-Ang University Hospital, Chung-Ang University College of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff012"><label>12</label> <addr-line>Department of Neurology, Seoul Paik Hospital, Inje University College of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff013"><label>13</label> <addr-line>Department of Neurology, Seoul Medical Center, Seoul, Korea</addr-line></aff>
+<aff id="aff014"><label>14</label> <addr-line>Department of Neurology, Bundang Jesaeng General Hospital, Seongnam, Korea</addr-line></aff>
+<aff id="aff015"><label>15</label> <addr-line>Department of Neurology, Korea University College of Medicine, Seoul, Korea</addr-line></aff>
+<aff id="aff016"><label>16</label> <addr-line>Department of Neurology, College of Medicine, The Catholic University of Korea, Suwon, Korea</addr-line></aff>
+<aff id="aff017"><label>17</label> <addr-line>Department of Neurology, Severance Hospital, Yonsei University School of Medicine, Seoul, Korea</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Cheungpasitporn</surname>
+<given-names>Wisit</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Mississippi Medical Center, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>SJ Cho was involved as a site investigator of a multicentre trial sponsored by Otsuka Korea, Eli Lilly and Company, and Novartis, worked as an advisory member for Teva, and received research support from Hallym University Research Fund 2016 and a grant from the Korean Neurological Association (KNA-16-MI-09). MK Chu was a site investigator for a multi-centre trial sponsored by Otsuka Korea, Novartis International AG, and Eli Lilly and Company. He worked as an advisory member for Teva, and received lecture honoraria from Allergan Korea, Handok-Teva, and Yuyu Pharmaceutical Company in the past 24 months. The other authors, except for SJ Cho and MK Chu, declare no potential conflicts of interest. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">chumk@yonsei.ac.kr</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0221155</elocation-id>
+<history>
+<date date-type="received">
+<day>21</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>31</day>
+<month>7</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cho et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221155" />
+<abstract>
+<p>The criterion for the remission period of chronic cluster headache (CCH) was recently revised from &lt; 1 month to &lt; 3 months in the third edition of the International Classification of Headache Disorders (ICHD-3). However, information on the clinical features of CCH based on the ICHD-3 criteria is currently limited. The present study aimed to investigate the clinical features of CCH based on ICHD-3 using data from the Korean Cluster Headache Registry (KCHR). The KCHR is a multicentre prospective registry of patients with cluster headache (CH) from 15 hospitals. Among the 250 participants with CH, 12 and 176 participants were classified as having CCH and episodic cluster headache (ECH), respectively. Among 12 participants with CCH, 6 (50%) had remission periods of &lt; 1 month, and the remaining 6 (50%) had a remission period of 1&#8211;3 months. Six participants had CCH from the time of onset of CH, and in the other 6 participants, CCH evolved from ECH. CCH subjects had later age of onset of CH, developed the condition after a longer interval after CH onset, and had more migraine and less nasal congestion and/or rhinorrhoea than ECH subjects. Clinical features of CCH with remission periods &lt; 1 month were not significantly different from those of CCH with remission periods of 1&#8211;3 months, except for the total number of bouts. More current smoking and less diurnal rhythmicity were observed in participants with CCH evolved from ECH compared to those with ECH. In conclusion, the number of subjects with CCH doubled when the revised ICHD-3 criteria were used. Most of clinical characteristics of CCH did not differ when the previous and current version of ICHD was applied and compared. Some clinical features of CCH were different from those of ECH, and smoking may have a role in CH chronification.</p>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1" />
+<table-count count="3" />
+<page-count count="13" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Public sharing of the data set used in this study is restricted by an IRB restrictions of participating hospital (the Institutional Review Board of Samsung Medical Center). To request the data, readers should contact the Korean Headache Society at <ext-link ext-link-type="uri" ns0:href="http://www.headache.or.kr" ns0:type="simple">http://www.headache.or.kr</ext-link> or Dr. Min Kyung Chu, the corresponding author, at <email ns0:type="simple">chumk@yonsei.ac.kr</email> and Dr. Soo-Jin Cho, the Principal Investigator of KCHR, at <email ns0:type="simple">dowonc@naver.com</email>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Chronic cluster headache (CCH) and episodic cluster headache (ECH) are subtypes of cluster headache (CH) [<xref ref-type="bibr" rid="pone.0221155.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0221155.ref002">2</xref>]. CCH is defined as CH attacks that typically occur for one year or longer without remission, or with remission periods lasting less than three months. Owing to the severe pain and accompanying symptoms with long-lasting attacks without remission or short remission periods, individuals with CCH experience a high degree of impairment [<xref ref-type="bibr" rid="pone.0221155.ref003">3</xref>]. The criterion for the remission period of CCH was recently revised in the third edition of the International Classification of Headache Disorders (ICHD-3) from &lt; 1 month to &lt; 3 months [<xref ref-type="bibr" rid="pone.0221155.ref002">2</xref>]. However, the clinical features of CCH according to ICHD-3 have only been briefly reported [<xref ref-type="bibr" rid="pone.0221155.ref004">4</xref>]. CCH can begin as CCH from the onset (primary CCH), or can evolve from ECH (secondary CH) [<xref ref-type="bibr" rid="pone.0221155.ref005">5</xref>].</p>
+<p>The aim of the present study was to investigate the clinical features of CCH based on the ICHD-3. In addition, we examined the clinical features of CCH according to the remission periods (remission period &lt; 1 month vs. remission period of 1&#8211;3 months) and onset patterns (primary vs. secondary).</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Study design and participants</title>
+<p>This study used data from the Korean Cluster Headache Registry (KCHR). The KCHR is a multicentre registry that used prospective data from consecutively enrolled patients with CH and probable cluster headache (PCH) from 13 university hospitals (8 tertiary referral hospitals and 5 secondary referral hospitals) and 2 secondary referral general hospitals from September 2016 to December 2018. Features of ECH, CCH, and PCH were assessed based on the ICHD-3. The following were the inclusion criteria for the study: a) patients with CH or PCH; b) age &#8805; 19 years, and c) full understanding of and agreement to the study protocol. Exclusion criteria were as follows: a) Inability to understand the study protocol, b) current enrolment in other studies, and c) cognitive or psychological difficulty, as per the investigator&#8217;s judgement, to complete the study. A detailed description of the KCHR study process has been reported in earlier studies [<xref ref-type="bibr" rid="pone.0221155.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0221155.ref006">6</xref>].</p>
+<p>This study protocol was approved by each participating hospital: Dongtan Sacred Heart Hospital (2016-396-I), Samsung Medical Center (2016-09-123), Uijeongbu St.Mary&#8217;s Hospital (XC16OIMI0087U), Gyeongsang National University College of Medicine (2016-10-022-001), Korea University College of Medicine (KUGH16315), Bundang Jesaeng General Hospital (NR16-04), Seoul Medical Center (2016&#8211;013), Kangbuk Samsung Hospital (KBSMC2016-11-032), Eulji University School of Medicine (2016-11-004), Ewha Womans University School of Medicine (2016-09-021), Seoul Paik Hospital (PAIK 2016-11-003), Presbyterian Medical Center (2016-10-046), Chung-Ang University Hospital (1621-002-264), Chungnam National University College of Medicine (CNUH 2017-12-046), Chuncheon Sacred Heart Hospital (2016&#8211;116), Severance Hospital (4-2018-0511), and the Catholic University of Korea (2018-3145-0001).</p>
+<p>Written consent forms were obtained from all participating patients. The study was conducted according to the ethical principles of the Declaration of Helsinki. Written informed consent was obtained from all participants.</p>
+</sec>
+<sec id="sec004">
+<title>Case definition of CH</title>
+<p>The diagnosis of CH was based on criteria A to E of the ICHD-3 code 3.1: (A) At least five attacks fulfilling criteria B&#8211;D; (B) severe or very severe unilateral orbital, supraorbital, and/or temporal pain lasting 15&#8211;180 minutes when untreated; (C) either or both of the following: 1. at least one of the following symptoms or signs ipsilateral to the headache: conjunctival injection and/or lacrimation, nasal congestion and/or rhinorrhoea, eyelid oedema, forehead and facial sweating, forehead and facial flushing, sensation of fullness in the ear, and miosis and/or ptosis, or 2. a sense of restlessness or agitation; (D) attacks with a frequency of between one every other day and eight per day for more than half of the time when the disorder is active; and (E) not better accounted for by another ICHD-3 diagnosis.</p>
+<p>If a participant&#8217;s headache fulfilled criteria A&#8211;E of CH and had been occurring for more than 1 year without remission, or with remission periods lasting less than 3 months, a diagnosis of CCH (ICHD-3 code 3.1.2) was made. If a headache fulfilled the criteria of CH, but did not meet the criteria of CCH, the diagnosis of ECH (ICHD-3 code 3.1.1) was assigned. If the first episode of a participant&#8217;s CH persisted, and could not be diagnosed as CCH or ECH, they were not classified into either ECH or CCH, and a diagnosis of CH (ICHD-3 code 3.1) was made.</p>
+<p>If a participant&#8217;s headache fulfilled all but one of criteria A&#8211;D for CH, did not fulfil the ICHD-3 criteria for any other headache disorder, and was not better accounted for by another ICHD-3 diagnosis, he/she was classified as having PCH (code 3.5.1).</p>
+</sec>
+<sec id="sec005">
+<title>Case definition of migraine</title>
+<p>Migraine was diagnosed according to the A&#8211;E criteria of migraine without aura (code 1.1) in ICHD-3. If a participant had migraine with aura (code 1.2), she/he was classified as having migraine in the present study.</p>
+</sec>
+<sec id="sec006">
+<title>Clinical information and CH questionnaire</title>
+<p>We assessed each patient&#8217;s demographic characteristics and clinical information regarding current and previous bouts of CH. Clinical information regarding the current headache episode including location, severity, duration, and frequency of pain, accompanying symptoms, and duration of the cluster period, was evaluated. Previous history of CH including number of years since the onset of CH, age of onset of CH, and the pattern of occurrence were also assessed. Diurnal rhythmicity was assessed based on the participants&#8217; report.</p>
+<p>Each patient completed a self-administered Headache Impact Test-6 (HIT-6) questionnaire to measure the impact of the headache, the Patient Health Questionnaire-9 (PHQ-9) to assess depression, the Generalized Anxiety Disorder-7 (GAD-7) to assess anxiety, the 3-level version of EQ-5D (EQ-5D-3L) to measure the health-related quality of life, and the Short Form Perceived Stress Scale-4 (PSS-4) to assess psychological stress [<xref ref-type="bibr" rid="pone.0221155.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0221155.ref014">14</xref>].</p>
+</sec>
+<sec id="sec007">
+<title>Statistical analysis</title>
+<p>For continuous variables, the distribution of normality was evaluated by the Kolmogorov-Smirnov test. After normality was confirmed, student&#8217;s t-tests were used to compare the continuous variables. When normality was not confirmed, continuous variables were analysed by the Mann&#8211;Whitney <italic>U</italic> test. For comparing categorical variables, we used Chi-square test. When more than 20% of cells had expected frequencies &lt; 5, Fisher's exact test was used. Statistical significance was set at <italic>p</italic>&lt;0.05. No statistical power calculation was conducted prior to the study, as the sample size was based on the available data. The Statistical Package for Social Sciences version 23.0 (SPSS 23.0; IBM, Armonk, NY, USA) was used for all statistical analyses.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<sec id="sec009">
+<title>Participants</title>
+<p>A total of 250 subjects with CH or PCH were finally enrolled during the study period. Among them, 176 (70.4%), 12 (4.8%), and 27 (10.8%) participants were diagnosed as having ECH (code 3.1.1), CCH (code 3.1.2), and PCH (code 3.5.1), respectively. The remaining 35 (14.0%) participants were classified as having CH without a definite remission period (code 3.1) (<xref ref-type="fig" rid="pone.0221155.g001">Fig 1</xref>). Thus, the frequency of CCH among 188 participants with CH with a definitive remission period was 4.6%. Among the 12 participants with CCH, 6 (50.0%) had a remission period of less than 1 month and 6 (50.0%) had a remission period between 1 month and 3 months. Six (50.0%) participants had CCH from the time of onset of CH (primary CCH), and in the remaining six (50.0%) participants, CCH had evolved from ECH (secondary CCH). Out of 12 CCH and 176 ECH participants, 11 (91.7%) and 154 (87.5%) participants, respectively, were enrolled during the active cluster period.</p>
+<fig id="pone.0221155.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221155.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Flow chart of study participants.</title>
+<p>KCHR: Korean Cluster Headache Registry, CH: cluster headache; CCH: chronic cluster headache; ECH: episodic cluster headache; PCH: probable cluster headache.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.g001" ns0:type="simple" />
+</fig>
+<p>Twenty-seven participants were classified as having PCH and 3 (11.1%) of them reported that the PCH attacks lasted more than one year without a remission period or with a remission period &lt; 3 months.</p>
+</sec>
+<sec id="sec010">
+<title>Clinical features of CCH</title>
+<p>Clinical features of CCH are summarised in <xref ref-type="table" rid="pone.0221155.t001">Table 1</xref>. The median (interquartile range [IQR]) age of participants with CCH was 41.5 (34.0&#8211;53.8) years. Of the 12 participants with CCH, 2 (16.7%) were women. The median (IQR) headache frequency per day, visual analogue scale (VAS) score for headache intensity, attack duration (in minutes), cluster period (in weeks), total number of bouts, number of years after CH onset, and age of onset of CH were 2.0 (1.0&#8211;2.9), 9.0 (7.6&#8211;10.0), 105.0 (60.0&#8211;172.5), 4.0 (1.0&#8211;6.0), 4.0 (1.0&#8211;18.8), 2.5 (1.0&#8211;6.8), and 38.0 (28.3&#8211;45.5), respectively. The supraorbital area was the most common region in terms of CH pain location (83.3%) followed by the orbital area (75.0%). Conjunctival injection was the most common accompanying symptom (91.7%) followed by restlessness and/or agitation (66.7%). The median (IQR) HIT-6 score with regard to impact of the headache was 71.5 (66.5&#8211;74.0) (<xref ref-type="table" rid="pone.0221155.t001">Table 1</xref>). Five participants with CCH had migraine. There was a severe impact of the headache on all participants with CCH (HIT-6 &#8805; 60) [<xref ref-type="bibr" rid="pone.0221155.ref014">14</xref>]. The frequency of CCH participants experiencing severe impact of headache was marginally higher compared with that of ECH participants; the difference was marginally insignificant (100.0% vs. 81.3%, <italic>p</italic> = 0.091).</p>
+<table-wrap id="pone.0221155.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221155.t001</object-id>
+<label>Table 1</label> <caption><title>Clinical features of participants with chronic cluster headache and episodic cluster headache.</title></caption>
+<alternatives>
+<graphic id="pone.0221155.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="justify" colspan="2" />
+<th align="center">CCH, n = 12</th>
+<th align="center">ECH, n = 176</th>
+<th align="justify"><italic>p</italic>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Age (years)</td>
+<td align="center">41.5 (34.0&#8211;53.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">39.0 (32.0&#8211;45.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.345</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Women, n (%)</td>
+<td align="center">2 (16.7)</td>
+<td align="center">24 (14.0)</td>
+<td align="center">0.679</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Body Mass Index</td>
+<td align="center">24.3 (22.9&#8211;26.9)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">23.8 (22.0&#8211;25.7)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.382</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack frequency per day</td>
+<td align="center">2.0 (1.0&#8211;2.9)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">1.1 (1.0&#8211;3.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.404</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VAS, median</td>
+<td align="center">9.0 (7.6&#8211;10.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">9.0 (8.0&#8211;10.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.308</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack duration (minutes)</td>
+<td align="center">105.0 (60.0&#8211;172.5) <xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">60.0 (60.0&#8211;120.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.147</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Cluster period (weeks)</td>
+<td align="center">4.0 (1.0&#8211;6.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">4.00 (3.0&#8211;7.50)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.560</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Total number of bouts</td>
+<td align="center">4.0 (1.0&#8211;18.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">7.00 (3.0&#8211;12.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.306</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Years after CH onset</td>
+<td align="center">2.5 (1.0&#8211;6.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">10.0 (5.0&#8211;16.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Age of onset of CH</td>
+<td align="center">38.0 (28.3&#8211;45.5)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">24.0 (18.0&#8211;32.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.003</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Change of pain side during a single bout period, n (%)</td>
+<td align="center">1 (8.3)</td>
+<td align="center">9 (5.2)</td>
+<td align="center">0.983</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Currently smoking, n (%)</td>
+<td align="center">4 (33.3%)</td>
+<td align="center">79 (45.9)</td>
+<td align="center">0.397</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Diurnal rhythmicity, n (%)</td>
+<td align="center">3 (25.0)</td>
+<td align="center">90 (53.3)</td>
+<td align="center">0.140</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Migraine, n (%)</td>
+<td align="center">5 (41.7)</td>
+<td align="center">19 (10.8)</td>
+<td align="center">0.019</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Location, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Orbital</td>
+<td align="center">9 (75.0)</td>
+<td align="center">143 (83.1)</td>
+<td align="center">0.472</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Temporal</td>
+<td align="center">8 (66.7)</td>
+<td align="center">89 (51.7)</td>
+<td align="center">0.317</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Supraorbital</td>
+<td align="center">10 (83.3)</td>
+<td align="center">97 (56.4)</td>
+<td align="center">0.077</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Accompanying symptoms, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Conjunctival injection and/or lacrimation</td>
+<td align="center">11 (91.7)</td>
+<td align="center">152 (88.4)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Nasal congestion and/or rhinorrhoea</td>
+<td align="center">3 (25.0)</td>
+<td align="center">110 (64.0)</td>
+<td align="center">0.012</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Eyelid oedema</td>
+<td align="center">3 (25.0)</td>
+<td align="center">50 (29.1)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Forehead and facial sweating</td>
+<td align="center">5 (14.7)</td>
+<td align="center">54 (31.4)</td>
+<td align="center">0.461</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Miosis and ptosis</td>
+<td align="center">0 (0.0)</td>
+<td align="center">6 (3.5)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Restlessness/ agitation</td>
+<td align="center">2 (16.7)</td>
+<td align="center">40 (23.3)</td>
+<td align="center">0.737</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Headache Impact Test-6</td>
+<td align="center">71.5 (66.5&#8211;74.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">69.0 (64.0&#8211;76.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.547</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Severe impact of headache (Headache Impact Test-6 score &#8805; 60)</td>
+<td align="center">12 (100.0)</td>
+<td align="center">143 (81.3)</td>
+<td align="center">0.091</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Perceived Stress Scale</td>
+<td align="center">8.0 (6.3&#8211;8.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">7.0 (4.0&#8211;8.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.149</td>
+</tr>
+<tr>
+<td align="left" colspan="2">EQ-5D-3L</td>
+<td align="center">0.91 (0.68&#8211;0.98)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.91 (0.82&#8211;1.00)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.591</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Patient Health Questionnaire-9</td>
+<td align="center">8.0 (1.8&#8211;8.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">5.0 (3.0&#8211;11.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.826</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Generalized Anxiety Disease-7</td>
+<td align="center">6.5 (1.0&#8211;9.8)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">7.0 (3.0&#8211;12.0)<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="center">0.265</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>CCH, chronic cluster headache; ECH, episodic cluster headache; VAS, visual analogue scale; EQ-5D-3L, The 3-level version of European quality of life-5 dimensions</p></fn>
+<fn id="t001fn002"><p>*: median (25%&#8211;75% interquartile range)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec011">
+<title>Comparison of clinical features of CCH and ECH</title>
+<p>We compared the clinical features of CCH with those of ECH. The headache frequency per day, VAS score for headache, duration of CH attack (in minutes), and total number of bouts were not significantly different between CCH and ECH subjects. Nevertheless, the age of onset of CH (38.0 [28.3&#8211;45.5] vs. 24.0 [18.0&#8211;32.8] years, <italic>p</italic> = 0.003) was significantly higher and number of years after CH onset (2.5 [1.0&#8211;6.75] vs. 10.0 [5.0&#8211;16.0], <italic>p</italic>&lt;0.001) was significantly lower in participants with CCH compared to participants with ECH. More number of patients with CCH had migraine than those with ECH (41.7% vs. 10.8%, <italic>p</italic> = 0.019). Distribution of location of pain and frequency of accompanying symptoms were not significantly different between CCH and ECH patients, except for nasal congestion and/or rhinorrhoea. Nasal congestion and/or rhinorrhoea was less prevalent in CCH subjects compared with ECH subjects (25.0% vs. 64.0%, <italic>p</italic> = 0.012). The impact of headache (HIT-6), perceived stress (PSS), quality of life (EQ-5D-3L), depression (PHQ-9), and anxiety (GAD-7) were not significantly different between CCH and ECH subjects (<xref ref-type="table" rid="pone.0221155.t001">Table 1</xref>).</p>
+</sec>
+<sec id="sec012">
+<title>Comparison of clinical features of CCH with remission period of &lt; 1 month and CCH with remission period of 1&#8211;3 months</title>
+<p>The total number of bouts was significantly lower in CCH with a remission period of &lt; 1 month than in CCH with a remission period of 1&#8211;3 months (6.0 [5.0&#8211;9.5] vs. 17.5 [1.8&#8211;57.0], <italic>p</italic> = 0.046). Age, frequency of headaches per day, VAS score for headache intensity, duration of CH attack (in minutes) and total number of bouts, frequency of smoking, distribution of pain location, accompanying symptoms, and impact of headache and perceived stress were not significantly different between CCH with a remission period &lt; 1 month and CCH with a remission period of 1&#8211;3 months (<xref ref-type="table" rid="pone.0221155.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0221155.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221155.t002</object-id>
+<label>Table 2</label> <caption><title>Clinical features of participants with chronic cluster headache with a remission period &lt; 1 month and chronic cluster headache with a remission period of 1&#8211;3 months.</title></caption>
+<alternatives>
+<graphic id="pone.0221155.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="justify" colspan="2" />
+<th align="center">CCH with a remission period &lt; 1 month, n = 6</th>
+<th align="center">CCH with a remission period of 1&#8211;3 month, n = 6</th>
+<th align="justify"><italic>p</italic>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Age (years)</td>
+<td align="center">40.0 (35.3&#8211;53.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">41.5 (30.0&#8211;58.0) <xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.873</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Women, n (%)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">2 (33.3)</td>
+<td align="center">0.454</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Body Mass Index</td>
+<td align="center">25.9 (22.3&#8211;27.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">23.6 (22.6&#8211;26.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.522</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack frequency per day</td>
+<td align="center">2.3 (1.8&#8211;3.7)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1.5 (0.5&#8211;4.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.417</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VAS, median</td>
+<td align="center">9.5 (8.5&#8211;10.0)*</td>
+<td align="center">8.5 (7.4&#8211;9.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.310</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack duration (minutes)</td>
+<td align="center">90.0 (52.5&#8211;157.5)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">105.0 (82.5&#8211;180.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.463</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Cluster period (weeks)</td>
+<td align="center">5.0 (1.0&#8211;5.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">5.5 (3.3&#8211;16.5)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.175</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Total number of bouts</td>
+<td align="center">6.0 (5.0&#8211;9.50)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">17.5 (1.8&#8211;57.0)*</td>
+<td align="center">0.046</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Years after CH onset</td>
+<td align="center">1.5 (1.0&#8211;7.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">4.0 (1.8&#8211;6.5)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.462</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Age of onset of CH</td>
+<td align="center">44.0 (12.7&#8211;53.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">38.0 (24.0&#8211;49.8)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.810</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Change of pain side during a single bout period, n (%)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Currently smoking, n (%)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Diurnal rhythmicity, n (%)</td>
+<td align="center">3 (50.0)</td>
+<td align="center">3 (50.0)</td>
+<td align="center">0.545</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Migraine, n (%)</td>
+<td align="center">3 (50.0)</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Location, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Orbital</td>
+<td align="center">1 (16.7)</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Supraorbital</td>
+<td align="center">4 (66.7)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">0.455</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Temporal</td>
+<td align="center">2 (33.3)</td>
+<td align="center">4 (66.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Accompanying symptoms, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Conjunctival injection and/or lacrimation</td>
+<td align="center">5 (83.3)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Nasal congestion and/or rhinorrhoea</td>
+<td align="center">1 (16.7)</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Eyelid oedema</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Forehead and facial sweating</td>
+<td align="center">2 (33.3)</td>
+<td align="center">3 (50.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Miosis and ptosis</td>
+<td align="center">0 (0.0)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Restlessness/ agitation</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Headache Impact Test-6</td>
+<td align="center">71.5 (67.5&#8211;74.5)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">71.5 (64.8&#8211;75.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.809</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Severe impact of headache (Headache Impact Test-6 score &#8805; 60)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Perceived Stress Scale</td>
+<td align="center">5.0 (5.8&#8211;9.5)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">7.5 (5.8&#8211;8.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.567</td>
+</tr>
+<tr>
+<td align="left" colspan="2">EQ-5D-3L</td>
+<td align="center">0.84 (0.63&#8211;1.00)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.91 (0.75&#8211;0.93)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.745</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Patient Health Questionnaire-9</td>
+<td align="center">7.5 (0.8&#8211;12.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">8.0 (3.0&#8211;8.8)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Generalized Anxiety Disease-7</td>
+<td align="center">3.5 (0.8&#8211;12.0)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">8.5 (0.8&#8211;9.3)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1.000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>CCH, chronic cluster headache; VAS, visual analogue scale; EQ-5D-3L, The 3-level version of European quality of life-5 dimensions</p></fn>
+<fn id="t002fn002"><p>*: median (25%&#8211;75% interquartile range)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec013">
+<title>Comparison of clinical features of primary CCH and secondary CCH</title>
+<p>We compared the clinical features of CCH according to the onset pattern (primary CCH vs. secondary CCH). The total number of bouts was significantly higher in secondary CCH than in primary CCH (8.0 [1.0&#8211;8.0] vs. 16.5 [5.0&#8211;57.0], <italic>p</italic> = 0.015). Frequency of diurnal rhythmicity was higher in primary CCH; the difference was marginally insignificant (66.7% vs. 0.0%, <italic>p</italic> = 0.061). The number of current smokers was higher in secondary CCH than in primary CCH, but the difference was marginally insignificant (16.7% vs. 66.7%, <italic>p</italic> = 0.091). Frequency of migraine occurrence was not significantly different between the two groups. Age, headache frequency per day, VAS score for headache intensity, attack duration (in minutes), cluster period (in weeks), distribution of pain location, accompanying symptoms, and impact of headache, perceived stress, depression, and anxiety were not significantly different between primary and secondary CCH (<xref ref-type="table" rid="pone.0221155.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0221155.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221155.t003</object-id>
+<label>Table 3</label> <caption><title>Clinical features of participants with primary chronic cluster headache and secondary chronic cluster headache.</title></caption>
+<alternatives>
+<graphic id="pone.0221155.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="justify" colspan="2" />
+<th align="center">Primary CCH, n = 6</th>
+<th align="center">Secondary CCH, n = 6</th>
+<th align="justify"><italic>p</italic>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Age (years)</td>
+<td align="center">39.5 (35.3&#8211;47.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">44.5 (30.0&#8211;59.8)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.688</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Women, n (%)</td>
+<td align="center">2 (33.0)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">0.455</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Body Mass Index</td>
+<td align="center">24.3 (22.9&#8211;26.9)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">24.3 (22.0&#8211;28.2)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack frequency per day</td>
+<td align="center">2.0 (1.0&#8211;2.1)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">2.8 (0.5&#8211;7.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.372</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VAS, median</td>
+<td align="center">8.5 (7.0&#8211;10.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">9.0 (8.6&#8211;10.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.454</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Attack duration (minutes)</td>
+<td align="center">120.0 (82.5&#8211;157.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">75.0 (52.5&#8211;180.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.596</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Cluster period (weeks)</td>
+<td align="center">52.0 (36.5&#8211;172.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">8.0 (1.8&#8211;47.3)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.865</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Total number of bouts</td>
+<td align="center">8.0 (1.0&#8211;8.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">16.5 (5.0&#8211;57.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.015</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Years after CH onset</td>
+<td align="center">1.5 (1.0&#8211;3.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">5.5 (2.5&#8211;7.3)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.141</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Age of onset of CH</td>
+<td align="center">36.5 (28.8&#8211;46.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">40.5 (24.0&#8211;50.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.873</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Change of pain side during a single bout period, n (%)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Currently smoking, n (%)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">4 (66.7)</td>
+<td align="center">0.091</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Diurnal rhythmicity, n (%)</td>
+<td align="center">4 (66.7)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">0.061</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Migraine, n (%)</td>
+<td align="center">4 (66.7)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">0.242</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Location, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Orbital</td>
+<td align="center">3 (50.0)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">0.182</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Temporal</td>
+<td align="center">5 (83.3)</td>
+<td align="center">5 (83.3)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Supraorbital</td>
+<td align="center">3 (50.0)</td>
+<td align="center">5 (83.0)</td>
+<td align="center">0.545</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Accompanying symptoms, n (%)</td>
+<td align="center" />
+<td align="center" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Conjunctival injection and/or lacrimation</td>
+<td align="center">5 (83.3)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Nasal congestion and/or rhinorrhoea</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Eyelid oedema</td>
+<td align="center">0 (0.0)</td>
+<td align="center">3 (50.0)</td>
+<td align="center">0.182</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Forehead and facial sweating</td>
+<td align="center">3 (50.0)</td>
+<td align="center">2 (33.3)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Miosis and ptosis</td>
+<td align="center">0 (0.0)</td>
+<td align="center">0 (0.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" />
+<td align="left">Restlessness/ agitation</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1 (16.7)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Headache Impact Test-6</td>
+<td align="center">71.5 (67.0&#8211;72.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">72.5 (65.8&#8211;76.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.520</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Severe impact of headache (Headache Impact Test-6 score &#8805; 60)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">6 (100.0)</td>
+<td align="center">1.000</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Perceived Stress Scale</td>
+<td align="center">8.50 (6.5&#8211;9.5)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">7.5 (0.8&#8211;9.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.191</td>
+</tr>
+<tr>
+<td align="left" colspan="2">EQ-5D-3L</td>
+<td align="center">0.89 (0.63&#8211;0.93)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.91 (0.68&#8211;1.00)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.516</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Patient Health Questionnaire-9</td>
+<td align="justify">8.0 (6.3&#8211;12.3)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">4.50 (0.0&#8211;8.8)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.253</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Generalized Anxiety Disease-7</td>
+<td align="center">7.5 (0.8&#8211;12.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">5.0 (0.8&#8211;9.0)<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">0.420</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>CCH, chronic cluster headache; ECH, episodic cluster headache; VAS, visual analogue scale; EQ-5D-3L, The 3-level version of European quality of life-5 dimensions</p></fn>
+<fn id="t003fn002"><p>*: median (25%&#8211;75% interquartile range)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec014">
+<title>Comparison of clinical features of secondary CCH and ECH</title>
+<p>Secondary CCH had a greater association with current smoking (66.7% vs. 45.9%, <italic>p</italic> = 0.025), and had less diurnal rhythmicity (0.0% vs. 51.1%, <italic>p</italic> = 0.011) than ECH. The number of years after onset of CH was lesser in secondary CCH than in secondary ECH (5.5 [2.5&#8211;7.3] vs. 10.0 [5.0&#8211;16.0], <italic>p</italic> = 0.041). Nasal congestion and/or rhinorrhoea were less prevalent in secondary CCH, but the difference was marginally insignificant (16.7% vs. 64.0%, <italic>p</italic> = 0.068). Other clinical features were not significantly different between secondary CCH and ECH (<xref ref-type="supplementary-material" rid="pone.0221155.s001">S1 Table</xref>).</p>
+</sec>
+</sec>
+<sec id="sec015" sec-type="conclusions">
+<title>Discussion</title>
+<p>The main findings of the present study were as follows: 1) 6.4% of CH participants with a definitive remission period had CCH. The number of CCH participants doubled after revision of the remission period criterion in ICHD-3; 2) Some clinical features of CCH were different from those of ECH including total number of bouts, number of years after the onset of CH, age of onset of CH, nasal congestion and/or rhinorrhoea during CH attacks, and presence of migraine; 3) Approximately one-tenth of the participants with PCH experienced PCH attacks lasting more than one year with remission period &lt; 3 months.</p>
+<p>The diagnostic criteria of CCH were recently revised in ICHD-3. While the criterion for the duration of CH attacks did not change to more than one year, the criterion for the remission period increased from &lt; 1 month to &lt; 3 months. Thus, the proportion of patients with CCH diagnosis may increase with the use of ICHD-3. In the present study, the number of CCH subjects increased from 6 to 12 among all CH participants with a definite remission period. It was also observed that demographics and clinical features of CCH with a remission period of &lt; 1 month were not significantly different from those of CCH with a remission period of 1&#8211;3 months, except for the total number of bouts (<xref ref-type="table" rid="pone.0221155.t002">Table 2</xref>). These findings suggest that the diagnostic criteria of CCH in ICHD-3 were properly revised with respect to clinical features.</p>
+<p>Although the criteria for clinical features of CCH attacks are the same as those of ECH attacks, differences in the clinical features between the two have been reported. Patients with CCH have reported milder headache intensity, more changes in pain side during a single bout, and less rhinorrhoea than those with ECH [<xref ref-type="bibr" rid="pone.0221155.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0221155.ref016">16</xref>]. In our study, nasal congestion and/or rhinorrhoea was less prevalent in CCH than in ECH subjects. In addition, we found that migraine was more prevalent in CCH than in ECH subjects (<xref ref-type="table" rid="pone.0221155.t001">Table 1</xref>); a similar trend was observed in a Swedish study [<xref ref-type="bibr" rid="pone.0221155.ref017">17</xref>]. Nevertheless, headache intensity and change in the pain side during a single bout period were not significantly different between CCH and ECH subjects in the present study. The difference in clinical features between the present study and previous studies may be owing to differences in the study population and evaluation methods.</p>
+<p>The present study demonstrated that all participants with CCH had a severe functional impact of headache. The prevalence of participants experiencing severe impact of headache was higher in CCH than in ECH, although statistically insignificant. These findings are in agreement with a French study, wherein, it was observed that 74.1% of participants with CCH endured a severe impact of headache [<xref ref-type="bibr" rid="pone.0221155.ref018">18</xref>]. Another German study demonstrated similar findings, and reported that patients with CCH and active ECH were severely impaired [<xref ref-type="bibr" rid="pone.0221155.ref003">3</xref>]. Thus, we could verify that patients with CCH experience a substantial functional impact of headache.</p>
+<p>It was observed in previous studies that 45&#8211;54% cases of CCH were evolved from ECH (secondary CCH). A longer course of CH (&gt; 20 years), late age of onset, exposure to tobacco, and longer duration of the cluster period (&gt; 8 weeks) were reported to be associated with the transition from ECH to CCH [<xref ref-type="bibr" rid="pone.0221155.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0221155.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0221155.ref021">21</xref>]. In our study, we observed that in half the CCH participants, the CCH had evolved from ECH. Secondary CCH showed a greater relationship with current smoking, and had less diurnal rhythmicity than primary CCH, although the statistical significance was not reached (<xref ref-type="table" rid="pone.0221155.t002">Table 2</xref>). On comparing secondary CCH to ECH, current smoking was more prevalent and diurnal rhythmicity was less prevalent in secondary CCH (<xref ref-type="supplementary-material" rid="pone.0221155.s001">S1 Table</xref>). Therefore, current smoking might have an impact on progression to CCH from ECH [<xref ref-type="bibr" rid="pone.0221155.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0221155.ref022">22</xref>]. Considering that patients with CCH had a high functional impact of headache, identifying predictive factors with regard to transition from ECH and CCH would be an important step in reducing the burden of CCH in addition to the understanding the pathophysiology of CCH [<xref ref-type="bibr" rid="pone.0221155.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0221155.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0221155.ref017">17</xref>]. Further studies for identifying factors responsible for transition from ECH to CCH in various conditions would be needed.</p>
+<p>Diurnal rhythmicity is an important feature of CH, but the exact mechanisms are unclear. A recent Danish study reported that diurnal rhythmicity was less dominant in CCH than in ECH. The study excluded CH participants with no rhythmicity and did not separately assess CCH participants according to the onset pattern (primary or secondary) [<xref ref-type="bibr" rid="pone.0221155.ref023">23</xref>]. Considering the fact that approximately half of the CCH cases are secondary, the reduced diurnal rhythmicity in secondary CCH observed in the present study was in agreement with the findings of the Danish study.</p>
+<p>The proportion of participants with CCH (6.4%) in the present study was lower than that in the previous studies in Western countries. The proportion of subjects with CCH ranged from 11.4% to 36.6% in studies in European and North American countries [<xref ref-type="bibr" rid="pone.0221155.ref015">15</xref>&#8211;<xref ref-type="bibr" rid="pone.0221155.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0221155.ref024">24</xref>&#8211;<xref ref-type="bibr" rid="pone.0221155.ref026">26</xref>]. Nevertheless, the proportion of patients with CCH in our study was similar to that observed in Asian countries. CCH was observed in 3.5% of CH patients in a Japanese cohort based on ICHD-2 criteria [<xref ref-type="bibr" rid="pone.0221155.ref027">27</xref>]. Further, CCH was present in 7.5% of Chinese patients with CH [<xref ref-type="bibr" rid="pone.0221155.ref028">28</xref>]. The similarity in the proportion of CCH cases in our study with that of Asian studies suggests that the present study evaluated CCH properly. To date, the pathophysiology of CH chronification has not been elucidated yet. Considering the great difference in the prevalence of CCH among countries, genetic and environmental factors might play a role in developing CCH, whereas the prevalence of chronic migraine is similar worldwide [<xref ref-type="bibr" rid="pone.0221155.ref029">29</xref>]. In addition, functional connectivity of networks involving pain processing or pain modulation may be a factor which determines chronicity of CH, as evidenced in other pain disorders and chronic migraine [<xref ref-type="bibr" rid="pone.0221155.ref030">30</xref>, <xref ref-type="bibr" rid="pone.0221155.ref031">31</xref>]. One study using resting-state functional magnetic resonance imaging revealed a possible dysfunction in the pain processing in interictal CH patients [<xref ref-type="bibr" rid="pone.0221155.ref032">32</xref>].</p>
+<p>This study has several limitations. Firstly, the study was a cross-sectional study, and could not identify factors for a cause-and-effect relationship. The classification of ECH and CCH was based on patients&#8217; description of their clinical courses, which may lead a possibility of recall bias. Nevertheless, comparing clinical features between CCH and ECH and between secondary CCH and ECH provided a clue for identifying factors related to CCH and secondary CCH. Further studies in a longitudinal setting would provide more information regarding factors related to CCH or secondary CCH. Secondly, we did not investigate the frequency of smoking and amount of alcohol consumption. A previous study reported that smoking (&gt; 20 cigarettes) and alcohol consumption (&gt; 100 g) were more prevalent in CCH than in ECH patients [<xref ref-type="bibr" rid="pone.0221155.ref033">33</xref>]. Another study identified that cigarette smoking (&gt; 20 cigarettes) and alcohol intake (50&#8211;100 g) were more frequently reported in secondary CCH than in primary CCH patients [<xref ref-type="bibr" rid="pone.0221155.ref005">5</xref>]. However, in our study, we only evaluated the status of smoking and alcohol intake, and did not quantify it. Thirdly, the sample size of the CCH group was not high, and the insignificance observed in some analyses may have been due to the limited sample size. In other words, our findings might have type II error. However, we found several significant findings using non-parametric analyses for continuous variables and Fisher&#8217;s exact tests for categorical variables, which are valid even with small sample sizes. Finally, the validation of the ICHD-3 criteria was based on the comparison between 6 and 12 patients in our study. This may be affected by biases because the number of patients was small and the two groups were not completely independent to each other.</p>
+<p>Our study also has several strengths. Firstly, this study evaluated the demographic and clinical features of CCH according to the ICHD-3 criteria that were recently revised. Information on the clinical features of CCH based on ICHD-3 criteria is currently limited. Secondly, we compared the clinical features of CCH and ECH, and those of secondary CCH and ECH, and found that some clinical features of CCH and secondary CCH were significantly different from those of ECH. These findings may provide clues for identifying significant factors responsible for transition from ECH to CCH. Thirdly, we included participants with PCH, which has rarely been evaluated in previous studies. We observed that approximately 10% of participants with PCH had remission periods &lt; 3 months. Findings in the present study may provide information on the clinical features of CCH based on ICHD-3 that was recently revised.</p>
+</sec>
+<sec id="sec016" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The number of subjects with CCH doubled when the revised ICHD-3 criteria were used. The clinical features of CCH with a remission period of &lt; 1 month and a remission period of 1&#8211;3 months, which were previously classified into ECH but newly included into CCH in ICHD-3, were not significantly different, except for the total number of bouts. Some clinical features of CCH were different from those of ECH, including lesser nasal congestion and/or rhinorrhoea, longer interval after onset of CH, later age of onset of CH, and higher incidence of migraine. Current smoking may have a role in the transition from ECH to CCH.</p>
+</sec>
+<sec id="sec017">
+<title>Supporting information</title>
+<supplementary-material id="pone.0221155.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Clinical features of participants with secondary chronic cluster headache and episodic chronic cluster headache.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors would like to express their appreciation to all participants in the study.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221155.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Favier</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Haan</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ferrari</surname> <given-names>MD</given-names></name>. <article-title>Chronic cluster headache: a review</article-title>. <source>J Headache Pain</source>. <year>2005</year>;<volume>6</volume>(<issue>1</issue>):<fpage>3</fpage>&#8211;<lpage>9</lpage>. Epub 2005/12/20. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10194-005-0142-9" ns0:type="simple">10.1007/s10194-005-0142-9</ext-link></comment> <object-id pub-id-type="pmid">16362185</object-id>; PubMed Central PMCID: PMC3451951.</mixed-citation></ref>
+<ref id="pone.0221155.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>Headache Classification Committee of the International Headache Society (IHS)</collab>. <article-title>The International Classification of Headache Disorders, 3rd edition</article-title>. <source>Cephalalgia</source>. <year>2018</year>;<volume>38</volume>(<issue>1</issue>):<fpage>1</fpage>&#8211;<lpage>211</lpage>. Epub 2018/01/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102417738202" ns0:type="simple">10.1177/0333102417738202</ext-link></comment> <object-id pub-id-type="pmid">29368949</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jurgens</surname> <given-names>TP</given-names></name>, <name name-style="western"><surname>Gaul</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Lindwurm</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dresler</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Paelecke-Habermann</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Schmidt-Wilcke</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Impairment in episodic and chronic cluster headache</article-title>. <source>Cephalalgia</source>. <year>2011</year>;<volume>31</volume>(<issue>6</issue>):<fpage>671</fpage>&#8211;<lpage>82</lpage>. Epub 2010/12/03. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102410391489" ns0:type="simple">10.1177/0333102410391489</ext-link></comment> <object-id pub-id-type="pmid">21123629</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Moon</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>PW</given-names></name>, <name name-style="western"><surname>Sohn</surname> <given-names>JH</given-names></name>, <etal>et al</etal>. <article-title>Field testing the diagnostic criteria of cluster headache in the third edition of the International Classification of Headache Disorders: A cross-sectional multicentre study</article-title>. <source>Cephalalgia</source>. <year>2019</year>:<fpage>333102419837159</fpage>. Epub 2019/03/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102419837159" ns0:type="simple">10.1177/0333102419837159</ext-link></comment> <object-id pub-id-type="pmid">30857402</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Torelli</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cologno</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cademartiri</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Manzoni</surname> <given-names>GC</given-names></name>. <article-title>Primary and secondary chronic cluster headache: two separate entities?</article-title> <source>Cephalalgia</source>. <year>2000</year>;<volume>20</volume>(<issue>9</issue>):<fpage>826</fpage>&#8211;<lpage>9</lpage>. Epub 2001/02/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1468-2982.2000.00127.x" ns0:type="simple">10.1046/j.1468-2982.2000.00127.x</ext-link></comment> <object-id pub-id-type="pmid">11167912</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Choi</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>PW</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Chu</surname> <given-names>MK</given-names></name>, <etal>et al</etal>. <article-title>Impact of cluster headache on employment status and job burden: a prospective cross-sectional multicenter study</article-title>. <source>J Headache Pain</source>. <year>2018</year>;<volume>19</volume>(<issue>1</issue>):<fpage>78</fpage>. Epub 2018/09/05. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s10194-018-0911-x" ns0:type="simple">10.1186/s10194-018-0911-x</ext-link></comment> <object-id pub-id-type="pmid">30178397</object-id>; PubMed Central PMCID: PMC6120854.</mixed-citation></ref>
+<ref id="pone.0221155.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Spitzer</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Kroenke</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Lowe</surname> <given-names>B</given-names></name>. <article-title>A brief measure for assessing generalized anxiety disorder: the GAD-7</article-title>. <source>Arch Intern Med</source>. <year>2006</year>;<volume>166</volume>(<issue>10</issue>):<fpage>1092</fpage>&#8211;<lpage>7</lpage>. Epub 2006/05/24. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archinte.166.10.1092" ns0:type="simple">10.1001/archinte.166.10.1092</ext-link></comment> <object-id pub-id-type="pmid">16717171</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Choi</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Joo</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Ga</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ko</surname> <given-names>HJ</given-names></name>, <etal>et al</etal>. <article-title>Standardization of the Korean version of Patient Health Questionnaire-9 as a screening instrument for major depressive disorder</article-title>. <source>Journal of the Korean Academy of Family Medicine</source>. <year>2007</year>;<volume>28</volume>(<issue>2</issue>):<fpage>114</fpage>&#8211;<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0221155.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seo</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>SP</given-names></name>. <article-title>Validation of the Generalized Anxiety Disorder-7 (GAD-7) and GAD-2 in patients with migraine</article-title>. <source>J Headache Pain</source>. <year>2015</year>;<volume>16</volume>:<fpage>97</fpage>. Epub 2015/11/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s10194-015-0583-8" ns0:type="simple">10.1186/s10194-015-0583-8</ext-link></comment> <object-id pub-id-type="pmid">26596588</object-id>; PubMed Central PMCID: PMC4656257.</mixed-citation></ref>
+<ref id="pone.0221155.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Uhm</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bae</surname> <given-names>SC</given-names></name>. <article-title>Cross-cultural adaptation and validation of the Korean version of the EQ-5D in patients with rheumatic diseases</article-title>. <source>Qual Life Res</source>. <year>2005</year>;<volume>14</volume>(<issue>5</issue>):<fpage>1401</fpage>&#8211;<lpage>6</lpage>. Epub 2005/07/29. <object-id pub-id-type="pmid">16047514</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cohen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kamarck</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Mermelstein</surname> <given-names>R</given-names></name>. <article-title>A global measure of perceived stress</article-title>. <source>J Health Soc Behav</source>. <year>1983</year>;<volume>24</volume>(<issue>4</issue>):<fpage>385</fpage>&#8211;<lpage>96</lpage>. Epub 1983/12/01. <object-id pub-id-type="pmid">6668417</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>BY</given-names></name>, <name name-style="western"><surname>Suh</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Jung</surname> <given-names>JY</given-names></name>. <article-title>Korean versions of the Perceived Stress Scale (PSS-14, 10 and 4): psychometric evaluation in patients with chronic disease</article-title>. <source>Scand J Caring Sci</source>. <year>2015</year>;<volume>29</volume>(<issue>1</issue>):<fpage>183</fpage>&#8211;<lpage>92</lpage>. Epub 2014/03/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/scs.12131" ns0:type="simple">10.1111/scs.12131</ext-link></comment> <object-id pub-id-type="pmid">24660854</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kroenke</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Spitzer</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>JB</given-names></name>. <article-title>The PHQ-9: validity of a brief depression severity measure</article-title>. <source>J Gen Intern Med</source>. <year>2001</year>;<volume>16</volume>(<issue>9</issue>):<fpage>606</fpage>&#8211;<lpage>13</lpage>. Epub 2001/09/15. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1525-1497.2001.016009606.x" ns0:type="simple">10.1046/j.1525-1497.2001.016009606.x</ext-link></comment>; PubMed Central PMCID: PMC1495268. <object-id pub-id-type="pmid">11556941</object-id></mixed-citation></ref>
+<ref id="pone.0221155.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kosinski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bayliss</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Bjorner</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Ware</surname> <given-names>JE</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Garber</surname> <given-names>WH</given-names></name>, <name name-style="western"><surname>Batenhorst</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>A six-item short-form survey for measuring headache impact: the HIT-6</article-title>. <source>Qual Life Res</source>. <year>2003</year>;<volume>12</volume>(<issue>8</issue>):<fpage>963</fpage>&#8211;<lpage>74</lpage>. Epub 2003/12/04. <object-id pub-id-type="pmid">14651415</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bahra</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>May</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Goadsby</surname> <given-names>PJ</given-names></name>. <article-title>Cluster headache: a prospective clinical study with diagnostic implications</article-title>. <source>Neurology</source>. <year>2002</year>;<volume>58</volume>(<issue>3</issue>):<fpage>354</fpage>&#8211;<lpage>61</lpage>. Epub 2002/02/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1212/wnl.58.3.354" ns0:type="simple">10.1212/wnl.58.3.354</ext-link></comment> <object-id pub-id-type="pmid">11839832</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>van Vliet</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Eekers</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Haan</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ferrari</surname> <given-names>MD</given-names></name>. <article-title>Features involved in the diagnostic delay of cluster headache</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2003</year>;<volume>74</volume>(<issue>8</issue>):<fpage>1123</fpage>&#8211;<lpage>5</lpage>. Epub 2003/07/24. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/jnnp.74.8.1123" ns0:type="simple">10.1136/jnnp.74.8.1123</ext-link></comment> <object-id pub-id-type="pmid">12876249</object-id>; PubMed Central PMCID: PMC1738593.</mixed-citation></ref>
+<ref id="pone.0221155.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Steinberg</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fourier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ran</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Waldenlind</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sjostrand</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Belin</surname> <given-names>AC</given-names></name>. <article-title>Cluster headache&#8212;clinical pattern and a new severity scale in a Swedish cohort</article-title>. <source>Cephalalgia</source>. <year>2018</year>;<volume>38</volume>(<issue>7</issue>):<fpage>1286</fpage>&#8211;<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102417731773" ns0:type="simple">10.1177/0333102417731773</ext-link></comment> <object-id pub-id-type="pmid">28906127</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Donnet</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lanteri-Minet</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Guegan-Massardier</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Mick</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Fabre</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Geraud</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Chronic cluster headache: a French clinical descriptive study</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2007</year>;<volume>78</volume>(<issue>12</issue>):<fpage>1354</fpage>&#8211;<lpage>8</lpage>. Epub 2007/04/20. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/jnnp.2006.112037" ns0:type="simple">10.1136/jnnp.2006.112037</ext-link></comment> <object-id pub-id-type="pmid">17442761</object-id>; PubMed Central PMCID: PMC2095607.</mixed-citation></ref>
+<ref id="pone.0221155.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Manzoni</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Micieli</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Granella</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tassorelli</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zanferrari</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Cavallini</surname> <given-names>A</given-names></name>. <article-title>Cluster headache&#8212;course over ten years in 189 patients</article-title>. <source>Cephalalgia</source>. <year>1991</year>;<volume>11</volume>(<issue>4</issue>):<fpage>169</fpage>&#8211;<lpage>74</lpage>. Epub 1991/09/01. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1468-2982.1991.1104169.x" ns0:type="simple">10.1046/j.1468-2982.1991.1104169.x</ext-link></comment> <object-id pub-id-type="pmid">1742772</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Torelli</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cologno</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cademartiri</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Manzoni</surname> <given-names>GC</given-names></name>. <article-title>Possible predictive factors in the evolution of episodic to chronic cluster headache</article-title>. <source>Headache</source>. <year>2000</year>;<volume>40</volume>(<issue>10</issue>):<fpage>798</fpage>&#8211;<lpage>808</lpage>. Epub 2001/01/03. <object-id pub-id-type="pmid">11135023</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rozen</surname> <given-names>TD</given-names></name>. <article-title>Cluster Headache Clinical Phenotypes: Tobacco Nonexposed (Never Smoker and No Parental Secondary Smoke Exposure as a Child) versus Tobacco-Exposed: Results from the United States Cluster Headache Survey</article-title>. <source>Headache</source>. <year>2018</year>;<volume>58</volume>(<issue>5</issue>):<fpage>688</fpage>&#8211;<lpage>99</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/head.13295" ns0:type="simple">10.1111/head.13295</ext-link></comment> <object-id pub-id-type="pmid">29536529</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ferrari</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zappaterra</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Righi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ciccarese</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tiraferri</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Pini</surname> <given-names>LA</given-names></name>, <etal>et al</etal>. <article-title>Impact of continuing or quitting smoking on episodic cluster headache: a pilot survey</article-title>. <source>J Headache Pain</source>. <year>2013</year>;<volume>14</volume>:<fpage>48</fpage>. Epub 2013/06/08. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1129-2377-14-48" ns0:type="simple">10.1186/1129-2377-14-48</ext-link></comment> <object-id pub-id-type="pmid">23742010</object-id>; PubMed Central PMCID: PMC3680186.</mixed-citation></ref>
+<ref id="pone.0221155.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barloese</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Haddock</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lund</surname> <given-names>NT</given-names></name>, <name name-style="western"><surname>Petersen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jensen</surname> <given-names>R</given-names></name>. <article-title>Chronorisk in cluster headache: A tool for individualised therapy?</article-title> <source>Cephalalgia</source>. <year>2018</year>;<volume>38</volume>(<issue>14</issue>):<fpage>2058</fpage>&#8211;<lpage>67</lpage>. Epub 2018/04/11. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102418769955" ns0:type="simple">10.1177/0333102418769955</ext-link></comment> <object-id pub-id-type="pmid">29635936</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Manzoni</surname> <given-names>GC</given-names></name>. <article-title>Male preponderance of cluster headache is progressively decreasing over the years</article-title>. <source>Headache</source>. <year>1997</year>;<volume>37</volume>(<issue>9</issue>):<fpage>588</fpage>&#8211;<lpage>9</lpage>. Epub 1997/12/31. <object-id pub-id-type="pmid">9385759</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lund</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Petersen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Snoer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jensen</surname> <given-names>RH</given-names></name>, <name name-style="western"><surname>Barloese</surname> <given-names>M</given-names></name>. <article-title>Cluster headache is associated with unhealthy lifestyle and lifestyle-related comorbid diseases: Results from the Danish Cluster Headache Survey</article-title>. <source>Cephalalgia</source>. <year>2018</year>:<fpage>333102418784751</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102418784751" ns0:type="simple">10.1177/0333102418784751</ext-link></comment> <object-id pub-id-type="pmid">29933701</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rozen</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Fishman</surname> <given-names>RS</given-names></name>. <article-title>Inhaled oxygen and cluster headache sufferers in the United States: use, efficacy and economics: results from the United States Cluster Headache Survey</article-title>. <source>Headache</source>. <year>2011</year>;<volume>51</volume>(<issue>2</issue>):<fpage>191</fpage>&#8211;<lpage>200</lpage>. Epub 2010/11/19. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1526-4610.2010.01806.x" ns0:type="simple">10.1111/j.1526-4610.2010.01806.x</ext-link></comment> <object-id pub-id-type="pmid">21083557</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Imai</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Yagi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kuroda</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Konishi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Serizawa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kobari</surname> <given-names>M</given-names></name>. <article-title>Clinical profile of cluster headaches in Japan: low prevalence of chronic cluster headache, and uncoupling of sense and behaviour of restlessness</article-title>. <source>Cephalalgia</source>. <year>2011</year>;<volume>31</volume>(<issue>5</issue>):<fpage>628</fpage>&#8211;<lpage>33</lpage>. Epub 2011/02/01. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102410391486" ns0:type="simple">10.1177/0333102410391486</ext-link></comment> <object-id pub-id-type="pmid">21278239</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dong</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Di</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Dai</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Liang</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Clinical profile of cluster headaches in China&#8212;a clinic-based study</article-title>. <source>J Headache Pain</source>. <year>2013</year>;<volume>14</volume>:<fpage>27</fpage>. Epub 2013/04/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1129-2377-14-27" ns0:type="simple">10.1186/1129-2377-14-27</ext-link></comment> <object-id pub-id-type="pmid">23574884</object-id>; PubMed Central PMCID: PMC3620490.</mixed-citation></ref>
+<ref id="pone.0221155.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Natoli</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Manack</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dean</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Butler</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Turkel</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Stovner</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Global prevalence of chronic migraine: a systematic review</article-title>. <source>Cephalalgia</source>. <year>2010</year>;<volume>30</volume>(<issue>5</issue>):<fpage>599</fpage>&#8211;<lpage>609</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1468-2982.2009.01941.x" ns0:type="simple">10.1111/j.1468-2982.2009.01941.x</ext-link></comment> <object-id pub-id-type="pmid">19614702</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Colombo</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Rocca</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Messina</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Guerrieri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Filippi</surname> <given-names>M</given-names></name>. <article-title>Resting-state fMRI functional connectivity: a new perspective to evaluate pain modulation in migraine?</article-title> <source>Neurol Sci</source>. <year>2015</year>;<volume>36</volume> <issue>Suppl 1</issue>:<fpage>41</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10072-015-2145-x" ns0:type="simple">10.1007/s10072-015-2145-x</ext-link></comment> <object-id pub-id-type="pmid">26017510</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>BY</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>CS</given-names></name>. <article-title>Increased connectivity of pain matrix in chronic migraine: a resting-state functional MRI study</article-title>. <source>J Headache Pain</source>. <year>2019</year>;<volume>20</volume>(<issue>1</issue>):<fpage>29</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s10194-019-0986-z" ns0:type="simple">10.1186/s10194-019-0986-z</ext-link></comment> <object-id pub-id-type="pmid">30909865</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rocca</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Valsasina</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Absinta</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Colombo</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Barcella</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Falini</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Central nervous system dysregulation extends beyond the pain-matrix network in cluster headache</article-title>. <source>Cephalalgia</source>. <year>2010</year>;<volume>30</volume>(<issue>11</issue>):<fpage>1383</fpage>&#8211;<lpage>91</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0333102410365164" ns0:type="simple">10.1177/0333102410365164</ext-link></comment> <object-id pub-id-type="pmid">20959433</object-id>.</mixed-citation></ref>
+<ref id="pone.0221155.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Manzoni</surname> <given-names>GC</given-names></name>. <article-title>Cluster headache and lifestyle: remarks on a population of 374 male patients</article-title>. <source>Cephalalgia</source>. <year>1999</year>;<volume>19</volume>(<issue>2</issue>):<fpage>88</fpage>&#8211;<lpage>94</lpage>. Epub 1999/04/24. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1468-2982.1999.019002088.x" ns0:type="simple">10.1046/j.1468-2982.1999.019002088.x</ext-link></comment> <object-id pub-id-type="pmid">10214533</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221155.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221155.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Cheungpasitporn</surname>
+<given-names>Wisit</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Wisit Cheungpasitporn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221155" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">17 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17566</p>
+<p>Clinical features of chronic cluster headache based on the third edition of the International Classification of Headache Disorders: A prospective multicentre study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Min Kyung Chu,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>ACADEMIC EDITOR: Our expert reviewer(s) have recommended some minor revisions to your manuscript. Therefore, I invite you to respond to the reviewer(s)' comments as below and revise your manuscript.</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by Aug 31 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Wisit Cheungpasitporn, MD, FACP</p>
+<p>University of Mississippi Medical Center</p>
+<p>Twitter: @wisit661 Email: <email ns0:type="simple">wcheungpasitporn@gmail.com</email>&#160;</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. Thank you for including your competing interests statement; "SJ Cho was involved as a site investigator of a multicentre trial sponsored by Otsuka Korea, Eli Lilly and Company, and Novartis, worked as an advisory member for Teva, and received research support from Hallym University Research Fund 2016 and a grant from the Korean Neurological Association (KNA-16-MI-09).</p>
+<p>MK Chu was a site investigator for a multi-centre trial sponsored by Otsuka Korea, Novartis International AG, and Eli Lilly and Company. He worked as an advisory member for Teva, and received lecture honoraria from Allergan Korea, Handok-Teva, and Yuyu Pharmaceutical Company in the past 24 months.</p>
+<p>The other authors, except for SJ Cho and MK Chu, declare no potential conflicts of interest."</p>
+<p>Please confirm that this does not alter your adherence to all PLOS ONE policies on sharing data and materials, by including the following statement: "This does not alter our adherence to&#160; PLOS ONE policies on sharing data and materials.&#8221; (as detailed online in our guide for authors <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/competing-interests" ns0:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link>). &#160;If there are restrictions on sharing of data and/or materials, please state these. Please note that we cannot proceed with consideration of your article until this information has been declared.</p>
+<p>Please include your updated Competing Interests statement in your cover letter; we will change the online submission form on your behalf.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The definition of chronic cluster headache has been changed in the last ICHD3 classification, increasing the time for relapse period from 1 to 3 months. The authors tested of the Korean cluster headache registry the effect of this modification in order to test the new definition and the clinical featurs of the CCH.</p>
+<p>The most relevant observation is that the number of patients with CCH doubles with the new criteria.</p>
+<p>The number of patients with CCH vs ECH are much less (176 vs 12) but the authors were able, with the statistical correction to still be able to find some significant diferences between the two populations. In particular they found out that the patients with CCH has higher age and lower CH history vs patients with ECH, they have less nasal congestion and rhinorrhea, and have more comorbidity with migraine. Interestingly the authors did not find any differenced in the population reclassified as CCH with the new criteria, meaning that the patients are probably right classified with the new criteria.</p>
+<p>They observed how smoke habit may lead CH to become chronic lathough to clearly significant (probably due to the small numeber of pts).</p>
+<p>The limits of the study where well stated.</p>
+<p>- It would be interesting in the discussion to speculate if there might be a possible role of chronic pain networks disfunction in both conditions (Colombo B et al Neurol SCI 2015).</p>
+<p>Reviewer #2: This is the multi-center, prospective study to investigate the clinical feature of chronic cluster headache using the new definition in hospitala in south korea. Overall, manuscript is well written. I cannot identify the major of this study.</p>
+<p>Reviewer #3: -Please discuss in the limitations the types of biases the findings of this study may be influenced by</p>
+<p>-The limitations of the study particularly in regards to the validation of diagnosis needs to be more robust.</p>
+<p>-Some revision of the English language is needed.</p>
+<p>&#8220;Diagnosis of ECH (code 3.1.1) and CCH (code 3.1.2) were based on criteria&#8221; is not correct in grammar.</p>
+<p>&#8220;huge&#8221; should be avoided in academic writing.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221155.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221155.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221155" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221155.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">25 Jul 2019</named-content>
+</p>
+<p>Author Response Letter</p>
+<p>We thank the reviewers for their constructive comments. We believe our paper has been improved based on the Reviewers&#8217; comments. In this letter, we have provided a point-by-point response to each comment below. Textual changes based on the Reviewers&#8217; comments are tracked in the revised manuscript. We hope our paper can meet the journal&#8217;s requirements.</p>
+<p>Reviewer #1</p>
+<p>1. The definition of chronic cluster headache has been changed in the last ICHD3 classification, increasing the time for relapse period from 1 to 3 months. The authors tested of the Korean cluster headache registry the effect of this modification in order to test the new definition and the clinical features of the CCH.</p>
+<p>Response: We thank the reviewer for his/her time and efforts in reviewing our paper.  </p>
+<p>2. The most relevant observation is that the number of patients with CCH doubles with the new criteria.</p>
+<p>Response: We agree with the reviewer that this is the major finding of our study. The latest ICHD-3 criteria broadened the spectrum of CCH without compromising its functional impact. </p>
+<p>3. The number of patients with CCH vs ECH are much less (176 vs 12) but the authors were able, with the statistical correction to still be able to find some significant diferences between the two populations. In particular they found out that the patients with CCH has higher age and lower CH history vs patients with ECH, they have less nasal congestion and rhinorrhea, and have more comorbidity with migraine. Interestingly the authors did not find any difference in the population reclassified as CCH with the new criteria, meaning that the patients are probably right classified with the new criteria. They observed how smoke habit may lead CH to become chronic lathough to clearly significant (probably due to the small numeber of pts). The limits of the study where well stated.</p>
+<p>Response: We appreciate the reviewer for properly summarizing our findings and giving us constructive comments. </p>
+<p>4. It would be interesting in the discussion to speculate if there might be a possible role of chronic pain networks dysfunction in both conditions (Colombo B et al Neurol SCI 2015).</p>
+<p>Response: Thank you for the insightful suggestion. We have added discussions regarding the role of pain networks in CH chronification. (Line 307 &#8211; 314 in the track-changes version)</p>
+<p>Reviewer #2: This is the multi-center, prospective study to investigate the clinical feature of chronic cluster headache using the new definition in hospitala in south korea. Overall, manuscript is well written. I cannot identify the major of this study.</p>
+<p>Response: We thank the reviewer for his/her time and efforts in reviewing our paper and constructive comments. We are pleased that the reviewer was satisfied with our paper.  </p>
+<p>Reviewer #3: </p>
+<p>1. Please discuss in the limitations the types of biases the findings of this study may be influenced by</p>
+<p>Response: We thank the reviewer for his/her time and efforts in reviewing our paper. The classification of ECH and CCH was based on patients&#8217; description of their clinical courses, so recall bias may be present. Our study may also have type II error because the number of patients with CCH was small. We have added these information in the Limitations section. (Line 316 &#8211; 318, 328 &#8211; 329 in the track-changes version)</p>
+<p>2. The limitations of the study particularly in regards to the validation of diagnosis needs to be more robust.</p>
+<p>Response: Thank you for this comment. In our study, the validation of the ICHD-3 criteria was based on the comparison between 6 and 12 patients. This may be affected by biases because the number of patients was small, and the two groups were not completely independent to each other. We have added this in the Limitation section. (Line 332 &#8211; 334 in the track-changes version)</p>
+<p>3. Some revision of the English language is needed.</p>
+<p>3-1. &#8220;Diagnosis of ECH (code 3.1.1) and CCH (code 3.1.2) were based on criteria&#8221; is not correct in grammar.</p>
+<p>Response: Thank you for pointing this out. The expressions have been revised. (Line 96 &#8211; 97, 108 &#8211; 112 in the track-changes version)</p>
+<p>3-1. &#8220;huge&#8221; should be avoided in academic writing.</p>
+<p>Response: Thank you for the suggestion. This expression has been also revised. (Line 278 in the track-changes version)</p>
+<supplementary-material id="pone.0221155.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221155.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">author response letter_R1.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0221155.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221155.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Cheungpasitporn</surname>
+<given-names>Wisit</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Wisit Cheungpasitporn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221155" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">1 Aug 2019</named-content>
+</p>
+<p>Clinical features of chronic cluster headache based on the third edition of the International Classification of Headache Disorders: A prospective multicentre study</p>
+<p>PONE-D-19-17566R1</p>
+<p>Dear Dr. Min Kyung Chu,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Wisit Cheungpasitporn, MD, FACP</p>
+<p>University of Mississippi Medical Center</p>
+<p>Twitter: @wisit661 Email: <email ns0:type="simple">wcheungpasitporn@gmail.com</email>&#160;</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments:</p>
+<p>I want to commend the authors on their superb efforts to revise the manuscript according to all reviewers&#8217; suggestions. The quality of the manuscript has improved substantially.</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: All of my comments have been addressed properly. I have no further recommendation to improve this manuscript.</p>
+<p>Reviewer #3: It is an interesting and relevant article. I consider it a useful contribution in its field. Revised manuscript is acceptable for publication.</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221155.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221155.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Cheungpasitporn</surname>
+<given-names>Wisit</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Wisit Cheungpasitporn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221155" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">19 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17566R1 </p>
+<p>Clinical features of chronic cluster headache based on the third edition of the International Classification of Headache Disorders: A prospective multicentre study </p>
+<p>Dear Dr. Chu:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Wisit Cheungpasitporn  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

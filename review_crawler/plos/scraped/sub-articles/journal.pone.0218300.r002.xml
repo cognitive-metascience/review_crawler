@@ -1,0 +1,140 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0218300.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218300.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0218300" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0218300.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">16 Jul 2019</named-content>
+</p>
+<p>Uppsala, July 16, 2019</p>
+<p>Dear Editor, Dr Pereira,</p>
+<p>Enclosed, please find a revised version of our manuscript entitled &#8220;The Dps4 from Nostoc punctiforme ATCC 29133 is a member of His-type FOC containing Dps class that can be broadly found among cyanobacteria&#8221;</p>
+<p>By: Christoph Howe, Vamsi K. Moparthi, Felix M. Ho, Karina Persson and myself, which I hope now is acceptable for publication in PLOS ONE.</p>
+<p>In this revised version we addressed all points raised by the Reviewers and Editor. As a result, the manuscript underwent significant changes and additions in both text and figures. We have tried our best to answer all the comments and to improve our manuscript accordingly. In particular, we modified some of the main figures and added requested information concerning a more detailed crystal structure analysis in Supplementary material. We also added missing experimental information and data to clarify details concerning our spectroscopic analysis. We believe that the revised data and results part are more clear and fully support the discussion and conclusions in the manuscript.</p>
+<p>Our point to point response to the comments from both Reviewers can be found on the following pages. We appreciate very much time and effort that Reviewer(s) have spent and put in reading and commenting on our manuscript. We thank the reviewer(s) for their valuable suggestions which has improved the manuscript.</p>
+<p>We have uploaded an annotated manuscript (word file) including track-changed text to allow for our changes to be easily found.</p>
+<p>Yours Sincerely,</p>
+<p>Karin Stensj&#246; (<email ns0:type="simple">karin.stensjo@kemi.uu.se</email>), on behalf of all authors</p>
+<p>&#8195;</p>
+<p>Answers to Review Comments to the Author</p>
+<p>Reviewer #1: The current manuscript focused on the structural and kinetic studies of Dps4 from a cyanobacteria. Interestingly Nostoc punctiforme, the phototrophic and filamentous cyanobacterium encodes for five different Dps, but the specific function of each Dps it is not fully yet stablished. Thus, the work present in the current manuscript, contribute to elucidate the function of the NpDps4. Nevertheless, there are a several modifications that have to be included in the manuscript, mainly regarding the kinetic analysis of the data, which was not properly performed; and a more detailed crystal structure analysis.</p>
+<p>The authors should be more carefully with the scientific language, please rephrase the following sentences.</p>
+<p>Page 6, line 147 - &#8220;meet thus creating a pore.&#8221; - The pore is not created, it is formed, and word &#8220;meet&#8221; should be avoided. Please rephrase.</p>
+<p>-We have rephrased the sentence.</p>
+<p>Page 7, line 158 - &#8220;of three monomers meet&#8221;. Again the word &#8220;meet&#8221; should be avoided.</p>
+<p>-We have rephrased the sentence.</p>
+<p>Page 5-9, line 123-204 &#8211;Although the overall fold is the same in the three structures presented (5HJF, 5HJH, 5I4J), the authors should present the rmsd between the different structures.</p>
+<p>Besides the difference in the ferroxidase center that the authors comment, is there any structural difference in the crystal structures induced by the presence of the different metals, for instance in the 3-fold pores, or in other part of the structure.</p>
+<p>-The rmsd are now included in the manuscript. We additionally contemplate on the differences of the three crystal structures in more detail.</p>
+<p>Page 6 and 7, line 147-153- The authors described the ferritin-like pore of the NpDps4, but they do not mentioned if there is any water or metal located in this pore.</p>
+<p>-In the metal-free and iron-bound enzyme there is a water molecule (low occupancy) located in the pore, equally distanced from Glu140 and Arg148. In the Zn-structure there are no ordered waters or ions in connection to the pore. </p>
+<p>Page 7, line 158-164 &#8211; The authors describe the Dps-like pore in the NpDps4, and they mention that it contains a &#8220;small cap-like structure on the outside of the protein&#8221;. However it is not clear if the pore is blocked by any residue from the C-terminal tails that are at the top of the pore, and if the nature of these residues is negative or positive. A more detailed description should be included.</p>
+<p>-The pore is not blocked by the C-terminal residues. The sequence of the five final residues in the models is FVQAA. The five final residues that form the cap leave an opening to the pore, e.g. the pore is not blocked. Corresponding changes have been made in the text.</p>
+<p>Page 8, line 188, 195- The authors mentioned that the distance between Fe in site A and Fe in site B is 3.5 &#197;, and that there is one water molecule coordinating both irons. Is this a bridging molecule, if so it is not clear how can be at a distance of 2.2 and 2.3 &#197; from site A and B respectively, since the distance between the two irons is 3.5 &#197;. This part should be clarified.</p>
+<p>-The water molecule is not located on a straight line between the Fe-ions. The angle between the two Fe-ions and the bridging water molecule is 42&#176; and 53&#176;, respectively. And the the Fe &#8211; water &#8211; Fe angle is 95&#176; This information was added to the manuscript.</p>
+<p>Page 7-9, lines 173-205 &#8211; In order to understand if the Fe in site B is more loosely coordinated, and if the distances between the metals and the coordinating residues are similar in the structure with Fe or Zn, a Table with the coordination distances between the different coordinating residues and the metal ions for the different structures should be included. The authors should compare the distances between the coordinating residues and Fe in site A, and those for Fe in site B.</p>
+<p>-In general the coordination distances are shorter in the A-site compared to the B-site. There are also differences in the different FOCs, especially regarding Glu82 which binds tightly to the metal in some FOCs whereas it has poorer density in some FOCs which also indicate a possible bidentate coordination. All the coordination distances are now presented in S1 Table.</p>
+<p>Page 8, lines 198-204; Page 10, lines 252-269 &#8211; The authors have determined the crystal structure of NpDps4 in which the crystals were independently soaked with a solution of FeSO4 or ZnSO4. The structures showed that the iron was bound in two position, site A and B, while in the case of the structure with zinc, the metal was bound to a similar structural position as the Fe in site A. Moreover, by kinetic studies the authors showed that the zinc inhibits the iron oxidation rates. In order to understand if the &#8220;di-iron&#8221; center formed upon iron addition is not maintained in the presence of zinc, or if it is form a mixed di-center with Zn and Fe, it would be interesting to determine the crystal structure, in which the crystals were first soaked with an iron solution followed by a zinc solution.</p>
+<p>-We agree with the referee that this would be an interesting study, and the results we present here regarding Zn inhibition does open up for such investigations. However, due to the likely degradation in crystal quality associated with changes to the soaking solutions, this should be carried out as a focused, separate crystallographic study. This is outside the scope of the present investigation.</p>
+<p>Page 10, 226-240 &#8211; Iron oxidation assays. The authors mentioned the increase of absorbance at 310 nm which is related with the oxidation of iron by the protein. Nevertheless, the authors should present a proper analysis of the data, the initial rate should be determined for each assay, with the corresponding error bar. Moreover, the authors only present one condition tested, in which they have used 0.5 uM with 24uM Fe, corresponding to a ratio of 48 Fe/dodecamer and 4Fe/monomer. A proper kinetic study should be included, using different Fe/dodecamer from 12 to the maximum capacity per dodecamer. In addition, for each assay the iron oxidation rates have to be determined, which is not presented in the current version of the manuscript. As an example &#8220;Abs310nm 0.014 after 2 min&#8221; (page 10, line 230) is not a rate.</p>
+<p>-The main purpose of the kinetics data here was to compare the Fe-oxidation behaviour of NpDps4 under different conditions. Precise quantitative kinetic analyses with iron oxidation rates were not the objective for this study. We believe that our data show the clear qualitative differences between the different samples and thus support our discussion and conclusions. We have thoroughly read through our text to ensure that we don&#180;t claim to have determined any specific kinetic and inhibition parameters, which was outside the scope of our study. </p>
+<p>All data presented originate from the same protein material as was used for the crystallographic work. Two replicate experiments were performed for each analyses. All data from this experiments are now presented in S1 File.</p>
+<p>Page 10, lines 241-251 &#8211; The authors also address the iron oxidation by using hydrogen peroxide. Although they do not see any difference with and without the protein, in order to account only for the contribution of hydrogen peroxide, have the authors performed the assays for iron oxidation by hydrogen peroxide under anaerobic conditions. As mentioned before, the data should be presented with the error bars, and they have to present iron oxidation rates.</p>
+<p>-All our experiments have been conducted under aerobic conditions. Except for the results presented in supplementary material S3 Fig none of the experiments were performed under anaerobic condition. In regards to the Figure 5B showing the oxidation kinetics of the Fe2+ oxidation reaction with H2O2 under aerobic conditions in the presence of NpDps4, we cannot conclude that the observations are only from H2O2. It is likely that O2-mediated Fe2+ oxidation occurs in the presence of NpDps4, however this was not visible in the experiment. By using the same experimental strategy we previously observed a clear difference in the reaction between Fe2+ and H2O2 in the presence of NpDps1, NpDps2 and NpDps3 as compared to without protein (Howe et al. 2018). Thus the Fe2+ oxidation in NpDps4 is clarly different as compared to canonical Dps proteins.</p>
+<p>Howe, C., Ho, F.M., Nenninger, A., Raleiras, P., Stensj&#246;, K. (2018) Differential biochemical properties of three canonical Dps proteins from the cyanobacterium Nostoc punctiforme suggest distinct cellular functions. J. Biol. Chem. 293(43) 16635&#8211;16646.</p>
+<p>Page 11, lines 258-260; Fig 6A- From Fig 6A and from the corresponding legend it is clear that the protein is able to oxidize the iron (black line) but if zinc was added before, the iron oxidation is inhibited. Nevertheless, the corresponding phrase, in the text (page 11, lines 258-260) is not clear, please rephrase it.</p>
+<p>-We agree with reviewerthat the phrase is misleading and have now rewritten the whole paragraph for better clarity.</p>
+<p>Page 15-17, lines 368-415- The authors present an analysis of different amino acid sequences of Dps, and they proposed a His-type FOC. The others NpDps instead of His63 present an aspartate residues, moreover as it states in the Introduction part (page 4, lines 91-92) the NpDps1-3 catalyzes the iron oxidation with hydrogen peroxide and not with oxygen, while NpDps4 is the other way around. So, it would be interesting if the authors could comment on the oxidation rates for the other NpDps or even for &#8220;canonical&#8221; Dps that contain a aspartate residue and their specificity of hydrogen peroxide vs oxygen and histidine vs aspartate.</p>
+<p>-We agree with the reviewer that this is an interesting topic and have now included a short discussion about the putative importance of the exchange of amino acids. </p>
+<p>Page 19, line 481 &#8211; Please define DrDps1, since it is the first time it is mentioned in the text.</p>
+<p>-We added the definition of DrDps 1 in the text.</p>
+<p>Page 20, lines 514-515 &#8211; The authors have wrote that &#8220;ferritins have be found to act as zinc detoxification agents delivering a certain stress resistance&#8221;- do the authors have any evidence that the NpDps4 stores Zn or was only tested for the inhibition of the iron oxidation.</p>
+<p>-We do not have any evidence that NpDps4 stores Zn2+. We have now changed the wording &#8220;have been found&#8221; to &#8220;have been suggested&#8221; as the referred literature did not include strong evidence for ferritins to be a zinc detoxification agent. </p>
+<p>Figure 2 &#8211; The different subunits should be in different colours, similar to the one presented in Figure 4. In addition, the corresponding residues should use the same colour as the subunit, maintaining the red for the oxygen and blue for nitrogen.</p>
+<p>-Yes we agree and have made new figures accordingly. </p>
+<p>Figure 3 &#8211; For clarity, figure 3A should be zoom-in and the residues should be in the same colour as the corresponding subunit, maintaining the red for the oxygen and blue for nitrogen.</p>
+<p>-Yes we agree and the figure has been revised.</p>
+<p>Figure 7 &#8211; From the figure it was not clear the representation of &#8220;lengths of &#945;-helices refer to the crystal structure of NpDps4 and are indicated by black bars and red letters.&#8221; In the figure legend the explanation for the different His-type FOC should be induced, namely the definition of Nx, SynPro, LPP-B, AcTh, Osc, SPM.</p>
+<p>-We implemented the missing black bar and red letter A,B,BC,C and D in Figure 7 that represent the &#945; -helices of NpDps4 and the helix annotation, respectively. For clarity, the sentence was also revised. The abbreviations for the different cyanobacterial classes have been added to the figure legend.</p>
+<p>Figure 7 &#8211; Since N. punctiforme contains five different Dps, is there any reason why NpDps5 was not included in the Multiple sequence alignment presented in Fig. 7. Moreover, for clarity for the reader, the figure should include the name of the organism instead of the protein code. The figure legend should have the information for each protein code and the corresponding name of the organism, as it is currently.</p>
+<p>-NpDps5 was not included into the sequence alignment as it was previously identified to comprise a Bfr-like sequence [Ekman et al. 2014]. We have identified similarities with the Dps-like structures from the archaea Pyrochoccocus furiosus [Ramsay et al. 2006] and Sulfolobus Solfataricus [Gauss  et al. 2006]. NpDps5 requires a separate analysis. We have now included this explanation in the manuscript.</p>
+<p>[Ekman et al.] Ekman M, Sandh G, Nenninger A, Oliveira P, Stensj&#246; K. Cellular and functional specificity among ferritin-like proteins in the multicellular cyanobacterium Nostoc punctiforme. Environ Microbiol. 2014;16(3):829&#8211;44.</p>
+<p>[Ramsay et al.] Ramsay, B., Wiedenheft, B., Allen, M., Gauss, G. H., Martin Lawrence, C., Young, M., and Douglas, T. (2006) Dps-like protein from the hyperthermophilic archaeon Pyrococcus furiosus. J. Inorg. Biochem. 100, 1061&#8211;1068</p>
+<p>[Gauss  et al.] Gauss, G.H.,Benas, P., Wiedenheft, B., Young, M., Douglas, T., and</p>
+<p>Lawrence, C.M. (2006) Structure of the DPS-Like Protein from Sulfolobus solfataricus Reveals a Bacterioferritin-Like Dimetal Binding Site within a DPS-Like Dodecameric</p>
+<p>Assembly  Biochemistry, 45, 10815-10827</p>
+<p>Table 1 &#8211; The authors should comment on why they did not process the data of Metal-free NpDps4 structure to a higher resolution based on their values of I/&#963;(I).</p>
+<p>To be consistent the authors should present the values for highest resolution shell for the Rwork and Rfree.</p>
+<p>-We present the original data from the ESRF synchrotron at high atomic resolution that fulfilled the aim of our study. The values Rwork and Rfree for highest resolution shell are now presented in the table 1.</p>
+<p>Reviewer #2: The authors Howe et al., in their work about the fourth Dps from Nostoc punctiforme has tried to unravel its role in the organism and propose a new class of Dps, having His-type Ferroxidation centres unique to cyanobacteria. They also claim the NpDps4 uses O2 over H2O2 to oxidise iron. Also, crystal structures of apo, iron bound and zinc bound Dps has been analysed and they conclude by spectroscopic assays that binding of Zinc to the FOC inhibits ferroxidation.</p>
+<p>While it&#8217;s interesting to note the presence of a new type of ferroxidation site in cyanobacterial Dps, the authors could not make convincing theories about its possible biological significance. There are also some major points that the authors need to address regarding their other findings to make their claims credible.</p>
+<p>The following points are raised in the order they occur in the text:</p>
+<p>Line 142</p>
+<p>The residues Phe95, Leu98 and Ala99 are mentioned in the text but not marked in the figure.</p>
+<p>-We have made a new figure showing these hydrophobic interactions, to be found in the supplementary data named &#8216;S1 Fig&#8217;.</p>
+<p>Line 157</p>
+<p>&#8230; acid of the trio &#8230;</p>
+<p>-We rephrased accordingly.</p>
+<p>Lines 168-169</p>
+<p>&#8220;each symmetrical amino acid of the trio is indicated only once&#8221;, but Figure 3B shows amino acids from all three monomers related by three-fold.</p>
+<p>-We revised the sentence accordingly.</p>
+<p>Line 174</p>
+<p>How does the authors know SOKALAN66 is a metal chelating agent?</p>
+<p>-This information was provided by the manufacturer, BASF, and we have also experimentally observed that SOKALAN HP66 severely interferes with preparing metal-soaked crystals. Note further that SOKALAN HP66 is a vinylpyrrolidone/vinylimidazole copolymer, i.e there is an abundance of imidazole functional groups, a well-known metal ion chelator. We have included this information to the manuscript.</p>
+<p>Line 176</p>
+<p>Is there any experimental evidence whether it is really Zinc or Iron bound in the crystal structure like anomalous X-ray scattering or even a simple detection of Zinc ions on a gel?</p>
+<p>-The anomalous maps have been included in the supplementary information (S2 Figure) confirming the presence of metal ions in these sites, however it is not possible to distinguish between Zn and Fe using these maps. Due to the high concentrations of metals in the soaking solution we are convinced that the strong electron densities found in the metal binding site indeed represent Fe and Zn respectively. The  protein material, in which no metal could be found in the crystal, served as the basis for the soaking experiments. </p>
+<p>Line 177</p>
+<p>It would be more desirable to show electron density maps to show the fitting of ion atoms in Figure 4</p>
+<p>-Electron density is now shown in the new supplemental figure named &#8216;S2_Figure&#8217;.</p>
+<p>Line 189</p>
+<p>Since the FOC is formed not only of residues from two monomers related by two-fold, but also from a third monomer it is also unusual for Dps proteins.</p>
+<p>-We agree, and as the results and discussion sections are separated in this manuscript, we had included this statement in the discussion section of the revised manuscript </p>
+<p>Lines 213-214</p>
+<p>The sentence can be phrased better.</p>
+<p>-We agree and we revised the sentence.</p>
+<p>Line 220</p>
+<p>What is the rationale of using 24 mM Fe2+ and 0.5 mM NpDps?</p>
+<p>-At a ratio of 48 Fe2+/Dps protein all Fe2+ binding sites inside the Dps dodecamer could be theoretically occupied, as there are 12 FOC with each two iron binding sites per Dps protein (=24 Fe2+ / dodecamer binding sites). Now explained in the manuscript.</p>
+<p>Lines 241-250</p>
+<p>If the ferroxidation experiments using H2O2 were done under aerobic conditions, how does the authors discount for the effect of O2 on oxidation and especially as they&#8217;re comparing the ferroxidation properties between O2 and H2O2. It is strange that the graph doesn&#8217;t show any increase in ferroxidation under aerobic conditions, as in the above paragraph they show that oxygen can be used for ferroxidation by NpDps4.</p>
+<p>-Yes we agree that this is a relevant comment. We did not discount for the effect of O2 on the reaction shown in Figure 5 B. It is likely that O2-mediated Fe2+ oxidation occurs in the presence of NpDps4, however this was not visible in the experiment. By using the same experimental set up we earlier observed a clear difference in the reaction between Fe2+ and H2O2 in the presence of NpDps1, NpDps2 and NpDps3 as compared to without protein (Howe et al. 2018). Thus showing a difference in Fe2+ oxidation in NpDps4 as compared to canonical Dps proteins.</p>
+<p>It may be that NpDps4 utilises H2O2 for Fe2+ oxidation, but the catalytic effect has not been observed during the reaction as compared to the control in the absence of NpDps4. Changes in the text have been made accordingly.</p>
+<p>Lines 262-263</p>
+<p>Does the inhibition of ferroxidation by Zinc related to it causing protein aggregation as it is mentioned in line 263 that Zinc negatively impacts protein solubility?</p>
+<p>-Currently we don&#8217;t see any relation between Zn2+ inhibition and this putative protein aggregation or precipitation process. </p>
+<p>Additionally we show that the addition of Zn2+ during the course of the O2-mediated Fe2+ reaction quickly inhibited NpDps4 (Fig. 6B), a much faster response as compared to the slow gradual increase of the background absorption. We revised some sentences in the result part for clarity.</p>
+<p>Lines 282-288</p>
+<p>Addition of Zinc indicated by arrow is misleading in Figure 6B as the black graph shows the reaction without Zn addition. In line 287 the authors mean figure 6B and not 6A?</p>
+<p>-We agree with the reviewer that the arrow might be misleading in the Figure 6 B. To emphasize that no Zn2+ was added in the black kinetic trace. The figure was modified for clarity: &#8220;In the presence of 0.5 &#181;M NpDps4 24 &#181;M Fe2+ was added to the reaction mixture (black graph) and no Zn2+ was added during the course of the reaction&#8221;. Further clarifications were done to the figure. </p>
+<p>-Yes. It was meant 6 B, black graph, thank you!</p>
+<p>Line 302</p>
+<p>Figure 7 is illegible, and nothing can be inferred from it. So, the authors most important claim that the his-type FOC is conserved across cyanobacteria cannot be ascertained at all from the figure.</p>
+<p>-The Figure was originally provided with 300 dpi. We provide the Figure now in 600 dpi.</p>
+<p>Furthermore, we modified Figure 7 to highlight the variety of cyanobacteria, in which the His-type FOC was found. Figure 7 now contains further information about the strains&#8217; morphology (unicellular or filamentous), their capacity of forming heterocysts for N2- fixation and their origin - whether isolated in a marine or freshwater environment [Uyeda et al.]. We hope that the figure now better illustrate that the his-type FOC is (not conserved but) widely spread among cyanobacteria. </p>
+<p>[Uyeda et al.]Uyeda, J. C., Harmon, L. J., and Blank, C. E. (2016) A comprehensive study of cyanobacterial morphological and ecological evolutionary dynamics through deep geologic time. PLoS One. 11, 1&#8211;32</p>
+<p>Line 392</p>
+<p>It&#8217;s not clear to the reader what is &#8216;the specific function&#8217; in cyanobacteria.</p>
+<p>-We agree that the sentence in L392 was not clear and we have now revised it.</p>
+<p>Line 470</p>
+<p>Recent developments on the dps-like interface and its role as an evolutionary switch between dps and ferritins has to be mentioned when discussing the role of this interface.</p>
+<p>-The authors agree with reviewer #2 that the Dps-like interface displays a crucial structural element that evolutionarily is linked to maxiferritins. We included the following sentences at the end of the paragraph in the discussion section:</p>
+<p>&#8220;However, the interface at the Dps-like pores has additionally been identified to be a crucial structural element that evolutionarily links maxiferritins with Dps proteins [56]. It was shown that a single mutation at this interface could render the dodecameric structure of a Dps protein into a maxiferritin during protein crystallization&#8221;   </p>
+<p>Lines 620-621</p>
+<p>During the ferroxidation experiment the authors talk of mixing the reaction by resuspension. How do they account for the reaction time that has elapsed during this process? Wherever possible cuvettes with stirrers should be used as these reaction rates can be pretty fast, especially the rates with H2O2.</p>
+<p>-The spectroscopic data was collected to compare Fe-oxidation behaviour under different conditions and precise quantitative analysis was not the objective here. All the experiments have been conducted the same way and the time elapsed during mixing was between 8-10 sec long, for all experiments. By this experimental design we were able to determine qualitative differences. We did not attempt to extract kinetics and inhibitions parameters. Although very interesting, quantitation was not the aim of the ferroxidation analyses in this study.</p>
+<p>Line 626</p>
+<p>Ideally kinetic data should be evaluated from 3-4 experiments and at least two different protein preparations.</p>
+<p>-The extraction of kinetic parameters for quantification was outside the scope of this manuscript and we performed two individual experiments for comparative qualitative analysis purposes (the replicate data is now included in the S1 file with raw data). For consistent we used the same protein material for both the crystallisation experiments and the spectroscopic experiment. Further experiments with  a protein preparation of Strep-tagged NpDps4 showed very similar qualitative results (not included in this manuscript).</p>
+</body>
+</sub-article>

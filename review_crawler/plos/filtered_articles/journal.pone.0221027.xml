@@ -1,0 +1,679 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221027</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17592</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Bacterial diseases</subject><subj-group><subject>Tuberculosis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Tropical diseases</subject><subj-group><subject>Tuberculosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Africa</subject><subj-group><subject>Ethiopia</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Tuberculosis diagnosis and management</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>African people</subject><subj-group><subject>Somalian people</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Geoinformatics</subject><subj-group><subject>Spatial analysis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Geography</subject><subj-group><subject>Geoinformatics</subject><subj-group><subject>Spatial analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Geoinformatics</subject><subj-group><subject>Spatial autocorrelation</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Geography</subject><subj-group><subject>Geoinformatics</subject><subj-group><subject>Spatial autocorrelation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Monte Carlo method</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Monte Carlo method</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>RNA viruses</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Spatial clustering of notified tuberculosis in Ethiopia: A nationwide study</article-title>
+<alt-title alt-title-type="running-head">Spatial clustering of tuberculosis in Ethiopia</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Alene</surname>
+<given-names>Kefyalew Addis</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Clements</surname>
+<given-names>Archie C. A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Faculty of Health Sciences, Curtin University, Perth, Western Australia, Australia</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Wesfarmers Centre of Vaccines and Infectious Diseases, Telethon Kids Institute, Perth, Western Australia, Australia</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Institute of Public Health, College of Medicine and Health Sciences, University of Gondar, Gondar, Ethiopia</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Ciccozzi</surname>
+<given-names>Massimo</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Campus Biomedico, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">kefyalew.alene@telethonkids.org.au</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>9</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0221027</elocation-id>
+<history>
+<date date-type="received">
+<day>21</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>30</day>
+<month>7</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Alene, Clements</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221027" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Tuberculosis (TB) remains a major health problem worldwide and in Ethiopia. This study aimed to investigate the spatial distributions of notified TB over the whole territory of Ethiopia and to quantify the role of health care access, environmental, socio-demographic, and behavioural factors associated with the clustering of TB.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>A spatial analysis was conducted using national TB data reported between June 2016 and June 2017 in Ethiopia. Spatial clustering of TB was explored using Moran&#8217;s I statistic and the local indicator of spatial autocorrelation (LISA). A multivariate Poisson regression model was developed with a conditional autoregressive (CAR) prior structure and with posterior parameters estimated using Bayesian Markov chain Monte Carlo (MCMC) simulation with Gibbs sampling to investigate the drivers of the clustering.</p>
+</sec>
+<sec id="sec003">
+<title>Result</title>
+<p>A total of 120,149 TB cases were reported from 745 districts in Ethiopia during the study period; 41,343 (34%) were bacteriologically confirmed new pulmonary TB and 33,997 (28%) were clinically diagnosed, new, smear-negative pulmonary TB patients. The nationwide annual incidence rate of notified TB was 112 per 100,000 population. The highest incidence was observed in three city administrative regions, namely Dire Dewa (348 cases per 100,000 population), Addis Ababa (262 per 100,000 population) and Harari (206 per 100,000 population), and the lowest incidence was observed in Somali region (51 per 100,000 population). High-high spatial clustering of notified TB was detected at Humera, Gog, and Surima district, and low-low clustering was detected in some districts located in the Somali region. Poor health care access (IRR = 0.78; 95%CI: 0.66, 0.90) and good knowledge about TB (IRR = 0.84; 95%CI: 0.73, 0.96) were negatively associated with the incidence of notified TB.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>Substantial spatial clustering of notified TB was detected at region, zone and district level in Ethiopia. Health care access and knowledge about TB was associated with incidence of TB. This study may provide policy makers target hotspot areas, where national control programs could be implemented more efficiently for the prevention and control of TB, and to address potential under-reporting in poor access areas.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="2" />
+<page-count count="11" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Despite being preventable and treatable, tuberculosis (TB) remains the leading cause of death from an infectious disease worldwide, killing more than one million people every year. According to the WHO&#8217;s 2018 report, there were an estimated 10 million cases of TB and 1.6 million deaths due to TB globally in 2017 [<xref ref-type="bibr" rid="pone.0221027.ref001">1</xref>]. The magnitude of the disease varies by country, with low and middle-income countries most affected [<xref ref-type="bibr" rid="pone.0221027.ref002">2</xref>]. Approximately 87% of the world&#8217;s TB cases occur in the 30 high TB burden countries [<xref ref-type="bibr" rid="pone.0221027.ref003">3</xref>]. The African continent accounts for one quarter (25%) of the world&#8217;s TB cases and the highest proportion of TB cases co-infected with human immunodeficiency virus (HIV) [<xref ref-type="bibr" rid="pone.0221027.ref001">1</xref>].</p>
+<p>Ethiopia is one of the 30 designated high TB burden countries globally, with an estimated 170,000 cases and 25,000 deaths due to TB in 2017 [<xref ref-type="bibr" rid="pone.0221027.ref003">3</xref>]. The country has been implementing the directly observed treatment, short course (DOTS) strategy since 1994 [<xref ref-type="bibr" rid="pone.0221027.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0221027.ref005">5</xref>], and recently adopted the global end-TB strategies. Clear information about locations with the greatest TB burden is needed to guide tailored interventions and target preventive and treatment measures.</p>
+<p>Previous studies conducted in Ethiopia reported spatial clustering of TB at a sub-national level and identified ecological factors associate with TB clustering [<xref ref-type="bibr" rid="pone.0221027.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0221027.ref007">7</xref>]. However, the studies were limited only to some parts of the country and did not assess the effects of health care access, knowledge about TB, or behavioural factors on clustering of TB. To date, no nationwide spatial analysis of TB incidence has been reported in Ethiopia.</p>
+<p>The aim of this study was to quantify the spatial patterns of notified TB in Ethiopia at district level, using a Bayesian statistical framework, and to quantify the role of environmental, socio-demographic, behavioural, and health care access factors in influencing the distribution of the disease.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec007">
+<title>Study area</title>
+<p>The study was conducted in Ethiopia, the second most populous country in Africa, with a population size of around 100 million [<xref ref-type="bibr" rid="pone.0221027.ref008">8</xref>]. The country is administratively divided into 9 regions and 2 administrative cities (Addis Ababa and Dire Diwa), and has a tiered administrative system consisting of regional states (first-level), zones (second-level), districts (woreda), and neighbourhoods (kebeles). The districts are the third-level administrative divisions where TB data are aggregated and reported to the national level.</p>
+</sec>
+<sec id="sec008">
+<title>Study design and data sources</title>
+<p>This ecological study used nationwide notified TB data, obtained from the Health Management Information System (HMIS) in the Ethiopian Ministry of Health. The study included all forms of TB (including bacteriologically confirmed new pulmonary TB, clinically diagnosed new smear negative pulmonary TB, clinically diagnosed extra pulmonary TB, bacteriologically confirmed relapse pulmonary TB, TB after relapse, TB after treatment failure and TB after loss to follow up) that had been reported to the HMIS from all district of Ethiopia, during the period June 2016 to June 2017. Population estimates used in this study were obtained from the Ethiopia Central Statistical Agency (CSA) projection report [<xref ref-type="bibr" rid="pone.0221027.ref008">8</xref>]. A wide range of socioeconomic, environmental, behavioural, and health care access data were collected from different sources, including from the Ethiopia Demographic and Health Survey (EDHS), EDHS spatial data repository, and the Atlas of Population Density (<xref ref-type="supplementary-material" rid="pone.0221027.s001">S1 Table</xref>). Data on the knowledge and attitudes of the population regarding TB were obtained from the 2011 EDHS. Data on health care access and behavioural factors such as chat chewing, and alcohol drinking were obtained from the 2016 EDHS. Socio-economic data such as population density, dependency ratio, average number of people in the household, unemployed rate, and literacy rate were obtained from the Ethiopia Atlas of Population Density, and the wealth index was obtained from the 2016 EDHS. Climatic and environmental data such as Enhanced Vegetation Index, rainfall, aridity, and mean temperature were obtained from the EDHS Spatial Analysis repository.</p>
+</sec>
+<sec id="sec009">
+<title>Data analysis</title>
+<p>Statistical analyses were performed in stages. First, the standardized morbidity ratio (SMR) of notified TB for each district was calculated by dividing the observed number of TB cases by the expected number, which was calculated as the product of overall incidence of TB and the average population for each district during the study period. We grouped all forms of TB into a single outcome. A separate analysis was also performed for bacteriologically confirmed new TB only because smear-positive TB cases are the largest source of new TB infections in the community, and this analysis could provide clues about the transmission of TB in the districts.</p>
+<p>Second, exploratory spatial analysis was conducted with the Global Moran&#8217;s I test and the local indicator of spatial autocorrelation (LISA) to assess for the presence of spatial autocorrelation and for the detection of hotspot areas, respectively.</p>
+<p>Third, univariable Poisson regression models were built to select covariates appropriate for the spatial analysis. All significant variables in the univariable analysis, at an alpha level = 0.2, were tested for multicollinearity and those variables with a variance inflation factor (VIF) less than 6 were selected for the final spatial model.</p>
+<p>Fourth, a multivariate Poisson regression model was developed with the covariates selected during the univariable modelling stage, a spatially unstructured random effect, and a spatially structured random effect designed using a conditional autoregressive (CAR) prior structure.[<xref ref-type="bibr" rid="pone.0221027.ref009">9</xref>] Posterior parameter distributions were estimated using a Bayesian Markov chain Monte Carlo (MCMC) simulation approach with Gibbs sampling, in the WinBUGS statistical software (WinBUGS, MRC Statistical Unit, Cambridge, UK). The complete model was constructed as follows:
+<disp-formula id="pone.0221027.e001">
+<alternatives>
+<graphic id="pone.0221027.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221027.e001" ns0:type="simple" />
+<ns1:math display="block" id="M1">
+<ns1:msub><ns1:mi>Y</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>&#8764;</ns1:mo><ns1:mi mathvariant="normal">Poissson</ns1:mi><ns1:mo>(</ns1:mo><ns1:msub><ns1:mi>&#956;</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>)</ns1:mo><ns1:mo>;</ns1:mo>
+</ns1:math>
+</alternatives>
+</disp-formula>
+<disp-formula id="pone.0221027.e002">
+<alternatives>
+<graphic id="pone.0221027.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221027.e002" ns0:type="simple" />
+<ns1:math display="block" id="M2">
+<ns1:mi>L</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>g</ns1:mi><ns1:mspace width="0.25em" /><ns1:mo>(</ns1:mo><ns1:mi mathvariant="normal">&#956;</ns1:mi><ns1:mi>i</ns1:mi><ns1:mo>)</ns1:mo><ns1:mo>=</ns1:mo><ns1:mi>l</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>g</ns1:mi><ns1:mspace width="0.25em" /><ns1:mo>(</ns1:mo><ns1:mi>E</ns1:mi><ns1:mi>i</ns1:mi><ns1:mo>)</ns1:mo><ns1:mo>+</ns1:mo><ns1:mi>&#945;</ns1:mi><ns1:mo>+</ns1:mo><ns1:mi>&#946;</ns1:mi><ns1:mi>k</ns1:mi><ns1:mspace width="0.25em" /><ns1:mi>X</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>k</ns1:mi><ns1:mo>+</ns1:mo><ns1:mi>U</ns1:mi><ns1:mi>i</ns1:mi><ns1:mo>+</ns1:mo><ns1:mi>V</ns1:mi><ns1:mi>i</ns1:mi><ns1:mo>;</ns1:mo>
+</ns1:math>
+</alternatives>
+</disp-formula>
+where <italic>Y</italic><sub><italic>i</italic>,</sub> the observed number of notified TB cases in district <italic>i</italic>, was assumed to follow a Poisson distribution with mean <italic>&#956;</italic><sub><italic>i</italic></sub>; <italic>E</italic><sub><italic>i</italic></sub> was the expected number of notified TB cases in district <italic>i</italic>, <italic>&#945;</italic> was the intercept; <italic>&#946;</italic><sub><italic>k</italic></sub> was the coefficient for covariate <italic>X</italic><sub><italic>k</italic></sub>, <italic>Ui</italic> were unstructured random effects and <italic>V</italic><sub><italic>i</italic></sub> were spatially structured random effects. To define the CAR prior structure of the spatially structured random effects, a neighbourhood weights matrix was developed using the queen definition, whereby two areas were considered as neighbours if they shared a common boundary or vertex. Weights were allocated a value of 1 if a pair of districts were neighbouring and otherwise a value of zero. Non-informative priors were specified for the intercept <italic>&#945;</italic> (a non-informative, improper prior with bounds - &#8734; and +&#8734;) and the coefficients (normal prior with mean = 0 and precision 1&#215; 10<sup>&#8722;6</sup>). The priors for the precision of the unstructured and spatially structured random effects were assigned non-informative gamma distributions with shape and scale parameters set at 0.001. Multiple variations of the model were fitted, including versions without the structured and unstructured effects, and covariates, to establish whether inclusion of these components improved model fit. The models were run for 1,000,000 iterations and convergence was successfully achieved after 900,000 iterations for each of the models. Convergence of the models was determined by visual inspection of posterior kernel density and history plots. The best fitting model was selected based on the deviance information criteria (DIC), whereby a model with a lower DIC value was selected and reported as a better-fitting, more parsimonious model.</p>
+</sec>
+<sec id="sec010">
+<title>Ethics clearance</title>
+<p>This study was approved by the Australian National University Human Research Ethics Committee (protocol number 2016/218) and a letter of endorsement was obtained from the Ethiopian Ministry of Health.</p>
+</sec>
+</sec>
+<sec id="sec011" sec-type="results">
+<title>Results</title>
+<p><xref ref-type="table" rid="pone.0221027.t001">Table 1</xref> shows the summary statistics of notified TB in Ethiopia reported from 745 districts for the period June 2016 to June 2017. A total of 120,149 TB cases were reported during the study period; 41,343 (34%) were bacteriologically confirmed new pulmonary TB and 33,997(28%) were clinically diagnosed, new, smear-negative pulmonary TB patients. The national annual incidence rate of notified TB was 112 per 100,000 population. The highest incidence rate of notified TB was observed in three city administration regions, namely Dire Dewa (348 cases per 100,000 population), Addis Ababa (262 per 100,000 population) and Harari (206 per 100,000 population); whereas the lowest notified TB incidence rate was observed in Somali region (51 per 100,000 population) (<xref ref-type="fig" rid="pone.0221027.g001">Fig 1</xref>).</p>
+<fig id="pone.0221027.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Tuberculosis notification rate per 100,000 population by regions in Ethiopia, 2016&#8211;2017.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.g001" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0221027.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.t001</object-id>
+<label>Table 1</label> <caption><title>Number and percentage of tuberculosis patients reported in Ethiopia stratified by type of tuberculosis.</title></caption>
+<alternatives>
+<graphic id="pone.0221027.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#FBE4D5">Type of TB</th>
+<th align="left" style="background-color:#FBE4D5">Number</th>
+<th align="left" style="background-color:#FBE4D5">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify">Bacteriologically confirmed new pulmonary TB</td>
+<td align="justify">41343</td>
+<td align="justify">34.4</td>
+</tr>
+<tr>
+<td align="justify">Clinically diagnosed new smear negative pulmonary</td>
+<td align="justify">33997</td>
+<td align="justify">28.3</td>
+</tr>
+<tr>
+<td align="justify">Clinically diagnosed new extra pulmonary TB</td>
+<td align="justify">37557</td>
+<td align="justify">31.3</td>
+</tr>
+<tr>
+<td align="justify">Bacteriologically confirmed relapse pulmonary TB</td>
+<td align="justify">2557</td>
+<td align="justify">2.1</td>
+</tr>
+<tr>
+<td align="justify">Tuberculosis treatment after relapse</td>
+<td align="justify">3162</td>
+<td align="justify">2.6</td>
+</tr>
+<tr>
+<td align="justify">Tuberculosis treatment after failure</td>
+<td align="justify">421</td>
+<td align="justify">0.4</td>
+</tr>
+<tr>
+<td align="justify">Tuberculosis treatment after loss to follow-up</td>
+<td align="justify">325</td>
+<td align="justify">0.3</td>
+</tr>
+<tr>
+<td align="justify">Tuberculosis other<xref ref-type="table-fn" rid="t001fn001">*</xref></td>
+<td align="justify">627</td>
+<td align="justify">0.5</td>
+</tr>
+<tr>
+<td align="justify">MDR-TB</td>
+<td align="justify">160</td>
+<td align="justify">0.1</td>
+</tr>
+<tr>
+<td align="justify" style="background-color:#FBE4D5">Total</td>
+<td align="justify" style="background-color:#FBE4D5">120149</td>
+<td align="justify" style="background-color:#FBE4D5" />
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>* Previously treated unknown and undocumented treatment outcome</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The incidence rate of bacteriologically confirmed and all forms of notified TB at zone level are presented in the appendix <xref ref-type="supplementary-material" rid="pone.0221027.s002">S2 Table</xref>. We observed spatial variation in the notified TB incidence rate at the district levels. <xref ref-type="fig" rid="pone.0221027.g002">Fig 2</xref> shows the distribution of standardized morbidity ratios (SMR) of TB at district level in Ethiopia. The highest SMR of TB were found in districts located in the central part of the country, and in districts near to the regional cities. The SMR of notified TB were relatively low in the eastern part of the country, in Somali Region.</p>
+<fig id="pone.0221027.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Geographical distribution of the standardized morbidity ratios (SMR) of notified tuberculosis at district level in Ethiopia, 2016 to 2017.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.g002" ns0:type="simple" />
+</fig>
+<sec id="sec012">
+<title>Spatial clustering of notified TB</title>
+<p>The initial exploratory analysis showed positive global spatial autocorrelation (with a Moran&#8217;s I index = 0.144; p-value = 0.017) and local spatial clusters of TB (<xref ref-type="fig" rid="pone.0221027.g003">Fig 3</xref>). In the LISA analysis, districts located in Somali Region showed a low-low type of relationship, meaning that these districts had a low incidence of notified TB and the surrounding districts had also low notified TB incidence (<xref ref-type="fig" rid="pone.0221027.g003">Fig 3</xref>). A high-high cluster of notified TB was found in northwest Ethiopia, which is located on the Ethiopia and Eritrea border. The maps of bacteriologically confirmed new pulmonary TB showed a low-low clustering of notified TB in Amhara, Tigray, and Somali regions. A high-high cluster of bacteriologically confirmed TB was also found in districts located in Gambela and Southern regions (<xref ref-type="fig" rid="pone.0221027.g003">Fig 3</xref>).</p>
+<fig id="pone.0221027.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Spatial clustering of bacteriologically confirmed and all forms of tuberculosis in Ethiopia based on the Local Moran&#8217;s I statistic, between 2015 to 2017.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec013">
+<title>Factors associated with spatial clustering of notified TB</title>
+<p><xref ref-type="table" rid="pone.0221027.t002">Table 2</xref> shows the Bayesian multivariable Poisson regression model of ecological-level factors associated with notified incidence of TB in Ethiopia. The model with spatially structured random effect (excluding the unstructured random effect) was the best-fitting of the Bayesian models. It showed that the incidence of notified TB was significantly associations with poor health care access (IRR = 0.78; 95%CI: 0.66, 0.90), and good knowledge about TB (IRR = 0.84; 95%CI: 0.73, 0.96) (<xref ref-type="table" rid="pone.0221027.t002">Table 2</xref>). The maps of the posterior means of the spatially structured random effects demonstrated evidence of spatial clustering of notified TB after accounting for the model covariates (<xref ref-type="fig" rid="pone.0221027.g004">Fig 4</xref>).</p>
+<fig id="pone.0221027.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Posterior mean of spatially structured random effects for notified incidence of TB in Ethiopia.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.g004" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0221027.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221027.t002</object-id>
+<label>Table 2</label> <caption><title>Bayesian Poisson regression model with spatially structured and spatially unstructured random effects for notified incidence of tuberculosis in Ethiopia, 2016 to 2017.</title></caption>
+<alternatives>
+<graphic id="pone.0221027.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2" style="background-color:#FBE4D5"><break />Variables</th>
+<th align="left" style="background-color:#FBE4D5">Spatially unstructured model</th>
+<th align="left" style="background-color:#FBE4D5">Spatially structured model</th>
+</tr>
+<tr>
+<th align="left" style="background-color:#FBE4D5">RR (95%CrI)</th>
+<th align="left" style="background-color:#FBE4D5">RR (95%CrI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Low wealth index</td>
+<td align="left">0.89 (0.74, 1.06)</td>
+<td align="left">0.96(0.79, 1.152)</td>
+</tr>
+<tr>
+<td align="left"><bold>Health care access problem</bold></td>
+<td align="left"><bold>0.74 (0.63, 0.86)</bold></td>
+<td align="left"><bold>0.78 (0.66, 0.90)</bold></td>
+</tr>
+<tr>
+<td align="left">Proximity to national borders</td>
+<td align="left">1.17 (0.996,1.37)</td>
+<td align="left">1.12(0.86, 1.46)</td>
+</tr>
+<tr>
+<td align="left"><bold>Good knowledge about TB</bold></td>
+<td align="left"><bold>0.73 (0.62, 0.84)</bold></td>
+<td align="left"><bold>0.84 (0.73, 0.96)</bold></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FBE4D5">Constant (alpha)</td>
+<td align="left" style="background-color:#FBE4D5">-0.18(-0.32, -0.03)</td>
+<td align="left" style="background-color:#FBE4D5">-0.18(-0.19, -0.16)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FBE4D5">Heterogeneity</td>
+<td align="left" style="background-color:#FBE4D5">2.11 (1.51, 2.82)</td>
+<td align="left" style="background-color:#FBE4D5">0.65 (0.47, 0.87)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FBE4D5">DIC</td>
+<td align="left" style="background-color:#FBE4D5">911.0</td>
+<td align="left" style="background-color:#FBE4D5">809.0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Discussion</title>
+<p>This is the first nationwide study to investigate the spatial distribution of notified TB in Ethiopia and to assess the role of health care access and behavioural factors on spatial clustering of notified TB. The result of this research showed that TB was spatially clustered in Ethiopia and there were significant relationships between incidence of notified TB and access to health care and knowledge about TB.</p>
+<p>In this study, we found that the annual incidence rate of notified TB was 112 per 100,000 population, which is similar with the WHO TB 2018 report for Ethiopia (112.1 cases per 100,000 population) [<xref ref-type="bibr" rid="pone.0221027.ref001">1</xref>]. The incidence of TB reported in this study was higher compared to some other African countries, such as Egypt, Ghana, and Sudan [<xref ref-type="bibr" rid="pone.0221027.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0221027.ref002">2</xref>]. The high incidence rate of TB in Ethiopia presents a serious challenge for the national TB control efforts to achieve the global end-TB targets [<xref ref-type="bibr" rid="pone.0221027.ref010">10</xref>].</p>
+<p>A higher incidence of notified TB was observed in city administration regions, including Addis Ababa (the capital city of Ethiopia), Dire Dewa (chartered city) and Harari (city administration region) and regional cities such as Adama, Jimma, and Bahirdar. This finding agrees with our previous studies in northwest Ethiopia where TB transmission and MDR-TB incidence rate were significantly associated with urbanization [<xref ref-type="bibr" rid="pone.0221027.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0221027.ref007">7</xref>]. Previous studies have also reported a relatively higher notification rate of TB in urban areas than in rural areas [<xref ref-type="bibr" rid="pone.0221027.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0221027.ref012">12</xref>]. There could be several reasons for this: the effect of urban residence on TB may be partially due to the higher HIV prevalence in urban areas [<xref ref-type="bibr" rid="pone.0221027.ref013">13</xref>&#8211;<xref ref-type="bibr" rid="pone.0221027.ref016">16</xref>]; and higher transmission could also occur in urban areas as a result of overcrowding and higher population density [<xref ref-type="bibr" rid="pone.0221027.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0221027.ref017">17</xref>]. On the other hand, TB patients living in urban areas may have better access to TB diagnostic services and therefore more likely to report TB cases and be notified compared to patients living in rural areas where there is limited access to TB diagnostic services [<xref ref-type="bibr" rid="pone.0221027.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0221027.ref019">19</xref>].</p>
+<p>High-high spatial clustering of notified TB was observed in districts located in the border regions and having high HIV prevalence [<xref ref-type="bibr" rid="pone.0221027.ref020">20</xref>]. Low-low clustering was observed in districts in Somali Region, a region with a lack of health care access and basic infrastructure [<xref ref-type="bibr" rid="pone.0221027.ref021">21</xref>].</p>
+<p>Another finding of this study was that the incidence of notified TB was negatively associated with access to health care. This means that as the proportion of people in a district with difficulty of getting advice or treatment due to lack of money, or distance to a health facility increased, the TB notification rate decreased. This suggests that districts that had better access to health care were more likely to have better access to TB diagnostic and treatment services and therefore TB was more likely to be diagnosed and notified compared with districts that had poor access to health care [<xref ref-type="bibr" rid="pone.0221027.ref022">22</xref>]. Previous studies reported that a large proportion of TB patients remained undiagnosed because of a lack of access to health care services [<xref ref-type="bibr" rid="pone.0221027.ref023">23</xref>, <xref ref-type="bibr" rid="pone.0221027.ref024">24</xref>].</p>
+<p>Our study also showed that a unit increase in the percentage of people with good knowledge about TB was associated with a 16% decrease in TB risk. Creating awareness about the prevention and control of TB in the community has been the cornerstone of the National Tuberculosis Control Programme to reduce the incidence rate of TB [<xref ref-type="bibr" rid="pone.0221027.ref025">25</xref>&#8211;<xref ref-type="bibr" rid="pone.0221027.ref027">27</xref>]. However, according to the EDHS report, the knowledge of the community about the transmission and prevention of TB in Ethiopia was low; only 56% of women, 65% of men, 74% of urban residents and 62% of rural residents who had heard of TB knew that TB was spread through the air by coughing [<xref ref-type="bibr" rid="pone.0221027.ref028">28</xref>].</p>
+<p>This study had some limitations. The accuracy of our estimates is primarily determined by the quality of HMIS data. Notably, the low TB case notification rates in some districts may not reflect the true burden of disease in these districts. A lack of health care services may be a barrier to TB patients being notified by the national TB surveillance system.</p>
+</sec>
+<sec id="sec015" sec-type="conclusions">
+<title>Conclusion</title>
+<p>This study showed substantial geographical variation in notified TB incidence in Ethiopia and provided maps that could be important source of evidence for planning TB control and prevention programs. High annual incidence rate of notified TB was observed in Ethiopia, and clustering of notified TB was found in some parts of the country. Ecological-level factors such as health care access and knowledge about TB were associated with the clustering of TB.</p>
+</sec>
+<sec id="sec016">
+<title>Supporting information</title>
+<supplementary-material id="pone.0221027.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Summary of independent variables, sources of data and definition of variables.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221027.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>The incidence rate of bacteriologically confirmed and all forms of tuberculosis in Ethiopia at zone level and region level, between June 2016 and June 2017.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221027.ref001"><label>1</label><mixed-citation publication-type="book" ns0:type="simple"><collab>WHO</collab>. <chapter-title>Global tuberculosis report 2018</chapter-title>. <publisher-name>World Health Organization</publisher-name>. <publisher-loc>Geneva</publisher-loc>: <year>2018</year>.</mixed-citation></ref>
+<ref id="pone.0221027.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kyu</surname> <given-names>HH</given-names></name>, <name name-style="western"><surname>Maddison</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Henry</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Ledesma</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Wiens</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Reiner</surname> <given-names>R</given-names> <suffix>Jr</suffix></name>, <etal>et al</etal>. <article-title>Global, regional, and national burden of tuberculosis, 1990&#8211;2016: results from the Global Burden of Diseases, Injuries, and Risk Factors 2016 Study</article-title>. <source>The Lancet Infectious Diseases</source>. <year>2018</year>;<volume>18</volume>(<issue>12</issue>):<fpage>1329</fpage>&#8211;<lpage>49</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1473-3099(18)30625-X" ns0:type="simple">10.1016/S1473-3099(18)30625-X</ext-link></comment> <object-id pub-id-type="pmid">30507459</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref003"><label>3</label><mixed-citation publication-type="book" ns0:type="simple"><collab>WHO</collab>. <source>Use of high burden country lists for TB by WHO in the post-2015 era</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0221027.ref004"><label>4</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Reves</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Angelo</surname> <given-names>S</given-names></name>. <chapter-title>As Ethiopia moves toward tuberculosis elimination, success requires higher investment</chapter-title>. <publisher-loc>Washington DC</publisher-loc>: <publisher-name>Center for Strategic and International Studies</publisher-name>. <year>2016</year>.</mixed-citation></ref>
+<ref id="pone.0221027.ref005"><label>5</label><mixed-citation publication-type="other" ns0:type="simple">MOH. Annual tuberculoiss bulletin. Addis Ababa: National TB and Leprosy Control Program Diseases Prevention and Control Directorate, Federal Ministry of Health, 2015.</mixed-citation></ref>
+<ref id="pone.0221027.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alene</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Viney</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>McBryde</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Clements</surname> <given-names>AC</given-names></name>. <article-title>Spatial patterns of multidrug resistant tuberculosis and relationships to socio-economic, demographic and household factors in northwest Ethiopia</article-title>. <source>PloS one</source>. <year>2017</year>;<volume>12</volume>(<issue>2</issue>):<fpage>e0171800</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0171800" ns0:type="simple">10.1371/journal.pone.0171800</ext-link></comment> <object-id pub-id-type="pmid">28182726</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alene</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Viney</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>McBryde</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Clements</surname> <given-names>ACA</given-names></name>. <article-title>Spatiotemporal transmission and socio-climatic factors related to paediatric tuberculosis in north-western Ethiopia</article-title>. <source>Geospat Health</source>. <year>2017</year>;<volume>12</volume>(<issue>2</issue>):<fpage>575</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4081/gh.2017.575" ns0:type="simple">10.4081/gh.2017.575</ext-link></comment> <object-id pub-id-type="pmid">29239568</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref008"><label>8</label><mixed-citation publication-type="other" ns0:type="simple">UN. World Population Prospects: The 2017 Revision. 2017.</mixed-citation></ref>
+<ref id="pone.0221027.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Besag</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>York</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mollie</surname> <given-names>A</given-names></name>. <article-title>Bayesian image restoration with two applications in spatial statistics</article-title>. <source>Annals of the Institute of Statistics and Mathematics</source>. <year>1991</year>;<volume>43</volume>: <fpage>1</fpage>&#8211;<lpage>59</lpage>.</mixed-citation></ref>
+<ref id="pone.0221027.ref010"><label>10</label><mixed-citation publication-type="other" ns0:type="simple">WHO. Gear up to end TB: introducing the end TB strategy. World Health Organization, 2015.</mixed-citation></ref>
+<ref id="pone.0221027.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shen</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xia</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Tuberculosis in an urban area in China: differences between urban migrants and local residents</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>11</issue>):<fpage>e51133</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0051133" ns0:type="simple">10.1371/journal.pone.0051133</ext-link></comment> <object-id pub-id-type="pmid">23226479</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Marais</surname> <given-names>BJ</given-names></name>. <article-title>Mycobacterium tuberculosis infection burden in poor urban communities</article-title>. <source>The Lancet Child &amp; adolescent health</source>. <year>2018</year>;<volume>2</volume>(<issue>1</issue>):<fpage>7</fpage>&#8211;<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0221027.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mnyika</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Klepp</surname> <given-names>K-I</given-names></name>, <name name-style="western"><surname>Kv&#229;le</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Nilssen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kissila</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Ole-King'ori</surname> <given-names>N</given-names></name>. <article-title>Prevalence of HIV-1 infection in urban, semi-urban and rural areas in Arusha region, Tanzania</article-title>. <source>AIDS (London, England)</source>. <year>1994</year>;<volume>8</volume>(<issue>10</issue>):<fpage>1477</fpage>&#8211;<lpage>81</lpage>.</mixed-citation></ref>
+<ref id="pone.0221027.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Abebe</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Schaap</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mamo</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Negussie</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Darimo</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wolday</surname> <given-names>D</given-names></name>. <article-title>HIV prevalence in 72 000 urban and rural male army recruits, Ethiopia</article-title>. <source>Aids</source>. <year>2003</year>;<volume>17</volume>(<issue>12</issue>):<fpage>1835</fpage>&#8211;<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/00002030-200308150-00013" ns0:type="simple">10.1097/00002030-200308150-00013</ext-link></comment> <object-id pub-id-type="pmid">12891070</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Couceiro</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Santana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nunes</surname> <given-names>C</given-names></name>. <article-title>Pulmonary tuberculosis and risk factors in Portugal: a spatial analysis</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source>. <year>2011</year>;<volume>15</volume>(<issue>11</issue>):<fpage>1445</fpage>&#8211;<lpage>55</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5588/ijtld.10.0302" ns0:type="simple">10.5588/ijtld.10.0302</ext-link></comment> <object-id pub-id-type="pmid">21740646</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alene</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Viney</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>McBryde</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Gray</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Melku</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Clements</surname> <given-names>ACA</given-names></name>. <article-title>Risk factors for multidrug-resistant tuberculosis in northwest Ethiopia: A case-control study</article-title>. <source>Transboundary and emerging diseases</source>. <year>2019</year>;<volume>66</volume>(<issue>4</issue>):<fpage>1611</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/tbed.13188" ns0:type="simple">10.1111/tbed.13188</ext-link></comment> <object-id pub-id-type="pmid">30924283</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Coker</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>McKee</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Atun</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dimitrova</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Dodonova</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kuznetsov</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Risk factors for pulmonary tuberculosis in Russia: case-control study</article-title>. <source>Bmj</source>. <year>2006</year>;<volume>332</volume>(<issue>7533</issue>):<fpage>85</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.38684.687940.80" ns0:type="simple">10.1136/bmj.38684.687940.80</ext-link></comment> <object-id pub-id-type="pmid">16339219</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mesfin</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Newell</surname> <given-names>JN</given-names></name>, <name name-style="western"><surname>Walley</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Gessessew</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Madeley</surname> <given-names>RJ</given-names></name>. <article-title>Delayed consultation among pulmonary tuberculosis patients: a cross sectional study of 10 DOTS districts of Ethiopia</article-title>. <source>BMC Public Health</source>. <year>2009</year>;<volume>9</volume>(<issue>1</issue>):<fpage>53</fpage>.</mixed-citation></ref>
+<ref id="pone.0221027.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hussen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Biadgilign</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tessema</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Mohammed</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Deribe</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Deribew</surname> <given-names>A</given-names></name>. <article-title>Treatment delay among pulmonary tuberculosis patients in pastoralist communities in Bale Zone, Southeast Ethiopia</article-title>. <source>BMC research notes</source>. <year>2012</year>;<volume>5</volume>(<issue>1</issue>):<fpage>320</fpage>.</mixed-citation></ref>
+<ref id="pone.0221027.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lakew</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Benedict</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Haile</surname> <given-names>D</given-names></name>. <article-title>Social determinants of HIV infection, hotspot areas and subpopulation groups in Ethiopia: evidence from the National Demographic and Health Survey in 2011</article-title>. <source>BMJ open</source>. <year>2015</year>;<volume>5</volume>(<issue>11</issue>):<fpage>e008669</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmjopen-2015-008669" ns0:type="simple">10.1136/bmjopen-2015-008669</ext-link></comment> <object-id pub-id-type="pmid">26589427</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref021"><label>21</label><mixed-citation publication-type="other" ns0:type="simple">NPC. Federal Democratic Republic of Ethiopia Growth and Transformation Plan II (GTP II). Addis Ababa;: 2016.</mixed-citation></ref>
+<ref id="pone.0221027.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alene</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Viney</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gray</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>McBryde</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Wagnew</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Clements</surname> <given-names>ACA</given-names></name>. <article-title>Mapping tuberculosis treatment outcomes in Ethiopia</article-title>. <source>BMC infectious diseases</source>. <year>2019</year>;<volume>19</volume>(<issue>1</issue>):<fpage>474</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12879-019-4099-8" ns0:type="simple">10.1186/s12879-019-4099-8</ext-link></comment> <object-id pub-id-type="pmid">31138129</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Getnet</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Demissie</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Assefa</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mengistie</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Worku</surname> <given-names>A</given-names></name>. <article-title>Delay in diagnosis of pulmonary tuberculosis in low-and middle-income settings: systematic review and meta-analysis</article-title>. <source>BMC pulmonary medicine</source>. <year>2017</year>;<volume>17</volume>(<issue>1</issue>):<fpage>202</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12890-017-0551-y" ns0:type="simple">10.1186/s12890-017-0551-y</ext-link></comment> <object-id pub-id-type="pmid">29237451</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Golub</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Bur</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cronin</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Gange</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Baruch</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Comstock</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Patient and health care system delays in pulmonary tuberculosis diagnosis in a low-incidence state</article-title>. <source>The International journal of tuberculosis and lung disease</source>. <year>2005</year>;<volume>9</volume>(<issue>9</issue>):<fpage>992</fpage>&#8211;<lpage>8</lpage>. <object-id pub-id-type="pmid">16158891</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref025"><label>25</label><mixed-citation publication-type="book" ns0:type="simple"><collab>WHO</collab>. <chapter-title>Community involvement in tuberculosis care and prevention: towards partnerships for health: guiding principles and recommendations based on a WHO review</chapter-title>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2008</year>.</mixed-citation></ref>
+<ref id="pone.0221027.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Datiko</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Lindtj&#248;rn</surname> <given-names>B</given-names></name>. <article-title>Health extension workers improve tuberculosis case detection and treatment success in southern Ethiopia: a community randomized trial</article-title>. <source>PloS one</source>. <year>2009</year>;<volume>4</volume>(<issue>5</issue>):<fpage>e5443</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0005443" ns0:type="simple">10.1371/journal.pone.0005443</ext-link></comment> <object-id pub-id-type="pmid">19424460</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alene</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Adane</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Yifiru</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bitew</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Adane</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Koye</surname> <given-names>DN</given-names></name>. <article-title>Knowledge and practice of health workers about control and prevention of multidrug-resistant tuberculosis in referral hospitals, Ethiopia: a cross-sectional study</article-title>. <source>BMJ open</source>. <year>2019</year>;<volume>9</volume>(<issue>2</issue>):<fpage>e022948</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmjopen-2018-022948" ns0:type="simple">10.1136/bmjopen-2018-022948</ext-link></comment> <object-id pub-id-type="pmid">30782870</object-id></mixed-citation></ref>
+<ref id="pone.0221027.ref028"><label>28</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>CSA</surname> <given-names>I</given-names></name>. <chapter-title>Ethiopia Demographic and Health Survey 2011</chapter-title>. <publisher-loc>Addis Ababa, Ethiopia and Calverton, Maryland, USA</publisher-loc>: <publisher-name>Central Statistical Agency and ICF International</publisher-name>: <year>2012</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221027.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221027.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ciccozzi</surname>
+<given-names>Massimo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Massimo Ciccozzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221027" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<boxed-text id="pone-0221027-box001" position="float" specific-use="prior_peer_review_unavailable">
+<sec id="sec017">
+<title>Transfer Alert</title>
+<p>This paper was transferred from another journal. As a result, its full editorial history (including decision letters, peer reviews and author responses) may not be present.</p>
+</sec>
+</boxed-text>
+<p>
+<named-content content-type="letter-date">25 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17592</p>
+<p>Spatial clustering of notified tuberculosis in Ethiopia: a nationwide study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr&#160; Kefyalew Addis Alene</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by August 30th. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Massimo Ciccozzi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. In ethics statement in the manuscript and in the online submission form, please provide additional information about the patient records/data used in your retrospective study. Specifically, please ensure that you have discussed whether all data were fully anonymized before you accessed them and/or whether the IRB or ethics committee waived the requirement for informed consent. If patients provided informed written consent to have their data used in research, please include this information.</p>
+<p>2. We noticed you have some minor occurrence(s) of overlapping text with the following previous publication(s), which needs to be addressed:</p>
+<p><ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12879-019-4099-8" ns0:type="simple">https://doi.org/10.1186/s12879-019-4099-8</ext-link></p>
+<p><ext-link ext-link-type="uri" ns0:href="https://eprints.lancs.ac.uk/id/eprint/85146/1/2016DanielPhD.pdf.pdf" ns0:type="simple">https://eprints.lancs.ac.uk/id/eprint/85146/1/2016DanielPhD.pdf.pdf</ext-link></p>
+<p>In your revision ensure you cite all your sources (including your own works), and quote or rephrase any duplicated text outside the Methods section. Further consideration is dependent on these concerns being addressed.</p>
+<p>3. Please include a copy of Table 4 which you refer to in your text on page 7</p>
+<p>4. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: the article is technically sound and statistical analysis been performed appropriately and rigorously</p>
+<p>Reviewer #2: Introduction: remove the word "end" in the phrase "short course (DOTS) strategy since 1994 and [5, 6]"</p>
+<p>Discussion: change the word "visualisation" with "visualization"</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes: Cecilia De Flora</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221027.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221027.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221027" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221027.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">28 Jul 2019</named-content>
+</p>
+<p>Manuscript Number: PONE-D-19-17592</p>
+<p>Article Title: Spatial clustering of notified tuberculosis in Ethiopia: a nationwide study</p>
+<p>Authors: Kefyalew Addis Alene, Archie CA Clements</p>
+<p>Journal: PLOS ONE</p>
+<p>Response to reviewers' comments:</p>
+<p>Reviewer #1: the article is technically sound and statistical analysis been performed appropriately and rigorously</p>
+<p>Response: We greatly appreciate the reviewer&#8217;s efforts to carefully review the paper.  </p>
+<p>Reviewer #2: Introduction: remove the word "end" in the phrase "short course (DOTS) strategy since 1994 and [5, 6]"</p>
+<p>Response: This is now corrected.</p>
+<p>Discussion: change the word "visualisation" with "visualization"</p>
+<p>Response: This is also now corrected.</p>
+<supplementary-material id="pone.0221027.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221027.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221027.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221027.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ciccozzi</surname>
+<given-names>Massimo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Massimo Ciccozzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221027" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">30 Jul 2019</named-content>
+</p>
+<p>Spatial clustering of notified tuberculosis in Ethiopia: a nationwide study</p>
+<p>PONE-D-19-17592R1</p>
+<p>Dear Dr. Kefyalew Addis Alene,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Massimo Ciccozzi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221027.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221027.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ciccozzi</surname>
+<given-names>Massimo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Massimo Ciccozzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221027" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">2 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17592R1 </p>
+<p>Spatial clustering of notified tuberculosis in Ethiopia: a nationwide study </p>
+<p>Dear Dr. Alene:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Prof Massimo Ciccozzi  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

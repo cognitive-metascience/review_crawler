@@ -1,0 +1,73 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222750.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222750.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Aug 2019</named-content>
+</p>
+<p>Response: We thank the editor and reviewers for your careful reading of our manuscript and for your thoughtful comments. We have incorporated your suggestions into the updated version of our manuscript as detailed below. Please note that line numbers in our responses below refer to the tracked version of the revised manuscript.</p>
+<p>Responses to comments from the editor:</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and<ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>Response: We have reviewed PLOS ONE&#8217;s style requirements to ensure that our manuscript is compliant. We made changes in the punctuation around the in-text citations. </p>
+<p>2. In your Methods section, please provide additional information about the participant recruitment method, including a statement as to whether your sample can be considered representative of a larger population, and a description of how participants were recruited.</p>
+<p>Response: Thank you for this suggestion. We have added the requested information to the Methods section (lines 103-8). </p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>Response: There are no ethical restrictions to sharing a de-identified dataset. We now include this dataset as Supporting Information file &#8220;S2 Dataset.&#8221;  </p>
+<p>Responses to comments from the reviewers:</p>
+<p>Reviewer #1: Line 102- Women with cervical lesions not amenable to cryotherapy or</p>
+<p>103 suspicious for cancer were referred to a gynecologist. What was the distance women had to travel to see a gynecologist and what was the waiting time?</p>
+<p>Response: These are excellent questions. Women were referred to a gynecologist at Migori County Referral Hospital, which is in the capital of Migori County. We have added this information to our Methods section (lines 122-3). The geodetic distance to this site from the homes of women in the study population ranges from 4 to 40 km, with a median of 29 km.  We do not have information on the waiting time; however, the supervising gynecologist was a consultant on the study and worked to facilitate care for all referred women in a timely fashion. </p>
+<p>Line 112- The study population for the main trial were women in Migori County who were eligible</p>
+<p>113 for cervical cancer screening based on the Kenya Ministry of Health&#8217;s guidelines: 25-65 years old with an intact uterus and cervix. &#8211; add reference</p>
+<p>Response: We have added a reference and removed the statement about &#8220;an intact uterus and cervix&#8221; after clarifying against the reference (lines 136-7).  </p>
+<p>Reviewer #2: Reviewer Comments</p>
+<p>&#8220;Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study&#8221;</p>
+<p>General comment</p>
+<p>&#8226; The manuscript is well written however there are some comments in each of the section that could improve the manuscript.</p>
+<p>Abstract</p>
+<p>&#8226; In the results section provide direction of association for the significant variables whether positive or negative</p>
+<p>Response: This is a good suggestion. We have updated the abstract accordingly (lines 39-42). </p>
+<p>Introduction</p>
+<p>More background need to be provided on the linkage rate after screening in the region and in the whole country in general. This is not clear before assessing factors what is the burden.</p>
+<p>Response: Since this is the first protocol in Kenya to incorporate hrHPV testing as part of screening through government health facilities, there is no linkage to treatment rate to which to compare outside of this study. However, in Phase 1 of this study, which employed standard linkage to treatment, less than 50% of women were successfully linked. We have included this data in the Methods section (lines 89-90). </p>
+<p>Methodology</p>
+<p>Were the participants counseled prior or after testing?</p>
+<p>Response: The participants were counseled prior to testing. We have provided clarification about this counseling in lines 108-9.  </p>
+<p>In the methods it is stated that this current manuscript focuses on the group that was exposed to enhanced linkage strategy that included transport facilitation for a limited number of participants. How many among the one studied had facilitated transportation? How was this handled in the analysis.</p>
+<p>Response: We clarified with the study coordinator, and there actually was no transport facilitation for women in Phase 2 of the study, which is the phase of interest for this research. We apologize for this error and have removed this statement from the manuscript (line 94).  </p>
+<p>Results</p>
+<p>&#8226; The variable Missed work to come to the CHC for screening was this for women who were employed or for all women</p>
+<p>Response: This variable applied to all women. We think there is something about the decision and ability to miss work that separates women who missed work from those who either work inside the home or work outside the home and didn&#8217;t miss work. In preparing our response to this question, we realized that the frequencies in Table 1 for this variable were incorrect; they are now accurate. </p>
+<p>&#8226; How were the variables &#8220;Told by partner, family member, or someone else important to come to the CHC&#8221; and &#8220;Told by partner, family member, or someone else important not to come to the CHC&#8221; phrased since one is the negative of the other.</p>
+<p>Response: The questions were worded to participants at the CHCs as follows: &#8220;Did your partner, family member, or anyone else important to you tell you to come?&#8221; and &#8220;Did your partner, family member, or anyone else important to you tell you not to come?&#8221; During training and piloting of the surveys, we had the research assistants stress the difference between the two questions.</p>
+<p>&#8226; &#8220;Women with a college education or beyond were not significantly more likely to present for treatment than women in the least educated category (OR 2.17, 95% CI 0.65-7.26), with a wide confidence interval in the setting of very few women having a college education or more&#8221;. Why not consider collapsing the groups?</p>
+<p>Response: It would certainly be reasonable to combine the groups &#8220;at least some secondary&#8221; and &#8220;college or beyond&#8221;; however, we chose to keep them separate to provide more detailed data on the distribution of education levels in the study population. </p>
+<p>&#8226; Was multicollinearity before the adjusted odds ratio were obtained.</p>
+<p>Response: Yes, we did test for multicollinearity among the variables that we used in the multivariable logistic regression models. The variance inflation factor (VIN) for all variables was &lt;2, indicating that collinearity is not a concern. </p>
+<p>Data Availability</p>
+<p>Indicated that the data is available but no link to the data</p>
+<p>Response: We now attach the de-identified data as a Supporting Information file.</p>
+<supplementary-material id="pone.0222750.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">CP Kenya PLOS ONE response to reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

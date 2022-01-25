@@ -1,0 +1,880 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221317</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-16694</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Equines</subject><subj-group><subject>Horses</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Rheumatology</subject><subj-group><subject>Arthritis</subject><subj-group><subject>Osteoarthritis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Musculoskeletal system</subject><subj-group><subject>Skeletal joints</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Musculoskeletal system</subject><subj-group><subject>Skeletal joints</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Stem cells</subject><subj-group><subject>Mesenchymal stem cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Equines</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune response</subject><subj-group><subject>Inflammation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune response</subject><subj-group><subject>Inflammation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Inflammation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Signs and symptoms</subject><subj-group><subject>Inflammation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Research design</subject><subj-group><subject>Clinical research design</subject><subj-group><subject>Adverse events</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject><subj-group><subject>European Union</subject><subj-group><subject>France</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Comparison of efficacy and safety of single versus repeated intra-articular injection of allogeneic neonatal mesenchymal stem cells for treatment of osteoarthritis of the metacarpophalangeal/metatarsophalangeal joint in horses: A clinical pilot study</article-title>
+<alt-title alt-title-type="running-head">One or two allogeneic neonatal MSC injection for treatment of fetlock OA in horses</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-1854-149X</contrib-id>
+<name name-style="western">
+<surname>Magri</surname>
+<given-names>Carmelo</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Schramme</surname>
+<given-names>Michael</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Febre</surname>
+<given-names>Marine</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Cauvin</surname>
+<given-names>Eddy</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Labadie</surname>
+<given-names>Fabrice</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Saulnier</surname>
+<given-names>Nathalie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Fran&#231;ois</surname>
+<given-names>Is&#233;</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lechartier</surname>
+<given-names>Antoine</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Aebischer</surname>
+<given-names>David</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Moncelet</surname>
+<given-names>Anne-Sophie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+<xref ref-type="fn" rid="econtrib001"><sup>&#8225;</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Maddens</surname>
+<given-names>St&#233;phane</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Clin&#233;quine, VetAgro Sup, Campus V&#233;t&#233;rinaire de Lyon, Marcy l&#8217;Etoile, France</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Vetbiobank SAS, Campus V&#233;t&#233;rinaire de Lyon, Marcy l&#8217;Etoile, France</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Azurvet, Cagnes-sur-Mer, France</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Clinique &#233;quine v&#233;t&#233;rinaire de Meheudin, Ecouch&#233;, France</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Clinique &#233;quine Areda, Bex, Switzerland</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Clinique &#233;quine de Grosbois, Marolles-en-Brie, France</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Fiorina</surname>
+<given-names>Paolo</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Children's Hospital Boston, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have read the journal's policy and the authors of this manuscript have the following competing interests: SM is a current and principal shareholder of Vetbiobank. MF, FL, NS, are employees of Vetbiobank. There is no commercial or financial connection between Vetbiobank and the seven co-authors (CM, MS, EC, IF, AL, DA, AM). EC is shareholder of Azurvet. The product used in this study is developed for commercial use in France and Europe. There are no patents associated with this research to declare. These commercial affiliations do not alter adherence of all authors to all PLOS ONE policies on sharing data and materials. MS and CM are current employees of the National Veterinary School Of Lyon, Vetagro Sup in France.</p>
+</fn>
+<fn fn-type="other" id="econtrib001">
+<p>&#8225; These authors also contributed equally to this work.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">vet.magri@gmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>29</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0221317</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>2</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Magri et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221317" />
+<abstract>
+<p>The purpose of this prospective study was to evaluate the effects of single and repeated intra-articular administration of allogeneic, umbilical cord-derived, neonatal mesenchymal stem cells (MSC) in horses with lameness due to osteoarthritis (OA) of a metacarpophalangeal joint (MPJ).</p>
+<p>Twenty-eight horses were included. Horses were divided into two groups. Horses in group MSC1 received an MSC injection at M0 and a placebo injection at M1 (1 month after M0). Horses in group MSC2 received MSC injections at M0 and at M1. Joint injections were performed with a blinded syringe. Clinical assessment was performed by the treating veterinarian at M1, M2 and M6 (2 and 6 months after M0), including lameness evaluation, palpation and flexion of the joint. Radiographic examination of the treated joints was performed at inclusion and repeated at M6. Radiographs were anonymized and assessed by 2 ECVDI LA associate members. Short term safety assessment was performed by owner survey. A 2-month rehabilitation program was recommended to veterinarians. There was a significant improvement of the total clinical score for horses in both groups. There was no significant difference in the total clinical score between groups MSC1 and MSC2 at any time point in the study. There was no significant difference in the total radiographic OA score, osteophyte score, joint space width score and subchondral bone score between inclusion and M6. Owner-detected adverse effects to MSC injection were recorded in 18% of the horses. Lameness caused by OA improved significantly over the 6-month duration of the study after treatment with allogeneic neonatal umbilical cord-derived MSCs combined with 8 weeks rest and rehabilitation. There is no apparent clinical benefit of repeated intra-articular administration of MSCs at a 1-month interval in horses with MPJ OA when compared to the effect of a single injection.</p>
+</abstract>
+<funding-group>
+<funding-statement>Azurvet provided support in the form of salary for author EC. Vetbiobank provided support in the form of salaries for authors (MF, FL, NS) and contributed to the study design, data collection and analysis, decision to publish and preparation of the manuscript. The specific roles of these authors are articulated in the 'Authors Contribution Section&#8217;.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2" />
+<table-count count="2" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Osteoarthritis (OA) of the metacarpophalangeal/metatarsophalangeal joints (MPJs) is one of the most common causes of lameness in Sports horses [<xref ref-type="bibr" rid="pone.0221317.ref001">1</xref>]. Several local and systemic treatments have been described, including intra-articular viscosupplementation (hyaluronic acid, polyacrylamide gel), anti-inflammatory biological therapeutics [platelet-rich plasma (PRP), autologous conditioned serum (ACS or IRAP), polysulphated glycosaminoglycans (PSGAGS) and steroidal drugs (corticosteroids, stanozolol). Such intra-articular treatments have been shown to have predominantly symptom-modifying effects.</p>
+<p>Mesenchymal stem cell (MSC) therapy has been developed as a means of promoting scar-free tissue regeneration in a variety of musculoskeletal injuries in horses [<xref ref-type="bibr" rid="pone.0221317.ref002">2</xref>], and has been characterized predominantly for the treatment of overstrain injuries of the superficial digital flexor tendon [<xref ref-type="bibr" rid="pone.0221317.ref003">3</xref>&#8211;<xref ref-type="bibr" rid="pone.0221317.ref005">5</xref>]. Even if the direct regenerative properties of MSCs are now being questioned [<xref ref-type="bibr" rid="pone.0221317.ref006">6</xref>], their immunomodulatory effects may offer an alternative mechanism to improve the quality of the healing process of injured tissues through disease-modifying effects.</p>
+<p>MSCs have been used in equine joints for the treatment of osteoarthritis [<xref ref-type="bibr" rid="pone.0221317.ref007">7</xref>] and for surgical resurfacing of chondral defects during arthroscopic interventions [<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>&#8211;<xref ref-type="bibr" rid="pone.0221317.ref010">10</xref>]. Although the results of intra-articular injection of MSCs were initially disappointing in the management of OA [<xref ref-type="bibr" rid="pone.0221317.ref011">11</xref>], more promising results have since been reported [<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0221317.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0221317.ref013">13</xref>]. Preclinical data in a rabbit model have shown that equine MSCs may be able to prevent cartilage degradation after induced meniscal injury [<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>].</p>
+<p>MSCs can be harvested from different sources, and autologous preparations derived from bone marrow or adipose tissue were the first to be introduced in equine orthopaedics [<xref ref-type="bibr" rid="pone.0221317.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0221317.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0221317.ref015">15</xref>]. The preparation and culture of autologous cells is time-consuming and their properties can be variable depending on the individual horse donor. Therefore the therapeutic use of allogeneic MSCs derived from bone marrow, adipose tissue, peripheral blood, gingiva, and other tissues from selected adult donors has also been explored [<xref ref-type="bibr" rid="pone.0221317.ref016">16</xref>&#8211;<xref ref-type="bibr" rid="pone.0221317.ref020">20</xref>]. More recently, umbilical cord, umbilical cord blood or placenta have gained acceptance as sources of neonatal allogeneic MSCs because these cells may have greater biological potential and an immunologically privileged state compared to adult MSCs [<xref ref-type="bibr" rid="pone.0221317.ref021">21</xref>]. Several studies argue for a relatively higher immunomodulatory potential of these cells both in horses and other species, justifying their investigation for application in joints to help improve the clinical status of the joint through balancing the inflammatory environment [<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>].</p>
+<p>As the persistence of injected MSCs in the joint is limited[<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0221317.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0221317.ref023">23</xref>], their therapeutic effect is likely to be temporary. A single intra-articular injection of MSCs can therefore no longer be considered as an &#8216;OA treatment for life&#8217; and repeated intra-articular dosing may have more beneficial effects. The optimal time for a first MSC-injection has been shown to be during a period of joint inflammation [<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>] but optimal times and dosages for repeat injections still need to be defined. For a pharmacological drug, optimal time for dosing is usually derived from drug metabolism and pharmacokinetic (DMPK) studies. However, MSCs have unconventional DMPK parameters which furthermore are not completely understood [<xref ref-type="bibr" rid="pone.0221317.ref024">24</xref>]. As a consequence, MSC dosing regimens have been derived from experience and approximation. Repeated administration of adult MSCs has raised concerns related to allogenicity [<xref ref-type="bibr" rid="pone.0221317.ref025">25</xref>], but neonatal umbilical cord MSCs may be better tolerated than adult allogenic MSCs [<xref ref-type="bibr" rid="pone.0221317.ref026">26</xref>].</p>
+<p>The purpose of this study was to evaluate the effects of single and repeated intra-articular administration of allogeneic, umbilical cord-derived, neonatal MSCs in horses with lameness due to documented OA of an MPJ. We hypothesized that 2 intra-articular MSC injections with a 4-week inter-injection interval would improve the clinical and radiological outcome parameters at 6 months compared to a single intra-articular injection.</p>
+<p>The primary objectives of this study were to determine the 1) clinical and 2) radiological outcomes of horses with OA of an MPJ treated with intra-articular MSCs and 3) to compare the outcomes between horses that were injected once or twice. The secondary objective was to assess the safety of single and repeated intra-articular administration of allogeneic neonatal MSCs in equine MP joints.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Study design (<xref ref-type="fig" rid="pone.0221317.g001">Fig 1</xref>)</title>
+<p>This was a multicenter, randomized, double-blinded, controlled, clinical pilot study, involving veterinary surgeons from 10 different equine veterinary hospitals in France. All horses were client-owned and all owners signed an informed consent prior to inclusion. The study was implemented in accordance with University regulations. All horses were sedated during joint injections and all efforts were made to minimize suffering. Horses were divided into two groups (MSC1 and MSC2) according to the number of MSC injections received. The study compared a single MSC injection (group MSC1) with 2 MSC injections (group MSC2). Horses in group MSC1 received an MSC injection at M0 and a placebo injection at M1 (1 month after M0). Horses in group MSC2 received an MSC injection at M0 and at M1. Follow-up examinations were performed at M1, M2 (2 months after M0) and M6 (6 months after M0). Owners and attending veterinarians were blinded to the selected treatment regimen for each horse during the 6-month duration of the study. Short term safety assessment was performed by owner survey using dedicated forms. At M6, after the final lameness evaluation, treatment group allocation was unveiled to both owners and veterinarians.</p>
+<fig id="pone.0221317.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221317.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Case selection and time-line of the study.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec004">
+<title>Inclusion and exclusion criteria</title>
+<p>Horses were selected for the study if they had a persistent single-limb lameness of at least 2 months&#8217; duration that was localized to a MPJ with diagnostic analgesia, that was exacerbated by a fetlock flexion test and if radiographs showed osteoarthritis of that MPJ.</p>
+<p>Clinical examination included lameness evaluation, palpation and flexion of the joint. Lameness was scored from 0 to 5 based on an adaptation of the AAEP (American Association of Equine Practitioners) lameness grading system for trotting on a straight line only (0 sound; 1 lameness difficult to detect and inconsistent; 2 lameness difficult to detect but consistent; 3 lameness consistently observable in a straight line; 4 obvious lameness with marked head nodding; 5 minimal weight-bearing in motion and/or at rest) [<xref ref-type="bibr" rid="pone.0221317.ref027">27</xref>]. When available, objective gait analysis was performed with an inertial sensor-based lameness diagnosis system (Lameness Locator ND) while horses were trotted on concrete in straight lines. The parameters used included mean HDMax (Maximum head height difference), mean HDMin (Minimum head height difference) and Vector Sum for fore limb lameness, and mean PDmax (Maximum pelvic height difference) and mean PDmin (Minimum pelvic height difference) for hindlimb lameness.[<xref ref-type="bibr" rid="pone.0221317.ref028">28</xref>] Additional scores were given for the horse&#8217;s response to fetlock flexion at rest (passive flexion 0&#8211;4 = no, slight, moderate, marked, severe pain response), for the increase in lameness grade following a fetlock flexion test (active flexion 0&#8211;4 = no, slight, moderate, marked, severe lameness increase) and for joint distention (0&#8211;4 = no, slight, moderate, marked, severe distention). The four clinical scores (lameness, passive flexion response, active flexion response and joint distention) were added to obtain a composite clinical score out of a total of 17.</p>
+<p>Radiographic examination consisted of 4 projections (dorso-palmar/plantar, latero-medial, dorsolateral-palmaromedial oblique and dorsomedial-palmarolateral oblique views). Magnetic resonance imaging (MRI), ultrasonography and diagnostic arthroscopy were also used in some horses for identification of cartilage degeneration and osteophytes.</p>
+<p>Previously attempted treatments were recorded as well as the time of initial diagnosis of OA. Horses with other orthopaedic injuries and horses that received intra-articular treatment less than 1 month prior to the MSC injection were not included. Any other intra-articular treatment given during the 6-month duration of the study was a cause for exclusion from the study, as was the incidence of any other orthopaedic injury that could have influenced lameness evaluation of the treated limb during the follow-up period. Previous treatment with MSCs was also a cause for exclusion. Systemic administration of anti-inflammatory medication was accepted during the study if it occurred within 48 hours of or more than 4 weeks after MSC injection and was reported in the follow-up information. Administration of any anti-inflammatory medication was not allowed less than 15 days before any of the clinical evaluations (M0, M1, M2 and M6).</p>
+</sec>
+<sec id="sec005">
+<title>Cell product preparation</title>
+<p>Equine umbilical cord-derived (UCd)-MSCs were provided by Vetbiobank (Marcy l'Etoile, France). Umbilical cords were recovered following parturition from selected mares and foals belonging to French National Studfarms (IFCE, Saumur, France), in accordance with a previously described protocol [<xref ref-type="bibr" rid="pone.0221317.ref029">29</xref>]. Extensive adventitious agent screening (including viruses, parasites and mycoplasma) was performed on mares&#8217; blood samples before foaling and on neonatal tissue samples afterwards. All batches of MSCs used in this study were isolated from umbilical cord tissue, cultured, manufactured and characterised as previously described [<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>]. Briefly, cells displayed a conventional phenotype for equine MSCs (i.e. CD44+; CD29+; CD90+; MHC1+; MHC2-; CD45-; CD34-), differentiated <italic>in vitro</italic> into adipogenic and osteogenic cell lineages and expressed chondrogenic markers upon differentiation [<xref ref-type="bibr" rid="pone.0221317.ref030">30</xref>]. MSCs were frozen in 10% (v/v) DMSO and stored in liquid nitrogen.</p>
+<p>On the day prior to injection, each MSC dose was retrieved from liquid nitrogen, thawed at 37&#176;C and washed extensively with Dulbecco&#8217;s Phosphate Buffered Saline<sup>a</sup> (D-PBS, Pan Biotech). The investigational product consisted of approximately 10 x10<sup>6</sup> viable cells (median: 11 x10<sup>6</sup>; minimum: 9 x10<sup>6</sup> and maximum 16 x10<sup>6</sup>) at the 4<sup>th</sup> passage (minimum 2, maximum 8 passages), re-suspended after thawing in 2 mL D-PBS and transferred to a sterile 5mL ready-to-use syringe. The placebo product consisted of syringes containing the same volume of D-PBS to ensure a similar color and consistency of content compared to MSC-loaded syringes. Blinding was further assured by camouflaging the syringe&#8217;s content with opaque adhesive sterile tape applied around the barrel of the syringe. Loaded syringes were shipped overnight, refrigerated between 2 to 12&#176;C in an appropriately sterile container, to equine hospitals participating in the study and used within 12 hours of reception. These conditions assure less than 10% cell death at the time of injection.</p>
+<p>Eleven different horse donors were used to prepare equal numbers of MSC batches. It was mandatory for horses in group MSC2 that the cell batch used for the second injection was from a different donor horse than the one used for first injection. Major Histocompatibility Complex (MHC) typing was not performed in this study.</p>
+</sec>
+<sec id="sec006">
+<title>Treatment (<xref ref-type="fig" rid="pone.0221317.g001">Fig 1</xref>)</title>
+<p>Joint injections were performed at M0 (MSCs) and M1 (MSCs or placebo) under sedation with an alpha-2-agonist (detomidine<sup>b</sup> 0,01 mg/kg IV, xylazine<sup>c</sup> 0,06 m/kg IV or romifidine<sup>d</sup> 0,08 mg/kg IV) alone or in combination with butorphanol<sup>e</sup> (0,01 mg/kg IV). The injection procedure was identical for both MSC and placebo syringes. Prior to injection both MSC and placebo syringes were gently inverted 8&#8211;10 times to bring MSCs into homogeneous suspension. The injections were performed slowly, over a minimum duration of 7&#8211;10 seconds, using 20-gauge needles to prevent cell damage from shear stress [<xref ref-type="bibr" rid="pone.0221317.ref031">31</xref>].</p>
+<p>The use of systemic anti-inflammatory medication with phenylbutazone<sup>f</sup> (2,2 mg/kg IV), flunixine meglumine<sup>g</sup> (1,1 mg/kg IV) and/or dexamethasone<sup>h</sup> (0,1 mg/kg IV) immediately before injection was considered acceptable to avoid potential post-injection reactions. Immediately after injection a standard lower limb bandage was placed on the limb and maintained for 24 hours.</p>
+</sec>
+<sec id="sec007">
+<title>Rehabilitation</title>
+<p>A 2-month rehabilitation program was recommended to veterinarians (<xref ref-type="fig" rid="pone.0221317.g002">Fig 2</xref>) consisting of stall rest with short, progressively increasing, periods of controlled hand-walking daily (from 15&#8211;30 minutes). After 2 months horses were free to resume their normal exercise routine. Deviations from the proposed rehabilitation protocol had to be reported by the horse&#8217;s treating veterinarian to the study monitor.</p>
+<fig id="pone.0221317.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221317.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Rehabilitation program.</title>
+<p>The 2-month rehabilitation program consisted of stall rest with periods of controlled hand walking daily. After 2 months horses were free to resume their normal exercise routine.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec008">
+<title>Follow-up evaluation</title>
+<p>Clinical assessment was performed by the treating veterinarian at M1, M2 and M6 as for the inclusion. Radiographic examination of the treated MPJ was repeated at M6. Radiographs of both studies were anonymized and assessed by 2 ECVDI LA associate members (EC, MS). An OA score was given to each radiographic exam (4 views) using a customized scoring system (based on subchondral bone changes, joint space width, and periarticular new bone formation) to obtain a total radiographic score out of 10 (<xref ref-type="table" rid="pone.0221317.t001">Table 1</xref>). Owners were asked to document in writing any post-injection reactions at the level of the injected MPJ during the first 48 hours after each injection and to send the completed form to the stem cell laboratory (Vetbiobank).</p>
+<table-wrap id="pone.0221317.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221317.t001</object-id>
+<label>Table 1</label> <caption><title>Radiographic score for fetlock osteoarthritis.</title></caption>
+<alternatives>
+<graphic id="pone.0221317.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<tbody>
+<tr>
+<td align="left" style="background-color:#DEEAF6">A. Subchondral bone / epiphyseal bone changes</td>
+<td align="left">0: no significant changes,<break />1: diffuse sclerosis, subchondral bone thickening,<break />2: focal or marginal subchondral bone lysis, cyst-like subchondral lesions<break />3: diffuse or multifocal subchondral bone lysis</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#DEEAF6">B. Articular space changes</td>
+<td align="left">0: no significant changes,<break />1: mild space collapse,<break />2: moderate space collapse,<break />3: severe space collapse,<break />4: ankylosis</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#DEEAF6">C. Periarticular new bone formation (osteophytes and enthesophytes)</td>
+<td align="left">0: no significant changes,<break />1: Mild remodeling of articular margins<break />2: Moderate remodeling with spur-like formations<break />3: Severe to exuberant new bone formation</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#DEEAF6">Total OA score =</td>
+<td align="left">A + B + C</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Radiographic grading system used to calculate a cumulative fetlock total osteoarthritis (OA) score</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec009">
+<title>Statistical analysis</title>
+<p>Statistical analysis was performed with the GraphPad Prism 6.0 program<sup>i</sup>. Baseline comparisons between groups (MSC1 and MSC2) for age, clinical scores, and radiographic scores were performed using the Mann-Whitney U test. Categorical data (gender) were compared using Fisher&#8217;s exact test and limb affected (front versus hind limb) was compared using a &#967;2 test. The clinical and radiographic scores of horses from each group and from both groups combined at different time points (M1, M2 and M6), were compared to baseline (M0) using the non-parametric Friedman repeated measures ANOVA on a rank sum test. Post hoc comparisons were then performed using a Dunn&#8217;s test.</p>
+<p>Clinical scores were compared between groups (MSC1 and MSC2) using a 2-way ANOVA corrected by Sidak&#8217;s test. Radiographic scores were compared between groups using Wilcoxon&#8217;s matched pairs test.</p>
+<p>Differences were considered significant for P values &#8804;0.05.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<p>Twenty-eight horses were included in the study.</p>
+<p>Six horses were excluded from the study during the 6-month follow-up period. One horse died of colic 3 weeks after the first MSC injection (H24). Horse H28 developed lameness in the contralateral MP joint with radiographic signs of OA. The horse received additional treatments that led to exclusion from the study. This case led us to amend protocol adding a systematic radiographic examination of the contralateral MPJ prior to horses&#8217; acceptance to the study. Horse H23 was excluded after the second MSC injection resulted in an articular &#8216;flare&#8217; reaction within 24 hours that required a joint lavage and un-blinding of the treatment for this horse. Three horses were lost to follow up (H25, H26, H27) because they were not presented for follow-up evaluations.</p>
+<p>A total of twenty-two horses (78,5%) completed the 6-month follow-up period, 10 in group MSC1 and 12 in group MSC2.</p>
+<p>Median age at inclusion was 9 years [range 2&#8211;17] with 2 stallions, 12 geldings and 8 mares included. Breeds included 15 Warmbloods (9 Selle Fran&#231;ais, 2 BWP, 1 SBS, 1 KWPN, 1 Swiss Warmblood, 1 Oldenburg, 2 Standardbreds, 1 Paint horse, 1 Lusitano, 1 Anglo-arabian, 1 mixed breed and 1 Arabian). Sixteen horses were used for jumping, 1 for dressage, 1 for pleasure riding, 1 for western riding, 1 for endurance, and 2 for Standardbred racing. There were 16 fore limb and 6 hind limb MPJs.</p>
+<p>Clinical and radiographic scores are summarized in <xref ref-type="table" rid="pone.0221317.t002">Table 2</xref>. At inclusion, there were no significant differences between groups MSC1 and MSC2 for age (p = 0,7587), fore limb vs hind limb location (p = 0,7587), lameness score (p = 0,21), passive flexion score (p = 0,78), active flexion score (p = 0,95), joint distension (p = 0,59), total clinical score (p = 0,6360) and radiographic score (p = 0,46). There were more females in group MSC1 than group MSC2 (p = 0,0062). Nineteen of the 22 horses had previously received other treatments which had failed to improve lameness. These treatments had included stall rest (n = 10), intra-articular injection of corticoids (n = 5) hyaluronic acid (n = 4), IRAP or PRP (n = 3), intravenous administration of tiludronate (n = 3), oral NSAID (n = 1), chondroprotective nutritional complements (n = 1) and arthroscopic debridement and joint lavage (n = 9). Of the 9 horses that were included after a diagnostic arthroscopy, 4 ended up in the MSC1 group and 5 in the MSC2 group.</p>
+<p>The mean delay between diagnosis of OA and MSC treatment was 481 days (median 356 days; range 89&#8211;2573) in the 11/22 horses for which this information was available. Six of these horses had not been used in equestrian sports or racing for at least 12 months preceding MSC treatment.</p>
+<table-wrap id="pone.0221317.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221317.t002</object-id>
+<label>Table 2</label> <caption><title>Clinical and radiographic scores for group MSC1, group MSC2 and both groups combined.</title></caption>
+<alternatives>
+<graphic id="pone.0221317.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">&#160;</th>
+<th align="center">MSC1<break />(median &amp; range)</th>
+<th align="center">MSC2<break />(median &amp; range)</th>
+<th align="center">P-value Difference MSC1-MSC2<break /></th>
+<th align="center">All horses<break />(median &amp; range)</th>
+<th align="center">P- value compared to M0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="5"><bold>Total Clinical scores</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center"><bold>8 [4&#160;-14]</bold></td>
+<td align="center"><bold>8 [4&#160;-12]</bold></td>
+<td align="left"><bold>0.34</bold></td>
+<td align="center"><bold>8 [4&#160;-16]</bold></td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M1</bold></td>
+<td align="center"><bold>5 [0&#160;-14]</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>5 [1&#160;- 9]</bold></td>
+<td align="left"><bold>0.54</bold></td>
+<td align="center"><bold>5,5 [0&#160;-14]</bold> <xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0021</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M2</bold></td>
+<td align="center"><bold>6 [2&#160;- 13]</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>5 [0&#160;- 7]</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left"><bold>0.15</bold></td>
+<td align="left"><bold>5 [0&#160;-13]</bold> <xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0003</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center"><bold>3.5&#160;[0&#160;- 15]</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>3.5&#160;[0&#160;- 10]</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left"><bold>0.33</bold></td>
+<td align="center"><bold>3,5 [0&#160;-15]</bold> <xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>&lt; 0,0001</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Lameness scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">2</td>
+<td align="center">1.5</td>
+<td align="left">&#160;0.48</td>
+<td align="center">2</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M1</bold></td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1</td>
+<td align="left">&#160;0.98</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0105</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M2</bold></td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1.5</td>
+<td align="left">&#160;&gt;0.99</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0017</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">0.5</td>
+<td align="left">&#160;0.62</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0017</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Joint distension scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">2</td>
+<td align="center">1.5</td>
+<td align="left">&#160;0.94</td>
+<td align="center">2</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M1</bold></td>
+<td align="center">1.5</td>
+<td align="center">1</td>
+<td align="left">&#160;0.98</td>
+<td align="center">1</td>
+<td align="center">0,185</td>
+</tr>
+<tr>
+<td align="left"><bold>M2</bold></td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="left">&#160;0.99</td>
+<td align="center">1</td>
+<td align="center"><bold>0,079</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="left">&#160;0.86</td>
+<td align="center"><bold>0,5</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,021</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Passive Flexion scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">2.5</td>
+<td align="center">2.5</td>
+<td align="left">&#160;0.98</td>
+<td align="center">2,5</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M1</bold></td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="left">&#160;0.42</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,007</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M2</bold></td>
+<td align="center">1.5</td>
+<td align="center"><bold>0.5</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left">&#160;0.45</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,003</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left">&#160;0.75</td>
+<td align="center"><bold>0,5</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,001</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Active Flexion scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="left">&#160;0.99</td>
+<td align="center">3</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M1</bold></td>
+<td align="center">1.75</td>
+<td align="center">2</td>
+<td align="left">&#160;0.99</td>
+<td align="center">2</td>
+<td align="center">0,05</td>
+</tr>
+<tr>
+<td align="left"><bold>M2</bold></td>
+<td align="center">2</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left">&#160;0.86</td>
+<td align="center"><bold>2</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,004</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center">1</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="left">&#160;0.99</td>
+<td align="center"><bold>1</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,001</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Radiographic OA scores (median &amp; range)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center"><bold>3.5 [<xref ref-type="bibr" rid="pone.0221317.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0221317.ref006">6</xref>]</bold></td>
+<td align="center"><bold>2 [1&#160;-7]</bold></td>
+<td align="left"><bold>0.46</bold></td>
+<td align="center">2,25</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center"><bold>5 [2.5&#160;- 6.5]</bold></td>
+<td align="center"><bold>2.5 [1&#160;-7.5]</bold></td>
+<td align="left"><bold>0.41</bold></td>
+<td align="center"><bold>3,25</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,0020</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Radiographic osteophytes scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="left">&#160;0.28</td>
+<td align="center">1,75</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center">2.5</td>
+<td align="center">1.5</td>
+<td align="left">&#160;0.17</td>
+<td align="center">2</td>
+<td align="center">0,175</td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Radiographic joint space width scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="left">&#160;0.52</td>
+<td align="center">0,25</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center">1.5</td>
+<td align="center">0.5</td>
+<td align="left">&#160;0.42</td>
+<td align="center"><bold>0,5</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>0,016</bold></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><bold>Radiographic subchondral bone scores (median)</bold></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>M0</bold></td>
+<td align="center">0.5</td>
+<td align="center">0</td>
+<td align="left">&#160;0.88</td>
+<td align="center">0,5</td>
+<td align="center" style="background-color:#000000" />
+</tr>
+<tr>
+<td align="left"><bold>M6</bold></td>
+<td align="center">0.5</td>
+<td align="center">0.5</td>
+<td align="left">&#160;0.94</td>
+<td align="center">0,5</td>
+<td align="center">0,316</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Table 2 shows all clinical scores and sub-scores (median and range) for horses in group MSC1, group MSC2 and both groups combined (all horses) at M0, M1, M2 and M6 and all radiographic scores and sub-scores (median and range) at M0 and M6. Significance was set at p&lt;0.05.</p></fn>
+<fn id="t002fn002"><p>* indicates a significant difference with the measurement obtained at M0.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>At the time of first MSC injection, prophylactic intravenous anti-inflammatory medication consisting of an NSAID alone (flunixin or phenylbutazone) was administered to 10/28 horses, an NSAID (flunixin or phenylbutazone) with dexamethasone to another 10/28 horses and dexamethasone alone to 1 horse. Five horses did not receive any anti-inflammatory medication and the information was missing for 2 horses. At the time of the second injection at M1, 11/28 horses received an NSAID/dexamethasone combination, 7 horses only an NSAID, and 1 horse only dexamethasone. Four horses did not receive any anti-inflammatory medication and the information was missing for 4 horses. During the 6 months of the study, only 3 horses received additional oral NSAIDs: 2 because of persistent joint effusion and pain (one at 2 days and one at 15 days after injection) and another one for pain in the contralateral limb at M4.</p>
+<p>A total of 4/34 (12%) MSC injections and 2/10 (20%) placebo injections resulted in owner-reported adverse effects in 4 of 28 horses (H1, H2, H17, H23). H1 developed mild periarticular heat for 48 hours after the first injection and heat and joint distension after the second injection (placebo) for 48 hours. H2 developed joint distension after the first injection but not after the second injection (MSCs). H17 had no reported adverse effect after the first MSC injection but developed mild periarticular heat for 48 hours after the second injection (placebo). Only one horse (H23) experienced adverse effects at both injection times. This horse received two MSC injections and developed marked articular and periarticular swelling with a grade 4/5 lameness after the second injection (M1). No prophylactic anti-inflammatory medication had been administered to this horse. Cytology revealed a leukocyte concentration of 103,000 cells/&#956;L with 70% neutrophils but bacteriological culture of the synovial fluid was negative. This prompted the attending practitioner to perform a through-and-through joint lavage under standing sedation 24 hours after MSC injection. Strikingly all 4 horses with reported adverse effects had a positive outcome. H23 was free of lameness, joint effusion or flexion responses at M6 (total clinical score improved from 6 to 0) but was excluded from the study. No other adverse effects were reported by the owners during a one-year follow up period. There was no difference in the incidence of adverse effects between horses that received and horses that did not receive prophylactic anti-inflammatory injections (p = 0.92). None of the 23 joint injections that were preceded by a prophylactic intravenous dexamethasone injection resulted in any reported adverse effects. No correlation could be established between any characteristics of each cell batch (cell viability, culture passage numbers and total viable cell number) and the occurrence of reported adverse effects.</p>
+<p>Clinical scores were available for 22 horses (<xref ref-type="table" rid="pone.0221317.t002">Table 2</xref>). There was improvement of the clinical score in 9 out of 10 horses from group MSC1 and in all 12 horses from group MSC2. There was a significant improvement of the total clinical score for horses in group MSC1 between M0 and M1 (p = 0,0361), M0 and M2 (p = 0,0128) and M0 and M6 (p = 0,0030). There was also significant improvement of the total clinical score for horses in group MSC2 between M0 and M2 (p = 0,0342) and between M0 and M6 (p = 0,0008). However, there was no significant difference in the total clinical score between groups MSC1 and MSC2 at any time point in the study: M0 (p = 0,6792), M1(p = 0,6254), M2 (p = 0,3378) or M6 (p = 0,3087). When considered individually for both groups and for all horses, lameness scores, flexion tests and joint effusion were all significantly reduced at M2 and M6 (and lameness score and passive flexion also at M1), and there were no differences between both groups (<xref ref-type="table" rid="pone.0221317.t002">Table 2</xref>). Objective gait analysis was available at M0 and M6 for 6 horses, 5 with fore limb lameness (H4, H7, H8, H20, H22) and one with hind limb lameness (H21). There was improvement in the objective lameness parameters (vector sum, max diff head/pelvis and min diff head/pelvis) in 3 out of 6 horses, which was in agreement with the subjective assessment for 5 of these horses. Radiographic scores were available for 16 horses (<xref ref-type="table" rid="pone.0221317.t002">Table 2</xref>), 5 horses from group MSC1 and 11 horses from group MSC2. There was no significant difference in the total radiographic OA score, osteophyte score, joint space width score and subchondral bone score between M0 and M6 (p = 0,5597) in either group MSC1 or group MSC2, and there were no differences between both groups.</p>
+<p>At the end of the study, 5 horses returned to their intended level of use, 8 to a lower level and 9 remained lame. Of the 19 horses who were involved in competitive equestrian sports before inclusion in the study, 13 (68%) resumed competition (12 showjumpers, 1 endurance) while 6 (32%) did not (5 racehorses that failed to race; 1 horse developed contralateral limb tendinitis). Three horses were included in the study at the insistence of their owners without any work-related objectives but in order to improve the horses&#8217; well-being by reducing lameness.</p>
+</sec>
+<sec id="sec011" sec-type="conclusions">
+<title>Discussion</title>
+<p>Several studies have investigated safety and efficacy of single or repeated intra-articular injections of allogeneic adult MSCs for the treatment of OA in horses ([<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0221317.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0221317.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0221317.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>]). Whereas studies have documented the safety of equine neonatal MSCs [<xref ref-type="bibr" rid="pone.0221317.ref026">26</xref>], thereby confirming results obtained in other species [<xref ref-type="bibr" rid="pone.0221317.ref033">33</xref>,<xref ref-type="bibr" rid="pone.0221317.ref034">34</xref>], their clinical efficacy has not been investigated neither following a single nor repeated injections in horses. This study therefore, is the first to compare clinical outcomes of two different treatment regimens using intra-articular injection of allogeneic neonatal MSCs in horses with MPJ OA.</p>
+<p>The study was designed as a multicentered (n = 10) trial, involving both academic and private practices, to minimize the risks of repeated bias related to inclusion, treatment or evaluation that may occur in cell therapy studies limited to one or two participating clinical centers. Biological products, including cell therapies, are inherently variable from one batch to another. To reduce the impact of such variability, clinical studies with allogeneic cells are generally performed with a single batch of cells to run the entire experiment [<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>,<xref ref-type="bibr" rid="pone.0221317.ref035">35</xref>] Such practice introduces a batch-specific result which would translate poorly into clinical practice where cells from different batches derived from different donors are necessarily used. Therefore we deliberately used several different batches of cells in our study, in order to reproduce better the reality of clinical practice and increase the clinical relevance of the study. Similarly, anticipating true clinical practice conditions where donor/patient MHC typing and matching would be difficult to implement, cells were not MHC-typed, and cells from a different donor than used for the first injection were used for the second MSC injection. Few equine MSC studies have been performed in a blinded fashion, which introduces a high risk of bias when subjective clinical outcome parameters are used, like lameness grading and scoring of flexion test responses. Different methodologies to implement blindness can be used. In a study performed by Broeckx <italic>et al</italic>., the practitioner evaluating clinical outcome was different to the one administering the treatment [<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>]. In agreement with investigation sites in our study, this method was considered difficult to implement and masking of the injectate was chosen instead.</p>
+<p>The assessment of horses&#8217; return to athletic performance was based on public performance databases (<ext-link ext-link-type="uri" ns0:href="http://letrot.com" ns0:type="simple">letrot.com</ext-link>; <ext-link ext-link-type="uri" ns0:href="http://francegalop.com" ns0:type="simple">francegalop.com</ext-link>; <ext-link ext-link-type="uri" ns0:href="http://ffe.com" ns0:type="simple">ffe.com</ext-link>) rather than relying on owners&#8217; assessment.</p>
+<p>Owner-detected adverse effects to MSC injection were recorded in 18% of the horses in our study, three horses after the first injection and one horse after the second injection. Studies performed with adult autologous MSCs have shown self-limiting local inflammation after a single intra-articular injection of MSCs combined with fetal bovine serum (FBS) or hyaluronic acid [<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0221317.ref036">36</xref>]. In one study, the concurrent use of hyaluronic acid was incriminated for a 9% incidence of joint flares after injection of femorotibial joints with autologous bone marrow-derived MSCs[<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>].</p>
+<p>A recent study explored the safety of a single intra-articular injection of adult allogeneic peripheral blood-derived MSCs in healthy horses [<xref ref-type="bibr" rid="pone.0221317.ref037">37</xref>]. There was transient joint heat and lameness after injection but no differences were found between the treated group and a control group of healthy horses undergoing the same injection protocol. In another study performed by the same group, evaluating efficacy of the same allogeneic peripheral blood-derived MSCs in horses with fetlock osteoarthritis, no adverse effects were observed after a single intra-articular injection. The authors included prophylactic administration of a systemic dose of an NSAID, which may have led to an underestimation bias of adverse effects [<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>].</p>
+<p>When using allogeneic MSCs in repeat injections, specific immune responses against MHC antigens may occur. Induced cytotoxic antibodies to donor MHC antigens have been described against adult allogeneic MSCs in horses [<xref ref-type="bibr" rid="pone.0221317.ref038">38</xref>,<xref ref-type="bibr" rid="pone.0221317.ref039">39</xref>]. Both inflammatory stimuli present in the OA environment and cellular differentiation, have been shown <italic>in vitro</italic> to upregulate MHC-II antigen expression by MSCs [<xref ref-type="bibr" rid="pone.0221317.ref040">40</xref>]. Therefore, the lack of detectable expression of MHC-II antigens in cell batches, without priming, is not a definitive assurance against mounting effective immune reactions. However neonatal MSCs have been shown to express less MHC-II than their adult counterparts under inflammatory conditions [<xref ref-type="bibr" rid="pone.0221317.ref021">21</xref>]. Regardless, other authors have not been able to show any difference in post-injection reaction between autologous and allogeneic MSCs, whether the cells where neonatal [<xref ref-type="bibr" rid="pone.0221317.ref026">26</xref>] or bone marrow-derived adult cells [<xref ref-type="bibr" rid="pone.0221317.ref041">41</xref>]. Yet another study, evaluating neonatal MSCs in dogs with OA, failed to identify a consistent specific humoral response after single or repeated MSC injection [<xref ref-type="bibr" rid="pone.0221317.ref034">34</xref>]. The use of cells from different donors and the removal of fetal calf serum residues by extensive washing of cell cultures may further help reduce the risk of a local inflammatory reaction after a second MSC administration. The adverse effects observed in 2 horses after placebo injection (20%) suggests the possibility of non-specific inflammation occurring related to the arthrocentesis procedure itself or to the potential hyperreactive state of OA joints.</p>
+<p>Only one horse in our study experienced a severe inflammatory reaction following injection of MSCs, resulting in severe swelling, heat and lameness (H23). Synovial fluid analysis (103,000 white blood cells/&#956;L) was indicative of joint sepsis, possibly related to a breach in aseptic technique. Even so, this increased cell number might also be compatible with the presence of the injected MSCs in the joint fluid one day after injection or with an immune-mediated non-septic inflammatory synovitis (&#8216;joint flare&#8217;), especially as clinical signs of joint sepsis usually take longer than 24 hours to appear. Unfortunately, no cytological evaluation of the joint fluid was performed to determine whether the elevated cell count was caused by the presence of neutrophils, monocytes, lymphocytes or MSCs. Consequently, and even though a bacteriological culture remained negative, a conclusive diagnosis as to the cause of the acute inflammatory joint reaction was not possible.</p>
+<p>It is important to note that the occurrence of adverse injection effects was not related to a negative outcome in our study. All 4 horses had a favorable outcome and H23 had returned to his previous performance level at 6 months. This observation, though anecdotal, is similar to a previous report that suggested that horses with marked injection reactions had generally an excellent outcome compared to others [<xref ref-type="bibr" rid="pone.0221317.ref042">42</xref>]. Interestingly this also agrees with findings from a study revealing a link between a pro-inflammatory response early after MSC administration and immunomodulatory functions of MSCs [<xref ref-type="bibr" rid="pone.0221317.ref043">43</xref>]. An inflammatory reaction observed after intra-articular injection of MSCs, that is controllable medically with NSAIDs, may need to be considered more as an expected side effect rather that an adverse reaction.</p>
+<p>The results of our study failed to show an improved outcome after two MSC injections with a 1-month injection interval, in comparison with a single MSC injection. The mechanism of action of MSCs is currently thought to be immunomodulatory one rather than any regenerative effects brought about by the MSCs&#8217; differentiation into chondrocytes [<xref ref-type="bibr" rid="pone.0221317.ref021">21</xref>]. The immunomodulatory effects of MSCs are thought to alter the inflammatory environment in the joint after joint injury through an anti-inflammatory activity of the MSCs as well of cells recruited to the injury site by the MSCs through their paracrine effect [<xref ref-type="bibr" rid="pone.0221317.ref016">16</xref>]. It would therefore be reasonable to expect a more profound or persistent beneficial anti-inflammatory effect from two administrations of MSCs than from a single administration. However, we were unable to show this. Several reasons may explain the apparent lack of benefit of a second MSC injection. Group sizes may have been too small with regard to the large variation in lameness scores to detect a significant difference between both groups. Also, the interval of 1 month between both injections may not be adequate. It was empirically chosen to fit with the estimated residence time of MSCs in the joint [<xref ref-type="bibr" rid="pone.0221317.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0221317.ref044">44</xref>]. The first injection could have resulted in a humoral response with optimal antibody levels peaking at 1 month, leading to a rapid elimination of the MSCs of the second injection. It is further possible that the effect of the second injection was &#8216;diluted&#8217; by the course of action of the first injection in other ways. As the mechanism of action of MSCs is still incompletely understood, their effects may not merely be cumulative as could be expected in a classical pharmacological dose-response effect of repeated intra-articular drug administration. For example, if inflammatory parameters of the joint were lowered by the first injection, MSCs from the second injection may not have encountered the expected threshold of inflammatory stimuli to be primed for optimal anti-inflammatory activity [<xref ref-type="bibr" rid="pone.0221317.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>]. Therefore, it would be useful to test a longer inter-injection interval such as 6 months, as suggested by recent studies [<xref ref-type="bibr" rid="pone.0221317.ref045">45</xref>]. Beneficial effect of a second intra-articular injection of equine umbilical cord-derived MSCs with a 6-month inter-injection interval have been demonstrated in a pilot study with canine OA patients[<xref ref-type="bibr" rid="pone.0221317.ref034">34</xref>].</p>
+<p>It is striking to note that horses in both groups experienced a significant improvement in lameness scores and total clinical scores, as early as M1, and over the entire duration of the study (M6). This finding is in agreement with those from efficacy studies of intra-articular administration of adult MSCs for the treatment of OA in horses [<xref ref-type="bibr" rid="pone.0221317.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0221317.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0221317.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>,<xref ref-type="bibr" rid="pone.0221317.ref017">17</xref>]. A recent study, Broeckx et al. managed to include a placebo group in a study evaluating clinical efficacy of an intra-articular combination therapy with MSCs and equine allogeneic plasma. Unfortunately the authors used a saline control injection for the placebo group, which prevents a definitive distinction between the relative efficacy of the MSCs and the allogeneic plasma each in their own right [<xref ref-type="bibr" rid="pone.0221317.ref032">32</xref>]. When comparing our outcome data with the saline placebo group from this study, horses from both groups (MSC1 and MSC2) in our study had a significantly better outcome (p = 0,019). Even though our results compare favorably with outcome data from other MSC efficacy studies, a definitive conclusion about the purported beneficial effect of equine neonatal allogeneic umbilical cord-derived MSCs would require a prospective study including a group of horses with MPJ OA treated with an intra-articular placebo injection and subjected to the same period of rest and rehabilitation. However, given the nature of clinical practice, it is almost impossible to convince horse owners to collaborate with a 6-month study in which there is a real chance that their horse will miss out on a potentially useful new therapeutic modality or drug.</p>
+<p>The 8-week period of rest and rehabilitation may also have helped the horse&#8217;s lameness grade improve through the study. It has been shown that it may be difficult to differentiate the beneficial effects of a rest and rehab program from those caused by a therapeutic agent administered concurrently in the treatment of equine osteoarthritis [<xref ref-type="bibr" rid="pone.0221317.ref046">46</xref>]. However, the authors feel this is unlikely, as at least 7 horses had already been rested for periods exceeding 8 weeks without improvement before recruitment in the study, other horses had failed to respond to other treatments combined with rest, and the median time between OA diagnosis and MSC treatment was one year with a minimum of 3 months for horses in this study.</p>
+<p>There were no significant changes in the radiographic scores over the duration of the study. Other studies using models of equine OA also failed to show a significant change in radiographic signs of OA between MSC- and placebo-treated joints [<xref ref-type="bibr" rid="pone.0221317.ref040">40</xref>,<xref ref-type="bibr" rid="pone.0221317.ref011">11</xref>]. Furthermore, it is important to note there was a large variation of the total radiographic OA score of horses included in the study, ranging from mild to severe OA. This could have limited the ability to recognize a statistically significant improvement in OA scores at 6 months after MSC injection (M6). Even so, radiographic changes of OA like osteophytes, joint space narrowing and subchondral bone lysis tend to be irreversible and would not be expected to improve with any treatment. Therefore, the absence of significant exacerbation of the OA grade in either group over a period of 6 months could be considered as a positive finding.</p>
+<p>Our study had some limitations inherent to equine multicenter clinical field trials. An increasing number of investigational centers induces variability in clinical assessment and uneven data collection. Objective lameness evaluation was only feasible in a limited number of patients due to limited availability of the Lameness locator equipment<sup>j</sup>. Not all horses were evaluated after intra-articular analgesia of the MPJ to confirm the presence of intra-articular pain associated with osteoarthritis. Even so, we feel that the combination of perineural analgesia, a positive flexion test and imaging findings can be conclusive for a diagnosis of osteoarthritis, even without the benefit of a recorded response to intra-articular analgesia [<xref ref-type="bibr" rid="pone.0221317.ref001">1</xref>]. Drugs selected for prophylactic treatment for prevention of adverse injection effects varied between operators. Inconsistency in radiographic protocol meant that all views required for grading the OA score were only present in 16 horses (MSC1 = 5 and MSC2 = 11). And finally, during the 6 months of the study, some horses were lost to follow up due to non-compliance of the owners. The low number of 22 horses retained for the final analysis could consequently induce the risk of a type II statistical error.</p>
+<p>We conclude that lameness caused by MPJ OA improved significantly after treatment with allogeneic neonatal umbilical cord-derived MSCs combined with 8 weeks&#8217; rest and rehabilitation over the 6-month duration of the study. Intra-articular administration of umbilical cord-derived, allogeneic, neonatal MSCs carries a low risk of unexpected adverse injection effects. There is no apparent clinical benefit of repeated intra-articular administration of MSCs at a 1-month interval in horses with MPJ OA when compared to the effect of a single injection.</p>
+<sec id="sec012">
+<title>Manufacturers&#8217; addresses</title>
+<p>a Pan Biotech Gmbh, Aidenbach, Germany</p>
+<p>b Detogesic, Zoetis, Malakoff, France</p>
+<p>c Rompun Bayer Healthcare, Loos, France</p>
+<p>d Sedivet, Merial, Lyon, France</p>
+<p>e Torbugesic, Zoetis, Malakoff, France</p>
+<p>f Phenylarthrite, Vetoquinol, Lure, France</p>
+<p>g Finadyne Intervet, Beaucouze, France</p>
+<p>h Dexadreson Intervet, Beaucouze, France</p>
+<p>i Graphpad software, San Diego, USA</p>
+<p>j Lameness Locator, Equinosis, Columbia, USA</p>
+</sec>
+</sec>
+<sec id="sec013">
+<title>Supporting information</title>
+<supplementary-material id="pone.0221317.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Description of the population.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221317.s002" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Clinical scores of the horses.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221317.s003" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0221317.s003" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Radiographic scores of the horses.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We are grateful to C. Dubois and L. Wimel, the staff of the experimental farm of the French Horse and Riding Institute (IFCE), 19370 Chamberet, for providing neonatal tissues from selected mares and foals. We thank Dr. K. Pader, Dr JM. Betsch, Dr M. Hamon, Dr E. Ouach&#233;e, Dr A. Vitte, Dr N. Delalande, Dr F. Croisier, Dr JC. Meunier, Dr D. Lavorel, Dr T. Bertholdy, Dr F. Martin and Dr H. Sorribas for providing patients and performing clinical evaluations and data collections. We wish to thank Dr S. Sage for his contributions to the study protocol.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221317.ref001"><label>1</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Richardson</surname> <given-names>DW</given-names></name>, <name name-style="western"><surname>Dyson</surname> <given-names>SJ</given-names></name>. <chapter-title>Chapter 36&#8212;The Metacarpophalangeal Joint</chapter-title>. In: <name name-style="western"><surname>Ross</surname> <given-names>MW</given-names></name>, <name name-style="western"><surname>Dyson</surname> <given-names>SJ</given-names></name>, editors. <source>Diagnosis and Management of Lameness in the Horse</source> (<edition>Second Edition</edition>). <publisher-loc>Saint Louis</publisher-loc>: <publisher-name>W.B. Saunders</publisher-name>; <year>2011</year>. pp. <fpage>394</fpage>&#8211;<lpage>410</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/B978-1-4160-6069-7.00036&#8211;5" ns0:type="simple">10.1016/B978-1-4160-6069-7.00036&#8211;5</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221317.ref002"><label>2</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Fortier</surname> <given-names>L</given-names></name>. <chapter-title>Chapter 73&#8212;Clinical Use of Stem Cells, Marrow Components, and Other Growth Factors</chapter-title>. In: <name name-style="western"><surname>Ross</surname> <given-names>MW</given-names></name>, <name name-style="western"><surname>Dyson</surname> <given-names>SJ</given-names></name>, editors. <source>Diagnosis and Management of Lameness in the Horse</source> (<edition>Second Edition</edition>). <publisher-loc>Saint Louis</publisher-loc>: <publisher-name>W.B. Saunders</publisher-name>; <year>2011</year>. pp. <fpage>761</fpage>&#8211;<lpage>764</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/B978-1-4160-6069-7.00073&#8211;0" ns0:type="simple">10.1016/B978-1-4160-6069-7.00073&#8211;0</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221317.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Godwin</surname> <given-names>EE</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Dudhia</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Beamish</surname> <given-names>IC</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>RKW</given-names></name>. <article-title>Implantation of bone marrow-derived mesenchymal stem cells demonstrates improved outcome in horses with overstrain injury of the superficial digital flexor tendon</article-title>. <source>Equine Vet J</source>. <year>2012</year>;<volume>44</volume>: <fpage>25</fpage>&#8211;<lpage>32</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.2042-3306.2011.00363.x" ns0:type="simple">10.1111/j.2042-3306.2011.00363.x</ext-link></comment> <object-id pub-id-type="pmid">21615465</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Smith</surname> <given-names>RKW</given-names></name>, <name name-style="western"><surname>Korda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Blunn</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Goodship</surname> <given-names>AE</given-names></name>. <article-title>Isolation and implantation of autologous equine mesenchymal stem cells from bone marrow into the superficial digital flexor tendon as a potential novel treatment</article-title>. <source>Equine Vet J</source>. <year>2003</year>;<volume>35</volume>: <fpage>99</fpage>&#8211;<lpage>102</lpage>. <object-id pub-id-type="pmid">12553472</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Watts</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Yeager</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Kopyov</surname> <given-names>OV</given-names></name>, <name name-style="western"><surname>Nixon</surname> <given-names>AJ</given-names></name>. <article-title>Fetal derived embryonic-like stem cells improve healing in a large animal flexor tendonitis model</article-title>. <source>Stem Cell Res Ther</source>. <year>2011</year>;<volume>2</volume>: <fpage>4</fpage>&#8211;4. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/scrt45" ns0:type="simple">10.1186/scrt45</ext-link></comment> <object-id pub-id-type="pmid">21272343</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Colbath</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Dow</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Phillips</surname> <given-names>JN</given-names></name>, <name name-style="western"><surname>McIlwraith</surname> <given-names>CW</given-names></name>, <name name-style="western"><surname>Goodrich</surname> <given-names>LR</given-names></name>. <article-title>Autologous and Allogeneic Equine Mesenchymal Stem Cells Exhibit Equivalent Immunomodulatory Properties In Vitro.</article-title> <source>Stem Cells Dev</source>. <year>2017</year>;<volume>26</volume>: <fpage>503</fpage>&#8211;<lpage>511</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/scd.2016.0266" ns0:type="simple">10.1089/scd.2016.0266</ext-link></comment> <object-id pub-id-type="pmid">27958776</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Murphy</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Fink</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Hunziker</surname> <given-names>EB</given-names></name>, <name name-style="western"><surname>Barry</surname> <given-names>FP</given-names></name>. <article-title>Stem cell therapy in a caprine model of osteoarthritis</article-title>. <source>Arthritis Rheum</source>. <year>2003</year>;<volume>48</volume>: <fpage>3464</fpage>&#8211;<lpage>3474</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/art.11365" ns0:type="simple">10.1002/art.11365</ext-link></comment> <object-id pub-id-type="pmid">14673997</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ferris</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Frisbie</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Kisiday</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>McIlwraith</surname> <given-names>CW</given-names></name>, <name name-style="western"><surname>Hague</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Major</surname> <given-names>MD</given-names></name>, <etal>et al</etal>. <article-title>Clinical Outcome After Intra-Articular Administration of Bone Marrow Derived Mesenchymal Stem Cells in 33 Horses With Stifle Injury</article-title>. <source>Vet Surg</source>. <year>2014</year>;<volume>43</volume>: <fpage>255</fpage>&#8211;<lpage>265</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1532-950X.2014.12100.x" ns0:type="simple">10.1111/j.1532-950X.2014.12100.x</ext-link></comment> <object-id pub-id-type="pmid">24433318</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fortier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Potter</surname> <given-names>HG</given-names></name>, <name name-style="western"><surname>Rickey</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Schnabel</surname> <given-names>LV</given-names></name>, <name name-style="western"><surname>Foo</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Chong</surname> <given-names>LR</given-names></name>, <etal>et al</etal>. <article-title>Concentrated Bone Marrow Aspirate Improves Full-thickness Cartilage Repair Compared with Microfracture in the Equine Model.</article-title> <source>J Bone Jt Surg</source>. <year>2010</year>;<volume>92</volume>: <fpage>1927</fpage>&#8211;<lpage>1937</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2106/JBJS.I.01284" ns0:type="simple">10.2106/JBJS.I.01284</ext-link></comment> <object-id pub-id-type="pmid">20720135</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McIlwraith</surname> <given-names>CW</given-names></name>, <name name-style="western"><surname>Frisbie</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Rodkey</surname> <given-names>WG</given-names></name>, <name name-style="western"><surname>Kisiday</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Werpy</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Kawcak</surname> <given-names>CE</given-names></name>, <etal>et al</etal>. <article-title>Evaluation of Intra-Articular Mesenchymal Stem Cells to Augment Healing of Microfractured Chondral Defects.</article-title> <source>Arthroscopy</source>. <year>2011</year>;<volume>27</volume>: <fpage>1552</fpage>&#8211;<lpage>1561</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.arthro.2011.06.002" ns0:type="simple">10.1016/j.arthro.2011.06.002</ext-link></comment> <object-id pub-id-type="pmid">21862278</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Frisbie</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Kisiday</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Kawcak</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Werpy</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>McIlwraith</surname> <given-names>CW</given-names></name>. <article-title>Evaluation of adipose-derived stromal vascular fraction or bone marrow-derived mesenchymal stem cells for treatment of osteoarthritis</article-title>. <source>J Orthop Res</source>. <year>2009</year>;<volume>27</volume>: <fpage>1675</fpage>&#8211;<lpage>1680</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jor.20933" ns0:type="simple">10.1002/jor.20933</ext-link></comment> <object-id pub-id-type="pmid">19544397</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Broeckx</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Suls</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Beerts</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Vandenberghe</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Seys</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wuertz-Kozak</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Allogenic Mesenchymal Stem Cells as a Treatment for Equine Degenerative Joint Disease: A Pilot Study.</article-title> <source>Curr Stem Cell Res Ther</source>. <year>2014</year>;<volume>9</volume>: <fpage>497</fpage>&#8211;<lpage>503</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2174/1574888X09666140826110601" ns0:type="simple">10.2174/1574888X09666140826110601</ext-link></comment> <object-id pub-id-type="pmid">25175766</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Broeckx</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zimmerman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Crocetti</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Suls</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mari&#235;n</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ferguson</surname> <given-names>SJ</given-names></name>, <etal>et al</etal>. <article-title>Regenerative Therapies for Equine Degenerative Joint Disease: A Preliminary Study</article-title>. <source>PLoS ONE</source>. <year>2014</year>;<volume>9</volume>: <fpage>e85917</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0085917" ns0:type="simple">10.1371/journal.pone.0085917</ext-link></comment> <object-id pub-id-type="pmid">24465787</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Saulnier</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Viguier</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Perrier-Groult</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chenu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Pillet</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Roger</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Intra-articular administration of xenogeneic neonatal Mesenchymal Stromal Cells early after meniscal injury down-regulates metalloproteinase gene expression in synovium and prevents cartilage degradation in a rabbit model of osteoarthritis</article-title>. <source>Osteoarthritis Cartilage</source>. <year>2015</year>;<volume>23</volume>: <fpage>122</fpage>&#8211;<lpage>133</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.joca.2014.09.007" ns0:type="simple">10.1016/j.joca.2014.09.007</ext-link></comment> <object-id pub-id-type="pmid">25219668</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vidal</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Kilroy</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Lopez</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Moore</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Gimble</surname> <given-names>JM</given-names></name>. <article-title>Characterization of Equine Adipose Tissue-Derived Stromal Cells: Adipogenic and Osteogenic Capacity and Comparison with Bone Marrow-Derived Mesenchymal Stromal Cells.</article-title> <source>Vet Surg</source>. <year>2007</year>;<volume>36</volume>: <fpage>613</fpage>&#8211;<lpage>622</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1532-950X.2007.00313.x" ns0:type="simple">10.1111/j.1532-950X.2007.00313.x</ext-link></comment> <object-id pub-id-type="pmid">17894587</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ursini</surname> <given-names>TL</given-names></name>, <name name-style="western"><surname>Amelse</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Elkhenany</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Odoi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Carter&#8208;Arnold</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Adair</surname> <given-names>HS</given-names></name>, <etal>et al</etal>. <article-title>Retrospective analysis of local injection site adverse reactions associated with 230 allogenic administrations of bone marrow-derived mesenchymal stem cells in 164 horses</article-title>. <source>Equine Vet J</source>. <year>2019</year>;<volume>51</volume>: <fpage>198</fpage>&#8211;<lpage>205</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/evj.12992" ns0:type="simple">10.1111/evj.12992</ext-link></comment> <object-id pub-id-type="pmid">29992618</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mari&#241;as-Pardo</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Garc&#237;a-Castro</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rodr&#237;guez-Hurtado</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rodr&#237;guez-Garc&#237;a</surname> <given-names>MI</given-names></name>, <name name-style="western"><surname>N&#250;&#241;ez-Naveira</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hermida-Prieto</surname> <given-names>M</given-names></name>. <article-title>Allogeneic Adipose-Derived Mesenchymal Stem Cells (Horse Allo 20) for the Treatment of Osteoarthritis-Associated Lameness in Horses: Characterization, Safety, and Efficacy of Intra-Articular Treatment.</article-title> <source>Stem Cells Dev</source>. <year>2018</year>;<volume>27</volume>: <fpage>1147</fpage>&#8211;<lpage>1160</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/scd.2018.0074" ns0:type="simple">10.1089/scd.2018.0074</ext-link></comment> <object-id pub-id-type="pmid">29978736</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mensing</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gasse</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hambruch</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Haeger</surname> <given-names>J-D</given-names></name>, <name name-style="western"><surname>Pfarrer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Staszyk</surname> <given-names>C</given-names></name>. <article-title>Isolation and characterization of multipotent mesenchymal stromal cells from the gingiva and the periodontal ligament of the horse</article-title>. <source>BMC Vet Res</source>. <year>2011</year>;<volume>7</volume>: <fpage>42</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1746-6148-7-42" ns0:type="simple">10.1186/1746-6148-7-42</ext-link></comment> <object-id pub-id-type="pmid">21810270</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Iacono</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Brunori</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Pirrone</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pagliaro</surname> <given-names>PP</given-names></name>, <name name-style="western"><surname>Ricci</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tazzari</surname> <given-names>PL</given-names></name>, <etal>et al</etal>. <article-title>Isolation, characterization and differentiation of mesenchymal stem cells from amniotic fluid, umbilical cord blood and Wharton&#8217;s jelly in the horse</article-title>. <source>Reproduction</source>. <year>2012</year>;<volume>143</volume>: <fpage>455</fpage>&#8211;<lpage>468</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1530/REP-10-0408" ns0:type="simple">10.1530/REP-10-0408</ext-link></comment> <object-id pub-id-type="pmid">22274885</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Koch</surname> <given-names>TG</given-names></name>, <name name-style="western"><surname>Heerkens</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Thomsen</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Betts</surname> <given-names>DH</given-names></name>. <article-title>Isolation of mesenchymal stem cells from equine umbilical cord blood</article-title>. <source>BMC Biotechnol</source>. <year>2007</year>;<volume>7</volume>: <fpage>26</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1472-6750-7-26" ns0:type="simple">10.1186/1472-6750-7-26</ext-link></comment> <object-id pub-id-type="pmid">17537254</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Prasanna</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Gopalakrishnan</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Shankar</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Vasandan</surname> <given-names>AB</given-names></name>. <article-title>Pro-Inflammatory Cytokines, IFN&#947; and TNF&#945;, Influence Immune Properties of Human Bone Marrow and Wharton Jelly Mesenchymal Stem Cells Differentially.</article-title> <source>PLOS ONE</source>. <year>2010</year>;<volume>5</volume>: <fpage>e9016</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0009016" ns0:type="simple">10.1371/journal.pone.0009016</ext-link></comment> <object-id pub-id-type="pmid">20126406</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Toupet</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Maumus</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Luz-Crawford</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lombardo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lopez-Belmonte</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lent</surname> <given-names>P van</given-names></name>, <etal>et al</etal>. <article-title>Survival and Biodistribution of Xenogenic Adipose Mesenchymal Stem Cells Is Not Affected by the Degree of Inflammation in Arthritis.</article-title> <source>PLOS ONE</source>. <year>2015</year>;<volume>10</volume>: <fpage>e0114962</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0114962" ns0:type="simple">10.1371/journal.pone.0114962</ext-link></comment> <object-id pub-id-type="pmid">25559623</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Grady</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Britton</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hinrichs</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nixon</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Watts</surname> <given-names>AE</given-names></name>. <article-title>Persistence of fluorescent nanoparticle-labelled bone marrow mesenchymal stem cells in vitro and after intra-articular injection</article-title>. <source>J Tissue Eng Regen Med</source>. <year>2019</year>;<volume>13</volume>: <fpage>191</fpage>&#8211;<lpage>202</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/term.2781" ns0:type="simple">10.1002/term.2781</ext-link></comment> <object-id pub-id-type="pmid">30536848</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brooks</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Futrega</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Liang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Crawford</surname> <given-names>DHG</given-names></name>, <etal>et al</etal>. <article-title>Concise Review: Quantitative Detection and Modeling the In Vivo Kinetics of Therapeutic Mesenchymal Stem/Stromal Cells: Detection and Modeling Kinetics of Stem Cells.</article-title> <source>STEM CELLS Transl Med</source>. <year>2018</year>;<volume>7</volume>: <fpage>78</fpage>&#8211;<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sctm.17-0209" ns0:type="simple">10.1002/sctm.17-0209</ext-link></comment> <object-id pub-id-type="pmid">29210198</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Joswig</surname> <given-names>A-J</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cummings</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Levine</surname> <given-names>GJ</given-names></name>, <name name-style="western"><surname>Gregory</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Repeated intra-articular injection of allogeneic mesenchymal stem cells causes an adverse response compared to autologous cells in the equine model</article-title>. <source>Stem Cell Res Ther</source>. <year>2017</year>;<volume>8</volume>: <fpage>42</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13287-017-0503-8" ns0:type="simple">10.1186/s13287-017-0503-8</ext-link></comment> <object-id pub-id-type="pmid">28241885</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Carrade</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Owens</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Galuppo</surname> <given-names>LD</given-names></name>, <name name-style="western"><surname>Vidal</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Ferraro</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>Librach</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Clinicopathologic findings following intra-articular injection of autologous and allogeneic placentally derived equine mesenchymal stem cells in horses</article-title>. <source>Cytotherapy</source>. <year>2011</year>;<volume>13</volume>: <fpage>419</fpage>&#8211;<lpage>430</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3109/14653249.2010.536213" ns0:type="simple">10.3109/14653249.2010.536213</ext-link></comment> <object-id pub-id-type="pmid">21105841</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schumacher</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Steiger</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Schumacher</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Graves</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Schramme</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Effects of Analgesia of the Distal Interphalangeal Joint or Palmar Digital Nerves on Lameness Caused by Solar Pain in Horses.</article-title> <source>Vet Surg</source>. <year>2000</year>;<volume>29</volume>: <fpage>54</fpage>&#8211;<lpage>58</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1532-950X.2000.00054.x" ns0:type="simple">10.1111/j.1532-950X.2000.00054.x</ext-link></comment> <object-id pub-id-type="pmid">10653495</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Keegan</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Kramer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yonezawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Maki</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Pai</surname> <given-names>PF</given-names></name>, <name name-style="western"><surname>Dent</surname> <given-names>EV</given-names></name>, <etal>et al</etal>. <article-title>Assessment of repeatability of a wireless, inertial sensor&#8211;based lameness evaluation system for horses</article-title>. <source>Am J Vet Res</source>. <year>2011</year>;<volume>72</volume>: <fpage>1156</fpage>&#8211;<lpage>1163</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2460/ajvr.72.9.1156" ns0:type="simple">10.2460/ajvr.72.9.1156</ext-link></comment> <object-id pub-id-type="pmid">21879972</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bartholomew</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Owens</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Ferraro</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>Carrade</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Lara</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Librach</surname> <given-names>FA</given-names></name>, <etal>et al</etal>. <article-title>Collection of equine cord blood and placental tissues in 40 Thoroughbred mares</article-title>. <source>Equine Vet J</source>. <year>2009</year>;<volume>41</volume>: <fpage>724</fpage>&#8211;<lpage>728</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2746/042516409X429446" ns0:type="simple">10.2746/042516409X429446</ext-link></comment> <object-id pub-id-type="pmid">20095217</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rakic</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bourdon</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Demoor</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Maddens</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Saulnier</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gal&#233;ra</surname> <given-names>P</given-names></name>. <article-title>Differences in the intrinsic chondrogenic potential of equine umbilical cord matrix and cord blood mesenchymal stromal/stem cells for cartilage regeneration</article-title>. <source>Sci Rep</source>. <year>2018</year>;<volume>8</volume>: <fpage>13799</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41598-018-28164-9" ns0:type="simple">10.1038/s41598-018-28164-9</ext-link></comment> <object-id pub-id-type="pmid">30217993</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lang</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Schnabel</surname> <given-names>LV</given-names></name>, <name name-style="western"><surname>Cassano</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Fortier</surname> <given-names>LA</given-names></name>. <article-title>Effect of needle diameter on the viability of equine bone marrow derived mesenchymal stem cells</article-title>. <source>Vet Surg</source>. <year>2017</year>;<volume>46</volume>: <fpage>731</fpage>&#8211;<lpage>737</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/vsu.12639" ns0:type="simple">10.1111/vsu.12639</ext-link></comment> <object-id pub-id-type="pmid">28328147</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Broeckx</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Seys</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Suls</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vandenberghe</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mari&#235;n</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Adriaensen</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Equine Allogeneic Chondrogenic Induced Mesenchymal Stem Cells Are an Effective Treatment for Degenerative Joint Disease in Horses.</article-title> <source>Stem Cells Dev</source>. <year>2019</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/scd.2018.0061" ns0:type="simple">10.1089/scd.2018.0061</ext-link></comment> <object-id pub-id-type="pmid">30623737</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Taroni</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cabon</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>F&#232;bre</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cachon</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Saulnier</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Carozzo</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Evaluation of the Effect of a Single Intra-articular Injection of Allogeneic Neonatal Mesenchymal Stromal Cells Compared to Oral Non-Steroidal Anti-inflammatory Treatment on the Postoperative Musculoskeletal Status and Gait of Dogs over a 6-Month Period after Tibial Plateau Leveling Osteotomy: A Pilot Study.</article-title> <source>Front Vet Sci</source>. <year>2017</year>;<volume>4</volume>: <fpage>83</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fvets.2017.00083" ns0:type="simple">10.3389/fvets.2017.00083</ext-link></comment> <object-id pub-id-type="pmid">28642867</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cabon</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Febre</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gomez</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Cachon</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Pillard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Carozzo</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Long-Term Safety and Efficacy of Single or Repeated Intra-Articular Injection of Allogeneic Neonatal Mesenchymal Stromal Cells for Managing Pain and Lameness in Moderate to Severe Canine Osteoarthritis Without Anti-inflammatory Pharmacological Support: Pilot Clinical Study.</article-title> <source>Front Vet Sci</source>. <year>2019</year>;<volume>6</volume>: <fpage>10</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fvets.2019.00010" ns0:type="simple">10.3389/fvets.2019.00010</ext-link></comment> <object-id pub-id-type="pmid">30805348</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hatsushika</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Muneta</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nakamura</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Horie</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Koga</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Nakagawa</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Repetitive allogeneic intraarticular injections of synovial mesenchymal stem cells promote meniscus regeneration in a porcine massive meniscus defect model</article-title>. <source>Osteoarthritis Cartilage</source>. <year>2014</year>;<volume>22</volume>: <fpage>941</fpage>&#8211;<lpage>950</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.joca.2014.04.028" ns0:type="simple">10.1016/j.joca.2014.04.028</ext-link></comment> <object-id pub-id-type="pmid">24795274</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pigott</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Ishihara</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wellman</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Russell</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Bertone</surname> <given-names>AL</given-names></name>. <article-title>Inflammatory effects of autologous, genetically modified autologous, allogeneic, and xenogeneic mesenchymal stem cells after intra-articular injection in horses</article-title>. <source>Vet Comp Orthop Traumatol VCOT</source>. <year>2013</year>;<volume>26</volume>: <fpage>453</fpage>&#8211;<lpage>460</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3415/VCOT-13-01-0008" ns0:type="simple">10.3415/VCOT-13-01-0008</ext-link></comment> <object-id pub-id-type="pmid">24080668</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Broeckx</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Spaas</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Chiers</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Duchateau</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Van Hecke</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Van Brantegem</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Equine allogeneic chondrogenic induced mesenchymal stem cells: A GCP target animal safety and biodistribution study</article-title>. <source>Res Vet Sci</source>. <year>2018</year>;<volume>117</volume>: <fpage>246</fpage>&#8211;<lpage>254</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.rvsc.2017.12.018" ns0:type="simple">10.1016/j.rvsc.2017.12.018</ext-link></comment> <object-id pub-id-type="pmid">29329028</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pezzanite</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Fortier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Antczak</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>Cassano</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Brosnahan</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Equine allogeneic bone marrow-derived mesenchymal stromal cells elicit antibody responses in vivo</article-title>. <source>Stem Cell Res Ther</source>. <year>2015</year>;<volume>6</volume>: <fpage>54</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13287-015-0053-x" ns0:type="simple">10.1186/s13287-015-0053-x</ext-link></comment> <object-id pub-id-type="pmid">25889095</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Berglund</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Schnabel</surname> <given-names>LV</given-names></name>. <article-title>Allogeneic major histocompatibility complex&#8208;mismatched equine bone marrow&#8208;derived mesenchymal stem cells are targeted for death by cytotoxic anti&#8208;major histocompatibility complex antibodies</article-title>. <source>Equine Vet J</source>. <year>2017</year>;<volume>49</volume>: <fpage>539</fpage>&#8211;<lpage>544</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/evj.12647" ns0:type="simple">10.1111/evj.12647</ext-link></comment> <object-id pub-id-type="pmid">27862236</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barrachina</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Remacha</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Romero</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Vitoria</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Albareda</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Prades</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Assessment of effectiveness and safety of repeat administration of proinflammatory primed allogeneic mesenchymal stem cells in an equine model of chemically induced osteoarthritis</article-title>. <source>BMC Vet Res</source>. <year>2018</year>;<volume>14</volume>: <fpage>241</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12917-018-1556-3" ns0:type="simple">10.1186/s12917-018-1556-3</ext-link></comment> <object-id pub-id-type="pmid">30119668</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ardanaz</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>V&#225;zquez</surname> <given-names>FJ</given-names></name>, <name name-style="western"><surname>Romero</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Remacha</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Barrachina</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sanz</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Inflammatory response to the administration of mesenchymal stem cells in an equine experimental model: effect of autologous, and single and repeat doses of pooled allogeneic cells in healthy joints</article-title>. <source>BMC Vet Res</source>. <year>2016</year>;<volume>12</volume>: <fpage>65</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12917-016-0692-x" ns0:type="simple">10.1186/s12917-016-0692-x</ext-link></comment> <object-id pub-id-type="pmid">27029614</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peroni</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Borjesson</surname> <given-names>DL</given-names></name>. <article-title>Anti-Inflammatory and Immunomodulatory Activities of Stem Cells.</article-title> <source>Vet Clin North Am Equine Pract</source>. <year>2011</year>;<volume>27</volume>: <fpage>351</fpage>&#8211;<lpage>362</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cveq.2011.06.003" ns0:type="simple">10.1016/j.cveq.2011.06.003</ext-link></comment> <object-id pub-id-type="pmid">21872763</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hoogduijn</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Roemeling-van Rhijn</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Engela</surname> <given-names>AU</given-names></name>, <name name-style="western"><surname>Korevaar</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Mensah</surname> <given-names>FKF</given-names></name>, <name name-style="western"><surname>Franquesa</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Mesenchymal Stem Cells Induce an Inflammatory Response After Intravenous Infusion.</article-title> <source>Stem Cells Dev</source>. <year>2013</year>;<volume>22</volume>: <fpage>2825</fpage>&#8211;<lpage>2835</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/scd.2013.0193" ns0:type="simple">10.1089/scd.2013.0193</ext-link></comment> <object-id pub-id-type="pmid">23767885</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wood</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>D-J</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Zwingenberger</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Reilly</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Ly</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Periocular and Intra-Articular Injection of Canine Adipose-Derived Mesenchymal Stem Cells: An In Vivo Imaging and Migration Study.</article-title> <source>J Ocul Pharmacol Ther</source>. <year>2012</year>;<volume>28</volume>: <fpage>307</fpage>&#8211;<lpage>317</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/jop.2011.0166" ns0:type="simple">10.1089/jop.2011.0166</ext-link></comment> <object-id pub-id-type="pmid">22175793</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Matas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Orrego</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Amenabar</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Infante</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Tapia&#8208;Limonchi</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cadiz</surname> <given-names>MI</given-names></name>, <etal>et al</etal>. <article-title>Umbilical Cord-Derived Mesenchymal Stromal Cells (MSCs) for Knee Osteoarthritis: Repeated MSC Dosing Is Superior to a Single MSC Dose and to Hyaluronic Acid in a Controlled Randomized Phase I/II Trial</article-title>. <source>STEM CELLS Transl Med</source>. <year>2019</year>;<volume>8</volume>: <fpage>215</fpage>&#8211;<lpage>224</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sctm.18-0053" ns0:type="simple">10.1002/sctm.18-0053</ext-link></comment> <object-id pub-id-type="pmid">30592390</object-id></mixed-citation></ref>
+<ref id="pone.0221317.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gough</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Thibaud</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>RKW</given-names></name>. <article-title>Tiludronate infusion in the treatment of bone spavin: A double blind placebo-controlled trial</article-title>. <source>Equine Vet J</source>. <year>2010</year>;<volume>42</volume>: <fpage>381</fpage>&#8211;<lpage>387</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.2042-3306.2010.00120.x" ns0:type="simple">10.1111/j.2042-3306.2010.00120.x</ext-link></comment> <object-id pub-id-type="pmid">20636772</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221317.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221317.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Fiorina</surname>
+<given-names>Paolo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Paolo Fiorina</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221317" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">6 Aug 2019</named-content>
+</p>
+<p>Comparison of efficacy and safety of single versus repeated intra-articular injection of allogeneic neonatal mesenchymal stem cells for treatment of osteoarthritis of the metacarpophalangeal/metatarsophalangeal joint in horses: a clinical pilot study</p>
+<p>PONE-D-19-16694</p>
+<p>Dear Dr. Magri,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Paolo Fiorina, MD, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>JOURNAL REQUIREMENTS:</p>
+<p>Please address the following in your final submission:</p>
+<p>1. Thank you for including your competing interests statement; "I have read the journal's policy and the authors of this manuscript have the following competing interests:</p>
+<p>SM is a current and principal shareholder of Vetbiobank. MF, FL, NS, are employees of Vetbiobank. There is no commercial or financial connection between Vetbiobank&#160; and the seven co-authors (CM, MS, EC, IF,AL,DA, AM)"</p>
+<p>We note that one or more of the authors are employed by a commercial company: Azurvet, Clin&#233;quine and Vetbiobank SAS</p>
+<p>1. Please provide an amended Funding Statement declaring this commercial affiliation, as well as a statement regarding the Role of Funders in your study. If the funding organization did not play a role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript and only provided financial support in the form of authors' salaries and/or research materials, please review your statements relating to the author contributions, and ensure you have specifically and accurately indicated the role(s) that these authors had in your study. You can update author roles in the Author Contributions section of the online submission form.</p>
+<p>Please also include the following statement within your amended Funding Statement.</p>
+<p>&#8220;The funder provided support in the form of salaries for authors [insert relevant initials], but did not have any additional role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript. The specific roles of these authors are articulated in the &#8216;author contributions&#8217; section.&#8221;</p>
+<p>If your commercial affiliation did play a role in your study, please state and explain this role within your updated Funding Statement.</p>
+<p>2. Please also provide an updated Competing Interests Statement declaring this commercial affiliation along with any other relevant declarations relating to employment, consultancy, patents, products in development, or marketed products, etc. &#160;</p>
+<p>Within your Competing Interests Statement, please confirm that this commercial affiliation does not alter your adherence to all PLOS ONE policies on sharing data and materials by including the following statement: "This does not alter our adherence to&#160; PLOS ONE policies on sharing data and materials.&#8221; (as detailed online in our guide for authors <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/competing-interests" ns0:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link>). &#160;If this adherence statement is not accurate and&#160; there are restrictions on sharing of data and/or materials, please state these. Please note that we cannot proceed with consideration of your article until this information has been declared.</p>
+<p>Please respond by return email with an updated Funding Statement and Competing Interests Statement and we will change the online submission form on your behalf.</p>
+<p>Please know it is PLOS ONE policy for corresponding authors to declare, on behalf of all authors, all potential competing interests for the purposes of transparency. PLOS defines a competing interest as anything that interferes with, or could reasonably be perceived as interfering with, the full and objective presentation, peer review, editorial decision-making, or publication of research or non-research articles submitted to one of the journals. Competing interests can be financial or non-financial, professional, or personal. Competing interests can arise in relationship to an organization or another person. Please follow this link to our website for more details on competing interests: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/competing-interests" ns0:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link></p>
+<p>2. We note that you have included the phrase &#8220;data not shown&#8221; in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data.</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The clinical study was correctly set up, the procedures were well explained and the results correctly presented</p>
+<p>Reviewer #2: In this work authors describe the benefit of MSC based therapy as an approach to cure OA and MPJ in horses. The horses were divided in two group depending on the number of injections received. Authors of this clinical pilot study evaluated the effects of a single/repeated intrarticular administration of allogenic, umbilical cord-derived, neonatal MSCs on osteoarthritis (OA) of a</p>
+<p>metacarpophalangeal joint (MPJ) both in term of efficacy (clinical or radiological) than of safety. Results showed that there was no difference between the two group of treatment, but as authors said in the discussion sessions the article is limited by the small numerosity of the cohort.</p>
+<p>The study is very well designed and written and it has very interesting results providing important informations both for basic science and clinical science.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221317.r002" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221317.r002</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Fiorina</surname>
+<given-names>Paolo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Paolo Fiorina</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221317" document-id-type="doi" document-type="article" id="rel-obj002" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">22 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-16694 </p>
+<p>Comparison of efficacy and safety of single versus repeated intra-articular injection of allogeneic neonatal mesenchymal stem cells for treatment of osteoarthritis of the metacarpophalangeal/metatarsophalangeal joint in horses: a clinical pilot study </p>
+<p>Dear Dr. Magri:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Paolo Fiorina  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

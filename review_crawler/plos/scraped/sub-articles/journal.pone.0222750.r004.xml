@@ -1,0 +1,41 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222750.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222750.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">28 Aug 2019</named-content>
+</p>
+<p>Manuscript: PONE-D-19-17741</p>
+<p>Response: We thank the editor and reviewers for your careful reading of our manuscript and for your thoughtful comments. We have incorporated your suggestions into the updated version of our manuscript as detailed below. Please note that line numbers in our responses below refer to the tracked version of the revised manuscript.</p>
+<p>Responses to comments from Reviewer 2:</p>
+<p>1. The variable Missed work to come to the CHC for screening was this for women who were employed or for all women </p>
+<p>Response: This variable applied to all women. We think there is something about the decision and ability to miss work that separates women who missed work from those who either work inside the home or work outside the home and didn&#8217;t miss work. In preparing our response to this question, we realized that the frequencies in Table 1 for this variable were incorrect; they are now accurate. </p>
+<p>Comment: How many among those working outside home missed work to come to CCC. Since the ones at home might not have considered themselves to have missed work. This all depends on how the questions was phrased and from the frequencies the number missing work is lower than the number working outside home.</p>
+<p>Response: The questions were phrased as, &#8220;Are you currently working outside of the home?&#8221; and &#8220;Did you have to miss work to come to this campaign?&#8221; Six percent of women who do not work outside the home reported missing work to come to the CHC, and 57% of women who work outside the home reported doing so. We have added this data to the text of the manuscript (lines 177-9). The 2x2 table is below. </p>
+<p>                               Missed work Did NOT miss work</p>
+<p>Work outside the home        165                   126</p>
+<p>Do NOT work outside the home 12                   202</p>
+<p>When the analysis was limited to the 291 women who work outside the home, the association between missing work to come to the CHC and presenting for treatment remained significantly significant (2.01, 95% confidence interval 1.26-3.22). </p>
+<p>2. &#8220;Women with a college education or beyond were not significantly more likely to present for treatment than women in the least educated category (OR 2.17, 95% CI 0.65-7.26), with a wide confidence interval in the setting of very few women having a college education or more&#8221;. Why not consider collapsing the groups? </p>
+<p>Response: It would certainly be reasonable to combine the groups &#8220;at least some secondary&#8221; and &#8220;college or beyond&#8221;; however, we chose to keep them separate to provide more detailed data on the distribution of education levels in the study population.</p>
+<p>   Comment: Due to the small numbers in the College group why not combine them with the secondary        to gain more power. Then we can be able to make the conclusion that education is a factor currently its only between secondary and primary.</p>
+<p>Response: We have combined the college group with the secondary education group and updated the statistical analysis to reflect this change.</p>
+<supplementary-material id="pone.0222750.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">CP Kenya PLOS ONE response to reviewers v.2.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

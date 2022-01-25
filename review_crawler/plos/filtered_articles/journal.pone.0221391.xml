@@ -1,0 +1,655 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221391</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17342</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Material properties</subject><subj-group><subject>Solubility</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Drugs</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibiotics</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Microbial control</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibiotics</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Bioassays and physiological analysis</subject><subj-group><subject>Biochemical analysis</subject><subj-group><subject>Bioelectrochemical analysis</subject><subj-group><subject>Amperometry</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmaceutics</subject><subj-group><subject>Drug therapy</subject><subj-group><subject>Drug administration</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Continuum mechanics</subject><subj-group><subject>Fluid mechanics</subject><subj-group><subject>Fluid dynamics</subject><subj-group><subject>Flow rate</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body temperature</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body temperature</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Drugs</subject><subj-group><subject>Antimicrobials</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Microbial control</subject><subj-group><subject>Antimicrobials</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Overcoming stability challenges during continuous intravenous administration of high-dose amoxicillin using portable elastomeric pumps</article-title>
+<alt-title alt-title-type="running-head">Amoxicillin stability</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0465-7451</contrib-id>
+<name name-style="western">
+<surname>Binson</surname>
+<given-names>Guillaume</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Grignon</surname>
+<given-names>Claire</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Le Moal</surname>
+<given-names>Gwena&#235;l</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lazaro</surname>
+<given-names>Pauline</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lelong</surname>
+<given-names>J&#233;r&#233;my</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Roblot</surname>
+<given-names>France</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Venisse</surname>
+<given-names>Nicolas</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2471-5679</contrib-id>
+<name name-style="western">
+<surname>Dupuis</surname>
+<given-names>Antoine</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Pharmacy, University Hospital of Poitiers, Poitiers, France</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>CIC Inserm, Poitiers, France</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Infectious Diseases, University Hospital of Poitiers, Poitiers, France</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Pharmacokinetics, University Hospital of Poitiers, Poitiers, France</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>das Neves</surname>
+<given-names>Jos&#233;</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Porto, PORTUGAL</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">antoine.dupuis@univ-poitiers.fr</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>16</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0221391</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>7</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Binson et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221391" />
+<abstract>
+<p>While treatment of serious infectious diseases may require high-dose amoxicillin, continuous infusion may be limited by lack of knowledge regarding the chemical stability of the drug. Therefore, we have performed a comprehensive study so as to determine the chemical stability of high-dose amoxicillin solutions conducive to safe and effective continuous intravenous administration using portable elastomeric pumps. First, amoxicillin solubility in water was assessed within the range of 25 to 300 mg/mL. Then, amoxicillin solutions were prepared at different concentrations (25, 50, 125, 250 mg/mL) and stored in different conditions (5&#177;2&#176;C, 25&#177;1&#176;C, 30&#177;1&#176;C and 37&#177;1&#176;C) to investigate the influence of concentration and temperature on the chemical stability of amoxicillin. Finally, its stability was assessed under optimized conditions using a fully validated HPLC-UV stability-indicating method. Degradation products of amoxicillin were investigated by accurate mass determination using high-resolution mass spectrometry. Amoxicillin displayed limited water solubility requiring reconstitution at concentrations below or equal to 150 mg/mL. Amoxicillin degradation were time, temperature as well as concentration-dependent, resulting in short-term stability, in particular at high concentrations. Four degradation products of amoxicillin have been identified. Among them, amoxicilloic acid and diketopiperazine amoxicillin are at risk of allergic reaction and may accumulate in the patient. Optimized conditions allowing for continuous infusion of high-dose amoxicillin has been determined: amoxicillin should be reconstituted at 25 mg/mL and stored up to 12 hours at room temperature (22 &#177; 4&#176;C) or up to 24 hours between 4 and 8&#176;C.</p>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5" />
+<table-count count="2" />
+<page-count count="13" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The management of several serious infectious diseases such as bone and joint infections as well as infective endocarditis, requires intravenous administration of high-dose amoxicillin (100&#8211;300 mg/kg/day) over a prolonged period, ranging from a few weeks to several months [<xref ref-type="bibr" rid="pone.0221391.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref004">4</xref>]. Amoxicillin is a &#946;-lactam antibiotic. &#946;-Lactams are time-dependent antibiotics, meaning that their efficacy depends on the time that free serum concentrations remain above the minimal inhibitory concentration (MIC) during the dosing interval [<xref ref-type="bibr" rid="pone.0221391.ref005">5</xref>]. It has been demonstrated that continuous infusion maintains concentrations above the MIC for a longer period of time within the dosing interval [<xref ref-type="bibr" rid="pone.0221391.ref006">6</xref>]. Moreover, mounting evidence from clinical studies indicates that continuous infusion of time-dependent &#946;-lactam antibiotics may improve clinical success [<xref ref-type="bibr" rid="pone.0221391.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref009">9</xref>]. Therefore it may be well-founded to administrate &#946;-Lactams using continuous infusion in patients suffering from serious infectious disease. However, despite the possible clinical benefits of this mode of administration, one of the practical concerns related to continuous infusion is the limited stability of certain antibiotic agents. Indeed, stability issues have to be taken into consideration when implementing drug administration, in order to ensure drug efficacy and safety. Regarding &#946;-lactam antibiotics, not knowing how long they remain stable during infusion may be a limiting factor for continuous administration [<xref ref-type="bibr" rid="pone.0221391.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0221391.ref011">11</xref>].</p>
+<p>Furthermore, for several decades, intravenous antimicrobials have been administered increasingly in outpatient settings, in particular thanks to the use of portable devices [<xref ref-type="bibr" rid="pone.0221391.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0221391.ref013">13</xref>]. Outpatient parenteral antimicrobial therapy (OPAT) allows for early hospital discharge, and further reduces costs with fewer nursing and clinic visits [<xref ref-type="bibr" rid="pone.0221391.ref014">14</xref>]. Moreover, OPAT improves quality of life, and portable elastomeric pumps gives patients more flexibility and control over their treatment [<xref ref-type="bibr" rid="pone.0221391.ref015">15</xref>]. Among the important aspects described in OPAT practice guidelines, drug stability has been underlined as a crucial point to be taken into consideration to ensure efficacy and safety of antimicrobial therapy [<xref ref-type="bibr" rid="pone.0221391.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0221391.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0221391.ref017">17</xref>]. In a recent survey, osteomyelitis, prosthetic joint infections and endocarditis were the most commonly reported indications for OPAT [<xref ref-type="bibr" rid="pone.0221391.ref018">18</xref>]. In treatment of these infectious diseases, continuous infusion of high-dose amoxicillin may be limited by lack of knowledge of the chemical stability of the drug. Indeed, very few studies are available in the literature regarding the stability of amoxicillin in aqueous solution for intravenous administration and results regarding long-term stability have been inconsistent [<xref ref-type="bibr" rid="pone.0221391.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref023">23</xref>].</p>
+<p>The aim of this work was to propose safe and effective conditions for continuous intravenous administration of high-dose amoxicillin using portable elastomeric pumps. For that purpose we performed a comprehensive study designed to determine the chemical stability of high-dose amoxicillin solutions.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Chemicals and infusion devices</title>
+<p>Amoxicillin powder used for calibration of the method was purchased from Sigma-Aldrich (Sigma-Aldrich, France) while amoxicillin sodium powder for solution for injection, equivalent to amoxicillin 2 g, was used for the pharmaceutical preparation (Panpharma, France). HPLC-grade methanol was obtained from Carlo Erba (Carlo Erba, France) and ultrapure water was provided using a Millipore Direct-Q 3 UV water purification system (MerckMillipore, France). Sterile water and 0.9% sodium chloride for injection were obtained from B.Braun (B.Braun, France).</p>
+<p>Portable elastomeric pumps Infusor (48 mL, 2 mL/h) and FOLFusor (240 mL, 10 mL/h), were obtained from Baxter (Baxter, France) and portable elastomeric pumps Accufuser (480 mL, 20 mL/h) from Wym (Wym, France). The Infusor and FOLFusor reservoirs are made of synthetic polyisoprene and the Accufuser reservoir is made of medical silicone.</p>
+</sec>
+<sec id="sec004">
+<title>Solubility study</title>
+<p>Amoxicillin solubility was assessed within the range 25 to 300 mg/mL by dissolving a vial of amoxicillin sodium, equivalent to amoxicillin 2 g, in adequate volume of sterile water for injection. The vial was vortexed for 10 min, centrifugated at 3500 G for 10 min and the amoxicillin concentration was determined in the supernatant. Each experiment was conducted in triplicate.</p>
+</sec>
+<sec id="sec005">
+<title>Stability study</title>
+<p>To determine the optimal volume of dilution for amoxicillin reconstitution, we investigated the influence of the concentration on the chemical stability of amoxicillin. Amoxicillin solutions were prepared at different concentrations in various infusion devices (<xref ref-type="table" rid="pone.0221391.t001">Table 1</xref>). The filled elastomeric pumps were stored at 25 &#177; 1&#176;C for 24 hours in a climate chamber without humidity control (Air concept, FirLabo, France). Samples (n = 3) were collected at different times over the 24-hour storage period and determination of the amoxicillin concentration was performed immediately. Each experiment was conducted in triplicate.</p>
+<table-wrap id="pone.0221391.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.t001</object-id>
+<label>Table 1</label> <caption><title>Amoxicillin solutions prepared to investigate the influence of concentration on the chemical stability of amoxicillin.</title></caption>
+<alternatives>
+<graphic id="pone.0221391.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center"><bold>Amoxicillin concentration (mg/mL)</bold></th>
+<th align="center"><bold>Amoxicillin</bold><break /><bold>(g)</bold></th>
+<th align="center"><bold>Solvent</bold></th>
+<th align="center"><bold>Solvent volume (mL)</bold></th>
+<th align="center"><bold>Infusion device: nominal volume, flow rate</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>250</bold></td>
+<td align="center">12</td>
+<td align="center">Sterile water for injection</td>
+<td align="center">48</td>
+<td align="center">Infusor: 48 mL, 2 mL/h</td>
+</tr>
+<tr>
+<td align="center"><bold>125</bold></td>
+<td align="center">6</td>
+<td align="center">Sterile water for injection</td>
+<td align="center">48</td>
+<td align="center">Infusor: 48 mL, 2 mL/h</td>
+</tr>
+<tr>
+<td align="center"><bold>50</bold></td>
+<td align="center">12</td>
+<td align="center">Sterile water for injection</td>
+<td align="center">240</td>
+<td align="center">FOLfusor: 240 mL, 10mL/h</td>
+</tr>
+<tr>
+<td align="center"><bold>25</bold></td>
+<td align="center">6</td>
+<td align="center">Sterile water for injection : 0.9% sodium chloride (50:50, v:v)</td>
+<td align="center">240</td>
+<td align="center">FOLfusor: 240 mL, 10mL/h</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>To determine the best storage conditions during amoxicillin infusion we investigated the influence of temperature on the chemical stability of amoxicillin. Amoxicillin solutions were prepared at a concentration of 125 mg/mL (6 g of amoxicillin were reconstituted with 48 ml of sterile water for injection), in order to fill an Infusor (nominal volume of 48 mL, flow rate of 2 mL/h). The filled elastomeric pumps were then stored for 24 hours at different temperature conditions: 5 &#177; 2&#176;C in a refrigerated chamber (Precision, Thermo Scientific, France), 25 &#177; 1&#176;C, 30 &#177; 1&#176;C and 37 &#177; 1&#176;C, in a climate chamber (Air concept, FirLabo, France). Samples (n = 3) were collected at different times over the 24-hour storage period and determination of the amoxicillin concentration was performed immediately. Each experiment was conducted in triplicate.</p>
+<p>Finally, the stability of amoxicillin was assessed under optimized conditions. For this purpose, amoxicillin solutions were prepared at a concentration of 25 mg/mL (12 g of amoxicillin were reconstituted using 240 ml of sterile water for injection and 240 mL of 0.9% sodium choride for injection), in order to fill elastomeric pumps (Accufuser, nominal volume of 480 mL, flow rate of 20 mL/h). The filled elastomeric pumps were then stored for 24 hours at room temperature (22 &#177; 4&#176;C) or between 4 and 8&#176;C in a refrigerated bag. Samples (n = 3) were collected at different times over the storage period and determination of the amoxicillin concentration was performed immediately. Each experiment was conducted in triplicate.</p>
+<p>The degradation rate was estimated using the slope of the linear regression curve corresponding to amoxicillin remaining (% of initial concentration) versus time profile.</p>
+<p>Stability was defined as less than 10% disappearance of the amoxicillin concentration, in compliance with the provisions of the US Pharmacopoeia concerning the acceptable limit of content of drug preparation settled at 90% [<xref ref-type="bibr" rid="pone.0221391.ref024">24</xref>], and with the European Pharmacopoeia, requiring that &#946;-Lactams solutions always contain at least 90% of intact molecule [<xref ref-type="bibr" rid="pone.0221391.ref025">25</xref>].</p>
+</sec>
+<sec id="sec006">
+<title>Amoxicillin determination</title>
+<p>All samples were diluted to a concentration of 100 &#956;g/mL with ultrapure water and assayed for amoxicillin concentration using a high-performance liquid chromatography method coupled to UV detection (HPLC-UV). The Elite LaChrom system (VWR, France) included a binary pump (Primaid 1110) used in isocratic mode, a single wavelength ultraviolet detector (L-2400), and an autosampler (L-2200) and was controlled using EZChrom Elite 3.3 software. Separation was performed using a Nucleosil C8 analytical column (5 &#956;m, 150 x 4.6 mm, VWR, France). Mobile phase consisted of 20% methanol and 80% ultrapure water; flow rate was set at 1 mL/min and 10 &#956;L of the diluted sample were injected onto the column. Quantification was performed by integration of the peak at a detection wavelength of 225 nm. The stability-indicating HPLC-UV method was validated in accordance with the guidelines of the International Conference on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use Q2(R1) [<xref ref-type="bibr" rid="pone.0221391.ref026">26</xref>]. Briefly, the method was linear over the range 0&#8211;200 &#956;g/mL (r<sup>2</sup> &gt; 0.9993) and the limit of quantification of amoxicillin was equal to 12.5 &#956;g/mL. Precision of the method was high, according to intra-day and inter-day coefficients of variation, calculated at low and high concentrations, equal to or less than 4.4% and to the trueness, assessed using the bias, ranging from 88 to 108%. To ensure that the method could be regarded as suitably stability-indicating, we checked to be sure that the decomposition products obtained from amoxicillin solution subjected to severe stress (90&#176;C, pH 1, pH10) did not coelute with the intact drug.</p>
+</sec>
+<sec id="sec007">
+<title>Degradation product identification</title>
+<p>Degradation products of amoxicillin were investigated by accurate mass determination using high-resolution mass spectrometry (HRMS). Briefly, amoxicillin solutions (50 mg/mL, extemporaneous and kept stored 48 hours at 37&#176;C) were injected onto the HPLC system connected to an ultra-high definition quadrupole time-of-flight mass spectrometer (Xevo QTof, Waters, France). The mass spectrometer was equipped with electrospray source, operating in positive ion mode, using the following operating parameters: capillary voltage: 0.5 kV; sample cone voltage: 20 V; source temperature: 120&#176;C; desolvation temperature: 600&#176;C; cone gas flow: 50L/h; desolvatation gas flow: 1000L/h. Accurate mass measurements of main ions (Low energy: 4 eV) and fragments (high-energy ramp: 10 to 40 eV) were used to identify the major degradation products. LC-MS-measured accurate mass spectra were recorded across the range 50&#8211;1000 m/z with scan time settled at 0.1 s. The degradation products were identified by structure elucidation using the molecular ion exact mass determination and the collision-induced dissociation fragments obtained using HRMS.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<sec id="sec009">
+<title>Solubility study</title>
+<p>From 0 to 150 mg/mL, measured concentrations of amoxicillin are well-correlated to theoretical concentrations (<xref ref-type="fig" rid="pone.0221391.g001">Fig 1</xref>). At concentrations greater than 150 mg/mL, measured amoxicillin concentrations are systematically lower than theoretical values, underlining the incomplete solubility of amoxicillin in water at high concentration.</p>
+<fig id="pone.0221391.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Solubility of amoxicillin expressed as measured amoxicillin concentrations (&#9675;) and expected amoxicillin concentrations (solid line) versus theoretical concentration.</title>
+<p>Each value is the mean of three independent determinations &#177; standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec010">
+<title>Stability study</title>
+<p>Whatever the nominal concentration prepared and whatever the storage conditions selected, amoxicillin concentration decreases over time, demonstrating that amoxicillin is unstable in aqueous solution.</p>
+<p>Amoxicillin degradation rate increases depending on the initial concentration: from -0.75%/h to -3.34%/h at 25 mg/mL and 250 mg/mL respectively, leading to concentrations after 24-hour storage ranging from 83% to 13% of the initial concentration (<xref ref-type="fig" rid="pone.0221391.g002">Fig 2</xref>). Amoxicillin chemical stability depends on initial concentration: the higher the concentration, the less stable the antibiotic.</p>
+<fig id="pone.0221391.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Chemical stability of amoxicillin prepared at different concentrations in portable elastomeric pump stored at 25 &#177; 1&#176;C.</title>
+<p>Values are expressed as mean &#177; standard deviation. The horizontal line indicates the limit set by the Pharmacopoeias (90% of initial drug concentration).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.g002" ns0:type="simple" />
+</fig>
+<p>Moreover, amoxicillin degradation rate increases depending on storage temperature: from -1.92%/h to -3.29%/h at 5&#176;C and 37&#176;C mg/mL respectively, leading to concentrations after 24-hour storage ranging from 50% to 16% of the initial concentration (<xref ref-type="fig" rid="pone.0221391.g003">Fig 3</xref>). Regarding temperature amoxicillin chemical stability is temperature-dependent: the higher the temperature, the less stable the antibiotic.</p>
+<fig id="pone.0221391.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Chemical stability of amoxicillin (125 mg/mL) in portable elastomeric pump stored at different temperatures.</title>
+<p>Values are expressed as mean &#177; standard deviation. The horizontal line indicates the limit set by the Pharmacopoeias (90% of initial drug concentration).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.g003" ns0:type="simple" />
+</fig>
+<p>Using optimized conditions of administration, the amoxicillin remaining was greater than 90% up to 12 hours of storage at room temperature (22 &#177; 4&#176;C) and up to 24 hours stored between 4 and 8&#176;C (<xref ref-type="table" rid="pone.0221391.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0221391.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.t002</object-id>
+<label>Table 2</label> <caption><title>Chemical stability of amoxicillin (25 mg/mL) in portable elastomeric pump stored at room temperature (22 &#177; 4&#176;C) and under refrigerated conditions (4&#8211;8&#176;C).</title> <p>Values are expressed as mean &#177; standard deviation.</p></caption>
+<alternatives>
+<graphic id="pone.0221391.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" />
+<th align="center" colspan="2">Storage conditions</th>
+</tr>
+<tr>
+<th align="center">Hours</th>
+<th align="center">Room temperature</th>
+<th align="center">Refrigerated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0<break />(mg/mL)</td>
+<td align="center">25.65 &#177; 1.98</td>
+<td align="center">25.01 &#177; 0.58</td>
+</tr>
+<tr>
+<td align="center">2<break />(% remaining)</td>
+<td align="center">100.78 &#177; 1.94</td>
+<td align="center">97.12 &#177; 4.32</td>
+</tr>
+<tr>
+<td align="center">4<break />(% remaining)</td>
+<td align="center">99.17 &#177; 0.66</td>
+<td align="center">95.92 &#177; 4.37</td>
+</tr>
+<tr>
+<td align="center">6<break />(% remaining)</td>
+<td align="center">97.01 &#177; 0.93</td>
+<td align="center">95.19 &#177; 4.29</td>
+</tr>
+<tr>
+<td align="center">12<break />(% remaining)</td>
+<td align="center">92.63 &#177; 1.89</td>
+<td align="center">93.81 &#177; 3.21</td>
+</tr>
+<tr>
+<td align="center">24<break />(% remaining)</td>
+<td align="center">83.06 &#177; 1.43</td>
+<td align="center">91.24 &#177; 1.22</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec011">
+<title>Degradation product identification</title>
+<p>Four degradation products of amoxicillin were identified using HRMS according to their exact mass and pattern of fragmentation (precursor &#8594; fragment ions <italic>m/z</italic>): amoxicillin penilloic acid (340.1331&#8594;323.1059/305.0952/189.0691), diketopiperazine amoxicillin (366.1124&#8594;160.0426/114.0374), Amoxicillin penicilloic acid (amoxicilloic acid) (384.1223&#8594;367.0954/323.1056/305.09520), and hydroxyphenylglycyl amoxicillin (515.1588&#8594;498.1361/349.0988/339.0988) (Figs <xref ref-type="fig" rid="pone.0221391.g004">4</xref> and <xref ref-type="fig" rid="pone.0221391.g005">5</xref>).</p>
+<fig id="pone.0221391.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Identification of amoxicillin and its degradation products using ion Trap MS/MS analysis of amoxicillin solutions (50 mg/mL) after extemporaneous preparation.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.g004" ns0:type="simple" />
+</fig>
+<fig id="pone.0221391.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221391.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Identification of amoxicillin and its degradation products using ion Trap MS/MS analysis of amoxicillin solutions (50 mg/mL) after 48-hours storage at 37&#176;C.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.g005" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Discussion</title>
+<p>The high doses of amoxicillin required for treatment of severe infections should be administrated over a long period, and preferably by continuous intravenous administration [<xref ref-type="bibr" rid="pone.0221391.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref009">9</xref>]. According to the limited volume of medical devices available for continuous drug infusion, particularly the portable devices used for OPAT, highly concentrated solutions of amoxicillin need to be prepared, leading to issues regarding solubility. In this study, we have demonstrated for the first time that amoxicillin has to be reconstituted at concentrations below or equal to 150 mg/mL to achieve complete solubility, which is mandatory in order to ensure accurate drug dosage and efficacy when using intravenous administration mode. Moreover, incomplete solubility of a drug may lead to particles in solutions, which may induce serious harmful effects such as pulmonary embolism or systemic inflammatory response syndrome [<xref ref-type="bibr" rid="pone.0221391.ref027">27</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref029">29</xref>]. Therefore, an appropriate volume of solvent is required for the reconstitution of amoxicillin to ensure safe administration, excluding the use of low-volume devices such as syringes or small volume portable pumps, when high doses of amoxicillin are to be administrated.</p>
+<p>This work confirms that amoxicillin degradation is time, temperature and concentration-dependent, resulting in short-term stability of amoxicillin solutions for infusion, particularly at high concentrations. Consequently, continuous infusion of the high-dose amoxicillin recommended to treat serious infectious diseases requires applying rigorous conditions of administration especially for OPAT. Elastomeric pumps are commonly used in the setting of OPAT and are available in different volumes and flow rates to allow proper administration of a drug [<xref ref-type="bibr" rid="pone.0221391.ref030">30</xref>]. Therefore, we have investigated different volumes and flow rates through the use of different devices in order to determine which one best helps to achieve amoxicillin concentration-dependent stability. Regarding storage temperature, elastomeric pumps may be used in different conditions, refrigerated or not. Moreover, it has been demonstrated that the temperature of drug solutions in elastomeric pumps may dramatically increase over the day, especially for continuous infusion, reaching a maximum near body temperature [<xref ref-type="bibr" rid="pone.0221391.ref031">31</xref>]. In this context, we have investigated the impact of potentially different storage temperatures on amoxicillin stability in order to determine the optimal conditions for its administration.</p>
+<p>Few previous studies have investigated amoxicillin stability in solutions, using varying solvents and concentrations, and different temperatures and containers for storage [<xref ref-type="bibr" rid="pone.0221391.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0221391.ref023">23</xref>]. Most of them report limited stability unsuitable for continuous infusion over a long period. One study has assessed amoxicillin stability in elastomeric pumps and reports results contradictory to ours concerning amoxicillin degradation [<xref ref-type="bibr" rid="pone.0221391.ref021">21</xref>]. Indeed, the authors claim a stability of amoxicillin for 24h-48h up to 40 mg/ml, when stored at 20&#176;C or 35&#176;C. However, these conclusions do not comply with international guidelines regarding the acceptable drug degradation limit of less than 10% [<xref ref-type="bibr" rid="pone.0221391.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0221391.ref025">25</xref>]. Furthermore, even under the same conditions, the degradation rates of amoxicillin reported in this paper are lower than ours, as well as those reported by others under similar conditions [<xref ref-type="bibr" rid="pone.0221391.ref020">20</xref>,<xref ref-type="bibr" rid="pone.0221391.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0221391.ref023">23</xref>]. In fact, it should be noted that the analytical method proposed in this study was not stability-indicating since they did not use a separation method, leading to potential confusion between amoxicillin and its degradation products [<xref ref-type="bibr" rid="pone.0221391.ref032">32</xref>]. This major flaw in the method is likely to explain the underestimated amoxicillin degradation rates reported by these authors.</p>
+<p>Unreliable data regarding stability of such antibiotics may have serious consequences since clinicians may use these results to promote continuous infusion over a prolonged period. This issue raises the need for clinicians to seek pharmaceutical expertise in order to assess the level of proof of the analytical methods used to provide data having clinical impact [<xref ref-type="bibr" rid="pone.0221391.ref033">33</xref>].</p>
+<p>Despite the lack of consistent data on amoxicillin stability, some authors have investigated the suitability of continuous intravenous administration of high-dose amoxicillin in patients [<xref ref-type="bibr" rid="pone.0221391.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0221391.ref034">34</xref>]. However, while Verdier et al. demonstrated that continuous infusion of amoxicillin provides fewer low concentrations than intermittent administration, they reported highly inconstant amoxicillin plasma concentrations using this administration mode, despite adapted doses [<xref ref-type="bibr" rid="pone.0221391.ref034">34</xref>]. Moreover, despite continuous administration of high-doses amoxicillin (12 g/day), Arensdorff et al. observed, very low amoxicillin plasma concentrations (0.9 and 2.4 mg/mL) in two out of the nine patients enrolled [<xref ref-type="bibr" rid="pone.0221391.ref023">23</xref>]. In both these studies, amoxicillin unstability may have resulted in inaccurate dose administration, leading to suboptimal or ineffective concentrations in treated patients, with respect to the MIC of the bacteria involved in the infection. Clearly, while the great variability in amoxicillin plasma levels is due to many factors, unstability issue should not be ruled out as a causal factor.</p>
+<p>Last but not least, drug degradation may lead to toxic byproducts [<xref ref-type="bibr" rid="pone.0221391.ref017">17</xref>]. Regarding amoxicillin we have identified four degradation products, Among them, amoxicilloic acid and diketopiperazine amoxicillin have been identified as the two major degradation products of amoxicillin. Hydroxyphenylglycyl amoxicillin acid and amoxicillin penilloic acid have also been described by others [<xref ref-type="bibr" rid="pone.0221391.ref035">35</xref>,<xref ref-type="bibr" rid="pone.0221391.ref036">36</xref>]. None of these degradation products have antimicrobial activity, but amoxicilloic acid and diketopiperazine amoxicillin are at risk of allergic reaction, of the same order of magnitude as those observed with amoxicillin [<xref ref-type="bibr" rid="pone.0221391.ref037">37</xref>,<xref ref-type="bibr" rid="pone.0221391.ref038">38</xref>]. In addition, it has been demonstrated that the amoxicilloic acid concentrations measured in pig kidney after intravenous administration are higher than amoxicillin concentrations and decrease more slowly, meaning that this degradation product may accumulate in the patient [<xref ref-type="bibr" rid="pone.0221391.ref039">39</xref>,<xref ref-type="bibr" rid="pone.0221391.ref040">40</xref>]. This issue could partly explain the side effects reported in patients treated with high-dose amoxicillin.</p>
+<p>In conclusion, according to the experiments carried out in this work, the optimal conditions for the administration of continuous infusion of high-dose amoxicillin using portable elastomeric pumps have been defined. First of all, amoxicillin has to be diluted in order to obtain a final concentration of 25 mg/ml, allowing for complete dissolution and long-term stability. Dilution should be performed in sterile water for injection combined with 0.9% sodium choride for injection (50:50, v:v) in order to maintain osmolarity at a level (approximately 280 mOsm/L, data no shown) suitable for intravenous infusion using peripheral access [<xref ref-type="bibr" rid="pone.0221391.ref016">16</xref>]. Dilution in dextrose should be avoided since lower stability using this solvent has been demonstrated [<xref ref-type="bibr" rid="pone.0221391.ref020">20</xref>]. Then, under these optimized conditions, the elastomeric pump may be stored at ambient temperature (22 &#177; 4&#176;C) for 12 hours, requiring filling an elastomeric pump every 12 hours for continuous infusion. In addition, it is important to store the elastomeric pump at a temperature below 26&#176;C, which implies not holding the device near the body or under clothing during the day, and keeping it beside the head, outside of the blankets when the patient is bedridden. Finally, amoxicillin may remain stable over the entire day under the same conditions, provided that the elastomeric pump is stored between +4&#176;C and +8&#176;C throughout the administration, using for instance a refrigerated bag; however this can lead to potential intolerance due to infusion of cold solution.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We wish to thank Jeffrey Arsham, an American medical translator, for his highly helpful reading of our original text.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221391.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Habib</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Lancellotti</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Antunes</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Bongiorni</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Casalta</surname> <given-names>J-P</given-names></name>, <name name-style="western"><surname>Del Zotti</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>2015 ESC Guidelines for the management of infective endocarditis: The Task Force for the Management of Infective Endocarditis of the European Society of Cardiology (ESC). Endorsed by: European Association for Cardio-Thoracic Surgery (EACTS), the European Association of Nuclear Medicine (EANM)</article-title>. <source>Eur Heart J</source>. <year>2015</year>;<volume>36</volume>: <fpage>3075</fpage>&#8211;<lpage>3128</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/eurheartj/ehv319" ns0:type="simple">10.1093/eurheartj/ehv319</ext-link></comment> <object-id pub-id-type="pmid">26320109</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Maffulli</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Papalia</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Zampogna</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Torre</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Albo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Denaro</surname> <given-names>V</given-names></name>. <article-title>The management of osteomyelitis in the adult</article-title>. <source>The Surgeon</source>. <year>2016</year>;<volume>14</volume>: <fpage>345</fpage>&#8211;<lpage>360</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.surge.2015.12.005" ns0:type="simple">10.1016/j.surge.2015.12.005</ext-link></comment> <object-id pub-id-type="pmid">26805473</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Baddour</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Wilson</surname> <given-names>WR</given-names></name>, <name name-style="western"><surname>Bayer</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Fowler</surname> <given-names>VG</given-names></name>, <name name-style="western"><surname>Tleyjeh</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Rybak</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>Infective Endocarditis in Adults: Diagnosis, Antimicrobial Therapy, and Management of Complications: A Scientific Statement for Healthcare Professionals From the American Heart Association</article-title>. <source>Circulation</source>. <year>2015</year>;<volume>132</volume>: <fpage>1435</fpage>&#8211;<lpage>1486</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/CIR.0000000000000296" ns0:type="simple">10.1161/CIR.0000000000000296</ext-link></comment> <object-id pub-id-type="pmid">26373316</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Everts</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Chambers</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Murdoch</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Rothwell</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>McKie</surname> <given-names>J</given-names></name>. <article-title>Successful antimicrobial therapy and implant retention for streptococcal infection of prosthetic joints</article-title>. <source>ANZ J Surg</source>. <year>2004</year>;<volume>74</volume>: <fpage>210</fpage>&#8211;<lpage>214</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1445-2197.2004.02942.x" ns0:type="simple">10.1111/j.1445-2197.2004.02942.x</ext-link></comment> <object-id pub-id-type="pmid">15043729</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Craig</surname> <given-names>WA</given-names></name>. <article-title>Pharmacokinetic/pharmacodynamic parameters: rationale for antibacterial dosing of mice and men</article-title>. <source>Clin Infect Dis Off Publ Infect Dis Soc Am</source>. <year>1998</year>;<volume>26</volume>: <fpage>1</fpage>&#8211;<lpage>10</lpage>; quiz 11&#8211;12.</mixed-citation></ref>
+<ref id="pone.0221391.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>MacVane</surname> <given-names>SH</given-names></name>, <name name-style="western"><surname>Kuti</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Nicolau</surname> <given-names>DP</given-names></name>. <article-title>Prolonging &#946;-lactam infusion: a review of the rationale and evidence, and guidance for implementation</article-title>. <source>Int J Antimicrob Agents</source>. <year>2014</year>;<volume>43</volume>: <fpage>105</fpage>&#8211;<lpage>113</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijantimicag.2013.10.021" ns0:type="simple">10.1016/j.ijantimicag.2013.10.021</ext-link></comment> <object-id pub-id-type="pmid">24359838</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Teo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liew</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Kwa</surname> <given-names>AL-H</given-names></name>. <article-title>Prolonged infusion versus intermittent boluses of &#946;-lactam antibiotics for treatment of acute infections: a meta-analysis</article-title>. <source>Int J Antimicrob Agents</source>. <year>2014</year>;<volume>43</volume>: <fpage>403</fpage>&#8211;<lpage>411</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijantimicag.2014.01.027" ns0:type="simple">10.1016/j.ijantimicag.2014.01.027</ext-link></comment> <object-id pub-id-type="pmid">24657044</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chant</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Friedrich</surname> <given-names>JO</given-names></name>. <article-title>Optimal dosing of antibiotics in critically ill patients by using continuous/extended infusions: a systematic review and meta-analysis</article-title>. <source>Crit Care Lond Engl</source>. <year>2013</year>;<volume>17</volume>: <fpage>R279</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/cc13134" ns0:type="simple">10.1186/cc13134</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Abdul-Aziz</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Lipman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mouton</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Hope</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Roberts</surname> <given-names>JA</given-names></name>. <article-title>Applying Pharmacokinetic/Pharmacodynamic Principles in Critically Ill Patients: Optimizing Efficacy and Reducing Resistance Development</article-title>. <source>Semin Respir Crit Care Med</source>. <year>2015</year>;<volume>36</volume>: <fpage>136</fpage>&#8211;<lpage>153</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1055/s-0034-1398490" ns0:type="simple">10.1055/s-0034-1398490</ext-link></comment> <object-id pub-id-type="pmid">25643277</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Charmillon</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Novy</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Agrinier</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Leone</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kimmoun</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Levy</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>The ANTIBIOPERF study: a nationwide cross-sectional survey about practices for &#946;-lactam administration and therapeutic drug monitoring among critically ill patients in France</article-title>. <source>Clin Microbiol Infect Off Publ Eur Soc Clin Microbiol Infect Dis</source>. <year>2016</year>;<volume>22</volume>: <fpage>625</fpage>&#8211;<lpage>631</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cmi.2016.04.019" ns0:type="simple">10.1016/j.cmi.2016.04.019</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Longuet</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lecapitaine</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Cassard</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Batista</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gauzit</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Lesprit</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Preparing and administering injectable antibiotics: How to avoid playing God</article-title>. <source>Med Mal Infect</source>. <year>2016</year>;<volume>46</volume>: <fpage>242</fpage>&#8211;<lpage>268</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.medmal.2016.01.010" ns0:type="simple">10.1016/j.medmal.2016.01.010</ext-link></comment> <object-id pub-id-type="pmid">27112521</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seaton</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Barr</surname> <given-names>DA</given-names></name>. <article-title>Outpatient parenteral antibiotic therapy: Principles and practice</article-title>. <source>Eur J Intern Med</source>. <year>2013</year>;<volume>24</volume>: <fpage>617</fpage>&#8211;<lpage>623</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ejim.2013.03.014" ns0:type="simple">10.1016/j.ejim.2013.03.014</ext-link></comment> <object-id pub-id-type="pmid">23602223</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Williams</surname> <given-names>DN</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Kind</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Sannes</surname> <given-names>MR</given-names></name>. <article-title>The history and evolution of outpatient parenteral antibiotic therapy (OPAT)</article-title>. <source>Int J Antimicrob Agents</source>. <year>2015</year>;<volume>46</volume>: <fpage>307</fpage>&#8211;<lpage>312</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijantimicag.2015.07.001" ns0:type="simple">10.1016/j.ijantimicag.2015.07.001</ext-link></comment> <object-id pub-id-type="pmid">26233483</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>MacKenzie</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rae</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Nathwani</surname> <given-names>D</given-names></name>. <article-title>Outcomes from global adult outpatient parenteral antimicrobial therapy programmes: A review of the last decade</article-title>. <source>Int J Antimicrob Agents</source>. <year>2014</year>;<volume>43</volume>: <fpage>7</fpage>&#8211;<lpage>16</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijantimicag.2013.09.006" ns0:type="simple">10.1016/j.ijantimicag.2013.09.006</ext-link></comment> <object-id pub-id-type="pmid">24200469</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Durojaiye</surname> <given-names>OC</given-names></name>, <name name-style="western"><surname>Bell</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Andrews</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ntziora</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Cartwright</surname> <given-names>K</given-names></name>. <article-title>Clinical efficacy, cost analysis and patient acceptability of outpatient parenteral antibiotic therapy (OPAT): a decade of Sheffield (UK) OPAT service</article-title>. <source>Int J Antimicrob Agents</source>. <year>2018</year>;<volume>51</volume>: <fpage>26</fpage>&#8211;<lpage>32</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijantimicag.2017.03.016" ns0:type="simple">10.1016/j.ijantimicag.2017.03.016</ext-link></comment> <object-id pub-id-type="pmid">28673610</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Norris</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>Shrestha</surname> <given-names>NK</given-names></name>, <name name-style="western"><surname>Allison</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Keller</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Bhavan</surname> <given-names>KP</given-names></name>, <name name-style="western"><surname>Zurlo</surname> <given-names>JJ</given-names></name>, <etal>et al</etal>. <article-title>2018 Infectious Diseases Society of America Clinical Practice Guideline for the Management of Outpatient Parenteral Antimicrobial Therapy</article-title>. <source>Clin Infect Dis Off Publ Infect Dis Soc Am</source>. <year>2019</year>;<volume>68</volume>: <fpage>1</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/ciy867" ns0:type="simple">10.1093/cid/ciy867</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Steffens</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Quintens</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Derdelinckx</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Peetermans</surname> <given-names>WE</given-names></name>, <name name-style="western"><surname>Van Eldere</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Spriet</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Outpatient parenteral antimicrobial therapy and antibiotic stewardship: opponents or teammates?</article-title> <source>Infection</source>. <year>2019</year>;<volume>47</volume>: <fpage>169</fpage>&#8211;<lpage>181</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s15010-018-1250-1" ns0:type="simple">10.1007/s15010-018-1250-1</ext-link></comment> <object-id pub-id-type="pmid">30443780</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Muldoon</surname> <given-names>EG</given-names></name>, <name name-style="western"><surname>Switkowski</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Tice</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Snydman</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Allison</surname> <given-names>GM</given-names></name>. <article-title>A national survey of infectious disease practitioners on their use of outpatient parenteral antimicrobial therapy (OPAT)</article-title>. <source>Infect Dis Lond Engl</source>. <year>2015</year>;<volume>47</volume>: <fpage>39</fpage>&#8211;<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3109/00365548.2014.967290" ns0:type="simple">10.3109/00365548.2014.967290</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref019"><label>19</label><mixed-citation publication-type="other" ns0:type="simple">Drug_Stability_Easypump_II_012018_EN.pdf [Internet]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.bbraun.nl/content/dam/b-braun/nl/website/Drug_Stability_Easypump_II_012018_EN.pdf.bb-.97401460/Drug_Stability_Easypump_II_012018_EN.pdf" ns0:type="simple">https://www.bbraun.nl/content/dam/b-braun/nl/website/Drug_Stability_Easypump_II_012018_EN.pdf.bb-.97401460/Drug_Stability_Easypump_II_012018_EN.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0221391.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cook</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hill</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Lynn</surname> <given-names>B</given-names></name>. <article-title>The stability of amoxycillin sodium in intravenous infusion fluids</article-title>. <source>J Clin Hosp Pharm</source>. <year>1982</year>;<volume>7</volume>: <fpage>245</fpage>&#8211;<lpage>250</lpage>. <object-id pub-id-type="pmid">7161398</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Arlicot</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Marie</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cade</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Laffon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Antier</surname> <given-names>D</given-names></name>. <article-title>Stability of amoxicillin in portable pumps is drug concentration dependent</article-title>. <source>Pharm</source>. <year>2011</year>;<volume>66</volume>: <fpage>631</fpage>&#8211;<lpage>632</lpage>.</mixed-citation></ref>
+<ref id="pone.0221391.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bernard</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sautou</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Bourdeaux</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chopineau</surname> <given-names>J</given-names></name>. [<article-title>Stability and compatibility of acetaminophen, ketoprofen and amoxicillin in a fail-safe intravenous administration set</article-title>]. <source>Ann Fr Anesth Reanim</source>. <year>2012</year>;<volume>31</volume>: <fpage>47</fpage>&#8211;<lpage>52</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.annfar.2011.08.019" ns0:type="simple">10.1016/j.annfar.2011.08.019</ext-link></comment> <object-id pub-id-type="pmid">22152998</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Arensdorff</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Boillat-Blanco</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Decosterd</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Buclin</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>de Valli&#232;re</surname> <given-names>S</given-names></name>. <article-title>Adequate plasma drug concentrations suggest that amoxicillin can be administered by continuous infusion using elastomeric pumps</article-title>. <source>J Antimicrob Chemother</source>. <year>2017</year>;<volume>72</volume>: <fpage>2613</fpage>&#8211;<lpage>2615</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jac/dkx178" ns0:type="simple">10.1093/jac/dkx178</ext-link></comment> <object-id pub-id-type="pmid">28605490</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref024"><label>24</label><mixed-citation publication-type="other" ns0:type="simple">United States Pharmacopeial Convention. The United States Pharmacopeia 2018: USP 41&#8239;; The national formulary&#8239;: NF 36. 2017.</mixed-citation></ref>
+<ref id="pone.0221391.ref025"><label>25</label><mixed-citation publication-type="other" ns0:type="simple">9789287181336: Pharmacop&#233;e europ&#233;enne&#8239;: 3 volumes, suppl&#233;ments 9.0, 9.1 et 9.2&#8212;AbeBooks&#8212;Conseil de l&#8217;Europe: 9287181330 [Internet]. [cited 28 Feb 2019]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.abebooks.fr/9789287181336/Pharmacop%C3%A9e-europ%C3%A9enne-volumes-suppl%C3%A9ments-9.0-9287181330/plp" ns0:type="simple">https://www.abebooks.fr/9789287181336/Pharmacop%C3%A9e-europ%C3%A9enne-volumes-suppl%C3%A9ments-9.0-9287181330/plp</ext-link></mixed-citation></ref>
+<ref id="pone.0221391.ref026"><label>26</label><mixed-citation publication-type="other" ns0:type="simple">Abraham J. International Conference On Harmonisation Of Technical Requirements For Registration Of Pharmaceuticals For Human Use. In: Brouder A, Tietje C, editors. Handbook of Transnational Economic Governance Regimes. Netherlands: Brill; 2009. pp. 1041&#8211;1054. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1163/ej.9789004163300.i-1081.897" ns0:type="simple">10.1163/ej.9789004163300.i-1081.897</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Puntis</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Wilkins</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Ball</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Rushton</surname> <given-names>DI</given-names></name>, <name name-style="western"><surname>Booth</surname> <given-names>IW</given-names></name>. <article-title>Hazards of parenteral treatment: do particles count?</article-title> <source>Arch Dis Child</source>. <year>1992</year>;<volume>67</volume>: <fpage>1475</fpage>&#8211;<lpage>1477</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/adc.67.12.1475" ns0:type="simple">10.1136/adc.67.12.1475</ext-link></comment> <object-id pub-id-type="pmid">1489228</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McNearney</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Bajaj</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Boyars</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cottingham</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Haque</surname> <given-names>A</given-names></name>. <article-title>CASE REPORT: Total Parenteral Nutrition Associated Crystalline Precipitates Resulting in Pulmonary Artery Occlusions and Alveolar Granulomas</article-title>. <source>Dig Dis Sci</source>. <year>2003</year>;<volume>48</volume>: <fpage>1352</fpage>&#8211;<lpage>1354</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1023/a:1024119512162" ns0:type="simple">10.1023/a:1024119512162</ext-link></comment> <object-id pub-id-type="pmid">12870794</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lehr</surname> <given-names>H-A</given-names></name>, <name name-style="western"><surname>Brunner</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rangoonwala</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>James Kirkpatrick</surname> <given-names>C</given-names></name>. <article-title>Particulate Matter Contamination of Intravenous Antibiotics Aggravates Loss of Functional Capillary Density in Postischemic Striated Muscle</article-title>. <source>Am J Respir Crit Care Med</source>. <year>2002</year>;<volume>165</volume>: <fpage>514</fpage>&#8211;<lpage>520</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1164/ajrccm.165.4.2108033" ns0:type="simple">10.1164/ajrccm.165.4.2108033</ext-link></comment> <object-id pub-id-type="pmid">11850345</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Skryabina</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Dunn</surname> <given-names>TS</given-names></name>. <article-title>Disposable infusion pumps</article-title>. <source>Am J Health-Syst Pharm AJHP Off J Am Soc Health-Syst Pharm</source>. <year>2006</year>;<volume>63</volume>: <fpage>1260</fpage>&#8211;<lpage>1268</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2146/ajhp050408" ns0:type="simple">10.2146/ajhp050408</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Voumard</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Van Neyghem</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Cochet</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gardiol</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Decosterd</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Buclin</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Antibiotic stability related to temperature variations in elastomeric pumps used for outpatient parenteral antimicrobial therapy (OPAT)</article-title>. <source>J Antimicrob Chemother</source>. <year>2017</year>;<volume>72</volume>: <fpage>1462</fpage>&#8211;<lpage>1465</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jac/dkw582" ns0:type="simple">10.1093/jac/dkw582</ext-link></comment> <object-id pub-id-type="pmid">28158637</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Trissel</surname> <given-names>LA</given-names></name>. <article-title>Avoiding common flaws in stability and compatibility studies of injectable drugs</article-title>. <source>Am J Hosp Pharm</source>. <year>1983</year>;<volume>40</volume>: <fpage>1159</fpage>&#8211;<lpage>1160</lpage>. <object-id pub-id-type="pmid">6881152</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jenkins</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hills</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Santillo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gilchrist</surname> <given-names>M</given-names></name>. <article-title>Extended stability of antimicrobial agents in administration devices</article-title>. <source>J Antimicrob Chemother</source>. <year>2017</year>;<volume>72</volume>: <fpage>1217</fpage>&#8211;<lpage>1220</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jac/dkw556" ns0:type="simple">10.1093/jac/dkw556</ext-link></comment> <object-id pub-id-type="pmid">28073966</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Verdier</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Tribut</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Tattevin</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Michelet</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bentu&#233;-Ferrer</surname> <given-names>D</given-names></name>. <article-title>Assessment of Interindividual Variability of Plasma Concentrations after Administration of High Doses of Intravenous Amoxicillin or Cloxacillin in Critically Ill Patients</article-title>. <source>J Chemother</source>. <year>2011</year>;<volume>23</volume>: <fpage>277</fpage>&#8211;<lpage>281</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1179/joc.2011.23.5.277" ns0:type="simple">10.1179/joc.2011.23.5.277</ext-link></comment> <object-id pub-id-type="pmid">22005059</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>N&#228;gele</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Moritz</surname> <given-names>R</given-names></name>. <article-title>Structure elucidation of degradation products of the antibiotic amoxicillin with ion trap MSn and accurate mass determination by ESI TOF</article-title>. <source>J Am Soc Mass Spectrom</source>. <year>2005</year>;<volume>16</volume>: <fpage>1670</fpage>&#8211;<lpage>1676</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jasms.2005.06.002" ns0:type="simple">10.1016/j.jasms.2005.06.002</ext-link></comment> <object-id pub-id-type="pmid">16099170</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hirte</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Seiwert</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Sch&#252;&#252;rmann</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Reemtsma</surname> <given-names>T</given-names></name>. <article-title>New hydrolysis products of the beta-lactam antibiotic amoxicillin, their pH-dependent formation and search in municipal wastewater</article-title>. <source>Water Res</source>. <year>2016</year>;<volume>88</volume>: <fpage>880</fpage>&#8211;<lpage>888</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.watres.2015.11.028" ns0:type="simple">10.1016/j.watres.2015.11.028</ext-link></comment> <object-id pub-id-type="pmid">26613181</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Torres</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Ariza</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fern&#225;ndez</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Moreno</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Laguna</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Monta&#241;ez</surname> <given-names>MI</given-names></name>, <etal>et al</etal>. <article-title>Role of minor determinants of amoxicillin in the diagnosis of immediate allergic reactions to amoxicillin</article-title>. <source>Allergy</source>. <year>2010</year>;<volume>65</volume>: <fpage>590</fpage>&#8211;<lpage>596</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1398-9995.2009.02245.x" ns0:type="simple">10.1111/j.1398-9995.2009.02245.x</ext-link></comment> <object-id pub-id-type="pmid">19968633</object-id></mixed-citation></ref>
+<ref id="pone.0221391.ref038"><label>38</label><mixed-citation publication-type="other" ns0:type="simple">Rico AG. Drug residues in animals [Internet]. Academic; 1986. Available: <ext-link ext-link-type="uri" ns0:href="http://bases.bireme.br/cgi-bin/wxislind.exe/iah/online/?IsisScript=iah/iah.xis&amp;src=google&amp;base=REPIDISCA&amp;lang=p&amp;nextAction=lnk&amp;exprSearch=116951&amp;indexSearch=ID" ns0:type="simple">http://bases.bireme.br/cgi-bin/wxislind.exe/iah/online/?IsisScript=iah/iah.xis&amp;src=google&amp;base=REPIDISCA&amp;lang=p&amp;nextAction=lnk&amp;exprSearch=116951&amp;indexSearch=ID</ext-link></mixed-citation></ref>
+<ref id="pone.0221391.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Reyns</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Cherlet</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>De Baere</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>De Backer</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Croubels</surname> <given-names>S</given-names></name>. <article-title>Rapid method for the quantification of amoxicillin and its major metabolites in pig tissues by liquid chromatography-tandem mass spectrometry with emphasis on stability issues</article-title>. <source>J Chromatogr B</source>. <year>2008</year>;<volume>861</volume>: <fpage>108</fpage>&#8211;<lpage>116</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jchromb.2007.11.007" ns0:type="simple">10.1016/j.jchromb.2007.11.007</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221391.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Reyns</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>De Boever</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>De Baere</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>De Backer</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Croubels</surname> <given-names>S</given-names></name>. <article-title>Tissue Depletion of Amoxicillin and Its Major Metabolites in Pigs: Influence of the Administration Route and the Simultaneous Dosage of Clavulanic Acid</article-title>. <source>J Agric Food Chem</source>. <year>2008</year>;<volume>56</volume>: <fpage>448</fpage>&#8211;<lpage>454</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/jf072398p" ns0:type="simple">10.1021/jf072398p</ext-link></comment> <object-id pub-id-type="pmid">18163566</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221391.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221391.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>das Neves</surname>
+<given-names>Jos&#233;</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jos&#233; das Neves</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221391" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17342</p>
+<p>Overcoming stability challenges during continuous intravenous administration of high-dose amoxicillin using portable elastomeric pumps</p>
+<p>PLOS ONE</p>
+<p>Dear Dr DUPUIS,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 19 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Jos&#233; das Neves</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1.&#160; When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Excellent manuscript. The methodology follows the recommendations for drug stability testing of the British Society of Antimicrobial Chemotherapy. The discussion includes a complete review of the existing literature and addresses all the important issues around the problem of drug stability in elastomeric pumps.</p>
+<p>Reviewer #2: This paper describes the results from an experimental research work that aim to study the stability of amoxicillin intravenous preparations in elastomeric pumps. The study was well-designed and the results are presented clearly and are adequately discussed. This work is of interest for clinical practice.</p>
+<p>Some minor improvements can be considered:</p>
+<p>1 - in the methods section, regarding the conditions for stability testing on Climate Chambers (line 110) it should be specified if the humidity was also controlled.</p>
+<p>2 - in the conclusion section (line 316) the information "elastomeric pump may be stored at ambient temperature for 12 hours" should be completed with the specific range of temperature related to the conclusion</p>
+<p>3 - the last sentence of the conclusion (lines 320-322) is not clear: it seems to suggest that the elastomeric pump is kept refrigerated during administration. Although these pumps may be refrigerated for storage, drug administration is generally preceded by warming the system at room temperature.</p>
+<p>Also, according to the presented stability data if the elastomeric pump was kept refrigerated for 24h it would not be expected to be stable for an additional period of 12h at room temperature (corresponding to a loss of drug of approximately 17% of drug). This should be clearly discussed.</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221391.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221391.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221391" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221391.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">6 Aug 2019</named-content>
+</p>
+<p>We sincerely appreciate the comments of the reviewers and revised the paper according to the suggestions. Please find below the details point-by-point of the revisions in the manuscript and our responses.</p>
+<p>Reviewer #1</p>
+<p>&#8220;Excellent manuscript. The methodology follows the recommendations for drug stability testing of the British Society of Antimicrobial Chemotherapy. The discussion includes a complete review of the existing literature and addresses all the important issues around the problem of drug stability in elastomeric pumps.&#8221;</p>
+<p>We sincerely appreciate the comments of the reviewer.</p>
+<p>Reviewer #2</p>
+<p>&#8220;This paper describes the results from an experimental research work that aim to study the stability of amoxicillin intravenous preparations in elastomeric pumps. The study was well-designed and the results are presented clearly and are adequately discussed. This work is of interest for clinical practice. Some minor improvements can be considered:&#187;</p>
+<p>Thank you very much for your valuable and constructive suggestions. We have carefully revised the manuscript according to the suggestions</p>
+<p>&#8220;1 - in the methods section, regarding the conditions for stability testing on Climate Chambers (line 110) it should be specified if the humidity was also controlled.&#8221;</p>
+<p>According to reviewer&#8217;s suggestion, the sentence has been modified as follow: &#8220;The filled elastomeric pumps were stored at 25 &#177; 1&#176;C for 24 hours in a climate chamber without humidity control (Air concept&#174;, FirLabo, France).&#8221;</p>
+<p>&#8220;2 - in the conclusion section (line 316) the information "elastomeric pump may be stored at ambient temperature for 12 hours" should be completed with the specific range of temperature related to the conclusion.&#8221;</p>
+<p>According to reviewer&#8217;s suggestion, the range of temperature has been added: &#8220;Then, under these optimized conditions, the elastomeric pump may be stored at ambient temperature (22 &#177; 4&#176;C) for 12 hours&#8230;&#8221;</p>
+<p>&#8220;3 - the last sentence of the conclusion (lines 320-322) is not clear: it seems to suggest that the elastomeric pump is kept refrigerated during administration. Although these pumps may be refrigerated for storage, drug administration is generally preceded by warming the system at room temperature. Also, according to the presented stability data if the elastomeric pump was kept refrigerated for 24h it would not be expected to be stable for an additional period of 12h at room temperature (corresponding to a loss of drug of approximately 17% of drug). This should be clearly discussed.&#8221;</p>
+<p>The sentence has been modified in order to clarify this point : &#8220;Finally, amoxicillin may remain stable over the entire day under the same conditions, provided that the elastomeric pump is stored between +4&#176;C and +8&#176;C throughout the administration, using for instance a refrigerated bag ; however this can lead to potential intolerance due to infusion of cold solution.</p>
+<supplementary-material id="pone.0221391.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221391.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Binson et al 2019 Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221391.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221391.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>das Neves</surname>
+<given-names>Jos&#233;</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jos&#233; das Neves</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221391" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">7 Aug 2019</named-content>
+</p>
+<p>Overcoming stability challenges during continuous intravenous administration of high-dose amoxicillin using portable elastomeric pumps</p>
+<p>PONE-D-19-17342R1</p>
+<p>Dear Dr. DUPUIS,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Jos&#233; das Neves</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221391.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221391.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>das Neves</surname>
+<given-names>Jos&#233;</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jos&#233; das Neves</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221391" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17342R1 </p>
+<p>Overcoming stability challenges during continuous intravenous administration of high-dose amoxicillin using portable elastomeric pumps </p>
+<p>Dear Dr. Dupuis:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Jos&#233; das Neves  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

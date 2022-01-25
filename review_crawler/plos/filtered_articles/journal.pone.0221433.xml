@@ -1,0 +1,1756 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-19-14500</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221433</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Habits</subject><subj-group><subject>Smoking habits</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Habits</subject><subj-group><subject>Smoking habits</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant anatomy</subject><subj-group><subject>Wood</subject><subj-group><subject>Cork</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Computer software</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Science policy</subject><subj-group><subject>Open science</subject><subj-group><subject>Open data</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Algebra</subject><subj-group><subject>Polynomials</subject><subj-group><subject>Binomials</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Computing methods</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Cumulative ROC curves for discriminating three or more ordinal outcomes with cutpoints on a shared continuous measurement scale</article-title>
+<alt-title alt-title-type="running-head">Cumulative ROC curves for cutpoints between three or more ordinal outcomes</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1610-5849</contrib-id>
+<name name-style="western">
+<surname>deCastro</surname> <given-names>B. Rey</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+<xref ref-type="fn" rid="currentaff001"><sup>&#164;</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>National Center for Environmental Health, Centers for Disease Control and Prevention, Atlanta, Georgia, United States of America</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Parolari</surname> <given-names>Alessandro</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>University of Milano, ITALY</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The author has declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff001">
+<label>&#164;</label>
+<p>Current address: National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention, Centers for Disease Control and Prevention, Atlanta, Georgia, United States of America</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">rdecastro@cdc.gov</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>30</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0221433</elocation-id>
+<history>
+<date date-type="received">
+<day>22</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>6</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<license ns0:href="https://creativecommons.org/publicdomain/zero/1.0/" ns0:type="simple">
+<license-p>This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" ns0:href="https://creativecommons.org/publicdomain/zero/1.0/" ns0:type="simple">Creative Commons CC0</ext-link> public domain dedication.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221433" />
+<abstract>
+<p>Cumulative receiver operator characteristic (ROC) curve analysis extends classic ROC curve analysis to discriminate three or more ordinal outcome levels on a shared continuous scale. The procedure combines cumulative logit regression with a cumulative extension to the ROC curve and performs as expected with ternary (three-level) ordinal outcomes under a variety of simulated conditions (unbalanced data, proportional and non-proportional odds, areas under the ROC curve [AUCs] from 0.70 to 0.95). Simulations also compared several criteria for selecting cutpoints to discriminate outcome levels: the Youden Index, Matthews Correlation Coefficient, Total Accuracy, and Markedness. Total Accuracy demonstrated the least absolute percent-bias. Cutpoints computed from maximum likelihood regression parameters demonstrated bias that was often negligible. The procedure was also applied to publicly available data related to computer imaging and biomarker exposure science, yielding good to excellent AUCs, as well as cutpoints with sensitivities and specificities of commensurate quality. Implementation of cumulative ROC curve analysis and extension to more than three outcome levels are straightforward. The author&#8217;s programs for ternary ordinal outcomes are publicly available.</p>
+</abstract>
+<funding-group>
+<funding-statement>The author received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2" />
+<table-count count="9" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Classic receiver operator characteristic (ROC) curve analysis addresses the relation of continuous measurements to binary outcomes [<xref ref-type="bibr" rid="pone.0221433.ref001">1</xref>], and enables selection of a cutpoint or threshold on the continuous measurement scale discriminating the outcome levels. From its origins in signal detection theory [<xref ref-type="bibr" rid="pone.0221433.ref002">2</xref>] and application in early radio detection and ranging systems, the technique has been used in fields as diverse as clinical chemistry [<xref ref-type="bibr" rid="pone.0221433.ref003">3</xref>], radiology [<xref ref-type="bibr" rid="pone.0221433.ref004">4</xref>], psychology [<xref ref-type="bibr" rid="pone.0221433.ref005">5</xref>], and machine learning [<xref ref-type="bibr" rid="pone.0221433.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pone.0221433.ref009">9</xref>].</p>
+<p>Extension beyond binary outcomes would be desirable for the increased scope of applications. One readily implemented approach is to group multinomial outcome levels into binomial levels and run classic ROC curve analysis, but this loses information and biases test accuracy [<xref ref-type="bibr" rid="pone.0221433.ref010">10</xref>]. There have been other, more sophisticated proposals spanning a range of theoretical approaches [<xref ref-type="bibr" rid="pone.0221433.ref011">11</xref>&#8211;<xref ref-type="bibr" rid="pone.0221433.ref018">18</xref>], but the complexity of these noteworthy proposals has limited their application. Additional methods have been implemented and some enjoy broad use [<xref ref-type="bibr" rid="pone.0221433.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0221433.ref022">22</xref>], yet theoretical justification may be sparse.</p>
+<p>This paper proposes a two-stage, semiparametric approach combining conventional cumulative logit regression with a cumulative extension of ROC curve analysis to discriminate ordinal outcome levels. The performance of this approach is evaluated under simulation, with comparison of several criteria used with classic ROC curves to select cutpoints. Results from these criteria are compared to cutpoints computed from maximum likelihood estimates (MLEs) of the regression parameters. The procedure is also demonstrated with publicly available data.</p>
+</sec>
+<sec id="sec002">
+<title>Formulation</title>
+<p>The classic empirical ROC curve is computed by comparing a binary outcome <italic>Y</italic> with a continuous measure <italic>X</italic> where each observed level of <italic>X</italic> is evaluated as a candidate cutpoint discriminating observed <italic>Y</italic> = 1 (positive) from <italic>Y</italic> = 2 (negative). Observations exceeding the candidate cutpoint are classified positive with respect to the continuous measurement, while those less than or equal to the cutpoint are classified negative. As in a 2 &#215; 2 contingency table, the count of correct classifications among positive outcomes comprises the true positives (<italic>TP</italic>) and among negative outcomes the true negatives (<italic>TN</italic>). The count of incorrect classifications among negative outcomes comprises the false positives (<italic>FP</italic>) and among positive outcomes the false negatives (<italic>FN</italic>). These counts are used to compute: sensitivity, which is the probability that an observation with a positive outcome is correctly classified by a continuous measurement above a candidate cutpoint (sensitivity = TP/[TP+FN]); and specificity, which is the probability that an observed negative outcome is correctly classified by a continuous measurement at or below a candidate cutpoint (specificity = TN/[TN+FP]). Thence, coordinates for the empirical ROC curve are computed where the abscissa is 1 &#8722; specificity (= false positive rate; FPR) and the ordinate is sensitivity (= true positive rate; TPR).</p>
+<p>The best cutpoint <italic>X</italic>* given the data may be identified from the ROC curve coordinates with a criterion that maximizes TPR and minimizes FPR. Cross-referencing the identified ROC curve coordinate with its observed continuous measurement yields the cutpoint distinguishing the binary outcomes. A variety of cutpoint criteria are available, such as the Youden Index, Matthews Correlation Coefficient, and Total Accuracy [<xref ref-type="bibr" rid="pone.0221433.ref023">23</xref>&#8211;<xref ref-type="bibr" rid="pone.0221433.ref025">25</xref>]. In addition, the ability of the continuous measurement to discriminate between outcome levels, which is equivalent to the strength of the association between the two, may be represented by the area under the ROC curve (AUC; also known as the c-statistic), which is the probability that an observation with a positive outcome will have a higher continuous measurement than an observation with a negative outcome.</p>
+<p>Since the ROC curve describes the relationship between a binary outcome and continuous predictor, it is directly related to logistic regression [<xref ref-type="bibr" rid="pone.0221433.ref026">26</xref>&#8211;<xref ref-type="bibr" rid="pone.0221433.ref028">28</xref>]. For the binary outcome where <italic>Y</italic> = 2 is the reference outcome level, let <italic>&#960;</italic><sub>1</sub> = Pr[<italic>Y</italic> = 1]. The univariate logistic model with continuous predictor <italic>X</italic> and linear parameters {<italic>&#945;</italic>, <italic>&#946;</italic>} is:
+<disp-formula id="pone.0221433.e001"><alternatives><graphic id="pone.0221433.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e001" ns0:type="simple" /><ns1:math display="block" id="M1"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mtext>logit</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mo>)</ns1:mo> <ns1:mo>=</ns1:mo> <ns1:mtext>log</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mo>-</ns1:mo> <ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub></ns1:mrow></ns1:mfrac> <ns1:mo>)</ns1:mo> <ns1:mo>=</ns1:mo> <ns1:mi>&#945;</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>&#946;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(1)</label></disp-formula></p>
+<p>Let <inline-formula id="pone.0221433.e002"><alternatives><graphic id="pone.0221433.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e002" ns0:type="simple" /><ns1:math display="inline" id="M2"><ns1:msub><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mi>i</ns1:mi></ns1:mrow></ns1:msub></ns1:math></alternatives></inline-formula> be the probability that <italic>Y</italic> = 1 predicted by the regression model at the <italic>i</italic>th observation <italic>X</italic><sub><italic>i</italic></sub> for <italic>i</italic> = 1, &#8230;, <italic>N</italic> where <italic>N</italic> is the number of observations. Analogous to the approach above, each predicted probability may serve as a candidate cutpoint discriminating <italic>Y</italic> = 1 from <italic>Y</italic> = 2. Coordinates comprising the ROC curve may then be computed, except they are based on counts on the probability scale monotonically transformed by the regression model from the original continuous scale. As above, the best probability cutpoint <inline-formula id="pone.0221433.e003"><alternatives><graphic id="pone.0221433.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e003" ns0:type="simple" /><ns1:math display="inline" id="M3"><ns1:msup><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mo>*</ns1:mo></ns1:msup></ns1:math></alternatives></inline-formula> may be selected with a suitable optimality criterion. The cutpoint on the scale of the continuous predictor <italic>X</italic>* can be recovered by cross-referencing <inline-formula id="pone.0221433.e004"><alternatives><graphic id="pone.0221433.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e004" ns0:type="simple" /><ns1:math display="inline" id="M4"><ns1:msup><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mo>*</ns1:mo></ns1:msup></ns1:math></alternatives></inline-formula> with its corresponding observed measurement. Whether using the scale of the continuous predictor or the predicted probability, the resulting ROC curves are identical because the curve is rank-based and invariant to monotonic transformations of the continuous predictor [<xref ref-type="bibr" rid="pone.0221433.ref001">1</xref>]. The first stage of the proposed approach exploits this invariance through a generalization of the logistic model embodied by the cumulative logit model.</p>
+<sec id="sec003">
+<title>Stage 1: Cumulative logit model</title>
+<p>The cumulative logit regression model predicts probabilities for an ordinal outcome <italic>Y</italic> = <italic>j</italic> with <italic>j</italic> = 1, &#8230;, <italic>J</italic> levels, where for demonstration <italic>J</italic> = 3 and the reference outcome level is <italic>Y</italic> = 3. Let <italic>&#960;</italic><sub><italic>j</italic></sub> = Pr[<italic>Y</italic> &#8804; <italic>j</italic>], then with continuous predictor <italic>X</italic> and linear parameters {<italic>&#945;</italic><sub><italic>j</italic></sub>, <italic>&#946;</italic><sub><italic>j</italic></sub>} the cumulative logit regression model is:
+<disp-formula id="pone.0221433.e005"><alternatives><graphic id="pone.0221433.e005g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e005" ns0:type="simple" /><ns1:math display="block" id="M5"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mtext>logit</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo> <ns1:mo>=</ns1:mo> <ns1:mtext>log</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mo>-</ns1:mo> <ns1:msub><ns1:mi>&#960;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub></ns1:mrow></ns1:mfrac> <ns1:mo>)</ns1:mo> <ns1:mo>=</ns1:mo> <ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mi>&#946;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mspace width="4pt" /><ns1:mtext>for</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mi>j</ns1:mi> <ns1:mo>=</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>,</ns1:mo> <ns1:mo>&#8230;</ns1:mo> <ns1:mo>,</ns1:mo> <ns1:mi>J</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(2)</label></disp-formula></p>
+<p>For each <italic>j</italic>th outcome level up to <italic>J</italic> &#8722; 1, a cumulative logit is estimated with its own regression parameters <inline-formula id="pone.0221433.e006"><alternatives><graphic id="pone.0221433.e006g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e006" ns0:type="simple" /><ns1:math display="inline" id="M6"><ns1:mrow><ns1:mo form="prefix" stretchy="false">{</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="false">}</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula>. The formulation in <xref ref-type="disp-formula" rid="pone.0221433.e005">Eq 2</xref> is known as non-proportional odds where the log-odds <inline-formula id="pone.0221433.e007"><alternatives><graphic id="pone.0221433.e007g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e007" ns0:type="simple" /><ns1:math display="inline" id="M7"><ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub></ns1:math></alternatives></inline-formula> differs between outcome levels. Simplification is possible with the proportional odds formulation where constant log-odds <italic>&#946;</italic><sub><italic>j</italic></sub> = <italic>&#946;</italic> is assumed among outcome levels [<xref ref-type="bibr" rid="pone.0221433.ref029">29</xref>]. Let <inline-formula id="pone.0221433.e008"><alternatives><graphic id="pone.0221433.e008g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e008" ns0:type="simple" /><ns1:math display="inline" id="M8"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mover><ns1:mtext mathvariant="normal">Pr</ns1:mtext> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mo form="prefix" stretchy="true">[</ns1:mo> <ns1:msub><ns1:mi>Y</ns1:mi> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:mi>j</ns1:mi> <ns1:mo form="prefix" stretchy="false">|</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">]</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula>, then in terms of the parameter estimates <inline-formula id="pone.0221433.e009"><alternatives><graphic id="pone.0221433.e009g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e009" ns0:type="simple" /><ns1:math display="inline" id="M9"><ns1:mrow><ns1:mo form="prefix" stretchy="false">{</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="false">}</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> the predicted cumulative probability for the <italic>j</italic>th outcome level at the <italic>i</italic>th observation is:
+<disp-formula id="pone.0221433.e010"><alternatives><graphic id="pone.0221433.e010g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e010" ns0:type="simple" /><ns1:math display="block" id="M10"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:msub><ns1:mover accent="true"><ns1:mi>&#960;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mfrac><ns1:mrow><ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mo>+</ns1:mo> <ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mfrac> <ns1:mo>,</ns1:mo> <ns1:mspace width="1.em" /><ns1:mtext>for</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mi>j</ns1:mi> <ns1:mo>=</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>,</ns1:mo> <ns1:mo>&#8230;</ns1:mo> <ns1:mo>,</ns1:mo> <ns1:mi>J</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(3)</label></disp-formula>
+and the predicted individual probability is the difference of adjacent cumulative probabilities:
+<disp-formula id="pone.0221433.e011"><alternatives><graphic id="pone.0221433.e011g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e011" ns0:type="simple" /><ns1:math display="block" id="M11"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mrow><ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mo>+</ns1:mo> <ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mfrac> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mrow><ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mrow><ns1:mn>1</ns1:mn> <ns1:mo>+</ns1:mo> <ns1:mtext>exp</ns1:mtext><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#945;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#946;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mfrac></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(4)</label></disp-formula></p>
+<p>For <italic>J</italic> = 2 this model reduces to the logistic model, but the cumulative logit model is similarly able to transform the continuous predictor to the predicted probability scale except that each outcome level gets a predicted probability function.</p>
+<p>We have so far recalled that ROC curves are invariant to monotonic transformation of the continuous measurement, including transformation by a logistic regression model to the predicted probability scale. In addition, we have reviewed the cumulative logit model and its transformation of a single continuous predictor to a series of separate predicted probabilities for each level of the ordinal outcome. These probabilities are comprehensive and mutually exclusive with respect to the outcome <inline-formula id="pone.0221433.e012"><alternatives><graphic id="pone.0221433.e012g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e012" ns0:type="simple" /><ns1:math display="inline" id="M12"><ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mo>&#8721;</ns1:mo> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:msub><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> and are suitable for computing a series of &#8220;cumulative&#8221; ROC curves.</p>
+</sec>
+<sec id="sec004">
+<title>Stage 2: Cumulative ROC curves</title>
+<p>Calculation of the classic ROC curve on the predicted probability scale can be readily extended to count <italic>TP</italic>, <italic>TN</italic>, <italic>FP</italic>, and <italic>FN</italic> for each cumulative logit, resulting in <italic>J</italic> &#8722; 1 cumulative ROC curves. For the cumulative logit associated with the <italic>j</italic>th outcome, let <italic>p</italic><sub><italic>jk</italic></sub> be the <italic>k</italic>th candidate cumulative probability cutpoint from among the <inline-formula id="pone.0221433.e013"><alternatives><graphic id="pone.0221433.e013g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e013" ns0:type="simple" /><ns1:math display="inline" id="M13"><ns1:msub><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub></ns1:math></alternatives></inline-formula>, then one may count <italic>TP</italic><sub><italic>jk</italic></sub>, <italic>TN</italic><sub><italic>jk</italic></sub>, <italic>FP</italic><sub><italic>jk</italic></sub>, and <italic>FN</italic><sub><italic>jk</italic></sub> with the indicator function <italic>I</italic>(&#8901;) by comparing the outcome <italic>Y</italic><sub><italic>i</italic></sub> with <inline-formula id="pone.0221433.e014"><alternatives><graphic id="pone.0221433.e014g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e014" ns0:type="simple" /><ns1:math display="inline" id="M14"><ns1:msub><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub></ns1:math></alternatives></inline-formula> vs. <italic>p</italic><sub><italic>jk</italic></sub> for <italic>i</italic> = 1, &#8230;, <italic>N</italic>; <italic>j</italic> = 1, &#8230;, <italic>J</italic> &#8722; 1; and <italic>k</italic> = 1, &#8230;, <italic>N</italic>:
+<disp-formula id="pone.0221433.e015"><alternatives><graphic id="pone.0221433.e015g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e015" ns0:type="simple" /><ns1:math display="block" id="M15"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi>T</ns1:mi> <ns1:msub><ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:munder><ns1:mo>&#8721;</ns1:mo> <ns1:mi>i</ns1:mi></ns1:munder> <ns1:mi>I</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#960;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>&gt;</ns1:mo> <ns1:msub><ns1:mi>p</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:mtext>AND</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:msub><ns1:mi>Y</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:mi>j</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(5)</label></disp-formula> <disp-formula id="pone.0221433.e016"><alternatives><graphic id="pone.0221433.e016g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e016" ns0:type="simple" /><ns1:math display="block" id="M16"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi>T</ns1:mi> <ns1:msub><ns1:mi>N</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:munder><ns1:mo>&#8721;</ns1:mo> <ns1:mi>i</ns1:mi></ns1:munder> <ns1:mi>I</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#960;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:msub><ns1:mi>p</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:mtext>AND</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:msub><ns1:mi>Y</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>&gt;</ns1:mo> <ns1:mi>j</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(6)</label></disp-formula> <disp-formula id="pone.0221433.e017"><alternatives><graphic id="pone.0221433.e017g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e017" ns0:type="simple" /><ns1:math display="block" id="M17"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi>F</ns1:mi> <ns1:msub><ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:munder><ns1:mo>&#8721;</ns1:mo> <ns1:mi>i</ns1:mi></ns1:munder> <ns1:mi>I</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#960;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>&gt;</ns1:mo> <ns1:msub><ns1:mi>p</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:mtext>AND</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:msub><ns1:mi>Y</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>&gt;</ns1:mo> <ns1:mi>j</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(7)</label></disp-formula> <disp-formula id="pone.0221433.e018"><alternatives><graphic id="pone.0221433.e018g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e018" ns0:type="simple" /><ns1:math display="block" id="M18"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi>F</ns1:mi> <ns1:msub><ns1:mi>N</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:munder><ns1:mo>&#8721;</ns1:mo> <ns1:mi>i</ns1:mi></ns1:munder> <ns1:mi>I</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mover accent="true"><ns1:mi>&#960;</ns1:mi> <ns1:mo>^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>i</ns1:mi> <ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:msub><ns1:mi>p</ns1:mi> <ns1:mrow><ns1:mi>j</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow></ns1:msub> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:mtext>AND</ns1:mtext> <ns1:mspace width="4pt" /><ns1:mspace width="4pt" /><ns1:msub><ns1:mi>Y</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:mi>j</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(8)</label></disp-formula></p>
+<p>From these counts, the coordinates (<italic>FPR</italic><sub><italic>jk</italic></sub>, <italic>TPR</italic><sub><italic>jk</italic></sub>) for the <italic>j</italic>th cumulative <italic>ROC</italic><sub><italic>j</italic></sub> curve can be computed, where <italic>FPR</italic><sub><italic>jk</italic></sub> = 1 &#8722; (<italic>TN</italic><sub><italic>jk</italic></sub>/[<italic>TN</italic><sub><italic>jk</italic></sub> + <italic>FP</italic><sub><italic>jk</italic></sub>]) and <italic>TPR</italic><sub><italic>jk</italic></sub> = (<italic>TP</italic><sub><italic>jk</italic></sub>/[<italic>TP</italic><sub><italic>jk</italic></sub> + <italic>FN</italic><sub><italic>jk</italic></sub>]). Continuing with the case of the ternary ordinal outcome, <italic>p</italic><sub>1<italic>k</italic></sub> is the <italic>k</italic>th candidate cutpoint from the first cumulative logit and <italic>p</italic><sub>2<italic>k</italic></sub> from the second, so that the cumulative <italic>ROC</italic><sub>1</sub> curve discriminates between <italic>Y</italic> = 1 vs. <italic>Y</italic> = 2 or 3, and the cumulative <italic>ROC</italic><sub>2</sub> curve discriminates between <italic>Y</italic> = 1 or 2 vs. <italic>Y</italic> = 3. Analogous to the binary case, a probability cutpoint for the <italic>j</italic>th outcome level <inline-formula id="pone.0221433.e019"><alternatives><graphic id="pone.0221433.e019g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e019" ns0:type="simple" /><ns1:math display="inline" id="M19"><ns1:msubsup><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi> <ns1:mo>*</ns1:mo></ns1:msubsup></ns1:math></alternatives></inline-formula> may be selected from its respective cumulative <italic>ROC</italic><sub><italic>j</italic></sub> curve using a suitable criterion. The cutpoint on the scale of the continuous predictor <inline-formula id="pone.0221433.e020"><alternatives><graphic id="pone.0221433.e020g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e020" ns0:type="simple" /><ns1:math display="inline" id="M20"><ns1:msubsup><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mo>*</ns1:mo></ns1:msubsup></ns1:math></alternatives></inline-formula> is recovered by cross-referencing <inline-formula id="pone.0221433.e021"><alternatives><graphic id="pone.0221433.e021g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e021" ns0:type="simple" /><ns1:math display="inline" id="M21"><ns1:msubsup><ns1:mover><ns1:mi>&#960;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi> <ns1:mo>*</ns1:mo></ns1:msubsup></ns1:math></alternatives></inline-formula> with its corresponding observed measurement.</p>
+<p>Alternatively, ROC curve analysis may be forgone altogether by computing cutpoints from the MLE cumulative logit regression parameters, where <inline-formula id="pone.0221433.e022"><alternatives><graphic id="pone.0221433.e022g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e022" ns0:type="simple" /><ns1:math display="inline" id="M22"><ns1:mrow><ns1:msubsup><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mo>*</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula>. Since this parametric cutpoint is the ratio of two model parameters, both the Delta Method and Fieller&#8217;s Method are applicable for computing the variance [<xref ref-type="bibr" rid="pone.0221433.ref030">30</xref>]. Fieller&#8217;s Method is favored, however, since it tends to provide better coverage despite potential asymmetry of the confidence interval [<xref ref-type="bibr" rid="pone.0221433.ref031">31</xref>, <xref ref-type="bibr" rid="pone.0221433.ref032">32</xref>]. In addition, Hirschberg and Lye 2010 [<xref ref-type="bibr" rid="pone.0221433.ref031">31</xref>] recommend Fieller&#8217;s Method when the computed ratios are positive and correlation between the numerator and denominator is negative. Accordingly, the standard deviation <italic>s</italic><sub><italic>X</italic>*</sub> is estimated here with Fieller&#8217;s Method [<xref ref-type="bibr" rid="pone.0221433.ref033">33</xref>] when computing confidence intervals for parametric cutpoints as &#177; (<italic>t</italic><sub><italic>df</italic> = 2,1&#8722;(<italic>&#945;</italic>/2)</sub> &#215; <italic>s</italic><sub><italic>X</italic>*</sub>).</p>
+</sec>
+</sec>
+<sec id="sec005">
+<title>Simulations</title>
+<p>Cumulative ROC curve analysis for a ternary ordinal outcome was evaluated under conditions simulating AUCs = 0.70, 0.75, 0.85, 0.90, and 0.95. Cutpoints for the continuous predictor were set at <inline-formula id="pone.0221433.e023"><alternatives><graphic id="pone.0221433.e023g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e023" ns0:type="simple" /><ns1:math display="inline" id="M23"><ns1:mrow><ns1:msubsup><ns1:mi>X</ns1:mi> <ns1:mn>2</ns1:mn> <ns1:mo>*</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>5</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula> and <inline-formula id="pone.0221433.e024"><alternatives><graphic id="pone.0221433.e024g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e024" ns0:type="simple" /><ns1:math display="inline" id="M24"><ns1:mrow><ns1:msubsup><ns1:mi>X</ns1:mi> <ns1:mn>3</ns1:mn> <ns1:mo>*</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mn>5</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula> by designating <italic>&#945;</italic><sub><italic>j</italic></sub> and <italic>&#946;</italic><sub><italic>j</italic></sub> based on the relationship <inline-formula id="pone.0221433.e025"><alternatives><graphic id="pone.0221433.e025g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e025" ns0:type="simple" /><ns1:math display="inline" id="M25"><ns1:mrow><ns1:msubsup><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mo>*</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mi>&#946;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula>. Random variates of the continuous predictor were obtained from a normal distribution <italic>X</italic><sub><italic>i</italic></sub> &#8764; <italic>N</italic>(0, <italic>&#963;</italic><sup>2</sup> = 100) truncated at the 10th and 90th percentiles. Truncation improved the chances of obtaining random variates that would successfully converge to a maximum likelihood solution for the regression model. Random variates of the ternary outcome <italic>Y</italic><sub><italic>i</italic></sub> were then obtained from a multinomial distribution defined by probabilities computed from <xref ref-type="disp-formula" rid="pone.0221433.e011">Eq 4</xref> with <italic>&#945;</italic><sub><italic>j</italic></sub>, <italic>&#946;</italic><sub><italic>j</italic></sub>, and random variates <italic>X</italic><sub><italic>i</italic></sub>. For the proportional odds condition with AUC<sub>1</sub> = AUC<sub>2</sub> = 0.90, parameters were designated at <italic>&#945;</italic><sub>1</sub> = &#8722;1.70, <italic>&#945;</italic><sub>2</sub> = 1.70, and <italic>&#946;</italic> = 0.34. For the first non-proportional odds condition (referred to as the NPO1 condition) with AUC<sub>1</sub> = 0.75 and AUC<sub>2</sub> = 0.85, parameters were designated at <italic>&#945;</italic><sub>1</sub> = &#8722;0.75, <italic>&#946;</italic><sub>1</sub> = 0.15 and <italic>&#945;</italic><sub>2</sub> = 1.25, <italic>&#946;</italic><sub>2</sub> = 0.25; and for the second (NPO2 condition) with AUC<sub>1</sub> = 0.70 and AUC<sub>2</sub> = 0.95, parameters were <italic>&#945;</italic><sub>1</sub> = &#8722;0.70, <italic>&#946;</italic><sub>1</sub> = 0.14 and <italic>&#945;</italic><sub>2</sub> = 4.70, <italic>&#946;</italic><sub>2</sub> = 0.94. For each condition, 10,000 datasets were simulated with nested sample sizes <italic>n</italic> = 75, 150, and 300 unequally allocated among the outcome levels. A cumulative logit regression model was fit to each dataset and cumulative ROC curves computed. Simulations were run with the FREQ, LOGISTIC, and SURVEYSELECT subroutines of the SAS<sup>&#174;</sup> software application, version 9.4 [<xref ref-type="bibr" rid="pone.0221433.ref034">34</xref>].</p>
+<p>Several cutpoint selection criteria were evaluated for their ability to correctly identify designated cutpoints from cumulative ROC curves: the Youden Index (also known as Informedness and &#916;<italic>P</italic>&#8242;), Matthews Correlation Coefficient, Total Accuracy, and Markedness (&#916;<italic>P</italic>) [<xref ref-type="bibr" rid="pone.0221433.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0221433.ref036">36</xref>]. These criteria and their ranges are presented in <xref ref-type="table" rid="pone.0221433.t001">Table 1</xref>. Each criterion embodies certain merits, but all achieve their optimal level at the ROC curve coordinate where the criterion is at its observed maximum. Cutpoints were also computed directly from MLE cumulative logit regression parameters.</p>
+<table-wrap id="pone.0221433.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>Cutpoint selection criteria based on evaluation of empirical ROC curves.</title>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t001" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="border-bottom:thick">Criterion</th>
+<th align="center" style="border-bottom:thick">Formula</th>
+<th align="center" style="border-bottom:thick">Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Youden Index (or Informedness, &#916;<italic>P</italic>&#8242;)</td>
+<td align="center"><italic>sensitivity</italic> + <italic>specificity</italic> &#8722; 1</td>
+<td align="center">(0,1)</td>
+</tr>
+<tr>
+<td align="left">Matthews Correlation Coefficient</td>
+<td align="center">
+<inline-formula id="pone.0221433.e026">
+<alternatives>
+<graphic id="pone.0221433.e026g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e026" ns0:type="simple" />
+<ns1:math display="inline" id="M26">
+<ns1:mfrac>
+<ns1:mrow>
+<ns1:mo form="prefix" stretchy="false">(</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>&#215;</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">)</ns1:mo>
+<ns1:mo>&#8722;</ns1:mo>
+<ns1:mo form="prefix" stretchy="false">(</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>&#215;</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">)</ns1:mo>
+</ns1:mrow>
+<ns1:mrow>
+<ns1:mo form="prefix" stretchy="false">(</ns1:mo>
+<ns1:mo form="prefix" stretchy="false">[</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">]</ns1:mo>
+<ns1:mo form="prefix" stretchy="false">[</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">]</ns1:mo>
+<ns1:mo form="prefix" stretchy="false">[</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">]</ns1:mo>
+<ns1:mo form="prefix" stretchy="false">[</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo form="postfix" stretchy="false">]</ns1:mo>
+<ns1:msup>
+<ns1:mo form="postfix" stretchy="false">)</ns1:mo>
+<ns1:mrow>
+<ns1:mn>1</ns1:mn>
+<ns1:mo>/</ns1:mo>
+<ns1:mn>2</ns1:mn>
+</ns1:mrow>
+</ns1:msup>
+</ns1:mrow>
+</ns1:mfrac>
+</ns1:math>
+</alternatives>
+</inline-formula>
+</td>
+<td align="center">(&#8722;1,1)</td>
+</tr>
+<tr>
+<td align="left">Total Accuracy</td>
+<td align="center">
+<inline-formula id="pone.0221433.e027">
+<alternatives>
+<graphic id="pone.0221433.e027g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e027" ns0:type="simple" />
+<ns1:math display="inline" id="M27">
+<ns1:mfrac>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+</ns1:mrow>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>P</ns1:mi>
+</ns1:mrow>
+</ns1:mfrac>
+</ns1:math>
+</alternatives>
+</inline-formula>
+</td>
+<td align="center">(0,1)</td>
+</tr>
+<tr>
+<td align="left">Markedness (&#916;<italic>P</italic>)</td>
+<td align="center">
+<inline-formula id="pone.0221433.e028">
+<alternatives>
+<graphic id="pone.0221433.e028g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e028" ns0:type="simple" />
+<ns1:math display="inline" id="M28">
+<ns1:mrow>
+<ns1:mfrac>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+</ns1:mrow>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>P</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>P</ns1:mi>
+</ns1:mrow>
+</ns1:mfrac>
+<ns1:mo>+</ns1:mo>
+<ns1:mfrac>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+</ns1:mrow>
+<ns1:mrow>
+<ns1:mi>T</ns1:mi>
+<ns1:mi>N</ns1:mi>
+<ns1:mo>+</ns1:mo>
+<ns1:mi>F</ns1:mi>
+<ns1:mi>N</ns1:mi>
+</ns1:mrow>
+</ns1:mfrac>
+<ns1:mo>&#8722;</ns1:mo>
+<ns1:mn>1</ns1:mn>
+</ns1:mrow>
+</ns1:math>
+</alternatives>
+</inline-formula>
+</td>
+<td align="center">(0,1)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Tables <xref ref-type="table" rid="pone.0221433.t002">2</xref> and <xref ref-type="table" rid="pone.0221433.t003">3</xref> confirm that distributions realized during the proportional odds and NPO1 simulations were approximately centered at the levels designated above for <italic>&#945;</italic><sub><italic>j</italic></sub>, <italic>&#946;</italic><sub><italic>j</italic></sub>, and <italic>AUC</italic>. <xref ref-type="table" rid="pone.0221433.t004">Table 4</xref> shows, however, that for the NPO2 condition the medians of the realized distributions for <italic>&#945;</italic><sub><italic>j</italic></sub> and <italic>&#946;</italic><sub><italic>j</italic></sub> were about 14&#8211;30 percent above designated levels for <italic>&#945;</italic><sub>1</sub>, <italic>&#945;</italic><sub>2</sub>, and <italic>&#946;</italic><sub>2</sub> and about 14 percent below for <italic>&#946;</italic><sub>1</sub>. Designated levels for all regression parameters, however, were between the 2.5th and 97.5th percentiles of their realized distributions, and the realized AUCs were centered on their designated values.</p>
+<table-wrap id="pone.0221433.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t002</object-id>
+<label>Table 2</label>
+<caption>
+<title>Proportional odds simulation.</title>
+<p>Parameter estimates and AUCs realized from cumulative ROC curve analysis of 10,000 simulated datasets parameterized with proportional odds and <italic>AUC</italic><sub>1</sub> = <italic>AUC</italic><sub>2</sub> = 0.90.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t002" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="6"><italic>&#945;</italic><sub><italic>1</italic></sub> = &#8722;<italic>1.70</italic>, <italic>&#945;</italic><sub><italic>2</italic></sub> = <italic>1.70</italic>, <italic>&#946;</italic> = <italic>0.34</italic>, <italic>AUC</italic><sub><italic>1</italic></sub> = <italic>AUC</italic><sub><italic>2</italic></sub> = <italic>0.90</italic></th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">n</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e029">
+<alternatives>
+<graphic id="pone.0221433.e029g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e029" ns0:type="simple" />
+<ns1:math display="inline" id="M29">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>1</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e030">
+<alternatives>
+<graphic id="pone.0221433.e030g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e030" ns0:type="simple" />
+<ns1:math display="inline" id="M30">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>2</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e031">
+<alternatives>
+<graphic id="pone.0221433.e031g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e031" ns0:type="simple" />
+<ns1:math display="inline" id="M31">
+<ns1:mover accent="true">
+<ns1:mi>&#946;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>1</sub> <break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>2</sub> <break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">75</td>
+<td align="center">&#8722;1.745<break />[&#8722;2.749, &#8722;1.048]</td>
+<td align="center">1.742<break />[1.034, 2.728]</td>
+<td align="center">0.352<break />[0.248, 0.509]</td>
+<td align="center">0.9004<break />[0.8119, 0.9631]</td>
+<td align="center">0.8997<break />[0.8112, 0.9632]</td>
+</tr>
+<tr>
+<td align="center">150</td>
+<td align="center">&#8722;1.724<break />[&#8722;2.343, &#8722;1.230]</td>
+<td align="center">1.723<break />[1.236, 2.346]</td>
+<td align="center">0.346<break />[0.272, 0.443]</td>
+<td align="center">0.8982<break />[0.8403, 0.9447]</td>
+<td align="center">0.8978<break />[0.8404, 0.9452]</td>
+</tr>
+<tr>
+<td align="center">300</td>
+<td align="center">&#8722;1.713<break />[&#8722;2.127, &#8722;1.355]</td>
+<td align="center">1.713<break />[1.357, 2.127]</td>
+<td align="center">0.343<break />[0.290, 0.408]</td>
+<td align="center">0.8974<break />[0.8576, 0.9317]</td>
+<td align="center">0.8975<break />[0.8568, 0.9322]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0221433.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t003</object-id>
+<label>Table 3</label>
+<caption>
+<title>Non-proportional odds simulation: NPO1.</title>
+<p>Parameter estimates and AUCs realized from cumulative ROC curve analysis applied to 10,000 simulated datasets parameterized for non-proportional odds, <italic>AUC</italic><sub>1</sub> = 0.75, and <italic>AUC</italic><sub>2</sub> = 0.85.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t003" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="7"><italic>&#945;</italic><sub><italic>1</italic></sub> = &#8722;<italic>0.75</italic>, <italic>&#945;</italic><sub><italic>2</italic></sub> = <italic>1.25</italic>, <italic>&#946;</italic><sub><italic>1</italic></sub> = <italic>0.15</italic>, <italic>&#946;</italic><sub><italic>2</italic></sub> = <italic>0.25</italic>, <italic>AUC</italic><sub><italic>1</italic></sub> = <italic>0.75</italic>, <italic>AUC</italic><sub><italic>2</italic></sub> = <italic>0.85</italic></th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">n</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e032">
+<alternatives>
+<graphic id="pone.0221433.e032g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e032" ns0:type="simple" />
+<ns1:math display="inline" id="M32">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>1</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula><break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e033">
+<alternatives>
+<graphic id="pone.0221433.e033g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e033" ns0:type="simple" />
+<ns1:math display="inline" id="M33">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>2</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e034">
+<alternatives>
+<graphic id="pone.0221433.e034g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e034" ns0:type="simple" />
+<ns1:math display="inline" id="M34">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#946;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>1</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e035">
+<alternatives>
+<graphic id="pone.0221433.e035g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e035" ns0:type="simple" />
+<ns1:math display="inline" id="M35">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#946;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>2</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>1</sub> <break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>2</sub> <break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">75</td>
+<td align="center">&#8722;0.759<break />[&#8722;1.421, &#8722;0.226]</td>
+<td align="center">1.284<break />[0.656, 2.289]</td>
+<td align="center">0.153<break />[0.065, 0.267]</td>
+<td align="center">0.259<break />[0.154, 0.451]</td>
+<td align="center">0.7492<break />[0.6158, 0.8605]</td>
+<td align="center">0.8445<break />[0.7416, 0.9247]</td>
+</tr>
+<tr>
+<td align="center">150</td>
+<td align="center">&#8722;0.758<break />[&#8722;1.179, &#8722;0.392]</td>
+<td align="center">1.267<break />[0.817, 1.859]</td>
+<td align="center">0.152<break />[0.092, 0.224]</td>
+<td align="center">0.253<break />[0.181, 0.364]</td>
+<td align="center">0.7491<break />[0.6623, 0.8265]</td>
+<td align="center">0.8458<break />[0.7758, 0.9059]</td>
+</tr>
+<tr>
+<td align="center">300</td>
+<td align="center">&#8722;0.755<break />[&#8722;1.042, &#8722;0.493]</td>
+<td align="center">1.260<break />[0.935, 1.641]</td>
+<td align="center">0.151<break />[0.108, 0.200]</td>
+<td align="center">0.252<break />[0.198, 0.318]</td>
+<td align="center">0.7490<break />[0.6886, 0.8051]</td>
+<td align="center">0.8463<break />[0.7961, 0.8898]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0221433.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t004</object-id>
+<label>Table 4</label>
+<caption>
+<title>Non-proportional odds simulation: NPO2.</title>
+<p>Parameter estimates and AUCs realized from cumulative ROC curve analysis applied to 10,000 simulated datasets parameterized for non-proportional odds, <italic>AUC</italic><sub>1</sub> = 0.70, and <italic>AUC</italic><sub>2</sub> = 0.95.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t004" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="7"><italic>&#945;</italic><sub><italic>1</italic></sub> = &#8722;<italic>0.70</italic>, <italic>&#945;</italic><sub><italic>2</italic></sub> = <italic>4.70</italic>, <italic>&#946;</italic><sub><italic>1</italic></sub> = <italic>0.14</italic>, <italic>&#946;</italic><sub><italic>2</italic></sub> = <italic>0.94</italic>, <italic>AUC</italic><sub><italic>1</italic></sub> = <italic>0.70</italic>, <italic>AUC</italic><sub><italic>2</italic></sub> = <italic>0.95</italic></th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">n</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e036">
+<alternatives>
+<graphic id="pone.0221433.e036g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e036" ns0:type="simple" />
+<ns1:math display="inline" id="M36">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>1</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e037">
+<alternatives>
+<graphic id="pone.0221433.e037g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e037" ns0:type="simple" />
+<ns1:math display="inline" id="M37">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#945;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>2</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e038">
+<alternatives>
+<graphic id="pone.0221433.e038g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e038" ns0:type="simple" />
+<ns1:math display="inline" id="M38">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#946;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>1</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">
+<inline-formula id="pone.0221433.e039">
+<alternatives>
+<graphic id="pone.0221433.e039g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e039" ns0:type="simple" />
+<ns1:math display="inline" id="M39">
+<ns1:msub>
+<ns1:mover accent="true">
+<ns1:mi>&#946;</ns1:mi>
+<ns1:mo>^</ns1:mo>
+</ns1:mover>
+<ns1:mn>2</ns1:mn>
+</ns1:msub>
+</ns1:math>
+</alternatives>
+</inline-formula>
+<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>1</sub> <break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">AUC<sub>2</sub> <break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">75</td>
+<td align="center">&#8722;0.501<break />[&#8722;1.209, 0.103]</td>
+<td align="center">6.071<break />[3.243, 20.611]</td>
+<td align="center">0.098<break />[&#8722;0.008, 0.230]</td>
+<td align="center">1.229<break />[0.669, 4.370]</td>
+<td align="center">0.6979<break />[0.4786, 0.8292]</td>
+<td align="center">0.9483<break />[0.8488, 0.9872]</td>
+</tr>
+<tr>
+<td align="center">150</td>
+<td align="center">&#8722;0.499<break />[&#8722;0.967, &#8722;0.079]</td>
+<td align="center">5.768<break />[3.648, 14.259]</td>
+<td align="center">0.098<break />[0.022, 0.183]</td>
+<td align="center">1.150<break />[0.741, 2.959]</td>
+<td align="center">0.6941<break />[0.5906, 0.7870]</td>
+<td align="center">0.9505<break />[0.8934, 0.9847]</td>
+</tr>
+<tr>
+<td align="center">300</td>
+<td align="center">&#8722;0.520<break />[&#8722;0.832, &#8722;0.217]</td>
+<td align="center">5.426<break />[3.943, 8.782]</td>
+<td align="center">0.101<break />[0.048, 0.159]</td>
+<td align="center">1.069<break />[0.791, 1.763]</td>
+<td align="center">0.6931<break />[0.6233, 0.7616]</td>
+<td align="center">0.9508<break />[0.9148, 0.9769]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Tables <xref ref-type="table" rid="pone.0221433.t005">5</xref>&#8211;<xref ref-type="table" rid="pone.0221433.t007">7</xref> display the median, 2.5th and 97.5th percentiles, and percent-bias of cutpoints selected by each criterion across sample sizes <italic>n</italic>. Percent-biases are the median of percent-differences between realized cutpoints (selected and parametric) and designated cutpoints. The ROC curve-based cutpoint selection criteria exhibited a range of biases. Among both proportional (<xref ref-type="table" rid="pone.0221433.t005">Table 5</xref>) and non-proportional (Tables <xref ref-type="table" rid="pone.0221433.t006">6</xref> and <xref ref-type="table" rid="pone.0221433.t007">7</xref>) odds conditions, absolute values of the percent-biases ranged from 2.8&#8211;144.2 percent. Total Accuracy demonstrated the best performance with biases ranging from 2.8&#8211;11.7 percent, while the other criteria performed considerably worse.</p>
+<table-wrap id="pone.0221433.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t005</object-id>
+<label>Table 5</label>
+<caption>
+<title>Proportional odds simulation.</title>
+<p>Percentiles and biases of cutpoints selected from cumulative ROC curves with several criteria and computed parametrically: 10,000 simulated datasets parameterized for proportional odds and <italic>AUC</italic><sub>1</sub> = <italic>AUC</italic><sub>2</sub> = 0.90.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t005" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2" style="border-bottom:thick">Cutpoint</th>
+<th align="center" rowspan="2" style="border-bottom:thick">Criterion</th>
+<th align="center" colspan="2">n = 75</th>
+<th align="center" colspan="2">n = 150</th>
+<th align="center" colspan="2">n = 300</th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="char" char="." rowspan="5" style="border-bottom:thick">5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">&#8722;46.4</td>
+<td align="center">2.68<break />[&#8722;0.71, 6.00]</td>
+<td align="char" char=".">&#8722;48.5</td>
+<td align="center">2.58<break />[&#8722;0.28, 5.22]</td>
+<td align="char" char=".">&#8722;50.4</td>
+<td align="center">2.48<break />[0.26, 4.62]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">7.7</td>
+<td align="center">5.39<break />[1.88, 9.24]</td>
+<td align="char" char=".">4.8</td>
+<td align="center">5.24<break />[2.48, 8.16]</td>
+<td align="char" char=".">2.9</td>
+<td align="center">5.15<break />[2.95, 7.38]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">&#8722;18.8</td>
+<td align="center">4.06<break />[&#8722;0.06, 8.22]</td>
+<td align="char" char=".">&#8722;19.9</td>
+<td align="center">4.01<break />[0.59, 7.29]</td>
+<td align="char" char=".">&#8722;22.1</td>
+<td align="center">3.89<break />[1.14, 6.58]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">78.7</td>
+<td align="center">8.93<break />[3.05, 12.51]</td>
+<td align="char" char=".">99.4</td>
+<td align="center">9.97<break />[4.35, 12.64]</td>
+<td align="char" char=".">120.5</td>
+<td align="center">11.02<break />[5.58, 12.73]</td>
+</tr>
+<tr>
+<td align="center" style="border-bottom:thick">Parametric<break /><inline-formula id="pone.0221433.e040"><alternatives><graphic id="pone.0221433.e040g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e040" ns0:type="simple" /><ns1:math display="inline" id="M40"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char="." style="border-bottom:thick">&#8722;0.2</td>
+<td align="center" style="border-bottom:thick">4.99<break />[3.06, 7.22]</td>
+<td align="char" char="." style="border-bottom:thick">&#8722;0.1</td>
+<td align="center" style="border-bottom:thick">5.00<break />[3.62, 6.51]</td>
+<td align="char" char="." style="border-bottom:thick">&#8722;0.1</td>
+<td align="center" style="border-bottom:thick">5.00<break />[4.01, 6.06]</td>
+</tr>
+<tr>
+<td align="char" char="." rowspan="5">&#8722;5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">52.0</td>
+<td align="center">&#8722;2.40<break />[&#8722;5.65, 1.08]</td>
+<td align="char" char=".">52.1</td>
+<td align="center">&#8722;2.39<break />[&#8722;5.06, 0.30]</td>
+<td align="char" char=".">52.0</td>
+<td align="center">&#8722;2.40<break />[&#8722;4.51, &#8722;0.24]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">10.0</td>
+<td align="center">&#8722;4.50<break />[&#8722;8.22, &#8722;1.09]</td>
+<td align="char" char=".">5.9</td>
+<td align="center">&#8722;4.70<break />[&#8722;7.66, &#8722;2.02]</td>
+<td align="char" char=".">4.1</td>
+<td align="center">&#8722;4.79<break />[&#8722;7.05, &#8722;2.64]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">24.6</td>
+<td align="center">&#8722;3.77<break />[&#8722;7.79, 0.36]</td>
+<td align="char" char=".">23.6</td>
+<td align="center">&#8722;3.82<break />[&#8722;7.11, &#8722;0.43]</td>
+<td align="char" char=".">23.8</td>
+<td align="center">&#8722;3.81<break />[&#8722;6.46, &#8722;1.04]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">&#8722;70.8</td>
+<td align="center">&#8722;8.54<break />[&#8722;12.05, &#8722;2.60]</td>
+<td align="char" char=".">&#8722;95.2</td>
+<td align="center">&#8722;9.76<break />[&#8722;12.40, &#8722;4.22]</td>
+<td align="char" char=".">&#8722;117.9</td>
+<td align="center">&#8722;10.89<break />[&#8722;12.60, &#8722;5.61]</td>
+</tr>
+<tr>
+<td align="center">Parametric<break /><inline-formula id="pone.0221433.e041"><alternatives><graphic id="pone.0221433.e041g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e041" ns0:type="simple" /><ns1:math display="inline" id="M41"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char=".">0.2</td>
+<td align="center">&#8722;4.99<break />[&#8722;7.23, &#8722;3.05]</td>
+<td align="char" char=".">&#8722;0.1</td>
+<td align="center">&#8722;5.00<break />[&#8722;6.50, &#8722;3.64]</td>
+<td align="char" char=".">0.2</td>
+<td align="center">&#8722;4.99<break />[&#8722;6.04, &#8722;4.03]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0221433.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t006</object-id>
+<label>Table 6</label>
+<caption>
+<title>Non-proportional odds simulation: NPO1.</title>
+<p>Percentiles and biases of cutpoints selected from cumulative ROC curves with several criteria and computed parametrically: 10,000 simulated datasets parameterized for non-proportional odds, <italic>AUC</italic><sub>1</sub> = 0.75, and <italic>AUC</italic><sub>2</sub> = 0.85.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t006g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t006" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2" style="border-bottom:thick">Cutpoint</th>
+<th align="center" rowspan="2" style="border-bottom:thick">Criterion</th>
+<th align="center" colspan="2">n = 75</th>
+<th align="center" colspan="2">n = 150</th>
+<th align="center" colspan="2">n = 300</th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="char" char="." rowspan="5" style="border-bottom:thick">5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">&#8722;74.3</td>
+<td align="center">1.29<break />[&#8722;3.92, 6.41]</td>
+<td align="char" char=".">&#8722;77.8</td>
+<td align="center">1.11<break />[&#8722;3.17, 5.40]</td>
+<td align="char" char=".">&#8722;79.9</td>
+<td align="center">1<break />[&#8722;2.45, 4.38]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">8.4</td>
+<td align="center">5.42<break />[&#8722;0.40, 11.64]</td>
+<td align="char" char=".">5.3</td>
+<td align="center">5.26<break />[0.58, 10.47]</td>
+<td align="char" char=".">3.5</td>
+<td align="center">5.17<break />[1.43, 9.19]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">&#8722;51.2</td>
+<td align="center">2.44<break />[&#8722;4.99, 9.73]</td>
+<td align="char" char=".">&#8722;56.2</td>
+<td align="center">2.19<break />[&#8722;4.08, 8.39]</td>
+<td align="char" char=".">&#8722;58.7</td>
+<td align="center">2.06<break />[&#8722;3.11, 7.07]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">113.7</td>
+<td align="center">10.69<break />[&#8722;8.21, 12.73]</td>
+<td align="char" char=".">133.6</td>
+<td align="center">11.68<break />[&#8722;7.40, 12.78]</td>
+<td align="char" char=".">144.2</td>
+<td align="center">12.21<break />[&#8722;0.81, 12.80]</td>
+</tr>
+<tr>
+<td align="center" style="border-bottom:thick">Parametric<break /><inline-formula id="pone.0221433.e042"><alternatives><graphic id="pone.0221433.e042g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e042" ns0:type="simple" /><ns1:math display="inline" id="M42"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char="." style="border-bottom:thick">0.1</td>
+<td align="center" style="border-bottom:thick">5<break />[1.47, 11.81]</td>
+<td align="char" char="." style="border-bottom:thick">&#8722;0.2</td>
+<td align="center" style="border-bottom:thick">4.99<break />[2.50, 8.76]</td>
+<td align="char" char="." style="border-bottom:thick">0.0</td>
+<td align="center" style="border-bottom:thick">5.00<break />[3.21, 7.37]</td>
+</tr>
+<tr>
+<td align="char" char="." rowspan="5">&#8722;5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">67.3</td>
+<td align="center">&#8722;1.63<break />[&#8722;5.60, 2.43]</td>
+<td align="char" char=".">65.1</td>
+<td align="center">&#8722;1.75<break />[&#8722;4.94, 1.39]</td>
+<td align="char" char=".">64.7</td>
+<td align="center">&#8722;1.77<break />[&#8722;4.35, 0.76]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">11.7</td>
+<td align="center">&#8722;4.41<break />[&#8722;9.03, &#8722;0.32]</td>
+<td align="char" char=".">7.0</td>
+<td align="center">&#8722;4.65<break />[&#8722;8.19, &#8722;1.39]</td>
+<td align="char" char=".">4.4</td>
+<td align="center">&#8722;4.78<break />[&#8722;7.52, &#8722;2.15]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">38.3</td>
+<td align="center">&#8722;3.08<break />[&#8722;8.21, 2.14]</td>
+<td align="char" char=".">35.7</td>
+<td align="center">&#8722;3.22<break />[&#8722;7.34, 1.06]</td>
+<td align="char" char=".">36.3</td>
+<td align="center">&#8722;3.18<break />[&#8722;6.58, 0.32]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">&#8722;85.7</td>
+<td align="center">&#8722;9.28<break />[&#8722;12.27, &#8722;1.38]</td>
+<td align="char" char=".">&#8722;116.5</td>
+<td align="center">&#8722;10.83<break />[&#8722;12.57, &#8722;4.31]</td>
+<td align="char" char=".">&#8722;134.6</td>
+<td align="center">&#8722;11.73<break />[&#8722;12.70, &#8722;6.29]</td>
+</tr>
+<tr>
+<td align="center">Parametric<break /><inline-formula id="pone.0221433.e043"><alternatives><graphic id="pone.0221433.e043g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e043" ns0:type="simple" /><ns1:math display="inline" id="M43"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char=".">0.3</td>
+<td align="center">&#8722;4.99<break />[&#8722;8.08, &#8722;2.60]</td>
+<td align="char" char=".">&#8722;0.1</td>
+<td align="center">&#8722;5.01<break />[&#8722;7.03, &#8722;3.30]</td>
+<td align="char" char=".">0.3</td>
+<td align="center">&#8722;4.99<break />[&#8722;6.35, &#8722;3.82]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0221433.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t007</object-id>
+<label>Table 7</label>
+<caption>
+<title>Non-proportional odds simulation: NPO2.</title>
+<p>Percentiles and biases of cutpoints selected from cumulative ROC curves with several criteria and computed parametrically: 10,000 simulated datasets parameterized for non-proportional odds, <italic>AUC</italic><sub>1</sub> = 0.70, and <italic>AUC</italic><sub>2</sub> = 0.95.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t007g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t007" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2" style="border-bottom:thick">Cutpoint</th>
+<th align="center" rowspan="2" style="border-bottom:thick">Criterion</th>
+<th align="center" colspan="2">n = 75</th>
+<th align="center" colspan="2">n = 150</th>
+<th align="center" colspan="2">n = 300</th>
+</tr>
+<tr>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+<th align="center" style="border-bottom:thick">%Bias</th>
+<th align="center" style="border-bottom:thick">Median<break />[2.5th, 97.5th %ile]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="char" char="." rowspan="5" style="border-bottom:thick">5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">&#8722;42.6</td>
+<td align="center">2.87<break />[&#8722;2.16, 8.43]</td>
+<td align="char" char=".">&#8722;43.4</td>
+<td align="center">2.83<break />[&#8722;1.30, 7.12]</td>
+<td align="char" char=".">&#8722;45.5</td>
+<td align="center">2.73<break />[&#8722;0.66, 6.25]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">4.6</td>
+<td align="center">5.23<break />[&#8722;2.74, 11.55]</td>
+<td align="char" char=".">5.0</td>
+<td align="center">5.25<break /></td>
+<td align="char" char=".">3.3</td>
+<td align="center">5.17<break />[1.28, 9.38]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">&#8722;28.3</td>
+<td align="center">3.59<break />[&#8722;3.47, 10.90]</td>
+<td align="char" char=".">&#8722;30.3</td>
+<td align="center">3.48<break />[&#8722;2.89, 10.14]</td>
+<td align="char" char=".">&#8722;32.9</td>
+<td align="center">3.36<break />[&#8722;1.83, 8.74]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">105.2</td>
+<td align="center">10.26<break />[&#8722;5.38, 12.72]</td>
+<td align="char" char=".">131.8</td>
+<td align="center">11.59<break />[&#8722;5.76, 12.78]</td>
+<td align="char" char=".">143.9</td>
+<td align="center">12.2<break />[&#8722;6.08, 12.80]</td>
+</tr>
+<tr>
+<td align="center" style="border-bottom:thick">Parametric<break /><inline-formula id="pone.0221433.e044"><alternatives><graphic id="pone.0221433.e044g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e044" ns0:type="simple" /><ns1:math display="inline" id="M44"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char="." style="border-bottom:thick">&#8722;1.4</td>
+<td align="center" style="border-bottom:thick">4.93<break />[&#8722;8.12, 30.83]</td>
+<td align="char" char="." style="border-bottom:thick">1.5</td>
+<td align="center" style="border-bottom:thick">5.07<break />[0.94, 14.99]</td>
+<td align="char" char="." style="border-bottom:thick">2.3</td>
+<td align="center" style="border-bottom:thick">5.11<break />[2.55, 9.54]</td>
+</tr>
+<tr>
+<td align="char" char="." rowspan="5">&#8722;5.00</td>
+<td align="center">Youden Index</td>
+<td align="char" char=".">41.4</td>
+<td align="center">&#8722;2.93<break />[&#8722;4.77, &#8722;0.28]</td>
+<td align="char" char=".">44.1</td>
+<td align="center">&#8722;2.79<break />[&#8722;4.46, &#8722;0.59]</td>
+<td align="char" char=".">46.4</td>
+<td align="center">&#8722;2.68<break />[&#8722;4.04, &#8722;0.96]</td>
+</tr>
+<tr>
+<td align="center">Total Accuracy</td>
+<td align="char" char=".">9.4</td>
+<td align="center">&#8722;4.53<break />[&#8722;6.17, &#8722;2.73]</td>
+<td align="char" char=".">5.0</td>
+<td align="center">&#8722;4.75<break />[&#8722;6.07, &#8722;3.38]</td>
+<td align="char" char=".">2.8</td>
+<td align="center">&#8722;4.86<break />[&#8722;5.98, &#8722;3.75]</td>
+</tr>
+<tr>
+<td align="center">Matthews Correlation</td>
+<td align="char" char=".">24.5</td>
+<td align="center">&#8722;3.78<break />[&#8722;5.77, &#8722;1.37]</td>
+<td align="char" char=".">20.1</td>
+<td align="center">&#8722;3.99<break />[&#8722;5.58, &#8722;2.09]</td>
+<td align="char" char=".">19.7</td>
+<td align="center">&#8722;4.02<break />[&#8722;5.31, &#8722;2.45]</td>
+</tr>
+<tr>
+<td align="center">Markedness</td>
+<td align="char" char=".">2.3</td>
+<td align="center">&#8722;4.88<break />[&#8722;6.55, &#8722;2.06]</td>
+<td align="char" char=".">&#8722;8.0</td>
+<td align="center">&#8722;5.4<break />[&#8722;6.59, &#8722;3.43]</td>
+<td align="char" char=".">&#8722;16.0</td>
+<td align="center">&#8722;5.8<break />[&#8722;6.63, &#8722;4.35]</td>
+</tr>
+<tr>
+<td align="center">Parametric<break /><inline-formula id="pone.0221433.e045"><alternatives><graphic id="pone.0221433.e045g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e045" ns0:type="simple" /><ns1:math display="inline" id="M45"><ns1:mrow><ns1:mo>&#8722;</ns1:mo> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula></td>
+<td align="char" char=".">1.5</td>
+<td align="center">&#8722;4.93<break />[&#8722;5.96, &#8722;3.76]</td>
+<td align="char" char=".">&#8722;0.1</td>
+<td align="center">&#8722;5.00<break />[&#8722;5.75, &#8722;4.20]</td>
+<td align="char" char=".">&#8722;1.3</td>
+<td align="center">&#8722;5.06<break />[&#8722;5.59, &#8722;4.51]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Forgoing ROC curve analysis and calculating cutpoints from the MLE regression parameters yielded small, often negligible absolute percent-biases (&lt;2.3 percent) for both proportional and non-proportional odds conditions. In addition, across all sample sizes, parametric cutpoints consistently out-performed ROC curve-based cutpoint selection criteria.</p>
+<p>Notably, for the NPO2 condition (<xref ref-type="table" rid="pone.0221433.t007">Table 7</xref>), divergence of the realized cumulative logit parameters from designated values did not entail discrepancies in realized cutpoints compared to the other simulation conditions, whether the cutpoints were selected by criteria or calculated parametrically.</p>
+<p>Absolute percent-bias for Total Accuracy cutpoints usually diminished with increasing sample size from <italic>n</italic> = 75 to 300. The only exception was for the upper cutpoint (<italic>X</italic> = 5.00) in the NPO2 simulation condition, where absolute percent-bias worsened slightly at <italic>n</italic> = 150. In addition, the absolute percent-bias of lower Total Accuracy cutpoints were usually greater than for upper cutpoints, except for <italic>n</italic> = 150 and 300 of the NPO2 condition. For parametric cutpoints, absolute percent-bias was negligible at all sample sizes, except in the NPO2 condition, where although cutpoint bias was the lowest within the condition (0.1&#8211;2.3 percent), it was slightly greater compared to other conditions (0.0&#8211;0.3 percent).</p>
+</sec>
+<sec id="sec006">
+<title>Real-World Data</title>
+<p>Two publicly available datasets with ternary ordinal outcomes were analyzed with the cumulative ROC curve approach where cutpoints were selected with the Total Accuracy criterion and computed parametrically. <xref ref-type="fig" rid="pone.0221433.g001">Fig 1</xref> displays histograms for each dataset overlaid with Total Accuracy cutpoints, while <xref ref-type="fig" rid="pone.0221433.g002">Fig 2</xref> shows the cutpoints on their respective cumulative ROC curves.</p>
+<fig id="pone.0221433.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Percent distributions overlaid with cutpoints (dashed lines) selected from cumulative ROC curves with the Total Accuracy criterion.</title>
+<p>A: Cork Stopper Quality (N = 150): total defective area [px] by cork stopper quality levels. B: NHANES Tobacco Smoke Exposure (N = 16,900): natural log of urinary NNAL [ng/mL] by tobacco smoke exposure levels.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.g001" ns0:type="simple" />
+</fig>
+<fig id="pone.0221433.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Cumulative ROC curves (focused on upper-left quadrant) indicating coordinates for Total Accuracy cutpoints.</title>
+<p>A: Cork Stopper Quality: poor vs. normal, superior quality (solid line) and poor, normal vs. superior (dashed line). B: NHANES Tobacco Smoke Exposure: none vs. second-hand smoke (SHS), smoker (solid line) and none, SHS vs. smoker (dashed line).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.g002" ns0:type="simple" />
+</fig>
+<p>Tables <xref ref-type="table" rid="pone.0221433.t008">8</xref> and <xref ref-type="table" rid="pone.0221433.t009">9</xref> present the Total Accuracy and parametric cutpoints, as well as their sensitivities, specificities, and AUCs. Confidence intervals for parametric cutpoints were calculated with Fieller&#8217;s Method [<xref ref-type="bibr" rid="pone.0221433.ref033">33</xref>] and for AUCs with Wald&#8217;s Method [<xref ref-type="bibr" rid="pone.0221433.ref037">37</xref>]. Cumulative logit regression models and cumulative ROC curves were computed with the FREQ and LOGISTIC subroutines of the SAS software application, version 9.4 [<xref ref-type="bibr" rid="pone.0221433.ref034">34</xref>].</p>
+<table-wrap id="pone.0221433.t008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t008</object-id>
+<label>Table 8</label>
+<caption>
+<title>Cork stopper quality (N = 150).</title>
+<p>Cutpoints of total defective area [px] discriminating cork stopper quality levels were selected from cumulative ROC curves with Total Accuracy criterion and computed parametrically. Proportional odds were assumed among quality levels.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t008g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t008" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="right" style="border-bottom:thick">Categories</th>
+<th align="center" style="border-bottom:thick">Cutpoint</th>
+<th align="center" style="border-bottom:thick">Sn: Sensitivity<break />Sp: Specificity</th>
+<th align="center" style="border-bottom:thick">AUC<break />[95%CI]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="4"><bold>Total Accuracy</bold></td>
+</tr>
+<tr>
+<td align="right">Poor vs.</td>
+<td align="center" rowspan="2">369</td>
+<td align="center">Sn: 0.9400</td>
+<td align="center">0.9847</td>
+</tr>
+<tr>
+<td align="right">Normal, Superior</td>
+<td align="center">Sp: 0.9700</td>
+<td align="center">[0.9655, 1.0000]</td>
+</tr>
+<tr>
+<td align="right">Poor, Normal vs.</td>
+<td align="center" rowspan="2">205</td>
+<td align="center">Sn: 0.9300</td>
+<td align="center">0.9732</td>
+</tr>
+<tr>
+<td align="right">Superior</td>
+<td align="center">Sp: 0.9400</td>
+<td align="center">[0.9501, 0.9963]</td>
+</tr>
+<tr>
+<td align="center" colspan="4"><bold>Parametric [95CI]</bold></td>
+</tr>
+<tr>
+<td align="right">Poor vs.</td>
+<td align="center">376.8</td>
+<td align="center">Sn: 0.8800</td>
+<td align="center" rowspan="2">&#8212;</td>
+</tr>
+<tr>
+<td align="right">Normal, Superior</td>
+<td align="center">[352.9, 403.9]</td>
+<td align="center">Sp: 0.9800</td>
+</tr>
+<tr>
+<td align="right">Poor, Normal vs.</td>
+<td align="center">194.8</td>
+<td align="center">Sn: 0.9300</td>
+<td align="center" rowspan="2">&#8212;</td>
+</tr>
+<tr>
+<td align="right">Superior</td>
+<td align="center">[177.1, 213.7]</td>
+<td align="center">Sp: 0.9000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0221433.t009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221433.t009</object-id>
+<label>Table 9</label>
+<caption>
+<title>Tobacco smoke exposure (N = 16,990).</title>
+<p>Cutpoints of the natural log of urinary NNAL [ng/ml] discriminating tobacco smoke exposure levels. Cutpoints were selected from cumulative ROC curves with Total Accuracy criterion and computed parametrically. Non-proportional odds were assumed among exposure levels.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0221433.t009g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.t009" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="right" style="border-bottom:thick">Categories</th>
+<th align="center" style="border-bottom:thick">Cutpoint</th>
+<th align="center" style="border-bottom:thick">Sn: Sensitivity<break />Sp: Specificity</th>
+<th align="center" style="border-bottom:thick">AUC<break />[95%CI]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="4"><bold>Total Accuracy</bold></td>
+</tr>
+<tr>
+<td align="right">Non-Exposed vs.</td>
+<td align="center" rowspan="2">&#8722;4.092</td>
+<td align="center">Sn: 0.9597</td>
+<td align="center">0.9535</td>
+</tr>
+<tr>
+<td align="right">SHS, Exclusive Smokers</td>
+<td align="center">Sp: 0.8060</td>
+<td align="center">[0.9497, 0.9573]</td>
+</tr>
+<tr>
+<td align="right">Non-Exposed, SHS vs.</td>
+<td align="center" rowspan="2">&#8722;3.168</td>
+<td align="center">Sn: 0.9689</td>
+<td align="center">0.9679</td>
+</tr>
+<tr>
+<td align="right">Exclusive Smokers</td>
+<td align="center">Sp: 0.8458</td>
+<td align="center">[0.9646, 0.9712]</td>
+</tr>
+<tr>
+<td align="center" colspan="4"><bold>Parametric [95CI]</bold></td>
+</tr>
+<tr>
+<td align="right">Non-Exposed vs.</td>
+<td align="center">&#8722;4.053</td>
+<td align="center">Sn: 0.8029</td>
+<td align="center" rowspan="2">&#8212;</td>
+</tr>
+<tr>
+<td align="right">SHS, Exclusive Smokers</td>
+<td align="center">[&#8722;4.108, &#8722;3.998]</td>
+<td align="center">Sp: 0.9602</td>
+</tr>
+<tr>
+<td align="right">Non-Exposed, SHS vs.</td>
+<td align="center">&#8722;3.264</td>
+<td align="center">Sn: 0.8537</td>
+<td align="center" rowspan="2">&#8212;</td>
+</tr>
+<tr>
+<td align="right">Exclusive Smokers</td>
+<td align="center">[&#8722;3.319, &#8722;3.208]</td>
+<td align="center">Sp: 0.9661</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<sec id="sec007">
+<title>Cork stopper quality</title>
+<p>The data comprise measurements of material defects appearing in digital images of cork stoppers [<xref ref-type="bibr" rid="pone.0221433.ref038">38</xref>, <xref ref-type="bibr" rid="pone.0221433.ref039">39</xref>], available in <xref ref-type="supplementary-material" rid="pone.0221433.s002">S1 File</xref>. An automated image processing system scanned cork defects and quantified several characteristics, including the number, area, and perimeter of the defects. Fifty cork stoppers were quantified in each of three quality levels subjectively assigned by human experts (<italic>N</italic> = 150), where <italic>Y</italic> = 1 (poor), 2 (normal), and 3 (superior). In the Stage 1 cumulative logit model, cork stopper quality was predicted by the total number of pixels with defects [px]. The score test for proportional odds (<italic>p</italic>-value = 0.31) supported a proportional odds configuration for the model. The parameter estimates are: <inline-formula id="pone.0221433.e046"><alternatives><graphic id="pone.0221433.e046g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e046" ns0:type="simple" /><ns1:math display="inline" id="M46"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>13</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>64</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>, <inline-formula id="pone.0221433.e047"><alternatives><graphic id="pone.0221433.e047g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e047" ns0:type="simple" /><ns1:math display="inline" id="M47"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>7</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>05</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>, and <inline-formula id="pone.0221433.e048"><alternatives><graphic id="pone.0221433.e048g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e048" ns0:type="simple" /><ns1:math display="inline" id="M48"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>a</ns1:mi> <ns1:mi>r</ns1:mi> <ns1:mi>e</ns1:mi> <ns1:mi>a</ns1:mi></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>0</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>036</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>.</p>
+<p>The ability of defect area to discriminate cork stopper quality is excellent, with AUCs &gt; 0.97 for both cumulative ROC curves (<xref ref-type="table" rid="pone.0221433.t008">Table 8</xref>). Total Accuracy identified cutpoints where the total number of pixels with defects were 205 (distinguishing poor or normal quality vs. superior) and 369 (poor vs. normal, superior), and both had excellent sensitivities and specificities &gt; 0.93. Parametrically computed cutpoints were at 194.8 [95%CI: 177.1, 213.7] and 376.8 [352.9, 403.9] pixels, with sensitivities and specificities comparable to those of the Total Accuracy cutpoints, although specificity for the lower cutpoint and sensitivity for the upper cutpoint were somewhat attenuated.</p>
+</sec>
+<sec id="sec008">
+<title>NHANES tobacco smoke exposure</title>
+<p>Human exposure to chemicals can be estimated from measurements of trace compounds in samples of human urine. Some of these compounds, known as biomarkers, are associated with exposure to tobacco smoke, which may arise either from direct inhalation while smoking, or from indirect inhalation of tobacco smoke present in the environment (i.e., second-hand tobacco smoke; SHS). One such biomarker is a tobacco-specific N-nitrosamine known as NNAL (4-[methylnitrosamino]-1-[3-pyridyl]-1-butanol; CAS No. 76014-81-8), which is present in both mainstream tobacco smoke and smokeless tobacco products. NNAL was measured in urine from a representative multi-level sample of the United States civilian population &#8805; 12 years old (<italic>N</italic> = 16, 900) obtained during the 2007&#8211;2012 cycles of the National Health and Nutrition Examination Survey (NHANES) [<xref ref-type="bibr" rid="pone.0221433.ref040">40</xref>], available in <xref ref-type="supplementary-material" rid="pone.0221433.s003">S2 File</xref>. Subjects reported being in one of three ordinal exposure categories: non-exposed subjects who neither used tobacco products nor were exposed to SHS (<italic>Y</italic> = 1;<italic>n</italic><sub>1</sub> = 12, 372); SHS-exposed subjects who did not smoke tobacco (<italic>Y</italic> = 2;<italic>n</italic><sub>2</sub> = 927); and exclusive tobacco smokers (<italic>Y</italic> = 3;<italic>n</italic><sub>3</sub> = 3, 691). In order to eliminate a non-combustible source of NNAL, subjects were excluded from analysis if they reported using smokeless tobacco. The natural log of urinary NNAL concentration predicted self-reported exposure categories in the Stage 1 cumulative logit model. The score test (<italic>p</italic>-value &lt;0.001) supported a non-proportional odds configuration for the model. The parameter estimates are: <inline-formula id="pone.0221433.e049"><alternatives><graphic id="pone.0221433.e049g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e049" ns0:type="simple" /><ns1:math display="inline" id="M49"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>4</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>60</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>, <inline-formula id="pone.0221433.e050"><alternatives><graphic id="pone.0221433.e050g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e050" ns0:type="simple" /><ns1:math display="inline" id="M50"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#945;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>4</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>08</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>, <inline-formula id="pone.0221433.e051"><alternatives><graphic id="pone.0221433.e051g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e051" ns0:type="simple" /><ns1:math display="inline" id="M51"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>l</ns1:mi> <ns1:mi>n</ns1:mi> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mi>N</ns1:mi> <ns1:mi>A</ns1:mi> <ns1:mi>L</ns1:mi> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow> <ns1:mo>,</ns1:mo> <ns1:mn>1</ns1:mn></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>13</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>, and <inline-formula id="pone.0221433.e052"><alternatives><graphic id="pone.0221433.e052g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0221433.e052" ns0:type="simple" /><ns1:math display="inline" id="M52"><ns1:mrow><ns1:msub><ns1:mover><ns1:mi>&#946;</ns1:mi> <ns1:mo accent="true">^</ns1:mo></ns1:mover> <ns1:mrow><ns1:mi>l</ns1:mi> <ns1:mi>n</ns1:mi> <ns1:mrow><ns1:mo form="prefix" stretchy="true">(</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mi>N</ns1:mi> <ns1:mi>A</ns1:mi> <ns1:mi>L</ns1:mi> <ns1:mo form="postfix" stretchy="true">)</ns1:mo></ns1:mrow> <ns1:mo>,</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mrow></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mo>&#8722;</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>.</ns1:mo> <ns1:mn>25</ns1:mn></ns1:mrow></ns1:math></alternatives></inline-formula>.</p>
+<p>The ability of <italic>ln</italic>(<italic>NNAL</italic>) to discriminate ternary tobacco smoke exposure levels is excellent with AUCs &gt; 0.95 for both cumulative ROC curves (<xref ref-type="table" rid="pone.0221433.t009">Table 9</xref>). Total Accuracy identified cutpoints at <italic>ln</italic>(<italic>NNAL</italic>) concentrations of -4.092 (non-exposed vs. SHS-exposed, smokers) and -3.168 ng/mL (non-exposed, SHS-exposed vs. smokers). Exponentiated, the respective cutpoints are 16.71 and 42.09 pg/mL. Since the non-proportional odds configuration permits each cumulative ROC curve to differ in discriminatory power, the cumulative ROC curve associated with the lower cutpoint had an AUC of 0.9535 [95%CI: 0.9497, 0.9573], while the upper cutpoint&#8217;s curve had an AUC that was slightly, but significantly better at 0.9679 [0.9646, 0.9712]. Parametric cutpoints are at &#8722;4.053 [95%CI: &#8722;4.108, &#8722;3.998] and &#8722;3.264 [&#8722;3.319, &#8722;3.208] ng/mL (exponentiated: 17.37 [16.44, 18.35] and 38.24 [36.19, 40.44] pg/mL, respectively). Total Accuracy&#8217;s upper cutpoint was above the parametric upper cutpoint&#8217;s upper 95 percent confidence limit, but it is unclear which is preferable. The Total Accuracy upper cutpoint had excellent sensitivity (0.9689) and good specificity (0.8458), but this was reversed for the parametric upper cutpoint, which had good sensitivity (0.8537) and excellent specificity (0.9661). Another basis for comparison is the Total Accuracycriterion, which can be calculated for parametric cutpoints from their <italic>TP</italic><sub><italic>j</italic></sub>, <italic>TN</italic><sub><italic>j</italic></sub>, <italic>FP</italic><sub><italic>j</italic></sub>, and <italic>FN</italic><sub><italic>j</italic></sub>. This, too, failed to be conclusive since the criterion for the Total Accuracy vs. parametric upper cutpoints were hardly different at 0.9421 vs. 0.9417.</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Discussion</title>
+<p>The cumulative logit model subsumes multinomial ordinal outcome levels within a single model, yet each outcome level gets its own cumulative logit, so that predicted individual probabilities for each level (<xref ref-type="disp-formula" rid="pone.0221433.e011">Eq 4</xref>) are mutually exclusive, comprehensive over the outcome levels, and sum to unity for each observation of the continuous measurement. Another appeal of the model is that its predicted probabilities (Eqs <xref ref-type="disp-formula" rid="pone.0221433.e010">3</xref> and <xref ref-type="disp-formula" rid="pone.0221433.e011">4</xref>) change in direct proportion to the continuous measurement across all outcome levels. Even more, the ordinality of the outcome ensures that cutpoints separate successive pairs of adjacent outcome levels.</p>
+<p>The assumption of proportional odds constrains the log-odds of the continuous predictor to be constant for all levels of the ordinal outcome. This imposes statistical equivalence on the AUCs of the cumulative ROC curves, so that the ROC curves will appear approximately overlapped. In contrast, when the log-odds of the predictor are non-proportional, which represents varying strength in the continuous predictor&#8217;s association at each outcome level, the AUCs of the cumulative ROC curves will differ and the curves will appear nested. Notably, the rank-order of the AUCs (and hence the order of nesting) is independent of the order of the ordinal outcome levels. This flexibility may be especially desirable in certain settings, such as in a clinical trial where a medication may be associated with greater potency at the worst level of the health outcome.</p>
+<p>Evaluated under simulation, cumulative ROC curve analysis performed as expected for a variety of conditions, but with the qualification that if ROC curve-based cutpoint criteria are to be used, results from simulated unbalanced data indicate that Total Accuracy yields minimally biased cutpoints compared to the Youden Index, Matthews Correlation Coefficient, and Markedness. In contrast to cutpoints selected by criteria, parametric cutpoints have the advantage of being maximum likelihood and consequently had absolute percent-biases that were less than Total Accuracy&#8217;s and were often negligible.</p>
+<p>The previously noted divergence of the cumulative logit parameters in the NPO2 simulation condition also suggests that caution may be warranted in some non-proportional odds situations, particularly when AUCs of the cumulative ROC curves are widely separated, as in NPO2. If, however, the primary aim is cutpoint estimation, the NPO2 condition indicates that estimated cutpoints were robust against divergence in the logit parameters. Moreover, qualitative results from the NPO2 condition regarding cutpoint selection criteria and parametric cutpoints were consistent with those from the proportional odds and NPO1 simulations.</p>
+<p>Analysis of real-world data demonstrated that cumulative ROC curve analysis yields reasonable results. Continuous measurements in both datasets displayed varying degrees of overlap among the ternary outcome levels. The tobacco smoke exposure data were relatively large, but also strikingly unbalanced across the outcome levels, especially at the intermediate outcome level. The intermediate SHS-exposed category was small (5.5 percent) and the distribution was skewed toward the extreme exposure levels (72.8 percent non-exposed vs. 21.7 percent smokers). Notwithstanding, the cumulative ROC curve approach identified cutpoints with good to excellent sensitivity and specificity.</p>
+<p>The cumulative ROC curve approach readily generalizes to more than three outcome levels through specification of the cumulative logit model. Nonetheless, discriminating discrete outcome levels postulates that the continuous measurement is associated with an <italic>a priori</italic> number of latent and ordinal classes. If the cumulative logit model in Stage 1 specifies an outcome with <italic>J</italic> &gt; 2 ordinal levels, determination of cutpoints may be difficult if the outcome is actually binomial or is otherwise different than assumed. The magnitude of this difficulty may be revealed in exploratory data analysis, by poor model fit, and by cutpoints with poor sensitivity and specificity. For the tobacco smoke exposure data, although prior assumption of an intermediate outcome level (i.e., secondhand smoke-exposed) was plausible, there was cause for doubt since this level was observed infrequently. In addition, the infrequency of the SHS-exposed outcome level contrasts with the simulated data, where use of a normal distribution as a source of random variates for the continuous predictor leads to more frequent intermediate outcomes (~40 percent) compared to the extreme outcomes (~20 percent each). These considerations notwithstanding, the natural log of urinary NNAL was an excellent discriminator of the three tobacco smoke exposure levels.</p>
+<p>The proposed approach admits alternative formulations of the Stage 1 model, where other multinomial models may be implemented through substitution of the cumulative logit link function. Alternative models for ordinal outcomes, such as adjacent categories and continuation ratio (including complementary log-log and Cox proportional hazards), and nominal outcomes (with the generalized logit) all predict probabilities entirely suitable for subsequent calculation of cumulative ROC curves. Conceptual interpretation of these alternative link functions, however, necessarily varies, sometimes substantially, and may therefore be less directly interpretable than the cumulative logit. Exploring the performance and utility of these alternative link functions may nonetheless be fruitful.</p>
+<p>Cumulative ROC curve analysis appears to be efficacious for a univariate continuous predictor, and the regression framework may be extended with the addition of covariates to the Stage 1 cumulative logit model. This can be expected to enhance discriminatory power by accounting for other influential or potentially confounding influences [<xref ref-type="bibr" rid="pone.0221433.ref041">41</xref>]. In any particular case, however, it may not be clear whether additional covariates will adversely affect the overall concavity of the cumulative ROC curves for the continuous predictor of interest, thereby hindering selection of cutpoints. Stratification by discrete factors may be helpful in resolving some of these difficulties.</p>
+<p>One challenge posed by the cumulative logit model is its sample size demands, which arise from the potentially numerous parameters that must be estimated. In the proportional odds configuration, the univariate cumulative logit model has <italic>J</italic> &#8722; 1 intercepts plus one slope for the continuous predictor, but this nearly doubles in the non-proportional odds configuration, which has 2 &#215; (<italic>J</italic> &#8722; 1) regression parameters.</p>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The cumulative ROC curve method comprises a straightforward combination of cumulative logit regression with ROC curve analysis, and is readily implemented with available statistical software. Cutpoint selection criteria from classic ROC curve analysis are still applicable, as well as established performance measures, such as sensitivity, specificity, and AUC. Cumulative ROC curve analysis performed as expected under simulation and with real-world data for a variety of conditions, including balanced and unbalanced data, proportional and non-proportional odds assumptions for the cumulative logit model, and AUCs associated with fair, good, and excellent performance (AUC = 0.70&#8211;0.95). Of the ROC curve-based cutpoint criteria, Total Accuracy was the least biased in simulation compared to the Youden Index, Mathews Correlation Coefficient, and Markedness. Calculation of cutpoints from cumulative logit regression parameters, which forgoes evaluation of cumulative ROC curves, demonstrated minimal bias, owing to parameter estimation with maximum likelihood methods. The author&#8217;s SAS programs implementing cumulative ROC curve analysis for ternary ordinal outcomes (<italic>J</italic> = 3) with parametric cutpoints are freely available for download in <xref ref-type="supplementary-material" rid="pone.0221433.s001">S1 Programs</xref> and from the author&#8217;s GitHub repository [<xref ref-type="bibr" rid="pone.0221433.ref042">42</xref>]: <ext-link ext-link-type="uri" ns0:href="https://github.com/intelligo1466/cumRoc3" ns0:type="simple">https://github.com/intelligo1466/cumRoc3</ext-link>.</p>
+</sec>
+<sec id="sec011">
+<title>Supporting information</title>
+<supplementary-material id="pone.0221433.s001" mimetype="application/zip" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.s001" ns0:type="simple">
+<label>S1 Programs</label>
+<caption>
+<title>%cumRoc3&#8212;Cumulative ROC curve analysis of three-level ordinal outcomes.</title>
+<p>A SAS macro that implements cumulative ROC curve analysis for three-level (ternary) ordinal outcomes, as described in this article. Requires SAS v9.4 or later.</p>
+<p>(ZIP)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221433.s002" mimetype="application/zip" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.s002" ns0:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Data, cork quality.</title>
+<p>Demonstration dataset comprising a ternary ordinal outcome representing levels of cork quality and a predictor representing the number of image pixels exhibiting defects.</p>
+<p>(ZIP)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221433.s003" mimetype="application/zip" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.s003" ns0:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Data, NHANES NNAL tobacco smoke exposure.</title>
+<p>Demonstration dataset comprising a ternary ordinal outcome representing levels of self-reported tobacco smoke exposure and a predictor representing measurements of a tobacco-specific biomarker in urine.</p>
+<p>(ZIP)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The author is indebted to this journal&#8217;s associate editors and reviewers for their gracious and constructive comments that significantly improved this paper. <bold>Disclaimers</bold>: The findings and conclusions in this report are those of the author and do not necessarily represent the views of the Centers for Disease Control and Prevention. Use of trade names is for identification only and does not imply endorsement by the Centers for Disease Control and Prevention.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221433.ref001">
+<label>1</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Agresti</surname> <given-names>A</given-names></name>. <source>Categorical Data Analysis</source>. <edition>3rd ed</edition>. <publisher-loc>Hoboken, New Jersey</publisher-loc>: <publisher-name>Wiley</publisher-name>; <year>2014</year>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref002">
+<label>2</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Egan</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Clarke</surname> <given-names>FR</given-names></name>. <chapter-title>Psychophysics and signal detection</chapter-title>. In: <name name-style="western"><surname>Sidowski</surname> <given-names>JB</given-names></name>, editor. <source>Experimental methods and instrumentation in psychology</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>McGraw-Hill</publisher-name>; <year>1966</year>. p. <fpage>211</fpage>&#8211;<lpage>246</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref003">
+<label>3</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Hanley</surname> <given-names>JA</given-names></name>. <chapter-title>Receiver Operating Characteristic (ROC) Curves</chapter-title>. In: <source>Encyclopedia of Biostatistics</source>. <edition>2nd ed</edition>. <publisher-loc>Chichester, England</publisher-loc>: <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>; <year>2005</year>. p. <fpage>1</fpage>&#8211;<lpage>7</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref004">
+<label>4</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Pepe</surname> <given-names>MS</given-names></name>. <source>The Statistical Evaluation of Medical Tests for Classification and Prediction</source>. <publisher-name>Oxford University Press</publisher-name>; <year>2004</year>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Swets</surname> <given-names>JA</given-names></name>. <article-title>The Relative Operating Characteristic in Psychology</article-title>. <source>Science</source>. <year>1973</year>;<volume>182</volume>(<issue>4116</issue>):<fpage>990</fpage>&#8211;<lpage>1000</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1126/science.182.4116.990" ns0:type="simple">10.1126/science.182.4116.990</ext-link></comment> <object-id pub-id-type="pmid">17833780</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Fawcett</surname> <given-names>T</given-names></name>. <article-title>An introduction to ROC analysis</article-title>. <source>Pattern Recogn Lett</source>. <year>2006</year>;<volume>27</volume>(<issue>8</issue>):<fpage>861</fpage>&#8211;<lpage>874</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.patrec.2005.10.010" ns0:type="simple">10.1016/j.patrec.2005.10.010</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hern&#225;ndez-Orallo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Flach</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ferri</surname> <given-names>C</given-names></name>. <article-title>A unified view of performance metrics: Translating threshold choice into expected classification loss</article-title>. <source>Journal of Machine Learning Research</source>. <year>2012</year>;<volume>13</volume>:<fpage>2813</fpage>&#8211;<lpage>2869</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Majnik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bosni&#263;</surname> <given-names>Z</given-names></name>. <article-title>ROC analysis of classifiers in machine learning: A survey</article-title>. <source>Intelligent Data Analysis</source>. <year>2013</year>;<volume>17</volume>(<issue>3</issue>):<fpage>531</fpage>&#8211;<lpage>558</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3233/IDA-130592" ns0:type="simple">10.3233/IDA-130592</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref009">
+<label>9</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Prati</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Batista</surname> <given-names>GEAPA</given-names></name>, <name name-style="western"><surname>Monard</surname> <given-names>MC</given-names></name>. <article-title>A Survey on Graphical Methods for Classification Predictive Performance Evaluation</article-title>. <source>IEEE Transactions on Knowledge and Data Engineering</source>. <year>2011</year>;<volume>23</volume>(<issue>11</issue>):<fpage>1601</fpage>&#8211;<lpage>1618</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1109/TKDE.2011.59" ns0:type="simple">10.1109/TKDE.2011.59</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Obuchowski</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Lieber</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Wians</surname> <given-names>FH</given-names> <suffix>Jr</suffix></name>. <article-title>ROC curves in clinical chemistry: uses, misuses, and possible solutions</article-title>. <source>Clin Chem</source>. <year>2004</year>;<volume>50</volume>(<issue>7</issue>):<fpage>1118</fpage>&#8211;<lpage>1125</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1373/clinchem.2004.031823" ns0:type="simple">10.1373/clinchem.2004.031823</ext-link></comment> <object-id pub-id-type="pmid">15142978</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Dreiseitl</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ohno-Machado</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Binder</surname> <given-names>M</given-names></name>. <article-title>Comparing three-class diagnostic tests by three-way ROC analysis</article-title>. <source>Medical Decision Making</source>. <year>2000</year>;<volume>20</volume>(<issue>3</issue>):<fpage>323</fpage>&#8211;<lpage>331</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0272989X0002000309" ns0:type="simple">10.1177/0272989X0002000309</ext-link></comment> <object-id pub-id-type="pmid">10929855</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref012">
+<label>12</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Edwards</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Metz</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Kupinski</surname> <given-names>MA</given-names></name>. <article-title>Ideal observers and optimal ROC hypersurfaces in N-class classification</article-title>. <source>IEEE Transactions on Medical Imaging Transactions on Medical Imaging</source>. <year>2004</year>;<volume>23</volume>(<issue>7</issue>):<fpage>891</fpage>&#8211;<lpage>895</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1109/TMI.2004.828358" ns0:type="simple">10.1109/TMI.2004.828358</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Inacio</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Turkman</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Nakas</surname> <given-names>CT</given-names></name>, <name name-style="western"><surname>Alonzo</surname> <given-names>TA</given-names></name>. <article-title>Nonparametric Bayesian estimation of the three-way receiver operating characteristic surface</article-title>. <source>Biometrical Journal</source>. <year>2011</year>;<volume>53</volume>(<issue>6</issue>):<fpage>1011</fpage>&#8211;<lpage>1024</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/bimj.201100070" ns0:type="simple">10.1002/bimj.201100070</ext-link></comment> <object-id pub-id-type="pmid">22069202</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Li</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>XH</given-names></name>, <name name-style="western"><surname>Fine</surname> <given-names>JP</given-names></name>. <article-title>A regression approach to ROC surface, with applications to Alzheimer&#8217;s disease</article-title>. <source>Science China-Mathematics</source>. <year>2012</year>;<volume>55</volume>(<issue>8</issue>):<fpage>1583</fpage>&#8211;<lpage>1595</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11425-012-4462-3" ns0:type="simple">10.1007/s11425-012-4462-3</ext-link></comment> <object-id pub-id-type="pmid">24459466</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kijewski</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Swensson</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Judy</surname> <given-names>PF</given-names></name>. <article-title>Analysis of Rating Data from Multiple-Alternative Tasks</article-title>. <source>Journal of Mathematical Psychology</source>. <year>1989</year>;<volume>33</volume>(<issue>4</issue>):<fpage>428</fpage>&#8211;<lpage>451</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0022-2496(89)90020-5" ns0:type="simple">10.1016/0022-2496(89)90020-5</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref016">
+<label>16</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Mossman</surname> <given-names>D</given-names></name>. <article-title>Three-way ROCs</article-title>. <source>Medical Decision Making</source>. <year>1999</year>;<volume>19</volume>(<issue>1</issue>):<fpage>78</fpage>&#8211;<lpage>89</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0272989X9901900110" ns0:type="simple">10.1177/0272989X9901900110</ext-link></comment> <object-id pub-id-type="pmid">9917023</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Nakas</surname> <given-names>CT</given-names></name>, <name name-style="western"><surname>Alonzo</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Yiannoutsos</surname> <given-names>CT</given-names></name>. <article-title>Accuracy and cut-off point selection in three-class classification problems using a generalization of the Youden index</article-title>. <source>Statistics in Medicine</source>. <year>2010</year>;<volume>29</volume>(<issue>28</issue>):<fpage>2946</fpage>&#8211;<lpage>2955</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sim.4044" ns0:type="simple">10.1002/sim.4044</ext-link></comment> <object-id pub-id-type="pmid">20809485</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref018">
+<label>18</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Nakas</surname> <given-names>CT</given-names></name>, <name name-style="western"><surname>Dalrymple-Alford</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Alonzo</surname> <given-names>TA</given-names></name>. <article-title>Generalization of Youden index for multiple-class classification problems applied to the assessment of externally validated cognition in Parkinson disease screening</article-title>. <source>Statistics in Medicine</source>. <year>2013</year>;<volume>32</volume>(<issue>6</issue>):<fpage>995</fpage>&#8211;<lpage>1003</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sim.5592" ns0:type="simple">10.1002/sim.5592</ext-link></comment> <object-id pub-id-type="pmid">22949169</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Budczies</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Klauschen</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Sinn</surname> <given-names>BV</given-names></name>, <name name-style="western"><surname>Gyorffy</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Schmitt</surname> <given-names>WD</given-names></name>, <name name-style="western"><surname>Darb-Esfahani</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Cutoff Finder: A Comprehensive and Straightforward Web Application Enabling Rapid Biomarker Cutoff Optimization</article-title>. <source>PLoS ONE</source>. <year>2012</year>;<volume>7</volume>(<issue>12</issue>):<fpage>e51862</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0051862" ns0:type="simple">10.1371/journal.pone.0051862</ext-link></comment> <object-id pub-id-type="pmid">23251644</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Camp</surname> <given-names>RL</given-names></name>. <article-title>X-Tile: A New Bio-Informatics Tool for Biomarker Assessment and Outcome-Based Cut-Point Optimization</article-title>. <source>Clinical Cancer Research</source>. <year>2004</year>;<volume>10</volume>(<issue>21</issue>):<fpage>7252</fpage>&#8211;<lpage>7259</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1158/1078-0432.CCR-04-0713" ns0:type="simple">10.1158/1078-0432.CCR-04-0713</ext-link></comment> <object-id pub-id-type="pmid">15534099</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref021">
+<label>21</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Chang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hsieh</surname> <given-names>Mk</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>WY</given-names></name>, <name name-style="western"><surname>Chiang</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>. <article-title>Determining the optimal number and location of cutoff points with application to data of cervical cancer</article-title>. <source>PLoS ONE</source>. <year>2017</year>;<volume>12</volume>(<issue>4</issue>):<fpage>e0176231</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0176231" ns0:type="simple">10.1371/journal.pone.0176231</ext-link></comment> <object-id pub-id-type="pmid">28448533</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref022">
+<label>22</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>L&#243;pez-Rat&#243;n</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rodr&#237;guez-&#193;lvarez</surname> <given-names>MX</given-names></name>, <name name-style="western"><surname>Su&#225;rez</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Sampedro</surname> <given-names>FG</given-names></name>. <article-title>OptimalCutpoints: An R Package for Selecting Optimal Cutpoints in Diagnostic Tests</article-title>. <source>Journal of Statistical Software</source>. <year>2015</year>;<volume>61</volume>(<issue>8</issue>):<fpage>1</fpage>&#8211;<lpage>36</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Matthews</surname> <given-names>BW</given-names></name>. <article-title>Comparison of the predicted and observed secondary structure of T4 phage lysozyme</article-title>. <source>Biochimica et Biophysica Acta (BBA)&#8212;Protein Structure</source>. <year>1975</year>;<volume>405</volume>(<issue>2</issue>):<fpage>442</fpage>&#8211;<lpage>451</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0005-2795(75)90109-9" ns0:type="simple">10.1016/0005-2795(75)90109-9</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref024">
+<label>24</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Metz</surname> <given-names>CE</given-names></name>. <article-title>Basic principles of ROC analysis</article-title>. <source>Seminars in nuclear medicine</source>. <year>1978</year>;<volume>8</volume>(<issue>4</issue>):<fpage>283</fpage>&#8211;<lpage>298</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0001-2998(78)80014-2" ns0:type="simple">10.1016/S0001-2998(78)80014-2</ext-link></comment> <object-id pub-id-type="pmid">112681</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref025">
+<label>25</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Youden</surname> <given-names>WJ</given-names></name>. <article-title>Index for rating diagnostic tests</article-title>. <source>Cancer</source>. <year>1950</year>;<volume>3</volume>(<issue>1</issue>):<fpage>32</fpage>&#8211;<lpage>35</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/1097-0142(1950)3:1&lt;32::aid-cncr2820030106&gt;3.0.co;2-3" ns0:type="simple">10.1002/1097-0142(1950)3:1&lt;32::aid-cncr2820030106&gt;3.0.co;2-3</ext-link></comment> <object-id pub-id-type="pmid">15405679</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref026">
+<label>26</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Krzanowski</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Hand</surname> <given-names>DJ</given-names></name>. <source>ROC curves for continuous data</source>. <edition>1st ed</edition>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>; <year>2009</year>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref027">
+<label>27</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Lloyd</surname> <given-names>CJ</given-names></name>. <article-title>Theory &amp; Methods: Semi-parametric estimation of ROC curves based on binomial regression modelling</article-title>. <source>Australian &amp; New Zealand Journal of Statistics</source>. <year>2002</year>;<volume>44</volume>(<issue>1</issue>):<fpage>75</fpage>&#8211;<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/1467-842X.00209" ns0:type="simple">10.1111/1467-842X.00209</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Qin</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>B</given-names></name>. <article-title>Using logistic regression procedures for estimating receiver operating characteristic curves</article-title>. <source>Biometrika</source>. <year>2003</year>;<volume>90</volume>(<issue>3</issue>):<fpage>585</fpage>&#8211;<lpage>596</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/biomet/90.3.585" ns0:type="simple">10.1093/biomet/90.3.585</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref029">
+<label>29</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>McCullagh</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nelder</surname> <given-names>JA</given-names></name>. <chapter-title>Generalized Linear Models</chapter-title>. <edition>2nd ed</edition>. <source>Chapman &amp; Hall/CRC Monographs on Statistics &amp; Applied Probability</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Chapman &amp; Hall/CRC</publisher-name>; <year>1989</year>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref030">
+<label>30</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Cox</surname> <given-names>C</given-names></name>. <article-title>Fieller&#8217;s theorem, the likelihood and the delta method</article-title>. <source>Biometrics</source>. <year>1990</year>;<volume>46</volume>(<issue>3</issue>):<fpage>709</fpage>&#8211;<lpage>718</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2307/2532090" ns0:type="simple">10.2307/2532090</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref031">
+<label>31</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hirschberg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lye</surname> <given-names>J</given-names></name>. <article-title>A Geometric Comparison of the Delta and Fieller Confidence Intervals</article-title>. <source>The American Statistician</source>. <year>2010</year>;<volume>64</volume>(<issue>3</issue>):<fpage>234</fpage>&#8211;<lpage>241</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1198/tast.2010.08130" ns0:type="simple">10.1198/tast.2010.08130</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref032">
+<label>32</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Zerbe</surname> <given-names>GO</given-names></name>. <article-title>On Fieller&#8217;s Theorem and the General Linear Model</article-title>. <source>The American Statistician</source>. <year>1978</year>;<volume>32</volume>(<issue>3</issue>):<fpage>103</fpage>&#8211;<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/00031305.1978.10479267" ns0:type="simple">10.1080/00031305.1978.10479267</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref033">
+<label>33</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Fieller</surname> <given-names>EC</given-names></name>. <article-title>A fundamental formula in the statistics of biological assay, and some applications</article-title>. <source>Quarterly Journal of Pharmacy and Pharmacology</source>. <year>1944</year>;<volume>17</volume>:<fpage>117</fpage>&#8211;<lpage>123</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref034">
+<label>34</label>
+<mixed-citation publication-type="other" ns0:type="simple">SAS Institute Inc. SAS Software, v9.4. 2012.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref035">
+<label>35</label>
+<mixed-citation publication-type="other" ns0:type="simple">Powers DM. Evaluation: From Precision, Recall and F-measure to ROC, Informedness, Markedness and Correlation. Adelaide, Australia: Flinders University; 2007. Available from: <ext-link ext-link-type="uri" ns0:href="http://dspace2.flinders.edu.au/xmlui/handle/2328/27165" ns0:type="simple">http://dspace2.flinders.edu.au/xmlui/handle/2328/27165</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref036">
+<label>36</label>
+<mixed-citation publication-type="other" ns0:type="simple">Powers DM. The problem of Area Under the Curve. In: 2012 IEEE International Conference on Information Science and Technology; 2012. p. 567&#8211;573.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref037">
+<label>37</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Wald</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wolfowitz</surname> <given-names>J</given-names></name>. <article-title>Confidence limits for continuous distribution functions</article-title>. <source>The Annals of Mathematical Statistics</source>. <year>1939</year>;<volume>10</volume>(<issue>2</issue>):<fpage>105</fpage>&#8211;<lpage>118</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1214/aoms/1177732209" ns0:type="simple">10.1214/aoms/1177732209</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref038">
+<label>38</label>
+<mixed-citation publication-type="other" ns0:type="simple">Campilho AJ. [Image Recognition and Automatic Classification of Natural Products] [Doctoral Thesis [Portuguese]]. University of Porto; 1985.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref039">
+<label>39</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>de S&#225;</surname> <given-names>JPM</given-names></name>. <source>Pattern Recognition: Concepts, Methods and Applications</source>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Springer-Verlag</publisher-name>; <year>2001</year>. Available from: <ext-link ext-link-type="uri" ns0:href="http://extras.springer.com/2007/978-3-540-71972-4/DATASETS/Cork%20Stoppers/Cork%20Stoppers.xls" ns0:type="simple">http://extras.springer.com/2007/978-3-540-71972-4/DATASETS/Cork%20Stoppers/Cork%20Stoppers.xls</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref040">
+<label>40</label>
+<mixed-citation publication-type="other" ns0:type="simple">US Centers for Disease Control and Prevention. National Health and Nutrition Examination Survey; 2017. Available from: <ext-link ext-link-type="uri" ns0:href="http://www.cdc.gov/nchs/nhanes.htm" ns0:type="simple">http://www.cdc.gov/nchs/nhanes.htm</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0221433.ref041">
+<label>41</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Tosteson</surname> <given-names>ANA</given-names></name>, <name name-style="western"><surname>Begg</surname> <given-names>CB</given-names></name>. <article-title>A General Regression Methodology for ROC Curve Estimation</article-title>. <source>Medical Decision Making</source>. <year>1988</year>;<volume>8</volume>(<issue>3</issue>):<fpage>204</fpage>&#8211;<lpage>215</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0272989X8800800309" ns0:type="simple">10.1177/0272989X8800800309</ext-link></comment> <object-id pub-id-type="pmid">3294553</object-id></mixed-citation>
+</ref>
+<ref id="pone.0221433.ref042">
+<label>42</label>
+<mixed-citation publication-type="other" ns0:type="simple">deCastro BR. %cumRoc3&#8212;Cumulative ROC curve analysis of three-level ordinal outcomes, v1.0.1. 2019.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221433.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221433.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Parolari</surname>
+<given-names>Alessandro</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Alessandro Parolari</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221433" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-14500</p>
+<p>Cumulative ROC curves for discriminating three or more ordinal outcomes with cutpoints on a shared continuous measurement scale</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. deCastro,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 18 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Alessandro Parolari, MD, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p><bold>Journal Requirements:</bold></p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The paper is well written, even if the subject is rather complex. The methodology is sound and the conclusions are in line with the results obtained. I have a few minor comments and modifications to suggest:</p>
+<p>1. Line 192: it would be helpful to specify on which base (arbitrary or objective?) the three quality levels for the cork stoppers were established.</p>
+<p>2. The discussion of the simulations is not deep enough (lines 268-274). For instance, the author should discuss the contrasting results of NPO1 and NPO2 (tables 4), where a substantial under- or over-estimation of the parameters occurr .</p>
+<p>3. the Discussion includes some methodological specification that should be moved to a previous section: for example, 321-327 should be moved before the &#8216;Simulations&#8217; section.</p>
+<p>4. The same for the last two sentences of the Conclusions, which contain methodological specifications</p>
+<p>Reviewer #2: I read with interest the manuscript. It's a very statistical summary of the employment of cumulative ROC curves for discriminating ordinal outcomes. I have no major comment</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221433.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221433.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221433" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221433.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">11 Jul 2019</named-content>
+</p>
+<p>Please see uploaded PONE-D-19-14500_R1_Response to Reviewers.pdf</p>
+<supplementary-material id="pone.0221433.s004" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0221433.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">PONE-D-19-14500_R1_Response to Reviewers.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221433.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221433.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Parolari</surname>
+<given-names>Alessandro</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Alessandro Parolari</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221433" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">7 Aug 2019</named-content>
+</p>
+<p>Cumulative ROC curves for discriminating three or more ordinal outcomes with cutpoints on a shared continuous measurement scale</p>
+<p>PONE-D-19-14500R1</p>
+<p>Dear Dr. deCastro,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Alessandro Parolari, MD, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221433.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221433.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Parolari</surname>
+<given-names>Alessandro</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Alessandro Parolari</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221433" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-14918R1 </p>
+<p>Cumulative ROC curves for discriminating three or more ordinal outcomes with cutpoints on a shared continuous measurement scale </p>
+<p>Dear Dr. deCastro:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr Alessandro Parolari  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

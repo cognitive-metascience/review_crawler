@@ -1,0 +1,1233 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-21474</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pulmonology</subject><subj-group><subject>Bronchitis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Management engineering</subject><subj-group><subject>Risk management</subject><subj-group><subject>Insurance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>North America</subject><subj-group><subject>United States</subject><subj-group><subject>Florida</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Drug abuse</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Drug abuse</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Critical care and emergency medicine</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Economics</subject><subj-group><subject>Health economics</subject><subj-group><subject>Health insurance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Health economics</subject><subj-group><subject>Health insurance</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Clinical correlates of workplace injury occurrence and recurrence in adults</article-title>
+<alt-title alt-title-type="running-head">Clinical correlates of workplace injury</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-4062-0867</contrib-id>
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Zhaoyi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Prosperi</surname>
+<given-names>Mattia</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Bian</surname>
+<given-names>Jiang</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4112-9583</contrib-id>
+<name name-style="western">
+<surname>Min</surname>
+<given-names>Jae</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Mo</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Chang</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Epidemiology, University of Florida, Gainesville, Florida, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Health Outcomes and Biomedical Informatics, University of Florida, Gainesville, Florida, United States of America</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Management, University of Florida, Gainesville, Florida, United States of America</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>School of Business Administration, Zhejiang Gongshang University, Hangzhou, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Kou</surname>
+<given-names>Yu Ru</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>National Yang-Ming University, TAIWAN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">lichang@zjgsu.edu.cn</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222603</elocation-id>
+<history>
+<date date-type="received">
+<day>30</day>
+<month>7</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Chen et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222603" />
+<abstract>
+<sec id="sec001">
+<title>Objectives</title>
+<p>To examine the morbidities associated with workplace injury and to explore how clinical variables modify the risk of injury recurrence.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>A case-control study was designed using Florida&#8217;s statewide inpatient, outpatient, and emergency visits data obtained from the Healthcare Cost and Utilization Project. We included adults who were admitted for a workplace injury (WPI) or injury at other places (IOP), and a matched population of random controls without WPI/IOP. The associations between WPI and clinical morbidities were assessed by univariate and multivariable regression, ranking predictors by information gain, area under the receiver operating characteristic (AUROC), and odds ratios. We analyzed WPI recurrence using survival methods (Kaplan-Meier, Cox regression, survival decision trees) and developed prediction models via regularized logistic regression, random forest, and AdTree. Performance was assessed by 10-fold cross-validation comparing AUROC, sensitivity, specificity, and Harrell&#8217;s c-index.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>A total of 80,712 WPI, 161,424 IOP, and 161,424 control patients were included; 485 distinct clinical diagnostic and 160 procedure codes were analyzed after filtering. Acute bronchitis and bronchiolitis, sprains and strains of shoulder and upper arm, ankle and foot, or other and unspecified parts of back, accidents caused by cutting and piercing instruments or objects, and overexertion and strenuous movements were identified as important consequences of WPI. The prediction models of injury recurrence identified several key factors, such as insurance type and prior injury events, although none of the models exhibited high predictive performance (best AUROC = 0.60, best c-index = 0.62).</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>WPI is associated to diverse serious physical comorbidity burden. There are demographic, social and clinical comorbidity components associated to the risk of WPI recurrence, although their predictive value is moderate, which warrants future investigation in other information source domains, e.g. deepening into the environmental and societal sphere.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>This work was supported by the grant UL1TR001427 and UL1TR002389 from NIH-NCATS, by the University of Florida (UF) One Health Center, and by UF &#8220;Creating the Healthiest Generation&#8221; Moonshot initiative, which is supported by the UF Office of the Provost, UF Office of Research, UF Health, UF College of Medicine and UF Clinical and Translational Science Institute. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2" />
+<table-count count="6" />
+<page-count count="10" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The data used in this study are available for purchase from the Healthcare Cost and Utilization Project (<ext-link ext-link-type="uri" ns0:href="https://www.hcup-us.ahrq.gov/" ns0:type="simple">https://www.hcup-us.ahrq.gov/</ext-link>) after completion of requirement trainings and data use agreement.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Workplace injury is a public health concern. According to the United States&#8217; Bureau of Labor Statistics, in 2016 in there were approximately 2.9 million nonfatal workplace injuries and illnesses reported by private industry employers; additionally, the number of fatal injuries was more than 5,000 [<xref ref-type="bibr" rid="pone.0222603.ref001">1</xref>]. Although the overall rates of workplace injuries have been steadily decreasing in the U.S. in the past decade, they still pose a substantial economic burden. It is estimated that nonfatal workplace injuries cost nearly $60 billion each year in direct compensation [<xref ref-type="bibr" rid="pone.0222603.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0222603.ref003">3</xref>].</p>
+<p>Individual consequences from workplace injuries lead to substantial personal life and public health burden. Previous studies have shown how occupational injuries are associated with increased medical care encounters and health insurance claims. Workplace injuries often entail a variety of psychological and behavioral responses, including stress, reluctance of return to work, and other personal and social afflictions [<xref ref-type="bibr" rid="pone.0222603.ref004">4</xref>].</p>
+<p>Recently, the National Institute for Occupational Safety and Health suggested a framework for assessing workplace injury burden, which includes four main approaches: (1) utilizing multiple information source domains; (2) taking a broader view of injuries and related diseases; (3) assessing the impact of the entire working-life continuum; and (4) applying the comprehensive concept of &#8220;well-being&#8221; [<xref ref-type="bibr" rid="pone.0222603.ref005">5</xref>]. Following this framework, we aimed to examine the short-term and long-term consequences of workplace injury, collating information from the socio-demographic and clinical domains, using a large state-wide healthcare database of the US State of Florida. The overarching goal was to investigate which clinical consequences are associated with workplace injury and to explore how sociodemographic and clinical variables modify the risk of injury recurrence.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<p>This study was evaluated by the University of Florida&#8217;s institutional review board as exempt (protocol no. IRB201701906).</p>
+<p>The Healthcare Cost and Utilization Project (HCUP)&#8217;s State Inpatient Databases (SID), State Ambulatory Surgery and Services Databases (SASD), and State Emergency Department Databases (SEDD) for the state of Florida, US between 2005 and 2014 were utilized [<xref ref-type="bibr" rid="pone.0222603.ref006">6</xref>]. The SID, SASD and SEDD contain anonymized, longitudinally-linked inpatient, outpatient, and emergency room visits data, including patients&#8217; demographics, insurance, diagnoses, and procedures for each hospital visit. Between 2005 and 2014, diagnoses and procedures have been encoded using the International Classification of Diseases version 9 (ICD-9) ontology.</p>
+<p>Our study included patients aged 18 years and older with at least three years of medical records prior to baseline and with at least five years of follow-up. The rationale behind exclusion of individuals younger than 18 came from US federal and Florida state laws that regulate the employability of minors and the maximum number of working hours per week. The lengths of prior medical history and of follow up were chosen to assure stability in the areas of residence as well as detailed characterization of health statuses before and after injuries. Workplace injury (WPI) was defined by ICD-9 diagnostic code E846, E849.1, E849.2, and E849.3. There were two comparison groups in our analysis: (1) those who had injuries at other place (IOP) were defined as any with diagnoses codes E849.0 to E849.9 (except E849.1, E849.2, or E849.3) and (2) a group of patients without any injuries who met the inclusion criteria as random controls. As long as a patient had one WPI, it was assigned to the WPI group; but if any IOP occurred before, it was accounted for. If one subject had more than WPI, the first one recorded in the data base was used to set the baseline date, while the others would count as recurrence (unless they were readmissions, see below). The two comparison groups were extracted in a 2:1 ratio with the WPI sample and were matched on the distribution of diagnostic years.</p>
+<p>The observation unit of this study was the individual patient. For each patient, we associated their diagnoses and procedures recorded before the baseline or during the follow-up using three-digit ICD-9 codes. We also calculated the Charlson&#8217;s comorbidity index (CCI)[<xref ref-type="bibr" rid="pone.0222603.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0222603.ref008">8</xref>] before and after WPI/IOP or the matching date for random controls. Socio-demographic variables included race/ethnicity, insurance status, and area deprivation index [<xref ref-type="bibr" rid="pone.0222603.ref009">9</xref>] associated with the ZIP code of residence at baseline. Diagnostic codes and procedures recorded in less than 2.5% of the WPI group were removed.</p>
+<p>To explore the health consequences of WPI, we examined the association between injury status and clinical comorbidities by multivariable logistic regression, with WPI status as independent variable and each of ICD-9 codes as dependent variable after the occurrence of WPI/IOP, i.e. up to 999 for standard ICD-9 codes and 290 for supplemental V&amp;E code. The models were adjusted by age, gender, race, insurance, CCI, and status of the corresponding ICD-9 code prior to the occurrence of WPI/IOP. After fitting all multivariate logistic models, we ranked separately: (a) adjusted odds ratios (OR) of injury status variable, (b) information gain, and (c) area under the receiver operating characteristic (AUROC) of each model. Specifically, the OR measures quantifies the strength of the association (increased occurrence) between two variables. The information gain measures reduction in entropy of one variable by knowing another variable; thus, the less information is lost, the higher the quality of that variable. The AUROC measures the discriminatory power of a variable or model. We then combined these three measurements to create a more robust index to identify importance of health consequences [<xref ref-type="bibr" rid="pone.0222603.ref010">10</xref>].</p>
+<p>Finally, we built predictive models for injury recurrence in the WPI group using prior information. WPI recurrence was defined as any WPI diagnosis recorded at least 30 days after the first WPI diagnosis. We decided to use such time window because a WPI diagnosis within the time window could have been a readmission for the same injury. In fact, the Centers for Medicare &amp; Medicaid Services (CMS) define a hospital readmission as &#8220;an admission to an acute care hospital within 30 days of discharge from the same or another acute care hospital.&#8221; Logistic regression with least absolute shrinkage and selection operator (LASSO) regularization, random forest, and AdTree methods were used to predict whether a patient would ever have an injury recurrence (ignoring time-to-event and censoring). Then, survival models (accounting for time-to-event and right censoring) were fit, namely a Cox regression with stepwise selection and a survival tree with log-rank split. Performance was assessed via 10-fold cross-validation, comparing AUROC, sensitivity and specificity, and Harrell&#8217;s c-index. All statistical analyses were conducted using R and its packages, including glmnet, survival, party, ggplot, survminer, RWeka and pROC [<xref ref-type="bibr" rid="pone.0222603.ref011">11</xref>].</p>
+</sec>
+<sec id="sec007" sec-type="results">
+<title>Results</title>
+<p>The 2005&#8211;2014 HCUP SID/SASD/SEDD for the State of Florida, after data merging and cleaning, contained a total of 21,091,289 distinct patients. There were 80,712 patients who experienced at least one WPI, 161,424 with IOP, and 161,424 random controls. Among WPI, the vast majority had the ICD code of E849.3 accidents occurring in industrial places and premises (79,564, 98.58%), while the frequency of mine and quarry accidents (E849.2) farm accidents, (E849.1), and accidents involving powered vehicles used solely within the buildings and premises of industrial or commercial establishment (E846), which are not explicitly WPI&#8211;but could be related&#8211;were 327 (0.41%), 729 (0.90%), and 92 (0.11%), respectively. Among the IOP, the most common ICD codes were: E849.0 home accidents (84,147, 52.13%), E849.7 Accidents occurring in residential institution (39,491, 24.46%), and E849.5 Street and highway accidents (26.832, 16.62%).</p>
+<p>A total of 485 unique three-digit ICD-9 diagnostic codes and 160 ICD-9 procedure codes were identified (all above 2.5% frequency in the WPI group). <bold><xref ref-type="table" rid="pone.0222603.t001">Table 1</xref> </bold>displays population characteristics stratified by outcome group. There was a higher proportion of males, Black African American and Hispanic ethnicity in the WPI group as compared to IOP group. The proportion of Hispanics was also higher in the WPI group than in the random controls. The patients in the WPI group had a median age of 37 and a median CCI of 0; they were younger and had fewer comorbidities than the IOP group (median age 56 and median CCI 1), while the random controls had a comparable median age of 57 and a median CCI of 0. The WPI group had substantially higher proportion of self-payers (and insurance types other than federal or private) as compared to the other two groups. The patients in the WPI group also resided in areas with a median deprivation index higher than that of the other groups (106.3 in WPI vs. 105.1 in IOP and 104.6 in control).</p>
+<table-wrap id="pone.0222603.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t001</object-id>
+<label>Table 1</label> <caption><title>Characteristics of the study population.</title></caption>
+<alternatives>
+<graphic id="pone.0222603.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">&#160;</th>
+<th align="center">Workplace injury</th>
+<th align="center">Injury at other places</th>
+<th align="center">Random controls</th>
+</tr>
+<tr>
+<th align="center" colspan="3"><italic>N (%)</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Total</td>
+<td align="center">80712</td>
+<td align="center">161424</td>
+<td align="center">161424</td>
+</tr>
+<tr>
+<td align="center">Female</td>
+<td align="center">33925 (42.03%)</td>
+<td align="center">90891 (56.3%)</td>
+<td align="center">91960 (57.0%)</td>
+</tr>
+<tr>
+<td align="left">Race</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+</tr>
+<tr>
+<td align="center">White</td>
+<td align="center">47108 (58.4%)</td>
+<td align="center">99818 (61.8%)</td>
+<td align="center">105667 (65.5%)</td>
+</tr>
+<tr>
+<td align="center">Black</td>
+<td align="center">16119 (20.0%)</td>
+<td align="center">28942 (17.9%)</td>
+<td align="center">35623 (22.1%)</td>
+</tr>
+<tr>
+<td align="center">Hispanic</td>
+<td align="center">14782 (18.3%)</td>
+<td align="center">27890 (17.3%)</td>
+<td align="center">14518 (9.0%)</td>
+</tr>
+<tr>
+<td align="center">Asian or Pacific Islander</td>
+<td align="center">586 (0.7%)</td>
+<td align="center">927 (0.6%)</td>
+<td align="center">1385 (0.9%)</td>
+</tr>
+<tr>
+<td align="center">Native American</td>
+<td align="center">135 (0.2%)</td>
+<td align="center">230 (0.1%)</td>
+<td align="center">171 (0.1%)</td>
+</tr>
+<tr>
+<td align="center">Other</td>
+<td align="center">1982 (2.5%)</td>
+<td align="center">3617 (2.2%)</td>
+<td align="center">4060 (2.5%)</td>
+</tr>
+<tr>
+<td align="left">Insurance</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+</tr>
+<tr>
+<td align="center">Medicaid</td>
+<td align="center">4595 (5.7%)</td>
+<td align="center">79547 (49.3%)</td>
+<td align="center">70858 (43.9%)</td>
+</tr>
+<tr>
+<td align="center">Medicare</td>
+<td align="center">6598 (8.2%)</td>
+<td align="center">16073 (10.0%)</td>
+<td align="center">16081 (10.0%)</td>
+</tr>
+<tr>
+<td align="center">Private</td>
+<td align="center">12653 (15.7%)</td>
+<td align="center">41549 (25.7%)</td>
+<td align="center">48444 (30.0%)</td>
+</tr>
+<tr>
+<td align="center">Self-pay</td>
+<td align="center"><bold>18068 (22.4%)</bold></td>
+<td align="center">14315 (8.9%)</td>
+<td align="center">12965 (8.0%)</td>
+</tr>
+<tr>
+<td align="center">No charge</td>
+<td align="center">1099 (1.4%)</td>
+<td align="center">2865 (1.8%)</td>
+<td align="center">4886 (3.0%)</td>
+</tr>
+<tr>
+<td align="center">Other</td>
+<td align="center"><bold>37692 (46.7%)</bold></td>
+<td align="center">7065 (4.4%)</td>
+<td align="center">7183 (4.5%)</td>
+</tr>
+<tr>
+<td align="center">Missing</td>
+<td align="center">7 (0.01%)</td>
+<td align="center">21 (0.01%)</td>
+<td align="center">1007 (0.6%)</td>
+</tr>
+<tr>
+<td align="center">Most frequent residence area (zipcode)</td>
+<td align="center">Broward County (33311) (1.0%)</td>
+<td align="center">Jacksonville (33209) (1.0%)</td>
+<td align="center">Jacksonville (32209) (6.1%)</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center" colspan="3"><italic>median (IQR)</italic></td>
+</tr>
+<tr>
+<td align="center">Age</td>
+<td align="center">37 (26, 47)</td>
+<td align="center">56 (39, 71)</td>
+<td align="center">57 (41, 68)</td>
+</tr>
+<tr>
+<td align="center">Years of prior medical history available</td>
+<td align="center">4 (4, 7)</td>
+<td align="center">5 (4, 7)</td>
+<td align="center">6 (4, 7)</td>
+</tr>
+<tr>
+<td align="center">Charlson&#8217;s comorbidity index</td>
+<td align="center">0 (0, 1)</td>
+<td align="center">1 (0, 3)</td>
+<td align="center">0 (0, 1)</td>
+</tr>
+<tr>
+<td align="center">Area deprivation index</td>
+<td align="center">106.3 (101.1, 109.8)</td>
+<td align="center">105.1 (98.8, 109.2)</td>
+<td align="center">104.6 (99.2, 108.4)</td>
+</tr>
+<tr>
+<td align="center">Year of diagnosis</td>
+<td align="center">2012 (2010, 2013)</td>
+<td align="center">2013 (2011, 2014)</td>
+<td align="center">2012 (2010, 2013)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Among the WPI patients, the most common diagnosis prior to baseline was non-dependent drug abuse (ICD-9 code 305), followed by symptoms involving respiratory system and other chest symptoms (786), and essential hypertension (401). The most frequent post- WPI diagnoses were essential hypertension (401), non-dependent drug abuse (305), and general symptoms (780), as shown in <bold><xref ref-type="table" rid="pone.0222603.t002">Table 2</xref></bold>.</p>
+<table-wrap id="pone.0222603.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t002</object-id>
+<label>Table 2</label> <caption><title>Top-10 most frequent diagnosis in cases (before/after diagnosis).</title></caption>
+<alternatives>
+<graphic id="pone.0222603.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">&#160;</th>
+<th align="center">workplace injury</th>
+<th align="center">other injury</th>
+<th align="center">random control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><italic>Top-frequency diagnoses before injury</italic></td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+</tr>
+<tr>
+<td align="center">(401) Essential hypertension</td>
+<td align="center">27.9%</td>
+<td align="center">59.5%</td>
+<td align="center">50.7%</td>
+</tr>
+<tr>
+<td align="center">(780) General symptoms</td>
+<td align="center">26.6%</td>
+<td align="center">41.1%</td>
+<td align="center">26.9%</td>
+</tr>
+<tr>
+<td align="center">(272) Disorders of lipoid metabolism</td>
+<td align="center">13.9%</td>
+<td align="center">40.0%</td>
+<td align="center">33.6%</td>
+</tr>
+<tr>
+<td align="center">(786) Symptoms involving respiratory system and other chest symptoms</td>
+<td align="center">31.5%</td>
+<td align="center">38.0%</td>
+<td align="center">29.3%</td>
+</tr>
+<tr>
+<td align="center">(276) Disorders of fluid, electrolyte, and acid-base balance</td>
+<td align="center">13.7%</td>
+<td align="center">36.4%</td>
+<td align="center">22.9%</td>
+</tr>
+<tr>
+<td align="center">(305) Nondependent abuse of drugs</td>
+<td align="center">32.7%</td>
+<td align="center">31.1%</td>
+<td align="center">23.1%</td>
+</tr>
+<tr>
+<td align="center">(789) Other symptoms involving abdomen and pelvis</td>
+<td align="center">28.3%</td>
+<td align="center">30.5%</td>
+<td align="center">25.7%</td>
+</tr>
+<tr>
+<td align="center">(530) Diseases of esophagus</td>
+<td align="center">14.8%</td>
+<td align="center">32.2%</td>
+<td align="center">25.8%</td>
+</tr>
+<tr>
+<td align="left">Most frequent injury code (%)</td>
+<td align="center">E849.3 (98.6)</td>
+<td align="center">E849.5 (16.6)</td>
+<td align="center">n/a</td>
+</tr>
+<tr>
+<td align="left"><italic>Top-frequency diagnoses after injury</italic></td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+<td align="center">&#160;</td>
+</tr>
+<tr>
+<td align="center">(401) Essential hypertension</td>
+<td align="center">25.1%</td>
+<td align="center">43.9%</td>
+<td align="center">34.2%</td>
+</tr>
+<tr>
+<td align="center">(V58.6) Long-term (current) drug use</td>
+<td align="center">14.7%</td>
+<td align="center">30.1%</td>
+<td align="center">22.8%</td>
+</tr>
+<tr>
+<td align="center">(272) Disorders of lipoid metabolism</td>
+<td align="center">12.6%</td>
+<td align="center">29.6%</td>
+<td align="center">22.7%</td>
+</tr>
+<tr>
+<td align="center">(276) Disorders of fluid, electrolyte, and acid-base balance</td>
+<td align="center">11.2%</td>
+<td align="center">28.9%</td>
+<td align="center">17.1%</td>
+</tr>
+<tr>
+<td align="center">(780) General symptoms</td>
+<td align="center">17.6%</td>
+<td align="center">27.0%</td>
+<td align="center">16.3%</td>
+</tr>
+<tr>
+<td align="center">(305) Nondependent abuse of drugs</td>
+<td align="center">23.5%</td>
+<td align="center">19.7%</td>
+<td align="center">13.7%</td>
+</tr>
+<tr>
+<td align="center">(786) Symptoms involving respiratory system and other chest symptoms</td>
+<td align="center">19.8%</td>
+<td align="center">21.9%</td>
+<td align="center">15.9%</td>
+</tr>
+<tr>
+<td align="center">(724) Other and unspecified disorders of back</td>
+<td align="center">17.3%</td>
+<td align="center">16.2%</td>
+<td align="center">10.7%</td>
+</tr>
+<tr>
+<td align="center">(789) Other symptoms involving abdomen and pelvis</td>
+<td align="center">17.3%</td>
+<td align="center">16.7%</td>
+<td align="center">12.9%</td>
+</tr>
+<tr>
+<td align="center">(530) Diseases of esophagus</td>
+<td align="center">11.9%</td>
+<td align="center">22.8%</td>
+<td align="center">16.7%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>When analyzing deaths, the Kaplan-Meier estimate yielded a four-year survival probability of 85.8% for the WPI group, 93.8% for the IOP group, and 98.2% for the control groups (<bold><xref ref-type="fig" rid="pone.0222603.g001">Fig 1</xref></bold>).</p>
+<p>Next, we assessed the health consequences of WPI by evaluating the clinical diagnoses made after the injury (or after the corresponding baseline time for the random controls). After Bonferroni adjustment, at significance level of 0.05, a total of 166 variables were identified comparing WPI vs. IOP, and 176 variables for WPI vs. random controls. <bold><xref ref-type="fig" rid="pone.0222603.g002">Fig 2</xref> </bold>shows the top-20 ICD-9 codes identified by merging the three distinct measurements of information gain, AUROC, and odds ratio (as absolute regression coefficient in the linear scale). <bold><xref ref-type="table" rid="pone.0222603.t003">Table 3</xref> </bold>further displays in details the ranking values and confidence intervals for the top variables found in each comparison group that were selected by at least two ranking methods, highlighting those that were more frequently associated to the WPI.</p>
+<fig id="pone.0222603.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Survival probability (event = death) in the WPI, IOP and random control groups.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.g001" ns0:type="simple" />
+</fig>
+<fig id="pone.0222603.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Venn diagram showing the top-ranked (by AUROC, information gain and odds ratio) ICD-9 codes (i.e. clinical diagnoses) found comparing the WPI vs. IOP group and the WPI vs. random controls.</title>
+<p>Variables in boldface represent higher frequency in the WPI group.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.g002" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222603.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t003</object-id>
+<label>Table 3</label> <caption><title>Health consequences differentially associated among WPI, IOP and random controls.</title> <p>Variable are ranked on the basis of combined AUROC, information gain, and odds ratio (OR). ORs are indicated along with their 95% confidence intervals (CI).</p></caption>
+<alternatives>
+<graphic id="pone.0222603.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center" />
+<th align="center">vs. injury</th>
+<th align="center" />
+<th align="center" />
+<th align="center">vs. control</th>
+<th align="center" />
+<th align="center" />
+</tr>
+<tr>
+<th align="center">ICD9 code</th>
+<th align="center">condition</th>
+<th align="center">information gain</th>
+<th align="center">AUROC</th>
+<th align="center">OR (95% CI)</th>
+<th align="center">information gain</th>
+<th align="center">AUROC</th>
+<th align="center">OR (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">263</td>
+<td align="center">Other and unspecified protein-calorie malnutrition</td>
+<td align="center">85340.41</td>
+<td align="center">0.640</td>
+<td align="center">0.985 (0.982, 0.988)</td>
+<td align="center">85340.41</td>
+<td align="center">0.620</td>
+<td align="center">0.990 (0.987, 0.993)</td>
+</tr>
+<tr>
+<td align="center">275</td>
+<td align="center">Disorders of mineral metabolism</td>
+<td align="center">85231.76</td>
+<td align="center">0.608</td>
+<td align="center">0.982 (0.978, 0.987)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">285</td>
+<td align="center">Other and unspecified anemias</td>
+<td align="center">85241.44</td>
+<td align="center">0.633</td>
+<td align="center">0.971 (0.965, 0.977)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">348</td>
+<td align="center">Other conditions of brain</td>
+<td align="center">85236.02</td>
+<td align="center">0.642</td>
+<td align="center">0.985 (0.982, 0.989)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center"><bold>466</bold></td>
+<td align="center"><bold>Acute bronchitis and bronchiolitis</bold></td>
+<td align="center"><bold>85216.51</bold></td>
+<td align="center"><bold>0.526</bold></td>
+<td align="center"><bold>1.022 (1.018, 1.027)</bold></td>
+<td align="center"><bold>95416.88</bold></td>
+<td align="center"><bold>0.534</bold></td>
+<td align="center"><bold>1.022 (1.018, 1.027)</bold></td>
+</tr>
+<tr>
+<td align="center">518</td>
+<td align="center">Other diseases of lung</td>
+<td align="center">85222.22</td>
+<td align="center">0.629</td>
+<td align="center">0.980 (0.975, 0.985)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">584</td>
+<td align="center">Acute kidney failure</td>
+<td align="center">85241.07</td>
+<td align="center">0.634</td>
+<td align="center">0.983 (0.978, 0.987)</td>
+<td align="center">95463.24</td>
+<td align="center">0.617</td>
+<td align="center">0.983 (0.978, 0.987)</td>
+</tr>
+<tr>
+<td align="center"><bold>840</bold></td>
+<td align="center"><bold>Sprains and strains of shoulder and upper arm</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center"><bold>95428.93</bold></td>
+<td align="center"><bold>0.593</bold></td>
+<td align="center"><bold>1.026 (1.022, 1.029)</bold></td>
+</tr>
+<tr>
+<td align="center"><bold>845</bold></td>
+<td align="center"><bold>Sprains and strains of ankle and foot</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center"><bold>95428.29</bold></td>
+<td align="center"><bold>0.580</bold></td>
+<td align="center"><bold>1.024 (1.021, 1.028)</bold></td>
+</tr>
+<tr>
+<td align="center"><bold>847</bold></td>
+<td align="center"><bold>Sprains and strains of other and unspecified parts of back</bold></td>
+<td align="center"><bold>85236.47</bold></td>
+<td align="center"><bold>0.588</bold></td>
+<td align="center"><bold>1.066 (1.060, 1.071)</bold></td>
+<td align="center"><bold>95405.80</bold></td>
+<td align="center"><bold>0.597</bold></td>
+<td align="center"><bold>1.066 (1.060, 1.071)</bold></td>
+</tr>
+<tr>
+<td align="center"><bold>E920</bold></td>
+<td align="center"><bold>Accidents caused by cutting and piercing instruments or objects</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center"><bold>95429.22</bold></td>
+<td align="center"><bold>0.604</bold></td>
+<td align="center"><bold>1.028 (1.025, 1.032)</bold></td>
+</tr>
+<tr>
+<td align="center"><bold>E927</bold></td>
+<td align="center"><bold>Overexertion and strenuous movements</bold></td>
+<td align="center"><bold>85176.63</bold></td>
+<td align="center"><bold>0.617</bold></td>
+<td align="center"><bold>1.068 (1.063, 1.072)</bold></td>
+<td align="center"><bold>95320.26</bold></td>
+<td align="center"><bold>0.625</bold></td>
+<td align="center"><bold>1.068 (1.063, 1.072)</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>When analyzing injury recurrence, the Kaplan-Meier estimate yielded the injury recurrence probability of 66.6% at the second year, 44.4% at the third year, and 13.4% at the fourth year for the WPI group.</p>
+<p>The predictive models for injury occurrence exhibited moderate performance. The &#8216;ever recurrence&#8217; models yielded a cross-validated AUROC between 0.57 and 0.60 (<bold><xref ref-type="table" rid="pone.0222603.t004">Table 4</xref></bold>), while the survival models yielded a cross-validated c-index between 0.55 and 0.62 (<bold><xref ref-type="table" rid="pone.0222603.t005">Table 5</xref></bold>). Overall, the Cox regression with stepwise selection exhibited the highest AUROC, and the variables of this model along with their hazard ratios (HRs) are listed in <bold><xref ref-type="table" rid="pone.0222603.t006">Table 6</xref></bold>.</p>
+<table-wrap id="pone.0222603.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t004</object-id>
+<label>Table 4</label> <caption><title>Comparison of model fits (by 10-fold cross-validation) to predict the injury recurrence (at any time point after, ignoring time-to-event and censoring).</title></caption>
+<alternatives>
+<graphic id="pone.0222603.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Model</th>
+<th align="center">AUC (95% CI)</th>
+<th align="center">sensitivity</th>
+<th align="center">specificity</th>
+<th align="center">cutoff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Logistic Regression with LASSO</td>
+<td align="center">0.606 (0.597, 0.615)</td>
+<td align="center">0.57</td>
+<td align="center">0.57</td>
+<td align="center">0.05</td>
+</tr>
+<tr>
+<td align="center">Random Forest</td>
+<td align="center">0.576 (0.566, 0.585)</td>
+<td align="center">0.55</td>
+<td align="center">0.56</td>
+<td align="center">0.05</td>
+</tr>
+<tr>
+<td align="center">ADTree</td>
+<td align="center">0.600 (0.591, 0.606)</td>
+<td align="center">0.55</td>
+<td align="center">0.58</td>
+<td align="center">0.18</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0222603.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t005</object-id>
+<label>Table 5</label> <caption><title>Comparison of model fits (by 10-fold cross-validation) to predict the injury recurrence using survival time-to-event and censoring set-up.</title></caption>
+<alternatives>
+<graphic id="pone.0222603.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t005" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Model</th>
+<th align="center">Year</th>
+<th align="center">AUC</th>
+<th align="center">c-index (SE)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="3">Survival tree</td>
+<td align="center">1</td>
+<td align="center">0.542</td>
+<td align="center" rowspan="3">0.55 (0.002)</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">0.546</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">0.552</td>
+</tr>
+<tr>
+<td align="center" rowspan="3">Cox regression<break />(stepwise selection)</td>
+<td align="center">1</td>
+<td align="center">0.599</td>
+<td align="center" rowspan="3">0.62 (0.005)</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">0.600</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">0.605</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0222603.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222603.t006</object-id>
+<label>Table 6</label> <caption><title>Predictors of WPI recurrence as selected by stepwise Cox regression.</title></caption>
+<alternatives>
+<graphic id="pone.0222603.t006g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222603.t006" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">variable</th>
+<th align="center">HR (95% CI)</th>
+<th align="center">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">age</td>
+<td align="center">0.99 (0.98, 0.99)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">insurance</td>
+<td align="center">1.15 (1.12, 1.17)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">female</td>
+<td align="center">0.75 (0.70, 0.80)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">(E927) Overexertion and strenuous movements</td>
+<td align="center">1.28 (1.18, 1.39)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">(959) Injury other and unspecified</td>
+<td align="center">1.26 (1.14, 1.40)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">(E917) Striking against or struck accidentally by objects or persons</td>
+<td align="center">1.20 (1.10, 1.32)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="center">(E920) Accidents caused by cutting and piercing instruments or objects</td>
+<td align="center">1.19 (1.09, 1.31)</td>
+<td align="center">0.0002</td>
+</tr>
+<tr>
+<td align="center">(36.07) Insertion of Drug-Eluting Coronary Artery Stent(s)</td>
+<td align="center">0.35 (0.20, 0.61)</td>
+<td align="center">0.0002</td>
+</tr>
+<tr>
+<td align="center">(729) Other disorders of soft tissues</td>
+<td align="center">1.14 (1.05, 1.24)</td>
+<td align="center">0.0020</td>
+</tr>
+<tr>
+<td align="center">(E000) External cause status</td>
+<td align="center">1.31 (1.13, 1.52)</td>
+<td align="center">0.0004</td>
+</tr>
+<tr>
+<td align="center">(558) Other and unspecified noninfectious gastroenteritis and colitis</td>
+<td align="center">1.21 (1.08, 1.35)</td>
+<td align="center">0.0007</td>
+</tr>
+<tr>
+<td align="center">(416) Chronic pulmonary heart disease</td>
+<td align="center">0.33 (0.15, 0.74)</td>
+<td align="center">0.0068</td>
+</tr>
+<tr>
+<td align="center">(786) Symptoms involving respiratory system and other chest symptoms</td>
+<td align="center">1.13 (1.05, 1.21)</td>
+<td align="center">0.0009</td>
+</tr>
+<tr>
+<td align="center">(99.38) Administration of Tetanus Toxoid</td>
+<td align="center">1.29 (1.10, 1.52)</td>
+<td align="center">0.0023</td>
+</tr>
+<tr>
+<td align="center">(654) Abnormality of organs and soft tissues of pelvis</td>
+<td align="center">0.65 (0.50, 0.85)</td>
+<td align="center">0.0016</td>
+</tr>
+<tr>
+<td align="center">(E916) Struck accidentally by falling object</td>
+<td align="center">1.27 (1.09, 1.49)</td>
+<td align="center">0.0011</td>
+</tr>
+<tr>
+<td align="center">(81.92) Injection of Therapeutic Substance into Joint, or Ligament</td>
+<td align="center">1.68 (1.23, 2.30)</td>
+<td align="center">0.0027</td>
+</tr>
+<tr>
+<td align="center">(E906) Other injury caused by animals</td>
+<td align="center">1.23 (1.08, 1.42)</td>
+<td align="center">0.0075</td>
+</tr>
+<tr>
+<td align="center">(593) Other disorders of kidney and ureter</td>
+<td align="center">0.71 (0.55, 0.91)</td>
+<td align="center">0.0024</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec008" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this work, we investigated the health consequences associated with WPI and explored factors that may predict future recurrence of WPI in a large longitudinal statewide data set.</p>
+<p>We found that WPI group showed higher proportions of people from Black African American and Hispanic ancestry, male, younger, who lived in areas with a higher deprivation index. The WPI group also included higher proportions of self-payers other than federal or private insurance. These findings were consistent with previous reports from national surveys in the U.S. [<xref ref-type="bibr" rid="pone.0222603.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0222603.ref013">13</xref>].</p>
+<p>The WPI group had the worse survival probability, after adjusting for age, compared to IOP and random controls; this confirms prior findings [<xref ref-type="bibr" rid="pone.0222603.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0222603.ref015">15</xref>]. In this population, the three-year survival rate in WPI is 85.8%. We reckon that patients in IOP and WPI have different age distribution because of the employment ages. Although we had not matched ages in the design, we included only adult individuals; yet, there might be still a difference due to younger&#8211;not yet employed&#8211;adults and older&#8211;retired&#8211;adults.</p>
+<p>In addition to higher mortality, people in the WPI group were also associated with higher risk of physical health morbidity. We used a robust framework to determine the importance of clinical consequences by combining three distinct measurements obtained from regression models. Compared against both IOP and random control groups, patients suffering WPI were more likely to be admitted into care, after injury, for acute bronchitis and bronchiolitis (ICD-9: 466), sprains and strains of other and unspecified parts of back (ICD-9: 847), and overexertion and strenuous movements (ICD-9: E927). In addition to these conditions, when compared with random controls, the WPI group had higher odds of having sprains and strains at other body parts such as shoulder and upper arm (ICD-9: 840), and ankle and foot (ICD-9: 847). Our observations are consistent with prior findings that show how WPI lead to physical injuries [<xref ref-type="bibr" rid="pone.0222603.ref016">16</xref>]. Also, studies have reported that occupational exposure to various substances such as silica dust, gas, and fumes is related with the occurrence of chronic obstructive pulmonary disease (COPD) and related illnesses in the spectrum, as chronic bronchitis [<xref ref-type="bibr" rid="pone.0222603.ref017">17</xref>&#8211;<xref ref-type="bibr" rid="pone.0222603.ref019">19</xref>]. It is notable that the known associations are with chronic illness rather than acute, which is instead what we found. There is a number of possible explanations to this: 1) as we analyzed the first WPI and a limited, censored follow up time, a diagnosis of chronic bronchitis might not have been made yet, but recurring attacks of acute bronchitis may lead to chronic bronchitis; 2) our study population included both routine care and acute care, i.e. emergency rooms and urgent care centers, where an attack of bronchitis could be diagnosed as acute even in presence of an underlying condition; 3) possible selection bias, i.e. people with chronic bronchitis would have increased risk to be in care regardless the injury type, but acute episodes are differently distributed.</p>
+<p>It is recognized that re-occurrence of incidents with a similar cause and circumstance in the workplace environment is a public health concern with unacceptable high incidence in the U.S. and worldwide [<xref ref-type="bibr" rid="pone.0222603.ref020">20</xref>]. Both pre-injury and post-injury correlates include social (disparity) determinants as race, and clinical conditions such as mental health disorders and drug dependence (which can be ascertained by prior ICD diagnoses) [<xref ref-type="bibr" rid="pone.0222603.ref021">21</xref>,<xref ref-type="bibr" rid="pone.0222603.ref022">22</xref>]. The Cox regression highlighted a number of conditions that affect the risk of WPI recurrence (<bold><xref ref-type="table" rid="pone.0222603.t006">Table 6</xref></bold>). We identified a number of factors in the sociodemographic and clinical domains (e.g. age, insurance, gender, extant physical injury, chronic pulmonary conditions), but the prediction models did not yield good prediction performance. One of the reasons is that prior clinical history and basic sociodemographics may not be the most informative domains to predict risk of WPI. Other predictors explaining a larger portion of variance could include job type, workplace safety, specific post-WPI work conditions, et cetera, which are not present in the HCUP data base.</p>
+<p>This study has some limitations. First, heterogeneity in WPI was not accounted for in our study, as we used a group of ICD-9 codes to define the WPI group, which included all &#8220;accidents occurring in industrial places and premises&#8221;, mine and quarry accidents, farm accidents, and accidents involving powered vehicles used solely within the buildings and premises of industrial or commercial establishment. These code do not differentiate the types of these industrial places and premises. Different types of industrial places and premises may have different impacts and risks for the future injury occurrence, but such information was not available in the data we used. In addition, mine and quarry accidents, and farm accidents were considered as WPI, while accidents occurring in unspecified place were considered as IOP. These are not &#8216;explicitly&#8217; WPI, so it could introduce potential selection bias to our study; of note, the frequency of such codes was very low. Second, we used only ICD-9 codes for clinical diagnosis and procedures. Although the results of using such taxonomy can be directly applied to other electronic health record systems or similar data bases, if we want to fully understand the mechanics of how the predictors work and how to intervene on the identified predictors, clinical interpretation of these codes is still needed. In addition, in our analysis, short-term consequences and long-term consequences were combined together, i.e. we did not differentiate whether a diagnosis was made shortly after the injury or years after the injury.</p>
+<p>Despite these limitations, we conducted a comprehensive analysis on the health consequences of and survival from workplace injuries, and their recurrence. Since the people&#8217;s demographic and clinical features are responsible for a small portion of total recurrence risk, we reiterate the recommendation of the National Institute for Occupational Safety and Health to examine multiple information domains, especially the social and the ecological determinants, given the important role we found of the racial, health insurance and area deprivation distributions.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222603.ref001"><label>1</label><mixed-citation publication-type="other" ns0:type="simple">Bureau of Labor Statistics USD of L. EMPLOYER-REPORTED WORKPLACE INJURIES AND ILLNESSES-2016 [Internet]. [cited 4 Feb 2019]. Available: <ext-link ext-link-type="uri" ns0:href="http://www.bls.gov/iif" ns0:type="simple">www.bls.gov/iif</ext-link></mixed-citation></ref>
+<ref id="pone.0222603.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Leigh</surname> <given-names>JP</given-names></name>. <article-title>Economic burden of occupational injury and illness in the United States</article-title>. <source>Milbank Q</source>. <year>2011</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1468-0009.2011.00648.x" ns0:type="simple">10.1111/j.1468-0009.2011.00648.x</ext-link></comment> <object-id pub-id-type="pmid">22188353</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref003"><label>3</label><mixed-citation publication-type="other" ns0:type="simple">Liberty Mutual Group. 2017 Liberty Mutual Workplace Safety Index [Internet]. [cited 4 Feb 2019]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.libertymutualgroup.com/about-liberty-mutual-site/news-site/Pages/2017-Liberty-Mutual-Workplace-Safety-Index.aspx" ns0:type="simple">https://www.libertymutualgroup.com/about-liberty-mutual-site/news-site/Pages/2017-Liberty-Mutual-Workplace-Safety-Index.aspx</ext-link></mixed-citation></ref>
+<ref id="pone.0222603.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Shannon</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Mustard</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>McDonough</surname> <given-names>P</given-names></name>. <article-title>Social and economic consequences of workplace injury: A population-based study of workers in British Columbia, Canada</article-title>. <source>Am J Ind Med</source>. <year>2007</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ajim.20503" ns0:type="simple">10.1002/ajim.20503</ext-link></comment> <object-id pub-id-type="pmid">17680640</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schulte</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Pana-Cryan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Schnorr</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Schill</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Guerin</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Felknor</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>An approach to assess the burden of work-related injury, disease, and distress</article-title>. <source>American Journal of Public Health</source>. <year>2017</year>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2105/AJPH.2017.303765" ns0:type="simple">10.2105/AJPH.2017.303765</ext-link></comment> <object-id pub-id-type="pmid">28520495</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref006"><label>6</label><mixed-citation publication-type="other" ns0:type="simple">HCUP-US Home Page [Internet]. [cited 2 Jan 2019]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.hcup-us.ahrq.gov/" ns0:type="simple">https://www.hcup-us.ahrq.gov/</ext-link></mixed-citation></ref>
+<ref id="pone.0222603.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Quan</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sundararajan</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Halfon</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Fong</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Burnand</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Luthi</surname> <given-names>J-C</given-names></name>, <etal>et al</etal>. <article-title>Coding Algorithms for Defining Comorbidities in ICD-9-CM and ICD-10 Administrative Data</article-title>. <source>Med Care</source>. <year>2005</year>;<volume>43</volume>: <fpage>1130</fpage>&#8211;<lpage>1139</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/01.mlr.0000182534.19832.83" ns0:type="simple">10.1097/01.mlr.0000182534.19832.83</ext-link></comment> <object-id pub-id-type="pmid">16224307</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Deyo</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Cherkin</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Ciol</surname> <given-names>MA</given-names></name>. <article-title>Adapting a clinical comorbidity index for use with ICD-9-CM administrative databases</article-title>. <source>J Clin Epidemiol</source>. <year>1992</year>;<volume>45</volume>: <fpage>613</fpage>&#8211;<lpage>619</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0895-4356(92)90133-8" ns0:type="simple">10.1016/0895-4356(92)90133-8</ext-link></comment> <object-id pub-id-type="pmid">1607900</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref009"><label>9</label><mixed-citation publication-type="other" ns0:type="simple">Health Innovation Program. 2000 Area Deprivation Index. In: 2014 [Internet]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.hipxchange.org/ADI" ns0:type="simple">https://www.hipxchange.org/ADI</ext-link></mixed-citation></ref>
+<ref id="pone.0222603.ref010"><label>10</label><mixed-citation publication-type="other" ns0:type="simple">Caruana R, Niculescu-Mizil A. Data mining in metric space: An empirical analysis of supervised learning performance criteria. Proceedings of the 10th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2004. 1-58113-888-1/04/0008</mixed-citation></ref>
+<ref id="pone.0222603.ref011"><label>11</label><mixed-citation publication-type="book" ns0:type="simple"><collab>R Development Core Team R</collab>. <source>R: A Language and Environment for Statistical Computing</source> [Internet]. <publisher-name>R Foundation for Statistical Computing</publisher-name>. <year>2011</year>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/978-3-540-74686-7" ns0:type="simple">10.1007/978-3-540-74686-7</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222603.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Steege</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Baron</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Marsh</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Men&#233;ndez</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Myers</surname> <given-names>JR</given-names></name>. <article-title>Examining occupational health and safety disparities using national data: A cause for continuing concern</article-title>. <source>Am J Ind Med</source>. <year>2014</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ajim.22297" ns0:type="simple">10.1002/ajim.22297</ext-link></comment> <object-id pub-id-type="pmid">24436156</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nicholson</surname> <given-names>VJ</given-names></name>, <name name-style="western"><surname>Bunn</surname> <given-names>TL</given-names></name>, <name name-style="western"><surname>Costich</surname> <given-names>JF</given-names></name>. <article-title>Disparities in work-related injuries associated with worker compensation coverage status</article-title>. <source>Am J Ind Med</source>. <year>2008</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ajim.20565" ns0:type="simple">10.1002/ajim.20565</ext-link></comment> <object-id pub-id-type="pmid">18381597</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ruseckaite</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Collie</surname> <given-names>A</given-names></name>. <article-title>Repeat workers&#8217; compensation claims: Risk factors, costs and work disability</article-title>. <source>BMC Public Health</source>. <year>2011</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2458-11-492" ns0:type="simple">10.1186/1471-2458-11-492</ext-link></comment> <object-id pub-id-type="pmid">21696637</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Konstantinidis</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Talving</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Kobayashi</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Barmparas</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Plurad</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Work-related injuries: Injury characteristics, survival, and age effect</article-title>. <source>Am Surg</source>. <year>2011</year>;</mixed-citation></ref>
+<ref id="pone.0222603.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pichora</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Grant</surname> <given-names>H</given-names></name>. <article-title>Upper extremity injured workers stratified by current work status: an examination of health characteristics, work limitations and work instability</article-title>. <source>Int J Occup Environ Med</source>. <year>2010</year>;</mixed-citation></ref>
+<ref id="pone.0222603.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cho</surname> <given-names>YM</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Myong</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>HR</given-names></name>, <etal>et al</etal>. <article-title>Work-related COPD after years of occupational exposure</article-title>. <source>Ann Occup Environ Med</source>. <year>2015</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s40557-015-0056-1" ns0:type="simple">10.1186/s40557-015-0056-1</ext-link></comment> <object-id pub-id-type="pmid">25767717</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Boschetto</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Quintavalle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Miotto</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lo Cascio</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Zeni</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Mapp</surname> <given-names>CE</given-names></name>. <article-title>Chronic obstructive pulmonary disease (COPD) and occupational exposures</article-title>. <source>Journal of Occupational Medicine and Toxicology</source>. <year>2006</year>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1745-6673-1-11" ns0:type="simple">10.1186/1745-6673-1-11</ext-link></comment> <object-id pub-id-type="pmid">16756686</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cullinan</surname> <given-names>P</given-names></name>. <article-title>Occupation and chronic obstructive pulmonary disease (COPD)</article-title>. <source>British Medical Bulletin</source>. <year>2012</year>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/bmb/lds028" ns0:type="simple">10.1093/bmb/lds028</ext-link></comment> <object-id pub-id-type="pmid">23080418</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Woolford</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Bugeja</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Driscoll</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ibrahim</surname> <given-names>JE</given-names></name>. <article-title>Missed opportunities to prevent workplace injuries and fatalities</article-title>. <source>New Solut</source>. <year>2017</year>;<volume>27</volume>: <fpage>16</fpage>&#8211;<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/1048291117693389" ns0:type="simple">10.1177/1048291117693389</ext-link></comment> <object-id pub-id-type="pmid">28186434</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Orchard</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Carnide</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>P</given-names></name>. <article-title>How Does Perceived Fairness in the Workers&#8217; Compensation Claims Process Affect Mental Health Following a Workplace Injury?</article-title> <source>J Occup Rehabil</source>. <year>2019</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10926-019-09844-3" ns0:type="simple">10.1007/s10926-019-09844-3</ext-link></comment> <object-id pub-id-type="pmid">31302817</object-id></mixed-citation></ref>
+<ref id="pone.0222603.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Applebaum ScD</surname></name> KM, <name name-style="western"><surname>Asfaw</surname> <given-names>A</given-names></name>, O PK, <name name-style="western"><surname>Busey</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Tripodis</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Boden</surname> <given-names>LI</given-names></name>, <etal>et al</etal>. <article-title>Suicide and drug-related mortality following occupational injury</article-title>. <source>Am J Ind Med</source>. <year>2019</year>;<volume>62</volume>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ajim.23021" ns0:type="simple">10.1002/ajim.23021</ext-link></comment> <object-id pub-id-type="pmid">31298756</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222603.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kou</surname>
+<given-names>Yu Ru</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Yu Ru Kou</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222603" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">13 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-21474</p>
+<p>Clinical correlates of workplace injury occurrence and recurrence in adults</p>
+<p>PLOS ONE</p>
+<p>Dear  Chen,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>Both reviewers had several concerns, especially regarding the definition of the study groups and statistical analysis. I hope that the authors can effectively respond to their comments in the revised manuscript.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 27 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Yu Ru Kou, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>3. Please provide a reworded financial disclosure which states specifically whether the funders played any role in the study.</p>
+<p>If any authors received a salary from any of your funders, please state which authors and which funder. If the funders had no role, please state: "The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."</p>
+<p>Please include your amended statements within your cover letter; we will change the online submission form on your behalf.</p>
+<p>4. Please carefully proofread your manuscript for typographical errors. For example, in the abstract &#8220;We included adult who&#8230;&#8221; should be &#8220;We included adults who&#8230;&#8221;.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Major revision</p>
+<p>1.If one patient had a workplace injury, injury at other places, and without injury information in database. Which group did the patient belong to?</p>
+<p>2.If one patient had more than two workplace injuries, which injury was selected in this study?</p>
+<p>3.This study only matched on the distribution of diagnosis year, and why basic demographic data (gender, age, and race) not included in the matching criteria?</p>
+<p>Reviewer #2: The study by Chen et al. is a case-control study combining three different databases and discussing the morbidities associated with workplace injury. They compared the characteristics of three groups include workplace injury, injury at other places and controls; concluding that WPI can lead to serious physical comorbidity burdens. They also built prediction models for injury recurrences, identifying several risk factors.</p>
+<p>I have some comments as below:</p>
+<p>1. In this study, workplace injury (WPI) was defined by ICD-9 diagnostic code E849.3, while diagnoses codes E849.0 to E849.9 except E849.3 were defined as injuries at other place (IOP). In general practice of occupational medicine, E849.2 (Mine and quarry accidents), E849.1 (Farm accidents) and even E849.9 (Accidents occurring in unspecified place) could also be used to describe WPI. Based on current definition, I think some WPI were actually included in IOP. This might affect your following models.</p>
+<p>2. Since you have used ICD-9 code to define WPI group, how did you define the status of WPI recurrence. Please describe the detail in methods.</p>
+<p>3. I suggest a better work to explain the relative low model performance and the variables that negatively associated with WPI (such as chronic pulmonary heart disease HR 0.33).</p>
+<p>4. In the current study, you found that WPI were more likely to be admitted for acute bronchitis and bronchiolitis (ICD-9: 466). And you suggested that this could be related to COPD of occupational exposure. However, to our knowledge, occupational exposure related COPD was mostly in presence of chronic bronchitis instead of the ICD-9:466 you indicated.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222603.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222603" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222603.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">22 Aug 2019</named-content>
+</p>
+<p>Dear editor, thanks for considering our manuscript; we appreciated the reviewers&#8217; feedback. We updated our manuscript in accordance to their suggestions, and prepared a line-by-line response letter showing the revisions made.</p>
+<p>1. If one patient had a workplace injury, injury at other places, and without injury information in database. Which group did the patient belong to?</p>
+<p>Re: As long as a patient had one WPI, it is assigned to the WPI group. If any IOP occurred before, it is accounted for as a possible predictor. We now have clarified the process in the Methods section.</p>
+<p>2. If one patient had more than two workplace injuries, which injury was selected in this study?</p>
+<p>It is the first recorded in the data base; the criterion is now stated in the Methods.</p>
+<p>3. This study only matched on the distribution of diagnosis year, and why basic demographic data (gender, age, and race) not included in the matching criteria?</p>
+<p>Re: Because it was of interest to describe --if any-- the demographic differences. In fact, we did find differences in these variables between WPI and the comparison groups. We reckon that IOP and WPI could be different among age groups because of the employment ages. Nonetheless, we included only adult individuals, so the putative bias might be only among younger (not yet employed) or older (retired) people. The Discussion sections now contains additional and more detailed considerations in this regard.</p>
+<p>Reviewer #2: </p>
+<p>1. In this study, workplace injury (WPI) was defined by ICD-9 diagnostic code E849.3, while diagnoses codes E849.0 to E849.9 except E849.3 were defined as injuries at other place (IOP). In general practice of occupational medicine, E849.2 (Mine and quarry accidents), E849.1 (Farm accidents) and even E849.9 (Accidents occurring in unspecified place) could also be used to describe WPI. Based on current definition, I think some WPI were actually included in IOP. This might affect your following models.</p>
+<p>Re: The reviewer was right and indeed we had included mine/quarry/farms accidents in the WPI group, and we clarified it in the methods. Thanks for pointing this out. We also discussed that an alternative categorization into IOP could be legit because they are not explicit. These codes are also not explicitly WPI &#8211;some of them might not be WPI&#8211; and this was the main reason we debated when we design the study on whether to keep them in or out; there would be misclassifications either way. We have checked the frequency of the corresponding ICD codes in the whole sample, and have reported them in the revised manuscript. The frequencies of these codes were rather low, thus, the potential misclassification of these code would have little impact on the overall study results (bearing the possibility of specific morbidities associated to these two injuries). We have updated the Discussion acknowledging this matter.</p>
+<p>2. Since you have used ICD-9 code to define WPI group, how did you define the status of WPI recurrence. Please describe the detail in methods.</p>
+<p>Re: WPI recurrence is defined as any WPI diagnosis recorded at least 30 days after the first WPI diagnosis. We decided to use a time window because a WPI diagnosis within the time window could have been a readmission for the same injury. The Centers for Medicare &amp; Medicaid Services (CMS) define a hospital readmission as "an admission to an acute care hospital within 30 days of discharge from the same or another acute care hospital.&#8221;. We have added these details in Methods.</p>
+<p>3. I suggest a better work to explain the relative low model performance and the variables that negatively associated with WPI (such as chronic pulmonary heart disease HR 0.33).</p>
+<p>Re: The low model performance is likely due to the fact that prior clinical history and demographics may not be the most informative domains to predict risk of WPI, although extant theory incorporates mental health disorders and drug dependence as predictors (which can be ascertained by prior ICD diagnoses), and there is likely racial disparity. However, predictors that could explain a larger portion of variance include job type, workplace safety, physical stress, et cetera, which are not present in the HCUP data base. We have rewritten part of our Discussions section to better explain these other &#8211;unmeasured&#8211; contributors to overall risk.</p>
+<p>4. In the current study, you found that WPI were more likely to be admitted for acute bronchitis and bronchiolitis (ICD-9: 466). And you suggested that this could be related to COPD of occupational exposure. However, to our knowledge, occupational exposure related COPD was mostly in presence of chronic bronchitis instead of the ICD-9:466 you indicated.</p>
+<p>Re: the reviewer is right in reporting the association more likely with chronic bronchitis rather than acute. There is a number of possible explanations to this: 1) being this the first WPI, a diagnosis of chronic bronchitis might not have been made yet; 2) our population includes both routine care and acute care, i.e. emergency rooms and urgent care centers, where an attack of bronchitis would be diagnosed as acute even in presence of an underlying condition; 3) possible selection bias, i.e. people with chronic bronchitis have increased risk to be in care regardless the injury type, but acute episodes are differently distributed. We have added another paragraph in the Discussion accordingly.</p>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222603.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kou</surname>
+<given-names>Yu Ru</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Yu Ru Kou</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222603" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Clinical correlates of workplace injury occurrence and recurrence in adults</p>
+<p>PONE-D-19-21474R1</p>
+<p>Dear Dr. Chen,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Yu Ru Kou, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: My major concern was the definition of the study groups. The authors had modified the definition and provided detailed results in the revision. All the comments have been addressed.</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222603.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kou</surname>
+<given-names>Yu Ru</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Yu Ru Kou</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222603" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">6 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-21474R1 </p>
+<p>Clinical correlates of workplace injury occurrence and recurrence in adults </p>
+<p>Dear Dr. Chen:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Yu Ru Kou  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

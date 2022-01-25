@@ -1,0 +1,90 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0221599.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221599.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221599" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221599.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">31 Jul 2019</named-content>
+</p>
+<p>Response to Reviewers</p>
+<p>Manuscript: PONE-D-19-16971</p>
+<p>Title: The conditional Fama-French model and endogenous illiquidity: A robust instrumental variables test</p>
+<p>Editor</p>
+<p>Comment</p>
+<p>Please, pay attention to the major concerns of reviewers 1 and 3 about the use of an illiquidity measure for more robustness of your analysis. I think you will find the rest of reviewer&#8217;s comments very helpfull. To conclude, we would be very grateful if you can cite any other relevant papers recently published in Plos One.</p>
+<p>Reply</p>
+<p>In the new robustness check section (p.27), we have re-estimated our models with the Amihud illiquidity ratio. In this respect, we cite Blau and Whitby [80, PLoS ONE] who also rely on the Amihud ratio to estimate the Fama and French model.  </p>
+<p>Reviewer 1</p>
+<p>Major Comment</p>
+<p>Since the paper only uses one measure of illiquidity, I would suggest that the author(s) consider another measure of illiquidity such as Amihud (2002) as a robustness check to their result. The author(s) could either open a new section in their paper for this check or place the check in an appendix.</p>
+<p>Reply</p>
+<p>To address this valuable comment, we have re-estimated our models with the Amihud illiquidity ratio in our new robustness check section (p.27).</p>
+<p>Minor comments</p>
+<p>Comment</p>
+<p>I recommend that the author(s) cite the recent papers by P&#225;stor-Stambaugh (2019) and Amihud (2019), where these authors restate their faith in their illiquidity measures.</p>
+<p>Reply</p>
+<p>Done. See references [62] and [6].</p>
+<p>Comment</p>
+<p>The author left yellow highlighting on line 415 and 424.</p>
+<p>Reply</p>
+<p>Removed. </p>
+<p>Reviewer 2</p>
+<p>Comment</p>
+<p>(i) At page 10, the authors should provide more details on the HAC matrix, which is crucial in the GMM estimation process. More precisely, they should discuss the roles played by the concepts of kernel and bandwith which are associated with the HAC matrix.</p>
+<p>Reply</p>
+<p>We address this issue at pages 11-12 and provide the relevant references.  </p>
+<p>Comment</p>
+<p>(ii) At page 6, the authors must tell why they resort to the P&#225;stor and Stambaugh&#8217; s (2003) illiquidity factor which they label IML (illiquid portfolio returns minus liquid portfolio returns) rather than to their two other liquidity factors&#8212;i.e., the level of aggregated liquidity (gamma), and the innovations in aggregate liquidity. There is some explanation at line 339 (p. 15) but it comes too late.</p>
+<p>Reply</p>
+<p>We provide the required explanations at page 6.</p>
+<p>Comment</p>
+<p>(iii) Page 6. The authors should specify why a parsimonious model is appropriate in econometrics.</p>
+<p>Reply</p>
+<p>We answer to this comment at page 7. </p>
+<p>Comment</p>
+<p>(iv) Page 8. In equation (9), the authors should remove VIXt-1, which introduces confusion when reading this equation. They should only explain that there are good alternatives to IML like VIX.</p>
+<p>Reply</p>
+<p>Done at pages 8 and 9. </p>
+<p>Comment</p>
+<p>(v) At page 16, the authors contend that the term spread is widely accepted in macroeconomics as a leading indicator of the future state of the economy. They should provide more explanations on the relationship between the term spread and the economic prospects.</p>
+<p>Reply</p>
+<p>We add more details on this indicator at page 18. </p>
+<p>Comment</p>
+<p>(vi) line 175: replace &#8220;the spread between ten-year federal bonds and 90-day T bills&#8221; by &#8220;the spread between ten-year Treasury constant maturity rate and 90-day Tbill rate&#8221;. Do the same correction in the notes of Table 1b.</p>
+<p>Reply</p>
+<p>Done. </p>
+<p>Comment</p>
+<p>line 182: replace the &#8220;initial results&#8221; by the &#8220;preliminary results&#8221;.</p>
+<p>line 288: replace to &#8220;mitigate&#8221; endogeneity by to &#8220;confront&#8221; endogeneity.</p>
+<p>Line 342: replace &#8220;90-day Tbills&#8221; by &#8220;90-day Tbill rate&#8221;.</p>
+<p>Reply</p>
+<p>Done.</p>
+<p>Reviewer 3</p>
+<p>Comment</p>
+<p>Question 2: Has the statistical analysis been performed appropriately and rigorously?</p>
+<p>Yes. I would recommend, with the goal of increasing the reliability to the conclusions of the paper, to do a robustness check with Amihud's liquidity indicator (2002, 2019). In other words, this procedure would compare the paper&#8217;s results with Pastor-Stambaugh's indicator to the results that would be obtained with Amihud&#8217;s indicator.</p>
+<p>Reply</p>
+<p>To address this valuable comment, we have re-estimated our models with the Amihud illiquidity ratio in our new robustness check section (p.27). In this respect, see Table 3 for a comparison between the Amihud ratio and IML. We also updated the references on Amihud and Pastor-Stambaugh. </p>
+<p>Comment</p>
+<p>Question 3: Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The main source of data is French&#8217;s website. St. Louis Federal Reserve FRED database is source of for the ten-year Treasury bond rate and the three-month T-bill rate. The P&#225;stor-Stambaugh tradable liquidity risk factor available is from the Pastor&#8217;s website. The implied volatility index VIX is available from the CBOE database. It will be helpful if the authors include the links to these publicly available data sources in the text.</p>
+<p>Reply</p>
+<p>We included the websites of our databases at pages 14 and 15.</p>
+<supplementary-material id="pone.0221599.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221599.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.doc</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

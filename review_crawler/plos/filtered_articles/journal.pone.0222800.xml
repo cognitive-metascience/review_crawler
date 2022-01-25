@@ -1,0 +1,603 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-14964</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant anatomy</subject><subj-group><subject>Seeds</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Plants</subject><subj-group><subject>Grasses</subject><subj-group><subject>Rice</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Animal studies</subject><subj-group><subject>Experimental organism systems</subject><subj-group><subject>Plant and algal models</subject><subj-group><subject>Rice</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agricultural methods</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant anatomy</subject><subj-group><subject>Inflorescences</subject><subj-group><subject>Panicles</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Ecology</subject><subj-group><subject>Plant ecology</subject><subj-group><subject>Plant-animal interactions</subject><subj-group><subject>Plant-herbivore interactions</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Ecology and environmental sciences</subject><subj-group><subject>Ecology</subject><subj-group><subject>Plant ecology</subject><subj-group><subject>Plant-animal interactions</subject><subj-group><subject>Plant-herbivore interactions</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant ecology</subject><subj-group><subject>Plant-animal interactions</subject><subj-group><subject>Plant-herbivore interactions</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agrochemicals</subject><subj-group><subject>Insecticides</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Hydrology</subject><subj-group><subject>Flooding</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Pests</subject><subj-group><subject>Insect pests</subject><subj-group><subject>Weevils</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Seed treatment using methyl jasmonate induces resistance to&#160;rice water weevil&#160;but reduces plant growth in rice</article-title>
+<alt-title alt-title-type="running-head">Seed treatment using methyl jasmonate induces resistance to rice water weevil but reduces plant growth in rice</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3744-4249</contrib-id>
+<name name-style="western">
+<surname>Kraus</surname>
+<given-names>Emily C.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Stout</surname>
+<given-names>Michael J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Louisiana State University AgCenter, Baton Rouge, Louisiana, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Prager</surname>
+<given-names>Sean Michael</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Saskatchewan College of Agriculture and Bioresources, CANADA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">krausec07@gmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>23</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222800</elocation-id>
+<history>
+<date date-type="received">
+<day>27</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>6</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Kraus, Stout</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222800" />
+<abstract>
+<p>The jasmonic acid cascade plays a pivotal role in induced plant resistance to herbivores. There have been a number of investigations into the potential uses of derivatives of this hormone for pest management. Understanding the phenotypic plasticity of plant defense traits interactions in agricultural systems may facilitate the development of novel and improved management practices, which is desirable as management of insects in most agricultural systems is currently heavily reliant on insecticides. The rice water weevil (RWW), <italic>Lissorhoptrus oryzophilus</italic> Kuschel, is a pest of rice, <italic>Oryza sativa</italic>, in the southern U.S. and globally. The effects of the jasmonic acid derivative, methyl jasmonate (MJ), on induced defenses to RWW in rice, and the potential costs of MJ-induced resistance to plant growth and fitness, were tested in a series of field and greenhouse trials. It was hypothesized that seed treatments with MJ would reduce densities of larval RWW. A second hypothesis was that MJ seed treatments would alter emergence, biomass accumulation, and yield of rice. The final hypothesis was that induction of plant resistance to the RWW would diminish as the time from seed treatment increased. In order to investigate these hypotheses, RWW densities were determined in greenhouse and field trials. Plant growth was measured in the field by assessing plant emergence, root and shoot biomass, time of heading, and yield (grain mass). Results indicated that MJ seed treatments induced resistance to RWW, although this effect decayed over time. Additionally, there were costs to plant growth and fitness; emergence and heading were delayed and biomass was reduced. Importantly, however, yields on a per-plant were not significantly reduced by MJ treatment. Overall, these results are promising and show the potential for the use of jasmonate elicitors as part of a pest management program in rice.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100005825</institution-id>
+<institution>National Institute of Food and Agriculture</institution>
+</institution-wrap>
+</funding-source>
+<award-id>0218143</award-id>
+<principal-award-recipient>Michael J. Stout</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Louisiana Agricultural Consultants Association</institution>
+</funding-source>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3744-4249</contrib-id>
+<name name-style="western">
+<surname>Kraus</surname>
+<given-names>Emily C.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>MJS was supported by a grant from the Louisiana Rice Research Board and by the USDA National Institute of Food and Agriculture, Hatch project accession number 0218143. ECK was supported by a scholarship from the Louisiana Agricultural Consultants Association in 2017 and the Ray and Dorothy Young Endowed Assistantship in Agricultural Pest Management in 2018. Funders had no role in the design, data collection, analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6" />
+<table-count count="0" />
+<page-count count="17" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The phytohormone jasmonic acid (JA) has been identified as a primary mediator of plant responses to insect attack. Perception of herbivore feeding by a plant triggers rapid accumulation of JA at the site of attack. The biosynthesis of JA, from its precursor linolenic acid, through various active intermediates, and culminating in its conjugation with isoleucine (Ile) to form the receptor-active JA-Ile, has been characterized [<xref ref-type="bibr" rid="pone.0222800.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222800.ref002">2</xref>]. The interaction of JA-Ile with its receptor complex in the nucleus results in a comprehensive transcriptional reorganization in the plant. Changes in gene expression result, in turn, in the local and systemic production of defense-related metabolites that cause increases in direct and indirect plant resistance to herbivores [<xref ref-type="bibr" rid="pone.0222800.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222800.ref003">3</xref>]. The well-established role of JA in induced plant defense has led to the suggestion that the JA pathway can be manipulated to protect crops from their insect pests [<xref ref-type="bibr" rid="pone.0222800.ref004">4</xref>&#8211;<xref ref-type="bibr" rid="pone.0222800.ref006">6</xref>].</p>
+<p>One way of manipulating the JA pathway in plants is to apply JA or one of its derivatives to plants to stimulate plant resistance in anticipation of herbivore attack. Various derivatives and methods of application of JA have been tested across a range of species to investigate potential uses in integrated pest management (IPM). These prior studies include a series of experiments involving foliar applications of JA and methyl jasmonate (MJ, a methylated derivative of JA) in tomato, <italic>Solanum lycopersicum</italic> [<xref ref-type="bibr" rid="pone.0222800.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0222800.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0222800.ref008">8</xref>]. These studies found that treatment of plants with MJ rendered plants less suitable to insects such as <italic>Spodoptera exigua</italic>, likely due to an increased production of resistance-related metabolites. JA applications also increased parasitism of caterpillar pests in the field, presumably via increased emission of volatile organic compounds that attract parasitoids [<xref ref-type="bibr" rid="pone.0222800.ref005">5</xref>]. Another study showed that treatment of cabbage seeds, <italic>Brassica oleracea</italic>, with JA induced resistance to <italic>Plutella xylostella</italic> L. and <italic>Myzus persicae</italic>. Resistance was manifested by reduced growth rates and reduced population growth for caterpillars and aphids, respectively [<xref ref-type="bibr" rid="pone.0222800.ref006">6</xref>]. Additionally, a greenhouse study using seed treatments of MJ and JA on several crops including tomato, cowpea, soybean, and wheat, showed a reduction in nematode infection in cowpea and tomato plants [<xref ref-type="bibr" rid="pone.0222800.ref009">9</xref>]. These results show that the JA pathway is highly conserved across the plant kingdom and that exogenous jasmonates can elicit resistance to diverse arthropod and nematode challenges. Potential benefits of elicitors in integrated pest management programs include reductions in pest feeding injury, promotion of natural biological control by induction of volatile organic compounds, and reduced environmental contamination.</p>
+<p>The benefits of exogenous jasmonate as a tool for pest management may, however, be counterbalanced by costs associated with their use, such as reductions in plant growth and fitness resulting from upregulation of the JA cascade. In the Muttucumaru et al. (2013) study cited above, germination and growth of tomato and wheat were not affected by jasmonate treateatment, but cowpea showed delayed germination and reduced shoot mass and soybean showed reduced germination [<xref ref-type="bibr" rid="pone.0222800.ref009">9</xref>]. Drenching roots of native populations of tobacco, <italic>Nicotiana attenuata</italic>, with MJ induced resistance to <italic>Trimerotropis pallidipennis</italic>, the pallid-winged grasshopper, probably due to large increases in the production of nicotine, but the plants produced significantly fewer seeds in the absence of herbivory [<xref ref-type="bibr" rid="pone.0222800.ref004">4</xref>]. Tomato treated with foliar applications of JA showed greater resistance to <italic>Manduca sexta</italic>, but increased resistance resulted in a 35% reduction in fruit production [<xref ref-type="bibr" rid="pone.0222800.ref010">10</xref>]. While there has been progress in understanding the hormonal crosstalk and other mechanisms responsible for tradeoffs between growth and defense in plants [<xref ref-type="bibr" rid="pone.0222800.ref011">11</xref>], there is still much to be learned in this area to determine whether the benefits of jasmonate application to crop plants outweigh the potential costs.</p>
+<p>One aspect of herbivore or elicitor-induced resistance for which little information is available involves the duration of induced resistance following the initial inducing event [<xref ref-type="bibr" rid="pone.0222800.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0222800.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0222800.ref013">13</xref>]. Underwood (1998) found that resistance induced by Mexican bean beetle feeding in soybean developed within three days of beetle feeding but had completely decayed 15 days after initial injury [<xref ref-type="bibr" rid="pone.0222800.ref014">14</xref>]. Induced responses in white clover, <italic>Trifolium repens</italic>, decayed or relaxed 28 days after their induction by <italic>Mamestra brassicae</italic> larval feeding [<xref ref-type="bibr" rid="pone.0222800.ref013">13</xref>]. Another study involving marine algae showed induced responses were sustained for as long as 38 days following mechanical injury [<xref ref-type="bibr" rid="pone.0222800.ref015">15</xref>]. The idea that induced defenses deteriorate over time is plausible, because the most widely accepted hypothesis for the evolution of induced resistance invokes conservation of plant resources and reduction in costs associated with producing defenses in the absence of herbivory [<xref ref-type="bibr" rid="pone.0222800.ref016">16</xref>]. In other words, induced responses allow a plant to produce defenses only when needed and thus plants would be expected downregulate defense responses in the absence of sustained injury.</p>
+<p>In order to determine whether the benefits of utilizing jasmonates in pest management outweigh the costs, investigations must be made using specific crop-insect interactions under realistic (field) conditions. Rice in the southern U.S. is attacked by an array of herbivore pests, the most economically damaging of which is the rice water weevil (RWW), <italic>Lissorhoptrus oryzophilus</italic>. Adults of this species chiefly infest young rice plants and feed on leaf blades. Oviposition occurs in leaf sheaths in seedling and tillering rice under flooded conditions [<xref ref-type="bibr" rid="pone.0222800.ref017">17</xref>]. Populations of larvae, which feed on the roots of flooded rice plants, are present in high numbers only after flooding, usually peaking four to five weeks after flooding and decreasing thereafter [<xref ref-type="bibr" rid="pone.0222800.ref018">18</xref>]. Feeding by larvae on the roots of flooded plants reduces root biomass and ultimately causes yield loss. Yield losses can exceed 20% under heavy pressure [<xref ref-type="bibr" rid="pone.0222800.ref017">17</xref>]. The ability to manage early season infestations or <italic>L</italic>. <italic>oryzophilus</italic> would prevent economic losses and benefit growers. Use of elicitors to reduce infestations of this pest could greatly reduce reliance on insecticidal seed treatments and foliar insecticides that are currently utilized to manage this pest.</p>
+<p>The objectives of this study were to determine if treating seeds with MJ stimulated the resistance of water-seeded rice to the RWW under greenhouse and field conditions; and, if so, to assess how long the effect lasted and whether the benefits of seed treatment were counterbalanced by negative effects on rice plant growth and yield. It was hypothesized that the MJ seed treatment would induce resistance to RWW under greenhouse conditions, and that this effect would decay over time. Additionally, it was hypothesized that treating seeds with MJ would reduce larval densities on treated plants in the field. Finally, it was hypothesized that there would be a tradeoff between plant defense and growth, represented by delays or reductions in rice plant emergence, heading, biomass and yield.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Seed treatment</title>
+<p>The procedures used to treat seeds were similar for the greenhouse and field experiments. To treat seeds, 160 g of unhulled seeds (cv. &#8216;Cheniere&#8217;) were soaked in 250 ml solutions of MJ in glass flasks. For greenhouse experiments, 0 mM (Control), 2.5 mM (Low), and 5.0 mM (High) solutions of MJ were used. For field experiments, 0 mM and 2.5 mM solutions of MJ were used. The solutions were prepared by mixing 250 mL of distilled water, 250 &#956;L of Tween 20 (0.1% v:v) (Polyoxyethyle sorbitant monolaurate, Bio-Rad laboratories, Inc.) and methyl jasmonate (Sigma-Aldrich Co. St. Louis Missouri) as needed to achieve the desired final concentration. Flasks containing seeds and treatment solutions were gently shaken on an orbital platform shaker for 24 hours on a laboratory bench at room temperature. For the greenhouse experiment, seeds were sown immediately after the 24-hour soak period; for field experiments, seeds were sown approximately 24 hours after removing seeds from the MJ solutions.</p>
+</sec>
+<sec id="sec004">
+<title>Greenhouse experiment</title>
+<p>The duration of resistance induced by seed treatments of MJ at three concentrations (Control, 0mM; Low, 2.5 mM; and High, 5.0 mM) were investigated in a greenhouse experiment on the campus of Louisiana State University, Baton Rouge. Rice seeds were sown in a soil mix (2:1:1, topsoil: peat moss: sand) in 15cm diameter pots at the rate of five seeds/pot. The rice variety &#8216;Cheniere&#8217;, a long-grain, conventional, inbred variety, was used in all experiments. Plants were maintained in the greenhouse under ambient lighting at approximately 29.0&#176;C -33.0&#176;C and were watered regularly to maintain adequate soil moisture. Plants in pots were thinned to two plants per pot approximately two weeks after planting. Plants from seeds sown on the same day were used for experiments at two different time points, 15 and 29 days after planting. Adult rice water weevils used to infest plants were collected from rice fields at the Louisiana State University Agricultural Center H. Rouse Caffey Rice Research Station in Crowley, Acadia Parish, Louisiana, one day prior to use. Weevils were maintained from collection until use in plastic containers with water and rice leaves. Infestation cages, which were constructed of cylindrical wire frames (46 cm diam, 61 cm height) covered with a fine mesh screening, were placed in wooden basins lined with heavy black plastic that allowed basins to be flooded. One pot from each of the three treatments (Control, Low, and High) was placed in each of the cages on the day of infestation. Separate groups of plants were infested at two time points; one set of plants was infested fifteen days after planting (early three-leaf stage), and the second set was infested twenty nine days after planting (early tillering stage). For infestations at both plant stages, adult weevils were released in cages at a density of four weevils per plant. Basins were flooded to a depth of approximately 24 cm, and weevils were allowed to feed, mate, and oviposit on plants in cages for five days. The design was a completely randomized block design in which cages were blocks and individual pots were replicates. There were ten blocks at the fifteen-day infestation and twelve at the twenty-nine infestation.</p>
+<p>At the end of the five-day infestation period, plants were removed from cages and any adult weevils found on plants were removed. Assessment of effects of seed treatments involved counting the numbers of first instars emerging from eggs deposited on plants during the infestation period. Both plants from each pot were removed from soil, and soil was gently washed from roots. Individual plants were then placed in labeled test tubes containing distilled water. Test tubes were arranged on racks and placed in a growth chamber (28<sup>&#176;</sup>C, 14:10hr L: D). Weevils infesting plants treated in this manner eclosed from eggs, emerged from leaf sheaths, and settled on roots or on the bottoms of test tubes. First instars were counted by shaking roots free of larvae, pouring water from test tubes into a Petri dish, and visually inspecting for larvae. Plants were placed back into their respective test tubes immediately after counting and tubes were replenished with distilled water. Larvae were counted daily until no larvae were recovered for two days in a row.</p>
+</sec>
+<sec id="sec005">
+<title>Field experiments</title>
+<sec id="sec006">
+<title>Study site and rice cultivation</title>
+<p>Field experiments were conducted at the H. Rouse Caffey Rice Research Station (30.231422&#176;N and -92.379583&#176;W, 7m asl). The soil type at this site is a Crowley silt loam with a pH of 7.1 and 12% organic matter. Fields at this site have been in a two-year rice-fallow rotation for over 30 years. The experiment relied on natural infestations of weevils, the populations of which are consistently high at this site.</p>
+<p>Rice in field experiments was water seeded. Water seeding of rice involves soaking dry, unhulled seeds in water (or solution of MJ) for approximately 24 hours, removing seeds from water for another 24 hours to allow germination to begin, and then casting partially germinated seed into flooded field plots. Generally, once seeds are cast into a field, floodwaters are removed to allow seedlings to establish, and permanent flood is established within a few weeks of seeding. The seeding rate for field experiments was the equivalent of 200 kg/ha. Plots measured 1m<sup>2</sup> and were seeded with 20g of treated seed.</p>
+<p>Two field experiments were conducted, one in the 2017 growing season and one in the 2018 growing season, to determine the effects of MJ seed treatment on levels of infestation of RWW larvae and on rice growth and grain yield. Treatments in both experiments were factorial combinations of MJ seed treatment and insecticide application. The control treatment, &#8220;Control&#8221;, consisted of plots seeded with rice not treated with either MJ or insecticide. For the second treatment, &#8220;Karate&#8221;, plots were not treated with MJ but were treated by making repeated applications of a pyrethroid insecticide, lambda-cyhalothrin (Karate&#174;, Syngenta, Greensboro, NC) within 2 weeks of flooding. This resulted in plots with reduced populations of RWW, but which were not treated with MJ. For the third treatment, &#8220;MJ&#8221;, the plots were sown with rice seeds treated with MJ two days prior but not treated with insecticide. This resulted in plots in which the effects of MJ on RWW infestations and rice growth and yield could be measured. In the fourth treatment, &#8220;MJ + Karate&#8221;, plots were sown with rice treated with MJ and treated with repeated applications of a foliar a pyrethroid insecticide. This resulted in plots in which the effects of MJ on growth and yield could be assessed under reduced RWW pressure. Field experiments employed a randomized complete block design with four blocks and a full factorial of MJ seed treatment, and insecticide application in each block.</p>
+<p>Insecticide applications were made to appropriate plots using Karate&#174; at a rate of .06 kg AI/ha (Karate with Zeon Technology, Syngenta, Wilmington, Delaware). Foliar applications began one day before flooding and were repeated every four days until a total of five applications had been made to plots. Insecticide was applied using a backpack sprayer pressurized with CO<sub>2</sub> and calibrated to deliver 140 L/ha at 207 kPa through four 1002 flat fan nozzles TeeJet&#174; at 51 cm spacing.</p>
+</sec>
+<sec id="sec007">
+<title>Densities of RWW</title>
+<p>In 2017 plots were permanently flooded three weeks after seeding, but in 2018, due to cool temperatures, rice growth was not sufficient to flood until nearly six weeks after seeding. The procedure used to determine densities of RWW larvae and pupae in plots after flooding involved removing root/soil core samples from each plot. Each plot was core sampled on five separate dates in 2017, from one to two months after seeding. In 2018, each plot was core sampled on two separate dates, 55 and 65 days after seeding. The tool used for removing soil/root cores was a metal cylinder with a diameter of 9.2 cm and a depth of 7.6 cm attached to a handle. This core sampler allowed for equally sized samples of soil and rice roots to be collected. Core samples were rinsed with water under moderate pressure through a metal screen bucket in order to remove soil and dislodge RWW larvae from roots. The bucket was then placed in salt water and floating larvae and pupae were counted [<xref ref-type="bibr" rid="pone.0222800.ref019">19</xref>].</p>
+</sec>
+<sec id="sec008">
+<title>Plant emergence</title>
+<p>Emergence of seedlings was assessed prior to flooding in both 2017 and 2018. In the 2017 experiment, emergence of rice plants was assessed 14 and 17 days after seeding by counting plants in one random quadrat (0.09m<sup>2</sup>) within each plot. No pyrethroid applications had been made at this point, and for this reason seedling counts provide information only about the effects of MJ treatment. In the 2018 experiment, emergence of rice plants was assessed by taking stand counts using the same procedure used in 2017, at 12 and 22 days after seeding. Once again, no pyrethroid applications had been made at this point, and hence only the effect of MJ on plant emergence was assessed by this procedure.</p>
+</sec>
+<sec id="sec009">
+<title>Plant biomass</title>
+<p>Plant biomass was assessed after flooding in both 2017 and 2018. Biomass of roots and shoots was determined by removing whole plants from plots by hand. Plant material was rinsed thoroughly, placed in paper bags, and dried to constant weight in an oven at 60&#176; C. Roots and shoots (including leaves) were separated from one another and root and shoot masses were determined using an electronic scale. Plants for biomass measurements were collected on five separate dates in 2017 and two separate dates in 2018. In 2017, collections occurred at 25, 33, 38, 45, and 52 days after seeding. Plants for biomass measurements in 2018 were collected 35 days and 49 days after seeding.</p>
+</sec>
+<sec id="sec010">
+<title>Panicle densities</title>
+<p>Panicle densities (% plants in which panicles had exerted from the flag leaf in each plot; Saichuk et al. 2014) were visually assessed in each plot on three dates in 2017 (80, 82, and 87 days after seeding) and two dates in 2018 (101 and 108 days after seeding). In both years, the first assessment was performed when panicle emergence was first noted in control plots.</p>
+</sec>
+<sec id="sec011">
+<title>Grain yields</title>
+<p>Methods for assessing treatment effects on grain yields differed between 2017 and 2018. In 2017, at grain maturity, five individual panicles were collected randomly from each plot. The panicles were threshed, and the weight of grains from the five panicles averaged for a measure of mean panicle grain mass for each plot. The resulting average panicle grain mass was used in analysis. In 2018, grain mass was measured on both a per panicle and a per plant basis. Five entire plants were collected from each plot and the number of panicles, mass of grain from each individual panicle, and total grain mass of all panicles was determined for each plant. Dates of all agricultural practices and dates of sampling are shown in <xref ref-type="supplementary-material" rid="pone.0222800.s001">S1 Table</xref>.</p>
+</sec>
+</sec>
+<sec id="sec012">
+<title>Statistical analysis</title>
+<p>All analyses were performed in SAS software version 9.4 (SAS Institute 2013). PROC GLIMMIX was used to analyze all count and continuous data as described below. Poisson distribution and log link were used for all count data. All continuous data were tested for normality with PROC UNIVARIATE and the Shapiro-Wilk test (P&lt; 0.05). Biomass data for roots and shoots from both 2017 and 2018 were log transformed. Two outliers were removed from the 2017 root biomass dataset. Panicle grain mass from 2017 was log transformed. Means, standard deviations, and standard errors were determined in PROC MEANS.</p>
+<p>For the greenhouse experiment, effects of MJ seed treatments on numbers of first instars emerging from plants were analyzed separately for the experiments done at the two plant ages. Generalized linear mixed models were used to analyze treatment effects with block as a random effect and MJ seed treatment concentration as the fixed effect. Means were tested for significant differences using Tukey&#8217;s HSD (P &lt; 0.05).</p>
+<p>Data from field experiments included larval counts from core samples, counts of emerged plants, biomass of roots and shoots, % heading, and grain masses. Data sets from the 2017 and 2018 experiments were analyzed separately to take into account differences in the environment between years, but multiple samplings within years were pooled. Generalized linear mixed models using PROC GLIMMIX were used to analyze treatment effects for field data. Block was used as a random effect and fixed effects were MJ seed treatment, insecticide application, their interaction, and time. Emergence counts were the exception as this data was collected before pyrethroid applications had been made, and for this reason only the effects of MJ seed treatment were analyzed. Means were tested for significant differences using Tukey&#8217;s HSD (P &lt; 0.05) for all pooled datasets. In 2017, in addition to the pooled analysis, data from each core sample date and each biomass sample date were analyzed individually to determine mean, standard error, and thus effect size.</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="results">
+<title>Results</title>
+<sec id="sec014">
+<title>Greenhouse experiment</title>
+<p>Treatment of seeds with MJ significantly reduced numbers of first instars emerging from plants at both high and low concentrations relative to the control, but the effect deteriorated over time (i.e., the magnitude of the MJ effect was smaller for plants infested 29 days after seeding than for plants infested 15 days after seeding). For plants infested 15 days after seeding, both low and high concentrations of MJ significantly reduced RWW counts relative to the control (F<sub>2,18</sub> = 41.76; P&lt;0.001) (<xref ref-type="fig" rid="pone.0222800.g001">Fig 1</xref>), and counts in the High treatment were significantly lower than counts in the Low treatment. For plants infested 29 days after treating seeds, only the low concentration significantly reduced RWW densities relative to the control (F<sub>2,22</sub> = 6.87; P = 0.005) (<xref ref-type="fig" rid="pone.0222800.g001">Fig 1</xref>). However, the reduction in counts of emerging weevils was only about half of the reduction seen for the first infestation.</p>
+<fig id="pone.0222800.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Effect of seed treatment with methyl jasmonate at three concentrations on counts of first instars emerging from plants (larvae per pot &#177;S.E.) in a greenhouse experiment performed in 2018.</title>
+<p>Plants were infested with adult RWW 15 days and 29 days after treatment of seeds. Bars accompanied by different letters represent means that differed significantly by Tukey&#8217;s HSD test at &#945; &lt; .05.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec015">
+<title>Field experiments</title>
+<sec id="sec016">
+<title>Densities of RWW</title>
+<p>The 2017 experiment was sampled five times after flooding to evaluate effects of MJ and Karate treatments on densities of RWW larvae associated with rice roots. Pooled analysis of the data over all five core-sampling dates showed that both treatment of seeds with MJ and repeated application of Karate reduced densities of RWW immatures on roots compared to the control treatment (<xref ref-type="fig" rid="pone.0222800.g002">Fig 2</xref>). The combination of Karate applications and MJ seed treatment reduced weevil densities more effectively than MJ alone, but no more effectively than Karate alone, a fact that was reflected by a significant interaction of Karate application and MJ treatment (F<sub>1,149</sub> = 3.99; P = 0.048). Treatment of seeds with MJ reduced densities of RWW immatures by approximately 30% relative to controls (F<sub>1,149</sub> = 13.58; P&lt;0.001) (<xref ref-type="fig" rid="pone.0222800.g002">Fig 2</xref>). Applications of the insecticide Karate significantly reduced RWW densities (F<sub>1,149</sub> = 76.21; P&lt;0.001), by 51% compared to controls (<xref ref-type="fig" rid="pone.0222800.g002">Fig 2</xref>). The effect of time was also significant (F<sub>4,149</sub> = 71.45; P&lt;0.001), as overall densities of RWW immatures increased over the five core sampling dates (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+<fig id="pone.0222800.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Effects of factorial combinations of methyl jasmonate seed treatment (MJ) and insecticide application (Karate) on densities of RWW larvae (immature RWW per core sample &#177; SE) associated with roots of rice plants in field plots exposed to natural infestations of RWW in 2017 and 2018.</title>
+<p>Plots were seeded with untreated seed (Control) or with MJ-treated seeds (MJ), sprayed four times with a pyrethroid insecticide after flooding (Karate), or seeded with MJ-treated seeds and sprayed with insecticide (MJ + Karate). Analyses in 2017 used pooled data from five core-sampling dates. Data from one core sampling date in 2018 are presented. Bars accompanied by different letters represent means that differed significantly by Tukey&#8217;s HSD test at &#945;&lt;0.05.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g002" ns0:type="simple" />
+</fig>
+<p>In 2018, core samples were taken 18 and 28 days after flooding. On the first sampling date, densities of RWW immatures were near zero and therefore too low to infer treatment effects. On the second sampling date, densities of RWW immatures were 73% lower in Karate-treated plots than in control plots (F<sub>1,27</sub> = 26.09; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>), but neither MJ nor the interaction of MJ and Karate had a significant effect on RWW densities (F<sub>1,27</sub> = 0.20; P = 0.656; F<sub>1,27</sub> = 0.62; P = 0.439) (<xref ref-type="fig" rid="pone.0222800.g002">Fig 2</xref>).</p>
+</sec>
+<sec id="sec017">
+<title>Plant emergence</title>
+<p>In the 2017 experiment, 48% fewer plants had emerged 14 days after seeding in plots with MJ-treated rice than in plots seeded with non-treated rice (<xref ref-type="fig" rid="pone.0222800.g003">Fig 3</xref>), indicating that seedling emergence was significantly reduced or delayed by MJ treatment (F<sub>1,59</sub> = 198.30; P&lt;0.001). Three days later, numbers of plants emerged were approximately 10% higher overall (F<sub>1,59</sub> = 5.83; P = 0.019) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>), but the effect of MJ persisted. There was no interaction between MJ and time (F<sub>1,59</sub> = 0.56; P = 0.456) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+<fig id="pone.0222800.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Effects of treatment of rice seeds with methyl jasmonate (MJ) at a concentration of 2.5 mM on numbers of emerged rice seedlings in a 0.09m<sup>2</sup> area (numbers of plants &#177; SE).</title>
+<p>Pooled data from 14 and 17 days after seeding in 2017 and 12 and 22 days after seeding in 2018 are shown. Bars accompanied by different letters represent means that differed significantly by Tukey&#8217;s HSD test at &#945; &lt; .05.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g003" ns0:type="simple" />
+</fig>
+<p>In the 2018 experiment, plant densities increased by 22% from the first sampling date (12 days after seeding) to the second (22 days after seeding) (F<sub>1,57</sub> = 20.74; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>). Over both sampling dates, emergence was 62% lower in MJ-treated plots (F<sub>1,57</sub> = 184.85; P&lt;0.001) than in control plots (<xref ref-type="fig" rid="pone.0222800.g003">Fig 3</xref>). The interaction of MJ and time was significant, but the effect of MJ was consistent across both sample dates (F<sub>1,57</sub> = 7.32; P = 0.009) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+</sec>
+<sec id="sec018">
+<title>Plant biomass</title>
+<p>In the 2017 experiment, root biomass was measured at five separate time points, from 25 days after planting to 52 days after planting. Biomass of roots significantly increased over time (F<sub>4,148</sub> = 374.03; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>). Over all sampling dates, treatment of seeds with MJ reduced root biomass by 32% compared to controls (F<sub>1,148</sub> = 24.17; P&lt;0.001) (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>). In contrast, application of Karate increased root biomass by 4% when compared to controls. Root biomass in Karate treatments was significantly higher than root biomasses in the MJ and MJ + Karate but not the Control plots (F<sub>1,148</sub> = 11.05; P = 0.001) (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>). The interaction between MJ and Karate was not significant for root biomass (F<sub>1,148</sub> = 0.00; P = 0.974).</p>
+<fig id="pone.0222800.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Effects of factorial combinations of methyl jasmonate seed treatment (MJ) and insecticide application (Karate) on root and shoot biomasses (grams per plant &#177;S.E.) of rice plants over five sampling dates in 2017.</title>
+<p>Average root (A) and shoot (B) masses of plants in each treatment: MJ&#8211;treated (MJ), insecticide-treated (Karate), MJ- and insecticide-treated (Both), and non-treated plots (Control), are shown.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g004" ns0:type="simple" />
+</fig>
+<p>Shoot biomass also increased over the five sampling dates (F<sub>4,150</sub> = 364.40; P&lt;0.001) and was reduced by MJ seed treatment (F<sub>1,150</sub> = 26.97; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>) (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>). Shoot biomass in MJ-treated plots was 22% lower over all five sampling dates than shoot biomass in control plots (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>). There was no significant effect of Karate (F<sub>1,150</sub> = 6.60; P = 0.011) or the interaction of MJ and Karate (F<sub>1,150</sub> = 0.17; P = 0.682) on shoot biomass (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>). However, there were significant differences among treatments which show that plots treated with MJ alone (MJ) had 35% lower biomass than plots treated with Karate alone (Karate), and plots treated with MJ and Karate (MJ + Karate) showed an 18.5% reduction compared to plots treated with Karate alone (Karate) (<xref ref-type="fig" rid="pone.0222800.g004">Fig 4</xref>).</p>
+<p>In the 2018 experiment, root and shoot biomasses were measured 35 and 49 days after seeding. Over the two sampling dates, root biomass was not significantly affected by MJ treatment (F<sub>1,56</sub> = 3.73; P = 0.59), Karate application (F<sub>1,56</sub> = 1.01; P = 0.319), or their interaction (F<sub>1,56</sub> = 0.23; P = 0.634) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>). However, biomass of roots did significantly increase over the two samplings (F<sub>1,56</sub> = 598.15; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+<p>Shoot biomass was significantly affected by MJ in 2018 (F<sub>1,56</sub> = 4.91; P = 0.031), but differences among individual treatments were not observed after Tukey adjustment. Shoot biomass was not affected by Karate application (F<sub>1,56</sub> = 0.92; P = 0.341), or by the interaction of MJ and Karate (F<sub>1,56</sub> = 0.03; P = 0.873) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>). Shoot biomass significantly increased as the season progressed (F<sub>1,56</sub> = 531.02; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+</sec>
+<sec id="sec019">
+<title>Panicle densities</title>
+<p>Numbers of panicles that had emerged from flag leaves in plots 80, 82, and 87 days after seeding in 2017 were significantly affected by MJ treatment (F<sub>1,89</sub> = 138.32, P&lt;0.001), Karate application (F<sub>1,89</sub> = 108.64; P&lt;0.001) and the interaction between MJ and Karate (F<sub>1,89</sub> = 37.92; P&lt;0.001)(<xref ref-type="fig" rid="pone.0222800.g005">Fig 5</xref>). Panicle densities in plots treated with MJ alone were 99% lower than in Control plots while panicle densities in plots treated with Karate alone were 60% higher than in Control plots (<xref ref-type="fig" rid="pone.0222800.g005">Fig 5</xref>). Panicle densities in plots treated with both MJ and Karate were 33% lower than controls. Panicle densities significantly increased over the three sampling dates (F<sub>2,89</sub> = 517.53; P&lt;0.001) (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+<fig id="pone.0222800.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Effects of factorial combinations of methyl jasmonate seed treatment (MJ) and application of insecticide (Karate) on panicle densities (numbers of panicles per plot &#177;S.E.).</title>
+<p>Data were pooled over three sampling dates from 80 to 87 days after seeding in 2017 and two sampling dates from 101 to 108 days after seeding in 2018. Treatments included MJ&#8211;treated (MJ), insecticide-treated (Karate), MJ- and insecticide-treated (Both), and non-treated plots (Control). Bars accompanied by different letters represent means that differed significantly by Tukey&#8217;s HSD test at &#945; &lt; .05.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g005" ns0:type="simple" />
+</fig>
+<p>Numbers of panicles per plots at 101 and 108 days after seeding in 2018 were significantly affected by MJ (F<sub>1,56</sub> = 383.78; P&lt;0.001), but not by Karate (F<sub>1,56</sub> = 0.51; P = 0.477), or the interaction of MJ and Karate (F<sub>1,56</sub> = 1.73; P = 0.193). Panicle densities in plots treated with MJ alone and with MJ and Karate were 45% and 46% lower, respectively, than panicle densities in control plots (<xref ref-type="fig" rid="pone.0222800.g005">Fig 5</xref>). Panicle densities were significantly higher on the second sampling date (F<sub>1,56</sub> = 1168.96; P&lt;0.001) than on the first (<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+</sec>
+<sec id="sec020">
+<title>Grain yields</title>
+<p>Results from 2017 showed no effect of MJ (F<sub>1,24</sub> = 0.21; P = 0.655) on grain mass per panicle, and the interaction of MJ and Karate was also not significant (F<sub>1,24</sub> = 0.15; P = 0.702). However, mean grain mass per panicle was 37% higher from Karate-treated plots (Karate) than in control plots (Control) (F<sub>1,24</sub> = 15.73; P = 0.001) (<xref ref-type="fig" rid="pone.0222800.g006">Fig 6</xref>).</p>
+<fig id="pone.0222800.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222800.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Effects of factorial combinations of methyl jasmonate seed treatment (MJ) and application of insecticide (Karate) on individual panicle mass (grams of grain per panicle &#177;S.E.) in the experiments performed in 2017 and 2018.</title>
+<p>Mean panicle masses for MJ&#8211;treated (MJ), insecticide-treated (Karate), insecticide and MJ-treated (Both), and non-treated plots (Control) are shown. Bars accompanied by different letters represent means that differed significantly by Tukey&#8217;s HSD test at &#945; &lt; .050.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.g006" ns0:type="simple" />
+</fig>
+<p>In 2018, there were significant effects of both MJ seed treatment and Karate on grain mass per panicle (MJ: F<sub>1,27</sub> = 5.75; P = 0.024) (Karate: F<sub>1,27</sub> = 6.07; P = 0.020) (<xref ref-type="fig" rid="pone.0222800.g006">Fig 6</xref>). Panicle grain masses from plots treated with MJ only (MJ) were 13.7% lower than controls (Control) and 21% lower than grain masses from Karate-treated plots, but only the latter difference was significant (<xref ref-type="fig" rid="pone.0222800.g006">Fig 6</xref>). The interaction was not significant (MJ*Karate F<sub>1,27</sub> = 0.23; P = 0.633).</p>
+<p>In addition to assessing grain mass from individual panicles, entire plants were assessed for total number of panicles and total grain mass per plant in 2018. The average number of panicles per plant was not significantly affected by MJ or Karate treatment or their interaction (MJ: F<sub>1,25</sub> = 0.82; P = 0.373) (Karate: F<sub>1,25</sub> = 0.62; P = 0.439)(Interaction: F<sub>1,25</sub> = 0.18; P = 0.675) and total grain mass per plant was not affected by MJ (F<sub>1,27</sub> = 0.44; P = 0.512), Karate (F<sub>1,27</sub> = 0.57; P = 0.456), or their interaction (F<sub>1,27</sub> = 0.00; P = 0.991)(<xref ref-type="supplementary-material" rid="pone.0222800.s002">S2 Table</xref>).</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec021" sec-type="conclusions">
+<title>Discussion</title>
+<p>Progressive elucidation over the past three decades of the signaling pathways that mediate plant responses to herbivory [<xref ref-type="bibr" rid="pone.0222800.ref020">20</xref>&#8211;<xref ref-type="bibr" rid="pone.0222800.ref021">21</xref>] has led to suggestions that these pathways could be manipulated in crop plants to manage pests. Numerous studies have shown that it is possible to stimulate plant resistance by applying jasmonates (JA or its derivatives) to plants. However, these experiments have mostly been conducted under semi-controlled conditions, and several questions remain to be fully addressed before elicitors of plant resistance can be incorporated into management programs for insect pests in crops.</p>
+<p>One important question that has not been adequately addressed is whether the resistance induced by jasmonates is strong and durable enough under realistic field conditions. Based on prior research in both the greenhouse and the field [<xref ref-type="bibr" rid="pone.0222800.ref022">22</xref>&#8211;<xref ref-type="bibr" rid="pone.0222800.ref023">23</xref>], it was hypothesized that treating seeds with MJ would induce resistance to RWW under field conditions. Results from the greenhouse and from the 2017 field experiment supported this hypothesis. Reductions in RWW densities achieved with seed treatments in the field in 2017 (~30%) were not lower than reductions achieved by applications of a broad-spectrum insecticide made within two weeks of flooding (~50%), but four applications of insecticides were needed to achieve this level of control. Results in 2017 were the first-field level experiments testing MJ seed treatments as a pest management tool in rice.</p>
+<p>The results in 2018 differed somewhat from results in 2017. No significant differences in RWW densities due to seed treatments with MJ were observed, although RWW densities were 24% lower in plots treated with MJ. Plant growth in 2018 was delayed due to cold weather, which necessitated a delay in flooding. This delay increased the amount of time between the seed treatments and RWW oviposition, which is triggered by flooding. It is likely that the effects of induction by MJ seed treatment in this experiment had decayed by the time RWW were ovipositing in the field. This interpretation is supported by our greenhouse experiments. In the greenhouse, MJ-induced resistance deteriorated by 30 days post-seed treatment. Most studies of induced resistance investigate responses immediately or nearly immediately following imposition of stress or application of elicitors, and relatively few studies have investigated the duration of induced responses, an aspect vital to the use of induced resistance in IPM. The current study demonstrates that MJ-induced resistance in rice is not maintained throughout the season, a fact consistent with hypotheses regarding tradeoffs of growth and defense and the evolution of induced resistance [<xref ref-type="bibr" rid="pone.0222800.ref016">16</xref>].</p>
+<p>Karate applications were more effective at reducing densities of RWW than was MJ treatment, but it is important to note from an IPM perspective that plots in the Karate treatment received four to five applications of the insecticide, whereas plots in the MJ treatment received a single exposure to MJ at the seed stage. Another result to consider is that the combination of MJ and Karate can produce a synergistic effect such as the one seen on a single core sampling date in 2017 experiment. On this date, RWW densities in plots that received both MJ and Karate (Both) were about half as high as RWW densities in control plots, whereas MJ or Karate alone reduced densities by 14% or 25%, respectively. However, on five of the six core sampling dates there was no evidence of synergism, and on two of these dates the RWW densities in plots that received both MJ and Karate applications were higher than densities in the plots that recycled Karate applications only.</p>
+<p>Practical use of jasmonates in crop IPM will also require an application method that is economically feasible and compatible with accepted grower practices. In this study, rice was water-seeded, a method long used for rice production in southwest Louisiana and a method compatible with soaking seeds before planting. Soaking seeds in a solution of MJ might also be compatible with the method commonly used for rice production in much of Asia. Rice in this region is planted densely in seedbeds via broadcast seeding. When seedlings reach two to three weeks of age they are transplanted into fields. In this case, rice seedlings may be protected by MJ treatment in the seedbed and during the first few weeks after transplanting. However, most rice in the southern U.S and elsewhere is drill-seeded into a dry seedbed, and in those case use of MJ seed treatments would require development of new methods to coat seeds with jasmonates in which seeds remain dry.</p>
+<p>Perhaps the most crucial issue involved in the use of jasmonates in pest management is their potential impact on plant growth and yield. In this study, there were clear effects of MJ seed treatment on emergence and growth of plants. MJ seed treatment significantly delayed or reduced germination in both 2017 and 2018. In the pooled analyses of 2017 data, MJ treatment also reduced early season root and shoot biomass when compared to the control plots. However, plants appeared to recover such that effects on biomass were not significant later in the season. Plots in which the RWW feeding pressure was lessened by application of insecticides (Karate and MJ+Karate), likely provide the best information on the effects of MJ on plant growth. In 2017, both root and shoot biomasses were significantly lower in the MJ+Karate plots than in the Karate-only treatment on the first two sample dates but not later suggesting that plants recover biomass loss from the hormone treatment. There were no significant effects on root or shoot biomass in 2018.</p>
+<p>In addition to the effects of MJ on plant growth, heading (% of plants in which panicles had exerted from the flag leaf in each plot) was significantly delayed in both the 2017 and 2018 experiments in MJ-treated (MJ and MJ+Karate) plots compared to plots not treated with MJ (Control and Karate treatments). These delays may have been residual effects from the delay in emergence. Plants sometimes tolerate herbivory by altering flowering or fruiting phenology and extending their growing season [<xref ref-type="bibr" rid="pone.0222800.ref024">24</xref>]. In a review on plant tolerance to herbivory Tiffin (2000) provides dozens of examples of plants postponing development in order to tolerate herbivory [<xref ref-type="bibr" rid="pone.0222800.ref025">25</xref>]. However, in the 2018 experiment, numbers of panicles per plant at grain maturity were no lower in MJ-treated plots than in plots not treated with MJ, again showing that the primary effect of MJ may have been to delay development of panicles rather than reduce panicle numbers.</p>
+<p>Despite the delays in heading, evidence that MJ seed treatments reduced yields was mixed. In both 2017 and 2018, yields (masses of grains per panicle) in plots treated with MJ only were no higher than yields from plots in the Control treatment despite the reductions in weevil densities observed in MJ plots. However, yields were higher from plots in which Karate was applied (Karate treatment) than from Control plots. These two results suggest that gains in yield resulting from suppression of weevils were counterbalanced by the costs of MJ treatment. On the other hand, when weevils were suppressed by Karate applications and MJ was applied (Both treatment), yields were not significantly lower than when Karate was applied by itself (Karate). This suggests that MJ treatment did not necessarily reduce yields and that one reason for decreased yields in the MJ-only treatment was the fact that weevil suppression in these plots was not as high as weevil suppression in Karate treatments. Disentangling the yield costs and benefits of MJ treatment in rice will require additional experiments in which MJ seed treatments are made in the absence of weevils. Growth-defense tradeoffs in relation to responses induced by MJ seed treatments have previously demonstrated in tomato (Paudel et al. 2014). In this study, increased activity of the resistance-related enzyme polyphenol oxidase was noted in plants treated as seeds with MJ, but this increase in plant resistance was accompanied by reductions in plant germination, height, and fruit mass [<xref ref-type="bibr" rid="pone.0222800.ref026">26</xref>].</p>
+<p>Understanding tradeoffs between plant growth and defense is critical to evaluating the potential for jasmonate treatments to provide sustainable long-term solutions for pest management in rice and other crops. From an IPM perspective, one critical feature of the experiments reported here is that a single treatment of rice seeds with MJ was capable of causing reductions in weevil densities comparable to reductions produced by multiple applications of a broad-spectrum pyrethroid, so the potential of MJ seed treatments as an IPM tool is clear. In rice, experiments in which RWW are absent are needed to better characterize the costs of MJ induction by seed treatments. Additionally, further investigations into the effects of jasmonates on germination and heading are needed in order to determine if these aspects of plant growth are reduced or merely delayed by MJ treatments. Once these issues have been resolved, work will also be needed to evaluate the cost effectiveness of this tactic and determine its compatibility with common production practices.</p>
+</sec>
+<sec id="sec022">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222800.s001" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Dates of agricultural practices.</title>
+<p>Dates of agricultural practices including seed treatments, water seeding, flooding, and foliar sprays. Sample dates for emergence, biomass, rice water weevil core samples, heading, and harvest.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222800.s002" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Supplemental data.</title>
+<p>Mean and standard error are provided for each treatment, on each sample date, for all response variables in experiments in 2017 and 2018.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This manuscript was approved for publication by the Director of the Louisiana Agricultural Experiment Station, manuscript number 2019. We are grateful to the Crowley Rice Research Station staff and student employees for assistance with field experiments.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222800.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Campos</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Howe</surname> <given-names>GA</given-names></name>. <article-title>Jasmonate-triggered plant immunity</article-title>. <source>Journal of chemical ecology</source>. <year>2014</year> <month>Jul</month> <day>1</day>;<volume>40</volume>(<issue>7</issue>):<fpage>657</fpage>&#8211;<lpage>75</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10886-014-0468-3" ns0:type="simple">10.1007/s10886-014-0468-3</ext-link></comment> <object-id pub-id-type="pmid">24973116</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lortzing</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Steppuhn</surname> <given-names>A</given-names></name>. <article-title>Jasmonate signalling in plants shapes plant&#8211;insect interaction ecology</article-title>. <source>Current opinion in insect science</source>. <year>2016</year> <month>Apr</month> <day>1</day>;<volume>14</volume>:<fpage>32</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cois.2016.01.002" ns0:type="simple">10.1016/j.cois.2016.01.002</ext-link></comment> <object-id pub-id-type="pmid">27436644</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dar</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Uddin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Khan</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Hakeem</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Jaleel</surname> <given-names>H</given-names></name>. <article-title>Jasmonates counter plant stress: a review</article-title>. <source>Environmental and Experimental Botany</source>. <year>2015</year> <month>Jul</month> <day>1</day>;<volume>115</volume>:<fpage>49</fpage>&#8211;<lpage>57</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Baldwin</surname> <given-names>IT</given-names></name>. <article-title>Jasmonate-induced responses are costly but benefit plants under attack in native populations</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>1998</year> <month>Jul</month> <day>7</day>;<volume>95</volume>(<issue>14</issue>):<fpage>8113</fpage>&#8211;<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thaler</surname> <given-names>JS</given-names></name>. <article-title>Jasmonate-inducible plant defences cause increased parasitism of herbivores</article-title>. <source>Nature</source>. <year>1999</year> <month>Jun</month>;<volume>399</volume>(<issue>6737</issue>):<fpage>686</fpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Haas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lozano</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Haida</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Mazaro</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>de Souza Vismara</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Poppy</surname> <given-names>GM</given-names></name>. <article-title>Getting ready for battle: do cabbage seeds treated with jasmonic acid and chitosan affect chewing and sap&#8208;feeding insects</article-title>?. <source>Entomologia Experimentalis et Applicata</source>. <year>2018</year> <month>May</month>;<volume>166</volume>(<issue>5</issue>):<fpage>412</fpage>&#8211;<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thaler</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Karban</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Duffey</surname> <given-names>SS</given-names></name>. <article-title>Exogenous jasmonates simulate insect wounding in tomato plants (Lycopersicon esculentum) in the laboratory and field</article-title>. <source>Journal of Chemical Ecology</source>. <year>1996</year> <month>Oct</month> <day>1</day>;<volume>22</volume>(<issue>10</issue>):<fpage>1767</fpage>&#8211;<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/BF02028503" ns0:type="simple">10.1007/BF02028503</ext-link></comment> <object-id pub-id-type="pmid">24227107</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thaler</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Karban</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Duffey</surname> <given-names>SS</given-names></name>. <article-title>Jasmonate&#8208;mediated induced plant resistance affects a community of herbivores</article-title>. <source>Ecological Entomology</source>. <year>2001</year> <month>Jun</month>;<volume>26</volume>(<issue>3</issue>):<fpage>312</fpage>&#8211;<lpage>24</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Muttucumaru</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Powers</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Gaur</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Kurup</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Curtis</surname> <given-names>RH</given-names></name>. <article-title>Differential defence response due to jasmonate seed treatment in cowpea and tomato against root-knot and potato cyst nematodes</article-title>. <source>Nematology</source>. <year>2013</year> <month>Jan</month> <day>1</day>;<volume>15</volume>(<issue>1</issue>):<fpage>15</fpage>&#8211;<lpage>21</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Redman</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Cipollini</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>Schultz</surname> <given-names>JC</given-names></name>. <article-title>Fitness costs of jasmonic acid-induced defense in tomato, Lycopersicon esculentum</article-title>. <source>Oecologia</source>. <year>2001</year> <month>Feb</month> <day>1</day>;<volume>126</volume>(<issue>3</issue>):<fpage>380</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s004420000522" ns0:type="simple">10.1007/s004420000522</ext-link></comment> <object-id pub-id-type="pmid">28547452</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Guo</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Major</surname> <given-names>IT</given-names></name>, <name name-style="western"><surname>Howe</surname> <given-names>GA</given-names></name>. <article-title>Resolution of growth&#8211;defense conflict: mechanistic insights from jasmonate signaling</article-title>. <source>Current opinion in plant biology</source>. <year>2018</year> <month>Aug</month> <day>1</day>;<volume>44</volume>:<fpage>72</fpage>&#8211;<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pbi.2018.02.009" ns0:type="simple">10.1016/j.pbi.2018.02.009</ext-link></comment> <object-id pub-id-type="pmid">29555489</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cipollini</surname> <given-names>DF</given-names> <suffix>Jr</suffix></name>. <article-title>Wind-induced mechanical stimulation increases pest resistance in common bean</article-title>. <source>Oecologia</source>. <year>1997</year> <month>Jun</month> <day>1</day>;<volume>111</volume>(<issue>1</issue>):<fpage>84</fpage>&#8211;<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s004420050211" ns0:type="simple">10.1007/s004420050211</ext-link></comment> <object-id pub-id-type="pmid">28307509</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>G&#243;mez</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Van Dijk</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Stuefer</surname> <given-names>JF</given-names></name>. <article-title>Timing of induced resistance in a clonal plant network</article-title>. <source>Plant Biology</source>. <year>2010</year> <month>May</month>;<volume>12</volume>(<issue>3</issue>):<fpage>512</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1438-8677.2009.00234.x" ns0:type="simple">10.1111/j.1438-8677.2009.00234.x</ext-link></comment> <object-id pub-id-type="pmid">20522188</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Underwood</surname> <given-names>NC</given-names></name>. <article-title>The timing of induced resistance and induced susceptibility in the soybean-Mexican bean beetle system</article-title>. <source>Oecologia</source>. <year>1998</year> <month>Apr</month> <day>1</day>;<volume>114</volume>(<issue>3</issue>):<fpage>376</fpage>&#8211;<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s004420050460" ns0:type="simple">10.1007/s004420050460</ext-link></comment> <object-id pub-id-type="pmid">28307781</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hemmi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Honkanen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Jormalainen</surname> <given-names>V</given-names></name>. <article-title>Inducible resistance to herbivory in Fucus vesiculosus duration, spreading and variation with nutrient availability</article-title>. <source>Marine Ecology Progress Series</source>. <year>2004</year> <month>Jun</month> <day>8</day>;<volume>273</volume>:<fpage>109</fpage>&#8211;<lpage>20</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Heil</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Baldwin</surname> <given-names>IT</given-names></name>. <article-title>Fitness costs of induced resistance: emerging experimental support for a slippery concept</article-title>. <source>Trends in plant science</source>. <year>2002</year> <month>Feb</month> <day>1</day>;<volume>7</volume>(<issue>2</issue>):<fpage>61</fpage>&#8211;<lpage>7</lpage>. <object-id pub-id-type="pmid">11832276</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Rita Riggio</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zou</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Roberts</surname> <given-names>R</given-names></name>. <article-title>Flooding influences ovipositional and feeding behavior of the rice water weevil (Coleoptera: Curculionidae)</article-title>. <source>Journal of economic entomology</source>. <year>2002</year> <month>Aug</month> <day>1</day>;<volume>95</volume>(<issue>4</issue>):<fpage>715</fpage>&#8211;<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1603/0022-0493-95.4.715" ns0:type="simple">10.1603/0022-0493-95.4.715</ext-link></comment> <object-id pub-id-type="pmid">12216811</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>J</given-names></name>. <article-title>Rice water weevil (Coleoptera: Curculionidae) population dynamics in Louisiana</article-title>. <source>Journal of Entomological Science</source>. <year>2004</year> <month>Oct</month>;<volume>39</volume>(<issue>4</issue>):<fpage>623</fpage>&#8211;<lpage>42</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>N'guessan</surname> <given-names>FK</given-names></name>, <name name-style="western"><surname>Quisenberry</surname> <given-names>SS</given-names></name>. <article-title>Screening selected rice lines for resistance to the rice water weevil (Coleoptera: Curculionidae)</article-title>. <source>Environmental entomology</source>. <year>1994</year> <month>Jun</month> <day>1</day>;<volume>23</volume>(<issue>3</issue>):<fpage>665</fpage>&#8211;<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Verma</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Ravindran</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>PP</given-names></name>. <article-title>Plant hormone-mediated regulation of stress responses</article-title>. <source>BMC plant biology</source>. <year>2016</year> <month>Dec</month>;<volume>16</volume>(<issue>1</issue>):<fpage>86</fpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Erb</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Meldau</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Howe</surname> <given-names>GA</given-names></name>. <article-title>Role of phytohormones in insect-specific plant reactions</article-title>. <source>Trends in plant science</source>. <year>2012</year> <month>May</month> <day>1</day>;<volume>17</volume>(<issue>5</issue>):<fpage>250</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tplants.2012.01.003" ns0:type="simple">10.1016/j.tplants.2012.01.003</ext-link></comment> <object-id pub-id-type="pmid">22305233</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hamm</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Riggio</surname> <given-names>RM</given-names></name>. <article-title>Herbivore-and elicitor-induced resistance in rice to the rice water weevil (Lissorhoptrus oryzophilus Kuschel) in the laboratory and field</article-title>. <source>Journal of chemical ecology</source>. <year>2010</year> <month>Feb</month> <day>1</day>;<volume>36</volume>(<issue>2</issue>):<fpage>192</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10886-010-9751-0" ns0:type="simple">10.1007/s10886-010-9751-0</ext-link></comment> <object-id pub-id-type="pmid">20151182</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gordy</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Leonard</surname> <given-names>BR</given-names></name>, <name name-style="western"><surname>Blouin</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Davis</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>MJ</given-names></name>. <article-title>Comparative effectiveness of potential elicitors of plant resistance against Spodoptera frugiperda (JE Smith)(Lepidoptera: Noctuidae) in four crop plants</article-title>. <source>PloS one</source>. <year>2015</year> <month>Sep</month> <day>2</day>;<volume>10</volume>(<issue>9</issue>):<fpage>e0136689</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0136689" ns0:type="simple">10.1371/journal.pone.0136689</ext-link></comment> <object-id pub-id-type="pmid">26332833</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mitchell</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Brennan</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Graham</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Karley</surname> <given-names>AJ</given-names></name>. <article-title>Plant defense against herbivorous pests: exploiting resistance and tolerance traits for sustainable crop protection</article-title>. <source>Frontiers in plant science</source>. <year>2016</year> <month>Jul</month> <day>29</day>;<volume>7</volume>:<fpage>1132</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fpls.2016.01132" ns0:type="simple">10.3389/fpls.2016.01132</ext-link></comment> <object-id pub-id-type="pmid">27524994</object-id></mixed-citation></ref>
+<ref id="pone.0222800.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tiffin</surname> <given-names>P</given-names></name>. <article-title>Mechanisms of tolerance to herbivore damage: what do we know?</article-title>. <source>Evolutionary Ecology</source>. <year>2000</year> <month>Jul</month> <day>1</day>;<volume>14</volume>(<issue>4&#8211;6</issue>):<fpage>523</fpage>&#8211;<lpage>36</lpage>.</mixed-citation></ref>
+<ref id="pone.0222800.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Paudel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rajotte</surname> <given-names>EG</given-names></name>, <name name-style="western"><surname>Felton</surname> <given-names>GW</given-names></name>. <article-title>Benefits and costs of tomato seed treatment with plant defense elicitors for insect resistance</article-title>. <source>Arthropod-Plant Interactions</source>. <year>2014</year> <month>Dec</month> <day>1</day>;<volume>8</volume>(<issue>6</issue>):<fpage>539</fpage>&#8211;<lpage>45</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222800.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Prager</surname>
+<given-names>Sean Michael</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sean Michael Prager</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222800" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">6 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-14964</p>
+<p>Seed treatment using methyl jasmonate induces resistance to an herbivore but reduces plant growth in rice</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Kraus,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>I apologize for the delay in this response. It was quite difficult to find reviewers for this paper. Having now received two reviews, I am happy to indicate that the paper only requires minor edits. Please address those issues indicated by the reviewer and we will gladly accept the paper.</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by Sep 20 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Sean Michael Prager, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. We note that you have included the phrase &#8220;data not shown&#8221; in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data.</p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: This manuscript reported the effect of seed treatment with MJ on rice resistance to RWW and on plant growth. The authors found that MJ treatment of rice seeds enhanced plant resistance to larval RWW but reduced plant growth. However, the authors also observed that yields on a per-plant were not significantly reduced by MJ treatment.The work is interesting and show the potential for the use of jasmonate elicitors as part of a pest management program in rice. Overall, the experiments in the manuscript were well designed and the article was well written.</p>
+<p>I have just some minor concerns:</p>
+<p>Line 301, &#8220;The effect of time was also significant&#8221;, there is no data to prove this. May be it can be put in the supplementary meterials.</p>
+<p>Line 315, &#8220;On the second sampling date, densities of RWW immatures were 73% lower in Karate treated plots than in control plots&#8221;. There was also no data to support this.</p>
+<p>Line 322-325, &#8220;Three days later, numbers of plants emerged were approximately 10% higher overall&#8221; &#8220;There was no interaction between MJ and time&#8221;. No data support.</p>
+<p>Line 331-332,334-335, 338-339, 351-352, 367-368, 376-377, 389-390, 407-412, no data support.</p>
+<p>Line 355-358,365-367, no data support. Is it possible to put some supplemental tables or figures?</p>
+<p>Reviewer #2: In this work, the authors studied the effects of methyl jasmonate (MJ) seed treatment on plant resistant to the rice water weevil (RWW) and plant growth in rice under greenhouse and field conditions. It was demonstrated that MJ treatment to seeds enhanced rice resistant to RRW but with a cost, as seedling emergence and heading were delayed and rice biomass was reduced. However, and importantly, they found the yields were not significantly impaired by the MJ treatment. Especially, this work provides useful data of effect of MJ seed treatment in field conditions for two years, and the data include investigations on the effect of MJ treatment, insecticide Karate application, and both, and the duration of MJ effects was also determined. This study is interesting and expands our understanding on the potential application of MJ to seeds as part of a pest management program.</p>
+<p>I have only a minor suggestion: In the title, &#8220;an herbivore&#8221; could be replaced by &#8220;rice water weevil&#8221;.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222800.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222800" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222800.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">6 Sep 2019</named-content>
+</p>
+<p>The reviewers comments were mainly addressed by the additional of a supplemental table including all means and standard errors from each sample date.</p>
+<p>5. Review Comments to the Author</p>
+<p>I have just some minor concerns:</p>
+<p>Line 301, &#8220;The effect of time was also significant&#8221;, there is no data to prove this. May be it can be put in the supplementary materials.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Line 303)</p>
+<p>Line 315, &#8220;On the second sampling date, densities of RWW immatures were 73% lower in Karate treated plots than in control plots&#8221;. There was also no data to support this.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Line 317)</p>
+<p>Line 322-325, &#8220;Three days later, numbers of plants emerged were approximately 10% higher overall&#8221; &#8220;There was no interaction between MJ and time&#8221;. No data support.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Lines 325-326)</p>
+<p>Line 331-332,334-335, 338-339, 351-352, 367-368, 376-377, 389-390, 407-412, no data support. Line 355-358,365-367, no data support. Is it possible to put some supplemental tables or figures?</p>
+<p>Figure 4 contains much of this data, but was not noted in the text. This has been corrected. Additionally a supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Lines 333-334, 337, 341, 345, 354, 356, 357, 361, 365-366, 370-371, 380,393,415)</p>
+<p>Reviewer #2: </p>
+<p>I have only a minor suggestion: In the title, &#8220;an herbivore&#8221; could be replaced by &#8220;rice water weevil&#8221;.</p>
+<p>This suggestion was included and the title altered</p>
+<supplementary-material id="pone.0222800.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to reviewer.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222800.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Prager</surname>
+<given-names>Sean Michael</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sean Michael Prager</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222800" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Sep 2019</named-content>
+</p>
+<p>Seed treatment using methyl jasmonate induces resistance to&#160;rice water weevil&#160;but reduces plant growth in rice</p>
+<p>PONE-D-19-14964R1</p>
+<p>Dear Dr. Kraus,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Sean Michael Prager, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222800.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Prager</surname>
+<given-names>Sean Michael</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sean Michael Prager</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222800" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">16 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-14964R1 </p>
+<p>Seed treatment using methyl jasmonate induces resistance to&#160;rice water weevil&#160;but reduces plant growth in rice </p>
+<p>Dear Dr. Kraus:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Sean Michael Prager  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

@@ -1,0 +1,40 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222800.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222800.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222800" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222800.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">6 Sep 2019</named-content>
+</p>
+<p>The reviewers comments were mainly addressed by the additional of a supplemental table including all means and standard errors from each sample date.</p>
+<p>5. Review Comments to the Author</p>
+<p>I have just some minor concerns:</p>
+<p>Line 301, &#8220;The effect of time was also significant&#8221;, there is no data to prove this. May be it can be put in the supplementary materials.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Line 303)</p>
+<p>Line 315, &#8220;On the second sampling date, densities of RWW immatures were 73% lower in Karate treated plots than in control plots&#8221;. There was also no data to support this.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Line 317)</p>
+<p>Line 322-325, &#8220;Three days later, numbers of plants emerged were approximately 10% higher overall&#8221; &#8220;There was no interaction between MJ and time&#8221;. No data support.</p>
+<p>A supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Lines 325-326)</p>
+<p>Line 331-332,334-335, 338-339, 351-352, 367-368, 376-377, 389-390, 407-412, no data support. Line 355-358,365-367, no data support. Is it possible to put some supplemental tables or figures?</p>
+<p>Figure 4 contains much of this data, but was not noted in the text. This has been corrected. Additionally a supplementary table was created which includes the mean and standard error for each treatment on each individual sampling date. (Lines 333-334, 337, 341, 345, 354, 356, 357, 361, 365-366, 370-371, 380,393,415)</p>
+<p>Reviewer #2: </p>
+<p>I have only a minor suggestion: In the title, &#8220;an herbivore&#8221; could be replaced by &#8220;rice water weevil&#8221;.</p>
+<p>This suggestion was included and the title altered</p>
+<supplementary-material id="pone.0222800.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222800.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to reviewer.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

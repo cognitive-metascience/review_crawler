@@ -1,0 +1,1232 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222467</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-15509</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Ophthalmology</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Eyes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Head</subject><subj-group><subject>Eyes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Eyes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Eyes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Ophthalmology</subject><subj-group><subject>Eye diseases</subject><subj-group><subject>Glaucoma</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Research assessment</subject><subj-group><subject>Research validity</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Ophthalmology</subject><subj-group><subject>Eye diseases</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Quality of life</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Geriatrics</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Impact of tear metrics on the reliability of perimetry in patients with dry eye</article-title>
+<alt-title alt-title-type="running-head">Tear metrics and the reliability of perimetry</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4069-8389</contrib-id>
+<name name-style="western">
+<surname>Sagara</surname>
+<given-names>Hideto</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8042-2729</contrib-id>
+<name name-style="western">
+<surname>Sekiryu</surname>
+<given-names>Tetsuju</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Imaizumi</surname>
+<given-names>Kimihiro</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Shintake</surname>
+<given-names>Hiroaki</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Sugiyama</surname>
+<given-names>Urara</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Maehara</surname>
+<given-names>Hiroki</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>The Marui Eye Clinic, Minamisoma City, Fukushima, Japan</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Ophthalmology, Fukushima Medical University School of Medicine, Fukushima City, Fukushima, Japan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Wolffsohn</surname>
+<given-names>James</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Aston University School of Life and Health Sciences, UNITED KINGDOM</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">hide1234@ruby.ocn.ne.jp</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>17</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222467</elocation-id>
+<history>
+<date date-type="received">
+<day>31</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>30</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sagara et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222467" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>The application of artificial tears before performing perimetry can improve the reliability and results of perimetry in patients with glaucoma and dry eye (DE). However, the effects of ocular surface and tear film conditions on perimetry measurements and reliability have not been fully characterized.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>This prospective, cross-sectional, multicenter study investigated tear metrics in perimetry and assessed the relationships that existed among ocular surface condition, tear condition, and perimetry reliability. Forty-three eyes (43 patients) with DE disease according to the 2016 Japanese diagnostic criteria of DE and 43 eyes (43 subjects) of age- and visual field mean deviation-matched normal control subjects were studied. Perimetry was performed using the Humphrey Field Analyzer (30&#8211;2 SITA-Standard). Schirmer&#8217;s test, strip meniscometry value, blink rate, tear film break-up time (TFBUT), fluorescein staining of ocular surface, and Dry Eye-related Quality of Life Score (DEQS) were measured. Blink rate was re-measured during perimetry. TFBUT and fluorescein staining were re-evaluated after perimetry. Perimetry reliability was evaluated with fixation loss, false-positive, and false-negative rates.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Blink rate during perimetry was significantly lower for both patients with DE and normal controls (both P&lt;0.001). TFBUT after perimetry was significantly higher than before perimetry in patients with DE (P&lt;0.001). Fluorescein staining of ocular surface was significantly increased in patients with DE and normal control subjects (P = 0.002 and P&lt;0.001, respectively). Spearman correlation analysis revealed that blink rate during perimetry was negatively correlated with fixation-loss rate (r = -0.393, P = 0.009) in patients with DE.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Performing perimetry was associated with a significant change in tear condition and ocular surface condition in both patients with DE and normal control subjects. The changes in tear condition and ocular surface condition may impact the reliability of perimetry in patients with DE.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="3" />
+<table-count count="3" />
+<page-count count="12" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are available in the Figshare Repository at <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.6084/m9.figshare.9771926" ns0:type="simple">https://doi.org/10.6084/m9.figshare.9771926</ext-link>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Perimetry, particularly automated perimetry, is widely used to determine visual field loss and to confirm worsening of glaucomatous damage. Ocular surface disease occurs in approximately 15% of the general elderly population and is reported in 48&#8211;59% of patients with medically treated glaucoma [<xref ref-type="bibr" rid="pone.0222467.ref001">1</xref>]. The application of artificial tears before performing perimetry can improve the reliability and results of perimetry in patients with glaucoma and dry eye (DE) [<xref ref-type="bibr" rid="pone.0222467.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0222467.ref004">4</xref>]. An association between ocular surface disorders and increased frequency of eye movement during perimetry in pre-perimetric glaucoma has been reported [<xref ref-type="bibr" rid="pone.0222467.ref005">5</xref>]. Therefore, it is necessary to examine the tear film and ocular surface conditions of patients who have, or are suspected of having, glaucoma before performing perimetry in order to acquire high perimetry reliability. Nevertheless, the effects of ocular surface and tear film conditions on perimetry measurements and reliability have not been fully characterized.</p>
+<p>During perimetry, patients are instructed to closely watch visual targets. Thus, most patients try to concentrate during perimetry to avoid missing the targets. As a result of this concentrated viewing (i.e., &#8220;staring&#8221;), tear condition may change drastically during perimetry. These changes may affect the results and reliability of perimetry measurements. However, the effects of perimetry-induced changes on tear condition, and the effects of tear condition change on perimetry measurements have not been clarified. The Humphrey Field Analyzer (Carl Zeiss Meditec, Dublin, CA, USA) is used worldwide to monitor visual field damage in patients with glaucoma [<xref ref-type="bibr" rid="pone.0222467.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pone.0222467.ref010">10</xref>]. The Humphrey Field Analyzer allows measurement of parameters that indicate the reliability of perimetry, such as fixation loss (FL), false-positive (FP), and false-negative (FN) rates [<xref ref-type="bibr" rid="pone.0222467.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0222467.ref012">12</xref>]. The aim of this study was to assess the relationships between indices of perimetry reliability, ocular surface condition change, and tear metrics. These indices were compared in two groups: patients with DE and normal control subjects.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec007">
+<title>Participants and ethics</title>
+<p>Forty-three eyes of 43 patients with DE, according to the 2016 Japanese diagnostic criteria of DE [<xref ref-type="bibr" rid="pone.0222467.ref013">13</xref>] (23 males, 20 females; mean age &#177; standard deviation [SD], 71.7 &#177; 8.1 years), with a median (interquartile range [IQR]) Humphrey visual field mean deviation (MD) of -4.0 (-10.0 to -0.8 dB), and 43 eyes of 43 age- and MD-matched normal control subjects (28 males, 15 females; mean age &#177; SD, 68.9 &#177; 9.9 years) with a median (IQR) MD of -4.0 (-9.0 to -0.7 dB) were recruited for this prospective multicenter study. MD rate [<xref ref-type="bibr" rid="pone.0222467.ref014">14</xref>] reportedly affects the reliability of perimetry indices; therefore, the MD rates were matched in this study. All patients attending the glaucoma specialty outpatient clinic of Fukushima Medical University or the Marui Eye Clinic from May to November 2014 were considered. The study was approved by the Institutional Review Board/Ethics Committee of Fukushima Medical University and conducted according to the tenets of the Declaration of Helsinki. All patients recruited for the study provided written informed consent.</p>
+<p>Patients with DE and normal control subjects who had a follow-up of more than 6 months with at least three perimetry measurements, a best-corrected visual acuity of 20/25 or better, an intraocular pressure of &#8804;21 mmHg, and who were diagnosed or suspected of having glaucoma were included. In cases where perimetry was performed on both eyes, it was performed first in the patient&#8217;s right eye. Only eyes in which perimetry was initially performed were examined. Both patients with DE and normal control subjects were excluded if they had a clinical history of lacrimal duct atresia, atopy, allergies, Stevens-Johnson syndrome, injuries (chemical, thermal, or radiation), contact lens use, or any other ocular or systemic disorders that could create a tear condition and/or ocular surface problems.</p>
+<p>A total of 27 eyes (62.8%) and 29 eyes (67.4%) in patients with DE, and normal control subjects, respectively, were treated with anti-glaucoma eye drops. Additionally, 15 eyes (34.9%) in patients with DE and 14 eyes (32.6%) in normal control subjects were treated with lubricant eye drops on a daily basis for more than six months. The average test times of patients with DE and normal control subjects were 495.4 &#177; 107.8 s and 502.5 &#177; 98.8 s, respectively, with no significant difference between groups (P = 0.749).</p>
+</sec>
+<sec id="sec008">
+<title>Examinations</title>
+<p>Temperature and humidity of the examination room were adjusted to 25&#8211;27 &#176;C and 50&#8211;60%, respectively, during perimetry. Perimetry was performed using the Humphrey Visual Field Analyzer II (model 750) with the Swedish interactive threshold algorithm (SITA) standard strategy, the 30&#8211;2 program, and a size III white stimulus on a white background (equivalent to 31.5 apostilbs). The FL, FP, and FN rates were used to assess the reliability of perimetry.</p>
+<p>In 2016, the Asia Dry Eye Society and Dry Eye Society of Japan implemented new diagnostic criteria for DE disease that enabled diagnosis with only two positive items: subjective symptoms and decreased tear film break-up time (TFBUT) (&#8804;5 seconds) [<xref ref-type="bibr" rid="pone.0222467.ref013">13</xref>]. In this study, DE was diagnosed according to the new diagnostic criteria. Dry Eye-related Quality of Life Score (DEQS) questionnaires were used to evaluate the symptoms associated with DE [<xref ref-type="bibr" rid="pone.0222467.ref015">15</xref>]. DEQS scores &gt; 15 were defined as being symptom-positive for DE [<xref ref-type="bibr" rid="pone.0222467.ref016">16</xref>]. The DEQS is a self-evaluation method, which provides assessment of the effects of DE symptoms on quality of life in general, including a patient&#8217;s mental health. The DEQS includes 15 questions and two sub-categories: impact on daily life and bothersome ocular symptoms. Each questionnaire was scored on a 4-point Likert scale ranging from 1 to 4, with a larger number indicating a greater burden. The final score was calculated using the DEQS formula by multiplying the sum of the score by 25 and then dividing the total by the number of questions answered. The summary score for the DEQS ranges from 0 to 100; the higher the score, the greater the disability. This questionnaire has been validated and is often used in clinical trials [<xref ref-type="bibr" rid="pone.0222467.ref015">15</xref>].</p>
+<p>Tear metrics and ocular surface condition were evaluated using five parameters: 1) Schirmer&#8217;s test value, 2) tear meniscus volume using a Strip Meniscometry (SM) Tube (Eco Electricity Co, Ltd., Fukushima, Japan) [<xref ref-type="bibr" rid="pone.0222467.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0222467.ref018">18</xref>], 3) blink rate, 4) TFBUT, and 5) fluorescein staining (graded by the van Bijsterveld [VB] score [0&#8211;9]) [<xref ref-type="bibr" rid="pone.0222467.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0222467.ref020">20</xref>]. The use of all eye drops, including anti-glaucoma eye drops, was stopped 4 hours before all examinations to avoid eye drop effects. Schirmer&#8217;s test without topical anesthesia and lacrimal irrigation were performed on other days, within 20 days of perimetry. SM value, blink rate in 1 min, TFBUT, and VB scores were evaluated 30 mins before starting perimetry. TFBUT and VB scores were re-evaluated immediately after the first perimetry. Expert optometrists observed the eyes of subjects and manually counted the number of blinks before perimetry, while subjects were in a relaxed atmosphere. The participants were unaware that their blink rate was being observed. For measurement of TFBUT, the interval between the last complete blink and the first appearance of a dry spot or disruption in the tear film was recorded after the instillation of fluorescein. TFBUT was evaluated three times, and the mean value was recorded. The number of blinks during perimetry were recorded using the video eye monitor of the Humphrey Visual Field Analyzer II [<xref ref-type="bibr" rid="pone.0222467.ref021">21</xref>]. One complete closure of the eyelid constituted one blink [<xref ref-type="bibr" rid="pone.0222467.ref022">22</xref>]. The patients and subjects were divided into four groups, and we assessed the relationship between indices of reliability of perimetry, ocular surface conditions, and tear metrics. Group 1 comprised 35 eyes in 35 patients with DE with blink rates that decreased during perimetry. Group 2 comprised 8 eyes in 8 patients with DE with blink rates that increased or remained unchanged during perimetry. Group 3 comprised 35 eyes in 35 normal control subjects with blink rates that decreased during perimetry. Group 4 comprised 8 eyes in 8 normal control subjects with blink rates that increased or remained unchanged during perimetry.</p>
+</sec>
+<sec id="sec009">
+<title>Statistical analysis</title>
+<p>The differences in the blink rate before and during perimetry, and the differences in TFBUT and VB scores before and after perimetry, were assessed using the Wilcoxon signed-rank test. Differences in patient age were assessed using an unpaired <italic>t</italic>-test. Kruskal-Wallis <italic>H</italic> and Bonferroni correction tests were used to assess the differences in parameters among the four groups. Other values were compared using the Mann-Whitney <italic>U</italic> test. Correlations between the factors studied were assessed by Spearman nonparametric correlation analysis. A <italic>P</italic>-value &lt; 0.05 was considered statistically significant. The data are presented as mean &#177; SD or median (IQR [min-max]). All statistical analyses were performed using R version 3.3.2 software (R Foundation for Statistical Computing, Vienna, Austria).</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<p>Schirmer&#8217;s test values of &lt;10 mm were observed in 38 eyes (88.4%) and 12 eyes (27.9%) in patients with DE and normal control subjects, respectively. In the DE group, only 1 eye (2.3%) had a normal SM rate (&gt;5 mm), and in the control group, only one 1 eye (2.3%) also had a normal SM rate. Median blink rate during perimetry was significantly lower compared to pre-perimetry rates in both patients with DE: 5.2 (2.6&#8211;12.2 [0&#8211;39]) vs. 15.0 (9.5&#8211;19.0 [2&#8211;44]) /min and normal control subjects: 3.4 (1.4&#8211;8.2 [0&#8211;36]) vs. 14.0 (10.0&#8211;20.0 [3&#8211;48]) /min (both P&lt;0.001; <xref ref-type="table" rid="pone.0222467.t001">Table 1</xref>). Blink rates of 35 eyes (81.4%) decreased, and the rates of 8 eyes (18.6%) increased or remained unchanged during perimetry in both patients with DE and normal control subjects. There were no significant differences in perimetry reliability parameters between patients with DE and normal control subjects (<xref ref-type="table" rid="pone.0222467.t001">Table 1</xref>). However, FL rate was significantly higher in eyes with decreased blink rates among patients with DE (P = 0.002; <xref ref-type="table" rid="pone.0222467.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0222467.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.t001</object-id>
+<label>Table 1</label> <caption><title>Comparison of parameters in patients with dry eye and normal control subjects.</title></caption>
+<alternatives>
+<graphic id="pone.0222467.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Tear condition and ocular surface parameters</th>
+<th align="center">Patients with dry eye</th>
+<th align="center">Normal control subjects</th>
+<th align="center"><italic>P</italic>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Schirmer&#8217;s test (mm)</td>
+<td align="center">4.0 (2.0&#8211;7.0[0.0&#8211;25.0])</td>
+<td align="center">14.0 (8.5&#8211;19.0[6.0&#8211;34.0])</td>
+<td align="char" char=".">&lt; .001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">SM value (mm)</td>
+<td align="center">1.9 (1.5&#8211;2.7[1.0&#8211;5.5])</td>
+<td align="center">1.8 (1.5&#8211;2.7[1.0&#8211;7.0])</td>
+<td align="char" char=".">.741</td>
+</tr>
+<tr>
+<td align="center">Blink rate before perimetry (/min)</td>
+<td align="center">15.0 (9.5&#8211;19.0[2&#8211;44])</td>
+<td align="center">14.0 (10.0&#8211;20.0[3&#8211;48])</td>
+<td align="char" char=".">.969</td>
+</tr>
+<tr>
+<td align="center">Blink rate during perimetry (/min)</td>
+<td align="center">5.2 (2.6&#8211;12.2[0&#8211;39])</td>
+<td align="center">3.4 (1.4&#8211;8.2[0&#8211;36])</td>
+<td align="char" char=".">.265</td>
+</tr>
+<tr>
+<td align="center">TFBUT before perimetry (sec)</td>
+<td align="center">4.0 (3.0&#8211;4.5[1&#8211;5])</td>
+<td align="center">8.0 (7.0&#8211;11.0[6&#8211;17])</td>
+<td align="char" char=".">&lt; .001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">TFBUT after perimetry (sec)</td>
+<td align="center">4.0 (3.0&#8211;5.0[2&#8211;15])</td>
+<td align="center">8.0 (6.0&#8211;11.0[3&#8211;19])</td>
+<td align="char" char=".">&lt; .001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">VB score before perimetry</td>
+<td align="center">1.0 (0.0&#8211;2.0[0&#8211;5])</td>
+<td align="center">0.0 (0.0&#8211;1.0[0&#8211;2])</td>
+<td align="char" char=".">.046<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">VB score after perimetry</td>
+<td align="center">1.0 (0.0&#8211;3.0[0&#8211;6])</td>
+<td align="center">1.0 (0.0&#8211;2.0[0&#8211;5])</td>
+<td align="char" char=".">.081</td>
+</tr>
+<tr>
+<td align="center">DEQS</td>
+<td align="center">35.0 (23.2&#8211;46.7[16.7&#8211;75.0])</td>
+<td align="center">8.3 (1.7&#8211;22.5[0.0&#8211;55.0])</td>
+<td align="char" char=".">&lt; .001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>Perimetry Reliability Parameters</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Fixation loss rate (%)</td>
+<td align="center">11.1 (5.0&#8211;45.6[0.0&#8211;100])</td>
+<td align="center">11.0 (2.8&#8211;42.3[0.0&#8211;100])</td>
+<td align="char" char=".">.931</td>
+</tr>
+<tr>
+<td align="center">False positive rate (%)</td>
+<td align="center">1.0 (1.0&#8211;4.5[0.0&#8211;62.0])</td>
+<td align="center">2.0 (0.0&#8211;8.0[0.0&#8211;81.0])</td>
+<td align="char" char=".">.363</td>
+</tr>
+<tr>
+<td align="center">False negative rate (%)</td>
+<td align="center">6.0 (0.0&#8211;11.5[0.0&#8211;40.0])</td>
+<td align="center">7.0 (0.0&#8211;12.0[0.0&#8211;26.0])</td>
+<td align="char" char=".">.705</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Values are presented as median (interquartile range [min-max]). The Mann-Whitney <italic>U</italic> test was used to assess P-values.</p></fn>
+<fn id="t001fn002"><p>*<italic>P</italic>&lt;0.05. SM, strip meniscometry</p></fn>
+<fn id="t001fn003"><p>TFBUT, tear film break-up time; VB score, van Bijsterveld score; DEQS, Dry Eye-related Quality of Life score.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0222467.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.t002</object-id>
+<label>Table 2</label> <caption><title>Comparison of blink rate and other parameters during perimetry in patients with dry eye and normal control subjects.</title></caption>
+<alternatives>
+<graphic id="pone.0222467.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2" />
+<th align="center" colspan="2">Blink rate during perimetry</th>
+<th align="center" rowspan="2"><italic>P</italic>-value</th>
+</tr>
+<tr>
+<th align="center">Decreased</th>
+<th align="center">Increased or unchanged</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Patients with Dry Eye</bold></td>
+<td align="center">Group 1<break />(n = 35)</td>
+<td align="center">Group 2<break />(n = 8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center"><bold>Tear condition and ocular surface parameters</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Schirmer&#8217;s test (mm)</td>
+<td align="center">3.0 (2.0&#8211;6.5[1.0&#8211;25.0])</td>
+<td align="center">5.0 (1.8&#8211;7.0[0.0&#8211;15.0])</td>
+<td align="char" char=".">1.000</td>
+</tr>
+<tr>
+<td align="center">SM value (mm)</td>
+<td align="center">1.8 (1.5&#8211;2.2[1.0&#8211;5.0])</td>
+<td align="center">2.8 (1.7&#8211;3.6[1.5&#8211;5.5])</td>
+<td align="char" char=".">.102</td>
+</tr>
+<tr>
+<td align="center">Blink rate before perimetry (/min)</td>
+<td align="center">17.0 (10.5&#8211;19.0[3&#8211;44])</td>
+<td align="center">11.0 (8.8&#8211;13.3[2&#8211;16])</td>
+<td align="char" char=".">.051</td>
+</tr>
+<tr>
+<td align="center">Blink rate during perimetry (/min)</td>
+<td align="center">4.6 (1.7&#8211;7.0[0&#8211;21])</td>
+<td align="center">13.4 (11.4&#8211;16.0[2&#8211;39])</td>
+<td align="char" char=".">.007<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+</tr>
+<tr>
+<td align="center">TFBUT before perimetry (sec)</td>
+<td align="center">4.0 (3.0&#8211;4.5[2&#8211;5])</td>
+<td align="center">2.5 (2.0&#8211;4.3[1&#8211;5])</td>
+<td align="char" char=".">.218</td>
+</tr>
+<tr>
+<td align="center">TFBUT after perimetry (sec)</td>
+<td align="center">4.0 (3.0&#8211;5.0[2&#8211;15])</td>
+<td align="center">3.5 (2.8&#8211;6.3[2&#8211;9])</td>
+<td align="char" char=".">.621</td>
+</tr>
+<tr>
+<td align="center">VB score before perimetry</td>
+<td align="center">1.0 (0.0&#8211;2.0[0&#8211;5])</td>
+<td align="center">1.5 (1.0&#8211;2.3[0&#8211;3])</td>
+<td align="char" char=".">.198</td>
+</tr>
+<tr>
+<td align="center">VB score after perimetry</td>
+<td align="center">1.0 (0.0&#8211;3.0[0&#8211;5])</td>
+<td align="center">2.0 (1.0&#8211;3.0[0&#8211;6])</td>
+<td align="char" char=".">.407</td>
+</tr>
+<tr>
+<td align="center">DEQS</td>
+<td align="center">35.0 (22.5&#8211;47.5[18.3&#8211;75.0])</td>
+<td align="center">30.0 (24.6&#8211;36.3[16.7&#8211;46.7])</td>
+<td align="char" char=".">.417</td>
+</tr>
+<tr>
+<td align="center"><bold>Perimetry reliability parameters</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Fixation loss rate (%)</td>
+<td align="center">13.6 (6.3&#8211;57.5[0.0&#8211;100])</td>
+<td align="center">2.2 (0.0&#8211;5.9[0.0&#8211;6.7])</td>
+<td align="char" char=".">.002<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+</tr>
+<tr>
+<td align="center">False positive rate (%)</td>
+<td align="center">1.0 (1.0&#8211;5.5[0.0&#8211;62.0])</td>
+<td align="center">1.0 (1.8&#8211;2.5[0.0&#8211;45.0])</td>
+<td align="char" char=".">.587</td>
+</tr>
+<tr>
+<td align="center">False negative rate (%)</td>
+<td align="center">6.0 (0.5&#8211;11.0[0.0&#8211;40.0])</td>
+<td align="center">4.5 (0.0&#8211;13.0[0.0&#8211;29.0])</td>
+<td align="char" char=".">.788</td>
+</tr>
+<tr>
+<td align="left"><bold>Normal control subjects</bold></td>
+<td align="center">Group 3<break />(n = 35)</td>
+<td align="center">Group 4<break />(n = 8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center"><bold>Tear condition and ocular surface parameters</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Schirmer&#8217;s test (mm)</td>
+<td align="center">12.0 (8.0&#8211;21.0[6.0&#8211;34.0])</td>
+<td align="center">16.0 (10.0&#8211;19.0[7.0&#8211;21.0])</td>
+<td align="char" char=".">.650</td>
+</tr>
+<tr>
+<td align="center">SM value (mm)</td>
+<td align="center">1.8 (1.4&#8211;2.6[1.0&#8211;4.5])</td>
+<td align="center">1.9 (1.7&#8211;3.6[1.5&#8211;7.0])</td>
+<td align="char" char=".">.204</td>
+</tr>
+<tr>
+<td align="center">Blink rate before perimetry (/min)</td>
+<td align="center">16.0 (10.0&#8211;22.0[4&#8211;48])</td>
+<td align="center">10.0 (7.5&#8211;11.3[3&#8211;18])</td>
+<td align="char" char=".">.036</td>
+</tr>
+<tr>
+<td align="center">Blink rate during perimetry (/min)</td>
+<td align="center">2.6 (0.9&#8211;5.4[0&#8211;12])</td>
+<td align="center">20.1 (11.0&#8211;30.5[4&#8211;36])</td>
+<td align="char" char=".">&lt; .001<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+</tr>
+<tr>
+<td align="center">TFBUT before perimetry (sec)</td>
+<td align="center">9.0 (7.0&#8211;11.5[6&#8211;17])</td>
+<td align="center">6.5 (6.0&#8211;9.0[6&#8211;11])</td>
+<td align="char" char=".">.087</td>
+</tr>
+<tr>
+<td align="center">TFBUT after perimetry (sec)</td>
+<td align="center">8.0 (7.0&#8211;12.0[3&#8211;19])</td>
+<td align="center">6.5 (4.8&#8211;7.3[4&#8211;11])</td>
+<td align="char" char=".">.044</td>
+</tr>
+<tr>
+<td align="center">VB score before perimetry</td>
+<td align="center">0.0 (0.0&#8211;1.0[0&#8211;2])</td>
+<td align="center">1.0 (0.0&#8211;1.3[0&#8211;2])</td>
+<td align="char" char=".">.308</td>
+</tr>
+<tr>
+<td align="center">VB score after perimetry</td>
+<td align="center">1.0 (0.0&#8211;2.0[0&#8211;5])</td>
+<td align="center">1.5 (0.8&#8211;2.0[0&#8211;3])</td>
+<td align="char" char=".">.378</td>
+</tr>
+<tr>
+<td align="center">DEQS</td>
+<td align="center">6.7 (1.7&#8211;18.4[0.0&#8211;55.0])</td>
+<td align="center">10.8 (3.8&#8211;25.8[0.0&#8211;41.7])</td>
+<td align="char" char=".">.593</td>
+</tr>
+<tr>
+<td align="center"><bold>Perimetry reliability parameters</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Fixation loss rate (%)</td>
+<td align="center">18.2 (2.8&#8211;50.2[0.0&#8211;100])</td>
+<td align="center">7.9 (4.2&#8211;10.1[0.0&#8211;93.8])</td>
+<td align="char" char=".">.386</td>
+</tr>
+<tr>
+<td align="center">False positive rate (%)</td>
+<td align="center">2.0 (0.0&#8211;8.0[0.0&#8211;81.0])</td>
+<td align="center">2.5 (2.0&#8211;5.3[1.0&#8211;11.0])</td>
+<td align="char" char=".">.625</td>
+</tr>
+<tr>
+<td align="center">False negative rate (%)</td>
+<td align="center">8.0 (0.0&#8211;12.0[0.0&#8211;26.0])</td>
+<td align="center">1.0 (0.0&#8211;12.0[0.0&#8211;20.0])</td>
+<td align="char" char=".">.526</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Values are presented as median (interquartile range [min-max]). The Kruskal&#8211;Wallis <italic>H</italic> test and Bonferroni correction were used to access P-values.</p></fn>
+<fn id="t002fn002"><p>**<italic>P</italic>&lt;0.0083.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Pre-perimetry blink rates in the eyes with blink rates that decreased during perimetry varied from 3 to 44/min in patients with DE (Group 1) and from 4 to 48/min in normal control subjects (Group 3). Blink rates before perimetry in the eyes with blink rates that increased or remained unchanged during perimetry were &lt; 17/min in patients with DE (Group 2) and 19/min in normal control subjects (Group 4), respectively (<xref ref-type="fig" rid="pone.0222467.g001">Fig 1</xref>). Blink rates during perimetry were significantly lower in Group 1 compared to Group 2, and in Group 3 compared to Group 4: Group 1, 4.6 (1.7&#8211;7.0 [0&#8211;21]) vs. Group 2, 13.4 (11.4&#8211;16.0 [2&#8211;39]) /min and Group 3, 2.6 (0.9&#8211;5.4 [0&#8211;12]) vs. Group 4, 20.1 (11.0&#8211;30.5 [4&#8211;36]) /min (P = 0.007 and P&lt;0.001, respectively, <xref ref-type="fig" rid="pone.0222467.g001">Fig 1</xref>).</p>
+<fig id="pone.0222467.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Scatter diagrams of the relationships between blink rates before and during perimetry.</title>
+<p>(A) Data for patients with dry eye. (B) Data for normal control subjects. Group 1; eyes with decreased blink rates during perimetry in patients with dry eye; Group 2; eyes with increased or unchanged blink rates during perimetry in patients with dry eye; Group 3; eyes with decreased blink rates during perimetry in normal control subjects; Group 4; eyes with increased or unchanged blink rates during perimetry in normal control subjects.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.g001" ns0:type="simple" />
+</fig>
+<p>TFBUT after perimetry was significantly higher compared to that before perimetry in patients with DE: 4.0 (3.0&#8211;4.5 [1&#8211;5]) vs. 4.0 (3.0&#8211;5.0 [2&#8211;15]) sec (P&lt;0.001; <xref ref-type="fig" rid="pone.0222467.g002">Fig 2</xref>). However, there were no significant differences between TFBUT before perimetry and TFBUT after perimetry in normal control subjects: 8.0 (7.0&#8211;11.0 [6&#8211;17]) vs. 8.0 (6.0&#8211;11.0 [3&#8211;19]) sec (P = 0.562). In patients with DE, TFBUT was prolonged in some eyes with blink rates that did not decrease during perimetry, as well as in eyes with decreased blink rates during perimetry as follows: Group 1, 16 eyes (45.7%); Group 2, 6 eyes (75.0%); Group 3, 3 eyes (8.6%); and Group 4, 0 eyes (0%).</p>
+<fig id="pone.0222467.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Scatter diagrams of the relationships between TFBUT before perimetry and TFBUT after perimetry.</title>
+<p>(A) Data for patients with dry eye. (B) Data for normal control subjects. TFBUT, tear film break-up time.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.g002" ns0:type="simple" />
+</fig>
+<p>VB score significantly increased in patients with DE from 1.0 (0.0&#8211;2.0 [0&#8211;5]) to 1.0 (0.0&#8211;3.0 [0&#8211;6]), and in normal control subjects from 0.0 (0.0&#8211;1.0 [0&#8211;2]) to 1.0 (0.0&#8211;2.0 [0&#8211;5]) (P = 0.002 and P&lt;0.001, respectively, <xref ref-type="fig" rid="pone.0222467.g003">Fig 3</xref>). There were no significant differences in VB score after perimetry between the eyes with blink rates that decreased during perimetry and the eyes with blink rates that did not decrease in patients with DE: Group 1, 1.0 (0.0&#8211;3.0 [0&#8211;5]) vs. Group 2, 2.0 (1.0&#8211;3.0 [0&#8211;6]), and normal control subjects: Group 3, 1.0 (0.0&#8211;2.0 [0&#8211;5]) vs. Group 4, 1.5 (0.8&#8211;2.0 [0&#8211;3]) (P = 0.407 and P = 0.378, respectively; <xref ref-type="fig" rid="pone.0222467.g003">Fig 3</xref>). In both patients with DE and normal control subjects, VB score was worsened in some eyes with blink rates that did not decrease during perimetry, as well as in eyes with decreased blink rates during perimetry as follows: Group 1, 9 eyes (25.7%); Group 2, 3 eyes (37.5%); Group 3, 11 eyes (31.4%); and Group 4, 3 eyes (37.5%).</p>
+<fig id="pone.0222467.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Scatter diagrams of the relationships between VB score before perimetry and VB score after perimetry.</title>
+<p>(A) Data for patients with dry eye. (B) Data for normal control subjects. VB score, van Bijsterveld score.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.g003" ns0:type="simple" />
+</fig>
+<p>SM value was directly correlated with FN rate (r = 0.341, P = 0.025), and blink rate during perimetry was negatively correlated with FL rate (r = -0.393, P = 0.009). DEQS was negatively correlated with FN rate (r = -0.323, P = 0.035) in patients with DE. However, there were no apparent correlations among the perimetry reliability parameters and other parameters in normal control subjects (<xref ref-type="table" rid="pone.0222467.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0222467.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222467.t003</object-id>
+<label>Table 3</label> <caption><title>Spearman correlation coefficients between tear conditions, ocular surface findings, and perimetry reliability parameters in patients with dry eye and normal control subjects.</title></caption>
+<alternatives>
+<graphic id="pone.0222467.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Tear condition and ocular surface parameters</th>
+<th align="center" colspan="3">Perimetry reliability parameters</th>
+</tr>
+<tr>
+<th align="left">Patients with dry eye</th>
+<th align="center">Fixation loss rate</th>
+<th align="center">False positive rate</th>
+<th align="center">False negative rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Schirmer&#8217;s test</td>
+<td align="char" char=".">-.263</td>
+<td align="char" char=".">.125</td>
+<td align="char" char=".">.159</td>
+</tr>
+<tr>
+<td align="center">SM value</td>
+<td align="char" char=".">-.221</td>
+<td align="char" char=".">.015</td>
+<td align="char" char="."><bold>.341</bold></td>
+</tr>
+<tr>
+<td align="center">Blink rate before perimetry</td>
+<td align="char" char=".">.028</td>
+<td align="char" char=".">.029</td>
+<td align="char" char=".">-.101</td>
+</tr>
+<tr>
+<td align="center">Blink rate during perimetry</td>
+<td align="char" char="."><bold>-.393</bold></td>
+<td align="char" char=".">-.098</td>
+<td align="char" char=".">-.042</td>
+</tr>
+<tr>
+<td align="center">TFBUT before perimetry</td>
+<td align="char" char=".">.258</td>
+<td align="char" char=".">.120</td>
+<td align="char" char=".">.265</td>
+</tr>
+<tr>
+<td align="center">TFBUT after perimetry</td>
+<td align="char" char=".">.213</td>
+<td align="char" char=".">.030</td>
+<td align="char" char=".">.189</td>
+</tr>
+<tr>
+<td align="center">VB score before perimetry</td>
+<td align="char" char=".">-.119</td>
+<td align="char" char=".">-.240</td>
+<td align="char" char=".">.246</td>
+</tr>
+<tr>
+<td align="center">VB score after perimetry</td>
+<td align="char" char=".">-.247</td>
+<td align="char" char=".">-.300</td>
+<td align="char" char=".">.129</td>
+</tr>
+<tr>
+<td align="center">DEQS</td>
+<td align="char" char=".">.144</td>
+<td align="char" char=".">-.076</td>
+<td align="char" char="."><bold>-.323</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>Normal control subjects</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="center">Schirmer&#8217;s test</td>
+<td align="char" char=".">-.111</td>
+<td align="char" char=".">.154</td>
+<td align="char" char=".">.226</td>
+</tr>
+<tr>
+<td align="center">SM value</td>
+<td align="char" char=".">-.066</td>
+<td align="char" char=".">.058</td>
+<td align="char" char=".">-.087</td>
+</tr>
+<tr>
+<td align="center">Blink rate before perimetry</td>
+<td align="char" char=".">-.157</td>
+<td align="char" char=".">-.190</td>
+<td align="char" char=".">-.272</td>
+</tr>
+<tr>
+<td align="center">Blink rate during perimetry</td>
+<td align="char" char=".">-.094</td>
+<td align="char" char=".">-.126</td>
+<td align="char" char=".">.119</td>
+</tr>
+<tr>
+<td align="center">TFBUT before perimetry</td>
+<td align="char" char=".">-.012</td>
+<td align="char" char=".">.103</td>
+<td align="char" char=".">-.201</td>
+</tr>
+<tr>
+<td align="center">TFBUT after perimetry</td>
+<td align="char" char=".">-.123</td>
+<td align="char" char=".">-.188</td>
+<td align="char" char=".">-.104</td>
+</tr>
+<tr>
+<td align="center">VB score before perimetry</td>
+<td align="char" char=".">-.235</td>
+<td align="char" char=".">-.062</td>
+<td align="char" char=".">-.236</td>
+</tr>
+<tr>
+<td align="center">VB score after perimetry</td>
+<td align="char" char=".">-.226</td>
+<td align="char" char=".">-.090</td>
+<td align="char" char=".">-.127</td>
+</tr>
+<tr>
+<td align="center">DEQS</td>
+<td align="char" char=".">-.245</td>
+<td align="char" char=".">-.081</td>
+<td align="char" char=".">.012</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>Statistically significant correlations (P&lt;0.05) are shown in bold.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec011" sec-type="conclusions">
+<title>Discussion</title>
+<p>Several studies have indicated that the use of anti-glaucoma eye drops increased the risk of DE [<xref ref-type="bibr" rid="pone.0222467.ref023">23</xref>, <xref ref-type="bibr" rid="pone.0222467.ref024">24</xref>], and that the rate of DE in elderly patients was higher [<xref ref-type="bibr" rid="pone.0222467.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0222467.ref026">26</xref>]. Therefore, patients with glaucoma, especially elderly patients treated for a long period with anti-glaucoma eye drops, should be examined for DE. Tsubota et al. [<xref ref-type="bibr" rid="pone.0222467.ref027">27</xref>] reported that fully wet eyes do not depend on blinking to maintain a wet ocular surface, whereas desiccated eyes depend on blinking to maintain a wet ocular surface. The patients with DE whose blinking rates decreased during perimetry may have not been able to maintain a wet ocular surface. Subsequently, their visibility may have deteriorated during perimetry, and their ocular surface parameters may have worsened. As a result, it became difficult to observe the central fixation light of perimeter clearly [<xref ref-type="bibr" rid="pone.0222467.ref021">21</xref>], and in patients with DE, FL rates may have been higher in the eyes with blink rates that decreased during perimetry. However, in both patients with DE and normal control subjects, VB score was also worsened in some eyes with blink rates that did not decrease during perimetry, as well as in eyes with decreased blink rates during perimetry (<xref ref-type="fig" rid="pone.0222467.g003">Fig 3</xref>).</p>
+<p>A wide range of blink frequencies occur during routine perimetry. Although some patients hardly ever blink during perimetry, others show frequent blinking that often appears to be related to stimulus presentation times [<xref ref-type="bibr" rid="pone.0222467.ref028">28</xref>]. The blinking rate is lower when mental load is higher. Conversely, the blinking rate is higher when mental load is lower [<xref ref-type="bibr" rid="pone.0222467.ref022">22</xref>]. The patients whose blinking rates did not decrease during perimetry may have been able to perform perimetry while relaxed, whereas patients whose blinking rates decreased during perimetry may have had to perform perimetry with a high mental load due to concentrating deeply on completing the test. On the other hand, severe sleepiness causes longer blink durations and a decreased blink rate [<xref ref-type="bibr" rid="pone.0222467.ref029">29</xref>&#8211;<xref ref-type="bibr" rid="pone.0222467.ref031">31</xref>]. Therefore, some patients whose blink rates decreased during perimetry may have had severe sleepiness. In both patients with DE and normal control subjects, VB score was worsened in some eyes with blink rates that did not decrease during perimetry, as well as in eyes with decreased blink rates during perimetry (<xref ref-type="fig" rid="pone.0222467.g003">Fig 3</xref>). Not only the decreased blink rate, but also the abnormal blinking caused by strong tension or severe sleepiness during perimetry may be reasons for the worsening of ocular surface conditions. Perimetrists should exercise caution and create a relaxed atmosphere in order to allow patients to maintain a high FL rate during perimetry. It is necessary that they guide patients who have a high degree of tension and severely suppress blinking during perimetry. If patients experience an increase in blinking time and decreased rate of blinking, it is advised that perimetry be temporarily postponed to allow a period of rest.</p>
+<p>SM is a promising method for assessing tear meniscus volume, and values greater than 5 mm have been proposed as normal values [<xref ref-type="bibr" rid="pone.0222467.ref016">16</xref>]. In patients with DE, SM rates of 47 eyes (97.7%) were less than 5 mm; anti-glaucoma eye drop use and older age may have induced a lower tear meniscus volume. Tear meniscus volume increases with delayed blinking [<xref ref-type="bibr" rid="pone.0222467.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0222467.ref033">33</xref>], and TFBUT becomes longer in eyes with larger tear meniscus volumes [<xref ref-type="bibr" rid="pone.0222467.ref033">33</xref>]. Therefore, TFBUT may have been prolonged in patients with DE after perimetry. However, in patients with DE, TFBUT was prolonged after perimetry in 6 eyes (75.0%) with blinking rates that did not decrease during perimetry (<xref ref-type="fig" rid="pone.0222467.g002">Fig 2</xref>). Abnormal blinking during perimetry may be one reason for the prolonging of TFBUT. More detailed investigations are necessary to clarify the relationship between TFBUT variation and blinking pattern.</p>
+<p>SM value was directly correlated with FN rate, and the DEQS was negatively correlated with FN rate in patients with DE. Patients with DE whose tear meniscus volumes were relatively larger, or those who exhibited less severe symptoms associated with DE, had higher FN rates. While this suggests that tear meniscus volume and severity of symptoms associated with DE may have been related to FN response in patients with DE, further studies are required to establish causation.</p>
+<p>Patient inconsistency produces a high FN rate. This may occur if the patient&#8217;s criteria changes regarding whether a stimulus is too dim to report seeing it, or there is a change in the patient&#8217;s state of alertness. Additionally, there may be a lack of response from the patient due to a belief that it is too late to respond after the light goes off. High FN rates may also be produced by patients who are reliable perimetry subjects, but who have abnormal fields because visibility of near-threshold stimuli is highly variable at abnormal locations [<xref ref-type="bibr" rid="pone.0222467.ref011">11</xref>]. However, at present, no published studies have examined whether there is a relationship between tear meniscus volume, severity of symptoms associated with DE, and FN response. It is difficult to hypothesize the reason patients with DE whose tear meniscus volumes were large, and whose DE-associated symptoms were not severe, had higher FN rates. Further research is needed to investigate the relationship between tear metrics, blinking pattern, ocular surface conditions, and perimetry reliability using larger-scale studies. Moreover, this study did not investigate the actual field loss pattern and the clinical decision-making based on this, nor the true impact of ocular surface disease on glaucoma management. Therefore, future studies are required to investigate these problems.</p>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Conclusions</title>
+<p>Performing perimetry was associated with a significant change in tear conditions and deterioration in fluorescein staining of the ocular surface in both patients with DE and normal control subjects. Tear metrics and ocular surface conditions may impact the reliability of perimetry in patients with DE. Therefore, reliable perimetry measurements rely on appropriate evaluation of the ocular surface and tear conditions. Perimetrists should monitor blinking patterns during perimetry.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222467.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ka&#353;telan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tomi&#263;</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mete&#382; Soldo</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Salopek-Rabati&#263;</surname> <given-names>J</given-names></name>. <article-title>How ocular surface disease impacts the glaucoma treatment outcome</article-title>. <source>Biomed Res Int</source>. <year>2013</year>; <volume>2013</volume>: <fpage>696328</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1155/2013/696328" ns0:type="simple">10.1155/2013/696328</ext-link></comment> <object-id pub-id-type="pmid">24224176</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rieger</surname> <given-names>G</given-names></name>. <article-title>The importance of precorneal tear film for the quality of optical imaging</article-title>. <source>Br J Ophthalmol</source>. <year>1992</year>;<volume>76</volume>: <fpage>157</fpage>&#8211;<lpage>158</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bjo.76.3.157" ns0:type="simple">10.1136/bjo.76.3.157</ext-link></comment> <object-id pub-id-type="pmid">1540559</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yenice</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Temel</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Or&#252;m</surname> <given-names>O</given-names></name>. <article-title>The effect of artificial tear administration on visual field testing in patients with glaucoma and dry eye</article-title>. <source>Eye</source>. <year>2007</year>;<volume>21</volume>: <fpage>214</fpage>&#8211;<lpage>217</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/sj.eye.6702252" ns0:type="simple">10.1038/sj.eye.6702252</ext-link></comment> <object-id pub-id-type="pmid">16440009</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kocabeyoglu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mocan</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Bozkurt</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Irkec</surname> <given-names>M</given-names></name>. <article-title>Effect of artificial tears on automated visual field testing in patients with glaucoma and dry eye</article-title>. <source>Can J Ophthalmol</source>. <year>2013</year>;<volume>48</volume>: <fpage>110</fpage>&#8211;<lpage>114</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jcjo.2012.11.001" ns0:type="simple">10.1016/j.jcjo.2012.11.001</ext-link></comment> <object-id pub-id-type="pmid">23561604</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Arai</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Murata</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Matsuura</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Usui</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Asaoka</surname> <given-names>R</given-names></name>. <article-title>The association between ocular surface measurements with visual field reliability indices and gaze tracking results in preperimetric glaucoma</article-title>. <source>Br J Ophthalmol</source>. <year>2018</year>;<volume>102</volume>: <fpage>525</fpage>&#8211;<lpage>530</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bjophthalmol-2017-310309" ns0:type="simple">10.1136/bjophthalmol-2017-310309</ext-link></comment> <object-id pub-id-type="pmid">28765147</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Matsumoto</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Shirato</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Haneda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yamashiro</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Saito</surname> <given-names>M</given-names></name>. <article-title>Study of retinal nerve fiber layer thickness within normal hemivisual field in primary open-angle glaucoma and normal-tension glaucoma</article-title>. <source>Jpn J Ophthalmol</source>. <year>2003</year>;<volume>47</volume>: <fpage>22</fpage>&#8211;<lpage>27</lpage>. <object-id pub-id-type="pmid">12586174</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yamazaki</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Mizuki</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hayamizu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>C</given-names></name>. <article-title>Correlation of blue chromatic macular sensitivity with optic disc change in early glaucoma patients</article-title>. <source>Jpn J Ophthalmol</source>. <year>2002</year>;<volume>46</volume>: <fpage>89</fpage>&#8211;<lpage>94</lpage>. <object-id pub-id-type="pmid">11853721</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Horikoshi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Osako</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tamura</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Okano</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Usui</surname> <given-names>M</given-names></name>. <article-title>Comparison of detectability of visual field abnormality by frequency doubling technology in primary open-angle glaucoma and normal-tension glaucoma</article-title>. <source>Jpn J Ophthalmol</source>. <year>2001</year>;<volume>45</volume>: <fpage>503</fpage>&#8211;<lpage>509</lpage>. <object-id pub-id-type="pmid">11583674</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kunimatsu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Suzuki</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Shirato</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Araie</surname> <given-names>M</given-names></name>. <article-title>Usefulness of gaze tracking during perimetry in glaucomatous eyes</article-title> <source>Jpn J Ophthalmol</source>. <year>2000</year>;<volume>44</volume>: <fpage>190</fpage>&#8211;<lpage>191</lpage>.</mixed-citation></ref>
+<ref id="pone.0222467.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Uchida</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Tomita</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Onda</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sugiyama</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kitazawa</surname> <given-names>Y</given-names></name>. <article-title>Relationship of nerve fiber layer defects and parafoveal visual field defects in glaucomatous eyes</article-title>. <source>Jpn J Ophthalmol</source>. <year>1996</year>;<volume>40</volume>: <fpage>548</fpage>&#8211;<lpage>553</lpage>. <object-id pub-id-type="pmid">9130061</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref011"><label>11</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Patella</surname> <given-names>VM</given-names></name>. <chapter-title>Clinical static perimetry</chapter-title>. In: <name name-style="western"><surname>Anderson</surname> <given-names>DR</given-names></name> editor. <source>Automated static perimetry</source>. <edition>2nd ed</edition>. <publisher-loc>St. Louis</publisher-loc>: <publisher-name>Mosby</publisher-name>; <year>1999</year>. pp. <fpage>80</fpage>&#8211;<lpage>102</lpage>.</mixed-citation></ref>
+<ref id="pone.0222467.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Johnson</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Sherman</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Doyle</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wall</surname> <given-names>M</given-names></name>. <article-title>A comparison of false negative responses for full threshold and SITA standard perimetry in glaucoma patients and normal observers</article-title>. <source>J Glaucoma</source>. <year>2014</year>;<volume>23</volume>: <fpage>288</fpage>&#8211;<lpage>292</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/IJG.0b013e31829463ab" ns0:type="simple">10.1097/IJG.0b013e31829463ab</ext-link></comment> <object-id pub-id-type="pmid">23632399</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tsubota</surname> <given-names>K.</given-names></name> <name name-style="western"><surname>Yokoi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Shimazaki</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Watanabe</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Dogru</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yamada</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>New perspectives on dry eye defnition and diagnosis: a consensus report by the Asia Dry Eye Society</article-title>. <source>Ocul Surf</source>. <year>2017</year>;<volume>15</volume>: <fpage>65</fpage>&#8211;<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jtos.2016.09.003" ns0:type="simple">10.1016/j.jtos.2016.09.003</ext-link></comment> <object-id pub-id-type="pmid">27725302</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bengtsson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Heijl</surname> <given-names>A</given-names></name>. <article-title>False-negative responses in glaucoma perimetry: indicators of patient performance or test reliability?</article-title> <source>Invest Ophthalmol Vis Sci</source>. <year>2000</year>;<volume>41</volume>: <fpage>2201</fpage>&#8211;<lpage>2204</lpage>. <object-id pub-id-type="pmid">10892863</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sakane</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yamaguchi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yokoi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Uchino</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dogru</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Oishi</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Development and validation of the dry eye-related quality-of-life score questionnaire</article-title>. <source>JAMA Ophthalmol</source>. <year>2013</year>;<volume>131</volume>: <fpage>1331</fpage>&#8211;<lpage>1338</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/jamaophthalmol.2013.4503" ns0:type="simple">10.1001/jamaophthalmol.2013.4503</ext-link></comment> <object-id pub-id-type="pmid">23949096</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ishikawa</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Takeuchi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>N</given-names></name>. <article-title>The combination of strip meniscometry and dry eye-related quality-of-life score is useful for dry eye screening during health checkup: Cross-sectional study</article-title>. <source>Medicine (Baltimore)</source>. <year>2018</year>;<volume>97</volume>: <fpage>e12969</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/MD.0000000000012969" ns0:type="simple">10.1097/MD.0000000000012969</ext-link></comment> <object-id pub-id-type="pmid">30412120</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dogru</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ishida</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Matsumoto</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Goto</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ishioka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kojima</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Strip meniscometry: a new and simple method of tear meniscus evaluation</article-title>. <source>Invest Ophthalmol Vis Sci</source>. <year>2006</year>;<volume>47</volume>: <fpage>1895</fpage>&#8211;<lpage>1901</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1167/iovs.05-0802" ns0:type="simple">10.1167/iovs.05-0802</ext-link></comment> <object-id pub-id-type="pmid">16638996</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ibrahim</surname> <given-names>OM</given-names></name>, <name name-style="western"><surname>Dogru</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ward</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Matsumoto</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wakamatsu</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Ishida</surname> <given-names>K</given-names></name> <etal>et al</etal>. <article-title>The efficacy, sensitivity, and specificity of strip meniscometry in conjunction with tear function tests in the assessment of tear meniscus</article-title>. <source>Invest Ophthalmol Vis Sci</source>. <year>2011</year>;<volume>52</volume>: <fpage>2194</fpage>&#8211;<lpage>2198</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1167/iovs.10-5986" ns0:type="simple">10.1167/iovs.10-5986</ext-link></comment> <object-id pub-id-type="pmid">21178139</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><article-title>Methodologies to diagnose and monitor dry eye disease: report of the Diagnostic Methodology Subcommittee of the International Dry Eye Work Shop (2007)</article-title>. <source>Ocul Surf</source>. <year>2007</year>;<volume>5</volume>: <fpage>108</fpage>&#8211;<lpage>152</lpage>. <object-id pub-id-type="pmid">17508118</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bron</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Evans</surname> <given-names>VE</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>JA</given-names></name>. <article-title>Grading of corneal and conjunctival staining in the context of other dry eye tests</article-title>. <source>Cornea</source>. <year>2003</year>;<volume>22</volume>: <fpage>640</fpage>&#8211;<lpage>650</lpage>. <object-id pub-id-type="pmid">14508260</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref021"><label>21</label><mixed-citation publication-type="other" ns0:type="simple">Carl Zeiss Meditec. Humphrey Field Analyzer II-i Series, User Manual. Dublin, CA: Carl Zeiss Meditec; 2017.</mixed-citation></ref>
+<ref id="pone.0222467.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Holland</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Tarlow</surname> <given-names>G</given-names></name>. <article-title>Blinking and mental load</article-title>. <source>Psychol Rep</source>. <year>1972</year>;<volume>31</volume>: <fpage>119</fpage>&#8211;<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2466/pr0.1972.31.1.119" ns0:type="simple">10.2466/pr0.1972.31.1.119</ext-link></comment> <object-id pub-id-type="pmid">5055889</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ohtsuki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yokoi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mori</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Adachi</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Ishibashi</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Adverse effects of beta-blocker eye drops on the ocular surface</article-title>. [Article in Japanese.] <source>Nihon Ganka Gakkai Zasshi</source>. <year>2001</year>;<volume>105</volume>: <fpage>149</fpage>&#8211;<lpage>154</lpage>. <object-id pub-id-type="pmid">11280872</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Milla</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Stirbu</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Rey</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Duch</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Buchacra</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Robles</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Spanish multicenter tafluprost tolerability study</article-title>. <source>Br J Ophthalmol</source>. <year>2012</year>;<volume>96</volume>: <fpage>826</fpage>&#8211;<lpage>831</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bjophthalmol-2011-301015" ns0:type="simple">10.1136/bjophthalmol-2011-301015</ext-link></comment> <object-id pub-id-type="pmid">22399693</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schein</surname> <given-names>OD</given-names></name>, <name name-style="western"><surname>Hochberg</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Mu&#241;oz</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Tielsch</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Bandeen-Roche</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Provost</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Dry eye and dry mouth in the elderly: a population-based assessment</article-title>. <source>Arch Intern Med</source>. <year>1999</year>;<volume>159</volume>: <fpage>1359</fpage>&#8211;<lpage>1363</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archinte.159.12.1359" ns0:type="simple">10.1001/archinte.159.12.1359</ext-link></comment> <object-id pub-id-type="pmid">10386512</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schein</surname> <given-names>OD</given-names></name>, <name name-style="western"><surname>Mu&#241;oz</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Tielsch</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Bandeen-Roche</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>S</given-names></name>. <article-title>Prevalence of dry eye among the elderly</article-title>. <source>Am J Ophthalmol</source>. <year>1997</year>;<volume>124</volume>: <fpage>723</fpage>&#8211;<lpage>728</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0002-9394(14)71688-5" ns0:type="simple">10.1016/s0002-9394(14)71688-5</ext-link></comment> <object-id pub-id-type="pmid">9402817</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tsubota</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nakamori</surname> <given-names>K</given-names></name>. <article-title>Effects of ocular surface area and blink rate on tear dynamics</article-title>. <source>Arch Ophthalmol</source>. <year>1995</year>;<volume>113</volume>: <fpage>155</fpage>&#8211;<lpage>158</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archopht.1995.01100020037025" ns0:type="simple">10.1001/archopht.1995.01100020037025</ext-link></comment> <object-id pub-id-type="pmid">7864746</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Toor</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Gautam</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Henson</surname> <given-names>DB</given-names></name>. <article-title>Blink frequency and duration during perimetry and their relationship to test-retest threshold variability</article-title>. <source>Invest Ophthalmol Vis Sci</source>. <year>2011</year>:<day>28</day>;<volume>52</volume>:<fpage>4546</fpage>&#8211;<lpage>4550</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1167/iovs.10-6553" ns0:type="simple">10.1167/iovs.10-6553</ext-link></comment> <object-id pub-id-type="pmid">21447676</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lal</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Craig</surname> <given-names>A</given-names></name>. <article-title>Driver fatigue: electroencephalography and psychological assessment</article-title>. <source>Psychophysiology</source>. <year>2002</year>;<volume>39</volume>: <fpage>313</fpage>&#8211;<lpage>321</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/s0048577201393095" ns0:type="simple">10.1017/s0048577201393095</ext-link></comment> <object-id pub-id-type="pmid">12212650</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Van Orden</surname> <given-names>KF</given-names></name>, <name name-style="western"><surname>Jung</surname> <given-names>TP</given-names></name>, <name name-style="western"><surname>Makeig</surname> <given-names>S</given-names></name>. <article-title>Combined eye activity measures accurately estimate changes in sustained visual task performance</article-title>. <source>Biol Psychol</source>. <year>2000</year>;<volume>52</volume>: <fpage>221</fpage>&#8211;<lpage>240</lpage>. <object-id pub-id-type="pmid">10725565</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schleicher</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Galley</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Briest</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Galley</surname> <given-names>I</given-names></name>. <article-title>Blinks and saccades as indicators of fatigue in sleepiness warnings: looking tired?</article-title> <source>Ergonomics</source>. <year>2008</year>;<volume>51</volume>: <fpage>982</fpage>&#8211;<lpage>1010</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/00140130701817062" ns0:type="simple">10.1080/00140130701817062</ext-link></comment> <object-id pub-id-type="pmid">18568959</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pavlidis</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Stupp</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Grenzebach</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Busse</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Thanos</surname> <given-names>S</given-names></name>. <article-title>Ultrasonic visualization of the effect of blinking on the lacrimal pump mechanism</article-title>, <source>Graefes Arch Clin Exp Ophthalmol</source>. <year>2005</year>;<volume>243</volume>: <fpage>228</fpage>&#8211;<lpage>234</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00417-004-1033-5" ns0:type="simple">10.1007/s00417-004-1033-5</ext-link></comment> <object-id pub-id-type="pmid">15455241</object-id></mixed-citation></ref>
+<ref id="pone.0222467.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Palakuru</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Aquavella</surname> <given-names>JV</given-names></name>. <article-title>Correlations among upper and lower tear menisci, noninvasive tear break-up time, and the Schirmer test</article-title>. <source>Am J Ophthalmol</source>. <year>2008</year>;<volume>145</volume>: <fpage>795</fpage>&#8211;<lpage>800</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ajo.2007.12.035" ns0:type="simple">10.1016/j.ajo.2007.12.035</ext-link></comment> <object-id pub-id-type="pmid">18328997</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222467.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222467.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wolffsohn</surname>
+<given-names>James</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>James Wolffsohn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222467" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">31 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-15509</p>
+<p>Impact of tear dynamics on the reliability of perimetry in patients with dry eye</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Sagara,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 14 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>James Wolffsohn, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>There are some significant issues to address including further data analysis for this research to be published in PlosOne so please respond to each of the reviewers comments carefully.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Partly</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: I read this article with interest. Although, I would like to bring to your attentions some comments and thoughts I had while reviewing your manuscript.</p>
+<p>May I begin saying that I suggest to find an alternative title as I don't agree that the research has evaluated the dynamics of the tear film. In fact, if we consider the Oxford English Dictionary, the term "dynamics" is explained as follow: "dynamics [uncountable] the science of the forces involved in movement (belongs to fluid dynamics)". For this, reason I think "tear dynamics" can be replaced with "tear characteristics" or "tear metrics" or "tear properties".</p>
+<p>Secondly, in the "Examinations" section (line 98 and further) it is not clearly defined in which order the "tear dynamics and ocular surface condition" have been performed. As you know, some of the tear tests performed may affect the measurements because of their invasiviness (e.g. TFBUT, Schirmer test, etc.). Additionally, it is not clear how the "expert perimetrists" counted the number of blinks BEFORE perimetry (e.g. manual counting, click-counting with electronic device, click-counting using an external device such as eye tracker, etc.).</p>
+<p>In the results section, I found there are the first 5 sentences (lines from 126 to 130) which are describing the subjects. I believe this should be moved in the participants section.</p>
+<p>Table 2 caption (line 144 and 145) says: "Comparison of Blink Rate Parameters during Perimetry etc" but there are also included other tear metrics, not only the blink rate parameters.</p>
+<p>Line 36: it says medications but I believe you want to say "lubricants" or "eyedrops".</p>
+<p>Line 72: could you please define long=term follow-ups: days, weeks, months or years?</p>
+<p>Line 85: could you please clarify what does it mean when you say "we only examined eyes in which perimetry were initally performed?" Is this an inclusion criteria?</p>
+<p>Line 186 "ocular surface disorder", in this sentence should be "ocular surface parameters".</p>
+<p>Lines 172, 186, 226, 236 please specify the sentence that says "some eyes" in number or percentage.</p>
+<p>Lines 180, 181,205 please specify the standard deviations for those measurements.</p>
+<p>Line 232 please specify "low" in number or percentage.</p>
+<p>Lines from 242 to 245 and lines from 153 to 155: these short paragraphs are hard to follow, could you please rephrase them?</p>
+<p>Line 258 it says medications but I believe you want to say "lubricants" or "eyedrops".</p>
+<p>Line 225 a verb is missing where it does say "and not to decrease their...".</p>
+<p>Line 231, strip meniscometry is not a non-invasive test as provoke tearing and measures tear reflex volume.</p>
+<p>Line 212 "older age" should be "in elderly patients".</p>
+<p>Line 110: this is just a suggestion. In order to improve consistency along the manuscript, I suggest to use all numbers when you mention "number of eyes" (e.g. line 110 says "eight eyes" while line 111 says "35 eyes"). Same in line 126 wherer it does say "twenty-seven eyes" and after "29 eyes").</p>
+<p>Reviewer #2: The effect of perimetry on the ocular surface and the effect of the ocular surface on the data collected in perimetry is of interest, but the title only covers one of these aspects. What is critical is not the reliability indicators, but the actual field loss pattern and clinical decision making based on this. The authors should consider how to analyse this to understand the true impact of ocular surface disease on glaucoma management.</p>
+<p>The abstract is hard to read without sub-headings.</p>
+<p>Ln17 &#8220;specific effects&#8221; is not clear</p>
+<p>Ln21 better to state &#8220;Forty-three patients with symptoms and an unstable tear film (DE according to the 2016 Japanese diagnostic criteria)&#8230;&#8221; why not use the more recent global diagnostic consensus?</p>
+<p>Ln24 &#8220;fluorescein staining&#8221; would be clearer to the reader than &#8220;Bijsterveld score&#8221;. Why were symptoms measured before and after perimetry such as using the SANDE?</p>
+<p>Ln28 why would TFBUT increase after perimetry? &#8211; state what this is compared to</p>
+<p>Ln34 this is not a conclusion drawn from the data so remove &#8211; also relevant to Ln259. It can be in the discussion though as a possible remedy to the effects observed</p>
+<p>Avoid personal pronouns such as &#8220;we&#8221; throughout</p>
+<p>Ln62 The sample size needs to be justified</p>
+<p>Ln100 explain how TFBUT was measured. It needs to be much clearer what were the baseline tests of ocular surface health and what were the characteristics studied to determine change with the perimetry</p>
+<p>Ln104 &#8220;optometrists&#8221; misspelt</p>
+<p>Ln105 were the participants unaware their blink rate was being observed</p>
+<p>Ln108 and beyond. The study is almost certainly not powered to break the analysis down into groups as small as n=8. This should be removed throughout.</p>
+<p>Ln115 was the data not normally distributed resulting in non-parametric tests being applied?</p>
+<p>Ln127 it is essential to know whether the anti-glaucoma drops were preserved or not and to do an analysis of ocular surface parameters and the effect of perimetry base on this if the sample split size is sufficient</p>
+<p>Do not repeat data which is rightly in the tables in the text, which currently makes it much harder to read</p>
+<p>Ln221 high and low are relative terms so should be higher and lower</p>
+<p>Ln228 explain what is meant about pattern of blinking.</p>
+<p>More discussion is needed of the trade off between higher concentration leading to less blinking (and less likely to miss a stimulus), but then more ocular irritation leading to a loss of concentration.</p>
+<p>Ln239-242 these sentences are unclear &#8211; the fact that metrics are associated does not mean one causes the other</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222467.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222467.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222467" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222467.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">27 Aug 2019</named-content>
+</p>
+<p>August 27, 2019</p>
+<p>Editorial board of ophthalmology</p>
+<p>PLOS ONE</p>
+<p>Dear Editors:</p>
+<p>Re: &#8220;Impact of tear dynamics on the reliability of perimetry in patients with dry eye&#8221; by Tetsuju Sekiryu, Kimihiro Imaizumi, Hiroaki Shintake, Urara Sugiyama, and Hiroki Maehara (PONE-D-19-15509)</p>
+<p>We are most grateful to the reviewers for their helpful comments on the original version of our manuscript. We have taken all these comments into account and submit the revised version of our paper.</p>
+<p>Particularly, in accordance with the important suggestion given by reviewer #2, we rewrote the lines from 217 to 232 in the revised version of our manuscript, and quoted some references that investigated the relationships between perimetry, blink frequency, concentration, and sleepiness. We were able to identify several important relationships.</p>
+<p>We have addressed all the comments made by reviewers #1 and #2 and have provided point-by-point responses below. We hope that our explanations and revisions are satisfactory.</p>
+<p>We hope that the revised version of our paper is now suitable for publication in PLOS ONE, and we look forward to hearing from you at your earliest convenience.</p>
+<p>Yours sincerely,</p>
+<p>Hideto Sagara, MD&#8195;</p>
+<p>We are grateful to reviewer #1 and reviewer #2 for the critical comments and suggestions that have helped us to improve our paper. As indicated in the responses that follow, we have taken all these comments and suggestions into account in the revised version of our manuscript.</p>
+<p>Reviewer #1</p>
+<p>Comment #1:</p>
+<p>I read this article with interest. Although, I would like to bring to your attentions some comments and thoughts I had while reviewing your manuscript.</p>
+<p>May I begin saying that I suggest to find an alternative title as I don't agree that the research has evaluated the dynamics of the tear film. In fact, if we consider the Oxford English Dictionary, the term "dynamics" is explained as follow: "dynamics [uncountable] the science of the forces involved in movement (belongs to fluid dynamics)". For this, reason I think "tear dynamics" can be replaced with "tear characteristics" or "tear metrics" or "tear properties".</p>
+<p>Response</p>
+<p>In the revised version of our manuscript, upon your advice, we have now changed the term "tear dynamics" to "tear metrics" or "tear condition" in the title, and throughout the text.</p>
+<p>Comment #2:</p>
+<p>Secondly, in the "Examinations" section (line 98 and further) it is not clearly defined in which order the "tear dynamics and ocular surface condition" have been performed. As you know, some of the tear tests performed may affect the measurements because of their invasiviness (e.g. TFBUT, Schirmer test, etc.). Additionally, it is not clear how the "expert perimetrists" counted the number of blinks BEFORE perimetry (e.g. manual counting, click-counting with electronic device, click-counting using an external device such as eye tracker, etc.).</p>
+<p>Response </p>
+<p>Thank you for your suggestion. As some of the tear tests were invasive, the TFBUT and van Bijsterveld scores were evaluated 30 minutes before starting perimetry, and the Schirmer&#8217;s test and lacrimal irrigation were performed on other days, within 20 days of perimetry. We rewrote a sentence in the revised version of our paper in lines 107 to 108:</p>
+<p>&#8220;Schirmer&#8217;s test without topical anesthesia and lacrimal irrigation were performed on other days, within 20 days of perimetry.&#8221;</p>
+<p>As you have mentioned, the method of counting the number of blinks before perimetry is unclear. Therefore, we rewrote a sentence in the revised version of our paper, in lines 110 to 111 as follows:</p>
+<p>&#8220;Expert optometrists observed the eyes of subjects and manually counted the number of blinks before perimetry, while subjects were in a relaxed atmosphere.&#8221;</p>
+<p>Comment #3:</p>
+<p>In the results section, I found there are the first 5 sentences (lines from 126 to 130) which are describing the subjects. I believe this should be moved in the participants section.</p>
+<p>Response</p>
+<p>In accordance with your suggestion, the 5 sentences have been moved to the participants section in the revised version of our paper (lines 79 to 83). </p>
+<p>Comment #4:</p>
+<p>Table 2 caption (line 144 and 145) says: "Comparison of Blink Rate Parameters during Perimetry etc" but there are also included other tear metrics, not only the blink rate parameters.</p>
+<p>Response</p>
+<p>We have changed "Comparison of Blink Rate Parameters during Perimetry etc." to "Comparison of Blink Rate and other Parameters during Perimetry in Patients with Dry Eye and Normal Control Subjects."</p>
+<p>Comment #5:</p>
+<p>Line 36: it says medications but I believe you want to say "lubricants" or "eyedrops".</p>
+<p>Response </p>
+<p>In accordance with your suggestion, we have now changed the term "medication" to "eye drops" throughout the manuscript.</p>
+<p>Comment #6:</p>
+<p>Line 72: could you please define long=term follow-ups: days, weeks, months or years?</p>
+<p>Response</p>
+<p>In this study, long term follow-up refers to a time period greater than 6 months. Therefore, we rewrote the sentence as follows in the revised version of our paper (lines 71 to 73):  </p>
+<p>&#8220;Patients with DE and normal control subjects who had a follow-up of more than 6 months with at least three perimetry measurements, a best-corrected visual acuity of 20/25 or better, an intraocular pressure of &#8804;21 mmHg, and who were diagnosed or suspected of having glaucoma were included.&#8221; </p>
+<p>Comment #7:</p>
+<p>Line 85: could you please clarify what does it mean when you say "we only examined eyes in which perimetry were initally performed?" Is this an inclusion criteria?</p>
+<p>Response</p>
+<p>In accordance with your suggestion, this is one of the inclusion criteria. Therefore, we moved this sentence to lines 74 to 75, in the revised version of our manuscript.</p>
+<p>Comment #8:</p>
+<p>Line 186 "ocular surface disorder", in this sentence should be "ocular surface parameters".</p>
+<p>Response </p>
+<p>In accordance with your suggestion, we changed "ocular surface disorder" to "ocular surface parameters" or "VB score" in the revised version of our paper (lines 188, 212, and 225).</p>
+<p>Comment #9:</p>
+<p>Lines 172, 186, 226, 236 please specify the sentence that says "some eyes" in number or percentage.</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we have now provided the number of eyes (and percentage) in the revised version of our paper in lines 189 and 238. We have removed sentences in lines 172 and 236.</p>
+<p>Comment #10:</p>
+<p>Lines 180, 181,205 please specify the standard deviations for those measurements.</p>
+<p>Response </p>
+<p>Thank you for this comment. These were non-parametric data, as the Kolmogorov&#8211;Smirnov test revealed that these parameters did not follow a normal distribution. Therefore, median (IQR [min-max]) were used.</p>
+<p>Comment #11:</p>
+<p>Line 232 please specify "low" in number or percentage.</p>
+<p>We rewrote lines 234 to 235, and added a sentence in the results section (lines 136 to 137) as follows:</p>
+<p>&#8220;In patients with DE, SM rates of 47 eyes (97.7%) were less than 5 mm; anti-glaucoma eye drop use and older age may have induced a lower tear meniscus volume.&#8221; </p>
+<p>&#8220;In the DE group, only 1 eye (2.3%) had a normal SM rate (&gt;5 mm), and in the control group, only one 1 eye (2.3%) also had a normal SM rate.&#8221; </p>
+<p>Comment #12:</p>
+<p>Lines from 242 to 245 and lines from 153 to 155: these short paragraphs are hard to follow, could you please rephrase them?</p>
+<p>Response</p>
+<p>In accordance with your advice, we have rephrased the sentences in the revised version of our paper as follows: </p>
+<p>(lines 247 to 250)</p>
+<p>&#8220;This may occur if the patient's criteria changes regarding whether a stimulus is too dim to report seeing it, or there is a change in the patient's state of alertness. Additionally, there may be a lack of response from the patient due to a belief that it is too late to respond after the light goes off.&#8221;</p>
+<p>(lines 160 to 162)</p>
+<p>&#8220;Blink rates during perimetry were significantly lower in Group 1 compared to Group 2, and in Group 3 compared to Group 4: Group 1, 4.6 (1.7-7.0 [0-21]) vs. Group 2, 13.4 (11.4-16.0 [2-39]) /min and Group 3, 2.6 (0.9-5.4 [0-12]) vs. Group 4, 20.1 (11.0-30.5 [4-36]) /min (P=0.007 and P&lt;0.001, respectively, Fig 1).&#8221;</p>
+<p>Comment #13</p>
+<p>Line 258 it says medications but I believe you want to say "lubricants" or "eyedrops".</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we revised "medication" to "eye drops."</p>
+<p>Comment #14:</p>
+<p>Line 225 a verb is missing where it does say "and not to decrease their...".</p>
+<p>Response</p>
+<p>In accordance with your advice, we rewrote the sentence in lines 228 to 229 as follows:</p>
+<p>&#8220;Perimetrists should exercise caution and create a relaxed atmosphere in order to allow patients to maintain a high FL rate during perimetry.&#8221; </p>
+<p>Comment #15:</p>
+<p>Line 231, strip meniscometry is not a non-invasive test as provoke tearing and measures tear reflex volume.</p>
+<p>Response</p>
+<p>Thank you for this comment. We have re-written the sentence in lines 233 to 234 as follows:</p>
+<p>&#8220;SM is a promising method for assessing tear meniscus volume, and values greater than 5 mm have been proposed as normal values [16].&#8221; </p>
+<p>Comment #16:</p>
+<p>Line 212 "older age" should be "in elderly patients".</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we rewrote the sentence in lines 206 to 207 as follows:</p>
+<p>&#8220;Several studies have indicated that the use of anti-glaucoma eye drops increased the risk of DE [23, 24], and that the rate of DE in elderly patients was higher [25, 26].&#8221; </p>
+<p>Comment #17:</p>
+<p>Line 110: this is just a suggestion. In order to improve consistency along the manuscript, I suggest to use all numbers when you mention "number of eyes" (e.g. line 110 says "eight eyes" while line 111 says "35 eyes"). Same in line 126 wherer it does say "twenty-seven eyes" and after "29 eyes").</p>
+<p>Response</p>
+<p>In accordance with your advice, we have now made this modification when referring to the number of eyes: </p>
+<p>(lines 79 to 80)</p>
+<p>&#8220;A total of 27 eyes (62.8%) and 29 eyes (67.4%) in patients with DE, and normal control subjects, respectively, were treated with anti-glaucoma eye drops.&#8221; </p>
+<p>(lines 118 to 119)</p>
+<p>&#8220;Group 2 comprised 8 eyes in 8 patients with DE with blink rates that increased or remained unchanged during perimetry.&#8221;</p>
+<p>(lines 121 to 122)</p>
+<p>&#8220;Group 4 comprised 8 eyes in 8 normal control subjects with blink rates that increased or remained unchanged during perimetry.&#8221;</p>
+<p>(lines 140 to 141)</p>
+<p>&#8220;Blink rates of 35 eyes (81.4%) decreased, and the rates of 8 eyes (18.6%) increased or remained unchanged during perimetry in both patients with DE and normal control subjects.&#8221;&#8195;</p>
+<p>We are grateful to reviewer #2 for the critical comments and important advice that have helped us to improve our paper. As indicated in the responses that follow, we have taken all these comments and suggestions into account in the revised version of our paper.</p>
+<p>Reviewer #2: </p>
+<p>Comment #1:</p>
+<p>The effect of perimetry on the ocular surface and the effect of the ocular surface on the data collected in perimetry is of interest, but the title only covers one of these aspects. What is critical is not the reliability indicators, but the actual field loss pattern and clinical decision making based on this. The authors should consider how to analyse this to understand the true impact of ocular surface disease on glaucoma management.</p>
+<p>Response</p>
+<p>Thank you for this suggestion. We have now changed our manuscript title to "Impact of tear metrics on the reliability of perimetry in patients with dry eye". We did not investigate the actual field loss pattern, clinical decision making based on this, or the true impact of ocular surface disease on glaucoma management. Therefore, we will investigate these problems in a future study, and we have added a sentence in the revised version of our paper (line 256) to reflect this.</p>
+<p>&#8220;Moreover, this study did not investigate the actual field loss pattern and the clinical decision-making based on this, nor the true impact of ocular surface disease on glaucoma management. Therefore, future studies are required to investigate these problems.&#8221;</p>
+<p>Comment #2:</p>
+<p>The abstract is hard to read without sub-headings.</p>
+<p>Response </p>
+<p>In accordance with your advice, we rewrote our abstract with sub-headings to facilitate easier understanding.</p>
+<p>Comment #3:</p>
+<p>Ln17 &#8220;specific effects&#8221; is not clear</p>
+<p>Response</p>
+<p>In line with your suggestion, we rewrote &#8220;the specific effects&#8221; as &#8220;the effects&#8221; in lines 17, 45, and 51.</p>
+<p>Comment #4:</p>
+<p>Ln21 better to state &#8220;Forty-three patients with symptoms and an unstable tear film (DE according to the 2016 Japanese diagnostic criteria)&#8230;&#8221; why not use the more recent global diagnostic consensus?</p>
+<p>Response</p>
+<p>In 2016, the Asia Dry Eye Society and the Dry Eye Society of Japan implemented new diagnostic criteria for dry eye disease, and at the present time, almost all investigators in Japan use these criteria to diagnose dry eye. This definition clearly covers the short TFBUT-type dry eye, the major type of dry eye, and emphasizes the importance of measuring tear film stability by TFBUT.</p>
+<p>Comment #5:</p>
+<p>Ln24 &#8220;fluorescein staining&#8221; would be clearer to the reader than &#8220;Bijsterveld score&#8221;. Why were symptoms measured before and after perimetry such as using the SANDE?</p>
+<p>Response</p>
+<p>In accordance with your advice, we have now changed the &#8220;Bijsterveld score&#8221; to &#8220;fluorescein staining&#8221; in lines 24, 26 and 30. SANDE is useful, as well as the Ocular Surface Disease Index (OSDI) and DEQS, to diagnose dry eye. However, the DEQS is more popular than SANDE in Japan. The DEQS can assess various aspects of Quality of Life including its mental aspect. The Dry Eye Society of Japan recommends using the DEQS to diagnose dry eye. Therefore, we used the DEQS in this study.</p>
+<p>Comment #6:</p>
+<p>Ln28 why would TFBUT increase after perimetry? &#8211; state what this is compared to</p>
+<p>Response</p>
+<p>We rewrote the sentence as follows (lines 29 to 30):</p>
+<p>&#8220;TFBUT after perimetry was significantly higher than before perimetry in patients with DE (P&lt;0.001).&#8221;</p>
+<p>Comment #7:</p>
+<p>Ln34 this is not a conclusion drawn from the data so remove &#8211; also relevant to Ln259. It can be in the discussion though as a possible remedy to the effects observed</p>
+<p>Avoid personal pronouns such as &#8220;we&#8221; throughout</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we removed these sentences from the conclusions in lines 35 and 266. We removed &#8220;we&#8221; and rewrote the sentences in lines 48, 56, 74, 93, 94 and 103 as follows:</p>
+<p>(line 48)</p>
+<p>&#8220;As a result of this concentrated viewing (i.e., &#8220;staring&#8221;), tear condition may change drastically during perimetry.&#8221;</p>
+<p>(line 56)</p>
+<p>&#8220;These indices were compared in two groups: patients with DE, and normal control subjects.&#8221;</p>
+<p>(line 74)</p>
+<p>&#8220;Only eyes in which perimetry was initially performed were examined.&#8221;</p>
+<p>(line 93)</p>
+<p>&#8220;In this study, DE was diagnosed according to the new diagnostic criteria.&#8221;</p>
+<p>(line 94)</p>
+<p>&#8220;Dry Eye-related Quality of Life Score (DEQS) questionnaires were used to evaluate the symptoms associated with DE [15].&#8221;</p>
+<p>(line 103)</p>
+<p>&#8220;Tear metrics and ocular surface condition were evaluated using five parameters:&#8221;</p>
+<p>Comment #8:</p>
+<p>Ln62 The sample size needs to be justified</p>
+<p>Response</p>
+<p>In this study, all patients attending the glaucoma specialty outpatient clinic of Fukushima Medical University or the Marui Eye Clinic from May to November 2014 were considered, and we justified the sample size of dry eye patients and normal control subjects. However, the sample size was relatively small, so in the future, we will investigate this using larger-scale studies. We have changed a sentence in lines 66-68 as follows:</p>
+<p>&#8220;All patients attending the glaucoma specialty outpatient clinic of Fukushima Medical University or the Marui Eye Clinic from May to November 2014 were considered.&#8221;</p>
+<p>Comment #9:</p>
+<p>Ln100 explain how TFBUT was measured. It needs to be much clearer what were the baseline tests of ocular surface health and what were the characteristics studied to determine change with the perimetry</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we have described how TFBUT was measured in lines 112 to 114 as follows:</p>
+<p>&#8220;For measurement of TFBUT, the interval between the last complete blink and the first appearance of a dry spot or disruption in the tear film was recorded after the instillation of fluorescein. TFBUT was evaluated three times, and the mean value was recorded.&#8221; </p>
+<p>Comment #10:</p>
+<p>Ln104 &#8220;optometrists&#8221; misspelt</p>
+<p>Response</p>
+<p>In accordance with your suggestion, we have changed &#8220;perimetrists&#8221; to&#8220;optometrists&#8221; in line 110.</p>
+<p>Comment #10:</p>
+<p>Ln105 were the participants unaware their blink rate was being observed</p>
+<p>Response </p>
+<p>We have added a sentence in lines 111 to 112 as follows:</p>
+<p>&#8220;The participants were unaware that their blink rate was being observed.&#8221;</p>
+<p>Comment #11:</p>
+<p>Ln108 and beyond. The study is almost certainly not powered to break the analysis down into groups as small as n=8. This should be removed throughout.</p>
+<p>Response</p>
+<p>Thank you for your comment. We acknowledge that the number of dry eye patients is small. However, we researched more than 250 patients and found only eight patients with dry eye and blink rates that increased or remained unchanged during perimetry. In addition, we found a significant difference in fixation loss late. Therefore, while acknowledging the low patient number, we believe the results are still of great interest, and can serve to inform future research in this area. </p>
+<p>Comment #12:</p>
+<p>Ln115 was the data not normally distributed resulting in non-parametric tests being applied?</p>
+<p>Response</p>
+<p>Measurements, other than age and test time, were found to be non-parametric according to the Kolmogorov&#8211;Smirnov test which revealed that these parameters did not follow a normal distribution. Therefore, the median (IQR [min-max]) was reported for these parameters, and the Wilcoxon signed-rank test and the Mann-Whitney U test were used for statistical analysis.</p>
+<p>Comment #13:</p>
+<p>Ln127 it is essential to know whether the anti-glaucoma drops were preserved or not and to do an analysis of ocular surface parameters and the effect of perimetry base on this if the sample split size is sufficient</p>
+<p>Response </p>
+<p>In accordance with your suggestion, we rephrased lines 106-107 and lines l08-110 as follows:</p>
+<p>(lines 106-107)</p>
+<p>&#8220;The use of all eye drops, including anti-glaucoma eye drops, was stopped 4 hours before all examinations to avoid eye drop effects.&#8221;</p>
+<p>(lines l08-110) </p>
+<p>&#8220;SM value, blink rate in 1 min, TFBUT, and VB scores were evaluated 30 mins before starting perimetry. TFBUT and VB scores were re-evaluated immediately after the first perimetry.&#8221; </p>
+<p>Comment #14:</p>
+<p>Do not repeat data which is rightly in the tables in the text, which currently makes it much harder to read</p>
+<p>Response </p>
+<p>We removed the repeated data from lines 176 and 206.</p>
+<p>Comment #15:</p>
+<p>Ln221 high and low are relative terms so should be higher and lower</p>
+<p>Response</p>
+<p>We corrected the sentence in lines 219 to 220 as follows:</p>
+<p>&#8220;The blinking rate is lower when mental load is higher. Conversely, the blinking rate is higher when mental load is lower [22].&#8221;</p>
+<p>Comment #16:</p>
+<p>Ln228 explain what is meant about pattern of blinking.</p>
+<p>Response</p>
+<p>This sentence is unclear, therefore, we rewrote the sentence in lines 217 to 219 as follows:</p>
+<p>&#8220;A wide range of blink frequencies occur during routine perimetry. Although some patients hardly ever blink during a perimetry, others show frequent blinking that often appears to be related to stimulus presentation times [28].&#8221;</p>
+<p>Comment #17:</p>
+<p>More discussion is needed of the trade off between higher concentration leading to less blinking (and less likely to miss a stimulus), but then more ocular irritation leading to a loss of concentration.</p>
+<p>Response</p>
+<p>We rewrote lines 217 to 232, and quoted some references which have investigated the relationships between perimetry, blink frequency, concentration and sleepiness as follows: </p>
+<p>&#8220;A wide range of blink frequencies occur during routine perimetry. Although some patients hardly ever blink during perimetry, others show frequent blinking that often appears to be related to stimulus presentation times [28]. The blinking rate is lower when mental load is higher. Conversely, the blinking rate is higher when mental load is lower [22]. The patients whose blinking rates did not decrease during perimetry may have been able to perform perimetry while relaxed, whereas patients whose blinking rates decreased during perimetry may have had to perform perimetry with a high mental load due to concentrating deeply on completing the test. On the other hand, severe sleepiness causes longer blink durations and a decreased blink rate [29-31]. Therefore, some patients whose blink rates decreased during perimetry may have had severe sleepiness. In both patients with DE and normal control subjects, VB score was worsened in some eyes with blink rates that did not decrease during perimetry, as well as in eyes with decreased blink rates during perimetry (Fig 3). Not only the decreased blink rate, but also the abnormal blinking caused by strong tension or severe sleepiness during perimetry may be reasons for the worsening of ocular surface conditions. Perimetrists should exercise caution and create a relaxed atmosphere in order to allow patients to maintain a high FL rate during perimetry. It is necessary that they guide patients who have a high degree of tension and severely suppress blinking during perimetry. If patients experience an increase in blinking time and decreased rate of blinking, it is advised that perimetry be temporarily postponed to allow a period of rest.&#8221;</p>
+<p>Comment #18:</p>
+<p>Ln239-242 these sentences are unclear &#8211; the fact that metrics are associated does not mean one causes the other</p>
+<p>Response</p>
+<p>We have modified this section as follows:</p>
+<p>(lines 242 to 246)</p>
+<p>&#8220;SM value was directly correlated with FN rate, and the DEQS was negatively correlated with FN rate in patients with DE. Patients with DE whose tear meniscus volumes were relatively larger, or those who exhibited less severe symptoms associated with DE, had higher FN rates. While this suggests that tear meniscus volume and severity of symptoms associated with DE may have been related to FN response in patients with DE, further studies are required to establish causation.&#8221;</p>
+<supplementary-material id="pone.0222467.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222467.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response_to_Reviewers1.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222467.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222467.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wolffsohn</surname>
+<given-names>James</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>James Wolffsohn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222467" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">30 Aug 2019</named-content>
+</p>
+<p>Impact of tear metrics on the reliability of perimetry in patients with dry eye</p>
+<p>PONE-D-19-15509R1</p>
+<p>Dear Dr. Sagara,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>James Wolffsohn, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments:</p>
+<p>Thank you for addressing the reviewers comments</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222467.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222467.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wolffsohn</surname>
+<given-names>James</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>James Wolffsohn</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222467" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">10 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-15509R1 </p>
+<p>Impact of tear metrics on the reliability of perimetry in patients with dry eye </p>
+<p>Dear Dr. Sagara:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Professor James Wolffsohn  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

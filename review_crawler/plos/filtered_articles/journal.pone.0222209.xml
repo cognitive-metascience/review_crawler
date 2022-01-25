@@ -1,0 +1,805 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222209</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-19358</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>DNA filter assay</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>DNA filter assay</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Electrophoretic techniques</subject><subj-group><subject>Gel electrophoresis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>DNA</subject><subj-group><subject>DNA electrophoresis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>DNA</subject><subj-group><subject>DNA electrophoresis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Electrophoretic techniques</subject><subj-group><subject>DNA electrophoresis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Electrophoretic techniques</subject><subj-group><subject>Gel electrophoresis</subject><subj-group><subject>Agarose gel electrophoresis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Electromagnetic radiation</subject><subj-group><subject>Light</subject><subj-group><subject>Artificial light</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Electromagnetic radiation</subject><subj-group><subject>Light</subject><subj-group><subject>Ultraviolet radiation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Electromagnetic radiation</subject><subj-group><subject>Light</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Bromides</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Development of highly sensitive and low-cost DNA agarose gel electrophoresis detection systems, and evaluation of non-mutagenic and loading dye-type DNA-staining reagents</article-title>
+<alt-title alt-title-type="running-head">Simple, highly sensitive, and low-cost DNA agarose gel electrophoresis detection systems</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8414-2836</contrib-id>
+<name name-style="western">
+<surname>Motohashi</surname>
+<given-names>Ken</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Frontier Life Sciences, Faculty of Life Sciences, Kyoto Sangyo University, Kamigamo Motoyama, Kita-ku, Kyoto, Japan</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Center for Ecological Evolutionary Developmental Biology, Kyoto Sangyo University, Kamigamo Motoyama, Kita-Ku, Kyoto, Japan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Kalendar</surname>
+<given-names>Ruslan</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Helsinki, FINLAND</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The author has declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">motohas@cc.kyoto-su.ac.jp</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>9</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222209</elocation-id>
+<history>
+<date date-type="received">
+<day>10</day>
+<month>7</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>23</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ken Motohashi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222209" />
+<abstract>
+<p>Highly sensitive and low-cost DNA agarose gel detection systems were developed using non-mutagenic and loading dye-type DNA-staining reagents. The DNA detection system that used Midori Green Direct and Safelook Load-Green, both with an optimum excitation wavelength at ~490 nm, could detect DNA-fragments at the same sensitivity to that of the UV (312 nm)-transilluminator system combined with ethidium bromide, after it was excited by a combination of cyan LED light and a shortpass filter (510 nm). The cyan LED system can be also applied to SYBR Safe that is widely used as a non-toxic dye for post-DNA-staining. Another DNA-detection system excited by black light was also developed. Black light used in this system had a peak emission at 360 nm and caused less damage to DNA due to lower energy of UV rays with longer wavelength when compared to those of short UV rays. Moreover, hardware costs of the black light system were ~$100, less than 1/10 of the commercially available UV (365 nm) transilluminator (&gt;$1,000). EZ-Vision and Safelook Load-White can be used as non-mutagenic and loading dye-type DNA-staining reagents in this system. The black light system had a greater detection sensitivity for DNA fragments stained by EZ-Vision and Safelook Load-White compared with the commercially available imaging system using UV (365 nm) transilluminator.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001691</institution-id>
+<institution>Japan Society for the Promotion of Science</institution>
+</institution-wrap>
+</funding-source>
+<award-id>16K07409</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8414-2836</contrib-id>
+<name name-style="western">
+<surname>Motohashi</surname>
+<given-names>Ken</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001700</institution-id>
+<institution>Ministry of Education, Culture, Sports, Science and Technology</institution>
+</institution-wrap>
+</funding-source>
+<award-id>S1511023</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8414-2836</contrib-id>
+<name name-style="western">
+<surname>Motohashi</surname>
+<given-names>Ken</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100007802</institution-id>
+<institution>Institute for Fermentation, Osaka</institution>
+</institution-wrap>
+</funding-source>
+<award-id>G-2019-2-067</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8414-2836</contrib-id>
+<name name-style="western">
+<surname>Motohashi</surname>
+<given-names>Ken</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by JSPS KAKENHI Grant Numbers 16K07409 (to K.M.), the MEXT-Supported Program for the Strategic Research Foundation at Private Universities Grant Number S1511023 (to K.M.), and the Institute for Fermentation (Osaka) Grant Number G-2019-2-067 (to K.M.). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="2" />
+<page-count count="13" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>DNA separation and detection by agarose gel electrophoresis is one of the most frequently used techniques in life sciences [<xref ref-type="bibr" rid="pone.0222209.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222209.ref003">3</xref>]. Traditionally, DNA fragments loaded on agarose gels have been stained with ethidium bromide and detected by ultraviolet (UV)-transilluminator system [<xref ref-type="bibr" rid="pone.0222209.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222209.ref004">4</xref>&#8211;<xref ref-type="bibr" rid="pone.0222209.ref007">7</xref>]. This system is a highly sensitive and low-running-cost method that has been used by many molecular biology researchers to visualize DNA in agarose gel after electrophoresis [<xref ref-type="bibr" rid="pone.0222209.ref008">8</xref>&#8211;<xref ref-type="bibr" rid="pone.0222209.ref011">11</xref>]. However, ethidium bromide and UV-light system require careful handling of the staining solution and short wavelength UV (312 nm)-transilluminator because of the mutagenic effects of ethidium bromide and high energy of short-wavelength UV light that are harmful to users [<xref ref-type="bibr" rid="pone.0222209.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0222209.ref013">13</xref>]. Moreover, DNA strands are damaged by high-energy short-wave UV rays [<xref ref-type="bibr" rid="pone.0222209.ref014">14</xref>]. Non-mutagenic alternative DNA-staining reagents, such as SYBR-Green and SYBR-Gold, have been developed to eliminate the disadvantages of DNA staining with ethidium bromide [<xref ref-type="bibr" rid="pone.0222209.ref015">15</xref>&#8211;<xref ref-type="bibr" rid="pone.0222209.ref020">20</xref>].</p>
+<p>Recently, non-mutagenic and loading dye-type DNA-staining reagents that are simply mixed with sample DNA solutions have been developed and made available by several suppliers, such as EZ-vision (VWR Life Science, Radnor, PA, USA), Midori Green Direct (Nippon Genetics, Tokyo, Japan), Novel Juice (Bio-Helix, Keelung City, Taiwan) and Safelook-series (Fujifilm Wako Pure Chemical Corporation, Osaka, Japan). These DNA-staining reagents are used in small amounts, thereby bearing low cost when compared with other post-staining types or precast-gel type reagents such as SYBR series, and, owing to their low toxicity, they can be used safely to detect DNA fragments on agarose gels after electrophoresis [<xref ref-type="bibr" rid="pone.0222209.ref021">21</xref>&#8211;<xref ref-type="bibr" rid="pone.0222209.ref026">26</xref>]. However, the use of these novel non-mutagenic DNA-staining reagents requires an additional excitation light and optical filter system to acquire high detection sensitivity for DNA fragments; these reagents are excited by wavelengths that are longer than the short wavelengths of the UV light used with ethidium bromide DNA staining. Moreover, detection sensitivity of these non-mutagenic DNA-staining reagents is lower than that of ethidium bromide-UV transilluminator system, and excitation by longer UV wavelengths employed with those novel reagents causes less damage to DNA strands [<xref ref-type="bibr" rid="pone.0222209.ref018">18</xref>]. Here, two novel, simple, and low-cost DNA detection systems, using non-mutagenic and loading dye-type of DNA-staining reagents, to detect DNA fragments by agarose gel electrophoresis were developed. In addition, sensitivities of loading dye-type DNA-staining reagents were evaluated in optimized DNA-detection systems using the excitation-light systems.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003" sec-type="materials|methods">
+<title>Materials</title>
+<p>Midori Green Direct (Nippon Genetics), Novel Juice (Bio-Helix), Safelook Load-Green (Fujifilm Wako Pure Chemical Corporation), EZ-Vision One (VWR Life Science), and Safelook Load-White (Fujifilm Wako Pure Chemical Corporation) were used as loading dye-type of DNA-staining reagents. Midori Green Direct was supplied as 10&#215; loading dye. Novel Juice, Safelook Load-Green, EZ-Vision One, and Safelook Load-White were supplied as 6&#215; loading dye. SYBR Safe (Thermo Fisher Scientific, Carlsbad, CA) was used as a major nontoxic post-DNA-staining reagent. A 1Kb DNA Ladder RTU (Bio-Helix, 100 ng/&#956;L) was used as DNA ladder marker (10, 8.0, 6.0, 5.0, 4.0, 3.0, 2.5, 2.0, 1.5, 1.0, 0.75, 0.50, 0.25 kbp). Agarose S (Nippon Gene, Tokyo, Japan) was used for DNA gel electrophoresis.</p>
+</sec>
+<sec id="sec004">
+<title>DNA agarose gel electrophoresis</title>
+<p>DNA agarose gel electrophoresis was performed for 25 min at 150 V with 0.8% agarose gel in a buffer containing 89 mM Tris, 89 mM borate, and 2 mM EDTA (TBE) [<xref ref-type="bibr" rid="pone.0222209.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222209.ref007">7</xref>].</p>
+</sec>
+<sec id="sec005">
+<title>Excitation light and filter system</title>
+<p>Compact LED viewer (<ext-link ext-link-type="uri" ns0:href="https://www.sanplatec.co.jp/product_pages.asp?arg_product_id=SAN26955" ns0:type="simple">https://www.sanplatec.co.jp/product_pages.asp?arg_product_id=SAN26955</ext-link>, Sanplatec, Osaka, Japan) as blue LED light (470 nm) and cyan LED stand light (<ext-link ext-link-type="uri" ns0:href="https://item.rakuten.co.jp/holkin-shop/hlk-12led-490nm-495nm/" ns0:type="simple">https://item.rakuten.co.jp/holkin-shop/hlk-12led-490nm-495nm/</ext-link>, hlk-12led-490nm-495nm; Holkin, Gifu, Japan) as cyan LED light (490&#8211;495 nm) were used to excite Midori Green Direct, Novel Juice, and Safelook Load-Green. Compact black light blue lamp 27 W (<ext-link ext-link-type="uri" ns0:href="https://item.rakuten.co.jp/denzaido/4992712060051/" ns0:type="simple">https://item.rakuten.co.jp/denzaido/4992712060051/</ext-link>, 360 nm, FPL27BLB; Sankyo Denki, Tokyo, Japan) was used as black light to excite EZ-Vision and Safelook Load-White. A shortpass filter (<ext-link ext-link-type="uri" ns0:href="https://www.asahi-spectra.co.jp/asp/syousaik.asp?key1=f41&amp;key2=SV0510" ns0:type="simple">https://www.asahi-spectra.co.jp/asp/syousaik.asp?key1=f41&amp;key2=SV0510</ext-link>, 50 &#215; 50 mm, SV0510; Asahi Spectra, Tokyo, Japan) was used as an excitation light filter for the cyan LED system.</p>
+</sec>
+<sec id="sec006">
+<title>Emission filters</title>
+<p>The common filters for photography, SC-42 (420 nm), SC-46 (460 nm), SC-48 (480 nm), SC-52 (520 nm), SC-54 (540 nm), and SC-56 (560 nm) (75 &#215; 75 mm; Fujifilm, Tokyo, Japan) were used as longpass filters for emission systems.</p>
+</sec>
+<sec id="sec007">
+<title>Commercially available imaging systems for DNA agarose gel electrophoresis</title>
+<p>STAGE-One (AMZ System Science, Osaka, Japan) was used to visualize DNA ladder markers with ethidium bromide by UV-transilluminator system (312 nm excitation). STAGE-2000 (AMZ System Science) was used to visualize DNA ladder markers with EZ-vision and Safelook Load-White by UV-transilluminator system (365 nm excitation) as a control of commercially available UV-transilluminator system for EZ-vision and Safelook Load-White. Blue-LED transilluminator Blook<sup>TM</sup> (Bio-Helix) was used to visualize DNA ladder markers with Midori Green Direct as a control of commercially available blue-LED transilluminator system for Midori Green Direct.</p>
+</sec>
+<sec id="sec008">
+<title>Photograph system</title>
+<p>Images of DNA agarose gels after electrophoresis were recorded with a digital camera PowerShot G12 (Canon, Tokyo, Japan) mounted on a photo stand shaded by blackout curtain. None of the images were cropped, and altered by image processing methods such as contrasting and enhancement.</p>
+</sec>
+<sec id="sec009">
+<title>Determination of detection sensitivities by successive dilutions of DNA markers on agarose gels</title>
+<p>Fluorescent intensity of successive dilutions of DNA markers on agarose gels was analyzed for each sample by &#8220;Plot Profile&#8221; of Image-J [<xref ref-type="bibr" rid="pone.0222209.ref027">27</xref>]. Detected sensitivity was defined by the dilution when all the peaks of 13 DNA marker fragments were detected. The detection limit at standard volume, 1/3&#8211;1/6 volume, and &lt;1/10 volume of DNA markers was defined as moderate, moderate-high, and high, respectively. When a part of the 13 peaks could not be detected with standard volume (5 &#956;L), the sensitivity was defined as low.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Results and discussion</title>
+<sec id="sec011">
+<title>Excitation and emission of non-mutagenic and loading dye-type DNA-staining reagents</title>
+<p>Non-mutagenic and loading dye-type DNA-staining reagents used in this study were classified according to their excitation wavelength required for detection of DNA fragments in agarose gel after electrophoresis (<xref ref-type="table" rid="pone.0222209.t001">Table 1</xref>). Midori Green Direct, Novel Juice, and Safelook Load-Green were excited by blue (470 nm) or cyan (490&#8211;495 nm) light and showed green fluorescence. EZ-Vision and Safelook Load-White were excited by ultraviolet-A (~365 nm) and they release blue fluorescence. In contrast, ethidium bromide was well-excited by short-wave UV rays (312 nm) with high energy. Detection limit of the ethidium bromide staining was evaluated by successive dilutions of DNA markers (standard volume to 1/30 volume) (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1A</xref>). The detection limit of staining reagents was defined by the dilution when all peaks of 13 DNA maker fragments were detected, as described in materials and methods (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1</xref> and <xref ref-type="supplementary-material" rid="pone.0222209.s001">S1 Fig</xref>). DNA markers stained with ethidium bromide could be detected by using 1/10 of standard DNA marker volume (500 ng, 5 &#956;L). This result indicated high sensitivity of ethidium bromide DNA staining. In this study, two DNA detection systems for agarose gel electrophoresis were built by combining a common, commercially available LED or black light (<xref ref-type="supplementary-material" rid="pone.0222209.s002">S2 Fig</xref>) and optical filters for photography, using loading dye-type DNA-staining reagents. Schematic diagram of these DNA detection systems and photographs of the systems are shown in <xref ref-type="fig" rid="pone.0222209.g002">Fig 2</xref> and <xref ref-type="supplementary-material" rid="pone.0222209.s003">S3 Fig</xref>, respectively.</p>
+<fig id="pone.0222209.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Detection of DNA ladder markers stained with loading dye-type DNA-staining reagents for excitation by blue or cyan-LED light.</title>
+<p>(a) Detection by UV (312 nm)-transilluminator system (STAGE-One, AMZ System Science) and Blook<sup>TM</sup> (470 nm, Bio-Helix); (b) Detection by blue-LED light (470 nm) excitation. SC-54 filter was used as longpass emission filter; (c) Detection by combination of cyan LED light (490&#8211;495 nm) excitation and a shortpass filter (510 nm). SC-54 filter was used as longpass emission filter. Each DNA-staining reagent was represented by underlined letters. DNA ladder markers were loaded by successive dilution. Lane 1, standard volume (5 &#956;L (500 ng), 1 volume); lane 2, 1/2 volume; lane 3, 1/3 volume; lane 4, 1/6 volume; lane 5, 1/10 volume; lane 6, 1/15 volume; lane 7, 1/20 volume; lane 8, 1/30 volume.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.g001" ns0:type="simple" />
+</fig>
+<fig id="pone.0222209.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Schematic diagram of DNA detection system for agarose gel electrophoresis using vertical illumination system.</title>
+<p>Shortpass excitation filter, SV0510, was used for cyan-LED light. Longpass SC-46 emission filter was used for black light system, and longpass SC-54 emission filter was used for blue- or cyan-LED light.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.g002" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222209.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.t001</object-id>
+<label>Table 1</label> <caption><title>Excitation and emission wavelengths of non-mutagenic and loading dye-type DNA-staining reagents.</title></caption>
+<alternatives>
+<graphic id="pone.0222209.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Excitation light</th>
+<th align="center">DNA-staining reagent<xref ref-type="table-fn" rid="t001fn001">*<sup>1</sup></xref></th>
+<th align="center">Excitation wavelength (nm)<xref ref-type="table-fn" rid="t001fn002">*<sup>2</sup></xref></th>
+<th align="center">Emission wavelength (nm)<xref ref-type="table-fn" rid="t001fn002">*<sup>2</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">blue or</td>
+<td align="center">Midori Green Direct</td>
+<td align="center">490</td>
+<td align="center">530</td>
+</tr>
+<tr>
+<td align="center">cyan LED</td>
+<td align="center">Novel Juice</td>
+<td align="center">495</td>
+<td align="center">537</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">Safelook Load-Green</td>
+<td align="center">490</td>
+<td align="center">525</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">SYBR Safe<xref ref-type="table-fn" rid="t001fn003">*<sup>3</sup></xref></td>
+<td align="center">502</td>
+<td align="center">530</td>
+</tr>
+<tr>
+<td align="center">UV-A</td>
+<td align="center">EZ-Vision</td>
+<td align="center">364</td>
+<td align="center">454</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">Safelook Load-White</td>
+<td align="center">370</td>
+<td align="center">470</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>*<sup>1</sup>Midori Green Direct was supplied as 10&#215; loading dye. Novel Juice, Safelook Load-Green, EZ-Vision, and Safelook Load-White were supplied as 6&#215; loading dye.</p></fn>
+<fn id="t001fn002"><p>*<sup>2</sup>Optimum excitation and emission wavelengths for DNA-staining reagents were described in each instruction manual.</p></fn>
+<fn id="t001fn003"><p>*<sup>3</sup>SYBR Safe is listed because the reagent is widely used as a non-mutagenic DNA-staining reagent, although the reagent is of a post-staining type or precast-gel type.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec012">
+<title>High-sensitivity detection system of DNA fragments by blue or cyan LED light-excited DNA-staining reagents</title>
+<p>Midori Green Direct, Novel Juice, and Safelook Load-Green are generally excited by blue LED light system. Actually, commercially available Blook system that is equipped by blue LED (470 nm) could detect Midori Green Direct-stained DNA markers (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1A</xref>). The sensitivity of Midori Green Direct-stained DNA markers was evaluated by low-cost blue LED light (Compact LED viewer [470 nm], Sanplatec) whose price was ~$180 (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1B</xref> and <xref ref-type="supplementary-material" rid="pone.0222209.s004">S4A Fig</xref>). Midori Green Direct-stained DNA markers were also detected by the low-cost blue LED viewer when 1/3 volume of DNA markers was loaded on an agarose gel, although the sensitivity was slightly less than that of the Blook system, which could detect 1/6 volume of DNA markers (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1A and 1B</xref>). Next, to develop a low-cost DNA detection system with higher sensitivity using non-mutagenic DNA-staining reagents, Cyan LED (490&#8211;495 nm, Holkin), which emitted the optimum wavelength to excite Midori Green Direct-stained DNA markers (<xref ref-type="table" rid="pone.0222209.t001">Table 1</xref>), was applied to the DNA detection system for Midori Green Direct. The light emitted by cyan LED (490&#8211;495 nm) could not be eliminated in the reflected extra light by longpass emission filters alone (SC-52, SC-54, and SC-56) (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4B Fig</xref>, cyan LED) because the wavelength of cyan LED was near the emission wavelength. To eliminate longer wavelength region in reflected light of cyan LED, a shortpass excitation filter (510 nm) was added to the excitation cyan LED light (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4B and S4C Fig</xref>, cyan LED and cyan LED + Excitation filter, 510 nm). However, longer wavelength components in cyan-LED could not be eliminated even by a combination of a shortpass excitation filter (510 nm) and a longpass emission filter (520 nm) because cyan LED also contains longer wavelength components in the range of 490&#8211;495 nm (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4C Fig</xref>). The background noise could be effectively reduced by using a longpass emission filter (540 nm) (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4C Fig</xref>). The combination of cyan LED, shortpass excitation filter (510 nm), and longpass emission filter (540 nm) reduced background noise and greatly improved the detection sensitivity of Midori Green Direct-stained DNA markers (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1B and 1C</xref>). The detection limit of the improved cyan LED and shortpass excitation filter system was 1/10 volume of DNA markers and in the same range as that of the ethidium bromide-UV transilluminator system (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1A and 1C</xref>). The combination system of cyan LED and the shortpass excitation filter could be also applied to other DNA-staining reagents, such as Novel Juice and Safelook Load-Green. The combination system could detect 1/10 volume of DNA markers using Safelook Load-Green, but only 1/3 volume of DNA markers using Novel Juice (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1C</xref>). These results showed that Midori Green Direct and Safelook Load-Green detected DNA markers with higher sensitivity compared with Novel Juice. The hardware cost of the excitation system built by combining cyan LED and a shortpass filter was ~$280, lower than the cost of the commercially available Blook system (~$730). SC-54, as a longpass emission filter, effectively reduced background noise in both the blue LED (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4A Fig</xref>) and cyan LED systems combined with the excitation filter (510 nm) (<xref ref-type="supplementary-material" rid="pone.0222209.s004">S4C Fig</xref>).</p>
+</sec>
+<sec id="sec013">
+<title>Low-cost detection system of DNA-fragments based on UV-A-excited DNA-staining reagents</title>
+<p>The optimum excitation wavelengths for EZ-Vision and Safelook Load-White were the longer waves of UV-A (360&#8211;370 nm) (<xref ref-type="table" rid="pone.0222209.t001">Table 1</xref>). Black light has a peak emission spectrum at 360 nm and can excite DNA markers stained with EZ-Vision and Safelook Load-White. DNA markers stained with EZ-Vision and Safelook Load-White could be detected by black light, producing the 13 peaks with standard volume of DNA markers (<xref ref-type="fig" rid="pone.0222209.g003">Fig 3</xref>), whereas the commercially available DNA imaging system with UV transilluminator at 365 nm detected the DNA markers stained by EZ-Vision and Safelook Load-White with lower sensitivity. Black light is a very low-cost lamp that can be used to emit UV rays (~$40), in contrast to the expensive hardware of UV-transilluminator (&gt;$1,000). SC-46, as a low-cost (~$16) longpass emission-filter, was effective in reducing background noise for the black light system (<xref ref-type="supplementary-material" rid="pone.0222209.s005">S5 Fig</xref>).</p>
+<fig id="pone.0222209.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Detection of DNA ladder markers stained with loading dye-type DNA-staining reagents by excitation with UV-A light.</title>
+<p>(a) Detection of DNA fragments stained by EZ-Vision; (b) Detection of DNA fragments stained with Safelook Load-White. EZ-Vision and Safelook Load-White were excited by black light (~360 nm) or UV (365 nm) transilluminator system (STAGE-2000, AMZ System Science). Each excitation system is represented with boxed letters. SC-46 was used as longpass emission-filter for black light system, and the accessory filter of STAGE-2000 was used as an emission filter for UV (365 nm)-transilluminator system (STAGE-2000). DNA ladder markers were loaded by successive dilution. Lane 1, standard volume (5 &#956;L (500 ng), 1 volume); lane 2, 1/2 volume; lane 3, 1/3 volume; lane 4, 1/6 volume; lane 5, 1/10 volume; lane 6, 1/15 volume; lane 7, 1/20 volume; lane 8, 1/30 volume.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec014">
+<title>Versatility of two DNA detection systems developled in this study</title>
+<p>Both cyan-LED (or blue-LED) system and black light system can be applied to DNA gel extraction from agarose gel because agarose gel fits in the open space of both systems (<xref ref-type="fig" rid="pone.0222209.g002">Fig 2</xref> and <xref ref-type="supplementary-material" rid="pone.0222209.s003">S3 Fig</xref>). During the cutting of the agarose gel to extract DNA fragments, DNA bands on the agarose gel excited by specific light can be visualized by orange or yellow spectacles, as an alternative to emission filters (SC-54 and SC-46). Orange spectacles (UVP, UVC-310 and Optocode, OG-HC) can be used as an alternative to SC-54 (orange filter) (<xref ref-type="supplementary-material" rid="pone.0222209.s006">S6A Fig</xref>), and yellow spectacles (TRUSCO, TSG-814Y) as an alternative to SC-46 (yellow filter) (<xref ref-type="supplementary-material" rid="pone.0222209.s006">S6B Fig</xref>).</p>
+<p>SYBR Safe, which is widely used as a post-staining type or precast-gel type reagent, is also a non-toxic DNA-staining reagent, although its feature is different from that of the loading dye-type DNA-staining reagents used in this study. Excitation and emission wavelengths of SYBR Safe show similar features to those of Midori Green Direct, Novel Juice, and Safelook Load-Green (<xref ref-type="table" rid="pone.0222209.t001">Table 1</xref>). To extend the versatility of the DNA detection system developed in this study, DNA agarose gel was stained with SYBR Safe (<xref ref-type="fig" rid="pone.0222209.g004">Fig 4</xref>). Consequently, DNA agarose gel stained with SYBR Safe was clearly detected by both the blue-LED and cyan-LED + Excitation filter systems. Similar to Midori Green Direct, Novel Juice, and Safelook Load-Green, SYBR Safe provided higher detection sensitivity of DNA on agarose gel by cyan-LED + Excitation filter system than by blue-LED alone (<xref ref-type="fig" rid="pone.0222209.g004">Fig 4</xref> and <xref ref-type="supplementary-material" rid="pone.0222209.s007">S7 Fig</xref>). The detection sensitivities were the same as those of Midori Green Direct and Safelook Load-Green (Figs <xref ref-type="fig" rid="pone.0222209.g001">1</xref> and <xref ref-type="fig" rid="pone.0222209.g004">4</xref>).</p>
+<fig id="pone.0222209.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Detection of DNA ladder markers stained with SYBR Safe for excitation by blue or cyan-LED light.</title>
+<p>(a) Detection by blue-LED light (470 nm) excitation. SC-54 filter was used as longpass emission filter; (b) Detection by combination of cyan LED light (490&#8211;495 nm) excitation and a shortpass filter (510 nm). SC-54 filter was used as longpass emission filter. DNA ladder markers were loaded by successive dilution. Lane 1, standard volume (5 &#956;L (500 ng), 1 volume); lane 2, 1/2 volume; lane 3, 1/3 volume; lane 4, 1/6 volume; lane 5, 1/10 volume; lane 6, 1/15 volume; lane 7, 1/20 volume; lane 8, 1/30 volume.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.g004" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+<sec id="sec015" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Sensitivities and costs of the DNA detection system using non-mutagenic and loading dye-type DNA-staining reagents are summarized in <xref ref-type="table" rid="pone.0222209.t002">Table 2</xref>. Midori Green Direct and Safelook Load-Green can be used for highly sensitive DNA-detection systems on DNA agarose gel in combination with cyan LED (490&#8211;495 nm) and shortpass excitation filter (510 nm) (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1C</xref>); although the running cost of Safelook Load-Green is 1.7-fold that of Midori Green Direct. SYBR Safe, a post-staining reagent, can be also applied to the LED systems (<xref ref-type="fig" rid="pone.0222209.g004">Fig 4</xref>), but its running cost is higher than that of loading dye-type DNA-staining reagents because SYBR Safe is used as a staining reagent for post-staining or precast gel staining (<xref ref-type="table" rid="pone.0222209.t002">Table 2</xref>). The sensitivities of the DNA detection system with cyan-LED developed in this study were comparable to a commercially available ethidium bromide-UV (312 nm) transilluminator system (<xref ref-type="fig" rid="pone.0222209.g001">Fig 1A and 1C</xref>). The comparison of the initial costs for laboratory set up revealed that hardware cost of the system that combined cyan LED (490&#8211;495 nm) and shortpass excitation filter (510 nm), including emission filter, was ~$300 and thus cheaper than the cost of Blook (~$730) and UV transilluminator (&gt;$1,000).</p>
+<table-wrap id="pone.0222209.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222209.t002</object-id>
+<label>Table 2</label> <caption><title>Sensitivities and costs of systems implemented in the detection of DNA fragments on agarose gel after electrophoresis.</title></caption>
+<alternatives>
+<graphic id="pone.0222209.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="center" valign="middle" />
+<col align="center" valign="middle" />
+<col align="center" valign="middle" />
+<col align="center" valign="middle" />
+<col align="center" valign="middle" />
+<col align="center" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">DNA-staining reagent</th>
+<th align="center">Excitation system<xref ref-type="table-fn" rid="t002fn001">*<sup>1</sup></xref></th>
+<th align="center">Emission filter<xref ref-type="table-fn" rid="t002fn002">*<sup>2</sup></xref></th>
+<th align="center">Sensitivity<xref ref-type="table-fn" rid="t002fn003">*<sup>3</sup></xref></th>
+<th align="center">Hardware cost <xref ref-type="table-fn" rid="t002fn004">*<sup>4</sup></xref></th>
+<th align="center">Running cost <xref ref-type="table-fn" rid="t002fn005">*<sup>5</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Ethidium bromide</td>
+<td align="center">UV (312 nm) transilluminator</td>
+<td align="center">600FS80<xref ref-type="table-fn" rid="t002fn006">*<sup>6</sup></xref></td>
+<td align="center">High</td>
+<td align="center">****</td>
+<td align="center">0.05</td>
+</tr>
+<tr>
+<td align="center">Midori Green Direct</td>
+<td align="center">Blue LED (Blook<sup>TM</sup>)</td>
+<td align="center">Blue LED (Blook<sup>TM</sup>)</td>
+<td align="center">Moderate&#8211;High</td>
+<td align="center">***</td>
+<td align="center">2.0</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">Blue LED</td>
+<td align="center">SC-54</td>
+<td align="center">Moderate&#8211;High</td>
+<td align="center">**</td>
+<td align="center">2.0</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">Cyan LED +<break />Ex-filter (510 nm)</td>
+<td align="center">SC-54</td>
+<td align="center">High</td>
+<td align="center">**</td>
+<td align="center">2.0</td>
+</tr>
+<tr>
+<td align="center">Novel Juice</td>
+<td align="center">Cyan LED +<break />Ex-filter (510 nm)</td>
+<td align="center">SC-54</td>
+<td align="center">Moderate&#8211;High</td>
+<td align="center">**</td>
+<td align="center">1.9</td>
+</tr>
+<tr>
+<td align="center">Safelook Load-Green</td>
+<td align="center">Cyan LED +<break />Ex-filter (510 nm)</td>
+<td align="center">SC-54</td>
+<td align="center">High</td>
+<td align="center">**</td>
+<td align="center">3.3</td>
+</tr>
+<tr>
+<td align="center">SYBR Safe<xref ref-type="table-fn" rid="t002fn007">*<sup>7</sup></xref></td>
+<td align="center">Blue LED</td>
+<td align="center">SC-54</td>
+<td align="center">Moderate&#8211;High</td>
+<td align="center">**</td>
+<td align="center">12 or 21<xref ref-type="table-fn" rid="t002fn008">*<sup>8</sup></xref></td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">Cyan LED +<break />Ex-filter (510 nm)</td>
+<td align="center">SC-54</td>
+<td align="center">High</td>
+<td align="center">**</td>
+<td align="center">12 or 21<xref ref-type="table-fn" rid="t002fn008">*<sup>8</sup></xref></td>
+</tr>
+<tr>
+<td align="center">EZ-Vision</td>
+<td align="center">Black light</td>
+<td align="center">SC-46</td>
+<td align="center">Moderate</td>
+<td align="center">*</td>
+<td align="center">1.0</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">UV (365 nm) transilluminator</td>
+<td align="center">BP-5465<xref ref-type="table-fn" rid="t002fn006">*<sup>6</sup></xref></td>
+<td align="center">Low</td>
+<td align="center">****</td>
+<td align="center">1.0</td>
+</tr>
+<tr>
+<td align="center">Safelook Load-White</td>
+<td align="center">Black light</td>
+<td align="center">SC-46</td>
+<td align="center">Moderate</td>
+<td align="center">*</td>
+<td align="center">2.0</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="center">UV (365 nm) transilluminator</td>
+<td align="center">BP-5465<xref ref-type="table-fn" rid="t002fn006">*<sup>6</sup></xref></td>
+<td align="center">Low</td>
+<td align="center">****</td>
+<td align="center">2.0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>*<sup>1</sup> Excitation systems are described in detail in materials and methods. A shortpass filter (50 &#215; 50 mm, SV0510; Asahi Spectra, Tokyo, Japan) was used as excitation filter (Ex-filter, 510 nm). Commercially available UV (312 nm)-transilluminator system (STAGE-One; AMZ System Science) was used for detection of ethidium bromide-stained DNA. Commercially available Blook<sup>TM</sup> (Bio-Helix) was used for detection of Midori Green Direct-stained DNA. Commercially available UV (365 nm)-transilluminator system (STAGE-2000; AMZ System Science) was used for detection of EZ-Vision- and Safelook Load-White-stained DNA.</p></fn>
+<fn id="t002fn002"><p>*<sup>2</sup> Longpass filters SC-46 and SC-54 (Fujifilm) were used as emission filters.</p></fn>
+<fn id="t002fn003"><p>*<sup>3</sup> Sensitivities are represented by four-grade evaluation such as low, moderate, moderate-high, and high. Detected sensitivity was defined in materials and methods.</p></fn>
+<fn id="t002fn004"><p>*<sup>4</sup> Hardware costs containing excitation systems and emission filters are represented by * &lt;$100, ** $100&#8211;300, *** $300&#8211;1,000, **** &gt;$1,000.</p></fn>
+<fn id="t002fn005"><p>*<sup>5</sup> Running costs of DNA-staining reagents are represented as the ratio to the cost of EZ-Vision, which is assumed 1.0.</p></fn>
+<fn id="t002fn006"><p>*<sup>6</sup> These filters are accessories of UV-transilluminator systems.</p></fn>
+<fn id="t002fn007"><p>*<sup>7</sup> SYBR Safe is widely used as a nontoxic staining reagent for DNA agarose gel staining. Although SYBR Safe is a DNA-staining reagent for post-staining or precast gel staining, it was added in Table 2 to extend the versatility of the LED-illumination system developed in this study.</p></fn>
+<fn id="t002fn008"><p>*<sup>8</sup> Running cost of SYBR Safe was estimated as 21 for post-staining, or 12 for precast gel staining.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Another DNA-detection system was developed that was excited by black light (~360 nm). This system caused less damage compared with damage caused by short-wave UV rays (312 nm). EZ-Vision-stained and Safelook Load-White-stained DNA gels could be observed with a black light system. Running cost of EZ-Vision was half the cost of Midori Green Direct, and therefore EZ-Vision DNA staining was cost effective, although its sensitivity was less than that of Midori Green Direct. The hardware costs of EZ-Vision were &lt;$100, and therefore the black light system is a cost-effective excitation system for DNA agarose gel electrophoresis.</p>
+<p>Midori Green Direct should be used when high detection sensitivity is required, such as to detect small amounts of DNA fragments, whereas EZ-Vision can be implemented when DNA fragments are detected as part of the routine DNA work because EZ-Vision is the cheapest among non-mutagenic and loading dye-type DNA-staining reagents (<xref ref-type="table" rid="pone.0222209.t002">Table 2</xref>).</p>
+</sec>
+<sec id="sec016">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222209.s001" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s001" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Detection limits by successive dilutions of DNA markers.</title>
+<p>Profiles of the detection limit under each condition were analyzed by &#8220;Plot Profile&#8221; of Image-J. Each excitation system is represented with boxed letters, and each DNA-staining reagent is represented by underlined letters. Blue arrows indicate detectable DNA bands. (a) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1A</xref> left, lane 5; (b) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1A</xref> right, lane 4; (c) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1B</xref> left, lane 3; (d) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1C</xref> left, lane 5; (e) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1V</xref> middle, lane 3; (f) <xref ref-type="fig" rid="pone.0222209.g001">Fig 1V</xref> right, lane 5; (g) <xref ref-type="fig" rid="pone.0222209.g003">Fig 3A</xref> left, lane 1; (h) <xref ref-type="fig" rid="pone.0222209.g003">Fig 3A</xref> right, lane 1; (i) <xref ref-type="fig" rid="pone.0222209.g003">Fig 3B</xref> left, lane 1; (j) <xref ref-type="fig" rid="pone.0222209.g003">Fig 3B</xref> right, lane 1.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s002" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s002" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Parts of the excitation system used in this study.</title>
+<p>(a) Blue-LED (Compact LED viewer, Sanplatec); (b) Left, cyan-LED (hlk-12led-490nm-495nm, Holkin), right, cyan-LED with excitation filter (SV0510; Asahi Spectra); (c) left, compact black light blue lamp 27 W (360 nm, FPL27BLB; Sankyo Denki), right, black light to be mounted on a fluorescent lamp stand.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s003" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s003" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>A photograph of DNA agarose gel electrophoresis detection systems developed in this study.</title>
+<p>Gel images were recorded with a digital camera PowerShot G12 (Canon) in a dark place shaded by blackout curtain. (a) Blue-LED system; (b) Cyan-LED + Excitation filter system; (c) Black light system.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s004" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s004" ns0:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Evaluation of emission filters for detection of DNA markers stained with Midori Green Direct.</title>
+<p>(a) Excitation by blue-LED light (470 nm); (b) Excitation by cyan-LED light (490&#8211;495 nm); (c) Excitation by combination of cyan LED (490&#8211;495 nm) and a shortpass filter (510 nm). SC-52, SC-54, and SC-56 filters were evaluated as longpass emission-filters. DNA ladder markers were loaded by successive dilution. Lane 1, standard volume (5 &#956;L (500 ng), 1 volume); lane 2, 1/2 volume; lane 3, 1/3 volume; lane 4, 1/6 volume; lane 5, 1/10 volume; lane 6, 1/15 volume; lane 7, 1/20 volume; lane 8, 1/30 volume.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s005" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s005" ns0:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Evaluation of emission filters for detection of DNA markers stained with DNA-staining reagents excited by black light system.</title>
+<p>(a) Detection of DNA markers stained with EZ-Vision; (b) Detection of DNA markers stained with Safelook Load-White. Black light (~360 nm) was used to excite EZ-Vision and Safelook Load-White. SC-42, SC-46, and SC-48 filters were evaluated as longpass emission filters. DNA ladder markers were loaded by successive dilution. Lane 1, standard volume (5 &#956;L (500 ng), 1 volume); lane 2, 1/2 volume; lane 3, 1/3 volume; lane 4, 1/6 volume; lane 5, 1/10 volume; lane 6, 1/15 volume; lane 7, 1/20 volume; lane 8, 1/30 volume.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s006" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s006" ns0:type="simple">
+<label>S6 Fig</label>
+<caption>
+<title>Orange and yellow spectacles used to visualize DNA while cutting it out from the agarose gel.</title>
+<p>(a) Orange spectacles (UVP, UVC-310) can be used as an alternative to SC-54, which is an orange filter. (b) Yellow spectacles (TRUSCO, TSG-814Y) can be used as an alternative to SC-46, which is a yellow filter.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222209.s007" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s007" ns0:type="simple">
+<label>S7 Fig</label>
+<caption>
+<title>Detection limits by successive dilutions of DNA markers.</title>
+<p>Profiles of detection limit under each condition were analyzed by &#8220;Plot Profile&#8221; of Image-J. Each excitation system is represented with boxed letters, and DNA-staining reagent is represented by underlined letters. Blue arrows indicate detectable DNA bands. (a) <xref ref-type="fig" rid="pone.0222209.g004">Fig 4A</xref> , lane 3; (b) <xref ref-type="fig" rid="pone.0222209.g004">Fig 4B</xref> , lane 5.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>I thank Dr. Akira Kawabe (Kyoto Sangyo University) for allowing us to use STAGE-One UV-transilluminator system (312 nm excitation). I also thank Dr. Seisuke Kimura (Kyoto Sangyo University) for allowing us to use STAGE-2000 UV-transilluminator system (365 nm excitation).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222209.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Voytas</surname> <given-names>D.</given-names></name> <article-title>Agarose gel electrophoresis</article-title>. <source>Curr Protoc Mol Biol</source>. <year>2001</year>;Chapter 2:Unit2 5A. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/0471142727.mb0205as51" ns0:type="simple">10.1002/0471142727.mb0205as51</ext-link></comment> <object-id pub-id-type="pmid">18265185</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>PY</given-names></name>, <name name-style="western"><surname>Costumbrado</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hsu</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>YH</given-names></name>. <article-title>Agarose gel electrophoresis for the separation of DNA fragments</article-title>. <source>J Vis Exp</source>. <year>2012</year>;(<issue>62</issue>). <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3791/3923" ns0:type="simple">10.3791/3923</ext-link></comment> PubMed Central PMCID: PMC4846332. <object-id pub-id-type="pmid">22546956</object-id></mixed-citation></ref>
+<ref id="pone.0222209.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Green</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Sambrook</surname> <given-names>J</given-names></name>. <article-title>Analysis of DNA by Agarose Gel Electrophoresis</article-title>. <source>Cold Spring Harb Protoc</source>. <year>2019</year>;2019(<issue>1</issue>):<fpage>pdb top100388</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1101/pdb.top100388" ns0:type="simple">10.1101/pdb.top100388</ext-link></comment> <object-id pub-id-type="pmid">30602561</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Aaij</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Borst</surname> <given-names>P</given-names></name>. <article-title>The gel electrophoresis of DNA</article-title>. <source>Biochim Biophys Acta</source>. <year>1972</year>;<volume>269</volume>(<issue>2</issue>):<fpage>192</fpage>&#8211;<lpage>200</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0005-2787(72)90426-1" ns0:type="simple">10.1016/0005-2787(72)90426-1</ext-link></comment> <object-id pub-id-type="pmid">5063906</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sharp</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Sugden</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Sambrook</surname> <given-names>J</given-names></name>. <article-title>Detection of two restriction endonuclease activities in Haemophilus parainfluenzae using analytical agarose&#8212;ethidium bromide electrophoresis</article-title>. <source>Biochemistry</source>. <year>1973</year>;<volume>12</volume>(<issue>16</issue>):<fpage>3055</fpage>&#8211;<lpage>63</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/bi00740a018" ns0:type="simple">10.1021/bi00740a018</ext-link></comment> <object-id pub-id-type="pmid">4354250</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Borst</surname> <given-names>P.</given-names></name> <article-title>Ethidium DNA agarose gel electrophoresis: how it started</article-title>. <source>IUBMB Life</source>. <year>2005</year>;<volume>57</volume>(<issue>11</issue>):<fpage>745</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/15216540500380855" ns0:type="simple">10.1080/15216540500380855</ext-link></comment> <object-id pub-id-type="pmid">16511967</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref007"><label>7</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Green</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Sambrook</surname> <given-names>J</given-names></name>. <source>Molecular Cloning: A Laboratory Manual</source>. <edition>Fourth Edition ed</edition>. <publisher-loc>Cold Spring Harbor, NY</publisher-loc> <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>; <year>2012</year>.</mixed-citation></ref>
+<ref id="pone.0222209.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Shibata</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ozaki</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yatomi</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Igarashi</surname> <given-names>Y</given-names></name>. <article-title>Identification of lysophospholipid receptors in human platelets: the relation of two agonists, lysophosphatidic acid and sphingosine 1-phosphate</article-title>. <source>FEBS Lett</source>. <year>2000</year>;<volume>468</volume>(<issue>2&#8211;3</issue>):<fpage>189</fpage>&#8211;<lpage>93</lpage>. Epub 2000/02/29. S0014-5793(00)01222-9 [pii]. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0014-5793(00)01222-9" ns0:type="simple">10.1016/s0014-5793(00)01222-9</ext-link></comment> <object-id pub-id-type="pmid">10692584</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wakita</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Masuda</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hisabori</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ohta</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Takamiya</surname> <given-names>K</given-names></name>. <article-title>The significance of type II and PrxQ peroxiredoxins for antioxidative stress response in the purple bacterium Rhodobacter sphaeroides</article-title>. <source>J Biol Chem</source>. <year>2007</year>;<volume>282</volume>(<issue>38</issue>):<fpage>27792</fpage>&#8211;<lpage>801</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.M702855200" ns0:type="simple">10.1074/jbc.M702855200</ext-link></comment> <object-id pub-id-type="pmid">17644813</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hishiya</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hatakeyama</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Mizota</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Hosoya-Matsuda</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ikeuchi</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Binary reducing equivalent pathways using NADPH-thioredoxin reductase and ferredoxin-thioredoxin reductase in the cyanobacterium Synechocystis sp. strain PCC 6803</article-title>. <source>Plant Cell Physiol</source>. <year>2008</year>;<volume>49</volume>(<issue>1</issue>):<fpage>11</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/pcp/pcm158" ns0:type="simple">10.1093/pcp/pcm158</ext-link></comment> <object-id pub-id-type="pmid">18003670</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kobayashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mochizuki</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Yoshimura</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hisabori</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Masuda</surname> <given-names>T</given-names></name>. <article-title>Functional analysis of Arabidopsis thaliana isoforms of the Mg-chelatase CHLI subunit</article-title>. <source>Photochem Photobiol Sci</source>. <year>2008</year>;<volume>7</volume>(<issue>10</issue>):<fpage>1188</fpage>&#8211;<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/b802604c" ns0:type="simple">10.1039/b802604c</ext-link></comment> <object-id pub-id-type="pmid">18846282</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lunn</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Sansone</surname> <given-names>EB</given-names></name>. <article-title>Ethidium bromide: destruction and decontamination of solutions</article-title>. <source>Anal Biochem</source>. <year>1987</year>;<volume>162</volume>(<issue>2</issue>):<fpage>453</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0003-2697(87)90419-2" ns0:type="simple">10.1016/0003-2697(87)90419-2</ext-link></comment> <object-id pub-id-type="pmid">3605608</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ohta</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tokishita</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yamagata</surname> <given-names>H</given-names></name>. <article-title>Ethidium bromide and SYBR Green I enhance the genotoxicity of UV-irradiation and chemical mutagens in E. coli</article-title>. <source>Mutat Res</source>. <year>2001</year>;<volume>492</volume>(<issue>1&#8211;2</issue>):<fpage>91</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s1383-5718(01)00155-3" ns0:type="simple">10.1016/s1383-5718(01)00155-3</ext-link></comment> <object-id pub-id-type="pmid">11377248</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rastogi</surname> <given-names>RP</given-names></name>, <article-title>Richa, Kumar A, Tyagi MB, Sinha RP. Molecular mechanisms of ultraviolet radiation-induced DNA damage and repair</article-title>. <source>J Nucleic Acids</source>. <year>2010</year>;<volume>2010</volume>:<fpage>592980</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4061/2010/592980" ns0:type="simple">10.4061/2010/592980</ext-link></comment> <object-id pub-id-type="pmid">21209706</object-id>; PubMed Central PMCID: PMC3010660.</mixed-citation></ref>
+<ref id="pone.0222209.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Singer</surname> <given-names>VL</given-names></name>, <name name-style="western"><surname>Lawlor</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>Yue</surname> <given-names>S</given-names></name>. <article-title>Comparison of SYBR Green I nucleic acid gel stain mutagenicity and ethidium bromide mutagenicity in the Salmonella/mammalian microsome reverse mutation assay</article-title> (Ames test). <source>Mutat Res</source>. <year>1999</year>;<volume>439</volume>(<issue>1</issue>):<fpage>37</fpage>&#8211;<lpage>47</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s1383-5718(98)00172-7" ns0:type="simple">10.1016/s1383-5718(98)00172-7</ext-link></comment> <object-id pub-id-type="pmid">10029672</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tuma</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Beaudet</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Cheung</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Yue</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Characterization of SYBR Gold nucleic acid gel stain: a dye optimized for use with 300-nm ultraviolet transilluminators</article-title>. <source>Anal Biochem</source>. <year>1999</year>;<volume>268</volume>(<issue>2</issue>):<fpage>278</fpage>&#8211;<lpage>88</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1006/abio.1998.3067" ns0:type="simple">10.1006/abio.1998.3067</ext-link></comment> <object-id pub-id-type="pmid">10075818</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Williams</surname> <given-names>LR</given-names></name>. <article-title>Staining nucleic acids and proteins in electrophoresis gels</article-title>. <source>Biotech Histochem</source>. <year>2001</year>;<volume>76</volume>(<issue>3</issue>):<fpage>127</fpage>&#8211;<lpage>32</lpage>. <object-id pub-id-type="pmid">11475315</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Fu</surname> <given-names>WL</given-names></name>. <article-title>Comparative analysis of the DNA staining efficiencies of different fluorescent dyes in preparative agarose gel electrophoresis</article-title>. <source>Clin Chem Lab Med</source>. <year>2005</year>;<volume>43</volume>(<issue>8</issue>):<fpage>841</fpage>&#8211;<lpage>2</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1515/CCLM.2005.141" ns0:type="simple">10.1515/CCLM.2005.141</ext-link></comment> <object-id pub-id-type="pmid">16201894</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kirsanov</surname> <given-names>KI</given-names></name>, <name name-style="western"><surname>Lesovaya</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Yakubovskaya</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Belitsky</surname> <given-names>GA</given-names></name>. <article-title>SYBR Gold and SYBR Green II are not mutagenic in the Ames test</article-title>. <source>Mutat Res</source>. <year>2010</year>;<volume>699</volume>(<issue>1&#8211;2</issue>):<fpage>1</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.mrgentox.2010.04.014" ns0:type="simple">10.1016/j.mrgentox.2010.04.014</ext-link></comment> <object-id pub-id-type="pmid">20403457</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Haines</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Tobe</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Kobus</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Linacre</surname> <given-names>A</given-names></name>. <article-title>Properties of nucleic acid staining dyes used in gel electrophoresis</article-title>. <source>Electrophoresis</source>. <year>2015</year>;<volume>36</volume>(<issue>6</issue>):<fpage>941</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/elps.201400496" ns0:type="simple">10.1002/elps.201400496</ext-link></comment> <object-id pub-id-type="pmid">25546455</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Okegawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>. <article-title>Chloroplastic thioredoxin m functions as a major regulator of Calvin cycle enzymes during photosynthesis in vivo</article-title>. <source>Plant J</source>. <year>2015</year>;<volume>84</volume>(<issue>5</issue>):<fpage>900</fpage>&#8211;<lpage>13</lpage>. Epub 2015/10/16. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/tpj.13049" ns0:type="simple">10.1111/tpj.13049</ext-link></comment> <object-id pub-id-type="pmid">26468055</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Motohashi</surname> <given-names>K.</given-names></name> <article-title>A simple and efficient seamless DNA cloning method using SLiCE from Escherichia coli laboratory strains and its application to SLiP site-directed mutagenesis</article-title>. <source>BMC Biotechnol</source>. <year>2015</year>;<volume>15</volume>(<issue>1</issue>):<fpage>47</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12896-015-0162-8" ns0:type="simple">10.1186/s12896-015-0162-8</ext-link></comment> 10.1186/s12896-015-0162-8 [pii]. <object-id pub-id-type="pmid">26037246</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Okegawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>. <article-title>A simple and ultra-low cost homemade seamless ligation cloning extract (SLiCE) as an alternative to a commercially available seamless DNA cloning kit</article-title>. <source>Biochem Biophys Rep</source>. <year>2015</year>;<volume>4</volume>:<fpage>148</fpage>&#8211;<lpage>51</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.bbrep.2015.09.005" ns0:type="simple">10.1016/j.bbrep.2015.09.005</ext-link></comment> <object-id pub-id-type="pmid">29124198</object-id></mixed-citation></ref>
+<ref id="pone.0222209.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Motohashi</surname> <given-names>K.</given-names></name> <article-title>Evaluation of the efficiency and utility of recombinant enzyme-free seamless DNA cloning methods</article-title>. <source>Biochem Biophys Rep</source>. <year>2017</year>;<volume>9</volume>:<fpage>310</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.bbrep.2017.01.010" ns0:type="simple">10.1016/j.bbrep.2017.01.010</ext-link></comment> <object-id pub-id-type="pmid">28956018</object-id></mixed-citation></ref>
+<ref id="pone.0222209.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Okegawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Motohashi</surname> <given-names>K</given-names></name>. <article-title>Evaluation of seamless ligation cloning extract preparation methods from an Escherichia coli laboratory strain</article-title>. <source>Anal Biochem</source>. <year>2015</year>;<volume>486</volume>:<fpage>51</fpage>&#8211;<lpage>3</lpage>. Epub 2015/07/03. S0003-2697(15)00324-3 [pii] <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ab.2015.06.031" ns0:type="simple">10.1016/j.ab.2015.06.031</ext-link></comment> <object-id pub-id-type="pmid">26133399</object-id>.</mixed-citation></ref>
+<ref id="pone.0222209.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Motohashi</surname> <given-names>K.</given-names></name> <article-title>A novel series of high-efficiency vectors for TA cloning and blunt-end cloning of PCR products</article-title>. <source>Sci Rep</source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>6417</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41598-019-42868-6" ns0:type="simple">10.1038/s41598-019-42868-6</ext-link></comment> <object-id pub-id-type="pmid">31015513</object-id>; PubMed Central PMCID: PMC6478821.</mixed-citation></ref>
+<ref id="pone.0222209.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schneider</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Rasband</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Eliceiri</surname> <given-names>KW</given-names></name>. <article-title>NIH Image to ImageJ: 25 years of image analysis</article-title>. <source>Nat Methods</source>. <year>2012</year>;<volume>9</volume>(<issue>7</issue>):<fpage>671</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nmeth.2089" ns0:type="simple">10.1038/nmeth.2089</ext-link></comment> <object-id pub-id-type="pmid">22930834</object-id>; PubMed Central PMCID: PMC5554542.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222209.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222209.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kalendar</surname>
+<given-names>Ruslan</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ruslan Kalendar</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222209" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">31 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-19358</p>
+<p>Development of highly sensitive and low-cost DNA agarose gel electrophoresis detection systems and evaluation of non-mutagenic and loading dye-type DNA-staining reagents</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. MOTOHASHI,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 14 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Ruslan Kalendar, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. PLOS ONE now requires that authors provide the original uncropped and unadjusted images underlying all blot or gel results reported in a submission&#8217;s figures or Supporting Information files. This policy and the journal&#8217;s other requirements for blot/gel reporting and figure preparation are described in detail at <ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/figures#loc-blot-and-gel-reporting-requirements" ns0:type="simple">https://journals.plos.org/plosone/s/figures#loc-blot-and-gel-reporting-requirements</ext-link> and <ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/figures#loc-preparing-figures-from-image-files" ns0:type="simple">https://journals.plos.org/plosone/s/figures#loc-preparing-figures-from-image-files</ext-link>. When you submit your revised manuscript, please ensure that your figures adhere fully to these guidelines and provide the original underlying images for all blot or gel data reported in your submission. See the following link for instructions on providing the original image data: <ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/figures#loc-original-images-for-blots-and-gels" ns0:type="simple">https://journals.plos.org/plosone/s/figures#loc-original-images-for-blots-and-gels</ext-link>.</p>
+<p>In your cover letter, please note whether your blot/gel image data are in Supporting Information or posted at a public data repository, provide the repository URL if relevant, and provide specific details as to which raw blot/gel images, if any, are not available. Email us at <email ns0:type="simple">plosone@plos.org</email> if you have any questions.</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>&#160;5. Review Comments to the Author</p>
+<p>&#160;&#160;</p>
+<p>Reviewer #1:</p>
+<p>Motohashi reports the use of different illumination systems to detect DNA fragments stained with a set of six intercalating dyes and separated by agarose gel electrophoresis. The illumination systems included a conventional UV transilluminator, a Blook Blue LED system, a cyan LED system, and a blacklight transilluminator. Samples are loaded in successively lower amounts on separate lanes of the gel. Data are presented as black-and-white photographs, which were generated using a Canon Powershot camera. The images were processed using Image-J.</p>
+<p>I believe that the article satisfies most, but not all of PLOS ONE's criteria for publication:</p>
+<p>1. The study presents the results of primary scientific research.</p>
+<p>2. To the best of my knowledge, the results have not been published elsewhere.</p>
+<p>3a. Some experimental details are missing. In particular, my searchs were unsuccessful for the "Compact LED viewer [470 nm], Sanplatec, for the Cyan LED (490&#8211;495 nm, Holkin), for the SV0510 shortness filter mentioned, and for the compact blacklight lamp (FPL27BLB; Sankyo Denki) mentioned on page 4 and 6 of the manuscript. URLs would be useful.</p>
+<p>3b. I do not understand the design of the illumination systems, and those systems are not described in sufficient detail for me to reproduce the results. Were the LEDs and black lights used in a commercial transilluminator, or were illuminators used with a homemade illuminator? A diagram of the homebuilt illuminators is required.</p>
+<p>3c. It is striking that intercalating dyes from Molecular Probes are not included in this study. In particular, SYBR Safe is marketed as having lower toxicity than ethidium bromide and is used with high sensitivity for DNA detection in gel electrophoresis.</p>
+<p>3d. I do not see the Image-J data used to construct Table 2. The criterion for the sensitivity values in Table 2 are arbitrary because no definition of fragment detection is given. The definition of detection limit is not standard. Statistical analyses of the data are missing.</p>
+<p>3e. The spectrometer used to generate the excitation and emission wavelengths used in Table 1 is not described in the text. It would be useful to include the spectra in the manuscript. Alternatively, if these are literature values, the source of the information should be listed.</p>
+<p>4. The author makes several conclusions. Some appear to be justified by the data, but one set of conclusions is not justified. The author compares the cost of a commercial transilluminator with the cost of the components used to construct the black-light illumination system. As a rule of thumb, the hardware components for a commercial instrument are ~10% of the cost of the final product; the commercial instrument has additional costs associated with design and development, regulatory approval, manufacturing, and marketing; once commercialized, the systems proposed by the author will have the similar costs as the other commercial instruments. The conclusion concerning the relative costs of the various systems must be removed from the paper.</p>
+<p>5. Except for the missing experimental details, the manuscript is presented in an intelligible fashion. While the paper would benefit from minor copyediting, that editing is not required to the paper to be interpretable</p>
+<p>6. The paper apparently meets ethical standards.</p>
+<p>7. The paper presents raw data as images. The corresponding Image-J data are not presented.</p>
+<p>Reviewer #2:</p>
+<p>The detection system described in the paper will be of significant interest to individuals and organizations for which the cost of a conventional system is prohibitively expensive. They will be able to build their own instrument based on this paper. I recommend that the author provide more details of how the system can be constructed from commercially available parts, including an image of what it looks like, so that a person who is interested will be able to replicate it.</p>
+<p>Reviewer #3:</p>
+<p>This manuscript describes the development of low-cost imaging systems for detecting DNA, with the goal of minimizing DNA damage due to the illumination wavelengths. The author described the detection limits using several different DNA-binding dyes and several different illumination systems.</p>
+<p>I have several concerns about this report:</p>
+<p>First, the sensitivity estimation relied completely on visual perception. A more rigorous numerical method should be used. These are digital images that can be easily quantified using free software tools such as ImageJ.</p>
+<p>Second, the author did not mention how the images were displayed and if any image contrasting or enhancement was used. Was the camera mounted inside a light-tight enclosure or setup in an open space?</p>
+<p>Third, the lanes of all gel images in all of the figures should be labeled.</p>
+<p>Finally, and most importantly, since the goal of this work was to minimize photo-induced DNA damage, I assume the author's ultimate goal is to excise DNA fragments from gels for cloning purposes. The author needs to demonstrate the utility of these low cost systems for visualizing and excising gel fragments. Systems that require bandpass emission filters may not enable one to look directly at the gel for manually cutting out of gel fragments. In addition, are the home-built imagers amenable to the cutting of gel fragments. Commercial transilluminators are designed to enable gel cutting.</p>
+<p>If the author's goal is to simply document DNA gels and not enable gel cutting, then it is not clear if these low-cost alternatives offer the uniformity and repeatability of commercial imaging systems.</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222209.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222209.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222209" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222209.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">23 Aug 2019</named-content>
+</p>
+<p>For Reviewer #1:</p>
+<p>1) Some experimental details are missing. In particular, my searches were unsuccessful for the "Compact LED viewer [470 nm], Sanplatec, for the Cyan LED (490-495 nm, Holkin), for the SV0510 shortness filter mentioned, and for the compact black light lamp (FPL27BLB; Sankyo Denki) mentioned on page 4 and 6 of the manuscript. URLs would be useful.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your suggestion. Information of blue- and cyan-LED system, black light system, and shortpass filter (SV0510) was added in materials and methods (p4, l&#12288;98-106).</p>
+<p>2) I do not understand the design of the illumination systems, and those systems are not described in sufficient detail for me to reproduce the results. Were the LEDs and black lights used in a commercial transilluminator, or were illuminators used with a homemade illuminator? A diagram of the homebuilt illuminators is required.</p>
+<p>OUR ANSWER:</p>
+<p>Schematic diagram of these DNA detection systems was added as Figure 2. Moreover, photographs of several parts to build the DNA detection systems were displayed as Figure S2. In addition, several sentences were added in text (p6, l 153-157).</p>
+<p>3) It is striking that intercalating dyes from Molecular Probes are not included in this study. In particular, SYBR Safe is marketed as having lower toxicity than ethidium bromide and is used with high sensitivity for DNA detection in gel electrophoresis.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your suggestion. In this study, I developed two DNA detection system using loading dye-type DNA-staining reagents, NOT post-staining type reagents such as SYBR safe. However, SYBR safe is widely used. Therefore, I evaluated detection sensitivities of DNA agarose gel stained with SYBR safe (Figure 4, Figure S7, p2 l 29-30, p8 l 220-232, and p8 l 240-243). </p>
+<p>4) I do not see the Image-J data used to construct Table 2. The criterion for the sensitivity values in Table 2 are arbitrary because no definition of fragment detection is given. The definition of detection limit is not standard. Statistical analyses of the data are missing.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your comments. The Image-J data were shown in Figure S1 and S7.</p>
+<p>5) The spectrometer used to generate the excitation and emission wavelengths used in Table 1 is not described in the text. It would be useful to include the spectra in the manuscript. Alternatively, if these are literature values, the source of the information should be listed.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your comment. Excitation and emission wave lengths were referred to each instruction manual. The source of excitation and emission wave lengths was described in Table 1 legend.</p>
+<p>6) The author makes several conclusions. Some appear to be justified by the data, but one set of conclusions is not justified. The author compares the cost of a commercial trans-illuminator with the cost of the components used to construct the black-light illumination system. As a rule of thumb, the hardware components for a commercial instrument are ~10% of the cost of the final product; the commercial instrument has additional costs associated with design and development, regulatory approval, manufacturing, and marketing; once commercialized, the systems proposed by the author will have the similar costs as the other commercial instruments. The conclusion concerning the relative costs of the various systems must be removed from the paper.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your comments. Costs of commercially available hardware include design and development, regulatory approval, and manufacturing etc., as described by reviewer #1. Therefore, commercially available systems are prohibitively expensive, as pointed out by reviewer #2. In this study, I would like to compare initial cost for laboratory setting up. These handmade LED-systems could be set up by 1/2 to 1/3, compared with commercially available Blook system or UV-transilluminator system. Furthermore, Black light system could be set up by ~$100. I believe that cost down of these instruments is helpful for researchers in a laboratory. My final goal is not that these developed DNA detection systems is marketed, and an initial costs for laboratory set up is reduced. For this purpose, hardware cost was described in text, however, I edited this sentence to explain these contexts (p8, l 246-249). I believe that comparison of initial hardware costs between commercially system and the developed systems in this study is significant information to build their DNA detection system in a laboratory.</p>
+<p>7) Except for the missing experimental details, the manuscript is presented in an intelligible fashion. While the paper would benefit from minor copyediting, that editing is not required to the paper to be interpretable.</p>
+<p>OUR ANSWER:</p>
+<p>Several figures and supplemental figures were added to explain experimental details (Figure 2 and 4, Figure S1, S2, S3, S6, and S7).</p>
+<p>For Reviewer #2:</p>
+<p>1) The detection system described in the paper will be of significant interest to individuals and organizations for which the cost of a conventional system is prohibitively expensive. They will be able to build their own instrument based on this paper. I recommend that the author provide more details of how the system can be constructed from commercially available parts, including an image of what it looks like, so that a person who is interested will be able to replicate it.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your valuable suggestion, schematic diagram of these systems and photographs of several parts were added as Figure 2, Figure S2, S3, and S6, to build their own instruments based on this study. In addition, several sentences in text were modified and added (p5 l 124-125, p6 l 153-157, and p7 l 211-219)</p>
+<p>&#8195;</p>
+<p>For Reviewer #3:</p>
+<p>1) The sensitivity estimation relied completely on visual perception. A more rigorous numerical method should be used. These are digital images that can be easily quantified using free software tools such as ImageJ.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your valuable comments, data in this article were analyzed by &#8220;Plot Profile&#8221; of Image-J, as described in materials and methods (p5, l 128-135). To demonstrate clearly, data analyzed with Image-J were displayed as Figure S1 and S7.</p>
+<p>2) The author did not mention how the images were displayed and if any image contrasting or enhancement was used. Was the camera mounted inside a light-tight enclosure or setup in an open space?</p>
+<p>OUR ANSWER:</p>
+<p>All gel images were not applied any image processing. It was mentioned in text as &#8220;None of images were not altered by image processing methods such as contrasting and enhancement.&#8221; (p5, l 125-126). Schematic diagram of developed DNA detection systems was displayed in Figure 2. Two DNA detection systems were set up in blackout curtain (Figure S3). However, if light switches can be shot down in its room, the systems can be set up in an open space.</p>
+<p>3) The lanes of all gel images in all of the figures should be labeled.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your suggestion. The lanes of all gel images were labeled.</p>
+<p>4) Since the goal of this work was to minimize photo-induced DNA damage, I assume the author's ultimate goal is to excise DNA fragments from gels for cloning purposes. The author needs to demonstrate the utility of these low cost systems for visualizing and excising gel fragments. Systems that require bandpass emission filters may not enable one to look directly at the gel for manually cutting out of gel fragments. In addition, are the home-built imagers amenable to the cutting of gel fragments? Commercial trans-illuminators are designed to enable gel cutting.</p>
+<p>If the author's goal is to simply document DNA gels and not enable gel cutting, then it is not clear if these low-cost alternatives offer the uniformity and repeatability of commercial imaging systems.</p>
+<p>OUR ANSWER:</p>
+<p>Thank you for your valuable suggestion. Excitation and emission filters do not disturb accessing to agarose gel for gel-cutting. Two developed DNA detection system can be applied to gel-cutting for DNA extraction from agarose gel, and the schematic diagram and photographs were shown (Figure 2 and Figure S3). In addition, orange or yellow spectacles can be used as emission-filters for gel-cutting (Figure S6). These facts were described in text (p7, l 211-219).</p>
+<supplementary-material id="pone.0222209.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222209.s008" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">ResponseToReviewers_190823.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222209.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222209.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kalendar</surname>
+<given-names>Ruslan</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ruslan Kalendar</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222209" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">26 Aug 2019</named-content>
+</p>
+<p>Development of highly sensitive and low-cost DNA agarose gel electrophoresis detection systems, and evaluation of non-mutagenic and loading dye-type DNA-staining reagents</p>
+<p>PONE-D-19-19358R1</p>
+<p>Dear Dr. MOTOHASHI,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Ruslan Kalendar, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222209.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222209.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Kalendar</surname>
+<given-names>Ruslan</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ruslan Kalendar</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222209" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">28 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-19358R1 </p>
+<p>Development of highly sensitive and low-cost DNA agarose gel electrophoresis detection systems, and evaluation of non-mutagenic and loading dye-type DNA-staining reagents </p>
+<p>Dear Dr. MOTOHASHI:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Ruslan Kalendar  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

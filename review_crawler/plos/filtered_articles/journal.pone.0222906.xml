@@ -1,0 +1,794 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-19-18541</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical reactions</subject><subj-group><subject>Reactants</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Arthropoda</subject><subj-group><subject>Insects</subject><subj-group><subject>Hymenoptera</subject><subj-group><subject>Bees</subject><subj-group><subject>Honey bees</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Systems science</subject><subj-group><subject>Dynamical systems</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Systems science</subject><subj-group><subject>Dynamical systems</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Physical chemistry</subject><subj-group><subject>Reaction dynamics</subject><subj-group><subject>Reaction kinetics</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Software engineering</subject><subj-group><subject>Software tools</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Software engineering</subject><subj-group><subject>Software tools</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Collective human behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Collective human behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Animal behavior</subject><subj-group><subject>Collective animal behavior</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Animal behavior</subject><subj-group><subject>Collective animal behavior</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Animal behavior</subject><subj-group><subject>Collective animal behavior</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Multiscale Modelling Tool: Mathematical modelling of collective behaviour without the maths</article-title>
+<alt-title alt-title-type="running-head">Multiscale Modelling Tool: Mathematical modelling of collective behaviour without the maths</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1506-167X</contrib-id>
+<name name-style="western">
+<surname>Marshall</surname> <given-names>James A. R.</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4745-992X</contrib-id>
+<name name-style="western">
+<surname>Reina</surname> <given-names>Andreagiovanni</given-names></name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Bose</surname> <given-names>Thomas</given-names></name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>Department of Computer Science, University of Sheffield, Sheffield, United Kingdom</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Touboul</surname> <given-names>Jonathan David</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Brandeis University, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">james.marshall@sheffield.ac.uk</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>30</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222906</elocation-id>
+<history>
+<date date-type="received">
+<day>1</day>
+<month>7</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>10</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Marshall et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222906" />
+<abstract>
+<p>Collective behaviour is of fundamental importance in the life sciences, where it appears at levels of biological complexity from single cells to superorganisms, in demography and the social sciences, where it describes the behaviour of populations, and in the physical and engineering sciences, where it describes physical phenomena and can be used to design distributed systems. Reasoning about collective behaviour is inherently difficult, as the non-linear interactions between individuals give rise to complex emergent dynamics. Mathematical techniques have been developed to analyse systematically collective behaviour in such systems, yet these frequently require extensive formal training and technical ability to apply. Even for those with the requisite training and ability, analysis using these techniques can be laborious, time-consuming and error-prone. Together these difficulties raise a barrier-to-entry for practitioners wishing to analyse models of collective behaviour. However, rigorous modelling of collective behaviour is required to make progress in understanding and applying it. Here we present an accessible tool which aims to automate the process of modelling and analysing collective behaviour, as far as possible. We focus our attention on the general class of systems described by reaction kinetics, involving interactions between components that change state as a result, as these are easily understood and extracted from data by natural, physical and social scientists, and correspond to algorithms for component-level controllers in engineering applications. By providing simple automated access to advanced mathematical techniques from statistical physics, nonlinear dynamical systems analysis, and computational simulation, we hope to advance standards in modelling collective behaviour. At the same time, by providing expert users with access to the results of automated analyses, sophisticated investigations that could take significant effort are substantially facilitated. Our tool can be accessed online without installing software, uses a simple programmatic interface, and provides interactive graphical plots for users to develop understanding of their models.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100010663</institution-id>
+<institution>H2020 European Research Council</institution>
+</institution-wrap>
+</funding-source>
+<award-id>647704</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1506-167X</contrib-id>
+<name name-style="western">
+<surname>Marshall</surname> <given-names>James A. R.</given-names></name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>JARM acknowledges funding by the European Research Council (ERC - <ext-link ext-link-type="uri" ns0:href="https://erc.europa.eu" ns0:type="simple">https://erc.europa.eu</ext-link>) under the European Union&#8217;s Horizon 2020 research and innovation programme (grant agreement number 647704). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6" />
+<table-count count="0" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All software is available from GitHub (<ext-link ext-link-type="uri" ns0:href="https://github.com/DiODeProject/MuMoT" ns0:type="simple">https://github.com/DiODeProject/MuMoT</ext-link>).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Collective behaviour models, in which individuals interact and in doing so change state, describe a large variety of physical, biological, and social phenomena. One particularly general formulation is that of <italic>reaction kinetics</italic>, developed to describe the time evolution of chemical reactions, but also able to describe networks in molecular biology (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref001">1</xref>]), collective behavioural phenomena such as decision-making in animal groups (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>]), demographic and ecological models such as predator-prey dynamics (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>]), epidemiological models (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>]), and social behaviour in human groups, such as opinion dynamics and economics (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref004">4</xref>]). The generality of the reaction kinetics formalism is demonstrated by the fact that many of the aforementioned processes, although apparently quite different, are in fact described by the same dynamical equations; for example, the famous Lotka-Volterra equations were simultaneously developed in the description of a chemical reaction, and predator-prey dynamics [<xref ref-type="bibr" rid="pone.0222906.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222906.ref006">6</xref>].</p>
+<p>Modelling collective behaviour is essential to develop understanding, yet mathematical and computational modelling are skills than can be found in some disciplines much more than others. To understand commonalities and analogies across disciplines it would be beneficial to ensure a consistent standard of modelling is reached across all. However, it is unreasonable to expect all disciplines to ensure the same standard of mathematical training in their practitioners. Reaction kinetics have the advantage that they describe observations of a system in a very natural way, indeed the very way that experimental scientists tend to record those interactions. Reaction kinetics can also be transformed into mathematical equations according to a variety of procedures. The level of description attainable may vary, however. In their simplest form, mathematical models as Ordinary Differential Equations will assume infinitely large, well-mixed populations; this <italic>mean-field</italic> approach ignores fluctuations in subpopulation sizes due to the stochastic effects that small populations entail, and also ignores spatial heterogeneity and attendant sources of noise. Yet ODEs are analytically most tractable, and so enable general insights to be developed into the behaviour of an idealised version of the system of interest. By introducing finite population effects, noisy fluctuations around the mean-field solution can be studied; these can be approximated analytically, through the application of techniques from statistical mechanics, or numerically through efficient and probabilistically correct simulation of the Master Equation, which gives the continuous-time change in the probability density over the possible states of the system. These approaches are still idealisations, in that they ignore noise due to spatial effects, but they retain some tractability. Finally, one may analyse spatial sources of noise, by embedding a finite population in a spatial environment, such as a network, or a 2-dimensional plane or 3-dimensional volume. While in some cases analytic results may be possible, particularly in the case of networks, in general numerical simulation is required, sometimes referred to as Individual-Based Simulation or Agent-Based Simulation. This approach is therefore the most realistic, while also the least analytically tractable. In understanding the collective behaviour of some real-world system, therefore, the approach is generally to understand the simplest model of the system, then progressively introduce more realistic sources of noise in order to see if that behaviour is changed in important ways.</p>
+<p>Taking all of the above points into consideration, we here present a Multiscale Modelling Tool, intended to simplify as much as possible the application of analytic and numerical techniques to descriptions of simple collective behaviour systems. The tool has the following objectives, and in the remainder of the paper we describe how these are achieved:</p>
+<list list-type="order">
+<list-item>
+<p>enable non-modellers to describe collective behaviour systems intuitively</p>
+</list-item>
+<list-item>
+<p>enable a variety of analyses to be applied easily to such systems, accounting for increasingly realistic sources of noise</p>
+<list list-type="alpha-lower">
+<list-item>
+<p>infinite-population non-spatial noise-free dynamics</p>
+</list-item>
+<list-item>
+<p>non-spatial finite-population noisy dynamics</p>
+</list-item>
+<list-item>
+<p>spatial finite-population noisy dynamics</p>
+</list-item>
+</list>
+</list-item>
+<list-item>
+<p>enable interactive exploration of analysis results</p>
+</list-item>
+<list-item>
+<p>enable expert-level access to analysis results</p>
+</list-item>
+<list-item>
+<p>minimise overheads for installation and use of the software</p>
+</list-item>
+</list>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Design and implementation</title>
+<p>MuMoT (Multiscale Modelling Tool) is written in Python 3 [<xref ref-type="bibr" rid="pone.0222906.ref007">7</xref>] and designed to be run within Jupyter notebooks [<xref ref-type="bibr" rid="pone.0222906.ref008">8</xref>]. This enables MuMoT to be used in interactive notebook sessions using widgets, with explanations written in Markdown and L<sup>A</sup>T<sub>E</sub>X to develop interactive computational documents, particularly suited to communication of results and concepts in research or teaching environments. A Jupyter notebook server can be deployed with a MuMoT installation to allow users to work through a standard web browser, without the need to install client-side software, facilitating access and uptake; at the time of writing, the interactive MuMoT user manual can be executed in this mode via Binder [<xref ref-type="bibr" rid="pone.0222906.ref009">9</xref>] (see [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>]). Despite being primarily designed for interactive use, MuMoT uses a variant of the Model, View, Controller design pattern [<xref ref-type="bibr" rid="pone.0222906.ref011">11</xref>] enabling a separation between model descriptions, analytic tools applied to models, and interactive widgets for manipulation of analyses; this enables MuMoT to be used non-interactively, for example with routines called directly from user code.</p>
+<p>As MuMoT runs in Jupyter notebooks the user enters simple commands in notebook cells. Models are generated from intuitive textual descriptions, or from mathematical manipulation of previously-defined models, and most commands applicable to models result in interactive graphical output. To enable users to concentrate on presenting the key relevant concepts, users can partially or totally fix parameters in the resulting controllers, and have single controllers connected to multiple model views, with nesting of views if desired [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>].</p>
+<p>MuMoT&#8217;s implementation, testing, and documentation seeks to adhere to the best standards for scientific software deployment [<xref ref-type="bibr" rid="pone.0222906.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0222906.ref013">13</xref>].</p>
+<sec id="sec003">
+<title>Specifying collective behaviour models</title>
+<p>Users describe models as simple textual rules, standard in the description of reaction kinetics. We refer to individuals as <italic>reactants</italic> which can be, for example, different classes of individuals as in the case of chemical molecules or members of different biological species, or individuals having different changeable states as in the case of voter models, or robot swarms. Rules describe which reactants interact with each other, the resulting reactants, and the rate at which such reactions occur. For example, <xref ref-type="fig" rid="pone.0222906.g001">Fig 1</xref> shows the description of a model of collective decision-making in honeybee swarms [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] within MuMoT, and how this is parsed into a mathematical object.</p>
+<fig id="pone.0222906.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Specification of a collective behaviour model.</title>
+<p>A model is described using simple textual rules denoting interactions between reactants in the system, and rates and which they are transformed into new combinations. Parsing this model description automatically results in a mathematical model object ready for analysis.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g001" ns0:type="simple" />
+</fig>
+<p>Models can also be created from the mathematical manipulation of other models; for example, it can be convenient to note that the frequency of one of the reactants can be determined from the frequencies of the remaining reactants, and the total system size, in any closed system where no reactant can be created or destroyed:</p>
+<p><monospace>model2 = model1.substitute(&#8217;U = N - A - B&#8217;)</monospace></p>
+<p specific-use="continuation">and to redefine rates in terms of other quantities, such as the qualities of potential nest sites in this example:</p>
+<p><monospace>model3 = model2.substitute(&#8217;a_A = 1/v_A, a_B = 1/v_B, g_A = v_A, g_B = v_B, r_A = v_A, r_B = v_B&#8217;)</monospace></p>
+<p specific-use="continuation">or even in terms of the mean and difference between those qualities [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>]:</p>
+<p><monospace>model4 = model3.substitute(&#8217;v_A = \mu + \Delta/2, v_B = \mu - \Delta/2&#8217;)</monospace></p>
+<p>Once parsed, a model exists as a mathematical object ready for analysis, as can be seen by asking to see the Ordinary Differential Equations (ODEs) that describe its time evolution:</p>
+<p><monospace>model4.showODEs()</monospace></p>
+<p specific-use="continuation">which results in the following system of equations:
+<disp-formula id="pone.0222906.e001"><alternatives><graphic id="pone.0222906.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e001" ns0:type="simple" /><ns1:math display="block" id="M1"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mstyle displaystyle="true" scriptlevel="0"><ns1:mfrac><ns1:mrow><ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>A</ns1:mi></ns1:mrow> <ns1:mrow><ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac></ns1:mstyle></ns1:mtd> <ns1:mtd><ns1:mrow><ns1:mo>&#8788;</ns1:mo></ns1:mrow></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mrow><ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mi>B</ns1:mi> <ns1:mi>s</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mi>B</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mi>A</ns1:mi> <ns1:mrow><ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mi>B</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>,</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr> <ns1:mtr><ns1:mtd columnalign="right"><ns1:mstyle displaystyle="true" scriptlevel="0"><ns1:mfrac><ns1:mrow><ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>B</ns1:mi></ns1:mrow> <ns1:mrow><ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac></ns1:mstyle></ns1:mtd> <ns1:mtd><ns1:mrow><ns1:mo>&#8788;</ns1:mo></ns1:mrow></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mrow><ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mi>B</ns1:mi> <ns1:mi>s</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>B</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mi>B</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mi>B</ns1:mi> <ns1:mrow><ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mo>&#916;</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mi>&#956;</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mi>B</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>N</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>.</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(1)</label></disp-formula></p>
+<p>
+<xref ref-type="disp-formula" rid="pone.0222906.e001">Eq 1</xref> have been automatically derived from the rule-based description of the model we provided. Two techniques can be used to derive these ODEs, either a <italic>mass action</italic> heuristic similar to the one a mathematician would use to derive the ODEs, or a more involved statistical physics approach described in section &#8216;Analysing noisy behaviour&#8217; (<italic>e.g</italic>. [<xref ref-type="bibr" rid="pone.0222906.ref015">15</xref>]). Both, however, have the same result.</p>
+<p>Once a model has been parsed, a variety of analytic and numerical techniques can be applied to it. Many of these result in interactive graphical displays of the analysis, which users can manipulate to explore their model. For example, <xref ref-type="fig" rid="pone.0222906.g002">Fig 2</xref> shows the result of performing a numerical integration on the model of <xref ref-type="disp-formula" rid="pone.0222906.e001">Eq 1</xref> within the notebook environment, using the <monospace>integrate()</monospace> command. Although not described in this paper, parameters can be fixed as desired to focus on a particular set of free parameters (<italic>partial controllers</italic>), and multiple views on the same model can be manipulated via a single controller (<italic>multicontroller</italic>). Users can also <italic>bookmark</italic> interesting parameter combinations to reproduce subsequently, and save the results from some views for analysis in external software packages. Such devices allow researchers and teachers to focus exploration and exposition of important concepts. Full details are given in the online user manual [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>].</p>
+<fig id="pone.0222906.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Interactive manipulation of a model view via a controller.</title>
+<p>Most model analysis commands result in an interactive graphical display of that analysis on the model. Users can explore and visualise the effects of changing free model parameters, and other analysis-specific parameters, through manipulating interactive controls.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec004">
+<title>Analysing noise-free infinite population behaviour</title>
+<p>The most analytically tractable means of analysing collective behaviour are typically those that assume infinite populations; in this mean-field approach sources of intrinsic noise due to finite population effects are neglected, and space is also ignored. Thus understanding the noise-free dynamics of a collective behaviour system is normally the most fruitful starting point in dealing with any new system.</p>
+<sec id="sec005">
+<title>Numerical integration of ODEs and phase portraits</title>
+<p>The simplest way to approach the noise-free dynamics of a system is often to integrate the ODEs that describe it. To achieve this MuMoT provides the <monospace>integrate()</monospace> method, which makes use of the <monospace>odeint</monospace> interface to numerical integrators implemented in Python&#8217;s SciPy package <monospace>scipy.integrate</monospace> [<xref ref-type="bibr" rid="pone.0222906.ref016">16</xref>]. Solutions are displayed as interactive graphical output (see for example <xref ref-type="fig" rid="pone.0222906.g002">Fig 2</xref>). Plots can be presented either in terms of absolute numbers, or of population proportions (i.e. the number of &#8216;particles&#8217; for each <italic>reactant</italic> divided by the system size at <italic>t</italic> = 0).</p>
+<p>The dynamics of a MuMoT model can also be studied by means of a <italic>phase plane</italic> analysis. To visualise the model&#8217;s trajectories in a <italic>phase portrait</italic> the methods <monospace>stream()</monospace> and <monospace>vector()</monospace> can be applied. Both methods depict phase planes representing the time evolution of the system as a function of its state; in a vector plot arrows give the direction in which the system will move, and their lengths show how fast, whereas in a stream plot lines show the average change of the system over time in finer resolution, and their shading represents the speed of change. It is also possible to calculate and display fixed points and noise around these; the corresponding theory and computations are introduced below. Stream plot examples are shown in <xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref>. More detailed explanations can be found in the online user manual [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>].</p>
+</sec>
+<sec id="sec006">
+<title>Bifurcations</title>
+<p>Nonlinear dynamical systems may change behaviour qualitatively if model parameters are varied. To detect such transitions between different dynamic regimes MuMoT implements basic <italic>bifurcation analysis</italic> functionality by integrating with PyDSTool [<xref ref-type="bibr" rid="pone.0222906.ref017">17</xref>]. MuMoT&#8217;s method enabling bifurcation analysis is called <monospace>bifurcation()</monospace>. Currently available is the detection of <italic>branch points</italic> (BPs) and <italic>limit points</italic> (LPs) of one-dimensional and two-dimensional systems; remember that a three-dimensional system may be reduced to a two-dimensional one using MuMoT&#8217;s <monospace>substitute()</monospace> method. Detectable bifurcation points in MuMoT belong to the class of local codimension-one bifurcations. For example, BPs are observed for <italic>pitchfork</italic> bifurcations such as the one shown in <xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (left panel). <italic>Saddle-node</italic> bifurcations are typical LPs (<xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (middle and right panels)). For two-dimensional systems it may be desirable to directly compare the behaviour of both dynamical variables (or <italic>state variables</italic> as we call them within MuMoT) depending on a critical parameter in the same two-dimensional plot, where the bifurcation parameter is plotted on the horizontal axis. MuMoT allows users to plot single reactants as response variables, but also sums or differences of reactants, as illustrated in <xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (left panel). For more information on the usage of <monospace>bifurcation()</monospace> we refer the reader to the online user manual [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>].</p>
+<p>When executing the <monospace>bifurcation()</monospace> method the following computations run behind the scenes. For a given parameter configuration, which includes the choice of the initial value of the bifurcation parameter, MuMoT attempts to determine all stationary states. If this is successful, MuMoT then starts the numerical continuation of each branch on which it found a stable fixed point. In case no stable fixed point could be detected, MuMoT numerically integrates the system using the initial conditions, and uses the final state at the end of the numerical integration as the starting point for the bifurcation analysis. If LPs or BPs were found those will be displayed and labelled in the bifurcation diagram. When MuMoT finds a BP it then tries to automatically start another continuation calculation along the other branch that meets the current branch at the BP. All curves that could be detected are displayed together at the end of the automated bifurcation analysis, colour-coded and shown with different line-styles to reflect the underlying stability properties of the corresponding stationary states. <xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> shows examples of different types of bifurcations that can be studied with MuMoT&#8217;s <monospace>bifurcation()</monospace> method.</p>
+</sec>
+</sec>
+<sec id="sec007">
+<title>Analysing noisy behaviour</title>
+<p>Any real-world system is subject to noise, hence the next step in analysing a collective behaviour system is to examine deviations from the mean-field solutions of the model under such noise. There are two primary sources of noise, that due to finite population size, and that due to spatial distribution of the population; MuMoT enables analysis of both.</p>
+<sec id="sec008">
+<title>Finite-population noise</title>
+<p>We start with intrinsic noise, due to finite population size. In any finite system the number of interactions fluctuates around an average value and hence so do the numbers of agents in the states available. The following derivation is based on the classical textbook by van Kampen [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]. In analogy to a typical chemical reaction let us consider a system of interacting agents <italic>X</italic><sub><italic>k</italic></sub> with <italic>k</italic> = 1, 2&#8230;, <italic>K</italic> being the different states agents might be in. Here <italic>X</italic> denotes the type of agent and the state represented by index <italic>k</italic> may be the commitment state. For example this could be a honeybee advertising a potential new nest site. The number of agents in state <italic>k</italic> is denoted <italic>n</italic><sub><italic>k</italic></sub>; when agents interact the numbers in any state <italic>k</italic> may change. Using integer stoichiometric coefficients denoted <italic>&#945;</italic><sub><italic>k</italic></sub> and <italic>&#946;</italic><sub><italic>k</italic></sub> the change of the system&#8217;s state following interactions may be described by
+<disp-formula id="pone.0222906.e002"><alternatives><graphic id="pone.0222906.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e002" ns0:type="simple" /><ns1:math display="block" id="M2"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:mo>&#8943;</ns1:mo> <ns1:mo>&#8594;</ns1:mo> <ns1:msub><ns1:mi>&#946;</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msub><ns1:mi>&#946;</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:mo>&#8943;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mo>,</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(2)</label></disp-formula>
+where the left-hand side characterises the state before the interaction (reaction) and the right-hand side the state after the interaction (reaction). All interaction processes are affected by the total number of agents. To account for this, we introduce the system size <inline-formula id="pone.0222906.e003"><alternatives><graphic id="pone.0222906.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e003" ns0:type="simple" /><ns1:math display="inline" id="M3"><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:math></alternatives></inline-formula> as a formal (auxiliary) parameter that is necessary for the following derivation.</p>
+</sec>
+<sec id="sec009">
+<title>The Master equation</title>
+<p>In order to sufficiently describe our system of interest, we need to compute the averaged macroscopic numbers and we also need to quantify the fluctuations around these averaged quantities. This may be achieved by means of the chemical Master equation, which can be written as follows [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]:
+<disp-formula id="pone.0222906.e004"><alternatives><graphic id="pone.0222906.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e004" ns0:type="simple" /><ns1:math display="block" id="M4"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac></ns1:mrow></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mo>=</ns1:mo><ns1:mrow><ns1:munder><ns1:mo>&#8721;</ns1:mo> <ns1:mi>i</ns1:mi></ns1:munder> <ns1:mspace width="0.166667em" /><ns1:mo>(</ns1:mo> <ns1:msubsup><ns1:mi>r</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup> <ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mo>(</ns1:mo> <ns1:munder><ns1:mo>&#8719;</ns1:mo> <ns1:mi>k</ns1:mi></ns1:munder> <ns1:msubsup><ns1:mi mathvariant="double-struck">E</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:msubsup><ns1:mi>&#945;</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup> <ns1:mo>-</ns1:mo> <ns1:msubsup><ns1:mi>&#946;</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:mrow></ns1:msubsup> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:munder><ns1:mo>&#8719;</ns1:mo> <ns1:mi>j</ns1:mi></ns1:munder> <ns1:mspace width="0.166667em" /><ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:msup><ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:msubsup><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:msup> <ns1:msup><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:msubsup><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:msup></ns1:mfrac> <ns1:mo>)</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo /></ns1:mrow></ns1:mtd></ns1:mtr> <ns1:mtr><ns1:mtd /><ns1:mtd columnalign="left"><ns1:mrow><ns1:mo /> <ns1:mo>+</ns1:mo> <ns1:msubsup><ns1:mi>r</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup> <ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mo>(</ns1:mo> <ns1:munder><ns1:mo>&#8719;</ns1:mo> <ns1:mi>k</ns1:mi></ns1:munder> <ns1:msubsup><ns1:mi mathvariant="double-struck">E</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:msubsup><ns1:mi>&#946;</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup> <ns1:mo>-</ns1:mo> <ns1:msubsup><ns1:mi>&#945;</ns1:mi> <ns1:mi>k</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:mrow></ns1:msubsup> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:munder><ns1:mo>&#8719;</ns1:mo> <ns1:mi>j</ns1:mi></ns1:munder> <ns1:mspace width="0.166667em" /><ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:msup><ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:msubsup><ns1:mi>&#946;</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:msup> <ns1:msup><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:msubsup><ns1:mi>&#946;</ns1:mi> <ns1:mi>j</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:msup></ns1:mfrac> <ns1:mo>)</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>)</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mo>,</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(3)</label></disp-formula>
+where <inline-formula id="pone.0222906.e005"><alternatives><graphic id="pone.0222906.e005g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e005" ns0:type="simple" /><ns1:math display="inline" id="M5"><ns1:mi mathvariant="double-struck">E</ns1:mi></ns1:math></alternatives></inline-formula> is the step operator ([<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>], chapter VI, Eq 3.1), &#8721;<sub><italic>i</italic></sub> represents the sum over all reactions <italic>i</italic>, and rate superscripts (<italic>i</italic>) denote the rates for reaction <italic>i</italic>. The first term in the sum on the right-hand side represents reactions as in <xref ref-type="disp-formula" rid="pone.0222906.e002">Eq (2)</xref> (proportional to a constant interaction rate <inline-formula id="pone.0222906.e006"><alternatives><graphic id="pone.0222906.e006g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e006" ns0:type="simple" /><ns1:math display="inline" id="M6"><ns1:msubsup><ns1:mi>r</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:math></alternatives></inline-formula>) and the second term their inverse reactions (proportional to constant interaction rate <inline-formula id="pone.0222906.e007"><alternatives><graphic id="pone.0222906.e007g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e007" ns0:type="simple" /><ns1:math display="inline" id="M7"><ns1:msubsup><ns1:mi>r</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>i</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:msubsup></ns1:math></alternatives></inline-formula>). Note that the inverse reaction does not always exist. If it exists, in a MuMoT model definition this would simply be written as an expression like the one in <xref ref-type="disp-formula" rid="pone.0222906.e002">Eq (2)</xref>, <italic>i.e</italic>. the convention used in MuMoT strictly follows <xref ref-type="disp-formula" rid="pone.0222906.e002">Eq (2)</xref>. For example, see input cell <monospace>In[2]</monospace> in <xref ref-type="fig" rid="pone.0222906.g001">Fig 1</xref>; there are also several examples in the online user manual to show how this works [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>]. The expression <inline-formula id="pone.0222906.e008"><alternatives><graphic id="pone.0222906.e008g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e008" ns0:type="simple" /><ns1:math display="inline" id="M8"><ns1:mrow><ns1:msup><ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub></ns1:msup> <ns1:mo>=</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>!</ns1:mo> <ns1:mo>/</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>-</ns1:mo> <ns1:msub><ns1:mi>&#945;</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>!</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> is introduced as an abbreviation. <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> describes the temporal evolution of the joint probability distribution that the system under study is in state {<italic>n</italic><sub><italic>k</italic></sub>} at time <italic>t</italic>. Here, {<italic>n</italic><sub><italic>k</italic></sub>} summarises all agents&#8217; individual states as a set. To express changes following interactions we make use of step operators <inline-formula id="pone.0222906.e009"><alternatives><graphic id="pone.0222906.e009g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e009" ns0:type="simple" /><ns1:math display="inline" id="M9"><ns1:msub><ns1:mi mathvariant="double-struck">E</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:math></alternatives></inline-formula> which increase or decrease the number of agents in state <italic>k</italic> [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]. MuMoT automates the derivation of <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> using the initial model definition according to <xref ref-type="disp-formula" rid="pone.0222906.e002">Eq (2)</xref>. The Master equation can be accessed as a symbolic equation object for further analysis by expert users, if so desired.</p>
+</sec>
+<sec id="sec010">
+<title>van Kampen expansion of the Master equation</title>
+<p>In general, there are only very few examples for which <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> can be solved exactly. In what follows we describe an approximation method known as <italic>system size expansion</italic> or <italic>van Kampen expansion</italic> that yields analytical expressions to approximate the solution of a Master equation. However, here we only introduce the main idea of the expansion method and refer to van Kampen&#8217;s textbook [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>] for further details. Let <inline-formula id="pone.0222906.e010"><alternatives><graphic id="pone.0222906.e010g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e010" ns0:type="simple" /><ns1:math display="inline" id="M10"><ns1:mrow><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>/</ns1:mo> <ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:mrow></ns1:math></alternatives></inline-formula> denote the proportion of the population <italic>X</italic><sub><italic>k</italic></sub> given the system size <inline-formula id="pone.0222906.e011"><alternatives><graphic id="pone.0222906.e011g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e011" ns0:type="simple" /><ns1:math display="inline" id="M11"><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:math></alternatives></inline-formula>. Note that &#934; is a reserved symbol in MuMoT used to express population proportions&#8212;the analogue to concentrations of reactants in a chemical reaction. The probability to observe the system in state <italic>n</italic><sub><italic>k</italic></sub> has a maximum around the macroscopic variable <inline-formula id="pone.0222906.e012"><alternatives><graphic id="pone.0222906.e012g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e012" ns0:type="simple" /><ns1:math display="inline" id="M12"><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula> with a deviation around that maximum of order <inline-formula id="pone.0222906.e013"><alternatives><graphic id="pone.0222906.e013g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e013" ns0:type="simple" /><ns1:math display="inline" id="M13"><ns1:mrow><ns1:msqrt><ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msqrt> <ns1:mo>&#8764;</ns1:mo> <ns1:msqrt><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:msqrt></ns1:mrow></ns1:math></alternatives></inline-formula> [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]. We may now replace the number <italic>n</italic><sub><italic>k</italic></sub> by a new random variable, say <inline-formula id="pone.0222906.e014"><alternatives><graphic id="pone.0222906.e014g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e014" ns0:type="simple" /><ns1:math display="inline" id="M14"><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula>, according to [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]
+<disp-formula id="pone.0222906.e015"><alternatives><graphic id="pone.0222906.e015g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e015" ns0:type="simple" /><ns1:math display="block" id="M15"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>=</ns1:mo> <ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mspace width="0.166667em" /><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>+</ns1:mo> <ns1:msqrt><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:msqrt> <ns1:mspace width="0.166667em" /><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mspace width="0.166667em" /><ns1:mo>.</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(4)</label></disp-formula>
+This also means that the probability distribution <italic>P</italic> needs to be rewritten in the new variables, i.e. <inline-formula id="pone.0222906.e016"><alternatives><graphic id="pone.0222906.e016g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e016" ns0:type="simple" /><ns1:math display="inline" id="M16"><ns1:mrow><ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>n</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>&#8594;</ns1:mo> <ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mrow></ns1:math></alternatives></inline-formula>. Accordingly, the step operators <inline-formula id="pone.0222906.e017"><alternatives><graphic id="pone.0222906.e017g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e017" ns0:type="simple" /><ns1:math display="inline" id="M17"><ns1:mi mathvariant="double-struck">E</ns1:mi></ns1:math></alternatives></inline-formula> in <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> are expanded to yield [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>]
+<disp-formula id="pone.0222906.e018"><alternatives><graphic id="pone.0222906.e018g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e018" ns0:type="simple" /><ns1:math display="block" id="M18"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi mathvariant="double-struck">E</ns1:mi> <ns1:mo>=</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>+</ns1:mo> <ns1:mfrac><ns1:mn>1</ns1:mn> <ns1:msqrt><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:msqrt></ns1:mfrac> <ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:mrow></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mfrac><ns1:mn>1</ns1:mn> <ns1:mrow><ns1:mn>2</ns1:mn> <ns1:mspace width="0.166667em" /><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:mrow></ns1:mfrac> <ns1:mfrac><ns1:msup><ns1:mi>&#8706;</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msup> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:msubsup><ns1:mi>&#951;</ns1:mi> <ns1:mrow><ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup></ns1:mrow></ns1:mfrac> <ns1:mo>+</ns1:mo> <ns1:mo>&#8943;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mo>.</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(5)</label></disp-formula>
+Calculating the time derivative of <inline-formula id="pone.0222906.e019"><alternatives><graphic id="pone.0222906.e019g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e019" ns0:type="simple" /><ns1:math display="inline" id="M19"><ns1:mrow><ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> by applying Eqs (<xref ref-type="disp-formula" rid="pone.0222906.e015">4</xref>) and (<xref ref-type="disp-formula" rid="pone.0222906.e018">5</xref>) to <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> it is possible to get the equation for <inline-formula id="pone.0222906.e020"><alternatives><graphic id="pone.0222906.e020g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e020" ns0:type="simple" /><ns1:math display="inline" id="M20"><ns1:mrow><ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> expressed in terms of different orders of the systems size <inline-formula id="pone.0222906.e021"><alternatives><graphic id="pone.0222906.e021g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e021" ns0:type="simple" /><ns1:math display="inline" id="M21"><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:math></alternatives></inline-formula> (note that the <inline-formula id="pone.0222906.e022"><alternatives><graphic id="pone.0222906.e022g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e022" ns0:type="simple" /><ns1:math display="inline" id="M22"><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula> are time-dependent via <inline-formula id="pone.0222906.e023"><alternatives><graphic id="pone.0222906.e023g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e023" ns0:type="simple" /><ns1:math display="inline" id="M23"><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula> in <xref ref-type="disp-formula" rid="pone.0222906.e015">Eq(4)</xref>). As a result, there are large terms <inline-formula id="pone.0222906.e024"><alternatives><graphic id="pone.0222906.e024g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e024" ns0:type="simple" /><ns1:math display="inline" id="M24"><ns1:mrow><ns1:mo>&#8733;</ns1:mo> <ns1:msqrt><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:msqrt></ns1:mrow></ns1:math></alternatives></inline-formula> which should cancel, yielding the macroscopic equation of motion for <inline-formula id="pone.0222906.e025"><alternatives><graphic id="pone.0222906.e025g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e025" ns0:type="simple" /><ns1:math display="inline" id="M25"><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula>. This corresponds to directly deriving the macroscopic ODE for <inline-formula id="pone.0222906.e026"><alternatives><graphic id="pone.0222906.e026g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e026" ns0:type="simple" /><ns1:math display="inline" id="M26"><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula> from the underlying reaction by applying the <italic>law of mass action</italic>. The next highest order in this expansion is <inline-formula id="pone.0222906.e027"><alternatives><graphic id="pone.0222906.e027g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e027" ns0:type="simple" /><ns1:math display="inline" id="M27"><ns1:mrow><ns1:mo>&#8733;</ns1:mo> <ns1:msup><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mn>0</ns1:mn></ns1:msup></ns1:mrow></ns1:math></alternatives></inline-formula>. Collecting all terms <inline-formula id="pone.0222906.e028"><alternatives><graphic id="pone.0222906.e028g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e028" ns0:type="simple" /><ns1:math display="inline" id="M28"><ns1:mrow><ns1:mo>&#8733;</ns1:mo> <ns1:msup><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mn>0</ns1:mn></ns1:msup></ns1:mrow></ns1:math></alternatives></inline-formula> and neglecting all other terms (<inline-formula id="pone.0222906.e029"><alternatives><graphic id="pone.0222906.e029g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e029" ns0:type="simple" /><ns1:math display="inline" id="M29"><ns1:mrow><ns1:mo>&#8764;</ns1:mo> <ns1:mi mathvariant="script">O</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msup><ns1:mover accent="true"><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mrow><ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>/</ns1:mo> <ns1:mn>2</ns1:mn></ns1:mrow></ns1:msup> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula>) yields a Fokker-Planck equation with terms linear in <inline-formula id="pone.0222906.e030"><alternatives><graphic id="pone.0222906.e030g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e030" ns0:type="simple" /><ns1:math display="inline" id="M30"><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub></ns1:math></alternatives></inline-formula> (<italic>linear noise approximation</italic>). Although we do not attempt to solve Master equations or their approximations in the form of linear Fokker-Planck equations in MuMoT, we utilise the linear Fokker-Planck equation to compute analytical expressions that represent fluctuations and noise correlations, by deriving equations of motion for first and second order moments of <inline-formula id="pone.0222906.e031"><alternatives><graphic id="pone.0222906.e031g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e031" ns0:type="simple" /><ns1:math display="inline" id="M31"><ns1:mrow><ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula> according to
+<disp-formula id="pone.0222906.e032"><alternatives><graphic id="pone.0222906.e032g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e032" ns0:type="simple" /><ns1:math display="block" id="M32"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mo>&#10216;</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>&#10217;</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mrow></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mrow><ns1:mo>=</ns1:mo> <ns1:mo>&#8747;</ns1:mo> <ns1:mi>d</ns1:mi> <ns1:mi mathvariant="bold-italic">&#951;</ns1:mi> <ns1:mspace width="0.166667em" /><ns1:mspace width="0.166667em" /><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub></ns1:msub> <ns1:mspace width="0.166667em" /><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mspace width="0.166667em" /><ns1:mo>,</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr> <ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mo>&#10216;</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub></ns1:msub> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>&#10217;</ns1:mo> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mrow></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mrow><ns1:mo>=</ns1:mo> <ns1:mo>&#8747;</ns1:mo> <ns1:mi>d</ns1:mi> <ns1:mi mathvariant="bold-italic">&#951;</ns1:mi> <ns1:mspace width="0.166667em" /><ns1:mspace width="0.166667em" /><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>i</ns1:mi></ns1:msub></ns1:msub> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub></ns1:msub> <ns1:mspace width="0.166667em" /><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mrow><ns1:mo>{</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mo>}</ns1:mo></ns1:mrow> <ns1:mo>;</ns1:mo> <ns1:mspace width="0.166667em" /><ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mspace width="0.166667em" /><ns1:mo>,</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(6)</label></disp-formula>
+where <inline-formula id="pone.0222906.e033"><alternatives><graphic id="pone.0222906.e033g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e033" ns0:type="simple" /><ns1:math display="inline" id="M33"><ns1:mrow><ns1:mi>d</ns1:mi> <ns1:mi mathvariant="bold-italic">&#951;</ns1:mi> <ns1:mo>=</ns1:mo> <ns1:mi>d</ns1:mi> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mn>1</ns1:mn></ns1:msub></ns1:msub> <ns1:mo>&#8943;</ns1:mo> <ns1:mi>d</ns1:mi> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>K</ns1:mi></ns1:msub></ns1:msub></ns1:mrow></ns1:math></alternatives></inline-formula>, and &#8706;<italic>P</italic>/&#8706;<italic>t</italic> represents the linear Fokker-Planck equation. Both van Kampen expansion and derivation of the linear Fokker-Planck equation can be readily performed in MuMoT. In addition, in MuMoT explicit expressions for first and second order moments following from <xref ref-type="disp-formula" rid="pone.0222906.e032">Eq (6)</xref> may be derived. Furthermore, MuMoT can attempt to obtain analytical solutions for these equations in the stationary state.</p>
+<p>All mathematical procedures concerning the Master equation and Fokker-Planck equation make extensive use of Python&#8217;s SymPy package [<xref ref-type="bibr" rid="pone.0222906.ref019">19</xref>].</p>
+</sec>
+<sec id="sec011">
+<title>Other methods to study noise in MuMoT</title>
+<p>Making use of MuMoT&#8217;s functionality described in the previous paragraph, it is possible to compute and display the temporal evolution of correlation functions <inline-formula id="pone.0222906.e034"><alternatives><graphic id="pone.0222906.e034g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e034" ns0:type="simple" /><ns1:math display="inline" id="M34"><ns1:mrow><ns1:mo>&#9001;</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>k</ns1:mi></ns1:msub></ns1:msub> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mspace width="0.166667em" /><ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:msub><ns1:mi>X</ns1:mi> <ns1:mi>j</ns1:mi></ns1:msub></ns1:msub> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mn>0</ns1:mn> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mo>&#9002;</ns1:mo></ns1:mrow></ns1:math></alternatives></inline-formula>; examples of how to do this are given in the online user manual [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>]. Noise can also be displayed in stream and vector plots; if requested then MuMoT tries to obtain the stationary solutions of the diagonal elements of the second order moments and then project these onto the direction of the eigenvectors of available stable fixed points of the macroscopic ODEs. If the system is too complicated and MuMoT cannot find an analytical solution, noise may be calculated by principled numerical simulation, as described below.</p>
+</sec>
+<sec id="sec012">
+<title>Stochastic simulation</title>
+<p>The Master equation of <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> can be very difficult to solve for even very simple systems, therefore most studies resort to the complementary approach of numerical simulations [<xref ref-type="bibr" rid="pone.0222906.ref020">20</xref>]. Gillespie proposed a probabilistically exact algorithm for simulating chemical reactions called the <italic>stochastic simulation algorithm</italic> (SSA) [<xref ref-type="bibr" rid="pone.0222906.ref021">21</xref>]. Each simulation computes a stochastic temporal trajectory of the state variables from a given user-defined initial condition &#8706;<italic>P</italic>({<italic>n</italic><sub><italic>k</italic></sub>}; 0) for a user-defined maximum time <italic>T</italic>. Averaging various trajectories gives an approximation of the solution of <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> (for a given &#8706;<italic>P</italic>({<italic>n</italic><sub><italic>k</italic></sub>}; 0)) that increases in accuracy with the number of simulations. MuMoT implements the SSA via the command <monospace>SSA()</monospace>. The user can run a single simulation to generate a single temporal trajectory, or otherwise run several simulations and aggregate the data in a single plot. The user can visualise the entire temporal trajectory (in a plot similar to <xref ref-type="fig" rid="pone.0222906.g003">Fig 3</xref>), or the final population distribution &#8706;<italic>P</italic>({<italic>n</italic><sub><italic>k</italic></sub>}; <italic>T</italic>) in the form of either a barplot or as points in a 2-dimensional space plane (in which the two axes are state variables). Multiple trajectories can be aggregated in standardised ways of displaying probability distributions, <italic>e.g</italic>., in the 2-dimensional space plane, simulation aggregates are visualised as ellipses centred on the distribution mean and with 1-<italic>&#963;</italic> covariance sizes (<italic>e.g</italic>. see the green ellipse in <xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref>(bottom panels)). This aggregate visualisation can be superimposed on to stream and vector field plots when requested, and if <xref ref-type="disp-formula" rid="pone.0222906.e004">Eq (3)</xref> cannot be analytically solved by MuMoT, as discussed above.</p>
+<fig id="pone.0222906.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Numerical integration of the Brusselator equations.</title>
+<p>The Brusselator equations ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.253) exhibit either stable (left) or oscillatory (right) dynamics according to the parameter values selected. Parameter sets: &#934;<sub><italic>&#945;</italic></sub> = &#934;<sub><italic>&#946;</italic></sub> = <italic>&#967;</italic> = <italic>&#948;</italic> = <italic>&#947;</italic> = <italic>&#958;</italic> = 2.0, &#934;<sub><italic>Xt</italic>(0)</sub> = 1.0, system size = 10 (left), &#934;<sub><italic>&#945;</italic></sub> = <italic>&#967;</italic> = <italic>&#948;</italic> = <italic>&#947;</italic> = <italic>&#958;</italic> = 2.0, &#934;<sub><italic>&#946;</italic></sub> = 5.5, &#934;<sub><italic>Xt</italic>(0)</sub> = 1.0, system size = 10 (right).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g003" ns0:type="simple" />
+</fig>
+<fig id="pone.0222906.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Phase portraits with computed fixed points and noise.</title>
+<p>Upper-left: oscillatory dynamics in the Lotka-Volterra equations ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.79) (parameters &#934;<sub><italic>A</italic></sub> = <italic>&#945;</italic> = <italic>&#946;</italic> = <italic>&#947;</italic> = 2.0). Upper-right: limit cycle in the Brusellator ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.253) (parameters &#934;<sub><italic>&#945;</italic></sub> = <italic>&#967;</italic> = <italic>&#948;</italic> = <italic>&#947;</italic> = <italic>&#958;</italic> = 2.0, &#934;<sub><italic>&#946;</italic></sub> = 5.5). Lower-left: global attractor with isotropic noise in the Brusellator ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.253) (parameters &#934;<sub><italic>&#945;</italic></sub> = &#934;<sub><italic>&#946;</italic></sub> = <italic>&#967;</italic> = <italic>&#948;</italic> = <italic>&#947;</italic> = <italic>&#958;</italic> = 2.0, system size = 10). Lower-right: co-existence of two stable attractors in the honeybee swarming model [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>], with anisotropic non-axis-parallel noise (parameters &#916; = 0.0, <italic>&#956;</italic> = 3.0, <italic>s</italic> = 10.0, system size = 20, runs = 100). Line shading indicates speed of flow, with darker representing faster. Fixed points are denoted as stable (dark solid green circle), saddle (hollow blue circle), or unstable (hollow red circle). Light green ellipses represent 1-<italic>&#963;</italic> noise around stable fixed points.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g004" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec013">
+<title>Spatial noise</title>
+<p>MuMoT also enables the study of the effects of spatial noise on a model. Including spatial noise relaxes the sometimes simplistic assumption of a well-mixed system in which interactions between any group of reactants can always happen, at rates proportional to the product of their relative frequencies in the population. Instead, each reactant has a set of <italic>available</italic> reactants with which it can interact at each timestep. The set of possible interactions corresponds to the system&#8217;s interaction topology, which the user can select among a set of standard graph structures. Graphs are handled by MuMoT through the functionalities offered by the NetworkX library [<xref ref-type="bibr" rid="pone.0222906.ref022">22</xref>] which allows advanced users to easily add new topologies. In the first MuMoT release, the available topologies are the complete graph, the Erd&#246;s&#8211;R&#233;nyi random graph [<xref ref-type="bibr" rid="pone.0222906.ref023">23</xref>], the Barab&#225;si&#8211;Albert scale-free network [<xref ref-type="bibr" rid="pone.0222906.ref024">24</xref>], and the random geometric graph [<xref ref-type="bibr" rid="pone.0222906.ref025">25</xref>]. The latter is constructed by locating at random uniform locations the reactants in a square environment with edge length 1, and allowing interaction between two reactants when their Euclidean distance is less than or equal to a user-defined distance. The topology of the random geometric graphs can be static or time-varying. The latter is implemented by letting each reactant perform a correlated random walk in the 2-dimensional environment and recomputing the topology each time based on the new distances between reactants.</p>
+<p>Spatial noise is difficult to compute analytically in an automatised way, therefore MuMoT computes it numerically via individual-based simulations. Each reactant is simulated as an agent which probabilistically interacts at synchronous discrete timesteps with the available reactants. The agent&#8217;s behaviour is automatically implemented from the model&#8217;s reaction kinetics as a probabilistic finite state machine following the technique proposed in [<xref ref-type="bibr" rid="pone.0222906.ref026">26</xref>]. Along with the agents&#8217; behaviour, MuMoT automatically sizes the timestep length to match the time-scale with the population-level descriptions (<italic>e.g</italic>. ODEs and Master equation). This feature can be particularly convenient if the user aims at a quantitative comparison between model description levels. Similarly to SSA simulations, the user can select to run individual simulations or to aggregate results from multiple independent simulations to compute statistical distributions.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<p>All results can be reproduced using the <monospace>MuMoTpaperResults.ipynb</monospace> Jupyter notebook [<xref ref-type="bibr" rid="pone.0222906.ref010">10</xref>].</p>
+<sec id="sec015">
+<title>Numerical integration</title>
+<p>To illustrate the numerical integration functionality of MuMoT we repeat analyses of the Brusselator equations ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.253) in <xref ref-type="fig" rid="pone.0222906.g003">Fig 3</xref>. The equations have two dynamical regimes, one with a single globally stable attractor when <inline-formula id="pone.0222906.e035"><alternatives><graphic id="pone.0222906.e035g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e035" ns0:type="simple" /><ns1:math display="inline" id="M35"><ns1:mrow><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:mi>&#946;</ns1:mi></ns1:msub> <ns1:mo>&#8804;</ns1:mo> <ns1:msubsup><ns1:mo>&#934;</ns1:mo> <ns1:mrow><ns1:mi>&#945;</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup></ns1:mrow></ns1:math></alternatives></inline-formula> (<xref ref-type="fig" rid="pone.0222906.g003">Fig 3</xref> (left)), and one in which a stable limit cycle exists when <inline-formula id="pone.0222906.e036"><alternatives><graphic id="pone.0222906.e036g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e036" ns0:type="simple" /><ns1:math display="inline" id="M36"><ns1:mrow><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:mi>&#946;</ns1:mi></ns1:msub> <ns1:mo>&gt;</ns1:mo> <ns1:msubsup><ns1:mo>&#934;</ns1:mo> <ns1:mrow><ns1:mi>&#945;</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup></ns1:mrow></ns1:math></alternatives></inline-formula> (<xref ref-type="fig" rid="pone.0222906.g003">Fig 3</xref> (right)).</p>
+</sec>
+<sec id="sec016">
+<title>Phase portraits with fixed point and noise calculations</title>
+<p>We illustrate the phase portrait functionality of MuMoT in <xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> by repeating analyses of a variety of equation systems: the classical Lotka-Volterra equations ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.79), the Brusellator equations ([<xref ref-type="bibr" rid="pone.0222906.ref003">3</xref>], p.253), and a model of collective decision-making by swarming honeybees [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>]. These systems can exhibit a variety of dynamics including: oscillations (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (upper-left)), unstable fixed points with limit cycles (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (upper-right)), globally stable attractors (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (bottom-left)), and stable attractors co-existing with saddle points (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (bottom-right)). When stable fixed points are present MuMoT can calculate or compute the equilibrium noise around them, dependent on system size (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (bottom)); this can be either isotropic (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (bottom-left)), or anisoptropic and/or non-axis-parallel (<xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref> (bottom-right)). This latter case is particularly interesting because the correct noise around the fixed point may differ substantially from simply adding Gaussian noise to the dynamical equations.</p>
+</sec>
+<sec id="sec017">
+<title>Bifurcation analysis</title>
+<p>MuMoT&#8217;s bifurcation analysis functionality is illustrated through reproducing a number of bifurcation analyses [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] of the honeybee model presented above [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>] (<xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref>). These reveal conditions under which the dynamics exhibit: (i) a pitchfork bifurcation (<xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (left)), a sample post-bifurcation phase portrait for which is presented in <xref ref-type="fig" rid="pone.0222906.g004">Fig 4</xref>, (ii) an unfolding of the pitchfork bifurcation (<italic>i.e</italic>. saddle-node bifurcation) (<xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (centre)), and (iii) a hysteresis loop (<xref ref-type="fig" rid="pone.0222906.g005">Fig 5</xref> (right)). These can be compared to figures 5(i)-(iii) of [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>].</p>
+<fig id="pone.0222906.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Bifurcation analysis of a nonlinear decision-making model.</title>
+<p>Bifurcations of the honeybee swarming model [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>]. Left: symmetry breaking in the two decision populations through a pitchfork bifurcation, with strength of cross-inhibitory stop-signalling <italic>s</italic> as the bifurcation parameter (cf. [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] Fig 5i) (parameters &#916; = 0.0, <italic>&#956;</italic> = 4.0). Centre: unfolding of the pitchfork bifurcation into a saddle-node bifurcation (cf. [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] Fig 5ii) (parameters &#916; = 0.1, <italic>&#956;</italic> = 4.0). Right: hysteresis loop with option quality difference &#916; as the bifurcation parameter (cf. [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] Fig 5iii) (parameters <italic>&#956;</italic> = <italic>s</italic> = 4.0). Solid black lines denote stable branches, dashed blue lines denote unstable branches.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g005" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec018">
+<title>Finite population and spatial numerical simulation</title>
+<p>MuMoT can be used to perform a variety of spatial numerical simulations, illustrated in <xref ref-type="fig" rid="pone.0222906.g006">Fig 6</xref> for the honeybee swarming model introduced above [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>]. Non-spatial finite-population simulation reproduces the statistics of deadlock breaking observed in [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] (<xref ref-type="fig" rid="pone.0222906.g006">Fig 6</xref> (left)). Spatial noise can also be incorporated either by embedding the model in a network (<xref ref-type="fig" rid="pone.0222906.g006">Fig 6</xref> (centre)) or 2d-plane (<xref ref-type="fig" rid="pone.0222906.g006">Fig 6</xref> (right)).</p>
+<fig id="pone.0222906.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222906.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Numerical simulations of a nonlinear decision-making model.</title>
+<p>Numerical simulations of the honeybee swarming model [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] given various sources of noise. Left: finite-population noise effects during symmetry-breaking in a well-mixed model (cf. [<xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>] Movie S1) (parameters &#916; = 0, <italic>&#956;</italic> = 3.0, <italic>s</italic> = 3.0, &#934;<sub><italic>Ut</italic>(0)</sub> = 1.0, system size = 50, time = 10, runs = 10). Centre: finite-population and spatial noise effects due to embedding the model in a random graph. Right: finite-population and spatial noise effects due to embedding the model in a plane, with agents performing correlated random walks; traces indicate recent agent paths, links indicate current interaction events.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.g006" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec019">
+<title>Derivation of the Master equation and expansion to derive the Fokker-Planck equation</title>
+<p>Here we reproduce the analysis presented in [<xref ref-type="bibr" rid="pone.0222906.ref018">18</xref>] (pp. 244-246) to derive the Master Equation and Fokker-Planck equation for the following toy model:
+<disp-formula id="pone.0222906.e037"><alternatives><graphic id="pone.0222906.e037g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e037" ns0:type="simple" /><ns1:math display="block" id="M37"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mo>(</ns1:mo> <ns1:mi>A</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd> <ns1:mtd><ns1:mover><ns1:mo>&#8594;</ns1:mo> <ns1:mi>k</ns1:mi></ns1:mover></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mi>X</ns1:mi></ns1:mtd></ns1:mtr> <ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mi>X</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>X</ns1:mi></ns1:mrow></ns1:mtd> <ns1:mtd><ns1:mover><ns1:mo>&#8594;</ns1:mo> <ns1:mi>h</ns1:mi></ns1:mover></ns1:mtd> <ns1:mtd columnalign="left"><ns1:mrow><ns1:mi>&#8709;</ns1:mi> <ns1:mo>+</ns1:mo> <ns1:mi>&#8709;</ns1:mi></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(7)</label></disp-formula></p>
+<p>The automated analysis results in
+<disp-formula id="pone.0222906.e038"><alternatives><graphic id="pone.0222906.e038g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e038" ns0:type="simple" /><ns1:math display="block" id="M38"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>&#8788;</ns1:mo> <ns1:mfrac><ns1:mrow><ns1:mi>A</ns1:mi> <ns1:mi>k</ns1:mi></ns1:mrow> <ns1:mover><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:mfrac> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mtext>E</ns1:mtext><ns1:mrow><ns1:mtext>op</ns1:mtext></ns1:mrow></ns1:msub><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mover><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>+</ns1:mo> <ns1:mi>h</ns1:mi> <ns1:mrow><ns1:mo>(</ns1:mo> <ns1:msub><ns1:mtext>E</ns1:mtext><ns1:mrow><ns1:mtext>op</ns1:mtext></ns1:mrow></ns1:msub><ns1:mspace width="2pt" /><ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mn>2</ns1:mn> <ns1:mo>)</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mfrac><ns1:mi>X</ns1:mi> <ns1:mover><ns1:mi>V</ns1:mi> <ns1:mo>&#175;</ns1:mo></ns1:mover></ns1:mfrac> <ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>-</ns1:mo> <ns1:mn>1</ns1:mn> <ns1:mo>)</ns1:mo> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mi>X</ns1:mi> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(8)</label></disp-formula>
+and
+<disp-formula id="pone.0222906.e039"><alternatives><graphic id="pone.0222906.e039g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222906.e039" ns0:type="simple" /><ns1:math display="block" id="M39"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:mi>t</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>&#8788;</ns1:mo><ns1:mfrac><ns1:mrow><ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:mi>A</ns1:mi></ns1:msub> <ns1:mi>k</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:mfrac> <ns1:mfrac><ns1:msup><ns1:mi>&#8706;</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msup> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:msubsup><ns1:mi>&#951;</ns1:mi> <ns1:mrow><ns1:mi>X</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>+</ns1:mo> <ns1:mn>2</ns1:mn> <ns1:msubsup><ns1:mo>&#934;</ns1:mo> <ns1:mrow><ns1:mi>X</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup> <ns1:mi>h</ns1:mi> <ns1:mfrac><ns1:msup><ns1:mi>&#8706;</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msup> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:msubsup><ns1:mi>&#951;</ns1:mi> <ns1:mrow><ns1:mi>X</ns1:mi></ns1:mrow> <ns1:mn>2</ns1:mn></ns1:msubsup></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>+</ns1:mo> <ns1:mn>4</ns1:mn> <ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mi>h</ns1:mi> <ns1:mfrac><ns1:mi>&#8706;</ns1:mi> <ns1:mrow><ns1:mi>&#8706;</ns1:mi> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub></ns1:mrow></ns1:mfrac> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo> <ns1:mo>+</ns1:mo> <ns1:mn>4</ns1:mn> <ns1:msub><ns1:mo>&#934;</ns1:mo> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mi>h</ns1:mi> <ns1:mi>P</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:msub><ns1:mi>&#951;</ns1:mi> <ns1:mi>X</ns1:mi></ns1:msub> <ns1:mo>,</ns1:mo> <ns1:mi>t</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(9)</label></disp-formula>
+as expected.</p>
+<p>A substantially more complicated example derivation, for the honeybee swarming model of <xref ref-type="disp-formula" rid="pone.0222906.e001">Eq 1</xref> [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222906.ref014">14</xref>], is presented in <xref ref-type="supplementary-material" rid="pone.0222906.s001">S1 Text</xref>. This derivation is equivalent to that performed in [<xref ref-type="bibr" rid="pone.0222906.ref002">2</xref>] and results in the same dynamical equations.</p>
+</sec>
+</sec>
+<sec id="sec020">
+<title>Availability and future directions</title>
+<p>MuMoT is available as source code, as a package for Python 3 [<xref ref-type="bibr" rid="pone.0222906.ref027">27</xref>] via PyPI (<monospace>pypi.python.org</monospace>), and as a server-based installation currently exemplified by free-to-use access to the interactive user manual and other notebooks using the Binder service [<xref ref-type="bibr" rid="pone.0222906.ref009">9</xref>], which requires only a web browser to use. MuMoT is written in Python 3 and integrates with Jupyter Notebooks [<xref ref-type="bibr" rid="pone.0222906.ref008">8</xref>] and as such is platform-independent. Non-interactive aspects of MuMoT&#8217;s functionality can also be accessed through using it as a standalone Python package, enabling its modelling and analysis functionality to be used from within third-party code projects. MuMoT is available under the GPL licence version 3.0, and makes use of other software available under the MIT licence. For further details including links to usage information are available at <monospace>github.com/DiODeProject/MuMoT/</monospace>.</p>
+<p>Numerous software products have been proposed to perform subsets of the analyses offered by MuMoT. For instance, several tools offer the possibility to run the SSA and efficiently analyse reaction kinetics models [<xref ref-type="bibr" rid="pone.0222906.ref028">28</xref>&#8211;<xref ref-type="bibr" rid="pone.0222906.ref036">36</xref>]. Similarly, software to analyse mean-field dynamical systems and perform bifurcation analysis is widely available, <italic>e.g</italic>. MATCONT for Matlab [<xref ref-type="bibr" rid="pone.0222906.ref037">37</xref>], or the Dynamica package for Wolfram Mathematica [<xref ref-type="bibr" rid="pone.0222906.ref038">38</xref>]. Linear noise approximations have previously been implemented as well [<xref ref-type="bibr" rid="pone.0222906.ref032">32</xref>]. Several tools offers software to simulate complex systems, dynamical networks, and agent-based models [<xref ref-type="bibr" rid="pone.0222906.ref039">39</xref>&#8211;<xref ref-type="bibr" rid="pone.0222906.ref041">41</xref>], some of which run as Jupyter notebooks as MuMoT does [<xref ref-type="bibr" rid="pone.0222906.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222906.ref043">43</xref>].</p>
+<p>In contrast to the previous solutions, MuMoT combines ease-of-use with a multi-level analysis that spans from ODEs analysis, to statistical physics approximations, bifurcation analysis, and SSA and multiagent simulations, integrated within a simple interactive notebook document interface. This makes MuMoT particularly appropriate for non-experts to learn to build models and apply complex mathematical and computational techniques to them, to communicate research results, and to enable students to interactively explore models, and modelling and analysis techniques.</p>
+<p>Future work should focus on integrating MuMoT with other software and standard. For example, the simple textual input method for MuMoT models is very accessible to non-experts, but precludes more sophisticated use cases. Import and export via interchange formats such as Systems Biology Markup Language (SBML) [<xref ref-type="bibr" rid="pone.0222906.ref044">44</xref>] would enable users to connect between MuMoT for general analysis, and external specialist software packages for more detailed analyses; for example StochSS [<xref ref-type="bibr" rid="pone.0222906.ref036">36</xref>] can run the SSA algorithm on cloud infrastructure for larger-scale computations, and perform parameter sweeps and estimation. Embracing data interchange formats will allow MuMoT to take its place as an integral part of the growing ecosystem of open-source modelling software.</p>
+</sec>
+<sec id="sec021">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222906.s001" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222906.s001" ns0:type="simple">
+<label>S1 Text</label>
+<caption>
+<title>Sample model analyses.</title>
+<p>van Kampen expansion and other analyses of the stop-signal model (<xref ref-type="disp-formula" rid="pone.0222906.e001">Eq 1</xref>).</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Will Furnass with assistance in deployment, documentation, and continuous integration. We thank Renato Pagliara for assistance in testing on the Windows platform.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222906.ref001">
+<label>1</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Tyson</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>KC</given-names></name>, <name name-style="western"><surname>Novak</surname> <given-names>B</given-names></name>. <article-title>Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell</article-title>. <source>Current Opinion in Cell Biology</source>. <year>2003</year>;<volume>15</volume>(<issue>2</issue>):<fpage>221</fpage>&#8211;<lpage>231</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0955-0674(03)00017-6" ns0:type="simple">10.1016/s0955-0674(03)00017-6</ext-link></comment> <object-id pub-id-type="pmid">12648679</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref002">
+<label>2</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Seeley</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Visscher</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Schlegel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Hogan</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Franks</surname> <given-names>NR</given-names></name>, <name name-style="western"><surname>Marshall</surname> <given-names>JAR</given-names></name>. <article-title>Stop signals provide cross inhibition in collective decision-making by honeybee swarms</article-title>. <source>Science</source>. <year>2012</year>;<volume>335</volume>(<issue>6064</issue>):<fpage>108</fpage>&#8211;<lpage>111</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1126/science.1210361" ns0:type="simple">10.1126/science.1210361</ext-link></comment> <object-id pub-id-type="pmid">22157081</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref003">
+<label>3</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Murray</surname> <given-names>JD</given-names></name>. <source>Mathematical Biology I: An Introduction</source>. <edition>3rd ed</edition>. <publisher-name>Springer-Verlag</publisher-name>; <year>2002</year>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Yildiz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ozdaglar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Acemoglu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Saberi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Scaglione</surname> <given-names>A</given-names></name>. <article-title>Binary opinion dynamics with stubborn agents</article-title>. <source>ACM Transactions on Economics and Computation (TEAC)</source>. <year>2013</year>;<volume>1</volume>(<issue>4</issue>):<fpage>19</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref005">
+<label>5</label>
+<mixed-citation publication-type="other" ns0:type="simple">Israel G. La Math&#233;matisation du R&#233;el. Seuil; 1996.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref006">
+<label>6</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Marshall</surname> <given-names>JAR</given-names></name>, <name name-style="western"><surname>Franks</surname> <given-names>NR</given-names></name>. <chapter-title>Computer modeling in behavioral and evolutionary ecology: whys and wherefores</chapter-title>. In: <source>Modeling Biology: Structures, Behavior, Evolution. The Vienna Series in Theoretical Biology</source>. <publisher-name>MIT Press</publisher-name>; <year>2007</year>. p. <fpage>335</fpage>&#8211;<lpage>353</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref007">
+<label>7</label>
+<mixed-citation publication-type="other" ns0:type="simple">van Rossum G, et al. Python 3; 2008. Available from: <ext-link ext-link-type="uri" ns0:href="https://www.python.org/3/reference/" ns0:type="simple">https://www.python.org/3/reference/</ext-link>; accessed on 2019-06-12 [cited 2019-03-07].</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref008">
+<label>8</label>
+<mixed-citation publication-type="other" ns0:type="simple">Various. Project Jupyter;. Available from: <ext-link ext-link-type="uri" ns0:href="https://jupyter.org" ns0:type="simple">https://jupyter.org</ext-link> [cited 2019-06-12].</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref009">
+<label>9</label>
+<mixed-citation publication-type="other" ns0:type="simple">Various. Binder;. Available from: <ext-link ext-link-type="uri" ns0:href="https://mybinder.org" ns0:type="simple">https://mybinder.org</ext-link> [cited 2019-06-12].</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref010">
+<label>10</label>
+<mixed-citation publication-type="other" ns0:type="simple">Marshall, James A R and Reina, Andreagiovanni and Bose, Thomas. MuMoT online manual; 2019. Available from: <ext-link ext-link-type="uri" ns0:href="https://mumot.readthedocs.io/en/latest/getting_started.html" ns0:type="simple">https://mumot.readthedocs.io/en/latest/getting_started.html</ext-link> [cited 2019-06-28].</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref011">
+<label>11</label>
+<mixed-citation publication-type="other" ns0:type="simple">Leff A, Rayfield JT. Web-application development using the model/view/controller design pattern. In: Proceedings of the Fifth IEEE International Enterprise Distributed Object Computing Conference. IEEE; 2001. p. 118&#8211;127.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref012">
+<label>12</label>
+<mixed-citation publication-type="other" ns0:type="simple">van Rossum G, Warsaw B, Coghlan N. PEP 8: style guide for Python code. Python.org; 2001. Available from: <ext-link ext-link-type="uri" ns0:href="https://www.python.org/dev/peps/pep-0008/" ns0:type="simple">https://www.python.org/dev/peps/pep-0008/</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Lee</surname> <given-names>BD</given-names></name>. <article-title>Ten simple rules for documenting scientific software</article-title>. <source>PLoS Computational Biology</source>. <year>2018</year>;<volume>14</volume>(<issue>12</issue>):<fpage>e1006561</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pcbi.1006561" ns0:type="simple">10.1371/journal.pcbi.1006561</ext-link></comment> <object-id pub-id-type="pmid">30571677</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Pais</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hogan</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Schlegel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Franks</surname> <given-names>NR</given-names></name>, <name name-style="western"><surname>Leonard</surname> <given-names>NE</given-names></name>, <name name-style="western"><surname>Marshall</surname> <given-names>JAR</given-names></name>. <article-title>A mechanism for value-sensitive decision-making</article-title>. <source>PLoS one</source>. <year>2013</year>;<volume>8</volume>(<issue>9</issue>):<fpage>e73216</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0073216" ns0:type="simple">10.1371/journal.pone.0073216</ext-link></comment> <object-id pub-id-type="pmid">24023835</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Galla</surname> <given-names>T</given-names></name>. <article-title>Independence and interdependence in the nest-site choice by honeybee swarms: agent-based models, analytical approaches and pattern formation</article-title>. <source>Journal of Theoretical Biology</source>. <year>2010</year>;<volume>262</volume>(<issue>1</issue>):<fpage>186</fpage>&#8211;<lpage>196</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jtbi.2009.09.007" ns0:type="simple">10.1016/j.jtbi.2009.09.007</ext-link></comment> <object-id pub-id-type="pmid">19761778</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref016">
+<label>16</label>
+<mixed-citation publication-type="other" ns0:type="simple">Jones E, Oliphant T, Peterson P, et al. SciPy: Open source scientific tools for Python; 2001&#8211;. Available from: <ext-link ext-link-type="uri" ns0:href="http://www.scipy.org/" ns0:type="simple">http://www.scipy.org/</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref017">
+<label>17</label>
+<mixed-citation publication-type="other" ns0:type="simple">Clewley, R H and Sherwood, W E and LaMar, M D and Guckenheimer, J M. PyDSTool: a software environment for dynamical systems modeling; 2007. Available from: <ext-link ext-link-type="uri" ns0:href="https://pydstool.github.io/PyDSTool/" ns0:type="simple">https://pydstool.github.io/PyDSTool/</ext-link> [cited 2019-06-12].</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref018">
+<label>18</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>van Kampen</surname> <given-names>NG</given-names></name>. <source>Stochastic Processes in Physics and Chemistry</source>: <edition>Third Edition</edition>. <publisher-loc>Amsterdam</publisher-loc>: <publisher-name>North-Holland</publisher-name>; <year>2007</year>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Meurer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>CP</given-names></name>, <name name-style="western"><surname>Paprocki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>&#268;ert&#237;k</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Kirpichev</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Rocklin</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>SymPy: symbolic computing in Python</article-title>. <source>PeerJ Computer Science</source>. <year>2017</year>;<volume>3</volume>:<fpage>e103</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7717/peerj-cs.103" ns0:type="simple">10.7717/peerj-cs.103</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Gillespie</surname> <given-names>DT</given-names></name>, <name name-style="western"><surname>Hellander</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Petzold</surname> <given-names>LR</given-names></name>. <article-title>Perspective: Stochastic algorithms for chemical kinetics</article-title>. <source>The Journal of Chemical Physics</source>. <year>2013</year>;<volume>138</volume>(<issue>17</issue>):<fpage>170901</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1063/1.4801941" ns0:type="simple">10.1063/1.4801941</ext-link></comment> <object-id pub-id-type="pmid">23656106</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref021">
+<label>21</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Gillespie</surname> <given-names>DT</given-names></name>. <article-title>A general method for numerically simulating stochastic time evolution of coupled chemical reactions</article-title>. <source>Journal of Computational Physics</source>. <year>1976</year>;<volume>22</volume>:<fpage>403</fpage>&#8211;<lpage>434</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0021-9991(76)90041-3" ns0:type="simple">10.1016/0021-9991(76)90041-3</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref022">
+<label>22</label>
+<mixed-citation publication-type="other" ns0:type="simple">Hagberg AA, Schult DA, Swart PJ. Exploring network structure, dynamics, and function using NetworkX. In: Proceedings of the 7th Python in Science Conference (SciPy 2008). SciPy; 2008.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Erd&#246;s</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>R&#233;nyi</surname> <given-names>A</given-names></name>. <article-title>On random graphs I</article-title>. <source>Publicationes Mathematicae (Debrecen)</source>. <year>1959</year>;<volume>6</volume>:<fpage>290</fpage>&#8211;<lpage>297</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref024">
+<label>24</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Barab&#225;si</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Albert</surname> <given-names>R</given-names></name>. <article-title>Emergence of scaling in random networks</article-title>. <source>Science</source>. <year>1999</year>;<volume>286</volume>(<issue>5439</issue>):<fpage>509</fpage>&#8211;<lpage>512</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1126/science.286.5439.509" ns0:type="simple">10.1126/science.286.5439.509</ext-link></comment> <object-id pub-id-type="pmid">10521342</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref025">
+<label>25</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Penrose</surname> <given-names>M</given-names></name>. <chapter-title>Random Geometric Graphs</chapter-title>. <source>Oxford studies in probability</source>. <publisher-name>Oxford University Press</publisher-name>; <year>2003</year>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref026">
+<label>26</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Reina</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Valentini</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Fern&#225;ndez-Oto</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Dorigo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Trianni</surname> <given-names>V</given-names></name>. <article-title>A design pattern for decentralised decision making</article-title>. <source>PLoS ONE</source>. <year>2015</year>;<volume>10</volume>(<issue>10</issue>):<fpage>e0140950</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0140950" ns0:type="simple">10.1371/journal.pone.0140950</ext-link></comment> <object-id pub-id-type="pmid">26496359</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref027">
+<label>27</label>
+<mixed-citation publication-type="other" ns0:type="simple">Marshall, James A R and Reina, Andreagiovanni and Bose, Thomas. MuMoT 1.0.0-release. 2019.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Adalsteinsson</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>McMillen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Elston</surname> <given-names>TC</given-names></name>. <article-title>Biochemical Network Stochastic Simulator (BioNetS): software for stochastic modeling of biochemical networks</article-title>. <source>BMC Bioinformatics</source>. <year>2004</year>;<volume>5</volume>(<issue>1</issue>):<fpage>24</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2105-5-24" ns0:type="simple">10.1186/1471-2105-5-24</ext-link></comment> <object-id pub-id-type="pmid">15113411</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref029">
+<label>29</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Ramsey</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Orrell</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bolouri</surname> <given-names>H</given-names></name>. <article-title>Dizzy: stochastic simulation of large-scale genetic regulatory networks</article-title>. <source>Journal of Bioinformatics and Computational Biology</source>. <year>2005</year>;<volume>3</volume>(<issue>02</issue>):<fpage>415</fpage>&#8211;<lpage>436</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1142/S0219720005001132" ns0:type="simple">10.1142/S0219720005001132</ext-link></comment> <object-id pub-id-type="pmid">15852513</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref030">
+<label>30</label>
+<mixed-citation publication-type="book" ns0:type="simple">
+<name name-style="western"><surname>Mendes</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hoops</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sahle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gauges</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dada</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kummer</surname> <given-names>U</given-names></name>. In: <source>Computational Modeling of Biochemical Networks Using COPASI</source>. <publisher-loc>Totowa, NJ</publisher-loc>: <publisher-name>Humana Press</publisher-name>; <year>2009</year>. p. <fpage>17</fpage>&#8211;<lpage>59</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref031">
+<label>31</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Mauch</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stalzer</surname> <given-names>M</given-names></name>. <article-title>Efficient formulations for exact stochastic simulation of chemical systems</article-title>. <source>IEEE/ACM Transactions on Computational Biology and Bioinformatics</source>. <year>2011</year>;<volume>8</volume>(<issue>1</issue>):<fpage>27</fpage>&#8211;<lpage>35</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1109/TCBB.2009.47" ns0:type="simple">10.1109/TCBB.2009.47</ext-link></comment> <object-id pub-id-type="pmid">21071794</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref032">
+<label>32</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Thomas</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Matuschek</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Grima</surname> <given-names>R</given-names></name>. <article-title>Intrinsic Noise Analyzer: A software package for the exploration of stochastic biochemical kinetics using the system size expansion</article-title>. <source>PLoS ONE</source>. <year>2012</year>;<volume>7</volume>(<issue>6</issue>):<fpage>e38518</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0038518" ns0:type="simple">10.1371/journal.pone.0038518</ext-link></comment> <object-id pub-id-type="pmid">22723865</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref033">
+<label>33</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Abel</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Drawert</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hellander</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Petzold</surname> <given-names>LR</given-names></name>. <article-title>GillesPy: A Python package for stochastic model building and simulation</article-title>. <source>IEEE Life Sciences Letters</source>. <year>2016</year>;<volume>2</volume>(<issue>3</issue>):<fpage>35</fpage>&#8211;<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1109/LLS.2017.2652448" ns0:type="simple">10.1109/LLS.2017.2652448</ext-link></comment> <object-id pub-id-type="pmid">28630888</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref034">
+<label>34</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Sanft</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roh</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>RK</given-names></name>, <name name-style="western"><surname>Petzold</surname> <given-names>LR</given-names></name>. <article-title>StochKit2: software for discrete stochastic simulation of biochemical systems with events</article-title>. <source>Bioinformatics</source>. <year>2011</year>;<volume>27</volume>(<issue>17</issue>):<fpage>2457</fpage>&#8211;<lpage>2458</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/bioinformatics/btr401" ns0:type="simple">10.1093/bioinformatics/btr401</ext-link></comment> <object-id pub-id-type="pmid">21727139</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref035">
+<label>35</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Maarleveld</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Olivier</surname> <given-names>BG</given-names></name>, <name name-style="western"><surname>Bruggeman</surname> <given-names>FJ</given-names></name>. <article-title>StochPy: A comprehensive, user-friendly tool for simulating stochastic biological processes</article-title>. <source>PLoS ONE</source>. <year>2013</year>;<volume>8</volume>(<issue>11</issue>):<fpage>e79345</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0079345" ns0:type="simple">10.1371/journal.pone.0079345</ext-link></comment> <object-id pub-id-type="pmid">24260203</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref036">
+<label>36</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Drawert</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hellander</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bales</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Banerjee</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bellesia</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Daigle</surname> <given-names>BJ</given-names></name>, <etal>et al</etal>. <article-title>Stochastic Simulation Service: Bridging the gap between the computational expert and the biologist</article-title>. <source>PLOS Computational Biology</source>. <year>2016</year>;<volume>12</volume>(<issue>12</issue>):<fpage>e1005220</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pcbi.1005220" ns0:type="simple">10.1371/journal.pcbi.1005220</ext-link></comment> <object-id pub-id-type="pmid">27930676</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref037">
+<label>37</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Dhooge</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Govaerts</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Kuznetsov</surname> <given-names>YA</given-names></name>. <article-title>MATCONT: A Matlab package for numerical bifurcation analysis of ODEs</article-title>. <source>SIGSAM Bull</source>. <year>2004</year>;<volume>38</volume>(<issue>1</issue>):<fpage>21</fpage>&#8211;<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1145/980175.980184" ns0:type="simple">10.1145/980175.980184</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref038">
+<label>38</label>
+<mixed-citation publication-type="other" ns0:type="simple">Beer RD. Dynamica: a Mathematica package for the analysis of smooth dynamical systems; 2018. Available from: <ext-link ext-link-type="uri" ns0:href="http://mypage.iu.edu/~rdbeer/" ns0:type="simple">http://mypage.iu.edu/~rdbeer/</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref039">
+<label>39</label>
+<mixed-citation publication-type="other" ns0:type="simple">Wilensky U. NetLogo. Northwestern University, Evanston, IL: Center for Connected Learning and Computer-Based Modeling; 1999. Available from: <ext-link ext-link-type="uri" ns0:href="http://ccl.northwestern.edu/netlogo/" ns0:type="simple">http://ccl.northwestern.edu/netlogo/</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref040">
+<label>40</label>
+<mixed-citation publication-type="other" ns0:type="simple">Kiran M, Richmond P, Holcombe M, Chin LS, Worth D, Greenough C. FLAME: Simulating large populations of agents on parallel hardware architectures. In: Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems: Volume 1. AAMAS&#8217;10. Richland, SC: IFAAMAS; 2010. p. 1633&#8211;1636.</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref041">
+<label>41</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Luke</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cioffi-Revilla</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Panait</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sullivan</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Balan</surname> <given-names>G</given-names></name>. <article-title>MASON: A multiagent simulation environment</article-title>. <source>SIMULATION</source>. <year>2005</year>;<volume>81</volume>(<issue>7</issue>):<fpage>517</fpage>&#8211;<lpage>527</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0037549705058073" ns0:type="simple">10.1177/0037549705058073</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref042">
+<label>42</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Sayama</surname> <given-names>H</given-names></name>. <article-title>PyCX: a Python-based simulation code repository for complex systems education</article-title>. <source>Complex Adaptive Systems Modeling</source>. <year>2013</year>;<volume>1</volume>(<issue>2</issue>).</mixed-citation>
+</ref>
+<ref id="pone.0222906.ref043">
+<label>43</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Medley</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>K&#246;nig</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hellerstein</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Tellurium notebooks&#8211;An environment for reproducible dynamical modeling in systems biology</article-title>. <source>PLOS Computational Biology</source>. <year>2018</year>;<volume>14</volume>(<issue>6</issue>):<fpage>e1006220</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pcbi.1006220" ns0:type="simple">10.1371/journal.pcbi.1006220</ext-link></comment> <object-id pub-id-type="pmid">29906293</object-id></mixed-citation>
+</ref>
+<ref id="pone.0222906.ref044">
+<label>44</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hucka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Finney</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sauro</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Bolouri</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Doyle</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Kitano</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>The systems biology markup language (SBML): a medium for representation and exchange of biochemical network models</article-title>. <source>Bioinformatics</source>. <year>2003</year>;<volume>19</volume>(<issue>4</issue>):<fpage>524</fpage>&#8211;<lpage>531</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/bioinformatics/btg015" ns0:type="simple">10.1093/bioinformatics/btg015</ext-link></comment> <object-id pub-id-type="pmid">12611808</object-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222906.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Touboul</surname>
+<given-names>Jonathan David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jonathan David Touboul</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222906" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">2 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>PONE-D-19-18541</p>
+<p>Multiscale Modelling Tool: Mathematical Modelling of Collective Behaviour without the Maths</p>
+<p>PLOS ONE</p>
+<p>Dear Prof Marshall,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process, particularly to clarify the master equation, make notations more consistent with the literature in the domain of probability and clarify notations as requested by Referee 1.&#160;</p>
+<p>We would appreciate receiving your revised manuscript by Sep 29 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Jonathan David Touboul</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: N/A</p>
+<p>Reviewer #2: N/A</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Its a nice well-written article. As the authors state, there is a need for accessible software for non-specialists to study chemical reaction networks, so this is very timely.</p>
+<p>I have the following comment on the Master Equation on page 7 I am not familiar with your way of writing the Master Equation in (3). Is there a specific equation in Van Kampen that you are citing? Maybe you should indicate this. Normally $\\mathbb{E}$ means expectation, so it would be better to use another notation for the step operator.</p>
+<p>Also it is not quite clear what the superscripts of $\\mathbb{E}$ are indicating.</p>
+<p>In general, a few more details are needed here.</p>
+<p>Reviewer #2: This article is a presentation of a computational tool called MuMoT, which aims to automate the analysis and formalize the process of modeling collective behaviour. Using the learning by examples technique, authors are able to present the particularities of the software and highlight how it can be used to perform description of collective behaviour systems in the cases with and without noise. This perspective responds to the three levels of description that a modeler can use when attacking a general problem micro, meso and macroscopic viewpoints.</p>
+<p>The software presented is very interesting. Written on Python 3, inherits all the good properties of that computational language in particular, it is easy to use and has a very fast learning curve. Despite the fact that one could ask for a statistical sub-routine ubiquitous to experimentalists and sampling, MuMoT is a great tool and surely will help non-modellers to describe and understand their intuitions. The problem solved by MuMoT is not new, and it is not the first piece of software solving it, however the novelty of the work is that combines techniques from different mathematical areas in a easy-to-use manner.</p>
+<p>I recommend publishing the paper in PLOS ONE.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222906.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222906" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222906.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Sep 2019</named-content>
+</p>
+<p>I have the following comment on the Master Equation on page 7 I am not familiar with your way of writing the Master Equation in (3). Is there a specific equation in Van Kampen that you are citing? Maybe you should indicate this. Normally $\\mathbb{E}$ means expectation, so it would be better to use another notation for the step operator.</p>
+<p>Also it is not quite clear what the superscripts of $\\mathbb{E}$ are indicating.</p>
+<p>In general, a few more details are needed here.</p>
+<p>Thank you. The notation used is that used in the third edition of van Kampen&#8217;s textbook; we have added a citation to the precise definition in said textbook, and clarified the use of superscripts as requested. We have additionally changed to use the bbold package to improve the similarity to the step operator as typeset in van Kampen.</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222906.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Touboul</surname>
+<given-names>Jonathan David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jonathan David Touboul</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222906" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">11 Sep 2019</named-content>
+</p>
+<p>Multiscale Modelling Tool: Mathematical Modelling of Collective Behaviour without the Maths</p>
+<p>PONE-D-19-18541R1</p>
+<p>Dear Dr. Marshall,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Jonathan David Touboul</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222906.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Touboul</surname>
+<given-names>Jonathan David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Jonathan David Touboul</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222906" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">16 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-18541R1 </p>
+<p>Multiscale Modelling Tool: Mathematical Modelling of Collective Behaviour without the Maths </p>
+<p>Dear Dr. Marshall:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Jonathan David Touboul  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

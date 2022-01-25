@@ -1,0 +1,693 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-16374</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Drugs</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibacterials</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Microbial control</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibacterials</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Albumins</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Nanotechnology</subject><subj-group><subject>Nanoparticles</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Metallurgy</subject><subj-group><subject>Metals</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical elements</subject><subj-group><subject>Platinum</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Bacteria</subject><subj-group><subject>Streptococcus</subject><subj-group><subject>Streptococcus mutans</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Bacterial pathogens</subject><subj-group><subject>Streptococcus</subject><subj-group><subject>Streptococcus mutans</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Bacterial pathogens</subject><subj-group><subject>Streptococcus</subject><subj-group><subject>Streptococcus mutans</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Bacteria</subject><subj-group><subject>Enterococcus</subject><subj-group><subject>Enterococcus faecalis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Bacterial pathogens</subject><subj-group><subject>Enterococcus</subject><subj-group><subject>Enterococcus faecalis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Bacterial pathogens</subject><subj-group><subject>Enterococcus</subject><subj-group><subject>Enterococcus faecalis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Bacteriology</subject><subj-group><subject>Gram negative bacteria</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Organic resolution function and effects of platinum nanoparticles on bacteria and organic matter</article-title>
+<alt-title alt-title-type="running-head">Organic resolution function of platinum nanoparticles</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Itohiya</surname>
+<given-names>Hiroo</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Matsushima</surname>
+<given-names>Yuji</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Shirakawa</surname>
+<given-names>Satoshi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kajiyama</surname>
+<given-names>Sohtaro</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Yashima</surname>
+<given-names>Akihiro</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Nagano</surname>
+<given-names>Takatoshi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4484-6238</contrib-id>
+<name name-style="western">
+<surname>Gomi</surname>
+<given-names>Kazuhiro</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Department of Periodontology, Tsurumi University, School of Dental Medicine, Tsurumi, Tsurumi ku, Yokohama, Japan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Mukherjee</surname>
+<given-names>Amitava</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>VIT University, INDIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">gomi-k@tsurumi-u.ac.jp</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>19</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222634</elocation-id>
+<history>
+<date date-type="received">
+<day>10</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>4</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Itohiya et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222634" />
+<abstract>
+<p>Rapid progress has been made in terms of metal nanoparticles studied in numerous fields. Metal nanoparticles have also been used in medical research, and antibacterial properties and anticancer effects have been reported. However, the underlying mechanism responsible for these effects has not been fully elucidated. Therefore, the present study focused on platinum nanoparticles (PtNPs) and examined their antibacterial properties and functional potential for decomposing organic matter, considering potential applications in the dental field. PtNPs were allowed to react with dental-related bacteria (<italic>Streptococcus mutans</italic>; <italic>Enterococcus faecalis</italic>, caries; <italic>Porphyromonas gingivalis</italic>, and endodontic and periodontal lesions). Antibacterial properties were evaluated by measuring colony formation. In addition, PtNPs were allowed to react with albumin and lipopolysaccharides (LPSs), and the functional potential to decompose organic matter was evaluated. All evaluations were performed <italic>in vitro</italic>. Colony formation in all bacterial species was completely suppressed by PtNPs at concentrations of &gt;5 ppm. The addition of PtNPs at concentrations of &gt;10 ppm significantly increased fragmentation and decomposition. The addition of PtNPs at concentrations of &gt;125 pico/mL to 1 EU/mL LPS resulted in significant amounts of decomposition and elimination. The results revealed that PtNPs had antibacterial effects against dental-related bacteria and proteolytic potential to decompose proteins and LPS, an inflammatory factor associated with periodontal disease. Therefore, the use and application of PtNPs in periodontal and endodontic treatment is considered promising.</p>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="7" />
+<table-count count="0" />
+<page-count count="12" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Metal nanoparticles, which are obtained by converting metals into fine particles (&lt; 100 nm in diameter), have a large surface area and exhibit properties that differ from those of bulk metals because of the quantum size effect [<xref ref-type="bibr" rid="pone.0222634.ref001">1</xref>]. Metal nanoparticles have been studied in numerous fields, such as chemistry, biology, materials science, and medicine, and rapid advances have been reported in recent years [<xref ref-type="bibr" rid="pone.0222634.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0222634.ref006">6</xref>]. The antibacterial characteristics of metal nanoparticles (silver, zinc oxide, copper oxide, etc.) have previously been reported [<xref ref-type="bibr" rid="pone.0222634.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0222634.ref012">12</xref>]. In particular, silver nanoparticles (AgNPs) have attracted much interest in many fields due to their excellent broad-spectrum antibacterial activity [<xref ref-type="bibr" rid="pone.0222634.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0222634.ref013">13</xref>]. In contrast, gold nanoparticles (AuNPs) are commonly evaluated for use in biosensing or drug delivery applications, given that these particles are inert and highly stable [<xref ref-type="bibr" rid="pone.0222634.ref014">14</xref>]. Antibacterial AuNPs are produced by coating AuNPs with organic molecules that have antibacterial properties [<xref ref-type="bibr" rid="pone.0222634.ref015">15</xref>].</p>
+<p>Previous studies have reported the antibacterial effects of platinum nanoparticles (PtNPs). For example, PtNPs slow cell division in <italic>Escherichia coli</italic> [<xref ref-type="bibr" rid="pone.0222634.ref016">16</xref>]. Furthermore, PtNPs, which are clusters of Pt atoms in the range of 1&#8211;100 nm, are attracting attention due to the extremely high catalytic activity. Recently, the ability of these nanoparticles to suppress inflammation has also been evaluated [<xref ref-type="bibr" rid="pone.0222634.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0222634.ref018">18</xref>]. Chemical interactions are thought to be induced by contact between bacteria and PtNPs, leading to the decomposition of bacteria. This is believed to trigger a chain reaction in which free radicals produced from the antioxidant response of PtNPs damage bacteria [<xref ref-type="bibr" rid="pone.0222634.ref019">19</xref>]. While one study has found that PtNPs increase the level of intracellular reactive oxygen species (ROS) [<xref ref-type="bibr" rid="pone.0222634.ref020">20</xref>], another study has reported that PtNPs eliminate ROS [<xref ref-type="bibr" rid="pone.0222634.ref021">21</xref>].</p>
+<p>In the present study, we focused on the application of metal nanoparticles in the dental field because platinum is a precious metal that is unlikely to cause allergies, does not demonstrate genotoxic potential, and has high potential for clinical application [<xref ref-type="bibr" rid="pone.0222634.ref015">15</xref>].</p>
+<p>Although metal nanoparticles possess various useful properties, nanoparticles clump into a large aggregate when left in their original state, altering their properties. To maintain the stable dispersed state of nanoparticles, protective agents are generally added to adsorb and configure on the surface of metal nanoparticles and to prevent nanoparticle aggregation [<xref ref-type="bibr" rid="pone.0222634.ref022">22</xref>]. However, the use of protective agents reportedly hinders expression of the full range of properties that metal nanoparticles originally possess [<xref ref-type="bibr" rid="pone.0222634.ref023">23</xref>].</p>
+<p>In this study, we used PtNPs, which were produced directly from platinum by irradiating an infrared pulsed laser according to the Liquid phase laser ablation method [<xref ref-type="bibr" rid="pone.0222634.ref024">24</xref>]. The aim of this study was to investigate the functional potential of nanoparticles (PtNPs) to decompose organic matter and antibacterial activity against dental-related bacteria, which are important indicators of the potential application of PtNPs in the field of dentistry.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<p>In this experiment, 100 ppm PtNPs (particle size: 2&#8211;19 nm) solution, which was used as a stock solution, were obtained from the manufacturer (Ceramics Craft Co. Ltd. Shizuoka, Japan). This PtNPs were made directly from platinum by irradiation with infrared pulsed laser in liquid. The storage of PtNPs was kept in the dark at room temperature avoiding direct sunlight as the stock solution. Moreover, when using for experiment, the stock solution was diluted in sterile purified water and used each time. The PtNPs were examined by transmission electron microscope (JEM-1200EX II, JEOL, Tokyo, Japan) <xref ref-type="fig" rid="pone.0222634.g001">Fig 1</xref> shows a transmission electron micrograph of PtNPs used in this experiment.</p>
+<fig id="pone.0222634.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Transmission electron micrograph of PtNPs.</title>
+<p>10 ppm of PtNPs, which diluted by pure water were observed at 80kv 45&#956;A. (scale bar = 100 nm) Nearly the same size of PtNPs as the manufacturer indicated (2-19nm) were observed.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g001" ns0:type="simple" />
+</fig>
+<sec id="sec003">
+<title>Measurement of antibacterial activity</title>
+<sec id="sec004">
+<title>Bacterial culture and regulation</title>
+<p>Experiments were performed with bacteria that are important in dentistry, namely the <italic>Streptococcus mutans</italic> ATCC25175 strain, <italic>Enterococcus faecalis</italic> ATCC19433 strain, and <italic>Porphyromonas gingivalis</italic> ATCC 33277 strain. <italic>Streptococcus mutans</italic> is a gram-positive bacterium that causes caries; <italic>E</italic>. <italic>faecalis</italic> is a gram-positive bacterium that causes refractory apical periodontitis; and <italic>P</italic>. <italic>gingivalis</italic> is a gram-negative obligate anaerobic and a periodontal pathogenic bacterium. All bacteria were purchased from American Type Culture Collection (ATCC), VA, USA. <italic>Streptococcus mutans</italic> was cultured in Tryptic Soy Broth(TSB, FUJIFILM Wako Pure Chemical Co., Osaka, Japan) and agar medium (Becton Dickinson) with 4% glucose (FUJIFILM Wako Pure Chemical Co.) at 37&#176;C under aerobic conditions at 100 rpm in shaking incubator (SI-782, Optima Inv. Tokyo, Japan) for 2 days, followed by preculture in TSB liquid medium with 4% glucose under aerobic shaking for 2 days. <italic>Enterococcus faecalis</italic> was cultured in TSB agar medium (at 37&#176;C under aerobic conditions for 2 days), followed by preculture in TSB liquid medium under aerobic shaking at 100 rpm in shaking incubator for 2 days. <italic>Porphyromonas gingivalis</italic> was anaerobically cultured in an anaerobic culturing device (ANX-1, Hirasawa, Tokyo, Japan) under N<sub>2</sub>: 80%, CO<sub>2</sub>: 10%, and H<sub>2</sub>: 10% conditions at 37&#176;C for 1 week.</p>
+<p>Precultured <italic>S</italic>. <italic>mutans</italic>, <italic>E</italic>. <italic>faecalis</italic>, and <italic>P</italic>. <italic>gingivalis</italic> were centrifuged for 5 minutes at 4&#176;C and 7,000 &#215;g, harvested, and suspended in distilled water. Bacterial counts were adjusted to 10<sup>5</sup>&#8211;10<sup>6</sup> CFU/mL at an optical density of 620 nm with a spectrophotometer (UV-1200, SHIMAZU Co., Kyoto, Japan).</p>
+</sec>
+<sec id="sec005">
+<title>Antibacterial testing</title>
+<p>PtNPs were added to 100 &#956;l of 1 &#215; 10<sup>4</sup> CFU/mL bacterial solutions to achieve final concentrations of 1, 5, 10, and 20 ppm. Samples that had been allowed to react for 10 minutes were inoculated onto bacterial culture medium [<xref ref-type="bibr" rid="pone.0222634.ref025">25</xref>]. The associated antibacterial effects were determined based on the presence or absence of colony formation on the medium. The group without PtNPs in the bacterial medium was defined as the positive control group, and the group to which lipopolysaccharides (LPSs) were not added was defined as the negative control group.</p>
+</sec>
+</sec>
+<sec id="sec006">
+<title>Measurement of functional potential for organic resolution</title>
+<sec id="sec007">
+<title>Electrophoresis and BCA protein assay</title>
+<p>To investigate the functional potential for organic resolution of PtNPsolutions, PtNPsolutions were added to albumin suspensions and were allowed to react (experimental groups), and the state of decomposition was observed. PtNPsolutions (100 ppm) were added to 2 mg/mL albumin aqueous solution to achieve a final concentration of 10 ppm. The mixture was stirred and allowed to react at room temperature for 1, 10, 30, and 60 minutes. In addition, suspension with only albumin was defined as the control group. Functional potential for organic resolution was evaluated through protein abundance measurement using polyacrylamide electrophoresis and the bicinchoninic acid (BCA) assay.</p>
+</sec>
+<sec id="sec008">
+<title>Electrophoresis assay</title>
+<p>Samples collected from the experimental and control groups were electrophoresed using 15% polyacrylamide containing 1% sodium dodecyl sulfate (SDS) according to the Laemmli method [<xref ref-type="bibr" rid="pone.0222634.ref026">26</xref>]. In other words, each sample was dissolved in 1 mL of 0.01 mol/l Tris-HCL buffer solution (pH 6.8) containing 1% SDS and 25% glycerin to be used as samples for electrophoresis. After electrophoresis at 40 mA for 80 minutes under a low-voltage condition using the electrophoresis tank (Pagel AE-600, SPS-15S, ATTO Co., Japan), staining was performed with Coomassie brilliant blue (CBB, Bio-Rad, USA), followed by decoloration with stain/destain solution (Bio-Rad), and bands were detected.</p>
+</sec>
+<sec id="sec009">
+<title>BCA assay</title>
+<p>The amount of albumin in each collected sample was measured using the BCA assay [<xref ref-type="bibr" rid="pone.0222634.ref027">27</xref>]. Overall, 200 &#956;l of each sample was dispensed to a 96-well multiplate, allowed to react for 15 minutes according to the manual of the protein assay kit (Pierce Protein assay kit, Thermo SCIENTIFIC), and absorbance was measured (E-MAX Plus Microplate reader, Molecular Devices Co., Japan) at 562 nm. In this bacterial culture assay, the only standard was a sample with no bacterial growth at a concentration of 10 ppm.</p>
+</sec>
+<sec id="sec010">
+<title>Measurement of ability to decompose lipopolysaccharides</title>
+<p>We studied whether LPS, a pathogenic factor secreted by some periodontal bacteria, could be decomposed by PtNPs. PtNPs were allowed to react with LPS, and the amount of LPS was measured. The Toxin Sensor Chromogenic LAL Endotoxin Assay Kit (Gen Script Co., USA) was used in the measurement of LPS. PtNPsolutions at 0, 10, or 50 ppm were added to 0.625, 1.25, 2.5, 5.0, and 10.0 EU/mL LPS. The mixture was allowed to react in a tube placed at room temperature for 10 minutes. The amount of LPS was measured by measuring the absorbance at 545 nm. Furthermore, to investigate the effective concentration of PtNPs against 1 EU/mL of LPS, a serially diluted PtNPsolution (0.015625&#8211;1 ppm) was added. The mixture components were then allowed to react for 10 minutes, at which point absorbance was measured, and LPS was detected.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Statistical analysis</title>
+<p>In the colorimetric determination of albumin and LPS decomposition ability, obtained values were subjected to one-way analysis of variance (one-way ANOVA) and Tukey&#8217;s multiple comparison tests, with significance levels for both set at 0.05. All statistical analyses were performed using SPSS Statistics Version 11.5 (IBM Japan).</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="results">
+<title>Results</title>
+<sec id="sec013">
+<title>Antibacterial activity of PtNPsolutions</title>
+<p>To investigate the antibacterial activity of PtNPs, PtNPs were added to <italic>S</italic>. <italic>mutans</italic>, <italic>E</italic>. <italic>faecalis</italic>, and <italic>P</italic>. <italic>gingivalis</italic> bacterial solutions to achieve concentrations of 1, 5, 10, and 20 ppm. Samples that had been allowed to react for 10 minutes were inoculated onto each medium, and the presence or absence of colonies was confirmed to determine the antibacterial effect. Colony formation was completely suppressed in all bacterial strains at concentrations of &gt;5 ppm. However, at a concentration of 1 ppm, colonies exhibited growth equivalent to that in the negative control group (which had not been treated with PtNPs). The same trend was observed for all bacterial strains investigated in this study (<xref ref-type="fig" rid="pone.0222634.g002">Fig 2</xref>).</p>
+<fig id="pone.0222634.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Antibacterial activity of nanoplatinum.</title>
+<p>The nanoplatinum aqueous solutions (concentrations of 1, 5, 10, and 20 ppm) were added to bacterial solutions of 1 &#215; 10<sup>4</sup> <italic>Streptococcus mutans</italic>, <italic>Enterococcus faecalis</italic>, <italic>or Porphyromonas gingivalis</italic> and then allowed to react for 10 minutes. At concentrations up to 5 ppm, colony formation was completely suppressed in all bacterial strains.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec014">
+<title>Functional potential for organic resolution of PtNPs</title>
+<sec id="sec015">
+<title>Albumin decomposition</title>
+<p>To investigate the functional potential of PtNPs for organic resolution, albumin suspensions were allowed to react with PtNPs. The results were visualized using polyacrylamide electrophoresis. A comparison between the bands of control albumin and albumin that had been exposed to PtNPs in the electrophoretic image revealed a time-dependent decrease in the bandwidth of albumin in the experimental groups (<xref ref-type="fig" rid="pone.0222634.g003">Fig 3</xref>). In addition, smear layers believed to be albumin decomposition products were observed beneath the bands.</p>
+<fig id="pone.0222634.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Functional potential of nanoplatinum solutions to decompose albumin.</title>
+<p>Overall, 10 ppm nanoplatinum solutions were added to 2 mg/mL albumin suspension, and the state of samples, which had been allowed to react for 1, 10, 30, and 60 minutes, was confirmed using electrophoresis. A time-dependent decrease in bandwidth was observed, and smear layers believed to be albumin decomposition products were observed beneath the bands. (M.W.: molecular weight).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g003" ns0:type="simple" />
+</fig>
+<p>The measurement of protein abundance using the BCA protein assay revealed findings in line with those observed in the electrophoretic image. When compared with the absorbance in the control group, the absorbance of the experimental groups, which had been exposed to PtNPs, decreased significantly (p &lt; 0.05) after 1 minute of activity and became almost constant after 30 minutes (<xref ref-type="fig" rid="pone.0222634.g004">Fig 4</xref>).</p>
+<fig id="pone.0222634.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Functional potential of nanoplatinum solutions to decompose albumin.</title>
+<p><bold>Overall, 10 ppm nanoplatinum solutions were added to 2 mg/mL albumin solutions and allowed to react for 1, 10, 30, and 60 minutes</bold>. Protein abundance was measured in the BCA protein assay. (*p &lt; 0.05, Tukey&#8217;s test).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g004" ns0:type="simple" />
+</fig>
+<p>The electron micrograph of PtNPs mixed with albumin is shown in <xref ref-type="fig" rid="pone.0222634.g005">Fig 5A</xref>. There was no morphological change in PtNPs.</p>
+<fig id="pone.0222634.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>The electron micrograph of PtNPs mixed with albumin and LPS.</title>
+<p><bold>a): 10ppm PtNPs with 2 mg albumin, b) 10ppm PtNPs with LPS.</bold> (scale bar = 100 nm,) PtNPs were distributed to adhere to albumin or LPS.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g005" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec016">
+<title>LPS decomposition</title>
+<p>To study LPS decomposition, PtNPs (10 and 50 ppm) were allowed to react with LPS adjusted to 10.0, 5.0, 2.5, 1.25, or 0.625 EU/mL for 10 minutes. At 10 minutes, the amount of LPS was measured. The results showed that absorbance decreased significantly with the addition of PtNPs in all groups (<xref ref-type="fig" rid="pone.0222634.g006">Fig 6</xref>). Next, to study the minimum effective concentration of PtNPs, serially diluted solutions of 1 ppm PtNPs were added to 1 EU/mL LPS. The mixture was allowed to react for 10 minutes. The results showed that LPS was significantly degraded (p &lt; 0.05) compared with the control at a concentration of 0.125 ppm PtNPs. At concentrations of &gt;0.25 ppm, LPS values equivalent to those of the negative control group, which had not been exposed to LPS, were confirmed (<xref ref-type="fig" rid="pone.0222634.g007">Fig 7</xref>). The electron micrograph of PtNPs mixed with LPS is shown in <xref ref-type="fig" rid="pone.0222634.g005">Fig 5B</xref>. There was no morphological change in PtNPs.</p>
+<fig id="pone.0222634.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Functional potential of nanoplatinum solutions to decompose LPS.</title>
+<p>Overall, 10 and 50 ppm PtNPs were added to LPS at different concentrations and allowed to react for 10 minutes. LPS decreased in all groups. (* p &lt; 0.05, Tukey&#8217;s test).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g006" ns0:type="simple" />
+</fig>
+<fig id="pone.0222634.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222634.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Effective concentration of nanoplatinum solution against LPS.</title>
+<p>PtNPs at different concentrations were added to 1 EU/mL LPS and allowed to react for 10 minutes. At concentrations of &gt;0.25 ppm, LPS was decomposed to a level equivalent to that in the negative control group, where no LPS had been added. In the positive control groups, LPS without nanoplatinum solutions was added. (*p &lt; 0.05, Tukey&#8217;s test).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.g007" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>Aqueous solutions of nano-sized metal particles reportedly exhibit more potent antibacterial activity as particle size enters the nanometer range [<xref ref-type="bibr" rid="pone.0222634.ref028">28</xref>]. In particular, AgNPs are known to have excellent antibacterial effects, but they are also known to possess strong cytotoxicity [<xref ref-type="bibr" rid="pone.0222634.ref029">29</xref>]. Recently, metal NPs have attracted much attention not only due to their antibacterial properties but also because of their application in other areas of medicine, such as cancer treatment [<xref ref-type="bibr" rid="pone.0222634.ref030">30</xref>]. This study focused on platinum, a stable metal that does not tend to induce allergic reactions, and investigated the effects of platinum nanoparticles. In this study, we used the PtNPs, which were made directly from platinum by irradiation with infrared pulsed laser in liquid according to the Liquid phase laser ablation method [<xref ref-type="bibr" rid="pone.0222634.ref024">24</xref>]. When PtNPs solutions were added to <italic>S</italic>. <italic>mutans</italic>, <italic>E</italic>. <italic>faecalis</italic>, and <italic>P</italic>. <italic>gingivalis</italic> adjusted to 1 &#215; 10<sup>4</sup> cells/mL, clear antibacterial properties were observed at concentrations of &gt; 5 ppm. In a similar experiment that was previously reported, nanoplatinum particles (2&#8211;19 nm) were allowed to react for 15 minutes. These nanoparticles exhibited the same levels of antibacterial activity as that reported in our study, even though the bacterial strains were different [<xref ref-type="bibr" rid="pone.0222634.ref031">31</xref>,<xref ref-type="bibr" rid="pone.0222634.ref032">32</xref>]. The reaction time of the solution used and platinum particle size were almost the same, and the results obtained were similar to those reported in our study. Kanieczny et al. conducted a study to compare the antibacterial properties against gram-positive and gram-negative bacteria using PtNPs. The results showed a stronger antibacterial effect against gram-negative bacteria [<xref ref-type="bibr" rid="pone.0222634.ref033">33</xref>] because of the thin cell wall of gram-negative bacteria. In addition, Rosenberg et al. have also reported on antibacterial activity against <italic>E</italic>. <italic>coli</italic>, a gram-negative bacterium [<xref ref-type="bibr" rid="pone.0222634.ref016">16</xref>]. In this study, PtNPs demonstrated strong antibacterial activity not only against <italic>P</italic>. <italic>gingivalis</italic>, a gram-negative bacterium, but also against <italic>S</italic>. <italic>mutans</italic> and <italic>E</italic>. <italic>faecalis</italic>, which are gram-positive bacteria. While, it is inferred that the antibacterial effect of NPs on anaerobic bacteria of oral origin is lower than that on aerobic bacteria. It is considered that this is because the antibacterial property is controlled by the availability of oxygen and the particle size [<xref ref-type="bibr" rid="pone.0222634.ref034">34</xref>]. These interactions may have shown similar antibacterial activity to <italic>P</italic>. <italic>gingivalis</italic>, <italic>S</italic>. <italic>mutans</italic> and <italic>E</italic>. <italic>faecalis</italic>.</p>
+<p>A possible mechanism for antibacterial effects includes damage to the cell wall or cell membrane, leading to the outflow of cytoplasm and invasion of NPs into the cell. NPs bind with proteins, stopping cell function and ultimately killing the bacterium [<xref ref-type="bibr" rid="pone.0222634.ref010">10</xref>]. Through transmission electron microscopic images, Chwalibog et al. have shown that PtNP-mediated damage to bacterial cell walls allows cytoplasm to flow out of the cell [<xref ref-type="bibr" rid="pone.0222634.ref035">35</xref>,<xref ref-type="bibr" rid="pone.0222634.ref036">36</xref>]. However, the mechanism by which metal NPs damage cell walls and invade the bacterium has not been fully elucidated. However, if cell walls and cytoplasm, which comprise proteins, are damaged, PtNPs may exhibit proteolytic effects. We therefore investigated whether PtNPs possessed functional potential to decompose organic matter.</p>
+<p>The results showed a time-dependent decrease in the bandwidth of albumin in the group where PtNPs (10 ppm) had been exposed to albumin (2 mg/mL) compared with experiments in which albumin was electrophoresed alone. Although albumin may have been adsorbed to PtNPs, a smear layer believed to be the decomposition products of albumin appeared beneath the band after 1 minute of reaction time. The bandwidth of albumin decreased as the reaction time increased, and the smear layers underneath gradually disappeared. Albumin was therefore considered to have decomposed in a time-dependent manner. In addition, protein abundance was measured using the BCA protein assay with the same samples. The results obtained up to the 30-min timepoint showed a significant time-dependent decrease in the amount of proteins in the experimental groups compared with the control group; protein levels did not decrease after 30 minutes. The decrease in bandwidth in the electrophoretic image, as well as the time-dependent decrease in the amount of protein revealed by the results of the BCA protein assay, indicates the decomposition of albumin by PtNPs.</p>
+<p>Next, we studied the effects of PtNPsolution on LPS, a constituent of gram-negative bacterial cell walls. PtNPs were added to 0.625&#8211;10.0 EU LPS to achieve final concentrations of 10 and 50 ppm. The mixture was allowed to react for 10 minutes. The results showed that LPS decreased significantly in all experimental groups compared with the control group. LPS, which is a component of the cell wall of gram negative bacteria, is negatively charged and has a high affinity to NPs and binds tightly. And it is thought that destruction of LPS arises from LPS and NPs from a physical interaction [<xref ref-type="bibr" rid="pone.0222634.ref037">37</xref>]. Next, to detect the minimum effective concentration of PtNPs required to decompose 1 EU/mL LPS, PtNPs at concentrations of 0.01561&#8211;1 ppm were allowed to react for 10 minutes. The amount of LPS remaining was then measured. PtNP concentrations of up to 0.25 ppm showed almost the same values as those of the negative control group, suggesting LPS decomposition. Conversely, at concentrations of &#8804;0.0625 ppm, no significant difference was noted in the positive control group. Albumin and LPS in contact with PtNPs are thought to be reduced in molecular weight due to cleavage of the protein backbone due to the oxidative degradation reaction or physical interaction caused by the generated ROS [<xref ref-type="bibr" rid="pone.0222634.ref038">38</xref>]. However, the detailed mechanism is still unknown.</p>
+<p>Periodontal diseases, which are prevalent worldwide, stem from infection with periodontal pathogens, which are typically gram-negative bacteria [<xref ref-type="bibr" rid="pone.0222634.ref039">39</xref>]. In addition, even after the periodontal pathogens die, LPS, a bacterial constituent, remains on the root surface, acts as an endotoxin, and causes inflammation in periodontal tissues [<xref ref-type="bibr" rid="pone.0222634.ref040">40</xref>]. The PtNPs used in this study were of a particle size of 2&#8211;19 nm and were particles with exposed metal surfaces. These NPs can decompose organic matter (especially LPS) effectively, even when used at extremely low concentrations. Therefore, PtNPs may be an effective tool for periodontal treatment by acting as antibacterial agents against periodontal pathogenic bacteria. PtNPs may be used to eliminate LPS that remains on the root surface, rendering the root surface innocuous to periodontal tissue. In addition, during endodontic treatment, it is difficult to kill bacteria that have entered the dentinal tubules. However, by using PtNPs in root canals, nanoparticles may enter the dentinal tubules and kill the bacteria. However, this study was only a limited basic scientific research effort, and further studies are necessary to determine the full potential of such nanoparticles for clinical applications. However, since this study is a limited basic study and a non-specific reaction, further research is necessary for clinical application.</p>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Conclusion</title>
+<p>PtNPs have been shown to mediate antibacterial effects related to caries, endodontic lesions, and periodontal diseases. PtNPs also exhibit functional potential to decompose proteins and strong effectiveness against LPS, the cell wall constituent of gram-negative bacteria. However, this study was limited to only <italic>in vitro</italic> findings, and there is a necessity to further investigate whether similar results can be obtained in the clinic.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222634.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s001" ns0:type="simple">
+<label>S1 File</label>
+<caption>
+<title><xref ref-type="fig" rid="pone.0222634.g004">Fig 4</xref> data.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222634.s002" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s002" ns0:type="simple">
+<label>S2 File</label>
+<caption>
+<title><xref ref-type="fig" rid="pone.0222634.g006">Fig 6</xref> data.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222634.s003" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s003" ns0:type="simple">
+<label>S3 File</label>
+<caption>
+<title><xref ref-type="fig" rid="pone.0222634.g007">Fig 7</xref> data.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors are grateful to Dr. Takuma Suzuki for assistance in measuring the amount of LPS.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222634.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Roduner</surname> <given-names>E.</given-names></name> <article-title>Size matters: why nanomaterials are different</article-title>. <source>Chem Soc Rev</source>. <year>2006</year>;<volume>35</volume>: <fpage>583</fpage>&#8211;<lpage>592</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/b502142c" ns0:type="simple">10.1039/b502142c</ext-link></comment> <object-id pub-id-type="pmid">16791330</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schmid</surname> <given-names>G</given-names></name>. <article-title>Clusters and Colloids from Theory to Application VCH, Weinheim</article-title>; <year>1994</year>.</mixed-citation></ref>
+<ref id="pone.0222634.ref003"><label>3</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Corain</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Schmid</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Toshima</surname> <given-names>N</given-names></name>, editors. <source>Metal Nano-cluster in Catalysis and Materials Science: The Issue of Size control.</source> <publisher-name>Elsevier</publisher-name>, <publisher-loc>Amsterdam</publisher-loc>; <year>2008</year>.</mixed-citation></ref>
+<ref id="pone.0222634.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Silvert</surname> <given-names>PY</given-names></name>, <name name-style="western"><surname>Herrera-Urbina</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Tekaia-Elhsissen</surname> <given-names>K</given-names></name>. <article-title>Preparation of colloidal silver dispersions by the polyol process. Part 1&#8212;Synthesis and characterization</article-title>. <source>J Mater Chem</source>. <year>1996</year>;<volume>6</volume>: <fpage>573</fpage>&#8211;<lpage>577</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/JM9960600573" ns0:type="simple">10.1039/JM9960600573</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Toshima</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Yonezawa</surname> <given-names>T</given-names></name>. <article-title>Bimetallic nanoparticles&#8212;materials for chemical and physical applications</article-title>. <source>New J Chem</source>. <year>1998</year>;<volume>22</volume>: <fpage>1179</fpage>&#8211;<lpage>1201</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/a805753b" ns0:type="simple">10.1039/a805753b</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref006"><label>6</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Wieckowski</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Savinova</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Vayenas</surname> <given-names>CG</given-names></name>, editors. <source>Catalysis and electrocatalysis at nanoparticle surfaces</source>. <publisher-name>CRC Press</publisher-name>; <year>2003</year>.</mixed-citation></ref>
+<ref id="pone.0222634.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Taylor</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Webster</surname> <given-names>TJ</given-names></name>. <article-title>Reducing infections through nanotechnology and nanoparticles.</article-title> <source>Int J Nanomedicine</source>. <year>2011</year>;<volume>6</volume>: <fpage>1463</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S22021" ns0:type="simple">10.2147/IJN.S22021</ext-link></comment> <object-id pub-id-type="pmid">21796248</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Veerapandian</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yun</surname> <given-names>K</given-names></name>. <article-title>Functionalization of biomolecules on nanoparticles specialized for antibacterial applications</article-title>. <source>Appl Microbiol Biotechnol</source>. <year>2011</year>;<volume>90</volume>: <fpage>1655</fpage>&#8211;<lpage>1667</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00253-011-3291-6" ns0:type="simple">10.1007/s00253-011-3291-6</ext-link></comment> <object-id pub-id-type="pmid">21523475</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yamada</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Foote</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Prow</surname> <given-names>TW</given-names></name>. <article-title>Therapeutic gold, silver, and platinum nanoparticles</article-title>. <source>WIREs Nanomed Nanobiotechnol</source>. <year>2015</year>;<volume>7</volume>: <fpage>428</fpage>&#8211;<lpage>445</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/wnan.1322" ns0:type="simple">10.1002/wnan.1322</ext-link></comment> <object-id pub-id-type="pmid">25521618</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Shao</surname> <given-names>L</given-names></name>. <article-title>The antimicrobial activity of nanoparticles: present situation and prospects for the future</article-title>. <source>Int J Nanomed</source>. <year>2017</year>;<volume>14</volume>: <fpage>1227</fpage>&#8211;<lpage>1249</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S121956" ns0:type="simple">10.2147/IJN.S121956</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McGuffie</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Hong</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bahng</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Glynos</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>PF</given-names></name>, <name name-style="western"><surname>Kotov</surname> <given-names>NA</given-names></name>, <etal>et al</etal>. <article-title>Zinc oxide nanoparticle suspensions and layer-by-layer coatings inhibit staphylococcal growth.</article-title> <source>Nanomedicine</source>. <year>2016</year>;<volume>12</volume>: <fpage>33</fpage>&#8211;<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.nano.2015.10.002" ns0:type="simple">10.1016/j.nano.2015.10.002</ext-link></comment> <object-id pub-id-type="pmid">26515755</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Su</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>K</given-names></name>. <article-title>Alteration of intracellular protein expressions as a key mechanism of the deterioration of bacterial denitrification caused by copper oxide nanoparticles</article-title>. <source>Sci Rep</source>. <year>2015</year>;<volume>5</volume>: <fpage>15824</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/srep15824" ns0:type="simple">10.1038/srep15824</ext-link></comment> <object-id pub-id-type="pmid">26508362</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rai</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yadav</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gade</surname> <given-names>A</given-names></name>. <article-title>Silver nanoparticles as a new generation of antimicrobials</article-title>. <source>Biotechnol Adv</source>. <year>2009</year>;<volume>27</volume>: <fpage>76</fpage>&#8211;<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biotechadv.2008.09.002" ns0:type="simple">10.1016/j.biotechadv.2008.09.002</ext-link></comment> <object-id pub-id-type="pmid">18854209</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rai</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Prabhune</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Perry</surname> <given-names>CC</given-names></name>. <article-title>Antibiotic mediated synthesis of gold nanoparticles with potent antimicrobial activity and their application in antimicrobial coatings</article-title>. <source>J Mater Chem</source>. <year>2010</year>;<volume>20</volume>: <fpage>6789</fpage>&#8211;<lpage>6798</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/c0jm00817f" ns0:type="simple">10.1039/c0jm00817f</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ran</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Jia</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Pharmaceutical Intermediate-modified gold nanoparticles: Against multidrug-resistant bacteria and wound-healing application via an electrospun scaffold</article-title>. <source>ACS Nano</source>. <year>2017</year>;<volume>11</volume>: <fpage>5737</fpage>&#8211;<lpage>5745</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/acsnano.7b01240" ns0:type="simple">10.1021/acsnano.7b01240</ext-link></comment> <object-id pub-id-type="pmid">28531351</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rosenberg</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Vancamp</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Krigas</surname> <given-names>T</given-names></name>. <article-title>Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode</article-title>. <source>Nature</source>. <year>1965</year>;<volume>205</volume>: <fpage>698</fpage>&#8211;<lpage>699</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/205698a0" ns0:type="simple">10.1038/205698a0</ext-link></comment> <object-id pub-id-type="pmid">14287410</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Grodzik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rupiewicz</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Visualization of gold and platinum nanoparticles interacting with Salmonella enteritidis and Listeria monocytogenes.</article-title> <source>Int J Nanomedicine</source>. <year>2010</year>;<volume>5</volume>: <fpage>631</fpage>&#8211;<lpage>637</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S12361" ns0:type="simple">10.2147/IJN.S12361</ext-link></comment> <object-id pub-id-type="pmid">20856838</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Hotowy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Visualization of interaction between inorganic nanoparticles and bacteria or fungi.</article-title> <source>Int J Nanomedicine</source>. <year>2010</year>;<volume>5</volume>: <fpage>1085</fpage>&#8211;<lpage>1094</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S13532" ns0:type="simple">10.2147/IJN.S13532</ext-link></comment> <object-id pub-id-type="pmid">21270959</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Konieczny</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Goralczyk</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Szmyd</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Skalniak</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Koziel</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Filon</surname> <given-names>FL</given-names></name>, <etal>et al</etal>. <article-title>Effects triggered by platinum nanoparticles on primary keratinocytes</article-title>. <source>Int J Nanomedicine</source>. <year>2013</year>;<volume>8</volume>: <fpage>3963</fpage>&#8211;<lpage>3975</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S49612" ns0:type="simple">10.2147/IJN.S49612</ext-link></comment> <object-id pub-id-type="pmid">24204135</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Horie</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Endoh</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Fujita</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Komaba</surname> <given-names>LK</given-names></name>, <name name-style="western"><surname>Nishio</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Cellular effects of industrial metal nanoparticles and hydrophilic carbon black dispersion</article-title>. <source>J Toxicol Sci</source>. <year>2014</year>;<volume>39</volume>: <fpage>897</fpage>&#8211;<lpage>907</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2131/jts.39.897" ns0:type="simple">10.2131/jts.39.897</ext-link></comment> <object-id pub-id-type="pmid">25421968</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Onizawa</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Aoshiba</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kajita</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Miyamoto</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Nagai</surname> <given-names>A</given-names></name>. <article-title>Platinum nanoparticle antioxidants inhibit pulmonary inflammation in mice exposed to cigarette smoke</article-title>. <source>Pulm Pharmacol Ther</source>. <year>2009</year>; <volume>22</volume>: <fpage>340</fpage>&#8211;<lpage>349</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pupt.2008.12.015" ns0:type="simple">10.1016/j.pupt.2008.12.015</ext-link></comment> <object-id pub-id-type="pmid">19166956</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mayer</surname> <given-names>AB</given-names></name>. <article-title>Colloidal metal nanoparticles dispersed in amphiphilic polymers</article-title>. <source>Polym Adv Technol</source>. <year>2001</year>; <volume>12</volume>: <fpage>96</fpage>&#8211;<lpage>106</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/1099-1581(200101/02)12:1/2&lt;96::AID-PAT943&gt;3.0.CO;2-G" ns0:type="simple">10.1002/1099-1581(200101/02)12:1/2&lt;96::AID-PAT943&gt;3.0.CO;2-G</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ma</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Izutani</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Imazato</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Kiba</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Yoshikawa</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Assessment of bactericidal effects of quaternary ammonium-based antibacterial monomers in combination with colloidal platinum nanoparticles</article-title>. <source>Dent Mater J</source>. <year>2012</year>;<volume>31</volume>: <fpage>150</fpage>&#8211;<lpage>156</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4012/dmj.2011-180" ns0:type="simple">10.4012/dmj.2011-180</ext-link></comment> <object-id pub-id-type="pmid">22277619</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mafune</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Kohno</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Takeda</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kondow</surname> <given-names>T</given-names></name>. <article-title>Formation of Stable Platinum Nanoparticles by Laser Ablation in Water</article-title>. <source>J Phys Chem</source>. <year>2003</year>; <volume>107</volume>: <fpage>4218</fpage>&#8211;<lpage>4223</lpage>.</mixed-citation></ref>
+<ref id="pone.0222634.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mathur</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kumari</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Parashar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lavanya</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Chandrasekaran</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mukherjee</surname> <given-names>A</given-names></name>. <article-title>Decreased Phototoxic Effects of TiO2 Nanoparticles in Consortium of Bacterial Isolates from Domestic Waste Water</article-title>. <source>PLoS One</source>. <year>2015</year>; <volume>10</volume>(<issue>10</issue>): <fpage>e0141301</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0141301" ns0:type="simple">10.1371/journal.pone.0141301</ext-link></comment> <object-id pub-id-type="pmid">26496250</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Laemmli</surname> <given-names>UK</given-names></name>. <article-title>Cleavage of structural Proteins during the assembly of the Head of Bacteriophage T4</article-title>. <source>Nature</source>. <year>1970</year>; <volume>227</volume>: <fpage>680</fpage>&#8211;<lpage>685</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/227680a0" ns0:type="simple">10.1038/227680a0</ext-link></comment> <object-id pub-id-type="pmid">5432063</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Jarvis</surname> <given-names>KL</given-names></name>, <name name-style="western"><surname>Hyland</surname> <given-names>KJ</given-names></name>. <article-title>Protein measurement using bicinchoninic acid: elimination of interfering substances</article-title>. <source>Anal Biochem</source>. <year>1989</year>;<volume>180</volume>: <fpage>136</fpage>&#8211;<lpage>139</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0003-2697(89)90101-2" ns0:type="simple">10.1016/0003-2697(89)90101-2</ext-link></comment> <object-id pub-id-type="pmid">2817336</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gopal</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hasan</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Manikandan</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>HF</given-names></name><article-title>. Bacterial toxicity/compatibility of platinum nanospheres, nanocuboids and nanoflowers</article-title>. <source>Sci Rep</source>. <year>2013</year>;<volume>3</volume>: <fpage>1260</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/srep01260" ns0:type="simple">10.1038/srep01260</ext-link></comment> <object-id pub-id-type="pmid">23405274</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mao</surname> <given-names>BH</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>CW</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>YJ</given-names></name>. <article-title>Mechanisms of silver nanoparticle-induced toxicity and important role of autophagy</article-title>. <source>Nanotoxicology</source>. <year>2016</year>;<volume>10</volume>: <fpage>1021</fpage>&#8211;<lpage>1040</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/17435390.2016.1189614" ns0:type="simple">10.1080/17435390.2016.1189614</ext-link></comment> <object-id pub-id-type="pmid">27240148</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yhee</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Son</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>K</given-names></name>. <article-title>Nanoparticle-based combination therapy for cancer treatment</article-title>. <source>Curr Pharm Des</source>. <year>2015</year>;<volume>21</volume>: <fpage>3158</fpage>&#8211;<lpage>3166</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2174/1381612821666150531165059" ns0:type="simple">10.2174/1381612821666150531165059</ext-link></comment> <object-id pub-id-type="pmid">26027570</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Hotowy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Visualization of interaction between inorganic nanoparticles and bacteria or fungi</article-title>. <source>Int J Nanomedicine</source>. <year>2010</year>;<volume>5</volume>: <fpage>1085</fpage>&#8211;<lpage>1094</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S13532" ns0:type="simple">10.2147/IJN.S13532</ext-link></comment> <object-id pub-id-type="pmid">21270959</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Grodzik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rupiewicz</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Visualization of gold and platinum nanoparticles interacting with Salmonella enteritidis and Listeria monocytogenes</article-title>. <source>Int J Nanomedicine</source>. <year>2010</year>; <volume>5</volume>: <fpage>631</fpage>&#8211;<lpage>637</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S12361" ns0:type="simple">10.2147/IJN.S12361</ext-link></comment> <object-id pub-id-type="pmid">20856838</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Konieczny</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Goralczyk</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Szmyd</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Skalniak</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Koziel</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Filon</surname> <given-names>FL</given-names></name>, <etal>et al</etal>. <article-title>Effects triggered by platinum nanoparticles on primary keratinocytes</article-title>. <source>Int J Nanomedicine</source>. <year>2013</year>;<volume>8</volume>: <fpage>3963</fpage>&#8211;<lpage>3975</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S49612" ns0:type="simple">10.2147/IJN.S49612</ext-link></comment> <object-id pub-id-type="pmid">24204135</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Rong</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>R</given-names></name>. <article-title>Size-dependent antibacterial activities of silver nanoparticles against oral anaerobic pathogenic bacteria</article-title>. <source>J Mater Sci Mater Med</source>. <year>2013</year>; <volume>24</volume>: <fpage>1465</fpage>&#8211;<lpage>1471</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10856-013-4894-5" ns0:type="simple">10.1007/s10856-013-4894-5</ext-link></comment> <object-id pub-id-type="pmid">23440430</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Hotowy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mitura</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Visualization of interaction between inorganic nanoparticles and bacteria or fungi</article-title>. <source>Int J Nanomedicine</source>. <year>2010</year>;<volume>5</volume>: <fpage>1085</fpage>&#8211;<lpage>1094</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S13532" ns0:type="simple">10.2147/IJN.S13532</ext-link></comment> <object-id pub-id-type="pmid">21270959</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sawosz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chwalibog</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Szeliga</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sawosz</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Grodzik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rupiewicz</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Visualization of gold and platinum nanoparticles interacting with Salmonella enteritidis and Listeria monocytogenes.</article-title> <source>Int J Nanomedicine</source>. <year>2010</year>;<volume>5</volume>: <fpage>631</fpage>&#8211;<lpage>637</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2147/IJN.S12361" ns0:type="simple">10.2147/IJN.S12361</ext-link></comment> <object-id pub-id-type="pmid">20856838</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Slavin</surname> <given-names>YN</given-names></name>, <name name-style="western"><surname>Asnis</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>H&#228;feli</surname> <given-names>UO</given-names></name>, <name name-style="western"><surname>Bach</surname> <given-names>H</given-names></name>. <article-title>Metal nanoparticles: understanding the mechanisms behind antibacterial activity</article-title>. <source>J Nanobiotechnology</source>. <year>2017</year>;<volume>15</volume>(<issue>1</issue>):<fpage>65</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12951-017-0308-z" ns0:type="simple">10.1186/s12951-017-0308-z</ext-link></comment> <object-id pub-id-type="pmid">28974225</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chondrogianni</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Petropoulos</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Grimm</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Georgila</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Catalgol</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Friguet</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Protein damage, repair and proteolysis</article-title>. <source>Mol Aspects Med</source>. <year>2014</year>; <volume>35</volume>:<fpage>1</fpage>&#8211;<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.mam.2012.09.001" ns0:type="simple">10.1016/j.mam.2012.09.001</ext-link></comment> <object-id pub-id-type="pmid">23107776</object-id></mixed-citation></ref>
+<ref id="pone.0222634.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Socransky</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Haffajee</surname> <given-names>AD</given-names></name>. <article-title>The bacterial etiology of destructive periodontal disease: current concepts</article-title>. <source>J Periodontol</source>. <year>1992</year>;<volume>63</volume>: <fpage>322</fpage>&#8211;<lpage>331</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1902/jop.1992.63.4s.322" ns0:type="simple">10.1902/jop.1992.63.4s.322</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222634.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hanazawa</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nakada</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ohmori</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Miyoshi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Amano</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kitano</surname> <given-names>S</given-names></name>. <article-title>Functional role of interleukin 1 in periodontal disease: induction of interleukin 1 production by Bacteroides gingivalis lipopolysaccharide in peritoneal macrophages from C3H/HeN and C3H/HeJ mice</article-title>. <source>Infect Immun</source>. <year>1985</year>;<volume>50</volume>: <fpage>262</fpage>&#8211;<lpage>270</lpage>. <object-id pub-id-type="pmid">3876285</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222634.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukherjee</surname>
+<given-names>Amitava</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Amitava Mukherjee</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222634" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">10 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-16374</p>
+<p>Organic resolution function and effects of non-colloidal platinum nanoparticles on bacteria and organic matter</p>
+<p>PLOS ONE</p>
+<p>Dear Professor Kazuhiro,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 24 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Amitava Mukherjee, ME, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p><bold>Journal Requirements:</bold></p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. At this time, we request that you please include in your methods section, or as supporting information, the full uncropped and un-altered blot and gel images that were used to make your figures. Please see the following link for more information about PLOS ONE guidlelines: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-blots-and-gels" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-blots-and-gels</ext-link>.</p>
+<p>3. Thank you for stating that &#8220;The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript&#8221; in your financial disclosure.</p>
+<p>Please also provide the name of the funders of this study (as well as grant numbers if available) in your financial disclosure statement.</p>
+<p>Please include your amended statements within your cover letter; we will change the online submission form on your behalf.</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The submitted paper entitled" Organic resolution function and effects of non colloidal platinum nanoparticles on bacteria and organic matter" shows the antibacterial effects,its potential to decompose LPS and its use in peridontal applications. The manuscript is well written and deserves a publication with some minor revisions. Below is the some comments and suggestions to improve the quality of manuscript.</p>
+<p>Technical comments</p>
+<p>1. In material method section (Bacterial culture and regulation),write down the parameters for shaking at what rpm shaking was kept for aerobic bacteria</p>
+<p>2. Add a section of stock solution preparation of NPs under material method</p>
+<p>3. In material and method section "antibacterial testing" add a reference for the protocol utilized</p>
+<p>4. In the discussion section, line no. 243,explain the mechanism of interaction of aerobic and anaerobic bacteria with NPs</p>
+<p>5. In the discussion section, line no. 268, when LPS reacts with NPs is there any charge based interaction in Gram negative bacteria</p>
+<p>6. Figure number 3 add an X axis demarcation</p>
+<p>Reviewer #2: Authors reported non-colloidal platinum nanoparticles functional potential for decomposing organic matter. As the author pointed out, the NC-PtNPs increase fragmentation and decomposition of albumin, which may limit their practical applications because besides damging the LPs, the proposed NPs can be toxic to host through damaging the albumin. However, I found several serious problems in this manuscript and cannot accept this manuscript in a present form.</p>
+<p>1. The authors claim non-colloidal form, but the particle size is 2&#8211;19 nm and suspended in water. Comment on it.</p>
+<p>2. Although the NPs are obtained from commercial source, its size should be verified after suspended in water and data should be presented.</p>
+<p>3. What will happen to fate of the NPs size and morphology after contacting either albumin or LPS.</p>
+<p>4. What is mechanism of decomposition?</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Dr. Ankita Mathur</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+<supplementary-material id="pone.0222634.s004" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">PONE-D-19-16374_reviewer comments 1.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222634.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222634" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222634.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Aug 2019</named-content>
+</p>
+<p>Dear Reviewers,</p>
+<p>We would like to thank you and the reviewers for the valuable comments on the original version of our manuscript. We have taken all these comments into account and submit, herewith, a revised version of our paper. We have addressed all the comments by reviewers, as indicated in the attached pages, and we hope that the explanations are satisfactory.</p>
+<p>We hope that the revised version of our paper is now suitable for publication in the PLOS ONE, and we look forward to hearing from you at the earliest. </p>
+<p>Sincerely Yours,</p>
+<p>Kazuhiro Gomi</p>
+<p>Reviewer 1</p>
+<p>1. Q: In material method section (Bacterial culture and regulation), write down the parameters for shaking at what rpm shaking was kept for aerobic bacteria.</p>
+<p>&#8594; A: I changed the description as follows according to your indication.</p>
+<p>P6, line 96, 99 as follow.</p>
+<p>Streptococcus mutans was cultured in Tryptic Soy Broth (TSB, FUJIFILM Wako Pure Chemical Co., Osaka, Japan) and agar medium (Becton Dickinson) with 4% glucose (FUJIFILM Wako Pure Chemical Co.) at 37 &#8451; under aerobic conditions for 2 days, followed by preculture in TSB liquid medium with 4% glucose under aerobic shaking at 100 rpm in shaking incubator (SI-782, Optima Inv. Tokyo, Japan) for 2 days. Enterococcus faecalis was cultured in TSB agar medium (at 37 &#8451; under aerobic conditions for 2 days), followed by preculture in TSB liquid medium under aerobic shaking at 100 rpm in shaking incubator for 2 days.</p>
+<p>2. Q: Add a section of stock solution preparation of NPs under material method.</p>
+<p>&#8594; A: We added the information about preparation of PtNPs and stock solution in P5, line 73-780 as follow.</p>
+<p>In this experiment, 100 ppm PtNPs (particle size: 2&#8211;19 nm) solution, which was used as a stock solution, were obtained from the manufacturer (Ceramics Craft Co. Ltd. Shizuoka, Japan). The PtNPs were made directly from platinum by irradiation with infrared pulsed laser in liquid according to the Liquid phase laser ablation method. The storage of PtNPs was kept in the dark at room temperature avoiding direct sunlight as the stock solution. Moreover, when using for experiment, the stock solution was diluted in sterile purified water and used each time. Fig.1 shows a transmission electron micrograph of PtNPs used in this experiment.</p>
+<p>3. Q: In material and method section "antibacterial testing" add a reference for the protocol utilized.</p>
+<p>&#8594; A: We added the reference, which is show in below, in P7 line 111</p>
+<p>Ref. 25</p>
+<p>Decreased Phototoxic Effects of TiO&#8322; Nanoparticles in Consortium of Bacterial Isolates from Domestic Waste Water</p>
+<p>Ankita Mathur, Jyoti Kumari, Abhinav Parashar, Lavanya T., N. Chandrasekaran, Amitava Mukherjee </p>
+<p>Published: October 23, 2015<ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0141301" ns0:type="simple">https://doi.org/10.1371/journal.pone.0141301</ext-link></p>
+<p>4. Q: In the discussion section, line no. 243, explain the mechanism of interaction of aerobic and anaerobic bacteria with NPs.</p>
+<p>&#8594; A: We added the explanation of the mechanism of interaction of aerobic and anaerobic bacteria with NPs in P15 line 255-P16 line 259.</p>
+<p>While, it is inferred that the antibacterial effect of NPs on anaerobic bacteria of oral origin is lower than that on aerobic bacteria. It is considered that this is because the antibacterial property is controlled by the availability of oxygen and the particle size34). These interactions may have shown similar antibacterial activity to P. gingivalis, S. mutans and E. faecalis.</p>
+<p>34): Size-dependent antibacterial activities of silver nanoparticles against oral anaerobic pathogenic bacteria. Lu Z, Rong K, Li J, Yang H, Chen R. J Mater Sci Mater Med. 2013 Jun;24(6):1465-71. doi: 10.1007/s10856-013-4894-5. Epub 2013 Feb 26.</p>
+<p>5. Q: In the discussion section, line no. 268, when LPS reacts with NPs is there any charge based interaction in Gram negative bacteria.</p>
+<p>&#8594; A: We added the following in P17 line 283-286.</p>
+<p>LPS, which is a component of the cell wall of gram negative bacteria, is negatively charged and has a high affinity to NPs and binds tightly. And it is thought that destruction of LPS arises from LPS and NPs from a physical interaction37&#65289;.</p>
+<p>37&#65289;Metal nanoparticles: understanding the mechanisms behind antibacterial activity. Slavin YN, Asnis J, H&#228;feli UO, Bach H. J Nanobiotechnology. 2017 Oct 3;15(1):65. doi: 10.1186/s12951-017-0308-z.</p>
+<p>6. Q: Figure number 3 add an X axis demarcation.</p>
+<p>&#8594; A: We add to X axis demarcation in Fig 3 (change to 4).&#12288; </p>
+<p>Reviewer 2</p>
+<p>0. Q: As the author pointed out, the NC-PtNPs increase fragmentation and decomposition of albumin, which may limit their practical applications because besides damging the LPs, the proposed NPs can be toxic to host through damaging the albumin.</p>
+<p>P19, line 306-307</p>
+<p>&#8594; A: Following your suggestions, I added the following sentence.</p>
+<p>However, since this study is a limited basic study and a non-specific reaction, further research is necessary for clinical application</p>
+<p>1. Q: The authors claim non-colloidal form, but the particle size is 2&#8211;19 nm and suspended in water. Comment on it.</p>
+<p>&#8594; A: This PtNPs were made directly from platinum by irradiation with infrared pulsed laser. However, we don't have detailed data about non-colloidal or colloidal. Therefore, I would like to revise this paper with the term platinum nanoparticles (PtNPs), rather than using the term non-colloidal platinum nanoparticles (NC-PtNPs).</p>
+<p>Thank you for suggesting very important points.</p>
+<p>2. Q: Although the NPs are obtained from commercial source, its size should be verified after suspended in water and data should be presented.</p>
+<p>P5, line 82-84</p>
+<p>&#8594; A: Following your suggestions, we have added an electron micrograph of PtNPs.</p>
+<p>3. Q: What will happen to fate of the NPs size and morphology after contacting either albumin or LPS.</p>
+<p>P14, line 205-210 </p>
+<p>&#8594; A: Following your suggestions, we have added an electron micrograph of PtNPs with albumin or LPS.</p>
+<p>4. Q: What is mechanism of decomposition?</p>
+<p>&#8594; A: Added the following comments regarding the mechanism of disassembly.</p>
+<p>   P18, line 291-293</p>
+<p>Albumin and LPS in contact with PtNPs are thought to be reduced in molecular weight due to cleavage of the protein backbone due to the oxidative degradation reaction or physical interaction caused by the generated ROS38&#65289;. However, the detailed mechanism is still unknown.</p>
+<p>38&#65289;Mol Aspects Med. 2014 Feb;35:1-71. doi: 10.1016/j.mam.2012.09.001. Epub 2012 Oct 26.</p>
+<p>Protein damage, repair and proteolysis.</p>
+<p>Chondrogianni N, Petropoulos I, Grimm S, Georgila K, Catalgol B, Friguet B, Grune T, Gonos ES.</p>
+<supplementary-material id="pone.0222634.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222634.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukherjee</surname>
+<given-names>Amitava</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Amitava Mukherjee</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222634" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Organic resolution function and effects of platinum nanoparticles on bacteria and organic matter</p>
+<p>PONE-D-19-16374R1</p>
+<p>Dear Dr. Kazuhiro,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Amitava Mukherjee, ME, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: All the questions that were raised while reviewing had been addressed and thereby paper could be published.</p>
+<p>Reviewer #2: The authors considerably improved the manuscript titled: Organic resolution function and effects of platinum nanoparticles on bacteria and organic matter. It may be acceptable</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes: Anbazhagan Veerappan</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222634.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukherjee</surname>
+<given-names>Amitava</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Amitava Mukherjee</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222634" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">12 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-16374R1 </p>
+<p>Organic resolution function and effects of platinum nanoparticles on bacteria and organic matter </p>
+<p>Dear Dr. Gomi:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Professor Dr. Amitava Mukherjee  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

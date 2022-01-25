@@ -1,0 +1,36 @@
+<sub-article article-type="author-comment" id="pone.0222603.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222603.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222603" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222603.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">22 Aug 2019</named-content>
+</p>
+<p>Dear editor, thanks for considering our manuscript; we appreciated the reviewers&#8217; feedback. We updated our manuscript in accordance to their suggestions, and prepared a line-by-line response letter showing the revisions made.</p>
+<p>1. If one patient had a workplace injury, injury at other places, and without injury information in database. Which group did the patient belong to?</p>
+<p>Re: As long as a patient had one WPI, it is assigned to the WPI group. If any IOP occurred before, it is accounted for as a possible predictor. We now have clarified the process in the Methods section.</p>
+<p>2. If one patient had more than two workplace injuries, which injury was selected in this study?</p>
+<p>It is the first recorded in the data base; the criterion is now stated in the Methods.</p>
+<p>3. This study only matched on the distribution of diagnosis year, and why basic demographic data (gender, age, and race) not included in the matching criteria?</p>
+<p>Re: Because it was of interest to describe --if any-- the demographic differences. In fact, we did find differences in these variables between WPI and the comparison groups. We reckon that IOP and WPI could be different among age groups because of the employment ages. Nonetheless, we included only adult individuals, so the putative bias might be only among younger (not yet employed) or older (retired) people. The Discussion sections now contains additional and more detailed considerations in this regard.</p>
+<p>Reviewer #2: </p>
+<p>1. In this study, workplace injury (WPI) was defined by ICD-9 diagnostic code E849.3, while diagnoses codes E849.0 to E849.9 except E849.3 were defined as injuries at other place (IOP). In general practice of occupational medicine, E849.2 (Mine and quarry accidents), E849.1 (Farm accidents) and even E849.9 (Accidents occurring in unspecified place) could also be used to describe WPI. Based on current definition, I think some WPI were actually included in IOP. This might affect your following models.</p>
+<p>Re: The reviewer was right and indeed we had included mine/quarry/farms accidents in the WPI group, and we clarified it in the methods. Thanks for pointing this out. We also discussed that an alternative categorization into IOP could be legit because they are not explicit. These codes are also not explicitly WPI &#8211;some of them might not be WPI&#8211; and this was the main reason we debated when we design the study on whether to keep them in or out; there would be misclassifications either way. We have checked the frequency of the corresponding ICD codes in the whole sample, and have reported them in the revised manuscript. The frequencies of these codes were rather low, thus, the potential misclassification of these code would have little impact on the overall study results (bearing the possibility of specific morbidities associated to these two injuries). We have updated the Discussion acknowledging this matter.</p>
+<p>2. Since you have used ICD-9 code to define WPI group, how did you define the status of WPI recurrence. Please describe the detail in methods.</p>
+<p>Re: WPI recurrence is defined as any WPI diagnosis recorded at least 30 days after the first WPI diagnosis. We decided to use a time window because a WPI diagnosis within the time window could have been a readmission for the same injury. The Centers for Medicare &amp; Medicaid Services (CMS) define a hospital readmission as "an admission to an acute care hospital within 30 days of discharge from the same or another acute care hospital.&#8221;. We have added these details in Methods.</p>
+<p>3. I suggest a better work to explain the relative low model performance and the variables that negatively associated with WPI (such as chronic pulmonary heart disease HR 0.33).</p>
+<p>Re: The low model performance is likely due to the fact that prior clinical history and demographics may not be the most informative domains to predict risk of WPI, although extant theory incorporates mental health disorders and drug dependence as predictors (which can be ascertained by prior ICD diagnoses), and there is likely racial disparity. However, predictors that could explain a larger portion of variance include job type, workplace safety, physical stress, et cetera, which are not present in the HCUP data base. We have rewritten part of our Discussions section to better explain these other &#8211;unmeasured&#8211; contributors to overall risk.</p>
+<p>4. In the current study, you found that WPI were more likely to be admitted for acute bronchitis and bronchiolitis (ICD-9: 466). And you suggested that this could be related to COPD of occupational exposure. However, to our knowledge, occupational exposure related COPD was mostly in presence of chronic bronchitis instead of the ICD-9:466 you indicated.</p>
+<p>Re: the reviewer is right in reporting the association more likely with chronic bronchitis rather than acute. There is a number of possible explanations to this: 1) being this the first WPI, a diagnosis of chronic bronchitis might not have been made yet; 2) our population includes both routine care and acute care, i.e. emergency rooms and urgent care centers, where an attack of bronchitis would be diagnosed as acute even in presence of an underlying condition; 3) possible selection bias, i.e. people with chronic bronchitis have increased risk to be in care regardless the injury type, but acute episodes are differently distributed. We have added another paragraph in the Discussion accordingly.</p>
+</body>
+</sub-article>

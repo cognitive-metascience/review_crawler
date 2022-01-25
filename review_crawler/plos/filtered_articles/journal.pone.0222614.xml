@@ -1,0 +1,825 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222614</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17316</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Acids</subject><subj-group><subject>Ketones</subject><subj-group><subject>Pyruvate</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell processes</subject><subj-group><subject>Cell cycle and cell division</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Cytokines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Cytokines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune system</subject><subj-group><subject>Innate immune system</subject><subj-group><subject>Cytokines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune system</subject><subj-group><subject>Innate immune system</subject><subj-group><subject>Cytokines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Molecular development</subject><subj-group><subject>Cytokines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell motility</subject><subj-group><subject>Chemotaxis</subject><subj-group><subject>Chemokines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Metabolism</subject><subj-group><subject>Energy metabolism</subject><subj-group><subject>Energy metabolism in cancer cells</subject><subj-group><subject>Warburg effect</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Energy metabolism</subject><subj-group><subject>Energy metabolism in cancer cells</subject><subj-group><subject>Warburg effect</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Energy metabolism</subject><subj-group><subject>Energy metabolism in cancer cells</subject><subj-group><subject>Warburg effect</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell physiology</subject><subj-group><subject>Cell metabolism</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Drugs</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibiotics</subject><subj-group><subject>Polymyxins</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Microbial control</subject><subj-group><subject>Antimicrobials</subject><subj-group><subject>Antibiotics</subject><subj-group><subject>Polymyxins</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Blood cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>LPS induces inflammatory chemokines via TLR-4 signalling and enhances the Warburg Effect in THP-1 cells</article-title>
+<alt-title alt-title-type="running-head">Warburg Effect in the tumour microenvironment</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Ubanako</surname>
+<given-names>Philemon</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Xelwa</surname>
+<given-names>Ntombikayise</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-6400-8867</contrib-id>
+<name name-style="western">
+<surname>Ntwasa</surname>
+<given-names>Monde</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Molecular &amp; Cell Biology, University of the Witwatersrand, Johannesburg, Republic of South Africa</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Life &amp; Consumer Sciences, University of South Africa, Florida, Johannesburg, Republic of South Africa</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Mukhopadhyay</surname>
+<given-names>Partha</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>National Institutes of Health, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">ntwasmm@unisa.ac.za</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>27</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222614</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ubanako et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222614" />
+<abstract>
+<p>The Warburg Effect has emerged as a potential drug target because, in some cancer cell lines, it is sufficient to subvert it in order to kill cancer cells. It has also been shown that the Warburg Effect occurs in innate immune cells upon infection. Innate immune cells play critical roles in the tumour microenvironment but the Warburg Effect is not fully understood in monocytes. Furthermore, it is important to understand the impact of infections on key players in the tumour microenvironment because inflammatory conditions often precede carcinogenesis and mutated oncogenes induce inflammation. We investigated the metabolic programme in the acute monocytic leukaemia cell line, THP-1 in the presence and absence of lipopolysaccharide, mimicking bacterial infections. We found that stimulation of THP-1 cells by LPS induces a subset of pro-inflammatory chemokines and enhances the Warburg Effect. Surprisingly, perturbation of the Warburg Effect in these cells does not lead to cell death in contrast to what was observed in non-myeloid cancer cell lines in a previous study. These findings indicate that the Warburg Effect and inflammation are activated by bacterial lipopolysaccharide and may have a profound influence on the microenvironment.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>national research foundation south africa</institution>
+</funding-source>
+<award-id>GUN: 105567</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-6400-8867</contrib-id>
+<name name-style="western">
+<surname>Ntwasa</surname>
+<given-names>Monde</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The National Research Foundation (South Africa) [GUN: 105567] supported this research awarded to MN. PU conducted the bulk of the experiments analysis of results. NX conducted the metabolic studies. MN conceived the project and analysed the data. All authors participated in drafting the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="2" />
+<page-count count="17" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Cancer cells uncouple glycolysis and oxidative phosphorylation (OXPHOS), a phenomenon known as the Warburg Effect after the German Scientist Otto Warburg who first described it [<xref ref-type="bibr" rid="pone.0222614.ref001">1</xref>]. This metabolic reprogramming is one of the ten hallmarks of cancer and has been found to occur in activated immune cells as well [<xref ref-type="bibr" rid="pone.0222614.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0222614.ref004">4</xref>]. Previously, we have shown that the reversal of the Warburg Effect in some cancer cell lines by the introduction of exogenous pyruvate is sufficient to kill them. In contrast, this strategy promotes survival in a normal cell line even when exogenous pyruvate is combined with a genotoxic agent suggesting that exogenous pyruvate can be used as an adjunctive to protect normal cells during chemotherapy [<xref ref-type="bibr" rid="pone.0222614.ref005">5</xref>].</p>
+<p>Evidence shows that temporal metabolic shifts occur in immune cells. For example, it is known that myeloid cells, which have multiple functions such as killing, migration and toxin production, utilize Warburg metabolism for ATP production [<xref ref-type="bibr" rid="pone.0222614.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0222614.ref007">7</xref>]. In contrast, lymphocytes utilize mainly OXPHOS to produce ATP via glutaminolysis, &#946;-oxidation of fatty acids as well as via glycolysis [<xref ref-type="bibr" rid="pone.0222614.ref008">8</xref>]. Metabolic shifts have also been shown to be associated with the differentiation of some immune cells. For example, T<sub>H</sub>1 cells were shown to differentiate to T<sub>reg</sub> cells upon sabotage of the glycolytic phenotype by treatment with the glucose analogue, 2-deoxyglucose [<xref ref-type="bibr" rid="pone.0222614.ref009">9</xref>].</p>
+<p>Myeloid cells are often activated by exposure to environmental stimuli, resulting in metabolic shifts. For example, bacterial lipopolysaccharide (LPS) induces metabolic reprogramming in macrophages and dendritic cells via Toll-like Receptor 4 (TLR4) by at least four pathways. These include generating inducible nitric oxide synthase (iNOS) and subsequent suppression of OXPHOS, activation of mammalian target of rapamycin (mTOR), increase in glucose uptake and glycolysis, upregulating key glycolysis enzymes and inhibiting the AMP-activated protein kinase (AMPK) pathway [<xref ref-type="bibr" rid="pone.0222614.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0222614.ref011">11</xref>]. Although, the metabolic reprogramming that occurs in macrophages and in dendritic cells has been studied extensively [<xref ref-type="bibr" rid="pone.0222614.ref010">10</xref>], little is known about metabolic shifts in monocytes that are exposed to infections especially the impact of bacterial infection on their metabolic programme. Indeed, the impact of infection on cancer cells is poorly understood, even though malignancies such as colorectal cancer are constantly exposed to pathogens. In these environments, innate immune cells associated with epithelial linings play critical roles as the first line of defence. It is thus necessary to investigate the interactions between pathogens and cancerous cells.</p>
+<p>THP-1 is a human monocyte leukaemia cell line, which differentiates into macrophage-like cells when treated with phorbol esters. When differentiated, THP-1 cells behave like native monocyte-derived macrophages. They are activated by LPS via TLR-4 and activation of NF&#8211;&#954;B, the key transcription factor that activates expression of effector genes. Optimal response to LPS occurs when the CD14 cell surface protein is also present and is characterized by the production of the pro-inflammatory interleukin-8 (IL-8) [<xref ref-type="bibr" rid="pone.0222614.ref012">12</xref>]. In THP-1 cells, LPS has been shown to induce the production of pro-inflammatory cytokines such as interleukin-1&#946; (IL-1&#946;), tumour necrosis factor (TNF-&#945;) and interleukin-6 (IL-6) via the TLR4- NF&#954;B signaling pathway [<xref ref-type="bibr" rid="pone.0222614.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0222614.ref013">13</xref>]. In primary monocytes in has been shown that LPS induces a metabolic shift similar to the Warburg Effect in the presence of glucose but rely on mitochondrial respiration in the absence of glucose or abrogation of the Warburg Effect [<xref ref-type="bibr" rid="pone.0222614.ref014">14</xref>]. Terminally differentiated monocytes such as dendritic cells and macrophages are known to exhibit the Warburg effect in response to pathogen invasion [<xref ref-type="bibr" rid="pone.0222614.ref010">10</xref>]. About 20% of all cancers are associated with infection [<xref ref-type="bibr" rid="pone.0222614.ref015">15</xref>]. The microbial oncogenic transformation has been shown to be elicited by chronic inflammation as a result of prolonged infection [<xref ref-type="bibr" rid="pone.0222614.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0222614.ref017">17</xref>]. Nonetheless, the mechanisms that drive infection-associated carcinogenesis are not fully understood and the precise molecular events occurring in the tumour microenvironment are still not fully understood. Therefore, the THP-1 cell line provides an attractive model by which to study metabolic reprogramming in human monocytes especially in circumstances where oncogenic transformation and infection occur simultaneously. A cocktail of pro-inflammatory cytokines produced in the tumour microenvironment has been shown to influence carcinogenesis by enhancing proliferation, invasion, chemoresistance and resistance to apoptosis [<xref ref-type="bibr" rid="pone.0222614.ref018">18</xref>&#8211;<xref ref-type="bibr" rid="pone.0222614.ref020">20</xref>]. Thus, it appears that metabolic reprogramming in macrophages and dendritic cells is associated with immune activation and not with cell proliferation [<xref ref-type="bibr" rid="pone.0222614.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0222614.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0222614.ref021">21</xref>]. Response to similar stress is not clear in monocytes.</p>
+<p>In differentiated THP-1 cells, metabolic shifts may be driven by hypoxia-inducible factor 1&#945; (HIF-1&#945;). It has been demonstrated that when activated by phorbol myristate HIF-1&#945; and HIF-1&#946; are upregulated in THP-1 cells as well as in peripheral blood monocytes. This is blocked by inhibitors of P13K, tyrosine kinases, MEK, mTOR, and protein kinase C (PKC) [<xref ref-type="bibr" rid="pone.0222614.ref022">22</xref>]. In contrast, LPS-induced HIF-1 expression is dependent on TLR4 and reactive oxygen species (ROS) as it is abrogated by the anti-oxidants <italic>N</italic>-acetylcysteine and thioredoxin. However, LPS-induced HIF-I&#945; expression in differentiated THP-1 cells was found to be independent of NF&#954;B as it was not inhibited by reservatol and BAY11-7802 [<xref ref-type="bibr" rid="pone.0222614.ref023">23</xref>]. The key observation by [<xref ref-type="bibr" rid="pone.0222614.ref023">23</xref>] was that LPS induces activation of HIF-1&#945; in differentiated THP-1 cells but not in undifferentiated cells suggesting that monocytes and macrophages respond differently to LPS activation. In this study, we investigate the impact of infection on the metabolic programme of THP-1 cells, which represent transformed undifferentiated myeloid cells. Using the THP-1 cell line as a model, we also investigate the impact of bacterial infection on cancer cells that should already have a glycolytic phenotype.</p>
+<p>Our findings indicate that LPS perturbs the cell cycle and enhances the Warburg Effect in the THP-1 cells. Moreover, the Warburg Effect does not appear to be associated with cell proliferation as observed in most cancer cells.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Cell lines and culture conditions</title>
+<p>The Acute monocytic leukaemia cell line (THP-1 ATCC<sup>&#174;</sup> TIB-202<sup>&#8482;</sup>) was obtained from American Type Culture Collection (ATCC), Virginia, USA. THP-1 cells were cultured in Roswell Park Memorial Institute (RPMI) 1640 Medium (Sigma-51536C), supplemented with 10% Foetal bovine serum (FBS) (Biowest, S181H-500) and 1% Penicillin/Streptomycin (Sigma, P4333) at 37&#176;C, with 5% CO<sub>2</sub> and 95% relative humidity.</p>
+</sec>
+<sec id="sec004">
+<title>Cell stimulation and treatments</title>
+<p>Bacterial lipopolysaccharides (LPS) from <italic>Escherichia coli</italic> (TLR4 agonist) (Sigma, O111:B4) was dissolved in 1X phosphate- buffered saline (PBS). Polymyxin B sulphate (TLR4 antagonist) (Sigma-81334) was dissolved in water. The LPS-polymyxin B combination was pre-incubated at 37&#176;C for 2 hours before treating cells. Methyl pyruvate (Sigma-371173) was dissolved in 1XPBS and used at 8.8 mM final concentration. Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone (FCCP) (Sigma-C2920) was dissolved in 95% ethanol at 10 &#956;M and used as a positive control for the mitochondrial membrane potential assay.</p>
+</sec>
+<sec id="sec005">
+<title>Reverse transcription polymerase chain reaction</title>
+<p>Following treatment with 5, 10, and 20 ng/ml of LPS for 24 hours, RNA was isolated using the Trizol method as described in manufacturer&#8217;s brochure and RNA concentration was determined using the Nanodrop spectrophotometer (Thermofischer Scientific, CA, USA). Complementary DNA (cDNA) was synthesized from 1 &#956;g of total RNA, using the Revert Aid first strand cDNA synthesis kit (Thermofischer Scientific, K1622) and oligo (dT) primers. The reaction was run in a PCR thermal cycler at 42&#176;C for 1 hour.</p>
+<p>TLR4 was amplified by PCR in a 25 &#956;L reaction volume containing 200 nM forward and reverse primers, 1.5 &#956;l of cDNA, 12.5 &#956;L of 2X PCR mastermix (New England Biolabs, M0270) and 10 &#956;l of nuclease-free water. Thermal parameters were set as follows: Initial denaturation at 94&#176;C for 30 seconds, followed by a 30-times cycle of 94&#176;C (30 seconds), 60&#176;C (60 seconds), and 68&#176;C (30 seconds) followed by one cycle at 68&#176;C for 5 minutes. To further validate ELISA array cytokine screening, gene-specific primers for upregulated cytokines were designed (NCBI Primer Blast, NCBI) and synthesized by (Inqaba Biotec, Pretoria, South Africa) <xref ref-type="table" rid="pone.0222614.t001">Table 1</xref> following the same procedure described earlier.</p>
+<table-wrap id="pone.0222614.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.t001</object-id>
+<label>Table 1</label> <caption><title>PCR primers used.</title></caption>
+<alternatives>
+<graphic id="pone.0222614.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Gene</th>
+<th align="left">Forward primer</th>
+<th align="left">Reverse primer</th>
+<th align="left">Product size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">IL-8</td>
+<td align="left"><monospace>AAGGTGCAGTTTTGCCAAGG</monospace></td>
+<td align="left"><monospace>CAACCCTCTGCACCCAGTTT</monospace></td>
+<td align="left">204</td>
+</tr>
+<tr>
+<td align="left">RANTES(CCL5)</td>
+<td align="left"><monospace>CTGCCTCCCCATATTCCTCG</monospace></td>
+<td align="left"><monospace>TCGGGTGACAAAGACGACTG</monospace></td>
+<td align="left">137</td>
+</tr>
+<tr>
+<td align="left">MIP-1&#946; (CCL4)</td>
+<td align="left"><monospace>GCACCAATGGGCTCAGAC</monospace></td>
+<td align="left"><monospace>GCTCAGTTCAGTTCCAGGTC</monospace></td>
+<td align="left">211</td>
+</tr>
+<tr>
+<td align="left">MDC (CCL22)</td>
+<td align="left"><monospace>GCGTGGTGTTGCTAACCTTC</monospace></td>
+<td align="left"><monospace>AGGGCCAGGGGACATCTAAT</monospace></td>
+<td align="left">649</td>
+</tr>
+<tr>
+<td align="left">RPL01</td>
+<td align="left"><monospace>GGCAAGAACACCATGATGCG</monospace></td>
+<td align="left"><monospace>TCGAACACCTGCTGGATGAC</monospace></td>
+<td align="left">416</td>
+</tr>
+<tr>
+<td align="left">GAPDH</td>
+<td align="left"><monospace>GAAGGTGAAGGTCGGAGTC</monospace></td>
+<td align="left"><monospace>GAAGATGGTGATGGGATTTC</monospace></td>
+<td align="left">226</td>
+</tr>
+<tr>
+<td align="left">TLR4</td>
+<td align="left"><monospace>CCAGTGAGGATGATGCCAGAAT</monospace></td>
+<td align="left"><monospace>GCCATGGCTGGGATCAGAGT</monospace></td>
+<td align="left">67</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The PCR products were visualized on 1% agarose gel containing 0.5 &#956;g/ml of ethidium bromide by imaging using the ChemiDoc<sup>&#8482;</sup> MP Imager (Biorad, CA, USA). Densitometric analysis was performed on the bands using &#8206;MyImageAnalysis<sup>&#8482;</sup> software (Thermofischer Scientific, MA, USA). The bands were normalized against GAPDH and RPlO1 as reference genes.</p>
+</sec>
+<sec id="sec006">
+<title>Cytokine expression analysis using ELISA array</title>
+<p>The Human, bacterial Toll-like receptor Multi analyte ELISA array kit ((MEH-008A), Hilden, Germany) was used to assess a cytokine profile in response to LPS stimulation as a screening exercise. The wash buffer, bovine serum albumin (BSA), sample dilution buffer, avidin-HRP conjugate and antigen standard cocktail were prepared according to the manufacturer&#8217;s instructions.</p>
+<p>The 12 wells in each row of the 96-well ELISA plate (Multi-analyte ELISA array kit, MEH-008A) are pre-coated with monoclonal antibodies to TNF-&#945;, IL1&#946;, IL6, IL12, IL17A, IL8, MCP-1, RANTES, MIP-1&#945;, MIP-1&#946;, MDC and eotaxin. Into sample wells, 50 &#956;l each of assay buffer THP-1 extracts were added. Using a multi-channel pipette, 50 &#956;l of sample dilution buffer was added to all the negative control wells. To prepare the positive control,50 &#956;l of the final antigen standard cocktail was added. The reactions were then processed as described in the manufacturer&#8217;s manual.</p>
+<p>Absorbance was read using a microplate spectrophotometer (Multiskan<sup>&#8482;</sup> GO, Thermofischer Scientific, MA, USA) at 450 nm and 570 nm. The readings at 570 nm were subtracted from those at 450 nm for wavelength correction. For each antigen, the corrected absorbance values were calculated by subtracting the absorbance of the negative control from the absorbance of test samples and the results were plotted on a bar graph.</p>
+</sec>
+<sec id="sec007">
+<title>Glycolysis/Oxygen consumption dual assay</title>
+<p>Oxygen consumption was assessed using MitoXpress&#174; Xtra (Cayman Chemicals- 600801) after the cells were treated either with LPS or with a combination of LPS and Polymyxin B for 24 hours. Cells were seeded in 4titude-Vision Plate<sup>&#8482;</sup> 96-well microplates at 3 x 10<sup>5</sup> cells/ml in 100 &#956;l of RPMI 1640 medium and incubated overnight at 37&#176;C, 5% CO<sub>2</sub> and a humidified atmosphere. A further 50 &#956;l of fresh growth medium was then added and the cells were treated in triplicate and incubated for 24 hours. MitoXpress&#174; Xtra solution (10 &#956;l) was then added to each well except the blank. All wells were gently overlaid with 100 &#956;l of mineral oil. The plate was then inserted into Varioskan Flash multimode spectrophotometer (Thermofischer Scientific) and time-resolved fluorescence (TRF) was measured kinetically for 3 hours with an excitation wavelength of 380 nm and an emission wavelength at 650 nm and a delay time of 10<italic>&#956;s</italic>. Fluorescence signal intensity was plotted versus time and linear regression was applied to the linear portion of each curve to obtain the slopes. The slope obtained from a blank was subtracted from a test value to give a corrected fluorescence value.</p>
+</sec>
+<sec id="sec008">
+<title>Lactate assay</title>
+<p>After 48-hour treatments with either LPS and polymyxin B or a combination thereof, 10 &#956;L of cell culture supernatant was carefully aspirated. A glycolysis reaction solution (6 ml) containing 60 &#956;l each of glycolysis assay substrate (Cayman Chemicals, 600451) and co-factor (Cayman Chemicals, 600454) was made into 5.82 ml of assay buffer. L-lactate standards (10, 5, 2.5, 1.25, 0.625, 0.313, 0.156 and 0 mM) were prepared from the 10 mM stock solution (Cayman Chemicals, 600455) to generate a standard curve. 10 &#956;l of each sample, in duplicate, were transferred into appropriate wells in a clear, flat-bottomed 96-well plate. Two wells were allocated for the blank, into which culture medium was transferred. An equal volume of L-lactate standards was also transferred into appropriate wells on the 96-well plate also in duplicate. 100 &#956;l of the reaction solution was added using a multi-channel pipette to all wells. The plate was incubated at room temperature on an orbital shaker for 30 minutes. The absorbance was read at 490 nm using a Multiskan<sup>&#8482;</sup> GO Microplate Spectrophotometer (Thermofischer Scientific, MA, USA). The average absorbance values were computed and the blank absorbance was subtracted from all values to obtain the corrected absorbance values. The corrected absorbance values for each of the standards were plotted against their corresponding concentration values to obtain a standard curve. The L-lactate concentrations for experimental samples were finally computed using the formula:
+<disp-formula id="pone.0222614.e001">
+<alternatives>
+<graphic id="pone.0222614.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222614.e001" ns0:type="simple" />
+<ns1:math display="block" id="M1">
+<ns1:mo>[</ns1:mo><ns1:mrow><ns1:mi>L</ns1:mi><ns1:mo>&#8722;</ns1:mo><ns1:mi>l</ns1:mi><ns1:mi>a</ns1:mi><ns1:mi>c</ns1:mi><ns1:mi>t</ns1:mi><ns1:mi>a</ns1:mi><ns1:mi>t</ns1:mi><ns1:mi>e</ns1:mi><ns1:mspace width="0.25em" /><ns1:mi>m</ns1:mi><ns1:mi>M</ns1:mi></ns1:mrow><ns1:mo>]</ns1:mo><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>(</ns1:mo><ns1:mfrac><ns1:mrow><ns1:mi>A</ns1:mi><ns1:mi>b</ns1:mi><ns1:mi>s</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>r</ns1:mi><ns1:mi>b</ns1:mi><ns1:mi>a</ns1:mi><ns1:mi>n</ns1:mi><ns1:mi>c</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>l</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>p</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:mfrac><ns1:mo>)</ns1:mo></ns1:mrow><ns1:mo>&#8722;</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>y</ns1:mi></ns1:mrow><ns1:mrow><ns1:mo>&#8722;</ns1:mo><ns1:mi>i</ns1:mi><ns1:mi>n</ns1:mi><ns1:mi>t</ns1:mi><ns1:mi>e</ns1:mi><ns1:mi>r</ns1:mi><ns1:mi>c</ns1:mi><ns1:mi>e</ns1:mi><ns1:mi>p</ns1:mi><ns1:mi>t</ns1:mi></ns1:mrow></ns1:msub>
+</ns1:math>
+</alternatives>
+</disp-formula></p>
+</sec>
+<sec id="sec009">
+<title>Measurement of mitochondrial membrane potential</title>
+<p>Following 48-hour treatments, cells were pelleted by centrifugation at 1500 rpm for 5 minutes using the Sigma 1&#8211;15 benchtop centrifuge. Positive control and negative control samples were FCCP (Sigma-C2920)&#8212;and 95% ethanol-treated samples respectively. The supernatant was discarded, and the pellet resuspended gently in 400 &#956;l of JC-10 dye-loading solution (MAK160-1KT). The cells were incubated at 37&#176;C, 5% CO<sub>2</sub> and 95% humidity for 60 minutes. Fluorescence intensity was monitored using FL1 (green) and FL2 (orange) fluorescent channels in a BD Acuri C6 flow cytometer (BD Biosciences, CA, and USA). For proper gating, an untreated unstained sample was included to determine the location of non-fluorescent cells in the quadrants and the gates for all other samples were set accordingly (<xref ref-type="supplementary-material" rid="pone.0222614.s001">S1 Fig</xref>). Fluorochrome spill over between FL1 and FL2 channels was corrected by fluorescence compensation. FL1 was corrected by subtracting 3.2 units from FL2, while FL2 was corrected by subtracting 7.5 from FL1. All samples were run in triplicates. FCCP dissolved in 95% ethanol at 10 &#956;M was added as a positive control. A vehicle-only control (cells treated with 95% ethanol only) was also included.</p>
+</sec>
+<sec id="sec010">
+<title>Cell cycle analysis</title>
+<p>After treatment with either LPS and Polymyxin B or their combination for 24 and 48 hours, the cells were fixed in 70% prechilled (at -20&#176;C) ethanol and then stored at -20&#176;C for 24 hours.</p>
+<p>For propidium iodide staining, the cell suspensions were centrifuged using the Sigma 1&#8211;15 benchtop centrifuge at 3 000 rpm for 5 minutes to pellet the cells. The ethanol supernatant was discarded and the pellet washed twice by adding 1 ml of 1X PBS to cell pellet, resuspending and centrifuging for 5 minutes. 300 &#956;l of FxCycle<sup>&#8482;</sup>PI/RNase (Molecular Probes, F10797) solution was then added to each pellet. Each tube was vortexed gently followed by incubation at room temperature in the dark for 30 minutes. Thereafter, samples were analysed using a BD FACS Aria III flow cytometer (BD Biosciences, CA, USA) with wavelength set at 488 nm. The sample flow rate was set to &#8216;slow', for proper interrogation at the flow cell. 10 000 events were acquired and the sample population was gated by identifying singlet populations on the forward scatter versus side scatter plot. PI intensity was read on an FL3 channel at a wavelength of 488 nm.</p>
+</sec>
+<sec id="sec011">
+<title>Apoptosis and necrosis assay</title>
+<p>Following cell cycle analysis, we observed a significant amount of sub G0/G1 population of cells (representing dead cells) after 48 hours of treatment of THP-1 cells with LPS decided to investigate the mode of cell death using an apoptosis/necrosis cell death assay. The Dead Cell Apoptosis Kit with Annexin V Alexa Fluor<sup>&#8482;</sup> 488 &amp; Propidium Iodide (PI) (Life Technologies-V13241) was used following the manufacturer's instructions.</p>
+</sec>
+<sec id="sec012">
+<title>Pathway analysis</title>
+<p>In order to investigate possible relationships between upregulated cytokines and enhanced glycolysis observed from increased lactate levels following LPS treatment, pathway analysis was done using GeneMANIA which predicts the function of genes of interest as well as possible protein-protein interaction networks. It uses weights that indicate the predictive value of each selected data set for the query. These weights are assigned to networks based on how significant they are to the query genes. Non-relevant networks have zero weightings, and are not shown in the results. The network weighting algorithms used by GeneMANIA have been validated in previous studies [<xref ref-type="bibr" rid="pone.0222614.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0222614.ref025">25</xref>].</p>
+</sec>
+<sec id="sec013">
+<title>Statistical analysis</title>
+<p>Statistical analyses were done using a two-tailed Student's t-test on the GraphPad Prism webserver, comparing two groups at a time. Results were considered statistically significant at <italic>p</italic> values &lt;0.05. Unless otherwise stated, the data are presented as the mean &#177; standard deviation of three independent experiments.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<sec id="sec015">
+<title>Activation of TLR-4 influences the metabolic programme in THP-1 cells</title>
+<p>Having shown that LPS activation enhanced Toll-like receptor 4 (TLR4) expression in THP-1 cells (<xref ref-type="supplementary-material" rid="pone.0222614.s001">S1 Fig</xref>), we investigated whether LPS perturbed their metabolic programme by measuring glycolytic activity, oxidative phosphorylation and mitochondrial membrane potential (MMP) (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1B&#8211;1E</xref>). TLR4 transcription was maximal at about 5 ng/ml and declined at the higher concentration of 20 ng/ml. Lactate measurements indicate that THP-1 cells already have a glycolytic phenotype which is enhanced in 48 hours after stimulation by LPS in a concentration-dependent manner and is impeded by polymyxin B (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1B</xref>). In the first 24 hours, LPS does not perturb this glycolytic phenotype. When used alone, dichloroacetate (DCA), which sustains endogenous pyruvate into the Tricarboxylic Acid Cycle and methyl pyruvate, which represents exogenous pyruvate, reverse the glycolytic phenotype as shown by the reduced lactate and increased oxygen consumption (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1C and 1D</xref>). Interestingly, the effects of DCA appear to be dependent on TLR4 activation because polymyxin B inhibits restores the glycolytic phenotype of DCA and LPS-treated cells. In contrast, exogenous pyruvate reverses the glycolytic phenotype by a different mechanism, as polymyxin B does not alter lactate production. However, when LPS and exogenous pyruvate appear to reverse the Warburg Effect as they reduce the observed glycolytic flux (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1C</xref>) and increase OXPHOS (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1D</xref>). This suggests that exogenous pyruvate is more effective in reversing the Warburg when compared to endogenous pyruvate.</p>
+<fig id="pone.0222614.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>LPS induces a dose-dependent increase in TLR4 mRNA expression and induces metabolic reprogramming in THP-1 cells.</title>
+<p><bold>A</bold> RT-PCR analysis following LPS treatments (5, 10 and 20 ng/ml) for 24 hours. Expression was normalised against GAPDH as reference gene. <bold>B</bold> L-lactate concentrations following 24-hour treatments with LPS and Polymyxin B (PmB). <bold>C</bold> changes in time-resolved fluorescence (TRF) following 24-hour treatments, indicative of oxygen consumption. <bold>D</bold> L-lactate production after 48-hour treatments with LPS and LPS-polymyxin B combination. <bold>E</bold> mitochondrial membrane depolarisation following treatments with LPS (5, 10 and 20 ng/ml) and co-treatments with PmB. Fluorescence intensity was monitored using FL1 and FL2 fluorescent channels in a BD Acuri C6 flow cytometer. A Student t-test was used to generate the p-values which compared the difference between the untreated and treated sample values. The data is represented as mean &#177; SD from 3 independent experiments (* indicates p &lt;0.05, ** indicates p &lt;0.01, *** indicates p &lt;0.001). GraphPad Quick Calcs software was used to compute all statistics.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.g001" ns0:type="simple" />
+</fig>
+<p>Our data indicate that LPS induced a significant drop in MMP (P values &#177; SD = 0.0001 &#177; 0.013 and 0.0001 &#177; 0.014) following treatment with 5 and 10 ng/ml LPS respectively. Polymyxin B did not inhibit this LPS-mediated membrane depolarisation suggesting that it may be governed by a TRL4-independent mechanism. However, LPS caused these changes in mitochondrial membrane polarization in a concentration-dependent manner (<xref ref-type="fig" rid="pone.0222614.g001">Fig 1E</xref>, <xref ref-type="supplementary-material" rid="pone.0222614.s001">S1 Fig</xref>). The loss in mitochondrial membrane potential is often associated with apoptosis [<xref ref-type="bibr" rid="pone.0222614.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0222614.ref027">27</xref>].</p>
+</sec>
+<sec id="sec016">
+<title>LPS suppresses G<sub>2</sub>/M progression in THP-1 cells</title>
+<p>We have previously shown that exogenous pyruvate kills breast, lung and ovarian cancer cell lines but promotes the survival of a normal fibroblast cell line. Furthermore, exogenous pyruvate protects the normal cell line from genotoxic stress caused by irinotecan [<xref ref-type="bibr" rid="pone.0222614.ref005">5</xref>]. Since monocytes are often exposed to stress caused by infectious agents, we investigated the response of THP-1 cells to LPS in order to understand the effect of superimposing infection on a cancerous monocyte. We also tested how THP-1 cells respond to exogenous pyruvate with or without LPS. The cells were treated as shown in (<xref ref-type="fig" rid="pone.0222614.g002">Fig 2A&#8211;2L</xref>) and the cell cycle progression and type of cell death were measured by flow cytometry following Annexin V staining to determine the type of cell death. Overall, cells treated with LPS appeared to undergo S-phase cell cycle arrest. Detailed cell cycle changes are shown in (<xref ref-type="supplementary-material" rid="pone.0222614.s002">S2 Fig</xref>). In contrast to methyl pyruvate, DCA caused S-phase cell cycle arrest when measured at 24 hrs (<xref ref-type="fig" rid="pone.0222614.g002">Fig 2E&#8211;2H</xref>). Both DCA and methyl pyruvate did not reverse the LPS-induced S-phase arrest. (<xref ref-type="fig" rid="pone.0222614.g002">Fig 2I&#8211;2L</xref>). It is notable that unlike the non-myeloid cancer cell lines mentioned earlier, the reversal of the Warburg Effect using exogenous pyruvate does not kill the THP-1 cells.</p>
+<fig id="pone.0222614.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>The effects of LPS and perturbation of glucose metabolism on the cell cycle and cell viability.</title>
+<p><bold>A to L</bold> THP-1 cell cycle analysis in 6 and 24 hours. Cell were treated with permutations LPS (5 ng/ml), MP (0.08%) DCA (10 mM) as indicated. Cell death analysis shows proportion of cells undergoing apoptosis <bold>(M)</bold> or necrosis (<bold>N)</bold> after treatments as indicated for 24 hrs. Following cell cycle analysis, the Proliferation Index with 24hrs and 48 hrs (<bold>O</bold> and <bold>P</bold> respectively) was computed using the following formula: [(G<sub>2</sub>M+S)/(G<sub>0</sub>G<sub>1</sub>+S+G<sub>2</sub>M)]X100. A Student t-test was used to generate the p-values which compared the difference between the untreated and treated sample values. Data is represented as mean &#177; SD from 3 independent experiments (* indicates p &lt;0.05, ** indicates p &lt;0.01, *** indicates p &lt;0.001). GraphPad Quick Calcs software was used to compute all statistics.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.g002" ns0:type="simple" />
+</fig>
+<p>Although the number of dead cells as observed by propidium iodide staining did not differ remarkably with all the treatments, Annexin V staining revealed that the proportion of cells killed by apoptosis and necrosis differed remarkably. LPS killed cells mainly by necrosis, which seems to be mediated by TLR-4 as it was reduced by polymyxin B. In contrast, exogenous pyruvate killed them by apoptosis. Moreover, methyl pyruvate did not affect LPS-induced necrosis although it reduced LPS-induced apoptosis (<xref ref-type="fig" rid="pone.0222614.g002">Fig 2M and 2N</xref>) and (<xref ref-type="supplementary-material" rid="pone.0222614.s003">S3 Fig</xref>). The proliferation index fluctuated over 48 hours, but it did not differ remarkably between treated and untreated cells (<xref ref-type="fig" rid="pone.0222614.g002">Fig 2O and 2P</xref>).</p>
+</sec>
+<sec id="sec017">
+<title>LPS induces pro-inflammatory chemokines, IL-8, RANTES, MIP&#945;, MIP&#946; and MDC</title>
+<p>To further investigate the signalling pathway activated by LPS we treated the THP-1 cells with LPS (5 ng/ml) and polymyxin B (10 &#956;g/ml) for 24 hours and measured downstream effector cytokine expression using a TLR-induced multi-analyte ELISA array kit. The array simultaneously profiled the expression of 12 inflammatory cytokines namely: TNF-&#945;, IL1&#946;, IL6, IL12, IL17A, IL8, MCP-1, RANTES, MIP-1&#945;, MIP-1&#946;, MDC and Eotaxin. We found that LPS induces IL-8, RANTES, MIP&#945;, MIP&#946; and MDC that are pro-inflammatory chemokines (<xref ref-type="fig" rid="pone.0222614.g003">Fig 3A</xref>). Their induction was abrogated by polymyxin B. To validate the cytokine expression as shown by screening with the ELISA array, we performed RT-PCR on total RNA samples that were extracted from cells treated with LPS and LPS/Polymyxin B in biological duplicates for 24 and 48 hours. We used gene-specific primers for RANTES, IL-8, and MDC designed using the NCBI Primer blast software. This confirmed the LPS-induced transcription of genes that encode these cytokines in a concentration-dependent manner. Notably, known LPS-induced cytokines such as TNF-&#945;, IL-1&#946; and IL-6 were not induced in our experiments (<xref ref-type="fig" rid="pone.0222614.g003">Fig 3B&#8211;3E</xref>) and (<xref ref-type="supplementary-material" rid="pone.0222614.s004">S4 Fig</xref>).</p>
+<fig id="pone.0222614.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Lipopolysaccharide-induced cytokine profile.</title>
+<p><bold>A</bold> shows induction of cytokines using an ELISA array for measuring 12 cytokines (shown on the x-axis) following treatment with LPS (5 ng/ml) and polymyxin B (PmB) (10 &#956;g/ml) for 24 hours in a single detection experiment. The absorbance (A<sub>570nm</sub>-A<sub>450nm</sub>) data were obtained using a Multiskan Go microplate spectrophotometer. <bold>B-E</bold> show RT-PCR for IL8, RANTES, MDC and MIP-1&#946; expression following 24-hour treatment with permutations of LPS and PmB as indicated. Each RT-PCR result is quantified by densitometry shown in the lower panels. The data were normalised with reference gene, RPL01. The data are represented as mean &#177; SD from two independent experiments.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec018">
+<title>Interaction pathway analysis suggests that the upregulated chemokines interact with glucose transporters and glycolytic pathway enzymes</title>
+<p>To determine whether the affected cytokines have any functional impact on monocytes, we investigated the potential molecular interactions involving the four LPS-induced chemokines by <italic>in silico</italic> pathway analysis using GeneMANIA [<xref ref-type="bibr" rid="pone.0222614.ref024">24</xref>]. We also used the Integrative Multi-species Prediction (IMP) [<xref ref-type="bibr" rid="pone.0222614.ref028">28</xref>] to predict LPS-induced functional networks in THP-1 cells. Molecular analysis using GeneMANIA indicates that induced chemokines namely; RANTES, IL8, MIP-1&#946; and MDC are co-expressed with their receptors, glucose transporters and with glycolysis enzymes (<xref ref-type="fig" rid="pone.0222614.g004">Fig 4A</xref> and <xref ref-type="table" rid="pone.0222614.t002">Table 2</xref>).</p>
+<fig id="pone.0222614.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Interleukin 8, RANTES, MIP-1 beta and MDC show co-expression and other potential interactions with glycolytic enzymes.</title>
+<p>The diagram shows gene interaction networks based on the upregulated cytokines. The interaction networks were generated using upregulated cytokines and glycolytic genes as input into the GeneMANIA and IMP webservers. <bold>A</bold> and <bold>B</bold> show interactions generated by GeneMANIA and IMP respectively. In <bold>A</bold>, the nodes represent genes while the edges represent interactions. All striped nodes show input genes while unstriped nodes represent other interacting genes. The predicted type of interaction is colour coded (see the inserted key). Interactions were considered statistically significant when an FDR (False discovery rate) value is &lt; 0.05. FDR&lt;0.05 represents a 5% chance of getting a false statistically significant result. GeneMANIA computes FDR values using the Benjamini-Hochberg procedure, which is built in the webserver. <bold>B</bold> shows predicted interaction network of the cytokines and glycolytic proteins using the IMP webserver. The relationship confidence bar shown on the figure gives the strength of the interaction based on network weights. This means that red edges represent stronger interaction confidence while green interactions show a weaker confidence. The red nodes represent input molecules while the black nodes represent other interacting proteins in the network.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.g004" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222614.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222614.t002</object-id>
+<label>Table 2</label> <caption><title>Genes used for <italic>GeneMANIA</italic> and IMP pathway analysis.</title></caption>
+<alternatives>
+<graphic id="pone.0222614.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">NCBI Gene ID</th>
+<th align="left">Gene</th>
+<th align="left">Common name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="3"><bold>Upregulated cytokines</bold></td>
+</tr>
+<tr>
+<td align="left">3576</td>
+<td align="left">CXCL8</td>
+<td align="left">Interleukin 8 (IL-8)</td>
+</tr>
+<tr>
+<td align="left">6352</td>
+<td align="left">CCL5</td>
+<td align="left">Regulated Upon Activation Normal T cell Express Sequence (RANTES)</td>
+</tr>
+<tr>
+<td align="left">6351</td>
+<td align="left">CCL4</td>
+<td align="left">Macrophage inflammatory protein-1 beta (MIP-1&#946;)</td>
+</tr>
+<tr>
+<td align="left">6367</td>
+<td align="left">CCL22</td>
+<td align="left">Macrophage-Derived Chemokine (MDC)</td>
+</tr>
+<tr>
+<td align="center" colspan="3"><bold>Glycolytic genes investigated</bold></td>
+</tr>
+<tr>
+<td align="left">3099</td>
+<td align="left">HK2</td>
+<td align="left">Hexokinase, isoform 2</td>
+</tr>
+<tr>
+<td align="left">3101</td>
+<td align="left">HK3</td>
+<td align="left">Hexokinase, isoform 3</td>
+</tr>
+<tr>
+<td align="left">3939</td>
+<td align="left">LDHA</td>
+<td align="left">Lactate dehydrogenase A</td>
+</tr>
+<tr>
+<td align="left">5224</td>
+<td align="left">PGAM2</td>
+<td align="left">Phosphoglycerate mutase, isoform 2</td>
+</tr>
+<tr>
+<td align="left">6513</td>
+<td align="left">SLC2A1</td>
+<td align="left">Glucose transporter 1 (GLUT1)</td>
+</tr>
+<tr>
+<td align="left">6517</td>
+<td align="left">SLC2A4</td>
+<td align="left">Glucose transporter 4 (GLUT4)</td>
+</tr>
+<tr>
+<td align="left">2023</td>
+<td align="left">ENO1</td>
+<td align="left">Enolase 1</td>
+</tr>
+<tr>
+<td align="left">5163</td>
+<td align="left">PDK1</td>
+<td align="left">Pyruvate dehydrogenase kinase1</td>
+</tr>
+<tr>
+<td align="left">5315</td>
+<td align="left">PKM</td>
+<td align="left">Pyruvate kinase</td>
+</tr>
+<tr>
+<td align="left">3091</td>
+<td align="left">HIF-1&#945;</td>
+<td align="left">Hypoxia-inducible factor 1 alpha</td>
+</tr>
+<tr>
+<td align="left">5209</td>
+<td align="left">PFKFB3</td>
+<td align="left">6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>More functional analysis using the IMP webserver reveals two distinct functional networks (<xref ref-type="fig" rid="pone.0222614.g004">Fig 4B</xref>). One set includes glycolysis enzymes as well as HSP90AB1 and YWHAZ (14-3-3<italic>&#950;</italic>), both of which are associated with protein-folding and promote tumour formation and cancer cell proliferation [<xref ref-type="bibr" rid="pone.0222614.ref029">29</xref>]. The other group consists of anti-apoptotic molecules, cell adhesion molecules, glucose transporters and chemokine receptors. Notably, IL-8 and RANTES are the most upregulated by LPS-mediated TLR4 activation and both appear to dominate the interactions in this group. The anti-apoptotic proteins include B-cell lymphoma 2-related protein Z1 (BCL2A1) an NF&#954;B target with strong pro-survival functions and Tumour Necrosis Factor-alpha protein 3 (TNFA1P3) which inhibits TNF&#945;-mediated NF&#954;B activation and TNF-mediated apoptosis [<xref ref-type="bibr" rid="pone.0222614.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0222614.ref031">31</xref>]. In addition, this group comprises the classical glucose transporters SLC2A3 (GLUT3) which were found to mediate elevated glycolysis in colon cancer cells [<xref ref-type="bibr" rid="pone.0222614.ref032">32</xref>] and SLC2A14 (Glut14) which is a duplication of GLUT3 and is known to be specifically expressed in testis [<xref ref-type="bibr" rid="pone.0222614.ref033">33</xref>].</p>
+<p>Finally, the software predicted interaction with the basic helix-loop-helix protein BHLHE40 which is integral to Vitamin D receptor-mediated signaling [<xref ref-type="bibr" rid="pone.0222614.ref034">34</xref>] and adrenomedullin (ADM) which is implicated in initiation and propagation of inflammatory response and known to be highly upregulated in LPS-treated macrophages [<xref ref-type="bibr" rid="pone.0222614.ref035">35</xref>]. The two group appear to be interlinked via the hypoxia-inducible factor (HIF-1), the prototypical regulator of oxygen homeostasis. Taken together, these observations suggest that the induced cytokines probably have an autocrine mechanism and may be involved in regulating metabolism and cell survival.</p>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>Although, cancer cells are often exposed to infectious environments, there are still unanswered questions about how they respond to infectious agents and commensals such as bacteria. A good example of this is cancers of the colon. We investigated the response of one representative of an innate immune cell to assess the cellular responses to infection by an already cancerous cell. We have shown that TLR-4 signalling can mediate the glycolytic phenotype in THP-1 cells enhancing it when they are activated by LPS. This is accompanied by upregulation of a subset of pro-inflammatory chemokines. Furthermore, LPS appears to have an impact on cell cycle progression as THP-1 cells undergo S-phase cell cycle arrest within 24 hours after treatment. Moreover, there is minimal cell death, mainly by necrosis, in LPS-treated THP-1 cells. In contrast to non-immune cancer cell lines, perturbation of this glycolytic programme by exogenous pyruvate does not kill the THP-1 cells. Instead, cell division appears to proceed in the same manner as untreated cells. This suggests that in monocytes, modulation of the Warburg Effect may be governed by a different molecular mechanism. Alternatively, it suggests that the impact of the Warburg Effect is context-dependent.</p>
+<p>We have noted that known LPS-induced cytokines such as TNF-&#945;, IL-1&#946;, and IL-6 are not induced in our study. In previous studies, it has been shown consistently, that IL-1&#946;, TNF-&#945;. IL-6, IL-8 and IL-10 are stimulated by <italic>E</italic>. <italic>coli</italic> LPS in THP-I cells [<xref ref-type="bibr" rid="pone.0222614.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0222614.ref036">36</xref>]. However, in our study, IL-1&#946;, TNF-&#945; and IL-6 are not affected. One explanation could be that these studies used much higher concentrations (&#956;g) compared to the nanogram amounts used here. As a screening exercise, this experiment was not repeated but the upregulated cytokines were further measured by PCR whose results were consistent with ELISA in two biological replicates. It is known that LPS can induce NF&#8211;B activated gene expression using a different pathway to TNF&#945; because a dominant negative TRAF2 mutant does not inhibit it. It was also shown that LPS-induced activation in THP-1 cells does not involve the Interleukin 1 receptor (IL-1R) because gene expression is not inhibited by IL-1R antagonists although dominant negative mutants of molecules upstream of IKK/NF&#954;B point inhibited LPS-induced NF&#954;B activation. Thus, TLR4 was identified as the mediator of another pathway that converged at IKK/NF&#954;B [<xref ref-type="bibr" rid="pone.0222614.ref037">37</xref>].</p>
+<p>In addition to modulating the transcription of TLR4 and pro-inflammatory chemokines, we have found that LPS enhances the glycolytic phenotype of THP-1 cells and causes S-phase cell cycle arrest after 24 hours ostensibly by inhibiting G2/M progression. The mechanism by which LPS induces cell cycle arrest is still unclear. In murine bone marrow-derived macrophages (BMM), LPS was shown to arrest the cell cycle at G<sub>1</sub>[<xref ref-type="bibr" rid="pone.0222614.ref038">38</xref>] [<xref ref-type="bibr" rid="pone.0222614.ref039">39</xref>]. Although LPS induces the mutagenic free radical nitric oxide (NO) via the nitric oxide synthase 11 gene [<xref ref-type="bibr" rid="pone.0222614.ref040">40</xref>], it is doubtful that NO is responsible for cell cycle arrest in macrophages. Firstly, a study designed to investigate this matter showed that LPS inhibits proliferation of NOS<sup>-/-</sup> murine BMM. Secondly, LPS-induced cell cycle arrest in wild type BMM was not reversed by a NOSII inhibitor [<xref ref-type="bibr" rid="pone.0222614.ref038">38</xref>]. In the present study, THP-1 cells, which represent undifferentiated macrophages, are shown to accumulate at the S-phase when exposed to LPS. It has been shown that inhibition of cyclin A, cyclin E, as well as their kinase CDK-2, causes cells to accumulate at S-phase [<xref ref-type="bibr" rid="pone.0222614.ref041">41</xref>]. However, we have found no reports of LPS inhibiting these checkpoint molecules.</p>
+<p>The results as shown here resemble those produced by LPS in mouse bone marrow-derived macrophages whereby it inhibited proliferation of NOSII<sup>-/-</sup> mouse macrophages indicating that LPS can promote cell proliferation in the absence of nitric oxide. However, unlike the THP-1 cells, these primary macrophages underwent G1 cell cycle arrest [<xref ref-type="bibr" rid="pone.0222614.ref038">38</xref>].</p>
+<p>Surprisingly, we found that the exogenous pyruvate promotes cell cycle progression in THP-1 cells in contrast to non-myeloid cell lines which were previously shown to be sensitive to reversal of the Warburg Effect by exogenous pyruvate [<xref ref-type="bibr" rid="pone.0222614.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0222614.ref042">42</xref>]. Although methyl pyruvate promotes cell cycle progression in a normal cell line [<xref ref-type="bibr" rid="pone.0222614.ref005">5</xref>] and in THP-1 cells as shown here, it does not unlock the G2/M cell arrest of LPS-treated THP1 cells. Moreover, enhancing endogenous pyruvate by using DCA does not alter the G<sub>2</sub>/M-phase cell cycle arrest caused by LPS. This suggests that subverting the glycolytic metabolic programme in the myeloid cell line does not activate apoptotic pathways as it does in the non-myeloid cancer cell lines.</p>
+<p>Upon activation by LPS, the expression of pro-inflammatory chemokines was induced in THP-1 cells. This is interesting because myeloid lineage cells play a key role in polarizing innate and adaptive immune response through their differential chemokine expression [<xref ref-type="bibr" rid="pone.0222614.ref043">43</xref>]. The significance of the set of induced chemokines needs some evaluation. RANTES and MIP are pro-inflammatory chemokines which are ligands for the CCR5 receptor found on monocytes, macrophages, Th1 cells, activated T cells and on natural killer (NK) cells suggesting that activation of monocytes by LPS would influence these cell types. The MDC chemokine, which is involved in both pro-inflammatory and homeostatic activities is a ligand for CCR4 and is expressed on immature dendritic cells, monocytes, Th2 cells, natural killer and T skin cells. This profile then shows that LPS activation stimulates expression of 3 chemokine effectors with autocrine function. Expression of Interleukin 8, which binds to CXCR1 and CXCR2 receptors on neutrophils, is also enhanced.</p>
+<p>It is worth considering if this chemokine profile is related to the enhancement of the glycolytic phenotype in LPS-induced THP-1 cells. The pathway prediction study presented here suggests that LPS induces a chemokine profile that is connected to anti-apoptotic signals, cell adhesion molecules, glucose transporters and many glycolysis enzymes. BLC2A1, in particular, is expressed in haematopoietic cells to facilitate the survival of a subset of leukocytes inflammation [<xref ref-type="bibr" rid="pone.0222614.ref044">44</xref>]. Interestingly the hypoxia&#8208;inducible factor is strongly connected to the glycolysis proteins and to many others in the second group such as adrenomedullin and the glucose transporters which are known HIF-1 targets. Although it has been reported that LPS does not induce HIF-1 in undifferentiated THP-1 cells [<xref ref-type="bibr" rid="pone.0222614.ref023">23</xref>], it is a major role player on oxygen homeostasis and on cell survival under hypoxic conditions [<xref ref-type="bibr" rid="pone.0222614.ref045">45</xref>].</p>
+</sec>
+<sec id="sec020" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The data presented here suggest that LPS activation of THP-1 cells enhances their glycolytic phenotype and induces a set of proinflammatory chemokines. LPS also appears to induce S-phase cell cycle arrest at least 6 hours after treatment and minimal cell death even after 24 hours. The reversal of the glycolytic phenotype by exogenous pyruvate does not affect the cells as expected. This raises some complexity about the Warburg Effect in myeloid cells. Altogether, the molecular analysis conducted here suggests that the chemokine induction is linked to glycolysis and cell survival of the LPS-activated monocytic leukaemia cell line but not to proliferation. In future studies, it is necessary to test the impact of this molecular profile on the cell cycle because the mechanism by which the observed cellular dynamics occur is not clear.</p>
+</sec>
+<sec id="sec021">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222614.s001" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.s001" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>LPS upregulates the mRNA expression of IL8, RANTES and MDC, antagonised by PmB.</title>
+<p><bold>A</bold> and <bold>D</bold> show RT-PCR gel images and corresponding densitometry results for IL8<bold>, B</bold> and <bold>E:</bold> RANTES and <bold>C</bold> and <bold>F:</bold> MDC, following 24-, and 48-hour treatments respectively, with 5, 10 and 20 ng/ml of LPS and co-treatments with 10 &#956;g/ml PmB. All genes were normalised with reference, RPL01.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222614.s002" mimetype="application/jpeg" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.s002" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Time-dependent effects of various drugs on the cell cycle progression in THP-1 cells.</title>
+<p>The cells were treated with 5 ng/ml LPS (Lipopolysaccharides), 10 mM DCA (dichloroacetate), 0.08% MP (Methyl pyruvate) and/or 10 &#956;g/ml PmB (Polymyxin B) for 6, 12,18, and 24 hours. <bold>Sub G0/G1</bold> phase is shown in <bold>maroon</bold>; <bold>G0/G1</bold> phase in <bold>red</bold>, <bold>S-phase</bold> in blue, and <bold>G2/M phase</bold> in <bold>green</bold>. The cell cycle assay was performed using BD Acurri <sup>TM</sup> flow cytometer. The data represented here is a representative of three separate experiments. Florescence data were acquired on the FL2 (orange fluorescence) channel. <bold>B. Cell cycle analysis in THP-1 cells.</bold> Cells were treated with 5 ng/ml of LPS, 0.08 MP (methyl pyruvate), 10 mM DCA (dichloroacetate) and/or 10 &#956;g/ml PmB for 6, 12, 18 and 24 hours <bold>(i)</bold>&#8211;<bold>(iv)</bold>. The <bold>blue bars</bold> represent sub-G0/G1 cell populations; <bold>orange bars</bold> show G0/G1 cells, <bold>grey bars</bold> indicate S-phase populations and <bold>yellow bars</bold> depict G2/M cell populations. The data are represented as mean &#177; SD from 3 independent experiments (* indicates p &lt;0.05, ** indicates p &lt;0.01, *** indicates p &lt;0.001. All statistics were computed using GraphPad Quick Calcs software.</p>
+<p>(JPG)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222614.s003" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.s003" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Effects of LPS, MP and DCA on cell viability in THP-1 cells following 24 hours of treatment.</title>
+<p>Each diagram represents a treatment. Annexin V/PI stained THP-1 cells following treatment with either 5 ng/ml LPS, 0.08% MP, 10mM DCA,10 &#956;g/ml PmB and combination of these treatments in comparison with untreated cells for 24 hours. Each quadrant represents populations of viable (lower left), early apoptotic (lower right), late apoptotic (upper right) and necrotic (upper left) cells The data were acquired using a BD Acuri C6 flow cytometer with propidium iodide (PI) fluorescence monitored on the FL3 (red fluorescence) channel (shown on the y-axis) while annexin V-alexa 488 of the FL1 (green fluorescence) channel (shown on the x-axis).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222614.s004" mimetype="application/jpeg" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.s004" ns0:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>LPS induces mitochondrial membrane depolarization; independent of polymyxin B.</title>
+<p><bold>A</bold> Each diagram is a representative of three independent treatments. The cells were treated with 5, 10 and 20 ng/ml LPS and/or polymyxin B for 48 hours. The x-axis represents the FL2 (Green fluorescence) channel, while the y-axis shows FL2 (orange fluorescence) channel. The <bold>lower left quadrant</bold> shows unstained cells, <bold>lower right quadrant</bold>: green fluorescent (depolarised) cells; and the <bold>upper right quadrant</bold>: orange fluorescent (polarised) cells. FCCP (Carbonyl cyanide-<italic>4</italic>-(trifluoromethoxy) phenylhydrazone), dissolved in 95% ethanol was used as positive control. 95% ethanol was used as the vehicle control. <bold>B.</bold> MMP analysis showing significant membrane depolarisation following LPS treatment. The histogram shows mitochondrial membrane depolarisation following treatments with LPS (5, 10 and 20 ng/ml) and co-treatments with polymyxin B (PmB). Fluorescence intensity to assess mitochondrial membrane potential was monitored using FL1 (green) and FL2 (orange) fluorescent channels in a BD Acuri C6 flow cytometer. The <bold>blue bars</bold> show polarised cells while the <bold>red bars</bold> show the percentage of depolarised cells. A Student t-test was used to generate the p-values which compared the difference between the untreated and treated sample values. The data is represented as mean &#177; SD from 3 independent experiments (* indicates p &lt;0.05, ** indicates p &lt;0.01, *** indicates p &lt;0.001). GraphPad Quick Calcs software was used to compute all statistics.</p>
+<p>(JPG)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank Mr Garland More for technical assistance on the Oxygen Consumption Assays.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222614.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Warburg</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Wind</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Negelein</surname> <given-names>E</given-names></name> (<year>1927</year>). <article-title>The metabolism of tumors in the body T</article-title>. <source>The Journal of General Physiology</source> <volume>8</volume>: <fpage>519</fpage>&#8211;<lpage>530</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1085/jgp.8.6.519" ns0:type="simple">10.1085/jgp.8.6.519</ext-link></comment> <object-id pub-id-type="pmid">19872213</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hanahan</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Weinberg Robert</surname> <given-names>A</given-names></name> (<year>2011</year>). <article-title>Hallmarks of cancer: The next generation</article-title>. <source>Cell</source> <volume>144</volume>: <fpage>646</fpage>&#8211;<lpage>674</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cell.2011.02.013" ns0:type="simple">10.1016/j.cell.2011.02.013</ext-link></comment> <object-id pub-id-type="pmid">21376230</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McGettrick</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>O'Neill</surname> <given-names>LAJ</given-names></name> (<year>2013</year>). <article-title>How metabolism generates signals during innate immunity and inflammation</article-title>. <source>Journal of Biological Chemistry</source> <volume>288</volume>: <fpage>22893</fpage>&#8211;<lpage>22898</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.R113.486464" ns0:type="simple">10.1074/jbc.R113.486464</ext-link></comment> <object-id pub-id-type="pmid">23798679</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Palsson-McDermott</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>O&#8217;Neill</surname> <given-names>LAJ</given-names></name> (<year>2013</year>). <article-title>The Warburg effect then and now: from cancer to inflammatory diseases</article-title>. <source>BioEssays</source> <volume>35</volume>.</mixed-citation></ref>
+<ref id="pone.0222614.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Monchusi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Ntwasa</surname> <given-names>M</given-names></name> (<year>2017</year>). <article-title>Methyl pyruvate protects a normal lung fibroblast cell line from irinotecan-induced cell death: Potential use as adjunctive to chemotherapy</article-title>. <source>PLoS One</source> <volume>12</volume>(<issue>8</issue>): <fpage>e0182789</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0182789" ns0:type="simple">10.1371/journal.pone.0182789</ext-link></comment> <object-id pub-id-type="pmid">28797070</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fox</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Hammerman</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>CB</given-names></name> (<year>2005</year>). <article-title>Fuel feeds function: energy metabolism and the T-cell response</article-title>. <source>Nature Reviews Immunology</source> <volume>5</volume>: <fpage>844</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nri1710" ns0:type="simple">10.1038/nri1710</ext-link></comment> <object-id pub-id-type="pmid">16239903</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pearce Erika</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Pearce Edward</surname> <given-names>J</given-names></name> (<year>2013</year>). <article-title>Metabolic pathways in immune cell activation and quiescence</article-title>. <source>Immunity</source> <volume>38</volume>: <fpage>633</fpage>&#8211;<lpage>643</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.immuni.2013.04.005" ns0:type="simple">10.1016/j.immuni.2013.04.005</ext-link></comment> <object-id pub-id-type="pmid">23601682</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kominsky</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Campbell</surname> <given-names>EL</given-names></name>, <name name-style="western"><surname>Colgan</surname> <given-names>SP</given-names></name> (<year>2010</year>). <article-title>Metabolic shifts in immunity and inflammation</article-title>. <source>The Journal of Immunology</source> <volume>184</volume>: <fpage>4062</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4049/jimmunol.0903002" ns0:type="simple">10.4049/jimmunol.0903002</ext-link></comment> <object-id pub-id-type="pmid">20368286</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>LZ</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Vogel</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Neale</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>DR</given-names></name>, <etal>et al</etal>. (<year>2011</year>). <article-title>HIF1a&#8211;dependent glycolytic pathway orchestrates a metabolic checkpoint for the differentiation of T&amp;lt;sub&amp;gt;H&amp;lt;/sub&amp;gt;17 and T&amp;lt;sub&amp;gt;reg&amp;lt;/sub&amp;gt; cells</article-title>. <source>The Journal of Cell Biology</source> <volume>194</volume>: i1.</mixed-citation></ref>
+<ref id="pone.0222614.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kelly</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>O'Neill</surname> <given-names>LAJ</given-names></name> (<year>2015</year>). <article-title>Metabolic reprogramming in macrophages and dendritic cells in innate immunity</article-title>. <source>Cell Research</source> <volume>25</volume>: <fpage>771</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/cr.2015.68" ns0:type="simple">10.1038/cr.2015.68</ext-link></comment> <object-id pub-id-type="pmid">26045163</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Krawczyk</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Holowka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Blagih</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Amiel</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>DeBerardinis</surname> <given-names>RJ</given-names></name>, <etal>et al</etal>. (<year>2010</year>). <article-title>Toll-like receptor&#8211;induced changes in glycolytic metabolism regulate dendritic cell activation</article-title>. <source>Blood</source> <volume>115</volume>: <fpage>4742</fpage>&#8211;<lpage>4749</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1182/blood-2009-10-249540" ns0:type="simple">10.1182/blood-2009-10-249540</ext-link></comment> <object-id pub-id-type="pmid">20351312</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bosshart</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Heinzelmann</surname> <given-names>M</given-names></name> (<year>2016</year>). <article-title>THP-1 cells as a model for human monocytes</article-title>. <source>Annals of Translational Medicine</source> <volume>4</volume>: <fpage>438</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.21037/atm.2016.08.53" ns0:type="simple">10.21037/atm.2016.08.53</ext-link></comment> <object-id pub-id-type="pmid">27942529</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chanput</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Mes</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Vreeburg</surname> <given-names>RAM</given-names></name>, <name name-style="western"><surname>Savelkoul</surname> <given-names>HFJ</given-names></name>, <name name-style="western"><surname>Wichers</surname> <given-names>HJ</given-names></name> (<year>2010</year>). <article-title>Transcription profiles of LPS-stimulated THP-1 monocytes and macrophages: a tool to study inflammation modulating effects of food-derived compounds</article-title>. <source>Food Funct</source> <volume>1</volume>: <fpage>254</fpage>&#8211;<lpage>261</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/c0fo00113a" ns0:type="simple">10.1039/c0fo00113a</ext-link></comment> <object-id pub-id-type="pmid">21776474</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Raulien</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Friedrich</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Strobel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rubner</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Baumann</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>von Bergen</surname> <given-names>M</given-names></name>, <etal>et al</etal>. (<year>2017</year>). <article-title>Fatty Acid Oxidation Compensates for Lipopolysaccharide-Induced Warburg Effect in Glucose-Deprived Monocytes</article-title>. <source>Frontiers in Immunology</source> <volume>8</volume>.</mixed-citation></ref>
+<ref id="pone.0222614.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Parkin</surname> <given-names>DM</given-names></name> (<year>2006</year>). <article-title>The global health burden of infection-associated cancers in the year 2002</article-title>. <source>International Journal of Cancer</source> <volume>118</volume>: <fpage>3030</fpage>&#8211;<lpage>3044</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ijc.21731" ns0:type="simple">10.1002/ijc.21731</ext-link></comment> <object-id pub-id-type="pmid">16404738</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Coussens</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Werb</surname> <given-names>Z</given-names></name> (<year>2002</year>). <article-title>Inflammation and cancer</article-title>. <source>Nature</source> <volume>420</volume>: <fpage>860</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nature01322" ns0:type="simple">10.1038/nature01322</ext-link></comment> <object-id pub-id-type="pmid">12490959</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Colotta</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Allavena</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Sica</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Garlanda</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Mantovani</surname> <given-names>A</given-names></name> (<year>2009</year>). <article-title>Cancer-related inflammation, the seventh hallmark of cancer: links to genetic instability</article-title>. <source>Carcinogenesis</source> <volume>30</volume>: <fpage>1073</fpage>&#8211;<lpage>1081</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/carcin/bgp127" ns0:type="simple">10.1093/carcin/bgp127</ext-link></comment> <object-id pub-id-type="pmid">19468060</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dranoff</surname> <given-names>G</given-names></name> (<year>2004</year>). <article-title>Cytokines in cancer pathogenesis and cancer therapy</article-title>. <source>Nature Reviews Cancer</source> <volume>4</volume>: <fpage>11</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nrc1252" ns0:type="simple">10.1038/nrc1252</ext-link></comment> <object-id pub-id-type="pmid">14708024</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jones</surname> <given-names>VS</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>R-Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L-P</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Z-S</given-names></name>, <name name-style="western"><surname>Fu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>R-P</given-names></name> (<year>2016</year>). <article-title>Cytokines in cancer drug resistance: Cues to new therapeutic strategies</article-title>. <source>Biochimica et Biophysica Acta (BBA)&#8212;Reviews on Cancer</source> <volume>1865</volume>: <fpage>255</fpage>&#8211;<lpage>265</lpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Landskron</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>De la Fuente</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thuwajit</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Thuwajit</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hermoso</surname> <given-names>MA</given-names></name> (<year>2014</year>). <article-title>Chronic inflammation and cytokines in the tumor microenvironment</article-title>. <source>Journal of Immunology Research</source> <volume>2014</volume>: <fpage>19</fpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rodr&#237;guez-Prados</surname> <given-names>J-C</given-names></name>, <name name-style="western"><surname>Trav&#233;s</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Cuenca</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rico</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Aragon&#233;s</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mart&#237;n-Sanz</surname> <given-names>P</given-names></name>, <etal>et al</etal>. (<year>2010</year>). <article-title>Substrate fate in activated macrophages: A comparison between innate, classic, and alternative activation</article-title>. <source>The Journal of Immunology</source>.</mixed-citation></ref>
+<ref id="pone.0222614.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Oda</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Hirota</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nishi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Takabuchi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Oda</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yamada</surname> <given-names>H</given-names></name>, <etal>et al</etal>. (<year>2006</year>). <article-title>Activation of hypoxia-inducible factor 1 during macrophage differentiation</article-title>. <source>American Journal of Physiology-Cell Physiology</source> <volume>291</volume>: <fpage>C104</fpage>&#8211;<lpage>C113</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1152/ajpcell.00614.2005" ns0:type="simple">10.1152/ajpcell.00614.2005</ext-link></comment> <object-id pub-id-type="pmid">16481368</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nishi</surname> <given-names>Kenichiro</given-names></name>, <name name-style="western"><surname>Oda</surname> <given-names>Tomoyuki</given-names></name>, <name name-style="western"><surname>Takabuchi</surname> <given-names>Satoshi</given-names></name>, <name name-style="western"><surname>Oda</surname> <given-names>Seiko</given-names></name>, <name name-style="western"><surname>Fukuda</surname> <given-names>Kazuhiko</given-names></name>, <name name-style="western"><surname>Adachi</surname> <given-names>Takehiko</given-names></name>, <etal>et al</etal>. (<year>2008</year>). <article-title>LPS induces hypoxia-inducible factor 1 activation in macrophage-differentiated cells in a reactive oxygen species&#8211;dependent manner. Antioxidants &amp;</article-title> <source>Redox Signaling</source> <volume>10</volume>: <fpage>983</fpage>&#8211;<lpage>995</lpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mostafavi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ray</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Warde-Farley</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Grouios</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Morris</surname> <given-names>Q</given-names></name> (<year>2008</year>). <article-title>GeneMANIA: a real-time multiple association network integration algorithm for predicting gene function</article-title>. <source>Genome Biology</source> <volume>9</volume>: <fpage>S4</fpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Warde-Farley</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Donaldson</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Comes</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Zuberi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Badrawi</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Chao</surname> <given-names>P</given-names></name>, <etal>et al</etal>. (<year>2010</year>). <article-title>The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function</article-title>. <source>Nucleic Acids Research</source> <volume>38</volume>: <fpage>W214</fpage>&#8211;<lpage>W220</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkq537" ns0:type="simple">10.1093/nar/gkq537</ext-link></comment> <object-id pub-id-type="pmid">20576703</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lemasters</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Qian</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>He</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>J-S</given-names></name>, <name name-style="western"><surname>Elmore</surname> <given-names>SP</given-names></name>, <name name-style="western"><surname>Cascio</surname> <given-names>WE</given-names></name>, <etal>et al</etal>. (<year>2002</year>). <article-title>Role of mitochondrial inner membrane permeabilization in necrotic cell death, apoptosis, and autophagy</article-title>. <source>Antioxidants &amp; Redox Signaling</source> <volume>4</volume>: <fpage>769</fpage>&#8211;<lpage>781</lpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sterling</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Irwin</surname> <given-names>JJ</given-names></name> (<year>2015</year>). <article-title>ZINC 15 &#8211;Ligand discovery for everyone</article-title>. <source>Journal of Chemical Information and Modeling</source> <volume>55</volume>: <fpage>2324</fpage>&#8211;<lpage>2337</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/acs.jcim.5b00559" ns0:type="simple">10.1021/acs.jcim.5b00559</ext-link></comment> <object-id pub-id-type="pmid">26479676</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wong</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Greene</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Bongo</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Guan</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Troyanskaya</surname> <given-names>OG</given-names></name> (<year>2012</year>). <article-title>IMP: a multi-species functional genomics portal for integration, visualization and prediction of protein functions and networks</article-title>. <source>Nucleic Acids Research</source> <volume>40</volume>: <fpage>W484</fpage>&#8211;<lpage>W490</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gks458" ns0:type="simple">10.1093/nar/gks458</ext-link></comment> <object-id pub-id-type="pmid">22684505</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Haase</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fitze</surname> <given-names>G</given-names></name> (<year>2016</year>). <article-title>HSP90AB1: Helping the good and the bad</article-title>. <source>Gene</source> <volume>575</volume>: <fpage>171</fpage>&#8211;<lpage>186</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.gene.2015.08.063" ns0:type="simple">10.1016/j.gene.2015.08.063</ext-link></comment> <object-id pub-id-type="pmid">26358502</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Karsan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Yee</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kaushansky</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Harlan</surname> <given-names>JM</given-names></name> (<year>1996</year>). <article-title>Cloning of human Bcl-2 homologue: inflammatory cytokines induce human A1 in cultured endothelial cells</article-title>. <source>Blood</source> <volume>87</volume>: <fpage>3089</fpage>. <object-id pub-id-type="pmid">8605321</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Song</surname> <given-names>HY</given-names></name>, <name name-style="western"><surname>Rothe</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Goeddel</surname> <given-names>DV</given-names></name> (<year>1996</year>). <article-title>The tumor necrosis factor-inducible zinc finger protein A20 interacts with TRAF1/TRAF2 and inhibits NF-kappaB activation</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source> <volume>93</volume>: <fpage>6721</fpage>&#8211;<lpage>6725</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1073/pnas.93.13.6721" ns0:type="simple">10.1073/pnas.93.13.6721</ext-link></comment> <object-id pub-id-type="pmid">8692885</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ha</surname> <given-names>T-K</given-names></name>, <name name-style="western"><surname>Chi</surname> <given-names>S-G</given-names></name> (<year>2012</year>). <article-title>CAV1/caveolin 1 enhances aerobic glycolysis in colon cancer cells via activation of SLC2A3/GLUT3 transcription</article-title>. <source>Autophagy</source> <volume>8</volume>: <fpage>1684</fpage>&#8211;<lpage>1685</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4161/auto.21487" ns0:type="simple">10.4161/auto.21487</ext-link></comment> <object-id pub-id-type="pmid">22874559</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Freeze</surname> <given-names>HH</given-names></name> (<year>2002</year>). <article-title>GLUT14, a duplicon of GLUT3, is specifically expressed in testis as alternative splice forms</article-title>. <source>Genomics</source> <volume>80</volume>: <fpage>553</fpage>&#8211;<lpage>557</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1006/geno.2002.7010" ns0:type="simple">10.1006/geno.2002.7010</ext-link></comment> <object-id pub-id-type="pmid">12504846</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seuter</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pehkonen</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Heikkinen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Carlberg</surname> <given-names>C</given-names></name> (<year>2013</year>). <article-title>The gene for the transcription factor BHLHE40/DEC1/stra13 is a dynamically regulated primary target of the vitamin D receptor</article-title>. <source>The Journal of Steroid Biochemistry and Molecular Biology</source> <volume>136</volume>: <fpage>62</fpage>&#8211;<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jsbmb.2012.11.011" ns0:type="simple">10.1016/j.jsbmb.2012.11.011</ext-link></comment> <object-id pub-id-type="pmid">23220548</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wong</surname> <given-names>LYF</given-names></name>, <name name-style="western"><surname>Cheung</surname> <given-names>BMY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y-Y</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>F</given-names></name> (<year>2005</year>). <article-title>Adrenomedullin is both proinflammatory and antiinflammatory: Its effects on gene expression and secretion of cytokines and macrophage Migration Inhibitory Factor in NR8383 macrophage cell line</article-title>. <source>Endocrinology</source> <volume>146</volume>: <fpage>1321</fpage>&#8211;<lpage>1327</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1210/en.2004-1080" ns0:type="simple">10.1210/en.2004-1080</ext-link></comment> <object-id pub-id-type="pmid">15576460</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>J</given-names></name> (<year>2008</year>). <article-title>Lipopolysaccharide (LPS) of Porphyromonas gingivalis induces IL-1&#946;, TNF-&#945; and IL-6 production by THP-1 cells in a way different from that of Escherichia coli LPS</article-title>. <source>Innate Immunity</source> <volume>14</volume>: <fpage>99</fpage>&#8211;<lpage>107</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/1753425907088244" ns0:type="simple">10.1177/1753425907088244</ext-link></comment> <object-id pub-id-type="pmid">18713726</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>FX</given-names></name>, <name name-style="western"><surname>Kirschning</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Mancinelli</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>X-P</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Faure</surname> <given-names>E</given-names></name>, <etal>et al</etal>. (<year>1999</year>). <article-title>Bacterial lipopolysaccharide activates Nuclear Factor-&#954;B through interleukin-1 signaling mediators in cultured human dermal endothelial cells and mononuclear phagocytes</article-title>. <source>Journal of Biological Chemistry</source> <volume>274</volume>: <fpage>7611</fpage>&#8211;<lpage>7614</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.274.12.7611" ns0:type="simple">10.1074/jbc.274.12.7611</ext-link></comment> <object-id pub-id-type="pmid">10075645</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vadiveloo</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Keramidaris</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Morrison</surname> <given-names>WA</given-names></name>, <name name-style="western"><surname>Stewart</surname> <given-names>AG</given-names></name> (<year>2001</year>). <article-title>Lipopolysaccharide-induced cell cycle arrest in macrophages occurs independently of nitric oxide synthase II induction</article-title>. <source>Biochimica et Biophysica Acta (BBA)&#8212;Molecular Cell Research</source> <volume>1539</volume>: <fpage>140</fpage>&#8211;<lpage>146</lpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vadiveloo</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Vairo</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Novak</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Royston</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Whitty</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Filonzi</surname> <given-names>EL</given-names></name>, <etal>et al</etal>. (<year>1996</year>). <article-title>Differential regulation of cell cycle machinery by various antiproliferative agents is linked to macrophage arrest at distinct G1 checkpoints</article-title>. <source>Oncogene</source> <volume>13</volume>: <fpage>599</fpage>&#8211;<lpage>608</lpage>. <object-id pub-id-type="pmid">8760301</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lowenstein</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Glatt</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Bredt</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Snyder</surname> <given-names>SH</given-names></name> (<year>1992</year>). <article-title>Cloned and expressed macrophage nitric oxide synthase contrasts with the brain enzyme</article-title>. <source>Proceedings of the National Academy of Sciences</source> <volume>89</volume>: <fpage>6711</fpage>.</mixed-citation></ref>
+<ref id="pone.0222614.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gra&#241;a</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Reddy</surname> <given-names>E</given-names></name> (<year>1995</year>). <article-title>Cell cycle control in mammalian cells: role of cyclins, cyclin dependent kinases (CDKs), growth suppressor genes and cyclin-dependent kinase inhibitors (CKIs)</article-title>. <source>Oncogene</source> <volume>11</volume>: <fpage>211</fpage>&#8211;<lpage>219</lpage>. <object-id pub-id-type="pmid">7624138</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Birkenmeier</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Hemdan</surname> <given-names>NYA</given-names></name>, <name name-style="western"><surname>Kurz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bigl</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pieroh</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Debebe</surname> <given-names>T</given-names></name>, <etal>et al</etal>. (<year>2016</year>). <article-title>Ethyl pyruvate combats human leukemia cells but spares normal blood cells</article-title>. <source>PLoS ONE</source> <volume>11</volume>: <fpage>e0161571</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0161571" ns0:type="simple">10.1371/journal.pone.0161571</ext-link></comment> <object-id pub-id-type="pmid">27579985</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mantovani</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sica</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sozzani</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Allavena</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Vecchi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Locati</surname> <given-names>M</given-names></name> (<year>2004</year>). <article-title>The chemokine system in diverse forms of macrophage activation and polarization</article-title>. <source>Trends in Immunology</source> <volume>25</volume>: <fpage>677</fpage>&#8211;<lpage>686</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.it.2004.09.015" ns0:type="simple">10.1016/j.it.2004.09.015</ext-link></comment> <object-id pub-id-type="pmid">15530839</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vogler</surname> <given-names>M</given-names></name> (<year>2011</year>). <article-title>BCL2A1: the underdog in the BCL2 family</article-title>. <source>Cell Death and Differentiation</source> <volume>19</volume>: <fpage>67</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/cdd.2011.158" ns0:type="simple">10.1038/cdd.2011.158</ext-link></comment> <object-id pub-id-type="pmid">22075983</object-id></mixed-citation></ref>
+<ref id="pone.0222614.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Semenza</surname> <given-names>GL</given-names></name> (<year>2001</year>). <article-title>Hypoxia-inducible factor 1: oxygen homeostasis and disease pathophysiology</article-title>. <source>Trends in Molecular Medicine</source> <volume>7</volume>: <fpage>345</fpage>&#8211;<lpage>350</lpage>. <object-id pub-id-type="pmid">11516994</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222614.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222614.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukhopadhyay</surname>
+<given-names>Partha</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Partha Mukhopadhyay</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222614" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">22 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17316</p>
+<p>LPS induces inflammatory chemokines via TLR-4 signalling and enhances the Warburg Effect in THP-1 cells</p>
+<p>PLOS ONE</p>
+<p>Dear Professor Ntwasa,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>WE received positive feed back from reviewers. However, some major issues were raised by one reviewer and require your attention.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 05 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Partha Mukhopadhyay, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The authors have tried to address the role of infection on induction of metabolic program in THP-1 cells. Addressed that metabolic changes for these cells does not affect its viability and Warburg effect does not play a role. Interestingly, very few cytokines were expressed upon infection in these cells. I would like the authors to address the following concerns.</p>
+<p>Comments:</p>
+<p>1. I assume fig. 1a is the western blot for TLR protein. It does not seem upon induction with LPS 5ng/ml the protein does not increased while mRNA increased. How many repeats were carried out for western blot and if possible quantify after three repeats, if done.</p>
+<p>2. No mention of western blot protocol in material method section. Authors has to be careful in this regard and update it.</p>
+<p>3. Fig. 3a- I am not sure how many repeats were carried out for ELISA.</p>
+<p>4. Fig. 3b-e &#8211; Again for western blots- I would like to see how many repeats were carried out and if possible can they quantify the western blots that can be comparable with the RT-PCR result.</p>
+<p>5. This is because it is confusing for all the Figures in 3, as an example &#8211; the difference between mRNA to protein in Fig. 3b- compared to 5ng/ml+PmB to 10ng/ml LPS the mRNA level is same between these samples while the 10ng/ml LPS the protein level is high.</p>
+<p>6. Similarly, for RANTES (Fig. 3C)- as by visualization 10ng/ml LPS has protein while 10ng/ml LPS with PmB no protein while the mRNA profile is different between these samples.</p>
+<p>7. Thus, it is important to address this issue upon repeating western for all these genes (Fig. 3c to e) and quantify whether there is any mRNA and protein difference.</p>
+<p>8. Since the authors have addressed the impact of cytokines and its linkage with downstream pathways. Why not address few genes that are linked to IL8 or RANTES by knocking down these genes to show its effect on its interactome?</p>
+<p>9. I would also like to know NF kappa B expression upon these treats because it will be an important marker to show that even though NF kappa B expression increased in LPS treatment, only few of its target cytokines expression is altered.</p>
+<p>Reviewer #2: In this manuscript, the authors analyzed cytokine production and Warburg effect induced by LPS in THP-1 AML cell line. While it is already widely known that LPS induces inflammatory cytokine production, the authors report an interesting finding in the glycolytic changes in THP-1 cells. The techniques used by the authors are sound, and the results fully demonstrate their conclusion.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222614.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222614.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222614" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222614.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">27 Aug 2019</named-content>
+</p>
+<p>Reviewer #1: </p>
+<p>1. I assume fig. 1a is the western blot for TLR protein. It does not seem upon induction with LPS 5ng/ml the protein does not increased while mRNA increased. How many repeats were carried out for western blot and if possible quantify after three repeats, if done.</p>
+<p>Fig 1a is an RT-PCR showing TLR4 mRNA expression and not a Western blot. The reviewer must have made a mistake because the legend clearly indicates this. We have highlighted the section in Figure 1 legend that shows that the blots depict RT-PCR.  No repeats were performed for TLR4 expression since it is well-known that THP-1 cells express TLR4. This was just to confirm expression and induction by LPS at the low concentrations compared to published ones.  The error bars were generated accidentally because the &#8220;error bars&#8221; item was ticked off on the spreadsheet &#8220;Chart Elements&#8221; menu. We apologise for this. We generated a new graph and presented it in Fig 1a.</p>
+<p>2. No mention of Western blot protocol in material method section. Authors has to be careful in this regard and update it.</p>
+<p>  We did not perform any Western blot experiments. Hence, no Western blot protocol was included.</p>
+<p>3. Fig. 3a- I am not sure how many repeats were carried out for ELISA</p>
+<p> The ELISA assay was performed in a single experiment as a screening tool as stated in the results and discussion section of the manuscript. We validated this expression profile by using RT-PCR in two biological replicates. We are convinced about the validity of the Array result because the RT-PCR expression profile is consistent with the Array.    </p>
+<p>4. Fig. 3b-e &#8211; Again for western blots- I would like to see how many repeats were carried out and if possible can they quantify the western blots that can be comparable with the RT-PCR result.</p>
+<p>No Western analyses were conducted in this submission. The legend of Figure 3 indicates that there were two biological replicates (highlighted).</p>
+<p>5. This is because it is confusing for all the Figures in 3, as an example &#8211; the difference between mRNA to protein in Fig. 3b- compared to 5ng/ml+PmB to 10ng/ml LPS the mRNA level is same between these samples while the 10ng/ml LPS the protein level is high.</p>
+<p>No Western analyses were conducted in this submission.  The source of the confusion could be the lack of explanation for the bar graphs. We have now included in the legend that the lower panels represent quantification of the RT-PCR gels bands. They are not protein measurements.</p>
+<p>6. Similarly, for RANTES (Fig. 3C)- as by visualization 10ng/ml LPS has protein while 10ng/ml LPS with PmB no protein while the mRNA profile is different between these samples.</p>
+<p> No Western analyses were conducted in this submission. Please see (5) above.</p>
+<p>7. Thus, it is important to address this issue upon repeating western for all these genes (Fig. 3c to e) and quantify whether there is any mRNA and protein difference.</p>
+<p>No Western analyses were conducted in this submission. Please see (5) above.</p>
+<p>8. Since the authors have addressed the impact of cytokines and its linkage with downstream pathways. Why not address few genes that are linked to IL8 or RANTES by knocking down these genes to show its effect on its interactome?</p>
+<p>We do agree that this study reveals a broad view and complexity of the molecular pathways induced by infection in the tumour microenvironment.  However, at this stage the primary questions were about nature of the Warburg Effect in monocytes. The finer studies suggested by the reviewer are being considered for new studies where the tumour microenvironment is simulated in 3D cultures.  We do appreciate these comments because they reinforce our views about the future experiments.  </p>
+<p>9. I would also like to know NF kappa B expression upon these treats because it will be an important marker to show that even though NF kappa B expression increased in LPS treatment, only few of its target cytokines expression is altered.</p>
+<p>NF Kappa B regulates multiple aspects of innate immunity and has two broad mechanisms: the (i) canonical and (ii) non-canonical pathways. It is not too surprising that not all effectors known to be mediated by it are induced as its activity is contextual (temporal and cell specific). It is, however, notable that in the profile we present, the chemokines (known to be NF-Kappa B targets) are induced but the cytokines (some known known to be NF Kappa B targets) are poorly induced or not at all). We have addressed the NF kappa B influence in the discussion section. Although we appreciate the interest of the reviewer in NF kappa B expression, we do not think that a focussed study on NF kappa be would be useful in understanding the Warburg Effect at this stage. It could probably enlighten us about cytokine expression pathways &#8211; which is not the primary interest of the manuscript.</p>
+<p>Reviewer #2: </p>
+<p>In this manuscript, the authors analyzed cytokine production and Warburg effect induced by LPS in THP-1 AML cell line. While it is already widely known that LPS induces inflammatory cytokine production, the authors report an interesting finding in the glycolytic changes in THP-1 cells. The techniques used by the authors are sound, and the results fully demonstrate their conclusion.</p>
+<p> We are grateful for these comments.</p>
+<supplementary-material id="pone.0222614.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222614.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.doc.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222614.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222614.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukhopadhyay</surname>
+<given-names>Partha</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Partha Mukhopadhyay</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222614" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>LPS induces inflammatory chemokines via TLR-4 signalling and enhances the Warburg Effect in THP-1 cells</p>
+<p>PONE-D-19-17316R1</p>
+<p>Dear Dr. Ntwasa,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Partha Mukhopadhyay, Ph.D.</p>
+<p>Section Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222614.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222614.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Mukhopadhyay</surname>
+<given-names>Partha</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Partha Mukhopadhyay</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222614" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">12 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-17316R1 </p>
+<p>LPS induces inflammatory chemokines via TLR-4 signalling and enhances the Warburg Effect in THP-1 cells </p>
+<p>Dear Dr. Ntwasa:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Partha Mukhopadhyay  </p>
+<p>Section Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

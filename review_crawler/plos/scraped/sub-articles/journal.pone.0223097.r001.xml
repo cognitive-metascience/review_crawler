@@ -1,0 +1,132 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="aggregated-review-documents" id="pone.0223097.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223097.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Conly</surname>
+<given-names>John</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>John Conly</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223097" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">24 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17515</p>
+<p>Validating a Popular Outpatient Antibiotic Database</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Schwartz,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>ACADEMIC EDITOR: </p>
+<p>Overall this manuscript addresses an important topic and has used a robust &#160;methodology and chose to use Bland Altman plots which was an excellent choice. However there are certain issues to address to improve the manuscript.</p>
+<p>Please respond to all the&#160;peer reviewer comments . In addition please respond to the following Academic Editor 's comments</p>
+<p>1.Reviewer 2 noted 2 previous citations presented in poster format that did comparisons from 2 Canadian provinces which had comprehensive data ( all ages) &#160;on outpatient prescriptions and one compared the data from the Xponent database so the authors need to rephrase their comments " to our knowledge community antibiotic use data has neve been externally validated.." which appears in a couple of settings in the manuscript.</p>
+<p>2. You mention about a variety of prescription drug databases in the Introduction. Please add a couple of sentences to describe the commonly used ones and their differences eg Compuscript, the Canadian Disease and Therapeutic Index ,&#160; National Prescription Audit &#160;data and National Sales and Prescriptions data for the benefit of the readership.</p>
+<p>3. Provide an estimate of NIHB prescriptions that may have been missed .</p>
+<p>4. Please explicitly &#160;explain if the prescriptions from non physician prescribers eg dentists, midwives, podiatrists etc were excluded reliably from the Xponent database which has obvious important implications</p>
+<p>5. Please describe the geographic pharmacy difference if possible and what implications it may have</p>
+<p>6. The Discussion is missing a limitations paragraph and there are several important ones - some mentioned earlier in the manuscript &#160;but should be highlighted plus other mentioned about the limitations of the Xponenet database, non captured scripts eg NIHB, other prescribers, missing data and its influence and impact of a sensitivity analysis of &gt; 14 days use as opposed to 8 .</p>
+<p>7. There are several typos that need to be fixed eg refs 7-35 , presume it is 7, 35, missing words in some of the sentences</p>
+<p>8. The references are very sloppy and full of errors ( too numerous to count ) &#160;in case, non use of urls and date of access, inappropriate case, spacing, non use of italics for Latin terms , incomplete references, missing references, inappropriate journal abbreviations&#160;and appear not to have been proof read by the authors very carefully . Please clean up&#160;ALL errors in the references.</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by August 25th 2019. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>John Conly, MD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>3. Our internal editors have looked over your manuscript and determined that it is within the scope of our Antimicrobial Resistance call for papers. This collection of papers is headed by a team of Guest Editors for PLOS ONE: Kathryn Holt (Monash University and London School of Hygiene and Tropical Medicine), Alison H. Holmes (Imperial College London), Alessandro Cassini (WHO Infection Prevention and Control Global Unit), Jaap A. Wagenaar (Utrecht University). The Collection will encompass a diverse range of research articles; additional information can be found on our announcement page: <ext-link ext-link-type="uri" ns0:href="https://collections.plos.org/s/antimicrobial-resistance" ns0:type="simple">https://collections.plos.org/s/antimicrobial-resistance</ext-link>. If you would like your manuscript to be considered for this collection, please let us know in your cover letter and we will ensure that your paper is treated as if you were responding to this call. If you would prefer to remove your manuscript from collection consideration, please specify this in the cover letter.</p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>4. Thank you for stating the following in the Acknowledgments Section of your manuscript:</p>
+<p>This study was funded by Public Health Ontario</p>
+<p>We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form.</p>
+<p>Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows:</p>
+<p>The authors received no specific funding for this work</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Overall, this is a well written paper on a topic of considerable importance. Recognizing the need for reliable outpatient antibiotic utilization data, this study attempts to validate a pre-existing database that can be used to optimize outpatient antimicrobial stewardship. The study limitations were well recognized and stated clearly [ie. insufficient correlation between specific antibiotics and inability to validate for a) patients &lt;65 years old, b) refill prescriptions]. The study also identified a weakness in the database with respect to the rural population which was well explained. The article's greatest strength is its rigorous statistical analyses.</p>
+<p>A few additional comments for author response are:</p>
+<p>1. With a NPV of 73%, 23% of prescribers were classified as belonging to the highest quartile of antibiotic prescribing when really they belonged to the top 40% according to OBD (the gold standard database). From an antimicrobial stewardship perspective, this discrepancy is acceptable because it still represents a physician group that should be targeted for further stewardship education and optimization of antibiotic use. However, from a clinician's perspective, being labeled as within the top 25% is very different from top 40%, the former signalling higher end of normal and the latter potentially being close to the mean. This NPV may not be acceptable to a clinician receiving their antibiotic prescribing summary.</p>
+<p>2. Given a large subset of physicians are likely not represented (eg. rural physician etc), it would be interesting to see how many registered physicians within Ontario are excluded from the Xponent database entirely and therefore would not be subject to antibiotic utilization scrutiny. Is it possible to match the physicians to the College of Physicians and Surgeons of Ontario to obtain this number?</p>
+<p>3. The authors performed multiple separate analyses for female vs. male genders and demonstrated that there were was a slightly greater relative difference in prescribing for male patients. Nevertheless, the discussions section lacked explanations on the potential reasons and significance of this finding. This should be further elaborated on.</p>
+<p>4. The antibiotic prescribing rate "antibiotic prescriptions/100 total prescriptions" is an interesting metric. It is conceivable that a clinician whom is prescribing antibiotics excessively would likely prescribe other drugs excessively as well thereby obscuring the increased antibiotic use. It was reassuring to see that "antibiotic prescriptions/100 total prescriptions" correlated well with "antibiotic prescriptions / 100 patient visits" given the denominator for antibiotic utilization is typically patient visits to take into account differences in patient volume. It is not clear to me where the patient visit denominator is coming from (is it from OBD or an alternate source) and could these not just be incorporated into the numerator generated from Xponent rather than relying on the "antibiotic prescriptions/100 total prescriptions".</p>
+<p>Reviewer #2: This topic is of great interest to likely a small group of individuals. IQVIA formerly Brogan, formerly IMS has recorded data on antimicrobial and other drug utilization from retail pharmacies for many years. The validity of the methods to extrapolate from the sample of pharmacies to the whole population has never been public and therefore the science community has been left to wonder how well their proprietary methods work and can they be trusted for research. In addition to the cited work of Tan (reference 42), two other groups in Canada have completed similar work in conference papers and could be cited (Dalton, B; Sabuda D, Bresee L et al. External Validation of Estimates of Antibacterial Dispensing in the IMS Brogan Xponent&#174; Database in a Canadian Province. IDWeek 2013 <ext-link ext-link-type="uri" ns0:href="https://idsa.confex.com/idsa/2013/webprogram/Paper41244.html" ns0:type="simple">https://idsa.confex.com/idsa/2013/webprogram/Paper41244.html</ext-link>) &amp; Chong M, Dutil L, Bhatia T, Marra F, Patrick DM. Assessing antimicrobial consumption</p>
+<p>using two different methodologies in British Columbia. Can J Infect Dis Med Microbiol</p>
+<p>2007; 18(1): 35 Abstract A3.</p>
+<p>In general, the authors have conducted a careful analysis using appropriate methods, and this manuscript is likely deserving of publication. I have a few suggestions to help make small improvements in clarity.</p>
+<p>The goal of this study was to reliably predict the top 25 percentile of prescribers of antimicrobials to patients 65 and older, by identifying them in a public database of all pharmacies and comparing to the IQVIA database. I think the authors could do a better job describing this objective in the title as one does not reflexively think that quantification and validation would be performed at a physician level. I think some discussion of how these data would relate to the exponent database derived data on population level antimicrobial utilization would be appropriate (or if not at all, please state) and the conclusion "that the xponent database is validated for patients 65 and older " is actually inaccurate considering the principle finding of validating the identification of high prescibers of antibiotics in a population of 65 and older. "</p>
+<p>The definition of physician antibiotic prescribing rate is unclear. Is this based on number of prescriptions, days of therapy or DDD etc.</p>
+<p>Physicians were excluded for "prescribing less than 9 antibiotics". Does this mean &lt;9 antibiotic prescriptions over the time period? Can you explain this number?</p>
+<p>Could you define "antibiotics" in the study methods better? eg "systemic antibacterials" rather than just referring reader to the supplement.</p>
+<p>The methods and results for agreement are confusing. In the methods it is stated the agreement of quartile groupings was evaluated, so one expects results in terms of categorical analysis. However in the text of results and table 3 mean number of of antibiotics prescriptions per physicians is reported.</p>
+<p>The agreement on antibiotic prescribing per 100 prescriptions was assessed by Bland Altman plots. I am unclear of the relevance of antibiotic prescription per 100 prescriptions. This should be discussed in background and discussion.</p>
+<p>If there are a significant number of non physician prescribers in Ontario, are they captured in ODB and exponent? Even if their prescribing rates are lower than that of physicians, it would be useful to note if agreement is similar with non physicians.</p>
+<p>In figures 5 and S3 one can observe correlation but there appears to be bias with discounting of the xponent values. This is not commented upon. Can the slope of the regression line be provided? It would also provide easier interpretation if the x and y axes were given the same scales and number values.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes: Bruce Dalton</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>

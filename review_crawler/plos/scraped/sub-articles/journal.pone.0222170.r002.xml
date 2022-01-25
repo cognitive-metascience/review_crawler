@@ -1,0 +1,35 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222170.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222170.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222170" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222170.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">11 Jul 2019</named-content>
+</p>
+<p>1. Address format corrected</p>
+<p>2. overlapping text. I believe this was corrected by adding the appropriate reference</p>
+<p>3. Rather than geographic coordinates, Township/Range/Section was added for each field collection.</p>
+<p>4. We don't need repository information. The relevant data is included in our submission.</p>
+<p>5. VT description expanded and references added.</p>
+<p>6. VT phenotype variation was also added</p>
+<p>7. CTV genotyping. This study was not to differentiate CTV genotypes, rather, to screen CTV isolates efficiently for potential severe phenotype which has a VT genotype. </p>
+<p>8. Immunocapture. Yes, the CCTEA screens CTV samples from infected trees with MCA13 monoclonal antibody and extracts from MCA13-positive samples are sent to my ARS lab for molecular genotyping by RT-qPCR with strain discriminating primers/probes and selected isolates are biocharacterized in a virus index using graft inoculation to a citrus host range. </p>
+<p>9. Warghane et al 2017 was mentioned in the introduction of the original submission and is still there.</p>
+<supplementary-material id="pone.0222170.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222170.s007" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to reviewer(s) PONE D-19-14855.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

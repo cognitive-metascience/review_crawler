@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">PLOS Glob Public Health</journal-id>
+            <journal-id journal-id-type="publisher-id">plos</journal-id>
+            <journal-id journal-id-type="pmc">plosgph</journal-id>
+            <journal-title-group>
+                <journal-title>PLOS Global Public Health</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2767-3375</issn>
+            <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, CA USA</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.1371/journal.pgph.0000016</article-id>
+            <article-id pub-id-type="publisher-id">PGPH-D-21-00095</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Medicine and health sciences</subject>
+                    <subj-group>
+                        <subject>Health care</subject>
+                        <subj-group>
+                            <subject>Health education and awareness</subject>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>People and places</subject>
+                    <subj-group>
+                        <subject>Population groupings</subject>
+                        <subj-group>
+                            <subject>Educational status</subject>
+                            <subj-group>
+                                <subject>Undergraduates</subject>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Social sciences</subject>
+                    <subj-group>
+                        <subject>Economics</subject>
+                        <subj-group>
+                            <subject>Finance</subject>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>People and places</subject>
+                    <subj-group>
+                        <subject>Geographical locations</subject>
+                        <subj-group>
+                            <subject>Asia</subject>
+                            <subj-group>
+                                <subject>Nepal</subject>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Medicine and health sciences</subject>
+                    <subj-group>
+                        <subject>Public and occupational health</subject>
+                        <subj-group>
+                            <subject>Health promotion</subject>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Research and analysis methods</subject>
+                    <subj-group>
+                        <subject>Research design</subject>
+                        <subj-group>
+                            <subject>Survey research</subject>
+                            <subj-group>
+                                <subject>Questionnaires</subject>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Biology and life sciences</subject>
+                    <subj-group>
+                        <subject>Neuroscience</subject>
+                        <subj-group>
+                            <subject>Cognitive science</subject>
+                            <subj-group>
+                                <subject>Cognitive psychology</subject>
+                                <subj-group>
+                                    <subject>Academic skills</subject>
+                                    <subj-group>
+                                        <subject>Literacy</subject>
+                                    </subj-group>
+                                </subj-group>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Biology and life sciences</subject>
+                    <subj-group>
+                        <subject>Psychology</subject>
+                        <subj-group>
+                            <subject>Cognitive psychology</subject>
+                            <subj-group>
+                                <subject>Academic skills</subject>
+                                <subj-group>
+                                    <subject>Literacy</subject>
+                                </subj-group>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Social sciences</subject>
+                    <subj-group>
+                        <subject>Psychology</subject>
+                        <subj-group>
+                            <subject>Cognitive psychology</subject>
+                            <subj-group>
+                                <subject>Academic skills</subject>
+                                <subj-group>
+                                    <subject>Literacy</subject>
+                                </subj-group>
+                            </subj-group>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                    <subject>Medicine and health sciences</subject>
+                    <subj-group>
+                        <subject>Public and occupational health</subject>
+                        <subj-group>
+                            <subject>Behavioral and social aspects of health</subject>
+                        </subj-group>
+                    </subj-group>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Health literacy and associated factors among undergraduates: A university-based cross-sectional study in Nepal</article-title>
+                <alt-title alt-title-type="running-head">Health literacy among Nepalese University students</alt-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-3060-5823</contrib-id>
+                    <name name-style="western">
+                        <surname>Bhusal</surname>
+                        <given-names>Sandesh</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/software/">Software</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/validation/">Validation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <xref ref-type="aff" rid="aff001">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff002">
+                        <sup>2</sup>
+                    </xref>
+                </contrib>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-5929-5585</contrib-id>
+                    <name name-style="western">
+                        <surname>Paudel</surname>
+                        <given-names>Rajan</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <xref ref-type="aff" rid="aff001">
+                        <sup>1</sup>
+                    </xref>
+                </contrib>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-9795-2088</contrib-id>
+                    <name name-style="western">
+                        <surname>Gaihre</surname>
+                        <given-names>Milan</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <xref ref-type="aff" rid="aff003">
+                        <sup>3</sup>
+                    </xref>
+                </contrib>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-5590-4133</contrib-id>
+                    <name name-style="western">
+                        <surname>Paudel</surname>
+                        <given-names>Kiran</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <xref ref-type="aff" rid="aff001">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff002">
+                        <sup>2</sup>
+                    </xref>
+                </contrib>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-7654-5483</contrib-id>
+                    <name name-style="western">
+                        <surname>Adhikari</surname>
+                        <given-names>Tara Ballav</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <xref ref-type="aff" rid="aff002">
+                        <sup>2</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff004">
+                        <sup>4</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff005">
+                        <sup>5</sup>
+                    </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0066-8583</contrib-id>
+                    <name name-style="western">
+                        <surname>Pradhan</surname>
+                        <given-names>Pranil Man Singh</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                    <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                    <xref ref-type="aff" rid="aff006">
+                        <sup>6</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff007">
+                        <sup>7</sup>
+                    </xref>
+                    <xref ref-type="corresp" rid="cor001">*</xref>
+                </contrib>
+            </contrib-group>
+            <aff id="aff001">
+                <label>1</label>
+                <addr-line>Institute of Medicine, Tribhuvan University, Kathmandu, Nepal</addr-line>
+            </aff>
+            <aff id="aff002">
+                <label>2</label>
+                <addr-line>NCD Watch Nepal, Maharajgunj, Kathmandu, Nepal</addr-line>
+            </aff>
+            <aff id="aff003">
+                <label>3</label>
+                <addr-line>College of Medical Sciences, Kathmandu University, Chitwan, Nepal</addr-line>
+            </aff>
+            <aff id="aff004">
+                <label>4</label>
+                <addr-line>Nepal Development Society, Bharatpur, Chitwan, Nepal</addr-line>
+            </aff>
+            <aff id="aff005">
+                <label>5</label>
+                <addr-line>Center for Global Health, Department of Public Health, Aarhus University, Aarhus, Denmark</addr-line>
+            </aff>
+            <aff id="aff006">
+                <label>6</label>
+                <addr-line>Department of Community Medicine, Maharajgunj Medical Campus, Institute of Medicine, Tribhuvan University, Kathmandu, Nepal</addr-line>
+            </aff>
+            <aff id="aff007">
+                <label>7</label>
+                <addr-line>Nepalese Society of Community Medicine, Kathmandu, Nepal</addr-line>
+            </aff>
+            <contrib-group>
+                <contrib contrib-type="editor" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Nazif-Munoz</surname>
+                        <given-names>Jose Ignacio</given-names>
+                    </name>
+                    <role>Editor</role>
+                    <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+            </contrib-group>
+            <aff id="edit1">
+                <addr-line>Université de Sherbrooke: Universite de Sherbrooke, CANADA</addr-line>
+            </aff>
+            <author-notes>
+                <fn fn-type="conflict" id="coi001">
+                    <p>Authors declare no competing interests.</p>
+                </fn>
+                <corresp id="cor001">* E-mail: <email xlink:type="simple">pranil.pradhan@gmail.com</email>
+                </corresp>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>8</day>
+                <month>11</month>
+                <year>2021</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2021</year>
+            </pub-date>
+            <volume>1</volume>
+            <issue>11</issue>
+            <elocation-id>e0000016</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>4</day>
+                    <month>6</month>
+                    <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                    <day>18</day>
+                    <month>10</month>
+                    <year>2021</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Bhusal et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+                    <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pgph.0000016"/>
+            <abstract>
+                <p>Health literacy is one of the most critical aspects of health promotion. Limited health literacy is also accounted for adverse health outcomes and a huge financial burden on society. However, a gap exists in the level of health literacy, especially among undergraduates. This study aimed to assess the levels of health literacy and its socio-demographic determinants among undergraduate students of Tribhuvan University, Nepal. A web-based cross-sectional survey was conducted among 469 undergraduate students from five institutes of Tribhuvan University, Nepal. The 16-item short version of the European Health Literacy Survey Questionnaire (HLS-EU-Q16) was used to measure students’ health literacy levels. Associated factors were examined using Chi-square tests followed by multivariate logistic regression analyses at the level of significance of 0.05. Nearly 61% of students were found to have limited health literacy (24.5% had “inadequate” and 36.3% had “problematic” health literacy). Female students (aOR = 1.6, 95% CI: 1.1–2.5), students from non-health related majors (aOR = 1.9, 95% CI: 1.2–3.0), students with unsatisfactory health status (aOR = 2.8, 95% CI: 1.7–4.5), students with poor financial status (aOR = 2.9, 95% CI: 1.2–6.8) and students with low self-esteem (aOR = 2.5, 95% CI: 1.5–4.1) were significantly more likely to have limited health literacy. The majority of the undergraduates were found to have limited health literacy. Gender, sector of study, self-rated health status, self-rated financial status, and self-esteem were significantly associated with limited health literacy. This study indicates university students should not be assumed to be health-literate and interventions to improve students’ health literacy especially for those whose majors are not health-related should be implemented. Further studies using a longer version of the health literacy survey questionnaire and qualitative methods to explore more on determinants of health literacy are recommended.</p>
+            </abstract>
+            <funding-group>
+                <award-group id="award001">
+                    <funding-source>
+                        <institution>Nepal Health Research Council</institution>
+                    </funding-source>
+                    <award-id>Undergraduate Health Research Grant Program 2021 (Ref. no. 2824)</award-id>
+                    <principal-award-recipient>
+                        <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-3060-5823</contrib-id>
+                        <name name-style="western">
+                            <surname>Bhusal</surname>
+                            <given-names>Sandesh</given-names>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+                <funding-statement>This study was supported by Nepal Health Research Council (NHRC), Nepal under Undergraduate Health Research Grant Program 2021 (Ref. no. 2824). SB was the recipient of this grant. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+            </funding-group>
+            <counts>
+                <fig-count count="0"/>
+                <table-count count="3"/>
+                <page-count count="11"/>
+            </counts>
+            <custom-meta-group>
+                <custom-meta id="data-availability">
+                    <meta-name>Data Availability</meta-name>
+                    <meta-value>All data are available in the <xref ref-type="sec" rid="sec019">Supporting information</xref> files.</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="sec001" sec-type="intro">
+            <title>Introduction</title>
+            <p>Health literacy represents the cognitive and social skills that determine the motivation and ability of individuals to gain access to, understand, and use information in ways that promote and maintain good health [<xref ref-type="bibr" rid="pgph.0000016.ref001">1</xref>]. The World Health Organization (WHO) has positioned health literacy as a key mechanism to meet the health-related Sustainable Development Goal (SDG3) [<xref ref-type="bibr" rid="pgph.0000016.ref002">2</xref>]. It has recently been shown to be important for improving Universal Health Coverage (UHC). Improving UHC must not only focus on providing infrastructure but also equipping people to be able to explore, understand, and use existing channels to enhance their health [<xref ref-type="bibr" rid="pgph.0000016.ref003">3</xref>]. However, there is little known about the status of health literacy in developing countries such as Nepal.</p>
+            <p>People sometimes have difficulties in seeking health care, understanding health information, difficulty communicating with health care professionals, adherence to medical regimens, etc. which have a potential role in self-care and management of chronic diseases [<xref ref-type="bibr" rid="pgph.0000016.ref004">4</xref>]. Limited health literacy is associated with adverse health outcomes, health inequalities, and a huge financial burden on society [<xref ref-type="bibr" rid="pgph.0000016.ref005">5</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref006">6</xref>]. Health literacy has been shown as a stronger predictor of health status than any other socioeconomic factors [<xref ref-type="bibr" rid="pgph.0000016.ref007">7</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>]. According to a recent meta-analysis, health literacy was moderately correlated with quality of life [<xref ref-type="bibr" rid="pgph.0000016.ref009">9</xref>]. Therefore, improving the level of health literacy should be put forward as an essential action for promoting health.</p>
+            <p>Nepal has a unique landscape of rich culture and traditional beliefs and practices which have implications for health and diseases. There are still many misconceptions and deep-rooted cultural beliefs about health, illness, and the healthcare system [<xref ref-type="bibr" rid="pgph.0000016.ref010">10</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref011">11</xref>]. It is relevant to measure health literacy coupled with these cultural factors as there are very few studies conducted to examine health literacy in Nepal [<xref ref-type="bibr" rid="pgph.0000016.ref012">12</xref>].
+            </p>
+            <p>The undergraduate stage is regarded as a stage with the greatest learning potential and this stage is critical for forming the framework of health literacy [<xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>]. For many students, the university is a period of transition from teenager to young adult, moving out of home and relying less on parents to make health-related decisions [<xref ref-type="bibr" rid="pgph.0000016.ref013">13</xref>]. Understanding the health literacy levels of these younger populations and then addressing any gaps provides a mechanism towards producing health literate professionals who can understand and respond to the health literacy needs of the families and communities [<xref ref-type="bibr" rid="pgph.0000016.ref014">14</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref015">15</xref>]. This population constitutes a major proportion and is crucial for the success of any health related promotion or prevention efforts. They are very receptive to information, and therefore, healthy behavior established at this phase of life is more likely to be continued [<xref ref-type="bibr" rid="pgph.0000016.ref016">16</xref>].
+            </p>
+            <p>University students may reasonably be expected to demonstrate good levels of health literacy; however, various studies worldwide have demonstrated poor health literacy among undergraduates [<xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>]. So, it is essential to explore the level of health literacy among undergraduates. Therefore, this study aimed to assess the level of health literacy and factors determining limited health literacy among undergraduate students in Tribhuvan University, Nepal.</p>
+        </sec>
+        <sec id="sec002" sec-type="materials|methods">
+            <title>Methods</title>
+            <sec id="sec003">
+                <title>Study setting</title>
+                <p>The study was conducted at Tribhuvan University, Nepal. Tribhuvan University is a public, oldest, and the largest university in terms of students’ enrollment in Nepal. It is also characterized by its diverse student bodies, which are representative of the Nepalese population.</p>
+                <p>All the five institutes of the university; Institute of Medicine (IOM), Institute of Engineering (IOE), Institute of Forestry (IOF), Institute of Agriculture and Animal Science (IAAS), and Institute of Science and Technology (IOST), were selected as the study sites. Then, one campus from each of the institutes was purposively selected. Maharajgunj Medical Campus, Pulchowk Campus, Hetauda campus, Lamjung Campus, and Trichandra Multiple Campus were selected respectively from IOM, IOE, IOF, IAAS, and IOST to recruit the participants.</p>
+            </sec>
+            <sec id="sec004">
+                <title>Study population</title>
+                <p>The study population included the students pursuing an undergraduate degree in various majors across the five campuses of respective institutes of Tribhuvan University, Nepal. All undergraduate students from any of the five campuses were eligible for inclusion. Postgraduate students, international students, and students undertaking affiliated programs were excluded.</p>
+            </sec>
+            <sec id="sec005">
+                <title>Study design and sample</title>
+                <p>A web-based cross-sectional survey was conducted between January and February 2021. Information about students’ enrollment and population size in each campus was obtained from the Dean’s office and information officer of Tribhuvan University, Nepal. Responses were collected from each of the five campuses of respective institutes. The convenience sampling technique was employed to select participants.</p>
+                <p>The expected proportion in population was taken as 45% from a similar study conducted in Ghana [<xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>] and the sample size was calculated using the formula; n = z<sup>2</sup>pq/e<sup>2</sup> where <italic>p</italic> = 0.45, q = 0.55, z = 1.96 at 95% confidence interval, and e = 0.05. Assuming 25% as the non-response rate, the sample size of 475 was determined.</p>
+            </sec>
+            <sec id="sec006">
+                <title>Data collection</title>
+                <p>A web-based survey approach was taken to collect data from participants and Google forms were administered via e-mail. Single response from each student was ensured via Google Forms setting by choosing ‘Limit to 1 response’.</p>
+            </sec>
+            <sec id="sec007">
+                <title>Measurements</title>
+                <sec id="sec008">
+                    <title>Dependent variable <italic>(Health literacy)</italic>
+                    </title>
+                    <p>English version of the European Health Literacy Survey Questionnaire with 16 items (HLS-EU-Q16) was used to assess health literacy [<xref ref-type="bibr" rid="pgph.0000016.ref018">18</xref>,                        <xref ref-type="bibr" rid="pgph.0000016.ref019">19</xref>]. This measure focuses on perceived difficulties/ease in accessing, understanding, appraising, and applying health information across the domains of health care, disease prevention, and health promotion [<xref ref-type="bibr" rid="pgph.0000016.ref020">20</xref>].
+                    </p>
+                    <p>The 16 items have four responses (very easy, easy, difficult, and very difficult) with a “don’t know” option. All responses were given a numerical code as follows: 1, very difficult; 2, difficult; 3, easy; 4, very easy; and 0, don’t know. The mean score was calculated for all items on the scale, and then it was converted to an index using the formula below per recommendations of the European health literacy consortium.</p>
+                    <p>
+                        <italic>Health literacy index score = (mean—1) * (50/3)</italic>, where mean is the average of items on the scale, 1 = the minimal value of the mean, 3 = the range of the mean, and 50 = the chosen maximum value of the new index scores [<xref ref-type="bibr" rid="pgph.0000016.ref018">18</xref>,                        <xref ref-type="bibr" rid="pgph.0000016.ref021">21</xref>].
+                    </p>
+                    <p>The index scores were recoded into four health literacy categories as per the threshold established by HLS-EU consortium: <italic>excellent (&gt;42–50); sufficient (&gt;33–42); problematic (&gt;25–33); and inadequate (0–25)</italic>. Later, health literacy categories were dichotomized into limited (inadequate and problematic health literacy categories combined) and adequate health literacy (sufficient and excellent health literacy categories combined). During the pretesting no one reported the difficulties in understanding the questionnaire and we decided to administer questionnaire in English version.</p>
+                </sec>
+                <sec id="sec009">
+                    <title>Independent variables</title>
+                    <p>Socio-demographic factors included age, sex, place of origin (categorized as rural and urban), family type (nuclear, joint and extended), highest educational level of parents (illiterate/no formal schooling, below secondary school level [&lt; 10 years of formal education], secondary school and above [≥10 years of formal education] and ethnicity (categorized as Brahmin/Chhetri, Janajati, Madhesi, Muslim, Dalit and Others according to Health Management Information System, Nepal government) [<xref ref-type="bibr" rid="pgph.0000016.ref022">22</xref>]. The academic year of the students was categorized into “lower year” and “higher year’, where the 1<sup>st</sup> or 2<sup>nd</sup> year of the study was regarded as lower year and ≥3<sup>rd</sup> year as the higher year [<xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>,                        <xref ref-type="bibr" rid="pgph.0000016.ref023">23</xref>].
+                    </p>
+                    <p>Other variables were self-rated financial status, self-rated health status, and self-rated self-esteem. Self-rated financial status was measured on a scale of 1 to 6 which included the responses from very poor to very rich [<xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>], categorized as a new variable as: 1–2 (poor) and 3–6 (good). Self-rated health status was classified as excellent, good, moderate, poor, and very poor. This was re-categorized into satisfactory health and unsatisfactory health status. Responses “excellent” and “good health” were combined into satisfactory, while all other responses were categorized as unsatisfactory health status. Self-rated self-esteem was measured on a scale of 1 to 7 using the Rosenberg scale [<xref ref-type="bibr" rid="pgph.0000016.ref024">24</xref>]. Measurement on the scale was based on response to the item “I have very high self-esteem” where the lowest value represents the “not very true of me” and the highest value “very true of me”.</p>
+                </sec>
+            </sec>
+            <sec id="sec010">
+                <title>Data analyses</title>
+                <p>Statistical analysis was performed using IBM SPSS version 20. Descriptive analysis was done to identify the distribution of socio-demographic characteristics of participants. Association between independent variables and health literacy score category was measured by Chi-Square tests followed by binary logistic regression analyses. The level of statistical significance was considered to be p &lt; 0.05.</p>
+            </sec>
+            <sec id="sec011">
+                <title>Ethical considerations</title>
+                <p>The approval was obtained from the Institutional Review Committee of the Institute of Medicine (IOM), Tribhuvan University, Nepal (Reference no; 1561(6–11) E2/077/078). All the respondents were informed about the aims and objectives of the study by including the written consent form in the questionnaire itself. Written digital consent was taken from study participants prior to completing the survey form. The research ethics committee waived the need for consent from guardians of minors included in the study. Participants gave their consent by ticking the designated box.</p>
+            </sec>
+        </sec>
+        <sec id="sec012" sec-type="results">
+            <title>Results</title>
+            <p>
+                <xref ref-type="table" rid="pgph.0000016.t001">Table 1</xref> presents the background information of the respondents.</p>
+            <table-wrap id="pgph.0000016.t001" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pgph.0000016.t001</object-id>
+                <label>Table 1</label>
+                <caption>
+                    <title>Characteristics of the participants (n = 469).</title>
+                </caption>
+                <alternatives>
+                    <graphic id="pgph.0000016.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.t001" xlink:type="simple"/>
+                    <table>
+                        <colgroup>
+                            <col align="left" valign="middle"/>
+                            <col align="left" valign="middle"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th align="justify">Characteristics</th>
+                                <th align="center">Number (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Age (in years)</bold>
+                                </td>
+                                <td align="left"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">&lt; 20 years</td>
+                                <td align="right">76 (16.2)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">≥ 20 years</td>
+                                <td align="right">393 (83.8)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Mean ± SD</td>
+                                <td align="right">20.9 ± 1.7</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Gender</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Female</td>
+                                <td align="right">214 (45.6)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Male</td>
+                                <td align="right">255 (54.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Ethnicity</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Brahmin/Chhetri</td>
+                                <td align="right">355 (75.7)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Janajati</td>
+                                <td align="right">81 (17.3)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Madhesi</td>
+                                <td align="right">24 (5.1)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Others</td>
+                                <td align="right">9 (1.9)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Place of origin</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Rural</td>
+                                <td align="right">284 (60.6)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Urban</td>
+                                <td align="right">185 (39.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Institutes</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">IOM</td>
+                                <td align="right">124 (26.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">IOE</td>
+                                <td align="right">165 (35.0)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">IOF</td>
+                                <td align="right">60 (12.8)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">IAAS</td>
+                                <td align="right">63 (13.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">IOST</td>
+                                <td align="right">58 (12.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Student’s sector</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Non-health</td>
+                                <td align="right">345 (73.6)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Health</td>
+                                <td align="right">124 (26.4)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Academic year</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">First</td>
+                                <td align="right">94 (20)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Second</td>
+                                <td align="right">170 (36.2)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Third</td>
+                                <td align="right">112 (23.9)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Fourth and above</td>
+                                <td align="right">95 (19.9)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Family type</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Nuclear</td>
+                                <td align="right">337 (71.9)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Joint/Extended</td>
+                                <td align="right">132 (28.1)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Father’s education</bold>
+                                </td>
+                                <td align="left"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Illiterate/No formal schooling</td>
+                                <td align="right">41 (8.7)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Below secondary</td>
+                                <td align="right">136 (29)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Secondary and above</td>
+                                <td align="right">292 (62.3)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <bold>Mother’s education</bold>
+                                </td>
+                                <td align="right"/>
+                            </tr>
+                            <tr>
+                                <td align="justify">Illiterate/No formal schooling</td>
+                                <td align="right">111 (23.7)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Below secondary</td>
+                                <td align="right">193 (41.2)</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">Secondary and above</td>
+                                <td align="right">165 (35.2)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </alternatives>
+            </table-wrap>
+            <sec id="sec013">
+                <title>Socio-demographic characteristics</title>
+                <p>A total of 469 respondents were included in the final analysis. We did not receive complete response from six participants. The mean age (± SD) of the respondents was 20.9 (± 1.7) years. Among the respondents, the majority were males (54.1%). Brahmin/Chhetri (75.7%) was the major ethnic group followed by Janajati (17.3%) and Madhesi (5.1%). While categorizing place of origin as rural and urban, the majority of respondents (60.6%) were from rural settlements. 71.9% of the participants belonged to a nuclear family.</p>
+                <p>About 73.6% of the students were from non-health-related faculties while 26.4% were from the directly health-related faculties as the Institute of Medicine (IOM) is the only institute running health programs among five institutes of Tribhuvan University. Talking about the parent’s highest level of education, 62.3% of fathers had attained education of secondary level or above while only 35.2% mothers had attained that level of education.</p>
+            </sec>
+            <sec id="sec014">
+                <title>Health literacy by health domains and health competencies</title>
+                <p>
+                    <xref ref-type="table" rid="pgph.0000016.t002">Table 2</xref> shows that, when analyzing the participant’s performance based on four health literacy competencies, students scored high on competency dealing with understanding health information [Mean (SD): 3.03(0.52)] while they scored low on competency dealing with appraising health information [Mean (SD): 2.52 (0.70)].</p>
+                <table-wrap id="pgph.0000016.t002" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pgph.0000016.t002</object-id>
+                    <label>Table 2</label>
+                    <caption>
+                        <title>Health literacy by health domains and health competencies (n = 469).</title>
+                    </caption>
+                    <alternatives>
+                        <graphic id="pgph.0000016.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.t002" xlink:type="simple"/>
+                        <table>
+                            <colgroup>
+                                <col align="left" valign="middle"/>
+                                <col align="left" valign="middle"/>
+                                <col align="left" valign="middle"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th align="justify"/>
+                                    <th align="left">HLS-EU-Q16 Items</th>
+                                    <th align="center">Mean (SD)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Health competencies</bold>
+                                    </td>
+                                    <td align="left"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Access</td>
+                                    <td align="center">4</td>
+                                    <td align="center">2.70 (0.57)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Understand</td>
+                                    <td align="center">6</td>
+                                    <td align="center">3.03 (0.52)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Appraise</td>
+                                    <td align="center">3</td>
+                                    <td align="center">2.52 (0.70)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Apply</td>
+                                    <td align="center">3</td>
+                                    <td align="center">2.84 (0.60)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Health Domains</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Health Care</td>
+                                    <td align="center">7</td>
+                                    <td align="center">2.85 (0.53)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Disease prevention</td>
+                                    <td align="center">5</td>
+                                    <td align="center">2.74 (0.63)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Health promotion</td>
+                                    <td align="center">4</td>
+                                    <td align="center">2.86 (0.55)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                </table-wrap>
+                <p>When comparing all competencies over the domains of healthcare, disease prevention, and health promotion, the mean score per item was highest within the domain of health promotion [Mean (SD): 2.86 (0.55)] and lowest in the domain of disease prevention [Mean (SD): 2.74 (0.63)].</p>
+            </sec>
+            <sec id="sec015">
+                <title>Factors associated with limited health literacy</title>
+                <p>About 61% of the undergraduate students were found to have limited health literacy. Female students were 1.6 (95% CI: 1.1–2.5) times more likely to have limited health literacy as compared to males. Students whose majors were not directly related to health were almost twice more likely to have limited health literacy than students of health-related majors (aOR = 1.9, 95% CI: 1.2–3.0). Students who perceived their health status as unsatisfactory had higher odds of limited health literacy compared to students who reported having satisfactory health status (aOR = 2.8, 95% CI: 1.7–4.5). Compared to students who have good financial status, students with low financial status were 2.9 times more likely to have limited health literacy (aOR = 2.9, 95% CI: 1.2–6.8). Students having low self-esteem were more likely to have limited health literacy than those who have high self-esteem (aOR = 2.5, 95% CI: 1.5–4.1) (<xref ref-type="table" rid="pgph.0000016.t003">Table 3</xref>).
+                </p>
+                <table-wrap id="pgph.0000016.t003" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pgph.0000016.t003</object-id>
+                    <label>Table 3</label>
+                    <caption>
+                        <title>Factors associated with limited health literacy (n = 469).</title>
+                    </caption>
+                    <alternatives>
+                        <graphic id="pgph.0000016.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.t003" xlink:type="simple"/>
+                        <table>
+                            <colgroup>
+                                <col align="left" valign="middle"/>
+                                <col align="left" valign="middle"/>
+                                <col align="left" valign="middle"/>
+                                <col align="left" valign="middle"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th align="justify">Characteristics</th>
+                                    <th align="justify">Limited health literacy number (%)</th>
+                                    <th align="justify">Unadjusted odds ratio (95% CI)</th>
+                                    <th align="justify">Adjusted odds ratio (95% CI)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Age (in years)</bold>
+                                    </td>
+                                    <td align="left"/>
+                                    <td align="left"/>
+                                    <td align="left"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">≥ 20 years (ref)</td>
+                                    <td align="center">233 (59.3)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">&lt; 20 years</td>
+                                    <td align="center">52 (68.4)</td>
+                                    <td align="center">1.5 (0.9–2.5)</td>
+                                    <td align="center">1.4 (0.8–2.5)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Gender</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Male (ref)</td>
+                                    <td align="center">145 (56.9)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Female</td>
+                                    <td align="center">140 (65.4)</td>
+                                    <td align="center">1.4 (0.9–2.1)</td>
+                                    <td align="center">1.6 (1.1–2.5)<xref ref-type="table-fn" rid="t003fn001">*</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Ethnicity</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Brahmin/Chhetri (ref)</td>
+                                    <td align="center">208 (58.6)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Non-Brahmin/Chhetri</td>
+                                    <td align="center">77 (67.5)</td>
+                                    <td align="center">1.5 (0.9–2.3)</td>
+                                    <td align="center">1.4 (0.8–2.3)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Place of origin</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Urban (ref)</td>
+                                    <td align="center">113 (61.1)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Rural</td>
+                                    <td align="center">172 (60.6)</td>
+                                    <td align="center">1.0 (0.7–1.5)</td>
+                                    <td align="center">1.0 (0.7–1.6)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Student’s sector</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Health (ref)</td>
+                                    <td align="center">63 (50.8)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Non-health</td>
+                                    <td align="center">222 (64.3)</td>
+                                    <td align="center">1.7 (1.2–2.6)<xref ref-type="table-fn" rid="t003fn001">*</xref>
+                                    </td>
+                                    <td align="center">1.9 (1.2–3.0)<xref ref-type="table-fn" rid="t003fn001">*</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Academic year</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Higher year (ref)</td>
+                                    <td align="center">120 (58.5)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Lower year</td>
+                                    <td align="center">165 (62.5)</td>
+                                    <td align="center">1.2 (0.8–1.7)</td>
+                                    <td align="center">0.9 (0.6–1.5)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Family type</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Nuclear (ref)</td>
+                                    <td align="center">206 (61.1)</td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify">Joint/Extended</td>
+                                    <td align="center">79 (59.8)</td>
+                                    <td align="center">0.9 (0.6–1.4)</td>
+                                    <td align="center">0.7 (0.5–1.2)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify">
+                                        <bold>Father’s education</bold>
+                                    </td>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Illiterate/No formal schooling (ref)</td>
+                                    <td align="center" style="background-color:#FFFFFF">26 (63.4)</td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Below secondary</td>
+                                    <td align="center" style="background-color:#FFFFFF">84 (61.8)</td>
+                                    <td align="center" style="background-color:#FFFFFF">1.2 (0.6–2.3)</td>
+                                    <td align="center">0.7 (0.3–1.6)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Secondary and above</td>
+                                    <td align="center" style="background-color:#FFFFFF">175 (59.9)</td>
+                                    <td align="center" style="background-color:#FFFFFF">1.1 (0.7–1.6)</td>
+                                    <td align="center">1.0 (0.6–1.7)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">
+                                        <bold>Mother’s education</bold>
+                                    </td>
+                                    <td align="left" style="background-color:#FFFFFF"/>
+                                    <td align="left" style="background-color:#FFFFFF"/>
+                                    <td align="left"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Illiterate/No formal schooling (ref)</td>
+                                    <td align="center" style="background-color:#FFFFFF">70 (63.1)</td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Below secondary</td>
+                                    <td align="center" style="background-color:#FFFFFF">117 (60.6)</td>
+                                    <td align="center" style="background-color:#FFFFFF">1.2 (0.7–1.9)</td>
+                                    <td align="center">1.0 (0.5–1.9)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Secondary and above</td>
+                                    <td align="center" style="background-color:#FFFFFF">98 (59.4)</td>
+                                    <td align="center" style="background-color:#FFFFFF">1.1 (0.7–1.6)</td>
+                                    <td align="center">1.0 (0.6–1.7)</td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">
+                                        <bold>Self-rated health status</bold>
+                                    </td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Satisfactory (ref)</td>
+                                    <td align="center" style="background-color:#FFFFFF">172 (52.8)</td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Unsatisfactory</td>
+                                    <td align="center" style="background-color:#FFFFFF">113 (79)</td>
+                                    <td align="center" style="background-color:#FFFFFF">3.4 (2.1–5.3)<xref ref-type="table-fn" rid="t003fn002">**</xref>
+                                    </td>
+                                    <td align="center">2.8 (1.7–4.5)<xref ref-type="table-fn" rid="t003fn002">**</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">
+                                        <bold>Self-rated financial status</bold>
+                                    </td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Good (ref)</td>
+                                    <td align="center" style="background-color:#FFFFFF">247 (58.4)</td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Poor</td>
+                                    <td align="center" style="background-color:#FFFFFF">38 (82.6)</td>
+                                    <td align="center" style="background-color:#FFFFFF">3.4 (1.5–7.4)<xref ref-type="table-fn" rid="t003fn002">**</xref>
+                                    </td>
+                                    <td align="center">2.9 (1.2–6.8)<xref ref-type="table-fn" rid="t003fn001">*</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">
+                                        <bold>Self-rated self esteem</bold>
+                                    </td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">High (ref)</td>
+                                    <td align="center" style="background-color:#FFFFFF">182 (54)</td>
+                                    <td align="center" style="background-color:#FFFFFF"/>
+                                    <td align="center"/>
+                                </tr>
+                                <tr>
+                                    <td align="justify" style="background-color:#FFFFFF">Low</td>
+                                    <td align="center" style="background-color:#FFFFFF">103 (78)</td>
+                                    <td align="center" style="background-color:#FFFFFF">3.0 (1.9–4.8)<xref ref-type="table-fn" rid="t003fn002">**</xref>
+                                    </td>
+                                    <td align="center">2.5 (1.5–4.1)<xref ref-type="table-fn" rid="t003fn002">**</xref>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <table-wrap-foot>
+                        <fn id="t003fn001">
+                            <p>* indicates significance at <italic>p</italic>-value &lt; 0.05,</p>
+                        </fn>
+                        <fn id="t003fn002">
+                            <p>** indicates significance at p-value &lt; 0.001</p>
+                        </fn>
+                    </table-wrap-foot>
+                </table-wrap>
+            </sec>
+        </sec>
+        <sec id="sec016" sec-type="conclusions">
+            <title>Discussion</title>
+            <p>The study found that 60.8% of the undergraduates studying at Tribhuvan University, Nepal, had limited health literacy. Our study finding was consistent with a Ghanaian university-based study [<xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>]. The population based health literacy survey conducted in eight European countries showed 47% had limited (insufficient or problematic) health literacy [<xref ref-type="bibr" rid="pgph.0000016.ref021">21</xref>]. However university-based studies, especially in the United States and Canada, have reported better levels of health literacy (about 7%-15% limited health literacy) [<xref ref-type="bibr" rid="pgph.0000016.ref025">25</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref026">26</xref>]. These huge differences might be due to difference in study settings as these countries are highly developed and richer than Nepal. Economic development levels, health resource allocations, and access to health information are lower in developing countries like Nepal compared to developed countries like the United States and Canada.</p>
+            <p>In this study, females were found to be 1.6 times more likely to have limited health literacy than males. This contrasts with the findings from a similar study conducted among Danish adults [<xref ref-type="bibr" rid="pgph.0000016.ref027">27</xref>] and university students in Turkey [<xref ref-type="bibr" rid="pgph.0000016.ref028">28</xref>]. Patriarchal societies where households tend to favor males for healthcare services, variations in the educational systems and the other sociocultural characteristics may have attributed to this discrepancy.</p>
+            <p>Higher odds of having limited health literacy were found on the students from non-health related majors as compared with students from health-related majors. Similar differences were seen in other studies conducted in countries like Ghana [<xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>], China [<xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>], Jordan [<xref ref-type="bibr" rid="pgph.0000016.ref023">23</xref>] and America [<xref ref-type="bibr" rid="pgph.0000016.ref025">25</xref>]. The possible explanation could be students in health-related programs familiarity with the health-related knowledge, the health-care environment, topics of health promotion, and disease prevention.</p>
+            <p>Students from rural origin reported a lower level of health literacy than students from an urban origin in a study from China [<xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>]. However, in our study no significant association was found between health literacy and place of origin. It might be due to the difference in sampling size. Students who reported their health status as unsatisfactory were more likely to have a lower level of health literacy, consistent with existing literatures [<xref ref-type="bibr" rid="pgph.0000016.ref029">29</xref>–                <xref ref-type="bibr" rid="pgph.0000016.ref031">31</xref>]. This pattern is likely due to their difficulty in navigating the healthcare system and possessing insufficient health information for self-care.</p>
+            <p>Individuals who perceived their financial status as poor had higher odds of having limited health literacy compared to their counterparts. This is consistent with the results of some studies conducted among university students [<xref ref-type="bibr" rid="pgph.0000016.ref007">7</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref027">27</xref>]. Lower economic status impacts the access, use, and quality of health care. This factor might have played a role in health literacy skills of students. In our study, students with high self-esteem levels had higher health literacy than their counterparts who rated themselves as having low self-esteem. Adolescents’ mental and physical health status were found to be associated self-esteem in a study conducted in New Zealand [<xref ref-type="bibr" rid="pgph.0000016.ref032">32</xref>]. This evidence might explain the role of self-esteem in determining the level of health literacy.</p>
+            <p>Contrary to our expectation, health literacy was not associated with the academic year and parent’s highest level of education as reported in previous studies [<xref ref-type="bibr" rid="pgph.0000016.ref007">7</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref008">8</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref014">14</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref017">17</xref>,                <xref ref-type="bibr" rid="pgph.0000016.ref033">33</xref>]. This absence of association is not well understood and needs to be explored prospectively in future research. In our study, the mean score per item (over all competencies) was lowest for appraising health information and while comparing all competencies over the three domains, the mean score per item was highest within the domain of health promotion. Therefore, our findings corroborate with findings from study conducted in Denmark [<xref ref-type="bibr" rid="pgph.0000016.ref027">27</xref>].
+            </p>
+            <sec id="sec017">
+                <title>Strengths and limitations</title>
+                <p>To the best of our knowledge this is the first study to explore health literacy among university undergraduates and compare the health literacy levels among health and non health- related students in Nepal. The study provided information on student’s self-perceived competencies necessary for them to make informed health decisions. The findings of this study added evidence into the limited literature on the health literacy level in Nepal.</p>
+                <p>The present study had few limitations. All the measurements in this study were based on self-reports, which may have been prone to response and information bias. This study was cross-sectional and, therefore, cannot demonstrate causality between the factors associated with health literacy. As most of the participants were from non-health background, which might have created the discrepancy while analyzing the health literacy level in terms of health-related students versus non-health related students. Restrictions due to the COVID-19 pandemic limited our plans for on-site data collection so we had to collect the data online. Since this was a web-based study, limited access to the internet may have discouraged the students from participating in the survey.</p>
+            </sec>
+        </sec>
+        <sec id="sec018" sec-type="conclusions">
+            <title>Conclusion</title>
+            <p>The study revealed a high prevalence of limited health literacy among university students in Nepal. Gender, sector of study, perceived health status, financial status and self-esteem were significantly associated with limited health literacy. According to the findings, even educated people, such as undergraduates, face difficulties interacting with health-care procedures and systems. University students should not be assumed to be health-literate and interventions that will help enhance their literacy in health should be implemented especially among non-health related institutions. Specific policy to make health literacy friendly health institutions must be implemented. Further studies with better sampling procedure using a longer version of health literacy survey questionnaire and qualitative methods to explore more on determinants of health literacy are recommended.</p>
+        </sec>
+        <sec id="sec019" sec-type="supplementary-material">
+            <title>Supporting information</title>
+            <supplementary-material id="pgph.0000016.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.s001" xlink:type="simple">
+                <label>S1 Data</label>
+                <caption>
+                    <title/>
+                    <p>(XLSX)</p>
+                </caption>
+            </supplementary-material>
+            <supplementary-material id="pgph.0000016.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.s002" xlink:type="simple">
+                <label>S1 Tool</label>
+                <caption>
+                    <title>Study questionnaire.</title>
+                    <p>(DOCX)</p>
+                </caption>
+            </supplementary-material>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <p>We thank all the faculty members at the Department of Community Medicine and Central Department of Public Health, Institute of Medicine, Tribhuvan University, Nepal for their guidance during the research project. Our appreciation goes to individuals responding to the questionnaire and the class monitors for their communication and coordination.</p>
+        </ack>
+        <glossary>
+            <title>Abbreviations</title>
+            <def-list>
+                <def-item>
+                    <term>CI</term>
+                    <def>
+                        <p>Confidence Interval</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>HLS</term>
+                    <def>
+                        <p>Health Literacy Survey</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>NCDs</term>
+                    <def>
+                        <p>Non-Communicable Diseases</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>OR</term>
+                    <def>
+                        <p>Odds Ratio</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>SD</term>
+                    <def>
+                        <p>Standard Deviation</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>SDG</term>
+                    <def>
+                        <p>Sustainable Development Goals</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>UHC</term>
+                    <def>
+                        <p>Universal Health Coverage</p>
+                    </def>
+                </def-item>
+            </def-list>
+        </glossary>
+        <ref-list>
+            <title>References</title>
+            <ref id="pgph.0000016.ref001">
+                <label>1</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Nutbeam</surname>
+                        <given-names>D</given-names>
+                    </name>.                    <article-title>Health Promotion Glossary</article-title>.                    <source>Health Promotion International</source>.                    <year>1998</year>
+                    <month>Jan</month>
+                    <day>1</day>;                    <volume>13</volume>(                    <issue>4</issue>):                    <fpage>349</fpage>–                    <lpage>64</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref002">
+                <label>2</label>
+                <mixed-citation publication-type="other" xlink:type="simple">WHO | Shanghai Declaration on promoting health in the 2030 Agenda for Sustainable Development [Internet]. WHO. World Health Organization; [cited 2021 Apr 27]. <ext-link ext-link-type="uri" xlink:href="http://www.who.int/healthpromotion/conferences/9gchp/shanghai-declaration/en/" xlink:type="simple">http://www.who.int/healthpromotion/conferences/9gchp/shanghai-declaration/en/</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref003">
+                <label>3</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Amoah</surname>
+                        <given-names>PA</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Phillips</surname>
+                        <given-names>DR</given-names>
+                    </name>.                    <article-title>Health literacy and health: rethinking the strategies for universal health coverage in Ghana</article-title>.                    <source>Public Health</source>.                    <year>2018</year>
+                    <month>Jun</month>;                    <volume>159</volume>:                    <fpage>40</fpage>–                    <lpage>9</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.puhe.2018.03.002" xlink:type="simple">10.1016/j.puhe.2018.03.002</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">29729490</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref004">
+                <label>4</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Osborne</surname>
+                        <given-names>RH</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Batterham</surname>
+                        <given-names>RW</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Elsworth</surname>
+                        <given-names>GR</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hawkins</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Buchbinder</surname>
+                        <given-names>R</given-names>
+                    </name>.                    <article-title>The grounded psychometric development and initial validation of the Health Literacy Questionnaire (HLQ)</article-title>.                    <source>BMC Public Health</source>.                    <year>2013</year>
+                    <month>Jul</month>
+                    <day>16</day>;                    <volume>13</volume>(                    <issue>1</issue>):                    <fpage>658</fpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref005">
+                <label>5</label>
+                <mixed-citation publication-type="other" xlink:type="simple">Vernon J, Trujillo A, Rosenbaum S, DeBuono B. Low Health Literacy: Implications for National Health Policy. Health Policy and Management Faculty Publications [Internet]. 2007 Oct 1; <ext-link ext-link-type="uri" xlink:href="https://hsrc.himmelfarb.gwu.edu/sphhs_policy_facpubs/172" xlink:type="simple">https://hsrc.himmelfarb.gwu.edu/sphhs_policy_facpubs/172</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref006">
+                <label>6</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Dewalt</surname>
+                        <given-names>DA</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Berkman</surname>
+                        <given-names>ND</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Sheridan</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Lohr</surname>
+                        <given-names>KN</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pignone</surname>
+                        <given-names>MP</given-names>
+                    </name>.                    <article-title>Literacy and health outcomes: a systematic review of the literature</article-title>.                    <source>J Gen Intern Med</source>.                    <year>2004</year>
+                    <month>Dec</month>;                    <volume>19</volume>(                    <issue>12</issue>):                    <fpage>1228</fpage>–                    <lpage>39</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1525-1497.2004.40153.x" xlink:type="simple">10.1111/j.1525-1497.2004.40153.x</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">15610334</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref007">
+                <label>7</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Zhang</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Zhang</surname>
+                        <given-names>F</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hu</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Huang</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Lu</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bai</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Exploring Health Literacy in Medical University Students of Chongqing, China: A Cross-Sectional Study</article-title>.                    <source>PLoS ONE</source>.                    <year>2016</year>;                    <volume>11</volume>(                    <issue>4</issue>):                    <fpage>e0152547</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0152547" xlink:type="simple">10.1371/journal.pone.0152547</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">27050169</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref008">
+                <label>8</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Wang</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hou</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hu</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Zhang</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Tao</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Man</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>A cross-sectional study on health-related knowledge and its predictors among Chinese vocational college students</article-title>.                    <source>BMJ Open</source>.                    <year>2014</year>
+                    <month>Oct</month>;                    <volume>4</volume>(                    <issue>10</issue>):                    <fpage>e005182</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2014-005182" xlink:type="simple">10.1136/bmjopen-2014-005182</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">25311037</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref009">
+                <label>9</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Zheng</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Jin</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Shi</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Duan</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Wang</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Yu</surname>
+                        <given-names>X</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>The relationship between health literacy and quality of life: a systematic review and meta-analysis</article-title>.                    <source>Health and Quality of Life Outcomes</source>.                    <year>2018</year>
+                    <month>Oct</month>
+                    <day>16</day>;                    <volume>16</volume>(                    <issue>1</issue>):                    <fpage>201</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12955-018-1031-7" xlink:type="simple">10.1186/s12955-018-1031-7</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">30326903</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref010">
+                <label>10</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Budhathoki</surname>
+                        <given-names>SS</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bhattachan</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Yadav</surname>
+                        <given-names>AK</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Upadhyaya</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pokharel</surname>
+                        <given-names>PK</given-names>
+                    </name>.                    <article-title>Eco-social and behavioural determinants of diarrhoea in under-five children of Nepal: a framework analysis of the existing literature</article-title>.                    <source>Trop Med Health</source>.                    <year>2016</year>;                    <volume>44</volume>:                    <fpage>7</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s41182-016-0006-9" xlink:type="simple">10.1186/s41182-016-0006-9</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">27433126</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref011">
+                <label>11</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Bhandari</surname>
+                        <given-names>GP</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Angdembe</surname>
+                        <given-names>MR</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Dhimal</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Neupane</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bhusal</surname>
+                        <given-names>C</given-names>
+                    </name>.                    <article-title>State of non-communicable diseases in Nepal</article-title>.                    <source>BMC Public Health</source>.                    <year>2014</year>
+                    <month>Jan</month>
+                    <day>10</day>;                    <volume>14</volume>:                    <fpage>23</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-14-23" xlink:type="simple">10.1186/1471-2458-14-23</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">24405646</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref012">
+                <label>12</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Budhathoki</surname>
+                        <given-names>SS</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pokharel</surname>
+                        <given-names>PK</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Good</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Limbu</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bhattachan</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Osborne</surname>
+                        <given-names>RH</given-names>
+                    </name>.                    <article-title>The potential of health literacy to address the health related UN sustainable development goal 3 (SDG3) in Nepal: a rapid review</article-title>.                    <source>BMC Health Serv Res</source>.                    <year>2017</year>
+                    <month>Mar</month>
+                    <day>27</day>;                    <volume>17</volume>(                    <issue>1</issue>):                    <fpage>237</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12913-017-2183-6" xlink:type="simple">10.1186/s12913-017-2183-6</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">28347355</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref013">
+                <label>13</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Storey</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hanna</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Missen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hakman</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Osborne</surname>
+                        <given-names>RH</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Beauchamp</surname>
+                        <given-names>A</given-names>
+                    </name>.                    <article-title>The Association between Health Literacy and Self-Rated Health Amongst Australian University Students</article-title>.                    <source>Journal of Health Communication</source>.                    <year>2020</year>
+                    <month>Apr</month>
+                    <day>2</day>;                    <volume>25</volume>(                    <issue>4</issue>):                    <fpage>333</fpage>–                    <lpage>43</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10810730.2020.1761913" xlink:type="simple">10.1080/10810730.2020.1761913</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">32419661</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref014">
+                <label>14</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Budhathoki</surname>
+                        <given-names>SS</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pokharel</surname>
+                        <given-names>PK</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Jha</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Moselen</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Dixon</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bhattachan</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Health literacy of future healthcare professionals: a cross-sectional study among health sciences students in Nepal</article-title>.                    <source>Int Health</source>.                    <year>2019</year>
+                    <day>1</day>;                    <volume>11</volume>(                    <issue>1</issue>):                    <fpage>15</fpage>–                    <lpage>23</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/inthealth/ihy090" xlink:type="simple">10.1093/inthealth/ihy090</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">30412262</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref015">
+                <label>15</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Harper</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Cook</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Makoul</surname>
+                        <given-names>G</given-names>
+                    </name>.                    <article-title>Teaching medical students about health literacy: 2 Chicago initiatives</article-title>.                    <source>Am J Health Behav</source>.                    <year>2007</year>
+                    <month>Oct</month>;                    <volume>31</volume>
+                    <issue>Suppl 1</issue>:                    <fpage>S111</fpage>–                    <lpage>114</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5555/ajhb.2007.31.supp.S111" xlink:type="simple">10.5555/ajhb.2007.31.supp.S111</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">17931129</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref016">
+                <label>16</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Bhandari</surname>
+                        <given-names>PM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Thapa</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Dhakal</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bhochhibhoya</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Deuja</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Acharya</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Breast cancer literacy among higher secondary students: results from a cross-sectional study in Western Nepal</article-title>.                    <source>BMC Cancer</source>.                    <year>2016</year>
+                    <month>Feb</month>
+                    <day>18</day>;                    <volume>16</volume>(                    <issue>1</issue>):                    <fpage>119</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12885-016-2166-8" xlink:type="simple">10.1186/s12885-016-2166-8</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">26887650</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref017">
+                <label>17</label>
+                <mixed-citation publication-type="other" xlink:type="simple">Comprehensive Health Literacy Among Undergraduates: A Ghanaian University-Based Cross-Sectional Study [Internet]. [cited 2020 Jun 18]. <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6786689/" xlink:type="simple">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6786689/</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref018">
+                <label>18</label>
+                <mixed-citation publication-type="other" xlink:type="simple">Pelikan JM, Ganahl K. Measuring Health Literacy in General Populations: Primary Findings from the HLS-EU Consortium&amp;#39;s Health Literacy Assessment Effort. Health Literacy. 2017;34–59.</mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref019">
+                <label>19</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Sørensen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Van den Broucke</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pelikan</surname>
+                        <given-names>JM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Fullam</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Doyle</surname>
+                        <given-names>G</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Slonska</surname>
+                        <given-names>Z</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Measuring health literacy in populations: illuminating the design and development process of the European Health Literacy Survey Questionnaire (HLS-EU-Q)</article-title>.                    <source>BMC Public Health</source>.                    <year>2013</year>
+                    <month>Oct</month>
+                    <day>10</day>;                    <volume>13</volume>(                    <issue>1</issue>):                    <fpage>948</fpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref020">
+                <label>20</label>
+                <mixed-citation publication-type="other" xlink:type="simple">Pelikan JM, Röthlin F, Ganahl K. Measuring comprehensive health literacy in general populations: validation of instrument, indices and scales of the HLS-EU study.: 54.</mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref021">
+                <label>21</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Sørensen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pelikan</surname>
+                        <given-names>JM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Röthlin</surname>
+                        <given-names>F</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Ganahl</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Slonska</surname>
+                        <given-names>Z</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Doyle</surname>
+                        <given-names>G</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Health literacy in Europe: comparative results of the European health literacy survey (HLS-EU)</article-title>.                    <source>Eur J Public Health</source>.                    <year>2015</year>
+                    <month>Dec</month>;                    <volume>25</volume>(                    <issue>6</issue>):                    <fpage>1053</fpage>–                    <lpage>8</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/eurpub/ckv043" xlink:type="simple">10.1093/eurpub/ckv043</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">25843827</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref022">
+                <label>22</label>
+                <mixed-citation publication-type="other" xlink:type="simple">FA58.pdf [Internet]. [cited 2021 Apr 29]. <ext-link ext-link-type="uri" xlink:href="https://dhsprogram.com/pubs/pdf/FA58/FA58.pdf" xlink:type="simple">https://dhsprogram.com/pubs/pdf/FA58/FA58.pdf</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref023">
+                <label>23</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Rababah</surname>
+                        <given-names>JA</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Al-Hammouri</surname>
+                        <given-names>MM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Drew</surname>
+                        <given-names>BL</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Aldalaykeh</surname>
+                        <given-names>M</given-names>
+                    </name>.                    <article-title>Health literacy: exploring disparities among college students</article-title>.                    <source>BMC Public Health</source>.                    <year>2019</year>
+                    <month>Oct</month>
+                    <day>29</day>;                    <volume>19</volume>(                    <issue>1</issue>):                    <fpage>1401</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-019-7781-2" xlink:type="simple">10.1186/s12889-019-7781-2</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">31664973</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref024">
+                <label>24</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Robins</surname>
+                        <given-names>RW</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hendin</surname>
+                        <given-names>HM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Trzesniewski</surname>
+                        <given-names>KH</given-names>
+                    </name>.                    <article-title>Measuring Global Self-Esteem: Construct Validation of a Single-Item Measure and the Rosenberg Self-Esteem Scale</article-title>.                    <source>Pers Soc Psychol Bull</source>.                    <year>2001</year>
+                    <month>Feb</month>
+                    <day>1</day>;                    <volume>27</volume>(                    <issue>2</issue>):                    <fpage>151</fpage>–                    <lpage>61</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref025">
+                <label>25</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Joseph</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Fernandes</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hyers</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>O’Brien</surname>
+                        <given-names>K</given-names>
+                    </name>.                    <article-title>Health literacy: a cross-disciplinary study in American undergraduate college students</article-title>.                    <source>Journal of Information Literacy</source>.                    <year>2016</year>
+                    <month>Dec</month>
+                    <day>1</day>;                    <volume>10</volume>(                    <issue>2</issue>):                    <fpage>26</fpage>–                    <lpage>39</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref026">
+                <label>26</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Hansen</surname>
+                        <given-names>HR</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Shneyderman</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Belcastro</surname>
+                        <given-names>PA</given-names>
+                    </name>.                    <article-title>Investigating the Association of Health Literacy With Health Knowledge and Health Behavior Outcomes in a Sample of Urban Community College Undergraduates</article-title>.                    <source>American Journal of Health Education</source>.                    <year>2015</year>
+                    <month>Sep</month>
+                    <day>3</day>;                    <volume>46</volume>(                    <issue>5</issue>):                    <fpage>274</fpage>–                    <lpage>82</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref027">
+                <label>27</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Svendsen</surname>
+                        <given-names>MT</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Bak</surname>
+                        <given-names>CK</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Sørensen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pelikan</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Riddersholm</surname>
+                        <given-names>SJ</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Skals</surname>
+                        <given-names>RK</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Associations of health literacy with socioeconomic position, health risk behavior, and health status: a large national population-based survey among Danish adults</article-title>.                    <source>BMC Public Health</source>.                    <year>2020</year>
+                    <month>Apr</month>
+                    <day>28</day>;                    <volume>20</volume>(                    <issue>1</issue>):                    <fpage>565</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-020-08498-8" xlink:type="simple">10.1186/s12889-020-08498-8</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">32345275</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref028">
+                <label>28</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Uysal</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Ceylan</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Koç</surname>
+                        <given-names>A</given-names>
+                    </name>.                    <article-title>Health literacy level and influencing factors in university students</article-title>.                    <source>Health Soc Care Community</source>.                    <year>2020</year>
+                    <month>Mar</month>;                    <volume>28</volume>(                    <issue>2</issue>):                    <fpage>505</fpage>–                    <lpage>11</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/hsc.12883" xlink:type="simple">10.1111/hsc.12883</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">31659830</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref029">
+                <label>29</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Storey</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hanna</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Missen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Hakman</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Osborne</surname>
+                        <given-names>RH</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Beauchamp</surname>
+                        <given-names>A</given-names>
+                    </name>.                    <article-title>The Association between Health Literacy and Self-Rated Health Amongst Australian University Students</article-title>.                    <source>Journal of Health Communication</source>.                    <year>2020</year>
+                    <month>Apr</month>
+                    <day>2</day>;                    <volume>25</volume>(                    <issue>4</issue>):                    <fpage>333</fpage>–                    <lpage>43</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10810730.2020.1761913" xlink:type="simple">10.1080/10810730.2020.1761913</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">32419661</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref030">
+                <label>30</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Duong</surname>
+                        <given-names>VT</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Lin</surname>
+                        <given-names>I-F</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Sorensen</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Pelikan</surname>
+                        <given-names>JM</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Van Den Broucke</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Lin</surname>
+                        <given-names>Y-C</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Health Literacy in Taiwan: A Population-Based Study</article-title>.                    <source>Asia Pac J Public Health</source>.                    <year>2015</year>
+                    <month>Nov</month>
+                    <day>1</day>;                    <volume>27</volume>(                    <issue>8</issue>):                    <fpage>871</fpage>–                    <lpage>80</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1010539515607962" xlink:type="simple">10.1177/1010539515607962</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">26419635</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref031">
+                <label>31</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Lee</surname>
+                        <given-names>S-YD</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Tsai</surname>
+                        <given-names>T-I</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Tsai</surname>
+                        <given-names>Y-W</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Kuo</surname>
+                        <given-names>KN</given-names>
+                    </name>.                    <article-title>Health literacy, health status, and healthcare utilization of Taiwanese adults: results from a national survey</article-title>.                    <source>BMC Public Health</source>.                    <year>2010</year>
+                    <month>Oct</month>
+                    <day>16</day>;                    <volume>10</volume>(                    <issue>1</issue>):                    <fpage>614</fpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-10-614" xlink:type="simple">10.1186/1471-2458-10-614</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">20950479</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref032">
+                <label>32</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Trzesniewski</surname>
+                        <given-names>KH</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Donnellan</surname>
+                        <given-names>MB</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Moffitt</surname>
+                        <given-names>TE</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Robins</surname>
+                        <given-names>RW</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Poulton</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Caspi</surname>
+                        <given-names>A</given-names>
+                    </name>.                    <article-title>Low self-esteem during adolescence predicts poor health, criminal behavior, and limited economic prospects during adulthood</article-title>.                    <source>Dev Psychol</source>.                    <year>2006</year>
+                    <month>Mar</month>;                    <volume>42</volume>(                    <issue>2</issue>):                    <fpage>381</fpage>–                    <lpage>90</lpage>.                    <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/0012-1649.42.2.381" xlink:type="simple">10.1037/0012-1649.42.2.381</ext-link>
+                    </comment>
+                    <object-id pub-id-type="pmid">16569175</object-id>
+                </mixed-citation>
+            </ref>
+            <ref id="pgph.0000016.ref033">
+                <label>33</label>
+                <mixed-citation publication-type="journal" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Sarhan</surname>
+                        <given-names>MBA</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Fujii</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Kiriya</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Fujiya</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Giacaman</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name name-style="western">
+                        <surname>Kitamura</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <etal>et al</etal>.                    <article-title>Exploring health literacy and its associated factors among Palestinian university students: a cross-sectional study</article-title>.                    <source>Health Promotion International</source>.                    <year>2020</year>
+                    <month>Nov</month>
+                    <day>3</day>;                    <fpage>daaa089</fpage>.
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="aggregated-review-documents" id="pgph.0000016.r001" specific-use="decision-letter">
+        <front-stub>
+            <article-id pub-id-type="doi">10.1371/journal.pgph.0000016.r001</article-id>
+            <title-group>
+                <article-title>Decision Letter 0</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>Nazif-Munoz</surname>
+                        <given-names>Jose Ignacio</given-names>
+                    </name>
+                    <role>Academic Editor</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>Robinson</surname>
+                        <given-names>Julia</given-names>
+                    </name>
+                    <role>Staff Editor</role>
+                </contrib>
+            </contrib-group>
+            <permissions>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Nazif-Munoz, Robinson</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <related-object document-id="10.1371/journal.pgph.0000016" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>Submission Version</meta-name>
+                    <meta-value>0</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>
+                <named-content content-type="letter-date">9 Aug 2021</named-content>
+            </p>
+            <p>                <!-- <div> -->PGPH-D-21-00095                <!-- </div> --></p>
+            <p>                <!-- <div> -->Health Literacy and Associated Factors among University Students in Nepal                <!-- </div> --></p>
+            <p>                <!-- <div> -->PLOS Global Public Health</p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Dear Professor Pranil Man Singh Pradhan,                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Thank you for submitting the manuscript "Health literacy and associated factors among university students in Nepal" for consideration to PLOS Global Public Health.                <!-- </span> --> After careful consideration, we feel that it has merit but does not fully meet PLOS Global Public Health’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+            <p>Both authors reflect on the need of improving the methods section. More information is thus needed to understand various proceeding associated with the online survey. As editor my main concern is also methodological. Authors should let the readers know about the population (averages of age, female proportion, parents’ education etc.) from which the study sample is drawn from. Otherwise the study may not show if sample biases have been corrected at all. The sample can be representative of maybe one or two students’ characteristics, and this should be communicated and adjusted when discussing results.                <!-- </div> --></p>
+            <p>Please submit your revised manuscript by September 9th, 2021. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at <email xlink:type="simple">globalpubhealth@plos.org</email>. When you're ready to submit your revision, log on to <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pgph/" xlink:type="simple">https://www.editorialmanager.com/pgph/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+            <p>Please include the following items when submitting your revised manuscript:</p>
+            <p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>A rebuttal letter that responds to each point raised by the editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.</p>
+                    </list-item>
+                    <list-item>
+                        <p>A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.</p>
+                    </list-item>
+                    <list-item>
+                        <p>An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Guidelines for resubmitting your figure files are available below the reviewer comments at the end of this letter.</p>
+            <p>We look forward to receiving your revised manuscript.</p>
+            <p>Kind regards,</p>
+            <p>Jose Ignacio Nazif-Munoz, Ph.D.</p>
+            <p>Academic Editor</p>
+            <p>PLOS Global Public Health</p>
+            <p>Journal Requirements:</p>
+            <p>Please review your reference list to ensure that it is complete and correct. If you have cited papers that have been retracted, please include the rationale for doing so in the manuscript text, or remove these references and replace them with relevant current references. Any changes to the reference list should be mentioned in the rebuttal letter that accompanies your revised manuscript. If you need to cite a retracted article, indicate the article’s retracted status in the References list and also include a citation and full reference for the retraction notice.</p>
+            <p>-------------------------------------</p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Reviewer 1                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Thank you for sharing the manuscript. It is a well-written manuscript. It has described the introduction, methods, results, and discussion well and these are aligned to the stated objectives.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->There are few observations that the authors may consider.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Methods:                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->1. Method is well written and explained the tools adequately. But a brief description of the web-based survey tool, the language in which it was delivered would be welcome. Did all the tools [health literacy scale, financial, self-esteem and health status ] were put in the online survey tool, and whether it was delivered in English or Nepali Language may help the readers to understand the data collection process. A line or two on the consent process should be considered.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->2. A brief description of the self-reported financial scale or how the information was collected will give the readers better insight into the analysis. Otherwise, attachment tools for financial status or health status can be considered as supplementary documents as per the journal guidelines can be considered.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Results:                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->3. Table 2: Table 2 has been described as, 'When comparing all competencies over the domains of healthcare, disease prevention, and health promotion, the mean score per item was highest within the domain of health promotion [Mean (SD): 2.86 (0.55)] and lowest in the domain of disease prevention [Mean (SD): 2.86 (0.63)]'.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->But in table 2, the Mean SD of the disease prevention is 2.74 and not 2.86. The authors should check this discrepancy.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Discussion:                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->4. The paragraph above the strength and limitation where the authors refer to similarity with a study in Denmark [Ref 18]. It would be better if the authors briefly describe the similarity that they are trying to point.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Generic                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->5.The lack of page numbers and line numbers is a bit problematic for reviewing.                <!-- </span> --></p>
+            <p>Reviewer 2</p>
+            <p>The manuscript submitted by Mr. Pranil Man Singh Pradhan and his team is important and has tried to fill the gap of literature in the area of health literacy. I enjoyed reading this work, and I have found some minor comments as well. Which I hope, the author would include into his work. I have embedded my comments by specifying each section of the manuscript.</p>
+            <p>Topic</p>
+            <p>1. Authors could make the topic more specific. Since, this study has been done in only one university of Nepal, it would not be fair to say the study among the university students. The current topic gives an idea to the readers that a study is among the university students in Nepal which, in fact, is not.</p>
+            <p>Abstract</p>
+            <p>1. The author has used HLS-EC-Q16 as a key word, but I did not find this abbreviation used anywhere in the abstract. I would suggest using the abbreviation first, at least once, and than use it in the keyword section.</p>
+            <p>Introduction</p>
+            <p>1. Not enough literature review has been done. How can limited health literacy leads to the economical burden and health inequalities in the society, you need to support this argument with evidence since you have mentioned this twice (in the abstract and second paragraph of an introduction).</p>
+            <p>2. The question like why this study was done in Nepal or how this study is relevant to Nepalese context is crucial. What are those believes, practices and mis-conception prevalent is Nepalese society which are preventing people to get informed about health information or have implication on health and disease in Nepal. Why was it so important to conduct this study in Nepal? Why you choose undergraduate student in Nepal? How this group (undergraduate) is so important in the Nepalese context that compel you to conduct this study? For example, did you choose this study group because this group represents the larger fraction of Nepalese population or because this group can influence the larger percentage of Nepalese population or because of something else? You need to work more on this. By only saying that undergraduate is a transition period, and it is always misunderstood as an educated group is enough to conduct this study. I think, enough studies need to be examined to answer these questions. The relation between three: Health Literacy, Nepal and Undergraduate students should be strong to carry out this study. This convinces others as well to make another study, expand this work and to contribute more to the area. When your rational to conduct a study in any region is strong, being an international reader  who do not know about Nepal, could understand your work more clarity and easily correlate the situation. It also makes an international reader to read a paper with the eyes of clarity.</p>
+            <p>3. In the 4th paragraph, the author has aimed to assess the level of comprehensive health literacy through this study. What does the word “comprehensive” means here? Does this questionnaire claim to measure the level of comprehensive health literacy? If yes, please state the word comprehensive with the evidence from claim.</p>
+            <p>Methodology:</p>
+            <p>1. I think, the author has not explained the inclusion and exclusion criteria very well which have created a confusion of understanding. The authors say that all undergraduates’ students are included. But I guess there must be international students in IoM, IoE or other institute pursuing their undergraduate degree. What about them? Did you include them or not? If yes, do they represent Nepal? Please make this clear.</p>
+            <p>2. The author has excluded the postgraduates’ students and affiliated programs. But what about the constituent campuses in IoM. There are 7 constituents’ campuses and 1 central department of public health under the IoM. Did you include the students from those constituents’ campuses? Are there any other constituent campuses under other institutes like the Institute of Medicine have? You should mention these thoughts very clearly. So that the readers should not have any confusion.</p>
+            <p>Tribhuvan university: <ext-link ext-link-type="uri" xlink:href="http://tribhuvan-university.edu.np/institute/1_5db00959912d0#" xlink:type="simple">http://tribhuvan-university.edu.np/institute/1_5db00959912d0#</ext-link>
+            </p>
+            <p>3. The author has collected the sample from each institute proportionally based on the size of the population of each institute. So, what is the number of population/students enrolled in each institute in the corresponding year? How do I check whether they have collected the responses proportionally or not? How do I validate your sample taken from each institute? You must include the total number of students enrolled in each institute in the year in which study was pursued.</p>
+            <p>4. Did you translate the questionnaire into your local Nepalese language? If yes, how did you do that? Is the questionnaire tested before in the local language or the translated questionnaire have been piloted before? If you did not translate the questionnaire, did you receive any difficulties from the participants about the understanding of the words used in the questionnaire? Please make this very clear. This is important in many senses. One would be, it may give an idea to other researchers who wants to replicate or expand your work in the future by using the same questionnaire in Nepal.</p>
+            <p>5. The author has used a scale of 1 to 6 to measure self-rated financial status. Could you please clarify how did you build this scale? Is this an international standard? Is there any formula to develop this scale?</p>
+            <p>6. The author says limited access to the internet may have discouraged the students from participating in the survey. Does any student refused/denied participating in this survey due to internet problem or any other problem? If yes, what was the reason of denial. Was it internet or any cultural believes or any other reason? You should provide information regarding the refusal of participants if there was any.</p>
+            <p>7. Why did the author used shorter version of HLS-EC questionnaire? Why not the longer version of this questionnaire (HLS-EC Q16 vs Q47)?)? Please explain this. This may help you to identify strength or weakness of this study.</p>
+            <p>Results</p>
+            <p>1. The author in the Table 3 has categorized an academic year into Higher year and Lower year. What does higher and lower year mean? How did you classify this? Which year of students are included in higher and which groups are kept in lower year? Please state this.</p>
+            <p>2. Be careful about the correctness while writing the numbers and decimals. For example, you have used two values of mean (SD): 2.86 and 2.74 for disease prevention domain. Which one is correct? Please check the overall manuscript for such minor errors to convey the right idea.</p>
+            <p>Discussion and conclusion (Strengths and limitations)</p>
+            <p>1. There is huge difference in the sample size between health and non-health related students (26% vs 74%). Based on this sample difference, how can you say that the health-related students demonstrate higher level of health literacy? What if that was because of lower sample size of health-related students?</p>
+            <p>[Note: HTML markup is below. Please do not edit.]</p>
+            <p>Reviewers' comments:</p>
+            <p>Reviewer's Responses to Questions</p>
+            <p>                <!-- <font color="black"> -->
+                <bold>Comments to the Author</bold>
+            </p>
+            <p>1. Does this manuscript meet PLOS Global Public Health’s <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/globalpublichealth/s/criteria-for-publication" xlink:type="simple">publication criteria</ext-link>? Is the manuscript technically sound, and do the data support the conclusions? The manuscript must describe methodologically and ethically rigorous research with conclusions that are appropriately drawn based on the data presented.                <!-- </font> --></p>
+            <p>Reviewer #1: Yes</p>
+            <p>Reviewer #2: Yes</p>
+            <p>**********</p>
+            <p>                <!-- <font color="black"> -->2. Has the statistical analysis been performed appropriately and rigorously?                <!-- </font> --></p>
+            <p>Reviewer #1: I don't know</p>
+            <p>Reviewer #2: Yes</p>
+            <p>**********</p>
+            <p>                <!-- <font color="black"> -->3. Have the authors made all data underlying the findings in their manuscript fully available (please refer to the Data Availability Statement at the start of the manuscript PDF file)?</p>
+            <p>The <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/globalpublichealth/s/data-availability" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception. The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.                <!-- </font> --></p>
+            <p>Reviewer #1: Yes</p>
+            <p>Reviewer #2: Yes</p>
+            <p>**********</p>
+            <p>                <!-- <font color="black"> -->4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+            <p>PLOS Global Public Health does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.                <!-- </font> --></p>
+            <p>Reviewer #1: Yes</p>
+            <p>Reviewer #2: Yes</p>
+            <p>**********</p>
+            <p>                <!-- <font color="black"> -->5. Review Comments to the Author                <!-- </font> --></p>
+            <p>                <!-- <font color="black"> -->Please see above                <!-- </font> --></p>
+            <p>                <!-- <font color="black"> -->6. PLOS authors have the option to publish the peer review history of their article (                <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/globalpublichealth/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+            <p>
+                <bold>Do you want your identity to be public for this peer review?</bold> If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+            <p>For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.                <!-- </font> --></p>
+            <p>Reviewer #1: No</p>
+            <p>Reviewer #2: No</p>
+            <p>**********</p>
+            <p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]</p>
+            <p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" xlink:href="https://pacev2.apexcovantage.com/" xlink:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email PLOS at <email xlink:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="author-comment" id="pgph.0000016.r002">
+        <front-stub>
+            <article-id pub-id-type="doi">10.1371/journal.pgph.0000016.r002</article-id>
+            <title-group>
+                <article-title>Author response to Decision Letter 0</article-title>
+            </title-group>
+            <related-object document-id="10.1371/journal.pgph.0000016" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pgph.0000016.r001" object-id-type="doi" object-type="decision-letter"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>Submission Version</meta-name>
+                    <meta-value>1</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>
+                <named-content content-type="author-response-date">14 Sep 2021</named-content>
+            </p>
+            <supplementary-material id="pgph.0000016.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pgph.0000016.s003" xlink:type="simple">
+                <label>Attachment</label>
+                <caption>
+                    <p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers 9.9.21.docx</named-content>
+                    </p>
+                </caption>
+            </supplementary-material>
+        </body>
+    </sub-article>
+    <sub-article article-type="editor-report" id="pgph.0000016.r003" specific-use="decision-letter">
+        <front-stub>
+            <article-id pub-id-type="doi">10.1371/journal.pgph.0000016.r003</article-id>
+            <title-group>
+                <article-title>Decision Letter 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>Nazif-Munoz</surname>
+                        <given-names>Jose Ignacio</given-names>
+                    </name>
+                    <role>Academic Editor</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>Robinson</surname>
+                        <given-names>Julia</given-names>
+                    </name>
+                    <role>Staff Editor</role>
+                </contrib>
+            </contrib-group>
+            <permissions>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Nazif-Munoz, Robinson</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <related-object document-id="10.1371/journal.pgph.0000016" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>Submission Version</meta-name>
+                    <meta-value>1</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>
+                <named-content content-type="letter-date">18 Oct 2021</named-content>
+            </p>
+            <p>Health Literacy and Associated Factors among Undergraduates: A University-Based Cross-Sectional Study in Nepal</p>
+            <p>PGPH-D-21-00095R1</p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Dear Pr. Pranil Man Singh Pradhan                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->I am pleased to announce that I am recommending your work "Health Literacy and Associated Factors among Undergraduates: A University-Based Cross-Sectional Study in Nepal" for publication at Plos Global Public Health. You have considered observations and comments made by two independent reviewers, and this new version certainly has improved. In short we're pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Within one week, you'll receive an e-mail detailing the required amendments. When these have been addressed, you'll receive a formal acceptance letter and your manuscript will be scheduled for publication.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->An invoice for payment will follow shortly after the formal acceptance. To ensure an efficient process, please log into Editorial Manager at                <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pgph/" xlink:type="simple">https://www.editorialmanager.com/pgph/</ext-link> click the 'Update My Information' link at the top of the page, and double check that your user information is up-to-date. If you have any billing related questions, please contact our Author Billing department directly at <email xlink:type="simple">authorbilling@plos.org</email>.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they'll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact                <email xlink:type="simple">globalpubhealth@plos.org</email>.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Thank you for having chosen our journal to disseminate your important research.                <!-- </span> --></p>
+            <p>                <!-- <span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "Trebuchet MS"; font-size: 13px; background-color: rgb(255, 255, 255);"> -->Warm regards,                <!-- </span> --></p>
+            <p>Jose Ignacio Nazif-Munoz, Ph.D.</p>
+            <p>Academic Editor</p>
+            <p>PLOS Global Public Health</p>
+        </body>
+    </sub-article>
+</article>

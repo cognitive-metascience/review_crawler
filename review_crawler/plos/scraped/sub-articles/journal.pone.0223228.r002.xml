@@ -1,0 +1,64 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0223228.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223228.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223228" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223228.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">10 Sep 2019</named-content>
+</p>
+<p>Dear Editor,</p>
+<p>Hope you are doing well!</p>
+<p>We greatly appreciate for your kindly and helpful suggestions to our manuscript entitled &#8216;Genetic analysis and fine mapping of a qualitative trait locus wpb1 for albino panicle branches in rice&#8217;. We carefully revised the manuscript according to the comments, and now resubmit revised manuscript for your consideration. In the revised version, all detailed revisions were described in &#8216;Point-by-point response to reviewers&#8217; shown below for the convenience of you viewing.</p>
+<p>We think the current version of this manuscript would have been significantly improved after revision. </p>
+<p>Thanks again and any further suggestions to our manuscript from you will be highly appreciated and we are very grateful for your kind consideration for publication.</p>
+<p>Best wishes</p>
+<p>Yours sincerely,</p>
+<p>Jijing Luo, Professor (Ph.D.)</p>
+<p>College of Life Science and Biotechnology, Guangxi University</p>
+<p>State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, Guangxi University</p>
+<p>100 Daxue Rd. (East), Nanning, 530004, China</p>
+<p>Cell phone: +86-18077792389</p>
+<p>E-mail: <email ns0:type="simple">jjluo@gxu.edu.cn</email></p>
+<p>Point-by-point response to reviewers</p>
+<p>We thank the Editor and Reviewers for insightful comments, which help us to substantially revise the manuscript.</p>
+<p>In the current version of manuscript, we made some revisions according to the comments, including English language editing, supplemented Tables, and adjusted the description of the related content for more readability.</p>
+<p>1. For the S3 Table, according to the comment of Reviewer 1, we added annotation information for the genes. Added S4 Table to list the annotation information of genes in wpb1 interval.</p>
+<p>2. The genetic information between wpb1 and WP3 was added to clarify their relationship more clearly in the discussion according to the comment of Reviewer 2. P16, line 3.</p>
+<p>3. Reviewers&#8217; suggestions for several descriptions were adopted for more readability.</p>
+<p>Notes: Based on the guideline of editorial office, all the revisions were highlighted with red color for any Changes except the deletions in the revised manuscript. All the detailed revisions to the manuscript were described in this section.</p>
+<p>4. We added sentence &#8220;Furthermore, the variations are not observed in the coding sequences of the allele of WP3 gene between Nipponbare and wpb1 mutant (S4 Fig).&#8221; to the discussion section to describe no sequence difference was observed in the coding sequences of wp3 gene in two parents, Nipponbare and wpb1 and supplemented with a supplementary figure, S4 Fig (P16, L14-16). Figure legend was supplemented at P22, L36-37. </p>
+<p>Reviewer #1: The linkage map of wpg1 gene was constructed and it was demonstrated that the 17 genes were predicted within candidate gene region on the chromosome. It was inferred the cause gene corresponding to wpg1 mutation functions the chloroplast development by the expression analysis of some genes and microscopy analyses. These analyses and the discussion can be appreciated.</p>
+<p>However, this reviewer has the questions about the following points.</p>
+<p>-P13, line 14-16</p>
+<p>It is described as &#8220;The results suggested that the mutation of WPB1 severely impairs chloroplast development, chlorophyll biosynthesis, and photosynthesis in the panicle branches of wpb1&#8221;. The reason why &#8220;the wpb1 gene may involve in the regulation pathway of the chloroplast development&#8221; only by the results of enzyme activity should be explained.</p>
+<p>Reply: Thank you for your careful reading and great comment! As you pointed out, it is inappropriate to infer that &#8220;the wpb1 gene may involve in the regulation pathway of the chloroplast development&#8221; only by the results of enzyme activity. The results of this experiment show that all three biological processes are abnormal at transcriptional level, and it is not clear which process is directly affected. So, we revised as a concise sentence: &#8216;Therefore, we infer that the wpb1 gene may involve in the regulation pathway of the chlorophyll biosynthesis, chloroplast development, and photosynthesis.&#8217; (P13, line5-6, revised manuscript)</p>
+<p>-Annotation list of the predicted gene</p>
+<p>Annotation list of the predicted genes shown in Fig3C and S3 Table should be shown. After that, the function of the candidate genes regulating the chloroplast development should be explained. Even when it is difficult to discuss by only annotation of gene, the authors should refer to the effect.</p>
+<p>Reply: According to your suggestions, we have strengthened the analysis in this field. But, no annotated information and literature about these genes involved in albinism, chloroplast development, chlorophyll synthesis and photosynthesis were obtained. So, we did not predict specific genes, only added annotation information in S3 Table, and added S4 Table to list annotation information of genes in wpb1 interval. The citation in the text was made in the corresponding places for S4 Table (P11, line16, revised manuscript).</p>
+<p>Reviewer #2: Comments:</p>
+<p>1. P4, Ln3-4:the sentence "Bulked segregant analysis (BSA) is a rapid method for locating target trait genes in lettuce" is not very suitable, it can be modified to "Bulked segregant analysis (BSA) is a rapid method for locating target trait genes and it was initially used in lettuce".</p>
+<p>Reply: It was significantly improved after your revision for the sentence. Thank you! </p>
+<p>(P4, line2-3, revised manuscript)</p>
+<p>2.P16, Ln12-22, the authors concluded wpb1 and wp3 not the same locates due to their different genotype. however, wpb1 is very nearby to wp3 (14 kb). So it had better to detect whether the sequence of wp3(Os01g0306650) are different in wbp1 mutant and nipponbare, and the candidate recombiant lines. </p>
+<p>Reply: According to your suggestion, we sequenced the CDS sequences of WP3 and did a sequence analysis between wpb1 mutant and nipponbare. The variations were not observed in the two coding sequences of Wp3 alleles in Nipponbare and wpb1 mutant (S4 Fig).</p>
+<p>3. P16, ln23-24: While the albino streaked leaf of wpb1 is controlled by the same recessive nuclear gene. the sentence is obscure. it had better modifed to "Whereas the phenotypes of albino streaked leaf and albino panicles of wpb1 are controlled by the same recessive nuclear gene. on the other hand, the authors cannot conclude albino streaked leaf and albino panicles of wpb1 is controled by the same gene at present. whether wpb1 is one gene with multiple effects?</p>
+<p>Reply: Thank you for your careful reading and excellent revision. Yes, the wpb1 is one gene with multiple effects, white panicle branch and albino streaked leaf.</p>
+<p>(P16, line20-21, revised manuscript)</p>
+<supplementary-material id="pone.0223228.s009" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223228.s009" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers 10.09.19.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

@@ -1,0 +1,1033 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-14829</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Breast tumors</subject><subj-group><subject>Breast cancer</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Asia</subject><subj-group><subject>China</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Metaanalysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Metaanalysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Metastasis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Basic cancer research</subject><subj-group><subject>Metastasis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Database searching</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Bioassays and physiological analysis</subject><subj-group><subject>Biochemical analysis</subject><subj-group><subject>Enzyme assays</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Lymphatic system</subject><subj-group><subject>Lymph nodes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Lymphatic system</subject><subj-group><subject>Lymph nodes</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: A systematic review and meta-analysis</article-title>
+<alt-title alt-title-type="running-head">Differential diagnosis and clinicopathological role of D-dimer in breast cancer: A meta-analysis</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lu</surname>
+<given-names>Yan</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3625-489X</contrib-id>
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>LongYi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>QiaoHong</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>YongJun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>DeBao</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lou</surname>
+<given-names>JianJie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Jiang</surname>
+<given-names>JinWen</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Ren</surname>
+<given-names>ChaoXiang</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Clinical Laboratory, Dongyang People&#8217;s Hospital, Dongyang, Zhejiang, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Tagliabue</surname>
+<given-names>Elda</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Fondazione IRCCS Istituto Nazionale dei Tumori, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">happy_zhang1y@163.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0221374</elocation-id>
+<history>
+<date date-type="received">
+<day>25</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>5</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Lu et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221374" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Studies have shown that D-dimer levels are significantly correlated with the differential diagnosis and clinicopathological features of breast cancer. However, the results are currently limited and controversial. Therefore, we performed this meta-analysis to evaluate the relationship between D-dimer levels and breast cancer.</p>
+</sec>
+<sec id="sec002">
+<title>Materials and methods</title>
+<p>The PubMed, Embase, Cochrane Library, China National Knowledge Infrastructure, Chinese Biomedical Literature, and Wanfang databases were searched to find studies that assessed the association of D-dimer with clinicopathological features of breast cancer and its usefulness in aiding with differential diagnosis. The standardized mean difference (SMD) was applied as the correlation measure.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>A total of 1244 patients with breast cancer from 15 eligible studies were included in the meta-analysis. D-dimer levels were higher in the breast cancer group than in the benign (SMD = 1.02; 95% confidence interval [CI] = 0.53&#8211;1.52) and healthy (SMD = 1.27; 95% CI = 0.85&#8211;1.68) control groups. In addition, elevated D-dimer levels were associated with progesterone receptor-negative tumors (SMD = -0.25; 95% CI = -0.44&#8211;-0.05). Similarly, there was a significant correlation between D-dimer levels and tumor node metastasis staging (n = 11, SMD = 0.82; 95% CI = 0.57&#8211;1.06) and lymph node involvement (n = 8, SMD = 0.79; 95% CI = 0.50&#8211;1.09). In contrast, other clinicopathological factors, including estrogen receptor expression and human epidermal growth factor receptor 2 expression, were not associated with D-dimer levels.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>The results of this meta-analysis indicate that plasma D-dimer levels can be used as an important reference for the early identification and staging of breast cancer.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="1" />
+<page-count count="11" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Breast cancer is the leading cause of death in women aged between 20 and 59 years and is estimated to account for 30% of all new cancer diagnoses in women in 2019[<xref ref-type="bibr" rid="pone.0221374.ref001">1</xref>]. Breast cancer has multiple levels of tumor heterogeneity. Clinical pathological conditions such as tumor node metastasis (TNM) stage, hormone receptor expression, human epidermal growth factor 2 (HER2) expression, and metastasis lead to different prognoses of breast cancer[<xref ref-type="bibr" rid="pone.0221374.ref002">2</xref>]. From 1990 to 2016, the mortality rate of female breast cancer decreased by 40% [<xref ref-type="bibr" rid="pone.0221374.ref001">1</xref>], but it still threatens women&#8217;s health. Early diagnosis and treatment are key to improving the survival rates of breast cancer[<xref ref-type="bibr" rid="pone.0221374.ref003">3</xref>]. In addition to clinically and widely used tumor markers, such as carcinoembryonic antigen[<xref ref-type="bibr" rid="pone.0221374.ref004">4</xref>] and cancer antigen 15&#8211;3[<xref ref-type="bibr" rid="pone.0221374.ref005">5</xref>], other clinical laboratory indicators are urgently needed to assist in differential diagnosis and predict prognosis.</p>
+<p>Tumor-induced coagulation is closely related to tumorigenesis and tumor development. Malignant disease can show signs of venous thromboembolism years before the patient has any obvious clinical symptoms[<xref ref-type="bibr" rid="pone.0221374.ref006">6</xref>]. By promoting neovascularization and metastasis, a vicious cycle is formed between procoagulant proteins and malignant tumor cells[<xref ref-type="bibr" rid="pone.0221374.ref007">7</xref>]. There is evidence that activated fibrinogens prevent NK cell-mediated tumor cell elimination, improve circulating tumor cell survival, increase tumor metastasis potential, and lead to poor prognosis[<xref ref-type="bibr" rid="pone.0221374.ref008">8</xref>]. Therefore, D-dimer, which is the end product of fibrinogen hydrolysis, has certain clinical value for the differential screening of benign and malignant tumors[<xref ref-type="bibr" rid="pone.0221374.ref009">9</xref>] and prediction of the prognosis of tumors[<xref ref-type="bibr" rid="pone.0221374.ref010">10</xref>&#8211;<xref ref-type="bibr" rid="pone.0221374.ref012">12</xref>]. Studies have shown that D-dimer has a significant correlation with the diagnosis and prognosis of a variety of malignant tumors (e.g., colorectal cancer and ovarian cancer), and D-dimer levels can be used as a diagnostic marker to design more individualized and effective treatment strategies [<xref ref-type="bibr" rid="pone.0221374.ref013">13</xref>].</p>
+<p>However, Research on evaluating the association of D-dimer levels with breast cancer are currently limited, and the results have been controversial. Therefore, this meta-analysis was performed to assess the association between D-dimer levels and breast cancer-associated differential diagnosis and clinicopathological features.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec007">
+<title>Literature search</title>
+<p>The literature search was performed using the PubMed, Cochrane Library, Embase, China National Knowledge Infrastructure, Chinese Biomedical Literature, and Wanfang databases. We included articles published from the establishment of the database to March 19, 2019. We included only studies published in English or Chinese. The keywords used for the search can be found in <xref ref-type="supplementary-material" rid="pone.0221374.s001">S1 Table</xref>. We also performed a supplementary search for references included in the studies identified in the original search.</p>
+</sec>
+<sec id="sec008">
+<title>Inclusion and exclusion criteria</title>
+<p>The inclusion criteria were as follows: 1) the study group consisted of patients with breast cancer with a definite diagnosis; 2) the control group consisted of healthy women or patients with benign breast tumors; 3) the D-dimer test method in the study was clear; 4) the study results contained or had sufficient data to calculate the mean and standard deviation, defined here as more than 20 patients; and 5) the study showed a correlation between D-dimer levels and diagnostic and/or clinicopathological features of breast cancer. The exclusion criteria were as follows: 1) case reports or reviews; 2) studies describing animal experiments; 3) repeated publications; and 4) articles with a low Newcastle-Ottawa scale (NOS) score (&#8804;4).</p>
+</sec>
+<sec id="sec009">
+<title>Data extraction and quality assessment</title>
+<p>Data extraction and quality evaluation of the literature were performed independently by two authors. We extracted the following information: first author&#8217;s last name, year of publication, country, method used to assess D-dimer levels, type of anticoagulant used, number of experimental groups included in the study, number of healthy controls and benign tumor controls, and number of patients with TNM stage I-II and III-IV disease. The NOS standard[<xref ref-type="bibr" rid="pone.0221374.ref014">14</xref>] was used as a research quality assessment standard. Studies with a score &#8804; 4 were considered low quality. When there was a difference in opinion on a document, the two authors resolved the problem through mutual discussion and requested help from a third author if necessary.</p>
+</sec>
+<sec id="sec010">
+<title>Statistical analysis</title>
+<p>All data analyses were performed using the Review Manager software version 5.3 (Cochrane Collaboration, London, UK) and STATA software version 14.0 (Stata Corporation, College Station, TX, USA). The standardized mean difference (SMD) was used as a measure of the association between D-dimer levels and breast cancer, and the results are presented in the form of forest plots. Inter-study heterogeneity was assessed using the Q test and I<sup>2</sup> statistic. When <italic>P</italic> &gt; 0.10 or I<sup>2</sup> &lt; 50% indicated that there was no obvious heterogeneity[<xref ref-type="bibr" rid="pone.0221374.ref015">15</xref>], a fixed effects model was used; otherwise, a random effects model was used[<xref ref-type="bibr" rid="pone.0221374.ref016">16</xref>]. In addition, when the heterogeneity was significant, we performed subgroup analyses, followed by a sensitivity analysis. We used a funnel plot and an Egger test to assess publication bias[<xref ref-type="bibr" rid="pone.0221374.ref017">17</xref>]. <italic>P</italic> &lt; 0.05 was considered statistically significant.</p>
+</sec>
+</sec>
+<sec id="sec011" sec-type="results">
+<title>Results</title>
+<sec id="sec012">
+<title>Study search</title>
+<p>Through our database search, we found 619 studies, of which 474 remained after duplicates were excluded. Based on the title and abstract, we excluded 434 articles that were not related to the research content and evaluated the remaining 40 articles in full. After full-text articles were assessed for eligibility, we included 15 studies that could be used for meta-analysis. A flow chart of the screening process is shown in <xref ref-type="fig" rid="pone.0221374.g001">Fig 1</xref>.</p>
+<fig id="pone.0221374.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221374.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Flow diagram of the study selection process.</title>
+<p>NOS: Newcastle-Ottawa scale.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec013">
+<title>Characteristics of eligible studies</title>
+<p><xref ref-type="table" rid="pone.0221374.t001">Table 1</xref> summarizes the basic information of the 15 eligible studies. The included studies were published between 2000 and 2018. D-dimer detection methods included enzyme-linked immunosorbent assay, immunoturbidimetry, and enzyme-linked immunofluorescence.</p>
+<table-wrap id="pone.0221374.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221374.t001</object-id>
+<label>Table 1</label> <caption><title>Characteristics of included studies.</title></caption>
+<alternatives>
+<graphic id="pone.0221374.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Author</th>
+<th align="left">Year</th>
+<th align="left">Country</th>
+<th align="left">Detection<break />Method/Anticoagulant</th>
+<th align="center">Breast cancer patients</th>
+<th align="center">Benign controls</th>
+<th align="center">Healthy controls</th>
+<th align="left">TNM stage I-II</th>
+<th align="left">TNM stage III-IV</th>
+<th align="left">NOS score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Blackwell[<xref ref-type="bibr" rid="pone.0221374.ref018">18</xref>]</td>
+<td align="left">2000</td>
+<td align="left">USA</td>
+<td align="left">ELISA/sodium citrate</td>
+<td align="center">95</td>
+<td align="center">NR</td>
+<td align="center">NR</td>
+<td align="left">69</td>
+<td align="left">26</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Hua[<xref ref-type="bibr" rid="pone.0221374.ref019">19</xref>]</td>
+<td align="left">2004</td>
+<td align="left">China</td>
+<td align="left">ELISA/ethylenediamine tetra-acetic acid</td>
+<td align="center">51</td>
+<td align="center">10</td>
+<td align="center">42</td>
+<td align="left">40</td>
+<td align="left">11</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Kim[<xref ref-type="bibr" rid="pone.0221374.ref020">20</xref>]</td>
+<td align="left">2004</td>
+<td align="left">Korea</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">93</td>
+<td align="center">27</td>
+<td align="center">29</td>
+<td align="left">77</td>
+<td align="left">10</td>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">Khangarot[<xref ref-type="bibr" rid="pone.0221374.ref021">21</xref>]</td>
+<td align="left">2010</td>
+<td align="left">India</td>
+<td align="left">ELISA/NR</td>
+<td align="center">50</td>
+<td align="center">NR</td>
+<td align="center">NR</td>
+<td align="left">20</td>
+<td align="left">30</td>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left">Zhao[<xref ref-type="bibr" rid="pone.0221374.ref022">22</xref>]</td>
+<td align="left">2011</td>
+<td align="left">China</td>
+<td align="left">ITM/NR</td>
+<td align="center">43</td>
+<td align="center">43</td>
+<td align="center">43</td>
+<td align="left">32</td>
+<td align="left">11</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Xie[<xref ref-type="bibr" rid="pone.0221374.ref023">23</xref>]</td>
+<td align="left">2011</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">95</td>
+<td align="center">80</td>
+<td align="center">NR</td>
+<td align="left">58</td>
+<td align="left">37</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Huang[<xref ref-type="bibr" rid="pone.0221374.ref024">24</xref>]</td>
+<td align="left">2012</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">149</td>
+<td align="center">89</td>
+<td align="center">82</td>
+<td align="left">87</td>
+<td align="left">62</td>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">Zhou[<xref ref-type="bibr" rid="pone.0221374.ref025">25</xref>]</td>
+<td align="left">2012</td>
+<td align="left">China</td>
+<td align="left">ELISA/NR</td>
+<td align="center">48</td>
+<td align="center">40</td>
+<td align="center">40</td>
+<td align="left">36</td>
+<td align="left">12</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Liu[<xref ref-type="bibr" rid="pone.0221374.ref026">26</xref>]</td>
+<td align="left">2013</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">142</td>
+<td align="center">NR</td>
+<td align="center">150</td>
+<td align="left">NR</td>
+<td align="left">NR</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Chaari[<xref ref-type="bibr" rid="pone.0221374.ref027">27</xref>]</td>
+<td align="left">2014</td>
+<td align="left">France</td>
+<td align="left">ELFA/sodium citrate</td>
+<td align="center">62</td>
+<td align="center">NR</td>
+<td align="center">30</td>
+<td align="left">NR</td>
+<td align="left">NR</td>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left">Yang[<xref ref-type="bibr" rid="pone.0221374.ref028">28</xref>]</td>
+<td align="left">2014</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">59</td>
+<td align="center">NR</td>
+<td align="center">50</td>
+<td align="left">29</td>
+<td align="left">31</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Feng[<xref ref-type="bibr" rid="pone.0221374.ref029">29</xref>]</td>
+<td align="left">2014</td>
+<td align="left">China</td>
+<td align="left">ELFA/NR</td>
+<td align="center">189</td>
+<td align="center">NR</td>
+<td align="center">NR</td>
+<td align="left">95</td>
+<td align="left">94</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Chai[<xref ref-type="bibr" rid="pone.0221374.ref030">30</xref>]</td>
+<td align="left">2015</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">73</td>
+<td align="center">36</td>
+<td align="center">50</td>
+<td align="left">NR</td>
+<td align="left">NR</td>
+<td align="left">7</td>
+</tr>
+<tr>
+<td align="left">Bai[<xref ref-type="bibr" rid="pone.0221374.ref031">31</xref>]</td>
+<td align="left">2017</td>
+<td align="left">China</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">35</td>
+<td align="center">37</td>
+<td align="center">NR</td>
+<td align="left">NR</td>
+<td align="left">NR</td>
+<td align="left">5</td>
+</tr>
+<tr>
+<td align="left">S.H.[<xref ref-type="bibr" rid="pone.0221374.ref032">32</xref>]</td>
+<td align="left">2018</td>
+<td align="left">India</td>
+<td align="left">ITM/sodium citrate</td>
+<td align="center">60</td>
+<td align="center">NR</td>
+<td align="center">NR</td>
+<td align="left">40</td>
+<td align="left">20</td>
+<td align="left">7</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>ITM: immunoturbidimetry; ELISA: enzyme-linked immunosorbentassay; ELFA: enzyme-linked immunofluorescence assay; NOS: Newcastle-Ottawa Scale; NR: not reported</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec014">
+<title>Outcomes</title>
+<p>We first compared the breast and benign control groups. The benign control groups from 8 studies were stratified using the D-dimer test. The total effect rate showed that the D-dimer level was higher in the breast cancer group (SMD = 1.02; 95% confidence interval [CI] = 0.53&#8211;1.52; <italic>P</italic> &lt; 0.0001)(<xref ref-type="fig" rid="pone.0221374.g002">Fig 2A</xref>).</p>
+<fig id="pone.0221374.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221374.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Relationship between D-dimer levels and breast cancer diagnosis.</title>
+<p>Forest plots depicting comparisons between breast cancer patients and (A) benign controls and (B) healthy controls. SD: standard deviation; CI: confidence interval; ELISA: enzyme-linked immunosorbent assay; ITM: immunoturbidimetry; ELFA: enzyme-linked immunofluorescence assay.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.g002" ns0:type="simple" />
+</fig>
+<p>We next compared the breast and healthy control groups. After stratification using the D-dimer test, nine articles evaluating a healthy control group were divided into three subgroups. Using a random effects model, the total effect rate showed that the D-dimer level was significantly higher in the breast cancer group (SMD = 1.27; 95% CI = 0.85&#8211;1.68; <italic>P</italic> &lt; 0.00001) (<xref ref-type="fig" rid="pone.0221374.g002">Fig 2B</xref>).</p>
+<p>We also examined the correlation between D-dimer levels and clinical pathological parameters of breast cancer. Four studies examined the relationship between D-dimer levels and progesterone receptor (PR) expression, and there was no significant heterogeneity (<italic>P</italic> = 0.38, I<sup>2</sup> = 3%) (<xref ref-type="fig" rid="pone.0221374.g003">Fig 3A</xref>). Using a fixed effects model, we observed that elevated D-dimer levels were associated with PR-negative tumors (SMD = -0.25; 95% CI = -0.44&#8211;-0.05; <italic>P</italic> = 0.01). There was also a significant correlation between D-dimer levels and TNM stage (n = 11, SMD = 0.82; 95% CI = 0.57&#8211;1.06; <italic>P</italic> &lt; 0.00001) and lymph node involvement(n = 8, SMD = 0.79; 95% CI = 0.50&#8211;1.09, <italic>P</italic> &lt; 0.00001) (<xref ref-type="fig" rid="pone.0221374.g003">Fig 3B and 3C</xref>). Here, we used a random effects model and combined subgroup analyses due to significant heterogeneity (TNM stage: <italic>P</italic> = 0.005, I<sup>2</sup> = 60%; lymph node involvement: <italic>P</italic> = 0.0003, I<sup>2</sup> = 74%). In contrast, other clinicopathological factors were not associated with D-dimer levels, including estrogen receptor (ER) expression (n = 4, SMD = -0.28; 95% CI = -0.62&#8211;0.07; <italic>P</italic> = 0.12) and HER2 expression (n = 3, SMD = -0.21; 95% CI = -0.42&#8211;0.00; <italic>P</italic> = 0.05) (<xref ref-type="fig" rid="pone.0221374.g003">Fig 3D and 3E</xref>). Due to the heterogeneity, the correlation between D-dimer levels and ER (<italic>P</italic> = 0.05, I<sup>2</sup> = 62%) was based on a random effects model, and the correlation between D-dimer levels and HER2 (<italic>P</italic> = 0.62, I<sup>2</sup> = 0%) used a fixed effects model.</p>
+<fig id="pone.0221374.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221374.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Relationship between D-dimer levels and clinicopathological characteristics of breast cancer.</title>
+<p>Forest plots of SMDs for the association between D-dimer and (A) progesterone receptor (PR) status (positive vs. negative), (B) tumor node metastasis (TNM) stage (stage III-IV vs. stage I-II), (C) lymph node status (positive vs. negative),(D)estrogen receptor (ER) status (positive vs. negative), and (E) human epidermal growth factor receptor (HER2) status (positive vs. negative). SMD: standardized mean difference; SD: standard deviation; CI: confidence interval.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec015">
+<title>Heterogeneity</title>
+<p>As shown in <xref ref-type="fig" rid="pone.0221374.g003">Fig 3</xref>, the subgroup analysis based on the differences in D-dimer detection methods found significant differences between the subgroups (benign controls, I<sup>2</sup> = 72.3%; healthy controls, I<sup>2</sup> = 88.7%; TNM, I<sup>2</sup> = 75.2%; lymph node status, I<sup>2</sup> = 80.9%; ER, I<sup>2</sup> = 71.6%).</p>
+<p>Additionally, most of the literature was obtained from China, and the sample sizes were smaller in other countries. The subgroup analysis was also used to examine the source of heterogeneity based on region. In addition to the benign control group (I<sup>2</sup> = 79.2%) (<xref ref-type="fig" rid="pone.0221374.g004">Fig 4A</xref>), the results showed that there were no significant differences between the subgroups of the other groups with significant heterogeneity. (<xref ref-type="fig" rid="pone.0221374.g004">Fig 4B, 4C, 4D and 4E</xref>).</p>
+<fig id="pone.0221374.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221374.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Subgroup analysis of D-dimer levels and breast cancer-associated differential diagnosis and clinicopathological features according to region.</title>
+<p>Plots depicting comparisons between breast cancer patients and (A) benign controls, (B) healthy controls, (C) tumor node metastasis (TNM) stage (stage III-IV vs. stage I-II), (D) lymph node status (positive vs. negative), and (E)estrogen receptor (ER) status (positive vs. negative). Group1: China; Group2: Regions outside China.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.g004" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec016">
+<title>Publication bias and sensitivity analysis</title>
+<p>The symmetry of the funnel plot and results of the Egger&#8217;s test (benign controls, <italic>P</italic> = 0.470; healthy controls, <italic>P</italic> = 0.545; TNM, <italic>P</italic> = 0.093; lymph node status, <italic>P</italic> = 0.204; PR, <italic>P</italic> = 0.495; ER, <italic>P</italic> = 0.272; HER2, <italic>P</italic> = 0.408) indicated that there was no publication bias. Sensitivity analysis was used to test the effect of a single study on the results. No significant differences were found when we removed any of the studies included in the analysis, indicating that the conclusions were stable.</p>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>To the best of our knowledge, this is the first meta-analysis on the role of D-dimer in the differential diagnosis and clinicopathological characteristics of breast cancer. As early as 1991, Mitter[<xref ref-type="bibr" rid="pone.0221374.ref033">33</xref>] found that D-dimer levels were elevated in patients with breast cancer. With the deepening of research in recent years, more links between D-dimer and the clinical pathology of breast cancer have been proposed.</p>
+<sec id="sec018">
+<title>The role of D-dimer in the differential diagnosis of breast cancer</title>
+<p>The results showed that the D-dimer level in the breast cancer group was significantly higher than those in the benign and healthy control groups. Increased plasma D-dimer levels reflect increased activation of the coagulation system in patients with breast cancer, suggesting that the plasma D-dimer level could have an auxiliary value for the differential diagnosis of breast cancer. Studies have shown that the sensitivity and specificity of D-dimer is higher than that of the existing tumor markers cancer antigen 15&#8211;3 and carcinoembryonic antigen [<xref ref-type="bibr" rid="pone.0221374.ref034">34</xref>]. Unfortunately, most of the research data did not allow to calculate the sensitivity and specificity of the effect indicator of D-dimer level for the diagnosis of breast cancer.</p>
+</sec>
+<sec id="sec019">
+<title>The relationship between D-dimer and clinical pathology of breast cancer</title>
+<p>Despite advances in breast cancer treatment, patients with metastatic breast cancer have a poor prognosis, with a low median survival of at most 2 to 3 years [<xref ref-type="bibr" rid="pone.0221374.ref002">2</xref>]. Plasma D-dimer levels in patients with TNM stage III-IV disease were significantly different from those in patients with stage I-II disease. Plasma D-dimer levels were also significantly higher in patients with lymph node metastasis than in patients without metastasis. Elevated D-dimer levels suggest a worsening of the disease, a later clinical stage, and a greater likelihood of tumor metastasis. The plasma D-dimer levels can be used as an auxiliary index for the diagnosis and staging of breast cancer. Furthermore, in this study, the D-dimer level was not related to the ER or HER2 status of patients with breast cancer, and it was increased in patients with PR-negative tumors. Due to the limitations of the literature, the role of D-dimer in the clinical pathology and prediction of prognosis of breast cancer still needs to be studied in a large number of patients.</p>
+</sec>
+<sec id="sec020">
+<title>Limitations</title>
+<p>The existence of heterogeneity is a potential problem when interpreting the results of this meta-analysis. To this end, we performed a subgroup analysis based on the differences in D-dimer detection methods. The results indicated that the difference in D-dimer detection methods is one of the main sources of heterogeneity. Because our meta-analysis is based on published research, the fact that most of the data coming from China may lead to regional bias. Therefore, the subgroup analysis was also used to examine the source of heterogeneity based on region with only significant differences in the benign control group. However, after excluding the study by Kim et al.[<xref ref-type="bibr" rid="pone.0221374.ref020">20</xref>] of Korea from the benign control group, the heterogeneity between the eight studies from China did not reduce, indicating that the regional differences cannot explain the heterogeneity between benign control groups. In addition, there may be other sources of heterogeneity. For example, this meta-analysis only included English and Chinese literature, which leads to language bias. Fortunately, although heterogeneity existed, the sensitivity analysis was stable, and no publication bias was found.</p>
+<p>At present, there is no uniform standard for the methods and units used to detect D-dimer levels, and the consistency between the results of the same test items in each laboratory is not strong. In this paper, the unified D-dimer unit was ng/mL, and the standardized mean difference was used as the effect combination index. However, inconsistent detection methods, reagents and type of anticoagulant may cause the absolute D-dimer value to differ greatly, leading to high heterogeneity among the literature results. Therefore, a uniform methodological standard should be established for D-dimer detection so that the data between different laboratories can be interoperable or comparable.</p>
+</sec>
+</sec>
+<sec id="sec021" sec-type="conclusions">
+<title>Conclusion</title>
+<p>In this meta-analysis, plasma D-dimer levels were elevated in patients with breast cancer and correlated with PR expression, TNM stage, and metastasis in breast cancer. This evidence suggests that D-dimer has potential in the differential diagnosis and staging of breast cancer. However, the current results are somewhat restrictive, and we recommend further big data research and development of unified D-dimer detection methods in multiple regions.</p>
+</sec>
+<sec id="sec022">
+<title>Supporting information</title>
+<supplementary-material id="pone.0221374.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Search strategy.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221374.s002" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Data of the present study.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0221374.s003" mimetype="application/msword" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.s003" ns0:type="simple">
+<label>S1 Checklist</label>
+<caption>
+<title>PRISMA checklist.</title>
+<p>(DOC)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221374.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Siegel</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>KD</given-names></name>, <name name-style="western"><surname>Jemal</surname> <given-names>A</given-names></name>. <article-title>Cancer statistics, 2019</article-title>. <source>CA Cancer Journal for Clinicians</source>. <year>2019</year>; <volume>69</volume>(<issue>1</issue>): <fpage>7</fpage>&#8211;<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3322/caac.21551" ns0:type="simple">10.3322/caac.21551</ext-link></comment> <object-id pub-id-type="pmid">30620402</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cabuk</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Basaran</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Teomete</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dane</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Korkmaz</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Seber</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Clinical outcome of Turkish metastatic breast cancer patients with currently available treatment modalities&#8212;single center experience</article-title>. <source>Asian Pacific journal of cancer prevention: APJCP</source>. <year>2014</year>; <volume>15</volume>(<issue>1</issue>): <fpage>117</fpage>&#8211;<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7314/apjcp.2014.15.1.117" ns0:type="simple">10.7314/apjcp.2014.15.1.117</ext-link></comment> <object-id pub-id-type="pmid">24528011</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>TY</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>J</given-names></name>. <source>Promoting Breast Cancer Awareness and Screening Practices for Early Detection in Low-Resource Settings</source>. <year>2019</year>; <volume>15</volume>(<issue>1</issue>): <fpage>18</fpage>&#8211;<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5152/ejbh.2018.4305" ns0:type="simple">10.5152/ejbh.2018.4305</ext-link></comment> <object-id pub-id-type="pmid">30816360</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kosaka</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Minatani</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Shida</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kikuchi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nishimiya</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Lymph node metastasis and high serum CEA are important prognostic factors in hormone receptor positive and HER2 negative breast cancer</article-title>. <source>Molecular and clinical oncology</source>. <year>2018</year>; <volume>9</volume>(<issue>5</issue>): <fpage>566</fpage>&#8211;<lpage>74</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3892/mco.2018.1716" ns0:type="simple">10.3892/mco.2018.1716</ext-link></comment> <object-id pub-id-type="pmid">30402236</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shering</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Sherry</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>McDermott</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>O&#8217;Higgins</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Duffy</surname> <given-names>MJ</given-names></name>. <article-title>Preoperative CA 15&#8211;3 concentrations predict outcome of patients with breast carcinoma</article-title>. <source>Cancer</source>. <year>1998</year>; <volume>83</volume>(<issue>12</issue>): <fpage>2521</fpage>&#8211;<lpage>7</lpage>. <object-id pub-id-type="pmid">9874458</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Prandoni</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Falanga</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Piccioli</surname> <given-names>A</given-names></name>. <article-title>Cancer and venous thromboembolism</article-title>. <source>The Lancet Oncology</source>. <year>2005</year>; <volume>6</volume>(<issue>6</issue>): <fpage>401</fpage>&#8211;<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1470-2045(05)70207-2" ns0:type="simple">10.1016/S1470-2045(05)70207-2</ext-link></comment> <object-id pub-id-type="pmid">15925818</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Falanga</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Panova-Noeva</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Russo</surname> <given-names>L</given-names></name>. <article-title>Procoagulant mechanisms in tumour cells</article-title>. <source>Best practice &amp; research Clinical haematology</source>. <year>2009</year>; <volume>22</volume>(<issue>1</issue>): <fpage>49</fpage>&#8211;<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.beha.2008.12.009" ns0:type="simple">10.1016/j.beha.2008.12.009</ext-link></comment> <object-id pub-id-type="pmid">19285272</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Palumbo</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Talmage</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Massari</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>La Jeunesse</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Flick</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Kombrinck</surname> <given-names>KW</given-names></name>, <etal>et al</etal>. <article-title>Platelets and fibrin(ogen) increase metastatic potential by impeding natural killer cell-mediated elimination of tumor cells</article-title>. <source>Blood</source>. <year>2005</year>; <volume>105</volume>(<issue>1</issue>): <fpage>178</fpage>&#8211;<lpage>85</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1182/blood-2004-06-2272" ns0:type="simple">10.1182/blood-2004-06-2272</ext-link></comment> <object-id pub-id-type="pmid">15367435</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ryu</surname> <given-names>SH</given-names></name>, <name name-style="western"><surname>Min</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Jeong</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>DK</given-names></name>, <etal>et al</etal>. <article-title>Diagnostic Significance of Fibrin Degradation Products and D-Dimer in Patients With Breast Cancer-Related Lymphedema</article-title>. <source>Annals of rehabilitation medicine</source>. <year>2019</year>; <volume>43</volume>(<issue>1</issue>): <fpage>81</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5535/arm.2019.43.1.81" ns0:type="simple">10.5535/arm.2019.43.1.81</ext-link></comment> <object-id pub-id-type="pmid">30852874</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Oya</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Akiyama</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Okuyama</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ishikawa</surname> <given-names>H</given-names></name>. <article-title>High preoperative plasma D-dimer level is associated with advanced tumor stage and short survival after curative resection in patients with colorectal cancer</article-title>. <source>Japanese journal of clinical oncology</source>. <year>2001</year>; <volume>31</volume>(<issue>8</issue>): <fpage>388</fpage>&#8211;<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jjco/hye075" ns0:type="simple">10.1093/jjco/hye075</ext-link></comment> <object-id pub-id-type="pmid">11574632</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Inal</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Anar</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Polat</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Unsal</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Halilcolar</surname> <given-names>H</given-names></name>. <article-title>The prognostic value of D-dimer in lung cancer</article-title>. <source>The clinical respiratory journal</source>. <year>2015</year>; <volume>9</volume>(<issue>3</issue>): <fpage>305</fpage>&#8211;<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/crj.12144" ns0:type="simple">10.1111/crj.12144</ext-link></comment> <object-id pub-id-type="pmid">24720709</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stender</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Larsen</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Sall</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thorlacius-Ussing</surname> <given-names>O</given-names></name>. <article-title>D-Dimer predicts prognosis and non-resectability in patients with pancreatic cancer: a prospective cohort study</article-title>. <source>Blood Coagul Fibrinolysis</source>. <year>2016</year>; <volume>27</volume>(<issue>5</issue>): <fpage>597</fpage>&#8211;<lpage>601</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/MBC.0000000000000559" ns0:type="simple">10.1097/MBC.0000000000000559</ext-link></comment> <object-id pub-id-type="pmid">27182687</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zsuzsanna</surname> <given-names>N</given-names></name>. <article-title>Biomarkers in solid tumors</article-title>. <source>Magyar Onkologia</source>. <year>2013</year>; <volume>57</volume>(<issue>1</issue>): <fpage>56</fpage>&#8211;<lpage>62</lpage>. <object-id pub-id-type="pmid">23573523</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stang</surname> <given-names>A</given-names></name>. <article-title>Critical evaluation of the Newcastle-Ottawa scale for the assessment of the quality of nonrandomized studies in meta-analyses</article-title>. <source>European journal of epidemiology</source>. <year>2010</year>; <volume>25</volume>(<issue>9</issue>): <fpage>603</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10654-010-9491-z" ns0:type="simple">10.1007/s10654-010-9491-z</ext-link></comment> <object-id pub-id-type="pmid">20652370</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref015"><label>15</label><mixed-citation publication-type="other" ns0:type="simple">Higgins JP. Cochrane handbook for systematic reviews of interventions version 5.0. 1. The Cochrane Collaboration. <ext-link ext-link-type="uri" ns0:href="http://www.cochrane-handbook.org" ns0:type="simple">http://www.cochrane-handbook.org</ext-link>. 2008.</mixed-citation></ref>
+<ref id="pone.0221374.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>DerSimonian</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Laird</surname> <given-names>N</given-names></name>. <article-title>Meta-analysis in clinical trials revisited</article-title>. <source>Contemporary clinical trials</source>. <year>2015</year>; <volume>45</volume>(<issue>Pt A</issue>): <fpage>139</fpage>&#8211;<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cct.2015.09.002" ns0:type="simple">10.1016/j.cct.2015.09.002</ext-link></comment> <object-id pub-id-type="pmid">26343745</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Egger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Schneider</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Minder</surname> <given-names>C</given-names></name>. <article-title>Bias in meta-analysis detected by a simple, graphical test</article-title>. <source>BMJ (Clinical research ed)</source>. <year>1997</year>; <volume>315</volume>(<issue>7109</issue>): <fpage>629</fpage>&#8211;<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.315.7109.629" ns0:type="simple">10.1136/bmj.315.7109.629</ext-link></comment> <object-id pub-id-type="pmid">9310563</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Blackwell</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Haroon</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Broadwater</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Berry</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Iglehart</surname> <given-names>JD</given-names></name>, <etal>et al</etal>. <article-title>Plasma D-dimer levels in operable breast cancer patients correlate with clinical stage and axillary lymph node status</article-title>. <source>J Clin Oncol</source>. <year>2000</year>; <volume>18</volume>(<issue>3</issue>): <fpage>600</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1200/JCO.2000.18.3.600" ns0:type="simple">10.1200/JCO.2000.18.3.600</ext-link></comment> <object-id pub-id-type="pmid">10653875</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hua</surname> <given-names>D</given-names></name>. <article-title>Clinical Value of Determining of plasma D-dimer in patients with breast cancer</article-title>. <source>Chinese Modern Medicine</source>. <year>2004</year>; <volume>2</volume>(<issue>7</issue>).</mixed-citation></ref>
+<ref id="pone.0221374.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>YH</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>ES</given-names></name>. <article-title>Comparison of plasma D-dimer and thrombus precursor protein in patients with operable breast cancer as a potential predictor of lymph node metastasis</article-title>. <source>Blood Coagul Fibrinolysis</source>. <year>2004</year>; <volume>15</volume>(<issue>1</issue>): <fpage>9</fpage>&#8211;<lpage>13</lpage>. <object-id pub-id-type="pmid">15166937</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Khangarot</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Gupta</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Goswami</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hadke</surname> <given-names>NS</given-names></name>, <name name-style="western"><surname>Lal</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gupta</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Correlation of D dimer and factor VIII levels with histopathology in patients with breast carcinoma</article-title>. <source>Cancer Biomark</source>. <year>2010</year>; <volume>7</volume>(<issue>6</issue>): <fpage>305</fpage>&#8211;<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3233/CBM-2010-0196" ns0:type="simple">10.3233/CBM-2010-0196</ext-link></comment> <object-id pub-id-type="pmid">21694469</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhao</surname> <given-names>R</given-names></name>. <article-title>Correlation between plasma D-dimer levels and breast cancer</article-title>. <source>Journal of Modern laboratory medicine</source>. <year>2011</year>; <volume>3</volume>(<issue>26</issue>).</mixed-citation></ref>
+<ref id="pone.0221374.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>XIE</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Xian</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Yidi</surname> <given-names>H</given-names></name>. <article-title>The Level of Plasma D-dimer Pre-and Post-Treatment in Patients with Breast Cancer and its Clinical Significance</article-title>. <source>Journal of Chinese Oncology</source>. <year>2011</year>; <volume>17</volume>(<issue>06</issue>): <fpage>469</fpage>&#8211;<lpage>70</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>S</given-names></name>. <article-title>Clinical significance of plasma D-dimeride detection in patients with breast cancer</article-title>. <source>Clinical Misdiagnosis And Mistherapy</source>. <year>2012</year>; <volume>25</volume>(<issue>09</issue>): <fpage>79</fpage>&#8211;<lpage>81</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>Z</given-names></name>. <article-title>Clinical significance of plasma D-dimer level in diagnosis and prognosis of breast cancer</article-title>. <source>Pharmaceutical Biotechnology</source>. <year>2012</year>; <volume>19</volume>(<issue>02</issue>): <fpage>162</fpage>&#8211;<lpage>4</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>H</given-names></name>. <article-title>Determination and clinical significance of CA153 and D-dimer in patients with primary breast cancer</article-title>. <source>China Health Industry</source>. <year>2013</year>; <volume>10</volume>(<issue>23</issue>): <fpage>161</fpage>+<lpage>3</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chaari</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ayadi</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rousseau</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lefkou</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Van Dreden</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Sidibe</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Impact of breast cancer stage, time from diagnosis and chemotherapy on plasma and cellular biomarkers of hypercoagulability</article-title>. <source>BMC Cancer</source>. <year>2014</year>; <volume>14</volume>: <fpage>991</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2407-14-991" ns0:type="simple">10.1186/1471-2407-14-991</ext-link></comment> <object-id pub-id-type="pmid">25535397</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>P</given-names></name>. <article-title>Clinical significance of fibrinogen, D-dimer and antithrombin-III in patients with breast cancer</article-title>. <source>J Clin Hematol (China)</source>. <year>2014</year>; <volume>27</volume>(<issue>01</issue>): <fpage>106</fpage>&#8211;<lpage>7</lpage>+<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Feng</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cui</surname> <given-names>l</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>z</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>p</given-names></name>. <article-title>Relationship between plasma D-D level and clinical pathologic characterstics in breast cancer</article-title>. <source>Shandong Medical Journal</source>. <year>2014</year>; <volume>54</volume>(<issue>42</issue>): <fpage>8</fpage>&#8211;<lpage>10</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>CHAI</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>WANG</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>LIU</surname> <given-names>B</given-names></name>. <article-title>Plasma D-dimer levels in breast cancer patients correlate with axillary lymph node status</article-title>. <source>J Clin Pathol Res</source>. <year>2015</year>; <volume>35</volume>(<issue>07</issue>): <fpage>1323</fpage>&#8211;<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bai</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Shuai</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>. <article-title>Relationship between coagulation parameters and clinicopathological features in patients with breast cancer</article-title>. <source>Practical Clinical Journal of Integrated Traditional Chinese and Western Medicine</source>. <year>2017</year>; <volume>17</volume>(<issue>10</issue>): <fpage>110</fpage>&#8211;<lpage>1</lpage>.</mixed-citation></ref>
+<ref id="pone.0221374.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>S</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sringeri</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Chandra</surname> <given-names>PS</given-names></name>. <article-title>Role of Plasma D-Dimer Levels in Breast Cancer Patients and Its Correlation with Clinical and Histopathological Stage</article-title>. <source>Indian J Surg Oncol</source>. <year>2018</year>; <volume>9</volume>(<issue>3</issue>): <fpage>307</fpage>&#8211;<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13193-017-0682-x" ns0:type="simple">10.1007/s13193-017-0682-x</ext-link></comment> <object-id pub-id-type="pmid">30287988</object-id></mixed-citation></ref>
+<ref id="pone.0221374.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mitter</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Zielinski</surname> <given-names>CC</given-names></name>. <article-title>Plasma levels of D-dimer: a crosslinked fibrin-degradation product in female breast cancer</article-title>. <source>Journal of cancer research and clinical oncology</source>. <year>1991</year>; <volume>117</volume>(<issue>3</issue>): <fpage>259</fpage>&#8211;<lpage>62</lpage>. <object-id pub-id-type="pmid">2033094</object-id>.</mixed-citation></ref>
+<ref id="pone.0221374.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Neises</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schafer</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Strittmatter</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Wischnik</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dettmar</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Melchert</surname> <given-names>F</given-names></name>. [<article-title>D-dimer and plasminogen activator of the urokinase type: personal experiences with breast cancer</article-title>]. <source>Geburtshilfe und Frauenheilkunde</source>. <year>1993</year>; <volume>53</volume>(<issue>7</issue>): <fpage>455</fpage>&#8211;<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1055/s-2007-1022913" ns0:type="simple">10.1055/s-2007-1022913</ext-link></comment> <object-id pub-id-type="pmid">8370485</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221374.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Tagliabue</surname>
+<given-names>Elda</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Elda Tagliabue</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">18 Jun 2019</named-content>
+</p>
+<p>PONE-D-19-14829</p>
+<p>The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis</p>
+<p>PLOS ONE</p>
+<p>Dear&#160; Dr. Zhang,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it&#160;is well organized and clear, and supply sufficient information regarding the topic focusing on breast cancer.&#160;However, the manuscript does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by 29 July. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Elda Tagliabue</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Partly</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Title: The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis (Zhang et al.)</p>
+<p>The present manuscript is aimed at demonstrating the association between D-dimer and clinicopathological features (i.e. progesterone receptor-negative tumors, tumor node metastasis staging and lymph node involvement), by means of a meta-analysis based on 15 studies including 1244 patients with breast cancer.</p>
+<p>MAJOR ISSUES</p>
+<p>1. Figure 3E is identical to Figure 3A. Please correct the duplicated figure;</p>
+<p>2. As stated from the authors in the Discussion, the literature of this meta analysis is limited and a large number of patients is still needed. Moreover, they are also aware that there is the risk of a regional bias, since almost all studies are from China. Results are &#8220;somewhat restrictive&#8221;, as stated in the Conclusion.</p>
+<p>MINOR ISSUES</p>
+<p>1. In the inclusion and exclusion criteria section, &#8220;the study results had a normal distribution&#8221; does not mean anything. Do the authors mean the distribution of the response variable?</p>
+<p>Again, &#8220;the results were skewed&#8221; has no sense. Please explain it better;</p>
+<p>2. In the Statistical analysis section, why the authors consider a p-value &gt; 0.10 as a reference p-value to establish if there is an &#8220;obvious heterogeneity&#8221;? Why not 0.05?</p>
+<p>3. In the Statistical analysis section, please substitute &#8220;methodological subgroup analysis&#8221; with &#8220;subgroup analysis&#8221; ;</p>
+<p>4. In Study search section, please clarify &#8220;After detailed evaluation&#8230;&#8221;. Which kind of evaluation?</p>
+<p>The authors mentioned the Newcastle-Ottawa Scale standard and evaluated the studies as &#8220;high-quality studies&#8221; with &#8805;7 points, but then they considered also studies with lower points. Why?</p>
+<p>Moreover, there is only one recent study (i.e. from 2018) among the selected 15 studies;</p>
+<p>5. In Table 1, the reference of the 15th study should be S.H. [31];</p>
+<p>6. In Figure 1, there is a duplicated form at the end of the flow chart (n=15) and the first form &#8220;additional records identified through other sources&#8221; can be deleted (n=0);</p>
+<p>7. In the caption of Figure 3, point D) is PR, not ER;</p>
+<p>8. In the caption of Figure 4, the number of studies included is 15, not 11;</p>
+<p>9. In the caption of Figure 5, the number of studies included is 15, not 11;</p>
+<p>10. In Discussion, &#8220;D-dimer level has a certain auxiliary value&#8230;&#8221; should be substituted by &#8220;D-dimer level could have an auxiliary value&#8230;&#8221;.</p>
+<p>Reviewer #2: In this paper the authors performed a systematic review and meta-analysis to evaluate the significance of D-dimer levels in the diagnosis and prognosis of breast carcinoma. The major limitation of this study lies on the difficulty to generalize the clinical value of D-dimer in breast cancer due to the fact that the authors considered mainly studies performed on Chinese population with only 2 studies with Caucasian subjects.</p>
+<p>The paper is potentially interesting anyway a number of compulsory aspects need to be clarified and the following comments should be addressed before the manuscript can be considered for publication:</p>
+<p>Major points:</p>
+<p>&#8226; One critical aspect concerns inclusion and exclusion criteria which are poorly detailed: please clarify better what does &#8220;sufficient data&#8221; at line 88 mean and &#8220;no clear gold standard&#8221; at line 89. Moreover, please clarify in figure 1 the reason why the authors considered &#8220;not relevant&#8221; four papers in the step of eligibility, which is the criteria?</p>
+<p>&#8226; In the paragraph &#8220;data extraction and quality assessment&#8221; the authors highlight the importance for a study to have NOS score &#8805; 7. Why in this systematic review they consider also papers with NOS score of 5 or 6? Please justify this choice</p>
+<p>&#8226; D-dimer levels are always missing unit of measure. Please specify.</p>
+<p>&#8226; Some papers as for example Huang 2012, Xie 2011 and Kim 2004 showed D-dimer levels completely different from the other studies. Please discuss this aspect in the paragraph of &#8220;discussion&#8221;.</p>
+<p>&#8226; In the Discussion section, at line 231 the authors said that plasma D-dimer levels can be used in prognosis of breast cancer. No data concerning prognostic significance are reported in the paper. Please modify and discuss better this part.</p>
+<p>Minor points:</p>
+<p>&#8226; Table 1: authors should include also details as regards samples used in different studies to quantify D-dimer levels. Always plasma with citrate as anticoagulant was considered?</p>
+<p>&#8226; Figure 3A and 3E are the same figure, please modify.</p>
+<p>Overall the manuscript can be interesting but it cannot be accepted in the present form. A major revision is mandatory before publication.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221374.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221374.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">24 Jul 2019</named-content>
+</p>
+<p>July 24, 2019</p>
+<p>Dear&#8194;Dr. Tagliabue:</p>
+<p>We would like to thank&#8194;you&#8194;and the reviewers for your comments&#8194;regarding&#8194;our&#8194;manuscript&#8194;entitled &#8220;The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis&#8221; (ID:  PONE-D-19-14829R1). </p>
+<p>The valuable insights have been&#8194;helpful&#8194;in&#8194;revising&#8194;and improving&#8194;our&#8194;manuscript,&#8194;as&#8194;well&#8194;as in&#8194;guiding the significance&#8194;of&#8194;our&#8194;study. We&#8194;have&#8194;carefully reviewed the&#8194;comments&#8194;&#8194;and&#8194;have&#8194;accordingly revised the manuscript, which&#8194;we&#8194;hope&#8194;meets&#8194;your&#8194;approval. The revised&#8194;portions of the text&#8194;are&#8194;highlighted&#8194;in&#8194;yellow. The&#8194;main&#8194;corrections&#8194;and&#8194;responses&#8194;to&#8194;the&#8194;reviewers&#8217;&#8194;comments&#8194;are given below. We hope that the manuscript is now acceptable for submission to PLOS ONE. We look forward to hearing from you.&#8194;</p>
+<p>Sincerely,</p>
+<p>LY Zhang</p>
+<p>Dongyang People&#8217;s Hospital</p>
+<p>60 West Wuning Road, Dongyang 322100, Zhejiang, China</p>
+<p>Tel: +8615267914600</p>
+<p>Email: <email ns0:type="simple">Happy_zhang1y@163.com</email></p>
+<p>Responses&#8194;to&#8194;the&#8194;reviewer&#8217;s&#8194;comments:</p>
+<p>Reviewer #1: </p>
+<p>1. Figure 3E is identical to Figure 3A. Please correct the duplicated figure;</p>
+<p>We apologize for this error. The correct images for Figure 3 have been uploaded along with the revised manuscript.</p>
+<p>2. As stated from the authors in the Discussion, the literature of this meta analysis is limited and a large number of patients is still needed. Moreover, they are also aware that there is the risk of a regional bias, since almost all studies are from China. Results are &#8220;somewhat restrictive&#8221;, as stated in the Conclusion.</p>
+<p>We realize that this meta-analysis has limitations and have highlighted them in the discussion. We also searched for related articles for nearly 2months, but could not find new available research.  However, we have included some references to the latest research on D-dimer and breast cancer. We will continue to track relevant information in this regard.</p>
+<p>3. In the inclusion and exclusion criteria section, &#8220;the study results had a normal distribution&#8221; does not mean anything. Do the authors mean the distribution of the response variable?</p>
+<p>Again, &#8220;the results were skewed&#8221; has no sense. Please explain it better;</p>
+<p>Thank you for this comment. We apologize if the inclusion and exclusion criteria were ambiguous. Meta-analysis of continuous variables requires the extraction of the mean and standard deviation from each of the included documents. The median + quartile interval were generally provided because the results of the original study were skewed. According to the Cochrane Handbook, if the data are skewed, the median + quartile interval cannot be converted to mean and SD. However, because it did not make sense to emphasize the normal or skewed distribution, we only emphasized that the average and standard deviation could be correctly obtained. </p>
+<p>According to the principle of PICOS, the inclusion and exclusion criteria were modified as follows:</p>
+<p>&#8220;The inclusion criteria were as follows: 1) the study group consisted of patients with breast cancer with a definite diagnosis; 2) the control group consisted of healthy women or patients with benign breast tumors; 3) the D-dimer test method in the study was clear; 4) the study results contained or had sufficient data to calculate the mean and standard deviation, defined here as more than 20 patients; and 5) the study showed a correlation between D-dimer levels and diagnostic and/or clinicopathological features of breast cancer. The exclusion criteria were as follows: 1) case reports or reviews; 2) studies describing animal experiments; 3) repeated publications; and 4) articles with a low Newcastle-Ottawa scale (NOS) score (&#8804;4)."</p>
+<p>4. In the Statistical analysis section, why the authors consider a p-value &gt; 0.10 as a reference p-value to establish if there is an &#8220;obvious heterogeneity&#8221;? Why not 0.05?</p>
+<p>According to the Cochrane Handbook, care must be taken when interpreting the chi-squared test results in meta-analyses because it has low power in (common) studies with small sample sizes or when only a few studies are included. This means that while a statistically significant result may indicate a problem with heterogeneity, a non-significant result must not be considered as evidence of no heterogeneity. Thus, we used the value of 0.10 instead of 0.05 to determine statistical significance.</p>
+<p>5. In the Statistical analysis section, please substitute &#8220;methodological subgroup analysis&#8221; with &#8220;subgroup analysis&#8221; ;</p>
+<p>Based on your comment, we revised the text as follows:</p>
+<p>&#8220;In addition, when the heterogeneity was significant, we used a methodological subgroup analysis followed by a sensitivity analysis&#8221; was revised to &#8220;In addition, when the heterogeneity was significant, we performed a subgroup analysis followed by a sensitivity analysis.&#8221;</p>
+<p>6. In Study search section, please clarify &#8220;After detailed evaluation&#8230;&#8221;. Which kind of evaluation?</p>
+<p>According to the inclusion and exclusion criteria, only full-text articles were assessed for eligibility. We explained this in more detail in the revised manuscript text and also changed the phrase &#8220;After detailed evaluation...&#8221; to &#8220;After full-text articles were assessed for eligibility...&#8221;</p>
+<p>The authors mentioned the Newcastle-Ottawa Scale standard and evaluated the studies as &#8220;high-quality studies&#8221; with &#8805;7 points, but then they considered also studies with lower points. Why?</p>
+<p>We apologize for the ambiguity regarding the inclusion and exclusion criteria in the text. We excluded low-quality studies and added the following statement as an exclusion criterion: &#8220;Articles with low NOS score (&#8804;4).&#8221;</p>
+<p>According to the Cochrane Handbook, we used sensitivity analysis as an indicator of the document quality. The results of the sensitivity analysis were stable; therefore, we believe that these three studies can be included.</p>
+<p>Moreover, there is only one recent study (i.e. from 2018) among the selected 15 studies;</p>
+<p>Unfortunately, this was the only recent study that fulfilled the inclusion criteria. We will continue to track the latest relevant research. However, we hope that this meta-analysis will allow scholars to note the potential of D-dimer in breast cancer research.</p>
+<p>7. In Table 1, the reference of the 15th study should be S.H. [31];</p>
+<p>Thank you for this suggestion. We have modified it as recommended by the reviewer.</p>
+<p>8. In Figure 1, there is a duplicated form at the end of the flow chart (n=15) and the first form &#8220;additional records identified through other sources&#8221; can be deleted (n=0);</p>
+<p>We have modified Figure 1 as recommended by the reviewer.</p>
+<p>9. In the caption of Figure 3, point D) is PR, not ER;</p>
+<p>In the caption of Figure 3,(D) describes the graph of the relationship of D-dimer with the estrogen receptor (ER) status (positive vs. negative).Panel (A) reflects the relationship of D-dimer with the progesterone receptor (PR).</p>
+<p>10. In the caption of Figure 4, the number of studies included is 15, not 11;</p>
+<p>This meta-analysis includes the differences in the D-dimer levels between breast cancer patients and benign controls and healthy controls, as well as the correlation between D-dimer levels and clinical pathological characteristics of breast cancer. A total of 7 groups and 15 articles were included. The studies were used separately, and no study was used in every comparison. Although Biljana et al. mentioned in "Bias in meta-analysis and funnel plot asymmetry" that there is a limitation in the detection of bias with a small sample size, there is currently no standardization limit. We previously limited the publication bias test to &#8220;more than 10 included studies&#8221;; however, this may be ambiguous. </p>
+<p>Therefore, we deleted the original Figure 4/5 and published the bias for each group and presented it as the P value of the Egger test. The following figure is for reference for the Reviewer.</p>
+<p>11. In the caption of Figure 5, the number of studies included is 15, not 11</p>
+<p>Please see our response for Question 10. The following figure is for reference for the Reviewer.</p>
+<p>12. In Discussion, &#8220;D-dimer level has a certain auxiliary value&#8230;&#8221; should be substituted by &#8220;D-dimer level could have an auxiliary value&#8230;&#8221;.</p>
+<p>As per the reviewer&#8217;s suggestion, we have revised the corresponding statement.</p>
+<p>We thank you for reviewing our manuscript.</p>
+<p>Reviewer #2:</p>
+<p>1.One critical aspect concerns inclusion and exclusion criteria which are poorly detailed: please clarify better what does &#8220;sufficient data&#8221; at line 88 mean and &#8220;no clear gold standard&#8221; at line 89.</p>
+<p>Based on the reviewer&#8217;s suggestion, we included a definition of &#8220;sufficient data&#8221; in the revised manuscript as follows: &#8220;the study results contained or had sufficient data to calculate the mean and standard deviation, defined here as more than 20 patients.&#8221;</p>
+<p>&#8220;No clear gold standard&#8221; implied that the study group included patients with breast cancer without a definite diagnosis. The exclusion criteria were originally based on the inclusion criteria, but we have now revised the exclusion criteria to avoid this ambiguity as follows:</p>
+<p>&#8220;The exclusion criteria were as follows: 1) case reports or reviews; 2) studies describing animal experiments; 3) repeated publications; and 4) articles with a low Newcastle-Ottawa scale (NOS) score (&#8804;4).&#8221;</p>
+<p>Moreover, please clarify in figure 1 the reason why the authors considered &#8220;not relevant&#8221; four papers in the step of eligibility, which is the criteria?</p>
+<p>Four papers were deemed to be &#8220;not relevant&#8221; after we browsed the full text because the studies assessed D-dimer and breast cancer but did not examine the aspects we wanted to study. For clarity, we have added the following statement as an inclusion criterion: &#8220;5) the study showed a correlation between D-dimer levels and diagnostic and/or clinicopathological features of breast cancer.&#8221;</p>
+<p>After consideration, we believe that it can be combined with "data not available."</p>
+<p>2. In the paragraph &#8220;data extraction and quality assessment&#8221; the authors highlight the importance for a study to have NOS score &#8805; 7. Why in this systematic review they consider also papers with NOS score of 5 or 6? Please justify this choice</p>
+<p>We apologize for the ambiguity regarding the inclusion and exclusion criteria in the text. We excluded low-quality studies and added the following statement as an exclusion criterion: &#8220;Articles with a low NOS score (&#8804;4).&#8221;</p>
+<p>According to the Cochrane Handbook, we used sensitivity analysis as an indicator of the document quality. The results of the sensitivity analysis were stable; therefore, we believe that these three medium-quality studies can be included.</p>
+<p>3. D-dimer levels are always missing unit of measure. Please specify.</p>
+<p>Currently, there is no uniform standard for D-dimer units, and the measurement units included in the study are different. Therefore, standardized mean difference was used as the effect combination index, and the effect of different measurement units on the results of the meta-analysis was negated.</p>
+<p>We have described this in the discussion and have revised the D-dimer unit to ng/mL.</p>
+<p>4. Some papers as for example Huang 2012, Xie 2011 and Kim 2004 showed D-dimer levels completely different from the other studies. Please discuss this aspect in the paragraph of &#8220;discussion&#8221;</p>
+<p>Sensitivity analysis indicated that these three studies were not sources of heterogeneity. This complete difference may be because of the differences in detection methods and units. However, we agree with the reviewer&#8217;s suggestion and have discussed this aspect in the discussion as follows:</p>
+<p>&#8220;At present, there is no uniform standard for the methods and units used to detect D-dimer levels, and the consistency between the results of the same test items in each laboratory is not strong. In this paper, the unified D-dimer unit was ng/mL, and the standardized mean difference was used as the effect combination index. However, inconsistent detection methods, reagents and type of anticoagulant may cause the absolute D-dimer value to differ greatly, leading to high heterogeneity among the literature results. Therefore, a uniform methodological standard should be established for D-dimer detection so that the data between different laboratories can be interoperable or comparable.&#8221;</p>
+<p>5. In the Discussion section, at line 231 the authors said that plasma D-dimer levels can be used in prognosis of breast cancer. No data concerning prognostic significance are reported in the paper. Please modify and discuss better this part.</p>
+<p>As the reviewer stated, because of the literature limitations, we did not have sufficient evidence to prove the relationship between D-dimer and breast cancer prognosis; therefore, we revised the text in the Background, abstract, discussion, and conclusion.</p>
+<p>Background: &#8220;Studies have shown that D-dimer levels were significantly correlated with the diagnosis and prognosis of breast cancer.&#8221; was changed to &#8220;Studies have shown that D-dimer levels are significantly correlated with the differential diagnosis and clinicopathological features of breast cancer.&#8221;</p>
+<p>Abstract: &#8220;The results of this meta-analysis indicate that plasma D-dimer levels can be used as an important reference for the early identification, staging, and prognosis of breast cancer&#8221; was changed to &#8220;The results of this meta-analysis indicate that plasma D-dimer levels can be used as an important reference for the early identification and staging of breast cancer.&#8221;</p>
+<p>Discussion: &#8220;The plasma D-dimer levels can be used as an auxiliary index for the diagnosis, staging, and prognosis of breast cancer&#8221; was changed to &#8220;Elevated D-dimer levels suggest a worsening of the disease, a later clinical stage, and a greater likelihood of tumor metastasis. The plasma D-dimer levels can be used as an auxiliary index for the diagnosis and staging of breast cancer.&#8221;</p>
+<p>&#8220;This evidence suggests that D-dimer has potential in the differential diagnosis and prognosis of breast cancer&#8221; was changed to &#8220;This evidence suggests that D-dimer has potential in the differential diagnosis and staging of breast cancer.&#8221;</p>
+<p>We have also added the following text in the discussion: &#8220;Due to the limitations of the literature, the role of D-dimer in the clinical pathology and prediction of prognosis of breast cancer still needs to be studied in a large number of patients.&#8221;</p>
+<p>6. Table 1: authors should include also details as regards samples used in different studies to quantify D-dimer levels. Always plasma with citrate as anticoagulant was considered?</p>
+<p>According to there viewer&#8217;s suggestion, we have added the anticoagulant information in Table 1.Different anticoagulants also need our attention, but owing to the limitations of the included studies, subgroup analysis was not possible.</p>
+<p>We discussed this in the discussion as follows:</p>
+<p>&#8220;However, inconsistent detection methods, reagents and type of anticoagulant may cause the absolute D-dimer value to differ greatly, leading to high heterogeneity among the literature results. Therefore, a uniform methodological standard should be established for D-dimer detection so that the data between different laboratories can be interoperable or comparable.&#8221;</p>
+<p>7. Figure 3A and 3E are the same figure, please modify.</p>
+<p>We apologize for this error. The correct images for Figure 3 have been uploaded along with the revised manuscript.</p>
+<p>We thank you for your comments on the manuscript.</p>
+<supplementary-material id="pone.0221374.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response_to_Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0221374.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Tagliabue</surname>
+<given-names>Elda</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Elda Tagliabue</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">30 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-14829R1</p>
+<p>The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Zhang,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that&#160; the manuscript has been amended according to reviewers' concerns. However, as indicated by one of them, this meta analysis is limited and almost all considered studies are from China. Therefore, the authors should specify in the title and in the rest of the manuscript that the&#160;results refer to the Chinese population.</p>
+<p>We invite you to re-submit a revised version of the manuscript that addresses this point.</p>
+<p>We would appreciate receiving your revised manuscript by August 15, 2019.&#160;When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Elda Tagliabue</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Partly</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: All comments have been addressed.</p>
+<p>The manuscript is well written and analyses have been performed following the proper methods for meta analyses.</p>
+<p>However, I have some concerns since results are restrictive. The literature of this meta analysis is limited and a large number of patients is still needed. Maybe the authors should wait in order to collect more studies. MoreoverThe risk of regional bias should not be underevaluated, since almost all studies are from China (maybe the authors can specify in the title and in the rest of the manuscript that at the moment these results only refer to the Chinese population).</p>
+<p>Reviewer #2: The authors have addressed the queries raised in my previous review.</p>
+<p>The manuscript in the present form is suitable for publication.</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Elena Landoni</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221374.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221374.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">2 Aug 2019</named-content>
+</p>
+<p>August 2, 2019</p>
+<p>Dear&#8194;Dr. Tagliabue:</p>
+<p>We would like to thank&#8194;you&#8194;and the reviewers for your comments&#8194;regarding&#8194;our&#8194;manuscript&#8194;titled &#8220;The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis&#8221; (ID:  PONE-D-19-14829R1). </p>
+<p>Your comments have been&#8194;helpful&#8194;in&#8194;revising&#8194;and improving&#8194;our&#8194;manuscript. I have made the necessary minor revisions as per your suggestions. </p>
+<p>Of the 15 articles included, ten were from China and five were from countries outside China. Because our meta-analysis is based on published research, the fact that most of the data coming from China may have been perceived as a problem. Considering that the five documents from countries other than China are also main components of the article, they are distributed in each group of the study, so specification of the results referring to the Chinese population in the title may lead to increased limitations of the meta-analysis. </p>
+<p>We have adopted the reviewer&#8217;s opinion that "The risk of regional bias should not be under evaluated". We have added Figure 4, using subgroup analysis to evaluate the impact of region on heterogeneity, and discussed this issue in the &#8220;Discussion&#8221;. </p>
+<p>As follows, &#8220;The subgroup analysis was also used to examine the source of heterogeneity based on region with only significant differences in the benign control group. However, after excluding the study by Kim et al. of Korea from the benign control group, the heterogeneity between the eight Studies from China did not reduce, indicating that the regional differences cannot explain the heterogeneity between benign control groups."</p>
+<p>We hope that this meta-analysis is not just another end point of research but that it encourages us to conduct more validation studies in other independent large groups, which will better clarify the association of D-dimer with breast cancer patients. This meta-analysis is limited, and we will continue to pay attention to the latest research in this area. When there is valuable literature, we will update it in time.</p>
+<p>The minor revisions requested in the text&#8194;are&#8194;highlighted&#8194;in&#8194;yellow. The&#8194;Figure 4&#8194;is given below. We hope that the manuscript is now acceptable for submission to PLOS ONE. We look forward to hearing from you.&#8194;</p>
+<p>Sincerely,</p>
+<p>LY Zhang</p>
+<p>Dongyang People&#8217;s Hospital</p>
+<p>60 West Wuning Road, Dongyang 322100, Zhejiang, China</p>
+<p>Tel: +8615267914600</p>
+<p>Email: <email ns0:type="simple">Happy_zhang1y@163.com</email></p>
+<p>Fig 4. Subgroup analysis of D-dimer levels and breast cancer-associated differential diagnosis and clinicopathological features according to region.Plots depicting comparisons between breast cancer patients and (A) benign controls, (B) healthy controls, (C) tumor node metastasis (TNM) stage (stage III-IV vs stage I-II), (D) lymph node status (positive vs. negative), and (E)estrogen receptor (ER) status (positive vs. negative). Group1: China; Group2: Regions outside China</p>
+<supplementary-material id="pone.0221374.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221374.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response_to_Reviewers.doc</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221374.r005" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r005</article-id>
+<title-group>
+<article-title>Decision Letter 2</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Tagliabue</surname>
+<given-names>Elda</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Elda Tagliabue</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="article" id="rel-obj005" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">6 Aug 2019</named-content>
+</p>
+<p>The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis</p>
+<p>PONE-D-19-14829R2</p>
+<p>Dear Dr. Zhang,</p>
+<p>We are pleased to inform you that your manuscript has been satisfactory amended and judged scientifically suitable for publication. It&#160;will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Elda Tagliabue</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221374.r006" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221374.r006</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Tagliabue</surname>
+<given-names>Elda</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Elda Tagliabue</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221374" document-id-type="doi" document-type="article" id="rel-obj006" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">27 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-14829R2 </p>
+<p>The association of D-dimer with clinicopathological features of breast cancer and its usefulness in differential diagnosis: a systematic review and meta-analysis </p>
+<p>Dear Dr. Zhang:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Elda Tagliabue  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

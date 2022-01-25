@@ -1,0 +1,693 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222463</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17335</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Bioengineering</subject><subj-group><subject>Biotechnology</subject><subj-group><subject>Medical devices and equipment</subject><subj-group><subject>Catheters</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Bioengineering</subject><subj-group><subject>Biotechnology</subject><subj-group><subject>Medical devices and equipment</subject><subj-group><subject>Catheters</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Medical devices and equipment</subject><subj-group><subject>Catheters</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Animal products</subject><subj-group><subject>Leather</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Compression</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Adhesives</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Analysis of variance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Analysis of variance</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject><subj-group><subject>Catheterization</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical data</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Probability theory</subject><subj-group><subject>Probability distribution</subject><subj-group><subject>Normal distribution</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Effectiveness of different central venous catheter fixation suture techniques: An <italic>in vitro</italic> crossover study</article-title>
+<alt-title alt-title-type="running-head">Evaluation of dislodgement forces in a tensile loading experiment</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0070-3406</contrib-id>
+<name name-style="western">
+<surname>Struck</surname>
+<given-names>Manuel Florian</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Friedrich</surname>
+<given-names>Lars</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="fn" rid="currentaff001"><sup>&#164;a</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Schleifenbaum</surname>
+<given-names>Stefan</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="fn" rid="currentaff002"><sup>&#164;b</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-3126-7950</contrib-id>
+<name name-style="western">
+<surname>Kirsten</surname>
+<given-names>Holger</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Schummer</surname>
+<given-names>Wolfram</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="fn" rid="currentaff003"><sup>&#164;c</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Winkler</surname>
+<given-names>Bernd E.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Anesthesiology and Intensive Care Medicine, University Hospital Leipzig, Leipzig, Germany</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>ZESBO-Zentrum zur Erforschung der St&#252;tz- und Bewegungsorgane, Leipzig, Germany</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Institute for Medical Informatics, Statistics, and Epidemiology (IMISE), University of Leipzig, Leipzig, Germany</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Anesthesiology and Intensive Care Medicine, University Hospital Jena, Jena, Germany</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Department of Anesthesiology and Intensive Care Medicine, University Hospital W&#252;rzburg, W&#252;rzburg, Germany</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Serra</surname>
+<given-names>Raffaele</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University Magna Graecia of Catanzaro, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff001">
+<label>&#164;a</label>
+<p>Current address: Department of Anesthesiology, Leipzig Heart Center, Leipzig, Germany</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff002">
+<label>&#164;b</label>
+<p>Current address: Department of Orthopedic, Trauma and Plastic Surgery, University Hospital Leipzig, Leipzig, Germany</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff003">
+<label>&#164;c</label>
+<p>Current address: Department of Anesthesiology and Intensive Care Medicine, HELIOS Spital &#220;berlingen, &#220;berlingen, Germany</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">manuelstruck@web.de</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222463</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>29</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Struck et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222463" />
+<abstract>
+<sec id="sec001">
+<title>Purpose</title>
+<p>Proper fixation of central venous catheters (CVCs) is an integral part of safety to avoid dislodgement and malfunction. However, the effectiveness of different CVC securement sutures is unknown.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>Analysis of maximum dislodgement forces for CVCs from three different manufacturers using four different suture techniques in an in vitro tensile loading experiment: 1. &#8220;clamp only&#8221;, 2. &#8220;clamp and compression suture&#8221;, 3. &#8220;finger trap&#8221; and 4. &#8220;complete&#8221;, i.e., &#8220;clamp + compression suture + finger trap&#8221;. Twenty-five tests were performed for each of the three CVC models and four securement suture techniques (n = 300 test runs).</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>The primary cause of catheter dislodgement was sliding through the clamp in techniques 1 and 2. In contrast, rupture of the suture was the predominant cause for dislodgement in techniques 2 and 3. Median (IQR 25&#8211;75%) dislodgement forces were 26.0 (16.6) N in technique 1, 26.5 (18.8) N in technique 2, 76.7 (18.7) N in technique 3, and 84.8 (11.8) N in technique 4. Post-hoc analysis demonstrated significant differences <italic>(P</italic> &lt; .001) between all pairwise combinations of techniques except technique 1 vs. 2 (<italic>P</italic> = .98).</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>&#8220;Finger trap&#8221; fixation at the segmentation site considerably increases forces required for dislodgement compared to clamp-based approaches.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5" />
+<table-count count="1" />
+<page-count count="11" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Central venous catheterization is a common procedure to provide safe administration of vasoactive agents, fluid resuscitation, hemodialysis, and hemodynamic monitoring [<xref ref-type="bibr" rid="pone.0222463.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0222463.ref002">2</xref>]. Based on numerous studies, recommendations have been published regarding CVC placement [<xref ref-type="bibr" rid="pone.0222463.ref003">3</xref>&#8211;<xref ref-type="bibr" rid="pone.0222463.ref005">5</xref>]. Although there is increasing evidence for how to increase safety regarding CVC placement, studies regarding CVC fixation are scarce. The American Society of Anesthesiologists (ASA) recommends suturing the CVC to the patient&#8217;s skin with no mention of a particular technique [<xref ref-type="bibr" rid="pone.0222463.ref005">5</xref>]. The effectiveness of different CVC fixation sutures is unknown [<xref ref-type="bibr" rid="pone.0222463.ref006">6</xref>]. Moreover, sutureless CVC fixation devices have recently become increasingly popular because of their less invasive nature and potentially greater patient comfort [<xref ref-type="bibr" rid="pone.0222463.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0222463.ref011">11</xref>]. However, CVC fixation with sutures is still widely used and mandatory in high-risk patients (i.e., burns). Due to individual experiences of the authors CVC dislodgements are rare when utilizing a &#8220;finger trap&#8221;-based fixation and more common when relying on the &#8220;clamp only&#8221; but until now, experimental data that support these observations are not available.</p>
+<p>In the present study, we therefore evaluated the strengths of different securement suture techniques under standardized in vitro conditions using mechanical tension forces. We hypothesized that a higher complexity fixation suture would be associated with increased strength of the CVC-suture system and thus increased safety to prevent CVC dislodgement. The primary aim of this study was to compare the stability of four different suture techniques, each applied to CVC models from three different manufacturers. The secondary aim was to analyze possible mechanical damage to the CVC during tensile loading.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<p>The CVCs were sutured on a 5 x 5 cm piece of untanned cow leather tissue (thickness: 1.2&#8211;1.4 mm) with a central perforation (standardized using a 2 mm belt punch) for CVC insertion. All pieces of leather were obtained from a single animal. In our preliminary tests, the tear strength of the leather was determined to fall in a range of 500&#8211;700 N. One single practitioner (board certified specialist in anesthesiology and intensive care medicine) sutured all catheters in a standardized manner. We used a total of 300 catheters total provided by Arrow<sup>&#174;</sup>/Teleflex<sup>&#174;</sup>, Wayne, USA (30 cm, 7 Fr./2.4 mm: 1x16 G, 2x18 G), B. Braun, Melsungen, Germany (Certofix<sup>&#174;</sup> Trio 730, 30 cm, 7 Fr./2.4 mm: 1x16 G, 2x18 G), and Vygon, &#201;couen, France (MultiCath 3<sup>&#8482;</sup>, 20 cm, 7,5 Fr/2.7 mm: 1x14 G, 2x18 G). For the sake of simplicity, the terms &#8220;Arrow&#8221;, &#8220;B. Braun&#8221; and &#8220;Vygon&#8221; will be used consistently below. In a preliminary test run, we evaluated the median tear strength of the CVCs (<italic>N</italic> = 5 per manufacturer; Arrow 83.9 N, B. Braun 70.1 N, and Vygon 98.3 N, respectively). Mersilene<sup>&#174;</sup> 2.0 (Ethicon, Johnson-Johnson, Norderstedt, Germany) sutures were used for fixation by tying three knots. All catheters were secured within a distance of 5 cm from the perforation to the segmentation site to compensate for differing catheter lengths.</p>
+<p>1. Standard clamp (&#8220;clamp only&#8221;), the most commonly used fixation approach: The catheter was attached via two single sutures in each of the holes of the clamp [<xref ref-type="fig" rid="pone.0222463.g001">Fig 1A</xref>].</p>
+<fig id="pone.0222463.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Fixation techniques.</title>
+<p>From the left to the right, the four fixation techniques used in the present study are presented (A-D). A represents the &#8220;standard&#8221; technique, B represents the &#8220;compression&#8221; technique, C represents the &#8220;finger trap&#8221; technique and D represents the &#8220;complete&#8221; technique. Details of the compression technique are presented in <xref ref-type="fig" rid="pone.0222463.g002">Fig 2</xref>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.g001" ns0:type="simple" />
+</fig>
+<p>2. Standard clamp + compression sutures (&#8220;compression&#8221;), a measure to increase friction to the rubber part of the clamp: The soft inner part of the compression clamp was compressed towards the catheter via two additional compression sutures [<xref ref-type="fig" rid="pone.0222463.g001">Fig 1B</xref>, <xref ref-type="fig" rid="pone.0222463.g002">Fig 2</xref>].</p>
+<fig id="pone.0222463.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Steps of the &#8220;compression&#8221; technique.</title>
+<p><bold>A)</bold>Two sutures are placed at the inner soft part of the clamp to increase compression of the soft part and to increase friction between the soft part of the clamp and the catheter. <bold>B)</bold> The outer rigid part of the clamp is placed on top of the soft part. <bold>C)</bold> The clamp is sutured to the leather.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.g002" ns0:type="simple" />
+</fig>
+<p>3. Finger trap (&#8220;finger trap&#8221;), A potential approach of fixation in cases of accidental loss or damage of the fixation clamp: The catheter was attached to the leather via a single stitch at the puncture site, and the two ends of the suture were wrapped around the catheter like a finger trap. The ends of the suture were tied together at the segmentation site of the lumens [<xref ref-type="fig" rid="pone.0222463.g001">Fig 1C</xref>].</p>
+<p>4. Complete fixation (&#8220;complete&#8221;). The combination of the approaches 1+2+3 to achieve optimal stability: The &#8220;clamp only&#8221;, &#8220;compression&#8221;, and &#8220;finger trap&#8221; approaches were combined [<xref ref-type="fig" rid="pone.0222463.g001">Fig 1D</xref>].</p>
+<p>For all experiments, a tensile testing apparatus (Type 5566A, Instron INC, Norwood, MA, USA) was used at a biomechanical laboratory. Parts and mounting of the tensile testing apparatus were manufactured and specifically modified for the present study in order to provide optimal comparability and test reliability. Forces were measured in Newtons (1 N = 0.102 kg).</p>
+<p>The leather part was attached to a screw compressor clamp at the static part of the testing apparatus, while the segmentation site of the CVC was mounted to the dynamic part via a mechanical fastening unit, which was specifically designed and evaluated for our experiments [<xref ref-type="fig" rid="pone.0222463.g003">Fig 3A and 3B</xref>]. The distance between the static and the dynamic parts was identical in each run. The traction speed of the testing apparatus was set to 1,000 mm min<sup>-1</sup>, and a precise displacement-force-curve was recorded via the integrated &#8220;Bluehill 2&#8221; software (Instron INC, Norwood, MA, USA). The distance of CVC dislodgement was recorded electronically, and dislodgement of 5 cm at the insertion site was considered critical in this test setting. The maximum force required for catheter dislodgement was compared among the four catheter fixation techniques. Suture ruptures, CVC ruptures, and other events were recognized and recorded. Twenty-five test runs were performed for each combination of the three manufacturers and four securement techniques, resulting in a total of 300 test runs.</p>
+<fig id="pone.0222463.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Test setting.</title>
+<p>Anterior view (a) and lateral view (b) of the sutured central venous catheter unit mounted on the tensile testing machine.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.g003" ns0:type="simple" />
+</fig>
+<sec id="sec007">
+<title>Statistical analysis</title>
+<p>After exporting data from the &#8220;Bluehill 2&#8221; software of the testing apparatus, statistical analysis was performed using Microsoft Excel Mac 2016 (Microsoft Inc, Redmond, WA, USA) and SPSS 25 (IBM Inc, Armonk, NY, USA). Testing for normal distribution was performed using the Kolmogorov&#8211;Smirnov Test. After testing for normal distribution, the effect of fixation technique and manufacturer was analyzed utilizing two-way factorial analysis of variance (ANOVA). Post-hoc analysis of the ANOVA results was performed for pairwise comparisons of individual fixation approaches and manufacturers. <italic>P</italic>-values were adjusted for multiple testing via Bonferroni correction. <italic>P</italic>-levels less than 0.05 were considered significant.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<p>The primary cause for catheter dislodgement in the &#8220;clamp only&#8221; and &#8220;compression&#8221; groups was sliding through the clamp [Figs <xref ref-type="fig" rid="pone.0222463.g004">4</xref> and <xref ref-type="fig" rid="pone.0222463.g005">5</xref>, <xref ref-type="supplementary-material" rid="pone.0222463.s002">S1 Fig</xref>]. In contrast, the primary cause of dislodgement for the &#8220;finger trap&#8221; and &#8220;complete&#8221; fixation groups were rupture of the fixation suture [Figs <xref ref-type="fig" rid="pone.0222463.g004">4</xref> and <xref ref-type="fig" rid="pone.0222463.g005">5</xref>, <xref ref-type="supplementary-material" rid="pone.0222463.s002">S1 Fig</xref>]. In all manufacturers, the finger-trap based fixation techniques &#8220;finger trap&#8221; and &#8220;complete&#8221; resulted in a substantial increase in dislodgement forces compared to &#8220;clamp only&#8221; and &#8220;compression&#8221; [<xref ref-type="fig" rid="pone.0222463.g005">Fig 5</xref>]. The dislodgement forces using the &#8220;complete&#8221; fixation technique was 6.7 times as high as using the &#8220;clamp only&#8221; fixation technique (median 87.7 <italic>vs</italic>. 13.1 N, <italic>P</italic> &lt; 0.01) in Arrow CVCs, 2.8 times as high (median 84.7 <italic>vs</italic>. 30.7 N, <italic>P</italic> &lt; 0.01) in B. Braun CVCs and 3.4 times as high (median 84.8 <italic>vs</italic>. 25.2 N, <italic>P</italic> &lt; 0.01) in Vygon CVCs [Figs <xref ref-type="fig" rid="pone.0222463.g004">4</xref> and <xref ref-type="fig" rid="pone.0222463.g005">5</xref>].</p>
+<fig id="pone.0222463.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Distance-force diagrams.</title>
+<p>Median forces and distances of all investigated fixation suture techniques. A steady state of dislodgement force occurs in the &#8220;clamp only&#8221; and &#8220;compression&#8221; fixation technique. The catheter is being pulled throughout the fixation clamp in these two approaches. In contrast, the dislodgement force increases steadily in the &#8220;finger trap&#8221; and &#8220;complete&#8221; fixation technique until a rupture of the suture or catheter occurs. After the rupture, the dislodgement force is close to zero in the &#8220;finger trap&#8221; approach since no clamp is being used. In contrast, the dislodgement force in the &#8220;complete&#8221; fixation technique is similar to the &#8220;clamp only&#8221; and &#8220;compression&#8221; approach since the catheter is still secured by the clamp after the rupture of suture. The second peak observed in &#8220;finger trap&#8221; and &#8220;complete&#8221; technique of Arrow and B. Braun appears when the catheter ruptured before the suture.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.g004" ns0:type="simple" />
+</fig>
+<fig id="pone.0222463.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Dislodgement forces.</title>
+<p>Dislodgement forces measured in Newton (N). The boxes represent median, 25% and 75% quantile. The whiskers represent 1.5 x interquartile range. 300 test runs were performed in total, 25 test runs were performed in each experimental group.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.g005" ns0:type="simple" />
+</fig>
+<p><xref ref-type="table" rid="pone.0222463.t001">Table 1</xref> presents group statistics of the dislodgement forces depending on the fixation technique.</p>
+<table-wrap id="pone.0222463.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222463.t001</object-id>
+<label>Table 1</label> <caption><title>Dislodgement forces depending on the fixation technique.</title></caption>
+<alternatives>
+<graphic id="pone.0222463.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="justify" />
+<th align="justify">Clamp only<break />(n = 75)</th>
+<th align="justify">Compression<break />(n = 75)</th>
+<th align="justify">Finger trap<break />(n = 75)</th>
+<th align="justify">Complete<break />(n = 75)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Median</td>
+<td align="left">26.0 N</td>
+<td align="left">26.5 N</td>
+<td align="left">76.7 N</td>
+<td align="left">84.8 N</td>
+</tr>
+<tr>
+<td align="left">95% CI</td>
+<td align="left">23.1&#8211;28.1 N</td>
+<td align="left">22.9&#8211;29.5 N</td>
+<td align="left">72.7&#8211;80.7 N</td>
+<td align="left">82.6&#8211;88.1 N</td>
+</tr>
+<tr>
+<td align="left">Range</td>
+<td align="left">10.9&#8211;42.4 N</td>
+<td align="left">10.6&#8211;50.6 N</td>
+<td align="left">23.7&#8211;102.2 N</td>
+<td align="left">52.2&#8211;115.0 N</td>
+</tr>
+<tr>
+<td align="left">IQR 25%-75%</td>
+<td align="left">16.6 N</td>
+<td align="left">18.8 N</td>
+<td align="left">18.7 N</td>
+<td align="left">11.8 N</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Data are median, 95% confidence Interval (CI) of the median, minimum&#8211;maximum, and interquartile range (IQR) 25%-75%.</p></fn>
+<fn id="t001fn002"><p>&#8220;Compression&#8221; technique did not increase dislodgement forces compared to &#8220;clamp only&#8221; (P = 0.98). &#8220;Finger trap&#8221; (P &lt; 0.001) and &#8220;complete&#8221; (P &lt; 0.001) resulted in higher dislodgement forces than &#8220;clamp only&#8221;. Furthermore, &#8220;finger trap&#8221; (P &lt; 0.001) and &#8220;complete&#8221; (P &lt; 0.001) resulted in higher dislodgement forces than &#8220;compression&#8221;. The highest dislodgement forces were observed in the &#8220;complete&#8221; fixation approach and were significantly (P &lt; 0.01) higher than in the &#8220;finger trap&#8221; approach.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>According to the ANOVA results, fixation technique and manufacturer both had a significant impact on the force required for catheter dislodgement (<italic>P</italic> &lt; 0.001). Post-hoc analysis demonstrated that dislodgement forces were not higher when &#8220;compression&#8221; technique was used compared to &#8220;clamp only&#8221; (<italic>P</italic> = 0.98). Both, &#8220;finger trap&#8221; and &#8220;complete&#8221; resulted in higher dislodgement forces than &#8220;clamp only&#8221; (<italic>P</italic> &lt; 0.001 each). &#8220;Finger trap&#8221; and &#8220;complete&#8221; also resulted in higher dislodgement forces than the &#8220;compression&#8221; technique (<italic>P</italic> &lt; 0.001 each). Dislodgement forces in the &#8220;complete&#8221; fixation approach were significantly (<italic>P</italic> &lt; 0.01) higher than in the &#8220;finger trap&#8221; approach. Furthermore, dislodgement forces were higher in B. Braun (<italic>P</italic> &lt; 0.01) and Vygon (<italic>P</italic> &lt; 0.01) CVCs compared to Arrow CVCs but did not differ significantly between B. Braun and Vygon CVCs (<italic>P</italic> = 0.158).</p>
+<p>Upon examination of the individual manufacturers, dislodgement forces depended on the fixation techniques as follows:</p>
+<list list-type="bullet">
+<list-item><p>Arrow: &#8220;clamp only&#8221; = &#8220;compression&#8221; (<italic>P = 0</italic>.<italic>97</italic>), &#8220;compression&#8221; &lt; &#8220;finger trap&#8221; (<italic>P</italic> &lt; 0.01), &#8220;finger trap&#8221; &lt; &#8220;complete&#8221; (<italic>P</italic> &lt; 0.01)</p></list-item>
+<list-item><p>B. Braun: &#8220;clamp only&#8221; = &#8220;compression&#8221; (<italic>P</italic> = 0.24), &#8220;compression&#8221; &lt; &#8220;finger trap&#8221; (<italic>P</italic> &lt; 0.01), &#8220;finger trap&#8221; = &#8220;complete&#8221; (<italic>P</italic> = 0.09)</p></list-item>
+<list-item><p>Vygon: &#8220;clamp only&#8221; = &#8220;compression&#8221; (<italic>P =</italic> 0.98), &#8220;compression&#8221; &lt; &#8220;finger trap&#8221; (<italic>P</italic> &lt; 0.01), &#8220;finger trap&#8221; = &#8220;complete&#8221; (<italic>P &gt;</italic> 0.96)</p></list-item>
+</list>
+<p>During tensile loading, we observed several instances of mechanical damage to the catheters: In the &#8220;finger trap&#8221; fixation technique, six ruptures of Arrow catheters, one rupture of an Arrow eyelet and eight ruptures of B. Braun catheters occurred during tensile loading. Three ruptures of Arrow CVCs and 14 ruptures of B. Braun CVCs were observed in the &#8220;complete&#8221; fixation technique. All catheters ruptured a few millimeters distal to the segmentation site. One catheter ruptured at the leather insertion site. The median forces at which catheter rupture occurred were 55.4 N for Arrow catheters and 81.9 N for B. Braun catheters, respectively. The eyelet rupture of the Arrow catheter occurred at 68.2 N.</p>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Discussion</title>
+<p>Catheter dislodgement is a frequent complication after central venous catheterization [<xref ref-type="bibr" rid="pone.0222463.ref012">12</xref>]. CVC dislodgement can cause extravascular drug administration and infiltration (e.g., potassium, chemotherapy, vasoactive drugs), potentially resulting in tissue necrosis. Moreover, it may lead to inappropriate or failed administration of vasopressors or inotropes resulting in severe hypotension and circulatory arrest [<xref ref-type="bibr" rid="pone.0222463.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0222463.ref014">14</xref>]. Thus, securement of CVCs is essential for safety reasons [<xref ref-type="bibr" rid="pone.0222463.ref005">5</xref>]. Reasons for CVC dislodgement are patients transfers (e.g., to and from computed tomography or in the operating room) and auto-aggressive behaviour (e.g., hyperactive delirium). Because these scenarios are difficult to simulate in a standardized manner we developed an experimental tensile loading setup to investigate different suture techniques.</p>
+<p>In this study, the forces required for catheter dislodgements significantly depended upon the fixation technique and the manufacturer of the CVC. The &#8220;compression&#8221; technique was not associated with higher dislodgement forces compared to the &#8220;clamp only&#8221; technique. In contrast, both the &#8220;finger trap&#8221; and &#8220;complete&#8221; fixation techniques significantly increased the dislodgement force and are likely to reduce CVC dislodgement rates in clinical practice. With regard to both inward and outward CVC dislodgement, the combination of the techniques &#8220;clamp only&#8221; plus &#8220;finger trap&#8221; might as well be a reasonable alternative to the &#8220;complete&#8221; fixation technique although this combination was not tested in the study.</p>
+<p>Regarding individual manufacturers, &#8220;complete&#8221; fixation did result in higher dislodgement forces compared to &#8220;finger trap&#8221; fixation in Arrow catheters only. However, it has to be taken into account that the present study investigated outward dislodgement only, and it is likely that a fixation clamp or adhesive dressings are protective against inward dislodgement which can result in contamination of the insertion site, potential infections, potential damage to vessels and cardiac structures, and cardiac tamponade [<xref ref-type="bibr" rid="pone.0222463.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0222463.ref016">16</xref>]. In clinical practice, some situations (i.e., loss of clamp parts) can require the combination of &#8220;finger trap&#8221; fixation and dressing adhesives for CVC securement. While &#8220;finger trap&#8221;and &#8220;complete&#8221;fixation techniques contributed to a considerable increase in dislodgement force, severe instances of mechanical damage to CVCs were observed in Arrow and especially in B. Braun but not in Vygon catheters during traction with higher forces. The additional suturing of the segmentation site has been recommended to avoid dislodgement [<xref ref-type="bibr" rid="pone.0222463.ref006">6</xref>], even though this approach has not been evaluated systematically. A recent clinical study demonstrated that a combination of &#8220;clamp only&#8221; plus &#8220;finger trap&#8221; was superior to &#8220;clamp only&#8221; plus &#8220;fixation of the segmentation site&#8221; with regards to dislodgement rates and catheter kinking [<xref ref-type="bibr" rid="pone.0222463.ref017">17</xref>]. Our data support the assumption that fixation of the segmentation site increases the dislodgement force. However, we observed that the suture may cause a manufacturer-dependent cutting effect to the catheter during tensile loading which might be a result of the test setup and does not necessarily reflect clinical practice. The higher abrasion resistance of Vygon catheters might be associated with the slightly higher diameter or different material composition (stiffness) compared to Arrow and B. Braun. Furthermore, Arrow CVCs showed a considerable variability in maximum dislodgment forces due to deformation at the segment site of the CVCs. The segmentation site of Arrow CVCs consists of soft plastic material, while Vygon and Braun CVCs use more rigid material with almost no deformation during tensile loading. Further studies should explore if this effect is rather due to experimental conditions or a clinically relevant phenomenon.</p>
+<sec id="sec010">
+<title>Comparison with other fixation techniques</title>
+<p>The &#8220;clamp only&#8221; and &#8220;compression&#8221; techniques using B. Braun and Vygon catheters resisted dislodgment forces as high as approximately 30 N that is in line with data published by Rutledge <italic>et al</italic>. who reported suture dislodgement forces of 28 N in a porcine model [<xref ref-type="bibr" rid="pone.0222463.ref008">8</xref>]. They reported slightly higher maximum forces if adhesive techniques were applied (37 N with Statlock<sup>&#8482;</sup>, 40 N with Tegaderm<sup>&#8482;</sup> and 41 N with Tegaderm CHG<sup>&#8482;</sup>) rather than a suture technique (28 N) [<xref ref-type="bibr" rid="pone.0222463.ref008">8</xref>]. The Sorbaview<sup>&#8482;</sup> adhesive, in contrast, resulted in a lower dislodgement force (17 N). Another study found a trend towards an increased rate of accidental CVC pullout when the Statlock<sup>&#8482;</sup> adhesive approach was used compared to sutures [<xref ref-type="bibr" rid="pone.0222463.ref012">12</xref>] while recent data did not find statistical differences in unplanned CVC removal and CVC migration when using suture-free systems compared to sutures [<xref ref-type="bibr" rid="pone.0222463.ref011">11</xref>]. In two clinical studies comparing CVC sutures with a securing clamp, the authors found less time spent in clamp fixation than in suturing [<xref ref-type="bibr" rid="pone.0222463.ref018">18</xref>,<xref ref-type="bibr" rid="pone.0222463.ref019">19</xref>]; one of these studies observed superior strength than in sutures [<xref ref-type="bibr" rid="pone.0222463.ref019">19</xref>], whereas the other had unacceptable rates of accidental CVC pullout [<xref ref-type="bibr" rid="pone.0222463.ref018">18</xref>]. Another study demonstrated that a suture approach resulted in a mean &#177; SD dislodgement force for Arrow CVCs of 40.9 &#177; 10.7 N, while stapling with four 0.022 in. staples or four 0.025 in. staples resulted in dislodgement forces of 34.0 &#177; 7.2 N and 40.4 &#177; 5.8 N, respectively [<xref ref-type="bibr" rid="pone.0222463.ref020">20</xref>]. In contrast to our experiments, the staples and sutures in this study were placed at the segmentation site of the catheters and did not use the fixation clamps of the catheters.</p>
+</sec>
+<sec id="sec011">
+<title>Limitations</title>
+<p>The present study evaluated four different CVC securement suture techniques applied in three different CVC models in an experimental setting. Due to the lack of previous studies, it was impossible to perform a precise sample size calculation prior to the experiments. However, based on the distinct significant differences between the individual fixation approaches and the low intra-group-variability, we regard the sample size as being appropriate for a pilot study. In order to avoid the ethical implications of working with live animals or humans and to provide high setup standardization, we chose cow leather tissue for the suture experiments. Our material tests revealed tear resistances of the leather of 500&#8211;700 N which are comparable with human skin providing resistances of up to 882 N [<xref ref-type="bibr" rid="pone.0222463.ref021">21</xref>]. The applied dislodgement force of 1,000 mm min<sup>-1</sup> was chosen to provide data of potential clinical situations of catheter dislodgement. Faster or slower dislodgement speed may have provided different results. The direction of the tensile loading force was 180 degrees from the mounted tissue-CVC unit, and other angles (e.g., 90 degrees) may have provided different results. We chose a critical dislodgement distance of 5 cm, which may be clinically relevant in both right-sided (risk of extravasation) and left-sided (vascular wall arrosion) thoracocervical puncture approaches [<xref ref-type="bibr" rid="pone.0222463.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0222463.ref015">15</xref>]. Mersilene 2.0 sutures were used since it is the standard suture in the Departments of the authors. Other sutures may have provided different results. Furthermore, we did not apply any adhesive dressing to the CVC, which might contribute to the stability of the CVC placement in the clinical setting.</p>
+<p>In conclusion, our results support the hypothesis that &#8220;finger trap&#8221; fixation at the segmentation site considerably increase outward dislodgement forces compared to clamp-based approaches.</p>
+</sec>
+</sec>
+<sec id="sec012">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222463.s001" mimetype="text/csv" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.s001" ns0:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title>Dislodgement forces of all test runs.</title>
+<p>(CSV)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222463.s002" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.s002" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Distance force diagrams of all test runs.</title>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank Benjamin Schuster for his assistance with the study. Furthermore, we thank all manufacturers for providing the CVCs and sutures free of charge.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222463.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cecconi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>De Backer</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Antonelli</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Beale</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bakker</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hofer</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine</article-title>. <source>Intensive Care Med</source>. <year>2014</year>;<volume>40</volume>: <fpage>1795</fpage>&#8211;<lpage>1815</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00134-014-3525-z" ns0:type="simple">10.1007/s00134-014-3525-z</ext-link></comment> <object-id pub-id-type="pmid">25392034</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Funcke</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sander</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Goepfert</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Groesdonk</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Heringlake</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hirsch</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Practice of hemodynamic monitoring and management in German, Austrian, and Swiss intensive care units: the multicenter cross-sectional ICU-CardioMan Study</article-title>. <source>Ann Intensive Care</source>. <year>2016</year>;<volume>6</volume>: <fpage>49</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13613-016-0148-2" ns0:type="simple">10.1186/s13613-016-0148-2</ext-link></comment> <object-id pub-id-type="pmid">27246463</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Frykholm</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Pikwer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hammarskj&#246;ld</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Larsson</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Lindgren</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lindwall</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Clinical guidelines on central venous catheterisation. Swedish Society of Anaesthesiology and Intensive Care Medicine</article-title>. <source>Acta Anaesthesiol Scand</source>. <year>2014</year>;<volume>58</volume>: <fpage>508</fpage>&#8211;<lpage>524</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/aas.12295" ns0:type="simple">10.1111/aas.12295</ext-link></comment> <object-id pub-id-type="pmid">24593804</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Saugel</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Scheeren</surname> <given-names>TWL</given-names></name>, <name name-style="western"><surname>Teboul</surname> <given-names>JL</given-names></name>. <article-title>Ultrasound-guided central venous catheter placement: a structured review and recommendations for clinical practice</article-title>. <source>Crit Care</source>. <year>2017</year>;<volume>21</volume>: <fpage>225</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13054-017-1814-y" ns0:type="simple">10.1186/s13054-017-1814-y</ext-link></comment> <object-id pub-id-type="pmid">28844205</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>American Society of Anesthesiologists Task Force on Central Venous Access</collab>, <name name-style="western"><surname>Rupp</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Apfelbaum</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Blitt</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Caplan</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Connis</surname> <given-names>RT</given-names></name>, <etal>et al</etal>. <article-title>Practice guidelines for central venous access: a report by the American Society of Anesthesiologists Task Force on Central Venous Access</article-title>. <source>Anesthesiology</source>. <year>2012</year>;<volume>116</volume>: <fpage>539</fpage>&#8211;<lpage>553</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/ALN.0b013e31823c9569" ns0:type="simple">10.1097/ALN.0b013e31823c9569</ext-link></comment> <object-id pub-id-type="pmid">22307320</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valchanov</surname> <given-names>K</given-names></name>. <article-title>Suturing central venous catheters</article-title>. <source>Br J Anaesth</source>. <year>2017</year>;<volume>118</volume>: <fpage>805</fpage>&#8211;<lpage>806</lpage>.</mixed-citation></ref>
+<ref id="pone.0222463.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ullman</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Cooke</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>New</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Long</surname> <given-names>DA</given-names></name>, <etal>et al</etal>. <article-title>Dressings and securement devices for central venous catheters (CVC)</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2015</year>;<volume>9</volume>: <fpage>CD010367</fpage>.</mixed-citation></ref>
+<ref id="pone.0222463.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rutledge</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>DeCabooter</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Walters</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Bernatchez</surname> <given-names>SF</given-names></name>. <article-title>Catheter securement systems: comparison of two investigational devices to a sutureless securement device, a securement dressing, and sutures in a pig model</article-title>. <source>Intensive Care Med Exp</source>. <year>2015</year>;<volume>3</volume>: <fpage>60</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s40635-015-0060-3" ns0:type="simple">10.1186/s40635-015-0060-3</ext-link></comment> <object-id pub-id-type="pmid">26307415</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rickard</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Edwards</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Spooner</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Mihala</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Marsh</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Best</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>A 4-arm randomized controlled pilot trial of innovative solutions for jugular central venous access device securement in 221 cardiac surgical patients</article-title>. <source>J Crit Care</source>. <year>2016</year>;<volume>36</volume>: <fpage>35</fpage>&#8211;<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jcrc.2016.06.006" ns0:type="simple">10.1016/j.jcrc.2016.06.006</ext-link></comment> <object-id pub-id-type="pmid">27546745</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Luo</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yin</surname> <given-names>X</given-names></name>. <article-title>Effectiveness, safety and comfort of StatLock securement for peripherally-inserted central catheters: A systematic review and meta-analysis</article-title>. <source>Nurs Health Sci</source>. <year>2017</year>;<volume>19</volume>: <fpage>403</fpage>&#8211;<lpage>413</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/nhs.12361" ns0:type="simple">10.1111/nhs.12361</ext-link></comment> <object-id pub-id-type="pmid">28730735</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Karpanen</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Casey</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Whitehouse</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Timsit</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Mimoz</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Palomar</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>A clinical evaluation of two central venous catheter stabilization systems</article-title>. <source>Ann Intensive Care</source>. <year>2019</year>;<volume>9</volume>: <fpage>49</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13613-019-0519-6" ns0:type="simple">10.1186/s13613-019-0519-6</ext-link></comment> <object-id pub-id-type="pmid">30997586</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sundararajan</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wills</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chacko</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kanabar</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>O'Connor</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Deane</surname> <given-names>AM</given-names></name>. <article-title>Impact of delirium and suture-less securement on accidental vascular catheter removal in the ICU</article-title>. <source>Anaesth Intensive Care</source>. <year>2014</year>;<volume>42</volume>: <fpage>473</fpage>&#8211;<lpage>479</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0310057X1404200408" ns0:type="simple">10.1177/0310057X1404200408</ext-link></comment> <object-id pub-id-type="pmid">24967762</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lorente</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Huidobro</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Mart&#237;n</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Jim&#233;nez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mora</surname> <given-names>ML</given-names></name>. <article-title>Accidental catheter removal in critically ill patients: a prospective and observational study</article-title>. <source>Crit Care</source>. <year>2004</year>;<volume>8</volume>: <fpage>R229</fpage>&#8211;<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/cc2874" ns0:type="simple">10.1186/cc2874</ext-link></comment> <object-id pub-id-type="pmid">15312222</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Moon</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>SU</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Ryu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>YC</given-names></name>, <name name-style="western"><surname>Jeong</surname> <given-names>WJ</given-names></name>, <etal>et al</etal>. <article-title>Usefulness of new method of central venous catheter securement using a continuous suture</article-title>. <source>Am J Emerg Med</source>. <year>2017</year>;<volume>35</volume>:<fpage>961</fpage>&#8211;<lpage>963</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ajem.2017.01.063" ns0:type="simple">10.1016/j.ajem.2017.01.063</ext-link></comment> <object-id pub-id-type="pmid">28188058</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pittiruti</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lamperti</surname> <given-names>M</given-names></name>. <article-title>Late cardiac tamponade in adults secondary to tip position in the right atrium: an urban legend? A systematic review of the literature</article-title>. <source>J Cardiothorac Vasc Anesth</source>. <year>2015</year>;<volume>29</volume>: <fpage>491</fpage>&#8211;<lpage>495</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1053/j.jvca.2014.05.020" ns0:type="simple">10.1053/j.jvca.2014.05.020</ext-link></comment> <object-id pub-id-type="pmid">25304887</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McGee</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Gould</surname> <given-names>MK</given-names></name>. <article-title>Preventing complications of central venous catheterization</article-title>. <source>N Engl J Med</source>. <year>2003</year>;<volume>348</volume>: <fpage>1123</fpage>&#8211;<lpage>1133</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMra011883" ns0:type="simple">10.1056/NEJMra011883</ext-link></comment> <object-id pub-id-type="pmid">12646670</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Leal</surname> <given-names>MLM</given-names></name>, <name name-style="western"><surname>Loyola</surname> <given-names>ABAT</given-names></name>, <name name-style="western"><surname>Hueb</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Silva</surname> <given-names>JDD Neto</given-names></name>, <name name-style="western"><surname>Mesquita</surname> <given-names>M Filho</given-names></name>, <name name-style="western"><surname>Paiva</surname> <given-names>LF</given-names></name>, <etal>et al</etal>. <article-title>Fixation of the short-term central venous catheter. A comparison of two techniques</article-title>. <source>Acta Cir Bras</source>. <year>2017</year>;<volume>32</volume>: <fpage>680</fpage>&#8211;<lpage>690</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1590/s0102-865020170080000010" ns0:type="simple">10.1590/s0102-865020170080000010</ext-link></comment> <object-id pub-id-type="pmid">28902944</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vinjirayer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jefferson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ball</surname> <given-names>DR</given-names></name>. <article-title>Securing central venous catheters: a comparison of sutures with staples</article-title>. <source>Emerg Med J</source>. <year>2004</year>;<volume>21</volume>: <fpage>582</fpage>&#8211;<lpage>583</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/emj.2003.009860" ns0:type="simple">10.1136/emj.2003.009860</ext-link></comment> <object-id pub-id-type="pmid">15333537</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Silich</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Chrobak</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Siu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Schlichting</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>J</given-names></name>. <article-title>Improving safety and efficiency during emergent central venous catheter placement with a needleless securing clamp</article-title>. <source>Emerg Med J</source>. <year>2013</year>;<volume>30</volume>: <fpage>683</fpage>&#8211;<lpage>686</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/emermed-2011-200879" ns0:type="simple">10.1136/emermed-2011-200879</ext-link></comment> <object-id pub-id-type="pmid">22962092</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Motonaga</surname> <given-names>GK</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>KK</given-names></name>, <name name-style="western"><surname>Kirsch</surname> <given-names>JR</given-names></name>. <article-title>The efficacy of the arrow staple device for securing central venous catheters to human skin</article-title>. <source>Anesth Analg</source>. <year>2004</year>;<volume>99</volume>: <fpage>1436</fpage>&#8211;<lpage>1439</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1213/01.ANE.0000132544.15467.10" ns0:type="simple">10.1213/01.ANE.0000132544.15467.10</ext-link></comment> <object-id pub-id-type="pmid">15502044</object-id></mixed-citation></ref>
+<ref id="pone.0222463.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fazekas</surname> <given-names>IG</given-names></name>, <name name-style="western"><surname>K&#243;sa</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Basch</surname> <given-names>A</given-names></name>. <article-title>[On the tensile strength of skin in various body areas]</article-title>. <source>Dtsch Z Gesamte Gerichtl Med</source>. <year>1968</year>;<volume>64</volume>: <fpage>62</fpage>&#8211;<lpage>92</lpage>. <object-id pub-id-type="pmid">5710955</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222463.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222463.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Serra</surname>
+<given-names>Raffaele</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Raffaele Serra</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222463" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">10 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17335</p>
+<p>Effectiveness of different central venous catheter fixation suture techniques: an in vitro crossover study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Struck,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>The article will be reconsidered if the authors will satisfactory address reviewers' concerns.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 24 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Prof. Raffaele Serra, M.D., Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2.</p>
+<p>We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>The article is novel and interesting. Please address reviewers' comments.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The authors present an in vitro study comparing the effects of four suturing techniques on maximum dislodgment forces in CVCs from three different manufacturers. The authors conclude that the &#8222;finger trap&#8220; fixation needs the highest force to dislodge the CVC.</p>
+<p>* The methods section should be condensed. The first sentence (p 4, l 67) can be discarded since it just repeats the last sentence of the introduction. Most of the sub-headers can be removed. The information written in the paragraph for &#8218;test setting&#8216; can be mentioned in other parts of the methods.</p>
+<p>* The results state a lot of significances but it is not said what these significance stay for. Please, rather state the difference of the statistical significant findings (I.e. high or lower dislodgment rate).</p>
+<p>* Is Fig. 5 really important to understand the manuscript? It is only mentioned with one sentence in the results without explaining what this figure is telling us. Please, elaborate or discard.</p>
+<p>* The authors write in their conclusion that the combination of the techniques &#8220;clamp only&#8221; plus &#8220;finger trap&#8221; might be a reasonable alternative. Although it is reasonable to discuss this it should not be mentioned in the conclusion since this combination was not tested in the study.</p>
+<p>## Minor comments</p>
+<p>* Protected names should be marked with a trademark sign</p>
+<p>* page 4, lines 61-64: in an in vitro study &#8218;aim&#8216; instead of &#8218;outcome&#8216; would be the more suitable term.</p>
+<p>* page 7, line 139: ratios are usually given as part of 1 instead of percentage. It is not clear what kind of ratio you mean (what is your reference of the ratio?)</p>
+<p>* Please, add number of measurements for each column as well as results of statistical tests in Table 1</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Frank Bloos</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222463.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222463.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222463" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222463.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">5 Aug 2019</named-content>
+</p>
+<p>Response to reviewers comments</p>
+<p>Reviewer #1: The authors present an in vitro study comparing the effects of four suturing techniques on maximum dislodgment forces in CVCs from three different manufacturers. The authors conclude that the &#8222;finger trap&#8220; fixation needs the highest force to dislodge the CVC.</p>
+<p>* The methods section should be condensed. The first sentence (p 4, l 67) can be discarded since it just repeats the last sentence of the introduction. Most of the sub-headers can be removed. The information written in the paragraph for &#8218;test setting&#8216; can be mentioned in other parts of the methods.</p>
+<p>RESPONSE: </p>
+<p>We would like to thank the reviewer for his comments. We have changed all items as suggested.</p>
+<p>* The results state a lot of significances but it is not said what these significance stay for. Please, rather state the difference of the statistical significant findings (I.e. high or lower dislodgment rate).</p>
+<p>RESPONSE.</p>
+<p>We have completely rewritten this paragraph for clarity. The results section now provides detailed information which dislodgement forces were higher or lower, e.g. &#8220;finger trap&#8221; and &#8220;complete&#8221; also resulted in higher dislodgement forces than the &#8220;compression&#8221; technique.</p>
+<p>* Is Fig. 5 really important to understand the manuscript? It is only mentioned with one sentence in the results without explaining what this figure is telling us. Please, elaborate or discard.</p>
+<p>RESPONSE:</p>
+<p>We have added some more linking information regarding Fig. 5. From our point of view, Fig. 5 is essential for the manuscript because it presents the detailed dislodgement forces for all four fixation techniques and all three manufacturers. Utilizing Fig. 5, the reader can easily see that dislodgement forces are tremendously higher using the &#8220;finger trap&#8221; or &#8220;complete&#8221; approach compared to &#8220;clamp only&#8221; or &#8220;compression&#8221;. Thus, Fig. 5 helps to demonstrate the benefit of &#8220;finger-trap&#8221; based approaches at a glance.</p>
+<p>* The authors write in their conclusion that the combination of the techniques &#8220;clamp only&#8221; plus &#8220;finger trap&#8221; might be a reasonable alternative. Although it is reasonable to discuss this it should not be mentioned in the conclusion since this combination was not tested in the study.</p>
+<p>RESPONSE:</p>
+<p>We have removed this information from the conclusion part and provided it in the discussion part instead.</p>
+<p>## Minor comments</p>
+<p>* Protected names should be marked with a trademark sign</p>
+<p>RESPONSE:</p>
+<p>We have provided all protected brand names either with &#174; or &#8482; signs due to the information provided by the manufacturers. </p>
+<p>Furthermore, we have added in the Methods section: &#8220;For the sake of simplicity, the terms &#8220;Arrow&#8221;, &#8220;B. Braun&#8221; and &#8220;Vygon&#8221; will be used consistently below.&#8221;</p>
+<p>* page 4, lines 61-64: in an in vitro study &#8218;aim&#8216; instead of &#8218;outcome&#8216; would be the more suitable term.</p>
+<p>RESPONSE:</p>
+<p>We have changed this term as suggested.</p>
+<p>* page 7, line 139: ratios are usually given as part of 1 instead of percentage. It is not clear what kind of ratio you mean (what is your reference of the ratio?)</p>
+<p>RESPONSE:</p>
+<p>We have changed this part as suggested. The information is now presented more precisely and percentages have been replaced by parts of 1. </p>
+<p>* Please, add number of measurements for each column as well as results of statistical tests in Table 1</p>
+<p>RESPONSE:</p>
+<p>We have now provided the number of measurements for each columns and the statistical results in the legend of Table 1.</p>
+<p>We would like to thank the reviewer again for his constructive comments and hope that we have addressed all items appropriately.</p>
+<p>We have added another supplementary file including the raw data of our measurements (S1_Dataset) in order to comply with the Journals data sharing policy.</p>
+<supplementary-material id="pone.0222463.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222463.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">CVC_Sutures_RESPONSE_05082019.doc</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222463.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222463.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Serra</surname>
+<given-names>Raffaele</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Raffaele Serra</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222463" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">30 Aug 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Effectiveness of different central venous catheter fixation suture techniques: an in vitro crossover study</p>
+<p>PONE-D-19-17335R1</p>
+<p>Dear Dr. Struck,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Prof. Raffaele Serra, M.D., Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>amended manuscript is acceptable</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Frank Bloos</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222463.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222463.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Serra</surname>
+<given-names>Raffaele</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Raffaele Serra</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222463" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-17335R1 </p>
+<p>Effectiveness of different central venous catheter fixation suture techniques: an in vitro crossover study </p>
+<p>Dear Dr. Struck:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Prof. Raffaele Serra  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

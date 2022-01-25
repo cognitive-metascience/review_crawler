@@ -1,0 +1,883 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220837</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-14918</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Fibrosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Vascular medicine</subject><subj-group><subject>Blood pressure</subject><subj-group><subject>Hypertension</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Ejection fraction</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Ultrasound imaging</subject><subj-group><subject>Echocardiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Imaging techniques</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Ultrasound imaging</subject><subj-group><subject>Echocardiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Radiology and imaging</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Ultrasound imaging</subject><subj-group><subject>Echocardiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Vascular medicine</subject><subj-group><subject>Blood pressure</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Cardiovascular physiology</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Cardiovascular physiology</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Histology</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Histology</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Cardiovascular anatomy</subject><subj-group><subject>Heart</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Cardiovascular anatomy</subject><subj-group><subject>Heart</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Myocardial global longitudinal strain: An early indicator of cardiac interstitial fibrosis modified by spironolactone, in a unique hypertensive rat model</article-title>
+<alt-title alt-title-type="running-head">Myocardial global longitudinal strain and cardiac fibrosis</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Leader</surname>
+<given-names>Catherine J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Moharram</surname>
+<given-names>Mohammed</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2312-4666</contrib-id>
+<name name-style="western">
+<surname>Coffey</surname>
+<given-names>Sean</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Sammut</surname>
+<given-names>Ivan A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Wilkins</surname>
+<given-names>Gerard W.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3366-0956</contrib-id>
+<name name-style="western">
+<surname>Walker</surname>
+<given-names>Robert J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Medicine, University of Otago, Dunedin, New Zealand</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Pharmacology, University of Otago, Dunedin, New Zealand</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Lionetti</surname>
+<given-names>Vincenzo</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Scuola Superiore Sant'Anna, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">rob.walker@otago.ac.nz</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>8</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>8</issue>
+<elocation-id>e0220837</elocation-id>
+<history>
+<date date-type="received">
+<day>29</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>25</day>
+<month>7</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Leader et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0220837" />
+<abstract>
+<sec id="sec001">
+<title>Objectives</title>
+<p>Is global longitudinal strain (GLS) a more accurate non-invasive measure of histological myocardial fibrosis than left ventricular ejection fraction (LVEF) in a hypertensive rodent model.</p>
+</sec>
+<sec id="sec002">
+<title>Background</title>
+<p>Hypertension results in left ventricular hypertrophy and cardiac dysfunction. Speckle-tracking echocardiography has emerged as a robust technique to evaluate cardiac function in humans compared with standard echocardiography. However, its use in animal studies is less clearly defined.</p>
+</sec>
+<sec id="sec003">
+<title>Methods</title>
+<p>Cyp1a1Ren2 transgenic rats were randomly assigned to three groups; normotensive, untreated hypertensive or hypertensive with daily administration of spironolactone (human equivalent dose of 50 mg/day). Cardiac function and interstitial fibrosis development were monitored for three months.</p>
+</sec>
+<sec id="sec004">
+<title>Results</title>
+<p>The lower limit of normal LVEF was calculated to be 75%. After three months hypertensive animals (196&#177;21 mmHg systolic blood pressure (SBP)) showed increased cardiac fibrosis (8.8&#177;3.2% compared with 2.4&#177;0.7% % in normals), reduced LVEF (from 81&#177;2% to 67&#177;7%) and impaired myocardial GLS (from -17&#177;2% to -11&#177;2) (all p&lt;0.001). Myocardial GLS demonstrated a stronger correlation with cardiac interstitial fibrosis (r<sup>2</sup> = 0.58, p&lt;0.0001) than LVEF (r<sup>2</sup> = 0.37, p&lt;0.006). Spironolactone significantly blunted SBP elevation (184&#177;15, p&lt;0.01), slowed the progression of cardiac fibrosis (4.9&#177;1.4%, p&lt;0.001), reduced the decline in LVEF (72&#177;4%, p&lt;0.05) and the degree of impaired myocardial GLS (-13&#177;1%, p&lt;0.01) compared to hypertensive animals.</p>
+</sec>
+<sec id="sec005">
+<title>Conclusions</title>
+<p>This study has demonstrated that, myocardial GLS is a more accurate non-invasive measure of histological myocardial fibrosis compared to standard echocardiography, in an animal model of both treated and untreated hypertension. Spironolactone blunted the progression of cardiac fibrosis and deterioration of myocardial GLS.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001563</institution-id>
+<institution>Otago Medical Research Foundation</institution>
+</institution-wrap>
+</funding-source>
+<award-id>Laurenson Award</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Sammut</surname>
+<given-names>Ivan A.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Healthcare Otago</institution>
+</funding-source>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3366-0956</contrib-id>
+<name name-style="western">
+<surname>Walker</surname>
+<given-names>Robert J.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100009477</institution-id>
+<institution>Lottery Health Research</institution>
+</institution-wrap>
+</funding-source>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3366-0956</contrib-id>
+<name name-style="western">
+<surname>Walker</surname>
+<given-names>Robert J.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>Funding was provided by the Department of Medicine University of Otago, New Zealand (CL), a Laurenson Award from the Otago Medical Research Foundation Otago, New Zealand (IS,RW), the Healthcare Otago Charitable Trust Otago, New Zealand (RW), the New Zealand Lottery Grants Board (IS, GW, RW) and the Maurice and Phyllis Paykel Trust New Zealand (CL, RW). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5" />
+<table-count count="1" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec006" sec-type="intro">
+<title>Introduction</title>
+<p>Sustained hypertension frequently results in left ventricular hypertrophy (LVH). In its early stages, the hypertrophied ventricle is able to compensate for the increased after-load. This is associated with progressive remodelling of the myocardium consisting of myocyte hypertrophy, accumulation of fibroblasts and collagen formation. This eventually leads to a reduction in left ventricular (LV) compliance, diastolic dysfunction, and subsequent systolic dysfunction, resulting in left ventricular decompensation and finally, heart failure [<xref ref-type="bibr" rid="pone.0220837.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref004">4</xref>]. Traditionally, left ventricular ejection fraction (LVEF) has been utilised as the main prognostic indicator of cardiac dysfunction. However, it is becoming increasingly apparent that the prognosis of heart failure may not be easily assessed by the LVEF alone, particularly in those patients with preserved LVEF [<xref ref-type="bibr" rid="pone.0220837.ref005">5</xref>].</p>
+<p>Left ventricular hypertrophy and cardiac dysfunction in humans is routinely examined by echocardiography and magnetic resonance imaging. Such non-invasive imaging techniques for assessing cardiac performance in animal models (especially in rodents) are more difficult, in part due to the exceptional spatial and temporal resolution required to image a small rapidly beating heart. Thus, although research studies involving rodents commonly make use of clinical echocardiography systems, they often rely on simple conventional measures derived from M-mode echocardiographic tracings, which suffer from a number of shortcomings [<xref ref-type="bibr" rid="pone.0220837.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref008">8</xref>]. This, in turn, has led to difficulties in the assessment of diastolic function and contractile function, limiting the ability of animal models to replicate diastolic dysfunction or heart failure with preserved ejection fraction. To overcome these shortcomings, two-dimensional speckle-tracking echocardiography and the use of myocardial deformation (strain) analysis is emerging as a more robust technique to evaluate cardiac function [<xref ref-type="bibr" rid="pone.0220837.ref009">9</xref>]. Speckle tracking based strain analysis quantifies myocardial deformation by tracking the ultrasonographic motion of speckles throughout the cardiac cycle. To date, despite recent advances enabling this application in small animal models, the adoption of strain imaging in rodent models has been limited with very few published studies correlating the ultrasonographic changes with actual changes in cardiac interstitial fibrosis.</p>
+<p>Since hypertension is a common and increasingly significant cause of mortality, a number of transgenic hypertensive rat models have been developed [<xref ref-type="bibr" rid="pone.0220837.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0220837.ref011">11</xref>]. One such model is the transgenic Cyp1a1Ren2 rat, in which hypertension can be reversibly induced by diet, without the need for surgical intervention [<xref ref-type="bibr" rid="pone.0220837.ref012">12</xref>]. In this transgenic rat, mouse Ren2 cDNA expression is under the control of an inducible cytochrome p450-1a1 promoter, integrated into the Y chromosome of Fischer 344 rats [<xref ref-type="bibr" rid="pone.0220837.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0220837.ref013">13</xref>], and is therefore only active in males. Dietary administration of indole-3-carbinol (I3C) leads to activation of the promoter gene (Cyp1a1) resulting in increased expression of Ren2 [<xref ref-type="bibr" rid="pone.0220837.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0220837.ref014">14</xref>]. I3C is a naturally occurring, nontoxic, xenobiotic found in cruciferous vegetables (such as broccoli) that acts as a benign inducer with a short half-life. Activation of Ren2, primarily in the liver, upon induction of the Cyp1a1 promoter by I3C [<xref ref-type="bibr" rid="pone.0220837.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0220837.ref016">16</xref>], leads to increased circulating renin levels, activation of the renin-angiotensin-aldosterone system and a consequent increase in blood pressure. Significantly, the extent of hypertension is also I3C dose dependent [<xref ref-type="bibr" rid="pone.0220837.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0220837.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>], allowing for tight titration of blood pressure.</p>
+<p>The role of mineralocorticoid receptor antagonists (MRA), such as spironolactone, in modulating the actions of aldosterone has been investigated in a number of animal studies [<xref ref-type="bibr" rid="pone.0220837.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref024">24</xref>] as well as in clinical trials [<xref ref-type="bibr" rid="pone.0220837.ref025">25</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref028">28</xref>], and a number of reviews outline their beneficial effects [<xref ref-type="bibr" rid="pone.0220837.ref029">29</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref033">33</xref>]. Most animal studies investigating the actions of MRAs examined their impact on cardiac remodelling after cardiac injury [<xref ref-type="bibr" rid="pone.0220837.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref022">22</xref>]. Only a few studies have investigated the effects of MRA in hypertensive models [<xref ref-type="bibr" rid="pone.0220837.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0220837.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0220837.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0220837.ref034">34</xref>,<xref ref-type="bibr" rid="pone.0220837.ref035">35</xref>]. In these studies, spironolactone was administered (often at supra-physiological doses) at the onset or prior to onset of hypertension, which does not reflect the clinical setting of hypertension-mediated injury. In addition, the observation period was relatively short. Spironolactone reduced the rate of development of cardiac fibrosis, which is thought to be both dependent and independent of the actions of angiotensin II [<xref ref-type="bibr" rid="pone.0220837.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0220837.ref036">36</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref038">38</xref>]. So far, to our knowledge, there are no animal studies examining the effect of chronic spironolactone therapy, at relevant clinical doses, following the establishment of hypertension and cardiac hypertrophy.</p>
+<p>Therefore, the aim of this study was to investigate whether spironolactone modifies both cardiac functional parameters and cardiac interstitial fibrosis over time, following the establishment of progressive hypertensive injury, more accurately representing the clinical setting. Cardiac functional status was assessed by standard serial echocardiography with the addition of two-dimensional speckle-tracking echocardiography to assess global longitudinal strain (GLS) and these changes were compared with the histological evidence of cardiac interstitial fibrosis.</p>
+</sec>
+<sec id="sec007" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec008">
+<title>Animals</title>
+<p>The initial transgenic Cyp1a1Ren2 rat internal breeding stock was gifted by Professor J.J. Mullins (Centre for Cardiovascular Science, University of Edinburgh, UK). The transgenic Cyp1a1Ren2 rat colony was held at the University of Otago Animal Resource Unit and animals were housed under controlled conditions of temperature (~21&#176;C) and light (12-h light/dark cycle), with food (meat-free rat and mouse diet, irradiated, Specialty Feeds, Australia) and tap water provided <italic>ad libitum</italic>. All Cyp1a1-Ren2 rats used for experiments were obtained from internal breeding stock and housed in pairs or in groups of four per cage. All experiments were approved by the Animal Ethics Committee of the University of Otago (AEC 51/13), in accordance with the guidelines of the New Zealand Animal Welfare Act [<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0220837.ref039">39</xref>].</p>
+<sec id="sec009">
+<title>Chronic elevation of blood pressure</title>
+<p>Eight-week-old male transgenic Cyp1a1Ren2 rats (n = 28) were maintained on either irradiated pelleted standard chow (Meat free rat and mouse diet, Specialty Feeds, Perth, Australia) or irradiated pelleted standard chow with addition of 0.167% w/w indole-3-carbinol (I3C) (#SF13-086, Specialty Feeds, Perth, Australia) to activate hypertension [<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>]. Hypertension was established over two weeks (until 10 weeks of age) [<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>]. Animals were then randomised to either a hypertensive group (H) or a hypertensive group with spironolactone (H+SP). At four weeks, a subset of animals from both group H (n = 4) and group H+SP (n = 4) were euthanised for histological examination. The remaining animals (hypertensive (H, n = 8), hypertensive plus spironolactone (H+SP, n = 4), together with the untreated normotensive group (N, n = 8)) were euthanised at the end of the 12 week experimental period. Systolic blood pressure (SBP), weight and echocardiography were recorded regularly throughout the 12 week period on these animals (<xref ref-type="fig" rid="pone.0220837.g001">Fig 1</xref>). All animals were terminated by halothane overdose followed by cardiac puncture.</p>
+<fig id="pone.0220837.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Overview of the experimental design.</title>
+<p>Animals were given an initial two weeks on the 0.167% w/w indole-3-carbinol (I3C) diet to establish hypertension before commencing daily spironolactone (SP) dosing. Every month, animals had systolic blood pressure (SBP) measured and an echocardiogram (Echo) performed. After one month, a sub set of animals (n = 8) were terminated, while the remaining animals were terminated following three months. Normotensive animals were only terminated after three months.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec010">
+<title>Spironolactone dosing</title>
+<p>Dosing for these animals was adjusted using the Food and Drug Administration&#8217;s 2005 allometric scaling calculations as described by Reagan-Shaw et al [<xref ref-type="bibr" rid="pone.0220837.ref040">40</xref>]. A human equivalent dose of 50mg per day of spironolactone (Sigma-Aldrich, Missouri, USA) was used, which equated to a dose of 4.41mg/kg/day for a rat. To enhance acceptance, spironolactone was mixed into a caramel syrup (Quaterpast, Shott Beverages Ltd., Auckland, New Zealand).</p>
+</sec>
+<sec id="sec011">
+<title>Systolic blood pressure</title>
+<p>All rats were gentled by daily handling and weighed before commencing the experimental protocols, and weekly thereafter. Systolic blood pressure (SBP) was measured every four weeks in habituated rats after light sedation with midazolam (1.5mg/kg, <italic>I</italic>.<italic>P</italic>.), using tail-cuff plethysmography (NIBP controller plus PowerLab 4SP, ADInstruments, Dunedin, New Zealand). Animals were given 30 minutes to acclimatise prior to the blood pressure recording procedure and a heat lamp was used to gently warm the tail prior to SBP readings [<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>]. Data was captured and analysed using Chart v.7 software (ADInstruments, Dunedin, New Zealand). A mean of ten clear recordings were taken from each rat on each occasion.</p>
+</sec>
+<sec id="sec012">
+<title>Echocardiography</title>
+<p>Echocardiography was performed every four weeks. Rats were anesthetised (5% isoflurane in oxygen 1L/min), maintained on 2% isoflurane in 1L/min oxygen and placed supine on an electrical heating pad (to maintain body temperature). The animal&#8217;s chest was shaved and transthoracic echocardiography was conducted using a 10MHz linear probe (GE ML6-15, GE Healthcare, Chicago, USA) connected to a commercially available echocardiography system (Vivid 9, GE Healthcare, Chicago, USA). Standard two-dimensional and M-mode long- and short-axis (at the mid-papillary level) images were acquired. At least three consecutive cardiac cycles were acquired and transferred for offline analysis using an image analysis package (2D CPA, TomTec Image-Arena, version 2.21; TomTec Imaging Systems, Unterschleissheim, Germany). Determination of LV ejection fraction (LVEF) and end systolic volume were performed using Simpson&#8217;s method on TomTec Image-Arena. Additionally, LVEF was measured using standard techniques using both two-dimensional and M-mode images in the same animals (EchoPac software version.112.0.x, GE Healthcare, USA) for comparison.</p>
+</sec>
+<sec id="sec013">
+<title>Speckle-tracking echocardiography</title>
+<p>Loops of long axis views were acquired for speckle-tracking analysis, each using a frame rate of 97 frames/s (&gt;15 frames/cardiac cycle). Analysis was performed in a blinded fashion by two experienced operators (MM, SC), using the speckle-tracking algorithm incorporated into the TomTec analysis package (TomTec Image-Arena, TomTec Imaging Systems, Unterschleissheim, Germany). Standard long axis view was used for the analysis of GLS of the left ventricle. The GLS was measured at end-systole and averaged over three cardiac cycles. The timings of end-systole and end-diastole were determined by M-Mode analysis of aortic and mitral valves. In the defined end-systolic frame the endocardial border of the left ventricle was traced manually starting at one end of the mitral annulus through the entire endocardium and ending where the aortic annulus joins the left ventricular myocardium in the long axis view. The analysis software generated a region of interest (ROI) including the entire myocardial thickness. The width of the ROI was manually adjusted as required to include the entire myocardium and exclude the pericardium. The tracking quality was then assessed to verify its adequacy across the cardiac cycle. The software calculates GLS using the entire myocardial line length according to the latest recommendations for assessing myocardial deformation [<xref ref-type="bibr" rid="pone.0220837.ref041">41</xref>], with layered strain allowing separate measurement of myocardial GLS (myo-GLS) and endocardial GLS (endo-GLS), referring to tracking of the mid-myocardial and endocardial layers, respectively. The inter-observer and intra-observer interclass variability correlation coefficients were 96% and 97% respectively.</p>
+</sec>
+<sec id="sec014">
+<title>Quantitative microscopy (histology)</title>
+<p>Hearts were removed, placed into Hartman&#8217;s saline (with 15mmol.L<sup>-1</sup> potassium chloride) to arrest the heart in diastole, and fixed for four hours in 10% neutral buffered formalin (NBF). The heart was transversely cut into 3mm sections, measuring from the apex using a heart matrix, before further fixation in 10% NBF overnight at room temperature. Sections were then dehydrated by passage through alcohols and embedded in paraffin wax. Cardiac sections were cut at 5&#956;m and stained with picrosirius red with light green counter stain.</p>
+<p>Stained sections were viewed using a Zeiss Axioplan Microscope (Zeiss, Oberkochen, Germany), and images of representative regions (0.34mm<sup>2</sup>) were recorded using a Nikon microscope camera (DS-Ri2, Nikon, Tokyo, Japan). Cardiac interstitial fibrosis was quantitatively assessed using Sirius red, capturing a minimum of 10 non-overlapping, evenly distributed, myocardial sections (x50 magnification), containing no vessels, from the transverse section taken 6mm from the apex from each animal. The extent of fibrotic tissue was quantified by applying a trained pixel classifier (NIS Elements Basic Research Imaging software, Version 5.11 (64bit edition), Nikon, Tokyo, Japan) to each section (as a percentage of the total image) and further averaged for individual animals and then each group.</p>
+<p>Use of the section 6mm from the apex was justified by calculating the estimated total volumetric fibrosis of the heart (up to 9mm from the apex) from a subset of animals and comparing that to the fibrosis percentage obtained from the 6mm section alone (see <xref ref-type="supplementary-material" rid="pone.0220837.s002">S1 Fig</xref>, <xref ref-type="supplementary-material" rid="pone.0220837.s003">S1 Table</xref>).</p>
+</sec>
+</sec>
+<sec id="sec015">
+<title>Statistics</title>
+<p>Quantitative data are presented as mean &#177; standard deviation. Statistical comparisons were accomplished by unpaired Student&#8217;s t-test or one-way analysis of variance (ANOVA) with Bonferroni post-hoc analysis and correlations were performed using Pearson&#8217;s correlation (GraphPad Prism, GraphPad software, Inc. version 5.03). Results were considered to be statistically significant if P values were &lt;0.05.</p>
+</sec>
+</sec>
+<sec id="sec016" sec-type="results">
+<title>Results</title>
+<p>All rats showed a steady weight gain over the three month experimental period. Normotensive rats maintained a consistent heart rate and systolic blood pressure (SBP, 80&#8211;104 mmHg), left ventricular ejection fraction (LVEF, &gt;78.5%) and GLS (endo-GLS, &lt;-24.7%, myo-GLS, &lt;-15.8%) over the study duration. (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0220837.g002">Fig 2</xref>). Using a 95% confidence interval of the data obtained from the normotensive animals, a reference range was established for LVEF (&gt;75%), cardiac fibrosis (&lt;3%) and myo-GLS (&lt;-15%). As there was no differences in the physiological data in normotensive animals at each time point, normotensive hearts at three months were used as the histological reference range.</p>
+<table-wrap id="pone.0220837.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.t001</object-id>
+<label>Table 1</label> <caption><title>Physiological measurements.</title></caption>
+<alternatives>
+<graphic id="pone.0220837.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2" />
+<th align="center">N</th>
+<th align="center">H</th>
+<th align="center">H+SP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="3" style="border-bottom:thick"><bold>SBP (mmHg)</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+<td align="left">1mth</td>
+<td align="center">94&#177;7 [89&#8211;99]</td>
+<td align="center">172&#177;14 [163&#8211;182]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">181&#177;23 [159&#8211;204]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn008"><sup>&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left">2mth</td>
+<td align="center">94&#177;8 [89&#8211;100]</td>
+<td align="center">188&#177;21 [174&#8211;203]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">185&#177;16 [179&#8211;201]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+</tr>
+<tr>
+<td align="left" style="border-bottom:thick">3mth</td>
+<td align="center" style="border-bottom:thick">91&#177;13 [82&#8211;101]</td>
+<td align="center" style="border-bottom:thick">196&#177;21 [182&#8211;210]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center" style="border-bottom:thick">184&#177;15 [170&#8211;198]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn009"><sup>&#8224;&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="border-bottom:thick"><bold>LVEF (%)</bold><xref ref-type="table-fn" rid="t001fn003"><sup>b</sup></xref></td>
+<td align="left">1mth</td>
+<td align="center">84&#177;4 [81&#8211;87]</td>
+<td align="center">81&#177;2 [80&#8211;83]</td>
+<td align="center">83&#177;2 [81&#8211;85]</td>
+</tr>
+<tr>
+<td align="left">2mth</td>
+<td align="center">84&#177;2 [83&#8211;86]</td>
+<td align="center">73&#177;4 [70&#8211;75]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">77&#177;2 [74&#8211;79]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn009"><sup>&#8224;&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" style="border-bottom:thick">3mth</td>
+<td align="center" style="border-bottom:thick">80&#177;3 [78&#8211;82]</td>
+<td align="center" style="border-bottom:thick">67&#177;7 [68&#8211;72]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center" style="border-bottom:thick">72&#177;4 [68&#8211;75]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn008"><sup>&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="border-bottom:thick"><bold>End systolic volume (&#956;l)</bold></td>
+<td align="left">1mth</td>
+<td align="center">50&#177;18 [6&#8211;94]</td>
+<td align="center">53&#177;9 [46&#8211;61]</td>
+<td align="center">45&#177;7 [34&#8211;56]</td>
+</tr>
+<tr>
+<td align="left">2mth</td>
+<td align="center">43&#177;2 [41&#8211;46]</td>
+<td align="center">77&#177;8 [70&#8211;83]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">72&#177;10 [56&#8211;87]<xref ref-type="table-fn" rid="t001fn006">**</xref></td>
+</tr>
+<tr>
+<td align="left" style="border-bottom:thick">3mth</td>
+<td align="center" style="border-bottom:thick">58&#177;10 [49&#8211;68]</td>
+<td align="center" style="border-bottom:thick">86&#177;11 [77&#8211;95]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center" style="border-bottom:thick">80&#177;10 [64&#8211;96]<xref ref-type="table-fn" rid="t001fn005">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="border-bottom:thick"><bold>Endocardial GLS (%)</bold><xref ref-type="table-fn" rid="t001fn004"><sup>c</sup></xref></td>
+<td align="left">1mth</td>
+<td align="center">-30&#177;2 [-33 - -28]</td>
+<td align="center">-29&#177;3 [-31 - -27]</td>
+<td align="center">-31&#177;2 [-32 - -29]</td>
+</tr>
+<tr>
+<td align="left">2mth</td>
+<td align="center">-30&#177;2 [-31 - -29]</td>
+<td align="center">-22&#177;2 [-23 - -21]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">-26&#177;1 [-27 - -24]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn010"><sup>&#8224;&#8224;&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" style="border-bottom:thick">3mth</td>
+<td align="center" style="border-bottom:thick">-27&#177;3 [-29 - -24]</td>
+<td align="center" style="border-bottom:thick">-19&#177;3 [-21 - -17]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center" style="border-bottom:thick">-21&#177;2 [-23 - -19]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn008"><sup>&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="border-bottom:thick"><bold>Myocardial GLS (%)</bold><xref ref-type="table-fn" rid="t001fn004"><sup>c</sup></xref></td>
+<td align="left">1mth</td>
+<td align="center">-19&#177;2 [-21 - -18]</td>
+<td align="center">-17&#177;2 [-17.9 - -15]<xref ref-type="table-fn" rid="t001fn006">**</xref></td>
+<td align="center">-19&#177;2 [-20 - -17]<xref ref-type="table-fn" rid="t001fn009"><sup>&#8224;&#8224;</sup></xref></td>
+</tr>
+<tr>
+<td align="left">2mth</td>
+<td align="center">-19&#177;2 [-20 - -17]</td>
+<td align="center">-14&#177;2 [-15 - -13]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center">-15&#177;1 [-16 - -14]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+</tr>
+<tr>
+<td align="left" style="border-bottom:thick">3mth</td>
+<td align="center" style="border-bottom:thick">-17&#177;2 [-19 - -15]</td>
+<td align="center" style="border-bottom:thick">-11&#177;2 [-12 - -9]<xref ref-type="table-fn" rid="t001fn007">***</xref></td>
+<td align="center" style="border-bottom:thick">-13&#177;1 [-14 - -12]<xref ref-type="table-fn" rid="t001fn007">***</xref> <xref ref-type="table-fn" rid="t001fn009"><sup>&#8224;&#8224;</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Physiological measurements of normotensive (N), hypertensive (H) and hypertensive rats dosed daily with spironolactone (H+SP) following one, two and three months (n = 4&#8211;8 per group). Values are shown as mean &#177; standard deviation, with 95% confidence intervals shown in brackets.</p></fn>
+<fn id="t001fn002"><p><sup>a</sup> Systolic blood pressure (SBP) was measured via tail cuff.</p></fn>
+<fn id="t001fn003"><p><sup>b</sup> Left ventricular ejection fraction (LVEF) and end systolic volume were calculated from echocardiograms.</p></fn>
+<fn id="t001fn004"><p><sup>c</sup> Endocardial and myocardial global longitudinal strain (GLS) was determined from speckle tracking.</p></fn>
+<fn id="t001fn005"><p>* indicates significantly different from N. * p&lt;0.05,</p></fn>
+<fn id="t001fn006"><p>** p&lt;0.01,</p></fn>
+<fn id="t001fn007"><p>*** p&lt;0.001</p></fn>
+<fn id="t001fn008"><p><sup>&#8224;</sup> indicates significance between H and H+SP. <sup>&#8224;</sup> p&lt;0.05,</p></fn>
+<fn id="t001fn009"><p><sup>&#8224;&#8224;</sup> p&lt;0.01,</p></fn>
+<fn id="t001fn010"><p><sup>&#8224;&#8224;&#8224;</sup> p&lt;0.001</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<fig id="pone.0220837.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Left ventricular ejection fraction after one, two and three months.</title>
+<p>Left ventricular ejection fraction (LVEF) of normotensive (N, grey, n = 8), hypertensive (H, black, n = 8) and hypertensive animals dosed daily with spironolactone (H+SP, dashed line, n = 4) after one, two and three months. Values are shown as mean &#177; 95% confidence intervals. Significance between N and H is indicated by *, p&lt;0.05 *, p&lt;0.001 *** Significance between N and H+SP is indicated by &#8224;, p&lt;0.001 <sup>&#8224;&#8224;&#8224;</sup> Significance between H and H+SP is indicated by #, p&lt; 0.05 <sup>#</sup>, p&lt;0.01 <sup>##</sup>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.g002" ns0:type="simple" />
+</fig>
+<p>Hypertensive rats showed a significant and rapid increase in SBP in the two weeks prior to the experimental starting point (from 93&#177;10 mmHg to 160&#177;17, p&lt;0.001), as previously reported [<xref ref-type="bibr" rid="pone.0220837.ref018">18</xref>]. Systolic blood pressure continued to rise, subsequently reaching 172&#177;14mmHg after one month and 196&#177;21mmHg after three months. Associated with this progressive hypertension, LVEF gradually declined at each measured time point, along with a significant increase in end systolic volume and significant deterioration of GLS over the three month period (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0220837.g002">Fig 2</xref>).</p>
+<p>Hypertensive animals treated with spironolactone demonstrated a similar rise in SBP after one month compared to the untreated hypertensive group (181&#177;23 vs 172&#177;14mmHg, p&lt;0.05). However, the subsequent rise in SBP seen in the hypertensive group was blunted over three months by spironolactone (196&#177;21mmHg vs 184&#177;15mmHg, respectively, p&lt;0.01) (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>). This was associated with a significantly improved ejection fraction (<xref ref-type="fig" rid="pone.0220837.g002">Fig 2</xref>) and GLS after three months compared to the hypertensive group, although LVEF and GLS were still significantly reduced compared to the normotensive group (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>).</p>
+<sec id="sec017">
+<title>Myocardial fibrosis</title>
+<p>Fibrosis was significantly increased in hypertensive animals at both one month (4.4&#177;2%) and three months (8.8&#177;3.2%), when compared to normotensive animals (2.4&#177;0.7%, p&lt;0.001) (<xref ref-type="fig" rid="pone.0220837.g003">Fig 3</xref>). After one month, spironolactone treatment produced a significant blunting in fibrotic deposition when compared to untreated hypertensive group (3&#177;1.2% vs 4.4&#177;2%, p&lt;0.01). After three months of spironolactone treatment, the progression of fibrosis remained significantly blunted compared to the untreated hypertensive group (4.9&#177;1.4% vs 8.8&#177;3.2%, p&lt;0.001) (<xref ref-type="fig" rid="pone.0220837.g003">Fig 3</xref>).</p>
+<fig id="pone.0220837.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Hypertension and cardiac fibrosis.</title>
+<p><bold>3(a)</bold> Cardiac transverse sections, taken 6mm from the apex (scale bar is 3mm) from normotensive animals (N) after three months, hypertensive animals (H) and hypertensive animals with spironolactone (H+SP) after both one and three months. Sections were stained with picrosirius red and light green counter stain. Inlay sections (50x magnification, scale bar 100&#956;m) are taken from the lateral wall of the left ventricle. <bold>(3b, 3c)</bold> Percentage of fibrosis of the left ventricle (transverse sections taken 6mm from the apex) from normotensive (N, grey, n = 8), hypertensive (H, black, n = 8) and hypertensive animals dosed daily with spironolactone (H+SP, striped, n = 4) following one month <bold>(b)</bold> and three months <bold>(c)</bold>. Values for normotensive animals were taken at three months only (dashed line), and were compared with hypertensive and spironolactone treated animals at both one month and at three months. Values are shown as mean &#177; standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec018">
+<title>Global longitudinal strain</title>
+<p>The normotensive group displayed relatively consistent endo-GLS and myo-GLS throughout the three month period. Endo-GLS was unchanged in the hypertensive group following one month of elevated SBP, but deteriorated by two months, leading to significantly reduced endo-GLS after three months when compared to the normotensive group (p&lt;0.001) (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>). Significant impairment of myo-GLS was evident in the hypertensive animals after one month (p&lt;0.01), and became more marked over the next two months (-11&#177;2% vs -17&#177;2% compared with the normotensive group, p&lt;0.001). In contrast, the hypertensive group treated with spironolactone demonstrated no significant difference in myo-GLS from the normotensive group at one month, and although myo-GLS declined over the following two months, myo-GLS remained significantly better than in the untreated hypertensive animals (p&lt;0.001) (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0220837.g004">Fig 4</xref>).</p>
+<fig id="pone.0220837.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Global longitudinal strain analysis.</title>
+<p>Global longitudinal strain (GLS) tracking analysis <bold>(a)</bold>, showing the region of interest and the strain assessment at both one month and three months in normotensive (N), hypertensive (H) and hypertensive with spironolactone (H+SP) groups. <bold>(b)</bold> Analysis of the endocardium layer and <bold>(c)</bold> myocardium layer from normotensive (N), hypertensive (H) and hypertensive animals with spironolactone (H+SP) following one, two and three months. Values are shown as mean &#177; standard deviation. Significant differences between N and H is indicated by *, p&lt;0.05 *, p&lt;0.01 **, p&lt;0.001 *** Significant differences between N and H+SP is indicated by &#8224;, p&lt;0.05 <sup>&#8224;</sup>, p&lt;0.01 <sup>&#8224;&#8224;</sup> Significant differences between H and H+SP is indicated by #, p&lt; 0.05 <sup>#</sup>, p&lt;0.01 <sup>##</sup>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.g004" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec019">
+<title>Correlation of ejection fraction and global longitudinal strain with myocardial fibrosis</title>
+<p>At one month, hypertensive animals maintained the same LVEF and endo-GLS as normotensive animals, despite a significant increase in myocardial fibrosis. By three months, despite a further substantial increase in myocardial fibrosis, the measured ejection fraction was quite variable, but the myo-GLS was significantly impaired in the hypertensive animals (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0220837.g005">Fig 5</xref>). Treatment with spironolactone significantly reduced the extent of fibrosis at one month, with preserved ejection fraction and preserved endo- and myo-GLS compared to normotensive animals. By three months, spironolactone continued to limit fibrosis development which was associated with a significant reduction in impairment of myo-GLS, and to a lesser extent LVEF, when compared to hypertensive animals at three months. (<xref ref-type="table" rid="pone.0220837.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0220837.g005">Fig 5</xref>).</p>
+<fig id="pone.0220837.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220837.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Comparison of left ventricular fibrosis and myocardial global longitudinal strain.</title>
+<p>Data from individual animals comparing left ventricular cardiac fibrosis (%) against EF% (<bold>a, c</bold>) and myo-GLS (<bold>b, d</bold>) in normotensive animals (N, grey circles, data only available following three months), hypertensive animals (H, black circles) and hypertensive animals dosed daily with spironolactone (H+SP, triangles) after one month (<bold>a, b</bold>) and three months (<bold>c, d</bold>). The black dotted lines represent the 95% CI normal reference range of the normotensive animals. r<sup>2</sup> correlation values are shown on each graph for all data.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.g005" ns0:type="simple" />
+</fig>
+<p>Linear correlations with myocardial fibrosis measurements at one month revealed similar correlations of LVEF and myo-GLS (r<sup>2</sup> = 0.37, p&lt;0.047, and r<sup>2</sup> = 0.32, p = 0.06, respectively). However, at three months myo-GLS revealed a much stronger correlation with myocardial fibrosis (r<sup>2</sup> = 0.58, p&lt;0.0001) compared to LVEF (r<sup>2</sup> = 0.37, p&lt;0.01) (<xref ref-type="fig" rid="pone.0220837.g005">Fig 5</xref>). Additionally, linear correlations of myocardial fibrosis and endo-GLS were not significant at one month (r<sup>2</sup> = 0.07, p = 0.43) but were significant at three months (r<sup>2</sup> = 0.6, p&lt;0.001).</p>
+<p>Standard assessments of LVEF compared with histological evidence of myocardial fibrosis, at one month M-mode or Simpson&#8217;s rule did not show any significant correlation. After three months however, the difference in LVEF calculated by Simpson&#8217;s rule (p = 0.006) was significant, whilst M-mode showed no significant correlation (p = 0.64) (<xref ref-type="supplementary-material" rid="pone.0220837.s004">S2 Table</xref>).</p>
+<p>Raw data is attached as <xref ref-type="supplementary-material" rid="pone.0220837.s001">S1 Dataset</xref>.</p>
+</sec>
+</sec>
+<sec id="sec020" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this animal model of inducible hypertension we have demonstrated that sustained severe hypertension resulted in significant progressive cardiac interstitial fibrosis. Spironolactone blunted the progression of cardiac fibrosis and deterioration of myocardial GLS after the establishment of hypertension. We have demonstrated that speckle tracking derived myocardial global longitudinal strain correlates more closely with changes in myocardial interstitial fibrosis compared to left ventricular cardiac ejection fraction derived from 2D echocardiography.</p>
+<p>Echocardiography has remained the principal non-invasive imaging modality to provide reliable assessment of cardiac function. While left ventricular systolic function measured by M-mode, fractional shortening or 2D ejection fraction, has been shown to be a useful volumetric-based index, these measurements are limited by inherent variability, influenced by the quality of the image, off-axis imaging, measurement errors or by geometric confounders. Speckle tracking derived strain is still reliant on good quality, on-axis images, but is a direct measure of myocardial function rather than calculation of cardiac volumes. In recent clinical studies, the use of speckle tracking has shown GLS as a diagnostic tool to be superior to left ventricular ejection fraction (LVEF) in a wide range of cardiac conditions [<xref ref-type="bibr" rid="pone.0220837.ref042">42</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref045">45</xref>], especially in detecting subtle impairment in left ventricular function [<xref ref-type="bibr" rid="pone.0220837.ref044">44</xref>]. Additionally, these studies also report a significant reduction in GLS without a corresponding reduction in LVEF [<xref ref-type="bibr" rid="pone.0220837.ref042">42</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref045">45</xref>]. Strain analysis, particularly GLS, has also been reported clinically as a more sensitive predictor of overall CV mortality compared to LVEF [<xref ref-type="bibr" rid="pone.0220837.ref044">44</xref>, <xref ref-type="bibr" rid="pone.0220837.ref046">46</xref>], and defined progressive changes in strain predicted mortality while changes in EF did not, until cardiac contractility was severely impaired. Furthermore these changes in GLS are similar in rats and humans [<xref ref-type="bibr" rid="pone.0220837.ref047">47</xref>]. In this study, we have shown that, impairment in myo-GLS is apparent even without detectable changes in LVEF in early stage disease, and correlates better with histological assessment of myocardial fibrosis in more advanced disease.</p>
+<p>A separate issue is the use of human reference ranges for cardiac function in animals. Whilst the LVEF in the hypertensive group was reduced compared to normotensive animals, the LVEF values obtained would be considered as relatively normal (or preserved) based on the standard clinical definition of preserved LVEF being greater than 50% [<xref ref-type="bibr" rid="pone.0220837.ref005">5</xref>]. Our method of construction of a reference range based on control animals identified all diseased animals (with or without treatment with spironolactone) as having reduced LVEF by three months. As such, after three months of sustained hypertension, these animals would not be suitable as a model of heart failure with preserved ejection fraction (HFpEF) despite having LVEF &gt; 50%. In contrast to other recommendations (2), we recommend construction of study-specific normal reference ranges for LVEF when performing preclinical research in HFpEF, as these are likely to significantly alter the cut-off for preserved LVEF. Notably, at 1 month, hypertensive animals in our study did have a preserved LVEF, but an impaired myo-GLS.</p>
+<p>Recent studies performed with Dahl salt-sensitive rats [<xref ref-type="bibr" rid="pone.0220837.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0220837.ref009">9</xref>] showed a similar gradual reduction in LVEF with a matched steep decline in GLS to that seen in our study. However, in that study, the animals had profoundly more severe SBP recorded (&gt;220mmHg following 16 weeks of age [<xref ref-type="bibr" rid="pone.0220837.ref001">1</xref>]). This model provides histological support for the clinical survival observations [<xref ref-type="bibr" rid="pone.0220837.ref046">46</xref>] where small changes in GLS present in patients with EFs still in the normal range are likely to have significant pathological changes present.</p>
+<p>A number of studies have demonstrated a central role of aldosterone in promoting cardiac fibrosis [<xref ref-type="bibr" rid="pone.0220837.ref048">48</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref053">53</xref>], and have further established that this can be independent of blood pressure [<xref ref-type="bibr" rid="pone.0220837.ref052">52</xref>,<xref ref-type="bibr" rid="pone.0220837.ref054">54</xref>,<xref ref-type="bibr" rid="pone.0220837.ref055">55</xref>]. Early work by Brilla and colleagues [<xref ref-type="bibr" rid="pone.0220837.ref054">54</xref>], showed that aldosterone stimulated collagen synthesis through mineralocorticoid receptors in isolated cardiac fibroblasts. This work led to multiple animal studies showing that mineralocorticoid receptor antagonist (MRA) can prevent or delay the development of ventricular remodelling and cardiac interstitial fibrosis particularly following cardiac injury [<xref ref-type="bibr" rid="pone.0220837.ref033">33</xref>,<xref ref-type="bibr" rid="pone.0220837.ref036">36</xref>,<xref ref-type="bibr" rid="pone.0220837.ref051">51</xref>,<xref ref-type="bibr" rid="pone.0220837.ref056">56</xref>,<xref ref-type="bibr" rid="pone.0220837.ref057">57</xref>]. Clinical studies have also identified the potential beneficial roles of mineralocorticoid receptor antagonism in cardio-protection [<xref ref-type="bibr" rid="pone.0220837.ref025">25</xref>,<xref ref-type="bibr" rid="pone.0220837.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0220837.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0220837.ref057">57</xref>&#8211;<xref ref-type="bibr" rid="pone.0220837.ref059">59</xref>]. Unlike previously reported animal studies utilising MRAs, in this study we examined the effects of mineralocorticoid receptor antagonism on cardiac injury/fibrosis after establishment of severe hypertension. Following one month of spironolactone therapy, LVEF and myocardial GLS were maintained despite the lack of an apparent reduction in SBP. This was associated with a reduction in cardiac interstitial fibrosis compared to hypertensive animals. At three months of spironolactone therapy, although there was some progression in the extent of cardiac interstitial fibrosis along with a reduction in myocardial GLS and LVEF, this was not as marked as that seen in the untreated hypertensive animals (<xref ref-type="fig" rid="pone.0220837.g005">Fig 5</xref>).</p>
+<p>There are a number of limitations to this study. While spironolactone is known to influence a number of pathophysiological cardiac effects [<xref ref-type="bibr" rid="pone.0220837.ref056">56</xref>], it is difficult to tease out from our data, whether the apparent reduction in the progression of cardiac fibrosis is due to direct actions of the MRA, the stabilisation in the rise of SBP, or both. Additionally, this study used the underlying assumption that the activation of the mineralocorticoid receptor, via increased RAAS activation, directly effects cardiac fibrosis.</p>
+<p>Due to a lack of difference in the physiological data between one month and three months, only tissue from normal hearts at three months was used as the reference range. It is possible that a small degree of myocardial fibrosis related to age alone was missed, but given the significant differences between hypertensive and normotensive animals obtained, this would have little or no impact on the results presented. Due to the small heart size and rapid heart rate, it was not possible to assess diastolic function. Likewise, due to the small size of the hearts, the boundaries of the cardiac layers were at times difficult to distinguish, preventing an accurate assessment of the epicardial or endocardial layer. Further work with this rat model utilising an echocardiographic probe with the ability to capture at a higher frame rate would help establish both the systolic and diastolic cardiac dysfunction more accurately.</p>
+<p>Spironolactone, given to rats following established severe hypertension, reduced the extent of cardiac interstitital fibrosis. Of note, by using both a human equivalent dose of spironolactone and oral dosing, as well as ensuring hypertension was established prior to therapeutic intervention; this more closely mimics the clinical setting, allowing for more accurate translation to clinical outcomes.</p>
+<p>In summary, spironolactone blunted the progression of cardiac fibrosis and deterioration of myocardial GLS after the establishment of hypertension. Myocardial GLS (as opposed to LVEF or endocardial GLS) was more sensitive in detecting the early stages of hypertension-mediated cardiac injury, where ejection fraction is preserved, and had a closer correlation with histological myocardial fibrosis in late stage disease. These findings would suggest that measurement of myocardial GLS should be utilised in preference to M-mode and estimates of ejection fraction, providing increased statistical power and the ability to non-invasively assess myocardial fibrosis. We suggest that strain analysis should be more commonly used, in preclinical studies to allow better correlation with clinical analyses. Additionally, we recommend construction of study-specific normal reference ranges for LVEF when performing preclinical research in HFpEF as these are likely to significantly vary significantly from the clinical definition for preserved LVEF, and hence the translational ability of the experimental findings. Further work is planned to categorise the cardiac dysfunction in this animal model and the potential mechanisms that may mediate the actions of spironolactone.</p>
+</sec>
+<sec id="sec021">
+<title>Supporting information</title>
+<supplementary-material id="pone.0220837.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.s001" ns0:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title>Raw data.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220837.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.s002" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Calculation of total cardiac area.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220837.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.s003" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Total cardiac area and fibrosis compared to single mid-section (6mm from apex).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220837.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.s004" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Left ventricular ejection fraction obtained by different standard measurement techniques and correlation with interstitial fibrosis.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0220837.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ishizu</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Seo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kameda</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kawamura</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kimura</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Shimojo</surname> <given-names>N</given-names></name> <etal>et al</etal>. <article-title>Left ventricular strain and transmural distribution of structural remodeling in hypertensive heart disease</article-title>. <source>Hypertension</source> <year>2014</year>;<volume>63</volume>:<fpage>500</fpage>&#8211;<lpage>506</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/HYPERTENSIONAHA.113.02149" ns0:type="simple">10.1161/HYPERTENSIONAHA.113.02149</ext-link></comment> <object-id pub-id-type="pmid">24396022</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valero-Mu&#241;oz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Backman</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Sam</surname> <given-names>F</given-names></name>. <article-title>Murine Models of Heart Failure With Preserved Ejection Fraction: A &#8220;Fishing Expedition.&#8221;</article-title> <source>JACC. Basic to Transl. Sci</source>. <year>2017</year>;<volume>2</volume>:<fpage>770</fpage>&#8211;<lpage>789</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kahan</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Bergfeldt</surname> <given-names>L</given-names></name>. <article-title>Left ventricular hypertrophy in hypertension: Its arrhythmogenic potential</article-title>. <source>Heart</source> <year>2005</year>;<volume>91</volume>:<fpage>250</fpage>&#8211;<lpage>256</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/hrt.2004.042473" ns0:type="simple">10.1136/hrt.2004.042473</ext-link></comment> <object-id pub-id-type="pmid">15657259</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kuroda</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Amano</surname> <given-names>A</given-names></name>. <article-title>Hypertensive cardiomyopathy: A clinical approach and literature review</article-title>. <source>World J. Hypertens</source>. <year>2015</year>;<volume>5</volume>:<fpage>41</fpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Whalley</surname> <given-names>GA</given-names></name>. <article-title>Surrogate Survival. Battle Between Left Ventricular Ejection Fraction and Global Longitudinal Strain</article-title>. <source>JACC Cardiovasc. Imaging</source> <year>2018</year>;<volume>11</volume>:<fpage>1580</fpage>&#8211;<lpage>1582</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jcmg.2017.11.003" ns0:type="simple">10.1016/j.jcmg.2017.11.003</ext-link></comment> <object-id pub-id-type="pmid">29153563</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bhan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sirker</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Protti</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Catibog</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Driver</surname> <given-names>W</given-names></name> <etal>et al</etal>. <article-title>High-frequency speckle tracking echocardiography in the assessment of left ventricular function and remodeling after murine myocardial infarction</article-title>. <source>AJP Heart. Circ. Physiol</source>. <year>2014</year>;<volume>306</volume>:<fpage>H1371</fpage>&#8211;<lpage>H1383</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bauer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ngoy</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Theodoropoulos</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Trujillo</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Echocardiographic speckle-tracking based strain imaging for rapid cardiovascular phenotyping in mice</article-title>. <source>Circ. Res</source>. <year>2011</year>;<volume>108</volume>:<fpage>908</fpage>&#8211;<lpage>916</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/CIRCRESAHA.110.239574" ns0:type="simple">10.1161/CIRCRESAHA.110.239574</ext-link></comment> <object-id pub-id-type="pmid">21372284</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>M&#225;ty&#225;s</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kov&#225;cs</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>N&#233;meth</surname> <given-names>BT</given-names></name>, <name name-style="western"><surname>Ol&#225;h</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Braun</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tokodi</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Comparison of speckle-tracking echocardiography with invasive hemodynamics for the detection of characteristic cardiac dysfunction in type-1 and type-2 diabetic rat models</article-title>. <source>Cardiovasc. Diabetol</source>. <year>2018</year>;<volume>17</volume>:<fpage>1</fpage>&#8211;<lpage>13</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Koshizuka</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ishizu</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kameda</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kawamura</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Seo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Aonuma</surname> <given-names>K</given-names></name>. <article-title>Longitudinal strain impairment as a marker of the progression of heart failure with preserved ejection fraction in a rat model</article-title>. <source>J. Am. Soc. Echocardiogr</source>. <year>2013</year>;<volume>26</volume>:<fpage>316</fpage>&#8211;<lpage>323</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.echo.2012.11.015" ns0:type="simple">10.1016/j.echo.2012.11.015</ext-link></comment> <object-id pub-id-type="pmid">23298942</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gomes</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Falc&#227;o-Pires</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Pires</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Br&#225;s-Silva</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Leite-Moreira</surname> <given-names>AF</given-names></name>. <article-title>Rodent models of heart failure: An updated review</article-title>. <source>Heart Fail. Rev</source>. <year>2013</year>;<volume>18</volume>:<fpage>219</fpage>&#8211;<lpage>249</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10741-012-9305-3" ns0:type="simple">10.1007/s10741-012-9305-3</ext-link></comment> <object-id pub-id-type="pmid">22446984</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bader</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bohnemeier</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zollmann</surname> <given-names>FS</given-names></name>, <name name-style="western"><surname>Lockley-Jones</surname> <given-names>OE</given-names></name>, <name name-style="western"><surname>Ganten</surname> <given-names>D</given-names></name>. <article-title>Transgenic animals in cardiovascular disease research</article-title>. <source>Exp. Physiol</source>. <year>2000</year>;<volume>85</volume>:<fpage>713</fpage>&#8211;<lpage>731</lpage>. <object-id pub-id-type="pmid">11187966</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kantachuvesiri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Fleming</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Peters</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Peters</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Brooker</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Lammie</surname> <given-names>AG</given-names></name> <etal>et al</etal>. <article-title>Controlled hypertension, a transgenic toggle switch reveals differential mechanisms underlying vascular disease</article-title>. <source>J Biol. Chem</source>. <year>2001</year>;<volume>276</volume>:<fpage>36727</fpage>&#8211;<lpage>36733</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.M103296200" ns0:type="simple">10.1074/jbc.M103296200</ext-link></comment> <object-id pub-id-type="pmid">11448960</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mitchell</surname> <given-names>KD</given-names></name>, <name name-style="western"><surname>Bagatell</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Mouton</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Seth</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Mullins</surname> <given-names>JJ</given-names></name>. <article-title>Genetic clamping of renin gene expression induces hypertension and elevation of intrarenal Ang II levels of graded severity in Cyp1a1-Ren2 transgenic rats</article-title>. <source>J. Renin-Angiotensin-Aldosterone Syst</source>. <year>2006</year>;<volume>7</volume>:<fpage>74</fpage>&#8211;<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3317/jraas.2006.013" ns0:type="simple">10.3317/jraas.2006.013</ext-link></comment> <object-id pub-id-type="pmid">17083061</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Howard</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>KD</given-names></name>. <article-title>Renal functional responses to selective intrarenal renin inhibition in Cyp1a1-Ren2 transgenic rats with ANG II-dependent malignant hypertension</article-title>. <source>Am. J. Physiol. Renal Physiol</source>. <year>2012</year>;<volume>302</volume>:<fpage>F52</fpage>&#8211;<lpage>F59</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1152/ajprenal.00187.2011" ns0:type="simple">10.1152/ajprenal.00187.2011</ext-link></comment> <object-id pub-id-type="pmid">21993885</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peters</surname> <given-names>BS</given-names></name>, <name name-style="western"><surname>Kuttler</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Beineke</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lorenz</surname> <given-names>G</given-names></name>,<name name-style="western"><surname>Thiele</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nicolai</surname> <given-names>O</given-names></name>, <etal>et al</etal>. <article-title>The renin-angiotensin system as a primary cause of polyarteritis nodosa in rats</article-title>. <source>J. Cell. Mol. Med</source>. <year>2010</year>;<volume>14</volume>:<fpage>1318</fpage>&#8211;<lpage>1327</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1582-4934.2009.00778.x" ns0:type="simple">10.1111/j.1582-4934.2009.00778.x</ext-link></comment> <object-id pub-id-type="pmid">19432815</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Howard</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Mullins</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>KD</given-names></name>. <article-title>Transient induction of ANG II-dependent malignant hypertension causes sustained elevation of blood pressure and augmentation of the pressor response to ANG II in CYP1A1-REN2 transgenic rats</article-title>. <source>Am. J. Med. Sci</source>. <year>2010</year>;<volume>339</volume>:<fpage>543</fpage>&#8211;<lpage>548</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/MAJ.0b013e3181d82a62" ns0:type="simple">10.1097/MAJ.0b013e3181d82a62</ext-link></comment> <object-id pub-id-type="pmid">20375689</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peters</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Grisk</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Becher</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wanka</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kuttler</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Ludemann</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Dose-dependent titration of prorenin and blood pressure in Cyp1a1ren-2 transgenic rats: absence of prorenin-induced glomerulosclerosis</article-title>. <source>J. Hypertens</source>. <year>2008</year>;<volume>26</volume>:<fpage>102</fpage>&#8211;<lpage>109</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/HJH.0b013e3282f0ab66" ns0:type="simple">10.1097/HJH.0b013e3282f0ab66</ext-link></comment> <object-id pub-id-type="pmid">18090546</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Leader</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Clark</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hannah</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sammut</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Wilkins</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>R</given-names></name>. <article-title>Transgenic Cyp1a1Ren2 rats (TG[Cyp1a1Ren2]): Breeding characteristics and dose-dependant blood pressure responses</article-title>. <source>Comp. Med</source>. <year>2018</year>;<volume>68</volume>:<fpage>1</fpage>&#8211;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brilla</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Matsubara</surname> <given-names>LS</given-names></name>, <name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>. <article-title>Antifibrotic effects of spironolactone in preventing myocardial fibrosis in systemic arterial hypertension</article-title>. <source>Am. J. Cardiol</source>. <year>1993</year>;<volume>71</volume>:<fpage>12A</fpage>&#8211;<lpage>16A</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0002-9149(93)90239-9" ns0:type="simple">10.1016/0002-9149(93)90239-9</ext-link></comment> <object-id pub-id-type="pmid">8421998</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lacolley</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Safar</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Lucet</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Ledudal</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Labat</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Benetos</surname> <given-names>A</given-names></name>. <article-title>Prevention of aortic and cardiac fibrosis by spironolactone in old normotensive rats</article-title>. <source>J. Am. Coll. Cardiol</source>. <year>2001</year>;<volume>37</volume>:<fpage>662</fpage>&#8211;<lpage>667</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0735-1097(00)01129-3" ns0:type="simple">10.1016/s0735-1097(00)01129-3</ext-link></comment> <object-id pub-id-type="pmid">11216994</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tanaka-Esposito</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Varahan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jeyaraj</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Stambler</surname> <given-names>B</given-names></name>. <article-title>Eplerenone-Mediated Regression of Electrical Activation Delays and Myocardial Fibrosis in Heart Failure</article-title>. <source>J. Cardiovasc. Electrophysiol</source>. <year>2014</year>;<volume>25</volume>:<fpage>537</fpage>&#8211;<lpage>544</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Baldo</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Forechi</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Morra</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Zaniqueli</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Machado</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Lunz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>a</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Long-term use of low-dose spironolactone in spontaneously hypertensive rats: effects on left ventricular hypertrophy and stiffness</article-title>. <source>Pharmacol. Rep</source>. <year>2011</year>;<volume>63</volume>:<fpage>975</fpage>&#8211;<lpage>82</lpage>. <object-id pub-id-type="pmid">22001985</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mulder</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mellin</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Favre</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Vercauteren</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Remy-Jouet</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Monteil</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Aldosterone synthase inhibition improves cardiovascular function and structure in rats with heart failure: A comparison with spironolactone</article-title>. <source>Eur. Heart J</source>. <year>2008</year>;<volume>29</volume>:<fpage>2171</fpage>&#8211;<lpage>2179</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/eurheartj/ehn277" ns0:type="simple">10.1093/eurheartj/ehn277</ext-link></comment> <object-id pub-id-type="pmid">18586661</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lal</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Veinot</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Ganten</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Leenen</surname> <given-names>FH</given-names></name>. <article-title>Prevention of cardiac remodeling after myocardial infarction in transgenic rats deficient in brain angiotensinogen</article-title>. <source>J Mol Cell Cardiol</source> <year>2005</year>;<volume>39</volume>:<fpage>521</fpage>&#8211;<lpage>529</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.yjmcc.2005.05.002" ns0:type="simple">10.1016/j.yjmcc.2005.05.002</ext-link></comment> <object-id pub-id-type="pmid">15950985</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pitt</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Pfeffer</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Assmann</surname> <given-names>SF</given-names></name>, <name name-style="western"><surname>Boineau</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Anand</surname> <given-names>IS</given-names></name>, <name name-style="western"><surname>Claggett</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Spironolactone for Heart Failure with Preserved Ejection Fraction</article-title>. <source>N. Engl. J. Med</source>. <year>2014</year>;<volume>370</volume>:<fpage>1383</fpage>&#8211;<lpage>1392</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa1313731" ns0:type="simple">10.1056/NEJMoa1313731</ext-link></comment> <object-id pub-id-type="pmid">24716680</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>The RALES investigators</collab>. <article-title>Effectiveness of spironolactone added to an angiotensin-converting enzyme inhibitor and a loop diuretic for severe chronic congestive heart failure (the Randomized Aldactone Evaluation Study [RALES])</article-title>. <source>Am. J. Cardiol</source>. <year>1996</year>;<volume>78</volume>:<fpage>902</fpage>&#8211;<lpage>907</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0002-9149(96)00465-1" ns0:type="simple">10.1016/s0002-9149(96)00465-1</ext-link></comment> <object-id pub-id-type="pmid">8888663</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Krieger</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Drager</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Giorgi</surname> <given-names>DMA</given-names></name>, <name name-style="western"><surname>Pereira</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Barreto-Filho</surname> <given-names>JAS</given-names></name>, <name name-style="western"><surname>Nogueira</surname> <given-names>AR</given-names></name>, <etal>et al</etal>. <article-title>Spironolactone Versus Clonidine as a Fourth-Drug Therapy for Resistant Hypertension</article-title>. <source>Hypertension</source> <year>2018</year>;<volume>71</volume>:<fpage>681</fpage>&#8211;<lpage>690</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/HYPERTENSIONAHA.117.10662" ns0:type="simple">10.1161/HYPERTENSIONAHA.117.10662</ext-link></comment> <object-id pub-id-type="pmid">29463627</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shah</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Claggett</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Sweitzer</surname> <given-names>NK</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Anand</surname> <given-names>IS</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Prognostic importance of impaired systolic function in heart failure with preserved ejection fraction and the impact of spironolactone</article-title>. <source>Circulation</source> <year>2015</year>;<volume>132</volume>:<fpage>402</fpage>&#8211;<lpage>414</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/CIRCULATIONAHA.115.015884" ns0:type="simple">10.1161/CIRCULATIONAHA.115.015884</ext-link></comment> <object-id pub-id-type="pmid">26130119</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Catena</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Colussi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Brosolo</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Iogna-Prat</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sechi</surname> <given-names>LA</given-names></name>. <article-title>Aldosterone and aldosterone antagonists in cardiac disease: what is known, what is new</article-title>. <source>Am. J. Cardiovasc. Dis</source>. <year>2011</year>;<volume>2</volume>:<fpage>50</fpage>&#8211;<lpage>57</lpage>. <object-id pub-id-type="pmid">22254214</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Colussi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Catena</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sechi</surname> <given-names>LA</given-names></name>. <article-title>Spironolactone, eplerenone and the new aldosterone blockers in endocrine and primary hypertension</article-title>. <source>J. Hypertens</source>. <year>2012</year>;<volume>31</volume>:<fpage>3</fpage>&#8211;<lpage>15</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Oktay</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>SJ</given-names></name>. <article-title>Current Perspectives on Systemic Hypertension in Heart Failure with Preserved Ejection Fraction</article-title>. <source>Curr. Cardiol. Rep</source>. <year>2014</year>;<volume>16</volume>:<fpage>545</fpage>&#8211;<lpage>559</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11886-014-0545-9" ns0:type="simple">10.1007/s11886-014-0545-9</ext-link></comment> <object-id pub-id-type="pmid">25326729</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Markowitz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Messineo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Coplan</surname> <given-names>NL</given-names></name>. <article-title>Aldosterone receptor antagonists in cardiovascular disease: A review of the recent literature and insight into potential future indications</article-title>. <source>Clin. Cardiol</source>. <year>2012</year>;<volume>35</volume>:<fpage>605</fpage>&#8211;<lpage>609</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/clc.22025" ns0:type="simple">10.1002/clc.22025</ext-link></comment> <object-id pub-id-type="pmid">22778046</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tesch</surname> <given-names>GH</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>MJ</given-names></name>. <article-title>Mineralocorticoid receptor signaling as a therapeutic target for renal and cardiac fibrosis</article-title>. <source>Front. Pharmacol</source>. <year>2017</year>;<volume>8</volume>:<fpage>1</fpage>&#8211;<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rocha</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Chander</surname> <given-names>PN</given-names></name>, <name name-style="western"><surname>Khanna</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Zuckerman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Steer</surname> <given-names>CT</given-names></name>. <article-title>Mineralocorticoid blockage reduces vascular injury in stroke-prone hypertensive rats</article-title>. <source>Hypertension</source> <year>1998</year>;<volume>31</volume>:<fpage>451</fpage>&#8211;<lpage>458</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.hyp.31.1.451" ns0:type="simple">10.1161/01.hyp.31.1.451</ext-link></comment> <object-id pub-id-type="pmid">9453344</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nagata</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Obata</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ichihara</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Noda</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kimata</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Mineralocorticoid receptor antagonism attenuates cardiac hypertrophy and failure in low-aldosterone hypertensive rats</article-title>. <source>Hypertension</source> <year>2006</year>;<volume>47</volume>:<fpage>656</fpage>&#8211;<lpage>664</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.HYP.0000203772.78696.67" ns0:type="simple">10.1161/01.HYP.0000203772.78696.67</ext-link></comment> <object-id pub-id-type="pmid">16505208</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Messaoudi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Azibani</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Delcayre</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jaisser</surname> <given-names>F</given-names></name>. <article-title>Aldosterone, mineralocorticoid receptor, and heart failure</article-title>. <source>Mol. Cell. Endocrinol</source>. <year>2012</year>;<volume>350</volume>:<fpage>266</fpage>&#8211;<lpage>272</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.mce.2011.06.038" ns0:type="simple">10.1016/j.mce.2011.06.038</ext-link></comment> <object-id pub-id-type="pmid">21784127</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Briet</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schiffrin</surname> <given-names>EL</given-names></name>. <article-title>Aldosterone: effects on the kidney and cardiovascular system</article-title>. <source>Nat. Rev. Nephrol</source>. <year>2010</year>;<volume>6</volume>:<fpage>261</fpage>&#8211;<lpage>273</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nrneph.2010.30" ns0:type="simple">10.1038/nrneph.2010.30</ext-link></comment> <object-id pub-id-type="pmid">20234356</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nagata</surname> <given-names>K</given-names></name>. <article-title>Mineralocorticoid antagonism and cardiac hypertrophy</article-title>. <source>Curr. Hypertens. Rep</source>. <year>2008</year>;<volume>10</volume>:<fpage>216</fpage>&#8211;<lpage>221</lpage>. <object-id pub-id-type="pmid">18765093</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref039"><label>39</label><mixed-citation publication-type="book" ns0:type="simple"><chapter-title>Ministry for Primary Industries New Zealand</chapter-title>. <source>Animal Welfare Act 1999</source>. <year>1999</year>:<fpage>1</fpage>&#8211;<lpage>151</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Reagan-shaw</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nihal</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ahmad</surname> <given-names>N</given-names></name>. <article-title>Dose translation from animal to human studies revisited</article-title>. <source>J. Fed. Am. Soc. Exp. Biol</source>. <year>2008</year>;<volume>22</volume>:<fpage>659</fpage>&#8211;<lpage>661</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Voigt</surname> <given-names>JU</given-names></name>, <name name-style="western"><surname>Pedrizzetti</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Lysyansky</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Marwick</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Houle</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Baumann</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Definitions for a common standard for 2D speckle tracking echocardiography: consensus document of the EACVI/ASE/Industry Task Force to standardize deformation imaging</article-title>. <source>Eur. Heart J. Cardiovasc. Imaging</source> <year>2015</year>;<volume>16</volume>:<fpage>1</fpage>&#8211;<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ehjci/jeu184" ns0:type="simple">10.1093/ehjci/jeu184</ext-link></comment> <object-id pub-id-type="pmid">25525063</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stanton</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Leano</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Marwick</surname> <given-names>TH</given-names></name>. <article-title>Prediction of all-cause mortality from global longitudinal speckle strain: Comparison with ejection fraction and wall motion scoring</article-title>. <source>Circ. Cardiovasc. Imaging</source> <year>2009</year>;<volume>2</volume>:<fpage>356</fpage>&#8211;<lpage>364</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/CIRCIMAGING.109.862334" ns0:type="simple">10.1161/CIRCIMAGING.109.862334</ext-link></comment> <object-id pub-id-type="pmid">19808623</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kalam</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Otahal</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Marwick</surname> <given-names>TH</given-names></name>. <article-title>Prognostic implications of global LV dysfunction: A systematic review and meta-analysis of global longitudinal strain and ejection fraction</article-title>. <source>Heart</source> <year>2014</year>;<volume>100</volume>:<fpage>1673</fpage>&#8211;<lpage>1680</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/heartjnl-2014-305538" ns0:type="simple">10.1136/heartjnl-2014-305538</ext-link></comment> <object-id pub-id-type="pmid">24860005</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Krishnasamy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Isbel</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Hawley</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Pascoe</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Burrage</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Leano</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Left Ventricular Global Longitudinal Strain (GLS) Is a Superior Predictor of All-Cause and Cardiovascular Mortality When Compared to Ejection Fraction in Advanced Chronic Kidney Disease</article-title>. <source>PLoS One</source> <year>2015</year>;<volume>10</volume>:<fpage>e0127044</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0127044" ns0:type="simple">10.1371/journal.pone.0127044</ext-link></comment> <object-id pub-id-type="pmid">25978372</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stokke</surname> <given-names>TM</given-names></name>, <name name-style="western"><surname>Hasselberg</surname> <given-names>NE</given-names></name>, <name name-style="western"><surname>Smedsrud</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Sarvari</surname> <given-names>SI</given-names></name>, <name name-style="western"><surname>Haugaa</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Smiseth</surname> <given-names>OA</given-names></name>, <etal>et al</etal>. <article-title>Geometry as a Confounder When Assessing Ventricular Systolic Function: Comparison Between Ejection Fraction and Strain</article-title>. <source>J. Am. Coll. Cardiol</source>. <year>2017</year>;<volume>70</volume>:<fpage>942</fpage>&#8211;<lpage>954</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jacc.2017.06.046" ns0:type="simple">10.1016/j.jacc.2017.06.046</ext-link></comment> <object-id pub-id-type="pmid">28818204</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Medvedofsky</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Maffessanti</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Weinert</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Tehrani</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Narang</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Addetia</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>2D and 3D Echocardiography-Derived Indices of Left Ventricular Function and Shape: Relationship With Mortality</article-title>. <source>JACC Cardiovasc. Imaging</source> <year>2018</year>;<volume>11</volume>:<fpage>1569</fpage>&#8211;<lpage>1579</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jcmg.2017.08.023" ns0:type="simple">10.1016/j.jcmg.2017.08.023</ext-link></comment> <object-id pub-id-type="pmid">29153577</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bachner-Hinenzon</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Ertracht</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Leitman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vered</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Shimoni</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Beeri</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Layer-specific strain analysis by speckle tracking echocardiography reveals differences in left ventricular function between rats and humans</article-title>. <source>Am. J Physiol. Hear. Circ. Physiol</source>. <year>2010</year>;<volume>299</volume>:<fpage>H664</fpage>&#8211;<lpage>672</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref048"><label>48</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Brilla</surname> <given-names>CG</given-names></name>. <article-title>Pathological hypertrophy and cardiac interstitium. Fibrosis and renin-angiotensin-aldosterone system</article-title>. <source>Circulation</source> <year>1991</year>;<volume>83</volume>:<fpage>1849</fpage>&#8211;<lpage>1865</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.cir.83.6.1849" ns0:type="simple">10.1161/01.cir.83.6.1849</ext-link></comment> <object-id pub-id-type="pmid">1828192</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ramires</surname> <given-names>FJA</given-names></name>, <name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>. <article-title>Fibrosis of atria and great vessels in response to angiotensin II or aldosterone infusion</article-title>. <source>Cardiovasc. Res</source>. <year>1997</year>;<volume>35</volume>:<fpage>138</fpage>&#8211;<lpage>147</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0008-6363(97)00097-7" ns0:type="simple">10.1016/s0008-6363(97)00097-7</ext-link></comment> <object-id pub-id-type="pmid">9302358</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref050"><label>50</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Crawford</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Chobanian A</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Brecher</surname> <given-names>P</given-names></name>. <article-title>Angiotensin II Induces Fibronectin Expression Associated With Cardiac Fibrosis in the Rat</article-title>. <source>Circ. Res</source>. <year>1994</year>;<volume>74</volume>:<fpage>727</fpage>&#8211;<lpage>739</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.res.74.4.727" ns0:type="simple">10.1161/01.res.74.4.727</ext-link></comment> <object-id pub-id-type="pmid">8137508</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Quinn</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>. <article-title>Aldosterone-Induced Inflammation in the Rat Heart</article-title>. <source>Am. J. Pathol</source>. <year>2002</year>;<volume>161</volume>:<fpage>1773</fpage>&#8211;<lpage>1781</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0002-9440(10)64454-9" ns0:type="simple">10.1016/S0002-9440(10)64454-9</ext-link></comment> <object-id pub-id-type="pmid">12414524</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Young</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fullerton</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dilley</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Funder</surname> <given-names>J</given-names></name>. <article-title>Mineralocorticoids, hypertension, and cardiac fibrosis</article-title>. <source>Jounral Clin. Investig</source>. <year>1994</year>;<volume>93</volume>:<fpage>2578</fpage>&#8211;<lpage>2583</lpage>.</mixed-citation></ref>
+<ref id="pone.0220837.ref053"><label>53</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Guarda</surname> <given-names>E</given-names></name>. <article-title>Structural remodeling in hypertensive heart disease and the role of hormones</article-title>. <source>Hypertension</source> <year>1994</year>;<volume>23</volume>:<fpage>869</fpage>&#8211;<lpage>877</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.hyp.23.6.869" ns0:type="simple">10.1161/01.hyp.23.6.869</ext-link></comment> <object-id pub-id-type="pmid">8206620</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref054"><label>54</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brilla</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Matsubara</surname> <given-names>LS</given-names></name>, <name name-style="western"><surname>Weber</surname> <given-names>KT</given-names></name>. <article-title>Anti-aldosterone treatment and the prevention of myocardial fibrosis in primary and secondary hyperaldosteronism</article-title>. <source>J. Mol. Cell. Cardiol</source>. <year>1993</year>;<volume>25</volume>:<fpage>563</fpage>&#8211;<lpage>575</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1006/jmcc.1993.1066" ns0:type="simple">10.1006/jmcc.1993.1066</ext-link></comment> <object-id pub-id-type="pmid">8377216</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref055"><label>55</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Robert</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Van Thiem</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Cheav</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Mouas</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Swynghedauw</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Delcayre</surname> <given-names>C</given-names></name>. <article-title>Increased Cardiac Types I and III Collagen mRNAs in Aldosterone-Salt Hypertension</article-title>. <source>Hypertension</source> <year>1994</year>;<volume>24</volume>:<fpage>30</fpage>&#8211;<lpage>37</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.hyp.24.1.30" ns0:type="simple">10.1161/01.hyp.24.1.30</ext-link></comment> <object-id pub-id-type="pmid">8021005</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref056"><label>56</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bauersachs</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jaisser</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Toto</surname> <given-names>R</given-names></name>. <article-title>Mineralocorticoid receptor activation and mineralocorticoid receptor antagonist treatment in cardiac and renal diseases</article-title>. <source>Hypertension</source> <year>2015</year>;<volume>65</volume>:<fpage>257</fpage>&#8211;<lpage>263</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/HYPERTENSIONAHA.114.04488" ns0:type="simple">10.1161/HYPERTENSIONAHA.114.04488</ext-link></comment> <object-id pub-id-type="pmid">25368026</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref057"><label>57</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gonzalez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lopez</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Diez</surname> <given-names>J</given-names></name>. <article-title>Fibrosis in hypertensive heart disease: role of the renin-angiotensin-aldosterone system</article-title>. <source>Med Clin North Am</source> <year>2004</year>;<volume>88</volume>:<fpage>83</fpage>&#8211;<lpage>97</lpage>. <object-id pub-id-type="pmid">14871052</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref058"><label>58</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pitt</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Remme</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Zannad</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Neaton</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Martinez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Roniker</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Eplerenone, a Selective Aldosterone Blocker, in Patients with Left Ventricular Dysfunction after Myocardial Infarction</article-title>. <source>N. Engl. J. Med</source>. <year>2003</year>;<volume>348</volume>:<fpage>1309</fpage>&#8211;<lpage>1321</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa030207" ns0:type="simple">10.1056/NEJMoa030207</ext-link></comment> <object-id pub-id-type="pmid">12668699</object-id></mixed-citation></ref>
+<ref id="pone.0220837.ref059"><label>59</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zannad</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>McMurray</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Krum</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>van Veldhuisen</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Swedberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Eplerenone in patients with systolic heart failure and mild symptoms</article-title>. <source>N. Engl. J. Med</source>. <year>2011</year>;<volume>364</volume>:<fpage>11</fpage>&#8211;<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa1009492" ns0:type="simple">10.1056/NEJMoa1009492</ext-link></comment> <object-id pub-id-type="pmid">21073363</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0220837.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220837.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Lionetti</surname>
+<given-names>Vincenzo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vincenzo Lionetti</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220837" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-14918</p>
+<p>Myocardial global longitudinal strain: an early indicator of cardiac interstitial fibrosis in a unique hypertensive rat model.</p>
+<p>PLOS ONE</p>
+<p>Dear Professor Walker,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>ACADEMIC EDITOR: All issues raised by expert reviewers are required. The authors should limit speculations and highlight limitations of the study.</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by Aug 19 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Vincenzo Lionetti, M.D., PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>3. We noticed you have some minor occurrence of overlapping text with the following previous publication(s), which needs to be addressed:</p>
+<p><ext-link ext-link-type="uri" ns0:href="https://www.ingentaconnect.com/content/aalas/cm/2018/00000068/00000005/art00005" ns0:type="simple">https://www.ingentaconnect.com/content/aalas/cm/2018/00000068/00000005/art00005</ext-link></p>
+<p>In your revision ensure you cite all your sources (including your own works), and quote or rephrase any duplicated text outside the methods section. Further consideration is dependent on these concerns being addressed.</p>
+<p>4. To comply with PLOS ONE submissions requirements, please provide methods of sacrifice in the Methods section of your manuscript.</p>
+<p>5. Data availability issue. In your statement you say "All relevant data are within the paper and its Supporting Information files", but as we explain in <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-faqs-for-data-policy" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-faqs-for-data-policy</ext-link> you should provide the individual data points behind means, medians and variance measures presented in the results, tables and figures, and not just those summary statistics. Please provide these underlying participant-level data in a supporting information file or public repository, taking care not to include identifying information (see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link>); if these data cannot be publicly deposited or included in the supporting information, e.g. due to patient privacy, legal reasons, or being provided by a third party, please explain why and explain how researchers may access them. Note that authors should not be the sole named individuals responsible for ensuring data access.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: This article investigates the effect of spironolactone on cardiac function and fibrosis after induction of hypertension in a transgenic hypertensive rat model. The authors perfomes an advanced echocardiograpic evaluation assessing global longitudinal strain (myocardial and endocardial) that usually is not evaluated in the animal model.</p>
+<p>As the authors report GLS can give more information in particular in HFpEF where ejection fraction is preserved.</p>
+<p>The article is well written and the topic is relevant in clinical setting.</p>
+<p>There are some suggestions:</p>
+<p>- the authors should consider to add echocardiographic data of mass in Table 1:</p>
+<p>- the discussion section could be a little bit shortened</p>
+<p>- the are two figure 1 and no figure 2</p>
+<p>- there are two figure 5 and no figure 4.</p>
+<p>Reviewer #2: This experimental study using a hypertensive rat model showed the reduction of myocardial fibrosis with spironolactone, showing the changes in left ventricular ejection fraction and longitudinal strain from speckle tracking echo.</p>
+<p>However, the findings do not provide novel insights as compared to previous studies referred.</p>
+<p>Comments</p>
+<p>1. The title does not imply the aim and results exactly. The effect of spironolactone should be reflected in the title.</p>
+<p>2. Myo-GLS is more sensitive to the myocardial fibrosis, as shown in Fig 5. However, in the mid portion of the myocardium, cardiac fiber may be located in the circumferential positions rather than longitudinal positions. Please explain the discrepancy between functional and pathological behaviors.</p>
+<p>3. In addition, the transmural distribution of fibrosis is needed to conclude your findings.</p>
+<p>4. This technique may have limitations in reproducibility of strain measurements. The intra- and inter-observers&#8217; variabilities should be clarified.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Flora Pirozzi</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0220837.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220837.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0220837" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0220837.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">12 Jul 2019</named-content>
+</p>
+<p>ACADEMIC EDITOR: All issues raised by expert reviewers are required. The authors should limit speculations and highlight limitations of the study.</p>
+<p>Response: Comments to the reviewers comments are detailed below. Changes made to manuscript both in PLOS ONE style as well as where requested.</p>
+<p>Reviewer #1: This article investigates the effect of spironolactone on cardiac function and fibrosis after induction of hypertension in a transgenic hypertensive rat model. The authors perfomes an advanced echocardiograpic evaluation assessing global longitudinal strain (myocardial and endocardial) that usually is not evaluated in the animal model.</p>
+<p>As the authors report GLS can give more information in particular in HFpEF where ejection fraction is preserved.</p>
+<p>The article is well written and the topic is relevant in clinical setting.</p>
+<p>There are some suggestions:</p>
+<p>- the authors should consider to add echocardiographic data of mass in Table 1:</p>
+<p>- the discussion section could be a little bit shortened</p>
+<p>- the are two figure 1 and no figure 2</p>
+<p>- there are two figure 5 and no figure 4.</p>
+<p>Response:  We thank the reviewer for her helpful comments.  LV mass was considered but as this is also a derived calculation, it did not add any additional information, to what was already observed. So it has not been added. The discussion has been shortened where possible (see track change version). The incorrect labelling of the figures has been changed.</p>
+<p>Reviewer #2: This experimental study using a hypertensive rat model showed the reduction of myocardial fibrosis with spironolactone, showing the changes in left ventricular ejection fraction and longitudinal strain from speckle tracking echo.</p>
+<p>However, the findings do not provide novel insights as compared to previous studies referred.</p>
+<p>We would like to disagree with the reviewer. There are several important novel insights. Firstly we have reported the strong correlation between myo-GLS and the degree of cardiac interstitial fibrosis as seen histologically, confirming it as an important non-invasive means to assess cardiac fibrosis. This has not previously been reported. </p>
+<p>It is important to clearly define a normal range for ejection fraction in an animal model and not rely on a human range. We believe this is the first time it has been defined for an animal model. This also highlights the potential for this animal model as a model for HFpEF as identified by reviewer 1.</p>
+<p> Previous intervention studies have administered spironolactone (or other drugs) at the onset of hypertension, which does not reflect the clinical scenario where patients present with established hypertension and left ventricular hypertrophy. Our model more accurately reflects this. We used a dose for the rats equivalent to the standard human dose. Previous animal studies with spironolactone use supra-physiological doses (often 10 to 100 fold higher than what would be an equivalent human dose) and these are administered either subcutaneously (osmotic pumps) or intra-peritoneally, when spironolactone has no evidence for efficacy other than by oral administration as was used in this study.  </p>
+<p>Comments</p>
+<p>1. The title does not imply the aim and results exactly. The effect of spironolactone should be reflected in the title.</p>
+<p>Thank you for this. The title has been changed appropriately.</p>
+<p>2. Myo-GLS is more sensitive to the myocardial fibrosis, as shown in Fig 5. However, in the mid portion of the myocardium, cardiac fiber may be located in the circumferential positions rather than longitudinal positions. Please explain the discrepancy between functional and pathological behaviors. </p>
+<p>Myocardial global longitudinal strain measures contractile activity in real-time, and cardiac fibers are not static, rather they contract in a 3 dimensional response. This is picked up and allowed for in the global longitudinal strain analysis. Therefore any alterations in contractility related to fibrosis would still be observed. </p>
+<p>3. In addition, the transmural distribution of fibrosis is needed to conclude your findings.</p>
+<p>Serial sections were analysed for the extent of fibrosis and we focused on the myocardial component rather than including epi and endocardial regions as these were too small to be of significance. Figure 3 demonstrates the regions of interest.</p>
+<p>4. This technique may have limitations in reproducibility of strain measurements. The intra- and inter-observers&#8217; variabilities should be clarified.</p>
+<p>The echo analyses were undertaken blinded by two of the investigators (MM, SC). The inter-observer and intra-observer interclass variability correlation coefficients were 96% and 97% respectively.</p>
+<supplementary-material id="pone.0220837.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220837.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">PLos One response.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0220837.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220837.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Lionetti</surname>
+<given-names>Vincenzo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vincenzo Lionetti</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220837" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">25 Jul 2019</named-content>
+</p>
+<p>Myocardial global longitudinal strain: an early indicator of cardiac interstitial fibrosis modified by spironolactone, in a unique hypertensive rat model.</p>
+<p>PONE-D-19-14918R1</p>
+<p>Dear Dr. Walker,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Vincenzo Lionetti, M.D., PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: Authors politely addressed my questions and comments asked. The manuscript has been improved, then,I have no further comments.</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Flora Pirozzi</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0220837.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220837.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Lionetti</surname>
+<given-names>Vincenzo</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vincenzo Lionetti</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220837" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">2 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-14918R1 </p>
+<p>Myocardial global longitudinal strain: an early indicator of cardiac interstitial fibrosis modified by spironolactone, in a unique hypertensive rat model. </p>
+<p>Dear Dr. Walker:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Prof. Vincenzo Lionetti  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

@@ -1,0 +1,1456 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222141</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-16847</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body weight</subject><subj-group><subject>Birth weight</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body weight</subject><subj-group><subject>Birth weight</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Fats</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Research design</subject><subj-group><subject>Cohort studies</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Computational biology</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genome-wide association studies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genome-wide association studies</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Human genetics</subject><subj-group><subject>Genome-wide association studies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Age groups</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Families</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Maternal health</subject><subj-group><subject>Birth</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Obstetrics and gynecology</subject><subj-group><subject>Birth</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Human genetics</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>The effect of birth weight on body composition: Evidence from a birth cohort and a Mendelian randomization study</article-title>
+<alt-title alt-title-type="running-head">Birth weight on body composition</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Junxi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6136-1836</contrib-id>
+<name name-style="western">
+<surname>Au Yeung</surname>
+<given-names>Shiu Lun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>He</surname>
+<given-names>Baoting</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kwok</surname>
+<given-names>Man Ki</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Leung</surname>
+<given-names>Gabriel Matthew</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-9933-5887</contrib-id>
+<name name-style="western">
+<surname>Schooling</surname>
+<given-names>C. Mary</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Public Health, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>City University of New York Graduate School of Public Health and Health Policy, New York, New York, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Meyre</surname>
+<given-names>David</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>McMaster University, CANADA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">cms1@hku.hk</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>10</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222141</elocation-id>
+<history>
+<date date-type="received">
+<day>14</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>22</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Liu et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222141" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Lower birth weight is associated with diabetes although the underlying mechanisms are unclear. Muscle mass could be a modifiable link and hence a target of intervention. We assessed the associations of birth weight with muscle and fat mass observationally in a population with little socio-economic patterning of birth weight and using Mendelian randomization (MR) for validation.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>In the population-representative &#8220;Children of 1997&#8221; birth cohort (n = 8,327), we used multivariable linear regression to assess the adjusted associations of birth weight (kg) with muscle mass (kg) and body fat (%) at ~17.5 years. Genetically predicted birth weight (effect size) was applied to summary genetic associations with fat-free mass and fat mass (kg) from the UK Biobank (n = ~331,000) to obtain unconfounded estimates using inverse-variance weighting.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Observationally, birth weight was positively associated with muscle mass (3.29 kg per kg birth weight, 95% confidence interval (CI) 2.83 to 3.75) and body fat (1.09% per kg birth weight, 95% CI 0.54 to 1.65). Stronger associations with muscle mass were observed in boys than in girls (p for interaction 0.004). Using MR, birth weight was positively associated with fat-free mass (0.77 kg per birth weight z-score, 95% CI 0.22 to 1.33) and fat mass (0.58, 95% CI 0.01 to 1.15). No difference by sex was evident.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>Higher birth weight increasing muscle mass may be relevant to lower birth weight increasing the risk of diabetes and suggests post-natal muscle mass as a potential target of intervention.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Health Care and Promotion Fund, Health and Welfare Bureau, Government of the Hong Kong SAR</institution>
+</funding-source>
+<award-id>HCPF grant 216106</award-id>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Health and Health Services Research Fund, Government of the Hong Kong SAR</institution>
+</funding-source>
+<award-id>HHSRF grant 03040771</award-id>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution>Research Fund for the Control of Infectious Diseases in Hong Kong, the Government of Hong Kong SAR</institution>
+</funding-source>
+<award-id>RFCID grant 04050172</award-id>
+</award-group>
+<award-group id="award004">
+<funding-source>
+<institution>University Research Committee Strategic Research Theme (SRT) of Public Health, the University of Hong Kong</institution>
+</funding-source>
+</award-group>
+<award-group id="award005">
+<funding-source>
+<institution>WYNG Foundation</institution>
+</funding-source>
+</award-group>
+<funding-statement>This work is a substudy of the &#8220;Children of 1997&#8221; birth cohort which was initially supported by the Health Care and Promotion Fund, Health and Welfare Bureau, Government of the Hong Kong SAR [HCPF grant 216106] and reestablished in 2005 with support from the Health and Health Services Research Fund, Government of the Hong Kong SAR [HHSRF grant 03040771]; the Research Fund for the Control of Infectious Diseases in Hong Kong, the Government of Hong Kong SAR [RFCID grant 04050172]; the University Research Committee Strategic Research Theme (SRT) of Public Health, the University of Hong Kong. The Biobank clinical follow-up was partly supported by the WYNG Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="3" />
+<table-count count="2" />
+<page-count count="14" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Data are available upon request from the &#8220;Children of 1997&#8221; data access committee: <email ns0:type="simple">aprmay97@hku.hk</email>. The volume and complexity of the data collected preclude public data deposition, because the participants could be identifiable from such extensive data which would comprise participant privacy. Data of the MR study are publicly available summary data.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Observationally, lower birth weight is associated with higher risk of many chronic diseases including cardiovascular disease, diabetes and poor liver function,[<xref ref-type="bibr" rid="pone.0222141.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222141.ref004">4</xref>] but is also associated with lower risk of hormone-related cancers including breast and prostate cancer.[<xref ref-type="bibr" rid="pone.0222141.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222141.ref006">6</xref>] Although these observations are open to confounding by factors such as socio-economic position (SEP), different associations by diseases suggest some of these associations may be causal. Mendelian randomization (MR) studies, taking advantages of the random allocation of genetic endowment at conception to obtain un-confounded estimates,[<xref ref-type="bibr" rid="pone.0222141.ref007">7</xref>] suggest an inverse association of birth weight with diabetes,[<xref ref-type="bibr" rid="pone.0222141.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0222141.ref004">4</xref>] but practical implications for prevention are unclear given birth weight is a complex phenotype. Elucidating the pathways linking birth weight with diabetes may provide additional insights into the identification of intervention targets, since birth weight is difficult to change[<xref ref-type="bibr" rid="pone.0222141.ref008">8</xref>] and does not have an &#8220;optimal&#8221; definition.[<xref ref-type="bibr" rid="pone.0222141.ref009">9</xref>]</p>
+<p>Observationally, birth weight is positively associated with muscle mass in both teenagers and adults.[<xref ref-type="bibr" rid="pone.0222141.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0222141.ref011">11</xref>] Randomized controlled trials shows resistance training increases muscle mass and improves Hemoglobin A1c.[<xref ref-type="bibr" rid="pone.0222141.ref012">12</xref>] As such, muscle mass could be a modifiable downstream effect of birth weight, partially driven by sex hormones,[<xref ref-type="bibr" rid="pone.0222141.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0222141.ref014">14</xref>] potentially with sex-specific effects, consistent with the associations of lower birth weight with lower risk of breast and prostate cancers.[<xref ref-type="bibr" rid="pone.0222141.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222141.ref006">6</xref>] However, previous observational studies assessing the role of birth weight in muscle mass sometimes adjusted for factors on the causal pathway, such as body mass index (BMI), height and physical activity, but may not fully adjusted for SEP.[<xref ref-type="bibr" rid="pone.0222141.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0222141.ref016">16</xref>]</p>
+<p>To clarify the role of birth weight in body composition, we conducted two analyses with different assumptions and study designs (<xref ref-type="fig" rid="pone.0222141.g001">Fig 1</xref>). First, in an observational setting, we prospectively assessed the overall and sex-specific associations of birth weight with body composition (muscle mass, grip strength, and fat percentage) in a unique population, Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort. In Hong Kong, the usual associations of higher SEP with higher birth weight and greater gestational age are almost absent,[<xref ref-type="bibr" rid="pone.0222141.ref017">17</xref>] and obesity has little socio-economic patterning in young people.[<xref ref-type="bibr" rid="pone.0222141.ref018">18</xref>] Therefore, Hong Kong is an ideal setting to assess the associations of birth weight and gestational age with body composition. We also assessed whether these associations differed by sex given the sex-difference in body composition since such differences are likely interpretable even when associations are confounded.[<xref ref-type="bibr" rid="pone.0222141.ref019">19</xref>] Second, using an MR design, we validated our findings, by assessing the associations of birth weight predicted by maternal genetics independent of fetal genetics, as a proxy of maternal intrauterine environment,[<xref ref-type="bibr" rid="pone.0222141.ref020">20</xref>] on body composition (fat-free mass, grip strength, and fat mass) in the largest publicly available genome wide association study (GWAS).[<xref ref-type="bibr" rid="pone.0222141.ref021">21</xref>] Taking advantage of the random allocation of genetic endowment at conception, MR studies provide un-confounded estimates and give the result of a lifelong difference in the risk factor between groups.[<xref ref-type="bibr" rid="pone.0222141.ref007">7</xref>]</p>
+<fig id="pone.0222141.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222141.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Directed acyclic graph of the observational analysis and the Mendelian randomization analysis.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Material and methods</title>
+<sec id="sec007">
+<title>Ethics statement</title>
+<p>Ethical approval for the study, including comprehensive health related analyses, was obtained from Institutional Review Board of the University of Hong Kong/Hospital Authority Hong Kong West Cluster (HKU/HA HKW IRB). Informed written consent was obtained from the parents/guardians, or from the participant if 18 years or older, before participation in the Biobank Clinical Follow-up.</p>
+<p>The MR study only uses published or publicly-available data. No original data were collected for the MR study. Ethical approval for each of the studies included in the investigation can be found in the original publications (including informed consent from each participant).</p>
+</sec>
+<sec id="sec008">
+<title>Observational study&#8212;The &#8220;Children of 1997&#8221; birth cohort</title>
+<p>&#8220;Children of 1997&#8221; is a population-representative Chinese birth cohort (n = 8327), based on 88% of births in Hong Kong in April and May 1997.[<xref ref-type="bibr" rid="pone.0222141.ref022">22</xref>] The original study was designed to assess the associations of second-hand smoke exposure and breastfeeding with health services utilization in the first 18 months of life. Recruitment took place at all Maternal and Child Health Centers (MCHCs) in Hong Kong. Parents are strongly encouraged to take their children to the MCHCs for free preventive care and vaccinations to age 5 years. Parental and infant characteristics were obtained at recruitment. Contact was re-established in 2007. A Biobank clinical follow-up was conducted from 2013&#8211;2016 at ~17.5 years, when body composition was assessed from bio-impedance analysis using a Tanita segmental body composition monitor (Tanita BC-545, Tanita Co., Tokyo, Japan). Grip strength was measured using a Takei T.K.K.5401 GRIP D handgrip dynamometer (Takei Scientific Instruments Co. Ltd, Tokyo, Japan).</p>
+<sec id="sec009">
+<title>Exposure&#8212;Birth weight, gestational age-specific birth weight z-score, and gestational age</title>
+<p>Birth weight recorded in grams was considered in kilograms and as internally generated gestational age-specific birth weight z-scores. Gestational age recorded in days was considered in weeks. Gestational age was calculated from the actual and expected dates of delivery reported by the mothers or primary caregivers at the initial MCHCs visit. The reported expected date of delivery is based on the date of the last menstrual period and any dating scans.</p>
+</sec>
+<sec id="sec010">
+<title>Outcome&#8212;Body composition</title>
+<p>Muscle was assessed from whole-body muscle mass (kg), and dominant hand grip strength (kg). Fat mass was assessed from body fat percentage.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Mendelian randomization study</title>
+<sec id="sec012">
+<title>Exposure&#8212;Genetic predictors of maternal only effects on birth weight</title>
+<p>Single nucleotide polymorphisms (SNPs) predicting maternal effects on birth weight independent of fetal genetics (z-score transformed) at genome-wide significance (p-value&lt;5&#215;10<sup>&#8722;8</sup>) adjusted for gestational age where available (only available in &lt;15% of the sample) and study-specific covariates were obtained from a GWAS consisting of two components, the Early Growth Genetics (EGG) Consortium (n = 12,319, 10 studies in the EGG consortium of European descent imputed up to the HapMap 2 reference panel, and n = 7,542, 2 studies in of European descent imputed up to the HRC panel) and the UK Biobank (n = 190,406, white European). A structural equation model was used to decompose the contributions of maternal genetic and fetal effects on birth weight (264,498 individuals own birth weight and 179,360 individuals offspring birth weight).[<xref ref-type="bibr" rid="pone.0222141.ref020">20</xref>]</p>
+<p>We obtained independent SNPs (R<sup>2</sup>&gt;0.01) with the lowest p-value using the &#8220;<italic>Clumping&#8221;</italic> function of the MR-Base (<italic>TwoSampleMR</italic>) R package, with the 1000 Genomes catalog.[<xref ref-type="bibr" rid="pone.0222141.ref023">23</xref>] Potentially pleiotropic effects of these SNPs were obtained from up-to-date genotype to phenotype cross-references, i.e., GWAS Catalog (<ext-link ext-link-type="uri" ns0:href="https://www.ebi.ac.uk/gwas/" ns0:type="simple">https://www.ebi.ac.uk/gwas/</ext-link>), Ensembl (<ext-link ext-link-type="uri" ns0:href="http://www.ensembl.org/index.html" ns0:type="simple">http://www.ensembl.org/index.html</ext-link>) and Phenoscanner (<ext-link ext-link-type="uri" ns0:href="http://www.phenoscanner.medschl.cam.ac.uk/" ns0:type="simple">http://www.phenoscanner.medschl.cam.ac.uk/</ext-link>). We also checked for potential pleiotropic effects and confounding of these SNPs from the Bonferroni corrected significance (12 traits &#215; 30 SNPs, p-value&lt;1&#215;10<sup>&#8722;4</sup>) of their associations with alcohol consumption (past and current), smoking (past and current), physical activity (light, moderate, and vigorous), socioeconomic position (income and education), age of voice braking, age of menarche, and height in the UK Biobank summary statistics.[<xref ref-type="bibr" rid="pone.0222141.ref021">21</xref>]</p>
+</sec>
+<sec id="sec013">
+<title>Outcome&#8212;Genetic associations with body composition</title>
+<p>Genetic associations with fat-free mass (kg), grip strength (kg) (left and right hand), and fat mass (kg) were obtained from the UK Biobank (~331,000 people of genetically verified white British ancestry). The genetic associations were assessed from multivariable linear regression adjusted for the first 20 principal components, sex, age, age-squared, the sex and age interaction and the sex and age-squared interaction.[<xref ref-type="bibr" rid="pone.0222141.ref021">21</xref>]</p>
+</sec>
+</sec>
+<sec id="sec014">
+<title>Statistical analyses</title>
+<sec id="sec015">
+<title>Observational analyses</title>
+<p>We compared &#8220;Children of 1997&#8221; who were included and excluded on baseline characteristics using chi-squared tests, and Cohen effect sizes[<xref ref-type="bibr" rid="pone.0222141.ref024">24</xref>] to obtain the magnitude of the differences between groups. Cohen effect sizes are usually categorized as 0.20 for small, 0.50 for medium and 0.80 for large for continuous variables, and as 0.10 for small, 0.30 for medium and 0.50 for large for categorical variables.</p>
+<p>The associations of muscle mass, grip strength and fat percentage with potential confounders were assessed using independent t-tests or analysis of variance for continuous variables and chi-square tests for categorical variables. We used multivariable linear regression to obtain the observational associations of birth weight, birth weight z-score and gestational age with body composition adjusting for second-hand and maternal smoking, parental education, parental occupation, household income, type of housing, and sex. We additionally adjusted for gestational age in the association of birth weight with body composition. Sex differences were assessed from the significance of interaction terms adjusted for the other potential confounding interactions with sex.</p>
+<p>Taking missingness into account, multiple imputation and inverse probability weighting were applied.[<xref ref-type="bibr" rid="pone.0222141.ref025">25</xref>] Firstly, we created 20 sets of imputed data accounting for missing confounders and exposures for all participants. Secondly, logistic regression was used to predict loss-to-follow-up based on gestational age (log-transformed because of the long tail of the distribution), second-hand and maternal smoking, sex, type of housing, type of hospital at delivery, maternal migrant status, maternal age, and, breastfeeding with the lowest Akaike information criterion value. We also used the Hosmer-Lemeshow test to check model fit. Additionally, weights were checked to ensure acceptable stability. Unstable weights indicate model misspecification.[<xref ref-type="bibr" rid="pone.0222141.ref025">25</xref>] Lastly, we combined each inverse probability weighting effect estimator and its corresponding sandwich variance estimator according to Rubin&#8217;s Rules.[<xref ref-type="bibr" rid="pone.0222141.ref026">26</xref>]</p>
+</sec>
+<sec id="sec016">
+<title>Mendelian randomization</title>
+<p>The strength of the genetic instruments was assessed from the <italic>F</italic>-statistic, obtained using an approximation (square of SNP on exposure divided by variance of SNP on exposure).[<xref ref-type="bibr" rid="pone.0222141.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0222141.ref028">28</xref>] A higher <italic>F</italic>-statistic indicates a lower risk of weak instrument bias.[<xref ref-type="bibr" rid="pone.0222141.ref027">27</xref>] The effects of birth weight on the outcomes were obtained from a meta-analysis of SNP-specific Wald estimates (SNP-outcome association divided by SNP-exposure association) using inverse variance weighting with multiplicative random effects assuming balanced pleiotropy. Heterogeneity of the Wald estimates was assessed from the <italic>I</italic><sup><italic>2</italic></sup> statistic, where a high <italic>I</italic><sup><italic>2</italic></sup> may indicate the presence of invalid SNPs.[<xref ref-type="bibr" rid="pone.0222141.ref029">29</xref>] Differences by sex were additionally assessed.[<xref ref-type="bibr" rid="pone.0222141.ref030">30</xref>] Power calculations were performed using the approximation that the sample size for Mendelian randomization equates to that of the same regression analysis with the sample size divided by the r<sup>2</sup> for genetic variant on exposure.[<xref ref-type="bibr" rid="pone.0222141.ref031">31</xref>]</p>
+</sec>
+<sec id="sec017">
+<title>Sensitivity analyses relevant to the observational designs</title>
+<p>A complete case analysis was conducted as a validation without taking missingness into account.</p>
+</sec>
+<sec id="sec018">
+<title>Sensitivity analyses relevant to Mendelian randomization</title>
+<p>As sensitivity analyses, we excluded SNPs which may be invalid. These included 1)SNPs associated with potentially pleiotropic effects on muscle or fat given in Ensembl or the GWAS Catalog; 2) SNPs associated with potential confounders and/or pleiotropic effects in the UK Biobank at Bonferroni corrected significance (p-value&lt;1&#215;10<sup>&#8722;4</sup>) and in PhenoScanner (p-value &lt;1&#215;10<sup>&#8722;5</sup>).</p>
+<p>Estimates were obtained from sensitivity analyses with different assumptions.</p>
+<p>Specifically, we used a weighted median which may generate correct estimates if &gt;50% of weight is contributed by valid SNPs.[<xref ref-type="bibr" rid="pone.0222141.ref032">32</xref>] MR-Egger was used which generates correct estimates if all the SNPs are invalid instruments as long as the instrument strength independent of direct effect assumption is satisfied.[<xref ref-type="bibr" rid="pone.0222141.ref029">29</xref>] A non-null intercept from MR-Egger indicates potential directional pleiotropy and an invalid inverse variance weighting estimate.[<xref ref-type="bibr" rid="pone.0222141.ref032">32</xref>] The Mendelian randomization pleiotropy residual sum and outlier (MR-PRESSO) was additionally used, which detects and corrects for pleiotropic outliers assuming &gt;50% of the instruments are valid, balanced pleiotropy and the instrument strength independent of direct effect assumption are satisfied.[<xref ref-type="bibr" rid="pone.0222141.ref033">33</xref>, <xref ref-type="bibr" rid="pone.0222141.ref034">34</xref>]</p>
+<p>All statistical analyses were conducted using R version 3.4.2 (R Foundation for Statistical Computing, Vienna, Austria). The R packages <italic>MendelianRandomization</italic> [<xref ref-type="bibr" rid="pone.0222141.ref035">35</xref>] and <italic>MRPRESSO</italic> [<xref ref-type="bibr" rid="pone.0222141.ref034">34</xref>] were used to generate the estimates.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec019" sec-type="results">
+<title>Results</title>
+<sec id="sec020">
+<title>Children of 1997</title>
+<p>Among the originally recruited 8327 participants, 6850 are contactable and living in Hong Kong. 3460 (51%) participated in the Biobank clinical follow-up, of which 3455 had muscle mass, grip strength or fat percentage (<xref ref-type="fig" rid="pone.0222141.g002">Fig 2</xref>). The mean and standard deviation (SD) of muscle mass, grip strength and fat percentage were 42.6kg (SD 8.8kg), 25.8kg (SD 8.3kg) and 21.7% (SD 8.8%). Boys had higher muscle mass and grip strength but lower fat percentage than girls. Body composition had little association with SEP (<xref ref-type="table" rid="pone.0222141.t001">Table 1</xref>). Differences between participants included and excluded from the study were found for gestational age, sex, second-hand and maternal smoking exposure, and SEP using chi-squared tests, but the magnitude of these differences was small (Cohen effect size &lt;0.15) (<xref ref-type="supplementary-material" rid="pone.0222141.s001">S1 Table</xref>).</p>
+<fig id="pone.0222141.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222141.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Flowchart of the Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort, Hong Kong, China, 1997 to 2016.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.g002" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222141.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222141.t001</object-id>
+<label>Table 1</label> <caption><title>Baseline characteristics muscle mass, grip strength, and fat percentage among participants in Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort, Hong Kong, China, 1997 to 2016.</title></caption>
+<alternatives>
+<graphic id="pone.0222141.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" colspan="2" rowspan="2">Characteristics</th>
+<th align="center" colspan="4">Muscle mass (kg)</th>
+<th align="center" colspan="4">Grip strength (kg)</th>
+<th align="center" colspan="4">Fat percentage (%)</th>
+</tr>
+<tr>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">Mean (SD)</th>
+<th align="center"><italic>P-value</italic><xref ref-type="table-fn" rid="t001fn001"><sup><italic>a</italic></sup></xref></th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">Mean (SD)</th>
+<th align="center"><italic>P-value</italic><xref ref-type="table-fn" rid="t001fn001"><sup><italic>a</italic></sup></xref></th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">Mean (SD)</th>
+<th align="center"><italic>P-value</italic><xref ref-type="table-fn" rid="t001fn001"><sup><italic>a</italic></sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Muscle mass (kg)</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center">42.6 (8.8)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Grip strength (kg)</td>
+<td align="left" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">3444</td>
+<td align="center" />
+<td align="center">25.8 (8.3)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Fat percentage (%)</td>
+<td align="left" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">3452</td>
+<td align="center" />
+<td align="center">21.7 (8.8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Sex</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">&lt;0.001</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">&lt;0.001</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">&lt;0.001</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Girl</td>
+<td align="center">1707</td>
+<td align="center">49.6%</td>
+<td align="center">35.3 (3.4)</td>
+<td align="center" />
+<td align="center">1710</td>
+<td align="center">49.7%</td>
+<td align="center">19.9 (4.5)</td>
+<td align="center" />
+<td align="center">1714</td>
+<td align="center">49.7%</td>
+<td align="center">28.1 (5.9)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Boy</td>
+<td align="center">1733</td>
+<td align="center">50.4%</td>
+<td align="center">49.7 (6.3)</td>
+<td align="center" />
+<td align="center">1734</td>
+<td align="center">50.3%</td>
+<td align="center">31.6 (7.0)</td>
+<td align="center" />
+<td align="center">1738</td>
+<td align="center">50.3%</td>
+<td align="center">15.3 (6.4)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">0</td>
+<td align="center">0.0%</td>
+<td align="center">-</td>
+<td align="center" />
+<td align="center">0</td>
+<td align="center">0.0%</td>
+<td align="center">-</td>
+<td align="center" />
+<td align="center">0</td>
+<td align="center">0.0%</td>
+<td align="center">-</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Second-hand and maternal smoking exposure</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.07</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.77</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.17</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">None</td>
+<td align="center">940</td>
+<td align="center">27.3%</td>
+<td align="center">42.1 (8.4)</td>
+<td align="center" />
+<td align="center">939</td>
+<td align="center">27.3%</td>
+<td align="center">25.6 (8.1)</td>
+<td align="center" />
+<td align="center">943</td>
+<td align="center">27.3%</td>
+<td align="center">21.2 (8.5)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Prenatal second-hand smoking</td>
+<td align="center">1275</td>
+<td align="center">37.1%</td>
+<td align="center">42.7 (8.8)</td>
+<td align="center" />
+<td align="center">1276</td>
+<td align="center">37.0%</td>
+<td align="center">26.0 (8.4)</td>
+<td align="center" />
+<td align="center">1276</td>
+<td align="center">37.0%</td>
+<td align="center">21.6 (9.0)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Postnatal second-hand smoking</td>
+<td align="center">953</td>
+<td align="center">27.7%</td>
+<td align="center">43.0 (9.2)</td>
+<td align="center" />
+<td align="center">956</td>
+<td align="center">27.8%</td>
+<td align="center">25.7 (8.3)</td>
+<td align="center" />
+<td align="center">960</td>
+<td align="center">27.8%</td>
+<td align="center">22.0 (9.0)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Maternal smoking</td>
+<td align="center">128</td>
+<td align="center">3.7%</td>
+<td align="center">42.7 (8.8)</td>
+<td align="center" />
+<td align="center">128</td>
+<td align="center">3.7%</td>
+<td align="center">26.0 (8.2)</td>
+<td align="center" />
+<td align="center">128</td>
+<td align="center">3.7%</td>
+<td align="center">22.9 (8.6)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">144</td>
+<td align="center">4.2%</td>
+<td align="center">41.1 (8.6)</td>
+<td align="center" />
+<td align="center">145</td>
+<td align="center">4.2%</td>
+<td align="center">25.3 (8.7)</td>
+<td align="center" />
+<td align="center">145</td>
+<td align="center">4.2%</td>
+<td align="center">21.9 (9.0)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Highest parental education level</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.06</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.12</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.04</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Grade&lt; = 9</td>
+<td align="center">984</td>
+<td align="center">28.6%</td>
+<td align="center">42.2 (9.1)</td>
+<td align="center" />
+<td align="center">988</td>
+<td align="center">28.7%</td>
+<td align="center">25.4 (8.3)</td>
+<td align="center" />
+<td align="center">989</td>
+<td align="center">28.7%</td>
+<td align="center">22.2 (9.0)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Grades 10&#8211;11</td>
+<td align="center">1481</td>
+<td align="center">43.1%</td>
+<td align="center">42.4 (8.6)</td>
+<td align="center" />
+<td align="center">1483</td>
+<td align="center">43.1%</td>
+<td align="center">25.7 (8.4)</td>
+<td align="center" />
+<td align="center">1488</td>
+<td align="center">43.1%</td>
+<td align="center">21.6 (8.8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Grades&gt; = 12</td>
+<td align="center">959</td>
+<td align="center">27.9%</td>
+<td align="center">43.1 (8.9)</td>
+<td align="center" />
+<td align="center">957</td>
+<td align="center">27.8%</td>
+<td align="center">26.3 (8.1)</td>
+<td align="center" />
+<td align="center">959</td>
+<td align="center">27.8%</td>
+<td align="center">21.1 (8.7)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">16</td>
+<td align="center">0.5%</td>
+<td align="center">39.7 (7.3)</td>
+<td align="center" />
+<td align="center">16</td>
+<td align="center">0.5%</td>
+<td align="center">24.4 (6.8)</td>
+<td align="center" />
+<td align="center">16</td>
+<td align="center">0.5%</td>
+<td align="center">23.9 (8.6)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Highest parental occupation</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.32</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.04</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.12</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8544;(unskilled)</td>
+<td align="center">98</td>
+<td align="center">2.8%</td>
+<td align="center">41.9 (9.3)</td>
+<td align="center" />
+<td align="center">99</td>
+<td align="center">2.9%</td>
+<td align="center">25.4 (8.6)</td>
+<td align="center" />
+<td align="center">99</td>
+<td align="center">2.9%</td>
+<td align="center">21.8 (8.1)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8545;(semiskilled)</td>
+<td align="center">281</td>
+<td align="center">8.2%</td>
+<td align="center">43.0 (9.0)</td>
+<td align="center" />
+<td align="center">283</td>
+<td align="center">8.2%</td>
+<td align="center">26.4 (8.3)</td>
+<td align="center" />
+<td align="center">285</td>
+<td align="center">8.3%</td>
+<td align="center">21.9 (8.8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8546;(semiskilled)</td>
+<td align="center">503</td>
+<td align="center">14.6%</td>
+<td align="center">42.3 (9.0)</td>
+<td align="center" />
+<td align="center">504</td>
+<td align="center">14.6%</td>
+<td align="center">25.1 (8.4)</td>
+<td align="center" />
+<td align="center">503</td>
+<td align="center">14.6%</td>
+<td align="center">21.5 (8.8)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8546;(nonmanual skilled)</td>
+<td align="center">876</td>
+<td align="center">25.5%</td>
+<td align="center">42.4 (8.7)</td>
+<td align="center" />
+<td align="center">878</td>
+<td align="center">25.5%</td>
+<td align="center">25.4 (8.1)</td>
+<td align="center" />
+<td align="center">879</td>
+<td align="center">25.5%</td>
+<td align="center">22.2 (9.2)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8547; (managerial)</td>
+<td align="center">438</td>
+<td align="center">12.7%</td>
+<td align="center">43.2 (9.5)</td>
+<td align="center" />
+<td align="center">438</td>
+<td align="center">12.7%</td>
+<td align="center">26.5 (8.5)</td>
+<td align="center" />
+<td align="center">439</td>
+<td align="center">12.7%</td>
+<td align="center">22.2 (8.6)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">&#8548;(professional)</td>
+<td align="center">794</td>
+<td align="center">23.1%</td>
+<td align="center">42.8 (8.5)</td>
+<td align="center" />
+<td align="center">792</td>
+<td align="center">23.0%</td>
+<td align="center">26.2 (8.2)</td>
+<td align="center" />
+<td align="center">795</td>
+<td align="center">23.0%</td>
+<td align="center">21.0 (8.5)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">450</td>
+<td align="center">13.1%</td>
+<td align="center">42.0 (8.5)</td>
+<td align="center" />
+<td align="center">450</td>
+<td align="center">13.1%</td>
+<td align="center">25.3 (8.4)</td>
+<td align="center" />
+<td align="center">452</td>
+<td align="center">13.1%</td>
+<td align="center">21.5 (9.2)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Household income per head at recruitment</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.07</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.16</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.15</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">First quintile</td>
+<td align="center">566</td>
+<td align="center">16.5%</td>
+<td align="center">42.0 (8.5)</td>
+<td align="center" />
+<td align="center">572</td>
+<td align="center">16.6%</td>
+<td align="center">25.6 (8.5)</td>
+<td align="center" />
+<td align="center">571</td>
+<td align="center">16.5%</td>
+<td align="center">21.7 (8.9)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Second quintile</td>
+<td align="center">613</td>
+<td align="center">17.8%</td>
+<td align="center">41.9 (9.3)</td>
+<td align="center" />
+<td align="center">613</td>
+<td align="center">17.8%</td>
+<td align="center">25.0 (8.3)</td>
+<td align="center" />
+<td align="center">616</td>
+<td align="center">17.8%</td>
+<td align="center">22.2 (8.7)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Third quintile</td>
+<td align="center">616</td>
+<td align="center">17.9%</td>
+<td align="center">43.3 (8.8)</td>
+<td align="center" />
+<td align="center">617</td>
+<td align="center">17.9%</td>
+<td align="center">26.1 (8.3)</td>
+<td align="center" />
+<td align="center">618</td>
+<td align="center">17.9%</td>
+<td align="center">21.8 (9.1)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Fourth quintile</td>
+<td align="center">630</td>
+<td align="center">18.3%</td>
+<td align="center">42.7 (8.9)</td>
+<td align="center" />
+<td align="center">629</td>
+<td align="center">18.3%</td>
+<td align="center">25.9 (8.5)</td>
+<td align="center" />
+<td align="center">630</td>
+<td align="center">18.3%</td>
+<td align="center">21.2 (8.7)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Fifth quintile</td>
+<td align="center">644</td>
+<td align="center">18.7%</td>
+<td align="center">42.9 (8.6)</td>
+<td align="center" />
+<td align="center">642</td>
+<td align="center">18.6%</td>
+<td align="center">26.1 (7.9)</td>
+<td align="center" />
+<td align="center">645</td>
+<td align="center">18.7%</td>
+<td align="center">21.1 (8.5)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">371</td>
+<td align="center">10.8%</td>
+<td align="center">42.6 (9.0)</td>
+<td align="center" />
+<td align="center">371</td>
+<td align="center">10.8%</td>
+<td align="center">26.1 (8.3)</td>
+<td align="center" />
+<td align="center">372</td>
+<td align="center">10.8%</td>
+<td align="center">22.2 (9.2)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Type of housing at recruitment</td>
+<td align="center">3440</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.45</td>
+<td align="center">3444</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.44</td>
+<td align="center">3452</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.36</td>
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Public</td>
+<td align="center">1435</td>
+<td align="center">41.7%</td>
+<td align="center">42.5 (8.9)</td>
+<td align="center" />
+<td align="center">1440</td>
+<td align="center">41.8%</td>
+<td align="center">25.8 (8.5)</td>
+<td align="center" />
+<td align="center">1445</td>
+<td align="center">41.9%</td>
+<td align="center">21.9 (9.1)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Subsidized home ownership scheme</td>
+<td align="center">545</td>
+<td align="center">15.8%</td>
+<td align="center">42.2 (8.8)</td>
+<td align="center" />
+<td align="center">541</td>
+<td align="center">15.7%</td>
+<td align="center">25.2 (8.2)</td>
+<td align="center" />
+<td align="center">544</td>
+<td align="center">15.8%</td>
+<td align="center">22.0 (8.9)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Private</td>
+<td align="center">1355</td>
+<td align="center">39.4%</td>
+<td align="center">42.8 (8.8)</td>
+<td align="center" />
+<td align="center">1358</td>
+<td align="center">39.4%</td>
+<td align="center">25.9 (8.1)</td>
+<td align="center" />
+<td align="center">1358</td>
+<td align="center">39.3%</td>
+<td align="center">21.3 (8.5)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="center" />
+<td align="left">Unknown</td>
+<td align="center">105</td>
+<td align="center">3.1%</td>
+<td align="center">41.8 (8.8)</td>
+<td align="center" />
+<td align="center">105</td>
+<td align="center">3.0%</td>
+<td align="center">25.8 (8.7)</td>
+<td align="center" />
+<td align="center">105</td>
+<td align="center">3.0%</td>
+<td align="center">21.2 (8.7)</td>
+<td align="center" />
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup> Using independent t-test or analysis of variance for continuous variables and chi-square tests for categorical variables</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Observationally, birth weight and birth weight z-score were positively associated with muscle mass, grip strength, and, fat percentage. The associations were strengthened after adjusting for gestational age. Gestational age was not associated with muscle mass, grip strength or fat percentage. Associations with muscle muss differed by sex for birth weight z-score and birth weight adjusted for gestational age, with stronger associations in boys (<xref ref-type="table" rid="pone.0222141.t002">Table 2</xref>). Similar estimates were obtained in the complete case analyses (<xref ref-type="supplementary-material" rid="pone.0222141.s002">S2 Table</xref>).</p>
+<table-wrap id="pone.0222141.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222141.t002</object-id>
+<label>Table 2</label> <caption><title>Adjusted associations of birth weight, birth weight z-score and gestational age with body composition with inverse probability weighting (IPW) and multiple imputation (MI) in the Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort, Hong Kong, China, 1997 to 2016.</title></caption>
+<alternatives>
+<graphic id="pone.0222141.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Outcome</th>
+<th align="center" rowspan="2">Exposure</th>
+<th align="center" colspan="2">Sex-adjusted as confounder</th>
+<th align="center" rowspan="2">p-value of interaction with sex</th>
+<th align="center" colspan="2">Boys</th>
+<th align="center" colspan="2">Girls</th>
+</tr>
+<tr>
+<th align="center">Beta</th>
+<th align="center">95% CI</th>
+<th align="center">Beta</th>
+<th align="center">95% CI</th>
+<th align="center">Beta</th>
+<th align="center">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="4">Muscle mass (kg)</td>
+<td align="center">Birth weight (kg)</td>
+<td align="center">2.32</td>
+<td align="center">1.94 to 2.70</td>
+<td align="center">0.12</td>
+<td align="center">2.59</td>
+<td align="center">1.95 to 3.23</td>
+<td align="center">1.99</td>
+<td align="center">1.61 to 2.36</td>
+</tr>
+<tr>
+<td align="center">Birth weight z-score</td>
+<td align="center">1.29</td>
+<td align="center">1.12 to 1.47</td>
+<td align="center">0.002</td>
+<td align="center">1.54</td>
+<td align="center">1.25 to 1.83</td>
+<td align="center">1.01</td>
+<td align="center">0.84 to 1.17</td>
+</tr>
+<tr>
+<td align="center">Birth weight adjusted for gestational age</td>
+<td align="center">3.29</td>
+<td align="center">2.83 to 3.75</td>
+<td align="center">0.004</td>
+<td align="center">3.89</td>
+<td align="center">3.12 to 4.66</td>
+<td align="center">2.58</td>
+<td align="center">2.14 to 3.03</td>
+</tr>
+<tr>
+<td align="center">Gestational age (week)</td>
+<td align="center">0.00</td>
+<td align="center">-0.10 to 0.10</td>
+<td align="center">0.25</td>
+<td align="center">-0.06</td>
+<td align="center">-0.23 to 0.12</td>
+<td align="center">0.07</td>
+<td align="center">-0.04 to 0.17</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">Grip strength (kg)</td>
+<td align="center">Birth weight (kg)</td>
+<td align="center">1.39</td>
+<td align="center">0.95 to 1.84</td>
+<td align="center">0.36</td>
+<td align="center">1.58</td>
+<td align="center">0.86 to 2.30</td>
+<td align="center">1.16</td>
+<td align="center">0.66 to 1.66</td>
+</tr>
+<tr>
+<td align="center">Birth weight z-score</td>
+<td align="center">0.68</td>
+<td align="center">0.48 to 0.89</td>
+<td align="center">0.35</td>
+<td align="center">0.77</td>
+<td align="center">0.44 to 1.10</td>
+<td align="center">0.57</td>
+<td align="center">0.35 to 0.80</td>
+</tr>
+<tr>
+<td align="center">Birth weight adjusted for gestational age</td>
+<td align="center">1.75</td>
+<td align="center">1.22 to 2.29</td>
+<td align="center">0.29</td>
+<td align="center">2.01</td>
+<td align="center">1.14 to 2.87</td>
+<td align="center">1.43</td>
+<td align="center">0.83 to 2.02</td>
+</tr>
+<tr>
+<td align="center">Gestational age (week)</td>
+<td align="center">0.08</td>
+<td align="center">-0.04 to 0.20</td>
+<td align="center">0.89</td>
+<td align="center">0.09</td>
+<td align="center">-0.11 to 0.28</td>
+<td align="center">0.07</td>
+<td align="center">-0.06 to 0.21</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">Fat percentage</td>
+<td align="center">Birth weight (kg)</td>
+<td align="center">0.58</td>
+<td align="center">0.11 to 1.04</td>
+<td align="center">0.30</td>
+<td align="center">0.35</td>
+<td align="center">-0.32 to 1.01</td>
+<td align="center">0.85</td>
+<td align="center">0.20 to 1.50</td>
+</tr>
+<tr>
+<td align="center">Birth weight z-score</td>
+<td align="center">0.44</td>
+<td align="center">0.23 to 0.65</td>
+<td align="center">0.58</td>
+<td align="center">0.39</td>
+<td align="center">0.09 to 0.69</td>
+<td align="center">0.51</td>
+<td align="center">0.22 to 0.80</td>
+</tr>
+<tr>
+<td align="center">Birth weight adjusted for gestational age</td>
+<td align="center">1.09</td>
+<td align="center">0.54 to 1.65</td>
+<td align="center">0.69</td>
+<td align="center">1.00</td>
+<td align="center">0.20 to 1.79</td>
+<td align="center">1.23</td>
+<td align="center">0.46 to 2.00</td>
+</tr>
+<tr>
+<td align="center">Gestational age (week)</td>
+<td align="center">-0.09</td>
+<td align="center">-0.22 to 0.03</td>
+<td align="center">0.23</td>
+<td align="center">-0.17</td>
+<td align="center">-0.34 to 0.01</td>
+<td align="center">-0.01</td>
+<td align="center">-0.19 to 0.16</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Adjustment: second-hand and maternal smoking, highest parental education, parental occupation, household income, type of housing and sex.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec021">
+<title>Mendelian randomization</title>
+<sec id="sec022">
+<title>Genetic instruments for maternal only effects on birth weight</title>
+<p>Altogether, 30 SNPs independently predicted effects of maternal genetics net of infant genetics on birth weight (p-value&lt;5&#215;10<sup>&#8722;8</sup>) in people of European ancestry.[<xref ref-type="bibr" rid="pone.0222141.ref020">20</xref>] The average of SNP-specific <italic>F</italic> statistics was 79, and all were &gt;30 (<xref ref-type="supplementary-material" rid="pone.0222141.s003">S3 Table</xref>); the variance explained (r<sup>2</sup>) was 0.013. As such, the MR study had 80% power with 5% alpha to detect a difference of 0.04 of an effect size in fat-free mass and fat mass per z-score of birth weight.</p>
+<p>Of the 30 SNPs predicting birth weight, 5 palindromic SNPs were aligned (<xref ref-type="supplementary-material" rid="pone.0222141.s003">S3 Table</xref>); 5 SNPs had potentially pleiotropic effects, i.e., (height and metabolic response) in Ensembl or the GWAS Catalog. Of the remaining 25 SNPs, 15 remained after excluding SNPs related to height, menarche, income, and basal metabolic rate in the UK Biobank (p-value&lt;1&#215;10<sup>&#8722;4</sup>) and in PhenoScanner (p-value &lt;1&#215;10<sup>&#8722;5</sup>) (<xref ref-type="supplementary-material" rid="pone.0222141.s004">S4</xref> and <xref ref-type="supplementary-material" rid="pone.0222141.s005">S5</xref> Tables).</p>
+</sec>
+<sec id="sec023">
+<title>Mendelian randomization estimates</title>
+<p>Based on all 30 SNPs, genetically predicted birth weight (maternal effects net of infant effects) was positively associated with fat-free mass, fat mass, and grip strength. No sex differences were evident. After excluding 5 potentially pleiotropic SNPs, the positive associations remained, however, the associations were not robust after additionally excluding 10 potentially pleiotropic and confounded SNPs (<xref ref-type="supplementary-material" rid="pone.0222141.s005">S5 Table</xref>). Detecting and correcting for pleiotropic outliers, MR-PRESSO indicated robust positive estimates, in particular with fat mass (<xref ref-type="fig" rid="pone.0222141.g003">Fig 3</xref>). MR-Egger had wider confidence intervals but had no indication of potential pleiotropy (<xref ref-type="supplementary-material" rid="pone.0222141.s005">S5 Table</xref>).</p>
+<fig id="pone.0222141.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222141.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Mendelian randomization estimates of the effect of genetically predicted birth weight (maternal effects net of infant effects) (per z-score) on body composition with and without potentially pleiotropic SNPs and potentially confounded SNPs using MR-PRESSO.</title>
+<p>SNP = 30: all SNPs; SNP = 25, excluding maternal genotype related SNPs, and potential pleiotropic SNPs from GWAS catalog and Ensembl: rs560887 (<italic>G6PC2</italic>), rs2971669 (<italic>GCK</italic>), rs148982377 (<italic>ZNF789</italic>), rs2168101 (<italic>LMO1</italic>), rs10830963 (<italic>MTNR1B</italic>); excluding potential pleiotropic and/or confounded SNPs in UK Biobank in Bonferroni corrected significance (p-value&lt;1&#215;10<sup>&#8722;4</sup>) and in PhenoScanner (p-value&lt;1&#215;10<sup>&#8722;5</sup>): rs934232 (<italic>ZFP36L2</italic>), rs34471628 (<italic>DUSP1</italic>), rs9379084 (<italic>RREB1</italic>), rs6911024 (<italic>MICA</italic>), rs6995390 (<italic>ZFHX4</italic>), rs10814916 (<italic>GLIS3</italic>), rs111867185 (<italic>AGBL2</italic>), rs6487930 (<italic>IPO8</italic>), rs180438 (<italic>SLC38A4</italic>), rs597808 (<italic>ATXN2</italic>). MR-PRESSO: Mendelian randomization pleiotropy residual sum and outlier.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.g003" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="sec024" sec-type="conclusions">
+<title>Discussion</title>
+<p>Using two different designs, with different assumptions and data sources, we found consistent evidence that birth weight was positively associated with muscle mass (fat-free mass), grip strength and fat percentage (fat mass). These findings are consistent with previous observational studies,[<xref ref-type="bibr" rid="pone.0222141.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0222141.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0222141.ref037">37</xref>] but add by validating these observations in a setting with little socioeconomic patterning of birth weight and the use of MR.</p>
+<p>These two study designs have contrasting limitations. First, residual confounding could not be ruled out in the observational design. SEP is hard to measure precisely and eliminate. In Hong Kong, the usual positive association of SEP with birth weight and gestational age is almost absent,[<xref ref-type="bibr" rid="pone.0222141.ref017">17</xref>] and SEP has little association with adiposity in young people.[<xref ref-type="bibr" rid="pone.0222141.ref018">18</xref>] However, other familial factors might affect birth weight and body composition.[<xref ref-type="bibr" rid="pone.0222141.ref038">38</xref>, <xref ref-type="bibr" rid="pone.0222141.ref039">39</xref>] It is also difficult to disentangle correlated factors reliably in an observational study. Second, follow-up was incomplete (51%). Selection bias is unlikely, given no major difference between the participants with and without body composition indices. Moreover, differences by sex were observed, which are less open to confounding.[<xref ref-type="bibr" rid="pone.0222141.ref019">19</xref>] Third, MR studies have stringent assumptions, i.e., the genetic instruments should strongly predict the exposure, should not be confounded and should only be linked with the outcomes via the exposure. To examine the robustness of our findings, we excluded SNPs which may have pleiotropic effects or be associated with potential confounders, and the results were similar. MR-PRESSO also gave consistently positive sex-specific estimates after taking potential pleiotropy into account (<xref ref-type="fig" rid="pone.0222141.g003">Fig 3</xref>). Although some of the <italic>I</italic><sup><italic>2</italic></sup> were large, after excluding potentially pleiotropic and/or confounded SNPs, they became smaller. MR-Egger regression did not show directional pleiotropy even though the intercept test might be underpowered. Fourth, the overlap of the GWAS of birth weight with UK Biobank is ~90%, which might bias estimates towards the exposure-outcome association, nevertheless, the <italic>F</italic> statistic was 79 suggesting weak instrument bias is less likely.[<xref ref-type="bibr" rid="pone.0222141.ref027">27</xref>] Fifth, the MR study mainly pertains to people of European ancestry. However, restricting the MR study to the European ancestry could mitigate the potential confounding bias caused by hidden population structure, if the genetic associations vary by ethnic groups.[<xref ref-type="bibr" rid="pone.0222141.ref040">40</xref>] Ethnic differences between the MR study and the observational study is another concern, although we usually expect causal factors to act consistently across populations, unless we have evidence that the causal mechanism differs or is less relevant in some specific populations. Given the distribution of body composition varies by ethnicity, it is possible that the drivers of body composition also vary by ethnicity. However, more parsimoniously, it is likely that the drivers of body composition are similar across populations but their relevance varies. However, causes are usually consistent although not relevant in all contexts. Replicating the MR study in a Chinese population would be very helpful. Sixth, using summary statistics from different samples in the MR study means differences by age and sex could not be comprehensively assessed since no sex-specific genetic predictors of birth weight are available and hence we were only able to assess differences by sex observationally. Seventh, canalization might compensate for genetic variation in birth weight. However, whether such canalization exists is unknown. Eighth, MR provides an estimate of the effect of lifetime exposure rather than indicating the exact size of the corresponding intervention, as such it indicates an etiological pathway. Birth weight is affected by maternal and fetal genetics.[<xref ref-type="bibr" rid="pone.0222141.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0222141.ref041">41</xref>, <xref ref-type="bibr" rid="pone.0222141.ref042">42</xref>] We used maternal genetics predictors net of infant genetics so the associations found with offspring body composition indicate the role of the intrauterine environment. Whether the intrauterine environment is a modifiable target of intervention, or whether subsequent consequences of the intrauterine environment would be more suitable for intervention requires investigation. Lastly, different genetic effects by generation is a concern. Given summary data was used, the genetic effects of maternal genetics net of infant genetics with offspring body composition were approximated by the genetic effects of maternal genetics net of infant genetics with maternal body composition. However, effects of genetic are likely consistent across generations.[<xref ref-type="bibr" rid="pone.0222141.ref043">43</xref>] We cannot rule out the possibility of the gene-environmental and/or gene-gene interactions leading to heritable epigenetic changes, which requires further exploration with individual maternal and infant genetic data.[<xref ref-type="bibr" rid="pone.0222141.ref043">43</xref>]</p>
+<p>Positive associations of birth weight with body composition seem intuitive and might arise for several reasons. Development before birth is critical for skeletal muscle and adiposity. Specifically, myogenesis forms most fiber, and muscle fiber numbers do not increase after birth.[<xref ref-type="bibr" rid="pone.0222141.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0222141.ref044">44</xref>] Similarly, fat cell number is complete at birth and postnatal fat mass is mainly via increasing adipocyte size.[<xref ref-type="bibr" rid="pone.0222141.ref045">45</xref>, <xref ref-type="bibr" rid="pone.0222141.ref046">46</xref>] Mechanisms driving differential development of muscle and fat cells before birth are unclear, but likely related to nutrition, acting via hormones. We have previously proposed that lower levels of androgens might cause higher diabetes risks via lower muscle mass.[<xref ref-type="bibr" rid="pone.0222141.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0222141.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0222141.ref047">47</xref>] Lower birth weight might indicate lower levels of androgens thus generating positive associations of birth weight with muscle mass and the stronger associations in men seen in both the observational and MR designs, although a difference by sex was not evident in the MR design. From an etiological perspective, a causal association of birth weight with muscle mass provides a potential mechanistic, a modifiable pathway from lower birth weight to higher diabetes risks.[<xref ref-type="bibr" rid="pone.0222141.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0222141.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0222141.ref047">47</xref>] Given birth weight is difficult to change, such findings suggest that muscle building might reduce diabetes risk due to lower birth weight. Such a mechanism, might also help explain a higher risk of diabetes in Asia with low prevalence of obesity, lower birth weight, and lower muscle mass than in western settings.[<xref ref-type="bibr" rid="pone.0222141.ref048">48</xref>&#8211;<xref ref-type="bibr" rid="pone.0222141.ref052">52</xref>] Asians have more than double the risk of developing diabetes than Europeans at the same BMI.[<xref ref-type="bibr" rid="pone.0222141.ref048">48</xref>] However, it is possible that the observed associations do not extend to the extremes of the birth weight distribution, where birth weight may be a symptom of specific pathology. Given this is likely to be rare, we do not have sufficient sample size to assess this possibility. These findings are consistent with the idea of evolutionary public health, i.e., that the trade-off of growth and reproduction against longevity may inform understanding of chronic diseases and the identification of interventions.</p>
+</sec>
+<sec id="sec025" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Higher birth weight might increase fat-free mass and fat mass. Our study provides some indications that low fat-free mass may explain why lower birth weight increases diabetes risk and suggests muscle building as an attractive target of intervention.</p>
+</sec>
+<sec id="sec026">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222141.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Baseline characteristics of the participants who were included (n = 3455) and excluded (n = 4872) in the analyses of the Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort, Hong Kong, China, 1997 to 2016.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222141.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Adjusted associations of birth weight, birth weight z-score and gestational age with body composition in complete case analysis in the Hong Kong&#8217;s &#8220;Children of 1997&#8221; birth cohort, Hong Kong, China, 1997 to 2016.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222141.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s003" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Single nucleotide polymorphisms (SNPs) independently predicted effects of maternal genetics net of infant genetics on birth weight in Europeans from the Early Growth Genetics (EGG) Consortium (p-value&lt;5&#215;10<sup>&#8722;8</sup>).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222141.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s004" ns0:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Single nucleotide polymorphisms (SNPs) with potential pleiotropic effects, and/or potential confounders from Ensembl, GWAS Catalog, PhenoScanner, and UK Biobank.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222141.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s005" ns0:type="simple">
+<label>S5 Table</label>
+<caption>
+<title>Estimates of the effect of genetically predicted birth weight (maternal effects net of infant effects) (per z-score) on body composition with and without potentially pleiotropic single nucleotide polymorphisms (SNPs) and potentially confounded SNPs using Mendelian randomization with different methodological approaches.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank colleagues at the Student Health Service and Family Health Service of the Department of Health for their assistance and collaboration. They also thank late Dr. Connie O for coordinating the project and all the fieldwork for the initial study in 1997&#8211;1998.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222141.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Risnes</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Vatten</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Jameson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Sovio</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Kajantie</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Birthweight and mortality in adulthood: a systematic review and meta-analysis</article-title>. <source>International journal of epidemiology</source>. <year>2011</year>;<volume>40</volume>(<issue>3</issue>):<fpage>647</fpage>&#8211;<lpage>61</lpage>. Epub 2011/02/18. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyq267" ns0:type="simple">10.1093/ije/dyq267</ext-link></comment> <object-id pub-id-type="pmid">21324938</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>JX</given-names></name>, <name name-style="western"><surname>Au Yeung</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Kwok</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>JYY</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Hui</surname> <given-names>LL</given-names></name>, <etal>et al</etal>. <article-title>Birth weight, gestational age and late adolescent liver function using twin status as instrumental variable in a Hong Kong Chinese birth cohort: "Children of 1997"</article-title>. <source>Preventive medicine</source>. <year>2018</year>;<volume>111</volume>:<fpage>190</fpage>&#8211;<lpage>7</lpage>. Epub 2018/03/17. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ypmed.2018.03.006" ns0:type="simple">10.1016/j.ypmed.2018.03.006</ext-link></comment> <object-id pub-id-type="pmid">29545162</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Manson</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>FB</given-names></name>, <etal>et al</etal>. <article-title>Low birthweight and risk of type 2 diabetes: a Mendelian randomisation study</article-title>. <source>Diabetologia</source>. <year>2016</year>;<volume>59</volume>(<issue>9</issue>):<fpage>1920</fpage>&#8211;<lpage>7</lpage>. Epub 2016/06/24. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00125-016-4019-z" ns0:type="simple">10.1007/s00125-016-4019-z</ext-link></comment> <object-id pub-id-type="pmid">27333884</object-id>; PubMed Central PMCID: PMC4970938.</mixed-citation></ref>
+<ref id="pone.0222141.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zanetti</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Tikkanen</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Gustafsson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Priest</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ingelsson</surname> <given-names>E</given-names></name>. <article-title>Birthweight, Type 2 Diabetes Mellitus, and Cardiovascular Disease: Addressing the Barker Hypothesis With Mendelian Randomization</article-title>. <source>Circulation Genomic and precision medicine</source>. <year>2018</year>;<volume>11</volume>(<issue>6</issue>):<fpage>e002054</fpage>. Epub 2018/06/08. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/CIRCGEN.117.002054" ns0:type="simple">10.1161/CIRCGEN.117.002054</ext-link></comment> <object-id pub-id-type="pmid">29875125</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ahlgren</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Melbye</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wohlfahrt</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>S&#248;rensen</surname> <given-names>TIA</given-names></name>. <article-title>Growth Patterns and the Risk of Breast Cancer in Women</article-title>. <source>New England Journal of Medicine</source>. <year>2004</year>;<volume>351</volume>(<issue>16</issue>):<fpage>1619</fpage>&#8211;<lpage>26</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa040576" ns0:type="simple">10.1056/NEJMoa040576</ext-link></comment> <object-id pub-id-type="pmid">15483280</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>CK</given-names></name>, <name name-style="western"><surname>Sutcliffe</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Welsh</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mackinnon</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Is birthweight associated with total and aggressive/lethal prostate cancer risks? A systematic review and meta-analysis</article-title>. <source>British journal of cancer</source>. <year>2016</year>;<volume>114</volume>(<issue>7</issue>):<fpage>839</fpage>&#8211;<lpage>48</lpage>. Epub 2016/03/02. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/bjc.2016.38" ns0:type="simple">10.1038/bjc.2016.38</ext-link></comment> <object-id pub-id-type="pmid">26930450</object-id>; PubMed Central PMCID: PMC4955914.</mixed-citation></ref>
+<ref id="pone.0222141.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lawlor</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Harbord</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Sterne</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Timpson</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>. <article-title>Mendelian randomization: using genes as instruments for making causal inferences in epidemiology</article-title>. <source>Statistics in medicine</source>. <year>2008</year>;<volume>27</volume>(<issue>8</issue>):<fpage>1133</fpage>&#8211;<lpage>63</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sim.3034" ns0:type="simple">10.1002/sim.3034</ext-link></comment> <object-id pub-id-type="pmid">17886233</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mathews</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Yudkin</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Neil</surname> <given-names>A</given-names></name>. <article-title>Influence of maternal nutrition on outcome of pregnancy: prospective cohort study</article-title>. <source>BMJ (Clinical research ed)</source>. <year>1999</year>;<volume>319</volume>(<issue>7206</issue>):<fpage>339</fpage>&#8211;<lpage>43</lpage>. Epub 1999/08/06. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.319.7206.339" ns0:type="simple">10.1136/bmj.319.7206.339</ext-link></comment> <object-id pub-id-type="pmid">10435950</object-id>; PubMed Central PMCID: PMC28185.</mixed-citation></ref>
+<ref id="pone.0222141.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fisher</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Baird</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Payne</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lucas</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Kleijnen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Roberts</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Are infant size and growth related to burden of disease in adulthood? A systematic review of literature</article-title>. <source>International journal of epidemiology</source>. <year>2006</year>;<volume>35</volume>(<issue>5</issue>):<fpage>1196</fpage>&#8211;<lpage>210</lpage>. Epub 2006/07/18. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyl130" ns0:type="simple">10.1093/ije/dyl130</ext-link></comment> <object-id pub-id-type="pmid">16845132</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chomtho</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wells</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Lucas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fewtrell</surname> <given-names>MS</given-names></name>. <article-title>Associations between birth weight and later body composition: evidence from the 4-component model</article-title>. <source>The American journal of clinical nutrition</source>. <year>2008</year>;<volume>88</volume>(<issue>4</issue>):<fpage>1040</fpage>&#8211;<lpage>8</lpage>. Epub 2008/10/10. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ajcn/88.4.1040" ns0:type="simple">10.1093/ajcn/88.4.1040</ext-link></comment> <object-id pub-id-type="pmid">18842792</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yliharsila</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kajantie</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Osmond</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Forsen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Barker</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Eriksson</surname> <given-names>JG</given-names></name>. <article-title>Birth size, adult body composition and muscle strength in later life</article-title>. <source>International journal of obesity (2005)</source>. <year>2007</year>;<volume>31</volume>(<issue>9</issue>):<fpage>1392</fpage>&#8211;<lpage>9</lpage>. Epub 2007/03/16. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/sj.ijo.0803612" ns0:type="simple">10.1038/sj.ijo.0803612</ext-link></comment> <object-id pub-id-type="pmid">17356523</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Strasser</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Siebert</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Schobersberger</surname> <given-names>W</given-names></name>. <article-title>Resistance training in the treatment of the metabolic syndrome: a systematic review and meta-analysis of the effect of resistance training on metabolic clustering in patients with abnormal glucose metabolism</article-title>. <source>Sports medicine (Auckland, NZ)</source>. <year>2010</year>;<volume>40</volume>(<issue>5</issue>):<fpage>397</fpage>&#8211;<lpage>415</lpage>. Epub 2010/05/04. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2165/11531380-000000000-00000" ns0:type="simple">10.2165/11531380-000000000-00000</ext-link></comment> <object-id pub-id-type="pmid">20433212</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>KK</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>GM</given-names></name>. <article-title>Adolescent build and diabetes: the Guangzhou Biobank Cohort Study</article-title>. <source>Annals of epidemiology</source>. <year>2011</year>;<volume>21</volume>(<issue>1</issue>):<fpage>61</fpage>&#8211;<lpage>6</lpage>. Epub 2010/12/07. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.annepidem.2010.08.010" ns0:type="simple">10.1016/j.annepidem.2010.08.010</ext-link></comment> <object-id pub-id-type="pmid">21130371</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hou</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Tse</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>. <article-title>Adolescent testosterone, muscle mass and glucose metabolism: evidence from the 'Children of 1997' birth cohort in Hong Kong</article-title>. <source>Diabetic medicine: a journal of the British Diabetic Association</source>. <year>2015</year>;<volume>32</volume>(<issue>4</issue>):<fpage>505</fpage>&#8211;<lpage>12</lpage>. Epub 2014/10/14. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/dme.12602" ns0:type="simple">10.1111/dme.12602</ext-link></comment> <object-id pub-id-type="pmid">25307068</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Madden</surname> <given-names>D.</given-names></name> <article-title>The relationship between low birth weight and socioeconomic status in Ireland</article-title>. <source>Journal of biosocial science</source>. <year>2014</year>;<volume>46</volume>(<issue>2</issue>):<fpage>248</fpage>&#8211;<lpage>65</lpage>. Epub 2013/05/02. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S0021932013000187" ns0:type="simple">10.1017/S0021932013000187</ext-link></comment> <object-id pub-id-type="pmid">23631865</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gigante</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Horta</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>Matijasevich</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mola</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Barros</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Santos</surname> <given-names>IS</given-names></name>, <etal>et al</etal>. <article-title>Gestational age and newborn size according to parental social mobility: an intergenerational cohort study</article-title>. <source>Journal of epidemiology and community health</source>. <year>2015</year>;<volume>69</volume>(<issue>10</issue>):<fpage>944</fpage>&#8211;<lpage>9</lpage>. Epub 2015/06/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/jech-2014-205377" ns0:type="simple">10.1136/jech-2014-205377</ext-link></comment> <object-id pub-id-type="pmid">26109560</object-id>; PubMed Central PMCID: PMC4602273.</mixed-citation></ref>
+<ref id="pone.0222141.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Leung</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>. <article-title>Socioeconomic disparities in preterm birth and birth weight in a non-Western developed setting: evidence from Hong Kong's 'Children of 1997' birth cohort</article-title>. <source>Journal of epidemiology and community health</source>. <year>2016</year>;<volume>70</volume>(<issue>11</issue>):<fpage>1074</fpage>&#8211;<lpage>81</lpage>. Epub 2016/05/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/jech-2015-206668" ns0:type="simple">10.1136/jech-2015-206668</ext-link></comment> <object-id pub-id-type="pmid">27165846</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Yau</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Cowling</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>GM</given-names></name>. <article-title>Socio-economic disparities of childhood Body Mass Index in a newly developed population: evidence from Hong Kong's 'Children of 1997' birth cohort</article-title>. <source>Archives of disease in childhood</source>. <year>2010</year>;<volume>95</volume>(<issue>6</issue>):<fpage>437</fpage>&#8211;<lpage>43</lpage>. Epub 2010/04/27. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/adc.2009.168542" ns0:type="simple">10.1136/adc.2009.168542</ext-link></comment> <object-id pub-id-type="pmid">20418337</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref019"><label>19</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>VanderWeele</surname> <given-names>TJ</given-names></name>. <source>Explanation in causal inference: methods for mediation</source>: <publisher-name>Oxford University Press</publisher-name>; <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0222141.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Warrington</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Beaumont</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Horikoshi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Day</surname> <given-names>FR</given-names></name>, <name name-style="western"><surname>Helgeland</surname> <given-names>&#216;</given-names></name>, <name name-style="western"><surname>Laurin</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Maternal and fetal genetic effects on birth weight and their relevance to cardio-metabolic risk factors</article-title>. <source>Nature genetics</source>. <year>2019</year>;<volume>51</volume>(<issue>5</issue>):<fpage>804</fpage>&#8211;<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41588-019-0403-1" ns0:type="simple">10.1038/s41588-019-0403-1</ext-link></comment> <object-id pub-id-type="pmid">31043758</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref021"><label>21</label><mixed-citation publication-type="other" ns0:type="simple">Howrigan D. DETAILS AND CONSIDERATIONS OF THE UK BIOBANK GWAS: THE NEALE LAB; September 20, 2017. Available from: <ext-link ext-link-type="uri" ns0:href="http://www.nealelab.is/blog/2017/9/11/details-and-considerations-of-the-uk-biobank-gwas" ns0:type="simple">http://www.nealelab.is/blog/2017/9/11/details-and-considerations-of-the-uk-biobank-gwas</ext-link>.</mixed-citation></ref>
+<ref id="pone.0222141.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Hui</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Ho</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>TH</given-names></name>, <name name-style="western"><surname>Leung</surname> <given-names>GM</given-names></name>. <article-title>Cohort profile: 'children of 1997': a Hong Kong Chinese birth cohort</article-title>. <source>Int J Epidemiol</source>. <year>2012</year>;<volume>41</volume>(<issue>3</issue>):<fpage>611</fpage>&#8211;<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyq243" ns0:type="simple">10.1093/ije/dyq243</ext-link></comment> <object-id pub-id-type="pmid">21224275</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hemani</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Elsworth</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wade</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Haberland</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Baird</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>The MR-Base platform supports systematic causal inference across the human phenome</article-title>. <source>eLife</source>. <year>2018</year>;<volume>7</volume>:<fpage>e34408</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7554/eLife.34408" ns0:type="simple">10.7554/eLife.34408</ext-link></comment> <object-id pub-id-type="pmid">29846171</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref024"><label>24</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Cohen</surname> <given-names>J.</given-names></name> <source>Statistical power analysis for the behavioral sciences</source>: <publisher-name>Academic Press</publisher-name>; <year>1977</year>.</mixed-citation></ref>
+<ref id="pone.0222141.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seaman</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>White</surname> <given-names>IR</given-names></name>. <article-title>Review of inverse probability weighting for dealing with missing data</article-title>. <source>Statistical methods in medical research</source>. <year>2013</year>;<volume>22</volume>(<issue>3</issue>):<fpage>278</fpage>&#8211;<lpage>95</lpage>. Epub 2011/01/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0962280210395740" ns0:type="simple">10.1177/0962280210395740</ext-link></comment> <object-id pub-id-type="pmid">21220355</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seaman</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>White</surname> <given-names>IR</given-names></name>, <name name-style="western"><surname>Copas</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>. <article-title>Combining Multiple Imputation and Inverse-Probability Weighting</article-title>. <source>Biometrics</source>. <year>2012</year>;<volume>68</volume>(<issue>1</issue>):<fpage>129</fpage>&#8211;<lpage>37</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1541-0420.2011.01666.x" ns0:type="simple">10.1111/j.1541-0420.2011.01666.x</ext-link></comment> PMC3412287. <object-id pub-id-type="pmid">22050039</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Davies</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>SG</given-names></name>. <article-title>Bias due to participant overlap in two&#8208;sample Mendelian randomization</article-title>. <source>Genetic Epidemiology</source>. <year>2016</year>;<volume>40</volume>(<issue>7</issue>):<fpage>597</fpage>&#8211;<lpage>608</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/gepi.21998" ns0:type="simple">10.1002/gepi.21998</ext-link></comment> PMC5082560. <object-id pub-id-type="pmid">27625185</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bowden</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Del Greco</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Minelli</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Sheehan</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>JR</given-names></name>. <article-title>Assessing the suitability of summary data for two-sample Mendelian randomization analyses using MR-Egger regression: the role of the I2 statistic</article-title>. <source>International journal of epidemiology</source>. <year>2016</year>;<volume>45</volume>(<issue>6</issue>):<fpage>1961</fpage>&#8211;<lpage>74</lpage>. Epub 2016/09/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyw220" ns0:type="simple">10.1093/ije/dyw220</ext-link></comment> <object-id pub-id-type="pmid">27616674</object-id>; PubMed Central PMCID: PMC5446088.</mixed-citation></ref>
+<ref id="pone.0222141.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bowden</surname> <given-names>J.</given-names></name>, <name name-style="western"><surname>Fall</surname> <given-names>T.</given-names></name>, <name name-style="western"><surname>Ingelsson</surname> <given-names>E.</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>S. G.</given-names></name> <article-title>Sensitivity analyses for robust causal inference from Mendelian randomization analyses with multiple genetic variants</article-title>. <source>Epidemiology (Cambridge, Mass)</source>. <year>2016</year>.</mixed-citation></ref>
+<ref id="pone.0222141.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Altman</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Bland</surname> <given-names>JM</given-names></name>. <article-title>Interaction revisited: the difference between two estimates</article-title>. <source>BMJ (Clinical research ed)</source>. <year>2003</year>;<volume>326</volume>(<issue>7382</issue>):<fpage>219</fpage>. Epub 2003/01/25. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.326.7382.219" ns0:type="simple">10.1136/bmj.326.7382.219</ext-link></comment> <object-id pub-id-type="pmid">12543843</object-id>; PubMed Central PMCID: PMC1125071.</mixed-citation></ref>
+<ref id="pone.0222141.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Freeman</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Cowling</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>. <article-title>Power and sample size calculations for Mendelian randomization studies using one genetic instrument</article-title>. <source>Int J Epidemiol</source>. <year>2013</year>;<volume>42</volume>(<issue>4</issue>):<fpage>1157</fpage>&#8211;<lpage>63</lpage>. Epub 2013/08/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyt110" ns0:type="simple">10.1093/ije/dyt110</ext-link></comment> <object-id pub-id-type="pmid">23934314</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bowden</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Haycock</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>. <article-title>Consistent Estimation in Mendelian Randomization with Some Invalid Instruments Using a Weighted Median Estimator</article-title>. <source>Genet Epidemiol</source>. <year>2016</year>;<volume>40</volume>(<issue>4</issue>):<fpage>304</fpage>&#8211;<lpage>14</lpage>. Epub 2016/04/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/gepi.21965" ns0:type="simple">10.1002/gepi.21965</ext-link></comment> <object-id pub-id-type="pmid">27061298</object-id>; PubMed Central PMCID: PMC4849733.</mixed-citation></ref>
+<ref id="pone.0222141.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bowden</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>. <article-title>Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression</article-title>. <source>International journal of epidemiology</source>. <year>2015</year>;<volume>44</volume>(<issue>2</issue>):<fpage>512</fpage>&#8211;<lpage>25</lpage>. Epub 2015/06/08. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyv080" ns0:type="simple">10.1093/ije/dyv080</ext-link></comment> <object-id pub-id-type="pmid">26050253</object-id>; PubMed Central PMCID: PMC4469799.</mixed-citation></ref>
+<ref id="pone.0222141.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Verbanck</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>C-Y</given-names></name>, <name name-style="western"><surname>Neale</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Do</surname> <given-names>R</given-names></name>. <article-title>Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases</article-title>. <source>Nature genetics</source>. <year>2018</year>;<volume>50</volume>(<issue>5</issue>):<fpage>693</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41588-018-0099-7" ns0:type="simple">10.1038/s41588-018-0099-7</ext-link></comment> <object-id pub-id-type="pmid">29686387</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yavorska</surname> <given-names>OO</given-names></name>, <name name-style="western"><surname>Burgess</surname> <given-names>S</given-names></name>. <article-title>MendelianRandomization: an R package for performing Mendelian randomization analyses using summarized data</article-title>. <source>International journal of epidemiology</source>. <year>2017</year>;<volume>46</volume>(<issue>6</issue>):<fpage>1734</fpage>&#8211;<lpage>9</lpage>. Epub 2017/04/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyx034" ns0:type="simple">10.1093/ije/dyx034</ext-link></comment> <object-id pub-id-type="pmid">28398548</object-id>; PubMed Central PMCID: PMC5510723.</mixed-citation></ref>
+<ref id="pone.0222141.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dodds</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Denison</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Ntani</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>, <etal>et al</etal>. <article-title>Birth weight and muscle strength: A systematic review and meta-analysis</article-title>. <source>The journal of nutrition, health &amp; aging</source>. <year>2012</year>;<volume>16</volume>(<issue>7</issue>):<fpage>609</fpage>&#8211;<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s12603-012-0053-9" ns0:type="simple">10.1007/s12603-012-0053-9</ext-link></comment> <object-id pub-id-type="pmid">22836701</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Simpson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Fraser</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sattar</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Lindsay</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Ring</surname> <given-names>SM</given-names></name>, <etal>et al</etal>. <article-title>Programming of Adiposity in Childhood and Adolescence: Associations With Birth Weight and Cord Blood Adipokines</article-title>. <source>The Journal of clinical endocrinology and metabolism</source>. <year>2017</year>;<volume>102</volume>(<issue>2</issue>):<fpage>499</fpage>&#8211;<lpage>506</lpage>. Epub 2016/11/15. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1210/jc.2016-2342" ns0:type="simple">10.1210/jc.2016-2342</ext-link></comment> <object-id pub-id-type="pmid">27841944</object-id>; PubMed Central PMCID: PMC5413167.</mixed-citation></ref>
+<ref id="pone.0222141.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Patro</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Liber</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zalewski</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Poston</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Szajewska</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Koletzko</surname> <given-names>B</given-names></name>. <article-title>Maternal and paternal body mass index and offspring obesity: a systematic review</article-title>. <source>Annals of nutrition &amp; metabolism</source>. <year>2013</year>;<volume>63</volume>(<issue>1&#8211;2</issue>):<fpage>32</fpage>&#8211;<lpage>41</lpage>. Epub 2013/07/28. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1159/000350313" ns0:type="simple">10.1159/000350313</ext-link></comment> <object-id pub-id-type="pmid">23887153</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tyrrell</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Richmond</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Palmer</surname> <given-names>TM</given-names></name>, <etal>et al</etal>. <article-title>Genetic evidence for causal relationships between maternal obesity-related traits and birth weight</article-title>. <source>Jama</source>. <year>2016</year>;<volume>315</volume>(<issue>11</issue>):<fpage>1129</fpage>&#8211;<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/jama.2016.1975" ns0:type="simple">10.1001/jama.2016.1975</ext-link></comment> <object-id pub-id-type="pmid">26978208</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Davies</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Holmes</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Davey Smith</surname> <given-names>G</given-names></name>. <article-title>Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians</article-title>. <source>BMJ (Clinical research ed)</source>. <year>2018</year>;<volume>362</volume>:<fpage>k601</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.k601" ns0:type="simple">10.1136/bmj.k601</ext-link></comment> <object-id pub-id-type="pmid">30002074</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Evans</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Moen</surname> <given-names>G-H</given-names></name>, <name name-style="western"><surname>Hwang</surname> <given-names>L-D</given-names></name>, <name name-style="western"><surname>Lawlor</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Warrington</surname> <given-names>NM</given-names></name>. <article-title>Elucidating the role of maternal environmental exposures on offspring health and disease using two-sample Mendelian randomization</article-title>. <source>International journal of epidemiology</source>. <year>2019</year>;<volume>48</volume>(<issue>3</issue>):<fpage>861</fpage>&#8211;<lpage>75</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyz019" ns0:type="simple">10.1093/ije/dyz019</ext-link></comment> <object-id pub-id-type="pmid">30815700</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lawlor</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Richmond</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Warrington</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>McMahon</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bowden</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Using Mendelian randomization to determine causal effects of maternal pregnancy (intrauterine) exposures on offspring outcomes: Sources of bias and methods for assessing them [version 1; peer review: 4 approved]</article-title>. <source>Wellcome Open Research</source>. <year>2017</year>;<volume>2</volume>(<issue>11</issue>). <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.12688/wellcomeopenres.10567.1" ns0:type="simple">10.12688/wellcomeopenres.10567.1</ext-link></comment> <object-id pub-id-type="pmid">28405635</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nelson</surname> <given-names>VR</given-names></name>, <name name-style="western"><surname>Nadeau</surname> <given-names>JH</given-names></name>. <article-title>Transgenerational genetic effects</article-title>. <source>Epigenomics</source>. <year>2010</year>;<volume>2</volume>(<issue>6</issue>):<fpage>797</fpage>&#8211;<lpage>806</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2217/epi.10.57" ns0:type="simple">10.2217/epi.10.57</ext-link></comment> <object-id pub-id-type="pmid">22122083</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Du</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Tong</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>MJ</given-names></name>. <article-title>Maternal obesity, inflammation, and fetal skeletal muscle development</article-title>. <source>Biology of reproduction</source>. <year>2010</year>;<volume>82</volume>(<issue>1</issue>):<fpage>4</fpage>&#8211;<lpage>12</lpage>. Epub 2009/06/12. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1095/biolreprod.109.077099" ns0:type="simple">10.1095/biolreprod.109.077099</ext-link></comment> <object-id pub-id-type="pmid">19516021</object-id>; PubMed Central PMCID: PMC2802110.</mixed-citation></ref>
+<ref id="pone.0222141.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chiavaroli</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Derraik</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Hofman</surname> <given-names>PL</given-names></name>, <name name-style="western"><surname>Cutfield</surname> <given-names>WS</given-names></name>. <article-title>Born Large for Gestational Age: Bigger Is Not Always Better</article-title>. <source>The Journal of pediatrics</source>. <year>2016</year>;<volume>170</volume>:<fpage>307</fpage>&#8211;<lpage>11</lpage>. Epub 2015/12/29. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jpeds.2015.11.043" ns0:type="simple">10.1016/j.jpeds.2015.11.043</ext-link></comment> <object-id pub-id-type="pmid">26707580</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Spalding</surname> <given-names>KL</given-names></name>, <name name-style="western"><surname>Arner</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Westermark</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Bernard</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Buchholz</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Bergmann</surname> <given-names>O</given-names></name>, <etal>et al</etal>. <article-title>Dynamics of fat cell turnover in humans</article-title>. <source>Nature</source>. <year>2008</year>;<volume>453</volume>(<issue>7196</issue>):<fpage>783</fpage>&#8211;<lpage>7</lpage>. Epub 2008/05/06. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nature06902" ns0:type="simple">10.1038/nature06902</ext-link></comment> <object-id pub-id-type="pmid">18454136</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yeung</surname> <given-names>CHC</given-names></name>, <name name-style="western"><surname>Au Yeung</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Fong</surname> <given-names>SSM</given-names></name>, <name name-style="western"><surname>Schooling</surname> <given-names>CM</given-names></name>. <article-title>Lean mass, grip strength and risk of type 2 diabetes: a bi-directional Mendelian randomisation study</article-title>. <source>Diabetologia</source>. <year>2019</year>. Epub 2019/02/25. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00125-019-4826-0" ns0:type="simple">10.1007/s00125-019-4826-0</ext-link></comment> <object-id pub-id-type="pmid">30798333</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref048"><label>48</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pan</surname> <given-names>WH</given-names></name>, <name name-style="western"><surname>Flegal</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>HY</given-names></name>, <name name-style="western"><surname>Yeh</surname> <given-names>WT</given-names></name>, <name name-style="western"><surname>Yeh</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>WC</given-names></name>. <article-title>Body mass index and obesity-related metabolic disorders in Taiwanese and US whites and blacks: implications for definitions of overweight and obesity for Asians</article-title>. <source>The American journal of clinical nutrition</source>. <year>2004</year>;<volume>79</volume>(<issue>1</issue>):<fpage>31</fpage>&#8211;<lpage>9</lpage>. Epub 2003/12/20. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ajcn/79.1.31" ns0:type="simple">10.1093/ajcn/79.1.31</ext-link></comment> <object-id pub-id-type="pmid">14684394</object-id>.</mixed-citation></ref>
+<ref id="pone.0222141.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Spanakis</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Golden</surname> <given-names>SH</given-names></name>. <article-title>Race/Ethnic Difference in Diabetes and Diabetic Complications</article-title>. <source>Current diabetes reports</source>. <year>2013</year>;<volume>13</volume>(<issue>6</issue>):10.1007/s11892-013-0421-9. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11892-013-0421-9" ns0:type="simple">10.1007/s11892-013-0421-9</ext-link></comment> PMC3830901. <object-id pub-id-type="pmid">24037313</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref050"><label>50</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Madan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Holland</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Humbert</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Benitz</surname> <given-names>WE</given-names></name>. <article-title>Racial Differences in Birth Weight of Term Infants in a Northern California Population</article-title>. <source>Journal Of Perinatology</source>. <year>2002</year>;<volume>22</volume>:<fpage>230</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/sj.jp.7210703" ns0:type="simple">10.1038/sj.jp.7210703</ext-link></comment> <object-id pub-id-type="pmid">11948387</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Silva</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Heo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gallagher</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Sardinha</surname> <given-names>LB</given-names></name>, <etal>et al</etal>. <article-title>Ethnicity-Related Skeletal Muscle Differences Across the Lifespan</article-title>. <source>American journal of human biology: the official journal of the Human Biology Council</source>. <year>2010</year>;<volume>22</volume>(<issue>1</issue>):<fpage>76</fpage>&#8211;<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ajhb.20956" ns0:type="simple">10.1002/ajhb.20956</ext-link></comment> PMC2795070. <object-id pub-id-type="pmid">19533617</object-id></mixed-citation></ref>
+<ref id="pone.0222141.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lear</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Kohli</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bondy</surname> <given-names>GP</given-names></name>, <name name-style="western"><surname>Tchernof</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sniderman</surname> <given-names>AD</given-names></name>. <article-title>Ethnic Variation in Fat and Lean Body Mass and the Association with Insulin Resistance</article-title>. <source>The Journal of Clinical Endocrinology &amp; Metabolism</source>. <year>2009</year>;<volume>94</volume>(<issue>12</issue>):<fpage>4696</fpage>&#8211;<lpage>702</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1210/jc.2009-1030" ns0:type="simple">10.1210/jc.2009-1030</ext-link></comment> <object-id pub-id-type="pmid">19820012</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222141.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222141.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Meyre</surname>
+<given-names>David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>David Meyre</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222141" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">21 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-16847</p>
+<p>The effect of birth weight on body composition: Evidence from a birth cohort and a Mendelian randomization study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Schooling,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 04 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>David Meyre</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: It was a pleasure to review this comprehensive study performed by Liu and colleagues, investigating the effect of birth weight on consequent body composition. The authors are experienced with the applied methods and have taken care in the performing appropriate analyses.</p>
+<p>The work is already close to a standard suitable for publication. My main suggestion for improvement would be some clarification regarding the interpretation of causality. I think it is important that the authors discuss the potential implications of a shared (genetic) aetiology between birth weight and consequent body composition. Keeping this in mind, is it justified that the authors should imply in their conclusion that birth weight has a causal effect on consequent body composition?</p>
+<p>In any case, I think that the authors should also be more clear about whether they are genuinely suggesting birth weight as a target for clinical intervention - although they do state this in the last line of the conclusion, I must admit that I'm struggling to take it seriously. The practicalities of modifying birth weight is another consideration. How might this be achieved? If the authors prefer not to answer this, then they should probably remove this suggestion.</p>
+<p>Some discussion about the range of birth weights for which these findings might apply is also warranted. Can these estimates be extrapolated to the extremes of birth weight, for example?</p>
+<p>Finally, I wonder whether the authors might also consider replacing (or supplementing) some of the existing results tables with figures (e.g. forest plots of the estimates and their confidence intervals). The current format used for presenting the data is a little overwhelming in places and therefore difficult to follow. Figures might make things easier to digest.</p>
+<p>Reviewer #2: The authors examined the associations of birth weight (BW) with muscle and fat mass in an observational study. They also performed a Mendelian Randomisation (MR) of BW on these measures in the UK Biobank study. I have several major concerns relating to the MR section of the paper.</p>
+<p>The authors do not clearly state the question that they are seeking to answer with the BW-fat/muscle MR analysis. It would be helpful if the authors could provide a diagram (eg. a DAG) explaining the causal question which they seek to answer. For example, are the authors using birth weight as a proxy for intrauterine exposures which might influence muscle and fat mass? If so, the maternal birth weight-associated alleles that are not passed to the child are the appropriate instrumental variables to use. The issue of MR in this context was discussed in the latest BW GWAS paper (<ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41588-019-0403-1" ns0:type="simple">https://doi.org/10.1038/s41588-019-0403-1</ext-link>). Further papers discussing this issue are <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.12688/wellcomeopenres.10567.1" ns0:type="simple">https://doi.org/10.12688/wellcomeopenres.10567.1</ext-link> and <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/ije/dyz019" ns0:type="simple">https://doi.org/10.1093/ije/dyz019</ext-link>. Alternatively, the authors might be asking about whether the genetic variation underlying birth weight is shared with the underlying muscle and fat mass, in which case, the fetal genotype is more important. Could the authors please clarify this.</p>
+<p>A major problem in MR with birth weight using fetal genetic instruments as the exposure is the violation of MR assumptions by the association of maternal genotype with the outcome of interest. The latest BW GWAS paper discovered additional BW associated SNPs and also quantified the independent maternal and fetal associations with BW at each of the loci. Ideally this larger list and independent fetal effect sizes should be used for the exposure SNPs, the summary statistics from these analyses adjusted for maternal/fetal genotype associations are available to download from the EGG consortium website <ext-link ext-link-type="uri" ns0:href="http://egg-consortium.org/birth-weight-2019.html" ns0:type="simple">http://egg-consortium.org/birth-weight-2019.html</ext-link>. These adjusted association statistics correct the SNP-exposure associations for maternal genetic effects. This still would not get around the problem of the potential violation of the MR assumptions, indeed the large attenuation of the association results when potentially maternal SNPs are excluded from the analyses suggests that failing to account for maternal effects may be affecting the results. To properly perform these analyses the SNP-outcome associations should be corrected for maternal genetic associations. If this is not possible, this limitation should be clearly stated and fully discussed in the paper. The confounding introduced by maternal genotype is briefly mentioned at the end of the limitations section, but the potential impact of this on the results and the interpretation of them is not given sufficient attention and need to be carefully discussed and made more prominent.</p>
+<p>It is also not clear to me why the authors reduced the original list of 60 BW SNPs to 47. The list of 60 loci already represents a list of independent association signals. A lot of the SNPs which were removed seem to be correlation artefacts rather than genuine LD, for example the SNP rs61830764 (DTL) is over 50mb from the nearest signal suggesting that the correlation here doesn&#8217;t reflect real LD. The signal rs1011939 (GPR139) also is the only SNP on chromosome 16 but seems to have been dropped as &#8220;not independent&#8221; although there can be no real LD with the other signals.</p>
+<p>Other comments</p>
+<p>In the limitations section, point 6 leaves me confused. They state &#8220;no age-specific genetic predictors of BW are available&#8221;, but birth weight is by definition the weight at birth, there is no age variation in BW. Point 8 also leaves me a little confused. It talks about lifetime exposure, but birth weight is again defined only at birth. I suggest the authors rephrase this point as I&#8217;m not entirely sure from what they have written what they are trying to say here.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Dipender Gill</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222141.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222141.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222141" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222141.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">22 Aug 2019</named-content>
+</p>
+<p>Thank you so much indeed for these very helpful comments. We have responded all the reviewers' comments respectively and updated the manuscript and other related documents accordingly. Further details could be checked in the Response to Reviewers file and the Manuscript with Track Changes file.</p>
+<supplementary-material id="pone.0222141.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222141.s006" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers_Finalized.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222141.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222141.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Meyre</surname>
+<given-names>David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>David Meyre</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222141" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">23 Aug 2019</named-content>
+</p>
+<p>The effect of birth weight on body composition: Evidence from a birth cohort and a Mendelian randomization study</p>
+<p>PONE-D-19-16847R1</p>
+<p>Dear Dr. Schooling,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>David Meyre</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222141.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222141.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Meyre</surname>
+<given-names>David</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>David Meyre</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222141" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">28 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-16847R1 </p>
+<p>The effect of birth weight on body composition: Evidence from a birth cohort and a Mendelian randomization study </p>
+<p>Dear Dr. Schooling:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr David Meyre  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

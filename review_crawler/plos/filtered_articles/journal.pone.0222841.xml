@@ -1,0 +1,1024 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222841</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-19121</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Ruminants</subject><subj-group><subject>Goats</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Nutrients</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Nutrients</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agrochemicals</subject><subj-group><subject>Fertilizers</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Raw materials</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Multivariate analysis</subject><subj-group><subject>Principal component analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Multivariate analysis</subject><subj-group><subject>Principal component analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Plant growth and development</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant growth and development</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Ammonia</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Ecology and environmental sciences</subject><subj-group><subject>Soil science</subject><subj-group><subject>Soil mineralization</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Effects of turning frequency on the nutrients of <italic>Camellia oleifera</italic>&#160;shell co-compost with goat dung and evaluation of co-compost maturity</article-title>
+<alt-title alt-title-type="running-head">Effects of turning frequency on the nutrients of <italic>Camellia oleifera</italic> shell evaluation of co-compost maturity</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1496-659X</contrib-id>
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Jinping</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Ying</surname>
+<given-names>Yue</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Yao</surname>
+<given-names>Xiaohua</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Research Institue of subtropical Forestry, Chinese Academy of Forestry, Hangzhou, Zhejiang, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Bhat</surname>
+<given-names>Sartaj Ahmad</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Gifu University, JAPAN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">jinpingzhang@126.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222841</elocation-id>
+<history>
+<date date-type="received">
+<day>8</day>
+<month>7</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>8</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Zhang et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222841" />
+<abstract>
+<p>Composting is an important treatment method for <italic>Camellia oleifera</italic> shell and goat dung, which is crucial for the development of tea oil industry and goat breeding industry. Ventilation is the important regulatory factor in composting process, and high degree of maturity is the principal requirement for safe application of composting product. In the study, four treatments were designed as every 5 days turning (A1), every 7 days turning (A2), every 10 days turning(A3), and every 15 days turning (A4) for evaluating the maturity of <italic>Camellia oleifera</italic> shell co-composted with goat dung and optimizing turning frequency. During composting, TN, <inline-formula id="pone.0222841.e001"><alternatives><graphic id="pone.0222841.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e001" ns0:type="simple" /><ns1:math display="inline" id="M1"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, GI, Solvita maturity index was increased along with composting process, while <inline-formula id="pone.0222841.e002"><alternatives><graphic id="pone.0222841.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e002" ns0:type="simple" /><ns1:math display="inline" id="M2"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, C/N shown an opposite trend. For all treatments, the longest thermophilic period (over 50&#176;C), highest total nutrient and lowest C/N ratio were observed in A2. A turning frequency of every 7 days for co-compost of <italic>Camellia oleifera</italic> shell and goat dung could enhance the composting product quality. According to the analysis of spearman correlation, TN, C/N ratio, and GI could be used to comprehensively evaluate the compost maturity.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Department of Science and Technology of Zhejiang Province (CN)</institution>
+</funding-source>
+<award-id>2017C02022</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1496-659X</contrib-id>
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Jinping</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was financially supported by the Provincial Department of Science and Technology of Zhejiang, China, Grant NO. 2017C02022. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8" />
+<table-count count="4" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p><italic>Camellia oleifera</italic> (<italic>C</italic>. <italic>oleifera</italic>) is one of the important tree species in China's non-wood product forests. <italic>C</italic>. <italic>oleifera</italic>, oil palm (<italic>Elaeis guineensis</italic> Jacq.), olive (<italic>Olea europaea</italic> L.), and coconut (<italic>Cocos nucifera</italic> L.) are the four major tree species in the world that produce woody edible oil [<xref ref-type="bibr" rid="pone.0222841.ref001">1</xref>]. <italic>C</italic>. <italic>oleifera</italic> shell is an important byproduct from the processing of <italic>C</italic>. <italic>oleifera</italic>, whose raw weight is approximately 1.5 times that of the <italic>C</italic>. <italic>oleifera</italic> seeds [<xref ref-type="bibr" rid="pone.0222841.ref002">2</xref>]. <italic>C</italic>. <italic>oleifera</italic> shell is rich in lignocellulose, saponins and tannins which were not conducive to microbial degradation and metabolism [<xref ref-type="bibr" rid="pone.0222841.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0222841.ref004">4</xref>]. In addition, <italic>C</italic>. <italic>oleifera</italic> shell is rich in polysaccharides, proteins, fats, and other organic matter, as well as many trace elements and biologically active substances essential for plant growth, which make it a valuable biomass resource [<xref ref-type="bibr" rid="pone.0222841.ref005">5</xref>]. The output of <italic>C</italic>. <italic>oleifera</italic> seed reached more than 2.3 million tons by 2018, more than twice that of 2008, and a large number of <italic>C</italic>. <italic>oleifera</italic> shell was also produced [<xref ref-type="bibr" rid="pone.0222841.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0222841.ref007">7</xref>]. Most of the shell is directly discarded for natural decomposition or burned as fuel. Waste gas, liquid, and residue produced in the treatment process pose potential threats to environmental safety [<xref ref-type="bibr" rid="pone.0222841.ref008">8</xref>].</p>
+<p>Composting is an effective means of processing <italic>C</italic>. <italic>oleifera</italic> shell and other solid organic waste [<xref ref-type="bibr" rid="pone.0222841.ref009">9</xref>]. However, given the physical and chemical properties of <italic>C</italic>. <italic>oleifera</italic> shell, particularly due to the presence of woody fibers, it is not suitable for self-composting [<xref ref-type="bibr" rid="pone.0222841.ref010">10</xref>]. Co-composting refers to the composting of raw materials together with other waste, such as dairy manure with straw [<xref ref-type="bibr" rid="pone.0222841.ref011">11</xref>], and chicken manure with sawdust [<xref ref-type="bibr" rid="pone.0222841.ref012">12</xref>]. Adding appropriate waste materials for co-composting can accelerate organic matter decomposition, shorten composting time, and enhance compost quality. Similar to pig and chicken manure, goat dung has high level of C, N, P, K and provides additional microorganisms for improved composting [<xref ref-type="bibr" rid="pone.0222841.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0222841.ref014">14</xref>]. To accelerate the composting process of <italic>C</italic>. <italic>oleifera</italic> shell and improve compost quality, goat dung can be added for co-composting.</p>
+<p>Through composting, organic chemicals in the shell are transformed by microbes into a stable, usable, and high value-added compost product, which helps prevent environmental pollution. Such products not only provide nutrients for plant growth but also improve soil properties, such as nutrients increase in soil and physical properties improvement of soil [<xref ref-type="bibr" rid="pone.0222841.ref015">15</xref>]. Furthermore, most of the harmful organisms (including pests, weed seeds, viruses and pathogens et al.) are killed during composting, which reduces the incidence of diseases [<xref ref-type="bibr" rid="pone.0222841.ref016">16</xref>].</p>
+<p>Ventilation is an important controlling factor in the composting process. Appropriate ventilation can control the temperature of the compost pile, remove excess water and carbon dioxide, provide oxygen for microbial activity, and influence the physical and chemical properties of the final compost product [<xref ref-type="bibr" rid="pone.0222841.ref017">17</xref>]. Turning is a common method of altering the ventilation. High turning frequency will adversely decrease the temperature of the compost pile will, and will increase the composting time. Low turning frequency could result in anaerobic fermentation in the compost pile and production of ozone and other harmful substances [<xref ref-type="bibr" rid="pone.0222841.ref018">18</xref>]. Hence, an appropriate turning frequency is an important factor for enhancing the composting efficiency.</p>
+<p>Maturity is an important criterion for evaluating the safety and stability of compost product. When microbial activity and plant toxin concentrations decrease to a safe level and compost no longer undergoes apparent material changes, the compost is considered to be 'mature'. One of the aims of choosing the appropriate turning frequency is to get the compost to be 'mature' quickly. Compost product not meeting maturity standards can easily cause environmental pollution [<xref ref-type="bibr" rid="pone.0222841.ref016">16</xref>]. However, due to the diversity and heterogeneity of raw materials, substantial variability exists in our understanding of the indices used to evaluate compost product maturity [<xref ref-type="bibr" rid="pone.0222841.ref019">19</xref>]. Bernal et al. (2009) [<xref ref-type="bibr" rid="pone.0222841.ref010">10</xref>] and Nolan et al. (2011) [<xref ref-type="bibr" rid="pone.0222841.ref020">20</xref>] noted that compost maturity could not be well described by any single attribute or parameter. Many studies used various physical, chemical (e.g., pH, temperature, and total organic carbon), and biological parameters [e.g., germination index (GI), seedling growth quality] to determine compost maturity [<xref ref-type="bibr" rid="pone.0222841.ref021">21</xref>&#8211;<xref ref-type="bibr" rid="pone.0222841.ref023">23</xref>]. In order to better judge the effect of turning frequency on compost maturity, it is very important to select appropriate parameters that can reflect the change of maturity.</p>
+<p>In this study, <italic>C</italic>. <italic>oleifera</italic> shell and goat dung were used as the raw materials of compost. The temperature, pH, different nitrogen forms, GI and other parameters of the compost pile during composting were analyzed. Standard maturity indices suitable for the co-compost of <italic>C</italic>. <italic>oleifera</italic> shell with goat dung were determined. The turning frequency of compost was also optimized to provide a theoretical basis for the composting of <italic>C</italic>. <italic>oleifera</italic> shell.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Descriptions of the study area</title>
+<p>The composting experiment was performed during a 76-day period from October to December 2012. The study area was located in the Research Institute of Subtropical Forestry, Chinese Academy of Forestry in Fuyang District, Hangzhou City, Zhejiang Province, China. Its altitude is 26.1 m, and its coordinates are approximately N 30&#176;3&#8217;31&#8221;, E 119&#176;57&#8217;11&#8221; (latitude/longitude). During the study, the highest and lowest temperatures of that area were 24&#176;C and 3&#176;C, respectively, and the highest and lowest air humidity measurements were 84% and 32%, respectively.</p>
+<p><italic>C</italic>. <italic>oleifera</italic> shell used in the experiment was obtained from the East Red Forest Farm in Jinhua City, Zhejiang Province. Goat dung was obtained from a farm in Jilong Mountain, Fuyang District, Hangzhou city, Zhejiang Province. The effective microorganisms (EM) microbial agent was purchased from Henan Nanhua Qianmu Biotechnology Co., Ltd., and its main ingredients were <italic>Bacillus</italic>, <italic>Lactobacillus</italic>, <italic>Bifidobacterium</italic>, yeast, photosynthetic bacteria, acetic acid bacteria, <italic>Actinobacillus</italic>, and other original species.</p>
+</sec>
+<sec id="sec004">
+<title>Experimental set-up</title>
+<p><italic>C</italic>. <italic>oleifera</italic> shell was crushed, passed through an 8-mm sieve, and co-composted with fresh goat dung. The dry mass ratio of the shell and goat dung was 4:1 in all experimental treatments. The EM microbial agent (weighing 3% of the dry mass of shell and goat dung) and urea were added to adjust the initial carbon-to-nitrogen ratio (C/N) to 30, and the initial moisture content to 55%. No adjustments of these parameters were made thereafter. In this experiment, box composting was used, which took place in an insulated and well-ventilated eco-composter (outer dimensions: 73 cm &#215; 115 cm &#215; 80 cm; volume: 220 L; manufacturer: Biolan). During the experiment, the cover of the composter was closed, and the ventilation valve was rotated to the maximum ventilation level. The properties of raw materials for composting (based on the determination of dry matter) are shown in <xref ref-type="table" rid="pone.0222841.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0222841.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.t001</object-id>
+<label>Table 1</label> <caption><title>The initial properties of compost materials<xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref>.</title></caption>
+<alternatives>
+<graphic id="pone.0222841.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Material</th>
+<th align="left">TOC(%)</th>
+<th align="left">TN(g/kg)</th>
+<th align="left">TP(g/kg)</th>
+<th align="left">TK(g/kg)</th>
+<th align="left">pH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Shell <italic>of Camellia oleifera</italic></td>
+<td align="left">48.6&#177;1.8</td>
+<td align="left">4.19&#177;0.01</td>
+<td align="left">0.17&#177;0.03</td>
+<td align="left">8.54&#177;0.11</td>
+<td align="left">5.54&#177;0.02</td>
+</tr>
+<tr>
+<td align="left">Goat dung</td>
+<td align="left">16.0&#177;2.1</td>
+<td align="left">0.55&#177;0.03</td>
+<td align="left">0.22&#177;0.07</td>
+<td align="left">0.53&#177;0.06</td>
+<td align="left">8.32&#177;0.01</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Mean and standard error are shown (n = 3).</p></fn>
+<fn id="t001fn002"><p><sup>a</sup> Measured based on dry matter.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>There were 4 treatments (A1, A2, A3, and A4) in this experiment, and they referred to turning the compost once every 5, 7, 10, and 15 days, respectively. The properties of raw materials used in this study are shown in <xref ref-type="table" rid="pone.0222841.t001">Table 1</xref>.</p>
+</sec>
+<sec id="sec005">
+<title>Sample collection and analytical methods</title>
+<p>During composting, the temperature of the compost pile (depth of the pile was 1.2m) was measured in the upper (10 cm below the top of the pile), middle, and lower (10 cm above the bottom of the pile) parts at approximately 3 pm every day. Ambient temperature was recorded at the same time. A five-point sampling method [<xref ref-type="bibr" rid="pone.0222841.ref024">24</xref>] was adopted to collect compost samples. A portion of the fresh samples were stored at -20&#176;C, and the remainder was dried at 65&#176;C. The determination of pH, total organic carbon (TOC), total nitrogen (TN), total phosphorus (TP), total potassium (TK), <inline-formula id="pone.0222841.e003"><alternatives><graphic id="pone.0222841.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e003" ns0:type="simple" /><ns1:math display="inline" id="M3"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, and <inline-formula id="pone.0222841.e004"><alternatives><graphic id="pone.0222841.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e004" ns0:type="simple" /><ns1:math display="inline" id="M4"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> were based on the method used by Meng et al. (2018a, 2018b) [<xref ref-type="bibr" rid="pone.0222841.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0222841.ref025">25</xref>]. GI was determined according to the method used by Zhao et al. (2013) [<xref ref-type="bibr" rid="pone.0222841.ref024">24</xref>]. Moisture content was obtained by drying at 105&#176;C for 24h in a hot-air oven. The Solvita maturity index was determined according to the &#8220;Guide to Solvita testing for compost maturity index&#8221; (Woods End Research, 2002).</p>
+</sec>
+<sec id="sec006">
+<title>Statistical analysis</title>
+<p>Spearman correlational analysis was performed using SPSS 20.0 (IBM Co., Armonk, NY, USA). Principal Component Analysis (PCA) was performed using the Canoco 5.0 software package (Microcomputer Power, USA).</p>
+</sec>
+</sec>
+<sec id="sec007" sec-type="conclusions">
+<title>Results and discussion</title>
+<sec id="sec008">
+<title>Temperature</title>
+<p>Temperature is an important indicator for monitoring the composting process. The optimum temperature range for composting is 40&#8211;65&#176;C, and temperature exceeding 55&#176;C is a necessary condition for killing pathogenic microbes, insect eggs, and weed seeds and for ensuring the compost product is harmless (Bernal et al., 2009). As shown in <xref ref-type="fig" rid="pone.0222841.g001">Fig 1</xref>, temperature in all treatments rapidly increased after the start of composting. A2 entered the thermophilic phase (&gt;50&#176;C) on 9<sup>th</sup> day, and A1, A3, and A4 entered the phase on the 12<sup>th</sup>, 32<sup>nd</sup>, and 11<sup>th</sup> day, respectively. The maximum temperatures of A1, A2, A3, and A4 were 72.7&#176;C, 71.8&#176;C, 62.7&#176;C, and 68.67&#176;C, respectively, which occurred on the 25th, 13th, 34th, and 19th day of the composting period, respectively. In all treatments, the thermophilic phase lasted for more than 4 consecutive weeks, particularly in A2, where it lasted for 41 consecutive days, and all treatments met hygiene and safety standards (temperature above 55&#176;C for more than 3 consecutive days) (GB 7959&#8211;2012, China). After approximately 50 days of composting, the thermophilic phase ended, and the temperature of the compost pile decreased gradually. Between 50 and 60 days after composting, due to reduced temperature and the accumulation of soluble organic matter, microbial activity increased again [<xref ref-type="bibr" rid="pone.0222841.ref010">10</xref>], leading to another stage of temperature rise in the compost pile, and after 60 days of composting, the temperature in all treatments rapidly decreased to ambient temperature. This may be due to a lot of heat lost by turning over the heap, far more than the heat generated by the material metabolism of microorganisms. In terms of temperature variability, A2 had a faster rate of temperature increase and the longest thermophilic phase.</p>
+<fig id="pone.0222841.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Temperature profile of the composting over time.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec009">
+<title>pH</title>
+<p>The pH is one of the important factors affecting the growth and reproduction of microbes. Microbial activity can be inhibited at too high or too low of pH, which hinders composting [<xref ref-type="bibr" rid="pone.0222841.ref018">18</xref>]. As shown in <xref ref-type="fig" rid="pone.0222841.g002">Fig 2</xref>, the initial pH in A1, A2, A3, and A4 was 6.29&#177;0.11, 6.32&#177;01, 6.27&#177;0.04, and 6.24&#177;0.07, respectively. The optimum pH for composting is 5.5&#8211;8.0 [<xref ref-type="bibr" rid="pone.0222841.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0222841.ref027">27</xref>]. During the first 20 days of composting, the pH in all treatments increased rapidly. On the 20th day of the composting period, the pH in A1, A2, A3, and A4 was 8.06&#177;0.09, 8.07&#177;0.08, 8.12&#177;0.03, and 7.84&#177;0.03, respectively. This pH might be due to the breakdown of phenolic acid compounds in the raw materials, as well as the breakdown of proteins and amino acids by microbes that produce ammonia and other alkaline substances [<xref ref-type="bibr" rid="pone.0222841.ref011">11</xref>]. The pH of the compost pile decreased afterwards, which might be caused by the formation of organic acids and phenolic compounds [<xref ref-type="bibr" rid="pone.0222841.ref028">28</xref>,<xref ref-type="bibr" rid="pone.0222841.ref029">29</xref>]. At the end of composting, the pH of the composted product in A1, A2, A3, and A4 was 7.08&#177;0.03, 7.21&#177;0.02, 7.47&#177;0.10, and 6.91&#177;0.02, respectively, which are all in the suitable range of seedling growth (Bustamante et al. 2008).</p>
+<fig id="pone.0222841.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Changes of pH during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec010">
+<title>Total nitrogen</title>
+<p>Nitrogen is the main elemental nutrient in the compost product. Improper composting procedures can result in a substantial loss of nitrogen. Not only does the compost product lacking nitrogen have low fertilizer efficiency, it may take up soil nitrogen, thereby resulting in a soil nutrient imbalance [<xref ref-type="bibr" rid="pone.0222841.ref017">17</xref>]. During the 76-day composting, the TN content in all treatments increased variably (<xref ref-type="fig" rid="pone.0222841.g003">Fig 3</xref>) and was significantly positively correlated with the number of days of composting (r = 0.952, P&lt;0.05; r = 0.900, P&lt;0.05; r = 0.976, P&lt;0.01; r = 0.965, P&lt;0.001). The TN content in A1, A2, A3, and A4 increased by 88.9%, 99.8%, 83.9%, and 103.4%, respectively. This might be caused by the mineralization of organic matter during composting, loss of CO<sub>2</sub>, and evaporative loss of water driven by heat production during the oxidation of organic matter [<xref ref-type="bibr" rid="pone.0222841.ref030">30</xref>].</p>
+<fig id="pone.0222841.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Changes of total nitrogen content (%) during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec011">
+<title><inline-formula id="pone.0222841.e005"><alternatives><graphic id="pone.0222841.e005g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e005" ns0:type="simple" /><ns1:math display="inline" id="M5"><ns1:mrow><ns1:mi mathvariant="bold">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="bold">O</ns1:mi><ns1:mn mathvariant="bold">3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="bold">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> and <inline-formula id="pone.0222841.e006"><alternatives><graphic id="pone.0222841.e006g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e006" ns0:type="simple" /><ns1:math display="inline" id="M6"><ns1:mrow><ns1:mi mathvariant="bold">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="bold">H</ns1:mi><ns1:mn mathvariant="bold">4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="bold">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula></title>
+<p><inline-formula id="pone.0222841.e007"><alternatives><graphic id="pone.0222841.e007g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e007" ns0:type="simple" /><ns1:math display="inline" id="M7"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> is the main source of nitrogen for most plants [<xref ref-type="bibr" rid="pone.0222841.ref031">31</xref>]. The higher the NO<sub>3</sub><sup>-</sup>-N content, the higher the fertilizer efficiency of the compost product. As shown in <xref ref-type="fig" rid="pone.0222841.g004">Fig 4</xref>, between 0 and 40 days of composting, <inline-formula id="pone.0222841.e008"><alternatives><graphic id="pone.0222841.e008g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e008" ns0:type="simple" /><ns1:math display="inline" id="M8"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> did not change significantly in all treatments. After 40 days of composting, the <inline-formula id="pone.0222841.e009"><alternatives><graphic id="pone.0222841.e009g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e009" ns0:type="simple" /><ns1:math display="inline" id="M9"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> increased rapidly. In contrast, the <inline-formula id="pone.0222841.e010"><alternatives><graphic id="pone.0222841.e010g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e010" ns0:type="simple" /><ns1:math display="inline" id="M10"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> content exhibited a decreasing trend after the start of composting. This is because during composting, the proteins, amino acids and other organic matter were first utilized by microbes as energy and nitrogen sources for them, and when these substances were utilized, the <inline-formula id="pone.0222841.e011"><alternatives><graphic id="pone.0222841.e011g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e011" ns0:type="simple" /><ns1:math display="inline" id="M11"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> formed during microbial deamination was unstable, part of which was volatilized as ammonia gas, and part of which was converted to <inline-formula id="pone.0222841.e012"><alternatives><graphic id="pone.0222841.e012g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e012" ns0:type="simple" /><ns1:math display="inline" id="M12"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> by ammonia-oxidizing microbes [<xref ref-type="bibr" rid="pone.0222841.ref032">32</xref>]. The former process mainly occurred in the early stage of composting when pH and temperature were relatively high, and ammonia volatilization caused the rapid reduction of <inline-formula id="pone.0222841.e013"><alternatives><graphic id="pone.0222841.e013g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e013" ns0:type="simple" /><ns1:math display="inline" id="M13"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> in the compost pile. The latter process mainly occurred in the mid to late stages of composting and was the main reason of <inline-formula id="pone.0222841.e014"><alternatives><graphic id="pone.0222841.e014g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e014" ns0:type="simple" /><ns1:math display="inline" id="M14"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> increase. This is because nitrifying bacteria cannot grow at temperatures above 40&#176;C, and hence, nitrification mainly occurred during the stages of temperature decrease and compost maturity [<xref ref-type="bibr" rid="pone.0222841.ref025">25</xref>]. At the end of composting, the magnitude of decrease in the <inline-formula id="pone.0222841.e015"><alternatives><graphic id="pone.0222841.e015g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e015" ns0:type="simple" /><ns1:math display="inline" id="M15"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> far exceeded the magnitude of increase in the <inline-formula id="pone.0222841.e016"><alternatives><graphic id="pone.0222841.e016g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e016" ns0:type="simple" /><ns1:math display="inline" id="M16"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, which might be due to the substantial volatilization of <inline-formula id="pone.0222841.e017"><alternatives><graphic id="pone.0222841.e017g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e017" ns0:type="simple" /><ns1:math display="inline" id="M17"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> at high temperatures [<xref ref-type="bibr" rid="pone.0222841.ref026">26</xref>].</p>
+<fig id="pone.0222841.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Content (%) of <inline-formula id="pone.0222841.e018"><alternatives><graphic id="pone.0222841.e018g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e018" ns0:type="simple" /><ns1:math display="inline" id="M18"><ns1:mrow><ns1:mi mathvariant="bold">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="bold">O</ns1:mi><ns1:mn mathvariant="bold">3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="bold">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> and <inline-formula id="pone.0222841.e019"><alternatives><graphic id="pone.0222841.e019g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e019" ns0:type="simple" /><ns1:math display="inline" id="M19"><ns1:mrow><ns1:mi mathvariant="bold">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="bold">H</ns1:mi><ns1:mn mathvariant="bold">4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="bold">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g004" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec012">
+<title>C/N ratio</title>
+<p>As shown in <xref ref-type="fig" rid="pone.0222841.g005">Fig 5</xref>, during composting, the C/N ratio exhibited an apparent decreasing trend in all treatments. The results of the Pearson correlation analysis indicated that the C/N was significantly negatively correlated with the number of days of composting (r = -0.939, r = -0.951, r = -0.944, r = -0.934, P&lt;0.05, respectively). Dalal et al. showed that, normally when C/N of organic fertilizers was higher than 30, the biological immobilization effects of the mineral nitrogen in the soil were greater than the mineralization effects of organic nitrogen. When C/N was between 20&#8211;30, the rate of biological immobilization of mineral nitrogen was similar to the rate of mineralization of organic nitrogen, and the available nitrogen in the soil did not change significantly. When C/N was below 20, the rate of mineralization of organic nitrogen was greater than the rate of biological immobilization of mineral nitrogen, and the available nitrogen in the soil increased. It is generally believed that the lower C/N ratio, the better the quality of organic fertilizer [<xref ref-type="bibr" rid="pone.0222841.ref033">33</xref>]. After 76 days of composting, the C/N of the compost product in A1, A2, A3, and A4 was 16.12&#177;1.21, 15.83&#177;1.10, 16.56&#177;0.90, and 16.22&#177;0.51, respectively, which led to the increase in available nitrogen in the soil.</p>
+<fig id="pone.0222841.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Changes of C/N ratio and T ratio during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3). T = (C/N <sub>final</sub>)/(C/N <sub>initial</sub>).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g005" ns0:type="simple" />
+</fig>
+<p>According to the methods of the US Composting Council (2002), the compost is considered mature when its C/N is less than 21. Itavaara et al. (1997) [<xref ref-type="bibr" rid="pone.0222841.ref034">34</xref>] and Arja et al. (1997) [<xref ref-type="bibr" rid="pone.0222841.ref035">35</xref>] suggested that when T&lt;0.6 [T = (C/N) <sub>final</sub>/(C/N) <sub>initial</sub>], the compost had reached maturity. Based on the C/N ratio, the compost in A1, A2, and A4 reached maturity on the 60th day of composting. Based on the T value, the compost in A1, A2, and A4 reached maturity on the 60th day of composting, whereas A3 reached maturity on the 76th day of composting.</p>
+</sec>
+<sec id="sec013">
+<title>Total nutrient content</title>
+<p>The total nutrient content (%) refers to the sum of the N, P (calculated as P<sub>2</sub>O<sub>5</sub>), and K (calculated as K<sub>2</sub>O) contents. N, P, and K are all essential elemental nutrients for plant growth, and total nutrient content (%) greater than 5% is an important indicator of a compost product that is being considered an organic fertilizer [Chinese standard for organic fertilizers (NY525-2012)]. As shown in <xref ref-type="fig" rid="pone.0222841.g006">Fig 6</xref>, during composting, the total nutrient content in all treatments was significantly positively correlated with the number of days of composting (r = 0.974, r = 0.972, r = 0.976, r = 0.995, P&lt;0.01, respectively). The total nutrient contents of A2, A3, and A4 were greater than 5% on the 60th day, and that in A1 was greater than 5% on the 76th day. When the composting ended (76th day), the total nutrient content in A1, A2, A3, and A4 was 5.41&#177;0.14%, 5.75&#177;0.11%, 5.62&#177;0.12%, and 5.53&#177;0.06%, respectively. Among these treatments, the total nutrient content was the highest in A2, indicating that too high or too low of turning frequency could cause the loss of total nutrients. In this experiment, the total nutrient content in the compost product was the highest when the turning frequency was once every 7 days.</p>
+<fig id="pone.0222841.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Changes of total Nutrition (%) during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g006" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec014">
+<title>Germination index (GI)</title>
+<p>The GI can effectively reflect the phytotoxicity of the compost. The compost is considered basically nontoxic when the GI is greater than 60%, and the phytotoxicity of the compost completely disappears when the GI is greater than 80% [<xref ref-type="bibr" rid="pone.0222841.ref031">31</xref>]. As shown in <xref ref-type="fig" rid="pone.0222841.g007">Fig 7</xref>, the GI of Bok choy (<italic>Brassica chinensis</italic> L.) in the compost pile exhibited an increasing trend in the different treatments and in the different composting stages. In particular, GI in the compost pile in A1 and A3 decreased considerably after 14&#8211;20 days of composting. This might be related to the phytotoxicity of small molecules in the compost, such as ammonia, phenols, and acids [<xref ref-type="bibr" rid="pone.0222841.ref018">18</xref>]. At the end of composting, the GI in A1, A2, A3, and A4 was 110.12%, 103.00%, 73.94%, and 108.41%, respectively. GI in A1, A2, and A4 was 48.93%, 39.30%, and 46.62% higher than that in A3, respectively. This result indicated that the final compost in A1, A2, and A4 did not have phytotoxicity [<xref ref-type="bibr" rid="pone.0222841.ref019">19</xref>], and the final compost in A3 was still toxic to plants. Therefore, turning could accelerate the breakdown and conversion of phytotoxic substances in the compost pile and facilitate the maturation of compost. when the turning frequency is low enough, sufficient anaerobic fermentation can also reduce the phytotoxicity of the compost [<xref ref-type="bibr" rid="pone.0222841.ref036">36</xref>]. However, GI was measured by using leachate from compost, which cannot explain the harmful effects of many insoluble substances in compost products on plant growth, nor can explain the effects on plant root growth and aboveground development. Therefore, GI alone cannot prove that compost products are maturity [<xref ref-type="bibr" rid="pone.0222841.ref037">37</xref>].</p>
+<fig id="pone.0222841.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Changes of Germination index(%)during composting at different turning frequencies.</title>
+<p>Error bars represent the standard deviations of the means (n = 3).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g007" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec015">
+<title>Solvita maturity index</title>
+<p>Solvita maturity index is a widely accepted index obtained through simple tests [<xref ref-type="bibr" rid="pone.0222841.ref038">38</xref>]. As shown in <xref ref-type="table" rid="pone.0222841.t002">Table 2</xref>, after the start of composting, The Solvita maturity index increased gradually in all treatments. At the end of composting, the Solvita maturity index in A1, A2, A3, and A4 was 7, 7, 5, and 7 respectively. When the Solvita maturity index is 7, composting is considered &#8220;finished,&#8221; according to the &#8220;Guide to Solvita testing for compost maturity index&#8221; (Woods End Research, 2002). Therefore, the compost product in A1, A2, and A4 could be regarded as mature after 76 days of composting (<xref ref-type="table" rid="pone.0222841.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0222841.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.t002</object-id>
+<label>Table 2</label> <caption><title>Solvita maturity index during composting.</title></caption>
+<alternatives>
+<graphic id="pone.0222841.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Composting Days</th>
+<th align="center">A1</th>
+<th align="center">A2</th>
+<th align="center">A3</th>
+<th align="center">A4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0</td>
+<td align="center">N.D.</td>
+<td align="center">N.D.</td>
+<td align="center">N.D.</td>
+<td align="center">N.D.</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">4</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">40</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td align="center">6</td>
+<td align="center">6</td>
+<td align="center">5</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="center">76</td>
+<td align="center">7</td>
+<td align="center">7</td>
+<td align="center">5</td>
+<td align="center">7</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec016">
+<title>Evaluation system of maturity indices</title>
+<p>Many parameters have been used as indicators for evaluating compost maturity [<xref ref-type="bibr" rid="pone.0222841.ref021">21</xref>,<xref ref-type="bibr" rid="pone.0222841.ref022">22</xref>]. In this study, the Solvita maturity index was used as a standard index, and its correlations with parameters such as TN, C/N, and GI were analyzed. As shown in <xref ref-type="table" rid="pone.0222841.t003">Table 3</xref>, both TN, C/N, and GI in four treatments were significantly correlated with the Solvita maturity index (P&lt;0.05). The C/N was negatively correlated with other maturity parameters (TN, GI, and Solvita maturity index). The TN, GI, and Solvita maturity index were positively correlated with each other. During composting, the TN, GI, and Solvita maturity index showed an increasing trend, and the C/N showed a decreasing trend. A principal component analysis (PCA) was used to identify factors that could distinguish the relationships between physicochemical parameters (<xref ref-type="fig" rid="pone.0222841.g008">Fig 8</xref>). The parameters were grouped according to principal components in four clearly distinguished clusters. The first group was <inline-formula id="pone.0222841.e020"><alternatives><graphic id="pone.0222841.e020g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e020" ns0:type="simple" /><ns1:math display="inline" id="M20"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula> and Solvita maturity index, the second group was <inline-formula id="pone.0222841.e021"><alternatives><graphic id="pone.0222841.e021g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e021" ns0:type="simple" /><ns1:math display="inline" id="M21"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, C/N, the third group was TN and Total nutrient, and the fourth group was pH. Therefore, the inclusion of TN, C/N and GI in the evaluation system of compost maturity can allow compost maturity to be effectively evaluated.</p>
+<fig id="pone.0222841.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>PCA analysis of the parameters in composting process.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.g008" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222841.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.t003</object-id>
+<label>Table 3</label> <caption><title>Bivariate (Pearson) correlation analysis of the physical and chemical parameters of each group.</title></caption>
+<alternatives>
+<graphic id="pone.0222841.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="left">Parameter</th>
+<th align="center">TN(%)</th>
+<th align="center">C/N</th>
+<th align="center">GI(%)</th>
+<th align="center">SOLVITA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="4">A1</td>
+<td align="left">TN(%)</td>
+<td align="right">1</td>
+<td align="right">-0.998<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">0.835</td>
+<td align="right">0.953<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">C/N</td>
+<td align="right" />
+<td align="right">1</td>
+<td align="right">-0.851</td>
+<td align="right">-0.969<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+</tr>
+<tr>
+<td align="left">GI(%)</td>
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+<td align="right">0.914<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">SOLVITA</td>
+<td align="right" />
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">A2</td>
+<td align="left">TN(%)</td>
+<td align="right">1</td>
+<td align="right">-0.944<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="right">0.975<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">0.934<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">C/N</td>
+<td align="right" />
+<td align="right">1</td>
+<td align="right">-0.746</td>
+<td align="right">-0.619</td>
+</tr>
+<tr>
+<td align="left">GI(%)</td>
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+<td align="right">0.981<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+</tr>
+<tr>
+<td align="left">SOLVITA</td>
+<td align="right" />
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">A3</td>
+<td align="left">TN(%)</td>
+<td align="right">1</td>
+<td align="right">-0.989<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">0.647</td>
+<td align="right">0.902<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">C/N</td>
+<td align="right" />
+<td align="right">1</td>
+<td align="right">-0.561</td>
+<td align="right">-0.864</td>
+</tr>
+<tr>
+<td align="left">GI(%)</td>
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+<td align="right">0.886<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">SOLVITA</td>
+<td align="right" />
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">A4</td>
+<td align="left">TN(%)</td>
+<td align="right">1</td>
+<td align="right">-0.995<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">0.976<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">0.948<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">C/N</td>
+<td align="right" />
+<td align="right">1</td>
+<td align="right">-0.973<xref ref-type="table-fn" rid="t003fn001">**</xref></td>
+<td align="right">-0.917<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">GI(%)</td>
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+<td align="right">0.892<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">SOLVITA</td>
+<td align="right" />
+<td align="right" />
+<td align="right" />
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>**. Correlation at the significant level of 0.01.</p></fn>
+<fn id="t003fn002"><p>*. Correlation at significant level of 0.05.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>By studying the changes in compost maturity under 4 different turning frequencies, observations on the co-compost of <italic>C</italic>. <italic>oleifera</italic> shell with goat dung showed that on reaching maturity, the C/N ratio of the co-compost was between 15.83 and 16.22; The GI was greater than 100%, and the TN was between 2.85 and 2.91%.</p>
+</sec>
+<sec id="sec017">
+<title>Final compost quality</title>
+<p>The main chemical properties of the final compost products in the four treatments are shown in <xref ref-type="table" rid="pone.0222841.t004">Table 4</xref>. The pH of the compost in each treatment was between 6.91 and 7.48, and its moisture content was below 30%. The highest total nutrient content of the compost product was 5.75&#177;0.11% (A2), and the lowest was 5.41&#177;0.14% (A1); both were greater than 5% and within the limits defined by the Chinese standard for organic fertilizers (NY525-2012). The organic matter content of the compost product in A2 was as high as 79.54&#177;0.98%, and it was the lowest in A1 at 78.44&#177;0.38%. These values were much higher than the requirement (45%) in the Chinese standard for organic fertilizers (NY525-2012).</p>
+<table-wrap id="pone.0222841.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222841.t004</object-id>
+<label>Table 4</label> <caption><title>Chemical characteristics of the final compost obtained.</title></caption>
+<alternatives>
+<graphic id="pone.0222841.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th align="left">A1</th>
+<th align="left">A2</th>
+<th align="left">A3</th>
+<th align="left">A4</th>
+<th align="left">NY525-2012</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Moisture (%)</td>
+<td align="left">15.0&#177;0.4</td>
+<td align="left">15.1&#177;0.1</td>
+<td align="left">14.3&#177;0.6</td>
+<td align="left">14.8&#177;0.3</td>
+<td align="left">&#8804;30</td>
+</tr>
+<tr>
+<td align="left">Organic matter content (%)</td>
+<td align="left">78.44&#177;0.38</td>
+<td align="left">79.54&#177;0.98</td>
+<td align="left">78.61&#177;0.56</td>
+<td align="left">77.41&#177;1.02</td>
+<td align="left">&#8805;45</td>
+</tr>
+<tr>
+<td align="left">Total nutrients (%)</td>
+<td align="left">5.41&#177;0.14</td>
+<td align="left">5.75&#177;0.11</td>
+<td align="left">5.62&#177;0.12</td>
+<td align="left">5.53&#177;0.06</td>
+<td align="left">5</td>
+</tr>
+<tr>
+<td align="left">pH</td>
+<td align="left">7.08&#177;0.03</td>
+<td align="left">7.21&#177;0.02</td>
+<td align="left">7.47&#177;0.10</td>
+<td align="left">6.91&#177;0.02</td>
+<td align="left">5.5&#8211;8.5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Except for moisture, all data are expressed on a dry weight basis.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Conclusion</title>
+<p>During the study, the products obtained from composting of <italic>C</italic>. <italic>oleifera</italic> shell and goat dung for 76 days were in accordance with the Chinese organic fertilizer standard NY525-2012. In the composting process, TN, <inline-formula id="pone.0222841.e022"><alternatives><graphic id="pone.0222841.e022g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e022" ns0:type="simple" /><ns1:math display="inline" id="M22"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mn>3</ns1:mn><ns1:mi mathvariant="normal">&#8208;</ns1:mi></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, GI, Solvita maturity index increased with the composting process, while <inline-formula id="pone.0222841.e023"><alternatives><graphic id="pone.0222841.e023g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222841.e023" ns0:type="simple" /><ns1:math display="inline" id="M23"><ns1:mrow><ns1:mi mathvariant="normal">N</ns1:mi><ns1:msubsup><ns1:mi mathvariant="normal">H</ns1:mi><ns1:mn>4</ns1:mn><ns1:mo>+</ns1:mo></ns1:msubsup><ns1:mi mathvariant="normal">&#8209;</ns1:mi><ns1:mi mathvariant="normal">N</ns1:mi></ns1:mrow></ns1:math></alternatives></inline-formula>, C/N showed the opposite trend. According to the correlation analysis, TN, C/N ratio and GI can be used to evaluate the maturity of compost of <italic>C</italic>. <italic>oleifera</italic> shell and goat dung comprehensively. Among the four treatments, the longest duration of thermophilic phase was observed in A2 for 42 days (&gt;50&#176;C), with the highest total nutrient (5.75&#177;0.11%) and lowest C/N value (15.83&#177;1.10). It can be seen that the turning frequency of every 7 days can improve the quality of compost products. However, due to the diversity of raw materials and composting conditions, we need to do more research to acquire parameters with simple determination method and strong correlation with maturity to determine the appropriate turning frequency for composting.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222841.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.s001" ns0:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Data of sample parameters during composting</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222841.ref001"><label>1</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Yao</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ren</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>P</given-names></name>. <source>The Research on Oil Camellia Resources and Its Scientific Utilization</source>. <publisher-name>Science Press</publisher-name>, <publisher-loc>Beijing</publisher-loc>. <year>2012</year>.</mixed-citation></ref>
+<ref id="pone.0222841.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Bai</surname> <given-names>X</given-names></name>. <article-title>Research progress on main extracts and biological activities of Camellia oleifera fruit hull</article-title>. <source>Journal of Hainan Normal University (Natural Science)</source>. <year>2018</year>; <volume>31</volume>(<issue>1</issue>).</mixed-citation></ref>
+<ref id="pone.0222841.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ying</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yao</surname> <given-names>X</given-names></name>. <article-title>Evaluation of Three Kinds of Nutshell with Respect to Utilization as Culture Media</article-title>. <source>Bioresources</source>. <year>2018</year>; <volume>13</volume>(<issue>4</issue>):<fpage>7508</fpage>&#8211;<lpage>7518</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.15376/biores.13.4.7508&#8211;7518" ns0:type="simple">10.15376/biores.13.4.7508&#8211;7518</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ouyang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>S</given-names></name>. <article-title>An integrated process to produce ethanol, vanillin, and xylooligosaccharides from camellia oleifera shell</article-title>. <source>Carbohydrate Research</source>.<year>2013</year>; <volume>382</volume>, <fpage>52</fpage>&#8211;<lpage>57</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.carres.2013.10.007" ns0:type="simple">10.1016/j.carres.2013.10.007</ext-link></comment> <object-id pub-id-type="pmid">24188806</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Xie</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ge</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Biomolecules in extractives of camellia oleifera fruit shell by GC-MS</article-title>. <source>Saudi Journal of Biological Sciences</source>. <year>2018</year>; <volume>25</volume>(<issue>2</issue>), <fpage>234</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.sjbs.2017.08.006" ns0:type="simple">10.1016/j.sjbs.2017.08.006</ext-link></comment> <object-id pub-id-type="pmid">29472770</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>National Development Plan of Camellia oleifera Industry</collab>. <source>The state forestry administration of the People's Republic of China</source>. <year>2009</year>. Available from: <ext-link ext-link-type="uri" ns0:href="http://www.ndrc.gov.cn/zcfb/zcfbghwb/200911/W020140220607252029036.pdf" ns0:type="simple">http://www.ndrc.gov.cn/zcfb/zcfbghwb/200911/W020140220607252029036.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0222841.ref007"><label>7</label><mixed-citation publication-type="other" ns0:type="simple">Report of market demand and investment strategy planning analysis on China Camellia oil industry (2019&#8211;2025). Forward Business Information Co., Ltcl, Shonzhon. Available from: <ext-link ext-link-type="uri" ns0:href="https://www.qianzhan.com/analyst/detail/220/190412-93f64348.html" ns0:type="simple">https://www.qianzhan.com/analyst/detail/220/190412-93f64348.html</ext-link></mixed-citation></ref>
+<ref id="pone.0222841.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>. <article-title>Research progress in preparation and application of camellia oleifera shell activated carbon</article-title>. <source>Applied Chemical Industry</source>. <year>2018</year>; <volume>47</volume>(<issue>1</issue>):<fpage>190</fpage>&#8211;<lpage>192</lpage>.</mixed-citation></ref>
+<ref id="pone.0222841.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sykes</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wildsmith</surname> <given-names>JD</given-names></name>. <article-title>Managing the potential public health risks from bioaerosol liberation at commercial composting sites in the uk: an analysis of the evidence base</article-title>. <source>Resources, Conservation and Recycling</source>. <year>2007</year>; <volume>52</volume>(<issue>2</issue>), <fpage>410</fpage>&#8211;<lpage>424</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.resconrec.2007.05.005" ns0:type="simple">10.1016/j.resconrec.2007.05.005</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Meng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Xi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Luo</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yuan</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Effect of pig manure on the chemical composition and microbial diversity during co-composting with spent mushroom substrate and rice husks</article-title>. <source>Bioresour. Technol</source>. <year>2018a</year>; <volume>251</volume>:<fpage>22</fpage>&#8211;<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2017.09.077" ns0:type="simple">10.1016/j.biortech.2017.09.077</ext-link></comment> <object-id pub-id-type="pmid">29257993</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Qian</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lei</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>Co-composting of livestock manure with rice straw: characterization and establishment of maturity evaluation system</article-title>. <source>Waste Management</source>, <year>2014</year>; <volume>34</volume>(<issue>2</issue>): <fpage>530</fpage>&#8211;<lpage>535</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.wasman.2013.10.007" ns0:type="simple">10.1016/j.wasman.2013.10.007</ext-link></comment> <object-id pub-id-type="pmid">24188923</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Khan</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Clark</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>S&#225;nchez-Monedero Miguel</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Shea</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Meier</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bolan</surname> <given-names>N</given-names></name>. <article-title>Maturity indices in co-composting of chicken manure and sawdust with biochar</article-title>. <source>Bioresource Technology</source>. <year>2014</year>; <volume>168</volume>: <fpage>245</fpage>&#8211;<lpage>251</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2014.02.123" ns0:type="simple">10.1016/j.biortech.2014.02.123</ext-link></comment> <object-id pub-id-type="pmid">24666624</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref013"><label>13</label><mixed-citation publication-type="other" ns0:type="simple">Wang Y. Changes of culturable microorganisms, humus content and enzyme activities in comosting of four kinds of livestock dung. M.Sc. Thesis. Gansu Agricultural University. 2016. Available from: <ext-link ext-link-type="uri" ns0:href="http://cdmd.cnki.com.cn/Article/CDMD-10733-1016902590.htm" ns0:type="simple">http://cdmd.cnki.com.cn/Article/CDMD-10733-1016902590.htm</ext-link></mixed-citation></ref>
+<ref id="pone.0222841.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>H</given-names></name>. <article-title>Chemical and biological changes during early stage of composting of different animal wastes</article-title>. <source>Journal of Agro-Environment Science</source>. <year>2015</year>; <volume>34</volume>(<issue>11</issue>): <fpage>2198</fpage>&#8211;<lpage>2207</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.11654/jaes.2015.11.023" ns0:type="simple">10.11654/jaes.2015.11.023</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ramaswamy</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Prasher</surname> <given-names>SO</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Hussain</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Barrington</surname> <given-names>SF</given-names></name>. <article-title>The effect of composting on the degradation of a veterinary pharmaceutical</article-title>. <source>Bioresource Technology</source>. <year>2010</year>; <volume>101</volume>(<issue>7</issue>), <fpage>2294</fpage>&#8211;<lpage>2299</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2009.10.089" ns0:type="simple">10.1016/j.biortech.2009.10.089</ext-link></comment> <object-id pub-id-type="pmid">19944598</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bernal</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Alburquerque</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Moral</surname> <given-names>R</given-names></name>. <article-title>Composting of animal manures and chemical criteria for compost maturity assessment. a review</article-title>. <source>Bioresource Technology</source>, <year>2009</year>;<volume>100</volume>(<issue>22</issue>), <fpage>5444</fpage>&#8211;<lpage>5453</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2008.11.027" ns0:type="simple">10.1016/j.biortech.2008.11.027</ext-link></comment> <object-id pub-id-type="pmid">19119002</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ogunwande</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Osunade</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Adekalu</surname> <given-names>KO</given-names></name>, <name name-style="western"><surname>Ogunjimi</surname> <given-names>LAO</given-names></name>. <article-title>Nitrogen loss in chicken litter compost as affected by carbon to nitrogen ratio and turning frequency</article-title>. <source>Bioresour Technol</source>. <year>2008</year>; <volume>99</volume>(<issue>16</issue>): <fpage>7495</fpage>&#8211;<lpage>7503</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2008.02.020" ns0:type="simple">10.1016/j.biortech.2008.02.020</ext-link></comment> <object-id pub-id-type="pmid">18367393</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Schuchardt</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>An</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Effects of turning frequency on chemical and physical properties in windrow composting of spent Chinese herbal Medicine</article-title>. <source>Chinese Agricultural Science Bulletin</source>. <year>2012</year>; <volume>28</volume>(<issue>29</issue>):<fpage>247</fpage>&#8211;<lpage>252</lpage>.</mixed-citation></ref>
+<ref id="pone.0222841.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Himanen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>H&#228;nninen</surname> <given-names>M</given-names></name>. <article-title>Composting of bio-waste, aerobic and anaerobic sludges&#8212;Effect of feedstock on the process and quality of compost</article-title>. <source>Bioresour. Technol</source>. <year>2011</year>; <volume>102</volume>: <fpage>2842</fpage>&#8211;<lpage>2852</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2010.10.059" ns0:type="simple">10.1016/j.biortech.2010.10.059</ext-link></comment> <object-id pub-id-type="pmid">21095117</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nolan</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Troy</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Healy</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Kwapinski</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Leahy</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Lawlor</surname> <given-names>PG</given-names></name>. <article-title>Characterization of compost produced from separated pig manure and a variety of bulking agents at low initial C/N ratios</article-title>. <source>Bioresour. Technol</source>. <year>2011</year>; <volume>102</volume>: <fpage>7131</fpage>&#8211;<lpage>7138</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2011.04.066" ns0:type="simple">10.1016/j.biortech.2011.04.066</ext-link></comment> <object-id pub-id-type="pmid">21570832</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Grube</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>PH</given-names></name>, <name name-style="western"><surname>Kokorevicha</surname> <given-names>S</given-names></name>. <article-title>Evaluation of sewage sludge-based compost by FT-IR spectroscopy</article-title>. <source>Geoderma</source>. <year>2006</year>;<volume>130</volume>: <fpage>324</fpage>&#8211;<lpage>333</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.geoderma.2005.02.005" ns0:type="simple">10.1016/j.geoderma.2005.02.005</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>G&#243;mez-Brand&#243;n</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lazcano</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Dom&#237;nguez</surname> <given-names>J</given-names></name>. <article-title>The evaluation of stability and maturity during the composting of cattle manure</article-title>. <source>Chemosphere</source>, <year>2008</year>; <volume>70</volume>: <fpage>436</fpage>&#8211;<lpage>444</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.chemosphere.2007.06.065" ns0:type="simple">10.1016/j.chemosphere.2007.06.065</ext-link></comment> <object-id pub-id-type="pmid">17689588</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ko</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>KY</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>HT</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>CN</given-names></name>, <name name-style="western"><surname>Umeda</surname> <given-names>M</given-names></name>. <article-title>Evaluation of maturity parameters and heavy metal contents in composts made from animal manure</article-title>. <source>Waste Manage</source>. <year>2008</year>; <volume>28</volume>: <fpage>813</fpage>&#8211;<lpage>820</lpage>.</mixed-citation></ref>
+<ref id="pone.0222841.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhao</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>L&#252;</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Cui</surname> <given-names>Z</given-names></name>. <article-title>Microbial community dynamics during biogas slurry and cow manure compost</article-title>. <source>Journal of Integrative Agriculture</source>. <year>2013</year>;<volume>12</volume>(<issue>6</issue>), <fpage>1087</fpage>&#8211;<lpage>1097</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S2095-3119(13)60488-8" ns0:type="simple">10.1016/S2095-3119(13)60488-8</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Meng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Dai</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Yuan</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Composted biogas residue and spent mushroom substrate as a growth medium for tomato and pepper seedlings</article-title>. <source>J. Environ. Manage</source>.<year>2018b</year>; <volume>216</volume>: (<issue>SI</issue>), <fpage>62</fpage>&#8211;<lpage>69</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jenvman.2017.09.056" ns0:type="simple">10.1016/j.jenvman.2017.09.056</ext-link></comment> <object-id pub-id-type="pmid">28958462</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bustamante</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Paredes</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Marhuenda-Egea</surname> <given-names>FC</given-names></name>, <name name-style="western"><surname>Perez-Espinosa</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bernal</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Moral</surname> <given-names>R</given-names></name>. <article-title>Co-composting of distillery wastes with animal manures: Carbon and nitrogen transformations in the evaluation of compost stability</article-title>. <source>Chemosphere</source>. <year>2008</year>; <volume>72</volume>(<issue>4</issue>); <fpage>551</fpage>&#8211;<lpage>557</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.chemosphere.2008.03.030" ns0:type="simple">10.1016/j.chemosphere.2008.03.030</ext-link></comment> <object-id pub-id-type="pmid">18466954</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Troy</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Nolan</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kwapinski</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Leahy</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Healy</surname> <given-names>MG</given-names></name>. <article-title>Effect of sawdust addition on composting of separated raw and anaerobically digested pig manure</article-title>. <source>J. Environ. Manage</source>. <year>2012</year>;<volume>111</volume>: <fpage>70</fpage>&#8211;<lpage>77</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jenvman.2012.06.035" ns0:type="simple">10.1016/j.jenvman.2012.06.035</ext-link></comment> <object-id pub-id-type="pmid">22824375</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ahmed</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Idris</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Omar</surname> <given-names>SRS</given-names></name>. <article-title>Physicochemical characterization of compost of the industrial tannery sludge</article-title>. <source>J. Eng. Sci. Technol</source>. <year>2007</year>; <volume>2</volume> (<issue>1</issue>): <fpage>81</fpage>&#8211;<lpage>94</lpage></mixed-citation></ref>
+<ref id="pone.0222841.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Getahun</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nigusie</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Entele</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Gerven</surname> <given-names>TV</given-names></name>, <name name-style="western"><surname>Bruggen</surname> <given-names>BVD</given-names></name>. <article-title>Effect of turning frequencies on composting biodegradable municipal solid waste quality</article-title>. <source>Resources Conservation and Recycling</source>. <year>2012</year>; <volume>65</volume>: <fpage>79</fpage>&#8211;<lpage>84</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.resconrec.2012.05.007" ns0:type="simple">10.1016/j.resconrec.2012.05.007</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>GF</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>JWC</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>QT</given-names></name>, <name name-style="western"><surname>Nagar</surname> <given-names>BB</given-names></name>. <article-title>Effect of c/n on composting of pig manure with sawdust</article-title>. <source>Waste Management</source>. <year>2004</year>; <volume>24</volume>(<issue>8</issue>): <fpage>805</fpage>&#8211;<lpage>813</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.wasman.2004.03.011" ns0:type="simple">10.1016/j.wasman.2004.03.011</ext-link></comment> <object-id pub-id-type="pmid">15381232</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rashad</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Saleh</surname> <given-names>WD</given-names></name>, <name name-style="western"><surname>Moselhy</surname> <given-names>MA</given-names></name>. <article-title>Bioconversion of rice straw and certain agro-industrial wastes to amendments for organic farming systems: 1. composting, quality, stability and maturity indices</article-title>. <source>Bioresource Technology</source>. <year>2010</year>; <volume>101</volume>(<issue>15</issue>), <fpage>5952</fpage>&#8211;<lpage>5960</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2010.02.103" ns0:type="simple">10.1016/j.biortech.2010.02.103</ext-link></comment> <object-id pub-id-type="pmid">20335032</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref032"><label>32</label><mixed-citation publication-type="other" ns0:type="simple">Li, Z. The relationship of microbial biodiversity and the transformation of materials in the composting process of agricultural organic solids matter. (Doctoral dissertation, Nanjing Agricultural University). 2006.</mixed-citation></ref>
+<ref id="pone.0222841.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Xiao</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>. <article-title>Effects of organic fertilizers on nitrogen transformation in vegetable soil</article-title>. <source>Anhui Agri. Sci. Bull</source>. <year>2017</year>; <volume>23</volume>(<issue>02&#8211;03</issue>): <fpage>48</fpage>&#8211;<lpage>50</lpage>+72.</mixed-citation></ref>
+<ref id="pone.0222841.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Itavaara</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vikma</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Venelampi</surname> <given-names>O</given-names></name>. <article-title>Windrow Composting of Biodegradable Packaging Materials</article-title>.<source>Compost Science &amp; Utilization</source>. <year>1997</year>;(<issue>2</issue>): <fpage>84</fpage>&#8211;<lpage>92</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/1065657X.1997.10701877" ns0:type="simple">10.1080/1065657X.1997.10701877</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Arja</surname> <given-names>HV</given-names></name>, <name name-style="western"><surname>Maritla</surname> <given-names>HS</given-names></name>. <article-title>Evolution of microbiolgical and chemical parameters during manure and straw co-composting in a drum composting system</article-title>. <source>Agriculture, Ecosystem and Environment</source>. <year>1997</year>; <volume>66</volume>:<fpage>19</fpage>&#8211;<lpage>29</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S01678809(97)00069-8" ns0:type="simple">10.1016/S01678809(97)00069-8</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222841.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kalemelawa</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Nishihara</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Endo</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ahmad</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Yamamoto</surname> <given-names>S</given-names></name>. <article-title>An Evaluation of Aerobic and Anaerobic Composting of Banana Peels Treated with Different Inoculums for Soil Nutrient Replenishment</article-title>. <source>Bioresource Technology</source>. <year>2012</year>; <volume>126</volume>: <fpage>375</fpage>&#8211;<lpage>382</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biortech.2012.04.030" ns0:type="simple">10.1016/j.biortech.2012.04.030</ext-link></comment> <object-id pub-id-type="pmid">22608289</object-id></mixed-citation></ref>
+<ref id="pone.0222841.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Meng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yuan</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Cui</surname> <given-names>Z</given-names></name>. <article-title>Co-composting of the biogas residues and spent mushroom substrate: Physicochemical properties and maturity assessment</article-title>. <source>Bioresource Technology</source>. <year>2019</year>; <volume>276</volume>(<issue>3</issue>), <fpage>281</fpage>&#8211;<lpage>287</lpage></mixed-citation></ref>
+<ref id="pone.0222841.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Haney</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Brinton</surname> <given-names>WF</given-names></name>, <name name-style="western"><surname>Evans</surname> <given-names>E</given-names></name>. <article-title>Soil co2 respiration: comparison of chemical titration, co2 irga analysis and the solvita gel system</article-title>. <source>Renewable Agriculture and Food Systems</source>. <year>2008</year>; <volume>23</volume>(<issue>02</issue>): <fpage>171</fpage>&#8211;<lpage>176</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S174217050800224X" ns0:type="simple">10.1017/S174217050800224X</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222841.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222841.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhat</surname>
+<given-names>Sartaj Ahmad</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sartaj Ahmad Bhat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222841" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">1 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-19121</p>
+<p>Effects of turning frequency on the nutrients of Camellia oleifera shell co-compost with sheep manure and evaluation of co-compost maturity</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Jinping Zhang,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by September 10. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Sartaj Ahmad Bhat, Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The topic of the manuscript is actual. More details are necessary in the Introduction section of the manuscript. Some references need to be included. Some section needs to be rewritten.</p>
+<p>Specific comments are listed below.</p>
+<p>Abstract</p>
+<p>Why it is so important to undertake these trials&#65311;What&#8217;s the purpose?</p>
+<p>Why shell? Why manure? Why combined?</p>
+<p>Line 12, &#8220;could enhance&#8221; compare with what?</p>
+<p>Sample conclusion is missing.</p>
+<p>Introduction</p>
+<p>Lines 26-28, please rephrase these sentences.</p>
+<p>Line 27, &#8220;slowly&#8221;, how long?</p>
+<p>Lines 28-30, reference(s)?</p>
+<p>Line 31, amount of the production? Add reference(s).</p>
+<p>Lines 42-45, reference(s)? Why sheep manure?</p>
+<p>Line 46, &#8220;improve&#8221;, how?</p>
+<p>Line 47, &#8220;pests&#8221;, for examples. Pests, including viruses and pathogens? What&#8217;s the meaning?</p>
+<p>Lines 53-56,&#8221;high&#8221; and &#8220;low&#8221; are generic terms. Please indicate a quantity.</p>
+<p>Lines 59-70, this subsection needs to be rewritten. What&#8217;s the key point for this paragraph?</p>
+<p>Lines 72-73, the purpose for testing these parameters.</p>
+<p>Line 94, water content of the shell.</p>
+<p>Line 95, 55% is water content or relative humidity?</p>
+<p>Lines 113-115, depth of the pile.</p>
+<p>Lines 124-125, more details.</p>
+<p>Results and discussion</p>
+<p>It&#8217;s important to add statistical analysis of the difference between different treatments.</p>
+<p>Lines 133-135, please rephrase these sentences.</p>
+<p>Line 140, (GB 7959-87), China?</p>
+<p>Lines 175-176, 211, 241-242, r and P, in italics.</p>
+<p>Conclusion</p>
+<p>Please re-write the conclusion. Based on the purpose and the actual data.</p>
+<p>Reviewer #2: This study conducted a 76-day composting experiment to explore the effects of turning frequency on the nutrients of Camellia oleifera shell co-compost with sheep manure and evaluation of co-compost maturity. The results showed that turning once every 7 days is the most suitable way to enhance the composting efficiency and compost product quality. In addition, this study proposed that TN, carbon-to-nitrogen ratio (C/N), and GI are useful indexes for comprehensively evaluate the compost maturity. In general, this work has some significance for practical production. However, further analysis and discussion about the relationships among these indexes are needed in this manuscript using a better statistical analysis method. Moreover, there some small problems needed to be revised. Thus, I think the present paper need a revision before publication. I hope my comments would be of help to the future improvement of the work.</p>
+<p>1. Lines 284-294: Composting is a complex environmental process, many parameters will affect each other. Thus, I think Pearson correlation analysis is not sufficient to determine which factors are suitable for evaluating compost maturity. Multivariate analysis may be helpful to further understand the complex relationships among various parameters of composts. Redundancy analysis (RDA), structural equation models (SEMs) et al. may be a good choice, and the following references may helpful: Bioresource Technology 285 (2019) 121326; Environmental Pollution 250 (2019) 166-174.</p>
+<p>2. The discussion section needs to be improved, and appropriate outlook should be supplemented.</p>
+<p>3. Are &#8220;sheep manure&#8221; and &#8220;goat dung&#8221; the same in meaning? If they are same, please unify the words.</p>
+<p>4. The method of moisture determination should be introduced in the &#8220;materials and methods&#8221; section.</p>
+<p>5. Lines 145-146: why the temperature decreased to room temperature suddenly in all treatments?</p>
+<p>6. The resolution of the pictures in the manuscript is poor.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222841.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222841.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222841" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222841.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">15 Aug 2019</named-content>
+</p>
+<p>Reviewer #1: </p>
+<p>Abstract</p>
+<p>Why it is so important to undertake these trials&#65311;What&#8217;s the purpose?</p>
+<p>Why shell? Why manure? Why combined?</p>
+<p>Line 12, &#8220;could enhance&#8221; compare with what?</p>
+<p>Sample conclusion is missing.</p>
+<p>The purpose and background of the experiment are supplemented in the abstract, but the reasons for the use of co-composting are explained in detail in the introduction. "Can enhance" is a comparison between different groups under different heap turnover frequencies.</p>
+<p>Introduction</p>
+<p>Lines 26-28, please rephrase these sentences.</p>
+<p>Modified to " C. oleifera shell is rich in lignocellulose, saponins and tannins which were not conducive to microbial degradation and metabolism ".</p>
+<p>Line 27, &#8220;slowly&#8221;, how long?</p>
+<p>The standard of natural decay of C. oleifera shell shell is generally more than 6 months. Because there is no specific data, it is revised in this paper.</p>
+<p>Lines 28-30, reference(s)?</p>
+<p>Relevant references have been supplemented in this paper.</p>
+<p>Line 31, amount of the production? Add reference(s).</p>
+<p>It has been supplemented in the paper according to the references.</p>
+<p>Lines 42-45, reference(s)? Why sheep manure?</p>
+<p>Co-composting of livestock manure and other materials to make the composting process go smoothly is a common waste composting method, which has been used in many literatures. Similar to pig manure and chicken manure, sheep manure has a high content of CNPK, and can provide additional microorganisms for improving composting. It is also one of the common wastes around the experimental area. Therefore, sheep manure and Camellia shell are selected for co-composting.</p>
+<p>Line 46, &#8220;improve&#8221;, how?</p>
+<p>It has been supplemented in the article, &#8220;such as nutrients increase in soil and physical properties improvement of soil&#8221;.</p>
+<p>Line 47, &#8220;pests&#8221;, for examples. Pests, including viruses and pathogens? What&#8217;s the meaning?</p>
+<p>The pest means Harmful organisms, But there are misunderstandings in this paper. So we revised the expression in this paper. &#8220;Furthermore, most of the harmful organisms (including pests, weed seeds, viruses and pathogens et al.) are killed during composting, which reduces the incidence of diseases&#8221;</p>
+<p>Lines 53-56,&#8221;high&#8221; and &#8220;low&#8221; are generic terms. Please indicate a quantity.</p>
+<p>"High" and "low" are the relative values of overturning frequency, which can not give specific values. In the article, "high" refers to turning frequency of 5 days, while "low" refers to turning frequency of 15 days.</p>
+<p>Lines 59-70, this subsection needs to be rewritten. What&#8217;s the key point for this paragraph?</p>
+<p>This section is to illustrate the importance of compost maturity, because the compost product reaches maturity, so that the product can be used in production premise. Choosing the turning frequency is also to make the compost material ripen as quickly as possible. It also provides a reference for judging the availability of compost products and adjusting the turning frequency in practical operation.</p>
+<p>Lines 72-73, the purpose for testing these parameters.</p>
+<p>The purpose of testing these parameters is to find a simple and low-cost way to judge the maturity of compost products and to determine which turning frequency is more suitable for composting. Although Solvita index is internationally recognized as an effective index for judging maturity, its domestic price is still on the high side.</p>
+<p>Line 94, water content of the shell.</p>
+<p>This step is to control the size of Camellia shell. I think the moisture content of Camellia shell has nothing to do with this operation. The moisture content of Camellia shell will change during storage, so the moisture content of raw materials is not important and will not be explained. And in the follow-up operation, we use dry matter as the adjustment standard, the moisture content of raw materials in this step has no effect on the follow-up.</p>
+<p>Line 95, 55% is water content or relative humidity?</p>
+<p>55% is water content, and moisture content is also used in other composting literature. (Wang, Y. Q., Zhang, J. L., Schuchardt, F., &amp; Wang, Y. (2014). Degradation of morphine in opium poppy processing waste composting. Bioresource Technology, 168(3), 235-239.)</p>
+<p>Lines 113-115, depth of the pile.</p>
+<p>It has been supplemented in this article. depth of the pile was 1.2m </p>
+<p>Lines 124-125, more details.</p>
+<p>In this paper, the analysis method and the information of using software are supplemented&#65288; Canoco 5.0 and PCA&#65289;.</p>
+<p>Results and discussion</p>
+<p>It&#8217;s important to add statistical analysis of the difference between different treatments.</p>
+<p>PCA analysis is supplemented to judge that the selected parameters are reasonable and representative.</p>
+<p>Lines 133-135, please rephrase these sentences.</p>
+<p>These sentences have been amended to read "A2 enter the thermophilic phase (&gt; 50 C) on 9th day, and A1, A3, and A4 enter the phase on the 12th, 32nd, and 11th day, respectively."</p>
+<p>Line 140, (GB 7959-87), China?</p>
+<p>Yes, this is China's national standard, which has been replaced. The standard is now changed to GB 7959-2012. China.</p>
+<p>Lines 175-176, 211, 241-242, r and P, in italics.</p>
+<p>I consulted the literature of many magazines and found no need to change it into italics. Therefore, there is no modification in the paper.</p>
+<p>Conclusion</p>
+<p>Please re-write the conclusion. Based on the purpose and the actual data.</p>
+<p>The conclusion has been revised.</p>
+<p>&#8220;During the study, the products obtained from composting of C. oleifera shell and goat dung for 76 days were in accordance with the Chinese organic fertilizer standard NY525-2012. In the composting process, TN, NO- 3-N, GI, Solvita maturity index increased with the composting process, while NH+ 4-N, C/N showed the opposite trend. According to the correlation analysis, TN, C/N ratio and GI can be used to evaluate the maturity of compost of C. oleifera shell and goat dung comprehensively. Among the four treatments, the longest duration of thermophilic phase was observed in A2 for 42 days (&gt;50&#8451;), with the highest total nutrient (5.75&#177;0.11%) and lowest C/N value (15.83&#177;1.10). It can be seen that the turning frequency of every 7 days can improve the quality of compost products. However, due to the diversity of raw materials and composting conditions, we need to do more research to acquire parameters with simple determination method and strong correlation with maturity to determine the appropriate turning frequency for composting.&#8220;</p>
+<p>Reviewer #2: </p>
+<p>1. Lines 284-294: Composting is a complex environmental process, many parameters will affect each other. Thus, I think Pearson correlation analysis is not sufficient to determine which factors are suitable for evaluating compost maturity. Multivariate analysis may be helpful to further understand the complex relationships among various parameters of composts. Redundancy analysis (RDA), structural equation models (SEMs) et al. may be a good choice, and the following references may helpful: Bioresource Technology 285 (2019) 121326; Environmental Pollution 250 (2019) 166-174.</p>
+<p>PCA analysis is supplemented to judge that the selected parameters are reasonable and representative.</p>
+<p>2. The discussion section needs to be improved, and appropriate outlook should be supplemented.</p>
+<p>The conclusion has been revised.</p>
+<p>&#8220;During the study, the products obtained from composting of C. oleifera shell and goat dung for 76 days were in accordance with the Chinese organic fertilizer standard NY525-2012. In the composting process, TN, NO- 3-N, GI, Solvita maturity index increased with the composting process, while NH+ 4-N, C/N showed the opposite trend. According to the correlation analysis, TN, C/N ratio and GI can be used to evaluate the maturity of compost of C. oleifera shell and goat dung comprehensively. Among the four treatments, the longest duration of thermophilic phase was observed in A2 for 42 days (&gt;50&#8451;), with the highest total nutrient (5.75&#177;0.11%) and lowest C/N value (15.83&#177;1.10). It can be seen that the turning frequency of every 7 days can improve the quality of compost products. However, due to the diversity of raw materials and composting conditions, we need to do more research to acquire parameters with simple determination method and strong correlation with maturity to determine the appropriate turning frequency for composting.&#8220;</p>
+<p>3. Are &#8220;sheep manure&#8221; and &#8220;goat dung&#8221; the same in meaning? If they are same, please unify the words.</p>
+<p>The meaning we want to express is the same, but there are problems with the use of words. It has been revised in the article and unified as "goat dung".</p>
+<p>4. The method of moisture determination should be introduced in the &#8220;materials and methods&#8221; section.</p>
+<p>The method for determining moisture content is supplemented in this paper. &#8220;Moisture content was obtained by drying at 105&#8451; for 24h in a hot-air oven.&#8221;</p>
+<p>5. Lines 145-146: why the temperature decreased to room temperature suddenly in all treatments?</p>
+<p>It may be that heap dump causes a lot of heat loss, and the heat generated by microbial metabolism after a long time of heap dump is far from enough to replenish the lost heat, so the temperature suddenly drops to room temperature. Relevant expressions are supplemented in the article.</p>
+<p>6. The resolution of the pictures in the manuscript is poor. </p>
+<p>Pictures have been replaced. The new picture was in 600 dpi.</p>
+<supplementary-material id="pone.0222841.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222841.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222841.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222841.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhat</surname>
+<given-names>Sartaj Ahmad</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sartaj Ahmad Bhat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222841" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">10 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Effects of turning frequency on the nutrients of Camellia oleifera shell co-compost with goat dung and evaluation of co-compost maturity</p>
+<p>PONE-D-19-19121R1</p>
+<p>Dear Dr. Zhang,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Sartaj Ahmad Bhat, Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Authors addressed all my concerns. Following the revisions, I think the manuscript has improved a lot. It can be accepted for publication.</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222841.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222841.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhat</surname>
+<given-names>Sartaj Ahmad</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Sartaj Ahmad Bhat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222841" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">16 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-19121R1 </p>
+<p>Effects of turning frequency on the nutrients of <italic>Camellia oleifera</italic>&#160;shell co-compost with goat dung and evaluation of co-compost maturity </p>
+<p>Dear Dr. Zhang:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Sartaj Ahmad Bhat  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

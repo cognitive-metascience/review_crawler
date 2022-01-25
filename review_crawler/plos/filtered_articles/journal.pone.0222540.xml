@@ -1,0 +1,1398 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222540</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-15868</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant anatomy</subject><subj-group><subject>Leaves</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genetic loci</subject><subj-group><subject>Quantitative trait loci</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Plants</subject><subj-group><subject>Brassica</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Plants</subject><subj-group><subject>Flowering plants</subject><subj-group><subject>Rapeseed</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Crop science</subject><subj-group><subject>Crops</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant pathology</subject><subj-group><subject>Plant pathogens</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Seasons</subject><subj-group><subject>Spring</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Oilseed rape (<italic>Brassica napus</italic>) resistance to growth of <italic>Leptosphaeria maculans</italic> in leaves of young plants contributes to quantitative resistance in stems of adult plants</article-title>
+<alt-title alt-title-type="running-head">Resistance to growth of <italic>Leptosphaeria maculans</italic> in leaves of young plants</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6537-5792</contrib-id>
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Yong-Ju</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Paillard</surname>
+<given-names>Sophie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kumar</surname>
+<given-names>Vinod</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>King</surname>
+<given-names>Graham J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Fitt</surname>
+<given-names>Bruce D. L.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Delourme</surname>
+<given-names>R&#233;gine</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Life and Medical Sciences, University of Hertfordshire, Hatfield, Hertfordshire, England, United Kingdom</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>IGEPP, INRA, Agrocampus Ouest, Univ Rennes, BP, France</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Southern Cross University, Lismore, Australia</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Raman</surname>
+<given-names>Harsh</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>New South Wales Department of Primary Industries, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">y.huang8@herts.ac.uk</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222540</elocation-id>
+<history>
+<date date-type="received">
+<day>4</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>30</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Huang et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222540" />
+<abstract>
+<p><italic>Key message</italic>: One QTL for resistance against <italic>Leptosphaeria maculans</italic> growth in leaves of young plants in controlled environments overlapped with one QTL detected in adult plants in field experiments.</p>
+<p>The fungal pathogen <italic>Leptosphaeria maculans</italic> initially infects leaves of oilseed rape (<italic>Brassica napus</italic>) in autumn in Europe and then grows systemically from leaf lesions along the leaf petiole to the stem, where it causes damaging phoma stem canker (blackleg) in summer before harvest. Due to the difficulties of investigating resistance to <italic>L</italic>. <italic>maculans</italic> growth in leaves and petioles under field conditions, identification of quantitative resistance typically relies on end of season stem canker assessment on adult plants. To investigate whether quantitative resistance can be detected in young plants, we first selected nine representative DH (doubled haploid) lines from an oilseed rape DY (&#8216;Darmor-<italic>bzh</italic>&#8217; &#215; &#8216;Yudal&#8217;) mapping population segregating for quantitative resistance against <italic>L</italic>. <italic>maculans</italic> for controlled environment experiment (CE). We observed a significant correlation between distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole towards the stem (<italic>r</italic> = 0.91) in CE experiments and the severity of phoma stem canker in field experiments. To further investigate quantitative trait loci (QTL) related to resistance against growth of <italic>L</italic>. <italic>maculans</italic> in leaves of young plants in CE experiments, we selected 190 DH lines and compared the QTL detected in CE experiments with QTL related to stem canker severity in stems of adult plants in field experiments. Five QTL for resistance to <italic>L</italic>. <italic>maculans</italic> growth along the leaf petiole were detected; collectively they explained 35% of the variance. Two of these were also detected in leaf lesion area assessments and each explained 10&#8211;12% of the variance. One QTL on A02 co-localized with a QTL detected in stems of adult plants in field experiments. This suggests that resistance to the growth of <italic>L</italic>. <italic>maculans</italic> from leaves along the petioles towards the stems contributes to the quantitative resistance assessed in stems of adult plants in field experiments at the end of the growing season.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000268</institution-id>
+<institution>Biotechnology and Biological Sciences Research Council</institution>
+</institution-wrap>
+</funding-source>
+<award-id>BB/I017585/1</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Fitt</surname>
+<given-names>Bruce D. L.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000268</institution-id>
+<institution>Biotechnology and Biological Sciences Research Council</institution>
+</institution-wrap>
+</funding-source>
+<award-id>M028348/1</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Fitt</surname>
+<given-names>Bruce D. L.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000268</institution-id>
+<institution>Biotechnology and Biological Sciences Research Council</institution>
+</institution-wrap>
+</funding-source>
+<award-id>P00489X/1</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Fitt</surname>
+<given-names>Bruce D. L.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award004">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100007981</institution-id>
+<institution>AHDB Cereals &amp; Oilseeds</institution>
+</institution-wrap>
+</funding-source>
+<award-id>RD-2140021105</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6537-5792</contrib-id>
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Yong-Ju</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award005">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000277</institution-id>
+<institution>Department for Environment, Food and Rural Affairs</institution>
+</institution-wrap>
+</funding-source>
+<award-id>CH0104</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6537-5792</contrib-id>
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Yong-Ju</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award006">
+<funding-source>
+<institution>Felix Thornley Cobbold Agricultural Trust</institution>
+</funding-source>
+<award-id>5CXXXII</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6537-5792</contrib-id>
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Yong-Ju</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award007">
+<funding-source>
+<institution>Chadacre Agricultural Trust</institution>
+</funding-source>
+<award-id>GRA 3/53</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6537-5792</contrib-id>
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Yong-Ju</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The UK Biotechnology and Biological Sciences Research Council (BBSRC, BB/I017585/1, M028348/1 and P00489X/1), the Innovate UK (102100 and 102641), AHDB Cereals &amp; Oilseeds (RD-2140021105), the Department for Environment, Food and Rural Affairs (CH0104) (Defra), the Perry Foundation, the Felix Thornley Cobbold Agricultural Trust (5CXXXII) and the Chadacre Agricultural Trust (GRA 3/53) supported the work. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="4" />
+<page-count count="20" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Protecting crops from catastrophic yield losses caused by plant pathogens is a major goal of agriculture to safeguard global food security in response to growing concerns about food shortages and climate change [<xref ref-type="bibr" rid="pone.0222540.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref003">3</xref>]. Use of crop resistance is one of the most economical methods of controlling crop diseases, as it not only reduces input costs for farmers but also reduces risk of environmental damage. Crop resistance is particularly important for small-holder farmers who can not afford to buy expensive fungicides [<xref ref-type="bibr" rid="pone.0222540.ref003">3</xref>]. Furthermore, with a limited range of fungicides available and the development of fungicide insensitivity in pathogen populations [<xref ref-type="bibr" rid="pone.0222540.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222540.ref004">4</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref007">7</xref>], identification of effective crop resistance is vital for sustainable crop production.</p>
+<p>Plant resistance used to control crop diseases is generally classified as either major gene-determined qualitative resistance or minor gene-determined quantitative resistance [<xref ref-type="bibr" rid="pone.0222540.ref008">8</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref010">10</xref>]. Qualitative resistance, considered as &#8216;complete&#8217; resistance, is usually controlled by single, dominant resistance (<italic>R</italic>) genes which are often effective in preventing pathogens from colonising plants [<xref ref-type="bibr" rid="pone.0222540.ref011">11</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref014">14</xref>]. However, <italic>R</italic> gene-mediated is race-specific; therefore, it is generally less durable than quantitative resistance because pathogens often evolve rapidly for virulence against the <italic>R</italic> genes [<xref ref-type="bibr" rid="pone.0222540.ref015">15</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref019">19</xref>]. By contrast, quantitative resistance is typically controlled by several genes with minor effects. Therefore, quantitative resistance is considered as incomplete or partial resistance that does not prevent pathogens from colonising plants but is able to decrease symptom severity and/or epidemic progress over time [<xref ref-type="bibr" rid="pone.0222540.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0222540.ref020">20</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>]. Combining resistance QTL (quantitative trait loci) with complementary modes of action or combining quantitative resistance with major <italic>R</italic> genes have proved to be valuable strategies for breeding effective, potentially durable resistance [<xref ref-type="bibr" rid="pone.0222540.ref023">23</xref>]. Therefore, understanding quantitative resistance will contribute to deployment of crop cultivars with more durable resistance.</p>
+<p>Phoma stem canker (blackleg) is an economically important disease of oilseed rape (<italic>Brassica napus</italic>, canola) worldwide, especially in Australia, North America and Europe [<xref ref-type="bibr" rid="pone.0222540.ref024">24</xref>, <xref ref-type="bibr" rid="pone.0222540.ref025">25</xref>]. Epidemics of phoma stem canker are initiated by air-borne <italic>Leptosphaeria maculans</italic> ascospores released from pseudothecia produced on stem debris of previous crops [<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0222540.ref027">27</xref>]. In Europe, ascospores landing on leaf surfaces produce germ tubes that infect the leaves of winter oilseed rape in autumn (October/November), causing phoma leaf spot lesions [<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref028">28</xref>, <xref ref-type="bibr" rid="pone.0222540.ref029">29</xref>]. From leaf lesions, <italic>L</italic>. <italic>maculans</italic> grows symptomlessly along the leaf midrib and petiole to reach the stem, causing damaging phoma stem cankers in spring/summer (April-July) that result in yield losses [<xref ref-type="bibr" rid="pone.0222540.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0222540.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0222540.ref030">30</xref>]. Both qualitative resistance and quantitative resistance have been identified in <italic>B</italic>. <italic>napus</italic> and related brassica species [<xref ref-type="bibr" rid="pone.0222540.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0222540.ref031">31</xref>, <xref ref-type="bibr" rid="pone.0222540.ref032">32</xref>]. <italic>R</italic> gene-mediated resistance against <italic>L</italic>. <italic>maculans</italic> operates at the leaf infection stage through a defence response that causes cell death at the infection site, thus preventing <italic>L</italic>. <italic>maculans</italic> growth from leaf to stem and subsequently preventing stem canker development [<xref ref-type="bibr" rid="pone.0222540.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref033">33</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref035">35</xref>]. Quantitative resistance to <italic>L</italic>. <italic>maculans</italic> is a partial resistance that does not prevent leaf lesion development but decreases growth of <italic>L</italic>. <italic>maculans</italic> along leaf petioles and into stem tissues, therefore subsequently reduces the severity of stem cankers before harvest [<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0222540.ref037">37</xref>].</p>
+<p>Compared to <italic>R</italic>-gene mediated resistance against <italic>L</italic>. <italic>maculans</italic>, quantitative resistance against <italic>L</italic>. <italic>maculans</italic> is less understood. One of the reasons is that <italic>R</italic> gene-mediated resistance against <italic>L</italic>. <italic>maculans</italic> can be selected effectively in young plants by observing necrosis symptoms after inoculation of cotyledons with well-characterised <italic>L</italic>. <italic>maculans</italic> isolates [<xref ref-type="bibr" rid="pone.0222540.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0222540.ref016">16</xref>, <xref ref-type="bibr" rid="pone.0222540.ref033">33</xref>]. At least 15 <italic>R</italic> genes have been identified and two of them have been cloned [<xref ref-type="bibr" rid="pone.0222540.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0222540.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0222540.ref031">31</xref>, <xref ref-type="bibr" rid="pone.0222540.ref038">38</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref040">40</xref>]. Due to the high evolutionary potential through sexual recombination, <italic>L</italic>. <italic>maculans</italic> can mutate to overcome <italic>R</italic>-gene mediated resistance within three cropping seasons of widespread use in commercial cultivars [<xref ref-type="bibr" rid="pone.0222540.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0222540.ref016">16</xref>, <xref ref-type="bibr" rid="pone.0222540.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0222540.ref019">19</xref>]. Recent studies showed that combining <italic>R</italic>-gene resistance with quantitative resistance in one crop cultivar provides a more robust strategy to control phoma stem canker [<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref030">30</xref>, <xref ref-type="bibr" rid="pone.0222540.ref041">41</xref>].</p>
+<p>Due to the long period of symptomless growth after initial leaf infection, it has been difficult to investigate quantitative resistance [<xref ref-type="bibr" rid="pone.0222540.ref021">21</xref>]. In Europe, it takes at least 6 months from the appearance of phoma leaf spots in autumn to the appearance of phoma stem canker in the following spring [<xref ref-type="bibr" rid="pone.0222540.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0222540.ref027">27</xref>]. It is difficult to investigate resistance to <italic>L</italic>. <italic>maculans</italic> growth in leaves and petioles or in stems before the appearance of stem canker symptoms under field conditions. Currently, selection of cultivars with quantitative resistance has relied on assessment of crop disease severity at the end of growing season [<xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>&#8211;<xref ref-type="bibr" rid="pone.0222540.ref044">44</xref>]. Previous work showed that resistance against <italic>L</italic>. <italic>maculans</italic> growth in the leaf petiole towards the stem in young plants could be a component of quantitative resistance against <italic>L</italic>. <italic>maculans</italic> [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>]. However, it is not clear whether the measurement of <italic>L</italic>. <italic>maculans</italic> growth in the leaf petioles of young plants in controlled environments can be used to detect QTL for resistance against <italic>L</italic>. <italic>maculans</italic> in adult plants in field conditions. Coincident resistance QTL detected in both controlled environment experiments in young plants and field experiments in adult plants would represent a valuable step towards identification of underlying resistance genes and provide a practical basis for marker-assisted resistance breeding. We were therefore keen to test the hypothesis that QTL for resistance against <italic>L</italic>. <italic>maculans</italic> can be detected in leaf petioles of young plants in controlled environments, and if so, to establish whether they co-localize with resistance QTL detected in stems of adult plants in field experiments. This paper reports work on detection of QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments and compares them with QTL detected in stems of adult plants in field experiments using a doubled haploid (DH) segregating population.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Relationship between <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments and severity of phoma stem canker in stems of adult plants in field experiments (nine DH lines)</title>
+<p>In field conditions in Europe, phoma stem cankers on adult plants in summer are usually initiated from phoma leaf lesions on young plants in autumn/winter [<xref ref-type="bibr" rid="pone.0222540.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0222540.ref027">27</xref>]. Therefore, to investigate whether the &#8216;field&#8217; quantitative resistance against <italic>L</italic>. <italic>maculans</italic> assessed by scoring stem canker at the end of the growing season on adult plants in field experiments can be detected by assessing <italic>L</italic>. <italic>maculans</italic> growth in the leaves of young plants in controlled environments, nine DH lines with different levels of resistance to <italic>L</italic>. <italic>maculans</italic> were used. The DH lines were from an oilseed rape DY (&#8216;Darmor-<italic>bzh</italic>&#8217; &#215; &#8216;Yudal&#8217;) mapping population; the parent &#8216;Darmor-<italic>bzh&#8217;</italic> is winter oilseed rape with quantitative resistance against <italic>L</italic>. <italic>maculans</italic> and the resistance gene <italic>Rlm9</italic> while the parent &#8216;Yudal&#8217; is a susceptible spring oilseed rape [<xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222540.ref045">45</xref>]. Selection of the nine DH lines was based on stem canker severity assessed in 1995, 1996 and 2007 field experiments in France since there were good correlations between stem canker severities across these three years (<xref ref-type="supplementary-material" rid="pone.0222540.s005">S1 Fig</xref>; Kumar et al., 2018). The nine DH lines were classified from the most susceptible to the most resistant according to the disease severity index (DI): DY002, DY046, DY052, DY087, DY128, DY071, DY130, DY152 and DY283 [<xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222540.ref044">44</xref>].</p>
+<p>Plants were grown in pots (9 cm diameter) containing a peat-based compost mixed with a soluble fertiliser (WE Hewitt &amp; Sons Ltd, UK). Plants were initially grown in a glasshouse (20&#8211;23&#176;C) and transferred to a controlled environment growth room (20&#186;C day/20&#176;C night, 12 h light/12 h darkness, light intensity 210 &#956;mol m<sup>-2</sup>s<sup>-1</sup>) when they had three expanded leaves for inoculation. Ascospores of <italic>L</italic>. <italic>maculans</italic> from natural populations in the UK were used as inoculum. Although the parent &#8216;Darmor-<italic>bzh&#8217;</italic> has resistance gene <italic>Rlm9</italic>, the <italic>L</italic>. <italic>maculans</italic> populations throughout Europe have been virulent against <italic>Rlm9</italic> [<xref ref-type="bibr" rid="pone.0222540.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0222540.ref030">30</xref>, <xref ref-type="bibr" rid="pone.0222540.ref046">46</xref>], so there was no <italic>Rlm9</italic> effect. The ascospore suspension of <italic>L</italic>. <italic>maculans</italic> was prepared from stem base debris of the UK susceptible oilseed cultivar Courage (naturally infected the stems collected after harvest in August 2007, stem pieces with mature pseudothecia were stored at -20&#176;C until required), using the method described by Huang et al. [<xref ref-type="bibr" rid="pone.0222540.ref029">29</xref>]. The concentration of ascospores was adjusted to 10<sup>4</sup> ascospores mL<sup>-1</sup> using a haemocytometer slide.</p>
+<p>To investigate the growth of <italic>L</italic>. <italic>maculans</italic> from leaf lesions along the leaf petioles towards the stems, leaf laminas were inoculated as described by Huang et al. (2014)[<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>]. Before inoculation, each leaf lamina was rubbed gently using a wet tissue and a 15 &#956;L droplet of ascospore suspension was placed on the rubbed area. Each leaf had two inoculation sites, one on each side of the main vein as described by Huang et al. [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>]. The first two fully expanded leaves of each plant were inoculated. After inoculation, plants in trays were covered with tray covers to maintain high relative humidity for 48h. Two experiments were done in a complete randomised design with 12 plants for each DH line.</p>
+<p>The growth of <italic>L</italic>. <italic>maculans</italic> in the leaves was measured in terms of size of the phoma leaf spot lesions (i.e. lesion width, length and lesion area) and the growth along the leaf vein/petiole towards the stem (e.g. the visible distance grown along the petiole and the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the petiole). At 18 days post inoculation (dpi), the inoculated leaves were detached at the place where the petiole joins the stem. The maximum length and width of each lesion were measured, then the lesion area was estimated by multiplying the lesion length by lesion width. The distance from the inoculation site on the leaf lamina to the furthest visible necrosis on the leaf petiole was measured on each leaf, then a piece of leaf petiole 8 cm long (measured from the inoculation site) was placed in a 15 mL tube to be freeze-dried for DNA extraction and quantitative PCR (qPCR). DNA was extracted from each individual leaf petiole using a DNA extraction kit (DNAMITE Plant Kit, Microzone Ltd, West Sussex, UK). The amount of <italic>L</italic>. <italic>maculans</italic> DNA in each leaf petiole was quantified using a SYBR green qPCR with the primers LmacF and LmacR [<xref ref-type="bibr" rid="pone.0222540.ref047">47</xref>] using a Stratagene Mx3000P quantitative PCR machine. The qPCR reaction and thermocycling profile were described by Huang et al. [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>].</p>
+<sec id="sec004">
+<title>Statistical analysis</title>
+<p>For leaf lamina inoculation experiments with the nine DH lines, the data for leaf lesion area, distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole and the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the leaf petiole were analysed using the restricted maximum likelihood procedure (REML). The analysis of variance components was done by fitting each of the response traits to a fixed model (constant + experiment + DH line + experiment &#215; DH line) and a random model (experiment &#215; block) to test the effects of experiment, DH line and the interaction between experiment and DH line. To investigate the relationship between <italic>L</italic>. <italic>maculans</italic> growth in leaves in controlled environments and severity of stem canker in field experiments, linear regressions were done for leaf lesion area, distance grown or amount of <italic>L</italic>. <italic>maculans</italic> DNA against the mean stem canker severity disease index on the nine DH lines assessed in 1995, 1996 and 2007 field experiments in France. All the analyses were done using GENSTAT statistical software 12<sup>th</sup> edition [<xref ref-type="bibr" rid="pone.0222540.ref048">48</xref>].</p>
+</sec>
+</sec>
+<sec id="sec005">
+<title>Detection of QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments (190 DH lines)</title>
+<p>For the nine DH lines, significant correlations between by <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments and the severity of phoma stem canker in field experiments were observed. To further investigate QTL related to resistance against growth of <italic>L</italic>. <italic>maculans</italic> in leaves of young plants, we selected 190 DH lines for leaf lamina inoculation. It was difficult to obtain large amounts of ascospore inoculum for the large experiment, so conidia of <italic>L</italic>. <italic>maculans</italic> isolate ME24 were used since ME24 was virulent against <italic>Rlm9</italic> [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>]. There were no differences between ascospores (used for the nine DH lines) and conidia of isolate ME24 in symptoms on Darmor or Yudal (i.e. both the ascospores and the conidia of ME24 caused typical phoma leaf lesions). Therefore, the conidia of ME24 were used as inoculum. Conidial suspensions of isolate ME24 were prepared from 12-day-old cultures on V8 agar and the concentration of conidia was adjusted to 10<sup>7</sup> conidia mL<sup>-1</sup>.</p>
+<p>Plants of the 190 DH lines and their parents were grown in trays with 40 wells containing a peat-based compost mixed with a soluble fertiliser. Each tray was sown with 16 DH lines with two plants of each DH line. The middle row of wells was not sown to provide gaps between the DH lines. Plants were initially grown in a glasshouse (20&#8211;23&#176;C) and were transferred to a controlled environment growth room (20&#186;C day/20&#176;C night, 12 h light/12 h darkness, light intensity 210 &#956;mol m<sup>-2</sup>s<sup>-1</sup>) for 24 h before inoculation. The experiments were designed in a resolvable alpha design with three replicates. The design allowed for sub-blocks of 16 lines, which were fitted into one tray. The allocation of trays to shelves (two trays per shelf) was done systematically following randomization. Plants were inoculated when they had three expanded leaves. Each leaf lamina was rubbed gently using a wet tissue and wounded using a sterile pin, then a 10 &#956;L droplet of conidial suspension was placed over the wound. Each leaf had two inoculation sites, one on each side of the main vein. The first two fully expanded leaves of each plant were inoculated. After inoculation, plants were covered with tray covers to maintain high humidity for 72h since <italic>L</italic>. <italic>maculans</italic> conidia take longer to infect the plants than ascospores [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>].</p>
+<p>At 21 dpi, the inoculated leaves were detached from the place where the petiole joins the stem. The maximum length and width of each lesion were measured, and the lesion area was estimated by multiplying the lesion length by lesion width. The distance from the inoculation site on the leaf lamina to the furthest visible necrosis on the leaf petiole was measured. To assess the effects of leaf lamina size and leaf petiole length on the growth of <italic>L</italic>. <italic>maculans</italic> in the leaf, the leaf lamina length and leaf petiole length of each leaf were also measured. The two experiments were done with the 190 DH lines.</p>
+<sec id="sec006">
+<title>QTL detection in controlled environment experiments</title>
+<p>Data for each trait of the 190 DH lines and their parents were analysed using REML. Preliminary analysis of the data indicated that a square root transformation was required to stabilise the residual variance for leaf lesion area. Two REML analyses were done for each trait: (a) with DH line effects fitted as random effects using a fixed model and a random model, to enable calculation of heritability; (b) with DH line effects fitted as fixed effects using a fixed model and a random model, to provide predicted means for use in QTL analysis. The Pearson correlation coefficient was calculated using the predicted DH line means for all the traits.</p>
+<p>A linkage map generated from the DY population comprising 3767 SNPs (one marker per genetic position) covering 2128.2 cM was used for QTL detection [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>]. A multiple QTL mapping model was tested using the R/qtl package [<xref ref-type="bibr" rid="pone.0222540.ref050">50</xref>] for each variable as descripted by Kumar et al. [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>]. For each variable, simple interval mapping (SIM) was done using the <italic>scanone</italic> function. The number of positions with a LOD score &#8805; 2.5 was used to declare the number of cofactors in the composite interval analysis (CIM) done using the <italic>cim</italic> function. In the first model, positions with LOD scores &#8805; 2.5 were included as QTL. An ANOVA was fitted to the multiple QTL model using the <italic>fitqtl</italic> function. QTL were retained in this first model when their effects were significant (&#945; = 0.05). The <italic>addqtl</italic> function was then used to test for further significant QTLs, followed by an ANOVA fitted to the new model. To obtain the maximum likelihood estimates of the QTL positions, we then applied the <italic>refineqtl</italic> function, which used an iterative algorithm to refine the locations of QTL in our multiple QTL model. A final ANOVA was fitted to this multiple QTL model. Based on results of the ANOVA, the percentage of the variation explained by the model and the <italic>R</italic><sup><italic>2</italic></sup> of each QTL was assessed. The LOD value for each QTL was obtained using the <italic>fiqtl</italic> function. The confidence intervals of each QTL were assessed with a LOD decrease of one (<italic>lodint</italic> function). QTL positions and marker names at these positions, confidence intervals, percentage of variation explained by each QTL (<italic>R</italic><sup><italic>2</italic></sup>), allelic effect and favourable alleles were scored.</p>
+</sec>
+</sec>
+<sec id="sec007">
+<title>Comparison of QTL detected in controlled environment experiments with those previously detected in field experiments</title>
+<p>To investigate whether the resistance QTL detected in leaves of young plants in the controlled environment experiments co-localize with those QTL previously detected in stems of adult plants in field experiments, the positions of those QTL were compared. For QTL detected in field experiments, phoma stem canker severity data from 11 field experiments with three different mapping populations (<xref ref-type="supplementary-material" rid="pone.0222540.s002">S2 Table</xref>; [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>]) were used. Field experiments with the DY segregating population were done in seven years, with five years (1995, 1996, 2007, 2011 and 2012) at Le Rheu, INRA, France [<xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222540.ref044">44</xref>, <xref ref-type="bibr" rid="pone.0222540.ref051">51</xref>] and two years (2008 and 2009) at Rothamsted Research, Harpenden, UK [<xref ref-type="bibr" rid="pone.0222540.ref052">52</xref>]. Field experiments were also done for the DS (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) population in 1998 and 1999 [<xref ref-type="bibr" rid="pone.0222540.ref053">53</xref>] and for the DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F<sub>2:3</sub>) population in 2008 and 2010 [<xref ref-type="bibr" rid="pone.0222540.ref054">54</xref>] at Le Rheu, INRA, France. For QTL analysis, in addition to analysis for individual years for each mapping population, the combined data sets using BLUP (best linear unbiased predictions) estimations for these three mapping populations were also used (<xref ref-type="supplementary-material" rid="pone.0222540.s003">S3 Table</xref>). For QTL on the same chromosome (linkage group), their genetic and physical positions and support intervals were compared to identify QTL detected in both controlled environment experiments in young plants and field experiments in adult plants. Physical positions were deduced from the physical localization of the SNP markers on the <italic>B</italic>. <italic>napus</italic> cv. Darmor reference genome sequence assembly (version 4.1) [<xref ref-type="bibr" rid="pone.0222540.ref055">55</xref>, <xref ref-type="bibr" rid="pone.0222540.ref056">56</xref>].</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<sec id="sec009">
+<title>Relationship between <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments and severity of phoma stem canker in stems of adult plants in field experiments</title>
+<p>For the nine DH lines, there were significant differences between DH lines for leaf lesion area (<italic>P</italic> &lt; 0.001, 8 d.f.), distance grown along the leaf petiole (<italic>P</italic> &lt; 0.001, 8 d.f.) and the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the petiole (<italic>P</italic> &lt; 0.001, 8 d.f.) (<xref ref-type="table" rid="pone.0222540.t001">Table 1</xref>). There were no differences between experiments or interactions between experiment and DH line for leaf lesion area or distance grown. For the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the petiole, there was no difference between experiments but there was an interaction between experiment and DH line; however, the Wald statistic was relatively small for the effect of interaction (33.1) compared to the main effect of DH line (526.8). The heritability was high for distance grown (0.88) and <italic>L</italic>. <italic>maculans</italic> DNA (0.96). The measurement of distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole correlated well with the measurement of leaf lesion area (<italic>r</italic> = 0.90; <italic>P</italic> &lt; 0.001) or the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the petiole (<italic>r</italic> = 0.89; <italic>P</italic> &lt; 0.001). There was a smaller correlation between the leaf lesion area and the amount of <italic>L</italic>. <italic>maculans</italic> DNA in the petiole (<italic>r</italic> = 0.68; <italic>P</italic> &lt; 0.01).</p>
+<table-wrap id="pone.0222540.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.t001</object-id>
+<label>Table 1</label> <caption><title>Measurements of <italic>Leptosphaeria maculans</italic> growth in leaves after inoculation of the leaf lamina in two controlled environment experiments and the mean phoma stem canker severity (DI-disease index) in 1995, 1996 and 2007 field experiments in France with nine doubled haploid (DH) lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population.</title></caption>
+<alternatives>
+<graphic id="pone.0222540.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="justify">DH line</th>
+<th align="justify" colspan="3">Measurement</th>
+<th align="justify" rowspan="2">DI <xref ref-type="table-fn" rid="t001fn004"><sup>d</sup></xref> &#177; SE</th>
+</tr>
+<tr>
+<th align="justify" />
+<th align="justify">La <xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref> (cm<sup>2</sup>) &#177; SE</th>
+<th align="justify">Gt <xref ref-type="table-fn" rid="t001fn002"><sup>b</sup></xref> (cm) &#177; SE</th>
+<th align="justify">DNA <xref ref-type="table-fn" rid="t001fn003"><sup>c</sup></xref> (Log<sub>10</sub>) &#177; SE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify">DY002</td>
+<td align="justify">3.28 &#177; 0.52</td>
+<td align="justify">2.91 &#177; 0.14</td>
+<td align="justify">1.00 &#177; 0.09</td>
+<td align="justify">7.52 &#177; 0.32</td>
+</tr>
+<tr>
+<td align="justify">DY046</td>
+<td align="justify">2.55 &#177; 0.33</td>
+<td align="justify">2.55 &#177; 0.14</td>
+<td align="justify">0.92 &#177; 0.05</td>
+<td align="justify">6.27 &#177; 0.54</td>
+</tr>
+<tr>
+<td align="justify">DY052</td>
+<td align="justify">2.65 &#177; 0.55</td>
+<td align="justify">2.35 &#177; 0.19</td>
+<td align="justify">0.95 &#177; 0.08</td>
+<td align="justify">6.09 &#177; 0.33</td>
+</tr>
+<tr>
+<td align="justify">DY087</td>
+<td align="justify">1.37 &#177; 0.24</td>
+<td align="justify">1.87 &#177; 0.16</td>
+<td align="justify">0.19 &#177; 0.12</td>
+<td align="justify">5.59 &#177; 0.47</td>
+</tr>
+<tr>
+<td align="justify">DY128</td>
+<td align="justify">2.55 &#177; 0.47</td>
+<td align="justify">2.12 &#177; 0.13</td>
+<td align="justify">0.29 &#177; 0.09</td>
+<td align="justify">5.51 &#177; 0.40</td>
+</tr>
+<tr>
+<td align="justify">DY130</td>
+<td align="justify">2.37 &#177; 0.24</td>
+<td align="justify">2.05 &#177; 0.10</td>
+<td align="justify">0.34 &#177; 0.11</td>
+<td align="justify">4.49 &#177; 0.42</td>
+</tr>
+<tr>
+<td align="justify">DY071</td>
+<td align="justify">2.20 &#177; 0.40</td>
+<td align="justify">2.00 &#177; 0.18</td>
+<td align="justify">0.81 &#177; 0.09</td>
+<td align="justify">4.21 &#177; 0.79</td>
+</tr>
+<tr>
+<td align="justify">DY152</td>
+<td align="justify">1.48 &#177; 0.45</td>
+<td align="justify">1.60 &#177; 0.14</td>
+<td align="justify">-0.15 &#177; 0.08</td>
+<td align="justify">4.15 &#177; 0.62</td>
+</tr>
+<tr>
+<td align="justify">DY283</td>
+<td align="justify">1.38 &#177; 0.21</td>
+<td align="justify">1.56 &#177; 0.12</td>
+<td align="justify">-0.44 &#177; 0.07</td>
+<td align="justify">3.43 &#177; 0.65</td>
+</tr>
+<tr>
+<td align="justify"><italic>P</italic> value</td>
+<td align="justify">&lt;0.001</td>
+<td align="justify">&lt;0.001</td>
+<td align="justify">&lt;0.001</td>
+<td align="justify">&lt;0.001</td>
+</tr>
+<tr>
+<td align="justify">SED</td>
+<td align="justify">0.51</td>
+<td align="justify">0.18</td>
+<td align="justify">0.13</td>
+<td align="justify">0.44</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup> La- phoma leaf spot lesion area</p></fn>
+<fn id="t001fn002"><p><sup>b</sup> Gt- total distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole from the inoculation site</p></fn>
+<fn id="t001fn003"><p><sup>c</sup> DNA&#8212;the amount of <italic>L</italic>. <italic>maculans</italic> DNA in leaf petiole (Log<sub>10</sub>&#8212;transformed).</p></fn>
+<fn id="t001fn004"><p><sup>d</sup> DI&#8212;mean phoma stem canker severity (disease index) from field experiments in 1995, 1996 and 2007 in France. The stem canker was scored on a 0&#8211;9 scale, then the disease index was calculated using the following formula: Disease index (DI) = [(N<sub>0</sub> &#215; 0) + (N<sub>1</sub> &#215; 1) + (N<sub>2</sub> &#215; 2) + &#8230; + (N<sub>9</sub> &#215; 9)]/Nt, where N<sub>0</sub>, N<sub>1</sub>, N<sub>2</sub>,&#8230; N<sub>9</sub> = the number of plants with a canker score of 0, 1, 2, &#8230;9, respectively, and Nt = the total number of plants assessed [<xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>].</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>There was a significant positive correlation between distance (<italic>Gt</italic>) grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole of young plants in controlled environment experiments and mean stem canker disease index (<italic>Di</italic>) in stems of adult plants of the nine DH lines assessed in 1995, 1996 and 2007 field experiments in France (<italic>Di</italic> = 2.69<italic>Gt</italic>&#8212;0.42, <italic>r</italic> = 0.91) (<xref ref-type="fig" rid="pone.0222540.g001">Fig 1A</xref>). Similar relationships were obtained for leaf lesion area (<italic>La</italic>) (<italic>Di</italic> = 1.48 <italic>La</italic> + 2, <italic>r</italic> = 0.76) (<xref ref-type="fig" rid="pone.0222540.g001">Fig 1B</xref>) or the amount of <italic>L</italic>. <italic>maculans</italic> DNA (<italic>d</italic>) in the leaf petiole (<italic>Di</italic> = 0.03<italic>d</italic> + 3.26, <italic>r</italic> = 0.77) (<xref ref-type="fig" rid="pone.0222540.g001">Fig 1C</xref>).</p>
+<fig id="pone.0222540.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Relationships between <italic>Leptosphaeria maculans</italic> growth in young plants and phoma stem canker severity in adult plants.</title>
+<p>The relationships between distance grown by <italic>L</italic>. <italic>maculans</italic> in the leaf petiole (<italic>Dt</italic>) (<italic>Di</italic> = 2.69<italic>Dt</italic> -0.42, <italic>r</italic> = 0.91) (A), phoma leaf lesion area (<italic>La</italic>) (<italic>Di</italic> = 1.48<italic>La</italic> +2, <italic>r</italic> = 0.76) (B) or amount of <italic>L</italic>. <italic>maculans</italic> DNA in petiole (<italic>d</italic>) (<italic>Di</italic> = 0.03<italic>d</italic> +3.26, <italic>r</italic> = 0.77) (C) of young plants in controlled environment experiments and the mean phoma stem canker severity (<italic>Di</italic>; disease index) in winter oilseed rape field experiments in 1995, 1996 and 2007 with nine doubled haploid (DH) lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population assessed by linear regression. Data for controlled environment experiments are means of data from two replicate experiments.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec010">
+<title>Detection of QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environment experiments</title>
+<p>For the 190 DH lines, phoma leaf spot lesions developed on all inoculated leaves. For some of the DH lines, the inoculated leaves had turned yellow by 21 dpi (<xref ref-type="fig" rid="pone.0222540.g002">Fig 2</xref>). The frequency distributions for distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole and the phoma leaf spot lesion area were continuous (<xref ref-type="fig" rid="pone.0222540.g003">Fig 3A and 3B</xref>). The continuous distributions suggested that the resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of the DY population was quantitative and probably due to multiple loci with additive effects. There was a wide range in either the phoma leaf spot lesion area (0.19 to 1.31 cm<sup>2</sup>) or distance grown by <italic>L</italic>. <italic>maculans</italic> (1.05 to 3.17 cm) among the 190 DH lines. The broad sense heritability of lesion area (0.44) was greater than that of distance grown along the leaf petiole (0.39). There were significant positive correlations between different measurements of <italic>L</italic>. <italic>maculans</italic> growth in leaves of the 190 DH lines (<xref ref-type="table" rid="pone.0222540.t002">Table 2</xref>). There was also a wide range in leaf petiole length (3.54&#8211;10.54 cm), leaf lamina length (4.48&#8211;9.13 cm) and total leaf length (8.06&#8211;18.64 cm) among the 190 DH lines. The distributions of leaf petiole length (<xref ref-type="fig" rid="pone.0222540.g003">Fig 3C</xref>) or leaf lamina length (data not presented) were also continuous. The heritability of leaf petiole length (0.81) and leaf lamina length (0.74) was high. These traits were highly correlated with each other and moderately correlated with different measurements of <italic>L</italic>. <italic>maculans</italic> growth in leaves (<xref ref-type="table" rid="pone.0222540.t002">Table 2</xref>).</p>
+<fig id="pone.0222540.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Phoma leaf spot symptoms produced on different DH lines in controlled environment experiments.</title>
+<p>Phoma leaf spot symptoms on leaves of four doubled haploid (DH) lines DY413 (A), DY087 (B), DY048 (C) and DY001 (D) inoculated with conidia of <italic>Leptosphaeria maculans</italic> isolate ME24 at 21 days post inoculation.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.g002" ns0:type="simple" />
+</fig>
+<fig id="pone.0222540.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Frequency distributions.</title>
+<p>Frequency (number of DH lines) distributions of different variables measured for the 190 lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population in two controlled environment experiments. A, distance grown by <italic>Leptosphaeria maculans</italic> along the leaf petiole from the inoculation site (cm); B, phoma leaf spot lesion area (cm<sup>2</sup>); C, leaf petiole length (cm). Arrows indicate the mapping population parents (D = Darmor-<italic>bzh</italic>, Y = Yudal). Data are means of two controlled environment experiments.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.g003" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222540.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.t002</object-id>
+<label>Table 2</label> <caption><title>Correlation coefficient values for relationships between different measurements of <italic>Leptosphaeria maculans</italic> growth in leaves and for leaf size of 190 doubled haploid (DH) lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population in two controlled environment experiments.</title></caption>
+<alternatives>
+<graphic id="pone.0222540.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="left" colspan="7">Correlation coefficient</th>
+</tr>
+<tr>
+<th align="left">Measurement</th>
+<th align="left">Distance grown</th>
+<th align="left">Lesion length</th>
+<th align="left">Lesion width</th>
+<th align="left">Lesion area</th>
+<th align="left">Lamina length</th>
+<th align="left">Petiole length</th>
+<th align="left">Total leaf length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Distance grown</td>
+<td align="left">1.00</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Lesion length</td>
+<td align="left">0.82<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">1.00</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Lesion width</td>
+<td align="left">0.70<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">0.85<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">1.00</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Lesion area</td>
+<td align="left">0.78<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">0.96<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">0.95<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">1.00</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Lamina length</td>
+<td align="left">0.17<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.17<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.21<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+<td align="left">0.21<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+<td align="left">1.00</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Petiole length</td>
+<td align="left">0.12<sup>NS</sup></td>
+<td align="left">0.11 <sup>NS</sup></td>
+<td align="left">0.16<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.16<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.80<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">1.00</td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Total leaf length</td>
+<td align="left">0.15<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.14 <sup>NS</sup></td>
+<td align="left">0.19<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.19<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.93<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">0.96<xref ref-type="table-fn" rid="t002fn003">***</xref></td>
+<td align="left">1.00</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>* <italic>P</italic>&lt; 0.05</p></fn>
+<fn id="t002fn002"><p>** <italic>P</italic>&lt; 0.01</p></fn>
+<fn id="t002fn003"><p>*** <italic>P</italic>&lt; 0.001</p></fn>
+<fn id="t002fn004"><p><sup>NS</sup> Not significant</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Five QTL involved in resistance to <italic>L</italic>. <italic>maculans</italic> growth along the leaf petiole (CE-Gt) were detected on linkage groups A02, A03, A10, C01 and C09, respectively (<xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>). The estimated phenotypic variation explained by individual QTL ranged from 3 to 10% and they collectively explained 35% of the variance. In addition, one weak QTL was detected on A04. Two QTL that collectively explained 22% of the variance in phoma leaf spot lesion area (CE-La) were detected on A02 and C01, and were located within support intervals for the two QTL related to <italic>L</italic>. <italic>maculans</italic> distance grown along the leaf petiole (<xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>). The individual QTL each explained 10&#8211;12% of the variance (<xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>). The resistance alleles were contributed by &#8216;Darmor-<italic>bzh</italic>&#8217; for QTL on A02, A03 and A10 and by &#8216;Yudal&#8217; for QTL on A04, C01 and C09.</p>
+<fig id="pone.0222540.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Comparison of the physical position of QTL.</title>
+<p>Comparison of the physical position (in Mb) of QTL on A02, A04 and C01 for resistance against <italic>Leptosphaeria maculans</italic> detected in controlled environment experiments (CE) in young plants with QTL detected in field experiments in adult plants. CE experiments were done with 190 lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217; DH) population. Field experiments were done with DY population in 1995, 1996, 2007, 2008, 2009, 2011 and 2012, with DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F<sub>2:3</sub>) population in 2008 and 2010 and with DS (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) population in 1998 and 1999 (for details see <xref ref-type="supplementary-material" rid="pone.0222540.s001">S1</xref> and <xref ref-type="supplementary-material" rid="pone.0222540.s002">S2</xref> Tables). QTL from CE experiments are in blue; QTL from individual years in field experiments are in pink; QQTL from combined years of field experiments using BLUP (best linear unbiased predictions) estimations are in orange.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.g004" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222540.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.t003</object-id>
+<label>Table 3</label> <caption><title>QTL for resistance against <italic>Leptosphaeria maculans</italic> detected in controlled environment experiments and neighbouring QTL detected in winter oilseed rape field experiments with the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population.</title></caption>
+<alternatives>
+<graphic id="pone.0222540.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Expt-trait <xref ref-type="table-fn" rid="t003fn001"><sup>a</sup></xref></th>
+<th align="left">LG <xref ref-type="table-fn" rid="t003fn002"><sup>b</sup></xref></th>
+<th align="left">Locus <xref ref-type="table-fn" rid="t003fn004"><sup>c</sup></xref></th>
+<th align="justify">Position<break />(cM) <xref ref-type="table-fn" rid="t003fn004"><sup>c</sup></xref></th>
+<th align="left">Support interval (cM)</th>
+<th align="left">Physical support interval (bp)</th>
+<th align="left">Effect<xref ref-type="table-fn" rid="t003fn005"><sup>d</sup></xref></th>
+<th align="left">LOD<xref ref-type="table-fn" rid="t003fn006"><sup>e</sup></xref></th>
+<th align="left"><italic>R</italic><sup>2</sup> (%)<xref ref-type="table-fn" rid="t003fn007"><sup>f</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">A02</td>
+<td align="left">Bn-A02-p3074016</td>
+<td align="justify">9.3</td>
+<td align="left">4.9&#8211;41.1</td>
+<td align="left">225 678&#8211;3 636 730</td>
+<td align="center">0.05</td>
+<td align="left">3.37</td>
+<td align="left">5.6</td>
+</tr>
+<tr>
+<td align="left">BLUP-DI</td>
+<td align="left">A02</td>
+<td align="left">cA02.loc1</td>
+<td align="justify">1.0</td>
+<td align="left">0&#8211;3.8</td>
+<td align="left">12 296&#8211;87 358</td>
+<td align="center">0.16</td>
+<td align="left">13.84</td>
+<td align="left">6.0</td>
+</tr>
+<tr>
+<td align="left">2007-DI</td>
+<td align="left">A02</td>
+<td align="left">BS012929</td>
+<td align="justify">14.6</td>
+<td align="left">7.7&#8211;16.7</td>
+<td align="left">262 823&#8211;965 813</td>
+<td align="center">0.36</td>
+<td align="left">11.50</td>
+<td align="left">8.2</td>
+</tr>
+<tr>
+<td align="left">2012-DI</td>
+<td align="left">A02</td>
+<td align="left">Bn-A02-p4243717</td>
+<td align="justify">24.2</td>
+<td align="left">16.1&#8211;27.9</td>
+<td align="left">869 834&#8211;2 001 616</td>
+<td align="center">0.54</td>
+<td align="left">9.39</td>
+<td align="left">7.3</td>
+</tr>
+<tr>
+<td align="left">CE-La</td>
+<td align="left">A02</td>
+<td align="left">scaffoldv4_207_269733</td>
+<td align="left">35.4</td>
+<td align="left">7.7&#8211;40.5</td>
+<td align="left">337 265&#8211;3 775 620</td>
+<td align="center">0.02</td>
+<td align="left">5.1</td>
+<td align="left">10.3</td>
+</tr>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">A03</td>
+<td align="left">Bn-A03-p6765024</td>
+<td align="left">51</td>
+<td align="left">47.6&#8211;54.9</td>
+<td align="left">1 614 358&#8211;9 727 949</td>
+<td align="center">0.05</td>
+<td align="left">3.0</td>
+<td align="left">5.0</td>
+</tr>
+<tr>
+<td align="left">2012-DI</td>
+<td align="left">A03</td>
+<td align="left">scaffoldv4_46_962259</td>
+<td align="left">69.1</td>
+<td align="left">67.9&#8211;71.8</td>
+<td align="left">10 407 494&#8211;11 386 559</td>
+<td align="center">-0.24</td>
+<td align="left">4.31</td>
+<td align="left">3.2</td>
+</tr>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">A04</td>
+<td align="left">Bn-A04-p13122589</td>
+<td align="justify">33.2</td>
+<td align="left">28.4&#8211;41.5</td>
+<td align="left">13 192 678&#8211;15 006 424</td>
+<td align="center">-0.45</td>
+<td align="left">1.73</td>
+<td align="left">2.8</td>
+</tr>
+<tr>
+<td align="left">2011-DI</td>
+<td align="left">A04</td>
+<td align="left">Bn-A04-p11794986</td>
+<td align="justify">25.2</td>
+<td align="left">22.5&#8211;27.3</td>
+<td align="left">12 640 632&#8211;13 146 945</td>
+<td align="center">0.31</td>
+<td align="left">11.6</td>
+<td align="left">11.5</td>
+</tr>
+<tr>
+<td align="left">2008-DI</td>
+<td align="left">A04</td>
+<td align="left">cA04.loc32</td>
+<td align="justify">32</td>
+<td align="left">19.3&#8211;41.5</td>
+<td align="left">11 885 058&#8211;14 976 156</td>
+<td align="center">0.31</td>
+<td align="left">3.18</td>
+<td align="left">8.8</td>
+</tr>
+<tr>
+<td align="left">BLUP-DI</td>
+<td align="left">A04</td>
+<td align="left">Bn-A04-p11244643</td>
+<td align="justify">22.4</td>
+<td align="left">21.2&#8211;25.9</td>
+<td align="left">12 211 710&#8211;12 876 658</td>
+<td align="center">0.34</td>
+<td align="left">22.77</td>
+<td align="left">10.7</td>
+</tr>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">A10</td>
+<td align="left">Bn-C9-p51689508</td>
+<td align="left">56.7</td>
+<td align="left">33.6&#8211;64.5</td>
+<td align="left">13 391 605&#8211;15 935 120</td>
+<td align="center">0.06</td>
+<td align="left">3.8</td>
+<td align="left">6.3</td>
+</tr>
+<tr>
+<td align="left">BLUP-DI</td>
+<td align="left">C01</td>
+<td align="left">cC01.loc15</td>
+<td align="justify">15</td>
+<td align="left">3&#8211;20.1</td>
+<td align="left">806 911&#8211;2 469 521</td>
+<td align="center">-0.22</td>
+<td align="left">5.18</td>
+<td align="left">2.09</td>
+</tr>
+<tr>
+<td align="left">2008-DI</td>
+<td align="left">C01</td>
+<td align="left">Bn-C1-p1914447</td>
+<td align="justify">10.6</td>
+<td align="left">0&#8211;18.2</td>
+<td align="left">82 561&#8211;2 263 603</td>
+<td align="center">-0.28</td>
+<td align="left">3.15</td>
+<td align="left">8.7</td>
+</tr>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">C01</td>
+<td align="left">Bn-*scaffold02163-p1951</td>
+<td align="justify">31.1</td>
+<td align="left">23.8&#8211;52.6</td>
+<td align="left">3 092 187&#8211;11 992 257</td>
+<td align="center">-0.07</td>
+<td align="left">5.98</td>
+<td align="left">10.2</td>
+</tr>
+<tr>
+<td align="left">CE-La</td>
+<td align="left">C01</td>
+<td align="left">Bn-A01-p7150748</td>
+<td align="justify">45.6</td>
+<td align="left">37.5&#8211;53.8</td>
+<td align="left">7 371 451&#8211;12 494 273</td>
+<td align="center">-0.02</td>
+<td align="left">5.9</td>
+<td align="left">12.1</td>
+</tr>
+<tr>
+<td align="left">CE-Gt</td>
+<td align="left">C09</td>
+<td align="left">scaffoldv4_130_1134724</td>
+<td align="justify">15.7</td>
+<td align="left">0.0&#8211;23.3</td>
+<td align="left">0&#8211;2 357 048</td>
+<td align="center">-0.05</td>
+<td align="left">3.16</td>
+<td align="left">5.2</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>a</sup>Expt-trait, for experiments, CE- controlled environment experiments, the years 1995 to 2012 are the years when the field experiments were assessed for phoma stem canker severity, BLUP (best linear unbiased predictions)&#8212;estimation of combined data for seven years; for traits, Gt&#8211;total distance grown by <italic>L</italic>. <italic>maculans</italic> along the leaf petiole from the inoculation site, DI&#8211;disease severity index, La- phoma leaf spot lesion area.</p></fn>
+<fn id="t003fn002"><p><sup>b</sup>LG, the linkage groups, are named according to <italic>Brassica napus</italic> A01&#8211;A10 and C01&#8211;C09 designations by the Multinational <italic>Brassica</italic> Genome Project Steering Committee.</p></fn>
+<fn id="t003fn003"><p>(<ext-link ext-link-type="uri" ns0:href="http://www.brassica.info/information/lg_assigments.htm" ns0:type="simple">http://www.brassica.info/information/lg_assigments.htm</ext-link>)</p></fn>
+<fn id="t003fn004"><p><sup>c</sup>The marker closest to the position of maximum effect of the QTL.</p></fn>
+<fn id="t003fn005"><p><sup>d</sup>The additive effect.</p></fn>
+<fn id="t003fn006"><p><sup>e</sup>Test statistic value for QTL, logarithm of the odds.</p></fn>
+<fn id="t003fn007"><p><sup>f</sup>Proportion (%) of the phenotypic variation explained by the QTL.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>To investigate whether there were any correlations between leaf lamina size or leaf petiole length and the growth of <italic>L</italic>. <italic>maculans</italic> in the leaf, the QTL related to leaf lamina length and leaf petiole length were also analysed. Six QTL related to leaf lamina length (CE-Lal) were detected and distributed over six linkage groups (<xref ref-type="table" rid="pone.0222540.t004">Table 4</xref>). The estimated phenotypic variation explained by individual QTL ranged from 5 to 31% and all QTL collectively explained 59% of the variation. A strong effect QTL was detected on A06 where the dwarf gene <italic>bzh</italic> was located. The alleles for smaller leaf lamina length were from parent &#8216;Darmor-<italic>bzh&#8217;</italic> on A06 and A10 and from parent &#8216;Yudal&#8217; for the other four QTL (<xref ref-type="table" rid="pone.0222540.t004">Table 4</xref>). Six QTL related to leaf petiole length (CE-Pl) were detected and distributed over six linkage groups (<xref ref-type="table" rid="pone.0222540.t004">Table 4</xref>). The estimated phenotypic variation explained by individual QTL ranged from 4 to 40% and all QTL collectively explained 57% of the variation. A strong effect QTL related to leaf petiole length was detected on A06 where the dwarf gene <italic>bzh</italic> was located. The alleles for shorter petiole length were from parent &#8216;Darmor-<italic>bzh</italic>&#8217; on A06 and A09 and from parent &#8216;Yudal&#8217; for the other four QTL (<xref ref-type="table" rid="pone.0222540.t004">Table 4</xref>). QTL on A01, A06 and C06 related to leaf lamina length and leaf petiole length were at the same location and support intervals overlapped for the other QTL. When compared with QTL detected for leaf lesion length or distance grown by <italic>L</italic>. <italic>maculans</italic> in the leaf petiole with QTL detected for leaf laminar length or petiole length, only a partial overlap with a QTL on A10 for leaf lamina length was found. No other co-localization was detected.</p>
+<table-wrap id="pone.0222540.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222540.t004</object-id>
+<label>Table 4</label> <caption><title>Information about QTL for leaf lamina size and leaf petiole length detected by composite interval mapping in two controlled environment experiments (CE) with 190 doubled haploid (DH) lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population.</title></caption>
+<alternatives>
+<graphic id="pone.0222540.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Trait</th>
+<th align="left">LG<xref ref-type="table-fn" rid="t004fn001"><sup>a</sup></xref></th>
+<th align="left">Locus <xref ref-type="table-fn" rid="t004fn002"><sup>b</sup></xref></th>
+<th align="left">Position (cM) <xref ref-type="table-fn" rid="t004fn001"><sup>b</sup></xref></th>
+<th align="left">Support interval (cM)</th>
+<th align="center">Physical support interval (bp)</th>
+<th align="center">LOD <xref ref-type="table-fn" rid="t004fn002"><sup>c</sup></xref></th>
+<th align="center">Effect <xref ref-type="table-fn" rid="t004fn004"><sup>d</sup></xref></th>
+<th align="left"><italic>R</italic><sup>2</sup> (%)<xref ref-type="table-fn" rid="t004fn005"><sup>e</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">CE-Lal <xref ref-type="table-fn" rid="t004fn006"><sup>f</sup></xref></td>
+<td align="left">A01</td>
+<td align="left">Bn-A01-p4246586</td>
+<td align="left">28.7</td>
+<td align="left">10.1&#8211;33.7</td>
+<td align="center">1497430&#8211;4638630</td>
+<td align="center">4</td>
+<td align="center">-0.12</td>
+<td align="left">4.5</td>
+</tr>
+<tr>
+<td align="left">CE-Lal</td>
+<td align="left">A03</td>
+<td align="left">BS006552</td>
+<td align="left">3.6</td>
+<td align="left">0&#8211;19.1</td>
+<td align="center">13519&#8211;2234749</td>
+<td align="center">4.3</td>
+<td align="center">-0.13</td>
+<td align="left">4.8</td>
+</tr>
+<tr>
+<td align="left">CE-Lal</td>
+<td align="left">A06</td>
+<td align="left">scaffoldv4_290_297119</td>
+<td align="left">113.5</td>
+<td align="left">112.9&#8211;115.2</td>
+<td align="center">22839484&#8211;23104279</td>
+<td align="center">21.9</td>
+<td align="center">0.34</td>
+<td align="left">30.7</td>
+</tr>
+<tr>
+<td align="left">CE-Lal</td>
+<td align="left">A10</td>
+<td align="left">Bn-A10-p10748653</td>
+<td align="left">23.5</td>
+<td align="left">19.6&#8211;49.7</td>
+<td align="center">11776434&#8211;14967637</td>
+<td align="center">5.3</td>
+<td align="center">0.15</td>
+<td align="left">6.0</td>
+</tr>
+<tr>
+<td align="left">CE-Lal</td>
+<td align="left">C03</td>
+<td align="left">Bn-C3-p29046921</td>
+<td align="left">111.9</td>
+<td align="left">103&#8211;116.4</td>
+<td align="center">23140183&#8211;30313620</td>
+<td align="center">4</td>
+<td align="center">-0.12</td>
+<td align="left">4.5</td>
+</tr>
+<tr>
+<td align="left">CE-Lal</td>
+<td align="left">C06</td>
+<td align="left">cC06.loc62</td>
+<td align="left">62</td>
+<td align="left">60.5&#8211;66.7</td>
+<td align="center">25409207&#8211;31406603</td>
+<td align="center">7.6</td>
+<td align="center">-0.16</td>
+<td align="left">8.9</td>
+</tr>
+<tr>
+<td align="left">CE-Pl <xref ref-type="table-fn" rid="t004fn007"><sup>g</sup></xref></td>
+<td align="left">A01</td>
+<td align="left">scaffoldv4_9817_2019</td>
+<td align="left">21.8</td>
+<td align="left">15.4&#8211;29</td>
+<td align="center">1850243&#8211;3984116</td>
+<td align="center">3.8</td>
+<td align="center">-0.17</td>
+<td align="left">3.9</td>
+</tr>
+<tr>
+<td align="left">CE-Pl</td>
+<td align="left">A03</td>
+<td align="left">scaffoldv4_29_1342774</td>
+<td align="left">19.1</td>
+<td align="left">0&#8211;27.7</td>
+<td align="center">13519&#8211;2979192</td>
+<td align="center">2.8</td>
+<td align="center">-0.15</td>
+<td align="left">2.8</td>
+</tr>
+<tr>
+<td align="left">CE-Pl</td>
+<td align="left">A06</td>
+<td align="left">scaffoldv4_290_297119</td>
+<td align="left">113.5</td>
+<td align="left">112.9&#8211;115.2</td>
+<td align="center">22839484&#8211;23104279</td>
+<td align="center">28.3</td>
+<td align="center">0.57</td>
+<td align="left">39.7</td>
+</tr>
+<tr>
+<td align="left">CE-Pl</td>
+<td align="left">A09</td>
+<td align="left">scaffoldv4_225_749028</td>
+<td align="left">103.3</td>
+<td align="left">99.4&#8211;127.2</td>
+<td align="center">28142060&#8211;33861569</td>
+<td align="center">3.8</td>
+<td align="center">0.26</td>
+<td align="left">3.9</td>
+</tr>
+<tr>
+<td align="left">CE-Pl</td>
+<td align="left">C03</td>
+<td align="left">Bn-C3-p54103303</td>
+<td align="left">147.5</td>
+<td align="left">0&#8211;148.7</td>
+<td align="center">59682&#8211;50147047</td>
+<td align="center">3</td>
+<td align="center">-0.24</td>
+<td align="left">3.1</td>
+</tr>
+<tr>
+<td align="left">CE-Pl</td>
+<td align="left">C06</td>
+<td align="left">Bn-C6-p13174110</td>
+<td align="left">57.5</td>
+<td align="left">53.8&#8211;62.6</td>
+<td align="center">21940179&#8211;26892582</td>
+<td align="center">3.3</td>
+<td align="center">-0.12</td>
+<td align="left">3.4</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p><sup>a</sup>LG, the linkage groups, are named according to <italic>Brassica napus</italic> A01&#8211;A10 and C01&#8211;C09 designations by the Multinational <italic>Brassica</italic> Genome Project Steering Committee (<ext-link ext-link-type="uri" ns0:href="http://www.brassica.info/information/lg_assigments.htm" ns0:type="simple">http://www.brassica.info/information/lg_assigments.htm</ext-link>)</p></fn>
+<fn id="t004fn002"><p><sup>b</sup>The marker closest to the position of maximum effect of the QTL</p></fn>
+<fn id="t004fn003"><p><sup>c</sup>Test statistic value for QTL</p></fn>
+<fn id="t004fn004"><p><sup>d</sup>The additive effect</p></fn>
+<fn id="t004fn005"><p><sup>e</sup>Proportion (%) of the phenotypic variation explained by the QTL</p></fn>
+<fn id="t004fn006"><p><sup>f</sup>Lal- the leaf lamina length</p></fn>
+<fn id="t004fn007"><p><sup>g</sup>Pl- the leaf petiole length</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec011">
+<title>Comparison of QTL detected in controlled environment experiments with those previously detected in field experiments</title>
+<p>All the QTL detected based on the 190 DH lines from the DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217; DH) population in the controlled environment experiments were compared with QTL detected in field experiments with the DY (seven years), DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F<sub>2:3</sub>) (two years) and DS (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) (two years) populations. The comparisons represented either individual years or the combined data sets using BLUP estimations (<xref ref-type="supplementary-material" rid="pone.0222540.s004">S4 Table</xref>). The QTL on A02 detected for distance grown along the leaf petiole and leaf lesion area co-localized with QTL detected in field experiments in 2007 and 2012, and was also close to the QTL detected using BLUP for the DY population (<xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>; <xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>). Furthermore, this QTL was also detected in 1998 and BLUP for the DS population (<xref ref-type="supplementary-material" rid="pone.0222540.s004">S4 Table</xref>; <xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>). In all cases, the resistance allele was contributed by &#8216;Darmor-<italic>bzh</italic>&#8217;. A QTL detected on A04 for distance grown along the leaf petiole co-localized with a QTL detected in a field experiment in 2008 and 2011 for the DY population and with BLUP QTL found in the DB population (<xref ref-type="supplementary-material" rid="pone.0222540.s004">S4 Table</xref>) but the resistance allele was not contributed by the same parent (<xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>; <xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>). All the other QTL from controlled environment experiments did not colocalize with QTL detected in field experiments either in individual years or in BLUP. A QTL on A03 was detected in 2007, 2012 and BLUP with the DY population and in 2008 with the DB population (<xref ref-type="supplementary-material" rid="pone.0222540.s004">S4 Table</xref>), but the positions were different from the QTL detected in controlled environment experiments (<xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>; <xref ref-type="supplementary-material" rid="pone.0222540.s006">S2 Fig</xref>). Similarly, the QTL on C01 detected in field experiments was in a different position from that detected in controlled environment experiments (<xref ref-type="table" rid="pone.0222540.t003">Table 3</xref>; <xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>). However, the resistant allele of the QTL on C01 was from &#8216;Yudal&#8217; for both controlled environment experiments and field experiments.</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Discussion</title>
+<p>Results of this study show that it is possible to detect QTL for resistance to <italic>L</italic>. <italic>maculans</italic> in young plants by investigating the growth of the pathogen from leaf lesions along the leaf petiole towards the stem or by measuring leaf lesion area in controlled environment experiments. Five QTL for resistance to <italic>L</italic>. <italic>maculans</italic> growth along the leaf petiole were detected and two of these were also detected by measurement of leaf lesion area. This is the first reported study investigating QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environments. In Europe under natural conditions, the fungal pathogen <italic>L</italic>. <italic>maculans</italic> initially infects leaves of oilseed rape in autumn and then grows systemically from leaf lesions along the leaf petiole to the stem, causing damaging phoma stem canker (blackleg) in the following summer [<xref ref-type="bibr" rid="pone.0222540.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0222540.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0222540.ref057">57</xref>]. Traditionally, selection for quantitative resistance to the phoma stem canker pathogen has relied on winter oilseed rape field experiments in which phoma stem canker severity is assessed at the end of the cropping season before harvest [<xref ref-type="bibr" rid="pone.0222540.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0222540.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222540.ref044">44</xref>]. Therefore, quantitative resistance against <italic>L</italic>. <italic>maculans</italic> has also been referred to as &#8216;adult plant resistance&#8217; [<xref ref-type="bibr" rid="pone.0222540.ref009">9</xref>]. Because <italic>L</italic>. <italic>maculans</italic> has a long period of symptomless growth between the initial development of phoma spot lesions on leaves and the appearance of canker symptoms on stems, it has been difficult to investigate quantitative resistance to <italic>L</italic>. <italic>maculans</italic> growth in leaf petioles and stems under field conditions. Results of this work provide evidence that components of quantitative resistance to <italic>L</italic>. <italic>maculans</italic> can be detected in controlled conditions.</p>
+<p>In the comparison of QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in leaves of young plants in controlled environments and QTL for resistance against <italic>L</italic>. <italic>maculans</italic> growth in stems of adult plants in field experiments, one QTL on A02 was found to co-localize with a QTL detected in field experiments in 2007 and 2012 and was very close to the QTL detected with BLUP. Furthermore, this QTL was also detected in the same population after field phenotyping in Australia [<xref ref-type="bibr" rid="pone.0222540.ref058">58</xref>] and in another mapping population (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) that shares the same source of quantitative resistance. Consistent detection of this QTL on A02 by measuring <italic>L</italic>. <italic>maculans</italic> growth along the leaf petiole or the size of the leaf lesion in controlled environment experiments or by measuring the stem canker severity in field experiments suggests that this QTL might operate to control the rate of <italic>L</italic>. <italic>maculans</italic> growth from the leaf to the stem, leading to reduced stem canker severity in adult plants before harvest. In other words, resistance to the growth of <italic>L</italic>. <italic>maculans</italic> in leaves of young plants contributes to quantitative resistance in stems of adult plants. Furthermore, this QTL was not affected by petiole length since no QTL for petiole length was detected in this region. This suggests that the growth rate of <italic>L</italic>. <italic>maculans</italic> along the leaf petiole towards the stem might be more important than the petiole length. This is partly supported by the poor correlations between <italic>L</italic>. <italic>maculans</italic> growth in the leaf petiole and the leaf laminar length or the leaf petiole length (<xref ref-type="table" rid="pone.0222540.t002">Table 2</xref>). Interestingly, although a QTL on C01 detected in controlled environment experiments was at a different position from that detected in field experiments [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>], the resistance allele of the QTL was from the susceptible parent &#8216;Yudal&#8217; for both controlled environment experiments and field experiments. This suggests that the contribution from &#8216;Yudal&#8217; to this QTL might operate to slow down the growth of <italic>L</italic>. <italic>maculans</italic> from the leaf to the stem and subsequently reduce stem canker severity in adult plants before harvest. More precise investigations are needed to test whether the QTL are the same, which would provide further evidence that resistance to the growth of <italic>L</italic>. <italic>maculans</italic> in leaves of young plants contributes to quantitative resistance in stems of adult plants.</p>
+<p>Although a QTL on A04 detected in controlled environment experiments for distance grown along leaf petiole co-localized with a QTL detected in the field experiment in 2008 and with BLUP QTL for the DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F<sub>2:3</sub>) population [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>], the resistance allele was contributed by &#8216;Yudal&#8217; (e.g. resistance to the growth of <italic>L</italic>. <italic>maculans</italic> in leaves) for controlled environment experiments and by &#8216;Darmor-<italic>bzh</italic>&#8217; (e.g. resistance to the growth of <italic>L</italic>. <italic>maculans</italic> in stems) for field experiments. These results also suggest that the QTL operating in the leaf petiole (by slowing down the growth of <italic>L</italic>. <italic>maculans</italic> towards the stem) may be different from the QTL operating in the stem (by slowing down the growth of <italic>L</italic>. <italic>maculans</italic> in stems to reduce stem canker severity). This is supported by the evidence that QTL on A03, A10, C01 and C09 detected in leaves of young plants in controlled environment experiments are at different positions from those detected in stems of adult plans in field experiments (<xref ref-type="fig" rid="pone.0222540.g004">Fig 4</xref>; <xref ref-type="supplementary-material" rid="pone.0222540.s005">S1 Fig</xref>). Even though QTL operating in leaf petiole can delay the time when <italic>L</italic>. <italic>maculans</italic> reaches the stem, once <italic>L</italic>. <italic>maculans</italic> has reached the stem, the weather conditions and the QTL operating in the stem are vital in reducing the severity of stem canker. Recent work showed that the increased temperature during stem canker development stage (April&#8211;June; i.e. after <italic>L</italic>. <italic>maculans</italic> has reached the stem) is associated with increased phoma stem canker severity before harvest [<xref ref-type="bibr" rid="pone.0222540.ref030">30</xref>]. Furthermore, due to the interactions with environment, QTL for quantitative resistance are often inconsistent over locations or seasons [<xref ref-type="bibr" rid="pone.0222540.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0222540.ref059">59</xref>]. Our previous work showed that many QTL were sensitive to environmental factors [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>, <xref ref-type="bibr" rid="pone.0222540.ref052">52</xref>, <xref ref-type="bibr" rid="pone.0222540.ref060">60</xref>]. Therefore, quantitative resistance in stems of adult plants in field experiments (assessed at the end of growing season) results not only from resistance to growth of <italic>L</italic>. <italic>maculans</italic> in the leaves but also from resistance to growth of <italic>L</italic>. <italic>maculans</italic> in the stems. Work on spring oilseed rape also showed that quantitative resistance against growth of <italic>L</italic>. <italic>maculans</italic> in stems of adult plants was partly contributed by the growth of <italic>L</italic>. <italic>maculans</italic> in cotyledons of seedlings [<xref ref-type="bibr" rid="pone.0222540.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0222540.ref061">61</xref>]. Only one QTL on C06 related to resistance against growth of <italic>L</italic>. <italic>maculans</italic> in cotyledons detected in controlled environment experiments was found to co-localize with a QTL detected in stems of adult plants in field experiments [<xref ref-type="bibr" rid="pone.0222540.ref061">61</xref>] and might correspond to QTL reported in Kumar et al. [<xref ref-type="bibr" rid="pone.0222540.ref049">49</xref>]. Although cotyledon infection is observed in spring oilseed rape in Australia [<xref ref-type="bibr" rid="pone.0222540.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0222540.ref062">62</xref>], it is not common in Europe where the main source of phoma stem canker is from leaf lesions developed in autumn [<xref ref-type="bibr" rid="pone.0222540.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0222540.ref026">26</xref>]. Therefore, detection of QTL related to <italic>L</italic>. <italic>maculans</italic> growth in leaf petioles is close to what is happening in the field conditions in Europe.</p>
+<p>Previous work showed that quantitative resistance to <italic>L</italic>. <italic>maculans</italic> could be assessed at two stages: stage 1- growth of the pathogen along leaf petioles towards the stem; and stage 2-growth in stem tissues to produce stem canker symptoms [<xref ref-type="bibr" rid="pone.0222540.ref036">36</xref>]. We showed in this work that resistance QTL related to <italic>L</italic>. <italic>maculans</italic> growth at stage 1 can be detected in controlled environments. Assessing resistance QTL in leaves of young plants (<italic>L</italic>. <italic>maculans</italic> growth stage 1) in controlled environment experiments is rapid; it takes 40&#8211;45 days from sowing to finishing the assessment for leaf lamina inoculation experiments. By contrast, assessing resistance QTL in stems of adult plants in field experiment before harvest takes 10&#8211;11 months (from sowing to harvest) for winter oilseed rape. Another advantage is that detection of QTL in controlled conditions can avoid the influence of fluctuations in natural weather conditions. However, only a small number of QTL detected in controlled environment experiments co-localized with QTL detected in field experiments. This suggests that only some components of quantitative resistance as assessed in the field might be detected in controlled environment experiments. The duration of <italic>L</italic>. <italic>maculans</italic> growth from the leaf petiole to the stem and <italic>L</italic>. <italic>maculans</italic> growth in the stem are other potential components of quantitative resistance. There is a need to investigate resistance QTL related to <italic>L</italic>. <italic>maculans</italic> growth in stem tissues to produce stem canker symptoms (<italic>L</italic>. <italic>maculans</italic> growth stage 2) and compare the QTL detected at both growth stages in controlled conditions with QTL detected in field conditions, which will help to understand components of quantitative resistance assessed at the end of the growing season in field experiments.</p>
+<p>Only one isolate of <italic>L</italic>. <italic>maculans</italic> was used in the controlled environment experiments with the 190 DH lines for QTL detection, while in field conditions the plants were exposed to all the available pathogen races. This may be one of the reasons why only one QTL was co-localized with a QTL detected in stems of adult plants in field conditions. Although quantitative resistance against <italic>L</italic>. <italic>maculans</italic> is considered race non-specific, there may be differences between isolates in their aggressiveness and thus their ability to cause severe stem canker. There is a need to test more isolates or use a mixture of different isolates to investigate whether more common QTL can be detected in both controlled environments and in field experiments, which will help to develop markers for breeding cultivars with durable quantitative resistance.</p>
+</sec>
+<sec id="sec013">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222540.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Disease severity index and QTL detected in the nine DH (doubled haploid) lines from the Brassica napus DY (&#8216;Darmor-bzh&#8217; x &#8216;Yudal&#8217;) mapping population in seven field experiments.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222540.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>List of eleven field experiments which produced QTL based on the phoma stem canker severity data (Kumar et al. 2018) used for comparison with QTL detected in controlled environment experiments with those for 190 DH lines from the DY population.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222540.s003" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s003" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Phenotypic and genotypic data for the Brassica napus DY (&#8216;Darmor-bzh&#8217; x &#8216;Yudal&#8217;) mapping population used for detection of QTL for resistance against Leptosphaeria maculans in field experiments and controlled environment experiments.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222540.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s004" ns0:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Linkage groups (LG) where QTL for resistance against Leptosphaeria maculans detected in controlled environment experiments with QTL detected in winter oilseed rape field experiments with the Brassica napus DY (&#8216;Darmor-bzh&#8217; x &#8216;Yudal&#8217;), DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F2:3) or DS (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) population.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222540.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s005" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Correlations between disease severity index in different field experiments.</title>
+<p>Correlations between phoma stem canker disease index in winter oilseed rape field experiments in 1995, 1996, 2007, 2008, 2009, 2011 and 2012 with doubled haploid (DH) lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217;) mapping population. For details of these field experiments see <xref ref-type="supplementary-material" rid="pone.0222540.s002">S2 Table</xref>.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222540.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s006" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Comparison of the physical position of QTL.</title>
+<p>Comparison of the physical position (in Mb) of QTL on A03, A10 and C09 for resistance against <italic>Leptosphaeria maculans</italic> detected in controlled environment experiments (CE) in young plants with QTL detected in field experiments in adult plants. CE experiments were done with 190 lines from the <italic>Brassica napus</italic> DY (&#8216;Darmor-<italic>bzh</italic>&#8217; x &#8216;Yudal&#8217; DH) population. Field experiments were done with the DY population in 1995, 1996, 2007, 2008, 2009, 2011 and 2012, with the DB (&#8216;Darmor&#8217; x &#8216;Bristol&#8217; F<sub>2:3</sub>) population in 2008 and 2010 and with the DS (&#8216;Darmor&#8217; x &#8216;Samourai&#8217; DH) population in 1998 and 1999 (for details see <xref ref-type="supplementary-material" rid="pone.0222540.s001">S1</xref> &amp; <xref ref-type="supplementary-material" rid="pone.0222540.s002">S2</xref> Tables). QTL from CE experiments are in blue; QTL from individual year in field experiments are in pink; QTL from combined years of field experiments using BLUP (best linear unbiased predictions) estimation are in orange.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Aiming Qi and Sue Welham for advice on experimental design and help with statistical data analysis.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222540.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Beddington</surname> <given-names>J</given-names></name>. <article-title>Food security: contributions from science to a new and greener revolution</article-title>. <source>Philosophical Transactions of the Royal Society B: Biological Sciences</source>. <year>2010</year>;<volume>365</volume>(<issue>1537</issue>):<fpage>61</fpage>&#8211;<lpage>71</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fisher</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Henk</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Briggs</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Madoff</surname> <given-names>LC</given-names></name>, <name name-style="western"><surname>McCraw</surname> <given-names>SL</given-names></name>, <etal>et al</etal>. <article-title>Emerging fungal threats to animal, plant and ecosystem health</article-title>. <source>Nature</source>. <year>2012</year>;<volume>484</volume>(<issue>7393</issue>):<fpage>186</fpage>&#8211;<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nature10947" ns0:type="simple">10.1038/nature10947</ext-link></comment> <object-id pub-id-type="pmid">22498624</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bebber</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Ramotowski</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Gurr</surname> <given-names>SJ</given-names></name>. <article-title>Crop pests and pathogens move polewards in a warming world</article-title>. <source>Nature Climate Change</source>. <year>2013</year>;<volume>3</volume>(<issue>11</issue>):<fpage>985</fpage>&#8211;<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hughes</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Atkins</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Gladders</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jeger</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BD</given-names></name>. <article-title>Effects of disease control by fungicides on greenhouse gas emissions by UK arable crop production</article-title>. <source>Pest Management Science</source>. <year>2011</year>;<volume>67</volume>(<issue>9</issue>):<fpage>1082</fpage>&#8211;<lpage>92</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ps.2151" ns0:type="simple">10.1002/ps.2151</ext-link></comment> <object-id pub-id-type="pmid">21495152</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hahn</surname> <given-names>M</given-names></name>. <article-title>The rising threat of fungicide resistance in plant pathogenic fungi: Botrytis as a case study</article-title>. <source>Journal of Chemical Biology</source>. <year>2014</year>;<volume>7</volume>(<issue>4</issue>):<fpage>133</fpage>&#8211;<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s12154-014-0113-1" ns0:type="simple">10.1007/s12154-014-0113-1</ext-link></comment> <object-id pub-id-type="pmid">25320647</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Carter</surname> <given-names>HE</given-names></name>, <name name-style="western"><surname>Fraaije</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Kelly</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Mehl</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Shaw</surname> <given-names>MW</given-names></name>, <etal>et al</etal>. <article-title>Alterations in the predicted regulatory and coding regions of the sterol 14&#945;&#8208;demethylase gene (<italic>CYP51</italic>) confer decreased azole sensitivity in the oilseed rape pathogen <italic>Pyrenopeziza brassicae</italic></article-title>. <source>Molecular Plant Pathology</source>. <year>2014</year>;<volume>15</volume>(<issue>5</issue>):<fpage>513</fpage>&#8211;<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/mpp.12106" ns0:type="simple">10.1111/mpp.12106</ext-link></comment> <object-id pub-id-type="pmid">24298976</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sewell</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Hawkins</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Stotz</surname> <given-names>HU</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kelly</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Kelly</surname> <given-names>DE</given-names></name>, <etal>et al</etal>. <article-title>Azole sensitivity in <italic>Leptosphaeria</italic> pathogens of oilseed rape: the role of lanosterol 14&#945;-demethylase</article-title>. <source>Scientific Reports</source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>15849</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41598-017-15545-9" ns0:type="simple">10.1038/s41598-017-15545-9</ext-link></comment> <object-id pub-id-type="pmid">29158527</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lindhout</surname> <given-names>P</given-names></name>. <article-title>The perspectives of polygenic resistance in breeding for durable disease resistance</article-title>. <source>Euphytica</source>. <year>2002</year>;<volume>124</volume>(<issue>2</issue>):<fpage>217</fpage>&#8211;<lpage>26</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Chevre</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Balesdent</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dias</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Major gene and polygenic resistance to <italic>Leptosphaeria maculans</italic> in oilseed rape (<italic>Brassica napus</italic>)</article-title>. <source>European Journal of Plant Pathology</source>. <year>2006</year>;<volume>114</volume>(<issue>1</issue>):<fpage>41</fpage>&#8211;<lpage>52</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Poland</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Balint-Kurti</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Wisser</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Pratt</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>RJ</given-names></name>. <article-title>Shades of gray: the world of quantitative disease resistance</article-title>. <source>Trends in Plant Science</source>. <year>2009</year>;<volume>14</volume>(<issue>1</issue>):<fpage>21</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tplants.2008.10.006" ns0:type="simple">10.1016/j.tplants.2008.10.006</ext-link></comment> <object-id pub-id-type="pmid">19062327</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Balesdent</surname> <given-names>M-H</given-names></name>, <name name-style="western"><surname>Louvard</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Pinochet</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>. <article-title>A large-scale survey of races of <italic>Leptosphaeria maculans</italic> occurring on oilseed rape in France</article-title>. <source>European Journal of Plant Pathology</source>. <year>2006</year>;<volume>114</volume>(<issue>1</issue>):<fpage>53</fpage>&#8211;<lpage>65</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Evans</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>ZQ</given-names></name>, <name name-style="western"><surname>Eckert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ch&#232;vre</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Renard</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Temperature and leaf wetness duration affect phenotypic expression of <italic>Rlm6</italic>&#8208;mediated resistance to <italic>Leptosphaeria maculans</italic> in <italic>Brassica napus</italic></article-title>. <source>New Phytologist</source>. <year>2006</year>;<volume>170</volume>(<issue>1</issue>):<fpage>129</fpage>&#8211;<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1469-8137.2005.01651.x" ns0:type="simple">10.1111/j.1469-8137.2005.01651.x</ext-link></comment> <object-id pub-id-type="pmid">16539610</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bent</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Mackey</surname> <given-names>D</given-names></name>. <article-title>Elicitors, effectors, and R genes: the new paradigm and a lifetime supply of questions</article-title>. <source>Annual Review of Phytopathology</source>. <year>2007</year>;<volume>45</volume>:<fpage>399</fpage>&#8211;<lpage>436</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1146/annurev.phyto.45.062806.094427" ns0:type="simple">10.1146/annurev.phyto.45.062806.094427</ext-link></comment> <object-id pub-id-type="pmid">17506648</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Larkan</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Lydiate</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Parkin</surname> <given-names>IAP</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>MN</given-names></name>, <name name-style="western"><surname>Epp</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Cowling</surname> <given-names>WA</given-names></name>, <etal>et al</etal>. <article-title>The <italic>Brassica napus</italic> blackleg resistance gene <italic>LepR3</italic> encodes a receptor-like protein triggered by the <italic>Leptosphaeria maculans</italic> effector <italic>AVRLm1</italic></article-title>. <source>New Phytologist</source>. <year>2013</year>;<volume>197</volume>(<issue>2</issue>):<fpage>595</fpage>&#8211;<lpage>605</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/nph.12043" ns0:type="simple">10.1111/nph.12043</ext-link></comment>3. <object-id pub-id-type="pmid">23206118</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Penaud</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pinochet</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gout</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>A 10-year survey of populations of <italic>Leptosphaeria maculans</italic> in France indicates a rapid adaptation towards the <italic>Rlm1</italic> resistance gene of oilseed rape</article-title>. <source>European Journal of Plant Pathology</source>. <year>2003</year>;<volume>109</volume>(<issue>8</issue>):<fpage>871</fpage>&#8211;<lpage>81</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sprague</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Balesdent</surname> <given-names>M-H</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hayden</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Marcroft</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Pinochet</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Major gene resistance in <italic>Brassica napus</italic> (oilseed rape) is overcome by changes in virulence of populations of <italic>Leptosphaeria maculans</italic> in France and Australia</article-title>. <source>European Journal of Plant Pathology</source>. <year>2006</year>;<volume>1</volume>(<issue>114</issue>):<fpage>33</fpage>&#8211;<lpage>40</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Soanes</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Talbot</surname> <given-names>NJ</given-names></name>. <article-title>Moving targets: rapid evolution of oomycete effectors</article-title>. <source>Trends in Microbiology</source>. <year>2008</year>;<volume>16</volume>(<issue>11</issue>):<fpage>507</fpage>&#8211;<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tim.2008.08.002" ns0:type="simple">10.1016/j.tim.2008.08.002</ext-link></comment> <object-id pub-id-type="pmid">18819803</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Peng</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Kutcher</surname> <given-names>HR</given-names></name>, <name name-style="western"><surname>Balesdent</surname> <given-names>M-H</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Fernando</surname> <given-names>WD</given-names></name>. <article-title>Breakdown of <italic>Rlm3</italic> resistance in the <italic>Brassica napus</italic>&#8211;<italic>Leptosphaeria maculans</italic> pathosystem in western Canada</article-title>. <source>European Journal of Plant Pathology</source>. <year>2016</year>;<volume>145</volume>(<issue>3</issue>):<fpage>659</fpage>&#8211;<lpage>74</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Balesdent</surname> <given-names>MH</given-names></name>. <article-title>Life, death and rebirth of avirulence effectors in a fungal pathogen of <italic>Brassica</italic> crops, <italic>Leptosphaeria maculans</italic></article-title>. <source>New Phytologist</source>. <year>2017</year>;<volume>214</volume>(<issue>2</issue>):<fpage>526</fpage>&#8211;<lpage>32</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/nph.14411" ns0:type="simple">10.1111/nph.14411</ext-link></comment> <object-id pub-id-type="pmid">28084619</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chartrain</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Brading</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Widdowson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>J</given-names></name>. <article-title>Partial resistance to Septoria tritici blotch (<italic>Mycosphaerella graminicola</italic>) in wheat cultivars Arina and Riband</article-title>. <source>Phytopathology</source>. <year>2004</year>;<volume>94</volume>(<issue>5</issue>):<fpage>497</fpage>&#8211;<lpage>504</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1094/PHYTO.2004.94.5.497" ns0:type="simple">10.1094/PHYTO.2004.94.5.497</ext-link></comment> <object-id pub-id-type="pmid">18943769</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Pirie</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Evans</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>. <article-title>Quantitative resistance to symptomless growth of <italic>Leptosphaeria maculans</italic> (phoma stem canker) in Brassica napus (oilseed rape)</article-title>. <source>Plant Pathology</source>. <year>2009</year>;<volume>58</volume>(<issue>2</issue>):<fpage>314</fpage>&#8211;<lpage>23</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ch&#232;vre</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>, <name name-style="western"><surname>Powers</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Besnard</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Ermel</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Quantitative resistance increases the durability of qualitative resistance to <italic>Leptosphaeria maculans</italic> in <italic>Brassica napus</italic></article-title>. <source>New Phytologist</source>. <year>2010</year>;<volume>185</volume>(<issue>1</issue>):<fpage>285</fpage>&#8211;<lpage>99</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1469-8137.2009.03049.x" ns0:type="simple">10.1111/j.1469-8137.2009.03049.x</ext-link></comment> <object-id pub-id-type="pmid">19814776</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pilet-Nayel</surname> <given-names>M-L</given-names></name>, <name name-style="western"><surname>Moury</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Caffier</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Montarry</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kerlan</surname> <given-names>M-C</given-names></name>, <name name-style="western"><surname>Fournet</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Quantitative resistance to plant pathogens in pyramiding strategies for durable crop protection</article-title>. <source>Frontiers in Plant Science</source>. <year>2017</year>;<volume>8</volume>:<fpage>1838</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fpls.2017.01838" ns0:type="simple">10.3389/fpls.2017.01838</ext-link></comment> <object-id pub-id-type="pmid">29163575</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Howlett</surname> <given-names>BJ</given-names></name>. <article-title>Current knowledge of the interaction between <italic>Brassica napus</italic> and <italic>Leptosphaeria maculans</italic></article-title>. <source>Canadian Journal of Plant Pathology</source>. <year>2004</year>;<volume>26</volume>(<issue>3</issue>):<fpage>245</fpage>&#8211;<lpage>52</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Barbetti</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Rimmer</surname> <given-names>SR</given-names></name>. <article-title>World-wide importance of phoma stem canker (<italic>Leptosphaeria maculans</italic> and <italic>L. biglobosa</italic>) on oilseed Rape (<italic>Brassica napus</italic>)</article-title>. <source>European Journal of Plant Pathology</source>. <year>2006</year>;<volume>114</volume>(<issue>1</issue>):<fpage>3</fpage>&#8211;<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10658-005-2233-5" ns0:type="simple">10.1007/s10658-005-2233-5</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222540.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Kharbanda</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Barbetti</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BD</given-names></name>. <article-title>Epidemiology and management of <italic>Leptosphaeria maculans</italic> (phoma stem canker) on oilseed rape in Australia, Canada and Europe</article-title>. <source>Plant Pathology</source>. <year>2001</year>;<volume>50</volume>(<issue>1</issue>):<fpage>10</fpage>&#8211;<lpage>27</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>, <name name-style="western"><surname>Jedryczka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dakowska</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Gladders</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Patterns of ascospore release in relation to phoma stem canker epidemiology in England (<italic>Leptosphaeria maculans</italic>) and Poland (<italic>Leptosphaeria biglobosa</italic>)</article-title>. <source>European Journal of Plant Pathology</source>. <year>2005</year>;<volume>111</volume>(<issue>3</issue>):<fpage>263</fpage>&#8211;<lpage>77</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Toscano&#8208;Underwood</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Todd</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jedryczka</surname> <given-names>M</given-names></name>. <article-title>Development of phoma lesions on oilseed rape leaves inoculated with ascospores of A&#8208;group or B&#8208;group <italic>Leptosphaeria maculans</italic> (stem canker) at different temperatures and wetness durations</article-title>. <source>Plant Pathology</source>. <year>2001</year>;<volume>50</volume>(<issue>1</issue>):<fpage>28</fpage>&#8211;<lpage>41</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Toscano&#8208;Underwood</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>A</given-names></name>. <article-title>Effects of temperature on ascospore germination and penetration of oilseed rape (<italic>Brassica napus</italic>) leaves by A&#8208;or B&#8208;group <italic>Leptosphaeria maculans</italic> (phoma stem canker)</article-title>. <source>Plant Pathology</source>. <year>2003</year>;<volume>52</volume>(<issue>2</issue>):<fpage>245</fpage>&#8211;<lpage>55</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Mitrousia</surname> <given-names>GK</given-names></name>, <name name-style="western"><surname>Sidique</surname> <given-names>SNM</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>. <article-title>Combining R gene and quantitative resistance increases effectiveness of cultivar resistance against <italic>Leptosphaeria maculans</italic> in <italic>Brassica napus</italic> in different environments</article-title>. <source>PLoS One</source>. <year>2018</year>;<volume>13</volume>(<issue>5</issue>):<fpage>e0197752</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0197752" ns0:type="simple">10.1371/journal.pone.0197752</ext-link></comment> <object-id pub-id-type="pmid">29791484</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Lydiate</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Rimmer</surname> <given-names>SR</given-names></name>. <article-title>Identification and mapping of a third blackleg resistance locus in <italic>Brassica napus</italic> derived from <italic>B</italic>. <italic>rapa</italic> subsp. sylvestris</article-title>. <source>Genome</source>. <year>2008</year>;<volume>51</volume>(<issue>1</issue>):<fpage>64</fpage>&#8211;<lpage>72</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1139/g07-103" ns0:type="simple">10.1139/g07-103</ext-link></comment> <object-id pub-id-type="pmid">18356940</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Fernando</surname> <given-names>WD</given-names></name>. <article-title>Insights into fighting against blackleg disease of <italic>Brassica napus</italic> in Canada</article-title>. <source>Crop and Pasture Science</source>. <year>2018</year>;<volume>69</volume>(<issue>1</issue>):<fpage>40</fpage>&#8211;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Balesdent</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Attard</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ansan-Melayah</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Renard</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>. <article-title>Genetic control and host range of avirulence toward <italic>Brassica napus</italic> cultivars Quinta and Jet Neuf in <italic>Leptosphaeria maculans</italic></article-title>. <source>Phytopathology</source>. <year>2001</year>;<volume>91</volume>(<issue>1</issue>):<fpage>70</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1094/PHYTO.2001.91.1.70" ns0:type="simple">10.1094/PHYTO.2001.91.1.70</ext-link></comment> <object-id pub-id-type="pmid">18944280</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Lydiate</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Rimmer</surname> <given-names>S</given-names></name>. <article-title>Identification of two novel genes for blackleg resistance in <italic>Brassica napus</italic></article-title>. <source>Theoretical and Applied Genetics</source>. <year>2005</year>;<volume>110</volume>(<issue>5</issue>):<fpage>969</fpage>&#8211;<lpage>79</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-004-1919-y" ns0:type="simple">10.1007/s00122-004-1919-y</ext-link></comment> <object-id pub-id-type="pmid">15798929</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Raman</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Marcroft</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stiller</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Eckermann</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Coombes</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Molecular mapping of qualitative and quantitative loci for resistance to <italic>Leptosphaeria maculans</italic> causing blackleg disease in canola (<italic>Brassica napus</italic> L.)</article-title>. <source>Theoretical and Applied Genetics</source>. <year>2012</year>;<volume>125</volume>(<issue>2</issue>):<fpage>405</fpage>&#8211;<lpage>18</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-012-1842-6" ns0:type="simple">10.1007/s00122-012-1842-6</ext-link></comment> <object-id pub-id-type="pmid">22454144</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>GJ</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>. <article-title>Assessing quantitative resistance against <italic>Leptosphaeria maculans</italic> (phoma stem canker) in <italic>Brassica napus</italic> (oilseed rape) in young plants</article-title>. <source>PLoS One</source>. <year>2014</year>;<volume>9</volume>(<issue>1</issue>):<fpage>e84924</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0084924" ns0:type="simple">10.1371/journal.pone.0084924</ext-link></comment> <object-id pub-id-type="pmid">24454767</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Travadon</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Marquer</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Ribule</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sache</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Masson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Systemic growth of <italic>Leptosphaeria maculans</italic> from cotyledons to hypocotyls in oilseed rape: influence of number of infection sites, competitive growth and host polygenic resistance</article-title>. <source>Plant Pathology</source>. <year>2009</year>;<volume>58</volume>(<issue>3</issue>):<fpage>461</fpage>&#8211;<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rimmer</surname> <given-names>SR</given-names></name>. <article-title>Resistance genes to <italic>Leptosphaeria maculans</italic> in <italic>Brassica napus</italic></article-title>. <source>Canadian Journal of Plant Pathology</source>. <year>2006</year>;<volume>28</volume>(<issue>S1</issue>):<fpage>S288</fpage>&#8211;<lpage>S97</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Raman</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Raman</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Larkan</surname> <given-names>N</given-names></name>. <article-title>Genetic dissection of blackleg resistance loci in rapeseed (<italic>Brassica napus</italic> L.)</article-title>. <source>Plant Breeding from Laboratories to Fields: IntechOpen</source>; <year>2013</year>.</mixed-citation></ref>
+<ref id="pone.0222540.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Larkan</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Borhan</surname> <given-names>MH</given-names></name>. <article-title>The <italic>Brassica napus</italic> receptor-like protein <italic>RLM2</italic> is encoded by a second allele of the <italic>LepR3</italic>/<italic>Rlm2</italic> blackleg resistance locus</article-title>. <source>Plant Biotechnology Journal</source>. <year>2015</year>;<volume>13</volume>(<issue>7</issue>):<fpage>983</fpage>&#8211;<lpage>92</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/pbi.12341" ns0:type="simple">10.1111/pbi.12341</ext-link></comment> <object-id pub-id-type="pmid">25644479</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bousset</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ermel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Duffe</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Besnard</surname> <given-names>A-L</given-names></name>, <name name-style="western"><surname>Marquer</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Quantitative resistance affects the speed of frequency increase but not the diversity of the virulence alleles overcoming a major resistance gene to <italic>Leptosphaeria maculans</italic> in oilseed rape</article-title>. <source>Infection, Genetics and Evolution</source>. <year>2014</year>;<volume>27</volume>:<fpage>490</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.meegid.2013.12.019" ns0:type="simple">10.1016/j.meegid.2013.12.019</ext-link></comment> <object-id pub-id-type="pmid">24394446</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pilet</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Foisset</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Renard</surname> <given-names>M</given-names></name>. <article-title>Identification of loci contributing to quantitative field resistance to blackleg disease, causal agent <italic>Leptosphaeria maculans</italic> (Desm.) Ces. et de Not., in winter rapeseed (<italic>Brassica napus</italic> L.)</article-title>. <source>Theoretical and Applied Genetics</source>. <year>1998</year>;<volume>96</volume>(<issue>1</issue>):<fpage>23</fpage>&#8211;<lpage>30</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Piel</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Horvais</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Pouilly</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Domin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Vall&#233;e</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Molecular and phenotypic characterization of near isogenic lines at QTL for quantitative resistance to <italic>Leptosphaeria maculans</italic> in oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>Theoretical and Applied Genetics</source>. <year>2008</year>;<volume>117</volume>(<issue>7</issue>):<fpage>1055</fpage>&#8211;<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-008-0844-x" ns0:type="simple">10.1007/s00122-008-0844-x</ext-link></comment> <object-id pub-id-type="pmid">18696043</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jestin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Vall&#233;e</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Domin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Manzanares-Dauleux</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>. <article-title>Assessment of a new strategy for selective phenotyping applied to complex traits in <italic>Brassica napus</italic></article-title>. <source>Open Journal of Genetics</source>. <year>2012</year>;<volume>2</volume>(<issue>4</issue>):<fpage>190</fpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Foisset</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Barret</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hubert</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Landry</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Renard</surname> <given-names>M</given-names></name>. <article-title>Molecular-mapping analysis in <italic>Brassica napus</italic> using isozyme, RAPD and RFLP markers on a doubled-haploid progeny</article-title>. <source>Theoretical and Applied Genetics</source>. <year>1996</year>;<volume>93</volume>(<issue>7</issue>):<fpage>1017</fpage>&#8211;<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/BF00230119" ns0:type="simple">10.1007/BF00230119</ext-link></comment> <object-id pub-id-type="pmid">24162475</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stachowiak</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Olechnowicz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jedryczka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rouxel</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Balesdent</surname> <given-names>M-H</given-names></name>, <name name-style="western"><surname>Happstadius</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Frequency of avirulence alleles in field populations of <italic>Leptosphaeria maculans</italic> in Europe</article-title>. <source>European Journal of Plant Pathology</source>. <year>2006</year>;<volume>114</volume>(<issue>1</issue>):<fpage>67</fpage>&#8211;<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Evans</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Foster</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Resistance to <italic>Leptosphaeria maculans</italic> (phoma stem canker) in <italic>Brassica napus</italic> (oilseed rape) induced by <italic>L. biglobosa</italic> and chemical defence activators in field and controlled environments</article-title>. <source>Plant Pathology</source>. <year>2006</year>;<volume>55</volume>(<issue>3</issue>):<fpage>401</fpage>&#8211;<lpage>12</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref048"><label>48</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Payne</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Harding</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Murray</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Soutar</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Baird</surname> <given-names>DB</given-names></name>, <name name-style="western"><surname>Glaser</surname> <given-names>AI</given-names></name>, <etal>et al</etal>. <source>The guide to Genstat release 10, part 2: Statistics</source>. <publisher-name>VSN International</publisher-name>: <publisher-loc>Hemel Hempstead, UK</publisher-loc>. <year>2011</year>.</mixed-citation></ref>
+<ref id="pone.0222540.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kumar</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Paillard</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Fopa-Fomeju</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Falentin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Deniot</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Baron</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Multi-year linkage and association mapping confirm the high number of genomic regions involved in oilseed rape quantitative resistance to blackleg</article-title>. <source>Theoretical and Applied Genetics</source>. <year>2018</year>;<volume>131</volume>(<issue>8</issue>):<fpage>1627</fpage>&#8211;<lpage>43</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-018-3103-9" ns0:type="simple">10.1007/s00122-018-3103-9</ext-link></comment> <object-id pub-id-type="pmid">29728747</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref050"><label>50</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Broman</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sen</surname> <given-names>&#346;</given-names></name>, <name name-style="western"><surname>Churchill</surname> <given-names>GA</given-names></name>. <article-title>R/qtl: QTL mapping in experimental crosses</article-title>. <source>Bioinformatics</source>. <year>2003</year>;<volume>19</volume>(<issue>7</issue>):<fpage>889</fpage>&#8211;<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/bioinformatics/btg112" ns0:type="simple">10.1093/bioinformatics/btg112</ext-link></comment> <object-id pub-id-type="pmid">12724300</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fopa Fomeju</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Falentin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Lassalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Manzanares-Dauleux</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>. <article-title>Comparative genomic analysis of duplicated homoeologous regions involved in the resistance of <italic>Brassica napus</italic> to stem canker</article-title>. <source>Frontiers in Plant Science</source>. <year>2015</year>;<volume>6</volume>:<fpage>772</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fpls.2015.00772" ns0:type="simple">10.3389/fpls.2015.00772</ext-link></comment> <object-id pub-id-type="pmid">26442081</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Jestin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Welham</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>GJ</given-names></name>, <name name-style="western"><surname>Manzanares-Dauleux</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BDL</given-names></name>, <etal>et al</etal>. <article-title>Identification of environmentally stable QTL for resistance against <italic>Leptosphaeria maculans</italic> in oilseed rape (<italic>Brassica napus</italic>)</article-title>. <source>Theoretical and Applied Genetics</source>. <year>2016</year>;<volume>129</volume>(<issue>1</issue>):<fpage>169</fpage>&#8211;<lpage>80</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-015-2620-z" ns0:type="simple">10.1007/s00122-015-2620-z</ext-link></comment> <object-id pub-id-type="pmid">26518572</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref053"><label>53</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pilet</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Duplan</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Archipiano</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Barret</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Baron</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Horvais</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Stability of QTL for field resistance to blackleg across two genetic backgrounds in oilseed rape</article-title>. <source>Crop Science</source>. <year>2001</year>;<volume>41</volume>(<issue>1</issue>):<fpage>197</fpage>&#8211;<lpage>205</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref054"><label>54</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jestin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bardol</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Lode</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Duffe</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Domin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Vall&#233;e</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Connected populations for detecting quantitative resistance factors to phoma stem canker in oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>Molecular Breeding</source>. <year>2015</year>;<volume>35</volume>(<issue>8</issue>):<fpage>167</fpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref055"><label>55</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chalhoub</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Denoeud</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parkin</surname> <given-names>IAP</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Early allopolyploid evolution in the post-Neolithic <italic>Brassica napus</italic> oilseed genome</article-title>. <source>Science</source>. <year>2014</year>;<volume>345</volume>(<issue>6199</issue>):<fpage>950</fpage>&#8211;<lpage>3</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1126/science.1253435" ns0:type="simple">10.1126/science.1253435</ext-link></comment> <object-id pub-id-type="pmid">25146293</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref056"><label>56</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Clarke</surname> <given-names>WE</given-names></name>, <name name-style="western"><surname>Higgins</surname> <given-names>EE</given-names></name>, <name name-style="western"><surname>Plieske</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wieseke</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sidebottom</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Khedikar</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>A high-density SNP genotyping array for Brassica napus and its ancestral diploid species based on optimised selection of single-locus markers in the allotetraploid genome</article-title>. <source>Theoretical and Applied Genetics</source>. <year>2016</year>;<volume>129</volume>(<issue>10</issue>):<fpage>1887</fpage>&#8211;<lpage>99</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00122-016-2746-7" ns0:type="simple">10.1007/s00122-016-2746-7</ext-link></comment> <object-id pub-id-type="pmid">27364915</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref057"><label>57</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>West</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Biddulph</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Fitt</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Gladders</surname> <given-names>P</given-names></name>. <article-title>Epidemiology of <italic>Leptosphaeria maculans</italic> in relation to forecasting stem canker severity on winter oilseed rape in the UK</article-title>. <source>Annals of Applied Biology</source>. <year>1999</year>;<volume>135</volume>(<issue>2</issue>):<fpage>535</fpage>&#8211;<lpage>46</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref058"><label>58</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Raman</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Raman</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Diffey</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Qiu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>McVittie</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Barbulescu</surname> <given-names>DM</given-names></name>, <etal>et al</etal>. <article-title>Stable quantitative resistance loci to blackleg disease in canola (<italic>Brassica napus</italic> L.) over continents</article-title>. <source>Frontiers in Plant Science</source>. <year>2018</year>;<fpage>9</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fpls.2018.00009" ns0:type="simple">10.3389/fpls.2018.00009</ext-link></comment> <object-id pub-id-type="pmid">29403519</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref059"><label>59</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McDonald</surname> <given-names>B</given-names></name>. <article-title>How can we achieve durable disease resistance in agricultural ecosystems?</article-title> <source>New Phytologist</source>. <year>2010</year>;<volume>185</volume>(<issue>1</issue>):<fpage>3</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1469-8137.2009.03108.x" ns0:type="simple">10.1111/j.1469-8137.2009.03108.x</ext-link></comment> <object-id pub-id-type="pmid">20088970</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref060"><label>60</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Delourme</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ermel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lucas</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vallee</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Domin</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Expression of resistance to <italic>Leptosphaeria maculans</italic> in <italic>Brassica napus</italic> double haploid lines in France and Australia is influenced by location</article-title>. <source>Annals of Applied Biology</source>. <year>2008</year>;<volume>153</volume>(<issue>2</issue>):<fpage>259</fpage>&#8211;<lpage>69</lpage>.</mixed-citation></ref>
+<ref id="pone.0222540.ref061"><label>61</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Larkan</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Raman</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Lydiate</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Robinson</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Barbulescu</surname> <given-names>DM</given-names></name>, <etal>et al</etal>. <article-title>Multi-environment QTL studies suggest a role for cysteine-rich protein kinase genes in quantitative resistance to blackleg disease in <italic>Brassica napus</italic></article-title>. <source>BMC Plant Biology</source>. <year>2016</year>;<volume>16</volume>(<issue>1</issue>):<fpage>183</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12870-016-0877-2" ns0:type="simple">10.1186/s12870-016-0877-2</ext-link></comment> <object-id pub-id-type="pmid">27553246</object-id></mixed-citation></ref>
+<ref id="pone.0222540.ref062"><label>62</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Li</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sivasithamparam</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Barbetti</surname> <given-names>M</given-names></name>. <article-title>Soilborne ascospores and pycnidiospores of <italic>Leptosphaeria maculans</italic> can contribute significantly to blackleg disease epidemiology in oilseed rape (<italic>Brassica napus</italic>) in Western Australia</article-title>. <source>Australasian Plant Pathology</source>. <year>2007</year>;<volume>36</volume>(<issue>5</issue>):<fpage>439</fpage>&#8211;<lpage>44</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222540.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222540.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Raman</surname>
+<given-names>Harsh</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Harsh Raman</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222540" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">12 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-15868</p>
+<p>Oilseed rape (Brassica napus) resistance to growth of Leptosphaeria maculans in leaves of young plants contributes to quantitative resistance in stems of adult plants</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Huang,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by 31st&#160;July 2019. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Harsh Raman, Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1.&#160; When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Our internal editors have looked over your manuscript and determined that it is within the scope of our Future Crops Call for Papers. This collection of papers is headed by a team of Guest Editors for PLOS ONE. The Collection will encompass a diverse range of research articles on enhanced agronomic production, guaranteeing food security and neglected crop species.&#160; Additional information can be found on our announcement page: <ext-link ext-link-type="uri" ns0:href="https://collections.plos.org/s/future-crops" ns0:type="simple">https://collections.plos.org/s/future-crops</ext-link>.</p>
+<p>If you would like your manuscript to be considered for this collection, please let us know in your cover letter and we will ensure that your paper is treated as if you were responding to this call. If you would prefer to remove your manuscript from collection consideration, please specify this in the cover letter.</p>
+<p>3. In your Data Availability statement, you have not specified where the minimal data set underlying the results described in your manuscript can be found. PLOS defines a study's minimal data set as the underlying data used to reach the conclusions drawn in the manuscript and any additional data required to replicate the reported study findings in their entirety. All PLOS journals require that the minimal data set be made fully available. For more information about our data policy, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability</ext-link>.</p>
+<p>Upon re-submitting your revised manuscript, please upload your study&#8217;s minimal underlying data set as either Supporting Information files or to a stable, public repository and include the relevant URLs, DOIs, or accession numbers within your revised cover letter. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>. Any potentially identifying patient information must be fully anonymized.</p>
+<p>Important: If there are ethical or legal restrictions to sharing your data publicly, please explain these restrictions in detail. Please see our guidelines for more information on what we consider unacceptable restrictions to publicly sharing data: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>. Note that it is not acceptable for the authors to be the sole named individuals responsible for ensuring data access.</p>
+<p>We will update your Data Availability statement to reflect the information you provide in your cover letter.</p>
+<p>Additional Editor Comments:</p>
+<p>Overall manuscript is well written. Please format this manuscript properly (currently in different fonts and styles etc) and address comments raised by both reviewers. Here are my further comments</p>
+<p>L78-81: Revise sentence</p>
+<p>L130: Insert also reference 56 (as it validates). Also, Yudal has QTL for quantitative resistance! Revise accordingly</p>
+<p>L172, L274: delete nine lines. It is written in the first line</p>
+<p>L188, 323: format headings, use the same font, delete 190 lines</p>
+<p>L197-198: You may delete, 'therefore, the condia...........inoculum".</p>
+<p>L328: The continuous distributions?</p>
+<p>L332: broad sense heritability?</p>
+<p>Figure 3: Rearrange the order as A, B and C</p>
+<p>Figure 4; Provide high resolution image</p>
+<p>Table 3: which version of the reference genome was used. Please describe in methods or in this Table. Physical interval in bp?</p>
+<p>Table 4: Please provide physical interval here</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Manuscript title: Oilseed rape (Brassica napus) resistance to growth of Leptosphaeria maculans in leaves of young plants contributes to quantitative resistance in stems of adult plants (PONE-D-19-15868) by Huang et al.</p>
+<p>The authors of this manuscript have attempted to identify the components of quantitative resistance to Leptosphaeria maculans (blackleg) in oilseed rape that are highly desirable in durable resistance breeding for blackleg. However, my main concern is that authors used only one isolate in their investigations, therefore, how the breeders are going to use this information when large number of pathogen races exists and that too keep on changing every year! Whether they should be screening against more prevalent but less virulent races or should they screen against less prevalent but more virulent ones? Overall, the manuscript is suitable for publication in Plos One with some specific points that need to be addressed as outlined below:</p>
+<p>Authors chose nine DH lines of a (Darmor-bzh x Yudal) population based upon their crown/stem canker severity assessed in 1995, 1996 and 2007, which was similar in these three years; authors need to provide a reference for this. In their current investigations, authors related the outcomes of glasshouse/controlled environment experiments with the stem canker severity assessed so long ago (1995, 1996 and 1997). My main concern is that why authors did not attempt to retest the stem canker severity under field conditions during their current investigations to validate their claims. There are significant amount of published papers demonstrating that population of L. maculans changes very rapidly, it is likely that the chosen DH lines may behave differently to the existing populations under field conditions to the populations they were exposed to about 11 to 20 years ago. Moreover, there is evidence that quantitative resistance is eroded over time.</p>
+<p>In the methods section authors used ascospore inoculum from cultivar, &#8216;Courage&#8217;, need to provide more information regarding whether it was a susceptible or resistant cultivar and/ or the Rlm gene it carries.</p>
+<p>It was interesting that authors used visual assessments to determine the growth of the fungus (Gt) down the petiole from the infection site. Generally, such a growth is systemic and often not visible in most instances so how confident authors are that this trait can be used as one of the criterion for determining quantitative resistance. My other concerns is why authors did not include an absolute susceptible check to compare the Gt in DH lines to that of a susceptible line. I understand they have used one susceptible DH line but including a highly susceptible check would have been much valuable.</p>
+<p>It is not very clear how many plants per DH line for each replication were used in the first experiment. In the second experiment with 190 DH lines, it appears that two plants per DH lines were used and there were three reps that equates to just six plants for each DH line in total. In my view, the experimental unit is too small to draw useful conclusions. In addition, in the second experiment, authors maintained high humidity for 72 hours, whereas, in the first experiment, this was for 48 hours; authors need to mention the reasons for this inconsistency. This will be helpful for readers who are not familiar with the relative infection ability of ascospores vs pycnidiospores.</p>
+<p>In Table 1, authors need to provide the severity rating scale (for example, 0-5 or 0-4 etc.) used in 1995, 1996 and 2007 experiments in France for calculating the stem canker disease index (DI) and bit more details on how the DI was calculated.</p>
+<p>On page 13, authors mentioned a wide range in leaf petiole length and total leaf length but they had not included data for the leaf lamina length. It is important for the readers to know the range of leaf lamina length as if the length of the lamina is larger than that of the petiole then the fungus may not be able to reach the petiole, as the maximum distance travelled by the fungus in these investigations is merely 3cm in a susceptible line DY2. In this instance, it is obvious that there will be no correlation between total leaf and petiole length with the distance travelled by the fungus.</p>
+<p>I have noticed that authors inoculated the leaves very close to midrib, have they speculated the situation if lesions are far away from the midrib? How will that account for the fungus to reach to the petiole and into the stem?</p>
+<p>Fig. 3 need to be reordered from A to C, labels for Y and X-axis for each of the A, B and C need to be provided, though Y-axis label is common for A to C.</p>
+<p>Reviewer #2: This is a very well prepared manuscript. I only have a few comments.</p>
+<p>Lines 132-134: It would be helpful if the previously-detected QTL within these DH lines and previouls field ratings (supporting their classification from susceptible to resistant) was listed, maybe in the Supplimentary?</p>
+<p>Line 208 is missing a full stop between sentences.</p>
+<p>Table 3 needs to be cleaned up a bit as the justification makes it hard to align numbers with rows/traits. As the figure is presented in Mb and the support intervals are also given in bp, perhaps the cM positions are expendible?</p>
+<p>Lines 471-477: Later in the discussion you draw attention to previous work which tested QTL under controlled conditions using cotyledon infection. While the current study may be the first to do this with true leaf infection, the cotyledon assays still fall in the 'stage-1' of L. maculans growth, and should probably be metioned here rather than later.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222540.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222540.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222540" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222540.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">29 Jul 2019</named-content>
+</p>
+<p>Our response to specific reviewer and editor comments is in the file 'Response to reviewers'.</p>
+<supplementary-material id="pone.0222540.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222540.s007" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Responses to reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222540.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222540.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Raman</surname>
+<given-names>Harsh</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Harsh Raman</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222540" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">3 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Oilseed rape (Brassica napus) resistance to growth of Leptosphaeria maculans in leaves of young plants contributes to quantitative resistance in stems of adult plants</p>
+<p>PONE-D-19-15868R1</p>
+<p>Dear Dr. Huang,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Harsh Raman, Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222540.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222540.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Raman</surname>
+<given-names>Harsh</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Harsh Raman</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222540" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-15868R1 </p>
+<p>Oilseed rape (<italic>Brassica napus</italic>) resistance to growth of <italic>Leptosphaeria maculans</italic> in leaves of young plants contributes to quantitative resistance in stems of adult plants </p>
+<p>Dear Dr. Huang:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Harsh Raman  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

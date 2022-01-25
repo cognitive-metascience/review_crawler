@@ -1,0 +1,52 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222425.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222425.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222425" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222425.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">26 Aug 2019</named-content>
+</p>
+<p>Responses to Editor</p>
+<p>Q1. We kindly request you to correct the grammatical errors listed below as well as to address the comments of the reviewers.</p>
+<p>Ans: We apologize for the errors and have corrected the grammatical errors in the revised manuscript. We have also addressed the reviewers&#8217; comments, item-by-item. Please see the Responses to Reviewers. Thank you.</p>
+<p>Responses to Reviewers</p>
+<p>1) The method of case ascertainment was not entirely clear. Based on the figure it seems that the authors examined a database containing all positive cultures for NTM, and then looked for patients with resected solitary lung nodules. Additional detail regarding the exact methods used to identify potential cases would be helpful. </p>
+<p>Ans: Thank you for the comment. We have revised the step-by-step description in Figure 1 in the revised manuscript. The descriptions on case selection process in the main text have also been revised (2nd and 3rd paragraphs of the methods section).  </p>
+<p>2) As this was a retrospective cohort study, follow-up methods were not standardized for all patients, which may have led to under-ascertainment of recurrent nodules. The authors should specify whether patients were censored in follow-up based on the last CT scan obtained, the last plain chest radiograph obtained, or some other criterion. Ideally, follow-up would only be counted based on the last CT (which would be the "gold standard" test here). There is a footnote to Table 4 that provides some information, but it would be helpful to provide person-years of follow-up based on CT only.</p>
+<p>Ans: We thank for the instructive comment. The definition of follow-up duration was added in the methodology (Page 8, Line 1-4). The durations of chest CT follow-up, chest X-ray follow-up and clinical follow-up were also added in the Table 4 of the revised manuscript. </p>
+<p>3) Fig 1: Some of the numbers do not add up: 2nd step to 3rd step: starting with 154 cases of surgical lung specimens, and excluding 76 with multiple nodules, leaves 78 cases not 77. 4th step to 5th step: starting with 63 SPNs, and excluding 13 plus 3 plus 7 leaves 40, not 43. </p>
+<p>Ans: Thank you for the reminder and we apologize for the confused numbers in this figure. We repeatedly counted the 3 cancer patients in the group with pulmonary symptoms. We had corrected the numbers of Figure 1 in the revised manuscript.</p>
+<p>4) It would be helpful to include data on initial PET/CT findings, if any patients had this test performed. </p>
+<p>Ans: Thank you for the nice suggestion. Positron emission tomography (PET) was performed in 16 patients, with the maximal standardised uptake value (SUVmax) being 6.4 &#177; 7.2 (median: 4.2; IQR: 2.0&#8211;5.9). We have provided the information in the Results section (Page 12, Line 16-18) and Table 2.</p>
+<p>5) 3 patients had "unidentified NTM" in the nodules. Did these patients have granulomatous inflammation and/or acid-fast bacilli noted on histopathology? If not, this raises concern that the NTM were lab contaminants.</p>
+<p>Ans: We apologize for the misleading. The histological reports of the 3 resected SPNs all indicated granulomatous inflammation. Tissue mycobacterial culture yielded photochromogens in 2 and nonphotochromogens in the remaining one. However, species identification was not possible under routine laboratory procedures. We have footnoted this information in Table 2 of the revised manuscript. Thank you for the comment.</p>
+<p>6) Table 2: PET-CT and SUV are listed in the legend but not in the table. </p>
+<p>Ans: Thank you for the reminder. As suggested by the reviewer in the 4th comment, we have added the information on PET-CT in Table 2 of the revised manuscript.</p>
+<p>7) Table 3 &#8211; legend &#8211; medium should be median </p>
+<p>Ans: We apologize for the typo and have corrected it in the revised manuscript. Thank you. </p>
+<p>8) 4 patients received TB treatment &#8211; why? Surely this implies they were symptomatic in some way? Or was TB isolated from other specimens, even though they were asymptomatic? </p>
+<p>Ans: Thank you for the thought-provoking comment. For the 4 patients, the primary care physicians decided to complete a full course of anti-TB treatment based on the histological finding of granulomatous inflammation and positive acid-fast smear of resected SPNs, even knowing that patients were asymptomatic and culture of SPNs yielded NTM. We have footnoted this information in Table 4 of the revised manuscript. </p>
+<p>9) Table 4 states that patients received no NTM therapy for &gt; 6months. The text implies received no NTM treatment at all. Please clarify - did some receive NTM therapy for &lt;6 months? </p>
+<p>Ans: We apologize for the confusing statement. We have revised the descriptions in Table 4 and in the Results section (Page 17, Para 1) as &#8220;None of the patients received effective anti-NTM treatment for more than 6 months&#8221;. </p>
+<p>10) Discussion: You state "4 patients received the transient anti-TB medication after surgical resection, which may be a potential confounder to alter the subsequent outcome." Leave out "the transient" - mean TB treatment was 160 days. </p>
+<p>Ans: Thank you for the comment. We have deleted the incorrect wording &#8220;transient&#8221;.</p>
+<p>11) Was HIV status tested in any of the patients? If not, this is something to mention in the results as the conclusions may not be generalisable to an HIV-infected population. While some of the patients included were on steroids, most were not on any active immune modulating treatment - so the conclusions in relation to any form of immunosuppression may also be questioned. </p>
+<p>Ans: Thank you for the instructive comments. In this retrospective study, none of the 43 patients received serology test for HIV infection (mentioned in Page 10, Line 5-6). We totally agree with you that the impact of immunosuppression, either disease-associated or iatrogenic, on the risk and clinical course of NTM-SPN remains to be studied. We have added the limitation in the Discussion section (Page 24, Line 12-15).</p>
+<supplementary-material id="pone.0222425.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222425.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">20190825_Responses.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

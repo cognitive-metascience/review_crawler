@@ -1,0 +1,42 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222791.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222791.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222791" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222791.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">12 Aug 2019</named-content>
+</p>
+<p>Dear reviewer of the manuscript &#8220;The epidemiology of antidepressant use in South Korea: Does short-term antidepressant use affect the relapse and recurrence of depressive episodes?&#8221;. </p>
+<p>Thank you for your detailed review and comments. I have provided answers to the comments below.  </p>
+<p>Thank you. </p>
+<p>#1. Please pay particular attention to grammatical formatting throughout the manuscript. There are several places throughout where proofreading is needed to address grammar for flow and clarity. In addition, please make sure that language describing the study is in past tense (e.g., last paragraph of the introduction) as the study has already occurred. And when acronyms are introduced for the first time in the text (e.g., TCA), they should be spelled out for the reader.</p>
+<p>Answer: I again double checked with the grammar and checked the points you have raised. Thank you.</p>
+<p>#2. There are additional clarifications needed in the presentation of information in the method and results sections. In addition, I will add that the language regarding the exclusion criteria needs to be revised as the text states that there are "three criteria", but four criteria are listed. And "claimed data" should be revised as "claims data" as the data are based on medical billing claims (i.e., ICD codes).</p>
+<p>Answer: Thank you for your comments. I changed the criteria &#8220;tree&#8221; into &#8220;four&#8221;, and change &#8216;claimed data&#8217; to &#8216;claims data&#8217;.</p>
+<p>#3. Information of data used in this study and demographic information for participants were well presented in Methods. (Exclusion criteria were also clearly stated.) (Participants=more than 18 years; depression diagnoses die not need to be a primary diagnosis.) Although &#8216;Subjects&#8217; of &#8216;Methods&#8217; includes information of the data, used in this study, and exclusion criteria, it was unclear of the final sample of participants. Moreover, it was stated that participants were classified as short-term and long-term antidepressant users in Methods of Abstract. Thus, it would be better for authors to move the number of participants for each group, presented in demographic information in &#8216;Results&#8217;, into &#8216;Subjects&#8217; of &#8216;Methods&#8217; and to combine this section with the part which defines short-term and long-term users.</p>
+<p>Answer: Thank you for your comments. I agree that it would be more clear to present the final participants of each group in the &#8216;Subject&#8217; part of the method. I also combined this section with the &#8216;Short-term and long-term antidepressant use&#8217; part for further clarifications. I clearly mentioned the final sample of participants. I added the following part in the last paragraph of the &#8216;subject&#8217; part:</p>
+<p>&#8220;Subjects were divided into two groups, short-term and long-term antidepressant users, according to whether they were able to maintain the initial antidepressant for 28 days. The cutoff of 28 days was used to account for the minimum duration of antidepressant use needed to validate its effect before concluding that a patient is either partially responsive or unresponsive to a specific intervention[5]. Short-term users include patients who discontinued antidepressants within 28 days and those who changed antidepressants rapidly without sufficient time to assess their effects over 28 days. Thus, the definition of short-term use addressed the duration of antidepressant use as well as the adequacy of the individual antidepressant prescription duration. Among all the subjects, 458,057 (60.84%) were short-term antidepressant users while 294,853 (39.16%) were long-term antidepressant users.&#8221;</p>
+<p>#4. As this study includes several variables, it would be better to classify variables into socio-demographic, clinical and medial utilization factors, which were stated to affect the duration of antidepressant use in the section of Methods in Abstract.</p>
+<p>Answer: Thank you for your comments. I grouped variables in the &#8216;Confounding variables&#8217; part as you recommended for further clarification. </p>
+<p>#5. Information, which was presented in tables, was presented in texts. The duplication of the information (e.g. statistical values) between tables and texts should be avoided.</p>
+<p>Answer: Thank you for your comments. I erased some duplications and only left comparatively important information in texts.  </p>
+<p>#6. Results include lots of information of analyses. Thus, although some key findings of this study were described in the first paragraph of discussion, it would be better to add additional paragraph for the summary of key findings.</p>
+<p>Answer: Thank you for your comments. I revised the first paragraph of the discussion part to add key findings in the article. The following sentences were added to the paragraph:  &#8220;The type of initial antidepressant, polypharmacy, psychiatric and medical comorbidities, type of insurance coverage, and type of medical institution visited all increased the odds of short-term antidepressant use. Simultaneously, short-term use itself marginally increased the risk of relapse and recurrence of depressive episodes.&#8221;</p>
+<supplementary-material id="pone.0222791.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222791.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

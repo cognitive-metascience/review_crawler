@@ -1,0 +1,119 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="aggregated-review-documents" id="pgen.1008415.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pgen.1008415.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Barsh</surname>
+<given-names>Gregory S.</given-names>
+</name>
+<role>Editor-in-Chief</role>
+</contrib>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Desplan</surname>
+<given-names>Claude</given-names>
+</name>
+<role>Associate Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Barsh, Desplan</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pgen.1008415" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">2 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>* Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out. *</p>
+<p>Dear Tom:</p>
+<p>We finally got the reviews for&#160;your Research Article entitled 'Cytoneme-mediated signaling essential for tumorigenesis' to PLOS Genetics. As we only had very partial reviews from PLOS Biology, we had to send the manuscript back for review&#160;and we managed to obtain three in depth reviews.</p>
+<p>As you will see, all three reviewers feel that the work is important and should be published. However, two of them ask for clarifications for several points and I hope that you will be able to answer these points without taking too much time. One of the reviewers asks for further experiments, but hopefully, you should be able to argue the points and explain in a rebuttal how you would like to address this.</p>
+<p>I hope that you will be able to get back to us very shortly with a revised document.</p>
+<p>We therefore ask you to modify the manuscript according to the review recommendations before we can consider your manuscript for acceptance. Your revisions should address the specific points made by each reviewer.</p>
+<p>In addition we ask that you:</p>
+<p>1) Provide a detailed list of your responses to the review comments and a description of the changes you have made in the manuscript.</p>
+<p>2) Upload a Striking Image with a corresponding caption to accompany your manuscript if one is available (either a new image or an existing one from within your manuscript). If this image is judged to be suitable, it may be featured on our website. Images should ideally be high resolution, eye-catching, single panel square images. For examples, please browse our <ext-link ext-link-type="uri" ns0:href="http://www.plosgenetics.org/article/browse/volume" ns0:type="simple">archive</ext-link>. If your image is from someone other than yourself, please ensure that the artist has read and agreed to the terms and conditions of the Creative Commons Attribution License. Note: we cannot publish copyrighted images.</p>
+<p>We hope to receive your revised manuscript within the next 30 days. If you anticipate any delay in its return, we would ask you to let us know the expected resubmission date by email to <email ns0:type="simple">plosgenetics@plos.org</email>.</p>
+<p>If present, accompanying reviewer attachments should be included with this email; please notify the journal office if any appear to be missing. They will also be available for download from the link below. You can use this link to log into the system when you are ready to submit a revised version, having first consulted our <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosgenetics/s/submit-now#loc-submission-checklist" ns0:type="simple">Submission Checklist</ext-link>.</p>
+<p>While revising your submission, please upload your figure files to the <ext-link ext-link-type="uri" ns0:href="http://pace.apexcovantage.com/" ns0:type="simple">Preflight Analysis and Conversion Engine</ext-link>&#160;(PACE) digital diagnostic tool. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>.</p>
+<p>Please be aware that our&#160;<ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosgenetics/s/data-availability" ns0:type="simple">data availability policy</ext-link>&#160;requires that all numerical data underlying graphs or summary statistics are included with the submission, and you will need to provide this upon resubmission if not already present. In addition, we do not permit the inclusion of phrases such as "data not shown" or "unpublished results" in manuscripts. All points should be backed up by data provided with the submission.</p>
+<p>PLOS has incorporated <ext-link ext-link-type="uri" ns0:href="http://www.crossref.org/crosscheck.html" ns0:type="simple">Similarity Check</ext-link>, powered by iThenticate, into its journal-wide submission system in order to screen submitted content for originality before publication. Each PLOS journal undertakes screening on a proportion of submitted articles. You will be contacted if needed following the screening process.</p>
+<p>To resubmit, you will need to go to the link below and 'Revise Submission' in the 'Submissions Needing Revision' folder.</p>
+<p>[LINK]</p>
+<p>Please let us know if you have any questions while making these revisions.</p>
+<p>Cordially,</p>
+<p>Claude</p>
+<p>Claude Desplan</p>
+<p>Associate Editor</p>
+<p>PLOS Genetics</p>
+<p>Gregory Barsh</p>
+<p>Editor-in-Chief</p>
+<p>PLOS Genetics</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Authors:</bold></p>
+<p><bold>Reviewer #1:</bold>&#160;</p>
+<p>In this revised manuscript, the authors examine the role of cytonemes in two cancer models, EGFR/Perlecan and Ret. This work builds on previous work from the Kornberg laboratory demonstrating the central role of cytonemes in a broad array of cell-cell signaling paradigms. The data is clean and clearly presented, and the authors have addressed the previous reviewers' issues. The impact of demonstrating that cytonemes signal in cancer is potentially large, as the field is seeing an increasing appreciation of the importance of local epithelial biology on tumor progression and therapeutic response.</p>
+<p>One challenge of this work is cleanly removing cytonemes without affecting other aspect of the cells' biology. The authors argue that showing requirement for a diverse set of six genes linked to cytonemes is the same as demonstrating a requirement for cytonemes in transformation. The problem with this argument is that each of the six loci is important for a central aspect of cell biology, and their requirement for transformation is not surprising. However, the Kornberg laboratory has a long track record of demonstrating a role for cytonemes. Evidence for cytoneme involvement in transformation of these fly cancer models includes:</p>
+<p>&#8226; the authors show extensive cytoneme networks associated with the tumors</p>
+<p>&#8226; the presence of cytonemes is closely correlated with activity of EGFR etc. based on previous work</p>
+<p>&#8226; genes that disrupt cytonemes consistently reduce aspects of transformation; the Kornberg laboratory has previously extensively characterized their partial loss-of-function phenotypes, which is different from aspects of cell transformation</p>
+<p>&#8226; the work demonstrating a role for Bnl provides strong evidence for cytoneme involvement, since the requirement for cytoneme-based signaling by Bnl is well established.</p>
+<p>The authors have strong evidence for the role of cytonemes in transformation. However, they should note in the manuscript that their data is "consistent with a role for cytonemes in tumor progression" but that they cannot rule out that these six loci also alter tumor progression through their other known cell biology roles. A more conservative description better captures the data.</p>
+<p><underline>Small points:</underline></p>
+<p>&#8226; The authors use the word &#8220;cure&#8221; at multiple points throughout the manuscript. A subset of animals are rescued to adulthood by preventing transformation through genetic or drug manipulation prior to transformation. This is not a cure, and is not the same as reversing transformation with a drug, a requirement in clinical studies to claim a cure.</p>
+<p>&#8226; The authors state that emergent Ret adults have no phenotype when the activity of cytoneme regulators is reduced. Given the use of the patched driver, they should show in the wing or elsewhere that, for example, the wing patterning is normal. This would be a rigorous test for the requirement of the different loci or drugs.</p>
+<p>&#8226; Figure 5S should be moved to Supplemental data.</p>
+<p><bold>Reviewer #2: </bold></p>
+<p>The manuscript by Fereres et al. examine the role of cytonemes in two Drosophila tumor models. The main conclusion is that cytonemes are necessary for tumor growth as they promote signaling between epithelia cells and mesenchymal cells/myoblasts. The study is of interest to PLoS Genetics readers, however, the model they present is suggestive and not conclusive. More experiments are needed to make the argument more compelling.</p>
+<p>A key observation is that in the tumor model (overexpression of wild type EGFR and perlecan), Bnl/FGF and its receptor Btl are ectopically expressed, and that blocking Btl RTK signaling in epithelial cells overexpressing EGFR + perlecan suppresses proliferation. The authors conclude, as Bnl/Btl signaling has previously been implicated in cytoneme formation, "that cytonemes traffic the signaling proteins that move between tumor and stromal cells.&#8221; An alternative model is that Btl signaling in epithelial cells upregulates ERK signaling (in synergy with overexpressed EGFR) independently of cytonemes. The authors should activate MAPK signaling, which can be done in a number of ways, in the absence of Btl in epithelial cells and examine whether epithelial cells can proliferate and whether they have or do not have cytonemes. If they have cytonemes then they should remove them using DiaRNAi (for example) and test whether cytonemes are required for activated MAPK proliferation. If cytonemes are not required for proliferation then one would conclude that ERK activation is all the epithelial cells need for proliferation which would put in question the conclusion that Btl role in epithelial cells is to build cytonemes that in turn are required to signal to myoblasts to receive in turn growth factors.</p>
+<p>The authors propose that signaling from myoblasts through myoblast cytonemes is important for proliferation of epithelial tumors. I presume that it is Wnt signaling from the myoblasts that is important. It would be of interest to express Wntless RNAi (with 1151-lex, lexO-Wintless RNAi) in the myoblasts of discs that overexpress EGFR + Pcn in the columnar epithelial cells, to clarify this issue.</p>
+<p>The authors propose that "These results suggest that tumor growth might be dependent on ectopic tracheation&#8221;. There is no data in the manuscript to test the role of trachea on epithelial cells proliferation The only data is the observation that there are more trachea in discs overexpressing wild type EGFR and perlecan, which is not surprising as they produce more Bnl.</p>
+<p>Data on the Ret tumor model are very preliminary and do not add much to the study.</p>
+<p><bold>Reviewer #3:</bold></p>
+<p>In "Cytoneme-mediated signaling essential for tumorigenesis", Fereres et al present the first evidence of the role of signaling specialized cell protrusions (cytonemes) during tumorigenesis. This manuscript approaches the mechanisms for cell-to-cell communication in tumor formation; presenting striking data for the inhibition of tumor growth by the abrogation of cytoneme formation in Drosophila experimental models. To do this, the authors use regulated partial inhibition of proteins required for the formation of cytonemes linked to Dpp and FGF pathways. Cytoneme mediated transport of these signals between wing disc and stroma cells (myoblasts and ASP) seems to be important for tumor development.</p>
+<p>As a whole I consider that the manuscript presents important results supporting the crucial role of cytoneme-mediated signaling in the intercellular communication during tumor development. It embodies the advances in the application of ground-breaking research regarding cell communication within a disease scenario. Therefore, I recommend its publication, however, there are some important issues that should be addressed first, mainly regarding clarity in the model proposed as well as in the actual experimental evidence for cytoneme-mediated signaling on tumor growth.</p>
+<p><underline>Major concerns:</underline></p>
+<p>1. In general, the manuscript lacks clarity regarding the attempted parallelisms between the Drosophila experimental models used and a classic tumor system. Through the manuscript it would be useful if authors kept defining the signaling of tumor versus stroma tissues. In the current text version is not always clear whether interpretations are refereeing to cytoneme-mediated signaling between wing disc and myoblast (or ASP) cells or among wing disc cells and actual tumor tissue overgrowth.</p>
+<p>2. The experiment showing requirement of cytoneme-mediated signaling from myoblasts for wing disc tumor formation is very striking and would imply an absolute requirement of stromal cell-signaling for tumor growth. However, further experimental evidence is necessary regarding the signaling implicated, as rescue of the tumor growth when cytonemes are abrogated in the wing disc epithelium is also presented. In general characterization of cytonemes in tumor, no-tumor and rescued conditions are lacking, and quantifications and/or directionality analysis for the different situations would further support the cytonemes crucial role.</p>
+<p>3. There are no experimental evidences showing the possible effect in cell death after the expression of the cytoneme abrogating RNAis. The tumor rescue could be due to tumor cell death induced by the expression of those tools.</p>
+<p>4. Although the authors present strong evidence for increased FGF signaling during tumorigenesis, as well as impressive rescue evidence upon its inhibition, no data is presented towards the effects of induced ectopic FGF signaling in the wing disc. Would over-expression of Bnl or Btl in the wing disc be sufficient to induce tumor growth? Would this ectopic expression increase cytoneme occurrence? if there is already published evidence regarding these aspects, authors should at least refer it. In the same line, experimental evidence for FGF signaling effects upon cytoneme abrogation (as presented for Dpp signaling) would further clarify cytoneme function over tumor growth processes.</p>
+<p>5. A final schematic model figure could be very useful and further explain data interpretation about stroma and tumor interaction; this figure should also include signal dependence between both tissues for tumor growth.</p>
+<p><underline>Minor concerns:</underline></p>
+<p>1. Methods for imaging analysis and quantifications should be included.</p>
+<p>2. Regarding the use of the Dpp-mCherry insertion and as there has been some controversial publications (Entchev et al., 2000) arguing the potential loss of tags upon ligand processing (Harmansa et al., 2015); it would be desirable to include tests proving the tagging of the expressed protein in these flies (for example through an anti-Cherry WB).</p>
+<p>3. The presentation of images showing Dpp-Cherry on cytonemes from tumor discs could benefit from the inclusion of information such as moving direction.</p>
+<p>4. Figure 5G further labeling would help interpretation. As for the figure presented in between Figure 5 and 6 (Figure 5S) there is no labeling at all at present, and it should at least show the names of markers used.</p>
+<p>5. Images presenting Ptc expressing cells in Fig. 6 should be labeled regarding the fluorescent reporter used (CD8GFP?)</p>
+<p>6. Quantification of tumor disc area upon conditions that do not ablate cytonemes (Supplementary Figure 3) should be presented.</p>
+<p>7. I might have missed something but after careful manuscript reading I found that the only genetic inhibition that rescues to adulthood is that of Dia and not the other cytoneme induced factors. Thus, a brief discussion of author&#8217;s interpretation towards this difference should be included.</p>
+<p>**********</p>
+<p><bold>Have all data underlying the figures and results presented in the manuscript been provided?</bold></p>
+<p>Large-scale datasets should be made available via a public repository as described in the <italic>PLOS Genetics</italic> <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosgenetics/s/data-availability" ns0:type="simple">data availability policy</ext-link>, and numerical data that underlies graphs or summary statistics should be provided in spreadsheet form as supporting information.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: None</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosgenetics/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Ross Cagan</p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: No</p>
+</body>
+</sub-article>

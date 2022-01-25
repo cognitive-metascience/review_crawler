@@ -1,0 +1,960 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221918</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-14921</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Mental health and psychiatry</subject><subj-group><subject>Mood disorders</subject><subj-group><subject>Depression</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Vascular medicine</subject><subj-group><subject>Coronary heart disease</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Coronary heart disease</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Emotions</subject><subj-group><subject>Anxiety</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Emotions</subject><subj-group><subject>Anxiety</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Epidemiology</subject><subj-group><subject>Medical risk factors</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Cardiovascular anatomy</subject><subj-group><subject>Blood vessels</subject><subj-group><subject>Arteries</subject><subj-group><subject>Coronary arteries</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Cardiovascular anatomy</subject><subj-group><subject>Blood vessels</subject><subj-group><subject>Arteries</subject><subj-group><subject>Coronary arteries</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body weight</subject><subj-group><subject>Body mass index</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body weight</subject><subj-group><subject>Body mass index</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Cardiovascular medicine</subject><subj-group><subject>Cardiovascular imaging</subject><subj-group><subject>Angiography</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Cardiovascular imaging</subject><subj-group><subject>Angiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Imaging techniques</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Cardiovascular imaging</subject><subj-group><subject>Angiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Radiology and imaging</subject><subj-group><subject>Diagnostic radiology</subject><subj-group><subject>Cardiovascular imaging</subject><subj-group><subject>Angiography</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Myocardial infarction</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Anxiety and depression relationship with coronary slow flow</article-title>
+<alt-title alt-title-type="running-head">Anxiety and depression in coronary slow flow</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-7344-1825</contrib-id>
+<name name-style="western">
+<surname>Elamragy</surname>
+<given-names>Ahmed A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Abdelhalim</surname>
+<given-names>Amr A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Arafa</surname>
+<given-names>Mohamed E.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Baghdady</surname>
+<given-names>Yasser M.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Cardiology Department, Cairo University, Cairo, Egypt</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Cardiology Department, National Heart Institute, Giza, Egypt</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Psychiatry Department, Cairo University, Cairo, Egypt</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Pizzi</surname>
+<given-names>Carmine</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Bologna, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">ahmed.elamragy@kasralainy.edu.eg</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0221918</elocation-id>
+<history>
+<date date-type="received">
+<day>26</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>19</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Elamragy et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0221918" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Psychiatric disorders (depression / anxiety) are linked to coronary artery disease (CAD). Coronary slow flow (CSF) is a relatively common form of CAD with the same underlying mechanisms that are attributed to many anatomic and pathophysiologic factors. However, the relationship between psychiatric disorders and CSF is less well-established; and this is the aim of this study.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>This cross-sectional observational study was conducted on the first 50 consecutive patients diagnosed with CSF by elective coronary angiography (CAG). They were compared with another 50 consecutive patients showing normal coronaries by CAG. Beck Anxiety Inventory and Beck Depression Inventory were used for assessment. CSF was diagnosed by coronary angiography &#8220;Thrombolysis In Myocardial Infarction&#8221; frame count. Lipid profile was obtained for all patients.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Traditional risk factors (male gender, smoking, total cholesterol, low-density lipoproteins and triglycerides) were higher in the CSF group. Depression and anxiety scores were also higher in the CSF group. On multivariate analysis, male gender, depression and high triglycerides were the only significant independent predictors of CSF. A significant correlation existed between CSF and both anxiety and depression scores. Both scores were also significantly higher in multivessel vs single vessel affection.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>Psychiatric depression, male gender and high triglycerides are highly associated with CSF in patients undergoing elective CAG. There is a significant correlation between CSF severity and the severity of both anxiety and depression. Further studies are warranted to explore the impact of psychological intervention on CSF and its long-term outcome.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The author(s) received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0" />
+<table-count count="5" />
+<page-count count="10" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are available within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>The incidence of depression is 30%&#8211;40% of the general population [<xref ref-type="bibr" rid="pone.0221918.ref001">1</xref>] and 20%&#8211;40% of coronary artery disease (CAD) patients; and is associated with increased major adverse cardiovascular events (MACE).[<xref ref-type="bibr" rid="pone.0221918.ref002">2</xref>] As a risk factor, both psychological stress and depression are as important as smoking and more important than diabetes mellitus (DM); accounting for 32.5% of attributable risk.[<xref ref-type="bibr" rid="pone.0221918.ref003">3</xref>] The proposed pathophysiological mechanisms include: increased sympathetic tone, increased cortisol and catecholamines, endothelial dysfunction, release of inflammatory mediators, platelet activation, decreased heart rate variability, accelerated atherogenesis, and poor platelet adherence.[<xref ref-type="bibr" rid="pone.0221918.ref004">4</xref>] Every 5-point increase in Beck Depression Inventory (BDI) score is associated with a 25&#8211;30% increase in the risk of definite CAD or abnormal coronary angiography (CAG) findings.[<xref ref-type="bibr" rid="pone.0221918.ref005">5</xref>]</p>
+<p>Coronary slow flow (CSF) is defined as the slow progression of angiographic contrast in the coronary arteries in the absence of stenosis in the epicardial vessels.[<xref ref-type="bibr" rid="pone.0221918.ref006">6</xref>] This may be seen in a single coronary artery or more. [<xref ref-type="bibr" rid="pone.0221918.ref007">7</xref>] It is seen in 1&#8211;7% of patients undergoing CAG[<xref ref-type="bibr" rid="pone.0221918.ref008">8</xref>] which is the only method for diagnosis.[<xref ref-type="bibr" rid="pone.0221918.ref009">9</xref>] It affects young male smokers most commonly[<xref ref-type="bibr" rid="pone.0221918.ref010">10</xref>] and is linked to both CAD (myocardial ischemia symptoms, life-threatening arrhythmias, recurrent acute coronary syndromes and sudden cardiac death) and psychological manifestations (anxiety, depression and psychological distress).[<xref ref-type="bibr" rid="pone.0221918.ref011">11</xref>&#8211;<xref ref-type="bibr" rid="pone.0221918.ref013">13</xref>] The pathogenesis of CSF involves mechanisms similar to those linked to anxiety/depression (inflammation, microvascular abnormalities, endothelial dysfunction and anatomical factors of epicardial arteries).[<xref ref-type="bibr" rid="pone.0221918.ref010">10</xref>] Moreover, some studies indicate that patients with CSF have increased psychological distress compared with patients having coronary normal flow (CNF). [<xref ref-type="bibr" rid="pone.0221918.ref014">14</xref>] However, to our knowledge, very few data are available on the relationship between CSF and psychological disorders; and that is the aim of this study.</p>
+</sec>
+<sec id="sec006">
+<title>Material and methods</title>
+<sec id="sec007">
+<title>Study population</title>
+<p>This is a cross-sectional observational study conducted between November 2016 and April 2017. We examined 50 consecutive patients who had undergone CAG (due to objective evidence of ischemia: positive exercise stress test or radionuclide study) that revealed CSF and compared them to a control group comprised of 50 consecutive patients with normal CAG performed during the same time interval. Exclusion criteria included: known CAD or acute coronary syndrome; severe valvular heart disease; LV dysfunction defined as ejection fraction &lt;50%; rhythm other than sinus; end-stage renal or hepatic disease; significant chronic obstructive lung disease; treatment for any type of psychiatric disorders; coronary artery stenosis &gt;20%, coronary artery ectasia or any type of coronary abnormality; and uncooperative patients.</p>
+</sec>
+<sec id="sec008">
+<title>Clinical assessment</title>
+<p>All patients were assessed for the presence of CAD risk factors as well as body mass index (BMI) which was calculated by dividing the body weight (in kilograms) over the square of height (in meters). A 12-hour fasting blood sample was withdrawn to measure total cholesterol, triglycerides (TG), high-density lipoprotein (HDL), and low-density lipoprotein (LDL). Electrocardiogram was done to exclude any non-sinus rhythm and echocardiography was done to exclude any valvular heart disease or LV dysfunction. Hypertension was defined as the use of antihypertensive drugs or initial blood pressure over 140/90 mmHg. DM was defined as the use of antidiabetic drugs or fasting blood glucose level &gt; 126 mg/dl. Smoking status was documented: current tobacco use, or ex-smoker (if stopped &gt; 2 years). Obesity was defined as BMI &gt; 30 kg/m<sup>2</sup>. Dyslipidemia was defined as: LDL &gt; 115 mg/dL, and/or TG &gt;150 mg/dL and/or HDL &#8804; 40 mg/dL (in males) and &#8804; 48 mg/dL (in females).[<xref ref-type="bibr" rid="pone.0221918.ref015">15</xref>]</p>
+</sec>
+<sec id="sec009">
+<title>Coronary angiography</title>
+<p>Selective CAG was performed to all patients through the femoral or radial approach using the Judkins system for cannulation of the right &amp; left coronary arteries. Multiple views were obtained with visualization of the left anterior descending (LAD) and left circumflex (LCx) coronary arteries in at least 4 projections and the right coronary artery (RCA) in at least 2 projections. Angiograms were interpreted by two experienced cardiologists. Normal CAG was defined as the absence of any obstructive/stenotic lesions in any major epicardial arteries. Thrombolysis in myocardial infarction (TIMI) frame count (TFC) was calculated for every major coronary artery to determine CSF as described by Gibson et al.[<xref ref-type="bibr" rid="pone.0221918.ref009">9</xref>] The filming speed was at 15 frames/second, while the standard speed is 30 frames/second, so the frame count was corrected by multiplying by 2. The LAD TFC was corrected by division by 1.7 because this artery is generally longer than the others. Total TFC was calculated as the sum of TFC in the 3 major epicardial vessels (LAD, LCx and RCA). Mean TFC was calculated by dividing the total TFC by 3. Definition of CSF: mean TFC &gt; 27.[<xref ref-type="bibr" rid="pone.0221918.ref009">9</xref>]</p>
+</sec>
+<sec id="sec010">
+<title>Psychiatric assessment</title>
+<p>Psychiatric interviews were performed blinded to the CAG results, to assess the severity of anxiety and depression using the following scales:</p>
+<sec id="sec011">
+<title>Beck anxiety inventory (BAI) [<xref ref-type="bibr" rid="pone.0221918.ref016">16</xref>]</title>
+<p>This scale measures anxiety in subjects &#8805;17 years of age and takes 5&#8211;10 minutes to complete its 21 self-reported items.[<xref ref-type="bibr" rid="pone.0221918.ref016">16</xref>] Item scores are summed and higher scores indicate higher anxiety levels. Score of 0&#8211;21: low anxiety; 22&#8211;35: moderate anxiety and &#8805; 36: potentially concerning anxiety levels.</p>
+</sec>
+<sec id="sec012">
+<title>Beck Depression Inventory (BDI) [<xref ref-type="bibr" rid="pone.0221918.ref017">17</xref>]</title>
+<p>This 21-item scale assesses depression severity.[<xref ref-type="bibr" rid="pone.0221918.ref017">17</xref>] Item scores were summed. Score: 1&#8211;12: normal, 13&#8211;20: mild depression, 21&#8211;30: moderate depression and &gt;30: severe depression.</p>
+</sec>
+</sec>
+<sec id="sec013">
+<title>Ethics</title>
+<p>All the procedures were in accordance with the standards of the Institute&#8217;s ethical committee and with the Helsinki Declaration of 1975, as revised in 2000. Verbal consent was obtained from the patients during their psychiatric tests by the investigator who documented it in the patients&#8217; files. It was also witnessed by the psychiatric consultant who supervised the BAI and BDI questionnaires. The study design and the verbal consent were approved by the Department of Cardiology&#8212;Faculty of Medicine&#8212;Cairo University) ethics committee. Cairo University review board approved the whole study.</p>
+</sec>
+<sec id="sec014">
+<title>Statistical methods</title>
+<p>The collected data were coded, tabulated, and statistically analyzed using Statistical Package for Social Sciences software version 23. Data were normally distributed. Continuous data were presented as mean &#177; standard deviation (SD) and minimum &amp; maximum of the range, while categorical data were presented as number (percentage). Comparison between continuous data in the 2 groups was done using independent sample t-test and Chi-square test /Fisher Exact test for categorical data. Correlation between continuous variables was done using Pearson&#8217;s correlation coefficient (r). Significance was considered at <italic>p</italic> &lt; 0.05. Significantly associated variables with CSF entered a multivariate logistic regression analysis to obtain the most significant independent predictors of CSF with the relevant odds ratio (OR) and 95% confidence interval (CI).</p>
+</sec>
+</sec>
+<sec id="sec015" sec-type="results">
+<title>Results</title>
+<sec id="sec016">
+<title>Baseline characteristics</title>
+<p>One hundred patients were enrolled in this study (50 in each group). Demographic data, risk factors and CAG results are summarized in <xref ref-type="table" rid="pone.0221918.t001">Table 1</xref>. Male gender, smoking, total cholesterol, LDL and TG were higher in the CSF group. CSF patients had significantly higher BAI and BDI scores; most of the patients had moderate&#8211;severe anxiety levels.</p>
+<table-wrap id="pone.0221918.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221918.t001</object-id>
+<label>Table 1</label> <caption><title>Demographic data, risk factors, coronary angiography results and psychiatric test results in study groups.</title></caption>
+<alternatives>
+<graphic id="pone.0221918.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center">CNF (n = 50)</th>
+<th align="center">CSF (n = 50)</th>
+<th align="center"><italic>p</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Atherosclerotic risk factors</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Male Gender, n (%)</td>
+<td align="center">14 (28)</td>
+<td align="center">29 (58)</td>
+<td align="char" char="."><bold>0.002</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Age (years)</td>
+<td align="center">52.7 &#177; 10.3</td>
+<td align="center">51.7 &#177; 10.4</td>
+<td align="char" char=".">0.6</td>
+</tr>
+<tr>
+<td align="left">DM, n (%)</td>
+<td align="center">14 (28)</td>
+<td align="center">14 (28)</td>
+<td align="char" char=".">1.0</td>
+</tr>
+<tr>
+<td align="left">Hypertension, n (%)</td>
+<td align="center">28 (56)</td>
+<td align="center">30 (60)</td>
+<td align="char" char=".">0.685</td>
+</tr>
+<tr>
+<td align="left">Smoking, n (%)</td>
+<td align="center">6 (12)</td>
+<td align="center">21 (42)</td>
+<td align="char" char="."><bold>0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Positive family history, n (%)</td>
+<td align="center">16 (32)</td>
+<td align="center">16 (32)</td>
+<td align="char" char=".">1.0</td>
+</tr>
+<tr>
+<td align="left">BMI</td>
+<td align="center">30.8 &#177; 5.1</td>
+<td align="center">33.1 &#177; 6.3</td>
+<td align="char" char=".">0.05</td>
+</tr>
+<tr>
+<td align="left">Total Cholesterol</td>
+<td align="center">148.2 &#177; 44.0</td>
+<td align="center">182.6 &#177; 45.4</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">HDL</td>
+<td align="center">38.4 &#177; 16.5</td>
+<td align="center">38.1 &#177; 8.4</td>
+<td align="char" char=".">0.92</td>
+</tr>
+<tr>
+<td align="left">LDL</td>
+<td align="center">89.3 &#177; 39.3</td>
+<td align="center">111.7 &#177; 32.0</td>
+<td align="char" char="."><bold>0.002</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Triglycerides</td>
+<td align="center">102.6&#177;41</td>
+<td align="center">149&#177;84.7</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Number of vessels with CSF</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Single vessel, n (%)</td>
+<td align="center" />
+<td align="center">24 (48%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Multivessel, n (%)</td>
+<td align="center" />
+<td align="center">26 (52%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>TFC</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">-LAD</td>
+<td align="center">16.4 &#177; 4.6</td>
+<td align="center">25 &#177; 9.6</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">-LCX</td>
+<td align="center">21.0 &#177; 3.6</td>
+<td align="center">34.5 &#177; 9.9</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">-RCA</td>
+<td align="center">17.9 &#177; 3.9</td>
+<td align="center">29.6 &#177; 12.5</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">-Mean TFC</td>
+<td align="center">18.5 &#177; 3.0</td>
+<td align="center">29.7 &#177; 8.1</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">-Total TFC</td>
+<td align="center">55.5 &#177; 9.1</td>
+<td align="center">89.1 &#177; 24.3</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left"><bold>BAI</bold></td>
+<td align="center">18.3 &#177; 8.1</td>
+<td align="center">25 &#177; 8.6</td>
+<td align="char" char="."><bold>&lt; 0.00</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Low anxiety: 0&#8211;21, n (%)</td>
+<td align="center">36 (72%)</td>
+<td align="center">21 (42%)</td>
+<td align="char" char="." rowspan="3"><bold>0.009</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Moderate anxiety: 22&#8211;35, n(%)</td>
+<td align="center">12 (24%)</td>
+<td align="center">23 (46%)</td>
+</tr>
+<tr>
+<td align="left">Severe anxiety: &gt;35, n (%)</td>
+<td align="center">2 (4%)</td>
+<td align="center">6 (12%)</td>
+</tr>
+<tr>
+<td align="left"><bold>BDI</bold></td>
+<td align="center">11.1 &#177; 4.8</td>
+<td align="center">17.9 &#177; 8.6</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">0&#8211;12 (Normal)</td>
+<td align="center">30 (60)</td>
+<td align="center">13 (26)</td>
+<td align="char" char="." rowspan="4"><bold>&lt;0.001</bold><xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Mild depression: 13&#8211;20, n(%)</td>
+<td align="center">17 (34)</td>
+<td align="center">19 (38)</td>
+</tr>
+<tr>
+<td align="left">Moderate depression: 21&#8211;30, n (%)</td>
+<td align="center">3 (6)</td>
+<td align="center">16 (32)</td>
+</tr>
+<tr>
+<td align="left">Severe depression: &#8805; 35, n (%)</td>
+<td align="center">0 (0)</td>
+<td align="center">2 (4)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>CNF: coronary normal flow, CSF: coronary slow flow, DM: Diabetes mellitus, BMI: body mass index LAD: left anterior descending artery, LCX: left circumflex artery, RCA: Right coronary artery, HDL: high-density lipoprotein, LDL: low-density lipoprotein, TFC: &#8220;thrombolysis in myocardial infarction&#8221; frame count. BAI: Beck anxiety inventory, BDI: Beck depression inventory. Data is presented as mean&#177; standard deviation for continuous variables and numbers (percentage) for categorical ones.</p></fn>
+<fn id="t001fn002"><p><sup><bold>a</bold></sup> Significant <italic>p</italic> value (&lt;0.05)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>TFC correlation analysis</title>
+<p>The mean TFC had significant strong correlation with both BAI and BDI scores and significant but weak correlation with TG and BMI. However, there was no correlation with the other atherosclerotic risk factors. (<xref ref-type="table" rid="pone.0221918.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0221918.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221918.t002</object-id>
+<label>Table 2</label> <caption><title>Correlation between the TFC and (BAI, BDI).</title></caption>
+<alternatives>
+<graphic id="pone.0221918.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">TFC</th>
+<th align="center">r</th>
+<th align="center"><italic>p</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">BAI</td>
+<td align="char" char=".">0.621</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t002fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">BDI</td>
+<td align="char" char=".">0.719</td>
+<td align="char" char="."><bold>&lt; 0.001</bold><xref ref-type="table-fn" rid="t002fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">BMI</td>
+<td align="char" char=".">0.256</td>
+<td align="char" char="."><bold>0.01</bold><xref ref-type="table-fn" rid="t002fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Age</td>
+<td align="char" char=".">0.013</td>
+<td align="char" char=".">0.9</td>
+</tr>
+<tr>
+<td align="left">Total Cholesterol</td>
+<td align="char" char=".">0.167</td>
+<td align="char" char=".">0.098</td>
+</tr>
+<tr>
+<td align="left">HDL</td>
+<td align="char" char=".">-0.088</td>
+<td align="char" char=".">0.385</td>
+</tr>
+<tr>
+<td align="left">LDL</td>
+<td align="char" char=".">0.111</td>
+<td align="char" char=".">0.274</td>
+</tr>
+<tr>
+<td align="left">TG</td>
+<td align="char" char=".">0.227</td>
+<td align="char" char="."><bold>0.023</bold><xref ref-type="table-fn" rid="t002fn002"><sup>a</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>TFC: &#8220;Thrombolysis in myocardial infarction&#8221; frame count, r: Pearson&#8217;s correlation coefficient, BAI: Beck anxiety inventory, BDI: Beck depression inventory, BMI: Body mass index, TG: Triglycerides.</p></fn>
+<fn id="t002fn002"><p><sup><bold>a</bold></sup> Significant <italic>p</italic> value (&lt;0.05)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec018">
+<title>Multivariate analysis</title>
+<p>A multivariate stepwise regression model using significant univariate variables (gender, smoking, LDL, TG, BMI, BDI and BMI) revealed that the only significant independent determinants of CSF were male gender, BDI and TG. (<xref ref-type="table" rid="pone.0221918.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0221918.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221918.t003</object-id>
+<label>Table 3</label> <caption><title>Independent predictors of coronary slow flow.</title></caption>
+<alternatives>
+<graphic id="pone.0221918.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Variable</th>
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center"><italic>p</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Male gender</td>
+<td align="char" char=".">3.5</td>
+<td align="center">1.3&#8211;9.7</td>
+<td align="char" char=".">0.016<xref ref-type="table-fn" rid="t003fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">BDI</td>
+<td align="char" char=".">1.2</td>
+<td align="center">1.1&#8211;1.3</td>
+<td align="char" char=".">0.001<xref ref-type="table-fn" rid="t003fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left">TG</td>
+<td align="char" char=".">1.01</td>
+<td align="center">1.0&#8211;1.02</td>
+<td align="char" char=".">0.0037<xref ref-type="table-fn" rid="t003fn002"><sup>a</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>OR: odds ratio, CI: Confidence interval, BDI: Beck depression inventory, TG: triglycerides.</p></fn>
+<fn id="t003fn002"><p><sup><bold>a</bold></sup> Significant <italic>p</italic> value (&lt;0.05)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec019">
+<title>Subgroup analysis</title>
+<sec id="sec020">
+<title>Gender stratification</title>
+<p>Male gender was an independent determinant of CSF, but it was more prevalent in the CSF group (58% vs 28%) and had non-significantly higher BAI and BDI scores than females (22.3 &#177; 10.5 vs 21.1 &#177; 7.8, p: 0.53 and 15.9 &#177; 9.1 vs 13.4 &#177; 6.4, p: 0.11 respectively). Despite gender stratification to eliminate its effect, BAI and BDI were still significantly higher in the CSF group. (<xref ref-type="table" rid="pone.0221918.t004">Table 4</xref>).</p>
+<table-wrap id="pone.0221918.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221918.t004</object-id>
+<label>Table 4</label> <caption><title>Gender stratification.</title></caption>
+<alternatives>
+<graphic id="pone.0221918.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center" colspan="2">Female</th>
+<th align="center">p-value</th>
+<th align="center" colspan="2">Male</th>
+<th align="left"><italic>p</italic> value</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">CNF (n = 36)</th>
+<th align="center">CSF (n = 21)</th>
+<th align="center" />
+<th align="center">CNF (n = 14)</th>
+<th align="center">CSF (n = 29)</th>
+<th align="center" />
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>BAI</bold></td>
+<td align="center">19.17 &#177; 7.0</td>
+<td align="center">24.52 &#177; 8.0</td>
+<td align="char" char="."><bold>0.015</bold><xref ref-type="table-fn" rid="t004fn002"><sup>a</sup></xref></td>
+<td align="center">15.93 &#177; 10.4</td>
+<td align="center">25.34 &#177; 9.2</td>
+<td align="char" char="."><bold>0.008</bold><xref ref-type="table-fn" rid="t004fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left"><bold>BDI</bold></td>
+<td align="center">11.78 &#177; 5.0</td>
+<td align="center">16.19 &#177; 7.7</td>
+<td align="char" char="."><bold>0.019</bold><xref ref-type="table-fn" rid="t004fn002"><sup>a</sup></xref></td>
+<td align="center">9.21 &#177; 3.8</td>
+<td align="center">19.17 &#177; 9.2</td>
+<td align="char" char="."><bold>&lt;0.001</bold><xref ref-type="table-fn" rid="t004fn002"><sup>a</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>CNF: coronary normal flow, CSF: coronary slow flow, BAI: Beck anxiety inventory, BDI: Beck depression inventory.</p></fn>
+<fn id="t004fn002"><p><sup><bold>a</bold></sup> Significant <italic>p</italic> value (&lt;0.05)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec021">
+<title>Number of vessels with CSF</title>
+<p>Patients with multiple-vessel CSF had significantly higher BAI &amp; BDI scores than those with single-vessel CSF. (<xref ref-type="table" rid="pone.0221918.t005">Table 5</xref>).</p>
+<table-wrap id="pone.0221918.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0221918.t005</object-id>
+<label>Table 5</label> <caption><title>BAI &amp; BDI scores in single versus multivessel coronary slow flow.</title></caption>
+<alternatives>
+<graphic id="pone.0221918.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.t005" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center">CSF in a single vessel (n = 24)</th>
+<th align="center">CSF in multiple vessels (n = 26)</th>
+<th align="center"><italic>p</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>BAI</bold></td>
+<td align="center">21 &#177; 5.4</td>
+<td align="center">28.7 &#177; 9.5</td>
+<td align="char" char="."><bold>0.001</bold><xref ref-type="table-fn" rid="t005fn002"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left"><bold>BDI</bold></td>
+<td align="center">14 &#177; 4.8</td>
+<td align="center">21.5 &#177; 9.8</td>
+<td align="char" char="."><bold>0.001</bold><xref ref-type="table-fn" rid="t005fn002"><sup>a</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>CSF: coronary slow flow, BAI: Beck anxiety inventory, BDI: Beck depression inventory.</p></fn>
+<fn id="t005fn002"><p><sup><bold>a</bold></sup> Significant <italic>p</italic> value (&lt;0.05).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+</sec>
+<sec id="sec022" sec-type="conclusions">
+<title>Discussion</title>
+<p>The present study shows that CSF is significantly and independently associated with male gender and increased TG levels. Male gender is the most important independent predictor of CSF (OR:3.5, 95% CI: 1.27&#8211;9.7, p = 0.016). Other significant but not independent associations included: smoking, LDL and a trend with obesity. These are traditional CAD risk factors which supports the theory of subclinical atherosclerosis role in CSF pathogenesis (involving increased sympathetic activity, inflammatory response, endothelial dysfunction, abnormal platelet activation and release of its products).[<xref ref-type="bibr" rid="pone.0221918.ref004">4</xref>] However, previous studies examining this association showed conflicting results: male gender and high TG levels were significant independent predictors of CSF in some studies,[<xref ref-type="bibr" rid="pone.0221918.ref018">18</xref>,<xref ref-type="bibr" rid="pone.0221918.ref019">19</xref>] while others found no relationship between gender and CSF.[<xref ref-type="bibr" rid="pone.0221918.ref020">20</xref>] As for high TG, the present study is consistent with previous one by Dai YX et al, who reported that patients with high levels of TG (in addition to high fasting blood glucose and low levels of HDL) were more likely to have CSF. [<xref ref-type="bibr" rid="pone.0221918.ref021">21</xref>] In contrast, DM&#8211;an important CAD risk factor associated with endothelial dysfunction- was not associated with CSF. Previous studies showed similar results[<xref ref-type="bibr" rid="pone.0221918.ref022">22</xref>&#8211;<xref ref-type="bibr" rid="pone.0221918.ref024">24</xref>]. This may be explained by the similar rate of DM in both groups, so it could not enter in the multivariate regression analysis and act as a predictor of CSF.</p>
+<p>In the present study, CSF is also significantly associated with depression and anxiety, irrespective of the gender. Depression is the second most important independent predictor for CSF: every unit increase in the BDI score is associated with 1.2 times increase in the CSF probability (<italic>p</italic> = 0.001), while anxiety has also a significant but dependent association with CSF. These findings are concordant with the INTERHEART study[<xref ref-type="bibr" rid="pone.0221918.ref003">3</xref>]; the largest trial to study the relationship between psychiatric disorders and heart disease. It showed that stress and depression were important risk factors for CAD; accounting for 32.5% of the attributable risk. Similarly, Vural et al.[<xref ref-type="bibr" rid="pone.0221918.ref005">5</xref>] estimated that every 1-point increase in BDI score was associated with a 5&#8211;6% increase in the risk of definitive CAD or abnormal CAG findings. Noticeably, the present study has more pronounced results: every point increase in BDI is associated with 20% probability increase in CSF and CSF severity as well as the number of involved vessels is positively correlated with the severity of depression and anxiety. This is because the study is restricted to patients with CSF only (more specific patient cohort). Previous data about the relationship between coronary circulation physiology and depression is conflicting. Yang et al. demonstrated that depression was not associated with coronary endothelial dysfunction[<xref ref-type="bibr" rid="pone.0221918.ref025">25</xref>], while Sherwood et al. reported that vascular endothelial dysfunction was present in CAD patients with symptoms of depression.[<xref ref-type="bibr" rid="pone.0221918.ref026">26</xref>]</p>
+<p>Shiozaki et al. showed that depression following myocardial infarction was significantly associated with subsequent MACE during follow up.[<xref ref-type="bibr" rid="pone.0221918.ref027">27</xref>] In the present study, this is not addressed because the aim is to establish an association between depression and CSF and not to study long-term consequences of depression.</p>
+<p>The relationship between anxiety and CAD is conflicting. Anxiety was associated with an increased risk of sudden cardiac death and fatal CAD in a previous study.[<xref ref-type="bibr" rid="pone.0221918.ref028">28</xref>&#8211;<xref ref-type="bibr" rid="pone.0221918.ref030">30</xref>] Patients with baseline generalized anxiety disorder (GAD) had more subsequent MACE than those without GAD.[<xref ref-type="bibr" rid="pone.0221918.ref031">31</xref>] In contrast, there was no association between anxiety and CAD in another study; but the highest BAI scores were in patients with CSF and/or non-obstructive CAD.[<xref ref-type="bibr" rid="pone.0221918.ref005">5</xref>] In the present study, CSF patients have significantly higher BAI scores and a strong correlation exists between BAI score and CSF severity. Moderate and severe anxiety levels are more common in the CSF group (58% vs 28%) and anxiety severity is significantly correlated with CSF severity and the number of affected vessels. Durmaz et al. showed similar results using the State-Trait Anxiety Inventory (STAI) and showed similar results.[<xref ref-type="bibr" rid="pone.0221918.ref012">12</xref>] BAI score is as reliable as STAI with the advantage of stratifying patients into mild, moderate and severe anxiety.</p>
+<p>Depression and anxiety are more prevalent and their scores are higher in women than men[<xref ref-type="bibr" rid="pone.0221918.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0221918.ref032">32</xref>&#8211;<xref ref-type="bibr" rid="pone.0221918.ref036">36</xref>]. In contrast, the present study showed similar scores in both genders. Another study examined gender differences in depression (using the BDI score) and revealed that the differences may be possibly related to the instruments used for measurement[<xref ref-type="bibr" rid="pone.0221918.ref037">37</xref>]. Another explanation is that the previous studies included a different cohort: some studied patients with major depression illness while the National Comorbidity Survey[<xref ref-type="bibr" rid="pone.0221918.ref032">32</xref>&#8211;<xref ref-type="bibr" rid="pone.0221918.ref034">34</xref>] examined normal population with a wide age range including adolescents. The present study included a different cohort: patients with CAD with no history of psychiatric illness and a mean age: 52 &#177; 10.3 years.</p>
+<p>The relationship between anxiety/depression and body weight is also controversial in the literature. Previous studies showed that obese and overweight people were more likely to have anxiety and depression than those with normal weight.[<xref ref-type="bibr" rid="pone.0221918.ref038">38</xref>] CNF patients were overweight, whereas patients with CSF were obese (as measured by BMI)[<xref ref-type="bibr" rid="pone.0221918.ref014">14</xref>]. In the present study, CSF severity is weakly correlated with BMI. There is also a weak correlation between BMI and both BDI and BAI scores, but investigating this relationship is not the primary aim of this study. Therefore, it may not be suitable to draw conclusions in this issue.</p>
+<sec id="sec023">
+<title>Study limitations</title>
+<p>The present study is a cross-sectional observational study and thus cannot conclude a definite causal relationship between CSF and depression or anxiety disorder. There is no follow up. Thus, we cannot correlate the study parameters with long-term outcomes. The anxiety/depression scales are based on patients&#8217; subjective responses; which may not be valid if patients do not provide reliable answers. Integrating BAI and BDI scores with clinical evaluation would have evaded the subjective nature of these scores providing better assessment of the psychiatric status. Antidepressants and anti-anxiety medications are not accounted for in the analysis of results. However, none of these medications is known to cause CSF. The use of anti-ischemic drugs like beta-blockers, vasodilators and others were also not reported; this might have some influence on CSF severity. Finally, some non-medical factors that may affect the psychological state of patients are not considered, e.g. socio-economic status, education state, etc.</p>
+</sec>
+<sec id="sec024">
+<title>Future recommendations</title>
+<p>Patients diagnosed with CSF need to have their psychological wellbeing properly assessed; to develop care plans to meet their psychological needs, and to refer to mental health care departments if needed to avoid any physical or psychological complications. We need further studies to assess the impact of psychological intervention on CSF and clinical outcome.</p>
+</sec>
+</sec>
+<sec id="sec025" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Psychiatric depression, male gender and high TGs are highly associated with CSF in patients with no obstructive CAD on elective CAG. There is a significant correlation between CSF severity and the severity of both anxiety and depression. Further studies are warranted to explore the impact of psychological intervention on CSF.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0221918.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McElroy</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Keck</surname> <given-names>PE</given-names></name>. <article-title>Metabolic Syndrome in Bipolar Disorder</article-title>. <source>J Clin Psychiatry</source>. <year>2014</year>;<volume>75</volume>: <fpage>46</fpage>&#8211;<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4088/JCP.13r08634" ns0:type="simple">10.4088/JCP.13r08634</ext-link></comment> <object-id pub-id-type="pmid">24502861</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nicholson</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kuper</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hemingway</surname> <given-names>H</given-names></name>. <article-title>Depression as an aetiologic and prognostic factor in coronary heart disease: a meta-analysis of 6362 events among 146 538 participants in 54 observational studies</article-title>. <source>Eur Heart J</source>. <year>2006</year>;<volume>27</volume>: <fpage>2763</fpage>&#8211;<lpage>2774</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/eurheartj/ehl338" ns0:type="simple">10.1093/eurheartj/ehl338</ext-link></comment> <object-id pub-id-type="pmid">17082208</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yusuf</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Hawken</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>&#212;unpuu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Dans</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Avezum</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lanas</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Effect of potentially modifiable risk factors associated with myocardial infarction in 52 countries (the INTERHEART study): Case-control study</article-title>. <source>Lancet</source>. <year>2004</year>;<volume>364</volume>: <fpage>937</fpage>&#8211;<lpage>952</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(04)17018-9" ns0:type="simple">10.1016/S0140-6736(04)17018-9</ext-link></comment> <object-id pub-id-type="pmid">15364185</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Geng</surname> <given-names>L-L</given-names></name>, <name name-style="western"><surname>Nie</surname> <given-names>S-P</given-names></name>. <article-title>Coronary slow flow phenomenon: A local or systemic disease?</article-title> <source>Med Hypotheses</source>. <year>2010</year>;<volume>75</volume>: <fpage>334</fpage>&#8211;<lpage>337</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.mehy.2010.03.016" ns0:type="simple">10.1016/j.mehy.2010.03.016</ext-link></comment> <object-id pub-id-type="pmid">20385447</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vural</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Satiroglu</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Akbas</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Goksel</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Karabay</surname> <given-names>O</given-names></name>. <article-title>Coronary artery disease in association with depression or anxiety among patients undergoing angiography to investigate chest pain</article-title>. <source>Texas Hear Inst J</source>. <year>2009</year>;<volume>36</volume>: <fpage>17</fpage>&#8211;<lpage>23</lpage>.</mixed-citation></ref>
+<ref id="pone.0221918.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Singh</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kothari</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bahl</surname> <given-names>V</given-names></name>. <article-title>Coronary Slow Flow Phenomenon: An Angiographic Curiosity</article-title>. <source>Indian Hear J</source>. <year>2004</year>;<volume>56</volume>: <fpage>613</fpage>&#8211;<lpage>617</lpage>.</mixed-citation></ref>
+<ref id="pone.0221918.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tambe</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Demany</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Zimmerman</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Mascarenhas</surname> <given-names>E</given-names></name>. <article-title>Angina pectoris and slow flow velocity of dye in coronary arteries&#8212;A new angiographic finding</article-title>. <source>Am Heart J</source>. <year>1972</year>;<volume>84</volume>: <fpage>66</fpage>&#8211;<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0002-8703(72)90307-9" ns0:type="simple">10.1016/0002-8703(72)90307-9</ext-link></comment> <object-id pub-id-type="pmid">5080284</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chaudhry</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hanna</surname> <given-names>EB</given-names></name>, <name name-style="western"><surname>Lazzara</surname> <given-names>R</given-names></name>. <article-title>Diverse Spectrum of Presentation of Coronary Slow Flow Phenomenon: A Concise Review of the Literature</article-title>. <source>Cardiol Res Pract</source>. <year>2012</year>;<volume>2012</volume>: <fpage>1</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1155/2012/383181" ns0:type="simple">10.1155/2012/383181</ext-link></comment> <object-id pub-id-type="pmid">22645695</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gibson</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Cannon</surname> <given-names>CP</given-names></name>, <name name-style="western"><surname>Daley</surname> <given-names>WL</given-names></name>, <name name-style="western"><surname>Dodge</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Alexander</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Marble</surname> <given-names>SJ</given-names></name>, <etal>et al</etal>. <article-title>TIMI frame count: a quantitative method of assessing coronary artery flow</article-title>. <source>Circulation</source>. <year>1996</year>;<volume>93</volume>: <fpage>879</fpage>&#8211;<lpage>88</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.cir.93.5.879" ns0:type="simple">10.1161/01.cir.93.5.879</ext-link></comment> <object-id pub-id-type="pmid">8598078</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Beltrame</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Limaye</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Horowitz</surname> <given-names>JD</given-names></name>. <article-title>The Coronary Slow Flow Phenomenon&#8211;A New Coronary Microvascular Disorder</article-title>. <source>Cardiology</source>. <year>2002</year>;<volume>97</volume>: <fpage>197</fpage>&#8211;<lpage>202</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1159/000063121" ns0:type="simple">10.1159/000063121</ext-link></comment> <object-id pub-id-type="pmid">12145474</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Nie</surname> <given-names>S-P</given-names></name>. <article-title>The coronary slow flow phenomenon: characteristics, mechanisms and implications</article-title>. <source>Cardiovasc Diagn Ther</source>. <year>2011</year>;<volume>1</volume>: <fpage>37</fpage>&#8211;<lpage>43</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3978/j.issn.2223-3652.2011.10.01" ns0:type="simple">10.3978/j.issn.2223-3652.2011.10.01</ext-link></comment> <object-id pub-id-type="pmid">24282683</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Durmaz</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Keles</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Erdogan</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Ayhan</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Bilen</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bayram</surname> <given-names>NA</given-names></name>, <etal>et al</etal>. <article-title>Coronary Slow Flow is Associated with Depression and Anxiety</article-title>. <source>Acta Cardiol Sin</source>. <year>2014</year>;<volume>30</volume>: <fpage>197</fpage>&#8211;<lpage>203</lpage>. <object-id pub-id-type="pmid">27122789</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Horjeti</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Goda</surname> <given-names>A</given-names></name>. <article-title>Acute ischemia manifestation in a patient with coronary slow flow phenomenon</article-title>. <source>J Electrocardiol</source>. <year>2012</year>;<volume>45</volume>: <fpage>277</fpage>&#8211;<lpage>279</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jelectrocard.2011.07.003" ns0:type="simple">10.1016/j.jelectrocard.2011.07.003</ext-link></comment> <object-id pub-id-type="pmid">21840534</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Karatas</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Sahan</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>&#214;zcan</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>&#199;anga</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>G&#252;ng&#246;r</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Onuk</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Anxiety, Depression, and General Psychological Distress in Patients with Coronary Slow Flow</article-title>. <source>Arq Bras Cardiol</source>. <year>2015</year>; <fpage>362</fpage>&#8211;<lpage>370</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5935/abc.20150092" ns0:type="simple">10.5935/abc.20150092</ext-link></comment> <object-id pub-id-type="pmid">26559983</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Catapano</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Graham</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>De Backer</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Wiklund</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Chapman</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Drexel</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>2016 ESC/EAS Guidelines for the Management of Dyslipidaemias</article-title>. <source>Eur Heart J</source>. <year>2016</year>;<volume>37</volume>: <fpage>2999</fpage>&#8211;<lpage>3058</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/eurheartj/ehw272" ns0:type="simple">10.1093/eurheartj/ehw272</ext-link></comment> <object-id pub-id-type="pmid">27567407</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Beck</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Epstein</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Steer</surname> <given-names>RA</given-names></name>. <article-title>An inventory for measuring clinical anxiety: Psychometric properties</article-title>. <source>J Consult Clin Psychol</source>. <year>1988</year>;<volume>56</volume>: <fpage>893</fpage>&#8211;<lpage>897</lpage>. <object-id pub-id-type="pmid">3204199</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>BECK</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>WARD</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>MENDELSON</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>MOCK</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>ERBAUGH</surname> <given-names>J</given-names></name>. <article-title>An Inventory for Measuring Depression</article-title>. <source>Arch Gen Psychiatry</source>. <year>1961</year>;<volume>4</volume>: <fpage>561</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archpsyc.1961.01710120031004" ns0:type="simple">10.1001/archpsyc.1961.01710120031004</ext-link></comment> <object-id pub-id-type="pmid">13688369</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sadr-Ameli</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Saedi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Saedi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Madani</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Esmaeili</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ghardoost</surname> <given-names>B</given-names></name>. <article-title>Coronary slow flow: Benign or ominous?</article-title> <source>Anatol J Cardiol</source>. <year>2015</year>;<volume>15</volume>: <fpage>531</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5152/akd.2014.5578" ns0:type="simple">10.5152/akd.2014.5578</ext-link></comment> <object-id pub-id-type="pmid">25537993</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ghaffari</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tajlil</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Aslanabadi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Separham</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sohrabi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Saeidi</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Clinical and laboratory predictors of coronary slow flow in coronary angiography</article-title>. <source>Perfus (United Kingdom)</source>. <year>2017</year>; <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0267659116659918" ns0:type="simple">10.1177/0267659116659918</ext-link></comment> <object-id pub-id-type="pmid">27412375</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fineschi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bravi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gori</surname> <given-names>T</given-names></name>. <article-title>The &#8220;slow coronary flow&#8221; phenomenon: Evidence of preserved coronary flow reserve despite increased resting microvascular resistances</article-title>. <source>Int J Cardiol</source>. <year>2008</year>;<volume>127</volume>: <fpage>358</fpage>&#8211;<lpage>361</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijcard.2007.06.010" ns0:type="simple">10.1016/j.ijcard.2007.06.010</ext-link></comment> <object-id pub-id-type="pmid">17651842</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dai</surname> <given-names>Y-X</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>C-G</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>Z-Y</given-names></name>, <name name-style="western"><surname>Zhong</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Qian</surname> <given-names>J-Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>X-B</given-names></name>, <etal>et al</etal>. [<article-title>Clinical and angiographic characteristics of patients with slow coronary flow</article-title>]. <source>Zhonghua Xin Xue Guan Bing Za Zhi</source>. <year>2011</year>;<volume>39</volume>: <fpage>642</fpage>&#8211;<lpage>6</lpage>. <object-id pub-id-type="pmid">22088246</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mukhopadhyay</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yusuf</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gupta</surname> <given-names>VK</given-names></name>, <name name-style="western"><surname>Tyagi</surname> <given-names>S</given-names></name>. <article-title>Risk factors and angiographic profile of coronary slow flow (CSF) phenomenon in North Indian population: An observational study</article-title>. <source>Indian Heart J</source>. <year>2018</year>;<volume>70</volume>: <fpage>405</fpage>&#8211;<lpage>409</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ihj.2017.09.001" ns0:type="simple">10.1016/j.ihj.2017.09.001</ext-link></comment> <object-id pub-id-type="pmid">29961458</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Jia</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Clinical Profile and Outcome in Patients with Coronary Slow Flow Phenomenon</article-title>. <source>Cardiol Res Pract</source>. <year>2019</year>;<volume>2019</volume>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1155/2019/9168153" ns0:type="simple">10.1155/2019/9168153</ext-link></comment> <object-id pub-id-type="pmid">31205785</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Oz</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Bayram</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Durmaz</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Keles</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Akcay</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bozkurt</surname> <given-names>E</given-names></name>. <article-title>The relationship between coronary slow flow phenomenon and coronary calcium score</article-title>. <source>Perfusion</source>. <year>2010</year>;<volume>25</volume>: <fpage>97</fpage>&#8211;<lpage>102</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0267659110369728" ns0:type="simple">10.1177/0267659110369728</ext-link></comment> <object-id pub-id-type="pmid">20427414</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Lerman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lennon</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Simari</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Lerman</surname> <given-names>LO</given-names></name>, <name name-style="western"><surname>Lerman</surname> <given-names>A</given-names></name>. <article-title>Relation of Depression to Coronary Endothelial Function</article-title>. <source>Am J Cardiol</source>. <year>2007</year>;<volume>99</volume>: <fpage>1134</fpage>&#8211;<lpage>1136</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.amjcard.2006.11.054" ns0:type="simple">10.1016/j.amjcard.2006.11.054</ext-link></comment> <object-id pub-id-type="pmid">17437742</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sherwood</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hinderliter</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Watkins</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Waugh</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Blumenthal</surname> <given-names>JA</given-names></name>. <article-title>Impaired Endothelial Function in Coronary Heart Disease Patients With Depressive Symptomatology</article-title>. <source>J Am Coll Cardiol</source>. <year>2005</year>;<volume>46</volume>: <fpage>656</fpage>&#8211;<lpage>659</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jacc.2005.05.041" ns0:type="simple">10.1016/j.jacc.2005.05.041</ext-link></comment> <object-id pub-id-type="pmid">16098431</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shiozaki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Iso</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ohira</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nakatani</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Shimizu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sakata</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Longitudinal Risk of Cardiovascular Events in Relation to Depression Symptoms After Discharge Among Survivors of Myocardial Infarction</article-title>. <source>Circ J</source>. <year>2011</year>;<volume>75</volume>: <fpage>2878</fpage>&#8211;<lpage>2884</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1253/circj.cj-10-1304" ns0:type="simple">10.1253/circj.cj-10-1304</ext-link></comment> <object-id pub-id-type="pmid">21937836</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kawachi</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Sparrow</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vokonas</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>ST</given-names></name>. <article-title>Symptoms of anxiety and risk of coronary heart disease. The Normative Aging Study</article-title>. <source>Circulation</source>. <year>1994</year>;<volume>90</volume>: <fpage>2225</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.cir.90.5.2225" ns0:type="simple">10.1161/01.cir.90.5.2225</ext-link></comment> <object-id pub-id-type="pmid">7955177</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Haines</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Imeson</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Meade</surname> <given-names>TW</given-names></name>. <article-title>Phobic anxiety and ischaemic heart disease</article-title>. <source>Br Med J (Clin Res Ed)</source>. <year>1987</year>;<volume>295</volume>: <fpage>297</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.295.6593.297" ns0:type="simple">10.1136/bmj.295.6593.297</ext-link></comment> <object-id pub-id-type="pmid">3115417</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kawachi</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Colditz</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Ascherio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rimm</surname> <given-names>EB</given-names></name>, <name name-style="western"><surname>Giovannucci</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Stampfer</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>Prospective study of phobic anxiety and risk of coronary heart disease in men</article-title>. <source>Circulation</source>. <year>1994</year>;<volume>89</volume>: <fpage>1992</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.cir.89.5.1992" ns0:type="simple">10.1161/01.cir.89.5.1992</ext-link></comment> <object-id pub-id-type="pmid">8181122</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Martens</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>de Jonge</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Na</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>BE</given-names></name>, <name name-style="western"><surname>Lett</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Whooley</surname> <given-names>MA</given-names></name>. <article-title>Scared to Death? Generalized Anxiety Disorder and Cardiovascular Events in Patients With Stable Coronary Heart Disease</article-title>. <source>Arch Gen Psychiatry</source>. <year>2010</year>;<volume>67</volume>: <fpage>750</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archgenpsychiatry.2010.74" ns0:type="simple">10.1001/archgenpsychiatry.2010.74</ext-link></comment> <object-id pub-id-type="pmid">20603456</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kessler</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>McGonagle</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Swartz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Blazer</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>CB</given-names></name>. <article-title>Sex and depression in the National Comorbidity Survey I: Lifetime prevalence, chronicity and recurrence</article-title>. <source>J Affect Disord</source>. <year>1993</year>;<volume>29</volume>: <fpage>85</fpage>&#8211;<lpage>96</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0165-0327(93)90026-G" ns0:type="simple">10.1016/0165-0327(93)90026-G</ext-link></comment> <object-id pub-id-type="pmid">8300981</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kessler</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>McGonagle</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Swartz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Blazer</surname> <given-names>DG</given-names></name>. <article-title>Sex and depression in the national comorbidity survey. II: Cohort effects</article-title>. <source>J Affect Disord</source>. <year>1994</year>;<volume>30</volume>: <fpage>15</fpage>&#8211;<lpage>26</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0165-0327(94)90147-3" ns0:type="simple">10.1016/0165-0327(94)90147-3</ext-link></comment> <object-id pub-id-type="pmid">8151045</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kessler</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>McGonagle</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Eshleman</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Lifetime and 12-Month Prevalence of DSM-III-R Psychiatric Disorders in the United States</article-title>. <source>Arch Gen Psychiatry</source>. <year>1994</year>;<volume>51</volume>: <fpage>8</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/archpsyc.1994.03950010008002" ns0:type="simple">10.1001/archpsyc.1994.03950010008002</ext-link></comment> <object-id pub-id-type="pmid">8279933</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Weissman</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Klerman</surname> <given-names>GL</given-names></name>. <article-title>Gender and depression</article-title>. <source>Trends Neurosci</source>. <year>1985</year>;<volume>8</volume>: <fpage>416</fpage>&#8211;<lpage>420</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0166-2236(85)90145-6" ns0:type="simple">10.1016/0166-2236(85)90145-6</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0221918.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kornstein</surname> <given-names>S.</given-names></name>, <name name-style="western"><surname>Schatzberg</surname> <given-names>A.</given-names></name>, <name name-style="western"><surname>Thase</surname> <given-names>M.</given-names></name>, <name name-style="western"><surname>Yonkers</surname> <given-names>K.</given-names></name>, <name name-style="western"><surname>McCullough</surname> <given-names>J.</given-names></name>, <name name-style="western"><surname>Keitner</surname> <given-names>G.</given-names></name>, <etal>et al</etal>. <article-title>Gender differences in chronic major and double depression</article-title>. <source>J Affect Disord</source>. <year>2000</year>;<volume>60</volume>: <fpage>1</fpage>&#8211;<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0165-0327(99)00158-5" ns0:type="simple">10.1016/S0165-0327(99)00158-5</ext-link></comment> <object-id pub-id-type="pmid">10940442</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Salokangas</surname> <given-names>RK.</given-names></name>, <name name-style="western"><surname>Vaahtera</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Pacriev</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sohlman</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lehtinen</surname> <given-names>V</given-names></name>. <article-title>Gender differences in depressive symptoms: An artefact caused by measurement instruments?</article-title> <source>J Affect Disord</source>. <year>2002</year>;<volume>68</volume>: <fpage>215</fpage>&#8211;<lpage>220</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0165-0327(00)00315-3" ns0:type="simple">10.1016/S0165-0327(00)00315-3</ext-link></comment> <object-id pub-id-type="pmid">12063149</object-id></mixed-citation></ref>
+<ref id="pone.0221918.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mart&#237;nez Hern&#225;ndez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tovilla Z&#225;rate</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>L&#243;pez Narv&#225;ez</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ju&#225;rez Rojop</surname> <given-names>IE</given-names></name>, <name name-style="western"><surname>Jim&#233;nez Santos</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Gonz&#225;lez Guti&#233;rrez</surname> <given-names>CP</given-names></name>, <etal>et al</etal>. [<article-title>Prevalence and gravity of depression and anxiety in patients with obesity and type 2 diabetes: a study in the population of Tabasco, Mexico</article-title>]. <source>Gac Med Mex</source>. <year>2014</year>;<volume>150</volume> <issue>Suppl</issue>: <fpage>101</fpage>&#8211;<lpage>6</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0221918.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221918.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Pizzi</surname>
+<given-names>Carmine</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Carmine Pizzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221918" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">28 Jun 2019</named-content>
+</p>
+<p>PONE-D-19-14921</p>
+<p>Anxiety and Depression Relationship with Coronary Slow Flow</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Elamragy,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 12 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Carmine Pizzi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Thank you for including your ethics statement; "All the procedures were in accordance with the standards of the Institute&#8217;s ethical committee and with the Helsinki Declaration of 1975, as revised in 2000. Oral consent was taken from the subjects participated in the psychiatric questionnaires."</p>
+<p>We note that you include the full name of your Institutional Review Board on the online submission form; "Cairo University Ethics committee approved the study.</p>
+<p>Oral consent was obtained."</p>
+<p>Please amend your current ethics statement to include the full name of the ethics committee/institutional review board(s) that approved your specific study and also ensure that you have specified the committee approved the study.</p>
+<p>Also, please provide additional details regarding participant consent and ensure that you have specified how the verbal or oral consent was documented and witnessed. If the verbal consent was approved by the ethics committee, please include this information.</p>
+<p>Once you have amended this/these statement(s) in the Methods section of the manuscript, please add the same text to the &#8220;Ethics Statement&#8221; field of the submission form (via &#8220;Edit Submission&#8221;).</p>
+<p>For additional information about PLOS ONE ethical requirements for human subjects research, please refer to <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-human-subjects-research" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-human-subjects-research</ext-link>.</p>
+<p>Reviewer #1: In this study, the authors aimed to assess the possible relation of psychiatric disorders, such as depression and anxiety status, with the coronary flow pattern in patients with angiographically normal coronary arteries. The TIMI frame count (TFC) has been used for definition of coronary slow flow (CSF) phenomenon and psychiatric interviews were performed to assess severity of anxiety and depression using the BAI and BDI scales. The results show that patients with CSF had significantly higher anxiety and depression scores, irrespective of gender. The authors also found a strong correlation between the BAI score and CSF severity.</p>
+<p>We thank the authors for this interesting study. The pathophysiologic hypothesis is intriguing and the study design is fitting. However, this reviewer has several concerns:</p>
+<p>Major comments</p>
+<p>- The authors should give detailed information about the clinical findings of CSF patients and control patients. In particular, the symptomatic burden, including duration of the angina pattern, as well as frequency and severity of angina attacks should be reported and compared.</p>
+<p>- The use of beta-blockers, vasodilators or other anti-ischemic drugs might have affected the detection of CSF. The authors should at least comment this point as a limitation of the study.</p>
+<p>- If possible, the authors should report the educational and socioeconomic status of patients of the 2 groups, as possible factors influencing depression or anxiety status.</p>
+<p>Minor comments</p>
+<p>- The analysis of this study doesn&#8217;t account for the use of psychiatric drugs or other medication. Although none of the antidepressant drugs is known to cause CSF, as the authors say in the text, the answers of patients to the interviews might have been influenced by their use.</p>
+<p>- Have the authors tried to exclude patients with possible &#8220;secondary form&#8221; of CSF (i.e. coronary artery ectasia, coronary artery spasm, pulmonary arterial hypertension, etc...)?</p>
+<p>- The depression and anxiety rating scales (BAI and BDI), used to assess the severity of the psychiatric disorder, are two self-report scales. Thus, they depend on patients&#8217; reliability, time and context of interview administration.</p>
+<p>Reviewer #2: The study is focused on a large-scale problem that is the increasing prevalence of patients with both coronary artery disease (CAD) and depression or anxiety, that, to date, are probably not well diagnosed and treated for the underlying psychological conditions despite growing evidences that these conditions play an important role in provoking and modifying the prognosis in cardiovascular diseases. The study, taking into account the intrinsic limitations of a cross sectional study, shows significant and independent association between depression and coronary slow flow (CSF) as well as with male gender or triglyceride serum levels (association already demonstrated by other authors) and significant but dependent association with anxiety and other classical cardiovascular risk factors. The paper, sustaining the role of psychological conditions together with classical cardiovascular risk factors in determining CSF, wants to stress the importance of an accurate global (physical and psychological) assessment of the patient. An interesting point of the paper is the exclusion of patients with a coronary artery stenosis &gt; 20%, in fact even mild-to-moderate stenosis could affect CSF and could have represented a selection bias.</p>
+<p>However, this manuscript had some issues that deserve clarifications.</p>
+<p>Major comments</p>
+<p>1. The study population is composed by consecutive patients who underwent coronary angiography due to &#8216;objective evidence of ischemia&#8217;. What do the Authors mean with that sentence? It is necessary to provide a clear definition of ischemia and a standardized diagnosis.</p>
+<p>2. Diabetes, one of the most important cardiovascular risk factors and strongly related to endothelial dysfunction, seems not to be associated with CSF. The authors should be discussing this point</p>
+<p>3. Another point is the definition of the ex-smoker status. The Authors have provided an arbitrary definition of former smoker (only the patients who have stopped &gt; 2 years), not shared by the principal National Health Systems. This gross classification of patients probably leads to some bias in defining the relationship between smoking and CSF because the toxic substances contained in cigarettes act in a short/medium period of time in causing endothelial dysfunction and inflammation.</p>
+<p>4. It is well established that depression and anxiety are twice as high in females than in males, in this study the mean BDI and BAI scores are lower in women. Maybe these scores should be integrated with a clinical evaluation of symptoms by a psychiatrist to avoid the subjective influence of the patients and on the physician in interpreting the answers. It would also be useful to provide the complete data of the prevalence and of the degree of anxiety and depression adjusted for gender.</p>
+<p>5. One major problem of this work is that it does not evaluate the role of psychoactive drugs. For example, it is not well established if the antidepressants play a role in unmasking endothelial dysfunction or platelet adhesion and it is still a matter of debate the role of these drugs in improving symptoms and prognosis in patients with cardiovascular diseases. It would be interesting to have some data regarding this issue in the study population.</p>
+<p>Minor comments</p>
+<p>1. Please check the references. For example, references 10-15 refer to articles that do not match with the text.</p>
+<p>2. Try to make the &#8216;Result Section&#8217; more uniform. There are many tables that can be merged into one single table. This solution will help in improving paper&#8217;s structure: more logical and fluid to read and understand.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0221918.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221918.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221918" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221918.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">3 Aug 2019</named-content>
+</p>
+<p>Reviewer #1: </p>
+<p>Major comments</p>
+<p>- The authors should give detailed information about the clinical findings of CSF patients and control patients. In particular, the symptomatic burden, including duration of the angina pattern, as well as frequency and severity of angina attacks should be reported and compared.</p>
+<p>Response: </p>
+<p>I added a definition to the methodology explaining what we meant by objective evidence of ischemia. Duration and frequency of angina information (for all patients) are not available in the database of this study, only the results of the non-invasive tests for coronary artery disease.</p>
+<p>- The use of beta-blockers, vasodilators or other anti-ischemic drugs might have affected the detection of CSF. The authors should at least comment this point as a limitation of the study.</p>
+<p>Response:</p>
+<p>I added this comment to the limitation.</p>
+<p>- If possible, the authors should report the educational and socioeconomic status of patients of the 2 groups, as possible factors influencing depression or anxiety status.</p>
+<p>Response:</p>
+<p>Unfortunately, data on educational and socioeconomic status of patients are not available in our database, and this is mentioned in the limitations section. However, our institution mainly serves patients of low-intermediate socio-economic class.</p>
+<p>Minor comments</p>
+<p>- The analysis of this study doesn&#8217;t account for the use of psychiatric drugs or other medication. Although none of the antidepressant drugs is known to cause CSF, as the authors say in the text, the answers of patients to the interviews might have been influenced by their use.</p>
+<p>Response:</p>
+<p>One of the exclusion criteria is the presence of psychiatric illness or the regular use of psychiatric drugs. So, this issue is unlikely to cause any bias. However, we mentioned it in the limitation section.</p>
+<p>- Have the authors tried to exclude patients with possible &#8220;secondary form&#8221; of CSF (i.e. coronary artery ectasia, coronary artery spasm, pulmonary arterial hypertension, etc...)?</p>
+<p>Response:</p>
+<p>Yes, we excluded all patients with ectasia or spasm or known gross heart or vascular disease.</p>
+<p>- The depression and anxiety rating scales (BAI and BDI), used to assess the severity of the psychiatric disorder, are two self-report scales. Thus, they depend on patients&#8217; reliability, time and context of interview administration.</p>
+<p>Response: </p>
+<p>This is an absolutely valid point, which we mentioned in the limitation section. For a better assessment of psychiatric status, this should have been correlated with clinical symptoms.</p>
+<p>Reviewer #2: </p>
+<p>Major comments</p>
+<p>1. The study population is composed by consecutive patients who underwent coronary angiography due to &#8216;objective evidence of ischemia&#8217;. What do the Authors mean with that sentence? It is necessary to provide a clear definition of ischemia and a standardized diagnosis.</p>
+<p>Response: </p>
+<p>A statement was added to the paragraph defining the objective evidence of ischemia as positive exercise stress test or radionuclide study. </p>
+<p>2. Diabetes, one of the most important cardiovascular risk factors and strongly related to endothelial dysfunction, seems not to be associated with CSF. The authors should be discussing this point</p>
+<p>Response:</p>
+<p>I added this point to the discussion.</p>
+<p>3. Another point is the definition of the ex-smoker status. The Authors have provided an arbitrary definition of former smoker (only the patients who have stopped &gt; 2 years), not shared by the principal National Health Systems. This gross classification of patients probably leads to some bias in defining the relationship between smoking and CSF because the toxic substances contained in cigarettes act in a short/medium period of time in causing endothelial dysfunction and inflammation.</p>
+<p>Response:</p>
+<p>Some studies demonstrated that 1-year of smoking cessation was associated with improved endothelial function (Johnson, JACC 2010 May 4;55(18):1988-95). Our database defines former smoking as those who stopped &gt;2 years. We found that this was not a major issue (based on the above-mentioned study); so during patient enrollment, we opted not to change the current definition in our institution&#8217;s database. However, this is a valid point to be seriously considered before carrying on future research.</p>
+<p>4. It is well established that depression and anxiety are twice as high in females than in males, in this study the mean BDI and BAI scores are lower in women. Maybe these scores should be integrated with a clinical evaluation of symptoms by a psychiatrist to avoid the subjective influence of the patients and on the physician in interpreting the answers. It would also be useful to provide the complete data of the prevalence and of the degree of anxiety and depression adjusted for gender.</p>
+<p>Response:   </p>
+<p>I added the total scores of BDI and BAI in males and females in both groups to the results section, the difference was not significant. This was different from the well-established fact referred to by the reviewer. I added this to the discussion section stating that this issue may be related to the different cohort used in the study. I also found another study showing similar data, and it was attributed to the difference in the instruments used in analysis of psychiatric illness. Integrating the scores with the clinical evaluation is a very good idea and would give a better assessment of the psychiatric state. Unfortunately, it was not done because it was not part of the study design and methodology. I added this to the limitations section.</p>
+<p>5. One major problem of this work is that it does not evaluate the role of psychoactive drugs. For example, it is not well established if the antidepressants play a role in unmasking endothelial dysfunction or platelet adhesion and it is still a matter of debate the role of these drugs in improving symptoms and prognosis in patients with cardiovascular diseases. It would be interesting to have some data regarding this issue in the study population.</p>
+<p>Response: None of the patients were on regular psychoactive drugs. This is indeed a major limitation that I mentioned in the limitation section. However, none of the patients were previously diagnosed with psychiatric illnesses or were on regular long-term psychoactive drugs (it was an exclusion criterion).</p>
+<p>Minor comments</p>
+<p>1. Please check the references. For example, references 10-15 refer to articles that do not match with the text.</p>
+<p>Response:</p>
+<p>I rechecked and updated all the references after correction of any error.</p>
+<p>2. Try to make the &#8216;Result Section&#8217; more uniform. There are many tables that can be merged into one single table. This solution will help in improving paper&#8217;s structure: more logical and fluid to read and understand.</p>
+<p>Response:</p>
+<p>I revised the results section and merged some of the tables. I hope it looks better now.</p>
+<supplementary-material id="pone.0221918.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221918.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0221918.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221918.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Pizzi</surname>
+<given-names>Carmine</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Carmine Pizzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221918" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">20 Aug 2019</named-content>
+</p>
+<p>Anxiety and Depression Relationship with Coronary Slow Flow</p>
+<p>PONE-D-19-14921R1</p>
+<p>Dear Dr. Elamragy,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Carmine Pizzi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0221918.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221918.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Pizzi</surname>
+<given-names>Carmine</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Carmine Pizzi</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221918" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">26 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-14921R1 </p>
+<p>Anxiety and Depression Relationship with Coronary Slow Flow </p>
+<p>Dear Dr. Elamragy:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Carmine Pizzi  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

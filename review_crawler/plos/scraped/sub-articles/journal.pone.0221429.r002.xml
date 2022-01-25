@@ -1,0 +1,48 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0221429.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221429.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0221429" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0221429.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">1 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-16109</p>
+<p>Antimicrobial resistance in Campylobacter jejuni and Campylobacter coli isolated from small poultry flocks in Ontario, Canada: A two-year surveillance study</p>
+<p>Reviewer #1: The work presented in this manuscript is very relevant to our understanding of AMR in Campylobacter. The study is technically sound and the statistical analysis appropriate for the work. The study is particularly valuable as it was conducted before a change of regulation, which has now been implemented, and will represent a baseline for future work in the area. The authors have not overstated their conclusions and categorically indicate the limitations of the study.</p>
+<p>Reviewer #2: The authors&#8217; describe antimicrobial resistance (AMR) in Campylobacter from small poultry flocks in Ontario, Canada. The manuscript is well written. With a few revisions, it should be acceptable for publication.</p>
+<p>Specific comments:</p>
+<p>Line 49: This sentence needs a reference(s).</p>
+<p>A reference (de Vries et al., ~11) was added as requested (Lines 49 and 360 &#8211; 363). Note that the citations and Reference List had to be updated due to the addition of this reference.</p>
+<p>We also rewrote the sentence to make it more specific: &#8220;The transmission of antimicrobial resistant Campylobacter from commercial broiler and free-range chickens to humans has been described previously [11]&#8221; (Lines 48-49).</p>
+<p>Lines 78-79: I searched for Campy-Charcoal media at Bio-Media, but could not find it. Please verify the media you used and add this to the revised manuscript.</p>
+<p>The information on Campylobacter media was verified and updated as requested:</p>
+<p>&#8220;The cecal material was directly plated onto Campylobacter Blood Free media (Bio-Media Unlimited Ltd., Toronto, Ontario, Canada)&#8221; (Lines 78-79).</p>
+<p>Please find the list of products available at Bio Media, as a reference:</p>
+<p><ext-link ext-link-type="uri" ns0:href="https://www.bio-media.ca/Bio_Media/Bio_Media_Products.htm" ns0:type="simple">https://www.bio-media.ca/Bio_Media/Bio_Media_Products.htm</ext-link></p>
+<p>Line 82: What does a presumptive Campylobacter colony look like? Please indicate this in the revised manuscript.</p>
+<p>The description of a presumptive Campylobacter colony was added as requested:</p>
+<p>&#8220;Presumptive Campylobacter colonies (i.e., yellowish-gray, translucent, round, 1-2 mm diameter, smooth to slightly mucoid) were selected (Lines 80-82).</p>
+<p>Lines 153-162: The numbers presented here are confusing and don&#8217;t add up, especially on line 157 with the game birds. Can this be rewritten to clarify the number of isolates?</p>
+<p>We verified that the numbers are correct and rewrote the sentence for clarification:</p>
+<p>&#8220;Of 158 submissions tested for Campylobacter, a total of 176 isolates were recovered: 141 isolates from chicken submissions (47 pooled samples, 3 isolates recovered from each pooled sample); 21 isolates from turkey submissions (7 pooled samples, 3 isolates recovered from each pooled sample); 6 isolates from duck submissions (2 pooled samples, 3 isolates recovered from each pooled sample); and 8 isolates from game bird (pheasant and quail) submissions (3 pooled samples in total; 3 isolates recovered from each of 2 pooled samples and 2 isolates recovered from 1 of the pooled samples).&#8221; (Lines 154-160)</p>
+<p>Lines 230-233: Most thermophillic Campylobacter are naturally competent. However, Campylobacter restricts most foreign DNA based on methylation (<ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/pubmed/28855338" ns0:type="simple">https://www.ncbi.nlm.nih.gov/pubmed/28855338</ext-link>). I don&#8217;t agree tetO can be transferred and expressed in Campylobacter from commensals. Please think about this sentence and revise.</p>
+<p>The reference (Stevenson et al., ~37) was replaced with the reference (Kim et al., ~37) (Line 235) and the sentence was revised as requested:</p>
+<p>&#8220;Previous studies have shown that tetracycline resistance in Campylobacter is generally determined by a plasmid-encoded tet(O) gene [35], and that this resistance gene can be transferred horizontally between C. jejuni and C. coli isolates in the intestinal tract of food animals and humans [36, 37]&#8221;. (Lines 231-235).</p>
+<supplementary-material id="pone.0221429.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0221429.s001" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

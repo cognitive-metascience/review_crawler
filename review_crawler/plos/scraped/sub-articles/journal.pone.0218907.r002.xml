@@ -1,0 +1,52 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0218907.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218907.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0218907" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0218907.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">18 Jul 2019</named-content>
+</p>
+<p>Reviewer #1: </p>
+<p>This reviewer enjoyed very much in reading this excellent manuscript. This work combines the fields of the vector-borne diseases, antimicrobial resistance and microbiology. The manuscript is well written, and the conclusion is well supported by the data. </p>
+<p>Response:</p>
+<p>We would like to thank the reviewer for their kind comments. </p>
+<p>Main comments:</p>
+<p>1) I strongly feel like that the portion of commensal fungi can be left out for another independent publication. Please focus on the beauty of this work, antimicrobial resistance and mosquitoes. Do not get distracted by the addition of fungi, in which you did not get any isolates, and cannot characterize the nature of their antimicrobial resistance;</p>
+<p>Response:</p>
+<p>We feel that the fungal data should remain in the current manuscript. Our reasoning is as follows:</p>
+<p>These data are based on isolates. As we state in line 356 &#8220;through our efforts to culture antibiotic resistant bacteria we opened up a niche to culture fungal isolates from the mosquitoes&#8221;. We hypothesize that we recovered these fungal isolated by reducing the bacterial load on the antibiotic plates. We did not actually set out to culture fungi. In this regard our base media (LB) was not optimized for fungal recovery, as such the identification of fungi was a spurious finding in this study, not an objective. This data would not likely be sufficient for an independent manuscript. </p>
+<p>2) For the field-caught mosquitoes, did you try to wash the mosquitoes before performing bacterial isolation etc? There are constant contact between mosquitoes and animal hosts/environmental surfaces etc. The identified microbiome could be on the surface of the mosquitoes, or their inside? Please provide more information, and make meaningful discussion;</p>
+<p>Response:</p>
+<p>This is something that we took care to control for but failed to mention in the methods. We have revised the methods to read &#8220;Prior to culturing individuals were washed in a solution of 90% ethanol to remove external adhering bacteria.&#8221; line 148</p>
+<p>3) As indicated in Fig 2 (Schematic diagram of bacterial culturing), you used LB initially, followed by the utilization of different selective media. Please justify this approach. What would you get if you would use the selective media directly without the use of LB media? Even LB is not a type of selective media, the process of LB culture may still provide some preference of certain bacteria which overgrow over others;</p>
+<p>Response:</p>
+<p>The selective plates were LB plates supplemented with antibiotics. The purpose of this was to determine the proportion of antibiotic resistant cells in the &#8220;total&#8221; population. To avoid confusion we have added &#8220;LB media supplemented with antibiotics&#8221; to the figure legend of Figure 2 to make it clear that the media formulation is the same between all of the plates. </p>
+<p>We agree with the reviewer that only using LB media likely influenced the bacteria that we recovered. We have added the following &#8220;However, as all culturing was performed on LB media these data likely only represent a proportion of the total bacterial diversity and favor fast growing bacterial species&#8221; to the results.</p>
+<p>4) It is great that the authors used the bioinformatics to identify bacterial OUTs in this work. In the meantime, it would be more clinically more important and meaningful if you could identify the genus level and even species level of the isolated bacterial from the antibiotics-resistant plates. You are very close to provide this valuable information since these isolates are available to you, and you can even ID them by the use of the whole-length 16S rRNA sequencing.</p>
+<p>Response:</p>
+<p>While we agree with the reviewer that full-length sequencing could improve some of the ability to discern OTU&#8217;s, we argue that performing full length sequencing is not warranted for the following reasons.</p>
+<p>1. Even full-length 16S rRNA gene sequencing is not generally considered to be sufficient to differentiate species or strains. This level of discrimination is generally performed by multi-locus sequencing, DNA-DNA reassociation kinetics, or whole genome sequencing, which is beyond the scope of this study.</p>
+<p>2. Even with the short fragment that we sequenced ~75% of the isolates were classified to genus with &gt;80% confidence (line 232).  In this respect, there is likely to be little improvement in our data with full-length gene sequencing.</p>
+<p>3. We have dedicated a section of our discussion (line 356) to discuss the potential limitations of using a short sequence fragment, so have already addressed this concern in the manuscript.  </p>
+<p>Reviewer #2: Well done paper.</p>
+<p>On line 95 I think you are missing the word resistant - it states antibiotic populations and I think you meant to say antibiotic resistant populations. That is the only change that I have.</p>
+<p>Response:</p>
+<p>The suggested change has been made.</p>
+<supplementary-material id="pone.0218907.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218907.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

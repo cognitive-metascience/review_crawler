@@ -1,0 +1,1265 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">ploscomp</journal-id>
+<journal-title-group>
+<journal-title>PLOS Computational Biology</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1553-734X</issn>
+<issn pub-type="epub">1553-7358</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PCOMPBIOL-D-19-00976</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Oligomers</subject><subj-group><subject>Dimers</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Polymer chemistry</subject><subj-group><subject>Dimers</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical properties</subject><subj-group><subject>Dimerization</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Physical chemistry</subject><subj-group><subject>Chemical properties</subject><subj-group><subject>Dimerization</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Phosphates</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Thermodynamics</subject><subj-group><subject>Free energy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Polymer chemistry</subject><subj-group><subject>Monomers</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleotides</subject><subj-group><subject>Guanine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Electricity</subject><subj-group><subject>Electrostatics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleotides</subject><subj-group><subject>Adenine</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Why do G-quadruplexes dimerize through the 5&#8217;-ends? Driving forces for G4 DNA dimerization examined in atomic detail</article-title>
+<alt-title alt-title-type="running-head">G-quadruplexes dimerize through the 5&#8217;-ends</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1534-0863</contrib-id>
+<name name-style="western">
+<surname>Kogut</surname> <given-names>Mateusz</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kleist</surname> <given-names>Cyprian</given-names></name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<name name-style="western">
+<surname>Czub</surname> <given-names>Jacek</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>Department of Physical Chemistry, Gdansk University of Technology, Gdansk, Poland</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Wei</surname> <given-names>Guanghong</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Fudan University, CHINA</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">jacek.czub@pg.edu.pl</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>20</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<volume>15</volume>
+<issue>9</issue>
+<elocation-id>e1007383</elocation-id>
+<history>
+<date date-type="received">
+<day>14</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>9</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Kogut et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pcbi.1007383" />
+<abstract>
+<p>G-quadruplexes (G4) are secondary structures formed by guanine-rich nucleic acid sequences and shown to exist in living cells where they participate in regulation of gene expression and chromosome maintenance. G-quadruplexes with solvent-exposed guanine tetrads show the tendency to associate together through cofacial stacking, which may be important for packaging of G4-forming sequences and allows for the design of higher-order G4 DNA structures. To understand the molecular driving forces for G4 association, here, we study the binding interaction between two parallel-stranded G-quadruplexes using all-atom molecular dynamics simulations. The predicted dimerization free energies show that direct binding through the 5&#8217;-G-tetrads is the most preferred of all possible end-to-end stacking orientations, consistently with all available experimental data. Decomposition of dimerization enthalpies in combination with simulations at varying ionic strength further indicate that the observed orientational preferences arise from a fine balance between the electrostatic repulsion of the sugar-phosphate backbones and favorable counterion binding at the dimeric interface. We also demonstrate how these molecular-scale findings can be used to devise means of controlling G4 dimerization equilibrium, e.g., by altering salt concentration and using G4-targeted ligands.</p>
+</abstract>
+<abstract abstract-type="summary">
+<title>Author summary</title>
+<p>Native DNA usually folds to form the canonical double helix, however, under certain conditions, it can also fold into other secondary structures. Some of the most interesting ones are G-quadruplexes (G4)&#8212;compact DNA structures in which guanines assemble into multilayered tetrads, and whose formation has been reported at the ends of linear chromosomes (telomeres) and at different regulatory regions of the genome. Although structural and basic energetic properties, as well as some biological functions of G-quadruplexes are quite well understood, not much is known about their propensity to form agregated structures. A very high density of G-quadruplexes at telomeres along with their large exposed planar surfaces indeed favor G4 aggregation through end-to-end stacking, which might be important for the protection of telomeres and DNA packaging. In this research, using computer simulations, we provide insight into moleculsr origins of stability of the higher-order G-quadruplexes and explain in structural and energetic terms a strong preference for one particular end-to-end stacking orientation. Based on the recognized aggregation driving forces, we also suggest methods for controling the aggregation preferences openining up new opportunities for designing oligomeric G-quadruplexes.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001870</institution-id>
+<institution>Fundacja na rzecz Nauki Polskiej</institution>
+</institution-wrap>
+</funding-source>
+<award-id>HOMING PLUS/2011-4/3</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Czub</surname> <given-names>Jacek</given-names></name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by the Foundation for Polish Science (FNP) Homing Plus Programme, co-financed from the European Union&#8217;s Regional Development Fund within the Operational Programme Innovative Economy [HOMING PLUS/2011-4/3]; Funding for open access charge: Gdansk University of Technology; Computational time: PL-Grid Infrastructure; Academic Computer Centre TASK. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6" />
+<table-count count="1" />
+<page-count count="22" />
+</counts>
+<custom-meta-group>
+<custom-meta>
+<meta-name>PLOS Publication Stage</meta-name>
+<meta-value>uncorrected-proof</meta-value>
+</custom-meta>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All input files for REUS simulations (initial configurations, topologies and input files for Plumed) and trajectories corresponding to free energy minima, saved every 20 ps and stored in the GROMACS xtc format are available from the figshare service, accessible at <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.6084/m9.figshare.8276867.v1" ns0:type="simple">doi.org/10.6084/m9.figshare.8276867.v1</ext-link> All MD parameters and other data required to reproduce our results are included in the Methods section and Supporting Information.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>G-quadruplexes (G4) are non-canonical four-stranded structures formed by guanine-rich sequences of nucleic acids, in which sets of four guanine residues associate into planar arrays (G-tetrads) through cyclic Hoogsteen hydrogen bonding [<xref ref-type="bibr" rid="pcbi.1007383.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref003">3</xref>]. By stacking on top of each other, G-tetrads make up the core of the G4 structure (see <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1A</xref>), and, in unimolecular G-quadruplex, are connected by three intervening loops of variable length and sequence. G-quadruplexes can fold into a variety of topologies, differing in the relative orientation of the four guanine runs and in the arrangement of loop regions [<xref ref-type="bibr" rid="pcbi.1007383.ref004">4</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref005">5</xref>]. A delicate conformational equilibrium between these topologies depends on the length of the G-runs, the length and sequence of the loops, and the type concentration of alkali metal cations which are known to be crucial for the G-quadruplex formation [<xref ref-type="bibr" rid="pcbi.1007383.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref009">9</xref>].</p>
+<fig id="pcbi.1007383.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>G4 dimerization preferences.</title>
+<p>A: Three possible end-to-end stacking orientations of the G4 units in the dimeric structure formed by two parallel G-quadruplexes: 3&#8217;-3&#8217;, 3&#8217;-5&#8217; and 5&#8217;-5&#8217;. The 5&#8217;-terminal, middle and 3&#8217;-terminal G-tetrads are shown in blue, magenta and red, respectively. B: Free energy profiles for the formation of the above dimers as a function of the separation distance between the G4 units, <italic>r</italic>. The profiles were computed using CHARMM36; for the parmbsc1 results see <xref ref-type="supplementary-material" rid="pcbi.1007383.s003">S3 Fig</xref>. Shades regions represent consecutive stages of the dimerization process. The same color coding for the G-tetrads and dimerization modes is used in all other figures.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g001" ns0:type="simple" />
+</fig>
+<p>Recently, using structure-specific antibodies and in-cell NMR, DNA G-quadruplexes have been shown to occur throughout the genome in living cells [<xref ref-type="bibr" rid="pcbi.1007383.ref010">10</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref012">12</xref>], with a markedly higher density observed at the telomeric regions (up to 25% of all G4 DNA) [<xref ref-type="bibr" rid="pcbi.1007383.ref013">13</xref>]. Indeed, consisting of tandem repeats of the TTAGGG sequence and single-stranded 3&#8217;-overhang, vertebrate telomeric DNA is more likely to fold into G4 structures. G-quadruplex-forming sequences are also over-represented in other regulatory regions of the genome, including promoters [<xref ref-type="bibr" rid="pcbi.1007383.ref014">14</xref>], immunoglobulin switches [<xref ref-type="bibr" rid="pcbi.1007383.ref015">15</xref>], introns [<xref ref-type="bibr" rid="pcbi.1007383.ref016">16</xref>], and 5&#8217; untranslated regions [<xref ref-type="bibr" rid="pcbi.1007383.ref017">17</xref>]. Accordingly, G-quadruplexes are thought to be involved in regulation of DNA replication and transcription, genetic recombination, maintaining chromosome stability, and other fundamental cellular processes. With their unique molecular structure and biological significance, G-quadruplexes attracted much attention as drug-design targets [<xref ref-type="bibr" rid="pcbi.1007383.ref018">18</xref>]. In particular, since G4 structures have been shown to inhibit, among others, telomerase [<xref ref-type="bibr" rid="pcbi.1007383.ref019">19</xref>] and HIV integrase [<xref ref-type="bibr" rid="pcbi.1007383.ref020">20</xref>], there is reason to believe that selective G4-stabilizing ligands could act as anti-cancer or anti-viral agents [<xref ref-type="bibr" rid="pcbi.1007383.ref021">21</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref022">22</xref>].</p>
+<p>It has long been thought that, due to their layered structure, G-quadruplexes should show tendency to associate through stacking interactions between the external G-tetrads. This should be possible especially for parallel-stranded G-quadruplexes which have their external G-tetrads almost fully exposed to the solvent. As expected, the formation of higher order G4 structures was observed in a thermal denaturation study of parallel G-quadruplexes formed in a &#8216;bead-on-a-string&#8217; fashion by long GGGT [<xref ref-type="bibr" rid="pcbi.1007383.ref023">23</xref>] and TTAGGG [<xref ref-type="bibr" rid="pcbi.1007383.ref024">24</xref>] DNA sequences. Furthermore, by using a combination of circular dichroism and mass spectrometry, it has been shown that aggregation of parallel G-quadruplexes (composed of GGGT repeats) depends upon the presence of flanking bases and therefore is likely to occur through stacking of the external G-tetrads, with G4 dimers and trimers being the most probable aggregated forms [<xref ref-type="bibr" rid="pcbi.1007383.ref025">25</xref>].</p>
+<p>Analysis of dimerization equilibrium of the propeller-type G-quadruplexes with NMR spectroscopy confirmed the above finding and showed that out of the three possible end-to-end orientations (see <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1A</xref>), the 5&#8217;-5&#8217; stacking is strongly preferred [<xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>]. Consistently, the 5&#8217;-5&#8217; stacking arrangement is also found in all high-resolution NMR structures of G4 DNA dimers determined to date, including (GGA)<sub>4</sub> and GIGT(GGGT)<sub>3</sub> model sequences [<xref ref-type="bibr" rid="pcbi.1007383.ref027">27</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref028">28</xref>], as well as the G4-forming regions of the <italic>N. gonorrhoeae</italic> pilE gene and the human CEB1 minisattelite [<xref ref-type="bibr" rid="pcbi.1007383.ref029">29</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref030">30</xref>]. The preference for the 5&#8217;-5&#8217; mode is also reflected in the x-ray structures of parallel G-quadruplexes in which individual G4 units tend to stack with each other in the crystal lattice through the 5&#8217;-terminal G-tetrads [<xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref033">33</xref>].</p>
+<p>It has been suggested that dimerization of G-quadruplexes provides additional stabilization of the individual G4 DNA units, and therefore might be important for packaging of G4-forming sequences [<xref ref-type="bibr" rid="pcbi.1007383.ref034">34</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref035">35</xref>] preferentially adopting parallel conformations. However, predicting whether particular G-quadruplexes are prone to aggregation (e.g., dimerization) is far from trivial, because this process depends on several factors including the overall folding topology, the loop and flanking sequences and the concentration and type of cations [<xref ref-type="bibr" rid="pcbi.1007383.ref024">24</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>]. In addition, the dimerization equilibrium can be modulated by small-molecule ligands, such as mesoporphyrin and naphthalene diimide derivatives. By associating with the 3&#8217;-terminal G-tetrad, these ligands favor the formation of the parallel G-quadruplexes, leaving the 5&#8217;-terminal G-tetrad free for favorable interaction with the other G4 unit [<xref ref-type="bibr" rid="pcbi.1007383.ref032">32</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref036">36</xref>]. Furthermore, some molecules, such as cationic porphyrins, trisubstituted acridines and berberines, were shown to increase the stability of G-quadruplex dimers by intercalating between interfacial G-tetrads [<xref ref-type="bibr" rid="pcbi.1007383.ref037">37</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref042">42</xref>].</p>
+<p>Previous computational studies have shown that the preformed dimeric and trimeric assemblies of the parallel-stranded G-quadruplexes with 3&#8217;-5&#8217; stacking orientations are stable on the time scale of 15 ns [<xref ref-type="bibr" rid="pcbi.1007383.ref043">43</xref>]. MM-PBSA calculations further suggested a significant stability of the parallel G4 dimers relative to the monomeric state [<xref ref-type="bibr" rid="pcbi.1007383.ref044">44</xref>]. Absolute stacking energies for simple models of isolated G4 cores and stacking interfaces have also been determined by force-field and quantum chemical calculations combined with structural database search [<xref ref-type="bibr" rid="pcbi.1007383.ref045">45</xref>]. However, despite this research, the origin of the driving forces for the dimer formation and specifically of the strong preference for the 5&#8217;-5&#8217; stacking mode remains largely unexplored, making it difficult to predict and control the dimerization process [<xref ref-type="bibr" rid="pcbi.1007383.ref046">46</xref>]. Therefore, in the present work, we probe the determinants of the stability of G4 dimers by computing the free energy profiles for all possible <italic>&#960;</italic>-stacked assemblies formed by the parallel telomeric G-quadruplexes, using explicit-solvent all-atom molecular dynamics simulations with a total simulation time of &#8764;100 <italic>&#956;</italic>s. These calculations correctly reproduce the predominance of the direct 5&#8217;-5&#8217; stacking mode over the remaining dimeric forms and show that dimerization equilibrium is governed largely by a competition between the electrostatic repulsion of the sugar-phosphate backbones and favorable counterion binding at the interface between the G4 monomers. We further show that this detailed knowledge can be used to predict shifts in the dimerization equilibrium in response to changes in salt concentration and addition of G4-binding ligands.</p>
+</sec>
+<sec id="sec002" sec-type="results">
+<title>Results</title>
+<sec id="sec003">
+<title>Free energy simulations confirm the previously reported strong preference for the 5&#8217;-5&#8217; dimerization mode</title>
+<p>To examine the relative stability of possible dimeric structures formed by the parallel telomeric G-quadruplexes, we computed the free energy profiles for the main dimerization modes defined by three distinct end-to-end stacking orientations: 3&#8217;-3&#8217;, 3&#8217;-5&#8217; and 5&#8217;-5&#8217;, hereinafter referred to as the 3-3, 3-5 and 5-5 modes (<xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1A</xref>). As a collective coordinate describing the dimerization process, we used the separation distance between the centers of mass of the guanine cores of the two associating G-quadruplexes (inset of <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>). The distributions of the relative orientations between G4 units (<xref ref-type="supplementary-material" rid="pcbi.1007383.s001">S1 Fig</xref>) confirm association through cofacial stacking but also show that at longer distances G-quadruplexes sample the entire range of relative orientations, possibly facilitating the free energy convergence (<xref ref-type="supplementary-material" rid="pcbi.1007383.s002">S2 Fig</xref>).</p>
+<p>The free energy profiles, <italic>G</italic>(<italic>r</italic>), in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref> reveal unexpectedly large differences in the stability of the three dimeric structures, with the 5-5 mode being by ca. 4 and 24 kcal/mol more stable than the 3-5 and 3-3 modes, respectively. By assuming that translation and rotational entropy loss is similar for the three modes, we estimated the corresponding dimerization free energies (<xref ref-type="table" rid="pcbi.1007383.t001">Table 1</xref>; see <xref ref-type="sec" rid="sec008">Methods</xref>) and found that the 5-5 orientation is assumed with 99.9% and 3-5 with only 0.1% probability, while the 3-3 mode is virtually absent from the dimeric ensemble. Importantly, a clear preference for the 5-5 mode seen in our simulations, both CHARMM36 and parmbsc1 (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s003">S3 Fig</xref>), is fully consistent with the available experimental data. Indeed, by using NMR spectroscopy, it has been found that the parallel DNA G-quadruplexes composed of the GGGC, GGGT and GGA motifs (PDB codes: 2LE6 and 1MYQ) [<xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref028">28</xref>], as well as the human CEB1 minisatellite (2MB4) and the bacterial pilE (2LXV) G-quadruplexes [<xref ref-type="bibr" rid="pcbi.1007383.ref029">29</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref030">30</xref>] show a strong tendency to form dimers via the 5&#8217;-5&#8217; stacking interface. Similar preference was observed for the human telomeric G-quadruplexes under molecular crowding conditions [<xref ref-type="bibr" rid="pcbi.1007383.ref047">47</xref>] and for TERRA G-quadruplexes [<xref ref-type="bibr" rid="pcbi.1007383.ref048">48</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref049">49</xref>]. Interestingly, the propeller-type telomeric G-quadruplexes also crystallize preferentially in the 5&#8217;-5&#8217; stacking arrangement, as found in crystallographic studies [<xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>].</p>
+<table-wrap id="pcbi.1007383.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>Estimated dimerization free energies.</title>
+<p><inline-formula id="pcbi.1007383.e001"><alternatives><graphic id="pcbi.1007383.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pcbi.1007383.e001" ns0:type="simple" /><ns1:math display="inline" id="M1"><ns1:mo>&#916;</ns1:mo><ns1:mtext>G</ns1:mtext><ns1:msubsup><ns1:mrow /><ns1:mtext>dim</ns1:mtext> <ns1:mo>&#176;</ns1:mo></ns1:msubsup></ns1:math></alternatives></inline-formula> were estimated for the three considered dimerization modes from the free energy profiles in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>, separately for the G-mediated and A-mediated states, and are shown along with the corresponding equilibrium populations.</p>
+</caption>
+<alternatives>
+<graphic id="pcbi.1007383.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.t001" ns0:type="simple" />
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Dimerization<break />mode</th>
+<th align="center" colspan="2">
+<inline-formula id="pcbi.1007383.e002">
+<alternatives>
+<graphic id="pcbi.1007383.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pcbi.1007383.e002" ns0:type="simple" />
+<ns1:math display="inline" id="M2">
+<ns1:mrow>
+<ns1:mo>&#916;</ns1:mo>
+<ns1:msubsup>
+<ns1:mi>G</ns1:mi>
+<ns1:mtext>dim</ns1:mtext>
+<ns1:mo>&#176;</ns1:mo>
+</ns1:msubsup>
+</ns1:mrow>
+</ns1:math>
+</alternatives>
+</inline-formula> [kcal/mol]</th>
+<th align="center" colspan="2">Eq. population [%]</th>
+</tr>
+<tr>
+<th align="right">G-med.</th>
+<th align="right">A-med.</th>
+<th align="right">G-med.</th>
+<th align="right">A-med.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">3-3</td>
+<td align="right">6.4 &#177; 1.1</td>
+<td align="right">&#8211;</td>
+<td align="right">&#8764;0</td>
+<td align="right">&#8211;</td>
+</tr>
+<tr>
+<td align="center">3-5</td>
+<td align="right">&#8722;13.5 &#177; 0.1</td>
+<td align="right">&#8722;11.7 &#177; 0.3</td>
+<td align="right">0.1</td>
+<td align="right">&#8764;0</td>
+</tr>
+<tr>
+<td align="center">5-5</td>
+<td align="right">&#8722;17.5 &#177; 0.1</td>
+<td align="right">&#8722;8.6 &#177; 1.8</td>
+<td align="right">99.9</td>
+<td align="right">&#8764;0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The shape of the computed profiles with several free energy minima suggests diversity of dimeric structures, even for a given end-to-end orientation. Since the average distance between the adjacent G-tetrads in a guanine core is about 0.35 nm, the deepest minimum at 1.1 nm has to correspond to direct stacking between the terminal G-tetrads (states labeled as &#8216;G-mediated&#8217; in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>). In turn, the position of the local minima at 1.4 and 1.7 nm suggest that adenine residues may also be involved in mediating dimer formation (&#8217;A-mediated&#8217; states in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>), especially as in telomeric G-quadruplexes, adenines tend to stack onto the 5&#8217;-G-tetrad [<xref ref-type="bibr" rid="pcbi.1007383.ref050">50</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref051">51</xref>], and hence two minima are seen for the 5-5 mode (minima II and III) and one for the 3-5 mode (II) (see also detailed structural analysis below). For separation distances from 1.9 to 2.9 nm, we observed various poorly-defined and non-specific interactions between the two monomers, and beyond 2.9 nm G-quadruplexes are no longer in contact yielding a plateau in the free energy profile.</p>
+</sec>
+<sec id="sec004">
+<title>Parallel G-quadruplexes dimerize almost exclusively via direct contact of guanine planes</title>
+<p>To confirm the above characterization of the free energy minima and investigate how structurally diverse are different dimerization modes, we performed cluster analysis of the MD-generated unbiased dimeric ensemble, separately for each of the six minima indicated in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>. This was done using the hybrid k-centers k-medoids clustering algorithm for all heavy atoms of the two guanine cores, with a RMSD cut-off of 0.3 nm [<xref ref-type="bibr" rid="pcbi.1007383.ref052">52</xref>].</p>
+<p>
+<xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2A</xref> shows schematic representations of dimeric structures identified by cluster analysis in the individual minima along with their equilibrium contributions to a given state. As expected, the lowest free energy minima (labeled as I in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>) correspond largely to the well-defined dimers with full stacking overlap between the two interacting G-tetrads (ca. 2.2 nm<sup>2</sup>, see <xref ref-type="supplementary-material" rid="pcbi.1007383.s004">S4 Fig</xref>) providing maximum stacking stabilization. More specifically, in the dominant 5-5 G-mediated state (5-5,I in <xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2B</xref>), the relative polarity of the stacked G-tetrads allows for the largest possible stacking interaction between guanines with the pyrimidine (i.e., 6-member) rings of one G-tetrad overlapping with the imidazole (5-member) rings of the other and vice versa (<xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2D</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s006">S6 Fig</xref>). Additionally, in this alignment, dipole moments of stacked guanines are oriented roughly perpendicular with respect to each other leading to the most favorable electrostatic interaction between G-tetrads among the three possible dimerization modes (<xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2D</xref>). Notably, the same arrangement of guanines at the stacking interface was previously found experimentally for the 5-5 dimers of parallel G-quadruplexes formed both in aqueous solution [<xref ref-type="bibr" rid="pcbi.1007383.ref028">28</xref>] and in the crystal structure [<xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>], which further supports our predictions (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s007">S7 Fig</xref> a detailed comparison of the structures). For the other G-mediated dimers, the stacked guanines either almost do not overlap (3-5,I) or contact only via their imidazole rings (3-3,I), suggesting less favorable interaction (<xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2D</xref>).</p>
+<fig id="pcbi.1007383.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Structural properties of G4 dimers.</title>
+<p>A: Schematic representation of the G4 dimeric assemblies identified by the cluster analysis in all minima labeled in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>; corresponding equilibrium fractions, reported separately for each of the minima, were obtained from the properly unbiased REUS data. Adenine and thymine residues are shown in yellow and gray, respectively. B: Side and top view of the stacking interface in the G-mediated 5-5 mode (the 5-5,I minimum). C: Side and top view of the stacking interface in the A-mediated 3-5 mode (the 3-5,II minimum). Representative structures of the remaining states defined in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref> are shown in <xref ref-type="supplementary-material" rid="pcbi.1007383.s005">S5 Fig</xref>. D: Average relative arrangement of the guanine residues and their dipole moments across the three stacking interfaces, determined from the spatial densities of interfacial guanines shown in <xref ref-type="supplementary-material" rid="pcbi.1007383.s006">S6 Fig</xref>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g002" ns0:type="simple" />
+</fig>
+<p>Cluster analysis also revealed that, in the dominant 5-5 G-mediated mode, the two G-quadruplexes are twisted with respect to each other such that their 4-fold symmetric sugar-phosphate backbones form a regular alternating pattern (<xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2B</xref>). In particular, they are spatially shifted by one half-period, i.e., &#8764;45&#176; (<xref ref-type="supplementary-material" rid="pcbi.1007383.s008">S8 Fig</xref>), which ensures that all the phosphate groups in one monomer are kept, on average, at the maximum possible distance from their nearest counterparts in the other monomer (<xref ref-type="supplementary-material" rid="pcbi.1007383.s009">S9 Fig</xref>). This specific relative arrangement of monomers in the G-mediated dimer supposedly allows for minimization of electrostatic repulsion between the negatively charged backbone chains. Consequently, it was also observed in the crystal structure of parallel telomeric G-quadruplexes where it possibly contributes to the stability of the crystal lattice (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s008">S8 Fig</xref> for comparison of the relative arrangement o backbones) [<xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>]. In the 3-5 and 3-3 G-mediated dimers, the relative arrangements of the sugar-phosphate backbones are different and markedly less regular (<xref ref-type="supplementary-material" rid="pcbi.1007383.s008">S8 Fig</xref>) causing the neighboring phosphate groups on the two strands to be, on average, closer to each other compared to 5-5 (<xref ref-type="supplementary-material" rid="pcbi.1007383.s009">S9 Fig</xref>). This is especially visible for the 3-3 mode, where ca. 3 pairs of phosphates are less than 0.6 nm apart. At the same time, we did not observe any significant dimerization-induced changes in the loop regions and sugar puckerings in individual G4 monomers that could account for the above difference (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s010">S10</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s011">S11</xref> Figs).</p>
+<p>Interestingly, the structure of G-mediated dimers in 5-5 mode also suggests additional stabilization by the outer ring formed by adenine residues stacking across the interface (right panel of <xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2B</xref>). Indeed, analysis of the adenine contact area confirms formation of, on average, ca. 2 cross-strand adenine-adenine contacts (<xref ref-type="supplementary-material" rid="pcbi.1007383.s004">S4 Fig</xref>). This finding agrees well with the X-ray and NMR data showing 2 and 3 adenine-adenine stacking interactions, respectively, between the associated parallel G-quadruplexes [<xref ref-type="bibr" rid="pcbi.1007383.ref027">27</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>].</p>
+<p>Among the G-mediated structures identified by the cluster analysis, only a very small percentage&#8212;0.01% and 7% in the 5-5 and 3-5 binding mode, respectively&#8212;show a partial stacking overlap between the two G-tetrads (ca. 1.68&#8211;1.84 nm<sup>2</sup>) which are shifted by ca. 0.41&#8211;0.49 nm with respect to each other (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s012">S12 Fig</xref>). In contrast, the remaining free energy minima (II and III in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>) are much more structurally diverse. They mainly correspond to structures mediated by one (II, see <xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2C</xref>) or two (III) adenine layers with ca. 2&#8211;3 adenines per layer stacked between G-quadruplexes (A-mediated states). However, in both minima, a significant fraction (30&#8211;49%) of structures is found in which G-quadruplexes are only partially stacked onto each other showing the contact area of ca. 0.89&#8211;1.84 nm<sup>2</sup> (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s004">S4</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s012">S12</xref> Figs).</p>
+</sec>
+<sec id="sec005">
+<title>Balance between interphosphate repulsion and counterion binding determines the relative stability of possible G4 dimers</title>
+<p>To identify main driving forces of dimerization process and the energetic determinants of the stability of G-quadruplex dimers, we have determined the enthalpy of dimerization, &#916;<italic>H</italic>, and decomposed it, for each of the three stacking orientations, into contributions due to interactions between individual structural elements of the system. The contributions, shown as interaction matrices in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3A</xref>, involve both electrostatic and van der Waals energies and were calculated by averaging the enthalpy differences between dimeric and dissociated states (defined consistently with <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>) over the unbiased ensembles.</p>
+<fig id="pcbi.1007383.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Enthalpy of dimerization.</title>
+<p>A: Detailed contributions to the dimerization enthalpy (&#916;<italic>H</italic>) computed as the interaction energy changes between individual structural elements of the system: guanines (G), adenines (A), thymines (T), backbone (BB), potassium cations (K), chloride anions (CL) and water (H<sub>2</sub>O) in the G-mediated state (upper triangle matrix) and the A-mediated state (lower triangle matrix); individual G4 monomers are denoted as 1 and 2. B: Overall contributions to &#916;<italic>H</italic> in the G-mediated dimers, without distinction between individual monomers.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g003" ns0:type="simple" />
+</fig>
+<p>Large positive values of the overall &#916;<italic>H</italic> (in the range of 185&#8211;720 kcal/mol) suggest that the formation of the considered G4 dimers is enthalpically highly unfavorable and thus that it is driven by solvent-mediated entropic forces.
+The interaction matrices in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3A</xref> demonstrate that the dominant force opposing the formation of the G-mediated dimers is a strong electrostatic repulsion of the two sugar-phosphate backbones (&#916;<italic>H</italic><sub>BB1-BB2</sub> &#8776; 5.4&#8211;5.9 &#215; 10<sup>3</sup> kcal/mol). This repulsion is effectively screened by potassium counterions (&#916;<italic>H</italic><sub>K-BB1/BB2</sub> + &#916;<italic>H</italic><sub>K-K</sub> &#8776; &#8722;5.2&#8211;6.3 &#215; 10<sup>3</sup> kcal/mol) that, in the dimeric state, tend to localize in newly-created binding sites constituted by regions of strongly negative electrostatic potential between the G4 backbones (see also discussion below). High absolute values of these nearly canceling contributions to &#916;<italic>H</italic> indicate that the stability of G4 dimers involves a fine balance between competing electrostatic forces. This finding also provides a molecular-level explanation for the effect of salt concentration on the extent of G4 dimerization [<xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>] and is consistent with previously reported participation of the loop-bound cations in stabilizing the folded state of G4 monomers [<xref ref-type="bibr" rid="pcbi.1007383.ref051">51</xref>]. Notably, dimerization does not significantly affect the K<sup>+</sup>-binding properties of the central channels that remain mostly occupied by counterions. Occasional binding of K<sup>+</sup> in the additional binding site between the stacked G-tetrads is however less important for the stability of the dimers (with maximum contribution &#916;<italic>H</italic><sub>K-G1/G2</sub> &#8776; &#8722;190 kcal/mol seen for 3-5).</p>
+<p>Quite unexpectedly, a very similar balance of interactions and the critical role of counterions in stabilization is also found for the A-mediated states (lower triangles in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3A</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s013">S13 Fig</xref>), which are characterized by a greater separation between the sugar-phosphate chains. A lower stability of the A-mediated dimers (see <xref ref-type="table" rid="pcbi.1007383.t001">Table 1</xref>) arises from the fact that the repulsion between phosphates is not offset by attractive interactions to the same extent as in the G-mediated case. Specifically, as seen from <xref ref-type="supplementary-material" rid="pcbi.1007383.s013">S13 Fig</xref>, the A-mediated dimers lack additional stabilization provided by <italic>&#960;</italic>-stacking interaction between the adjacent G-tetrads (&#916;<italic>H</italic><sub>G1-G2</sub> &#8776; &#8722; 34&#8211;40 kcal/mol in the G-mediated case) and by the thymine-backbone and adenine-backbone interactions (&#916;<italic>H</italic><sub>T/A-BB</sub> &#8776; &#8722; 10&#8211;100 kcal/mol in the G-mediated case).</p>
+<p>Energy decomposition in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3</xref> also shows that, despite a common compensation pattern, the three possible dimerization modes differ markedly in terms of individual contributions to &#916;<italic>H</italic>. In particular, from <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3B</xref> it can be seen that, in the dominant 5-5 dimer, interphosphate repulsion is considerably (by 9%) weaker than in 3-3 and 3-5, and thus might underlie the preference for the 5-5 dimerization mode. In order to examine molecular basis of the differences in interphosphate repulsion, we calculated the electrostatic energy density of cross-strand pairwise interactions between the phosphates as a function of the distance between them (<xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4A</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s014">S14 Fig</xref>). Low energy density at small P&#8211;P distances (&lt;1.4 nm) in the 5-5 dimer indicates that the relatively weak electrostatic repulsion observed in this case can be attributed to the small number of very unfavorable close contacts between the phosphate groups at the dimer interface. This is also reflected in the 3D distribution maps in <xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4B</xref> showing the largest spatial separation of the interfacial phosphates in the 5-5 dimer. In contrast, the 3-3 and 3-5 energy density profiles reveal that the number of close-contact repulsive interactions between the interfacial phosphates in the two remaining less stable dimerization modes is clearly greater, which is also depicted in the 3D distributions in <xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4B</xref>. The electrostatic potentials surrounding G4 monomers, computed using the Poisson-Boltzmann approach [<xref ref-type="bibr" rid="pcbi.1007383.ref053">53</xref>], independently confirm that the 5-5 mode is characterized by weakest phosphate-phosphate repulsion among the three dimers considered (<xref ref-type="supplementary-material" rid="pcbi.1007383.s015">S15 Fig</xref>).</p>
+<fig id="pcbi.1007383.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Distribution and electrostatic repulsion of phosphates.</title>
+<p>A: Electrostatic energy density of pairwise cross-strand interactions between the phosphate groups as a function of the distance between them (P&#8211;P distance; for its full range see <xref ref-type="supplementary-material" rid="pcbi.1007383.s016">S16 Fig</xref>). The inset shows cumulative interphosphate repulsion energy as a function of the P&#8211;P distance. B: Spatial distribution of all phosphate groups at the stacking interface that are located within 1 nm of any phosphate group of the other G4 monomer. The phosphate groups of the nucleotides in the 3&#8217;- and 5&#8217;-terminal G-tetrads are shown in dark/light red and dark/light blue, respectively, while the remaining ones in yellow. For the corresponding parmbsc1 data see <xref ref-type="supplementary-material" rid="pcbi.1007383.s014">S14 Fig</xref>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g004" ns0:type="simple" />
+</fig>
+<p>
+<xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3A</xref> indicates that some of the less dominant contributions to &#916;<italic>H</italic> also favor the 5-5 dimerization mode. Notably, in this mode, the stacking interaction between the G-tetrads, &#916;<italic>H</italic><sub>G1-G2</sub>, is by &#8764;5 kcal/mol more favorable than in both 3-3 and 3-5, which results from a more favorable alignment of guanine dipole moments at the 5-5 interface (see <xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2D</xref>). Additional stabilization of the 5-5 dimer is provided by the cross-strand adenine-adenine interactions (&#916;<italic>H</italic><sub>A1-A2</sub> &#8776; &#8722;18 kcal/mol) that are missing in the 3-3 and 3-5 modes, as described above in the contact analysis (see <xref ref-type="fig" rid="pcbi.1007383.g002">Fig 2A</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s004">S4 Fig</xref>).</p>
+<p>As shown by the inset in <xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4A</xref>, the total interphosphate repulsion energy does not differ significantly between the 3-3 and 3-5 dimers, consistently with the values of &#916;<italic>H</italic><sub>BB1-BB2</sub> in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3A</xref> and &#916;<italic>H</italic><sub>BB-BB</sub> in <xref ref-type="fig" rid="pcbi.1007383.g003">Fig 3B</xref>. This then raises a question as to why the 3-5 mode is found in our free energy simulations to be by &#8764;20 kcal/mol more stable than 3-3. A hint comes from the energy densities in <xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4A</xref>, which show that association of parallel G4 units via their 3&#8217;-terminal G-tetrads leads to a number of energetically unfavorable van der Waals contacts between the phosphate groups (non-zero density at distances &lt;0.55 nm). Since this destabilization of the 3-3 dimer cannot be sufficiently compensated for by counterion screening, this suggests that the difference in the stability between the 3-3 and 3-5 modes might arise from disparate ion binding properties.</p>
+</sec>
+<sec id="sec006">
+<title>G4 dimerization equilibrium depends on the salt concentration and can be modulated by small-molecule ligands</title>
+<p>The above analyses suggest that the differences in electrostatic screening of the phosphate groups at the stacking interface by K<sup>+</sup> counterions might be responsible for a significantly higher stability of the 3-5 dimer over the 3-3 dimer. To investigate these differences in more detail, we first re-computed the binding free energy profiles for all three dimers in the presence of K<sup>+</sup> counterions only, i.e., at the effective K<sup>+</sup> concentration lowered from the physiological concentration (0.15 M) to about 0.04 M.</p>
+<p>From the free energy profiles in <xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5A</xref>, it can be seen that, as the K<sup>+</sup> concentration is decreased 2.5-fold, the dimers are destabilized by 2&#8211;7 kcal/mol, depending on the mode. This demonstrates directly that the presence of counterions is essential for G4 dimerization, in line with the experimental findings [<xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>]. A 5 kcal/mol greater destabilization of the 3-5 than of the 3-3 mode confirms that K<sup>+</sup> binding at the dimeric interface does in fact underlie a much higher stability of the 3-5 dimer, as was expected from the phosphate-phosphate electrostatic energy density. Unexpectedly, however, a decrease in the number of K<sup>+</sup> ions at the 3-3 interface upon lowering the salt concentration (<xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5B</xref>) is actually more pronounced than at the 3-5 interface (1.4 vs. 1.1, respectively, for K<sup>+</sup> present between the interfacial phosphates). This indicates that binding of individual K<sup>+</sup> ions at the 3-5 stacking interface has to be energetically more favorable, so as to provide greater stability to the 3-5 dimer.</p>
+<fig id="pcbi.1007383.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Spatial distribution and influence of ions on G-quadruplexes dimerization.</title>
+<p>A: Dependence of the free energy profiles for the formation of the 3-3, 3-5 and 5-5 dimers on the salt concentrations: only K<sup>+</sup> counterions (dotted lines), physiological KCl concentration of 0.15 M (solid lines) and 0.3 M KCl (dashed lines). B: Average numbers of K<sup>+</sup> ions in contact with the G-mediated dimers: within 0.7 nm of the backbones of any G4 unit (all), within 0.7 nm of both backbones at the same time (interface), within 0.7 nm of the PO<sub>4</sub> groups of the two G4 units at the same time (interface PO<sub>4</sub>). C: Spatial distribution of K<sup>+</sup> ions at the stacking interface of each of the three dimerization modes, generated by superimposing 1,000 0.5-ns-separated snapshots at a physiological KCl concentration. The interface K<sup>+</sup> ions that at the same time are in contact with the PO<sub>4</sub> groups of both G4 units are highlighted in purple. For the corresponding parmbsc1 data see <xref ref-type="supplementary-material" rid="pcbi.1007383.s017">S17 Fig</xref>. D: Well-defined K<sup>+</sup>-binding site formed by the three phosphates groups at the 3-5 interface.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g005" ns0:type="simple" />
+</fig>
+<p>The spatial distributions of K<sup>+</sup> ions at the three dimeric interfaces, shown in <xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5C</xref> and <xref ref-type="supplementary-material" rid="pcbi.1007383.s017">S17 Fig</xref>, provide a possible explanation for the above differences in the K<sup>+</sup> binding strength. As can be seen, in the 3-5 mode, counterions are distributed non-uniformly at the stacking interface and penetrate deeper into the cleft between the two monomers, thereby being able to more effectively screen the electrostatic repulsion between the sugar-phosphate backbones. A large fraction of them (52%) is found in the three separate sites located between the pairs of opposite double-chain-reversal loops of the G4 units. These well-defined sites (<xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5D</xref>), each formed by three phosphate groups&#8212;one from one G4 unit and two from the other&#8212;show a high cation-binding capacity and are on average occupied by &#8764;2.0 K<sup>+</sup> ions at a given time. In contrast, in the 3-3 mode, the K<sup>+</sup> distribution is more uniform, with interfacial ions spread over a larger area, which indicates less specific and weaker binding. Unlike in the two remaining dimers, in the 3-3 case, K<sup>+</sup> ions are mostly found outside the interface and penetrate less readily between the phosphates groups. The reason is that very closely separated phosphate groups at the 3-3 interface (<xref ref-type="fig" rid="pcbi.1007383.g004">Fig 4</xref>) do not allow counterions to bind between them and effectively mitigate the repulsive forces. The differences in hydration of the three interfaces are less pronounced; only in the 3-3 case, we observed a decreased hydration of the interfacial phosphates with respect to the monomeric state, probably due to above-mentioned involvement of some of the phosphates in direct interactions (<xref ref-type="supplementary-material" rid="pcbi.1007383.s018">S18 Fig</xref>).</p>
+<p>The free energy profiles at increased concentration of counterions (0.3 M; <xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5A</xref>) further confirm the observed differences in K<sup>+</sup>-binding properties between the two dimers. Despite a 3&#8211;4 kcal/mol increase in the stability of the 3-5 mode, the number of K<sup>+</sup> ions at the interface does not increase concurrently (<xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5B</xref>), indicating saturation of the binding sites already at lower concentrations. In turn, the 3-3 dimer remains unstable even at higher salt concentrations, even though the number of counterions non-specifically bound at the interface clearly increases.</p>
+<p>Because the distances between the phosphate groups across the 5-5 interface are generally greater than 0.6 nm they do not form particularly favorable K<sup>+</sup>-binding sites. As a result, the number of ions present at this interface is markedly lower than at the two remaining ones, with 28% of interfacial K<sup>+</sup> found in 8 low-affinity binding sites (<xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5C</xref>). Notably, at the low salt concentration, the 5-5 dimer remains highly stable with <inline-formula id="pcbi.1007383.e003"><alternatives><graphic id="pcbi.1007383.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pcbi.1007383.e003" ns0:type="simple" /><ns1:math display="inline" id="M3"><ns1:mrow><ns1:mo>&#916;</ns1:mo> <ns1:msubsup><ns1:mi>G</ns1:mi> <ns1:mtext>bind</ns1:mtext> <ns1:mo>&#176;</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mo>-</ns1:mo></ns1:mrow><ns1:mn>13.0</ns1:mn><ns1:mspace width="4pt" /><ns1:mtext>kcal</ns1:mtext><ns1:mo>/</ns1:mo><ns1:mtext>mol</ns1:mtext></ns1:math></alternatives></inline-formula> (<xref ref-type="fig" rid="pcbi.1007383.g005">Fig 5A</xref>), which shows that the relatively small number of K<sup>+</sup> ions is sufficient for screening the interphosphate repulsion between the monomers in the 5-5 dimer. Accordingly, adding more counterions to the solution reduces the preference for the 5-5 dimer, which is most pronounced at the low concentration, when its binding sites are already almost saturated.</p>
+<p>To test our conclusion that unfavorable interphosphate repulsion is responsible for destabilization of the two less preferred stacking modes, we recomputed the free energy profile for the formation of the most unfavorable 3-3 dimer, using a model aromatic ligand as a spacer to increase the distance between the interfacial phosphates. For this purpose, we used the cationic 3,4-Tetramethylpyridiniumporphyrazine (3,4-TMPyPz, <xref ref-type="fig" rid="pcbi.1007383.g006">Fig 6A</xref>), which was shown to selectively bind to human telomeric G-quadruplex DNA by stacking on the G-tetrad surface [<xref ref-type="bibr" rid="pcbi.1007383.ref054">54</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref055">55</xref>]. Because of the square shape, 3,4-TMPyPz mimics an additional aromatic plane between the two G4 units.</p>
+<fig id="pcbi.1007383.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pcbi.1007383.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Increased stability of the 3-3 dimer upon ligand binding.</title>
+<p>A: Effect of the 3,4-TMPyPz ligand on the free energy profile for the formation of the 3-3 dimer. B: Representative structure of the 3-3 dimer mediated by 3,4-TMPyPz.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.g006" ns0:type="simple" />
+</fig>
+<p>
+<xref ref-type="fig" rid="pcbi.1007383.g006">Fig 6A</xref> shows that 3,4-TMPyPz present between the 3&#8217;-terminal G-tetrads indeed ensures the stability of the dimer relative to the dissociated state. As assumed, this actually originates from increased separation distance between the interfacial phosphates that reduces the electrostatic energy density at small P&#8211;P distances compared to the ligand-free 3-3 mode or even the 3-5 mode, however, not to the degree observed in the locally-optimal 5-5 mode (<xref ref-type="supplementary-material" rid="pcbi.1007383.s019">S19 Fig</xref>). At the same time, the number of K<sup>+</sup> ions at the interface decreases by 66% relative to the ligand-free 3-3 case (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s020">S20 Fig</xref>) which, given a non-optimal phosphate arrangement, may partially explain only a moderate increase in the dimer stability (by &#8764; 6 kcal/mol).</p>
+</sec>
+<sec id="sec007">
+<title>Conclusions</title>
+<p>In this work, we examined the molecular determinants of the dimerization of two parallel-stranded G-quadruplexes (G4) using molecular dynamics-based free energy calculations. We found that G-quadruplex dimers are formed almost exclusively (99.9%) by direct aggregation of the 5&#8217;-end G-tetrads (the G-mediated 5-5 mode), in agreement with all available experimental data [<xref ref-type="bibr" rid="pcbi.1007383.ref026">26</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref033">33</xref>]. At the same time, our simulations reveal that other dimeric G4 forms, particularly the 3-5 mode and even adenine-mediated dimers (A-mediated), are also thermodynamically stable relative to the dissociated state. An important exception is the G-mediated dimer formed by aggregation of the 3&#8217;-terminal G-tetrads (the 3-3 mode), which is found to be absent from the dimeric ensemble. The prevalence of the 5-5 dimer with the exposed 3&#8217;-terminal G-tetrads, that is unlikely to aggregate further, might explain a generally low tendency of G-quadruplexes to form higher-order oligomers [<xref ref-type="bibr" rid="pcbi.1007383.ref025">25</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref056">56</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref057">57</xref>].</p>
+<p>Our results further indicate that, although the dimerization equilibrium is affected by a number of different enthalpic contributions, the observed aggregation propensities are primarily governed by a fine balance between the repulsion of the negatively-charged sugar-phosphate backbones and favorable counterion binding at the interface between the G4 monomers. Importantly, we found that the strong preference for the 5-5 mode results from a locally optimal arrangement of the backbones with largest inter-phosphate distances across the interface and, therefore, weakest electrostatic repulsion between the monomers. This finding provides an explanation for the experiment in which an additional phosphate group attached at the 5&#8217;-end of the parallel G-quadruplex prevents 5-5 dimerization [<xref ref-type="bibr" rid="pcbi.1007383.ref058">58</xref>]. In the two remaining less stable dimers, 3-5 and 3-3, electrostatic repulsion between the monomers is similar and significantly larger compared to the dominant 5-5 dimer. We found that a much higher stability of the 3-5 mode can be attributed to stronger counterion binding at the specific binding sites formed by the phosphate groups at the interface between the G4 units. Another notable contribution that promotes the 5-5 dimer turned out to be the stacking interaction between the 5&#8217;-terminal G-tetrads, which is characterized by almost maximum possible overlap and a favorable relative arrangement of the guanine dipole moments, as has been also suggested previously [<xref ref-type="bibr" rid="pcbi.1007383.ref045">45</xref>].</p>
+<p>A molecular-level understanding of the G4 dimer formation process provided by our study suggests methods for shifting the dimerization equilibrium by controlling the electrostatic repulsion-attraction balance and thereby opens up new opportunities for designing oligomeric G-quadruplex structures. Specifically, we predict that by doubling the concentration of K<sup>+</sup> counterions we can significantly (from 0.1 to 16%) increase the equilibrium population of the 3-5 dimer which is especially suited to bind cations from aqueous solution. Moreover, our model indicates that the stability of the G-mediated dimers can be greatly enhanced by reducing the interphosphate repulsion which is the main destabilizing factor especially pronounced in the 3-3 and 3-5 cases. Indeed, increasing the separation distance between the interfacial phosphates by inserting a model aromatic ligand between the G4 units markedly improves the stability of the originally unstable 3-3 dimer relative to the monomeric state.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec009">
+<title>Simulation details</title>
+<p>All simulated systems contained two monomers of the parallel G-quadruplexes with the human telomeric sequence d[AGGG(TTAGGG)<sub>3</sub>], whose initial structure with two K<sup>+</sup> ions coordinated in the central channel was taken from the PDB database (PDB id 1KF1) [<xref ref-type="bibr" rid="pcbi.1007383.ref031">31</xref>].</p>
+<p>G4 dimers were solvated with 22826 TIP3P water molecules [<xref ref-type="bibr" rid="pcbi.1007383.ref059">59</xref>] in dodecahedron box with a cell vector length of 10.1 nm, at physiological ionic strength (150 mM KCl) and, additionally, at two different salt concentrations, i.e., at 300 mM KCl, and at 40 mM which corresponds to 42 K<sup>+</sup> counterions only (including 2 ions in the central channel). The CHARMM36 force field [<xref ref-type="bibr" rid="pcbi.1007383.ref060">60</xref>] was used for DNA and ions because, as previously shown, it reproduces the structure and stability of parallel G-quadruplexes in aqueous solution [<xref ref-type="bibr" rid="pcbi.1007383.ref050">50</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref061">61</xref>&#8211;<xref ref-type="bibr" rid="pcbi.1007383.ref064">64</xref>]. To test whether our conclusions are force-field independent, all dimerization simulations were additionally carried out using the AMBER parmbsc1 force field as a reference [<xref ref-type="bibr" rid="pcbi.1007383.ref065">65</xref>]. In additional simulations of the ligand-mediated dimer, the 3,4-TMPyPz ligand was parameterized using the CHARMM generalized force field (CGenFF) [<xref ref-type="bibr" rid="pcbi.1007383.ref066">66</xref>] and partial charges obtained from HF calculations in Gaussian [<xref ref-type="bibr" rid="pcbi.1007383.ref067">67</xref>] via Merz-Kollman ESP fitting, using the 6-31G* basis set (see <xref ref-type="supplementary-material" rid="pcbi.1007383.s021">S1 Table</xref> for numerical values).</p>
+<p>The MD simulations were performed using Gromacs 5.0.4 [<xref ref-type="bibr" rid="pcbi.1007383.ref068">68</xref>] in the NPT ensemble, with the temperature kept at 300 K and using the v-rescale thermostat [<xref ref-type="bibr" rid="pcbi.1007383.ref069">69</xref>] and the pressure kept at 1 bar using Parrinello-Rahman barostat [<xref ref-type="bibr" rid="pcbi.1007383.ref070">70</xref>]. Periodic boundary conditions were applied in 3D, and electrostatic interactions were calculated using the particle mesh Ewald (PME) [<xref ref-type="bibr" rid="pcbi.1007383.ref071">71</xref>] method with a real-space cutoff of 1.2 nm and a Fourier grid spacing of 0.12 nm. A cut-off of 1.2 nm was used for Lennard-Jones interactions. All bond lengths were constrained using P-LINCS [<xref ref-type="bibr" rid="pcbi.1007383.ref072">72</xref>] for DNA and SETTLE [<xref ref-type="bibr" rid="pcbi.1007383.ref073">73</xref>] for water. The equations of motion were integrated using the leap-frog algorithm with a 2 fs time step.</p>
+</sec>
+<sec id="sec010">
+<title>Free energy simulations</title>
+<p>To study the relative stability of the dimers of the parallel G-quadruplexes with three different end-to-end stacking orientations (dimerization modes), we calculated the corresponding free energy profiles using replica exchange umbrella sampling (REUS). The calculations were carried out using the PLUMED 2.0 plugin [<xref ref-type="bibr" rid="pcbi.1007383.ref074">74</xref>] coupled to Gromacs. To generate the initial configurations for the REUS simulations, we first performed short equilibrium simulations (&lt;250 ns) of the two G4 monomers initially fully separated, with the center of mass distance between their guanine cores (the reaction coordinate, <italic>r</italic>; see inset in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>) being in the range of 1.9&#8211;2.0 nm. Initially, the two monomers were oriented parallel to each other to promote their spontaneous association in one of the three considered dimerization modes. Indeed, in the case of the 3&#8217;-5&#8217; and 5&#8217;-5&#8217; modes, we observed spontaneous binding through base stacking interactions between the two interacting guanine planes (the G-mediated states) within 180 and 210 ns, respectively. To obtain the G-mediated state for the 3&#8217;-3&#8217; mode that did not form spontaneously, we ran an additional steered MD simulation, in which the G4 monomers were driven towards each other during 100 ns using a moving harmonic potential with a force constant of 286.1 kcal/(mol&#8901;nm<sup>2</sup>) applied to the coordinate <italic>r</italic>. Next, to initially sample the full range of the reaction coordinate from the G-mediated bound state (1.0 nm) up to a fully unbound state (3.5 nm), for each of the dimers, the two G4 units were forced to dissociate over 100 ns by applying the same moving harmonic potential as above.</p>
+<p>To ensure better convergence of the free energy profiles, in the critical range of <italic>r</italic> from 1.0 to 2.0 nm, the initial frames were taken alternately from the association and enforced dissociation trajectories, whereas in the range of 2.0&#8211;3.5 nm from the latter only. We used 25 uniformly distributed 0.1-nm separated REUS windows. In each of these windows the system was simulated for 0.5 <italic>&#956;</italic>s, using the harmonic potential with a force constant of 286.1 kcal/(mol&#8901;nm<sup>2</sup>) to restrain the system along the reaction coordinate <italic>r</italic>. The exchanges between neighboring windows were attempted every 2 ps and the acceptance rate turned out to be &#8764;21%. No additional restraints were applied on the relative orientation of the associating G4 units. The free energy profiles were determined from the last 450 ns of thus obtained trajectories using the standard weighted histogram analysis method (WHAM 2.0.9) [<xref ref-type="bibr" rid="pcbi.1007383.ref075">75</xref>]. Uncertainties were estimated using bootstrap error analysis taking into account the correlation in the analyzed ftime series. The dimerization free energies were estimated from the free energy profiles using a simple approach:
+<disp-formula id="pcbi.1007383.e004"><alternatives><graphic id="pcbi.1007383.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pcbi.1007383.e004" ns0:type="simple" /><ns1:math display="block" id="M4"><ns1:mtable displaystyle="true"><ns1:mtr><ns1:mtd columnalign="right"><ns1:mrow><ns1:mo>&#916;</ns1:mo> <ns1:msubsup><ns1:mi>G</ns1:mi> <ns1:mrow><ns1:mi>d</ns1:mi> <ns1:mi>i</ns1:mi> <ns1:mi>m</ns1:mi></ns1:mrow> <ns1:mo>&#176;</ns1:mo></ns1:msubsup> <ns1:mo>=</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:msub><ns1:mi>k</ns1:mi> <ns1:mi>B</ns1:mi></ns1:msub> <ns1:mi>T</ns1:mi> <ns1:mo form="prefix">ln</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mfrac><ns1:mn>1</ns1:mn> <ns1:msub><ns1:mi>V</ns1:mi> <ns1:mn>0</ns1:mn></ns1:msub></ns1:mfrac> <ns1:msubsup><ns1:mo>&#8747;</ns1:mo> <ns1:mn>0</ns1:mn> <ns1:mi>R</ns1:mi></ns1:msubsup> <ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>r</ns1:mi> <ns1:msubsup><ns1:mo>&#8747;</ns1:mo> <ns1:mn>0</ns1:mn> <ns1:mi>&#960;</ns1:mi></ns1:msubsup> <ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>&#952;</ns1:mi> <ns1:msubsup><ns1:mo>&#8747;</ns1:mo> <ns1:mn>0</ns1:mn> <ns1:mrow><ns1:mn>2</ns1:mn> <ns1:mi>&#960;</ns1:mi></ns1:mrow></ns1:msubsup> <ns1:mi mathvariant="normal">d</ns1:mi> <ns1:mi>&#981;</ns1:mi> <ns1:mspace width="0.166667em" /><ns1:msup><ns1:mi>r</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msup> <ns1:mo form="prefix">sin</ns1:mo> <ns1:mi>&#952;</ns1:mi> <ns1:mo form="prefix">exp</ns1:mo> <ns1:mo>(</ns1:mo> <ns1:mo>-</ns1:mo> <ns1:mfrac><ns1:mrow><ns1:mi>G</ns1:mi> <ns1:mo>(</ns1:mo> <ns1:mi>r</ns1:mi> <ns1:mo>)</ns1:mo></ns1:mrow> <ns1:mrow><ns1:msub><ns1:mi>k</ns1:mi> <ns1:mi>B</ns1:mi></ns1:msub> <ns1:mi>T</ns1:mi></ns1:mrow></ns1:mfrac> <ns1:mo>)</ns1:mo> <ns1:mfrac><ns1:mn>1</ns1:mn> <ns1:mrow><ns1:mn>4</ns1:mn> <ns1:mi>&#960;</ns1:mi> <ns1:msup><ns1:mi>r</ns1:mi> <ns1:mn>2</ns1:mn></ns1:msup></ns1:mrow></ns1:mfrac> <ns1:mo>)</ns1:mo></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable></ns1:math></alternatives> <label>(1)</label></disp-formula>
+where <italic>G</italic>(<italic>r</italic>) is the free energy profile taken directly from the REUS calculations, (4<italic>&#960;r</italic><sup>2</sup>)<sup>&#8722;1</sup> is a radial correction term, <italic>V</italic><sub>0</sub> is the standard volume (1661 &#197;<sup>3</sup>) corresponding to the standard concentration of 1 M, <italic>R</italic> is the upper distance limit defining the dimeric state, <italic>k</italic><sub><italic>B</italic></sub> is the Boltzmann constant and <italic>T</italic> the temperature [<xref ref-type="bibr" rid="pcbi.1007383.ref076">76</xref>, <xref ref-type="bibr" rid="pcbi.1007383.ref077">77</xref>]. All molecular images were created using VMD 1.9.2 [<xref ref-type="bibr" rid="pcbi.1007383.ref078">78</xref>].</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Supporting information</title>
+<supplementary-material id="pcbi.1007383.s001" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s001" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Distributions of the relative orientations between G-quadruplexes in the three considered dimerization modes as a function of the center of mass distance between the two G4 units.</title>
+<p>The orientation angle between G4 units is defined as the angle between two vectors passing through the center of G-tetrads and perpendicular to them. It can be seen that G-quadruplexes dimerize through cofacial stacking (parallel orientation between the interfacial G-tetrads at short distances, with the orientation angle &#8776; 180&#176; or 0&#176; for 5-5 and 3-3 or 3-5 dimers, respetively). At longer distances the systems sample the entire range of relative orientations between G-quadruplexes (the orientation angle in the range of 0&#8211;180&#176;).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s002" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s002" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Convergence of the free energy profiles for the formation of the three considered dimers with the simulation time.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s003" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s003" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Dimerization preferences obtained with the AMBER parmbsc1 force field.</title>
+<p>Free energy profiles for the formation of the dimers computed using parmbsc1 as a function of the separation distance between them, <italic>r</italic>. Even though dimer formation is consistently less favorable than in the CHARMM36 simulations, the stacking preferences are the same.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s004" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s004" ns0:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Equilibrium distributions of the contact area between guanines and adenines at the stacking interfaces in all the states defined in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>.</title>
+<p>Different colors are used to map the distributions on the structural clusters produced by our cluster analysis.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s005" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s005" ns0:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Side and top view of the stacking interfaces for all dimeric states defined within the 3-3, 3-5 and 5-5 modes.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s006" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s006" ns0:type="simple">
+<label>S6 Fig</label>
+<caption>
+<title>Spatial densities of the guanine residues at the stacking interface of the 3-3, 3-5 and 5-5 modes.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s007" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s007" ns0:type="simple">
+<label>S7 Fig</label>
+<caption>
+<title>Comparison with x-ray data.</title>
+<p>Structural comparison of the 5-5 dimer predicted by our MD simulations (red, 5-5,I in <xref ref-type="fig" rid="pcbi.1007383.g001">Fig 1B</xref>) with the 5-5 stacking arrangement of parallel telomeric G-quadruplexes found in the x-ray structure (blue, PDB: 1KF1). The structures were superimposed based on the positions of the phosphate groups. The average heavy-atom RMSD between the MD snapshots and the x-ray structure is 0.55 nm.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s008" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s008" ns0:type="simple">
+<label>S8 Fig</label>
+<caption>
+<title>Relative arrangement of the sugar-phosphate backbones of the associated G4 units in the three G-mediated dimerization modes.</title>
+<p>Relative arrangement presented as projections of the atomic positions of backbones on the curved surface of the cylinder with a diameter corresponding to the G-quadruplex dimer.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s009" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s009" ns0:type="simple">
+<label>S9 Fig</label>
+<caption>
+<title>Distribution of shortest interphosphate distances (minimal P&#8211;P distance) across the dimeric interface in the three considered dimerization modes.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s010" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s010" ns0:type="simple">
+<label>S10 Fig</label>
+<caption>
+<title>Comparison of the percentage populations of sugar puckers between the monomeric G4 and the three dimer interfaces.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s011" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s011" ns0:type="simple">
+<label>S11 Fig</label>
+<caption>
+<title>Spatial range of structural fluctuations of the sugar-phosphate backbone of the monomeric and dimeric G4.</title>
+<p>Isosurfaces show 90% of the total fluctuation range. For each G4 monomer one side and two top views (from the 5&#8217;- and 3&#8217;-ends) are shown.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s012" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s012" ns0:type="simple">
+<label>S12 Fig</label>
+<caption>
+<title>Equilibrium distributions of the shift coordinate.</title>
+<p>Shift is defined as the distance between the axes of the G4 units projected on the stacking interface plane. The axes were determined as vectors connecting the centers of mass of the two external G-tetrads of each of the G4 units. Different colors are used to map the distributions on the structural clusters produced by our cluster analysis.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s013" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s013" ns0:type="simple">
+<label>S13 Fig</label>
+<caption>
+<title>Enthalpy of dimerization.</title>
+<p>Detailed contributions to the dimerization enthalpy (&#916;<italic>H</italic>) computed as the interaction energy changes between individual structural elements of the system: guanines (G), adenines (A), thymines (T), backbone (BB), potassium cations (K), chloride anions (CL) and water (H<sub>2</sub>O) in the G-mediated state (upper triangle matrix) and the A-mediated state (lower triangle matrix); individual G4 monomers are denoted as 1 and 2. For clarity, numeric values were rounded to the nearest integer.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s014" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s014" ns0:type="simple">
+<label>S14 Fig</label>
+<caption>
+<title>Electrostatic interactions and spatial distribution of the sugar-phosphate backbones.</title>
+<p>A) Electrostatic energy density of pairwise cross-strand interactions between the phosphate groups as a function of the distance between them in the parmbsc1 force field simulations. The inset shows cumulative interphosphate repulsion energy as a function of the P&#8211;P distance. B) Spatial distribution of all phosphate groups at the stacking interface that are located within 1 nm of any phosphate group of the other G4 monomer in the parmbsc1 force field simulations. The phosphate groups of the nucleotides in the 3&#8217;- and 5&#8217;-terminal G-tetrads are shown in red and blue, respectively, while the remaining ones in yellow.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s015" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s015" ns0:type="simple">
+<label>S15 Fig</label>
+<caption>
+<title>Distribution of the electrostatic potential (&#8722;10 kT/e) generated by a single G4 unit in the three studied dimers.</title>
+<p>Distribution obtained by integrating the linearized Poisson Boltzmann equation using Adaptive Poisson-Boltzmann Solver (APBS) (N. A. Baker, et al. Proc. Natl. Acad. Sci. U.S.A. 98, 10037, 2001). The concentrations of +1 and &#8722;1 ion species were set to 150 mM with an ion exclusion radius of 0.2 nm. Grid size of 120<sup>3</sup> with grid spacing of 0.069 nm was used. We used the Dirichlet boundary conditions with the boundary potential value determined from a Debye-Huckel model for a single sphere with a point charge, dipole, and quadruple. Blue balls in the top panel represent the positions of the phosphate groups of the opposite G4 unit. Blue dots in the bottom panel show the distribution of all heavy atoms in the adjacent guanine plane of the opposite G4 unit.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s016" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s016" ns0:type="simple">
+<label>S16 Fig</label>
+<caption>
+<title>Electrostatic energy density of pairwise cross-strand interactions between the phosphates as a function of the distance between them (full range of the P&#8211;P distance).</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s017" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s017" ns0:type="simple">
+<label>S17 Fig</label>
+<caption>
+<title>Spatial distribution of K<sup>+</sup> ions at the stacking interface of each of the three dimerization modes.</title>
+<p>Generated by superimposing 1,000 0.5-ns-separated snapshots at a physiological KCl concentration from the parmbsc1 force field simulations. The interface K<sup>+</sup> ions that at the same time are in contact with the PO<sub>4</sub> groups of both G4 units are highlighted in purple.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s018" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s018" ns0:type="simple">
+<label>S18 Fig</label>
+<caption>
+<title>Spatial distribution of water molecules at the stacking interface of each of the three dimerization modes.</title>
+<p>Generated by superimposing 100 5-ns-separated snapshots at a physiological KCl concentration. The plot shows radial distribution functions of water molecules with respect to the phosphate groups of the nucleotides in the external G-tetrads (monomer) or the G-tetrads involved in dimer formation (dimers).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s019" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s019" ns0:type="simple">
+<label>S19 Fig</label>
+<caption>
+<title>Phosphate-phosphate repulsion is reduced upon ligand binding.</title>
+<p>Effect of the 3,4-TMPyPz ligand intercalated between the two G4 units on the electrostatic energy density of pairwise cross-strand interactions between the phosphates as a function of the distance between them (P&#8211;P distance). The inset shows cumulative interphosphate repulsion energy as a function of the P&#8211;P distance.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s020" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s020" ns0:type="simple">
+<label>S20 Fig</label>
+<caption>
+<title>Effect of the 3,4-TMPyPz ligand on the spatial distribution of K<sup>+</sup> ions at the stacking interface of the 3-3 dimer.</title>
+<p>A) The images were generated by superimposing 1,000 0.5-ns-separated snapshots at a physiological KCl concentration. The interface K<sup>+</sup> ions that at the same time are in contact with the PO<sub>4</sub> groups of both G4 units are highlighted in purple. B) Average numbers of K<sup>+</sup> ions in contact with the G-mediated dimers: within 0.7 nm of the backbones of any G4 unit (all), within 0.7 nm of both backbones at the same time (interface), within 0.7 nm of the PO<sub>4</sub> groups of the two G4 units at the same time (interface PO<sub>4</sub>).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pcbi.1007383.s021" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s021" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Partial charges obtained for 3,4-TMPyPz ligand.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pcbi.1007383.ref001">
+<label>1</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Sen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Gilbert</surname> <given-names>W</given-names></name>. <article-title>Formation of parallel four-stranded complexes by guanine-rich motifs in DNA and its implications for meiosis</article-title>. <source>Nature</source>. <year>1988</year>;<volume>334</volume>(<issue>6180</issue>):<fpage>364</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/334364a0" ns0:type="simple">10.1038/334364a0</ext-link></comment> <object-id pub-id-type="pmid">3393228</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref002">
+<label>2</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Burge</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Hazel</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Todd</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Quadruplex DNA: sequence, topology and structure</article-title>. <source>Nucleic Acids Res</source>. <year>2006</year>;<volume>34</volume>(<issue>19</issue>):<fpage>5402</fpage>&#8211;<lpage>5415</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkl655" ns0:type="simple">10.1093/nar/gkl655</ext-link></comment> <object-id pub-id-type="pmid">17012276</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref003">
+<label>3</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>D</given-names></name>. <article-title>Sequence, stability, and structure of G-quadruplexes and their interactions with drugs</article-title>. <source>Curr Protoc Nucleic Acid Chem</source>. <year>2012</year>;<volume>50</volume>(<issue>1</issue>):<fpage>17</fpage>&#8211;<lpage>5</lpage>.</mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Webba da Silva</surname> <given-names>M</given-names></name>. <article-title>Geometric formalism for DNA quadruplex folding</article-title>. <source>Chem Eur J</source>. <year>2007</year>;<volume>13</volume>(<issue>35</issue>):<fpage>9738</fpage>&#8211;<lpage>9745</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/chem.200701255" ns0:type="simple">10.1002/chem.200701255</ext-link></comment> <object-id pub-id-type="pmid">17972263</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>. <article-title>The structure of telomeric DNA</article-title>. <source>Curr Opin Struct Biol</source>. <year>2003</year>;<volume>13</volume>(<issue>3</issue>):<fpage>275</fpage>&#8211;<lpage>283</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0959-440X(03)00072-1" ns0:type="simple">10.1016/S0959-440X(03)00072-1</ext-link></comment> <object-id pub-id-type="pmid">12831878</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Lane</surname> <given-names>AN</given-names></name>, <name name-style="western"><surname>Chaires</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Gray</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Trent</surname> <given-names>JO</given-names></name>. <article-title>Stability and kinetics of G-quadruplex structures</article-title>. <source>Nucleic Acids Res</source>. <year>2008</year>;<volume>36</volume>(<issue>17</issue>):<fpage>5482</fpage>&#8211;<lpage>5515</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkn517" ns0:type="simple">10.1093/nar/gkn517</ext-link></comment> <object-id pub-id-type="pmid">18718931</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Ambrus</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Dai</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bialis</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>D</given-names></name>. <article-title>Human telomeric sequence forms a hybrid-type intramolecular G-quadruplex structure with mixed parallel/antiparallel strands in potassium solution</article-title>. <source>Nucleic Acids Res</source>. <year>2006</year>;<volume>34</volume>(<issue>9</issue>):<fpage>2723</fpage>&#8211;<lpage>2735</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkl348" ns0:type="simple">10.1093/nar/gkl348</ext-link></comment> <object-id pub-id-type="pmid">16714449</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Islam</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Stadlbauer</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Krepl</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Koca</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Haider</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Extended molecular dynamics of a c-kit promoter quadruplex</article-title>. <source>Nucleic Acids Res</source>. <year>2015</year>;<volume>43</volume>(<issue>18</issue>):<fpage>8673</fpage>&#8211;<lpage>8693</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkv785" ns0:type="simple">10.1093/nar/gkv785</ext-link></comment> <object-id pub-id-type="pmid">26245347</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref009">
+<label>9</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bian</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sheng</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>W</given-names></name>. <article-title>Atomistic picture for the folding pathway of a hybrid-1 type human telomeric DNA G-quadruplex</article-title>. <source>PLoS computational biology</source>. <year>2014</year>;<volume>10</volume>(<issue>4</issue>):<fpage>e1003562</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pcbi.1003562" ns0:type="simple">10.1371/journal.pcbi.1003562</ext-link></comment> <object-id pub-id-type="pmid">24722458</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Henderson</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>YC</given-names></name>, <name name-style="western"><surname>Chavez</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Platt</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>FB</given-names></name>, <etal>et al</etal>. <article-title>Detection of G-quadruplex DNA in mammalian cells</article-title>. <source>Nucleic Acids Res</source>. <year>2013</year>;<volume>42</volume>(<issue>2</issue>):<fpage>860</fpage>&#8211;<lpage>869</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkt957" ns0:type="simple">10.1093/nar/gkt957</ext-link></comment> <object-id pub-id-type="pmid">24163102</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Moye</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Porter</surname> <given-names>KC</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zyner</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Sasaki</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Telomeric G-quadruplexes are a substrate and site of localization for human telomerase</article-title>. <source>Nat Commun</source>. <year>2015</year>;<volume>6</volume>:<fpage>7643</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/ncomms8643" ns0:type="simple">10.1038/ncomms8643</ext-link></comment> <object-id pub-id-type="pmid">26158869</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref012">
+<label>12</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Salgado</surname> <given-names>GF</given-names></name>, <name name-style="western"><surname>Cazenave</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kerkour</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mergny</surname> <given-names>JL</given-names></name>. <article-title>G-quadruplex DNA and ligand interaction in living cells using NMR spectroscopy</article-title>. <source>Chem Sci</source>. <year>2015</year>;<volume>6</volume>(<issue>6</issue>):<fpage>3314</fpage>&#8211;<lpage>3320</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/c4sc03853c" ns0:type="simple">10.1039/c4sc03853c</ext-link></comment> <object-id pub-id-type="pmid">28706695</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Biffi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Tannahill</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>McCafferty</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Balasubramanian</surname> <given-names>S</given-names></name>. <article-title>Quantitative visualization of DNA G-quadruplex structures in human cells</article-title>. <source>Nat Chem</source>. <year>2013</year>;<volume>5</volume>(<issue>3</issue>):<fpage>182</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nchem.1548" ns0:type="simple">10.1038/nchem.1548</ext-link></comment> <object-id pub-id-type="pmid">23422559</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Huppert</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Balasubramanian</surname> <given-names>S</given-names></name>. <article-title>G-quadruplexes in promoters throughout the human genome</article-title>. <source>Nucleic Acids Res</source>. <year>2006</year>;<volume>35</volume>(<issue>2</issue>):<fpage>406</fpage>&#8211;<lpage>413</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkl1057" ns0:type="simple">10.1093/nar/gkl1057</ext-link></comment> <object-id pub-id-type="pmid">17169996</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Rhodes</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lipps</surname> <given-names>HJ</given-names></name>. <article-title>G-quadruplexes and their regulatory roles in biology</article-title>. <source>Nucleic Acids Res</source>. <year>2015</year>;<volume>43</volume>(<issue>18</issue>):<fpage>8627</fpage>&#8211;<lpage>8637</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkv862" ns0:type="simple">10.1093/nar/gkv862</ext-link></comment> <object-id pub-id-type="pmid">26350216</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref016">
+<label>16</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Eddy</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Maizels</surname> <given-names>N</given-names></name>. <article-title>Conserved elements with potential to form polymorphic G-quadruplex structures in the first intron of human genes</article-title>. <source>Nucleic Acids Res</source>. <year>2008</year>;<volume>36</volume>(<issue>4</issue>):<fpage>1321</fpage>&#8211;<lpage>1333</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkm1138" ns0:type="simple">10.1093/nar/gkm1138</ext-link></comment> <object-id pub-id-type="pmid">18187510</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kumari</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bugaut</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Huppert</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Balasubramanian</surname> <given-names>S</given-names></name>. <article-title>An RNA G-quadruplex in the 5&#8217; UTR of the NRAS proto-oncogene modulates translation</article-title>. <source>Nat Chem Biol</source>. <year>2007</year>;<volume>3</volume>(<issue>4</issue>):<fpage>218</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nchembio864" ns0:type="simple">10.1038/nchembio864</ext-link></comment> <object-id pub-id-type="pmid">17322877</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref018">
+<label>18</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bugaut</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Balasubramanian</surname> <given-names>S</given-names></name>. <article-title>5&#8217;-UTR RNA G-quadruplexes: translation regulation and targeting</article-title>. <source>Nucleic Acids Res</source>. <year>2012</year>;<volume>40</volume>(<issue>11</issue>):<fpage>4727</fpage>&#8211;<lpage>4741</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gks068" ns0:type="simple">10.1093/nar/gks068</ext-link></comment> <object-id pub-id-type="pmid">22351747</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Zahler</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Williamson</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Cech</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Prescott</surname> <given-names>DM</given-names></name>. <article-title>Inhibition of telomerase by G-quartet DMA structures</article-title>. <source>Nature</source>. <year>1991</year>;<volume>350</volume>(<issue>6320</issue>):<fpage>718</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/350718a0" ns0:type="simple">10.1038/350718a0</ext-link></comment> <object-id pub-id-type="pmid">2023635</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Craigie</surname> <given-names>R</given-names></name>. <article-title>HIV integrase, a brief overview from chemistry to therapeutics</article-title>. <source>J Biol Chem</source>. <year>2001</year>;<volume>276</volume>(<issue>26</issue>):<fpage>23213</fpage>&#8211;<lpage>23216</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.R100027200" ns0:type="simple">10.1074/jbc.R100027200</ext-link></comment> <object-id pub-id-type="pmid">11346660</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref021">
+<label>21</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Human telomeric G-quadruplex: The current status of telomeric G-quadruplexes as therapeutic targets in human cancer</article-title>. <source>FEBS J</source>. <year>2010</year>;<volume>277</volume>(<issue>5</issue>):<fpage>1118</fpage>&#8211;<lpage>1125</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1742-4658.2009.07463.x" ns0:type="simple">10.1111/j.1742-4658.2009.07463.x</ext-link></comment> <object-id pub-id-type="pmid">19951354</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref022">
+<label>22</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Perrone</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Butovskaya</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Daelemans</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Palu</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Pannecouque</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Richter</surname> <given-names>SN</given-names></name>. <article-title>Anti-HIV-1 activity of the G-quadruplex ligand BRACO-19</article-title>. <source>J Antimicrob Chemother</source>. <year>2014</year>;<volume>69</volume>(<issue>12</issue>):<fpage>3248</fpage>&#8211;<lpage>3258</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jac/dku280" ns0:type="simple">10.1093/jac/dku280</ext-link></comment> <object-id pub-id-type="pmid">25103489</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kankia</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Gvarjaladze</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Rabe</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lomidze</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Metreveli</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Musier-Forsyth</surname> <given-names>K</given-names></name>. <article-title>Stable domain assembly of a monomolecular DNA quadruplex: implications for DNA-based nanoswitches</article-title>. <source>Biophys J</source>. <year>2016</year>;<volume>110</volume>(<issue>10</issue>):<fpage>2169</fpage>&#8211;<lpage>2175</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.bpj.2016.04.031" ns0:type="simple">10.1016/j.bpj.2016.04.031</ext-link></comment> <object-id pub-id-type="pmid">27224482</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref024">
+<label>24</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Saintom&#233;</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Amrane</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mergny</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Alberti</surname> <given-names>P</given-names></name>. <article-title>The exception that confirms the rule: a higher-order telomeric G-quadruplex structure more stable in sodium than in potassium</article-title>. <source>Nucleic Acids Res</source>. <year>2016</year>;<volume>44</volume>(<issue>6</issue>):<fpage>2926</fpage>&#8211;<lpage>2935</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkw003" ns0:type="simple">10.1093/nar/gkw003</ext-link></comment> <object-id pub-id-type="pmid">26762980</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref025">
+<label>25</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Smargiasso</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Rosu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Hsia</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Colson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Bowers</surname> <given-names>MT</given-names></name>, <etal>et al</etal>. <article-title>G-quadruplex DNA assemblies: loop length, cation identity, and multimer formation</article-title>. <source>J Am Chem Soc</source>. <year>2008</year>;<volume>130</volume>(<issue>31</issue>):<fpage>10208</fpage>&#8211;<lpage>10216</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja801535e" ns0:type="simple">10.1021/ja801535e</ext-link></comment> <object-id pub-id-type="pmid">18627159</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref026">
+<label>26</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Do</surname> <given-names>NQ</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Monomer&#8211;Dimer Equilibrium for the 5&#8217;&#8211;5&#8217; Stacking of Propeller-Type Parallel-Stranded G-Quadruplexes: NMR Structural Study</article-title>. <source>Chem Eur J</source>. <year>2012</year>;<volume>18</volume>(<issue>46</issue>):<fpage>14752</fpage>&#8211;<lpage>14759</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/chem.201103295" ns0:type="simple">10.1002/chem.201103295</ext-link></comment> <object-id pub-id-type="pmid">23019076</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref027">
+<label>27</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Matsugami</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ouhashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kanagawa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kanagawa</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Uesugi</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>An intramolecular quadruplex of (GGA)<sub>4</sub> triplet repeat DNA with a G:G:G:G tetrad and a G(:A):G(:A):G(:A):G heptad, and its dimeric interaction</article-title>. <source>J Mol Biol</source>. <year>2001</year>;<volume>313</volume>(<issue>2</issue>):<fpage>255</fpage>&#8211;<lpage>269</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1006/jmbi.2001.5047" ns0:type="simple">10.1006/jmbi.2001.5047</ext-link></comment> <object-id pub-id-type="pmid">11800555</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Do</surname> <given-names>NQ</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Teo</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Heddi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Stacking of G-quadruplexes: NMR structure of a G-rich oligonucleotide with potential anti-HIV and anticancer activity</article-title>. <source>Nucleic Acids Res</source>. <year>2011</year>;<volume>39</volume>(<issue>21</issue>):<fpage>9448</fpage>&#8211;<lpage>9457</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkr539" ns0:type="simple">10.1093/nar/gkr539</ext-link></comment> <object-id pub-id-type="pmid">21840903</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref029">
+<label>29</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kuryavyi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Cahoon</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Seifert</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>DJ</given-names></name>. <article-title>RecA-binding pilE G4 sequence essential for pilin antigenic variation forms monomeric and 5&#8217; end-stacked dimeric parallel G-quadruplexes</article-title>. <source>Structure</source>. <year>2012</year>;<volume>20</volume>(<issue>12</issue>):<fpage>2090</fpage>&#8211;<lpage>2102</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.str.2012.09.013" ns0:type="simple">10.1016/j.str.2012.09.013</ext-link></comment> <object-id pub-id-type="pmid">23085077</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref030">
+<label>30</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Adrian</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ang</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Lech</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Heddi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Nicolas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Structure and conformational dynamics of a stacked dimeric G-quadruplex formed by the human CEB1 minisatellite</article-title>. <source>J Am Chem Soc</source>. <year>2014</year>;<volume>136</volume>(<issue>17</issue>):<fpage>6297</fpage>&#8211;<lpage>6305</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja4125274" ns0:type="simple">10.1021/ja4125274</ext-link></comment> <object-id pub-id-type="pmid">24742225</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref031">
+<label>31</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Crystal structure of parallel quadruplexes from human telomeric DNA</article-title>. <source>Nature</source>. <year>2002</year>;<volume>417</volume>(<issue>6891</issue>):<fpage>876</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nature755" ns0:type="simple">10.1038/nature755</ext-link></comment> <object-id pub-id-type="pmid">12050675</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref032">
+<label>32</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Nicoludis</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Jeffrey</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Barrett</surname> <given-names>SP</given-names></name>, <name name-style="western"><surname>Rablen</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Lawton</surname> <given-names>TJ</given-names></name>, <etal>et al</etal>. <article-title>Optimized end-stacking provides specificity of N-methyl mesoporphyrin IX for human telomeric G-quadruplex DNA</article-title>. <source>J Am Chem Soc</source>. <year>2012</year>;<volume>134</volume>(<issue>50</issue>):<fpage>20446</fpage>&#8211;<lpage>20456</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja3088746" ns0:type="simple">10.1021/ja3088746</ext-link></comment> <object-id pub-id-type="pmid">23181361</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref033">
+<label>33</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Meier</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Moya-Torres</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Krahn</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>McDougall</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Orriss</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>McRae</surname> <given-names>EK</given-names></name>, <etal>et al</etal>. <article-title>Structure and hydrodynamics of a DNA G-quadruplex with a cytosine bulge</article-title>. <source>Nucleic Acids Res</source>. <year>2018</year>;<volume>46</volume>(<issue>10</issue>):<fpage>5319</fpage>&#8211;<lpage>5331</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gky307" ns0:type="simple">10.1093/nar/gky307</ext-link></comment> <object-id pub-id-type="pmid">29718405</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref034">
+<label>34</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Human telomeric G-quadruplex: structures of DNA and RNA sequences</article-title>. <source>FEBS J</source>. <year>2010</year>;<volume>277</volume>(<issue>5</issue>):<fpage>1107</fpage>&#8211;<lpage>1117</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1742-4658.2009.07464.x" ns0:type="simple">10.1111/j.1742-4658.2009.07464.x</ext-link></comment> <object-id pub-id-type="pmid">19951353</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref035">
+<label>35</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Yu</surname> <given-names>HQ</given-names></name>, <name name-style="western"><surname>Miyoshi</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sugimoto</surname> <given-names>N</given-names></name>. <article-title>Characterization of structure and stability of long telomeric DNA G-quadruplexes</article-title>. <source>J Am Chem Soc</source>. <year>2006</year>;<volume>128</volume>(<issue>48</issue>):<fpage>15461</fpage>&#8211;<lpage>15468</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja064536h" ns0:type="simple">10.1021/ja064536h</ext-link></comment> <object-id pub-id-type="pmid">17132013</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref036">
+<label>36</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Collie</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Promontorio</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hampel</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Micco</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>. <article-title>Structural basis for telomeric G-quadruplex targeting by naphthalene diimide ligands</article-title>. <source>J Am Chem Soc</source>. <year>2012</year>;<volume>134</volume>(<issue>5</issue>):<fpage>2723</fpage>&#8211;<lpage>2731</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja2102423" ns0:type="simple">10.1021/ja2102423</ext-link></comment> <object-id pub-id-type="pmid">22280460</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref037">
+<label>37</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Huang</surname> <given-names>XX</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>LN</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Huo</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Duan</surname> <given-names>NN</given-names></name>, <name name-style="western"><surname>Kong</surname> <given-names>DM</given-names></name>. <article-title>Two cationic porphyrin isomers showing different multimeric G-quadruplex recognition specificity against monomeric G-quadruplexes</article-title>. <source>Nucleic Acids Res</source>. <year>2014</year>;<volume>42</volume>(<issue>13</issue>):<fpage>8719</fpage>&#8211;<lpage>8731</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gku526" ns0:type="simple">10.1093/nar/gku526</ext-link></comment> <object-id pub-id-type="pmid">24939896</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref038">
+<label>38</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Cuenca</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Topology conservation and loop flexibility in quadruplex&#8211;drug recognition: crystal structures of inter-and intramolecular telomeric DNA quadruplex&#8211;drug complexes</article-title>. <source>J Mol Biol</source>. <year>2008</year>;<volume>381</volume>(<issue>5</issue>):<fpage>1145</fpage>&#8211;<lpage>1156</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jmb.2008.06.022" ns0:type="simple">10.1016/j.jmb.2008.06.022</ext-link></comment> <object-id pub-id-type="pmid">18619463</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref039">
+<label>39</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bai</surname> <given-names>LP</given-names></name>, <name name-style="western"><surname>Hagihara</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>ZH</given-names></name>, <name name-style="western"><surname>Nakatani</surname> <given-names>K</given-names></name>. <article-title>Ligand binding to tandem G quadruplexes from human telomeric DNA</article-title>. <source>ChemBioChem</source>. <year>2008</year>;<volume>9</volume>(<issue>16</issue>):<fpage>2583</fpage>&#8211;<lpage>2587</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/cbic.200800256" ns0:type="simple">10.1002/cbic.200800256</ext-link></comment> <object-id pub-id-type="pmid">18855963</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref040">
+<label>40</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Campbell</surname> <given-names>NH</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Reszka</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Structural basis of DNA quadruplex recognition by an acridine drug</article-title>. <source>Journal of the American Chemical Society</source>. <year>2008</year>;<volume>130</volume>(<issue>21</issue>):<fpage>6722</fpage>&#8211;<lpage>6724</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja8016973" ns0:type="simple">10.1021/ja8016973</ext-link></comment> <object-id pub-id-type="pmid">18457389</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref041">
+<label>41</label>
+<mixed-citation publication-type="other" ns0:type="simple">Haider SM, Neidle S. A molecular model for drug binding to tandem repeats of telomeric G-quadruplexes; 2009.</mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref042">
+<label>42</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bazzicalupi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ferraroni</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bilia</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Scheggi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Gratteri</surname> <given-names>P</given-names></name>. <article-title>The crystal structure of human telomeric DNA complexed with berberine: an interesting case of stacked ligand to G-tetrad ratio higher than 1:1</article-title>. <source>Nucleic Acids Res</source>. <year>2012</year>;<volume>41</volume>(<issue>1</issue>):<fpage>632</fpage>&#8211;<lpage>638</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gks1001" ns0:type="simple">10.1093/nar/gks1001</ext-link></comment> <object-id pub-id-type="pmid">23104378</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref043">
+<label>43</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Haider</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>. <article-title>Molecular dynamics and principal components analysis of human telomeric quadruplex multimers</article-title>. <source>Biophys J</source>. <year>2008</year>;<volume>95</volume>(<issue>1</issue>):<fpage>296</fpage>&#8211;<lpage>311</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1529/biophysj.107.120501" ns0:type="simple">10.1529/biophysj.107.120501</ext-link></comment> <object-id pub-id-type="pmid">18375510</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref044">
+<label>44</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Cang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>&#352;poner</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cheatham</surname> <given-names>TE</given-names> <suffix>III</suffix></name>. <article-title>Insight into G-DNA structural polymorphism and folding from sequence and loop connectivity through free energy analysis</article-title>. <source>J Am Chem Soc</source>. <year>2011</year>;<volume>133</volume>(<issue>36</issue>):<fpage>14270</fpage>&#8211;<lpage>14279</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja107805r" ns0:type="simple">10.1021/ja107805r</ext-link></comment> <object-id pub-id-type="pmid">21761922</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref045">
+<label>45</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Lech</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Heddi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Guanine base stacking in G-quadruplex nucleic acids</article-title>. <source>Nucleic Acids Res</source>. <year>2012</year>;<volume>41</volume>(<issue>3</issue>):<fpage>2034</fpage>&#8211;<lpage>2046</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gks1110" ns0:type="simple">10.1093/nar/gks1110</ext-link></comment> <object-id pub-id-type="pmid">23268444</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref046">
+<label>46</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Varizhuk</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Protopopova</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Tsvetkov</surname> <given-names>VB</given-names></name>, <name name-style="western"><surname>Barinov</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Podgorsky</surname> <given-names>VV</given-names></name>, <name name-style="western"><surname>Tankevich</surname> <given-names>MV</given-names></name>, <etal>et al</etal>. <article-title>Polymorphism of G4 associates: from stacks to wires via interlocks</article-title>. <source>Nucleic Acids Res</source>. <year>2018</year>;<volume>46</volume>(<issue>17</issue>):<fpage>8978</fpage>&#8211;<lpage>8992</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gky729" ns0:type="simple">10.1093/nar/gky729</ext-link></comment> <object-id pub-id-type="pmid">30107602</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref047">
+<label>47</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Heddi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Structure of human telomeric DNA in crowded solution</article-title>. <source>J Am Chem Soc</source>. <year>2011</year>;<volume>133</volume>(<issue>25</issue>):<fpage>9824</fpage>&#8211;<lpage>9833</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja200786q" ns0:type="simple">10.1021/ja200786q</ext-link></comment> <object-id pub-id-type="pmid">21548653</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref048">
+<label>48</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Martadinata</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Structure of propeller-type parallel-stranded RNA G-quadruplexes, formed by human telomeric RNA sequences in K+ solution</article-title>. <source>J Am Chem Soc</source>. <year>2009</year>;<volume>131</volume>(<issue>7</issue>):<fpage>2570</fpage>&#8211;<lpage>2578</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja806592z" ns0:type="simple">10.1021/ja806592z</ext-link></comment> <object-id pub-id-type="pmid">19183046</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref049">
+<label>49</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Martadinata</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Heddi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Phan</surname> <given-names>AT</given-names></name>. <article-title>Structure of long human telomeric RNA (TERRA): G-quadruplexes formed by four and eight UUAGGG repeats are stable building blocks</article-title>. <source>Biochemistry</source>. <year>2011</year>;<volume>50</volume>(<issue>29</issue>):<fpage>6455</fpage>&#8211;<lpage>6461</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/bi200569f" ns0:type="simple">10.1021/bi200569f</ext-link></comment> <object-id pub-id-type="pmid">21671673</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref050">
+<label>50</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kogut</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kleist</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Czub</surname> <given-names>J</given-names></name>. <article-title>Molecular dynamics simulations reveal the balance of forces governing the formation of a guanine tetrad-a common structural unit of G-quadruplex DNA</article-title>. <source>Nucleic Acids Res</source>. <year>2016</year>;<volume>44</volume>(<issue>7</issue>):<fpage>3020</fpage>&#8211;<lpage>3030</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkw160" ns0:type="simple">10.1093/nar/gkw160</ext-link></comment> <object-id pub-id-type="pmid">26980278</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref051">
+<label>51</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Islam</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Sgobba</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Laughton</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Orozco</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sponer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Conformational dynamics of the human propeller telomeric DNA quadruplex on a microsecond time scale</article-title>. <source>Nucleic Acids Res</source>. <year>2013</year>;<volume>41</volume>(<issue>4</issue>):<fpage>2723</fpage>&#8211;<lpage>2735</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gks1331" ns0:type="simple">10.1093/nar/gks1331</ext-link></comment> <object-id pub-id-type="pmid">23293000</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref052">
+<label>52</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Beauchamp</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Bowman</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Lane</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Maibaum</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Haque</surname> <given-names>IS</given-names></name>, <name name-style="western"><surname>Pande</surname> <given-names>VS</given-names></name>. <article-title>MSMBuilder2: modeling conformational dynamics on the picosecond to millisecond scale</article-title>. <source>J Chem Theory Comput</source>. <year>2011</year>;<volume>7</volume>(<issue>10</issue>):<fpage>3412</fpage>&#8211;<lpage>3419</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ct200463m" ns0:type="simple">10.1021/ct200463m</ext-link></comment> <object-id pub-id-type="pmid">22125474</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref053">
+<label>53</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Jurrus</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Engel</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Star</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Monson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Brandi</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Felberg</surname> <given-names>LE</given-names></name>, <etal>et al</etal>. <article-title>Improvements to the APBS biomolecular solvation software suite</article-title>. <source>Protein Science</source>. <year>2018</year>;<volume>27</volume>(<issue>1</issue>):<fpage>112</fpage>&#8211;<lpage>128</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/pro.3280" ns0:type="simple">10.1002/pro.3280</ext-link></comment> <object-id pub-id-type="pmid">28836357</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref054">
+<label>54</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Gon&#231;alves</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Rodriguez</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Balasubramanian</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sanders</surname> <given-names>JK</given-names></name>. <article-title>Tetramethylpyridiniumporphyrazines-a new class of G-quadruplex inducing and stabilising ligands</article-title>. <source>Chem Commun</source>. <year>2006</year>; p. <fpage>4685</fpage>&#8211;<lpage>4687</lpage>.</mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref055">
+<label>55</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Monchaud</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Granzhan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Saettel</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gu&#233;din</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mergny</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Teulade-Fichou</surname> <given-names>MP</given-names></name>. <article-title>&#8220;One Ring to Bind Them All&#8221;&#8211;Part I: The Efficiency of the Macrocyclic Scaffold for G-Quadruplex DNA Recognition</article-title>. <source>J Nucleic Acids</source>. <year>2010</year>;<volume>2010</volume>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4061/2010/525862" ns0:type="simple">10.4061/2010/525862</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref056">
+<label>56</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>V&#237;glask&#7923;</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Tlu&#269;kov&#225;</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Bauer</surname> <given-names>L</given-names></name>. <article-title>The first derivative of a function of circular dichroism spectra: biophysical study of human telomeric G-quadruplex</article-title>. <source>Eur Biophys J</source>. <year>2011</year>;<volume>40</volume>(<issue>1</issue>):<fpage>29</fpage>&#8211;<lpage>37</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00249-010-0625-8" ns0:type="simple">10.1007/s00249-010-0625-8</ext-link></comment> <object-id pub-id-type="pmid">20827473</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref057">
+<label>57</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Collie</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Parkinson</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Neidle</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rosu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>De Pauw</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Gabelica</surname> <given-names>V</given-names></name>. <article-title>Electrospray mass spectrometry of telomeric RNA (TERRA) reveals the formation of stable multimeric G-quadruplex structures</article-title>. <source>J Am Chem Soc</source>. <year>2010</year>;<volume>132</volume>(<issue>27</issue>):<fpage>9328</fpage>&#8211;<lpage>9334</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ja100345z" ns0:type="simple">10.1021/ja100345z</ext-link></comment> <object-id pub-id-type="pmid">20565109</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref058">
+<label>58</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Uddin</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Takagi</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Mikuma</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Taira</surname> <given-names>K</given-names></name>. <article-title>Phosphorylation at 5&#8217; end of guanosine stretches inhibits dimerization of G-quadruplexes and formation of a G-quadruplex interferes with the enzymatic activities of DNA enzymes</article-title>. <source>Nucleic Acids Res</source>. <year>2004</year>;<volume>32</volume>(<issue>15</issue>):<fpage>4618</fpage>&#8211;<lpage>4629</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/nar/gkh766" ns0:type="simple">10.1093/nar/gkh766</ext-link></comment> <object-id pub-id-type="pmid">15333694</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref059">
+<label>59</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Jorgensen</surname> <given-names>WL</given-names></name>, <name name-style="western"><surname>Chandrasekhar</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Madura</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Impey</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Klein</surname> <given-names>ML</given-names></name>. <article-title>Comparison of simple potential functions for simulating liquid water</article-title>. <source>J Chem Phys</source>. <year>1983</year>;<volume>79</volume>(<issue>2</issue>):<fpage>926</fpage>&#8211;<lpage>935</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1063/1.445869" ns0:type="simple">10.1063/1.445869</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref060">
+<label>60</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hart</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Foloppe</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Denning</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Nilsson</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>MacKerell</surname> <given-names>AD</given-names> <suffix>Jr</suffix></name>. <article-title>Optimization of the CHARMM additive force field for DNA: Improved treatment of the BI/BII conformational equilibrium</article-title>. <source>J Chem Theory Comput</source>. <year>2011</year>;<volume>8</volume>(<issue>1</issue>):<fpage>348</fpage>&#8211;<lpage>362</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ct200723y" ns0:type="simple">10.1021/ct200723y</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref061">
+<label>61</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Tawani</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mishra</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>A</given-names></name>. <article-title>Structural insight for the recognition of G-quadruplex structure at human c-myc promoter sequence by flavonoid Quercetin</article-title>. <source>Scientific reports</source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>3600</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41598-017-03906-3" ns0:type="simple">10.1038/s41598-017-03906-3</ext-link></comment> <object-id pub-id-type="pmid">28620169</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref062">
+<label>62</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Zhou</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>DY</given-names></name>, <name name-style="western"><surname>Sheu</surname> <given-names>SY</given-names></name>. <article-title>The molecular mechanism of ligand unbinding from the human telomeric G-quadruplex by steered molecular dynamics and umbrella sampling simulations</article-title>. <source>Physical Chemistry Chemical Physics</source>. <year>2015</year>;<volume>17</volume>(<issue>19</issue>):<fpage>12857</fpage>&#8211;<lpage>12869</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/c5cp00378d" ns0:type="simple">10.1039/c5cp00378d</ext-link></comment> <object-id pub-id-type="pmid">25908641</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref063">
+<label>63</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Akhshi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Acton</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>G</given-names></name>. <article-title>Molecular dynamics simulations to provide new insights into the asymmetrical ammonium ion movement inside of the [d (G3T4G4)] 2 G-quadruplex DNA structure</article-title>. <source>The Journal of Physical Chemistry B</source>. <year>2012</year>;<volume>116</volume>(<issue>31</issue>):<fpage>9363</fpage>&#8211;<lpage>9370</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/jp304760k" ns0:type="simple">10.1021/jp304760k</ext-link></comment> <object-id pub-id-type="pmid">22780684</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref064">
+<label>64</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Akhshi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>G</given-names></name>. <article-title>Umbrella sampling molecular dynamics simulations reveal concerted ion movement through G-quadruplex DNA channels</article-title>. <source>Physical Chemistry Chemical Physics</source>. <year>2017</year>;<volume>19</volume>(<issue>18</issue>):<fpage>11017</fpage>&#8211;<lpage>11025</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1039/c7cp01028a" ns0:type="simple">10.1039/c7cp01028a</ext-link></comment> <object-id pub-id-type="pmid">28327752</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref065">
+<label>65</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Ivani</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Dans</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Noy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>P&#233;rez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Faustino</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Hospital</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Parmbsc1: a refined force field for DNA simulations</article-title>. <source>Nature methods</source>. <year>2016</year>;<volume>13</volume>(<issue>1</issue>):<fpage>55</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nmeth.3658" ns0:type="simple">10.1038/nmeth.3658</ext-link></comment> <object-id pub-id-type="pmid">26569599</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref066">
+<label>66</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Vanommeslaeghe</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hatcher</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Acharya</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kundu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zhong</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shim</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields</article-title>. <source>J Comput Chem</source>. <year>2010</year>;<volume>31</volume>(<issue>4</issue>):<fpage>671</fpage>&#8211;<lpage>690</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jcc.21367" ns0:type="simple">10.1002/jcc.21367</ext-link></comment> <object-id pub-id-type="pmid">19575467</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref067">
+<label>67</label>
+<mixed-citation publication-type="other" ns0:type="simple">Frisch MJ, Trucks GW, Schlegel HB, Scuseria GE, Robb MA, Cheeseman JR, et al.. Gaussian 16 Revision B.01; 2016.</mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref068">
+<label>68</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hess</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kutzner</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Van Der Spoel</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lindahl</surname> <given-names>E</given-names></name>. <article-title>GROMACS 4: algorithms for highly efficient, load-balanced, and scalable molecular simulation</article-title>. <source>J Chem Theory Comput</source>. <year>2008</year>;<volume>4</volume>(<issue>3</issue>):<fpage>435</fpage>&#8211;<lpage>447</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ct700301q" ns0:type="simple">10.1021/ct700301q</ext-link></comment> <object-id pub-id-type="pmid">26620784</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref069">
+<label>69</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bussi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Donadio</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Parrinello</surname> <given-names>M</given-names></name>. <article-title>Canonical sampling through velocity rescaling</article-title>. <source>J Chem Phys</source>. <year>2007</year>;<volume>126</volume>(<issue>1</issue>):<fpage>014101</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1063/1.2408420" ns0:type="simple">10.1063/1.2408420</ext-link></comment> <object-id pub-id-type="pmid">17212484</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref070">
+<label>70</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Parrinello</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rahman</surname> <given-names>A</given-names></name>. <article-title>Polymorphic transitions in single crystals: A new molecular dynamics method</article-title>. <source>J Appl Phys</source>. <year>1981</year>;<volume>52</volume>(<issue>12</issue>):<fpage>7182</fpage>&#8211;<lpage>7190</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1063/1.328693" ns0:type="simple">10.1063/1.328693</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref071">
+<label>71</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Darden</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>York</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Pedersen</surname> <given-names>L</given-names></name>. <article-title>Particle mesh Ewald: An N&#8901;log(N) method for Ewald sums in large systems</article-title>. <source>J Chem Phys</source>. <year>1993</year>;<volume>98</volume>(<issue>12</issue>):<fpage>10089</fpage>&#8211;<lpage>10092</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1063/1.464397" ns0:type="simple">10.1063/1.464397</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref072">
+<label>72</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Hess</surname> <given-names>B</given-names></name>. <article-title>P-LINCS: A parallel linear constraint solver for molecular simulation</article-title>. <source>J Chem Theory Comput</source>. <year>2008</year>;<volume>4</volume>(<issue>1</issue>):<fpage>116</fpage>&#8211;<lpage>122</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/ct700200b" ns0:type="simple">10.1021/ct700200b</ext-link></comment> <object-id pub-id-type="pmid">26619985</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref073">
+<label>73</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Miyamoto</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kollman</surname> <given-names>PA</given-names></name>. <article-title>Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models</article-title>. <source>J Comput Chem</source>. <year>1992</year>;<volume>13</volume>(<issue>8</issue>):<fpage>952</fpage>&#8211;<lpage>962</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jcc.540130805" ns0:type="simple">10.1002/jcc.540130805</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref074">
+<label>74</label><mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Bonomi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Branduardi</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bussi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Camilloni</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Provasi</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Raiteri</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>PLUMED: A portable plugin for free-energy calculations with molecular dynamics</article-title>. <source>Comput Phys Commun</source>. <year>2009</year>;<volume>180</volume>(<issue>10</issue>):<fpage>1961</fpage>&#8211;<lpage>1972</lpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cpc.2009.05.011" ns0:type="simple">https://doi.org/10.1016/j.cpc.2009.05.011</ext-link>.</mixed-citation></ref>
+<ref id="pcbi.1007383.ref075">
+<label>75</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Kumar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rosenberg</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Bouzida</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Swendsen</surname> <given-names>RH</given-names></name>, <name name-style="western"><surname>Kollman</surname> <given-names>PA</given-names></name>. <article-title>Multidimensional free-energy calculations using the weighted histogram analysis method</article-title>. <source>J Comput Chem</source>. <year>1995</year>;<volume>16</volume>(<issue>11</issue>):<fpage>1339</fpage>&#8211;<lpage>1350</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jcc.540161104" ns0:type="simple">10.1002/jcc.540161104</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref076">
+<label>76</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Deng</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Wickstrom</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Cieplak</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>D</given-names></name>. <article-title>Resolving the ligand-binding specificity in c-MYC G-quadruplex DNA: absolute binding free energy calculations and SPR experiment</article-title>. <source>The Journal of Physical Chemistry B</source>. <year>2017</year>;<volume>121</volume>(<issue>46</issue>):<fpage>10484</fpage>&#8211;<lpage>10497</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1021/acs.jpcb.7b09406" ns0:type="simple">10.1021/acs.jpcb.7b09406</ext-link></comment> <object-id pub-id-type="pmid">29086571</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref077">
+<label>77</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Lee</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Olson</surname> <given-names>MA</given-names></name>. <article-title>Calculation of absolute protein-ligand binding affinity using path and endpoint approaches</article-title>. <source>Biophysical journal</source>. <year>2006</year>;<volume>90</volume>(<issue>3</issue>):<fpage>864</fpage>&#8211;<lpage>877</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1529/biophysj.105.071589" ns0:type="simple">10.1529/biophysj.105.071589</ext-link></comment> <object-id pub-id-type="pmid">16284269</object-id></mixed-citation>
+</ref>
+<ref id="pcbi.1007383.ref078">
+<label>78</label>
+<mixed-citation publication-type="journal" ns0:type="simple">
+<name name-style="western"><surname>Humphrey</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Dalke</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schulten</surname> <given-names>K</given-names></name>. <article-title>VMD: visual molecular dynamics</article-title>. <source>Journal of molecular graphics</source>. <year>1996</year>;<volume>14</volume>(<issue>1</issue>):<fpage>33</fpage>&#8211;<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0263-7855(96)00018-5" ns0:type="simple">10.1016/0263-7855(96)00018-5</ext-link></comment> <object-id pub-id-type="pmid">8744570</object-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pcbi.1007383.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ben-Tal</surname>
+<given-names>Nir</given-names>
+</name>
+<role>Deputy Editor</role>
+</contrib>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wei</surname>
+<given-names>Guanghong</given-names>
+</name>
+<role>Associate Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ben-Tal, Wei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">18 Jul 2019</named-content>
+</p>
+<p>Dear Dr Czub,</p>
+<p>Thank you very much for submitting your manuscript 'Why do G-quadruplexes dimerize through the 5&#8217;-ends? Driving forces for G4 DNA dimerization examined in atomic detail.' for review by PLOS Computational Biology. Your manuscript has been fully evaluated by the PLOS Computational Biology editorial team and in this case also by independent peer reviewers. The reviewers appreciated the attention to an important problem, but raised some substantial concerns about the manuscript as it currently stands. While your manuscript cannot be accepted in its present form, we are willing to consider a revised version in which the issues raised by the reviewers have been adequately addressed. We cannot, of course, promise publication at that time.</p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>Your revisions should address the specific points made by each reviewer. Please return the revised version within the next 60 days. If you anticipate any delay in its return, we ask that you let us know the expected resubmission date by email at <email ns0:type="simple">ploscompbiol@plos.org</email>. Revised manuscripts received beyond 60 days may require evaluation and peer review similar to that applied to newly submitted manuscripts.</p>
+<p>In addition, when you are ready to resubmit, please be prepared to provide the following:</p>
+<p>(1) A detailed list of your responses to the review comments and the changes you have made in the manuscript. We require a file of this nature before your manuscript is passed back to the editors.</p>
+<p>(2) A copy of your manuscript with the changes highlighted (encouraged). We encourage authors, if possible to show clearly where changes have been made to their manuscript e.g. by highlighting text.</p>
+<p>(3) A striking still image to accompany your article (optional). If the image is judged to be suitable by the editors, it may be featured on our website and might be chosen as the issue image for that month. These square, high-quality images should be accompanied by a short caption. Please note as well that there should be no copyright restrictions on the use of the image, so that it can be published under the Open-Access license and be subject only to appropriate attribution.</p>
+<p>Before you resubmit your manuscript, please consult our Submission Checklist to ensure your manuscript is formatted correctly for PLOS Computational Biology: <ext-link ext-link-type="uri" ns0:href="http://www.ploscompbiol.org/static/checklist.action" ns0:type="simple">http://www.ploscompbiol.org/static/checklist.action</ext-link>. Some key points to remember are:</p>
+<p>- Figures uploaded separately as TIFF or EPS files (if you wish, your figures may remain in your main manuscript file in addition).</p>
+<p>- Supporting Information uploaded as separate files, titled Dataset, Figure, Table, Text, Protocol, Audio, or Video.</p>
+<p>- Funding information in the 'Financial Disclosure' box in the online system.</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com" ns0:type="simple">https://pacev2.apexcovantage.com</ext-link>&#160;PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>.</p>
+<p>To enhance the reproducibility of your results, we recommend that you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/ploscompbiol/s/submission-guidelines#loc-materials-and-methods" ns0:type="simple">here</ext-link>.&#160;</p>
+<p>We are sorry that we cannot be more positive about your manuscript at this stage, but if you have any concerns or questions, please do not hesitate to contact us.</p>
+<p>Sincerely,</p>
+<p>Guanghong Wei</p>
+<p>Associate Editor</p>
+<p>PLOS Computational Biology</p>
+<p>Nir Ben-Tal</p>
+<p>Deputy Editor</p>
+<p>PLOS Computational Biology</p>
+<p>A link appears below if there are any accompanying review attachments. If you believe any reviews to be missing, please contact <email ns0:type="simple">ploscompbiol@plos.org</email> immediately:</p>
+<p>[LINK]</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Authors:</bold></p>
+<p><bold>Please note here if the review is uploaded as an attachment.</bold></p>
+<p>Reviewer #1: In this work the authors studied the stacking patterns of two G-quadruplexes using large-scale replica exchange MD simulations. Based on the simulations, they gave the dominant stacking model, analyzed the corresponding structures in detail, and investigated the underlying interactions for the stability. They also studied the binding free energies as a function of salt concentrations. The knowledge gained in the study may facilitate controlling G4 assembling and designing new G4 oligomers. Overall, I found the simulations were well done, the analysis was sufficient, and the results were solid. I suggest with acceptance of the paper for publication, provided the following minor problems are fixed.</p>
+<p>1) Figure captions are not complete, e.g., what are the shaded regions in Fig. 1, what are the color codes in Fig. 2 and 4?</p>
+<p>2) In page 9, line 375, the author mentioned &#8220;with 42 K+ counterions &#8230;&#8221;The sentence is hard to understand. And what the equivalent concentration of this &#8220;with 42 K+ conterions&#8221;?</p>
+<p>3) There are some relevant works published previously, e.g., Y. Bian, et al., PLOS CB 2014, v10, e1003562, and J. Zhou, et al., JACS 2017, v139, 7768, the author may want to discuss their relevance with this work.</p>
+<p>Reviewer #2: The paper by Czub et al. is a computational study of preferential orientations of GQ dimerization process. From the well-converged free energy calculation as a function of a distance between two guanine cores, they found that G-quadruplexes preferentially dimerize through the 5'-ends. The reason for this 5'-end preference is due to fine balance between interphosphate repulsion and counterion binding. This paper is well written and demonstrates a power of molecular dynamics simulation methods. I would recommend this paper for the publication of PLOS Comp. Biol. after minor revisions.</p>
+<p>1. Although the authors pointed out an important role of the enthalpic contribution for such dimerization process and decomposed the enthalpic contributions into several factors, it is difficult to find the total enthalpic and entropic changes in the manuscript. These total enthalpic and entropic changes need to be specified at the first place to clearly state whether the dimerization is due to enthalpic or entropic origin.</p>
+<p>2. The authors concluded that 5'-end binding is preferred mainly due to less interphosphate repulsion. Are there any indications of sugar puckering changes for 5'-end, 5&#8217;-3&#8217; end, 3&#8217;-end dimerization cases to modulate such interphosphate repulsive interactions?</p>
+<p>3. In the dimerization via 5'-end, 5&#8217;-3&#8217; end, or 3&#8217;-end, are there any distinctive perturbation of loop regions?</p>
+<p>4. In the GQ dimer, spatial distribution of potassium ions was plotted. In comparison with ion distribution, it would be nice to plot spatial distribution of water at the binding interface to gauge any possible dehydration effect after the dimerization.</p>
+<p>5. For 3,4-TMPyPz ligand, which was used for the 3-3 dimer, the partial charges they derived need to be included in SI.</p>
+<p>Reviewer #3: Please see the attached review.</p>
+<p>**********</p>
+<p><bold>Have all data underlying the figures and results presented in the manuscript been provided?</bold></p>
+<p>Large-scale datasets should be made available via a public repository as described in the <italic>PLOS Computational Biology</italic> <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/ploscompbiol/s/data-availability" ns0:type="simple">data availability policy</ext-link>, and numerical data that underlies graphs or summary statistics should be provided in spreadsheet form as supporting information.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/ploscompbiol/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: Yes: Nanjie Deng</p>
+<supplementary-material id="pcbi.1007383.s022" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s022" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Review-G4-dimerization-PLOS-COMPBIOL-07-2019.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pcbi.1007383.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pcbi.1007383.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">22 Aug 2019</named-content>
+</p>
+<supplementary-material id="pcbi.1007383.s023" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s023" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">response_to_reviewers.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pcbi.1007383.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ben-Tal</surname>
+<given-names>Nir</given-names>
+</name>
+<role>Deputy Editor</role>
+</contrib>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wei</surname>
+<given-names>Guanghong</given-names>
+</name>
+<role>Associate Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ben-Tal, Wei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">29 Aug 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>Dear Dr Czub,</p>
+<p>Thank you very much for submitting your manuscript, 'Why do G-quadruplexes dimerize through the 5&#8217;-ends? Driving forces for G4 DNA dimerization examined in atomic detail.', to PLOS Computational Biology. As with all papers submitted to the journal, yours was fully evaluated by the PLOS Computational Biology editorial team, and in this case, by independent peer reviewers. The reviewers appreciated the attention to an important topic but identified some aspects of the manuscript that should be improved.</p>
+<p>We would therefore like to ask you to modify the manuscript according to the review recommendations before we can consider your manuscript for acceptance. Your revisions should address the specific points made by each reviewer and we encourage you to respond to particular issues Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.raised.</p>
+<p>In addition, when you are ready to resubmit, please be prepared to provide the following:</p>
+<p>(1) A detailed list of your responses to the review comments and the changes you have made in the manuscript. We require a file of this nature before your manuscript is passed back to the editors.</p>
+<p>(2) A copy of your manuscript with the changes highlighted (encouraged). We encourage authors, if possible to show clearly where changes have been made to their manuscript e.g. by highlighting text.</p>
+<p>(3) A striking still image to accompany your article (optional). If the image is judged to be suitable by the editors, it may be featured on our website and might be chosen as the issue image for that month. These square, high-quality images should be accompanied by a short caption. Please note as well that there should be no copyright restrictions on the use of the image, so that it can be published under the Open-Access license and be subject only to appropriate attribution.</p>
+<p>Before you resubmit your manuscript, please consult our Submission Checklist to ensure your manuscript is formatted correctly for PLOS Computational Biology: <ext-link ext-link-type="uri" ns0:href="http://www.ploscompbiol.org/static/checklist.action" ns0:type="simple">http://www.ploscompbiol.org/static/checklist.action</ext-link>. Some key points to remember are:</p>
+<p>- Figures uploaded separately as TIFF or EPS files (if you wish, your figures may remain in your main manuscript file in addition).</p>
+<p>- Supporting Information uploaded as separate files, titled 'Dataset', 'Figure', 'Table', 'Text', 'Protocol', 'Audio', or 'Video'.</p>
+<p>- Funding information in the 'Financial Disclosure' box in the online system.</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com" ns0:type="simple">https://pacev2.apexcovantage.com</ext-link> &#160;PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>.</p>
+<p>We hope to receive your revised manuscript within the next 30 days. If you anticipate any delay in its return, we ask that you let us know the expected resubmission date by email at <email ns0:type="simple">ploscompbiol@plos.org</email>.</p>
+<p>If you have any questions or concerns while you make these revisions, please let us know.</p>
+<p>Sincerely,</p>
+<p>Guanghong Wei</p>
+<p>Associate Editor</p>
+<p>PLOS Computational Biology</p>
+<p>Nir Ben-Tal</p>
+<p>Deputy Editor</p>
+<p>PLOS Computational Biology</p>
+<p>A link appears below if there are any accompanying review attachments. If you believe any reviews to be missing, please contact <email ns0:type="simple">ploscompbiol@plos.org</email> immediately:</p>
+<p>[LINK]</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Authors:</bold></p>
+<p><bold>Please note here if the review is uploaded as an attachment.</bold></p>
+<p>Reviewer #1: The authors have answered all my questions, I suggest the acceptance of the manuscript for publication.</p>
+<p>Reviewer #2: none</p>
+<p>Reviewer #3: Please see the attached review.</p>
+<p>**********</p>
+<p><bold>Have all data underlying the figures and results presented in the manuscript been provided?</bold></p>
+<p>Large-scale datasets should be made available via a public repository as described in the <italic>PLOS Computational Biology</italic> <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/ploscompbiol/s/data-availability" ns0:type="simple">data availability policy</ext-link>, and numerical data that underlies graphs or summary statistics should be provided in spreadsheet form as supporting information.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/ploscompbiol/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: Yes: Nanjie Deng</p>
+<supplementary-material id="pcbi.1007383.s024" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s024" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Review-G4-dimerization-PLOS-COMPBIOL-08-2019-revised.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pcbi.1007383.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pcbi.1007383.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">30 Aug 2019</named-content>
+</p>
+<supplementary-material id="pcbi.1007383.s025" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pcbi.1007383.s025" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">response_to_reviewer.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pcbi.1007383.r005" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r005</article-id>
+<title-group>
+<article-title>Decision Letter 2</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ben-Tal</surname>
+<given-names>Nir</given-names>
+</name>
+<role>Deputy Editor</role>
+</contrib>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wei</surname>
+<given-names>Guanghong</given-names>
+</name>
+<role>Associate Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ben-Tal, Wei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="article" id="rel-obj005" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Sep 2019</named-content>
+</p>
+<p>Dear Dr Czub,</p>
+<p>We are pleased to inform you that your manuscript 'Why do G-quadruplexes dimerize through the 5&#8217;-ends? Driving forces for G4 DNA dimerization examined in atomic detail.' has been provisionally accepted for publication in PLOS Computational Biology.</p>
+<p>Before your manuscript can be formally accepted you will need to complete some formatting changes, which you will receive in a follow up email. Please be aware that it may take several days for you to receive this email; during this time no action is required by you. Once you have received these formatting requests, please note that your manuscript will not be scheduled for publication until you have made the required changes.</p>
+<p>In the meantime, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pcompbiol/" ns0:type="simple">https://www.editorialmanager.com/pcompbiol/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information to ensure an efficient production and billing process.</p>
+<p>One of the goals of PLOS is to make science accessible to educators and the public. PLOS staff issue occasional press releases and make early versions of PLOS Computational Biology articles available to science writers and journalists. PLOS staff also collaborate with Communication and Public Information Offices and would be happy to work with the relevant people at your institution or funding agency. If your institution or funding agency is interested in promoting your findings, please ask them to coordinate their releases with PLOS (contact <email ns0:type="simple">ploscompbiol@plos.org</email>).</p>
+<p>Thank you again for supporting Open Access publishing. We look forward to publishing your paper in PLOS Computational Biology.</p>
+<p>Sincerely,</p>
+<p>Guanghong Wei</p>
+<p>Associate Editor</p>
+<p>PLOS Computational Biology</p>
+<p>Nir Ben-Tal</p>
+<p>Deputy Editor</p>
+<p>PLOS Computational Biology</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Authors:</bold></p>
+<p><bold>Please note here if the review is uploaded as an attachment.</bold></p>
+<p>Reviewer #3: The authors have addressed my concern and I think it should be published without further delay. One more correction, Page 3, line 99, "Table ??" should be "Table 1".</p>
+<p>**********</p>
+<p><bold>Have all data underlying the figures and results presented in the manuscript been provided?</bold></p>
+<p>Large-scale datasets should be made available via a public repository as described in the <italic>PLOS Computational Biology</italic> <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/ploscompbiol/s/data-availability" ns0:type="simple">data availability policy</ext-link>, and numerical data that underlies graphs or summary statistics should be provided in spreadsheet form as supporting information.</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/ploscompbiol/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #3: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pcbi.1007383.r006" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pcbi.1007383.r006</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ben-Tal</surname>
+<given-names>Nir</given-names>
+</name>
+<role>Deputy Editor</role>
+</contrib>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wei</surname>
+<given-names>Guanghong</given-names>
+</name>
+<role>Associate Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ben-Tal, Wei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pcbi.1007383" document-id-type="doi" document-type="article" id="rel-obj006" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">13 Sep 2019</named-content>
+</p>
+<p>PCOMPBIOL-D-19-00976R2 </p>
+<p>Why do G-quadruplexes dimerize through the 5&#8217;-ends? Driving forces for G4 DNA dimerization examined in atomic detail</p>
+<p>Dear Dr Czub,</p>
+<p>I am pleased to inform you that your manuscript has been formally accepted for publication in PLOS Computational Biology. Your manuscript is now with our production department and you will be notified of the publication date in due course.</p>
+<p>The corresponding author will soon be receiving a typeset proof for review, to ensure errors have not been introduced during production. Please review the PDF proof of your manuscript carefully, as this is the last chance to correct any errors. Please note that major changes, or those which affect the scientific understanding of the work, will likely cause delays to the publication date of your manuscript. </p>
+<p>Soon after your final files are uploaded, unless you have opted out, the early version of your manuscript will be published online. The date of the early version will be your article's publication date. The final article will be published to the same URL, and all versions of the paper will be accessible to readers.</p>
+<p>Thank you again for supporting PLOS Computational Biology and open-access publishing. We are looking forward to publishing your work! </p>
+<p>With kind regards,</p>
+<p>Matt Lyles</p>
+<p>PLOS Computational Biology | Carlyle House, Carlyle Road, Cambridge CB4 3DN | United Kingdom <email ns0:type="simple">ploscompbiol@plos.org</email> | Phone +44 (0) 1223-442824 | <ext-link ext-link-type="uri" ns0:href="http://ploscompbiol.org" ns0:type="simple">ploscompbiol.org</ext-link> | @PLOSCompBiol</p>
+</body>
+</sub-article>
+</article>

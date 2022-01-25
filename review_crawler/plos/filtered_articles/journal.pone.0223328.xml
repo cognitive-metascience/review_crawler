@@ -1,0 +1,928 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17583</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject><subj-group><subject>Obstetric procedures</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Equipment</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Database searching</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject><subj-group><subject>Trauma surgery</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Critical care and emergency medicine</subject><subj-group><subject>Trauma medicine</subject><subj-group><subject>Trauma surgery</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Communication in health care</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Behavioral and social aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Critical care and emergency medicine</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Surgical referral systems in low- and middle-income countries: A review of the evidence</article-title>
+<alt-title alt-title-type="running-head">Surgical referral systems in low- and middle-income countries</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3465-9850</contrib-id>
+<name name-style="western">
+<surname>Pittalis</surname>
+<given-names>Chiara</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Brugha</surname>
+<given-names>Ruairi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Gajewski</surname>
+<given-names>Jakub</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Epidemiology and Public Health Medicine, Royal College of Surgeons in Ireland, Dublin, Ireland</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Institute of Global Surgery, Royal College of Surgeons in Ireland, Dublin, Ireland</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Agyepong</surname>
+<given-names>Irene</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Ghana Health Services, GHANA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">chiarapittalis@rcsi.ie</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>27</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0223328</elocation-id>
+<history>
+<date date-type="received">
+<day>21</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>18</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Pittalis et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0223328" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Referral networks are critical in the timely delivery of surgical care, particularly for populations residing in rural areas who have limited access to specialist services. However, in low- and middle-income countries (LMICs) referral networks are often undermined by systemic inefficiencies. If equitable access to essential surgical services is to be achieved, sound evidence is needed to ensure efficient patient care pathways. The aim of this scoping review was to investigate current knowledge regarding inter-hospital surgical referral systems in LMICs to identify the main obstacles to their functioning and to critically assess proposed solutions.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>MEDLINE, EMBASE and Global Health databases and grey literature were systematically searched to identify relevant studies. The search generated 2261 unique records, of which 14 studies were selected for inclusion in the review. The narrative synthesis of retrieved data is based on a conceptual framework developed though a thematic analysis approach.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Multiple shortages in surgical infrastructure, equipment and personnel, as well as gaps in surgical and decision-making skills of clinicians at sending hospitals, act as obstacles to safe and appropriate referrals. Comprehensive protocols for surgical referrals are lacking in most LMICs and established patient pathways, when in place, are not correctly followed. Interventions to improve coordination and communication between different level facilities may enhance efficiency of referral pathways. Strengthening capacity of referring hospitals to manage more surgical conditions locally could improve outcomes, decrease the need for referral and reduce the burden on tertiary facilities.</p>
+</sec>
+<sec id="sec004">
+<title>Discussion</title>
+<p>The field of surgical referrals is still an uncharted territory and the limited empirical evidence available is of low quality. Developing strategies for assessing functionality and effectiveness of referral systems in surgery is essential to improve access, coverage and quality of services in resource-limited settings, as well as overall health systems performance.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The author(s) received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2" />
+<table-count count="2" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>The patient referral system has been defined as <italic>&#8216;a mechanism to enable comprehensive management of clients&#8217; health needs through resources beyond those available where they</italic> [initially] <italic>access care&#8217;</italic> [<xref ref-type="bibr" rid="pone.0223328.ref001">1</xref>]. It links primary care facilities, district hospitals, provincial/regional hospitals and national referral centres, thereby facilitating the forward and backward movement of patients (including flow of information and documentation) according to the type of clinical expertise and management required [<xref ref-type="bibr" rid="pone.0223328.ref002">2</xref>]. As such, the referral system is pivotal in maintaining efficiency in allocation and utilisation of resources across the different levels of the health system and in providing a continuum of care, appropriate to patients&#8217; needs [<xref ref-type="bibr" rid="pone.0223328.ref003">3</xref>].</p>
+<p>In low- and middle-income countries (LMICs) demand for surgical care, particularly specialist care, greatly outstrips provision, due to the critical shortage of a skilled health workforce outside of the main urban centres, leaving rural populations underserved [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>]. Referral networks are essential in addressing patients&#8217; surgical care needs, and to reduce the incidence of morbidity and mortality from treatable surgical conditions. However, referral networks in LMICs are often undermined by systemic inefficiencies such as lack of transport, infrastructure [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>] and sufficient skills at rural district hospitals [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>], and poor coordination between different level hospitals [<xref ref-type="bibr" rid="pone.0223328.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pone.0223328.ref008">8</xref>], among other factors. Another widespread problem is the bypassing of lower level facilities by patients with simple conditions who self-refer directly to higher level hospitals for convenience, fear of delay in accessing the care they need, and belief that quality of care and more effective interventions are available at higher levels [<xref ref-type="bibr" rid="pone.0223328.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0223328.ref009">9</xref>]. As a result, referral hospitals in LMICs are often congested with high volumes of patients with low-complexity conditions, and resources and staff time are absorbed by cases that could have been handled at lower levels [<xref ref-type="bibr" rid="pone.0223328.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>]. This negatively impacts on costs (for patients and the health care sector) [<xref ref-type="bibr" rid="pone.0223328.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0223328.ref012">12</xref>], waiting times and clinical outcomes, where appropriate management is delayed [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>].</p>
+<p>Despite growing attention to hospital surgical capacity in LMICs [<xref ref-type="bibr" rid="pone.0223328.ref008">8</xref>], referral systems and the interface between the different level hospitals have been under-researched [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref015">15</xref>]. If equitable access to essential surgical services is to be achieved, sound evidence is needed to ensure efficient patient care pathways [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0223328.ref016">16</xref>]. This review investigates current knowledge regarding surgical referral systems in LMICs in order to: i) identify the main obstacles to their functioning effectively; and ii) identify proposed and tested solutions, and the available evidence of their effectiveness in addressing these gaps. The focus is on inter-hospital referrals from district hospitals to higher levels as district hospitals are the frontline providers of non-specialist surgical care for rural populations [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>]. As such, they should have the infrastructure, resources and skilled clinicians to perform essential surgery and to decide on appropriate referrals.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<p>The research question for this study was &#8216;what is known about inter-hospital surgical referral systems in LMICs?&#8217; A scoping review was selected as the most suitable approach for the study as our objective was to produce a broad overview of the field and available research evidence [<xref ref-type="bibr" rid="pone.0223328.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0223328.ref018">18</xref>].</p>
+<p>The methodological approach was informed by multiple sources. The study design follows the theoretical principles underpinning systematic reviews described by the Cochrane Collaboration [<xref ref-type="bibr" rid="pone.0223328.ref019">19</xref>] and Petticrew and Roberts [<xref ref-type="bibr" rid="pone.0223328.ref017">17</xref>]. The selection of included papers and their qualitative assessment was guided by review manuals and tools published by the Joanna Briggs Institute [<xref ref-type="bibr" rid="pone.0223328.ref018">18</xref>,<xref ref-type="bibr" rid="pone.0223328.ref020">20</xref>]. The reporting framework follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) approach [<xref ref-type="bibr" rid="pone.0223328.ref021">21</xref>] and its checklist for scoping reviews [<xref ref-type="bibr" rid="pone.0223328.ref022">22</xref>] (provided in <xref ref-type="supplementary-material" rid="pone.0223328.s001">S1 Table</xref>).</p>
+<sec id="sec007">
+<title>Selection criteria</title>
+<p>The Population, Concept and Context (PCC) framework suggested by the Joanna Briggs Institute [<xref ref-type="bibr" rid="pone.0223328.ref018">18</xref>] was used to support the selection of studies to be included in this review. Inclusion/exclusion criteria are summarised in <xref ref-type="table" rid="pone.0223328.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0223328.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223328.t001</object-id>
+<label>Table 1</label> <caption><title>Population, concept and context framework.</title></caption>
+<alternatives>
+<graphic id="pone.0223328.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="left">Inclusion criteria</th>
+<th align="left">Exclusion criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Population</td>
+<td align="left">Patients and staff involved in inter-hospital surgical referrals</td>
+<td align="left">Non-surgical referrals, intra-hospital referrals, community referrals and self-referrals</td>
+</tr>
+<tr>
+<td align="left">Concept</td>
+<td align="left">The functionality of referral networks, including referral patterns, pathways and obstacles</td>
+<td align="left">Papers where surgical referrals are mentioned but the main focus is not on the functionality of the referral system (e.g. papers depicting the range of surgical procedures performed or examining clinical and epidemiological aspects of referrals)</td>
+</tr>
+<tr>
+<td align="left">Context</td>
+<td align="left"><list list-type="bullet"><list-item><p>District, secondary and tertiary hospitals</p></list-item><list-item><p>LMICs</p></list-item></list></td>
+<td align="left"><list list-type="bullet"><list-item><p>Primary care non-surgical facilities (e.g. health centres and dispensaries)</p></list-item><list-item><p>Non-LMICs</p></list-item></list></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Surgical referrals in conflict settings are determined by specific circumstances, surgical skills and responses, which are often not generalisable to stable settings, and were considered outside the scope of this review. Similarly, surgical referrals for safe induced abortions are governed by a range of legislative, cultural and ethical norms which are highly dependent on local contexts; and such studies were also excluded.</p>
+<p>Sources of evidence: all study designs were considered, but text and opinion evidence was excluded. The search was restricted to studies in English language and publication date after 1990.</p>
+</sec>
+<sec id="sec008">
+<title>Search strategy</title>
+<p>The search strategy was informed by an extensive literature scoping exercise, with advice from bibliographic specialists and health systems experts. Its final structure was built around three main arms, namely:</p>
+<list list-type="bullet">
+<list-item><p>Terms relating to hospital referrals</p></list-item>
+<list-item><p>Terms relating to surgery</p></list-item>
+<list-item><p>Terms relating to LMICs/developing economies (following the World Bank classification system [<xref ref-type="bibr" rid="pone.0223328.ref023">23</xref>]).</p></list-item>
+</list>
+<p>The preliminary scoping exercise revealed that many published papers on referral systems focus on individual disciplines of surgery. Hence the search approach was designed to retrieve variations on the term &#8216;surgery&#8217;, for example &#8216;obstetric surgical procedures&#8217; and &#8216;orthopaedic procedures&#8217;. To maximise sensitivity, we included both medical subject headings (MeSH terms) and text words, combined using the Boolean operator &#8216;and&#8217;.</p>
+<p>The search strategy was executed through the examination of the bibliographic databases MEDLINE (PubMed), EMBASE and Global Health on 19&#8211;21 July 2018. It was initially tested in the MEDLINE database, reviewed and then adapted for the other databases. The original search string is reported in <xref ref-type="supplementary-material" rid="pone.0223328.s002">S2 Table</xref>.</p>
+<p>A learning experience from the search process worth noting is that our search string was perhaps too broad, given the number and type of papers initially retrieved. Considering this is a new area of research (at least in LMICs) and that our scoping exercise demonstrated that such studies tend to be categorised under surgical sub-categories, our approach was to purposely keep the search broad to avoid the risk of omitting important studies, but there might be room for further refinement in future reviews.</p>
+</sec>
+<sec id="sec009">
+<title>Other sources</title>
+<p>The bibliographic search was complemented by thorough grey literature retrieval mechanisms, following international best practices and guidelines [<xref ref-type="bibr" rid="pone.0223328.ref024">24</xref>]. The grey literature search involved examining the websites of relevant multilateral and specialist organisations (e.g. World Health Organization) as well as using the Google search engine, with the same keyword search strategy. A snowball technique was also applied to scan reference lists of papers and other material to identify additional relevant publications. A further 15 studies were identified through this process and included in our review.</p>
+</sec>
+<sec id="sec010">
+<title>Document management</title>
+<p>The results of the search outputs were managed using the reference manager software Mendeley, which also supported identification and removal of duplicates. In order to keep accurate records of the review process, retrieved papers were imported into Covidence, a web-based platform for systematic literature reviews facilitating screening, quality appraisal and analysis.</p>
+</sec>
+<sec id="sec011">
+<title>Screening</title>
+<p>Two researchers independently reviewed each title and abstract, with a third researcher consulted in case of conflicting opinions. An inclusive approach was utilised in this first screening phase to ensure papers were not prematurely excluded. Following agreement on all potentially relevant titles and abstracts, full-texts of available selected papers were retrieved for the second round of screening. Again, two researchers reviewed and discussed the suitability of each paper in line with the PCC criteria in <xref ref-type="table" rid="pone.0223328.t001">Table 1</xref>, with the mediation of a third assessor when needed. If a paper was excluded, reasons for exclusion were recorded and categorised as follows:</p>
+<list list-type="bullet">
+<list-item><p>Wrong scope (focus of study not on examining the functionality of the referral process)</p></list-item>
+<list-item><p>Wrong setting (study on referral system at community level, intra-hospital or in a high-income country)</p></list-item>
+<list-item><p>No full text available</p></list-item>
+<list-item><p>Text and opinion evidence</p></list-item>
+</list>
+<p>Covidence contains pre-set forms to facilitate quality assessment, but the forms are more suited for clinical trials. Since the evidence for this review was of a different nature, the assessment of each study was recorded separately, using The Joanna Briggs Institute Critical Appraisal tools [<xref ref-type="bibr" rid="pone.0223328.ref020">20</xref>]. <xref ref-type="fig" rid="pone.0223328.g001">Fig 1</xref> shows a flow diagram of the screening process [<xref ref-type="bibr" rid="pone.0223328.ref021">21</xref>].</p>
+<fig id="pone.0223328.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223328.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Flow diagram of the screening process.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.g001" ns0:type="simple" />
+</fig>
+<p>The initial search yielded 2261 records after duplicates were removed. Of these, 2150 were excluded by reading title and abstract, and 111 studies were considered for full text review. The final selection identified for inclusion in this review consists of 14 papers.</p>
+</sec>
+<sec id="sec012">
+<title>Data charting and analysis</title>
+<p>To our knowledge, there are no guidelines or validated tools for the assessment of inter-hospital surgical referral systems in LMICs. We therefore used a bottom-up thematic analysis approach [<xref ref-type="bibr" rid="pone.0223328.ref025">25</xref>] to identify emerging themes from the selected papers, thereby developing a conceptual (logic [<xref ref-type="bibr" rid="pone.0223328.ref026">26</xref>]) framework to guide our analysis and synthesis of findings.</p>
+<p>We started by reviewing included papers to find any factors that might influence the referral process, loosely informed by Thaddeus and Maine&#8217;s &#8216;three delays model&#8217; of obstacles to the provision of adequate care in developing countries [<xref ref-type="bibr" rid="pone.0223328.ref027">27</xref>]. Firstly, we coded all factors mentioned by the 14 papers as having a direct or indirect effect on referrals. Secondly, we combined conceptually-related ones under themes. Thirdly, we summarised citation frequency, as shown in <xref ref-type="table" rid="pone.0223328.t002">Table 2</xref>. Emerging themes were then grouped into three broad categories: health facility factors, health system factors and operating environment factors.</p>
+<table-wrap id="pone.0223328.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223328.t002</object-id>
+<label>Table 2</label> <caption><title>Emerging themes.</title></caption>
+<alternatives>
+<graphic id="pone.0223328.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left"><italic>Emerging themes</italic></th>
+<th align="left">Albutt et al 2018</th>
+<th align="left">Crandon et al 2008</th>
+<th align="left">Den Hollander et al 2014</th>
+<th align="left">Goodman et al 2017</th>
+<th align="left">Gyedu et al 2015</th>
+<th align="left">Khan et al 2013</th>
+<th align="left">Lee 2008</th>
+<th align="left">Nkurunziza et al 2016</th>
+<th align="left">Simba et al 2008</th>
+<th align="left">Siraj et al 2016</th>
+<th align="left">Fleming et al 2017</th>
+<th align="left">Rudge et al 2011</th>
+<th align="left">Sani et al 2009</th>
+<th align="left">Shi et al 2014</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Availability of resources (supplies&#8211;incl. blood, equipment, staff) at sending facilities</bold></td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Skills level at sending facilities</bold></td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+</tr>
+<tr>
+<td align="left"><bold>Referral by junior staff</bold></td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Communication and coordination practices across facilities</bold></td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+</tr>
+<tr>
+<td align="left"><bold>Patient transport</bold></td>
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Quality of referral documentation from sending hospitals</bold></td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Patient management by sending hospital (incl. observance of safety measures pre- and during transfer)</bold></td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Appropriateness of referrals (complexity of case, accuracy of diagnosis etc.)</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Timeliness of referral</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>National policies and guidelines</bold></td>
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>National health priorities and funding</bold></td>
+<td align="center">x</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left"><bold>Socio-cultural aspects of patient health seeking behaviour</bold></td>
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center">x</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left"><bold>Patients&#8217; financial resources</bold></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="center">x</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Subsequently, we examined the available evidence to understand how identified parameters affect the functionality of the referral process. Type of outcome measures considered included referral patterns, timeliness, appropriateness and quality. Finally, we reviewed the studies to identify any objective measures of effect of the referral process on patient outcomes. The final analytical framework is illustrated in <xref ref-type="fig" rid="pone.0223328.g002">Fig 2</xref> below.</p>
+<fig id="pone.0223328.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223328.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Conceptual framework for the analysis.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.g002" ns0:type="simple" />
+</fig>
+<p>Data charting forms were designed to extract relevant information on characteristics of reviewed papers (author, publication year, study country, population, setting, design and rigour) and outcome measures in a standardised format. Researchers filled in the forms in a collaborative manner, discussing results to agree on final content. The forms were updated in an iterative way, reflecting the analytical framework development process.</p>
+<p>A note on terminology: the classification of district hospitals varies from country to country, they can be categorised as level one facilities (e.g. Tanzania) or level two facilities (e.g. Pakistan) depending on the structure of the national health system. However, the role of the district hospital as the first level facility at which basic general surgical procedures, such as C-sections and hernia repairs, can or ought to be performed is consistent across LMICs. In this manuscript we refer to district hospitals as first level surgical facilities, regional hospitals as secondary level surgical facilities and national referral hospitals as tertiary level surgical facilities in line with international conventions to describe the different levels of surgical care [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>].</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="results">
+<title>Results</title>
+<sec id="sec014">
+<title>Characteristics of included studies</title>
+<p>Seven studies were conducted in Africa, five in Asia, and one each in Latin America and the Caribbean region. Publication dates ranged from 2008 to 2018. We identified potentially relevant studies conducted prior to 2000, but full texts were not available at the time of the review.</p>
+<p>The study population for most papers consisted of patients, three investigated the perspectives of hospital staff. Six studies examined all surgical referrals, while others focused on specific areas of surgery, namely: obstetric (3), trauma (2), burns (1), paediatric (1) or cancer (1) surgery.</p>
+<p>The majority of included studies (10) are descriptive in nature. Four papers report on the evaluation of interventions, mostly following a case study approach, with only one study involving a control group but in a non-randomised assessment. Based on international frameworks and standards for grading the strength of study design [<xref ref-type="bibr" rid="pone.0223328.ref028">28</xref>], the quality of evidence identified through our literature review is low. A summary of characteristics of the papers, including an overview of study design, rigour and JBI level of evidence [<xref ref-type="bibr" rid="pone.0223328.ref029">29</xref>], is provided in <xref ref-type="supplementary-material" rid="pone.0223328.s003">S3 Table</xref>.</p>
+<p>The following sections present a narrative synthesis of retrieved data, as the nature and heterogeneity of the studies did not lend themselves to quantitative estimates of effects [<xref ref-type="bibr" rid="pone.0223328.ref017">17</xref>]. Results are reported according to the framework in <xref ref-type="fig" rid="pone.0223328.g002">Fig 2</xref>. Our analysis aimed to identify common themes across the studies, assessing similarities and differences in findings where possible.</p>
+</sec>
+<sec id="sec015">
+<title>Factors affecting referrals</title>
+<sec id="sec016">
+<title>Health facility factors</title>
+<p>At the level of individual health facilities, availability of essential resources, both physical (i.e. surgical and diagnostic equipment, supplies and infrastructure) and human (staff numbers and skills to manage cases), as well as communication and coordination with other facilities, were identified as the principal factors affecting referral patterns and practices.</p>
+<p>Seven papers [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>] in our review document lack of supplies, equipment and personnel as the main drivers of referrals to higher level facilities. In a study in the Dar es Salaam region of Tanzania over half of interviewed clinicians at sending health facilities reported referring patients, including surgical patients, due to lack of drugs (53.8%) and space (50%) [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>]; while a study of incoming surgical emergencies at a tertiary hospital in Pakistan, recorded 85.7% of cases being referred due to lack of satisfaction with surgical services at local facilities [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>]. Also in Pakistan, Siraj et al [<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>] report lack of blood products and intensive care units as key reasons for post-partum referrals (18 out of 23 patients); and non-availability of doctor, anaesthetist, blood bank and proper fetal monitoring equipment at district hospitals as the main reasons for intra-partum referrals. Similarly, service providers interviewed as part of a study in Uganda reported having to refer patients for lack of drapes, gowns, surgical blades and blood products [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>]. In Tanzania over 96% of sending facilities reported referring for lack of expertise and equipment [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>]. Resource shortages affect referrals at higher level facilities too. While the extent of shortages at secondary and tertiary hospitals is not quantified in the reviewed papers, there is some evidence of limited availability of very basic materials. For instance, in South Africa general surgical units referred patients due to lack of simple dressings for burns [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>].</p>
+<p>Surgical workforce weaknesses driving referrals comprise shortages in both staff numbers [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>] and expertise [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>]. Reported gaps include limited diagnostic capacity, ability to stabilise patients [<xref ref-type="bibr" rid="pone.0223328.ref015">15</xref>] and to handle certain surgical cases, such as trauma [<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>], emergencies [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>] and high-risk patients [<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>].</p>
+<p>In the reviewed literature there is also evidence of problems related to communication between sending and receiving hospitals. For instance, Albutt et al [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>] described the referral system in Uganda as disorganised and uncoordinated, with generally poor communication during transfer of patients. Two papers [<xref ref-type="bibr" rid="pone.0223328.ref032">32</xref>,<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>] explored communication in more depth, by examining the quality of referral documentation from sending hospitals. A study of 643 elective surgical cases transferred to a tertiary hospital in Ghana found that none of the referral records included all required essential information, with 50% more chances of incomplete information when non-structured forms were used by referring clinicians [<xref ref-type="bibr" rid="pone.0223328.ref032">32</xref>]. A study of critically ill trauma patients in Jamaica reported major gaps in key patient information from referring facilities, such as time of injury (documented in 15.6% of cases), or monitoring of patients&#8217; clinical status (e.g. pulse rate in 13.1% of cases, Glasgow Coma Score in 19.7%) [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>].</p>
+<p>Three studies [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>] captured issues with coordination and safe transport of patients across facilities. These ranged from lack of vehicles and fuel at the sending facilities [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>], to lack of monitoring equipment in vehicles [<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>], and the transfer of critically injured patients by drivers with no emergency medical technician training and without accompanying clinicians [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>].</p>
+</sec>
+<sec id="sec017">
+<title>Health system factors</title>
+<p>Our analysis considered evidence in relation to the health systems within which health facilities work. Health systems design and structure shape the organisation of health services at different care levels, including the patient care pathway, and the distribution of resources across them. While none of the reviewed studies looked specifically at this area, as mentioned by Albutt et al [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>] surgery is not typically among the top priorities for local governments, with implications for funding and, in turn, hospital resources and capacity to deliver surgical services. For instance, at the time of their study Simba et al [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>] reported that the Dar es Salaam region of Tanzania had only three district hospitals and no secondary hospitals. This contributed to overstretching available bed capacity at district level, driving patients to seek quite basic surgical care directly from the national hospital. Other studies mentioned lack of national guidelines or protocols to guide the referral process as important gaps [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>].</p>
+</sec>
+<sec id="sec018">
+<title>Environmental factors</title>
+<p>A number of studies pointed to the influence of wider country contexts on the functionality of referral systems, particularly in terms of patients&#8217; health seeking behaviour and utilisation of health services at the intended level of care. Lee [<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] reported that parents&#8217; objection to transfer or further investigation affected referrals in 8% of the neonatal cases in his study. Albutt et al [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>] documented patients bypassing lower level facilities, preferring to access care directly at higher level, while Siraj et al [<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>] found evidence of patients explicitly requesting to be referred from district hospitals to higher levels for social and personal reasons. Three studies [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>] mentioned that financial constraints influence patients&#8217; health seeking choices and referral decisions.</p>
+</sec>
+</sec>
+<sec id="sec019">
+<title>Implications for the referral process</title>
+<p>The late referrals of patients, often when their clinical status has already deteriorated, is a common theme in the reviewed literature [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>,<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>]. Den Hollander&#8217;s study [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>] on patterns of burn referrals in South Africa recorded one quarter of patients being referred one-week post-burn. In Malaysia, Lee [<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] reported that prompt referral of infants with neonatal cholestasis was done in less than half of cases (47%), although early warning signs were common, including in six infants who had neonatal acute liver failure. In Nkurunziza [<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>] study of trauma in Rwanda, 47% of cases experienced delayed referrals.</p>
+<p>Some of the papers investigated the reasons behind late referrals. In Lee&#8217;s study [<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] the delay was caused by the fact that health care providers who saw the cholestatic infants prior to referral failed to realise the seriousness of the condition. These included junior doctors at government district hospitals (in 6 cases), as well as senior doctors and paediatricians at private and government hospitals (12 cases). Investigation results not properly reviewed and acted upon, inconclusive biopsy results and incorrect diagnoses at the sending facilities also contributed to referral delays. Nkurunziza&#8217;s study [<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>] offers good insights into the reasons for delayed referrals from the point of view of sending institutions, in this case district hospitals. For the 58 trauma referrals for which information on the reason for the delay was available, the main reported delay factors were patients awaiting appointment at receiving hospitals (44.8% of cases); lack of bed space at receiving hospitals (39.7%) and patients&#8217; financial challenges (13.8%). In Rwanda, even if patients had health insurance, they still had to provide a co-payment for ambulances and other medical expenses, on top of personal costs associated with the referral, contributing to delays or avoidance of referrals.</p>
+<p>Two papers [<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>] documented inappropriate referrals. Den Hollander [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>] reports that a large proportion of cases (44% of adults and 30% of children) referred by general surgical units to a specialised tertiary hospital could have been handled at their level of care. Goodman study of obstetric referrals in Ghana, while not specifically assessing clinical appropriateness of referral, found potential indicators of unnecessary transfers, namely: 41 of 90 patients referred for prolonged labour had intact membranes; 25 of 90 parturients with &#8220;big baby&#8221; diagnosis had fundal height &lt; 40 cm, and 13 of 139 with diagnosed hypertension had normal blood pressure on arrival [<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>]. The implication of such referrals was that operative interventions were needed.</p>
+<p>Unnecessary referrals contribute to overwhelming referral hospitals [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>], reducing their ability to cope with demand and provide specialist surgical care.</p>
+<sec id="sec020">
+<title>Patient outcomes</title>
+<p>The types of clinicians making referrals at sending hospitals vary in cadres and seniority levels, but there is mixed evidence on patient outcomes. In Jamaica, Crandon et al [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>] reported that most (93.5% of) referrals are made by junior clinicians, which may be a factor in the poor pre-referral patient stabilisation and management documented in their study. In contrast, in Malaysia Lee [<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] observed that both junior and senior clinicians were responsible for misdiagnoses and delayed referrals.</p>
+<p>Delayed referrals had negative consequences for surgical patients. Den Hollander [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>] reported greatly reduced benefits and high risk of infection for burn patients, from referral to a specialist burn unit seven days after the occurrence of the burns. Crandon et al [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>] suggested that skills gaps at sending facilities, as well as lack of referral protocols, may have contributed to the absence of basic stabilisation and safety measures pre- and during patient transport observed in their study (e.g. 55% of road traffic victims did not have cervical immobilisation during referral).</p>
+<p>Two studies [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] quantified the effects of dysfunctional referral system on patient outcomes. Khan&#8217;s study [<xref ref-type="bibr" rid="pone.0223328.ref005">5</xref>] of surgical emergencies at a tertiary referral hospital in Pakistan found that patients transferred from other health facilities had poorer vital statistics and experienced more deterioration of their clinical condition than those who arrived directly, with significant differences in length of stay in the intensive care unit (5.6 vs 1.5 days). However, there may be questions regarding case-mix comparability. Lee [<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>] study of infants with neonatal cholestasis found that late referral contributed significantly to adverse outcomes, especially in patients with biliary atresia (e.g. they report that three cases with presumptive diagnosis of biliary atresia died as a result of delayed treatment).</p>
+</sec>
+</sec>
+<sec id="sec021">
+<title>Examples of interventions</title>
+<p>Only four papers in our review evaluated interventions designed to improve surgical referral and care systems in the participating countries. Three studies focused on inter-hospital coordination mechanisms [<xref ref-type="bibr" rid="pone.0223328.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0223328.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0223328.ref016">16</xref>], while the fourth one examined a surgical skills development programme [<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>]. A description of each study is provided in the following section.</p>
+<sec id="sec022">
+<title>Improving referral and care coordination</title>
+<p>In Nepal, Fleming et al [<xref ref-type="bibr" rid="pone.0223328.ref015">15</xref>] assessed a programme implemented in a rural district hospital through a collaboration between the ministry of health and an NGO. Patients referred for surgical care at a higher-level facility were provided with financial, social and logistical support throughout the referral process, including a dedicated accompanying community health worker and full lodging for family members at the referral institution. While the programme improved patients&#8217; experience with referral care, the cost was not sustainable, leading to discontinuation of the programme. Instead, the ministry invested in building the surgical capacity of the local hospital; and the study did not include a comparative cost benefit analysis.</p>
+<p>In Brazil, Rudge et al [<xref ref-type="bibr" rid="pone.0223328.ref016">16</xref>] evaluated an intervention improving system-wide coordination between a level II and a level III hospital to reduce overcrowding at the tertiary hospital and to improve safety of pregnancy. The intervention consisted of enhancing triage and diagnostic practices at the two facilities to promptly detect low-risk and high-risk obstetric patients, and to facilitate treatment at the right level of care. This included staff training and establishment of a new cadre of specialised health workers, as well as enhancing transport and communication links between the two facilities for the efficient exchange of patients according to the complexity of the case. The intervention led to an improvement in maternal and perinatal outcomes: C-section rates decreased at the level II hospital; stabilised at the level III hospital; and perinatal mortality rates decreased in both hospitals. However, no economic analysis was carried out as part of the evaluation.</p>
+<p>In China, Shi et al [<xref ref-type="bibr" rid="pone.0223328.ref006">6</xref>] examined the impact of referrals from outreach specialists on the hospitalisation costs of rural patients requiring advanced surgery at a tertiary hospital to treat digestive tract cancer. The study found that length of stay at the tertiary hospital for patients referred by the outreach specialist was lower than that of patients referred by local doctors or self-referrals. Hospitalisation and particularly diagnostic test costs were also lower than those of the other two groups. The authors suggested that outreach specialists were more qualified than local clinicians in determining the correct diagnosis and providing treatment, thereby minimising elective referrals and associated costs. However, the focus of the study was narrow, the costs of the outreach programme were not measured; and lessons learned regarding implementation (e.g. impact on service delivery, logistics, sustainability etc.) were not reported.</p>
+</sec>
+<sec id="sec023">
+<title>Improving skills distribution in the referral system</title>
+<p>In Niger, Sani et al [<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>] evaluated an intervention to enable general physicians at rural district hospitals to provide surgical services to the local population through a targeted training programme. The study reported a large decrease in the number of emergency referrals from the intervention district hospitals to the regional hospital with the introduction of the programme in 2007. Specifically, an 82% decrease in referrals was recorded compared to the time prior to the introduction of surgical services at district level (in 2005) and a 52% decrease in referrals compared to the surgical camp model previously used by the ministry as a solution to answer the demand of surgical care at district level (in 2006). However, the costs of the training programme and cost savings from reduced referrals were not reported.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec024" sec-type="conclusions">
+<title>Discussion</title>
+<p>This scoping review of scientific evidence aimed to investigate what is already known in regards to inter-hospital surgical referral systems in LMICs. Our findings demonstrate that this field of study is a largely uncharted territory. The functionality of the surgical referral system in developing countries is, to some extent, even more critical than in developed economies as it allows for more efficient use of scarce surgical skills and resources; and continuity of care across different tiers of surgical services, which in these regions are unevenly distributed [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>]. While only 14 papers met the inclusion criteria for this review, they provide a useful benchmark of the status and dearth of evidence on surgical referrals across LMICs; and on some of the commonalities. The conceptual framework developed through this review (<xref ref-type="fig" rid="pone.0223328.g002">Fig 2</xref>) aims to identify some of the critical areas that are of relevance to national decision-makers; and where further research is needed.</p>
+<p>The first key message from the papers is that multiple shortages, especially at the first level of surgical care (the district hospital), impacts on referrals, act as obstacles to safe and appropriate referrals and as contributors to inappropriate referrals. The limitations of surgical infrastructure, equipment and personnel at first-level hospitals highlighted by the selected papers is well documented in the wider literature [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0223328.ref036">36</xref>,<xref ref-type="bibr" rid="pone.0223328.ref037">37</xref>]. Evidence in our review shows that the shortage of basic essentials extends to secondary and tertiary hospitals [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>], which should be better equipped considering size and remit of these facilities. This leads to a vicious cycle, where patients are referred from one hospital to another, sometimes after delays and deterioration in patients&#8217; conditions, without guarantee that the next facility will have the resources and capacity to provide the necessary care [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>], entailing risks of negative clinical outcomes. Resource shortages have historical roots, linked to the low prioritisation of surgery in public health funding in LMICs [<xref ref-type="bibr" rid="pone.0223328.ref007">7</xref>]. In the last five years, since the publication of the Lancet Commission on Global Surgery [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>], national governments and the international community are focusing on strengthening surgical services in LMICs [<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>,<xref ref-type="bibr" rid="pone.0223328.ref038">38</xref>]. However, these efforts need to go hand in hand with interventions to improve functionality and reliability of referral pathways in order to ensure a safe and appropriate continuum of care [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>].</p>
+<p>Gaps in the surgical and decision-making skills of clinicians at sending hospitals were identified by the reviewed studies as a major driver of referrals in LMICs, including evidence of: delayed or inappropriate referrals across cadres and seniority levels, poor patient management, stabilisation and lack of basic safety measures during referrals; pointing to the need for better training, supervision and guidance for all staff involved in referral processes [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>,<xref ref-type="bibr" rid="pone.0223328.ref034">34</xref>]. These findings are echoed by other studies assessing hospitals&#8217; surgical capacity, which report lack of expertise as the primary obstacle to treatment of patients at local facilities, leading to inappropriate referrals [<xref ref-type="bibr" rid="pone.0223328.ref039">39</xref>&#8211;<xref ref-type="bibr" rid="pone.0223328.ref041">41</xref>]. Emerging research in this area suggests that attitudes and motivation of surgical providers might also play a role in unnecessary referrals [<xref ref-type="bibr" rid="pone.0223328.ref041">41</xref>]. This is a relatively new and sensitive concept not examined by the reviewed studies, which focused on skills&#8217; levels but not professionalism, which might benefit from further research.</p>
+<p>A second key message from the studies in our review, in line with international recommendations [<xref ref-type="bibr" rid="pone.0223328.ref004">4</xref>], is the need for national protocols for the triage of common urgent surgical conditions to facilitate more timely transfer of patients to appropriate levels of care [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>,<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>]. National referral guidelines exist in some LMICs, either in general form (e.g. health-sector wide, including surgery, in India [<xref ref-type="bibr" rid="pone.0223328.ref042">42</xref>] and Kenya [<xref ref-type="bibr" rid="pone.0223328.ref043">43</xref>]) or sector-specific (e.g. maternity and neonatal care in Zambia [<xref ref-type="bibr" rid="pone.0223328.ref044">44</xref>]), but comprehensive protocols are still lacking in most cases. Implementation, when in place, is also an issue. As reported by den Hollander [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>], protocols for referral of burn cases exist in South Africa, but pathways are not correctly followed. International protocols can be used as a template to develop national responses in countries where guidelines are lacking [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>], while supporting better enforcement in countries with existing ones. Standard protocols should extend to communication practices between hospitals. Gyedu et al [<xref ref-type="bibr" rid="pone.0223328.ref032">32</xref>] found that structured referral forms reduced the number of missing information items, essential for the delivery of critical and emergency surgical care. In LMICs, paper-based referral forms are often the only piece of documentation following patients through the health care system. Clinician training and compliance in the completion of structured referral forms may reduce unnecessary referrals [<xref ref-type="bibr" rid="pone.0223328.ref032">32</xref>], as well as improving the quality of referrals. These areas require systematic research.</p>
+<p>A third lesson from the intervention studies in this review, even if empirical evidence is limited, is that improving coordination and communication between different level facilities can be beneficial in enhancing efficiency of referral pathways. There is consensus in the literature that strengthening capacity of referring hospitals to manage more conditions locally, especially urgent conditions, could improve outcomes, decrease the need for referral and reduce the burden on tertiary facilities [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>]. Sani et al [<xref ref-type="bibr" rid="pone.0223328.ref031">31</xref>] demonstrated how the introduction of a new training programme for physicians in district hospitals in Niger led to a large decrease in the number of surgical referrals. While Sani et al study is not generalisable (because results are context specific), other studies confirm the positive effect of skills development on reducing unnecessary referrals from district hospitals [<xref ref-type="bibr" rid="pone.0223328.ref045">45</xref>]. What needs to complement such evidence is more research that demonstrates the effectiveness and potential for comparable outcomes of delivering surgical interventions at district hospitals [<xref ref-type="bibr" rid="pone.0223328.ref046">46</xref>]. For those surgical cases that cannot be managed locally, it is important to improve the availability of specialists and to enhance service capacity at higher level facilities [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>]. As reported by Nkurunziza [<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>], district hospitals at times have to delay transfer of patients to higher level of care while waiting for an appointment with specialists (there was only one neurosurgeon in public hospitals in Rwanda at the time of the study). Therefore, interventions to improve referral systems should address gaps at both the sending and receiving ends of the referral pathway.</p>
+<p>A final important message emerging from this review of 14 studies is that from a methodological perspective there is no standard approach to assessing functionality and effectiveness of referral systems in surgery. Each study focused on a different aspect of surgical care and referrals, using its own measurement tools and metrics. The World Health Organization [<xref ref-type="bibr" rid="pone.0223328.ref047">47</xref>] has identified functioning referral systems, including strong linkages between different levels of care and information flows, as an essential element to ensuring safe and effective services. Developing strategies for assessing referral systems and measuring their impact on access, coverage and quality of services may contribute to improving overall health systems performance.</p>
+<sec id="sec025">
+<title>Limitations</title>
+<p>A limitation of our review is the low number of rigorous studies identified and their heterogeneity, which made drawing definite conclusions difficult and highlighted the need for more empirical research. The quality of retrieved evidence was affected by risk of bias in some cases (see <xref ref-type="supplementary-material" rid="pone.0223328.s002">S2 Table</xref>), deriving from inconsistencies in data reporting (in Siraj et al [<xref ref-type="bibr" rid="pone.0223328.ref030">30</xref>] and Simba et al [<xref ref-type="bibr" rid="pone.0223328.ref011">11</xref>]); weak outcome measures (e.g. assessment of appropriateness of referrals in den Hollander et al [<xref ref-type="bibr" rid="pone.0223328.ref014">14</xref>] and Goodman et al [<xref ref-type="bibr" rid="pone.0223328.ref013">13</xref>]); only one investigator involved in the data collection (in Crandon et al [<xref ref-type="bibr" rid="pone.0223328.ref033">33</xref>] study); and failure to account for confounding factors (in Nkurunziza et al [<xref ref-type="bibr" rid="pone.0223328.ref035">35</xref>] study some of the patients might have benefitted from an NGO- support programme available at the time of the study in the participating hospitals).</p>
+</sec>
+</sec>
+<sec id="sec026">
+<title>Supporting information</title>
+<supplementary-material id="pone.0223328.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>PRISMA checklist for scoping reviews.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223328.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Search string.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223328.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.s003" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Characteristics of studies included in the review.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We are particularly grateful to Paul Murphy, Library of the Royal College of Surgeons in Ireland, for providing technical advice on the early development of the search strategy for this review, and to Prof Chris Lavy, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, for reviewing the draft manuscript and offering valuable expert opinion and insight.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0223328.ref001"><label>1</label><mixed-citation publication-type="book" ns0:type="simple"><collab>Ministry of Health</collab>. <source>Kenya health sector referral strategy</source>. <publisher-loc>Nairobi</publisher-loc>; <year>2014</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref002"><label>2</label><mixed-citation publication-type="other" ns0:type="simple">WHO. Management of health facilities: referral systems [Internet]. World Health Organization; 2010 [cited 2019 Jun 13]. <ext-link ext-link-type="uri" ns0:href="https://www.who.int/management/facility/referral/en/" ns0:type="simple">https://www.who.int/management/facility/referral/en/</ext-link></mixed-citation></ref>
+<ref id="pone.0223328.ref003"><label>3</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Hensher</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Price</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Adomakoh</surname> <given-names>S</given-names></name>. <chapter-title>Referral hospitals</chapter-title>. In: <name name-style="western"><surname>Jamison</surname> <given-names>DT</given-names></name>, <name name-style="western"><surname>Breman</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Measham</surname> <given-names>AR</given-names></name> <etal>et al</etal>, editor. <source>Disease Control Priorities in Developing Countries</source>. <edition>2nd ed</edition>. <publisher-loc>New York</publisher-loc>: <publisher-name>Oxford University Press and The World Bank</publisher-name>; <year>2006</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Meara</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Leather</surname> <given-names>AJM</given-names></name>, <name name-style="western"><surname>Hagander</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Alkire</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Alonso</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Ameh</surname> <given-names>EA</given-names></name>, <etal>et al</etal>. <article-title>Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development</article-title>. <source>Lancet</source>. <year>2015</year>;<volume>386</volume>(<issue>9993</issue>):<fpage>569</fpage>&#8211;<lpage>624</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(15)60160-X" ns0:type="simple">10.1016/S0140-6736(15)60160-X</ext-link></comment> <object-id pub-id-type="pmid">25924834</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Khan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zafar</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zafar</surname> <given-names>SN</given-names></name>, <name name-style="western"><surname>Haroon</surname> <given-names>N</given-names></name>. <article-title>Inter-facility transfer of surgical emergencies in a developing country: effects on management and surgical outcomes</article-title>. <source>World J Surg</source>. <year>2014</year>;<volume>38</volume>:<fpage>281</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00268-013-2308-y" ns0:type="simple">10.1007/s00268-013-2308-y</ext-link></comment> <object-id pub-id-type="pmid">24178181</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Cai</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>W</given-names></name>. <article-title>Referral by outreach specialist reduces hospitalisation costs of rural patients with digestive tract cancer: a report from medical consortium in China</article-title>. <source>Rural Remote Health</source>. <year>2014</year>;<volume>14</volume>(<issue>1</issue>):<fpage>2317</fpage>.</mixed-citation></ref>
+<ref id="pone.0223328.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Albutt</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Yorlets</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Punchak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kayima</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Namanya</surname> <given-names>DB</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>GA</given-names></name>, <etal>et al</etal>. <article-title>You pray to your God: a qualitative analysis of challenges in the provision of safe, timely, and affordable surgical care in Uganda</article-title>. <source>PLoS One</source>. <year>2018</year>;<volume>13</volume>(<issue>4</issue>):<fpage>e0195986</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0195986" ns0:type="simple">10.1371/journal.pone.0195986</ext-link></comment> <object-id pub-id-type="pmid">29664956</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Raykar</surname> <given-names>NP</given-names></name>, <name name-style="western"><surname>Yorlets</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Goldman</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Greenberg</surname> <given-names>SLM</given-names></name>, <name name-style="western"><surname>Kotagal</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>The How Project: understanding contextual challenges to global surgical care provision in low-resource settings</article-title>. <source>BMJ Glob Heal</source>. <year>2016</year>;<volume>1</volume>(<issue>4</issue>):<fpage>e000075</fpage>.</mixed-citation></ref>
+<ref id="pone.0223328.ref009"><label>9</label><mixed-citation publication-type="book" ns0:type="simple"><collab>WHO</collab>. <source>Hospitals and health for all</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>; <year>1987</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jiskoot</surname> <given-names>P</given-names></name>. <article-title>On-the-job training of clinical officers in Malawi</article-title>. <source>Malawi Med J</source>. <year>2008</year>;<volume>20</volume>(<issue>3</issue>):<fpage>74</fpage>&#8211;<lpage>7</lpage>. <object-id pub-id-type="pmid">19537402</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Simba</surname> <given-names>DO</given-names></name>, <name name-style="western"><surname>Mbembati</surname> <given-names>NAA</given-names></name>, <name name-style="western"><surname>Museru</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Lema</surname> <given-names>LEK</given-names></name>. <article-title>Referral pattern of patients received at the National Referral Hospital: challenges in low income countries</article-title>. <source>East Afr J Public Health</source>. <year>2008</year>;<volume>5</volume>(<issue>1</issue>):<fpage>6</fpage>&#8211;<lpage>9</lpage>. <object-id pub-id-type="pmid">18669115</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cornelissen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mwapasa</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gajewski</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>McCauley</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Borgstein</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Brugha</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>The cost of providing district-level surgery in Malawi</article-title>. <source>World J Surg</source>. <year>2018</year>;<volume>42</volume>(<issue>1</issue>):<fpage>46</fpage>&#8211;<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00268-017-4166-5" ns0:type="simple">10.1007/s00268-017-4166-5</ext-link></comment> <object-id pub-id-type="pmid">28791448</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Goodman</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Srofenyoh</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Olufolabi</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Owen</surname> <given-names>MD</given-names></name>. <article-title>The third delay: understanding waiting time for obstetric referrals at a large regional hospital in Ghana</article-title>. <source>BMC Pregnancy Childbirth</source>. <year>2017</year>;<volume>17</volume>(<issue>1</issue>):<fpage>216</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12884-017-1407-4" ns0:type="simple">10.1186/s12884-017-1407-4</ext-link></comment> <object-id pub-id-type="pmid">28693518</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>den Hollander</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Albert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Strand</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hardcastle</surname> <given-names>T</given-names></name>. <article-title>Epidemiology and referral patterns of burns admitted to the Burns Centre at Inkosi Albert Luthuli Central Hospital, Durban</article-title>. <source>Burns</source>. <year>2014</year>;<volume>40</volume>(<issue>6</issue>):<fpage>1201</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.burns.2013.12.018" ns0:type="simple">10.1016/j.burns.2013.12.018</ext-link></comment> <object-id pub-id-type="pmid">24439933</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fleming</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rajeev</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Baruwal</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schwarz</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Schwarz</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Surgical referral coordination from a first-level hospital: a prospective case study from rural Nepal</article-title>. <source>BMC Health Serv Res</source>. <year>2017</year>;<volume>17</volume>(<issue>1</issue>):<fpage>676</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12913-017-2624-2" ns0:type="simple">10.1186/s12913-017-2624-2</ext-link></comment> <object-id pub-id-type="pmid">28946885</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rudge</surname> <given-names>MVC</given-names></name>, <name name-style="western"><surname>Maest&#225;</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Moura</surname> <given-names>PMSS</given-names></name>, <name name-style="western"><surname>Rudge</surname> <given-names>CVC</given-names></name>, <name name-style="western"><surname>Morceli</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Costa</surname> <given-names>RAA</given-names></name>, <etal>et al</etal>. <article-title>The safe motherhood referral system to reduce cesarean sections and perinatal mortality&#8212;a cross-sectional study [1995&#8211;2006]</article-title>. <source>Reprod Health</source>. <year>2011</year>;<volume>8</volume>(<issue>1</issue>):<fpage>34</fpage>.</mixed-citation></ref>
+<ref id="pone.0223328.ref017"><label>17</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Petticrew</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Roberts</surname> <given-names>H</given-names></name>. <source>Systematic reviews in the social sciences: a practical guide</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Blackwell Publishing</publisher-name>; <year>2006</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref018"><label>18</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Peters</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Godfrey</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>McInerney</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Baldini Soares</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Khalil</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Parker</surname> <given-names>D</given-names></name>. <chapter-title>Scoping reviews</chapter-title>. In: <name name-style="western"><surname>Aromataris</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Munn</surname> <given-names>Z</given-names></name>, editors. <source>Joanna Briggs Institute Reviewer&#8217;s Manual</source> [Internet]. <publisher-name>The Joanna Briggs Institute</publisher-name>; <year>2017</year>. <ext-link ext-link-type="uri" ns0:href="https://reviewersmanual.joannabriggs.org/" ns0:type="simple">https://reviewersmanual.joannabriggs.org/</ext-link></mixed-citation></ref>
+<ref id="pone.0223328.ref019"><label>19</label><mixed-citation publication-type="other" ns0:type="simple">Higgins J, Green S. Cochrane handbook for systematic reviews of interventions. Version 5.1.0 [updated March 2011]. The Cochrane Collaboration; 2011.</mixed-citation></ref>
+<ref id="pone.0223328.ref020"><label>20</label><mixed-citation publication-type="other" ns0:type="simple">Joanna Briggs Institute. Critical appraisal tools [Internet]. [cited 2018 Jun 15]. <ext-link ext-link-type="uri" ns0:href="https://joannabriggs.org/critical_appraisal_tools" ns0:type="simple">https://joannabriggs.org/critical_appraisal_tools</ext-link></mixed-citation></ref>
+<ref id="pone.0223328.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liberati</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Altman</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Tetzlaff</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mulrow</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>G&#248;tzsche</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Ioannidis</surname> <given-names>JPA</given-names></name>, <etal>et al</etal>. <article-title>The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration</article-title>. <source>PLoS Med</source>. <year>2009</year>;<volume>6</volume>(<issue>7</issue>):<fpage>e1000100</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pmed.1000100" ns0:type="simple">10.1371/journal.pmed.1000100</ext-link></comment> <object-id pub-id-type="pmid">19621070</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tricco</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lillie</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Zarin</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>O&#8217;Brien</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Colquhoun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Levac</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation</article-title>. <source>Ann Intern Med</source>. <year>2008</year>;</mixed-citation></ref>
+<ref id="pone.0223328.ref023"><label>23</label><mixed-citation publication-type="other" ns0:type="simple">World Bank. World Bank country and lending groups [Internet]. [cited 2018 May 15]. <ext-link ext-link-type="uri" ns0:href="https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups" ns0:type="simple">https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups</ext-link></mixed-citation></ref>
+<ref id="pone.0223328.ref024"><label>24</label><mixed-citation publication-type="book" ns0:type="simple"><collab>Canadian Agency for Drugs and Technology in Health</collab>. <source>Grey matters: a practical tool for searching health related grey literature</source>. <publisher-loc>Ottawa</publisher-loc>: <publisher-name>CADTH</publisher-name>; <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Braun</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Clarke</surname> <given-names>V</given-names></name>. <article-title>Using thematic analysis in psychology</article-title>. <source>Qual Res Psychol</source>. <year>2006</year>;<volume>3</volume>(<issue>2</issue>):<fpage>77</fpage>&#8211;<lpage>101</lpage>.</mixed-citation></ref>
+<ref id="pone.0223328.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Petticrew</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rehfuess</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Armstrong</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ueffing</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Using logic models to capture complexity in systematic reviews</article-title>. <source>Res Synth Methods</source>. <year>2011</year>;<volume>2</volume>(<issue>1</issue>):<fpage>33</fpage>&#8211;<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jrsm.32" ns0:type="simple">10.1002/jrsm.32</ext-link></comment> <object-id pub-id-type="pmid">26061598</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thaddeus</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Maine</surname> <given-names>D</given-names></name>. <article-title>Too far to walk: maternal mortality in context</article-title>. <source>Soc Sci Med</source>. <year>1994</year>;<volume>38</volume>(<issue>8</issue>):<fpage>1091</fpage>&#8211;<lpage>110</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/0277-9536(94)90226-7" ns0:type="simple">10.1016/0277-9536(94)90226-7</ext-link></comment> <object-id pub-id-type="pmid">8042057</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Atkins</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Best</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Briss</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Eccles</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Falck-Ytter</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Flottorp</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Grading quality of evidence and strength of recommendations</article-title>. <source>BMJ</source>. <year>2004</year>;<volume>328</volume>(<issue>7454</issue>):<fpage>1490</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.328.7454.1490" ns0:type="simple">10.1136/bmj.328.7454.1490</ext-link></comment> <object-id pub-id-type="pmid">15205295</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref029"><label>29</label><mixed-citation publication-type="other" ns0:type="simple">Joanna Briggs Institute. Supporting document for the Joanna Briggs Institute levels of evidence and grades of recommendations [Internet]. The Joanna Briggs Institute Levels of Evidence and Grades of Recommendations Working Party; 2014 [cited 2019 Jun 17]. <ext-link ext-link-type="uri" ns0:href="https://joannabriggs.org/sites/default/files/2019-05/JBI-Levels-of-evidence_2014_0.pdf" ns0:type="simple">https://joannabriggs.org/sites/default/files/2019-05/JBI-Levels-of-evidence_2014_0.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0223328.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Siraj</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bawar</surname> <given-names>S</given-names></name>. <article-title>An audit of obstetric referrals from district level hospitals to tertiary level hospitals of KPK</article-title>. <source>J Postgrad Med Inst</source>. <year>2016</year>;<volume>30</volume>(<issue>2</issue>).</mixed-citation></ref>
+<ref id="pone.0223328.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sani</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Nameoua</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Yahaya</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hassane</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Adamou</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hsia</surname> <given-names>RY</given-names></name>, <etal>et al</etal>. <article-title>The impact of launching surgery at the district level in Niger</article-title>. <source>World J Surg</source>. <year>2009</year>;<volume>33</volume>(<issue>10</issue>):<fpage>2063</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00268-009-0160-x" ns0:type="simple">10.1007/s00268-009-0160-x</ext-link></comment> <object-id pub-id-type="pmid">19653031</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gyedu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Baah</surname> <given-names>EG</given-names></name>, <name name-style="western"><surname>Boakye</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ohene-Yeboah</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Otupiri</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Stewart</surname> <given-names>BT</given-names></name>. <article-title>Quality of referrals for elective surgery at a tertiary care hospital in a developing country: an opportunity for improving timely access to and cost-effectiveness of surgical care</article-title>. <source>Int J Surg</source>. <year>2015</year>;<volume>15</volume>:<fpage>74</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijsu.2015.01.033" ns0:type="simple">10.1016/j.ijsu.2015.01.033</ext-link></comment> <object-id pub-id-type="pmid">25659222</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Crandon</surname> <given-names>IW</given-names></name>, <name name-style="western"><surname>Harding</surname> <given-names>HE</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>Cawich</surname> <given-names>SO</given-names></name>. <article-title>Inter-hospital transfer of trauma patients in a developing country: A prospective descriptive study</article-title>. <source>Int J Surg</source>. <year>2008</year>;<volume>6</volume>(<issue>5</issue>):<fpage>387</fpage>&#8211;<lpage>91</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijsu.2008.07.004" ns0:type="simple">10.1016/j.ijsu.2008.07.004</ext-link></comment> <object-id pub-id-type="pmid">18789880</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>WS</given-names></name>. <article-title>Pre-admission consultation and late referral in infants with neonatal cholestasis</article-title>. <source>J Paediatr Child Health</source>. <year>2008</year>;<volume>44</volume>(<issue>1&#8211;2</issue>):<fpage>57</fpage>&#8211;<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1440-1754.2007.01170.x" ns0:type="simple">10.1111/j.1440-1754.2007.01170.x</ext-link></comment> <object-id pub-id-type="pmid">17640283</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nkurunziza</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Toma</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Odhiambo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Maine</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Riviello</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gupta</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Referral patterns and predictors of referral delays for patients with traumatic injuries in rural Rwanda</article-title>. <source>Surgery</source>. <year>2016</year>;<volume>160</volume>(<issue>6</issue>):<fpage>1636</fpage>&#8211;<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.surg.2016.08.006" ns0:type="simple">10.1016/j.surg.2016.08.006</ext-link></comment> <object-id pub-id-type="pmid">27743716</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hsia</surname> <given-names>RY</given-names></name>, <name name-style="western"><surname>Mbembati</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Macfarlane</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kruk</surname> <given-names>ME</given-names></name>. <article-title>Access to emergency and surgical care in sub-Saharan Africa: the infrastructure gap</article-title>. <source>Health Policy Plan</source>. <year>2012</year>;<volume>27</volume>(<issue>3</issue>):<fpage>234</fpage>&#8211;<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/heapol/czr023" ns0:type="simple">10.1093/heapol/czr023</ext-link></comment> <object-id pub-id-type="pmid">21441566</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kruk</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Wladis</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mbembati</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Ndao-Brumblay</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Hsia</surname> <given-names>RY</given-names></name>, <name name-style="western"><surname>Galukande</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Human resource and funding constraints for essential surgery in district hospitals in Africa: a retrospective cross-sectional survey</article-title>. <source>PLoS Med</source>. <year>2010</year>;<volume>7</volume>(<issue>3</issue>):<fpage>e1000242</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pmed.1000242" ns0:type="simple">10.1371/journal.pmed.1000242</ext-link></comment> <object-id pub-id-type="pmid">20231869</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ajiko</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Dav&#233;</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Feldhaus</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Juillard</surname> <given-names>C</given-names></name>. <article-title>Patterns of surgical presentation at an African regional referral hospital: surveillance as a step towards improving access to care using operative and inpatient records as</article-title>. <source>Eur J Trauma Emerg Surg</source>. <year>2017</year>;<volume>43</volume>:<fpage>265</fpage>&#8211;<lpage>72</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00068-016-0644-y" ns0:type="simple">10.1007/s00068-016-0644-y</ext-link></comment> <object-id pub-id-type="pmid">26869519</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Abdullah</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Choo</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hesse</surname> <given-names>AAJJ</given-names></name>, <name name-style="western"><surname>Abantanga</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Sory</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Osen</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Assessment of surgical and obstetrical care at 10 district hospitals in Ghana using on-site interviews</article-title>. <source>J Surg Res</source>. <year>2011</year>;<volume>171</volume>(<issue>2</issue>):<fpage>461</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jss.2010.04.016" ns0:type="simple">10.1016/j.jss.2010.04.016</ext-link></comment> <object-id pub-id-type="pmid">20691981</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bowman</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Jovic</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Rangel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Berry</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Gawande</surname> <given-names>A</given-names></name>. <article-title>Pediatric emergency and essential surgical care in Zambian hospitals: a nationwide study</article-title>. <source>J Pediatr Surg</source>. <year>2013</year>;<volume>48</volume>(<issue>6</issue>):<fpage>1363</fpage>&#8211;<lpage>70</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jpedsurg.2013.03.045" ns0:type="simple">10.1016/j.jpedsurg.2013.03.045</ext-link></comment> <object-id pub-id-type="pmid">23845631</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gajewski</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bijlmakers</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Mwapasa</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Borgstein</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Pittalis</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Brugha</surname> <given-names>R</given-names></name>. <article-title>&#8220;I think we are going to leave these cases&#8221;. Obstacles to surgery in rural Malawi: a qualitative study of provider perspectives</article-title>. <source>Trop Med Int Heal</source>. <year>2018</year>;<volume>23</volume>(<issue>10</issue>):<fpage>1141</fpage>&#8211;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="pone.0223328.ref042"><label>42</label><mixed-citation publication-type="other" ns0:type="simple">Directorate of Health Services Kerala. Referral guidelines for the common conditions for institutions under DME &amp; DHS in Kerala. Kerala: Government of Kerala; 2012.</mixed-citation></ref>
+<ref id="pone.0223328.ref043"><label>43</label><mixed-citation publication-type="book" ns0:type="simple"><collab>Ministry of Public Health &amp; Sanitation</collab>. <source>Clinical guidelines for management and referral of common conditions at levels 4&#8211;6: hospitals</source>. <publisher-loc>Nairobi</publisher-loc>: <publisher-name>World Health Organization</publisher-name>; <year>2009</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref044"><label>44</label><mixed-citation publication-type="book" ns0:type="simple"><collab>Ministry of Health</collab>. <source>Zambia national maternal and neonatal services referral guidelines</source>. <publisher-loc>Lusaka</publisher-loc>: <publisher-name>Ministry of Health</publisher-name>; <year>2018</year>.</mixed-citation></ref>
+<ref id="pone.0223328.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gajewski</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mweemba</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Cheelo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>McCauley</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kachimba</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Borgstein</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Non-physician clinicians in rural Africa: lessons from the Medical Licentiate programme in Zambia</article-title>. <source>Hum Resour Health</source>. <year>2017</year>;<volume>15</volume>(<issue>1</issue>):<fpage>53</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12960-017-0233-0" ns0:type="simple">10.1186/s12960-017-0233-0</ext-link></comment> <object-id pub-id-type="pmid">28830528</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gajewski</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Conroy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bijlmakers</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Mwapasa</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>McCauley</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Borgstein</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Quality of surgery in Malawi: comparison of patient-reported outcomes after hernia surgery between district and central hospitals</article-title>. <source>World J Surg</source>. <year>2018</year>;<volume>42</volume>(<issue>6</issue>):<fpage>1610</fpage>&#8211;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00268-017-4385-9" ns0:type="simple">10.1007/s00268-017-4385-9</ext-link></comment> <object-id pub-id-type="pmid">29209733</object-id></mixed-citation></ref>
+<ref id="pone.0223328.ref047"><label>47</label><mixed-citation publication-type="book" ns0:type="simple"><collab>World Health Organization</collab>. <source>Strengthening health systems to improve health outcomes: WHO&#8217;s framework for action</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>; <year>2007</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0223328.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Agyepong</surname>
+<given-names>Irene</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Irene Agyepong</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223328" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">21 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17583</p>
+<p>Surgical referral systems in low- and middle- income countries: a review of the evidence</p>
+<p>PLOS ONE</p>
+<p>Dear Ms Pittalis,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit and would like to accept it for publication after you have addressed the minor revision comments raised by the reviewers. &#160;&#160;Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Oct 05 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Irene Agyepong</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. Please state in your methods section the start and end date of searches.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: N/A</p>
+<p>Reviewer #2: N/A</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The manuscript investigates current knowledge regarding inter-hospital surgical referral systems in LMIC. Some of the papers identified and selected from the search do not provide detailed information to answer the research questions. Nevertheless it is an important effort in highlighting the need for further research in the area of inter-hospital surgical referral in LMIC. Table S3 highlights the risk of bias and limitations of the included studies.</p>
+<p>Reviewer #2: This is a well written manuscript that sought to investigate current knowledge regarding inter-hospital surgical referral systems in LMICs; to identify the main obstacles to their functioning and to critically assess proposed solutions. The authors used a scoping review approach and applied relevant guidelines and tools such as the Cochrane guidelines, Joanna Briggs Institute guidelines, the Preferred Reporting Items for Systematic Reviews in their review. The results are discussed appropriately under health facility factors, health system factors and environmental factors. The authors identified interventions that can improve surgical referrals such as the need to improve referral and coordination of care and improving skills distribution in the referral system. The authors discuss their results in the light of the present body of knowledge and conclude that among others, improving coordination and communication between different level facilities can improve surgical referral systems. They further advocate for a standard methodological approach to assessing functionality and effectiveness of referral systems in surgery.</p>
+<p>This manuscript can be improved by addressing the following comments:</p>
+<p>1. Since tables must be stand alone and understandable, please explain what JBI means in the table &#8220;S2 Table. Characteristics of studies included in the review&#8221;.</p>
+<p>2. Page 20, line 282, please check for typographical errors.</p>
+<p>3. Page 29, line 296, please check for typographical errors.</p>
+<p>4. How is reference 28 as mentioned in text used in the evaluation of the quality of evidence? The table S2 sugggests that JBI which is reference 27 was used. Please clarify this.</p>
+<p>5. How many and which papers are you referring to in this statement &#8220;some of them mention that surgery is not typically among the top priorities for local governments, with implications&#8230;&#8230; (page 20 line 280 -281)?&#8217;&#8217;</p>
+<p>6. How many and which papers are you referring to in this statement &#8216;A number of studies pointed to the influence of wider country contexts&#8230;&#8230;?&#8217;. Are the examples you cite in the text that follows all the papers referred to in this statement or are there more?</p>
+<p>7. For the table &#8216;S1 Table: Search string&#8217;, present the search string for the other databases besides MEDLINE which were also searched in order for readers to know and understand how the search stratergy was adopted to these databases to facilitate reproducibility of your search.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Edward Antwi</p>
+<p>Reviewer #2: Yes: Hannah Brown Amoakoh</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0223328.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223328" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223328.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Sep 2019</named-content>
+</p>
+<p>09 September 2019</p>
+<p>Dear Editor,</p>
+<p>we would like to take this opportunity to thank you and the Reviewers for the positive feedback on our manuscript and for the valuable comments and suggestions for improvement. As requested, please find below our responses and clarifications.</p>
+<p>Best wishes on behalf of the authors,</p>
+<p>Chiara Pittalis</p>
+<p>Comments:</p>
+<p>1. Please state in your methods section the start and end date of searches.</p>
+<p>R: thank you for the advice, we have added the dates to the manuscript.</p>
+<p>1. Since tables must be stand alone and understandable, please explain what JBI means in the table &#8220;S2 Table. Characteristics of studies included in the review&#8221;.</p>
+<p>R: we have modified the table heading accordingly.</p>
+<p>2. Page 20, line 282, please check for typographical errors.</p>
+<p>R: thank you for spotting the typo, we have corrected it.</p>
+<p>3. Page 29, line 296, please check for typographical errors.</p>
+<p>R: we have corrected the typo accordingly.</p>
+<p>4. How is reference 28 as mentioned in text used in the evaluation of the quality of evidence? The table S2 suggests that JBI which is reference 27 was used. Please clarify this.</p>
+<p>R: reference no. 27 is the Thaddeus and Maine &#8216;three delays&#8217; model, which informed the thematic analysis of the papers as described in the &#8216;Data charting and analysis&#8217; section. We are assuming the confusion may be between the JBI tools and reference no. 28 &#8211; Atkins et al paper on how to grade quality of evidence and strength of recommendations. We used the JBI tools and methods to conduct an in-depth analysis of the reviewed papers, the outcomes of which are presented in the Supplementary Table. </p>
+<p>The Atkins et al framework categorises type of evidence as high, low and very low, and it helped us summarise in a simple and systematic way our overall reflections on the strength of the studies being assessed and confidence placed in their recommendations. This is mentioned in lines 220-221, pg. 12 of our manuscript. Since all reviewed studies were observational and mostly descriptive in nature, the quality of evidence/recommendations was graded as low.</p>
+<p>5. How many and which papers are you referring to in this statement &#8220;some of them mention that surgery is not typically among the top priorities for local governments, with implications&#8230;&#8230; (page 20 line 280 -281)?&#8217;&#8217;</p>
+<p>R: in our review this statement derives from Albutt et al paper (we have modified lines 280-281 in the manuscript to clarify), but the issue of lack of financing for surgery in Africa is supported by the wider literature. One good report is the paper by Citron, Chokotho and Lavy published in 2016: &#8216;Prioritisation of surgery in the national health strategic plans of Africa: a systematic review&#8217; (DOI:<ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(15)60848-0" ns0:type="simple">https://doi.org/10.1016/S0140-6736(15)60848-0</ext-link>).</p>
+<p>6. How many and which papers are you referring to in this statement &#8216;A number of studies pointed to the influence of wider country contexts&#8230;&#8230;?&#8217;. Are the examples you cite in the text that follows all the papers referred to in this statement or are there more?</p>
+<p>R: yes, the six examples in our manuscript are the ones we referred to in that opening statement (line 290 onwards). </p>
+<p>7. For the table &#8216;S1 Table: Search string&#8217;, present the search string for the other databases besides MEDLINE which were also searched in order for readers to know and understand how the search strategy was adopted to these databases to facilitate reproducibility of your search.</p>
+<p>R: as requested, we have added all search strings to the Supplementary Table.</p>
+<supplementary-material id="pone.0223328.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0223328.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Agyepong</surname>
+<given-names>Irene</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Irene Agyepong</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223328" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">19 Sep 2019</named-content>
+</p>
+<p>Surgical referral systems in low- and middle- income countries: a review of the evidence</p>
+<p>PONE-D-19-17583R1</p>
+<p>Dear Dr. Pittalis,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Irene Agyepong</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0223328.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Agyepong</surname>
+<given-names>Irene</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Irene Agyepong</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223328" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">20 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-17583R1 </p>
+<p>Surgical referral systems in low- and middle-income countries: a review of the evidence </p>
+<p>Dear Dr. Pittalis:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Irene Agyepong  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

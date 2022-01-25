@@ -26,13 +26,19 @@ RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 logs_path = os.path.join(os.path.dirname(__file__), 'logs')
 runtime_dirname = '_'.join(time.ctime().split(' ')[1:4]).replace(':', '_')
 log_filename = runtime_dirname + ".log"
-logger = logging.getLogger("logger")
+if not os.path.exists(logs_path):
+    os.makedirs(logs_path)
+LOGGER = logging.getLogger("mdpiLogger")
+logger = LOGGER.getChild('stream')
 logging_file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
-logging_file_handler.formatter = logging.Formatter('%(asctime)s|%(levelname)s:%(message)s|', '%d/%m/%Y %H:%M:%S')
+logging_file_handler.formatter = logging.Formatter('%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
 logger.addHandler(logging_file_handler)
 logging_stream_handler = logging.StreamHandler()
 logging_stream_handler.setLevel(logging.WARNING)
-logger.addHandler(logging_stream_handler)
+logging_stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
+LOGGER.setLevel(logging.WARNING)
+LOGGER.addHandler(logging_stream_handler)
+logger.setLevel(logging.DEBUG)
 
 
 def _cook(url: str) -> Union[BeautifulSoup, None]:
@@ -154,7 +160,7 @@ def parse_article(url, dump_dir=None):
             logger.info("Saving to file.", end=" | ")
             filename = f"{os.path.join(dump_dir, _shorten(url))}.json"
             if os.path.exists(filename):
-                logger.warning(f"Warning! {_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.", end=" | ")
+                logger.warning(f"{_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.", end=" | ")
             else:
                 with open(filename, 'w+', encoding="utf-8") as fp:
                     json.dump(metadata, fp, ensure_ascii=False)
@@ -179,8 +185,8 @@ def page_crawl(url, dump_dir=None):
 
     scraped_articles = []
 
+    logger.info(f"Trying to crawl through search page: {url.split('&')[-1]}.")
     soup = _cook(url)
-    logger.info(f"Crawling through search page: {url.split('&')[-1]}.")
 
     # iterate over all article-content divs on the page to find urls
     article_divs = soup.findAll('div', {'class': 'article-content'})
@@ -192,7 +198,7 @@ def page_crawl(url, dump_dir=None):
     return scraped_articles
 
 
-def crawl(max_articles=None, dump_dir=None, make_logs=False):
+def crawl(max_articles=None, dump_dir=None, print_logs=False):
     """
     Crawls through the MDPI database, dumping scraped article metadata into json files.
     Provide a path to a directory if you want to save metadata to json files.
@@ -201,20 +207,21 @@ def crawl(max_articles=None, dump_dir=None, make_logs=False):
     :type dump_dir: str
     :param max_articles:
     :type max_articles: int
-    :param make_logs: set this flag to True if you want to see logfiles generated in the working directory.
-    :type make_logs: bool
+    :param print_logs: set this flag to True if you want to see logfiles generated in the working directory.
+    :type print_logs: bool
     :return: a list of dicts containing metadata of found articles.
     :rtype: list
     """
 
+    if print_logs:
+        logger.setLevel(logging.INFO)
+        LOGGER.setLevel(logging.DEBUG)
+
+    logger.debug(f"Setting up crawler. max_articles={max_articles}, dump_dir={dump_dir}")
+
     if dump_dir is not None and not os.path.exists(os.path.realpath(dump_dir)):
         logger.info("dump_dir does not exist. Will create.")
         os.makedirs(dump_dir)
-
-    if make_logs:
-        logger.setLevel(logging.DEBUG)
-        if not os.path.exists(logs_path):
-            os.makedirs(logs_path)
 
     if max_articles is None:
         pages_count = learn_search_pages(BASE_SEARCH_URL)
@@ -225,6 +232,8 @@ def crawl(max_articles=None, dump_dir=None, make_logs=False):
     done_pages_counter = 0
     errors_counter = 0
 
+    logger.debug("Finished crawler setup.")
+
     # using threading to crawl trough many search pages at once.
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = []
@@ -234,35 +243,39 @@ def crawl(max_articles=None, dump_dir=None, make_logs=False):
             try:
                 futures.append(executor.submit(page_crawl, url=f"{BASE_SEARCH_URL}&page_no={i + 1}", dump_dir=dump_dir))
             except Exception as e:
-                logging.getLogger('logger').exception(e)
+                logger.exception(e)
 
         for future in concurrent.futures.as_completed(futures):
             if future.exception:
                 errors_counter += 1
-                logging.getLogger('logger').exception(future.exception(), exc_info=False)
+                logger.exception(future.exception(), exc_info=False)
             else:
                 scraped_articles += (future.result())
                 done_pages_counter += 1
                 logger.info(f"{done_pages_counter} pages crawled.")
 
-    print("Done crawling through MDPI.")
-    print("Total number of scraped articles: ", len(scraped_articles))
-    print(f"Number of errors while crawling: {errors_counter}")
-    logger.info("Cleaning log folder.")
+    logger.info("Done crawling.")
+    logger.info(f"Total number of scraped articles: {len(scraped_articles)}")
+    logger.info(f"Number of errors while crawling: {errors_counter}")
+    logger.debug("Cleaning log folder...".rstrip('\n\n'))
     for path in os.listdir(logs_path):
-        if os.path.isdir(os.path.join(logs_path, path)) and len(os.listdir((os.path.join(logs_path, path)))) == 0:
-            os.rmdir((os.path.join(logs_path, path)))
+        joined_paths = os.path.join(logs_path, path)
+        if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:
+            os.rmdir(joined_paths)
+        if os.path.getsize(joined_paths) < 64:
+            os.remove(joined_paths)
     if len(os.listdir(logs_path)) == 0:
         os.rmdir(logs_path)
+    logger.debug("Done.")
 
     return scraped_articles
 
 
 if __name__ == '__main__':
     startime = time.process_time()
-    scraped = crawl(dump_dir="scraped/mdpi/articles",
+    scraped = crawl(dump_dir="mdpi/scraped/articles",
                     max_articles=30,  # delete this line to crawl everything
-                    make_logs=True)
+                    print_logs=False)
     runtime = time.process_time() - startime
     print(f"and it all took {runtime} seconds.")
     # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:

@@ -1,0 +1,1193 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17424</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Motion</subject><subj-group><subject>Velocity</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Acceleration</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Continuum mechanics</subject><subj-group><subject>Fluid mechanics</subject><subj-group><subject>Fluid dynamics</subject><subj-group><subject>Bubbles</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Marine and aquatic sciences</subject><subj-group><subject>Oceanography</subject><subj-group><subject>Water columns</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Condensed matter physics</subject><subj-group><subject>Buoyancy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Measurement</subject><subj-group><subject>Distance measurement</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Acoustics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Material properties</subject><subj-group><subject>Optical properties</subject><subj-group><subject>Opacity</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Laboratory assessment of alternative stream velocity measurement methods</article-title>
+<alt-title alt-title-type="running-head">Alternative stream velocity measurement methods</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-6484-0637</contrib-id>
+<name name-style="western">
+<surname>Hundt</surname>
+<given-names>Stephen</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0590-0724</contrib-id>
+<name name-style="western">
+<surname>Blasch</surname>
+<given-names>Kyle</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Idaho Water Science Center, US Geological Survey, Boise, Idaho, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Aschonitis</surname>
+<given-names>Vassilis G.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Hellenic Agricultural Organization - Demeter, GREECE</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">shundt@usgs.gov</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>6</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222263</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>26</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<license ns0:href="https://creativecommons.org/publicdomain/zero/1.0/" ns0:type="simple">
+<license-p>This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" ns0:href="https://creativecommons.org/publicdomain/zero/1.0/" ns0:type="simple">Creative Commons CC0</ext-link> public domain dedication.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222263" />
+<abstract>
+<p>Understanding streamflow in montane watersheds on regional scales is often incomplete due to a lack of data for small-order streams that link precipitation and snowmelt processes to main stem discharge. This data deficiency is attributed to the prohibitive cost of conventional streamflow measurement methods and the remote location of many small streams. Expedient and low-cost streamflow measurement methods used by resource professionals or citizen scientists can provide scientifically useful solutions to this data deficiency. To this end, four current velocity measurement methods were evaluated in a laboratory flume: the surface float, rising body, velocity head rod, and rising air bubble methods. The methods were tested under a range of stream velocities, cross-sectional depths, and streambed substrates. The resulting measurements provide estimates of precision and bias of each method, as well as method-specific insight and calibration formulas. The mean values of the coefficient of variation, a measure of precision, were 10% for the surface float, 10% for the velocity head rod, 14% for the rising body, and 9% for the air bubble method. The values of scaled mean error, a measure of bias, were -8% for the surface float, -4% for the velocity head rod, -1% for the rising body, and 4% for the air bubble. The velocity head rod and surface float methods were the easiest methods to use, providing greater precision at large (&gt; = 0.6 m/s) and small (&lt;0.6 m/s) velocities, respectively. However, the reliance on a velocity ratio for each of these methods can generate inaccuracy in their results. The rising body method is more challenging to execute and of lower precision than the former two methods but provides low bias measurements. The rising air bubble method has a complex instrument assembly that is considered impractical for potential field user groups.</p>
+</abstract>
+<funding-group>
+<funding-statement>The Northwest Climate Adaptation Science Center and the United States Geological Survey funded the design and execution of this study.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8" />
+<table-count count="5" />
+<page-count count="21" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All data produced for this manuscript can be accessed through ScienceBase at: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5066/P9XDFP4M" ns0:type="simple">https://doi.org/10.5066/P9XDFP4M</ext-link>. Hundt, S.A., 2019, Data from a Laboratory Assessment of Alternative Stream Velocity Measurement Methods: U.S. Geological Survey data release, <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5066/P9XDFP4M" ns0:type="simple">https://doi.org/10.5066/P9XDFP4M</ext-link>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Streamgaging networks provide a fundamental and necessary dataset for water-resources and environmental management. Public agencies, non-profit organizations, academic institutions, and others collect continuous, high-precision streamflow data using fixed stream gauge networks. The cost of maintaining these networks limits their placement to easily accessible streams and prohibits the gathering of datasets with high spatial density or widespread coverage [<xref ref-type="bibr" rid="pone.0222263.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0222263.ref002">2</xref>]. The major expenses of a streamgage network&#8212;the specialized labor force, significant travel times to gage locations, and the purchase and maintenance of specialized equipment&#8211;are difficult to avoid and leave few opportunities to reduce costs. This leaves data lacking for the type of watershed-wide understanding and modeling that is often important for informing land-management and policy decisions [<xref ref-type="bibr" rid="pone.0222263.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0222263.ref004">4</xref>]. Species vulnerability assessments (aquatic and terrestrial), land management actions (e.g., forest management, regulations on aerial application of pesticides and fire retardants), and water-quality regulation often rely upon understanding hydrologic characteristics of many streams throughout a watershed [<xref ref-type="bibr" rid="pone.0222263.ref005">5</xref>&#8211;<xref ref-type="bibr" rid="pone.0222263.ref008">8</xref>].</p>
+<p>An opportunity exists to enlarge streamflow datasets by introducing simple, low-cost streamflow measurement methods that can be used by resource managers, citizen scientists, and others. By reducing the cost of purchasing and maintaining specialized equipment and by adding streamflow measurements to planned trips, the density and coverage of streamflow measurements may be expanded beyond what is currently feasible with traditional streamgaging networks. Expedient, low-cost methods for measuring streamflow in small streams using the velocity-area method could be used to gain an understanding of streamflow characteristics, such as hydrograph shape and the timing and magnitude of peak and low flows, and does not necessarily require using continuous, high-precision stream gauges. Such methods have been previously explored in field settings [<xref ref-type="bibr" rid="pone.0222263.ref009">9</xref>], yet the methods have not been fully studied in laboratory settings to provide a basic understanding of the origination of measurement errors.</p>
+<p>For streamflow measurements to be used for management or research, the methods must have minimal acceptable performance metrics (precision and bias) and the ability to standardize instrumentation and methodology to provide consistency in repeat measurements. The objective of this study was to evaluate the potential of four current velocity measurement methods that may be used with the velocity-area procedure to quantify stream discharge. These methods were tested in an experimental flume to determine their ability to measure velocity under varying flow and substrate conditions, as well as to evaluate the ability to standardize the equipment and make repeat measurements. The four stream velocity measurement methods selected include the surface float, velocity head rod [<xref ref-type="bibr" rid="pone.0222263.ref010">10</xref>] [<xref ref-type="bibr" rid="pone.0222263.ref011">11</xref>], rising body, and rising air bubble methods [<xref ref-type="bibr" rid="pone.0222263.ref012">12</xref>] [<xref ref-type="bibr" rid="pone.0222263.ref013">13</xref>].</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Traditional streamflow measurements</title>
+<p>Each of the four stream velocity methods can be used to compute a streamflow measurement by using the velocity-area procedure. Under this procedure, discharge is calculated by integrating the product of the current velocity and the cross-sectional area of the stream [<xref ref-type="bibr" rid="pone.0222263.ref014">14</xref>]. In a wading measurement, the stream width is divided into multiple rectangular/trapezoidal shaped &#8220;verticals&#8221; or subsections at which a depth, width, and velocity measurement are made. The sectional depth, width, and velocity are multiplied to compute a sectional discharge, and the products of the sections are then summed to compute a full stream discharge [<xref ref-type="bibr" rid="pone.0222263.ref014">14</xref>]. Computation is accomplished with the formula Q = &#931;(A*V), where Q is the total discharge, V is the mean velocity of a subsection, and A is the area of a subsection.</p>
+<p>This approach is accurate so long as each measurement is made at a depth near the average velocity within each subsection. As depth and velocity both vary laterally across a stream, one strategy for improving accuracy is to divide the stream into multiple verticals. Velocity also varies with stream depth and collecting a good approximation of the depth-averaged velocity typically relies upon an assumption of how velocity varies with depth. Streams tend to display a log-parabolic velocity profile, with velocities smallest at the frictional bed of the stream and increasing towards a maximum velocity just below the surface [<xref ref-type="bibr" rid="pone.0222263.ref015">15</xref>]. Under this velocity profile, a single measurement taken at 0.6 of the stream depth provides a good approximation of the depth-averaged velocity. Under many conditions, such as in streams with high relative bed roughness, stream velocities do not display a log-parabolic profile. In these cases, a two-point method is used in which measurements are taken at both 0.2 and 0.8 of the stream depth. The two-point method is also commonly employed for its better accuracy under a wider range of stream conditions [<xref ref-type="bibr" rid="pone.0222263.ref014">14</xref>].</p>
+<p>Low-cost alternatives to the types of current meters used in a professional setting are unable to collect a velocity at a specific depth. The methods tested in this study instead measure a depth-averaged or surface velocity. The surface float and velocity head rod methods share a challenge present in other emerging technologies such as large-scale particle image velocimetry (LSPIV) [<xref ref-type="bibr" rid="pone.0222263.ref016">16</xref>] and surface velocity radar (SVR) [<xref ref-type="bibr" rid="pone.0222263.ref017">17</xref>] that measure surface velocities. To compute a discharge using these methods, a relationship must be assumed between the surface and depth-averaged velocity. This relationship, called the velocity ratio, is defined as the ratio of depth-averaged velocity to the surface velocity. Recent effort has been put towards measuring the velocity ratio under different conditions. It has been observed [<xref ref-type="bibr" rid="pone.0222263.ref018">18</xref>] that the velocity ratio tends towards a value of 0.85 for deeper streams with smoother substrates, but that greater variability is present for shallower streams with rougher substrates. Recognizing that the choice of a velocity ratio value may be a significant source of error and bias for surface methods in the small streams that we are targeting, two methods, the rising body and the rising air bubble methods, were also included in this study. These methods sample the entire stream depth and bypass the need to assume anything about the velocity profile of the stream. All four methods are described in greater detail below.</p>
+</sec>
+<sec id="sec004">
+<title>Velocity measurement methods</title>
+<sec id="sec005">
+<title>Surface float</title>
+<p>The surface float method measures the time required for a buoyant object to float along the surface of a stream over a given distance. If the object is only partially submerged, and there is no wind, the object&#8217;s velocity should equal the water velocity at the water surface. For the surface float method, a water-fillable plastic fishing float (Tough Bubble) was used as the floating object and a floating fishing line was strung through the float for easy retrieval. Weights were tied to a 1.26-meter hiking pole that was placed along the bottom of the flume parallel to the direction of flow and that served as a reference distance.</p>
+<p>A measurement was made by dropping the float at the upstream end of the reference distance and using a stopwatch to record the time it took for the float to travel to the downstream end of the reference distance. The surface velocity was calculated by dividing the reference distance by the time of passage.</p>
+</sec>
+<sec id="sec006">
+<title>Velocity head rod</title>
+<p>The velocity head rod method takes advantage of the water buildup, or head, that develops when an object impedes the path of flowing water. The velocity of the free-flowing water and the shape of the rod drive the height of this head. The velocity head rod method measures the integrated velocity over a portion of the stream depth, though it remains a question whether the full depth-averaged velocity or the average velocity of some shallower portion of the water column is measured.</p>
+<p>For the velocity head rod method, a 1 1/8&#8221; x 1 1/8&#8221; x 4&#8217; clear plastic corner guard (Trimaco&#174;) was used as a velocity head rod and a separate, clear 12-inch ruler was used to measure the height of water buildup. While not as wide as other velocity head rods described in the literature, the corner guard has a few advantages. It is a commercial product with a standardized shape, allowing others to acquire the exact same product or another product of the same dimensions and to thus apply the calibrated velocity formula developed in the laboratory. Other advantages of the corner guard are that is transparent to allow for easier viewing of the head buildup, it is lightweight for easy transport, and that it has a small surface area and bracketed shape to reduce deformation caused by fast currents.</p>
+<p>To make a measurement, the velocity head rod is placed vertically into the stream with one end placed on the streambed and the other end above the water surface. The rod is oriented so that the open 90-degree angle of its bracketed length is facing upstream, with the user standing downstream of the rod. At sufficient velocity (about 15 cm/sec), water will build up on the upstream side of the rod. The difference in water level, or head, between the upstream and downstream side is visible through the rod and measured using the clear ruler. It is assumed that the kinetic energy of the free-flowing water is transferred entirely to potential energy when it is stopped behind the rod. This results in the following formula to translate the head difference into a velocity:
+<disp-formula id="pone.0222263.e001">
+<alternatives>
+<graphic id="pone.0222263.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e001" ns0:type="simple" />
+<ns1:math display="block" id="M1">
+<ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>u</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>=</ns1:mo><ns1:msqrt><ns1:mn>2</ns1:mn><ns1:mi>g</ns1:mi><ns1:mi>h</ns1:mi></ns1:msqrt>
+</ns1:math>
+</alternatives>
+<label>(1)</label>
+</disp-formula>
+where, <italic>V</italic><sub><italic>u</italic></sub> is uncalibrated velocity, <italic>g</italic> is gravitational acceleration, and <italic>h</italic> is the head difference.</p>
+<p>A calibration formula derived from the results of the laboratory experiment is then applied to convert the uncalibrated velocity to the final depth-averaged velocity.</p>
+</sec>
+<sec id="sec007">
+<title>Rising body</title>
+<p>To compute a water velocity, the rising body method measures: (1) the time it takes for an object to rise from the streambed to the surface; (2) the distance traveled downstream as the object rises. In theory, the distance traveled by the object is controlled by the entire velocity profile, which should allow the method to directly measure a depth-averaged velocity. We used a rigid, water-fillable plastic fishing float (Tough Bubble) as the rising body and a floating yardstick to measure downstream distance. The buoyancy of the float, and thus the downstream distance it traveled, could be altered by filling the float with varying volumes of water.</p>
+<p>A measurement with the rising body method is made by releasing the float from the bottom of the stream and measuring the elapsed time and the distance traveled downstream as it rises to the surface. The depth-averaged velocity is calculated as the distance traveled divided by the elapsed time. The buoyancy of the float can be adjusted by filling it with water, which allows the user to control the time and downstream distance traveled. During the laboratory tests, the volume of water inside each float was measured and recorded. While the method is not as simple to perform as other methods, it has the advantage that the depth-averaged velocity is measured directly without the need to find an appropriate velocity ratio or calibration formula.</p>
+</sec>
+<sec id="sec008">
+<title>Rising air bubble</title>
+<p>Like the rising body method, the rising air bubble method measures the distance an air bubble travels downstream as it rises from the streambed to the surface. This too, in theory, should provide a direct measurement of the depth-averaged water velocity. The rising air bubble method was selected for its potential ease of use and theoretical accuracy. The bubbling device was constructed using an aquarium pump, 0.635 cm (&#188; inch) vinyl tubing, two pressure compensating drip irrigation nozzles, a semi-flexible drip irrigation sprinkler head, and a hiking pole. The pump, hoses, nozzles, and sprinkler head were affixed to the hiking pole and oriented with the sprinkler head parallel to the stream bottom and perpendicular to the direction of stream flow. Using this approach, consistently sized bubbles of about &#189; cm in diameter were emitted from the sprinkler head.</p>
+<p>A measurement with the rising air bubble method is taken by recording the downstream distance traveled by the stream of air bubbles as they rise from the bottom of the stream to the water surface. The depth-averaged velocity (V) is equal to the downstream distance (d<sub>d</sub>) travelled by a bubble divided by the time (t) taken for it to rise to the surface:
+<disp-formula id="pone.0222263.e002">
+<alternatives>
+<graphic id="pone.0222263.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e002" ns0:type="simple" />
+<ns1:math display="block" id="M2">
+<ns1:mi>V</ns1:mi><ns1:mo>=</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>/</ns1:mo><ns1:mi>t</ns1:mi>
+</ns1:math>
+</alternatives>
+<label>(2)</label>
+</disp-formula>
+Rather than timing the air bubble, it is assumed that the vertical velocity (V<sub>v</sub>) remains constant with depth. This value, which is derived in the laboratory, is equal to:
+<disp-formula id="pone.0222263.e003">
+<alternatives>
+<graphic id="pone.0222263.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e003" ns0:type="simple" />
+<ns1:math display="block" id="M3">
+<ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>v</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>=</ns1:mo><ns1:mi>d</ns1:mi><ns1:mo>/</ns1:mo><ns1:mi>t</ns1:mi>
+</ns1:math>
+</alternatives>
+<label>(3)</label>
+</disp-formula>
+Where, <italic>d</italic> is equal to the water depth. Rearranging Eq (<xref ref-type="disp-formula" rid="pone.0222263.e003">3</xref>) to solve for <italic>t</italic> and substituting it into Eq (<xref ref-type="disp-formula" rid="pone.0222263.e002">2</xref>) yields the final formula use to convert the measured downstream distance to a a depth-averaged water:
+<disp-formula id="pone.0222263.e004">
+<alternatives>
+<graphic id="pone.0222263.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e004" ns0:type="simple" />
+<ns1:math display="block" id="M4">
+<ns1:mi>V</ns1:mi><ns1:mo>=</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>*</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>v</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>/</ns1:mo><ns1:mi>d</ns1:mi>
+</ns1:math>
+</alternatives>
+<label>(4)</label>
+</disp-formula>
+Where, <italic>V</italic> is the depth-averaged water velocity (assumed constant), <italic>d</italic><sub><italic>d</italic></sub> is the downstream distance traveled by the float, <italic>V</italic><sub><italic>v</italic></sub> is the vertical velocity of the air bubble, and <italic>d</italic> is the water depth.</p>
+</sec>
+<sec id="sec009">
+<title>Flume experiment</title>
+<p>The four methods were tested in the University of Idaho&#8217;s high-gradient hydraulic flume. This flume is 20 m long, 2 m wide, 1.2 m deep, can produce a maximum discharge of 1.1 m<sup>3</sup>/s, and can be adjusted to a maximum slope of 10 percent. Measurements were made for a range of flume conditions, with water depths ranging from 10 cm to 75 cm, depth-averaged velocities ranging from 9 cm/s to 117 cm/s, and three different substrates: the smooth metal flume bottom, a gravel bed (clast diameter 2&#8211;5 cm), and a cobble bed (clast diameter 5&#8211;15 cm). The full set of 26 flume conditions are shown in <xref ref-type="table" rid="pone.0222263.t001">Table 1</xref>. These were chosen to capture a range of safely wadable conditions that are typically encountered in small basin and montane streams.</p>
+<table-wrap id="pone.0222263.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.t001</object-id>
+<label>Table 1</label> <caption><title>Flume test conditions.</title></caption>
+<alternatives>
+<graphic id="pone.0222263.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Measurement Date</th>
+<th align="center">Substrate</th>
+<th align="center">Water Depth (cm)</th>
+<th align="center">Depth-Averaged Velocity (cm/s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">40</td>
+<td align="left">9</td>
+</tr>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">75</td>
+<td align="left">10</td>
+</tr>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">20</td>
+<td align="left">37</td>
+</tr>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">38</td>
+<td align="left">48</td>
+</tr>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">24</td>
+<td align="left">63</td>
+</tr>
+<tr>
+<td align="left">11/15/2016</td>
+<td align="left">Gravel</td>
+<td align="left">40</td>
+<td align="left">64</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">40</td>
+<td align="left">9</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">20</td>
+<td align="left">21</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">20</td>
+<td align="left">40</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">40</td>
+<td align="left">55</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">22</td>
+<td align="left">78</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">38</td>
+<td align="left">91</td>
+</tr>
+<tr>
+<td align="left">11/17/2016</td>
+<td align="left">Cobble</td>
+<td align="left">27</td>
+<td align="left">97</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">30</td>
+<td align="left">72</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">75</td>
+<td align="left">29</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">11</td>
+<td align="left">49</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">10</td>
+<td align="left">19</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">55</td>
+<td align="left">61</td>
+</tr>
+<tr>
+<td align="left">11/21/2016</td>
+<td align="left">Cobble</td>
+<td align="left">14</td>
+<td align="left">72</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">20</td>
+<td align="left">59</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">40</td>
+<td align="left">69</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">10</td>
+<td align="left">25</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">10</td>
+<td align="left">66</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">24</td>
+<td align="left">117</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">20</td>
+<td align="left">35</td>
+</tr>
+<tr>
+<td align="left">11/30/2016</td>
+<td align="left">Smooth</td>
+<td align="left">40</td>
+<td align="left">13</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Multiple vertical velocity profiles were measured for each set of conditions before, during, and after the four methods were tested. An acoustic Doppler velocimeter (ADV) was used to measure velocities at 1- to 5-centimeter depth intervals through the water column, and a particle image velocimeter (PIV) was used to measure velocity at the water surface. The velocities measured with the four alternative methods were compared to velocities measured with the ADV (water column) and PIV (surface) to determine the performance metrics of the four methods. The ADV and PIV measurements, while subject to error themselves, are regarded as &#8220;truth&#8221; in this analysis.</p>
+<p>For each set of flow conditions, multiple velocity measurements were made using each of the four methods. Fifteen repeat measurements were made with each of the rising body, surface float, and rising air bubble methods. Ten repeat measurements were made with the velocity head rod method. A procedure was developed for collecting repeat measurements with the rising air bubble and velocity head rod methods to prevent establishing an initial bias about the measurement duration that would influence remaining measurements and result in underestimates of measurement variance. For the rising air bubble method, the yardstick was adjusted after each measurement so that the nozzle was located below a different position on the yardstick every time, with the starting and ending distance recorded for each measurement to calculate the total distance traveled by the air bubbles. For the velocity head rod method, each of five data collectors measured the head buildup twice: once in inches and once in centimeters. This resulted in ten repeat measurements.</p>
+</sec>
+</sec>
+<sec id="sec010">
+<title>Data analysis</title>
+<sec id="sec011">
+<title>Velocity profiles</title>
+<p>The multiple ADV and PIV profiles that were collected before, during, and after each set of measurements were averaged for each set of conditions to create a single representative velocity profile for that set of conditions. For six of the 26 conditions, the PIV did not record a usable surface velocity. In these cases, a surface-velocity value was instead extrapolated by fitting a power law curve to the ADV measurements. A velocity of zero was assumed for the flume bottom where the ADV was unable to measure. This is a commonly used method for extrapolating the unmeasured upper and lower portions of a velocity profile when processing acoustic Doppler current profiler (ADCP) measurements [<xref ref-type="bibr" rid="pone.0222263.ref019">19</xref>]. The depth-averaged velocity was calculated by taking an average of the velocities of the profile weighted by the depth interval of each measurement.</p>
+<p>The velocity profiles also enabled calculation of velocity ratios (surface velocity to depth-averaged velocity) for each set of conditions. Researchers of non-contact streamflow measurement methods such as LSPIV and SVR have placed recent focus on the velocity ratio as a critical measure of the stream&#8217;s velocity distribution [<xref ref-type="bibr" rid="pone.0222263.ref018">18</xref>] [<xref ref-type="bibr" rid="pone.0222263.ref020">20</xref>]. The practical use of these methods relies upon selecting accurate estimates of velocity ratios with taking any additional velocity measurements below the water surface. One promising approach is to develop empirical relationships between the velocity ratio and easily quantifiable characteristics of a stream, such as substrate size and water depth. While the development of empirical relationships that may be applied outside of the laboratory setting in which our data was collected was not the objective of this study, the topic is critical to the surface float and velocity head rod methods. As a result, the relationship between depth, substrate, and velocity ratio was investigated and presented here.</p>
+</sec>
+<sec id="sec012">
+<title>Measurement precision and accuracy</title>
+<p>The scaled mean error (SME) was used to calculate bias in the measurements. The SME measures how far the alternative-method measurements are from the ADV and PIV depth-averaged velocity. The SME takes on a positive value if the measurement is an over-estimate of the control velocity and a negative value if it is an under-estimate. The formula for SME is:
+<disp-formula id="pone.0222263.e005">
+<alternatives>
+<graphic id="pone.0222263.e005g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e005" ns0:type="simple" />
+<ns1:math display="block" id="M5">
+<ns1:mi>S</ns1:mi><ns1:mi>M</ns1:mi><ns1:mi>E</ns1:mi><ns1:mo>=</ns1:mo><ns1:mo>(</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>m</ns1:mi><ns1:mi>e</ns1:mi><ns1:mi>a</ns1:mi><ns1:mi>s</ns1:mi><ns1:mi>u</ns1:mi><ns1:mi>r</ns1:mi><ns1:mi>e</ns1:mi><ns1:mi>d</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>&#8211;</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>c</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>n</ns1:mi><ns1:mi>t</ns1:mi><ns1:mi>r</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>l</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>)</ns1:mo><ns1:mo>/</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>c</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>n</ns1:mi><ns1:mi>t</ns1:mi><ns1:mi>r</ns1:mi><ns1:mi>o</ns1:mi><ns1:mi>l</ns1:mi></ns1:mrow></ns1:msub>
+</ns1:math>
+</alternatives>
+<label>(5)</label>
+</disp-formula>
+Where, <italic>V</italic><sub><italic>measured</italic></sub> is the velocity measured by the alternative method being tested and <italic>V</italic><sub><italic>control</italic></sub> is the velocity measured with the ADV (water column profile) and PIV (surface). The coefficient of variation (CV) was used to calculate measurement precision. Unlike the SME, the CV is calculated independently of the measurements made by the ADV and PIV.</p>
+</sec>
+<sec id="sec013">
+<title>Velocity head rod calibration and sampling interval</title>
+<p>It has been previously recognized that the theoretical equivalence of the kinetic energy of free-flowing water and the potential energy of water stagnating at the velocity head rod is not exact and that a calibration to known velocities is necessary [<xref ref-type="bibr" rid="pone.0222263.ref011">11</xref>]. Two hypothesized reasons for this are that kinetic energy is dissipated in other forms and that the head may be more representative of the average velocity of the upper portion of the stream than the depth-averaged velocity [<xref ref-type="bibr" rid="pone.0222263.ref011">11</xref>].</p>
+<p>The method used by Fonstad et al. [<xref ref-type="bibr" rid="pone.0222263.ref011">11</xref>] to calibrate the velocity head rod measurements was to first apply the theoretical relationship to the measured heads to acquire uncalibrated velocities, then to compare these uncalibrated velocities to known depth-averaged velocities, and finally to derive a linear relationship between the uncalibrated velocities and the depth-averaged velocities. The same approach was used for this study with one addition. The velocity profiles were divided into several intervals to determine whether the velocity head is most affected by the depth-averaged velocity or the velocity in another depth interval. The uncalibrated velocities were compared to the depth-averaged velocities, surface velocities, and the average velocities in the top 5 cm, 10 cm, and 15 cm of the water column.</p>
+</sec>
+<sec id="sec014">
+<title>Rising body vertical acceleration</title>
+<p>The rising body method employs the simple formula of downstream distance divided by travel time to calculate the depth-averaged velocity. This formula assumes that the body maintains a constant vertical velocity as it rises. A buoyant object will experience a period of acceleration, however, until it approaches its terminal velocity. Additionally, this acceleration will vary depending upon the net buoyancy and the shape of the object. Vertical acceleration may introduce a challenging bias to the rising body method. A relatively slow acceleration of the object to its terminal velocity would produce a bias toward underestimating the depth-averaged water velocity because the object spends more time at greater depths where velocities are typically lower. Slower accelerations generate greater bias (i.e., larger underestimations). Correcting for this bias universally would be challenging as it varies with object shape, object buoyancy, and stream depth.</p>
+<p>Three side-by-side sets of measurements were made using two floats filled with different volumes of water to test whether the buoyancy of an object affects the measured depth-averaged velocity. The measurements were made using three different sets of conditions: 1) cobble substrate, 75 cm water depth and 29 cm/s depth-averaged velocity; 2) cobble substrate, 30 cm water depth and 72 cm/s surface velocity; and 3) smooth substrate, 40 cm water depth and 69 cm/s surface velocity. For each set of conditions, repeat measurements were taken by alternating between the two floats and a t-test was applied to the paired velocity measurements.</p>
+<p>The rising body data were also examined for the presence and impact of vertical acceleration by comparing the average vertical velocity with the water depth for each fill volume. The vertical velocity was calculated by dividing the water depth by the rise time and the velocity residual was calculated by subtracting the ADV- and PIV-derived depth-averaged velocity from the rising body velocity. Pearson correlation statistics were calculated between water depth and vertical velocity.</p>
+</sec>
+<sec id="sec015">
+<title>Rising air bubble vertical velocity</title>
+<p>The vertical velocity of rising air bubbles was calculated as <italic>V</italic><sub><italic>v</italic></sub> according to a rearrangement of Eq (<xref ref-type="disp-formula" rid="pone.0222263.e004">4</xref>):
+<disp-formula id="pone.0222263.e006">
+<alternatives>
+<graphic id="pone.0222263.e006g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e006" ns0:type="simple" />
+<ns1:math display="block" id="M6">
+<ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>v</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>=</ns1:mo><ns1:mi>V</ns1:mi><ns1:mo>*</ns1:mo><ns1:mi>d</ns1:mi><ns1:mo>/</ns1:mo><ns1:msub><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>d</ns1:mi></ns1:mrow></ns1:msub>
+</ns1:math>
+</alternatives>
+<label>(6)</label>
+</disp-formula>
+These values were calculated using the measured quantities of water depth (d) and downstream distance (d<sub>d</sub>) the depth-averaged water velocity (V<sub>v</sub>) as measured by the ADV (water column) and PIV (surface). The acceleration and terminal velocity of rising air bubbles are impacted similarly as those of rising floats in the rising body method, except that the impact is more complex because bubbles are not rigid bodies. No experiments were made to assess differences between accelerations and terminal velocities for air bubbles and the rigid floats used to test the rising-body method.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec016" sec-type="results">
+<title>Results</title>
+<sec id="sec017">
+<title>Velocity profiles</title>
+<p>The magnitude of the velocity ratio was dependent on substrate roughness (clast size) and water depth, with shallower depths and rougher substrates yielding smaller velocity ratios. This finding is consistent with previous studies [<xref ref-type="bibr" rid="pone.0222263.ref018">18</xref>]. All velocity profiles collected with the ADV and PIV were normalized and are shown together in <xref ref-type="fig" rid="pone.0222263.g001">Fig 1</xref>. For each profile, measurement depth was divided by water depth and the result subtracted from 1 to obtain the normalized measurement height above the bottom, and velocity was divided by depth-averaged velocity. The opacity of points is proportional to total water depth, with increasing opacity corresponding to increasing water depth. Velocity profiles have greater uniformity when the bed is smoother and water depths are greater. While the velocity profiles have different shapes for different substrates, their depth-averaged velocities commonly occur near a relative depth of 0.6 (a relative height of 0.4 in <xref ref-type="fig" rid="pone.0222263.g001">Fig 1</xref>). This is consistent with the theory and observations of flow in open channels [<xref ref-type="bibr" rid="pone.0222263.ref021">21</xref>]. At any given relative depth, the variance of normalized velocities is greater for rougher substrates than smoother substrates. This means that in channels with rougher substrates, such as in small and rocky montane streams, representing an entire velocity profile with a single measurement introduces significant measurement uncertainty. This increasing measurement uncertainty with increasing roughness is also illustrated in <xref ref-type="fig" rid="pone.0222263.g002">Fig 2</xref>, which shows histograms of velocity ratios for each substrate.</p>
+<fig id="pone.0222263.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Vertical velocity profiles for each set of conditions tested in the flume.</title>
+<p>Measurement depth is normalized by water depth and the result subtracted from 1 to obtain normalized measurement height above the bottom, and velocity is normalized by depth-averaged velocity. The point opacity is proportional to water depth, with increasing opacity corresponding to increasing water depth.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g001" ns0:type="simple" />
+</fig>
+<fig id="pone.0222263.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Histograms of velocity ratios for each substrate.</title>
+<p>The dashed vertical lines are the mean velocity ratio for each substrate. The solid black vertical line is the overall mean velocity ratio.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g002" ns0:type="simple" />
+</fig>
+<p>Velocity ratios are plotted versus water depth in <xref ref-type="fig" rid="pone.0222263.g003">Fig 3</xref>. For the gravel and cobble substrates, a nearly linear relationship between velocity ratio and water depth is apparent, but for the smooth substrate the velocity ratio does not appear to vary in a similar manner with water depth. For the gravel and cobble substrates, the relationship can be expressed as
+<disp-formula id="pone.0222263.e007">
+<alternatives>
+<graphic id="pone.0222263.e007g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e007" ns0:type="simple" />
+<ns1:math display="block" id="M7">
+<ns1:mi>&#945;</ns1:mi><ns1:mo>=</ns1:mo><ns1:mn>0.00628</ns1:mn><ns1:mspace width="0.25em" /><ns1:mo>(</ns1:mo><ns1:mn>1</ns1:mn><ns1:mo>/</ns1:mo><ns1:mi>c</ns1:mi><ns1:mi>m</ns1:mi><ns1:mo>)</ns1:mo><ns1:mo>*</ns1:mo><ns1:mi>d</ns1:mi><ns1:mo>+</ns1:mo><ns1:mn>0.465</ns1:mn>
+</ns1:math>
+</alternatives>
+<label>(7)</label>
+</disp-formula>
+Where, &#945; is the velocity ratio and <italic>d</italic> is the water depth (in cm; ranging from 10 to 75 cm). This relationship has a correlation coefficient of 0.95 and an RMSE of 0.038. A linear relationship between velocity ratio and depth was explored for the smooth substrate, with a correlation coefficient of 0.69 and a RMSE of 0.033. However, because of the fewer number of samples, the narrow domain of depth values tested, the lower correlation coefficient, and because of how close all velocity ratios values were to the approximate upper limit of 1, it was considered more appropriate to set the velocity ratio as a constant value equal to the average velocity ratio of 0.92. The RMSE of this approach is 0.050. For the alternative methods that require a velocity ratio (the surface float and velocity head rod methods), these relationships were used to estimate the velocity ratios. This approach was favored over using the exact velocity ratio for each set of conditions to better mimic how unknown velocity ratios are approximated in the field. It should not be assumed that these relationships apply generally to all streams or to water depths outside the range tested in this study.</p>
+<fig id="pone.0222263.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Velocity ratio versus water depth for all conditions.</title>
+<p>The horizontal dashed line shows the average velocity ratio of 0.92 for the smooth substrate; the second dashed line is the line of best fit between velocity ratio and water depth for the gravel and cobble substrates.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g003" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec018">
+<title>Surface float method</title>
+<sec id="sec019">
+<title>Precision and accuracy</title>
+<p>Summary performance metrics for the surface float and other alternative methods are listed in <xref ref-type="table" rid="pone.0222263.t002">Table 2</xref>. The precision of the surface float method is comparable to the other methods, but the method&#8217;s bias is greater with an SME of -0.08. The surface float method tends to underestimate the depth-averaged velocity.</p>
+<table-wrap id="pone.0222263.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.t002</object-id>
+<label>Table 2</label> <caption><title>Summary of precision and bias for each alternative method.</title></caption>
+<alternatives>
+<graphic id="pone.0222263.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" />
+<th align="center">Surface float method</th>
+<th align="center">Velocity head rod method</th>
+<th align="center">Rising body method</th>
+<th align="center">Rising air bubble method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mean CV</td>
+<td align="left">0.10</td>
+<td align="left">0.10</td>
+<td align="left">0.14</td>
+<td align="left">0.09</td>
+</tr>
+<tr>
+<td align="left">Mean SME</td>
+<td align="left">-0.08</td>
+<td align="left">-0.04</td>
+<td align="left">-0.01</td>
+<td align="left">0.04</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The CV and SME of the surface float and other alternative methods were compared to water depth and depth-averaged velocity to see how precision and bias vary with these variables (<xref ref-type="fig" rid="pone.0222263.g004">Fig 4</xref>). A table of Pearson correlation coefficients and associated p-values are listed in <xref ref-type="table" rid="pone.0222263.t003">Table 3</xref>. For the surface float method, a positive relationship was observed at the 95% confidence level between SME and water depth. The surface float method&#8217;s bias towards underprediction is greater at smaller depth-averaged velocities (<xref ref-type="fig" rid="pone.0222263.g004">Fig 4</xref>).</p>
+<fig id="pone.0222263.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>COV and SME versus water depth and depth-averaged velocity for each alternative velocity method.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g004" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222263.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.t003</object-id>
+<label>Table 3</label> <caption><title>Correlations between the performance metrics (CV and SME) and the stream variables (water depth and depth-averaged velocity) for each alternative velocity method.</title></caption>
+<alternatives>
+<graphic id="pone.0222263.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Method</th>
+<th align="left">Variable</th>
+<th align="left">Performance<break />Metric</th>
+<th align="left">Correlation coefficient</th>
+<th align="left">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">velocity head rod</td>
+<td align="left">depth-averaged velocity</td>
+<td align="left">CV</td>
+<td align="left">-0.76</td>
+<td align="left">0.000</td>
+</tr>
+<tr>
+<td align="left">air bubble</td>
+<td align="left">water depth</td>
+<td align="left">SME</td>
+<td align="left">-0.64</td>
+<td align="left">0.002</td>
+</tr>
+<tr>
+<td align="left">surface float</td>
+<td align="left">depth-averaged velocity</td>
+<td align="left">SME</td>
+<td align="left">0.53</td>
+<td align="left">0.005</td>
+</tr>
+<tr>
+<td align="left">velocity head rod</td>
+<td align="left">water depth</td>
+<td align="left">SME</td>
+<td align="left">0.53</td>
+<td align="left">0.017</td>
+</tr>
+<tr>
+<td align="left">air bubble</td>
+<td align="left">depth-averaged velocity</td>
+<td align="left">CV</td>
+<td align="left">-0.49</td>
+<td align="left">0.028</td>
+</tr>
+<tr>
+<td align="left">rising body</td>
+<td align="left">water depth</td>
+<td align="left">SME</td>
+<td align="left">0.39</td>
+<td align="left">0.057</td>
+</tr>
+<tr>
+<td align="left">velocity head rod</td>
+<td align="left">depth-averaged velocity</td>
+<td align="left">SME</td>
+<td align="left">0.40</td>
+<td align="left">0.077</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec020">
+<title>Practical considerations</title>
+<p>No practical challenges were encountered in performing surface float measurements in the laboratory setting. Under natural conditions, turbid water or wide streams may make it impractical to place a reference object on the stream bed or bank. Overall, the surface float method is the easiest to perform.</p>
+<p>The surface float method has two main drawbacks. First, it appears to have an under-estimation bias, particularly at smaller velocities. Second, the method relies upon the use of a velocity ratio, which may be difficult to estimate for shallow streams with rough substrates.</p>
+</sec>
+</sec>
+<sec id="sec021">
+<title>Velocity head rod method</title>
+<sec id="sec022">
+<title>Calibration and sampling intervals</title>
+<p>The velocity head rod method measured velocities greater than 15 cm/s, below which the head was not observable. At velocities greater than 40&#8211;50 cm/s, waves formed on the stream surface and the precision of the head measurement decreased.</p>
+<p>We found that the measured velocities (uncalibrated velocities) correlated most closely (largest R<sup>2</sup>) with average velocities measured in the top 5 cm of the velocity profile. Despite these findings, it would be easier in practice to use a calibration formula that either translates the measured velocity to a depth-averaged velocity or to a surface velocity from which a depth-averaged velocity can be computed using an appropriate velocity ratio. Scatter plots and regression lines are shown in <xref ref-type="fig" rid="pone.0222263.g005">Fig 5</xref> for the measured (uncalibrated) velocities versus the surface velocity (additional figures are included as supplemental material). These and several other approaches were compared with a 5-fold cross validation. A cross validation is a way to test how a model, in this case a linear regression model, may perform when used to make predictions for values of input variables that were not included in set used to develop the model. A cross-validation tests this by removing a random subset of data from the overall dataset, fitting a model to this reduced set, and then testing how well the model can predict the values of the set that was withheld. The error in these predictions are called the out-of-set error. For a 5-fold dataset, this is done 5 times, with a different subset comprising 1/5 of the overall dataset withheld each time. We found that calibrating the measured velocity to the surface velocity (and then multiplying by a velocity ratio) had the lowest out-of-set error. (Results of the different approaches are provided in the supplemental material.) The final formula for the velocity head rod method is thus:
+<disp-formula id="pone.0222263.e008">
+<alternatives>
+<graphic id="pone.0222263.e008g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0222263.e008" ns0:type="simple" />
+<ns1:math display="block" id="M8">
+<ns1:msub><ns1:mrow><ns1:mi>V</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>s</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>=</ns1:mo><ns1:mn>1.098</ns1:mn><ns1:mo>*</ns1:mo><ns1:mrow><ns1:mo>(</ns1:mo><ns1:msqrt><ns1:mn>2</ns1:mn><ns1:mi>g</ns1:mi><ns1:mi>h</ns1:mi></ns1:msqrt><ns1:mo>&#8722;</ns1:mo><ns1:mn>15.31</ns1:mn><ns1:mfrac><ns1:mrow><ns1:mi>c</ns1:mi><ns1:mi>m</ns1:mi></ns1:mrow><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>e</ns1:mi><ns1:mi>c</ns1:mi></ns1:mrow></ns1:mfrac><ns1:mo>)</ns1:mo></ns1:mrow>
+</ns1:math>
+</alternatives>
+<label>(8)</label>
+</disp-formula>
+Where, <italic>V</italic><sub><italic>s</italic></sub> is the surface velocity in cm/sec, <italic>g</italic> is gravitational acceleration in cm/sec<sup>2</sup>, and <italic>h</italic> is the head difference in cm. This formula applies to all substrate types. As with the surface float method, the depth-averaged velocity can be calculated by multiplying the surface velocity by a velocity ratio.</p>
+<fig id="pone.0222263.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Surface velocity versus (uncalibrated) velocity measured with the velocity head rod method.</title>
+<p>The colored lines are best fit lines for each substrate type and the black line is the best-fit line for all measurements.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g005" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec023">
+<title>Precision and accuracy</title>
+<p>Overall, the velocity head rod method has moderate precision and accuracy compared to the other three alternative methods, with a mean CV of 0.1 and mean SME of -0.04 (<xref ref-type="table" rid="pone.0222263.t002">Table 2</xref>). For the velocity head rod method, two relationships between measurement performance metrics and stream variables were observed at the 95% confidence level. First, precision (CV) was found to strongly improve with depth-averaged velocity, as can be seen clearly in <xref ref-type="fig" rid="pone.0222263.g004">Fig 4</xref>. This seems counter to the challenge users had measuring a precise head value with the oscillations that occurred at depth-averaged velocities greater than 40&#8211;50 cm/s. The theoretical equivalence of kinetic and potential energy that underpins this method, however, predicts that the head will increase with the square of velocity, suggesting that the sensitivity (precision) of the technique should improve as velocity increases. A positive correlation between SME and water depth is also observed at the 95% confidence level. At the 90% confidence level, a positive relationship was found between depth-averaged velocity and SME. These latter two relationships appear to be driven largely by underpredictions of depth-averaged velocity at smaller depths and velocities.</p>
+</sec>
+<sec id="sec024">
+<title>Practical considerations</title>
+<p>Measurements with the velocity head rod were generally fast and simple to perform. Positioning the observer&#8217;s eyes at the level of the water surface is challenging at shallow depths, however, if the user is unwilling or unable to kneel in the stream. As previous practitioners have found, a clear velocity head rod improves the ability to measure the head [<xref ref-type="bibr" rid="pone.0222263.ref011">11</xref>]. While the head was found to oscillate at greater depth-averaged velocities and reduce the precision of the head measurement, the exponential relationship between velocity and head counteracts this and leads to improved precision of head measurements as the velocity increases.</p>
+<p>The velocity head rod method has two main drawbacks. First, the method&#8217;s precision declines with smaller velocities and the method does not work for depth-averaged velocities smaller than 15 cm/s. Second, like the surface float method, the velocity head rod method requires a velocity ratio (<xref ref-type="disp-formula" rid="pone.0222263.e006">Eq 6</xref>), which may be difficult to estimate in a field setting.</p>
+</sec>
+</sec>
+<sec id="sec025">
+<title>Rising body method</title>
+<sec id="sec026">
+<title>Vertical acceleration</title>
+<p>Tests were performed to measure how the period of acceleration in the rising body&#8217;s vertical velocity affect the bias of the depth-averaged velocity determined with the method. Depth-averaged velocities were measured for different combinations of substrates and water depths using two floats side by side (<xref ref-type="table" rid="pone.0222263.t004">Table 4</xref>). For each set of measurements, the floats were filled with different amounts of water (fill volumes). These measurements of varying substrate types and water depths indicate no significant differences in the measured depth-averaged velocities for two different fill volumes of the rising body (<xref ref-type="table" rid="pone.0222263.t004">Table 4</xref>).</p>
+<table-wrap id="pone.0222263.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.t004</object-id>
+<label>Table 4</label> <caption><title>T-test results for paired sets of rising body measurements.</title></caption>
+<alternatives>
+<graphic id="pone.0222263.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Substrate</th>
+<th align="center">Water Depth (cm)</th>
+<th align="center">Depth-averaged velocity (cm/s)</th>
+<th align="center">Fill volume for float 1 (ml)</th>
+<th align="center">Fill volume for float 2 (ml)</th>
+<th align="center">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Cobble</td>
+<td align="left">75</td>
+<td align="left">29</td>
+<td align="left">4.36</td>
+<td align="left">9.375</td>
+<td align="left">0.65</td>
+</tr>
+<tr>
+<td align="left">Cobble</td>
+<td align="left">30</td>
+<td align="left">72</td>
+<td align="left">5</td>
+<td align="left">9.375</td>
+<td align="left">0.33</td>
+</tr>
+<tr>
+<td align="left">Smooth</td>
+<td align="left">40</td>
+<td align="left">69</td>
+<td align="left">6.25</td>
+<td align="left">9.375</td>
+<td align="left">0.79</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>While the side-by-side tests revealed no significant difference between depth-averaged velocities measured with floats of different buoyancies, there is a degree of vertical acceleration that can be discerned from the full set of rising body measurements. For each individual measurement, the mean vertical velocity of the float can be calculated by dividing the water depth by the time taken for the body to rise to the surface. This mean vertical velocity, which is made up of lower vertical velocities as the float begins its ascent at the stream bottom and high vertical velocities as the float approaches the water surface, should increase with increasing depth. This was tested by dividing the rising body measurement into six groups based upon the fill volume of the float and for each group running a Pearson&#8217;s correlation test for mean vertical velocity and water depth. The results, shown in <xref ref-type="table" rid="pone.0222263.t005">Table 5</xref>, show that for 4 of the 6 fill volumes a significant positive correlation between mean vertical velocity and depth, suggesting that a noticeable degree of acceleration occurred during the rising body measurements. The reason the impact of this acceleration was not observed in the side-by-side tests may have been due to additional measurement error present when performing those tests, which involved measuring both time and distance travelled for two different floats.</p>
+<table-wrap id="pone.0222263.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.t005</object-id>
+<label>Table 5</label> <caption><title>Correlation coefficients of water depth and vertical velocity for rising floats filled with different volumes of water.</title></caption>
+<alternatives>
+<graphic id="pone.0222263.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.t005" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Fill volume (ml)</th>
+<th align="center">Correlation coefficient</th>
+<th align="left">Number of samples</th>
+<th align="left">P-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">5</td>
+<td align="left">0.6</td>
+<td align="left">4</td>
+<td align="left">0.00</td>
+</tr>
+<tr>
+<td align="left">7.5</td>
+<td align="left">0.34</td>
+<td align="left">4</td>
+<td align="left">0.01</td>
+</tr>
+<tr>
+<td align="left">8.125</td>
+<td align="left">0.71</td>
+<td align="left">2</td>
+<td align="left">0.00</td>
+</tr>
+<tr>
+<td align="left">8.75</td>
+<td align="left">0.25</td>
+<td align="left">3</td>
+<td align="left">0.19</td>
+</tr>
+<tr>
+<td align="left">9.375</td>
+<td align="left">0.64</td>
+<td align="left">7</td>
+<td align="left">0.00</td>
+</tr>
+<tr>
+<td align="left">9.5</td>
+<td align="left">0.01</td>
+<td align="left">6</td>
+<td align="left">0.92</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec027">
+<title>Precision and accuracy</title>
+<p>Overall, the rising body method has the lowest precision of the four alternative methods tested, but it also has the least bias, with a mean CV of 0.14 and mean SME of -0.01. No relationships were observed between performance metrics and stream variables at the 95% confidence level. At the 90% confidence level, a positive relationship was observed between SME and water depth. This relationship may be the result of the observed vertical acceleration of the rising body although the side-by-side measurements cast doubt upon this conclusion.</p>
+</sec>
+<sec id="sec028">
+<title>Practical considerations</title>
+<p>As hypothesized, the rising body method showed greater accuracy than the other alternative methods. This is likely because the method directly measures the depth-averaged velocity and does not require a velocity ratio adjustment.</p>
+<p>A few practical limitations were encountered in applying the rising body method. Most importantly, it was challenging to make measurements using the method with fewer than three people. The method would be easier to undertake with a float that is disposable, which may allow two people to make a measurement. In addition, it was challenging to hold and release the float without noticeably disturbing the direction of flow. Field conditions may introduce additional challenges. While the float appeared to accelerate vertically, it is difficult to determine whether and to what extent this caused a bias at smaller depths.</p>
+</sec>
+</sec>
+<sec id="sec029">
+<title>Rising air bubble method</title>
+<sec id="sec030">
+<title>Vertical air bubble velocity</title>
+<p>A histogram of the calculated vertical air bubble velocities is shown in <xref ref-type="fig" rid="pone.0222263.g006">Fig 6</xref>. The mean vertical velocity is 19.4 cm/s and the standard deviation is 3.5 cm/s. This relatively large variance suggests that it may be too simplistic to use a single vertical velocity. If the true vertical air bubble velocity were less than the mean value, the horizontal velocity (<italic>V</italic> in <xref ref-type="disp-formula" rid="pone.0222263.e002">Eq 2</xref>) would be overestimated if the mean vertical velocity is used for V<sub>v</sub> in <xref ref-type="disp-formula" rid="pone.0222263.e002">Eq 2</xref>. The opposite would happen if the true vertical air bubble velocity were greater than the mean value.</p>
+<fig id="pone.0222263.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Histogram of calculated vertical air bubble velocities.</title>
+<p>The vertical dashed line shows the mean vertical velocity of 19.4 cm/s.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g006" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec031">
+<title>Precision and accuracy</title>
+<p>The rising air bubble method had a mean CV of 0.09 and a mean SME of 0.04, suggesting that the method had the highest precision of the four alternative methods and a bias comparable to that of the velocity head rod method. Measurements with the air bubble method, however, were too difficult to make for six of the 26 conditions tested and thus the overall performance metrics of the method could not be compared to those of the other three methods. For the rising air bubble method, two relationships were observed at the 95% confidence level between performance metrics and stream variables. First, bias had a strong negative correlation with water depth. Bias was positive at shallow depths (0&#8211;30 cm), neutral at intermediate depths (30&#8211;50 cm), and negative at large depths (50&#8211;80 cm). This bias trend likely results from assuming a single vertical air bubble velocity. The precision of the air bubble method improved with increased stream velocity. Unfortunately, it was at greater stream velocities (greater than ~70 cm/s) that measurements were frequently too difficult to make.</p>
+</sec>
+</sec>
+<sec id="sec032">
+<title>Practical considerations</title>
+<p>In most cases, the rising air bubble method was easy to carry out by one person. For the conditions where measurements were possible, the method also showed high precision. Even though the method requires an independent estimate of the vertical air bubble velocity, and thus does not directly measure the depth-averaged velocity in the same manner as the rising body method, the rising air bubble method results in a measurement that represents the entire water column. For this reason, measurements made with the rising air bubble method do not require a velocity ratio adjustment.</p>
+<p>Numerous practical challenges were encountered with the rising air bubble method. It was challenging to see the air bubbles and identify where they surfaced, particularly at large stream velocities (greater than 40&#8211;50 cm/s) when waves were present on the water surface. Visibility may be an even greater challenge in natural streams. Several factors also appeared to affect the size of the air bubbles and their resultant buoyancy. Water depth appeared to be the dominant factor (greater hydrostatic pressure resulted in smaller and less buoyant bubbles), but the position of the nozzle from which air bubbles originated and the presence of turbulence near the streambed also appeared to have an impact. The most important challenge of the rising air bubble method, however, were the numerous materials and complicated assembly the method required. It may be too difficult to construct a sufficiently standardized device among a disparate population of users to produce comparable measurements. For this reason, we do not consider the method suitable for our intended application. Under different settings, however, the method may show promise, and avenues exist for overcoming the challenges experienced in this experiment. For example, researchers are using digital instrumentation [<xref ref-type="bibr" rid="pone.0222263.ref013">13</xref>] and cameras with image processing algorithms [<xref ref-type="bibr" rid="pone.0222263.ref022">22</xref>] to enhance the utility of the rising air bubble method.</p>
+</sec>
+<sec id="sec033">
+<title>Comparative performance</title>
+<p>The relative precision, as measured by the CV, of the four alternative methods under different conditions is shown in <xref ref-type="fig" rid="pone.0222263.g007">Fig 7</xref>. The absolute value of the SME under different conditions is shown in <xref ref-type="fig" rid="pone.0222263.g008">Fig 8</xref>. In each figure, differently colored circles represent different measurement techniques, and the size of each circle represents the relative CV or SME value, with larger circles representing greater values (less precision or more bias) and smaller circles representing smaller values (more precision or less bias). The results highlight that the substrate appears to be a major factor in determining measurement accuracy but only a modest factor in determining measurement precision.</p>
+<fig id="pone.0222263.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Relative precision, as measured by the CV, of the four alternative velocity methods under different conditions.</title>
+<p>Different colored circles represent different measurement techniques and the size of the circle represents the relative CV value, with larger circles showing less precision and smaller dots more. Each group of colored bubbles is centered on the coordinates representing the tested water depth and depth-averaged velocity. Individual bubbles are offset from this position, however, to avoid overlap.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g007" ns0:type="simple" />
+</fig>
+<fig id="pone.0222263.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222263.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Accuracy, as measured by the SME, of the four alternative velocity methods under different conditions.</title>
+<p>Each color circle represents a different measurement technique and the size of the bubble represents the relative SME value, with larger circles showing less accuracy and smaller dots more. Each group of colored bubbles is centered at the coordinates representing the depth and velocity tested, however the individual bubbles are offset from this position to avoid overlap.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.g008" ns0:type="simple" />
+</fig>
+<p>It is important to note that to calculate SME, an estimate of depth-averaged velocity had to be obtained for each of the alternative methods. In the case of the surface float and velocity head rod, this involves applying the velocity ratio as a multiplier. The specific velocity ratio used for each measurement was found using a relationship between the velocity ratio, as solved using ADV and PIV measurements, and the total water depth. Because the relationship between velocity ratio and depth was derived as a best fit line between the known quantities, the measurements of surface float and velocity head rod that use this best-fit velocity ratio can be considered to have a degree of bias correction applied prior to the calculation of the SME. Importantly, this may underestimate the bias compared to a measurement taken in field conditions for which the velocity ratio is harder to estimate. The CV, on the other hand, is insensitive to scale and is thus not affected by the choice of velocity ratio.</p>
+</sec>
+</sec>
+<sec id="sec034" sec-type="conclusions">
+<title>Discussion</title>
+<p>The primary goal of this study was to estimate the precision and accuracy of four stream velocity measurement methods. A secondary goal of this study was to develop standardized instrumentation and methodology. In both cases, the findings of this study are judged against the instruments and methods that are traditionally used for measuring streamflow&#8211;in particular, wading measurements collected with mechanical or acoustic current velocity meters. The ease and affordability of the proposed alternative methods may come at the cost of lower data quality (precision and accuracy) relative to traditional stream gaging. With this study, we hope to explore this tradeoff between measurement ease and quality and, if possible, to reduce it.</p>
+<p>For the purposes of developing methodologies of the alternative stream velocity methods and in judging their performance against tradition methods, it will be important to identify whether there are certain stream conditions under which one of the four alternative methods performs best. The computed precision and bias and observed practical constraints can help answer this question. A major choice to be considered is whether to use the rising body method, with its small bias but lesser precision, or the surface float or velocity head rod methods that have greater bias but greater precision. The intended application of the velocity measurements and the number of people available to help make them will guide this choice. If large bias would be detrimental to an application and measurements must be made in shallow and rocky (rough substrate) streams where the surface methods (i.e., surface float or velocity head rod methods) may produce bias, then it may be worth taking the extra effort to use the rising body method. Multiple measurements could be made with the rising body method to improve the depth-averaged velocity estimate. In other cases, when the velocity head rod or the surface float methods would be suitable, the stream velocity itself can help determine the better choice of method. For example, at stream velocities greater than ~60 cm/s the velocity head rod method has greater precision and at smaller stream velocities the surface float method has greater precision. This tradeoff may allow for these two methods to complement one another. It may be advantageous to use the velocity head rod method to measure faster currents near the middle of a stream and the surface float method to measure slower currents near the stream banks.</p>
+<p>Ultimately, these alternative stream velocity measurement methods will be judged against their traditional counterparts, such as mechanical or acoustic flow meters or modern non-contact methods. Even though methods that use traditional instruments face challenges in shallow streams with rough substrates, few studies have characterized the accuracy of traditional methods in such streams. One study of stream-gaging techniques in two small, slow streams found SME values of ~0.2&#8211;0.25 for traditional methods using a Marsh McBirney meter, ~0.35&#8211;0.6 for a Price Type-AA meter, and ~0.2&#8211;0.7 for a Pygmy meter [<xref ref-type="bibr" rid="pone.0222263.ref023">23</xref>]. In the same streams, SME values of ~0.35 for the more sophisticated version of the rising body method [<xref ref-type="bibr" rid="pone.0222263.ref024">24</xref>] (one-orange method) compared favorably to these traditional velocity measurement methods. While the SME values were obtained by comparing stream discharge and not depth-averaged velocity, they do suggest that non-traditional velocity measurement methods may perform as well as traditional methods the farther conditions in a small stream deviate from ideal measurement conditions.</p>
+<p>Ultimately, the major advantage of these alternative methods is their low cost, portability of equipment, and easy maintenance. Backcountry rangers, canal operators, or citizen scientists can easily carry and use these instruments in remote locations. With widespread adoption, using these velocity measurement techniques with the velocity-area method of measuring discharge could generate a valuable dataset of stream discharge measurements where few measurements currently exist. The recent developments in online repositories [<xref ref-type="bibr" rid="pone.0222263.ref025">25</xref>] [<xref ref-type="bibr" rid="pone.0222263.ref026">26</xref>] [<xref ref-type="bibr" rid="pone.0222263.ref027">27</xref>] and digital communication of citizen science data suggest that an opportunity exists for non-traditional velocity measurement methods to increase the body of knowledge in the fields of hydrology and water resources. A collaborative effort of many parties, with measurements stored in an accessible digital repository, could result in exponential growth of information where individual or spatially limited observations currently provide only cursory information of watershed system function.</p>
+</sec>
+<sec id="sec035" sec-type="conclusions">
+<title>Conclusions</title>
+<p>A laboratory experiment was conducted to test four current velocity measurement methods that can be used to quantify streamflow in small streams. Through repeated measurements under controlled and instrumented conditions, the precision and bias of these methods were determined. The surface float and velocity head rod methods were both found to be easy to perform with relatively great precision; with the surface float method performing better at depth-averaged velocities smaller than ~60 cm/s and the velocity head rod method performing better at depth-averaged velocities greater than ~60 cm/s. These methods measured the surface, or near surface, velocity rather than the depth-averaged velocity and required adjustment using an appropriate velocity ratio to compute depth-averaged velocity. The observed strong relationship between stream depth and velocity ratio that was consistent for gravel and cobble substrates suggests that an empirical relationship could be developed for estimating velocity ratios. The rising body method had the least precision but also the least bias. The method was more cumbersome to execute, requiring more personnel. Finally, the rising air bubble method was considered unsuitable for the type of field applications anticipated because of factors that could impact air bubble creation, movement, and visibility. The three methods deemed suitable&#8211;surface float, velocity head rod, and rising body&#8212;all have promise as tools for collecting fast and low-cost streamflow measurements on small streams that are typically omitted from streamflow monitoring networks.</p>
+</sec>
+<sec id="sec036">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222263.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Table of cross-validation results for different strategies of calibrating the velocity head rod.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222263.s002" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s002" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Diagram of the four stream velocity measurement methods tested in this study.</title>
+<p>Subfigure A shows the surface float method, with the required materials of a water-fillable float, yardstick, and stopwatch. Subfigure B shows the rising body method, with the required materials of a water-fillable float, yardstick, and stopwatch. Subfigure C shows the velocity-head rod method, with the required materials of a velocity head rod and a ruler. Subfigure D shows the rising air bubble method, with the required materials of a bubbler and a yardstick.</p>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222263.s003" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s003" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Vertical velocity profiles for the 6 conditions without a usable PIV measurement of surface velocity.</title>
+<p>The blue dots show the velocity measured by the flume ADV. Different shades of blue are profiles measured at different times. A power law curve fit to the ADV measured velocities is shown as a black curve and the extrapolated surface velocity is shown as an unfilled black circle.</p>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222263.s004" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s004" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Depth-averaged velocity versus (uncalibrated) velocity measured with the velocity head rod method.</title>
+<p>The colored lines are best fit lines for each substrate type and the black line is the best-fit line for all measurements.</p>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222263.s005" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s005" ns0:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Velocity of upper 5 cm versus (uncalibrated) velocity measured with the velocity head rod method.</title>
+<p>The colored lines are best fit lines for each substrate type and the black line is the best-fit line for all measurements.</p>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222263.s006" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0222263.s006" ns0:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Velocity of upper 15 cm versus (uncalibrated) velocity measured with the velocity head rod method.</title>
+<p>The colored lines are best fit lines for each substrate type and the black line is the best-fit line for all measurements.</p>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank the many thoughtful reviewers who contributed to the content of this paper. Bob Basham, Ralph Budwig, and Jenna Duffin of the University of Idaho provided invaluable assistance with flume operations, measurement collection, and planning. Ron Schulz, Nancy Youngblood, Crystal Sverdsten, and Michael Walrath of USGS all generously volunteered four long days of their time to collect measurements.</p>
+<p>Any use of trade, firm, or product name is for descriptive purposes only and does not imply endorsement by the U.S. Government.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222263.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seibert</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Beven</surname> <given-names>KJ</given-names></name>. <article-title>Gauging the ungauged basin: How many discharge measurements are needed?</article-title> <source>Hydrol Earth Syst Sci</source>. <year>2009</year>;<volume>13</volume>: <fpage>883</fpage>&#8211;<lpage>892</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5194/hess-13-883-2009" ns0:type="simple">10.5194/hess-13-883-2009</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Viviroli</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Archer</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Buytaert</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Fowler</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Greenwood</surname> <given-names>GB</given-names></name>, <name name-style="western"><surname>Hamlet</surname> <given-names>AF</given-names></name>, <etal>et al</etal>. <article-title>Climate change and mountain water resources: Overview and recommendations for research, management and policy</article-title>. <source>Hydrol Earth Syst Sci</source>. <year>2011</year>;<volume>15</volume>: <fpage>471</fpage>&#8211;<lpage>504</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5194/hess-15-471-2011" ns0:type="simple">10.5194/hess-15-471-2011</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nyeko</surname> <given-names>M.</given-names></name> <article-title>Hydrologic Modelling of Data Scarce Basin with SWAT Model: Capabilities and Limitations</article-title>. <source>Water Resour Manag</source>. <year>2015</year>;<volume>29</volume>: <fpage>81</fpage>&#8211;<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11269-014-0828-3" ns0:type="simple">10.1007/s11269-014-0828-3</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tetzlaff</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Soulsby</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Carey</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Mcnamara</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Laudon</surname> <given-names>H</given-names></name>. <article-title>The essential value of long-term experimental data for hydrology and water management</article-title>. <source>Water Resour Res</source>. <year>2017</year>; <fpage>2598</fpage>&#8211;<lpage>2604</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/2017WR020838.Received" ns0:type="simple">10.1002/2017WR020838.Received</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Carlisle</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Wolock</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Meador</surname> <given-names>MR</given-names></name>. <article-title>Alteration of streamflow magnitudes and potential ecological consequences: A multiregional assessment</article-title>. <source>Front Ecol Environ</source>. <year>2011</year>;<volume>9</volume>: <fpage>264</fpage>&#8211;<lpage>270</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1890/100053" ns0:type="simple">10.1890/100053</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kelly</surname> <given-names>CN</given-names></name>, <name name-style="western"><surname>McGuire</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Miniat</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Vose</surname> <given-names>JM</given-names></name>. <article-title>Forest management changes streamflow response to increasing precipitation extremes</article-title>. <source>Geophys Res Lett</source>. <year>2016</year>;<volume>43</volume>: <fpage>3727</fpage>&#8211;<lpage>3736</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/2016GL068058" ns0:type="simple">10.1002/2016GL068058</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kovach</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Muhlfeld</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Al-Chokhachy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dunham</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Letcher</surname> <given-names>BH</given-names></name>, <name name-style="western"><surname>Kershner</surname> <given-names>JL</given-names></name>. <article-title>Impacts of climatic variation on trout: a global synthesis and path forward</article-title>. <source>Rev Fish Biol Fish</source>. <year>2016</year>;<volume>26</volume>: <fpage>135</fpage>&#8211;<lpage>151</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11160-015-9414-x" ns0:type="simple">10.1007/s11160-015-9414-x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Miller</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Tesoriero</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Capel</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Pellerin</surname> <given-names>B a</given-names></name>, <name name-style="western"><surname>Hyer</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Burns</surname> <given-names>D a</given-names></name>, <etal>et al</etal>. <article-title>Stream Fate of Nitrate Using High-Frequency Water Quality Data</article-title>. <source>Water Resour Bull</source>. <year>2016</year>;<volume>52</volume>: <fpage>330</fpage>&#8211;<lpage>347</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/2015WR017753.Received" ns0:type="simple">10.1002/2015WR017753.Received</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>John</surname> <given-names>PH</given-names></name>. <article-title>Discharge Measurement in Lower Order Streams</article-title>. <source>Int Rev der gesamten Hydrobiol und Hydrogr</source>. <year>1978</year>;<volume>63</volume>: <fpage>731</fpage>&#8211;<lpage>755</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/iroh.19780630602" ns0:type="simple">10.1002/iroh.19780630602</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Carufel</surname> <given-names>L</given-names></name>. <source>Construction and Use of a Velocity Head Rod for Measuring Stream Velocity and Flow</source> [Internet]. Alaska; <year>1980</year> <month>Jun</month>. Available: <ext-link ext-link-type="uri" ns0:href="http://www.blm.gov/style/medialib/blm/ak/aktest/tr.Par.78682.File.dat/tr5.pdf" ns0:type="simple">http://www.blm.gov/style/medialib/blm/ak/aktest/tr.Par.78682.File.dat/tr5.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0222263.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fonstad</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Reichling</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Van de Grift</surname> <given-names>JW</given-names></name>. <article-title>The transparent velocity-head rod for inexpensive and accurate measurement of stream velocities</article-title>. <source>J Geosci Educ</source>. <year>2005</year>;<volume>53</volume>: <fpage>44</fpage>&#8211;<lpage>52</lpage>. Available: <ext-link ext-link-type="uri" ns0:href="http://www.nagt-jge.org/doi/abs/10.5408/1089-9995-53.1.44" ns0:type="simple">http://www.nagt-jge.org/doi/abs/10.5408/1089-9995-53.1.44</ext-link></mixed-citation></ref>
+<ref id="pone.0222263.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Toop</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Webster</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hawnt</surname> <given-names>RJE</given-names></name>. <article-title>Improved Guidelines for the Use of the Rising Air Float Technique for River Gauging</article-title>. <source>Water Environ J</source>. <year>1997</year>;<volume>11</volume>: <fpage>61</fpage>&#8211;<lpage>66</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1747-6593.1997.tb00089.x" ns0:type="simple">10.1111/j.1747-6593.1997.tb00089.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yannopoulos</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Demetracopoulos</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hadjitheodorou</surname> <given-names>C</given-names></name>. <article-title>Quick Method for Open-Channel Discharge Measurements Using Air Bubbles</article-title>. <source>J Hydraul Eng</source>. <year>2008</year>;<volume>134</volume>: <fpage>843</fpage>&#8211;<lpage>846</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1061/(ASCE)0733-9429(2008)134:6(843)" ns0:type="simple">10.1061/(ASCE)0733-9429(2008)134:6(843)</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref014"><label>14</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Turnipseed</surname> <given-names>D.P.</given-names></name>, <name name-style="western"><surname>Sauer</surname> <given-names>V.B.</given-names></name> <source>Discharge Measurements at Gaging Stations</source> [Internet]. <publisher-name>USGS</publisher-name>; <year>2010</year>. Available: <ext-link ext-link-type="uri" ns0:href="http://pubs.usgs.gov/tm/tm3-a8/pdf/tm3-a8.pdf" ns0:type="simple">http://pubs.usgs.gov/tm/tm3-a8/pdf/tm3-a8.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0222263.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>von K&#225;rm&#225;n</surname> <given-names>T.</given-names></name> <source>Mechanical similitude and turbulence</source>. Washington, DC; <year>1931</year>.</mixed-citation></ref>
+<ref id="pone.0222263.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Muste</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fujita</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Hauet</surname> <given-names>A</given-names></name>. <article-title>Large-scale particle image velocimetry for measurements in riverine environments</article-title>. <source>Water Resour Res</source>. <year>2008</year>;<volume>44</volume>: <fpage>W00D19</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1029/2008WR006950" ns0:type="simple">10.1029/2008WR006950</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Corato</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Moramarco</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tucciarelli</surname> <given-names>T</given-names></name>. <article-title>Discharge estimation combining flow routing and occasional measurements of velocity</article-title>. <source>Hydrol Earth Syst Sci</source>. <year>2011</year>;<volume>15</volume>: <fpage>2979</fpage>&#8211;<lpage>2994</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5194/hess-15-2979-2011" ns0:type="simple">10.5194/hess-15-2979-2011</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Welber</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Le Coz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Laronne</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Zolezzi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zamler</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Dramais</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Field assessment of noncontact stream gauging using portable surface velocity radars (SVR)</article-title>. <source>Water Resour Res</source>. <year>2016</year>;<volume>52</volume>: <fpage>1108</fpage>&#8211;<lpage>1126</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/2015WR017906" ns0:type="simple">10.1002/2015WR017906</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mueller</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Wagner</surname> <given-names>CR</given-names></name>. <article-title>Measuring discharge with acoustic Doppler current profilers from a moving boat</article-title>. <source>U S Geol Surv Tech Methods</source>. <year>2009</year>; <volume>72</volume>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3133/tm3A22" ns0:type="simple">10.3133/tm3A22</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gen&#231;</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Ard&#305;&#231;l&#305;o&#287;lu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>A&#287;&#305;ralio&#287;lu</surname> <given-names>N</given-names></name>. <article-title>Calculation of mean velocity and discharge using water surface velocity in small streams</article-title>. <source>Flow Meas Instrum</source>. <year>2015</year>;<volume>41</volume>: <fpage>115</fpage>&#8211;<lpage>120</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.flowmeasinst.2014.10.013" ns0:type="simple">10.1016/j.flowmeasinst.2014.10.013</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Keulegan</surname> <given-names>GH</given-names></name>. <article-title>Laws of turbulent flow in open channels</article-title>. <source>J Res Natl Bur Stand (1934)</source>. <year>1938</year>;<volume>21</volume>: <fpage>707</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.6028/jres.021.039" ns0:type="simple">10.6028/jres.021.039</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hilgersom</surname> <given-names>KP</given-names></name>, <name name-style="western"><surname>Luxemburg</surname> <given-names>WMJ</given-names></name>. <article-title>Technical Note: How image processing facilitates the rising bubble technique for discharge measurement</article-title>. <source>Hydrol Earth Syst Sci</source>. <year>2012</year>;<volume>16</volume>: <fpage>345</fpage>&#8211;<lpage>356</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5194/hess-16-345-2012" ns0:type="simple">10.5194/hess-16-345-2012</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Soupir</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Mostaghimi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mitchem</surname> <given-names>JCE</given-names></name>. <article-title>A Comparative Study of Stream-Gaging Techniques for Low-Flow Measurements in Two Virginia Tributaries1</article-title>. <source>JAWRA J Am Water Resour Assoc</source>. <year>2009</year>;<volume>45</volume>: <fpage>110</fpage>&#8211;<lpage>122</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1752-1688.2008.00264.x" ns0:type="simple">10.1111/j.1752-1688.2008.00264.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222263.ref024"><label>24</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Christiansen</surname> <given-names>BA</given-names></name>. <chapter-title>Velocity Measurements by the One-Orange Method</chapter-title>. In: <name name-style="western"><surname>Pugh</surname> <given-names>CA</given-names></name>, editor. <source>Fundamentals and Advancements in Hydraulic Measurements and Experimentation, (1994: Buffalo, New York)</source>. <publisher-loc>New York, New York</publisher-loc>: <publisher-name>American Society of Civil Engineers</publisher-name>; <year>1994</year>. pp. <fpage>76</fpage>&#8211;<lpage>85</lpage>.</mixed-citation></ref>
+<ref id="pone.0222263.ref025"><label>25</label><mixed-citation publication-type="other" ns0:type="simple">iNaturalist.org. In: iNaturalist.org [Internet]. 2018 [cited 4 Jan 2018]. Available: <ext-link ext-link-type="uri" ns0:href="https://www.inaturalist.org/" ns0:type="simple">https://www.inaturalist.org/</ext-link></mixed-citation></ref>
+<ref id="pone.0222263.ref026"><label>26</label><mixed-citation publication-type="other" ns0:type="simple">NWS Cooperative Observer Program. In: <ext-link ext-link-type="uri" ns0:href="http://www.nws.noaa.gov" ns0:type="simple">www.nws.noaa.gov</ext-link> [Internet]. Jun 2017 [cited 4 Jan 2018]. Available: <ext-link ext-link-type="uri" ns0:href="http://www.nws.noaa.gov/om/coop/" ns0:type="simple">http://www.nws.noaa.gov/om/coop/</ext-link></mixed-citation></ref>
+<ref id="pone.0222263.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lowry</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Fienen</surname> <given-names>MN</given-names></name>. <article-title>CrowdHydrology: Crowdsourcing Hydrologic Data and Engaging Citizen Scientists</article-title>. <source>Ground Water</source>. <year>2013</year>;<volume>51</volume>: <fpage>151</fpage>&#8211;<lpage>156</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1745-6584.2012.00956.x" ns0:type="simple">10.1111/j.1745-6584.2012.00956.x</ext-link></comment> <object-id pub-id-type="pmid">22716075</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222263.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Aschonitis</surname>
+<given-names>Vassilis G.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vassilis G. Aschonitis</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222263" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">24 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17424</p>
+<p>Laboratory assessment of alternative stream velocity measurement methods</p>
+<p>PLOS ONE</p>
+<p>Dear Mr. Hundt,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 07 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Vassilis G. Aschonitis</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p>2. We note you have included a table to which you do not refer in the text of your manuscript. Please ensure that you refer to Tables 1,3, &amp; 5 in your text; if accepted, production will need this reference to link the reader to the Table.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: General comment</p>
+<p>This study evaluates the efficiency and accuracy of four alternative, low-cost, methods to measure the stream velocity under laboratory conditions. The paper is well structured and clearly written, providing all necessary information in the various sections (introduction, methodology, results etc.) in an appropriate and diligent way. In my opinion, the paper may be published after minor revision. Here are my specific comments.</p>
+<p>Specific comments</p>
+<p>Line 30: Please delete &#8220;with the velocity head rod and surface float methods&#8221;</p>
+<p>Lines 72-79: This paragraph is not appropriate for the Material and Methods Section. Please incorporate the meaning of this paragraph in the Discussion or Conclusion section.</p>
+<p>Line 154: Please explain how this formula is derived. Based on Bernoulli equation?</p>
+<p>Line 154: Please explain how this formula is derived. Based on Bernoulli equation?</p>
+<p>Line 190: Please explain or provide a reference how this formula is derived.</p>
+<p>Line 201 (also lines 353, 359, 456): Please note that a broken link is appeared (Error! Reference source not found).</p>
+<p>Lines 239-241: The meaning in this sentence is not clear. Please consider to revise more clearly.</p>
+<p>Fig. 1: Does the same title should be appeared in both vertical axes? If yes, why are the figures upside down?</p>
+<p>Line 337: What is the correlation coefficient for equation 5? Please provide.</p>
+<p>Lines 339-340: For the smooth substrate, a constant velocity ratio is proposed, obviously for convenience in use. In my opinion, a new formula, similar to equation 5, would describe more accurately the experimental data and should be provided. In every case, the correlation coefficient should be given even for the case of constant velocity ratio (a =0.92) as well as for the new formula.</p>
+<p>Fig. 4: Please correct the division in the horizontal axes of the upper two diagrams to comply with the horizontal axes of the two lower diagrams.</p>
+<p>Line 400: How is the velocity ratio estimated in equation 6? Which values of velocity ratio should be used? Please clarify. Also, is it possible to use equation 6 to estimate the surface velocity? If not, please clarify why.</p>
+<p>Line 620: Which are the three methods? Please clarify.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Charalampos Doulgeris</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222263.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222263" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222263.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">12 Aug 2019</named-content>
+</p>
+<p>Dear reviewers,</p>
+<p>Thank you for providing your review to the article entitled Laboratory Assessment of Alternative Stream Velocity Measurement Methods. The points raised were all helpful and relevant, and I am raising only one minor rebuttal. Otherwise, I addressed each point raised by making the correction or clarification that was suggested. Responses to each point are included below.</p>
+<p>Sincerely,</p>
+<p>Stephen Hundt</p>
+<p>Editorial Review</p>
+<p>1. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p>Noted</p>
+<p>2. We note you have included a table to which you do not refer in the text of your manuscript. Please ensure that you refer to Tables 1,3, &amp; 5 in your text; if accepted, production will need this reference to link the reader to the Table.</p>
+<p>The Microsoft Word links were broken. I have removed those links and manually entered references to all tables.</p>
+<p>Peer Reviewer #1</p>
+<p>Reviewer #1: General comment</p>
+<p>This study evaluates the efficiency and accuracy of four alternative, low-cost, methods to measure the stream velocity under laboratory conditions. The paper is well structured and clearly written, providing all necessary information in the various sections (introduction, methodology, results etc.) in an appropriate and diligent way. In my opinion, the paper may be published after minor revision. Here are my specific comments.</p>
+<p>Thank you</p>
+<p>Specific comments</p>
+<p>Line 30: Please delete &#8220;with the velocity head rod and surface float methods&#8221;</p>
+<p>Done</p>
+<p>Lines 72-79: This paragraph is not appropriate for the Material and Methods Section. Please incorporate the meaning of this paragraph in the Discussion or Conclusion section.</p>
+<p>Done</p>
+<p>Line 154: Please explain how this formula is derived. Based on Bernoulli equation?</p>
+<p>Yes. An explanation was provided.</p>
+<p>Line 190: Please explain or provide a reference how this formula is derived.</p>
+<p>An explanation of the formula&#8217;s derivation was provided.</p>
+<p>Line 201 (also lines 353, 359, 456): Please note that a broken link is appeared (Error! Reference source not found).</p>
+<p>Thank you. These have been fixed.</p>
+<p>Lines 239-241: The meaning in this sentence is not clear. Please consider to revise more clearly.</p>
+<p>I have revised with a clearer explanation.</p>
+<p>Fig. 1: Does the same title should be appeared in both vertical axes? If yes, why are the figures upside down?</p>
+<p>That was a mistake. The left y-axis has been corrected to &#8216;&#8230;height above&#8230;&#8217; The dual y-axes and titles were the suggestion of a prior reviewer.</p>
+<p>Line 337: What is the correlation coefficient for equation 5? Please provide.</p>
+<p>I&#8217;ve included the correlation coefficient (0.95) and RMSE (0.038).</p>
+<p>Lines 339-340: For the smooth substrate, a constant velocity ratio is proposed, obviously for convenience in use. In my opinion, a new formula, similar to equation 5, would describe more accurately the experimental data and should be provided. In every case, the correlation coefficient should be given even for the case of constant velocity ratio (a =0.92) as well as for the new formula.</p>
+<p>I have included the correlation coefficient and RMSE for the smooth substrate depth vs velocity ratio. However, I still chose to apply a constant, and gave justification for this choice in the text. The correlation coefficient doesn&#8217;t make sense for this non-linear model, but I did include the RMSE (just the standard deviation in this case). </p>
+<p>Fig. 4: Please correct the division in the horizontal axes of the upper two diagrams to comply with the horizontal axes of the two lower diagrams.</p>
+<p>Corrected.</p>
+<p>Line 400: How is the velocity ratio estimated in equation 6? Which values of velocity ratio should be used? Please clarify. Also, is it possible to use equation 6 to estimate the surface velocity? If not, please clarify why.</p>
+<p>This section was rewritten to add clarity.</p>
+<p>Line 620: Which are the three methods? Please clarify.</p>
+<p>This has been clarified.</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222263.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Aschonitis</surname>
+<given-names>Vassilis G.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vassilis G. Aschonitis</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222263" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">27 Aug 2019</named-content>
+</p>
+<p>Laboratory assessment of alternative stream velocity measurement methods</p>
+<p>PONE-D-19-17424R1</p>
+<p>Dear Dr. Hundt,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Vassilis G. Aschonitis</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>The authors have made all the appropriate revisions and the article can be accepted as is.</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222263.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Aschonitis</surname>
+<given-names>Vassilis G.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Vassilis G. Aschonitis</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222263" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">29 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17424R1 </p>
+<p>Laboratory assessment of alternative stream velocity measurement methods </p>
+<p>Dear Dr. Hundt:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Vassilis G. Aschonitis  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

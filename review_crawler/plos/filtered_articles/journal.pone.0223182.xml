@@ -1,0 +1,1580 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-21845</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Applied mathematics</subject><subj-group><subject>Algorithms</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject><subj-group><subject>Algorithms</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Optimization</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Applied mathematics</subject><subj-group><subject>Algorithms</subject><subj-group><subject>Genetic algorithms</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject><subj-group><subject>Algorithms</subject><subj-group><subject>Genetic algorithms</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Mutation</subject><subj-group><subject>Insertion mutation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject><subj-group><subject>Agent-based modeling</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Systems science</subject><subj-group><subject>Agent-based modeling</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Systems science</subject><subj-group><subject>Agent-based modeling</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Structural engineering</subject><subj-group><subject>Built structures</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Geomorphology</subject><subj-group><subject>Topography</subject><subj-group><subject>Landforms</subject><subj-group><subject>Islands</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Evolutionary biology</subject><subj-group><subject>Evolutionary genetics</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Research on multi-agent genetic algorithm based on tabu search for the job shop scheduling problem</article-title>
+<alt-title alt-title-type="running-head">Multi-agent genetic algorithm based on tabu search for job shop scheduling problem</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4219-3827</contrib-id>
+<name name-style="western">
+<surname>Peng</surname>
+<given-names>Chong</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Wu</surname>
+<given-names>Guanglin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Liao</surname>
+<given-names>T. Warren</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Hedong</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Mechanical Engineering and Automation, Beihang University, Beijing, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Mechanical and Industrial Engineering, Louisiana State University, Baton Rouge, LA, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Feng</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Tongii University, CHINA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">pch@buaa.edu.cn</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>27</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0223182</elocation-id>
+<history>
+<date date-type="received">
+<day>2</day>
+<month>8</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Peng et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0223182" />
+<abstract>
+<p>The solution to the job shop scheduling problem (JSSP) is of great significance for improving resource utilization and production efficiency of enterprises. In this paper, in view of its non-deterministic polynomial properties, a multi-agent genetic algorithm based on tabu search (MAGATS) is proposed to solve JSSPs under makespan constraints. Firstly, a multi-agent genetic algorithm (MAGA) is proposed. During the process, a multi-agent grid environment is constructed based on characteristics of multi-agent systems and genetic algorithm (GA), and a corresponding neighbor interaction operator, a mutation operator based on neighborhood structure and a self-learning operator are designed. Then, combining tabu search algorithm with a MAGA, the algorithm MAGATS are presented. Finally, 43 benchmark instances are tested with the new algorithm. Compared with four other algorithms, the optimization performance of it is analyzed based on obtained test results. Effectiveness of the new algorithm is verified by analysis results.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001809</institution-id>
+<institution>National Natural Science Foundation of China</institution>
+</institution-wrap>
+</funding-source>
+<award-id>51875029</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4219-3827</contrib-id>
+<name name-style="western">
+<surname>Peng</surname>
+<given-names>Chong</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>National Science and Technology Major Project</institution>
+</funding-source>
+<award-id>2016ZX04004006</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4219-3827</contrib-id>
+<name name-style="western">
+<surname>Peng</surname>
+<given-names>Chong</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The research was supported by National Natural Science Foundation of China (Grant No. 51875029) and was supported by the National Science and Technology Major Project &#8220;High-Grade CNC Machine Tools and Basic Manufacturing Equipments&#8221; (Grant No. 2016ZX04004006) to CP.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="15" />
+<table-count count="4" />
+<page-count count="19" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>1 Introduction</title>
+<p>Under current rapid development of social economy, whether an enterprise can quickly respond to market demands with limited resources under the premise of ensuring high efficiency, high quality, high output and low cost largely determines the development and destiny of it. In a production process of products, an effective solution of the JSSP is an extremely important link in achieving the above goals. Job shop scheduling means optimization of product manufacturing time or manufacturing cost is satisfied as far as possible by reasonably arranging processing order of each job to be processed on each machine based on existing machine resources and job raw materials under the condition of satisfying realistic constraints (product delivery date, product production process route and available resources).</p>
+<p>The importance of JSSPs attracts many scholars to conduct research in this field. Garey and Sethi proved that JSSPs had non-deterministic polynomial (NP) characteristics [<xref ref-type="bibr" rid="pone.0223182.ref001">1</xref>]. For this feature, methods for solving JSSPs can be divided into two categories: exact methods and approximation methods. Exact methods include mathematical programming method, branch and bound method, and so on [<xref ref-type="bibr" rid="pone.0223182.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0223182.ref003">3</xref>]. However, exact methods mentioned above are only applicable to small-scale JSSPs. As complexity of JSSPs increases, applicability of exact methods decreases continuously. Approximation methods include priority dispatching rules, shifting bottleneck procedure, meta-heuristic algorithms, and the like. At present, meta-heuristic algorithms such as GA, ant colony algorithm (ACO), particle swarm optimization algorithm (PSO), simulated annealing algorithm (SA), neural network, tabu search (TS) and artificial bee colony algorithm (ABC) have been widely used in various field and have shown good performance [<xref ref-type="bibr" rid="pone.0223182.ref004">4</xref>&#8211;<xref ref-type="bibr" rid="pone.0223182.ref006">6</xref>].</p>
+<p>GA was presented by Holland [<xref ref-type="bibr" rid="pone.0223182.ref007">7</xref>] and was extensively applied to solving scheduling problems. Its excellent searching performance is favored by many researchers in this field. However, application of GA in dealing with complex JSSPs is limited due to its premature and local convergence. In response to these shortcomings, researchers proposed a number of improvement measures, such as two-stage genetic algorithm, island model genetic algorithm, hybrid genetic algorithm, and so on. Xu and Li [<xref ref-type="bibr" rid="pone.0223182.ref008">8</xref>] proposed immune genetic algorithm by combining immune theory with GA, which improved the global search performance of GA. Kurdi [<xref ref-type="bibr" rid="pone.0223182.ref009">9</xref>] proposed a new island model genetic algorithm(NIMGA), which contains a new naturally inspired evolution model and a new naturally inspired migration selection mechanism, to improve effectiveness of classical island model genetic algorithm. The new algorithm improved diversification of the search and delayed premature of GA. Chang and Liu [<xref ref-type="bibr" rid="pone.0223182.ref010">10</xref>] proposed a hybrid genetic algorithm by using the Taguchi method to optimize the parameters of a GA. Robustness and good optimization performance of the new algorithm were verified after applying to solve some distributed and flexible job-shop scheduling problems. Moreover, multi-agent systems have gained more and more applications in production scheduling due to their flexibility and adaptability to open and dynamic real-world environments and synergy mechanism between multiple agents. Liu et al. [<xref ref-type="bibr" rid="pone.0223182.ref011">11</xref>] designed a multi-agent-based solution system and successfully solved the complex 7000 queen problem. Chen et al. [<xref ref-type="bibr" rid="pone.0223182.ref012">12</xref>] proposed a hybrid flow shop rescheduling algorithm for perishable manufacturing systems. Products with different deadlines, values, due dates and stochastically failed operational units in the system were simulated by agents. The product agents can search the optimal scheduling path with the new algorithm.</p>
+<p>A MAGATS is proposed for solving JSSPs in this paper. To improve global search ability of the algorithm and maintain diversity of the population, on the basis of establishing a multi-agent grid environment based on GA, this paper designs a neighbor interaction operator, a mutation operator based on neighborhood structure and a self-learning operator. The algorithm combines high efficiency and simple operation of GA, synergy mechanism of a multi-agent system and global search ability of TS, which can make up for premature and local convergence of GA to some extent and improve search efficiencies and optimization ability of the algorithm. Then, JSSPs can be solved more efficiently and accurately. Resource utilization of enterprises can be promoted. Market demands can be faster respond to, which is of great significance to development of enterprises and a country.</p>
+<p>The remaining of this paper is organized as follows. The model of the JSSP and the process of achieving a MAGA are illustrated in Section 2. Section 3 introduces the establishment of MAGATS. In Section 4, 11 benchmark instances are selected to verify optimization performance of MAGATS compared with GA and MAGA. 43 benchmark instances are used to test optimization performance of the new algorithm. Based on test results and comparison with other algorithms, optimization performance of MAGATS is studied. The conclusion is made in Section 5.</p>
+</sec>
+<sec id="sec002">
+<title>2 The achievement of MAGA</title>
+<p>This section firstly introduces the model of the JSSP to be solved. Then combining multi-agent synergy theories and GA, a MAGA is proposed.</p>
+<sec id="sec003">
+<title>2.1 Model of the JSSP</title>
+<p>A JSSP is usually defined as follows.</p>
+<p><italic>n</italic> jobs are machined on <italic>m</italic> machines, respectively denoted as sets <italic>J</italic> = {<italic>J</italic><sub><italic>i</italic></sub>|<italic>i</italic> = 1, 2, &#8230;, <italic>n</italic>}, <italic>M</italic> = {<italic>M</italic><sub><italic>i</italic></sub>|<italic>i</italic> = 1, 2, &#8230;, <italic>m</italic>}, where <italic>J</italic><sub><italic>i</italic></sub> is a job code, <italic>M</italic><sub><italic>i</italic></sub> is a machine code. Each job has a specific process. Orders that jobs use machines are assigned. The processing time required for each operation of each job on the corresponding machine is also given. The specific content of scheduling is to determine processing sequences of jobs on each machine and the starting time of each job, which makes makespan (recorded as C<sub>max</sub>) shortest. Besides that,</p>
+<p>(1) Sequences of different jobs on a same machine have no constraints;</p>
+<p>(2) Once a job is started on a machine, it is completed until its process is completed. Each machine can only process one job at the same time, and it is assumed that no machine failed;</p>
+<p>(3) All jobs arrive at the same time and only flow through each machine once.</p>
+<p>It is assumed that the total number of operations for all jobs is Q, G = {1, 2, &#8230;, Q} is named as an operation set; <italic>J</italic><sub><italic>i</italic></sub> represents the job subordinate to operation <italic>i</italic>; Machines required for processing operation <italic>i</italic> are marked as <italic>M</italic><sub><italic>i</italic></sub>; The starting time of operation <italic>i</italic> is denoted by <italic>S</italic><sub><italic>i</italic></sub>; Time needed for processing operation <italic>i</italic> is recorded as <italic>P</italic><sub><italic>i</italic></sub>; The sequence of two adjacent operations of a job is represented by &#8594;. Take <italic>i</italic>&#8594;<italic>j</italic> for example, operations <italic>i</italic>, <italic>j</italic> belong to one job, that is, <italic>J</italic><sub><italic>i</italic></sub> = <italic>J</italic><sub><italic>j</italic></sub> and operation <italic>i</italic> is before operation <italic>j</italic>. So, the model of the JSSP can be described as follows.</p>
+<disp-formula id="pone.0223182.e001">
+<alternatives>
+<graphic id="pone.0223182.e001g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0223182.e001" ns0:type="simple" />
+<ns1:math display="block" id="M1">
+<ns1:mrow><ns1:mi mathvariant="normal">min</ns1:mi><ns1:mo>{</ns1:mo><ns1:mi mathvariant="normal">max</ns1:mi><ns1:mspace width="0.25em" /><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>+</ns1:mo><ns1:msub><ns1:mi>P</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>}</ns1:mo></ns1:mrow>
+</ns1:math>
+</alternatives>
+<label>(1)</label>
+</disp-formula>
+<disp-formula id="pone.0223182.e002">
+<alternatives>
+<graphic id="pone.0223182.e002g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0223182.e002" ns0:type="simple" />
+<ns1:math display="block" id="M2">
+<ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:mi>s</ns1:mi><ns1:mo>.</ns1:mo><ns1:mi>t</ns1:mi><ns1:mo>.</ns1:mo><ns1:mo>:</ns1:mo><ns1:mspace width="0.50em" /><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>&#8805;</ns1:mo><ns1:mn>0</ns1:mn><ns1:mo>,</ns1:mo><ns1:mspace width="0.25em" /><ns1:mo>&#8704;</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>&#8712;</ns1:mo><ns1:mi>G</ns1:mi></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mspace width="2.75em" /><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>j</ns1:mi></ns1:msub><ns1:mo>&#8805;</ns1:mo><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>+</ns1:mo><ns1:msub><ns1:mi>P</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>,</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>&#8594;</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>,</ns1:mo><ns1:mo>&#8704;</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>,</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>&#8712;</ns1:mo><ns1:mi>G</ns1:mi></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mspace width="2.75em" /><ns1:mo stretchy="false">(</ns1:mo><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>j</ns1:mi></ns1:msub><ns1:mo>&#8805;</ns1:mo><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>+</ns1:mo><ns1:msub><ns1:mi>P</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo stretchy="false">)</ns1:mo><ns1:mo>&#8744;</ns1:mo><ns1:mo stretchy="false">(</ns1:mo><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>&#8805;</ns1:mo><ns1:msub><ns1:mi>S</ns1:mi><ns1:mi>j</ns1:mi></ns1:msub><ns1:mo>+</ns1:mo><ns1:msub><ns1:mi>P</ns1:mi><ns1:mi>j</ns1:mi></ns1:msub><ns1:mo stretchy="false">)</ns1:mo><ns1:mo>&#8704;</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>,</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>&#8712;</ns1:mo><ns1:mi>G</ns1:mi><ns1:mo>,</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>&#8800;</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>,</ns1:mo><ns1:msub><ns1:mi>M</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:mo>=</ns1:mo><ns1:msub><ns1:mi>M</ns1:mi><ns1:mi>j</ns1:mi></ns1:msub></ns1:mtd></ns1:mtr></ns1:mtable>
+</ns1:math>
+</alternatives>
+<label>(2)</label>
+</disp-formula>
+<p>In Eq (<xref ref-type="disp-formula" rid="pone.0223182.e002">2</xref>), the second constraint represents an operation sequence constraint, that is, the start time of any one operation of a job must be later than the completion time of its previous operation. The third constraint represents a resource constraint of machines, that is, each machine can only process one job at the same time.</p>
+</sec>
+<sec id="sec004">
+<title>2.2 Construction of MAGA</title>
+<p>By simulating the "survival of the fittest" rule in nature, classic GA calculates fitness values of all chromosomes in each evolution process at first, and then preferentially selects individuals with high fitness in a certain way, and weeds out ones with low fitness with a high probability. But in nature, things often evolve locally and then expands globally, which is like co-evolution of multi-agents in a multi-agent system. A multi-agent system is a distributed system composed of multiple agents. Each agent can be either hardware or software. It can sense and respond to local environment and communicate with neighbor agents to complete complex tasks. In a multi-agent system, co-evolution of multi-agents in a local environment can better reflect processes of evolution in nature. Therefore, GA is firstly improved to some extent by combining GA with multi-agent synergy theories.</p>
+<sec id="sec005">
+<title>2.2.1 Multi-agent grid environment based on GA</title>
+<p>GA is a random search algorithm formed by simulating evolution processes of biology. The optimization process is realized by three basic operators: selection-reproduction, crossover and mutation. As shown in <xref ref-type="fig" rid="pone.0223182.g001">Fig 1</xref>, GA consists of five basic elements: encoding and decoding, design of initialing population, fitness evaluation function design, design of genetic operations such as selection-reproduction, crossover, mutation, and setting of genetic parameters.</p>
+<fig id="pone.0223182.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Flow chart of GA.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g001" ns0:type="simple" />
+</fig>
+<p>Based on GA, a multi-agent grid environment was built. In this environment, each chromosome in GA is treated as an independent agent. Firstly, a neighbor interaction operator was designed to realize the optimization function of multi-agent systems. Secondly, to maintain diversity of population, a mutation operator based on neighborhood structure and a self-learning operator were designed and introduced. The optimization algorithm based on the multi-agent grid environment is called a MAGA. The overall flow chart is shown in <xref ref-type="fig" rid="pone.0223182.g002">Fig 2</xref>.</p>
+<fig id="pone.0223182.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Flow chart of MAGA.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g002" ns0:type="simple" />
+</fig>
+<p>Compared <xref ref-type="fig" rid="pone.0223182.g001">Fig 1</xref> with <xref ref-type="fig" rid="pone.0223182.g002">Fig 2</xref>, the process of MAGA is basically the same as that of GA. Similar to GA, MAGA has the same process of encoding and decoding each agent in the grid environment.</p>
+<p><bold>2.2.1.1 Encoding and decoding of GA.</bold> Encoding is a gene representation of solutions of JSSPs. It is the primary problem faced by GA for optimization of JSSPs, which plays a key role in improving optimization effectiveness of the algorithm. Encoding methods of GA currently used for JSSPs can be summarized into two categories: direct encoding and indirect encoding. Direct encoding methods include operation-based encoding, job-based encoding, job pairs-based encoding, completion time-based encoding, random key-based encoding, while indirect encoding methods usually include precedence table-based encoding, priority rules-based encoding, disjunctive graph-based encoding and machine-based encoding [<xref ref-type="bibr" rid="pone.0223182.ref013">13</xref>&#8211;<xref ref-type="bibr" rid="pone.0223182.ref016">16</xref>]. Combined with advantages and disadvantages of various encoding methods, the operation-based encoding is more prominent than other encoding methods, and it is the most widely used method to solve JSSPs. Adopting operation-based encoding, Arbitrary arrangement of jobs can be expressed as feasible scheduling. The corresponding decoding scheme is simple and easy to operate. Moreover, feasible scheduling can always be obtained after replacing chromosomes.</p>
+<p>Although this method only has a half-Lamarkian characteristic (Lamarkian characteristic refers to the ability of inheriting good information from parent chromosomes), performance of the algorithm can be enhanced by improving design of genetic operations, thereby improving its genetic characteristics. In summary, the operation-based encoding method is used to encode JSSPs. In this method, each chromosome is represented by a gene sequence. Each gene sequence contains <italic>n</italic>&#215;<italic>m</italic> (<italic>n</italic> jobs, <italic>m</italic> machines) genes representing operations, which is an arrangement of all operations.</p>
+<p>Existing decoding methods include semi-active decoding and active decoding. Active decoding can make decoded operations more concentrated, which can improve search efficiencies of an algorithm [<xref ref-type="bibr" rid="pone.0223182.ref017">17</xref>]. Therefore, an insertion strategy is adopted to decode chromosomes. Every operation in a sequence is sequentially arranged on a corresponding machine. When constraints are satisfied, every operation is started as early as possible. Finally, an active chromosome of the JSSP, that is, an active scheduling solution, is obtained. To illustrate the decoding process, data given in <xref ref-type="table" rid="pone.0223182.t001">Table 1</xref> are taken as an example. Processing time "4-5-11-3" in the second row of <xref ref-type="table" rid="pone.0223182.t001">Table 1</xref> indicates processing time required for operations of job <italic>J</italic><sub>1</sub> on the machines <italic>M</italic><sub>4</sub>&#12289;<italic>M</italic><sub>3</sub>&#12289;<italic>M</italic><sub>1</sub>&#12289;<italic>M</italic><sub>2</sub>, respectively.</p>
+<table-wrap id="pone.0223182.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.t001</object-id>
+<label>Table 1</label> <caption><title>4&#215;4 JSSP.</title></caption>
+<alternatives>
+<graphic id="pone.0223182.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Job</th>
+<th align="center">Machine</th>
+<th align="center">Processing time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><italic>J</italic><sub>1</sub></td>
+<td align="center"><italic>M</italic><sub>4</sub><italic>-M</italic><sub>3</sub><italic>-M</italic><sub>1</sub><italic>-M</italic><sub>2</sub></td>
+<td align="center">4-5-11-3</td>
+</tr>
+<tr>
+<td align="center"><italic>J</italic><sub>2</sub></td>
+<td align="center"><italic>M</italic><sub>3</sub>-<italic>M</italic><sub>2</sub>-<italic>M</italic><sub>1</sub>-<italic>M</italic><sub>4</sub></td>
+<td align="center">5-2-5-1</td>
+</tr>
+<tr>
+<td align="center"><italic>J</italic><sub>3</sub></td>
+<td align="center"><italic>M</italic><sub>3</sub>-<italic>M</italic><sub>4</sub>-<italic>M</italic><sub>2</sub>-<italic>M</italic><sub>1</sub></td>
+<td align="center">2-5-9-3</td>
+</tr>
+<tr>
+<td align="center"><italic>J</italic><sub>4</sub></td>
+<td align="center"><italic>M</italic><sub>2</sub>-<italic>M</italic><sub>3</sub>-<italic>M</italic><sub>4</sub>-<italic>M</italic><sub>1</sub></td>
+<td align="center">6-2-4-5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The process of decoding a chromosome is shown in <xref ref-type="fig" rid="pone.0223182.g003">Fig 3</xref>. For example, an operation sequence [1 3 1 4 2 3 2 4 3 3 4 1 4 1 2 2] generated based on data of <xref ref-type="table" rid="pone.0223182.t001">Table 1</xref> is actively decoded. When the 3rd operation of job <italic>J</italic><sub>1</sub> is to be arranged, that is, when the 3rd &#8220;1&#8221; of the operation sequence is taken, the corresponding machine <italic>M</italic><sub>1</sub> has been arranged job <italic>J</italic><sub>3</sub>, it could be inserted in front of job <italic>J</italic><sub>3</sub>. Similarly, the 4th operation O<sub>44</sub> of job <italic>J</italic><sub>4</sub> could also be inserted in front of job <italic>J</italic><sub>3</sub>, and finally C<sub>max</sub> could be decoded to be 34. The active scheduling solution obtained by actively decoding the chromosome is shown in <xref ref-type="fig" rid="pone.0223182.g004">Fig 4</xref> where O<sub><italic>ij</italic></sub> represents the <italic>j</italic>th operation of job <italic>J</italic><sub><italic>i</italic></sub>. After active decoding the example chromosome, an active scheduling solution with more concentrated operations [1 3 4 1 3 2 1 2 4 3 4 4 3 1 2 2] is obtained.</p>
+<fig id="pone.0223182.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Active decoding of JSSP.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g003" ns0:type="simple" />
+</fig>
+<fig id="pone.0223182.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Active scheduling solution.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g004" ns0:type="simple" />
+</fig>
+<p><bold>2.2.1.2 Neighbor environment and action criteria of chromosome agents.</bold> MAGA uses encoding and decoding methods in GA to initial population and evaluate fitness of chromosome agents in the grid environment. To utilize multiple agents for collaborative optimization, three issues should be identified first.</p>
+<p>(1) Action intention definition of all agents. When using multiple agents for collaborative optimization, each agent represents a feasible solution of the JSSP. Therefore, its action intention is defined: under the premise of satisfying constraint conditions, encoding sequences are adjusted to the optimal solution in combination with its own environment.</p>
+<p>(2) Neighbor environment definition of chromosome agents. Regard each chromosome as a separate agent, and then fix them in a <italic>L</italic><sub><italic>size</italic></sub>&#215;<italic>L</italic><sub><italic>size</italic></sub> grid environment (as shown in <xref ref-type="fig" rid="pone.0223182.g005">Fig 5</xref>), thus forming a neighbor environment for each chromosome agent. It should be noted that the number of neighbors per chromosome is not fixed. It can be 4, 8 or more, or it can be dynamic. Since the main purpose of this paper is to combine a multi-agent grid environment with GA to study its optimization effectiveness, the number of neighbors is set to 4. It is defined as follows.</p>
+<fig id="pone.0223182.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Multi-agent gird environment.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g005" ns0:type="simple" />
+</fig>
+<p>Suppose A<sub><italic>ij</italic></sub> represents a chromosome agent with coordinates (<italic>i</italic>, <italic>j</italic>) in the grid environment, then a neighbor set <italic>N</italic><sub><italic>ij</italic></sub> of it can be defined:
+<disp-formula id="pone.0223182.e003">
+<alternatives>
+<graphic id="pone.0223182.e003g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0223182.e003" ns0:type="simple" />
+<ns1:math display="block" id="M3">
+<ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:msub><ns1:mi>N</ns1:mi><ns1:mrow><ns1:mi mathvariant="italic">ij</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>{</ns1:mo><ns1:mrow><ns1:mrow><ns1:mrow><ns1:msub><ns1:mi>A</ns1:mi><ns1:mrow><ns1:mi>i</ns1:mi><ns1:mo>'</ns1:mo></ns1:mrow></ns1:msub><ns1:msub><ns1:mrow /><ns1:mi>j</ns1:mi></ns1:msub><ns1:mo>,</ns1:mo><ns1:msub><ns1:mi>A</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:msub><ns1:mrow /><ns1:mrow><ns1:mi>j</ns1:mi><ns1:mo>'</ns1:mo></ns1:mrow></ns1:msub><ns1:mo>,</ns1:mo><ns1:msub><ns1:mi>A</ns1:mi><ns1:mrow><ns1:mi>i</ns1:mi><ns1:mo>'</ns1:mo></ns1:mrow></ns1:msub><ns1:msub><ns1:mrow /><ns1:mrow><ns1:mo>'</ns1:mo><ns1:mi>j</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>,</ns1:mo><ns1:msub><ns1:mi>A</ns1:mi><ns1:mi>i</ns1:mi></ns1:msub><ns1:msub><ns1:mrow /><ns1:mrow><ns1:mi>j</ns1:mi><ns1:mo>'</ns1:mo><ns1:mo>'</ns1:mo></ns1:mrow></ns1:msub></ns1:mrow><ns1:mo>}</ns1:mo></ns1:mrow></ns1:mrow></ns1:mrow></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mspace width="1em" /><ns1:mi>i</ns1:mi><ns1:mo>'</ns1:mo><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>{</ns1:mo><ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:mi>i</ns1:mi><ns1:mo>&#8722;</ns1:mo><ns1:mn>1.</ns1:mn><ns1:mi>i</ns1:mi><ns1:mo>&#8800;</ns1:mo><ns1:mn>1</ns1:mn></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>,</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>=</ns1:mo><ns1:mn>1</ns1:mn></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mrow><ns1:mo>,</ns1:mo><ns1:mspace width="0.25em" /><ns1:mi>i</ns1:mi><ns1:mo>'</ns1:mo><ns1:mo>'</ns1:mo><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>{</ns1:mo><ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:mi>i</ns1:mi><ns1:mo>+</ns1:mo><ns1:mn>1</ns1:mn><ns1:mo>,</ns1:mo><ns1:mi>i</ns1:mi><ns1:mo>&#8800;</ns1:mo><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mn>1</ns1:mn><ns1:mo>,</ns1:mo><ns1:mspace width="0.75em" /><ns1:mi>i</ns1:mi><ns1:mo>=</ns1:mo><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mrow></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mspace width="1em" /><ns1:mi>j</ns1:mi><ns1:mo>'</ns1:mo><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>{</ns1:mo><ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:mi>j</ns1:mi><ns1:mo>&#8722;</ns1:mo><ns1:mn>1.</ns1:mn><ns1:mi>j</ns1:mi><ns1:mo>&#8800;</ns1:mo><ns1:mn>1</ns1:mn></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub><ns1:mo>,</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>=</ns1:mo><ns1:mn>1</ns1:mn></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mrow><ns1:mo>,</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>'</ns1:mo><ns1:mo>'</ns1:mo><ns1:mo>=</ns1:mo><ns1:mrow><ns1:mo>{</ns1:mo><ns1:mtable columnalign="left"><ns1:mtr><ns1:mtd><ns1:mi>j</ns1:mi><ns1:mo>+</ns1:mo><ns1:mn>1</ns1:mn><ns1:mo>,</ns1:mo><ns1:mi>j</ns1:mi><ns1:mo>&#8800;</ns1:mo><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub></ns1:mtd></ns1:mtr><ns1:mtr><ns1:mtd><ns1:mi>j</ns1:mi><ns1:mo>,</ns1:mo><ns1:mspace width="0.75em" /><ns1:mi>j</ns1:mi><ns1:mo>=</ns1:mo><ns1:msub><ns1:mi>L</ns1:mi><ns1:mrow><ns1:mi>s</ns1:mi><ns1:mi>i</ns1:mi><ns1:mi>z</ns1:mi><ns1:mi>e</ns1:mi></ns1:mrow></ns1:msub></ns1:mtd></ns1:mtr></ns1:mtable></ns1:mrow></ns1:mtd></ns1:mtr></ns1:mtable>
+</ns1:math>
+</alternatives>
+<label>(3)</label>
+</disp-formula>
+where <italic>L</italic><sub><italic>size</italic></sub> represents the dimension of the grid environment. Four neighbors corresponding to each agent can be found according to Eq (<xref ref-type="disp-formula" rid="pone.0223182.e003">3</xref>). For example, neighbors coordinates of agent A<sub>22</sub> are (1, 2), (2, 1), (2, 3) and (3, 2). Neighbors coordinates of agent A<sub>11</sub> are (<italic>L</italic><sub><italic>size</italic>,</sub> 1), (1, <italic>L</italic><sub><italic>size</italic></sub>), (2, 1) and (1, 2).</p>
+<p>(3) Action criteria of chromosome agents. Each agent interacts with only four neighbors according to its own environment, and improves its own fitness by competing and cooperating with the best neighbors around.</p>
+</sec>
+<sec id="sec006">
+<title>2.2.2 Design of neighbor interaction operators</title>
+<p>In general, design of a crossover operator should be able to inherit good features of parent chromosomes on the basis of ensuring generation of feasible solutions, so that the algorithm evolves toward the optimal solution. For JSSPs, if the scheduling solution obtained by processing two adjacent jobs (<italic>J</italic><sub><italic>i</italic></sub>, <italic>J</italic><sub><italic>k</italic></sub>) on a machine is better, then inheritance of this processing order (<italic>J</italic><sub><italic>i</italic></sub>, <italic>J</italic><sub><italic>k</italic></sub>) to offspring can still retain this advantage. Many scholars have proposed many crossover operators. The more successful ones are Linear Order Crossover (LOX), Precedence Operation Crossover (POX), Precedence Preservation Crossover (PPX), etc [<xref ref-type="bibr" rid="pone.0223182.ref018">18</xref>&#8211;<xref ref-type="bibr" rid="pone.0223182.ref020">20</xref>]. The POX operator proposed by Zhang et al. can better inherit superior features of parent chromosomes compared with other crossover operators [<xref ref-type="bibr" rid="pone.0223182.ref021">21</xref>]. Its specific implementation is shown in <xref ref-type="fig" rid="pone.0223182.g006">Fig 6</xref>.</p>
+<fig id="pone.0223182.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Principles of POX.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g006" ns0:type="simple" />
+</fig>
+<p>Specific steps of POX are as follows.</p>
+<p>(1) A job set is randomly divided into two non-empty subsets JS1, JS2, as shown in <xref ref-type="fig" rid="pone.0223182.g006">Fig 6</xref>, JS1 = {1, 3}, JS2 = {2, 4};</p>
+<p>(2) Genes belonging to JS1 in parent1 are directly copied to child1, and genes belonging to JS1 in parent2 are directly copied into child2.Positions of the genes are retained;</p>
+<p>(3) The remaining genes in parent2 are copied into child1, and the remaining genes in parent1 are copied into child2. Orders of the genes are preserved.</p>
+<p>Individuals involved in the crossover in GA are from random pairing, but individuals participating in neighbor interaction only exist in the local environment of each agent. The design criteria for a neighbor interaction operator are as follows.</p>
+<p>(1) If a current agent's fitness value is higher than its four neighbor agents, it will be retained as a winner, and its encoding sequence remains unchanged;</p>
+<p>(2) If a current agent&#8217;s fitness value is lower than the fitness value of the optimal neighbor agent, it will be replaced by the optimal neighbor. The replacement process adopts a POX operator. Unlike traditional crossover operations, each interaction only generates one offspring, that is, only child1 is retained.</p>
+<p>There are two strategies for the replacement mechanism.</p>
+<p>(1) Take the optimal neighbor agent as parent1 and the current agent is regarded as parent2. Obtain an optimal offspring through <italic>&#955;</italic> POX operations;</p>
+<p>(2) Take the current agent as parent1 and the optimal neighbor agent is regarded as parent2. Obtain an optimal offspring through <italic>&#955;</italic> POX operations.</p>
+<p>Strategy (1) is accepted at probability <italic>P</italic><sub><italic>o</italic></sub>, the other one is adopted at probability 1-<italic>P</italic><sub><italic>o</italic></sub>. The first strategy focuses more on concentration of optimization and is beneficial to speed up an algorithm&#8217;s convergence rate. The second strategy focuses more on dispersion of optimization.</p>
+</sec>
+<sec id="sec007">
+<title>2.2.3 Design of mutation operators based on neighborhood structure</title>
+<p>Mutation operators are designed to give agents a small disturbance to ensure the diversity of population. After solving the JSSP through the neighbor interaction operator, if the optimal agent obtained has high fitness, how to further improve its fitness decides whether an algorithm can find a better solution. Mutation operations commonly used in existing researches include exchange mutation, insertion mutation, reverse mutation, replacement mutation, and the like. There are two shortcomings in these mutation operations. Firstly, directions of mutation have a large blindness, and it is difficult to direct an algorithm to the global optimal solution. Secondly, these mutation operations have a greedy nature to some extent, which is easy to direct an algorithm to local optimum. A neighborhood structure is a mechanism that applies a small perturbation to a given solution to obtain another solution. Therefore, a new mutation operator named mutation operator based on neighborhood structure is presented.</p>
+<p><bold>2.2.3.1 The neighborhood structure of the JSSP.</bold> In the field of combinatorial optimization, studying the neighborhood structure of a problem is one of the most important ways to optimize solutions of the problem. Van Laarhoven et al. [<xref ref-type="bibr" rid="pone.0223182.ref022">22</xref>] proposed N1 neighborhood structure. New solutions were generated by randomly exchanging two adjacent operations on a critical path. It is proved that the optimal solution can be found through a limited number of interchange operations under N1 neighborhood structure. To further promote an algorithm&#8217;s quality and efficiency, many researchers subsequently proposed N4, N5, N6 neighborhood structures [<xref ref-type="bibr" rid="pone.0223182.ref023">23</xref>&#8211;<xref ref-type="bibr" rid="pone.0223182.ref025">25</xref>]. Matsuo et al. found that only when the job immediate predecessor operation (JIPO) of operation <italic>u</italic> or the job immediate successor operation (JISO) of operation <italic>v</italic> was contained in a critical path including operations <italic>u</italic> and <italic>v</italic> (assuming operation <italic>u</italic> is processed before operation <italic>v</italic>), exchanging key operations <italic>u</italic> and <italic>v</italic> made it possible to reduce makespan of a given solution [<xref ref-type="bibr" rid="pone.0223182.ref026">26</xref>]. Based on this theory, N7 neighborhood structure was proposed by Zhang et al. [<xref ref-type="bibr" rid="pone.0223182.ref027">27</xref>]. This new neighborhood structure can explore a wider solution space on the basis of ensuring generation of feasible solutions, so that higher quality feasible solutions can be obtained. Before introducing N7 neighborhood structure, some concepts need to be explained.</p>
+<p>Definition 2.1 In the JSSP, each key operation <italic>u</italic> has two immediate predecessor operations and two immediate successor operations, which includes: a JIPO and a JISO. The previous and next operation of operation <italic>u</italic> that belong to the same job as operation <italic>u</italic> are represented by <italic>J</italic><sub><italic>pre</italic></sub>[<italic>u</italic>] and <italic>J</italic><sub><italic>suc</italic></sub>[<italic>u</italic>] respectively. A machine immediate predecessor operation (MIPO) and a machine immediate successor operation (MISO). The previous and next operation of operation <italic>u</italic> that belong to the same machine as operation <italic>u</italic> are represented by <italic>M</italic><sub><italic>pre</italic></sub>[<italic>u</italic>] and <italic>M</italic><sub><italic>suc</italic></sub>[<italic>u</italic>] respectively.</p>
+<p>Definition 2.2 A critical path is the longest path from the starting point 0 to the ending point 17 in a directed graph as shown in <xref ref-type="fig" rid="pone.0223182.g007">Fig 7</xref>. The path length is makespan of a scheduling solution. <xref ref-type="fig" rid="pone.0223182.g007">Fig 7</xref> is a disjunctive graph model which took 4&#215;4 JSSP in <xref ref-type="table" rid="pone.0223182.t001">Table 1</xref> as an example and used the introduction of a disjunctive graph in [<xref ref-type="bibr" rid="pone.0223182.ref014">14</xref>] as a basis.</p>
+<fig id="pone.0223182.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>A disjunctive graph model of 4&#215;4 JSSP.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g007" ns0:type="simple" />
+</fig>
+<p>Definition 2.3 Each operation on a critical path is called a key operation. As shown in <xref ref-type="fig" rid="pone.0223182.g008">Fig 8</xref>, according to the active scheduling solution in <xref ref-type="fig" rid="pone.0223182.g004">Fig 4</xref>, select a certain direction for bidirectional arcs in the disjunctive graph model, thereby forming a directed graph representation of 4x4 JSSP. At the same time, adjacent key operations group of a largest sequence processed on the same machine is called a block, such as [O<sub>34</sub>, O<sub>23</sub>] is a block.</p>
+<fig id="pone.0223182.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>An acyclic directed graph and a critical path of 4&#215;4 JSSP.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g008" ns0:type="simple" />
+</fig>
+<p>Based on definitions 2.1 to 2.3, under the premise that operation <italic>x</italic> and <italic>y</italic> are both on the same critical path, N7 neighborhood structure can be defined as follows.</p>
+<p>(1) When <italic>y</italic> is a block tail operation and its JISO is in the critical path, operation <italic>x</italic> can be moved after operation <italic>y</italic>, and vice versa. As shown in <xref ref-type="fig" rid="pone.0223182.g009">Fig 9</xref>.</p>
+<p>(2) When <italic>x</italic> is a block head operation and its JIPO is in the critical path, operation <italic>y</italic> can be moved before operation <italic>x</italic>, and vice versa. As shown in <xref ref-type="fig" rid="pone.0223182.g010">Fig 10</xref>.</p>
+<fig id="pone.0223182.g009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g009</object-id>
+<label>Fig 9</label>
+<caption>
+<title>JISO of a block tail operation is in the critical path.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g009" ns0:type="simple" />
+</fig>
+<fig id="pone.0223182.g010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g010</object-id>
+<label>Fig 10</label>
+<caption>
+<title>JIPO of a block head operation is in the critical path.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g010" ns0:type="simple" />
+</fig>
+<p>Figs <xref ref-type="fig" rid="pone.0223182.g009">9</xref> and <xref ref-type="fig" rid="pone.0223182.g010">10</xref> are key operation blocks in two critical paths including operation <italic>x</italic> and operation <italic>y</italic>. <italic>u</italic><sub>1</sub>, <italic>u</italic><sub><italic>k</italic></sub> and "&#8230;" in the rectangular frame indicate intermediate operations in the block.</p>
+<p><bold>2.2.3.2 Key operations search based on operation-based encoding.</bold> Based on operation-based encoding, the first step in generating a neighborhood solution is to search for key operations. Searching for key operations can be done by a machine Gantt chart obtained after active decoding. Starting from the last completed operation, operations whose completion time immediately follows the start time of the current operation are marked as key operations. If MIPO and JIPO of an operation are encountered at the same time, the JIPO is selected as a key operation.</p>
+<p>Take the active scheduling solution [1 3 4 1 3 2 1 2 4 3 4 4 3 1 2 2] obtained before for example, its key operation blocks are shown in <xref ref-type="fig" rid="pone.0223182.g011">Fig 11</xref>.</p>
+<fig id="pone.0223182.g011" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g011</object-id>
+<label>Fig 11</label>
+<caption>
+<title>Key operation blocks.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g011" ns0:type="simple" />
+</fig>
+<p><bold>2.2.3.3 Mutation mechanism based on neighborhood solutions.</bold> According to discussions of two parts above, after obtaining key operation blocks of an agent encoding sequence, a mutation operator based on neighborhood structure is implemented as follows.</p>
+<p>(1) Record all operation pairs that can be exchanged according to the definition of N7 neighborhood structure.</p>
+<p>(2) Randomly select an exchangeable operation pair at probability <italic>P</italic><sub>m</sub> to perform mutation operation.</p>
+</sec>
+<sec id="sec008">
+<title>2.2.4 Design of self-learning operators</title>
+<p>Each agent can gradually improve its fitness value through interaction operations with neighbors and mutation operations based on neighborhood structure. Similarly, take the optimal agents in each generation to construct a small grid environment with a size of s<italic>L</italic><sub>size</sub>&#215;s<italic>L</italic><sub>size</sub>. Perform <italic>S</italic><sub><italic>gen</italic></sub> neighbor interactions and mutation operations based on neighborhood structure to obtain a new optimal agent. The flow chart is shown in <xref ref-type="fig" rid="pone.0223182.g012">Fig 12</xref>.</p>
+<fig id="pone.0223182.g012" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g012</object-id>
+<label>Fig 12</label>
+<caption>
+<title>Flow chart of mutation operator.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g012" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="sec009">
+<title>3 The achievement of MAGATS</title>
+<p>The algorithm framework of MAGA is based on that of GA. Therefore, it is inevitable to fall into local optimal solutions when solving JSSPs. Currently, a hybrid intelligent algorithm through combining a swarm intelligence algorithm with a local search algorithm is a more advanced algorithm for solving JSSPs [<xref ref-type="bibr" rid="pone.0223182.ref019">19</xref>]. Compared with only adopting swarm intelligence algorithms, its optimization effects have been significantly improved. Currently, local search algorithms are mainly represented by TS and SA. Since SA avoids local optimization by accepting inferior solutions with a certain probability, it may return to the previous solution in the process of searching for the optimal solution, which leads to the algorithm to oscillate around a local optimal solution, thus wasting a lot of computing time. For this, on the basis of MAGA, a MAGATS is proposed by introducing TS to enhance the global search ability. The flow chart of MAGATS is shown in <xref ref-type="fig" rid="pone.0223182.g013">Fig 13</xref>.</p>
+<fig id="pone.0223182.g013" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g013</object-id>
+<label>Fig 13</label>
+<caption>
+<title>Flow chart of MAGATS.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g013" ns0:type="simple" />
+</fig>
+<p>Specific steps of MAGATS are summarized as follows.</p>
+<p>(1) After conducting a MAGA, the best agent is set as the current solution and the optimal solution.</p>
+<p>(2) Obtain a set of candidate solutions to be selected according to neighborhood structure of current solutions (N7 neighborhood structure is adopted). Verify tabu of each candidate solution.</p>
+<p>(3) Determine whether tabu solutions satisfy the aspiration criterion: if fitness of a tabu solution is higher than previous accepted solutions, then the solution will be released and will be set as the current solution and the optimal solution. If it does not, a solution with the highest fitness selected from the non-tabu solution set will be the current solution. Update the tabu table.</p>
+<p>(4) Repeat steps (2), (3) until satisfying termination criteria. The termination criteria are to reach the maximum number of iterations or find the best known solution (BKS). Set the maximum number of iterations to 300.</p>
+<p>(5) If the BKS is found, the algorithm is stopped. Otherwise, repeat steps (1)&#8212;(4) until the BKS is found or <italic>C</italic><sub><italic>TS</italic></sub>&#8805;<italic>H</italic>.</p>
+<p>Key parameter settings of TS in MAGATS include selection of tabu objects and length setting of a tabu table.</p>
+<p>(1) Selection of tabu objects. In section 2.2.3, neighborhood structures of JSSPs and judgement of key operations and exchangeable operation pairs were discussed. Therefore, operation pairs were marked as tabu objects. For example, a candidate solution is generated through exchanging operations <italic>O</italic><sub>12</sub> and <italic>O</italic><sub>32</sub> which are both processed on <italic>M</italic><sub>1</sub>. Then, exchange of this operation pair is added to the tabu table.</p>
+<p>(2) Length setting of a tabu table. A tabu table can be regarded as a special queue with first-in, first-out characteristics. When a new tabu object is added, set its tabu length <italic>L</italic><sub>list</sub>. In other words, once entering in the tabu table, the tabu object can be dequeued until <italic>L</italic><sub>list</sub> iterations of TS (provided that aspiration criterion is not met). If tabu length of the tabu table is too small, it is easy to fall into local optimum. On the contrary, if tabu length is too large, too many constraints will be generated. An effective approach for JSSPs is to introduce a dynamic tabu table, which sets the tabu length <italic>L</italic><sub>list</sub> to be randomly selected in [<italic>L</italic><sub><italic>min</italic></sub>, <italic>L</italic><sub><italic>max</italic></sub>]. After several tests, setting <italic>L</italic><sub>min</sub> = [10+<italic>n</italic>/<italic>m</italic>] and <italic>L</italic><sub>max</sub> = [1.8<italic>L</italic><sub>min</sub>] is better.</p>
+</sec>
+<sec id="sec010">
+<title>4 Results and analysis</title>
+<p>The proposed algorithm MAGATS is implemented by Visual C++. The program running environment is a PC with a core i5 processor, 2.5GHz main frequency, and 8G memory. To test optimization performance of the algorithm, 43 instances are selected from the OR-library, which included FT06, FT10,FT20 contributed by Fisher and Thompson and LA01~LA40 contributed by Lawrence [<xref ref-type="bibr" rid="pone.0223182.ref028">28</xref>,<xref ref-type="bibr" rid="pone.0223182.ref029">29</xref>]. These instances are often used to test optimization performance of a new algorithm. Two comparative analysis are completed based on these instances.</p>
+<sec id="sec011">
+<title>4.1 Comparison of MAGATS with GA and MAGA</title>
+<p>Parameters of GA, MAGA and MAGATS are set as follows.</p>
+<p>GA: Size of initial population = 256, probability of crossover <italic>Pc</italic> = 0.8, the number of crossover <italic>&#955;</italic> = 50, probability of mutation <italic>P</italic><sub><italic>m</italic></sub> = 0.1, the maximum number of iterations <italic>I</italic> = 300. MAGA: <italic>L</italic><sub><italic>size</italic></sub> = 16,<italic>sL</italic><sub><italic>size</italic></sub> = 3,probability of neighbor interaction <italic>Pc</italic> = 0.8, probability of replacement mechanism <italic>P</italic><sub><italic>o</italic></sub> = 0.5,the number of crossover <italic>&#955;</italic> = 50, probability of mutation <italic>P</italic><sub><italic>m</italic></sub> = 0.1,the number of self-learning <italic>S</italic><sub><italic>gen</italic></sub> = 50, the maximum number of iterations <italic>I</italic> = 300; TS: the maximum number of cycles <italic>H</italic> = 300.The remaining of relevant parameters refers to section 3. 11 instances of different sizes are selected to verify the improvement of MAGATS compared with GA and MAGA. The results are shown in <xref ref-type="table" rid="pone.0223182.t002">Table 2</xref>. <italic>C</italic><sub><italic>best</italic></sub> is the best solution every algorithm can find in 20 runs. <italic>C</italic><sub><italic>aver</italic></sub> and <italic>&#963;</italic> are the mean and standard deviation of all 20 solutions acquired by GA,MAGA and MAGATS.</p>
+<table-wrap id="pone.0223182.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.t002</object-id>
+<label>Table 2</label> <caption><title>Comparison of MAGATS with GA and MAGA.</title></caption>
+<alternatives>
+<graphic id="pone.0223182.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Instances</th>
+<th align="center" rowspan="2">Size</th>
+<th align="center" rowspan="2">BKS</th>
+<th align="center" colspan="3">GA</th>
+<th align="center" colspan="3">MAGA</th>
+<th align="center" colspan="3">MAGATS</th>
+</tr>
+<tr>
+<th align="center"><italic>C</italic><sub>best</sub></th>
+<th align="center"><italic>C</italic><sub>aver</sub></th>
+<th align="center">&#963;</th>
+<th align="center"><italic>C</italic><sub>best</sub></th>
+<th align="center"><italic>C</italic><sub>aver</sub></th>
+<th align="center">&#963;</th>
+<th align="center"><italic>C</italic><sub>best</sub></th>
+<th align="center"><italic>C</italic><sub>aver</sub></th>
+<th align="center">&#963;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">FT06</td>
+<td align="center">6&#215;6</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">0</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">0</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">FT10</td>
+<td align="center">10&#215;10</td>
+<td align="center">930</td>
+<td align="center">930</td>
+<td align="center">949.7</td>
+<td align="center">15.05</td>
+<td align="center">930</td>
+<td align="center">939</td>
+<td align="center">7.42</td>
+<td align="center">930</td>
+<td align="center">930</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">FT20</td>
+<td align="center">20&#215;5</td>
+<td align="center">1165</td>
+<td align="center"><bold>1174</bold></td>
+<td align="center">1193.55</td>
+<td align="center">13.67</td>
+<td align="center">1165</td>
+<td align="center">1173.40</td>
+<td align="center">4.76</td>
+<td align="center">1165</td>
+<td align="center">1165</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">LA01</td>
+<td align="center">10&#215;5</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">0</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">0</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">LA06</td>
+<td align="center">15&#215;5</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">0</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">0</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">LA11</td>
+<td align="center">20&#215;5</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">0</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">0</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">LA16</td>
+<td align="center">10&#215;10</td>
+<td align="center">945</td>
+<td align="center"><bold>946</bold></td>
+<td align="center">952.95</td>
+<td align="center">9.87</td>
+<td align="center"><bold>946</bold></td>
+<td align="center">949</td>
+<td align="center">4.15</td>
+<td align="center">945</td>
+<td align="center">945.90</td>
+<td align="center">0.3</td>
+</tr>
+<tr>
+<td align="center">LA24</td>
+<td align="center">15&#215;10</td>
+<td align="center">935</td>
+<td align="center"><bold>947</bold></td>
+<td align="center">969.60</td>
+<td align="center">12.56</td>
+<td align="center"><bold>943</bold></td>
+<td align="center">958.35</td>
+<td align="center">9.10</td>
+<td align="center">935</td>
+<td align="center">943.25</td>
+<td align="center">3.16</td>
+</tr>
+<tr>
+<td align="center">LA29</td>
+<td align="center">20&#215;10</td>
+<td align="center">1152</td>
+<td align="center"><bold>1243</bold></td>
+<td align="center">1267.05</td>
+<td align="center">16.93</td>
+<td align="center"><bold>1193</bold></td>
+<td align="center">1214.4</td>
+<td align="center">11.28</td>
+<td align="center"><bold>1164</bold></td>
+<td align="center">1174.15</td>
+<td align="center">8.05</td>
+</tr>
+<tr>
+<td align="center">LA35</td>
+<td align="center">30&#215;10</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">0</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">0</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">LA36</td>
+<td align="center">15&#215;15</td>
+<td align="center">1268</td>
+<td align="center"><bold>1296</bold></td>
+<td align="center">1326.55</td>
+<td align="center">12.75</td>
+<td align="center"><bold>1292</bold></td>
+<td align="center">1299.27</td>
+<td align="center">6.33</td>
+<td align="center"><bold>1281</bold></td>
+<td align="center">1288.70</td>
+<td align="center">4.87</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>As shown in <xref ref-type="table" rid="pone.0223182.t002">Table 2</xref> and <xref ref-type="fig" rid="pone.0223182.g014">Fig 14</xref>, compared with GA and MAGA. MAGATS finds the most BKSs and behaves better optimization performance and better stability.</p>
+<fig id="pone.0223182.g014" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g014</object-id>
+<label>Fig 14</label>
+<caption>
+<title>Mean and standard deviation of GA, MAGA and MAGATS.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g014" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec012">
+<title>4.2 Comparison between MAGATS and other algorithms</title>
+<p>In this comparative analysis, all 43 instances are run 20 times respectively, and the obtained test results with MAGATS are compared with other four algorithms: NIMGA, aLSGA, WW, TSSB [<xref ref-type="bibr" rid="pone.0223182.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0223182.ref030">30</xref>&#8211;<xref ref-type="bibr" rid="pone.0223182.ref032">32</xref>], as shown in <xref ref-type="table" rid="pone.0223182.t003">Table 3</xref>. <xref ref-type="table" rid="pone.0223182.t003">Table 3</xref> lists instance name, instance size (number of jobs &#215; number of machines), the best known solution (BKS), the optimal solution (OS) obtained by MAGATS, RD (relative deviation between the optimal solution obtained by MAGATS and BKS) and the optimal solution obtained by other algorithms. RD can be calculated by Eq (<xref ref-type="disp-formula" rid="pone.0223182.e004">4</xref>).</p>
+<disp-formula id="pone.0223182.e004">
+<alternatives>
+<graphic id="pone.0223182.e004g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0223182.e004" ns0:type="simple" />
+<ns1:math display="block" id="M4">
+<ns1:mrow><ns1:mi mathvariant="normal">R</ns1:mi><ns1:mi mathvariant="normal">D</ns1:mi><ns1:mo>=</ns1:mo><ns1:mo stretchy="false">(</ns1:mo><ns1:mi mathvariant="normal">O</ns1:mi><ns1:mi mathvariant="normal">S</ns1:mi><ns1:mi mathvariant="normal">&#8208;</ns1:mi><ns1:mi mathvariant="normal">B</ns1:mi><ns1:mi mathvariant="normal">K</ns1:mi><ns1:mi mathvariant="normal">S</ns1:mi><ns1:mo stretchy="false">)</ns1:mo><ns1:mo>/</ns1:mo><ns1:mi mathvariant="normal">B</ns1:mi><ns1:mi mathvariant="normal">K</ns1:mi><ns1:mi mathvariant="normal">S</ns1:mi><ns1:mo>&#215;</ns1:mo><ns1:mn>100</ns1:mn><ns1:mi mathvariant="normal">%</ns1:mi></ns1:mrow>
+</ns1:math>
+</alternatives>
+<label>(4)</label>
+</disp-formula>
+<p>Based on the obtained RDs for each instance, ARD used to evaluate the optimization performance of each algorithm can be calculated by Eq (<xref ref-type="disp-formula" rid="pone.0223182.e005">5</xref>).
+<disp-formula id="pone.0223182.e005">
+<alternatives>
+<graphic id="pone.0223182.e005g" mimetype="image" position="anchor" ns0:href="info:doi/10.1371/journal.pone.0223182.e005" ns0:type="simple" />
+<ns1:math display="block" id="M5">
+<ns1:mrow><ns1:mi mathvariant="normal">A</ns1:mi><ns1:mi mathvariant="normal">R</ns1:mi><ns1:mi mathvariant="normal">D</ns1:mi><ns1:mo>=</ns1:mo><ns1:mstyle displaystyle="true"><ns1:munderover><ns1:mo>&#8721;</ns1:mo><ns1:mrow><ns1:mi>i</ns1:mi><ns1:mo>=</ns1:mo><ns1:mn>1</ns1:mn></ns1:mrow><ns1:mi>N</ns1:mi></ns1:munderover><ns1:mrow><ns1:mi mathvariant="normal">R</ns1:mi><ns1:mi mathvariant="normal">D</ns1:mi></ns1:mrow></ns1:mstyle><ns1:mo>/</ns1:mo><ns1:mi>N</ns1:mi></ns1:mrow>
+</ns1:math>
+</alternatives>
+<label>(5)</label>
+</disp-formula>
+where N is the number of instances tested by each algorithm. Contents of <xref ref-type="table" rid="pone.0223182.t004">Table 4</xref> include the number of instances solved/the number of instances tested (NIS/NIT), ARD of other algorithms(OA) and MAGATS and improvement. The column named improvement means the reduction of ARD obtained by MAGATS compared with OA. In other words, the more efficient algorithm can be identified.</p>
+<table-wrap id="pone.0223182.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.t003</object-id>
+<label>Table 3</label> <caption><title>Comparison of optimization results of 43 instances.</title></caption>
+<alternatives>
+<graphic id="pone.0223182.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Instances</th>
+<th align="center">Size</th>
+<th align="center">BKS</th>
+<th align="center">MAGATS</th>
+<th align="center">RD(%)</th>
+<th align="center">NIMGA</th>
+<th align="center">aLSGA</th>
+<th align="center">WW</th>
+<th align="justify">TSSB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">FT06</td>
+<td align="center">6&#215;6</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">0</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">55</td>
+<td align="center">55</td>
+</tr>
+<tr>
+<td align="center">FT10</td>
+<td align="center">10&#215;10</td>
+<td align="center">930</td>
+<td align="center">930</td>
+<td align="center">0</td>
+<td align="center">930</td>
+<td align="center">930</td>
+<td align="center">930</td>
+<td align="center">930</td>
+</tr>
+<tr>
+<td align="center">FT20</td>
+<td align="center">20&#215;5</td>
+<td align="center">1165</td>
+<td align="center">1165</td>
+<td align="center">0</td>
+<td align="center"><bold>1173</bold></td>
+<td align="center">1165</td>
+<td align="center">1165</td>
+<td align="center">1165</td>
+</tr>
+<tr>
+<td align="center">LA01</td>
+<td align="center">10&#215;5</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">0</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">666</td>
+<td align="center">666</td>
+</tr>
+<tr>
+<td align="center">LA02</td>
+<td align="center">10&#215;5</td>
+<td align="center">655</td>
+<td align="center">655</td>
+<td align="center">0</td>
+<td align="center">655</td>
+<td align="center">655</td>
+<td align="center">655</td>
+<td align="center">655</td>
+</tr>
+<tr>
+<td align="center">LA03</td>
+<td align="center">10&#215;5</td>
+<td align="center">597</td>
+<td align="center">597</td>
+<td align="center">0</td>
+<td align="center">597</td>
+<td align="center"><bold>606</bold></td>
+<td align="center">597</td>
+<td align="center">597</td>
+</tr>
+<tr>
+<td align="center">LA04</td>
+<td align="center">10&#215;5</td>
+<td align="center">590</td>
+<td align="center">590</td>
+<td align="center">0</td>
+<td align="center">590</td>
+<td align="center"><bold>593</bold></td>
+<td align="center">590</td>
+<td align="center">590</td>
+</tr>
+<tr>
+<td align="center">LA05</td>
+<td align="center">10&#215;5</td>
+<td align="center">593</td>
+<td align="center">593</td>
+<td align="center">0</td>
+<td align="center">593</td>
+<td align="center">593</td>
+<td align="center">593</td>
+<td align="center">593</td>
+</tr>
+<tr>
+<td align="center">LA06</td>
+<td align="center">15&#215;5</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">0</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">926</td>
+<td align="center">926</td>
+</tr>
+<tr>
+<td align="center">LA07</td>
+<td align="center">15&#215;5</td>
+<td align="center">890</td>
+<td align="center">890</td>
+<td align="center">0</td>
+<td align="center">890</td>
+<td align="center">890</td>
+<td align="center">890</td>
+<td align="center">890</td>
+</tr>
+<tr>
+<td align="center">LA08</td>
+<td align="center">15&#215;5</td>
+<td align="center">863</td>
+<td align="center">863</td>
+<td align="center">0</td>
+<td align="center">863</td>
+<td align="center">863</td>
+<td align="center">863</td>
+<td align="center">863</td>
+</tr>
+<tr>
+<td align="center">LA09</td>
+<td align="center">15&#215;5</td>
+<td align="center">951</td>
+<td align="center">951</td>
+<td align="center">0</td>
+<td align="center">951</td>
+<td align="center">951</td>
+<td align="center">951</td>
+<td align="center">951</td>
+</tr>
+<tr>
+<td align="center">LA10</td>
+<td align="center">15&#215;5</td>
+<td align="center">958</td>
+<td align="center">958</td>
+<td align="center">0</td>
+<td align="center">958</td>
+<td align="center">958</td>
+<td align="center">958</td>
+<td align="center">958</td>
+</tr>
+<tr>
+<td align="center">LA11</td>
+<td align="center">20&#215;5</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">0</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+<td align="center">1222</td>
+</tr>
+<tr>
+<td align="center">LA12</td>
+<td align="center">20&#215;5</td>
+<td align="center">1039</td>
+<td align="center">1039</td>
+<td align="center">0</td>
+<td align="center">1039</td>
+<td align="center">1039</td>
+<td align="center">1039</td>
+<td align="center">1039</td>
+</tr>
+<tr>
+<td align="center">LA13</td>
+<td align="center">20&#215;5</td>
+<td align="center">1150</td>
+<td align="center">1150</td>
+<td align="center">0</td>
+<td align="center">1150</td>
+<td align="center">1150</td>
+<td align="center">1150</td>
+<td align="center">1150</td>
+</tr>
+<tr>
+<td align="center">LA14</td>
+<td align="center">20&#215;5</td>
+<td align="center">1292</td>
+<td align="center">1292</td>
+<td align="center">0</td>
+<td align="center">1292</td>
+<td align="center">1292</td>
+<td align="center">1292</td>
+<td align="center">1292</td>
+</tr>
+<tr>
+<td align="center">LA15</td>
+<td align="center">20&#215;5</td>
+<td align="center">1207</td>
+<td align="center">1207</td>
+<td align="center">0</td>
+<td align="center">1207</td>
+<td align="center">1207</td>
+<td align="center">1207</td>
+<td align="center">1207</td>
+</tr>
+<tr>
+<td align="center">LA16</td>
+<td align="center">10&#215;10</td>
+<td align="center">945</td>
+<td align="center">945</td>
+<td align="center">0</td>
+<td align="center">945</td>
+<td align="center"><bold>946</bold></td>
+<td align="center">945</td>
+<td align="center">945</td>
+</tr>
+<tr>
+<td align="center">LA17</td>
+<td align="center">10&#215;10</td>
+<td align="center">784</td>
+<td align="center">784</td>
+<td align="center">0</td>
+<td align="center">784</td>
+<td align="center">784</td>
+<td align="center">784</td>
+<td align="center">784</td>
+</tr>
+<tr>
+<td align="center">LA18</td>
+<td align="center">10&#215;10</td>
+<td align="center">848</td>
+<td align="center">848</td>
+<td align="center">0</td>
+<td align="center">848</td>
+<td align="center">848</td>
+<td align="center">848</td>
+<td align="center">848</td>
+</tr>
+<tr>
+<td align="center">LA19</td>
+<td align="center">10&#215;10</td>
+<td align="center">842</td>
+<td align="center">842</td>
+<td align="center">0</td>
+<td align="center">842</td>
+<td align="center"><bold>852</bold></td>
+<td align="center">842</td>
+<td align="center">842</td>
+</tr>
+<tr>
+<td align="center">LA20</td>
+<td align="center">10&#215;10</td>
+<td align="center">902</td>
+<td align="center"><bold>907</bold></td>
+<td align="center">0.55</td>
+<td align="center"><bold>907</bold></td>
+<td align="center"><bold>907</bold></td>
+<td align="center"><bold>907</bold></td>
+<td align="center">902</td>
+</tr>
+<tr>
+<td align="center">LA21</td>
+<td align="center">15&#215;10</td>
+<td align="center">1046</td>
+<td align="center">1046</td>
+<td align="center">0</td>
+<td align="center"><bold>1058</bold></td>
+<td align="center"><bold>1068</bold></td>
+<td align="center">1046</td>
+<td align="center">1046</td>
+</tr>
+<tr>
+<td align="center">LA22</td>
+<td align="center">15&#215;10</td>
+<td align="center">927</td>
+<td align="center">927</td>
+<td align="center">0</td>
+<td align="center"><bold>937</bold></td>
+<td align="center"><bold>956</bold></td>
+<td align="center"><bold>935</bold></td>
+<td align="center">927</td>
+</tr>
+<tr>
+<td align="center">LA23</td>
+<td align="center">15&#215;10</td>
+<td align="center">1032</td>
+<td align="center">1032</td>
+<td align="center">0</td>
+<td align="center">1032</td>
+<td align="center">1032</td>
+<td align="center">1032</td>
+<td align="center">1032</td>
+</tr>
+<tr>
+<td align="center">LA24</td>
+<td align="center">15&#215;10</td>
+<td align="center">935</td>
+<td align="center">935</td>
+<td align="center">0</td>
+<td align="center"><bold>947</bold></td>
+<td align="center"><bold>966</bold></td>
+<td align="center"><bold>937</bold></td>
+<td align="center"><bold>938</bold></td>
+</tr>
+<tr>
+<td align="center">LA25</td>
+<td align="center">15&#215;10</td>
+<td align="center">977</td>
+<td align="center">977</td>
+<td align="center">0</td>
+<td align="center"><bold>989</bold></td>
+<td align="center"><bold>1002</bold></td>
+<td align="center">977</td>
+<td align="center"><bold>979</bold></td>
+</tr>
+<tr>
+<td align="center">LA26</td>
+<td align="center">20&#215;10</td>
+<td align="center">1218</td>
+<td align="center">1218</td>
+<td align="center">0</td>
+<td align="center">1218</td>
+<td align="center"><bold>1223</bold></td>
+<td align="center">1218</td>
+<td align="center">1218</td>
+</tr>
+<tr>
+<td align="center">LA27</td>
+<td align="center">20&#215;10</td>
+<td align="center">1235</td>
+<td align="center">1235</td>
+<td align="center">0</td>
+<td align="center"><bold>1269</bold></td>
+<td align="center"><bold>1281</bold></td>
+<td align="center"><bold>1236</bold></td>
+<td align="center">1235</td>
+</tr>
+<tr>
+<td align="center">LA28</td>
+<td align="center">20&#215;10</td>
+<td align="center">1216</td>
+<td align="center">1216</td>
+<td align="center">0</td>
+<td align="center"><bold>1247</bold></td>
+<td align="center"><bold>1245</bold></td>
+<td align="center">1216</td>
+<td align="center">1216</td>
+</tr>
+<tr>
+<td align="center">LA29</td>
+<td align="center">20&#215;10</td>
+<td align="center">1152</td>
+<td align="center"><bold>1164</bold></td>
+<td align="center">1.04</td>
+<td align="center"><bold>1241</bold></td>
+<td align="center"><bold>1230</bold></td>
+<td align="center"><bold>1160</bold></td>
+<td align="center"><bold>1168</bold></td>
+</tr>
+<tr>
+<td align="center">LA30</td>
+<td align="center">20&#215;10</td>
+<td align="center">1355</td>
+<td align="center">1355</td>
+<td align="center">0</td>
+<td align="center">1355</td>
+<td align="center">1355</td>
+<td align="center">1355</td>
+<td align="center">1355</td>
+</tr>
+<tr>
+<td align="center">LA31</td>
+<td align="center">30&#215;10</td>
+<td align="center">1784</td>
+<td align="center">1784</td>
+<td align="center">0</td>
+<td align="center">1784</td>
+<td align="center">1784</td>
+<td align="center">1784</td>
+<td align="center">1784</td>
+</tr>
+<tr>
+<td align="center">LA32</td>
+<td align="center">30&#215;10</td>
+<td align="center">1850</td>
+<td align="center">1850</td>
+<td align="center">0</td>
+<td align="center">1850</td>
+<td align="center">1850</td>
+<td align="center">1850</td>
+<td align="center">1850</td>
+</tr>
+<tr>
+<td align="center">LA33</td>
+<td align="center">30&#215;10</td>
+<td align="center">1719</td>
+<td align="center">1719</td>
+<td align="center">0</td>
+<td align="center">1719</td>
+<td align="center">1719</td>
+<td align="center">1719</td>
+<td align="center">1719</td>
+</tr>
+<tr>
+<td align="center">LA34</td>
+<td align="center">30&#215;10</td>
+<td align="center">1721</td>
+<td align="center">1721</td>
+<td align="center">0</td>
+<td align="center">1721</td>
+<td align="center">1721</td>
+<td align="center">1721</td>
+<td align="center">1721</td>
+</tr>
+<tr>
+<td align="center">LA35</td>
+<td align="center">30&#215;10</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">0</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+<td align="center">1888</td>
+</tr>
+<tr>
+<td align="center">LA36</td>
+<td align="center">15&#215;15</td>
+<td align="center">1268</td>
+<td align="center"><bold>1281</bold></td>
+<td align="center">1.03</td>
+<td align="center"><bold>1293</bold></td>
+<td align="center">-</td>
+<td align="center"><bold>1279</bold></td>
+<td align="center">1268</td>
+</tr>
+<tr>
+<td align="center">LA37</td>
+<td align="center">15&#215;15</td>
+<td align="center">1397</td>
+<td align="center">1397</td>
+<td align="center">0</td>
+<td align="center"><bold>1432</bold></td>
+<td align="center">-</td>
+<td align="center"><bold>1407</bold></td>
+<td align="center"><bold>1411</bold></td>
+</tr>
+<tr>
+<td align="center">LA38</td>
+<td align="center">15&#215;15</td>
+<td align="center">1196</td>
+<td align="center"><bold>1198</bold></td>
+<td align="center">0.17</td>
+<td align="center"><bold>1222</bold></td>
+<td align="center">-</td>
+<td align="center">1196</td>
+<td align="center"><bold>1201</bold></td>
+</tr>
+<tr>
+<td align="center">LA39</td>
+<td align="center">15&#215;15</td>
+<td align="center">1233</td>
+<td align="center">1233</td>
+<td align="center">0.00</td>
+<td align="center"><bold>1251</bold></td>
+<td align="center">-</td>
+<td align="center"><bold>1242</bold></td>
+<td align="center"><bold>1240</bold></td>
+</tr>
+<tr>
+<td align="center">LA40</td>
+<td align="center">15&#215;15</td>
+<td align="center">1222</td>
+<td align="center"><bold>1228</bold></td>
+<td align="center">0.49</td>
+<td align="center"><bold>1246</bold></td>
+<td align="center">-</td>
+<td align="center"><bold>1229</bold></td>
+<td align="center"><bold>1233</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0223182.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.t004</object-id>
+<label>Table 4</label> <caption><title>Improvement of MAGATS compared with OA.</title></caption>
+<alternatives>
+<graphic id="pone.0223182.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Algorithm</th>
+<th align="center" rowspan="2">NIS/NIT</th>
+<th align="center" colspan="2">ARD</th>
+<th align="center" rowspan="2">Improvement</th>
+</tr>
+<tr>
+<th align="center">OA(%)</th>
+<th align="center">MAGATS(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">NIMGA</td>
+<td align="center">29/43</td>
+<td align="center">0.68</td>
+<td align="center">0.08</td>
+<td align="center">0.60</td>
+</tr>
+<tr>
+<td align="center">aLSGA</td>
+<td align="center">25/38</td>
+<td align="center">0.74</td>
+<td align="center">0.04</td>
+<td align="center">0.70</td>
+</tr>
+<tr>
+<td align="center">WW</td>
+<td align="center">34/43</td>
+<td align="center">0.12</td>
+<td align="center">0.08</td>
+<td align="center">0.04</td>
+</tr>
+<tr>
+<td align="center">TSSB</td>
+<td align="center">36/43</td>
+<td align="center">0.11</td>
+<td align="center">0.08</td>
+<td align="center">0.03</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Based on Tables <xref ref-type="table" rid="pone.0223182.t003">3</xref> and <xref ref-type="table" rid="pone.0223182.t004">4</xref>, the new algorithm is analyzed.</p>
+<p>(1) The proposed algorithm MAGATS finds 38 optimal solutions of 43 instances. To small instances FT06, FT10, FT20 and LA01~LA15, all five algorithms can find almost all the best known solutions. But to relatively large instances LA16~LA40 (25 instances), 20 best known solutions (80%) is found by MAGATS, which has better optimization performance than NIMGA(48%), aLSGA(45%), WW(64%) and TSSB (72%).</p>
+<p>(2) Compared with other algorithms, ARD of MAGATS is the smallest. It indicates that the optimal solutions obtained by MAGATS is closest to the best known solutions or the minimum makespan. It is further shown that the new algorithm has better optimization performance. Compared with other algorithms, obtained solutions are of higher quality.</p>
+<p>In order to visualize scheduling results of the JSSP optimized by MAGATS, an example LA39 is selected to display its optimal scheduling in a machine Gantt chart, as shown in <xref ref-type="fig" rid="pone.0223182.g015">Fig 15</xref>. Since O<sub><italic>ij</italic></sub> is easy to cause ambiguity, (<italic>Ji</italic>,<italic>j</italic>) is used to represent the <italic>j</italic>th operation of <italic>J</italic><sub><italic>i</italic></sub>.</p>
+<fig id="pone.0223182.g015" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223182.g015</object-id>
+<label>Fig 15</label>
+<caption>
+<title>Machine Gantt chart of instance LA39.</title>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.g015" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>5 Conclusion</title>
+<p>Aiming at NP characteristics of JSSPs and minimizing makespan, a MAGATS is proposed in this paper. The new algorithm is applied to test 43 benchmark instances. Compared with four other algorithms, optimization performance of it is analyzed based on the obtained test results. Analysis results show that the proposed algorithm MAGATS has high optimization performance and practical value in the field of JSSPs.</p>
+<p>Highlights of this paper can be concluded into the following 3 aspects.</p>
+<p>(1) A neighbor interaction operator based on a POX operator is designed. Under the algorithm framework of MAGA, each agent can only interact with neighbors. A replacement mechanism is adopted to retain good chromosomes. The algorithm's global search performance is enhanced to some extent, thus achieving optimization function of the algorithm.</p>
+<p>(2) A mutation operator based on neighborhood structure and a self-learning operator are designed. By introducing N7 neighborhood structure into the design of mutation operators, a wider solution space can be explored, thereby obtaining a higher quality feasible scheduling. Centralized search ability of MAGATS can be further enhanced by the self-learning operator.</p>
+<p>(3) A MAGATS is proposed. Combined with excellent global search performance of TS, MAGA is integrated with TS to further enhance optimization performance of the algorithm, avoiding premature and falling into local optimal.</p>
+<p>The proposed algorithm MAGATS is only used to solve JSSPs with a goal of minimizing makespan. Influences of neighbor environment of chromosome agents on optimization performance of the algorithm need further research. In the future research work, feasibility of this algorithm in multi-objective job shop scheduling and flexible job shop scheduling will also be studied.</p>
+</sec>
+<sec id="sec014">
+<title>Supporting information</title>
+<supplementary-material id="pone.0223182.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.s001" ns0:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Meta-data of 43 instances.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>I would like to express my sincere gratitude to my teammates, Wenguang Zuo, Caiyu Zhen and Miao Chen. During the writing and revision of the paper, they provided great help for me.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0223182.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Garey</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Sethi</surname> <given-names>R</given-names></name>. <article-title>The Complexity of Flowshop and Jobshop Scheduling</article-title>. <source>Math Oper Res</source>. <year>1976</year>;<volume>1</volume>(<issue>2</issue>):<fpage>117</fpage>&#8211;<lpage>129</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref002"><label>2</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Manne</surname> <given-names>A</given-names></name>. <chapter-title>On the Job Shop Scheduling Problem</chapter-title>. <publisher-name>Cowles Foundation, Yale University, Cowles Foundation Discussion Papers</publisher-name>. <year>1959</year>;<volume>8</volume>.</mixed-citation></ref>
+<ref id="pone.0223182.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Balas</surname> <given-names>E</given-names></name>. <article-title>Machine Sequencing Via Disjunctive Graphs: An Implicit Enumeration Algorithm</article-title>. <source>Oper Res</source>. <year>1969</year>;<volume>17</volume>(<issue>6</issue>):<fpage>941</fpage>&#8211;<lpage>957</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Calis</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Bulkan</surname> <given-names>S</given-names></name>. <article-title>A research survey: review of AI solution strategies of job shop scheduling problem</article-title>. <source>J Intell Manuf</source>. <year>2015</year>;<volume>26</volume>(<issue>5</issue>):<fpage>961</fpage>&#8211;<lpage>973</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>D</given-names></name>. <article-title>Research on Traffic Flow Prediction in the Big Data Environment Based on the Improved RBF Neural Network.</article-title> <source>IEEE T Ind Inform</source>. <year>2017</year>;<volume>13</volume>(<issue>4</issue>):<fpage>2000</fpage>&#8211;<lpage>2008</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Jia</surname> <given-names>R</given-names></name>. <name name-style="western"><surname>Deep</surname> <given-names>PF</given-names></name>: <article-title>A deep learning based architecture for metro passenger flow prediction</article-title>. <source>Transport Res C-Emer</source>. <year>2019</year>;<volume>101</volume>:<fpage>18</fpage>&#8211;<lpage>34</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref007"><label>7</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Holland</surname> <given-names>J</given-names></name>. <chapter-title>Adoption in Natural and Artificial System</chapter-title>. <publisher-name>The University of Michigan Press</publisher-name>, <publisher-loc>Ann Arbor</publisher-loc>. <year>1975</year>.</mixed-citation></ref>
+<ref id="pone.0223182.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Xu</surname> <given-names>XD</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>CX</given-names></name>. <article-title>Research on immune genetic algorithm for solving the job-shop scheduling problem</article-title>. <source>Int J Adv Manuf Technol</source>. <year>2007</year>;<volume>34</volume>(<issue>7&#8211;8</issue>):<fpage>783</fpage>&#8211;<lpage>789</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kurdi</surname> <given-names>M</given-names></name>. <article-title>An effective new island model genetic algorithm for job shop scheduling problem</article-title>. <source>Comput Oper Res</source>. <year>2016</year>;<volume>67</volume>(C):<fpage>132</fpage>&#8211;<lpage>142</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chang</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>TK</given-names></name>. <article-title>Optimisation of distributed manufacturing flexible job shop scheduling by using hybrid genetic algorithms</article-title>. <source>J Intell Manuf</source>. <year>2015</year>;<volume>28</volume>(<issue>8</issue>):<fpage>1</fpage>&#8211;<lpage>14</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jing</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>YY</given-names></name>. <article-title>Multi-agent oriented constraint satisfaction</article-title>. <source>Artif Intell</source>. <year>2002</year>;<volume>136</volume>(<issue>1</issue>):<fpage>101</fpage>&#8211;<lpage>44</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>W</given-names></name>. <article-title>Hybrid flow shop rescheduling algorithm for perishable products subject to a due date with random invalidity to the operational unit</article-title>. <source>Int J Adv Manuf Technol</source>. <year>2017</year>;<volume>93</volume>(<issue>1</issue>):<fpage>225</fpage>&#8211;<lpage>239</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tsujimura</surname> <given-names>Y</given-names></name>. <article-title>A tutorial survey of job-shop scheduling problems using genetic algorithms&#8212;I. representation</article-title>. <source>Comput Ind Eng</source>. <year>1996</year>;<volume>30</volume>(<issue>4</issue>):<fpage>983</fpage>&#8211;<lpage>997</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Knopp</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Dauz&#232;re-P&#233;r&#232;s</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yugma</surname> <given-names>C</given-names></name>. <article-title>A batch-oblivious approach for Complex Job-Shop scheduling problems</article-title>. <source>Eur J Oper Res</source>. <year>2017</year>;<volume>263</volume>(<issue>1</issue>):<fpage>50</fpage>&#8211;<lpage>61</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bean</surname> <given-names>JC</given-names></name>. <article-title>Genetic Algorithms and Random Keys for Sequencing and Optimization.</article-title> <source>Orsa J Comput</source>. <year>2017</year>;<volume>6</volume>:<fpage>154</fpage>&#8211;<lpage>160</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zambrano Rey</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bekrar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Trentesaux</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>B-H</given-names></name>. <article-title>Solving the flexible job-shop just-in-time scheduling problem with quadratic earliness and tardiness costs</article-title>. <source>Int J Adv Manuf Technol</source>. <year>2015</year>;<volume>81</volume>(<issue>9</issue>):<fpage>1871</fpage>&#8211;<lpage>1891</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kuhpfahl</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bierwirth</surname> <given-names>C</given-names></name>. <article-title>A Study on Local Search Neighborhoods for the Job Shop Scheduling Problem with Total Weighted Tardiness Objective</article-title>. <source>Comput Oper Res</source>. <year>2015</year>;<volume>66</volume>:<fpage>44</fpage>&#8211;<lpage>57</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Engin</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>G&#252;&#231;l&#252;</surname> <given-names>A</given-names></name>. <article-title>A new hybrid ant colony optimization algorithm for solving the no-wait flow shop scheduling problems</article-title>. <source>Appl Soft Comput</source>. <year>2018</year>;<volume>72</volume>:<fpage>166</fpage>&#8211;<lpage>176</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gao</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wen</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wen</surname> <given-names>F</given-names></name>. <article-title>A hybrid algorithm based on a new neighborhood structure evaluation method for job shop scheduling problem</article-title>. <source>Comput Ind Eng</source>. <year>2015</year>;<volume>88</volume>:<fpage>417</fpage>&#8211;<lpage>429</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Selsa</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Vanhouckeabc</surname> <given-names>M</given-names></name>. <article-title>A hybrid single and dual population search procedure for the job shop scheduling problem</article-title>. <source>Eur J Oper Res</source>. <year>2011</year>;<volume>215</volume>(<issue>3</issue>):<fpage>512</fpage>&#8211;<lpage>523</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>P</given-names></name>. <article-title>An effective hybrid genetic algorithm for the job shop scheduling problem</article-title>. <source>Int J Adv Manuf Technol</source>. <year>2008</year>;<volume>39</volume>(<issue>9&#8211;10</issue>):<fpage>965</fpage>&#8211;<lpage>974</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Laarhoven</surname> <given-names>PJMV</given-names></name>, <name name-style="western"><surname>Aarts</surname> <given-names>EHL</given-names></name>, <name name-style="western"><surname>Lenstra</surname> <given-names>JK</given-names></name>. <article-title>Job shop scheduling by simulated annealing</article-title>. <source>Oper Res</source>. <year>1992</year>;<volume>40</volume>(<issue>1</issue>):<fpage>113</fpage>&#8211;<lpage>125</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dell'Amico</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Trubian</surname> <given-names>M</given-names></name>. <article-title>Applying tabu search to the job-shop scheduling problem</article-title>. <source>Ann Oper Res</source>. <year>1993</year>;<volume>41</volume>(<issue>3</issue>):<fpage>231</fpage>&#8211;<lpage>252</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nowicki</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Smutnicki</surname> <given-names>C</given-names></name>. <article-title>A Fast Taboo Search Algorithm for the Job Shop Problem</article-title>. <source>Manag Sci</source>. <year>1996</year>;<volume>42</volume>(<issue>6</issue>):<fpage>797</fpage>&#8211;<lpage>813</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Balas</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Vazacopoulos</surname> <given-names>A</given-names></name>. <article-title>Guided Local Search with Shifting Bottleneck for Job Shop Scheduling</article-title>. <source>Manag Sci</source>. <year>1998</year>;<volume>44</volume>:<fpage>262</fpage>&#8211;<lpage>275</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Matsuo</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Suh</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sullivan</surname> <given-names>R</given-names></name>. <article-title>A Controlled Search Simulated Annealing Method for the General Job-Shop Scheduling Problem</article-title>. <year>1988</year>.</mixed-citation></ref>
+<ref id="pone.0223182.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Guan</surname> <given-names>ZL</given-names></name>, <name name-style="western"><surname>Rao</surname> <given-names>YQ</given-names></name>. <article-title>A tabu search algorithm with a new neighborhood structure for the job shop scheduling problem</article-title>. <source>Comput Oper Res</source>. <year>2007</year>;<volume>34</volume>(<issue>11</issue>):<fpage>3229</fpage>&#8211;<lpage>3242</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref028"><label>28</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Fisher</surname> <given-names>H.</given-names></name>, &amp; <name name-style="western"><surname>Thompson</surname> <given-names>G. L.</given-names></name> <chapter-title>Probabilistic Learning Combinations of Local Job-Shop Scheduling Rules</chapter-title>. <source>Industrial Scheduling</source>. <publisher-loc>Englewood Cliffs, New Jersey</publisher-loc>: <publisher-name>Prentice-Hall</publisher-name>. <year>1963</year>:<fpage>225</fpage>&#8211;<lpage>251</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref029"><label>29</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Lawrence</surname> <given-names>S</given-names></name>. <chapter-title>Supplement to Resource Constrained Project Scheduling: An Experimental Investigation of Heuristic Scheduling Techniques</chapter-title>. <source>Graduate School of Industrial Administration</source>, <publisher-name>Carnegie-Mellon University</publisher-name>. <year>1984</year>;<volume>4</volume>(<issue>7</issue>):<fpage>4411</fpage>&#8211;<lpage>4417</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Asadzadeh</surname> <given-names>L</given-names></name>. <article-title>A local search genetic algorithm for the job shop scheduling problem with intelligent agents</article-title>. <source>Comput Ind Eng</source>. <year>2015</year>;<volume>85</volume>(C):<fpage>376</fpage>&#8211;<lpage>383</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Fei</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ni</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>C</given-names></name>. <article-title>A novel search algorithm based on waterweeds reproduction principle for job shop scheduling problem</article-title>. <source>Int J Adv Manuf Technol</source>. <year>2016</year>;<volume>84</volume>(<issue>1&#8211;4</issue>):<fpage>405</fpage>&#8211;<lpage>424</lpage>.</mixed-citation></ref>
+<ref id="pone.0223182.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pezzella</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Merelli</surname> <given-names>E</given-names></name>. <article-title>A tabu search method guided by shifting bottleneck for the job shop scheduling problem</article-title>. <source>Eur J Oper Res</source>. <year>2000</year>;<volume>120</volume>(<issue>2</issue>):<fpage>297</fpage>&#8211;<lpage>310</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0223182.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Feng</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Feng Chen</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223182" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">11 Sep 2019</named-content>
+</p>
+<p>[EXSCINDED]</p>
+<p>PONE-D-19-21845</p>
+<p>Research on Multi-agent Genetic Algorithm Based on Tabu Search for Job Shop Scheduling Problem</p>
+<p>PLOS ONE</p>
+<p>Dear Professor Peng,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>Please check the reference citation format. For example, "Garey M and Sethi J proved that&#160;JSSP had non-deterministic polynomial (NP) characteristics [1]. ". --&gt;"Garey and Sethi proved that&#160;JSSP had non-deterministic polynomial (NP) characteristics [1]. ".</p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by Oct 26 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Feng Chen</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. We suggest you thoroughly copyedit your manuscript for language usage, spelling, and grammar. If you do not know anyone who can help you do this, you may wish to consider employing a professional scientific editing service. &#160;</p>
+<p>Whilst you may use any professional scientific editing service of your choice, PLOS has partnered with both American Journal Experts (AJE) and Editage to provide discounted services to PLOS authors. Both organizations have experience helping authors meet PLOS guidelines and can provide language editing, translation, manuscript formatting, and figure formatting to ensure your manuscript meets our submission guidelines. To take advantage of our partnership with AJE, visit the AJE website (<ext-link ext-link-type="uri" ns0:href="http://learn.aje.com/plos/" ns0:type="simple">http://learn.aje.com/plos/</ext-link>) for a 15% discount off AJE services. To take advantage of our partnership with Editage, visit the Editage website (<ext-link ext-link-type="uri" ns0:href="http://www.editage.com" ns0:type="simple">www.editage.com</ext-link>) and enter referral code PLOSEDIT for a 15% discount off Editage services.&#160; If the PLOS editorial team finds any language issues in text that either AJE or Editage has edited, the service provider will re-edit the text for free.</p>
+<p>Upon resubmission, please provide the following:</p>
+<p><list list-type="bullet"><list-item><p>The name of the colleague or the details of the professional service that edited your manuscript</p></list-item><list-item><p>A copy of your manuscript showing your changes by either highlighting them or using track changes (uploaded as a *supporting information* file)</p></list-item><list-item><p>A clean copy of the edited manuscript (uploaded as the new *manuscript* file)</p></list-item></list></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The manuscript entitled &#8220;Research on multi-1 agent genetic algorithm based on tabu search for job shop scheduling problem&#8221; by Chong Peng et al. proposes a multi-agent genetic algorithm based on tabu search to solve job shop scheduling problem under makespan constraints.</p>
+<p>1. The authors presents an algorithm combining tabu search with a MAGA. With benchmark instances, the algorithm proves its improvement in effectiveness.</p>
+<p>2. The statistical analysis has been performed with 43 benchmark instances often used to test optimization performance. The results reported a better optimization performance. The authors conclusion sounds credible.</p>
+<p>3. The language of the manuscript looks good.</p>
+<p>Reviewer #2: The solution to job shop scheduling problem is of great significance for improving resource utilization and production efficiency of enterprises. In this paper, in view of its non-deterministic polynomial properties, a multi-agent genetic algorithm based on tabu search (MAGATS) was proposed to solve job shop scheduling problem under makespan constraints. Firstly, a multi-agent genetic algorithm (MAGA) was proposed. The paper is well organized and the methods proposed by the authors were verified by the given examples. I can recommend it to be accepted.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Pengzhong, LI</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0223182.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223182" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223182.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">14 Sep 2019</named-content>
+</p>
+<p>Dear Reviewers and Editors,</p>
+<p>Thank you very much for your useful comments and suggestions on the content and language of our manuscript. Your comments are very valuable and helpful for revising and improving our work. The detailed corrections are written in the file "Response to Reviewers". I copy the contents here.</p>
+<p>Reviewer #1&#65306;</p>
+<p>1) Combining multi-agent synergy theories and genetic algorithm, a multi-agent genetic algorithm (MAGA) is firstly proposed. Furthermore, a multi-agent genetic algorithm based on tabu search (MAGATS) is proposed. This paper only discusses the improvement of optimization performance of the MAGATS from the theoretical level, but lacks case analysis. It is better to compare MAGATS with MAGA and GA to show the difference multi-agent and TS make.</p>
+<p>Thanks for the comments.</p>
+<p>Your comments are very helpful to further improve the logical rigor of our paper. According to your comments, in Section 4.1 of the revised manuscript, we use 11 instances of different sizes to test the performance of MAGATS, GA and MAGA. By calculating the optimal value, average value and variance of the optimization results, the optimization quality and stability of the MAGATS compared with the GA and MAGA is proved. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>2) The structure of the paper can be further improved. For example, Section 2 is too small compared with other major sections.</p>
+<p>Thanks for the comments.</p>
+<p>The contents described in Section 2 of the manuscript is mainly about the model of job shop scheduling. The achievement of MAGA and MAGATS is introduced successively in Section 3. Compared with Section 3, the information provided is relatively litter in Section 2. According to your comments, Section 3 is split two sections, that is, &#8220;The achievement of MAGA&#8221; and &#8220;The achievement of MAGATS&#8221;. Section &#8220;Model of JSSP&#8221; and Section &#8220;The achievement of MAGA&#8221; are merged into one new Section &#8220;The achievement of MAGA&#8221;. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>3) Please check the reference citation format. For example, "Garey M and Sethi J proved that JSSP had non-deterministic polynomial (NP) characteristics [1]. ". --&gt;"Garey and Sethi proved that JSSP had non-deterministic polynomial (NP) characteristics [1]. "</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections and check the references citation format carefully. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>4) Define abbreviations upon first appearance in the text. Please check the abbreviations in the paper. For example, the abbreviations &#8220;GA&#8221; of &#8220;genetic algorithm&#8221; should appear in the abstract.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections and check the abbreviations carefully. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>5) The article is too long and should be condensed. The contents of the paper should mainly reflect its own important research contents.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we cut down the contents of three places in the paper.</p>
+<p>Firstly, in Section 1, the contents about exact methods for solving JSSPs is cut down. The researches about mathematical programming method, branch and bound method are not relevant to our research.</p>
+<p>Secondly, in Section 3.1.1, Table 1 is deleted. The table is a short review about advantages and disadvantages encoding methods of GA used for JSSP. The main purpose of this paper is to choose the most suitable operation-based encoding method by comparing various encoding methods. The table is not necessary in this paper. Pointing out the advantages of the operation-based encoding method is enough. </p>
+<p>Finally, Fig 5 in the manuscript is about the semi-active scheduling solution of 4&#215;4 JSSP in Table 2. Its original purpose is to prove that active scheduling is superior to semi-active scheduling, which is an accepted fact. It is also unnecessary in the paper. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>Reviewer #2&#65306;</p>
+<p>1) It is better to show the mean and standard deviation of 20-run results for all algorithms, which helps to see whether the differences are statistically significant or not.</p>
+<p>Thanks for the comments.</p>
+<p>Table 3 in Section 4 contains the optimization results of 5 algorithms for 43 instances. For other algorithms other than MAGATS in the table, the corresponding paper only provides the optimization results for various instances, but does not provide the mean and standard deviation of the algorithm. Therefore, considering the time cost, it is difficult to implement. However, in the new Section 4.1, the mean and standard deviation of GA, MAGA and MAGATS are calculated, which is used to complete the comparative analysis of three algorithms. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>2) In section 3.2. Fig 14 introduces the flow chart of MAGATS. But the parameters setting and specific steps of TS are introduced below the figure. There is some confusion in logic, so it is better to reorganize it.</p>
+<p>Thanks for the comments.</p>
+<p>MAGATS is a combination of MAGA and TS. Because the flow chart of MAGA has been introduced in Section 3.1.1, this section focuses on the remaining TS in MAGATS. Therefore, below the figure, we only introduce the parameters setting and specific steps of TS. To avoid logical misunderstanding of the content of the paper&#65292;we have made some revisions in the revised manuscript with track changes. &#8220;Specific steps of TS are summarized as follows.&#8221; is modified to &#8220;Specific steps of MAGATS are summarized as follows.&#8221; The corresponding contents of some steps are also modified to some extent. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>3) The tenses in the article are confused, the simple present tense and the simple past tense coexist. The unified tense is helpful to understand the article.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, the tense in our paper is modified to the simple past tense. The main changes are in the abstract and the conclusions. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>4) The variables in the text should be italicized, such as variable &#8220;&#955;&#8221; in Row 201 and Row 203.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<supplementary-material id="pone.0223182.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0223182.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Feng</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Feng Chen</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223182" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">17 Sep 2019</named-content>
+</p>
+<p>Research on Multi-agent Genetic Algorithm Based on Tabu Search for Job Shop Scheduling Problem</p>
+<p>PONE-D-19-21845R1</p>
+<p>Dear Dr. Peng,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Feng Chen</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:&#160;</p>
+<p>We find that there are remaining concerns related to the English language and syntax. For instance, "job shop scheduling problem" should be changed to "the job shop scheduling problem" when it is written out in the title, abstract, and introduction. (If it is plural ["job shop scheduling problems"], "the" is not needed.) Please address this as part of of your technical revisions. Note that PLOS ONE does not provide in-house copyediting. Thus, we would recommend having the full manuscript checked again by a copyeditor prior to publication.</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0223182.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Feng</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Feng Chen</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223182" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">20 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-21845R1 </p>
+<p>Research on multi-agent genetic algorithm based on tabu search for the job shop scheduling problem
+&#160; </p>
+<p>Dear Dr. Peng:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Feng Chen  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

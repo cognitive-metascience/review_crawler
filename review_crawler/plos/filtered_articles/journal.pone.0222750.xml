@@ -1,0 +1,1736 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17741</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Gynecological tumors</subject><subj-group><subject>Cervical cancer</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer treatment</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Cancer detection and diagnosis</subject><subj-group><subject>Cancer screening</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer detection and diagnosis</subject><subj-group><subject>Cancer screening</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer prevention</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Education</subject><subj-group><subject>Educational attainment</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>DNA viruses</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Transportation</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Age groups</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Families</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: A prospective cohort study</article-title>
+<alt-title alt-title-type="running-head">Patient factors affecting success of cervical cancer prevention in rural Kenya</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8038-9487</contrib-id>
+<name name-style="western">
+<surname>Page</surname>
+<given-names>Charlotte M.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Ibrahim</surname>
+<given-names>Saduma</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Park</surname>
+<given-names>Lawrence P.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Huchko</surname>
+<given-names>Megan J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Obstetrics and Gynecology, Duke University, Durham, North Carolina, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Kenya Medical Research Institute, Nairobi, Kenya</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Medicine, Division of Infectious Diseases, Duke University, Durham, North Carolina, United States of America</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Duke Global Health Institute, Duke University, Durham, North Carolina, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Naanyu</surname>
+<given-names>Violet</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Moi University School of Medicine, KENYA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">charlotte.page@duke.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>18</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222750</elocation-id>
+<history>
+<date date-type="received">
+<day>26</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>7</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Page et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222750" />
+<abstract>
+<sec id="sec001">
+<title>Objective</title>
+<p>To identify patient factors associated with whether women who screened positive for high-risk human papillomavirus (hrHPV) successfully accessed treatment in a cervical cancer prevention program in Kenya.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>A prospective cohort study was conducted as part of a trial of implementation strategies for hrHPV-based cervical cancer screening in western Kenya from January 2018 to February 2019. In this larger trial, women underwent hrHPV testing during community health campaigns (CHCs), and hrHPV+ women were referred to government facilities for cryotherapy. For this analysis, we looked at rates of and predictors of presenting for treatment and presenting within 30 days of receiving positive hrHPV results (&#8220;timely&#8221; presentation). Data came from questionnaires completed at the time of screening and treatment. Multivariable logistic regression was used to identify factors associated with each outcome.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Of the 505 hrHPV+ women, 266 (53%) presented for treatment. Cryotherapy was performed in 236 (89%) of the women who presented, while 30 (11%) were not treated: 15 (6%) due to gas outage, six (2%) due to pregnancy, five (2%) due to concern for cervical cancer, and four (2%) due to an unknown or other reason. After adjusting for other factors in the multivariable analysis, higher education level and missing work to come to the CHC were associated with presenting for treatment. Variables that were associated with increased likelihood of timely presentation were missing work to come to the CHC, absence of depressive symptoms, told by someone important to come to the CHC, and shorter distance to the treatment site.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>The majority of hrHPV+ women who did not get treated were lost at the stage of decision-making or accessing treatment, with a small number encountering barriers at the treatment sites. Patient education and financial support are potential areas for intervention to increase rates of hrHPV+ women seeking treatment.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>Research reported in this publication was supported by the National Cancer Institute (<ext-link ext-link-type="uri" ns0:href="https://www.cancer.gov/" ns0:type="simple">https://www.cancer.gov/</ext-link>) of the National Institutes of Health under award number R01CA188428, received by author MH. Additional support was received by author CP from the Charles B. Hammond Research Fund (<ext-link ext-link-type="uri" ns0:href="https://obgyn.duke.edu/research/charles-b-hammond-md-research-fund" ns0:type="simple">https://obgyn.duke.edu/research/charles-b-hammond-md-research-fund</ext-link>), Duke University School of Medicine, Durham, NC. About 95% of funding for this project was from the NIH grant and 5% from the Hammond Fund. The content of this publication is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1" />
+<table-count count="3" />
+<page-count count="11" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Cervical cancer is the fourth most common cancer in women worldwide and the most common cancer among women in East Africa. This region has the highest incidence of and mortality from cervical cancer in the world; in 2018, age-adjusted mortality was estimated at 16 in 100,000 in East Africa compared to 1 per 100,000 in North America [<xref ref-type="bibr" rid="pone.0222750.ref001">1</xref>]. In Kenya, screening coverage is only 3.5% [<xref ref-type="bibr" rid="pone.0222750.ref002">2</xref>]. Most low-resource countries cannot provide the cytology-based screening that has dramatically reduced cervical cancer mortality in wealthy countries. Several alternative screening technologies are recommended for low-resource settings, and the most effective of these at reducing cervical cancer mortality is testing for high-risk human papillomavirus (hrHPV) [<xref ref-type="bibr" rid="pone.0222750.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0222750.ref004">4</xref>]. To be effective, hrHPV testing must be part of a cervical cancer prevention cascade, including education, screening, communication of results, and linkage to treatment. The effectiveness of hrHPV testing is reduced if there are high rates of attrition between screening and treatment.</p>
+<p>As hrHPV testing is relatively new in low- and middle-income countries such as Kenya, there is limited data on factors that contribute to women&#8217;s successful completion of a cervical cancer prevention cascade. Barriers may arise at the steps of women deciding to get treated, women navigating the treatment process, and the system providing treatment. Research by Geng et al on loss to follow-up among HIV patients in East Africa has identified structural barriers&#8211;e.g. lack of transportation or money, work responsibilities, and childcare responsibilities&#8211;and psychosocial barriers&#8211;e.g. stigma&#8211;as contributing factors [<xref ref-type="bibr" rid="pone.0222750.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222750.ref006">6</xref>]. The aim of this study was to identify patient factors associated with whether women who screened hrHPV+ presented for treatment overall, as well as within 30 days of receiving results (&#8220;timely&#8221; presentation). A number of factors associated with presenting for treatment and presenting for timely treatment were identified.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<p>This prospective cohort study was nested within a two-phase cluster-randomized trial comparing implementation strategies for cervical cancer prevention in Migori County in western Kenya (registered at ClinicalTrials.gov, identifier NCT02124252, <ext-link ext-link-type="uri" ns0:href="https://clinicaltrials.gov/ct2/show/NCT02124252?term=NCT02124252&amp;rank=1" ns0:type="simple">https://clinicaltrials.gov/ct2/show/NCT02124252?term=NCT02124252&amp;rank=1</ext-link>; protocol available at <ext-link ext-link-type="uri" ns0:href="https://dx.doi.org/10.17504/protocols.io.6s5heg6" ns0:type="simple">https://dx.doi.org/10.17504/protocols.io.6s5heg6</ext-link>) [<xref ref-type="bibr" rid="pone.0222750.ref007">7</xref>]. The screening protocol was based on recommendations by the World Health Organization, and the implementation strategies were informed by previous work in the region [<xref ref-type="bibr" rid="pone.0222750.ref008">8</xref>]. It was the first protocol in Kenya to incorporate hrHPV testing as part of screening through government health facilities. In Phase 1, testing was offered via self-collection at either community health campaigns (CHCs) or health facilities, and all hrHPV+ women were referred to the county hospital for treatment with cryotherapy. Less than 50% of women successfully accessed treatment with this standard referral process. Following Phase 1, the study team worked with key stakeholders in the community and government to develop a strategy for &#8220;enhanced linkage to treatment,&#8221; which was tested in Phase 2. Components of the enhanced linkage strategy included an increased number of decentralized treatment sites and text message treatment reminders. The current study examined loss to follow-up within the enhanced linkage strategy.</p>
+<p>CHCs were conducted sequentially in six rural communities in Migori County, with each CHC offering screening for hrHPV with self-collected specimens for two weeks between February and October 2018. In the weeks prior to the CHCs, study staff met with community leaders and used posters, leaflet, and radio advertising to describe the dates and activities of the CHCs. In order to reach the entire community, each campaign moved to multiple sites over its two-week period, with approximately four days at each site. Given this recruitment strategy, the women who registered at the CHCs and enrolled in the study can be considered representative of the women in the six target communities. At the campaigns, women self-tested for hrHPV after receiving education about HPV and cervical cancer. Self-collected specimens are acceptable to women and accurate in detecting hrHPV when compared to clinician-collected specimens [<xref ref-type="bibr" rid="pone.0222750.ref009">9</xref>]. The hrHPV test used was Aptima<sup>&#8482;</sup> (Hologic/Genprobe Inc.), which can detect the RNA of 14 hrHPV types, including 16 and 18. Women were notified of their hrHPV results and given instructions for follow-up by text message, phone call, or home visit according to their preference.</p>
+<p>HrHPV+ women were referred for treatment at one of four government health facilities based on proximity to their community. Treatment was offered for each community starting two weeks after its CHC. As data collection concluded on February 14, 2019, the treatment periods varied in length from 51 weeks for the first community to 21 weeks for the last community. Unless contraindicated by cervical exam, pregnancy, or menses, women were treated by a clinical officer or nurse with cryotherapy, an effective, low-cost treatment modality well-suited to low-resource settings [<xref ref-type="bibr" rid="pone.0222750.ref010">10</xref>]. Women with cervical lesions not amenable to cryotherapy or suspicious for cancer were referred to a gynecologist at Migori County Referral Hospital, in the capital of Migori County.</p>
+<p>Data came from two sources: intake questionnaires at the time of screening and treatment questionnaires. At the CHCs, women who provided informed consent completed intake questionnaires administered prior to and after hrHPV screening. Data for all the predictor variables (see below) were collected by the intake questionnaire. Women who presented for treatment and had been consented previously completed a questionnaire prior to treatment, regardless of final eligibility for treatment that day. Questionnaires were verbally administered by research assistants, community health volunteers, nurses, or clinical officers, with data entered directly into tablets using ODK Collect (opendatakit.org).</p>
+<p>The study population for the main trial were women in Migori County who were eligible for cervical cancer screening based on the Kenya Ministry of Health&#8217;s guidelines, i.e. women aged 25&#8211;65 years [<xref ref-type="bibr" rid="pone.0222750.ref011">11</xref>]. Pregnant women were excluded. Women were included in this analysis if they consented to participate in Phase 2 of the study, screened for hrHPV at a CHC, tested hrHPV+, and were notified of their result.</p>
+<p>The primary outcome was presentation for treatment, regardless of whether it was received. Women were classified as presenting for treatment if they completed a treatment questionnaire or if they called the study team indicating that they had been turned away from the treatment site prior to completion of the questionnaire. The secondary outcome was presenting within 30 days of notification of their hrHPV result (&#8220;timely&#8221; presentation) versus presenting later than 30 days. This outcome was studied because we hypothesize that delay in treatment leads to greater attrition.</p>
+<p>The predictor variables for both the primary and secondary outcomes were those from patient questionnaires that were hypothesized to be associated with presenting for treatment, as informed by Geng&#8217;s research [<xref ref-type="bibr" rid="pone.0222750.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222750.ref006">6</xref>]. Distance was the geodetic distance (the length of the shortest curve between two points along the surface of a mathematical model of the earth) between the patient&#8217;s home and the treatment site to which they were referred, calculated from GPS coordinates. The numeric variables of children less than 13 and total children were converted to categorical variables based on the distributions of the primary outcome versus each of these variables.</p>
+<p>Data were missing for the variables distance, relationship status, personal cellphone, and would recommend hrHPV self-test to a friend for 26%, 1%, 1%, and 0.2% of participants, respectively. Missing data were imputed using the multivariate normal distribution method of multiple imputation. Fifteen imputed datasets were created, and community was used as an auxiliary variable. The imputed data were included in the bivariate and multivariable analyses. Bivariate associations between the primary and secondary outcomes and each predictor variable were examined, in turn, using binomial logistic regression, to yield unadjusted odds ratios. Age and all predictor variables associated with each outcome with a p-value of &lt;0.10 were included in multivariable logistic regression models for the primary and secondary outcome. These models yielded adjusted odds ratios. In the analysis for the secondary outcome, five participants who presented for treatment were excluded due to unknown date of presentation. For all statistical tests, a two-sided p-value &lt;0.05 was considered significant. All analyses were performed using STATA/SE 15.0.</p>
+<p>This study was approved by the Duke Institutional Review Board (protocol # Pro00077442) and the Scientific and Ethics Review Unit of the Kenya Medical Research Institute (protocol # 2918). Participants provided written informed consent at the time of screening and verbal affirmation at each follow-up encounter. For women with lower literacy levels, consent was confirmed with a fingerprint.</p>
+</sec>
+<sec id="sec007" sec-type="results">
+<title>Results</title>
+<p>The flow diagram of women included in the study is presented in <xref ref-type="fig" rid="pone.0222750.g001">Fig 1</xref>. The rate of hrHPV positivity was 17%, and 92% of hrHPV+ women were successfully notified of their results. A total of 505 women were included in the analysis, of whom 266 (53%) presented for treatment. Of those who presented for treatment, 236 (89%) were treated: 229 (97%) at their first visit and seven (3%) at their second visit. Thirty women (11%) of those who presented were not treated: 15 (6%) due to gas outage, six (2%) due to pregnancy, five (2%) due to concern for cervical cancer, and four (2%) due to an unknown or other reason.</p>
+<fig id="pone.0222750.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222750.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Flow diagram of study participants, beginning with all women who registered at community health campaigns.</title>
+<p>Abbreviations: hrHPV = high-risk human papillomavirus.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.g001" ns0:type="simple" />
+</fig>
+<p>Among study participants, high parity was common (<xref ref-type="table" rid="pone.0222750.t001">Table 1</xref>). The vast majority of women had a primary school education or less. Most were partnered and used cellphones, and slightly more than half worked outside their homes. The majority missed work to attend the CHCs for screening, and only 2% used paid transportation to get there. Six percent of women who did not work outside the home reported missing work to come to the CHC, and 57% of women who worked outside the home reported doing so. The median distance to their treatment site was eight kilometers. While very few reported a diagnosis of depression, 73% reported feeling depressed, down, or hopeless. Most participants were encouraged by a partner, family member, or someone else important to them to come to the CHC, with very few reporting being advised against going. The vast majority said they would recommend hrHPV testing to a friend and would definitely present for treatment if found to be hrHPV+.</p>
+<table-wrap id="pone.0222750.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222750.t001</object-id>
+<label>Table 1</label> <caption><title>Baseline characteristics of hrHPV positive women screened through a cervical cancer prevention program in Migori County, Kenya (N = 505).</title></caption>
+<alternatives>
+<graphic id="pone.0222750.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Patient factor</th>
+<th align="left">Category</th>
+<th align="left">Median (interquartile range) or frequency (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Age (years)</td>
+<td align="left" style="background-color:#D9D9D9">--</td>
+<td align="left" style="background-color:#D9D9D9">33 (27&#8211;42)</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Community of residence</td>
+<td align="left">Lwanda</td>
+<td align="left">60 (12%)</td>
+</tr>
+<tr>
+<td align="left">Olasi</td>
+<td align="left">114 (23%)</td>
+</tr>
+<tr>
+<td align="left">Kituka</td>
+<td align="left">115 (23%)</td>
+</tr>
+<tr>
+<td align="left">Kabuto</td>
+<td align="left">86 (17%)</td>
+</tr>
+<tr>
+<td align="left">Osingo</td>
+<td align="left">65 (13%)</td>
+</tr>
+<tr>
+<td align="left">Ogwedhi</td>
+<td align="left">65 (13%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Total children</td>
+<td align="left" style="background-color:#D9D9D9">0&#8211;2</td>
+<td align="left" style="background-color:#D9D9D9">134 (27%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">3&#8211;4</td>
+<td align="left" style="background-color:#D9D9D9">166 (33%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">5+</td>
+<td align="left" style="background-color:#D9D9D9">205 (41%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">Children under age 13</td>
+<td align="left">0&#8211;2</td>
+<td align="left">306 (61%)</td>
+</tr>
+<tr>
+<td align="left">3&#8211;4</td>
+<td align="left">171 (34%)</td>
+</tr>
+<tr>
+<td align="left">5+</td>
+<td align="left">28 (6%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Education level</td>
+<td align="left" style="background-color:#D9D9D9">Primary school or less</td>
+<td align="left" style="background-color:#D9D9D9">428 (85%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">At least some secondary</td>
+<td align="left" style="background-color:#D9D9D9">77 (15%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Relationship status</td>
+<td align="left">Not partnered</td>
+<td align="left">132 (27%)</td>
+</tr>
+<tr>
+<td align="left">Partnered</td>
+<td align="left">366 (73%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Uses a cellphone</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">87 (17%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">418 (83%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Has a personal cellphone</td>
+<td align="left">No</td>
+<td align="left">135 (27%)</td>
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">365 (73%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Works outside the home</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">214 (42%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">291 (58%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Missed work to come to the CHC for screening</td>
+<td align="left">No</td>
+<td align="left">328 (65%)</td>
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">177 (35%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Used paid transportation to get to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">494 (98%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">11 (2%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">Frequency of depressive symptoms</td>
+<td align="left">Never</td>
+<td align="left">140 (28%)</td>
+</tr>
+<tr>
+<td align="left">Some days</td>
+<td align="left">227 (45%)</td>
+</tr>
+<tr>
+<td align="left">Most or almost every day</td>
+<td align="left">138 (27%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Ever diagnosed with depression</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">467 (92%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">38 (8%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Told by partner, family member, or someone else important to come to the CHC</td>
+<td align="left">No</td>
+<td align="left">189 (37%)</td>
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">316 (63%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Told by partner, family member, or someone else important <underline><italic>not</italic></underline> to come to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">494 (98%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">11 (2%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Would recommend hrHPV self-test to a friend</td>
+<td align="left">No</td>
+<td align="left">4 (1%)</td>
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">500 (99%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Reported likelihood (at time of CHC) of seeking treatment if hrHPV+</td>
+<td align="left" style="background-color:#D9D9D9">Definitely won&#8217;t</td>
+<td align="left" style="background-color:#D9D9D9">38 (8%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Probably will</td>
+<td align="left" style="background-color:#D9D9D9">35 (7%)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Definitely will</td>
+<td align="left" style="background-color:#D9D9D9">432 (86%)</td>
+</tr>
+<tr>
+<td align="left">Distance to treatment site (kilometers)</td>
+<td align="left">--</td>
+<td align="left">8 (5&#8211;12)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Abbreviations: CHC = community health campaign, hrHPV = high-risk human papillomavirus</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The following variables were statistically significantly associated with presenting for treatment: fewer children under age 13, higher education level, missing work to come to the CHC, being told by someone important to come to the CHC, and intention to come for treatment if hrHPV+ (<xref ref-type="table" rid="pone.0222750.t002">Table 2</xref>). Only education level and missing work to come to the CHC remained statistically significant in the multivariable analysis. The odds of women with at least some secondary education presenting for treatment were 2.38 (95% confidence interval [CI] 1.37&#8211;4.13) times the odds of women with a primary school education or less presenting for treatment. Women who missed work to come to the CHC had 1.59 (95% CI 1.08&#8211;2.33) times the odds of presenting for treatment than women who did not miss work to come to the CHC.</p>
+<table-wrap id="pone.0222750.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222750.t002</object-id>
+<label>Table 2</label> <caption><title>Odds ratios of presenting for treatment.</title></caption>
+<alternatives>
+<graphic id="pone.0222750.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Patient factor</th>
+<th align="left">Category</th>
+<th align="left">Did not present for treatment<xref ref-type="table-fn" rid="t002fn001">*</xref><break />n = 239 (47%)</th>
+<th align="left">Presented for treatment<xref ref-type="table-fn" rid="t002fn001">*</xref><break />n = 266 (53%)</th>
+<th align="left">Unadjusted odds ratio<xref ref-type="table-fn" rid="t002fn002"><sup>&#8224;</sup></xref></th>
+<th align="left">95% CI of unadjusted odds ratio</th>
+<th align="left">Adjusted odds ratio<xref ref-type="table-fn" rid="t002fn002"><sup>&#8224;</sup></xref></th>
+<th align="left">95% CI of adjusted odds ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Age (years)</td>
+<td align="left" style="background-color:#D9D9D9">--</td>
+<td align="left" style="background-color:#D9D9D9">33 (27&#8211;41)</td>
+<td align="left" style="background-color:#D9D9D9">33 (28&#8211;42)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.01</td>
+<td align="left" style="background-color:#D9D9D9">0.99&#8211;1.02</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.01</td>
+<td align="left" style="background-color:#D9D9D9">0.99&#8211;1.03</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Community of residence</td>
+<td align="left">Lwanda</td>
+<td align="left">27 (45%)</td>
+<td align="left">33 (55%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Olasi</td>
+<td align="left">57 (50%)</td>
+<td align="left">57 (50%)</td>
+<td align="char" char=".">0.82</td>
+<td align="left">0.44&#8211;1.53</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Kituka</td>
+<td align="left">53 (46%)</td>
+<td align="left">62 (54%)</td>
+<td align="char" char=".">0.96</td>
+<td align="left">0.51&#8211;1.79</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Kabuto</td>
+<td align="left">44 (51%)</td>
+<td align="left">42 (49%)</td>
+<td align="char" char=".">0.78</td>
+<td align="left">0.40&#8211;1.51</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Osingo</td>
+<td align="left">25 (38%)</td>
+<td align="left">40 (62%)</td>
+<td align="char" char=".">1.31</td>
+<td align="left">0.64&#8211;2.67</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Ogwedhi</td>
+<td align="left">33 (51%)</td>
+<td align="left">32 (49%)</td>
+<td align="char" char=".">0.79</td>
+<td align="left">0.39&#8211;1.60</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Total children</td>
+<td align="left" style="background-color:#D9D9D9">0&#8211;2</td>
+<td align="left" style="background-color:#D9D9D9">66 (49%)</td>
+<td align="left" style="background-color:#D9D9D9">68 (51%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">3&#8211;4</td>
+<td align="left" style="background-color:#D9D9D9">85 (51%)</td>
+<td align="left" style="background-color:#D9D9D9">81 (49%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.92</td>
+<td align="left" style="background-color:#D9D9D9">0.59&#8211;1.46</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">5+</td>
+<td align="left" style="background-color:#D9D9D9">88 (43%)</td>
+<td align="left" style="background-color:#D9D9D9">117 (57%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.29</td>
+<td align="left" style="background-color:#D9D9D9">0.83&#8211;2.00</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="3">Children under age 13</td>
+<td align="left">0&#8211;2</td>
+<td align="left">133 (43%)</td>
+<td align="left">173 (57%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">3&#8211;4</td>
+<td align="left">91 (53%)</td>
+<td align="left">80 (47%)</td>
+<td align="char" char=".">0.68</td>
+<td align="left">0.46&#8211;0.98<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">0.83</td>
+<td align="left">0.55&#8211;1.25</td>
+</tr>
+<tr>
+<td align="left">5+</td>
+<td align="left">15 (54%)</td>
+<td align="left">13 (46%)</td>
+<td align="char" char=".">0.67</td>
+<td align="left">0.31&#8211;1.45</td>
+<td align="char" char=".">0.70</td>
+<td align="left">0.32&#8211;1.56</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Education level</td>
+<td align="left" style="background-color:#D9D9D9">Primary school or less</td>
+<td align="left" style="background-color:#D9D9D9">216 (50%)</td>
+<td align="left" style="background-color:#D9D9D9">212 (50%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">At least some secondary</td>
+<td align="left" style="background-color:#D9D9D9">23 (30%)</td>
+<td align="left" style="background-color:#D9D9D9">54 (70%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">2.39</td>
+<td align="left" style="background-color:#D9D9D9">1.42&#8211;4.04<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char="." style="background-color:#D9D9D9">2.38</td>
+<td align="left" style="background-color:#D9D9D9">1.37&#8211;4.13<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Relationship status</td>
+<td align="left">Not partnered</td>
+<td align="left">61 (46%)</td>
+<td align="left">71 (54%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Partnered</td>
+<td align="left">175 (48%)</td>
+<td align="left">191 (52%)</td>
+<td align="char" char=".">0.95</td>
+<td align="left">0.63&#8211;1.41</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Uses a cellphone</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">40 (46%)</td>
+<td align="left" style="background-color:#D9D9D9">47 (54%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">199 (48%)</td>
+<td align="left" style="background-color:#D9D9D9">219 (52%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.94</td>
+<td align="left" style="background-color:#D9D9D9">0.59&#8211;1.49</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Has a personal cellphone</td>
+<td align="left">No</td>
+<td align="left">67 (50%)</td>
+<td align="left">68 (50%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">168 (46%)</td>
+<td align="left">197 (54%)</td>
+<td align="char" char=".">1.16</td>
+<td align="left">0.78&#8211;1.72</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Works outside the home</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">108 (50%)</td>
+<td align="left" style="background-color:#D9D9D9">106 (50%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">131 (45%)</td>
+<td align="left" style="background-color:#D9D9D9">160 (55%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.24</td>
+<td align="left" style="background-color:#D9D9D9">0.87&#8211;1.77</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Missed work to come to the CHC for screening</td>
+<td align="left">No</td>
+<td align="left">170 (52%)</td>
+<td align="left">158 (48%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">69 (39%)</td>
+<td align="left">108 (61%)</td>
+<td align="char" char=".">1.68</td>
+<td align="left">1.16&#8211;2.44<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">1.59</td>
+<td align="left">1.08&#8211;2.33<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Used paid transportation to get to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">235 (48%)</td>
+<td align="left" style="background-color:#D9D9D9">259 (52%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">4 (36%)</td>
+<td align="left" style="background-color:#D9D9D9">7 (64%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.59</td>
+<td align="left" style="background-color:#D9D9D9">0.46&#8211;5.49</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="3">Frequency of depressive symptoms</td>
+<td align="left">Never</td>
+<td align="left">62 (44%)</td>
+<td align="left">78 (56%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Some days</td>
+<td align="left">107 (47%)</td>
+<td align="left">120 (53%)</td>
+<td align="char" char=".">0.89</td>
+<td align="left">0.58&#8211;1.36</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Most or almost every day</td>
+<td align="left">70 (51%)</td>
+<td align="left">68 (49%)</td>
+<td align="char" char=".">0.77</td>
+<td align="left">0.48&#8211;1.24</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Ever diagnosed with depression</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">223 (48%)</td>
+<td align="left" style="background-color:#D9D9D9">244 (52%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">16 (42%)</td>
+<td align="left" style="background-color:#D9D9D9">22 (58%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.26</td>
+<td align="left" style="background-color:#D9D9D9">0.64&#8211;2.45</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Told by partner, family member, or someone else important to come to the CHC</td>
+<td align="left">No</td>
+<td align="left">101 (53%)</td>
+<td align="left">88 (47%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">138 (44%)</td>
+<td align="left">178 (56%)</td>
+<td align="char" char=".">1.48</td>
+<td align="left">1.03&#8211;2.13<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">1.30</td>
+<td align="left">0.89&#8211;1.89</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Told by partner, family member, or someone else important <underline><italic>not</italic></underline> to come to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">232 (47%)</td>
+<td align="left" style="background-color:#D9D9D9">262 (53%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">7 (64%)</td>
+<td align="left" style="background-color:#D9D9D9">4 (36%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.51</td>
+<td align="left" style="background-color:#D9D9D9">0.15&#8211;1.75</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Would recommend hrHPV self-test to a friend</td>
+<td align="left">No</td>
+<td align="left">2 (50%)</td>
+<td align="left">2 (50%)</td>
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">236 (47%)</td>
+<td align="left">264 (53%)</td>
+<td align="char" char=".">1.10</td>
+<td align="left">0.15&#8211;7.86</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Reported likelihood (at time of CHC) of seeking treatment if hrHPV+</td>
+<td align="left" style="background-color:#D9D9D9">Definitely won&#8217;t</td>
+<td align="left" style="background-color:#D9D9D9">13 (34%)</td>
+<td align="left" style="background-color:#D9D9D9">25 (66%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="char" char="." style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t002fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Probably will</td>
+<td align="left" style="background-color:#D9D9D9">22 (63%)</td>
+<td align="left" style="background-color:#D9D9D9">13 (37%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.31</td>
+<td align="left" style="background-color:#D9D9D9">0.12&#8211;0.80<xref ref-type="table-fn" rid="t002fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char="." style="background-color:#D9D9D9">0.40</td>
+<td align="left" style="background-color:#D9D9D9">0.15&#8211;1.06</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Definitely will</td>
+<td align="left" style="background-color:#D9D9D9">204 (47%)</td>
+<td align="left" style="background-color:#D9D9D9">228 (53%)</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.58</td>
+<td align="left" style="background-color:#D9D9D9">0.29&#8211;1.17</td>
+<td align="char" char="." style="background-color:#D9D9D9">0.61</td>
+<td align="left" style="background-color:#D9D9D9">0.30&#8211;1.25</td>
+</tr>
+<tr>
+<td align="left">Distance to treatment site (kilometers)</td>
+<td align="left">--</td>
+<td align="left">8 (5&#8211;12)</td>
+<td align="left">8 (5&#8211;13)</td>
+<td align="char" char=".">1.01</td>
+<td align="left">0.97&#8211;1.05</td>
+<td align="left" />
+<td align="left" />
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>* Data expressed as median (interquartile range) or frequency (%)</p></fn>
+<fn id="t002fn002"><p><sup><bold>&#8224;</bold></sup> With missing data imputed by multiple imputation</p></fn>
+<fn id="t002fn003"><p><sup>&#8225;</sup> Baseline category</p></fn>
+<fn id="t002fn004"><p><sup>&#167;</sup> Differs significantly from 1 at the 95% confidence level</p></fn>
+<fn id="t002fn005"><p>Abbreviations: 95% CI = 95% confidence interval, CHC = community health campaign, hrHPV = high-risk human papillomavirus</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Similar variables were significantly associated with timely presentation on bivariate and multivariate analysis, including missed work to come to the CHC, frequency of depressive symptoms, told by someone important to come to the CHC, and distance to the treatment site (<xref ref-type="table" rid="pone.0222750.t003">Table 3</xref>). Women who missed work to attend the CHC were more likely to present for earlier treatment than those who did not (OR 2.31, 95% CI 1.13&#8211;4.73). Women who reported depressive symptoms some days had 0.43 (95% CI 0.18&#8211;0.99) times the odds of presenting for treatment within 30 days as women who reported never having these feelings. There was no significant difference between women who reportedly had these sentiments most or almost every day and those who never experienced them (OR 0.64, 95% CI 0.24&#8211;1.72). Women who were encouraged to come to the CHC by someone important to them were less likely to present for timely treatment than women who did not report this social influence (OR 0.35, 95% CI 0.16&#8211;0.77). Finally, for each additional kilometer of distance to the treatment site, the odds of presenting within 30 days decreased by a factor of 0.91 (95% CI 0.85&#8211;0.97).</p>
+<table-wrap id="pone.0222750.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222750.t003</object-id>
+<label>Table 3</label> <caption><title>Odds ratios of presenting for treatment within versus later than 30 days (&#8220;timely&#8221; presentation).</title></caption>
+<alternatives>
+<graphic id="pone.0222750.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Patient factor</th>
+<th align="left">Category</th>
+<th align="left">Presented within 30 days<xref ref-type="table-fn" rid="t003fn001">*</xref><break />n = 205 (79%)</th>
+<th align="left">Presented later than 30 days<xref ref-type="table-fn" rid="t003fn001">*</xref><break />n = 56 (21%)</th>
+<th align="left">Unadjusted odds ratio<xref ref-type="table-fn" rid="t003fn002"><sup>&#8224;</sup></xref></th>
+<th align="left">95% CI of unadjusted odds ratio</th>
+<th align="left">Adjusted odds ratio<xref ref-type="table-fn" rid="t003fn002"><sup>&#8224;</sup></xref></th>
+<th align="left">95% CI of adjusted odds ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Age (years)</td>
+<td align="left" style="background-color:#D9D9D9">--</td>
+<td align="left" style="background-color:#D9D9D9">33 (28&#8211;41)</td>
+<td align="left" style="background-color:#D9D9D9">33 (27&#8211;43)</td>
+<td align="left" style="background-color:#D9D9D9">1.00</td>
+<td align="left" style="background-color:#D9D9D9">0.98&#8211;1.03</td>
+<td align="char" char="." style="background-color:#D9D9D9">1.02</td>
+<td align="left" style="background-color:#D9D9D9">0.99&#8211;1.05</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Community of residence</td>
+<td align="left">Lwanda</td>
+<td align="left">27 (82%)</td>
+<td align="left">6 (18%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Olasi</td>
+<td align="left">39 (70%)</td>
+<td align="left">17 (30%)</td>
+<td align="left">0.51</td>
+<td align="left">0.18&#8211;1.46</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Kituka</td>
+<td align="left">44 (72%)</td>
+<td align="left">17 (28%)</td>
+<td align="left">0.58</td>
+<td align="left">0.20&#8211;1.64</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Kabuto</td>
+<td align="left">36 (86%)</td>
+<td align="left">6 (14%)</td>
+<td align="left">1.33</td>
+<td align="left">0.39&#8211;4.59</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Osingo</td>
+<td align="left">38 (97%)</td>
+<td align="left">1 (3%)</td>
+<td align="left">8.44</td>
+<td align="left">0.96&#8211;74.23</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Ogwedhi</td>
+<td align="left">21 (70%)</td>
+<td align="left">9 (30%)</td>
+<td align="left">0.52</td>
+<td align="left">0.16&#8211;1.69</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Total children</td>
+<td align="left" style="background-color:#D9D9D9">0&#8211;2</td>
+<td align="left" style="background-color:#D9D9D9">57 (86%)</td>
+<td align="left" style="background-color:#D9D9D9">9 (14%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">3&#8211;4</td>
+<td align="left" style="background-color:#D9D9D9">61 (76%)</td>
+<td align="left" style="background-color:#D9D9D9">19 (24%)</td>
+<td align="left" style="background-color:#D9D9D9">0.51</td>
+<td align="left" style="background-color:#D9D9D9">0.21&#8211;1.21</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">5+</td>
+<td align="left" style="background-color:#D9D9D9">87 (76%)</td>
+<td align="left" style="background-color:#D9D9D9">28 (24%)</td>
+<td align="left" style="background-color:#D9D9D9">0.49</td>
+<td align="left" style="background-color:#D9D9D9">0.22&#8211;1.12</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="3">Children under age 13</td>
+<td align="left">0&#8211;2</td>
+<td align="left">139 (82%)</td>
+<td align="left">30 (18%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">3&#8211;4</td>
+<td align="left">57 (72%)</td>
+<td align="left">22 (28%)</td>
+<td align="left">0.56</td>
+<td align="left">0.30&#8211;1.05</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">5+</td>
+<td align="left">9 (69%)</td>
+<td align="left">4 (31%)</td>
+<td align="left">0.49</td>
+<td align="left">0.14&#8211;1.68</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Education level</td>
+<td align="left" style="background-color:#D9D9D9">Primary school or less</td>
+<td align="left" style="background-color:#D9D9D9">164 (78%)</td>
+<td align="left" style="background-color:#D9D9D9">45 (22%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">At least some secondary</td>
+<td align="left" style="background-color:#D9D9D9">41 (79%)</td>
+<td align="left" style="background-color:#D9D9D9">11 (21%)</td>
+<td align="left" style="background-color:#D9D9D9">1.02</td>
+<td align="left" style="background-color:#D9D9D9">0.49&#8211;2.15</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Relationship status</td>
+<td align="left">Not partnered</td>
+<td align="left">51 (74%)</td>
+<td align="left">18 (26%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Partnered</td>
+<td align="left">152 (80%)</td>
+<td align="left">37 (20%)</td>
+<td align="left">1.46</td>
+<td align="left">0.77&#8211;2.79</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Uses a cellphone</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">39 (85%)</td>
+<td align="left" style="background-color:#D9D9D9">7 (15%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">166 (77%)</td>
+<td align="left" style="background-color:#D9D9D9">49 (23%)</td>
+<td align="left" style="background-color:#D9D9D9">0.61</td>
+<td align="left" style="background-color:#D9D9D9">0.26&#8211;1.44</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Has a personal cellphone</td>
+<td align="left">No</td>
+<td align="left">55 (83%)</td>
+<td align="left">11 (17%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">149 (77%)</td>
+<td align="left">45 (23%)</td>
+<td align="left">0.67</td>
+<td align="left">0.32&#8211;1.38</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Works outside the home</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">77 (75%)</td>
+<td align="left" style="background-color:#D9D9D9">25 (25%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">128 (81%)</td>
+<td align="left" style="background-color:#D9D9D9">31 (20%)</td>
+<td align="left" style="background-color:#D9D9D9">1.34</td>
+<td align="left" style="background-color:#D9D9D9">0.74&#8211;2.44</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Missed work to come to the CHC for screening</td>
+<td align="left">No</td>
+<td align="left">113 (73%)</td>
+<td align="left">41 (27%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">92 (86%)</td>
+<td align="left">15 (14%)</td>
+<td align="left">2.23</td>
+<td align="left">1.16&#8211;4.27<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">2.31</td>
+<td align="left">1.13&#8211;4.73<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Used paid transportation to get to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">201 (79%)</td>
+<td align="left" style="background-color:#D9D9D9">53 (21%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">4 (57%)</td>
+<td align="left" style="background-color:#D9D9D9">3 (43%)</td>
+<td align="left" style="background-color:#D9D9D9">0.35</td>
+<td align="left" style="background-color:#D9D9D9">0.08&#8211;1.62</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="3">Frequency of depressive symptoms</td>
+<td align="left">Never</td>
+<td align="left">69 (88%)</td>
+<td align="left">9 (12%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Some days</td>
+<td align="left">84 (72%)</td>
+<td align="left">33 (28%)</td>
+<td align="left">0.33</td>
+<td align="left">0.15&#8211;0.74<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">0.43</td>
+<td align="left">0.18&#8211;0.99<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Most or almost every day</td>
+<td align="left">52 (79%)</td>
+<td align="left">56 (21%)</td>
+<td align="left">0.48</td>
+<td align="left">0.19&#8211;1.21</td>
+<td align="char" char=".">0.64</td>
+<td align="left">0.24&#8211;1.72</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Ever diagnosed with depression</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">189 (79%)</td>
+<td align="left" style="background-color:#D9D9D9">50 (21%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">16 (73%)</td>
+<td align="left" style="background-color:#D9D9D9">6 (27%)</td>
+<td align="left" style="background-color:#D9D9D9">0.71</td>
+<td align="left" style="background-color:#D9D9D9">0.26&#8211;1.90</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Told by partner, family member, or someone else important to come to the CHC</td>
+<td align="left">No</td>
+<td align="left">76 (88%)</td>
+<td align="left">10 (12%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="char" char=".">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">129 (74%)</td>
+<td align="left">46 (26%)</td>
+<td align="left">0.37</td>
+<td align="left">0.18&#8211;0.77<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">0.35</td>
+<td align="left">0.16&#8211;0.77<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="2" style="background-color:#D9D9D9">Told by partner, family member, or someone else important <underline><italic>not</italic></underline> to come to the CHC</td>
+<td align="left" style="background-color:#D9D9D9">No</td>
+<td align="left" style="background-color:#D9D9D9">201 (78%)</td>
+<td align="left" style="background-color:#D9D9D9">56 (22%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Yes</td>
+<td align="left" style="background-color:#D9D9D9">4 (100%)</td>
+<td align="left" style="background-color:#D9D9D9">0 (0%)</td>
+<td align="left" style="background-color:#D9D9D9">1</td>
+<td align="left" style="background-color:#D9D9D9">1&#8211;1</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" rowspan="2">Would recommend hrHPV self-test to a friend</td>
+<td align="left">No</td>
+<td align="left">1 (50%)</td>
+<td align="left">1 (50%)</td>
+<td align="left">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Yes</td>
+<td align="left">204 (79%)</td>
+<td align="left">55 (21%)</td>
+<td align="left">3.71</td>
+<td align="left">0.23&#8211;60.25</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left" rowspan="3" style="background-color:#D9D9D9">Reported likelihood (at time of CHC) of seeking treatment if hrHPV+</td>
+<td align="left" style="background-color:#D9D9D9">Definitely won&#8217;t</td>
+<td align="left" style="background-color:#D9D9D9">17 (68%)</td>
+<td align="left" style="background-color:#D9D9D9">8 (32%)</td>
+<td align="left" style="background-color:#D9D9D9">1.00<xref ref-type="table-fn" rid="t003fn003"><sup>&#8225;</sup></xref></td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Probably will</td>
+<td align="left" style="background-color:#D9D9D9">12 (92%)</td>
+<td align="left" style="background-color:#D9D9D9">1 (8%)</td>
+<td align="left" style="background-color:#D9D9D9">5.65</td>
+<td align="left" style="background-color:#D9D9D9">0.62&#8211;51.29</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Definitely will</td>
+<td align="left" style="background-color:#D9D9D9">176 (79%)</td>
+<td align="left" style="background-color:#D9D9D9">47 (21%)</td>
+<td align="left" style="background-color:#D9D9D9">1.76</td>
+<td align="left" style="background-color:#D9D9D9">0.72&#8211;4.33</td>
+<td align="left" style="background-color:#D9D9D9" />
+<td align="left" style="background-color:#D9D9D9" />
+</tr>
+<tr>
+<td align="left">Distance to treatment site (kilometers)</td>
+<td align="left">--</td>
+<td align="left">8 (5&#8211;11)</td>
+<td align="left">12 (6&#8211;16)</td>
+<td align="left">0.92</td>
+<td align="left">0.87&#8211;0.98<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+<td align="char" char=".">0.91</td>
+<td align="left">0.85&#8211;0.97<xref ref-type="table-fn" rid="t003fn004"><sup>&#167;</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>* Data expressed as median (interquartile range) or frequency (%)</p></fn>
+<fn id="t003fn002"><p><sup><bold>&#8224;</bold></sup> With missing data imputed by multiple imputation</p></fn>
+<fn id="t003fn003"><p><sup>&#8225;</sup> Baseline category</p></fn>
+<fn id="t003fn004"><p><sup>&#167;</sup> Differs significantly from 1 at the 95% confidence level</p></fn>
+<fn id="t003fn005"><p>Abbreviations: 95% CI = 95% confidence interval, CHC = community health campaign, hrHPV = high-risk human papillomavirus</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec008" sec-type="conclusions">
+<title>Discussion</title>
+<p>The success of a cervical cancer prevention program depends not just on its basis in effective screening and treatment techniques, but also its understanding of the target population to ensure uptake of services across the entire prevention cascade. In our study, the majority of hrHPV+ women who did not get treated were lost at the stage of decision-making or accessing treatment, with only a small number turned away due to logistical or personnel issues at treatment sites. We found that in a program designed to enhance linkage to treatment with input from key community stakeholders, there were still a number of factors that remained barriers to women presenting for treatment.</p>
+<p>Our study identified women with low education level, endorsing depressive symptoms, and living farther from the treatment sites as less likely to present for treatment at all or within 30 days. Women were more likely to present for treatment if they missed work to come for screening, possibly because the ability to miss work is a proxy for socioeconomic status and ability to travel outside their home or village. Surprisingly, women who were encouraged by someone important to them to come to the CHC for screening were less likely to present for timely treatment than those who did not report such encouragement. There are several possible explanations for this counterintuitive finding: there were small numbers of participants in some of the involved categories; women who were encouraged to come to the CHC may have been less personally motivated to pursue screening and treatment; and women who endorsed social support in coming to the CHC may have received less counseling from study providers about the importance of presenting for treatment. On the other hand, women who were encouraged to come to the CHC were <italic>more</italic> likely in the bivariate analysis to present for treatment at all; while this result did not remain significant in the multivariate analysis, we can conclude that any associations between encouragement to come to the CHC and presentation for treatment are ambiguous, and conclusions should be limited by the observational nature of the study and sample size.</p>
+<p>While this study adds to the understanding of personal and logistical factors that influence women&#8217;s ability to get treated for a positive hrHPV result, there are some limitations. The number of women who presented to the treatment sites but did not receive treatment was likely underestimated since this quantification relied on self-report among women calling the study staff. Women who left before being seen because they had waited too long or because there was not a provider were unlikely to have completed a questionnaire. We did not have a good proxy for socioeconomic status, with missing work to come to the CHC probably being the closest. Another limitation was the occurrence of missing data, particularly for distance to the treatment sites; however, multiple imputation was used to address this limitation. In addition, the distance reported was geodetic distance rather than distance by road, with the former method also being used by Geng et al [<xref ref-type="bibr" rid="pone.0222750.ref005">5</xref>].</p>
+<p>This study identified a number of potential areas for intervention to increase treatment rates among hrHPV+ women. Low education level and poor understanding of hrHPV and cervical cancer were identified as barriers to presenting for treatment. Knowledge of cervical cancer screening can be improved with a brief educational intervention [<xref ref-type="bibr" rid="pone.0222750.ref012">12</xref>], like what was incorporated into the CHCs in this study; augmenting this intervention might further increase treatment rates. Although treatment was decentralized and patient navigators were employed in the enhanced linkage strategy, women still faced significant financial and logistical transportation barriers. Reimbursing patients for transportation costs or providing mobile treatment might improve access to care and should be studied in ways that facilitate sustainable implementation. Furthermore, increasing outreach to women identified as at-risk for loss to follow-up in this study, e.g. those with limited education or reporting depressive symptoms, could help increase treatment rates. These barriers could be addressed to some extent by greater involvement of community health volunteers to educate and motivate hrHPV+ women to get treated, help them access treatment, and provide support at treatment sites.</p>
+</sec>
+<sec id="sec009">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222750.s001" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s001" ns0:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title>De-identified dataset.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank Moreen Njoroge of Duke University for assisting with data acquisition.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222750.ref001"><label>1</label><mixed-citation publication-type="other" ns0:type="simple">International Agency for Research on Cancer. Cancer fact sheets: Cervix uteri: Globocan; 2018 [cited 2019 January 26]. <ext-link ext-link-type="uri" ns0:href="https://gco.iarc.fr/today/data/factsheets/cancers/23-Cervix-uteri-fact-sheet.pdf" ns0:type="simple">https://gco.iarc.fr/today/data/factsheets/cancers/23-Cervix-uteri-fact-sheet.pdf</ext-link>.</mixed-citation></ref>
+<ref id="pone.0222750.ref002"><label>2</label><mixed-citation publication-type="other" ns0:type="simple">Bruni L, Barrionuevo-Rosas L, Albero G, Serrano B, Mena M, G&#243;mez D, et al. Human Papillomavirus and Related Diseases Report: Kenya. ICO Information Centre on HPV and Cancer, 2017.</mixed-citation></ref>
+<ref id="pone.0222750.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Denny</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kuhn</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>C-C</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>W-Y</given-names></name>, <name name-style="western"><surname>Wright</surname> <given-names>TC</given-names></name>. <article-title>Human Papillomavirus&#8211;Based Cervical Cancer Prevention: Long-term Results of a Randomized Screening Trial</article-title>. <source>JNCI: Journal of the National Cancer Institute</source>. <year>2010</year>;<volume>102</volume>:<fpage>1557</fpage>&#8211;<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/jnci/djq342" ns0:type="simple">10.1093/jnci/djq342</ext-link></comment> <object-id pub-id-type="pmid">20884893</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sankaranarayanan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bhagwan</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Shastri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jayant</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Muwonge</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Budukh</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>HPV screening for cervical cancer in rural India</article-title>. <source>New England Journal of Medicine</source>. <year>2009</year>;<volume>360</volume>:<fpage>1385</fpage>&#8211;<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa0808516" ns0:type="simple">10.1056/NEJMoa0808516</ext-link></comment> <object-id pub-id-type="pmid">19339719</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Geng</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Bansberg</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Musinguzi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Emenyonu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bwana</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Yiannoutsos</surname> <given-names>CT</given-names></name>, <etal>et al</etal>. <article-title>Understanding Reasons for and Outcomes of Patients Lost to Follow-Up in Antiretroviral Therapy Programs in Africa Through a Sampling-Based Approach</article-title>. <source>J Acquir Immune Defic Syndr</source>. <year>2010</year>;<volume>53</volume>:<fpage>405</fpage>&#8211;<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/QAI.0b013e3181b843f0" ns0:type="simple">10.1097/QAI.0b013e3181b843f0</ext-link></comment> <object-id pub-id-type="pmid">19745753</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Geng</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Odeny</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Lyamuya</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Nakiwogga-Muwanga</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Diero</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bwana</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Retention in care and patient-reported reasons for undocumented transfer or stopping care among HIV-infected patients on antiretroviral therapy in Eastern Africa: Application of a sampling-based approach</article-title>. <source>Clinical Infectious Diseases</source>. <year>2016</year>;<volume>62</volume>:<fpage>935</fpage>&#8211;<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/civ1004" ns0:type="simple">10.1093/cid/civ1004</ext-link></comment> <object-id pub-id-type="pmid">26679625</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huchko</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Kahn</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Hiatt</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Bukusi</surname> <given-names>E</given-names></name>. <article-title>Study protocol for a cluster-randomized trial to compare human papillomavirus based cervical cancer screening in community-health campaigns versus health facilities in western Kenya</article-title>. <source>BMC Cancer</source>. <year>2017</year>;<volume>17</volume>:<fpage>1</fpage>&#8211;<lpage>12</lpage>.</mixed-citation></ref>
+<ref id="pone.0222750.ref008"><label>8</label><mixed-citation publication-type="book" ns0:type="simple"><collab>World Health Organization</collab>. <source>Comprehensive cervical cancer prevention and control: a healthier future for girls and women</source>. <publisher-name>World Health Organization</publisher-name>; <year>2013</year>.</mixed-citation></ref>
+<ref id="pone.0222750.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Arbyn</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Verdoodt</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Snijders</surname> <given-names>PJF</given-names></name>, <name name-style="western"><surname>Verhoef</surname> <given-names>VMJ</given-names></name>, <name name-style="western"><surname>Suonio</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Dillner</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Accuracy of human papillomavirus testing on self-collected versus clinician-collected samples: A meta-analysis</article-title>. <source>The Lancet Oncology</source>. <year>2014</year>;<volume>15</volume>:<fpage>172</fpage>&#8211;<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1470-2045(13)70570-9" ns0:type="simple">10.1016/S1470-2045(13)70570-9</ext-link></comment> <object-id pub-id-type="pmid">24433684</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Santesso</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Sch&#252;nemann</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Blumenthal</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>De Vuyst</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gage</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>World Health Organization Guidelines: Use of cryotherapy for cervical intraepithelial neoplasia</article-title>. <source>International journal of gynaecology and obstetrics</source>. <year>2012</year>;<volume>118</volume>:<fpage>97</fpage>&#8211;<lpage>102</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijgo.2012.01.029" ns0:type="simple">10.1016/j.ijgo.2012.01.029</ext-link></comment> <object-id pub-id-type="pmid">22727415</object-id></mixed-citation></ref>
+<ref id="pone.0222750.ref011"><label>11</label><mixed-citation publication-type="other" ns0:type="simple">Kenya Ministry of Health. Kenya National Cancer Screening Guidelines. Nairobi, 2018. <ext-link ext-link-type="uri" ns0:href="http://www.health.go.ke/wp-content/uploads/2019/02/National-Cancer-Screening-Guidelines-2018.pdf" ns0:type="simple">http://www.health.go.ke/wp-content/uploads/2019/02/National-Cancer-Screening-Guidelines-2018.pdf</ext-link>.</mixed-citation></ref>
+<ref id="pone.0222750.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rosser</surname> <given-names>JI</given-names></name>, <name name-style="western"><surname>Njoroge</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Huchko</surname> <given-names>MJ</given-names></name>. <article-title>Changing knowledge, attitudes, and behaviors regarding cervical cancer screening: The effects of an educational intervention in rural Kenya</article-title>. <source>Patient Education and Counseling</source>. <year>2015</year>;<volume>98</volume>:<fpage>884</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pec.2015.03.017" ns0:type="simple">10.1016/j.pec.2015.03.017</ext-link></comment> <object-id pub-id-type="pmid">25858634</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222750.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Naanyu</surname>
+<given-names>Violet</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Violet Naanyu</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">1 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17741</p>
+<p>Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Page,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 15 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Violet Naanyu</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. In your Methods section, please provide additional information about the participant recruitment method, including a statement as to whether your sample can be considered representative of a larger population, and a description of how participants were recruited.</p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Line 102- Women with cervical lesions not amenable to cryotherapy or</p>
+<p>103 suspicious for cancer were referred to a gynecologist. What was the distance women had to travel to see a gynecologist and what was the waiting time?</p>
+<p>Line 112- The study population for the main trial were women in Migori County who were eligible</p>
+<p>113 for cervical cancer screening based on the Kenya Ministry of Health&#8217;s guidelines: 25-65 years old with an intact uterus and cervix. &#8211; add reference</p>
+<p>Reviewer #2: Reviewer Comments</p>
+<p>&#8220;Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study&#8221;</p>
+<p>General comment</p>
+<p>&#8226; The manuscript is well written however there are some comments in each of the section that could improve the manuscript.</p>
+<p>Abstract</p>
+<p>&#8226; In the results section provide direction of association for the significant variables whether positive or negative</p>
+<p>Introduction</p>
+<p>More background need to be provided on the linkage rate after screening in the region and in the whole country in general. This is not clear before assessing factors what is the burden.</p>
+<p>Methodology</p>
+<p>Were the participants counseled prior or after testing?</p>
+<p>In the methods it is stated that this current manuscript focuses on the group that was exposed to enhanced linkage strategy that included transport facilitation for a limited number of participants. How many among the one studied had facilitated transportation? How was this handled in the analysis.</p>
+<p>Results</p>
+<p>&#8226; The variable Missed work to come to the CHC for screening was this for women who were employed or for all women</p>
+<p>&#8226; How were the variables &#8220;Told by partner, family member, or someone else important to come to the CHC&#8221; and &#8220;Told by partner, family member, or someone else important not to come to the CHC&#8221; phrased since one is the negative of the other.</p>
+<p>&#8226; &#8220;Women with a college education or beyond were not significantly more likely to present for treatment than women in the least educated category (OR 2.17, 95% CI 0.65-7.26), with a wide confidence interval in the setting of very few women having a college education or more&#8221;. Why not consider collapsing the groups?</p>
+<p>&#8226; Was multicollinearity before the adjusted odds ratio were obtained.</p>
+<p>Data Availability</p>
+<p>Indicated that the data is available but no link to the data</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Elkanah Omenge Orang'o</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222750.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222750.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Aug 2019</named-content>
+</p>
+<p>Response: We thank the editor and reviewers for your careful reading of our manuscript and for your thoughtful comments. We have incorporated your suggestions into the updated version of our manuscript as detailed below. Please note that line numbers in our responses below refer to the tracked version of the revised manuscript.</p>
+<p>Responses to comments from the editor:</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and<ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>Response: We have reviewed PLOS ONE&#8217;s style requirements to ensure that our manuscript is compliant. We made changes in the punctuation around the in-text citations. </p>
+<p>2. In your Methods section, please provide additional information about the participant recruitment method, including a statement as to whether your sample can be considered representative of a larger population, and a description of how participants were recruited.</p>
+<p>Response: Thank you for this suggestion. We have added the requested information to the Methods section (lines 103-8). </p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>Response: There are no ethical restrictions to sharing a de-identified dataset. We now include this dataset as Supporting Information file &#8220;S2 Dataset.&#8221;  </p>
+<p>Responses to comments from the reviewers:</p>
+<p>Reviewer #1: Line 102- Women with cervical lesions not amenable to cryotherapy or</p>
+<p>103 suspicious for cancer were referred to a gynecologist. What was the distance women had to travel to see a gynecologist and what was the waiting time?</p>
+<p>Response: These are excellent questions. Women were referred to a gynecologist at Migori County Referral Hospital, which is in the capital of Migori County. We have added this information to our Methods section (lines 122-3). The geodetic distance to this site from the homes of women in the study population ranges from 4 to 40 km, with a median of 29 km.  We do not have information on the waiting time; however, the supervising gynecologist was a consultant on the study and worked to facilitate care for all referred women in a timely fashion. </p>
+<p>Line 112- The study population for the main trial were women in Migori County who were eligible</p>
+<p>113 for cervical cancer screening based on the Kenya Ministry of Health&#8217;s guidelines: 25-65 years old with an intact uterus and cervix. &#8211; add reference</p>
+<p>Response: We have added a reference and removed the statement about &#8220;an intact uterus and cervix&#8221; after clarifying against the reference (lines 136-7).  </p>
+<p>Reviewer #2: Reviewer Comments</p>
+<p>&#8220;Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study&#8221;</p>
+<p>General comment</p>
+<p>&#8226; The manuscript is well written however there are some comments in each of the section that could improve the manuscript.</p>
+<p>Abstract</p>
+<p>&#8226; In the results section provide direction of association for the significant variables whether positive or negative</p>
+<p>Response: This is a good suggestion. We have updated the abstract accordingly (lines 39-42). </p>
+<p>Introduction</p>
+<p>More background need to be provided on the linkage rate after screening in the region and in the whole country in general. This is not clear before assessing factors what is the burden.</p>
+<p>Response: Since this is the first protocol in Kenya to incorporate hrHPV testing as part of screening through government health facilities, there is no linkage to treatment rate to which to compare outside of this study. However, in Phase 1 of this study, which employed standard linkage to treatment, less than 50% of women were successfully linked. We have included this data in the Methods section (lines 89-90). </p>
+<p>Methodology</p>
+<p>Were the participants counseled prior or after testing?</p>
+<p>Response: The participants were counseled prior to testing. We have provided clarification about this counseling in lines 108-9.  </p>
+<p>In the methods it is stated that this current manuscript focuses on the group that was exposed to enhanced linkage strategy that included transport facilitation for a limited number of participants. How many among the one studied had facilitated transportation? How was this handled in the analysis.</p>
+<p>Response: We clarified with the study coordinator, and there actually was no transport facilitation for women in Phase 2 of the study, which is the phase of interest for this research. We apologize for this error and have removed this statement from the manuscript (line 94).  </p>
+<p>Results</p>
+<p>&#8226; The variable Missed work to come to the CHC for screening was this for women who were employed or for all women</p>
+<p>Response: This variable applied to all women. We think there is something about the decision and ability to miss work that separates women who missed work from those who either work inside the home or work outside the home and didn&#8217;t miss work. In preparing our response to this question, we realized that the frequencies in Table 1 for this variable were incorrect; they are now accurate. </p>
+<p>&#8226; How were the variables &#8220;Told by partner, family member, or someone else important to come to the CHC&#8221; and &#8220;Told by partner, family member, or someone else important not to come to the CHC&#8221; phrased since one is the negative of the other.</p>
+<p>Response: The questions were worded to participants at the CHCs as follows: &#8220;Did your partner, family member, or anyone else important to you tell you to come?&#8221; and &#8220;Did your partner, family member, or anyone else important to you tell you not to come?&#8221; During training and piloting of the surveys, we had the research assistants stress the difference between the two questions.</p>
+<p>&#8226; &#8220;Women with a college education or beyond were not significantly more likely to present for treatment than women in the least educated category (OR 2.17, 95% CI 0.65-7.26), with a wide confidence interval in the setting of very few women having a college education or more&#8221;. Why not consider collapsing the groups?</p>
+<p>Response: It would certainly be reasonable to combine the groups &#8220;at least some secondary&#8221; and &#8220;college or beyond&#8221;; however, we chose to keep them separate to provide more detailed data on the distribution of education levels in the study population. </p>
+<p>&#8226; Was multicollinearity before the adjusted odds ratio were obtained.</p>
+<p>Response: Yes, we did test for multicollinearity among the variables that we used in the multivariable logistic regression models. The variance inflation factor (VIN) for all variables was &lt;2, indicating that collinearity is not a concern. </p>
+<p>Data Availability</p>
+<p>Indicated that the data is available but no link to the data</p>
+<p>Response: We now attach the de-identified data as a Supporting Information file.</p>
+<supplementary-material id="pone.0222750.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">CP Kenya PLOS ONE response to reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0222750.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Naanyu</surname>
+<given-names>Violet</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Violet Naanyu</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">22 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-17741R1</p>
+<p>Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study</p>
+<p>PLOS ONE</p>
+<p>Dear Charlotte M Page,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the minor points raised during the second review process.</p>
+<p>We would appreciate receiving your revised manuscript by August 30, 2019. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Violet Naanyu</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>Dear Authors,</p>
+<p>Thank you for a thorough review and editing of the manuscript. The reader gets a full picture of the study activities, associated analyses, and conclusions reached.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: This is a well written paper with interesting findings that may inform similar settings in as far as cervical cancer screening and treatment is concerned.</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Orang'o Elkanah Omenge</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+<supplementary-material id="pone.0222750.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Reviewer_comments_1.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222750.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222750.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">28 Aug 2019</named-content>
+</p>
+<p>Manuscript: PONE-D-19-17741</p>
+<p>Response: We thank the editor and reviewers for your careful reading of our manuscript and for your thoughtful comments. We have incorporated your suggestions into the updated version of our manuscript as detailed below. Please note that line numbers in our responses below refer to the tracked version of the revised manuscript.</p>
+<p>Responses to comments from Reviewer 2:</p>
+<p>1. The variable Missed work to come to the CHC for screening was this for women who were employed or for all women </p>
+<p>Response: This variable applied to all women. We think there is something about the decision and ability to miss work that separates women who missed work from those who either work inside the home or work outside the home and didn&#8217;t miss work. In preparing our response to this question, we realized that the frequencies in Table 1 for this variable were incorrect; they are now accurate. </p>
+<p>Comment: How many among those working outside home missed work to come to CCC. Since the ones at home might not have considered themselves to have missed work. This all depends on how the questions was phrased and from the frequencies the number missing work is lower than the number working outside home.</p>
+<p>Response: The questions were phrased as, &#8220;Are you currently working outside of the home?&#8221; and &#8220;Did you have to miss work to come to this campaign?&#8221; Six percent of women who do not work outside the home reported missing work to come to the CHC, and 57% of women who work outside the home reported doing so. We have added this data to the text of the manuscript (lines 177-9). The 2x2 table is below. </p>
+<p>                               Missed work Did NOT miss work</p>
+<p>Work outside the home        165                   126</p>
+<p>Do NOT work outside the home 12                   202</p>
+<p>When the analysis was limited to the 291 women who work outside the home, the association between missing work to come to the CHC and presenting for treatment remained significantly significant (2.01, 95% confidence interval 1.26-3.22). </p>
+<p>2. &#8220;Women with a college education or beyond were not significantly more likely to present for treatment than women in the least educated category (OR 2.17, 95% CI 0.65-7.26), with a wide confidence interval in the setting of very few women having a college education or more&#8221;. Why not consider collapsing the groups? </p>
+<p>Response: It would certainly be reasonable to combine the groups &#8220;at least some secondary&#8221; and &#8220;college or beyond&#8221;; however, we chose to keep them separate to provide more detailed data on the distribution of education levels in the study population.</p>
+<p>   Comment: Due to the small numbers in the College group why not combine them with the secondary        to gain more power. Then we can be able to make the conclusion that education is a factor currently its only between secondary and primary.</p>
+<p>Response: We have combined the college group with the secondary education group and updated the statistical analysis to reflect this change.</p>
+<supplementary-material id="pone.0222750.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222750.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">CP Kenya PLOS ONE response to reviewers v.2.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222750.r005" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r005</article-id>
+<title-group>
+<article-title>Decision Letter 2</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Naanyu</surname>
+<given-names>Violet</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Violet Naanyu</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="article" id="rel-obj005" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Sep 2019</named-content>
+</p>
+<p>Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study</p>
+<p>PONE-D-19-17741R2</p>
+<p>Dear Charlotte Page,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Violet Naanyu</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222750.r006" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222750.r006</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Naanyu</surname>
+<given-names>Violet</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Violet Naanyu</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222750" document-id-type="doi" document-type="article" id="rel-obj006" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">11 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-17741R2 </p>
+<p>Patient factors affecting successful linkage to treatment in a cervical cancer prevention program in Kenya: a prospective cohort study </p>
+<p>Dear Dr. Page:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Prof. Violet Naanyu  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

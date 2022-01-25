@@ -1,0 +1,49 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0223328.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223328.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223328" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223328.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Sep 2019</named-content>
+</p>
+<p>09 September 2019</p>
+<p>Dear Editor,</p>
+<p>we would like to take this opportunity to thank you and the Reviewers for the positive feedback on our manuscript and for the valuable comments and suggestions for improvement. As requested, please find below our responses and clarifications.</p>
+<p>Best wishes on behalf of the authors,</p>
+<p>Chiara Pittalis</p>
+<p>Comments:</p>
+<p>1. Please state in your methods section the start and end date of searches.</p>
+<p>R: thank you for the advice, we have added the dates to the manuscript.</p>
+<p>1. Since tables must be stand alone and understandable, please explain what JBI means in the table &#8220;S2 Table. Characteristics of studies included in the review&#8221;.</p>
+<p>R: we have modified the table heading accordingly.</p>
+<p>2. Page 20, line 282, please check for typographical errors.</p>
+<p>R: thank you for spotting the typo, we have corrected it.</p>
+<p>3. Page 29, line 296, please check for typographical errors.</p>
+<p>R: we have corrected the typo accordingly.</p>
+<p>4. How is reference 28 as mentioned in text used in the evaluation of the quality of evidence? The table S2 suggests that JBI which is reference 27 was used. Please clarify this.</p>
+<p>R: reference no. 27 is the Thaddeus and Maine &#8216;three delays&#8217; model, which informed the thematic analysis of the papers as described in the &#8216;Data charting and analysis&#8217; section. We are assuming the confusion may be between the JBI tools and reference no. 28 &#8211; Atkins et al paper on how to grade quality of evidence and strength of recommendations. We used the JBI tools and methods to conduct an in-depth analysis of the reviewed papers, the outcomes of which are presented in the Supplementary Table. </p>
+<p>The Atkins et al framework categorises type of evidence as high, low and very low, and it helped us summarise in a simple and systematic way our overall reflections on the strength of the studies being assessed and confidence placed in their recommendations. This is mentioned in lines 220-221, pg. 12 of our manuscript. Since all reviewed studies were observational and mostly descriptive in nature, the quality of evidence/recommendations was graded as low.</p>
+<p>5. How many and which papers are you referring to in this statement &#8220;some of them mention that surgery is not typically among the top priorities for local governments, with implications&#8230;&#8230; (page 20 line 280 -281)?&#8217;&#8217;</p>
+<p>R: in our review this statement derives from Albutt et al paper (we have modified lines 280-281 in the manuscript to clarify), but the issue of lack of financing for surgery in Africa is supported by the wider literature. One good report is the paper by Citron, Chokotho and Lavy published in 2016: &#8216;Prioritisation of surgery in the national health strategic plans of Africa: a systematic review&#8217; (DOI:<ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(15)60848-0" ns0:type="simple">https://doi.org/10.1016/S0140-6736(15)60848-0</ext-link>).</p>
+<p>6. How many and which papers are you referring to in this statement &#8216;A number of studies pointed to the influence of wider country contexts&#8230;&#8230;?&#8217;. Are the examples you cite in the text that follows all the papers referred to in this statement or are there more?</p>
+<p>R: yes, the six examples in our manuscript are the ones we referred to in that opening statement (line 290 onwards). </p>
+<p>7. For the table &#8216;S1 Table: Search string&#8217;, present the search string for the other databases besides MEDLINE which were also searched in order for readers to know and understand how the search strategy was adopted to these databases to facilitate reproducibility of your search.</p>
+<p>R: as requested, we have added all search strings to the Supplementary Table.</p>
+<supplementary-material id="pone.0223328.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223328.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

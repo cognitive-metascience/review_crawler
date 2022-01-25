@@ -1,0 +1,76 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222634.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222634.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222634" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222634.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Aug 2019</named-content>
+</p>
+<p>Dear Reviewers,</p>
+<p>We would like to thank you and the reviewers for the valuable comments on the original version of our manuscript. We have taken all these comments into account and submit, herewith, a revised version of our paper. We have addressed all the comments by reviewers, as indicated in the attached pages, and we hope that the explanations are satisfactory.</p>
+<p>We hope that the revised version of our paper is now suitable for publication in the PLOS ONE, and we look forward to hearing from you at the earliest. </p>
+<p>Sincerely Yours,</p>
+<p>Kazuhiro Gomi</p>
+<p>Reviewer 1</p>
+<p>1. Q: In material method section (Bacterial culture and regulation), write down the parameters for shaking at what rpm shaking was kept for aerobic bacteria.</p>
+<p>&#8594; A: I changed the description as follows according to your indication.</p>
+<p>P6, line 96, 99 as follow.</p>
+<p>Streptococcus mutans was cultured in Tryptic Soy Broth (TSB, FUJIFILM Wako Pure Chemical Co., Osaka, Japan) and agar medium (Becton Dickinson) with 4% glucose (FUJIFILM Wako Pure Chemical Co.) at 37 &#8451; under aerobic conditions for 2 days, followed by preculture in TSB liquid medium with 4% glucose under aerobic shaking at 100 rpm in shaking incubator (SI-782, Optima Inv. Tokyo, Japan) for 2 days. Enterococcus faecalis was cultured in TSB agar medium (at 37 &#8451; under aerobic conditions for 2 days), followed by preculture in TSB liquid medium under aerobic shaking at 100 rpm in shaking incubator for 2 days.</p>
+<p>2. Q: Add a section of stock solution preparation of NPs under material method.</p>
+<p>&#8594; A: We added the information about preparation of PtNPs and stock solution in P5, line 73-780 as follow.</p>
+<p>In this experiment, 100 ppm PtNPs (particle size: 2&#8211;19 nm) solution, which was used as a stock solution, were obtained from the manufacturer (Ceramics Craft Co. Ltd. Shizuoka, Japan). The PtNPs were made directly from platinum by irradiation with infrared pulsed laser in liquid according to the Liquid phase laser ablation method. The storage of PtNPs was kept in the dark at room temperature avoiding direct sunlight as the stock solution. Moreover, when using for experiment, the stock solution was diluted in sterile purified water and used each time. Fig.1 shows a transmission electron micrograph of PtNPs used in this experiment.</p>
+<p>3. Q: In material and method section "antibacterial testing" add a reference for the protocol utilized.</p>
+<p>&#8594; A: We added the reference, which is show in below, in P7 line 111</p>
+<p>Ref. 25</p>
+<p>Decreased Phototoxic Effects of TiO&#8322; Nanoparticles in Consortium of Bacterial Isolates from Domestic Waste Water</p>
+<p>Ankita Mathur, Jyoti Kumari, Abhinav Parashar, Lavanya T., N. Chandrasekaran, Amitava Mukherjee </p>
+<p>Published: October 23, 2015<ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0141301" ns0:type="simple">https://doi.org/10.1371/journal.pone.0141301</ext-link></p>
+<p>4. Q: In the discussion section, line no. 243, explain the mechanism of interaction of aerobic and anaerobic bacteria with NPs.</p>
+<p>&#8594; A: We added the explanation of the mechanism of interaction of aerobic and anaerobic bacteria with NPs in P15 line 255-P16 line 259.</p>
+<p>While, it is inferred that the antibacterial effect of NPs on anaerobic bacteria of oral origin is lower than that on aerobic bacteria. It is considered that this is because the antibacterial property is controlled by the availability of oxygen and the particle size34). These interactions may have shown similar antibacterial activity to P. gingivalis, S. mutans and E. faecalis.</p>
+<p>34): Size-dependent antibacterial activities of silver nanoparticles against oral anaerobic pathogenic bacteria. Lu Z, Rong K, Li J, Yang H, Chen R. J Mater Sci Mater Med. 2013 Jun;24(6):1465-71. doi: 10.1007/s10856-013-4894-5. Epub 2013 Feb 26.</p>
+<p>5. Q: In the discussion section, line no. 268, when LPS reacts with NPs is there any charge based interaction in Gram negative bacteria.</p>
+<p>&#8594; A: We added the following in P17 line 283-286.</p>
+<p>LPS, which is a component of the cell wall of gram negative bacteria, is negatively charged and has a high affinity to NPs and binds tightly. And it is thought that destruction of LPS arises from LPS and NPs from a physical interaction37&#65289;.</p>
+<p>37&#65289;Metal nanoparticles: understanding the mechanisms behind antibacterial activity. Slavin YN, Asnis J, H&#228;feli UO, Bach H. J Nanobiotechnology. 2017 Oct 3;15(1):65. doi: 10.1186/s12951-017-0308-z.</p>
+<p>6. Q: Figure number 3 add an X axis demarcation.</p>
+<p>&#8594; A: We add to X axis demarcation in Fig 3 (change to 4).&#12288; </p>
+<p>Reviewer 2</p>
+<p>0. Q: As the author pointed out, the NC-PtNPs increase fragmentation and decomposition of albumin, which may limit their practical applications because besides damging the LPs, the proposed NPs can be toxic to host through damaging the albumin.</p>
+<p>P19, line 306-307</p>
+<p>&#8594; A: Following your suggestions, I added the following sentence.</p>
+<p>However, since this study is a limited basic study and a non-specific reaction, further research is necessary for clinical application</p>
+<p>1. Q: The authors claim non-colloidal form, but the particle size is 2&#8211;19 nm and suspended in water. Comment on it.</p>
+<p>&#8594; A: This PtNPs were made directly from platinum by irradiation with infrared pulsed laser. However, we don't have detailed data about non-colloidal or colloidal. Therefore, I would like to revise this paper with the term platinum nanoparticles (PtNPs), rather than using the term non-colloidal platinum nanoparticles (NC-PtNPs).</p>
+<p>Thank you for suggesting very important points.</p>
+<p>2. Q: Although the NPs are obtained from commercial source, its size should be verified after suspended in water and data should be presented.</p>
+<p>P5, line 82-84</p>
+<p>&#8594; A: Following your suggestions, we have added an electron micrograph of PtNPs.</p>
+<p>3. Q: What will happen to fate of the NPs size and morphology after contacting either albumin or LPS.</p>
+<p>P14, line 205-210 </p>
+<p>&#8594; A: Following your suggestions, we have added an electron micrograph of PtNPs with albumin or LPS.</p>
+<p>4. Q: What is mechanism of decomposition?</p>
+<p>&#8594; A: Added the following comments regarding the mechanism of disassembly.</p>
+<p>   P18, line 291-293</p>
+<p>Albumin and LPS in contact with PtNPs are thought to be reduced in molecular weight due to cleavage of the protein backbone due to the oxidative degradation reaction or physical interaction caused by the generated ROS38&#65289;. However, the detailed mechanism is still unknown.</p>
+<p>38&#65289;Mol Aspects Med. 2014 Feb;35:1-71. doi: 10.1016/j.mam.2012.09.001. Epub 2012 Oct 26.</p>
+<p>Protein damage, repair and proteolysis.</p>
+<p>Chondrogianni N, Petropoulos I, Grimm S, Georgila K, Catalgol B, Friguet B, Grune T, Gonos ES.</p>
+<supplementary-material id="pone.0222634.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222634.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

@@ -1,0 +1,1133 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222616</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17055</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Thorax</subject><subj-group><subject>Pleurae</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Thorax</subject><subj-group><subject>Pleurae</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pulmonology</subject><subj-group><subject>Pleural effusion</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Regression analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Regression analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Metastatic tumors</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Probability theory</subject><subj-group><subject>Probability distribution</subject><subj-group><subject>Normal distribution</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>The diagnostic value of pleural fluid homocysteine in malignant pleural effusion</article-title>
+<alt-title alt-title-type="running-head">Diagnostic value of pleural fluid homocysteine</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8851-7551</contrib-id>
+<name name-style="western">
+<surname>Santotoribio</surname>
+<given-names>Jose D.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-9365-422X</contrib-id>
+<name name-style="western">
+<surname>del Valle-Vazquez</surname>
+<given-names>Luis</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Garc&#237;a-de la Torre</surname>
+<given-names>Angela</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>del Castillo-Otero</surname>
+<given-names>Daniel</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Lopez-Saez</surname>
+<given-names>Juan-Bosco</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Sanchez del Pino</surname>
+<given-names>Maria J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Laboratory Medicine, Puerto Real University Hospital, Cadiz, Spain</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Biomedicine, Biotechnology and Public Health, Cadiz University School of Medicine, Cadiz, Spain</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Health Center Las Beatas, Alcala de Guadaira, Sevilla, Spain</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Laboratory Medicine, Virgen de la Victoria University Hospital, Malaga, Spain</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Instituto de Investigacion Biom&#233;dica de Malaga (IBIMA), Malaga, Spain</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Department of Pneumology, Puerto Real University Hospital, Cadiz, Spain</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Department of Medicine, Cadiz University School of Medicine, Cadiz, Spain</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Department of Internal Medicine, Puerto Real University Hospital, Cadiz, Spain</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Brcic</surname>
+<given-names>Luka</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Medical University of Graz, AUSTRIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">josediego.santotoribio@uca.es</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>24</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222616</elocation-id>
+<history>
+<date date-type="received">
+<day>18</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Santotoribio et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222616" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Pleural fluid homocysteine (HCY) can be useful for diagnosis of malignant pleural effusion (MPE). There are no published studies comparing the diagnostic accuracy of HCY with other tumour markers in pleural fluid for diagnosis of MPE. The aim was to compare the accuracy of HCY with that of carcinoembryonic antigen (CEA), cancer antigen (CA) 15.3, CA19.9 and CA125 in pleural fluid and to develop a probabilistic model using these biomarkers to differentiate benign (BPE) from MPE.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>Patients with pleural effusion were randomly included. HCY, CEA, CA15.3, CEA19.9 and CA125 were quantified in pleural fluid. Patients were classified into two groups: MPE or BPE. By applying logistic regression analysis, a multivariate probabilistic model was developed using pleural fluid biomarkers. The diagnostic accuracy was determined by receiver operating characteristic (ROC) curves and calculating the area under the curve (AUC).</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Population of study comprised 133 patients (72 males and 61 females) aged between 1 and 96 years (median = 70 years), 81 BPE and 52 MPE. The logistic regression analysis included HCY (p&lt;0.0001) and CEA (p = 0.0022) in the probabilistic model and excluded the other tumour markers. The probabilistic model was: HCY+CEA = Probability(%) = 100&#215;(1+e<sup>-z</sup>)<sup>-1</sup>, where Z = 0.5471&#215;[HCY]+0.3846&#215;[CEA]&#8211;8.2671. The AUCs were 0.606, 0.703, 0.778, 0.800, 0.846 and 0.948 for CA125, CA19.9, CEA, CA15.3, HCY and HCY+CEA, respectively.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Pleural fluid HCY has higher accuracy for diagnosis of MPE than CEA, CA15.3, CA19.9 and CA125. The combination of HCY and CEA concentrations in pleural fluid significantly improves the diagnostic accuracy of the test.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1" />
+<table-count count="4" />
+<page-count count="10" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Malignant pleural effusion (MPE) involves the accumulation of exudate in the pleural space due to its invasion by primary tumour cells (mesothelioma) or metastatic tumour cells originating from other tissues. Studies have shown that 42&#8211;77% of exudative effusions are secondary to malignancy [<xref ref-type="bibr" rid="pone.0222616.ref001">1</xref>]. The cancers causing MPE, in order of frequency, are lung cancer, breast cancer, lymphoma, unknown primary, genitourinary cancer and gastrointestinal cancer [<xref ref-type="bibr" rid="pone.0222616.ref002">2</xref>]. MPE is found in an estimated 50% of patients with malignant metastatic tumours, either at the time of diagnosis or during the course of their disease [<xref ref-type="bibr" rid="pone.0222616.ref003">3</xref>]. Clinically, the prognosis of MPE is poor, with a median survival of 3 to 12 months, depending on the histological type of the tumour [<xref ref-type="bibr" rid="pone.0222616.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0222616.ref005">5</xref>]. Differentiation between MPE and benign pleural effusion (BPE) is crucial for the treatment and prognosis of these patients. The gold standards for the diagnosis of DPM are pleural fluid cytology and pleura biopsy. The identification of malignant cells in pleural fluid (cytology) is laborious and subjective and shows highly variable sensitivity (from 11% to 78%) [<xref ref-type="bibr" rid="pone.0222616.ref006">6</xref>&#8211;<xref ref-type="bibr" rid="pone.0222616.ref008">8</xref>]. Pleural biopsy can achieve high sensitivity, but the procedure is invasive, requires extensive experience, is technically difficult and may not be appropriate in critically ill patients [<xref ref-type="bibr" rid="pone.0222616.ref009">9</xref>]. In contrast, tumour markers (TMs) in pleural fluid may be measured easily and quickly in automated analyzers, being a minimally invasive technique with high accuracy for the diagnosis of DPM.</p>
+<p>TMs are molecules produced by normal cells in response to cancer or secreted by the tumour cells themselves that are released into the blood and pleural fluid; their concentrations can be much higher in pleural fluid than in serum [<xref ref-type="bibr" rid="pone.0222616.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0222616.ref010">10</xref>]. Although patients with benign effusions usually have TMs levels in pleural fluid lower than the upper reference limit for serum, parapneumonic and tuberculous pleural exudates can reach serum concentrations up to 14 times the upper reference limit. Moreover, some benign systemic diseases such as renal failure and liver disease can elevate serum TM levels and thereby indirectly elevate TMs concentrations in the pleural fluid as transudative pleural effusions. In addition, some TMs such as cancer antigen (CA) 125 are secreted by normal mesothelial cells and show elevated concentrations in patients with BPE [<xref ref-type="bibr" rid="pone.0222616.ref011">11</xref>]. Thus, the optimal cutoff value of a TM for MPE diagnosis must have sufficiently high specificity to ensure that the marker levels in BPE do not exceed the cutoff point. This high specificity lowers the sensitivity of the TMs. For this reason, some authors recommend the combination of two or more TMs to increase sensitivity without compromising specificity [<xref ref-type="bibr" rid="pone.0222616.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0222616.ref013">13</xref>]. The most frequently used and widely studied pleural fluid TMs are carcinoembryonic antigen (CEA), CA15.3, CA19.9 and CA125. In addition, recent work identified homocysteine (HCY), a sulphur-containing amino acid derived from the metabolism of methionine, as a new TM in pleural fluid, with pleural fluid HCY showing high diagnostic accuracy to distinguish BPE and MPE [<xref ref-type="bibr" rid="pone.0222616.ref014">14</xref>]. However, there are no published studies comparing the diagnostic accuracy of HCY with other TMs in pleural fluid. The aim of this study was to compare the accuracy of HCY with that of CEA, CA15.3, CA19.9 and CA125 in pleural fluid and to develop a probabilistic model using these biomarkers to differentiate MPE from BPE.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec007">
+<title>Study design and patients</title>
+<p>This is a descriptive cross-sectional diagnostic study carried out at Puerto Real University Hospital (C&#225;diz, Spain) and adhered to the ethical recommendations of the Declaration of Helsinki [<xref ref-type="bibr" rid="pone.0222616.ref015">15</xref>]. The study was approved by the Research Ethics Committee of Cadiz and all participants signed an informed consent form. In cases of patients under the age of 18 years, informed consent form was obtained from the minor&#8217;s parents or guardians.</p>
+<p>White patients treated from January 2014 to January 2017 at Puerto Real University Hospital were studied. This population includes some members of the population assessed in our previous study [<xref ref-type="bibr" rid="pone.0222616.ref014">14</xref>]. The following inclusion criteria were used: patients of any age and sex with pleural effusion and an indication for diagnostic thoracentesis. Exclusion criteria were: patients with previous pleural effusion, pleural fluid extracted from a second or successive thoracocentesis, and purulent pleural fluid.</p>
+<p>Included patients were classified into two groups according to the aetiological diagnosis of the pleural effusion: MPE or BPE. The diagnosis of MPE required anatomopathological confirmation by pleural fluid cytology or pleural tissue biopsy.</p>
+<p>The objective was to predict a dichotomous qualitative variable (MPE / BPE) using the values of the independent quantitative variables (pleural fluid biomarkers). This objective can be achieved by the multiple logistic regression study. The logistic regression develops a probabilistic model to predict a dichotomous variable using the combination of independent variables [<xref ref-type="bibr" rid="pone.0222616.ref016">16</xref>]. The sample size for the multiple logistic regression study was estimated using the following formula: n = 10k/p, where &#8216;k&#8217; is the number of independent variables and &#8216;p&#8217; is the proportion of patients with MPE [<xref ref-type="bibr" rid="pone.0222616.ref017">17</xref>]. Five pleural fluid biomarkers were included in this study (HCY, CEA, CA15.3, CEA19.9 and CA125). With an expected proportion of patients with MPE of 40%, the estimated sample size was n = 10 &#215; 5 / 0.4 = 125 patients, with a minimum of 75 patients with BPE and 50 patients with MPE. The sampling method was incidental until the estimated sample size was completed.</p>
+</sec>
+<sec id="sec008">
+<title>Sample analysis</title>
+<p>The pleural fluid of each patient extracted by thoracocentesis was analyzed. Biomarkers were quantified in pleural fluid supernatant. To obtain the supernatant, pleural fluid was centrifuged at 4000 revolutions per minute for 5 minutes. HCY was determined by nephelometry in a BNII autoanalyser (Siemens Healthcare Diagnostics, Marburg, Germany), with serum reference values between 4.9 and 15.0 &#956;mol/L. TMs (CEA, CA15.3, CA19.9 and CA125) were quantified by electrochemiluminescence immunoassay in a Hitachi Modular E170 autoanalyser (Roche Diagnostics, Bassel, Switzerland). The serum reference values of TMs are &lt; 5.0 ng/mL for CEA, &lt; 35 U/mL for CA15.3 and CA125, and &lt; 37 U/mL for CA19.9. Although the methods used are not validated for this type of sample, there are many papers using these immunoassays for the determination of TMs in pleural fluid, so these methods are widely accepted. In order to validate the method used for the determination of HCY in pleural fluid, a precision study was performed: repeatability (21 consecutive determinations in the same sample) and reproducibility (one determination per day for 21 days in an aliquot of the same sample conserved at -80&#176;C).</p>
+</sec>
+<sec id="sec009">
+<title>Statistical analysis</title>
+<p>Data were processed using MedCalc 13.0 (MedCalc Software, Ostend, Belgium), with significance set at p&lt;0.05. The precision study was performed by calculating the coefficient of variation (CV(%) = 100 x standard deviation / arithmetic mean). Quantitative variables were analysed with the D'Agostino-Pearson test to determine whether they followed a normal (Gaussian) distribution or not. For the descriptive analysis, the frequencies of qualitative variables were used, as well as range and arithmetic mean for normally distributed quantitative variables and range and median for non-Gaussian quantitative variables. Correlations between normally distributed quantitative variables and between non-Gaussian variables were determined using the Pearson correlation coefficient and the Spearman rho correlation coefficient, respectively. Groups were compared using the Student t test for normally distributed variables and using the non-parametric Mann-Whitney U test for non-Gaussian variables. The influence of each independent variable that is, of each of the biomarkers measured in pleural fluid, on the dependent variable (MPE) was evaluated using odds ratios. By applying logistic regression analysis, a multivariate probabilistic model was developed using the independent variables of this study [Probability (%) = 100 &#215; (1 + e<sup>-z</sup>)<sup>-1</sup>, where Z is the constant determined from the pleural fluid biomarkers]. We calculated the diagnostic accuracy of each of the independent variables and of the resulting probabilistic model by analysing receiver operating characteristic (ROC) curves and calculating the area under the curve (AUC), as well as their optimal cutoff value and the corresponding sensitivity and specificity. In order to reduce the number of false positives, the optimal cutoff value was considered to be the one with the highest sensitivity and a specificity &gt; 90%.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<p>Population of study comprised 133 patients (72 males and 61 females) aged between 1 and 96 years (median = 70 years). In total, 81 patients had BPE and 52 had MPE. All quantitative variables followed a non-gaussian distribution (<xref ref-type="supplementary-material" rid="pone.0222616.s001">S1 Table</xref>). There were no statistically significant differences between the sexes in terms of the variables studied or any correlation with age (p&gt;0.05). In the precision study, the repeatability and reproducibility CVs were 2.54% and 2.98%, respectively.</p>
+<p><xref ref-type="table" rid="pone.0222616.t001">Table 1</xref> shows the distribution of patients according to the aetiological diagnosis of the pleural effusion and demographic data; <xref ref-type="table" rid="pone.0222616.t002">Table 2</xref> shows the descriptive statistics of the biomarkers studied in pleural fluid and the statistical differences between the two patient groups (MPE and BPE); and <xref ref-type="table" rid="pone.0222616.t003">Table 3</xref> shows the results of the correlation study between the biomarkers quantified in pleural fluid.</p>
+<table-wrap id="pone.0222616.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222616.t001</object-id>
+<label>Table 1</label> <caption><title>Distribution of patients according to the aetiological diagnosis of the pleural effusion and demographic data: Median (range) of age and distribution of the sexes.</title></caption>
+<alternatives>
+<graphic id="pone.0222616.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Etiology</th>
+<th align="right">n</th>
+<th align="right">Age (a&#241;os)</th>
+<th align="right">Sex (n)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Transudative</td>
+<td align="right">42 (31.6%)</td>
+<td align="right">71.0 (40&#8211;96)</td>
+<td align="right">F: 14 (33.3%); M: 28 (66.7%)</td>
+</tr>
+<tr>
+<td align="left">Parapneumonic</td>
+<td align="right">24 (18.0%)</td>
+<td align="right">71.5 (18&#8211;89)</td>
+<td align="right">F: 14 (58.3%); M: 10 (41.7%)</td>
+</tr>
+<tr>
+<td align="left">Tuberculosis</td>
+<td align="right">4 (3.0%)</td>
+<td align="right">39.0 (31&#8211;79)</td>
+<td align="right">M: 4 (100%)</td>
+</tr>
+<tr>
+<td align="left">Thoracic trauma</td>
+<td align="right">4 (3.0%)</td>
+<td align="right">71.5 (65&#8211;78)</td>
+<td align="right">F: 2 (50.0%); M: 2 (50.0%)</td>
+</tr>
+<tr>
+<td align="left">Pulmonary embolism</td>
+<td align="right">3 (2.3%)</td>
+<td align="right">40.0 (27&#8211;61)</td>
+<td align="right">F: 3 (100%)</td>
+</tr>
+<tr>
+<td align="left">Rheumatoid arthritis</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">53</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left">Lupus</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">21</td>
+<td align="right">F</td>
+</tr>
+<tr>
+<td align="left">Peritonitis</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">52</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left">Chylothorax</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">1</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left"><bold>Total of BPE</bold></td>
+<td align="right"><bold>81 (60.9%)</bold></td>
+<td align="right"><bold>70.0 (1&#8211;96)</bold></td>
+<td align="right"><bold>F: 34 (42.0%); M: 47 (58.0%)</bold></td>
+</tr>
+<tr>
+<td align="left">Lung cancer</td>
+<td align="right">22 (16.5%)</td>
+<td align="right">65.0 (52&#8211;83)</td>
+<td align="right">F: 6 (27.3%); M: 16 (72.7%)</td>
+</tr>
+<tr>
+<td align="left">Breast cancer</td>
+<td align="right">12 (9.0%)</td>
+<td align="right">67.5 (46&#8211;78)</td>
+<td align="right">F: 11 (91.7%); M: 1 (8.3%)</td>
+</tr>
+<tr>
+<td align="left">Lymphoma</td>
+<td align="right">3 (2.3%)</td>
+<td align="right">69.0 (67&#8211;72)</td>
+<td align="right">F: 1 (33.3%); M: 2 (66.7%)</td>
+</tr>
+<tr>
+<td align="left">Mesothelioma</td>
+<td align="right">2 (1.5%)</td>
+<td align="right">80.5 (79&#8211;82)</td>
+<td align="right">F: 1 (50.0%); M: 1 (50.0%)</td>
+</tr>
+<tr>
+<td align="left">Colon cancer</td>
+<td align="right">2 (1.5%)</td>
+<td align="right">81.0 (79&#8211;83)</td>
+<td align="right">F: 1 (50.0%); M: 1 (50.0%)</td>
+</tr>
+<tr>
+<td align="left">Ovarian cancer</td>
+<td align="right">2 (1.5%)</td>
+<td align="right">67.5 (60&#8211;75)</td>
+<td align="right">F: 2 (100%)</td>
+</tr>
+<tr>
+<td align="left">Uterus cancer</td>
+<td align="right">2 (1.5%)</td>
+<td align="right">75.0 (69&#8211;81)</td>
+<td align="right">F: 2 (100%)</td>
+</tr>
+<tr>
+<td align="left">Melanoma</td>
+<td align="right">2 (1.5%)</td>
+<td align="right">69.0 (66&#8211;72)</td>
+<td align="right">F: 1 (50.0%); M: 1 (50.0%)</td>
+</tr>
+<tr>
+<td align="left">Gastric cancer</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">67</td>
+<td align="right">F</td>
+</tr>
+<tr>
+<td align="left">Multiple myeloma</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">72</td>
+<td align="right">F</td>
+</tr>
+<tr>
+<td align="left">Unknown primary</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">55</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left">Prostate cancer</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">73</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left">Thymus cancer</td>
+<td align="right">1 (0.8%)</td>
+<td align="right">65</td>
+<td align="right">M</td>
+</tr>
+<tr>
+<td align="left"><bold>Total of MPE</bold></td>
+<td align="right"><bold>52 (39.1%)</bold></td>
+<td align="right"><bold>70.0 (46&#8211;83)</bold></td>
+<td align="right"><bold>F: 27 (51.9%); M: 25 (48.1%)</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>MPE: malignant pleural effusion; BPE: benign pleural effusion; F: female sex; M: male sex.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0222616.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222616.t002</object-id>
+<label>Table 2</label> <caption><title>Descriptive statistics of pleural fluid biomarkers: Median (range); and statistical differences (p value) between patients with MPE and BPE.</title></caption>
+<alternatives>
+<graphic id="pone.0222616.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Etiology</th>
+<th align="right">n</th>
+<th align="right">HCY &#956;mol/L</th>
+<th align="right">CEA ng/mL</th>
+<th align="right">CA15.3 U/mL</th>
+<th align="right">CA19.9 U/mL</th>
+<th align="right">CA125 U/mL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Transudative</td>
+<td align="right">42</td>
+<td align="right">8.08<break />(1.82&#8211;13.90)</td>
+<td align="right">0.93<break />(0.20&#8211;9.50)</td>
+<td align="right">6.1<break />(1.0&#8211;28.3)</td>
+<td align="right">1.4<break />(0.6&#8211;7.0)</td>
+<td align="right">522<break />(37.1&#8211;2008)</td>
+</tr>
+<tr>
+<td align="left">Parapneumonic</td>
+<td align="right">24</td>
+<td align="right">10.18<break />(3.71&#8211;13.60)</td>
+<td align="right">1.43<break />(0.38&#8211;6.90)</td>
+<td align="right">9.9<break />(1.0&#8211;31.0)</td>
+<td align="right">0.85<break />(0.6&#8211;14.6)</td>
+<td align="right">318<break />(2.8&#8211;1098)</td>
+</tr>
+<tr>
+<td align="left">Tuberculosis</td>
+<td align="right">4</td>
+<td align="right">10.67<break />(7.27&#8211;13.10)</td>
+<td align="right">0.67<break />(0.20&#8211;1.19)</td>
+<td align="right">13.0<break />(6.6&#8211;30.4)</td>
+<td align="right">2.6<break />(0.7&#8211;27.8)</td>
+<td align="right">340<break />(78.9&#8211;799)</td>
+</tr>
+<tr>
+<td align="left">Thoracic trauma</td>
+<td align="right">4</td>
+<td align="right">11.95<break />(11.40&#8211;12.50)</td>
+<td align="right">0.67<break />(0.28&#8211;1.07)</td>
+<td align="right">21.6<break />(12.8&#8211;30.4)</td>
+<td align="right">3.6<break />(0.6&#8211;6.7)</td>
+<td align="right">1504<break />(629&#8211;2380)</td>
+</tr>
+<tr>
+<td align="left">Pulmonary embolism</td>
+<td align="right">3</td>
+<td align="right">15.30<break />(9.80&#8211;15.50)</td>
+<td align="right">0.68<break />(0.60&#8211;0.80)</td>
+<td align="right">24.3<break />(18.3&#8211;28.8)</td>
+<td align="right">1.4<break />(0.6&#8211;10.0)</td>
+<td align="right">1346<break />(853&#8211;1390)</td>
+</tr>
+<tr>
+<td align="left">Rheumatoid arthritis</td>
+<td align="right">1</td>
+<td align="right">9.62</td>
+<td align="right">2.65</td>
+<td align="right">11.3</td>
+<td align="right">1.9</td>
+<td align="right">92.8</td>
+</tr>
+<tr>
+<td align="left">Lupus</td>
+<td align="right">1</td>
+<td align="right">7.00</td>
+<td align="right">0.20</td>
+<td align="right">8.3</td>
+<td align="right">4.8</td>
+<td align="right">696</td>
+</tr>
+<tr>
+<td align="left">Peritonitis</td>
+<td align="right">1</td>
+<td align="right">8.20</td>
+<td align="right">0.44</td>
+<td align="right">6.9</td>
+<td align="right">0.6</td>
+<td align="right">436</td>
+</tr>
+<tr>
+<td align="left">Chylothorax</td>
+<td align="right">1</td>
+<td align="right">8.03</td>
+<td align="right">0.70</td>
+<td align="right">3.4</td>
+<td align="right">3.8</td>
+<td align="right">390</td>
+</tr>
+<tr>
+<td align="left"><bold>Total of BPE</bold></td>
+<td align="right"><bold>81</bold></td>
+<td align="right"><bold>8.39</bold><break /><bold>(1.82&#8211;15.50)</bold></td>
+<td align="right"><bold>0.93</bold><break /><bold>(0.20&#8211;9.50)</bold></td>
+<td align="right"><bold>8.2</bold><break /><bold>(1.0&#8211;31.0)</bold></td>
+<td align="right"><bold>1.4</bold><break /><bold>(0.6&#8211;27.8)</bold></td>
+<td align="right"><bold>508</bold><break /><bold>(2.8&#8211;2380)</bold></td>
+</tr>
+<tr>
+<td align="left">Lung cancer</td>
+<td align="right">22</td>
+<td align="right">12.90<break />(9.89&#8211;16.50)</td>
+<td align="right">10.10<break />(0.66&#8211;184)</td>
+<td align="right">31.2<break />(7.4&#8211;208)</td>
+<td align="right">7.6<break />(0.6&#8211;1562)</td>
+<td align="right">541<break />(32.4&#8211;7305)</td>
+</tr>
+<tr>
+<td align="left">Breast cancer</td>
+<td align="right">12</td>
+<td align="right">10.24<break />(9.28&#8211;25.20)</td>
+<td align="right">29.65<break />(0.51&#8211;210)</td>
+<td align="right">105<break />(9.6&#8211;300)</td>
+<td align="right">15.5<break />(0.6&#8211;306)</td>
+<td align="right">709<break />(97.1&#8211;1884)</td>
+</tr>
+<tr>
+<td align="left">Lymphoma</td>
+<td align="right">3</td>
+<td align="right">16.50<break />(15.00&#8211;23.30)</td>
+<td align="right">0.44<break />(0.20&#8211;2.50)</td>
+<td align="right">9.8<break />(5.7&#8211;18.3)</td>
+<td align="right">0.6<break />(0.6&#8211;1.2)</td>
+<td align="right">1603<break />(761&#8211;2016)</td>
+</tr>
+<tr>
+<td align="left">Mesothelioma</td>
+<td align="right">2</td>
+<td align="right">18.30<break />(12.20&#8211;24.40)</td>
+<td align="right">0.40<break />(0.20&#8211;0.60)</td>
+<td align="right">28.5<break />(21.6&#8211;35.5)</td>
+<td align="right">3.0<break />(2.5&#8211;3.6)</td>
+<td align="right">132<break />(82.0&#8211;182)</td>
+</tr>
+<tr>
+<td align="left">Colon cancer</td>
+<td align="right">2</td>
+<td align="right">27.30<break />(20.30&#8211;34.30)</td>
+<td align="right">5.26<break />(0.42&#8211;10.10)</td>
+<td align="right">5.9<break />(5.2&#8211;6.6)</td>
+<td align="right">7.2<break />(2.7&#8211;11.8)</td>
+<td align="right">860<break />(666&#8211;1055)</td>
+</tr>
+<tr>
+<td align="left">Ovarian cancer</td>
+<td align="right">2</td>
+<td align="right">13.25<break />(10.00&#8211;16.50)</td>
+<td align="right">44.48<break />(0.50&#8211;88.47)</td>
+<td align="right">86.9<break />(35.6&#8211;138)</td>
+<td align="right">278.3<break />(3.9&#8211;552.7)</td>
+<td align="right">6987<break />(2375&#8211;11599)</td>
+</tr>
+<tr>
+<td align="left">Uterus cancer</td>
+<td align="right">2</td>
+<td align="right">20.55<break />(16.70&#8211;24.40)</td>
+<td align="right">38.43<break />(4.87&#8211;72.00)</td>
+<td align="right">27.1<break />(5.8&#8211;48.5)</td>
+<td align="right">279<break />(268&#8211;290)</td>
+<td align="right">262<break />(116&#8211;407)</td>
+</tr>
+<tr>
+<td align="left">Melanoma</td>
+<td align="right">2</td>
+<td align="right">22.40<break />(20.70&#8211;24.10)</td>
+<td align="right">0.40<break />(0.20&#8211;0.60)</td>
+<td align="right">8.1<break />(4.6&#8211;11.6)</td>
+<td align="right">1.0<break />(0.7&#8211;1.4)</td>
+<td align="right">419<break />(350&#8211;489)</td>
+</tr>
+<tr>
+<td align="left">Gastric cancer</td>
+<td align="right">1</td>
+<td align="right">25.50</td>
+<td align="right">4207</td>
+<td align="right">50.3</td>
+<td align="right">4059</td>
+<td align="right">9677</td>
+</tr>
+<tr>
+<td align="left">Multiple myeloma</td>
+<td align="right">1</td>
+<td align="right">15.40</td>
+<td align="right">0.70</td>
+<td align="right">52.3</td>
+<td align="right">2.9</td>
+<td align="right">98.0</td>
+</tr>
+<tr>
+<td align="left">Unknown primary</td>
+<td align="right">1</td>
+<td align="right">10.30</td>
+<td align="right">979</td>
+<td align="right">300</td>
+<td align="right">559</td>
+<td align="right">2116</td>
+</tr>
+<tr>
+<td align="left">Prostate cancer</td>
+<td align="right">1</td>
+<td align="right">9.36</td>
+<td align="right">0.65</td>
+<td align="right">13.2</td>
+<td align="right">2.9</td>
+<td align="right">594</td>
+</tr>
+<tr>
+<td align="left">Thymus cancer</td>
+<td align="right">1</td>
+<td align="right">16.80</td>
+<td align="right">1.60</td>
+<td align="right">42.7</td>
+<td align="right">4.4</td>
+<td align="right">1526</td>
+</tr>
+<tr>
+<td align="left"><bold>Total of MPE</bold></td>
+<td align="right"><bold>52</bold></td>
+<td align="right"><bold>13.75</bold><break /><bold>(9.28&#8211;34.30)</bold></td>
+<td align="right"><bold>8.80</bold><break /><bold>(0.20&#8211;4207)</bold></td>
+<td align="right"><bold>33.3</bold><break /><bold>(4.6&#8211;300)</bold></td>
+<td align="right"><bold>6.0</bold><break /><bold>(0.6&#8211;4059)</bold></td>
+<td align="right"><bold>630</bold><break /><bold>(32.4&#8211;11599)</bold></td>
+</tr>
+<tr>
+<td align="left">p value<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="right">133</td>
+<td align="right">&lt;0.0001</td>
+<td align="right">&lt;0.0001</td>
+<td align="right">&lt;0.0001</td>
+<td align="right">&lt;0.0001</td>
+<td align="right">0.0377</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>MPE: malignant pleural effusion; BPE: benign pleural effusion; CEA: carcinoembryonic antigen; CA: cancer antigen; HCY: homocysteine</p></fn>
+<fn id="t002fn002"><p>*U Mann-Whitney test.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0222616.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222616.t003</object-id>
+<label>Table 3</label> <caption><title>Spearman's coefficient of rank correlation (rho) between the biomarkers quantified in pleural fluid (n = 133).</title></caption>
+<alternatives>
+<graphic id="pone.0222616.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" />
+<th align="center">CEA</th>
+<th align="center">CA15.3</th>
+<th align="center">CA19.9</th>
+<th align="center">CA125</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>HCY</bold></td>
+<td align="center">0.174<break />(p = 0.0459)</td>
+<td align="center">0.386<break />(p&lt;0.0001)</td>
+<td align="center">0.245<break />(p = 0.0045)</td>
+<td align="center">0.193<break />(p = 0.0270)</td>
+</tr>
+<tr>
+<td align="left"><bold>CEA</bold></td>
+<td align="center">-</td>
+<td align="center">0.416<break />(p&lt;0.0001)</td>
+<td align="center">0.365<break />(p&lt;0.0001)</td>
+<td align="center">p&gt;0.05</td>
+</tr>
+<tr>
+<td align="left"><bold>CA15.3</bold></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">0.273<break />(p = 0.0017)</td>
+<td align="center">0.270<break />(p = 0.0019)</td>
+</tr>
+<tr>
+<td align="left"><bold>CA19.9</bold></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">p&gt;0.05</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>CEA: carcinoembryonic antigen; CA: cancer antigen; HCY: homocysteine.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The multivariate logistic regression analysis included the pleural fluid concentrations of HCY (p&lt;0.0001) and CEA (p = 0.0022) in the probabilistic model and excluded the other biomarkers. The odds ratios were 1.72 [95% confidence interval (CI) = 1.36&#8211;2.18] and 1.46 (95% CI = 1.14&#8211;1.87) for HCY and CEA, respectively. The probabilistic model was as follows: Probability (%) = 100 &#215; (1 + e<sup>-z</sup>)<sup>-1</sup>, where Z = 0.5471 &#215; [HCY] + 0.3846 &#215; [CEA]&#8211; 8.2671.</p>
+<p>The ROC curves of each biomarker and of probabilistic model to differentiate MPE from BPE can be compared in <xref ref-type="fig" rid="pone.0222616.g001">Fig 1</xref>. The AUCs and the optimal cutoff values with their corresponding sensitivities and specificities are shown in <xref ref-type="table" rid="pone.0222616.t004">Table 4</xref>. Significant differences were found between the AUC of the probabilistic model and all of the other AUCs of the pleural fluid biomarkers analysed (<xref ref-type="supplementary-material" rid="pone.0222616.s002">S2 Table</xref>).</p>
+<fig id="pone.0222616.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222616.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>The ROC curves of pleural fluid biomarkers and probabilistic model for the diagnosis of malignant pleural effusion (n = 133).</title>
+<p>CEA: carcinoembryonic antigen; CA: cancer antigen; HCY: homocysteine; HCY+CEA: probabilistic model (%) = 100 x (1 + e<sup>-z</sup>)<sup>-1</sup>, Z = 0.5471 x [HCY] + 0.3846 X [CEA]&#8211; 8.2671.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.g001" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222616.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222616.t004</object-id>
+<label>Table 4</label> <caption><title>AUC, optimal cutoff values, sensitivity and specificity of HCY, CEA, CA15.3, CA19.9, CA125, and probabilistic model (HCY+CEA) for the diagnosis of malignant pleural effusion (n = 133).</title></caption>
+<alternatives>
+<graphic id="pone.0222616.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="left">AUC (95% CI)</th>
+<th align="left">Cutoff</th>
+<th align="left">Sensitivity (95% CI)</th>
+<th align="left">Specificity (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>CA125</bold></td>
+<td align="left">0.606 (0.517&#8211;0.689)</td>
+<td align="left">1433 U/mL</td>
+<td align="left">32.7% (20.3&#8211;47.1)</td>
+<td align="left">95.1% (87.8&#8211;98.6)</td>
+</tr>
+<tr>
+<td align="left"><bold>CA19.9</bold></td>
+<td align="left">0.703 (0.617&#8211;0.779)</td>
+<td align="left">7.0 U/mL</td>
+<td align="left">50.0% (35.8&#8211;64.2)</td>
+<td align="left">92.6% (84.6&#8211;97.2)</td>
+</tr>
+<tr>
+<td align="left"><bold>CEA</bold></td>
+<td align="left">0.778 (0.698&#8211;0.846)</td>
+<td align="left">5.88 ng/mL</td>
+<td align="left">51.9% (37.6&#8211;66.0)</td>
+<td align="left">95.1% (87.8&#8211;98.6)</td>
+</tr>
+<tr>
+<td align="left"><bold>CA15.3</bold></td>
+<td align="left">0.800 (0.722&#8211;0.864)</td>
+<td align="left">24.7 U/mL</td>
+<td align="left">53.8% (39.5&#8211;67.8)</td>
+<td align="left">90.1% (81.5&#8211;95.6)</td>
+</tr>
+<tr>
+<td align="left"><bold>HCY</bold></td>
+<td align="left">0.846 (0.773&#8211;0.902)</td>
+<td align="left">13.60 &#956;mol/L</td>
+<td align="left">53.8% (39.5&#8211;67.8)</td>
+<td align="left">95.1% (87.8&#8211;98.6)</td>
+</tr>
+<tr>
+<td align="left"><bold>HCY+CEA</bold></td>
+<td align="left">0.948 (0.896&#8211;0.979)</td>
+<td align="left">46.54%</td>
+<td align="left">86.5% (74.2&#8211;94.4)</td>
+<td align="left">97.5% (91.3&#8211;99.6)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>AUC: area under the curve; CI: confidence interval; CEA: carcinoembryonic antigen; CA: cancer antigen; HCY: homocysteine; HCY+CEA: probabilistic model (%) = 100 x (1 + e<sup>-z</sup>)<sup>-1</sup>; Z = 0.5471 x [HCY] + 0.3846 x [CEA]&#8211; 8.2671.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec011" sec-type="conclusions">
+<title>Discussion</title>
+<p>The pleural fluid concentrations of HCY, CEA, CA15.3, CA19.9 and CA125 were significantly higher in MPE patients than in BPE patients (<xref ref-type="table" rid="pone.0222616.t002">Table 2</xref>). All pleural fluid biomarkers analysed were directly and proportionally intercorrelated, with the exception of CA125 with CEA and CA19.9. The strongest correlations were found for HCY and CEA with CA15.3 (<xref ref-type="table" rid="pone.0222616.t003">Table 3</xref>).</p>
+<p>In relation to the precision study of the method used for the determination of HCY in pleural fluid, the repeatability and reproducibility CVs were low (&lt;3%), so this method has a very high precision.</p>
+<p>The pleural fluid concentration of HCY was the most accurate biomarker for differentiating MPE and BPE (AUC = 0.846), followed by CA15.3 (AUC = 0.800) and CEA (0.778) (<xref ref-type="table" rid="pone.0222616.t004">Table 4</xref>). In the recent study evaluating the pleural fluid concentration of HCY as a TM, which included 89 patients, the AUC obtained was 0.833 [<xref ref-type="bibr" rid="pone.0222616.ref014">14</xref>], which is similar than that obtained in this study. CEA sensitivity was 51.9%, which was somewhat lower than that published in the meta-analysis by Shi et al, which analysed 45 studies and obtained a sensitivity of 54% and specificity of 94% [<xref ref-type="bibr" rid="pone.0222616.ref018">18</xref>]. With CA15.3, a sensitivity of 53.8% was obtained, also slightly lower than that obtained in the meta-analysis by Wu et al [<xref ref-type="bibr" rid="pone.0222616.ref019">19</xref>], which analysed 21 studies and obtained a sensitivity of 58% and specificity of 91%. The optimal cutoff value of the pleural fluid concentration of CEA to differentiate MPE from BPE was similar to the upper reference limit for serum, whereas the cutoff values of HCY, CA15.3 and CA19.9 were lower than their upper reference limits for serum. Pleural fluid CA125 showed a very high optimal cutoff value (1433 U/mL) to differentiate MPE from BPE because of its high concentration in BPE patients, a result of its secretion by normal mesothelial cells [<xref ref-type="bibr" rid="pone.0222616.ref011">11</xref>].</p>
+<p>Because the multivariate analysis with five biomarkers only included the pleural fluid concentrations of HCY and CEA in the probabilistic model, these two biomarkers are sufficient to obtain the maximum diagnostic accuracy for MPE. The odds ratio of HCY was higher than that of CEA. Although CA15.3 had a high diagnostic accuracy (AUC = 0.800), its exclusion from the probabilistic model may be due to its strong correlation with HCY and CEA (<xref ref-type="table" rid="pone.0222616.t003">Table 3</xref>). The diagnostic accuracy obtained with the probabilistic model (AUC = 0.948) was significantly higher than that obtained with each individual biomarker (<xref ref-type="supplementary-material" rid="pone.0222616.s002">S2 Table</xref>). The combination of HCY and CEA in pleural fluid improved the diagnostic accuracy of the test. The probabilistic model (HCY+CEA) achieved high sensitivity (86.5%) and specificity (97.5%) for differentiating MPE and BPE (<xref ref-type="table" rid="pone.0222616.t004">Table 4</xref>). The study by Porcel et al, which analysed 416 patients with pleural effusion, obtained a sensitivity of 54% through the combination of four TMs (CA15.3, CA19.9, CA125 and CYFRA 21&#8211;1) [<xref ref-type="bibr" rid="pone.0222616.ref020">20</xref>]; the work by Gaspar et al, which included 155 patients, achieved a sensitivity of 75% through the combination of three TMs (CEA, CA15.3 and TAG-72) [<xref ref-type="bibr" rid="pone.0222616.ref021">21</xref>]; and the meta-analysis by Yang et al, which analysed combinations of pleural fluid TMs for the diagnosis of MPE in 20 studies, obtained a sensitivity of 64% through the combination of CEA+CA15.3 and of 58% with CEA+CA19.9 [<xref ref-type="bibr" rid="pone.0222616.ref022">22</xref>]. All of these studies achieved a lower sensitivity than we obtained here using the combination of HCY+CEA.</p>
+<p>These results show an increase of pleural fluid HCY concentration in patients with MPE. The metabolism of HCY occurs via two pathways, via remethylation to methionine using 5-methyltetrahydrofolate (vitamin B9 or folate) as methyl group donor and cobalamin (vitamin B12) as cofactor or via transsulphuration using pyridoxine (vitamin B6) as cofactor, which leads to the degradation of HCY to cysteine [<xref ref-type="bibr" rid="pone.0222616.ref023">23</xref>]. The deficiency of these vitamins B in serum is associated with hyperhomocysteinemia [<xref ref-type="bibr" rid="pone.0222616.ref024">24</xref>]. The increased of pleural fluid HCY concentration in patients with MPE may be due to elevated cellular consumption of vitamins B6, B9 and B12 caused by the intense metabolism of the tumour cells present in the pleural space. The lack of vitamins B can block the two metabolic pathways of HCY and cause its accumulation in the pleural fluid. Moreover, in some studies, serums TMs were superior to pleural fluid TMs for diagnosis of MPE [<xref ref-type="bibr" rid="pone.0222616.ref025">25</xref>]. Further studies are needed to research the association between vitamins B and HCY in pleural fluid, and to assess the diagnostic value of serum HCY and its pleural fluid/serum ratio in patients with MPE.</p>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Conclusions</title>
+<p>Pleural fluid HCY can be considered a TM with high power to differentiate MPE from BPE. Pleural fluid HCY concentration may be measured easily and quickly in automated analyzers and could be a biomarker commonly used for diagnosis of MPE. Pleural fluid HCY has higher accuracy than CEA, CA15.3, CA19.9 and CA125 for diagnosis of MPE. The combination of HCY and CEA in pleural fluid significantly improves the diagnostic accuracy of the test. New studies are needed to confirm these conclusions.</p>
+</sec>
+<sec id="sec013">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222616.s001" mimetype="application/msword" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Descriptive statistics of independent variables (n = 133).</title>
+<p>(DOC)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222616.s002" mimetype="application/msword" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Comparison of ROC curves.</title>
+<p>Difference between AUCs.</p>
+<p>(DOC)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222616.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>An</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Fei</surname> <given-names>ZT</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>T</given-names></name>. <article-title>The diagnostic value of survivin in malignant pleural effusion: A meta-analysis</article-title>. <source>Clin Chim Acta</source>. <year>2015</year>;<volume>441</volume>:<fpage>142</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cca.2014.12.029" ns0:type="simple">10.1016/j.cca.2014.12.029</ext-link></comment> <object-id pub-id-type="pmid">25559946</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thomas</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Musani</surname> <given-names>AI</given-names></name>. <article-title>Malignant pleural effusions: a review</article-title>. <source>Clin Chest Med</source>. <year>2013</year>;<volume>34</volume>:<fpage>459</fpage>&#8211;<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ccm.2013.05.004" ns0:type="simple">10.1016/j.ccm.2013.05.004</ext-link></comment> <object-id pub-id-type="pmid">23993817</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Egan</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>McPhillips</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sarkar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Breen</surname> <given-names>DP</given-names></name>. <article-title>Malignant pleural effusion</article-title>. <source>QJM</source>. <year>2014</year>;<volume>107</volume>:<fpage>179</fpage>&#8211;<lpage>84</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/qjmed/hct245" ns0:type="simple">10.1093/qjmed/hct245</ext-link></comment> <object-id pub-id-type="pmid">24368856</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Roberts</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Neville</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Berrisford</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Antunes</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ali</surname> <given-names>NJ</given-names></name>. <article-title>BTS Pleural Disease Guideline Group. Management of a malignant pleural effusion: British Thoracic Society Pleural Disease Guideline 2010</article-title>. <source>Thorax</source>. <year>2010</year>;<volume>65</volume>:<fpage>32</fpage>&#8211;<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/thx.2008.111435" ns0:type="simple">10.1136/thx.2008.111435</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222616.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ruckdeschel</surname> <given-names>JC</given-names></name>. <article-title>Management of malignant pleural effusions</article-title>. <source>Semin Oncol</source>. <year>1994</year>;<volume>22</volume>:<fpage>58</fpage>&#8211;<lpage>63</lpage>.</mixed-citation></ref>
+<ref id="pone.0222616.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>Q</given-names></name>, <etal>et al</etal>. <article-title>The diagnostic value of apolipoprotein E in malignant pleural effusion associated with non-small cell lung c&#225;ncer</article-title>. <source>Clin Chim Acta</source>. <year>2013</year>;<volume>421</volume>:<fpage>230</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.cca.2013.03.013" ns0:type="simple">10.1016/j.cca.2013.03.013</ext-link></comment> <object-id pub-id-type="pmid">23523589</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Heffner</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Klein</surname> <given-names>JS</given-names></name>. <article-title>Recent advances in the diagnosis and management of malignant pleural effusions</article-title>. <source>Mayo Clin Proc</source>. <year>2008</year>;<volume>83</volume>:<fpage>235</fpage>&#8211;<lpage>50</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4065/83.2.235" ns0:type="simple">10.4065/83.2.235</ext-link></comment> <object-id pub-id-type="pmid">18241636</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Santotoribio</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>S&#225;nchez-Linares</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cabrera-Alarc&#243;n</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Guerrero</surname> <given-names>JM</given-names></name>. <article-title>Diagnostic value of carcinoembryonic antigen measurement in pleural fluid.</article-title> <source>Med Clin (Barc).</source> <year>2010</year>;<volume>135</volume>:<fpage>574</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.medcli.2009.06.023" ns0:type="simple">10.1016/j.medcli.2009.06.023</ext-link></comment> <object-id pub-id-type="pmid">19683773</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Li</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Diagnostic accuracy of MOC-31 for malignant effusions: a meta-analysis</article-title>. <source>Tumour Biol</source>. <year>2014</year>;<volume>35</volume>:<fpage>6003</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13277-014-1795-2" ns0:type="simple">10.1007/s13277-014-1795-2</ext-link></comment> <object-id pub-id-type="pmid">24609803</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Trap&#233;</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Molina</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sant</surname> <given-names>F</given-names></name>. <article-title>Clinical evaluation of the simultaneous determination of tumor markers in fluid and serum and their ratio in the differential diagnosis of serous effusions</article-title>. <source>Tumor Biol</source>. <year>2004</year>;<volume>25</volume>:<fpage>276</fpage>&#8211;<lpage>81</lpage>.</mixed-citation></ref>
+<ref id="pone.0222616.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Trap&#233;</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Molina</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sant</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Montesinos</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Arnau</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Franquesa</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Diagnostic accuracy of tumour markers in serous effusions: a validation study</article-title>. <source>Tumour Biol</source>. <year>2012</year>;<volume>33</volume>:<fpage>1661</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13277-012-0422-3" ns0:type="simple">10.1007/s13277-012-0422-3</ext-link></comment> <object-id pub-id-type="pmid">22678976</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ferreiro</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Toubes</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Vald&#233;s</surname> <given-names>L</given-names></name>. <article-title>Contribution of pleural fluid analysis to the diagnosis of pleural effusion.</article-title> <source>Med Clin (Barc).</source> <year>2015</year>;<volume>145</volume>:<fpage>171</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.medcli.2014.08.005" ns0:type="simple">10.1016/j.medcli.2014.08.005</ext-link></comment> <object-id pub-id-type="pmid">25433793</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liang</surname> <given-names>QL</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>HZ</given-names></name>, <name name-style="western"><surname>Qin</surname> <given-names>XJ</given-names></name>, <name name-style="western"><surname>Liang</surname> <given-names>XD</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>HB</given-names></name>: <article-title>Diagnostic accuracy of tumour markers for malignant pleural effusion: A meta-analysis</article-title>. <source>Thorax</source>. <year>2008</year>;<volume>63</volume>:<fpage>35</fpage>&#8211;<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/thx.2007.077958" ns0:type="simple">10.1136/thx.2007.077958</ext-link></comment> <object-id pub-id-type="pmid">17573438</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Santotoribio</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Ca&#241;avate-Solano</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Garcia-de la Torre</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Del Valle-Vazquez</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Arce-Matute</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Cuadros-Mu&#241;oz</surname> <given-names>JF</given-names></name>, <etal>et al</etal>. <article-title>Homocysteine: new tumor marker in pleural fluid</article-title>. <source>Tumour Biol</source>. <year>2015</year>;<volume>36</volume>:<fpage>7941</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13277-015-3517-9" ns0:type="simple">10.1007/s13277-015-3517-9</ext-link></comment> <object-id pub-id-type="pmid">25956279</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>World Medical Association</collab>. <article-title>World Medical Association Declaration of Helsinki Ethical Principles for Medical Research Involving Human Subjects</article-title>. <source>JAMA</source>. <year>2013</year>;<volume>310</volume>:<fpage>2191</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/jama.2013.281053" ns0:type="simple">10.1001/jama.2013.281053</ext-link></comment> <object-id pub-id-type="pmid">24141714</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cobo</surname> <given-names>E</given-names></name>. <article-title>Multivariate models in biomedical research: criteria for the inclusion of variables</article-title>. <source>Med Clin (Barc)</source>. <year>2002</year>;<volume>119</volume>:<fpage>230</fpage>&#8211;<lpage>7</lpage></mixed-citation></ref>
+<ref id="pone.0222616.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peduzzi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Concato</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kemper</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Holford</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Feinstein</surname> <given-names>AR</given-names></name>. <article-title>A simulation study of the number of events per variable in logistic regression analysis</article-title>. <source>J Clin Epidemiol</source>. <year>1996</year>;<volume>49</volume>:<fpage>1373</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0895-4356(96)00236-3" ns0:type="simple">10.1016/s0895-4356(96)00236-3</ext-link></comment> <object-id pub-id-type="pmid">8970487</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>HZ</given-names></name>, <name name-style="western"><surname>Liang</surname> <given-names>QL</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Qin</surname> <given-names>XJ</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>HB</given-names></name>. <article-title>Diagnostic value of carcinoembryonic antigen in malignant pleural effusion: a meta-analysis</article-title>. <source>Respirology</source>. <year>2008</year>;<volume>13</volume>:<fpage>518</fpage>&#8211;<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1440-1843.2008.01291.x" ns0:type="simple">10.1111/j.1440-1843.2008.01291.x</ext-link></comment> <object-id pub-id-type="pmid">18422869</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>F</given-names></name>. <article-title>Clinical diagnostic utility of CA 15&#8211;3 for the diagnosis of malignant pleural effusion: A meta-analysis</article-title>. <source>Exp Ther Med</source>. <year>2015</year>;<volume>9</volume>:<fpage>232</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3892/etm.2014.2039" ns0:type="simple">10.3892/etm.2014.2039</ext-link></comment> <object-id pub-id-type="pmid">25452808</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Porcel</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Vives</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Esquerda</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Salud</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>P&#233;rez</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Rodr&#237;guez-Panadero</surname> <given-names>F</given-names></name>. <article-title>Use of a panel of tumor markers (carcinoembryonic antigen, cancer antigen 125, carbohydrate antigen 15&#8211;3, and cytokeratin 19 fragments) in pleural fluid for the differential diagnosis of benign and malignant effusions.</article-title> <source>Chest</source>. <year>2004</year>;<volume>126</volume>:<fpage>1757</fpage>&#8211;<lpage>63</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1378/chest.126.6.1757" ns0:type="simple">10.1378/chest.126.6.1757</ext-link></comment> <object-id pub-id-type="pmid">15596670</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gaspar</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>De Miguel</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Garc&#237;a D&#237;az</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>D&#237;ez</surname> <given-names>M</given-names></name>. <article-title>Clinical utility of a combination of tumour markers in the diagnosis of malignant pleural effusions</article-title>. <source>Anticancer Res</source>. <year>2008</year>;<volume>28</volume>:<fpage>2947</fpage>&#8211;<lpage>52</lpage>. <object-id pub-id-type="pmid">19031938</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>YL</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>HZ</given-names></name>. <article-title>Diagnostic Accuracy of Combinations of Tumor Markers for Malignant Pleural Effusion: An Updated Meta-Analysis</article-title>. <source>Respiration</source>. <year>2017</year>;<volume>94</volume>:<fpage>62</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1159/000468545" ns0:type="simple">10.1159/000468545</ext-link></comment> <object-id pub-id-type="pmid">28427079</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Maroto-S&#225;nchez</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lopez-Torres</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Palacios</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gonz&#225;lez-Gross</surname> <given-names>M</given-names></name>. <article-title>What do we know about homocysteine and exercise? A review from the literature</article-title>. <source>Clin Chem Lab Med</source>. <year>2016</year>;<volume>54</volume>:<fpage>1561</fpage>&#8211;<lpage>77</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1515/cclm-2015-1040" ns0:type="simple">10.1515/cclm-2015-1040</ext-link></comment> <object-id pub-id-type="pmid">26876813</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lippi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Plebani</surname> <given-names>M</given-names></name>. <article-title>Hyperhomocysteinemia in health and disease: where we are now, and where do we go from here?</article-title> <source>Clin Chem Lab Med</source>. <year>2012</year>;<volume>50</volume>:<fpage>2075</fpage>&#8211;<lpage>80</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1515/cclm-2012-0372" ns0:type="simple">10.1515/cclm-2012-0372</ext-link></comment> <object-id pub-id-type="pmid">23093205</object-id></mixed-citation></ref>
+<ref id="pone.0222616.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Volari&#263;</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Flego</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>&#381;auhar</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bulat-Kardum</surname> <given-names>L</given-names></name>. <article-title>Diagnostic value of tumour markers in pleural effusions</article-title>. <source>Biochem Med (Zagreb).</source> <year>2018</year>;<volume>28</volume>:<fpage>010706</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.11613/BM.2018.010706" ns0:type="simple">10.11613/BM.2018.010706</ext-link></comment> <object-id pub-id-type="pmid">29472801</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222616.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222616.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Brcic</surname>
+<given-names>Luka</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Luka Brcic</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222616" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">27 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17055</p>
+<p>The diagnostic value of pleural fluid homocysteine in malignant pleural effusion</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Santotoribio,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 10 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Luka Brcic</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1) As your study includes data from minors under the age of 18, please provide additional details regarding participant consent. In the ethics statement in the Methods and online submission information, please ensure that you have specified whether you obtained consent from the minors' parents or guardians.</p>
+<p>2) Please note that according to our submission guidelines (<ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines</ext-link>), outmoded terms and potentially stigmatizing labels should be changed to more current, acceptable terminology. For example: &#8220;Caucasian&#8221; should be changed to &#8220;white&#8221; or &#8220;of [Western] European descent&#8221; (as appropriate).</p>
+<p>3) In your Methods section, please provide additional information about the participant recruitment method and the demographic details of your participants. Please ensure you have provided sufficient details to replicate the analyses such as: a) a table of relevant demographic details, b) a statement as to whether your sample can be considered representative of a larger population, c) a description of how participants were recruited, and d) descriptions of where participants were recruited and where the research took place.</p>
+<p>4) We recommend that figure 1 is provided in colour, rather than black and white, so that the individual ROC curves are more easily distinguished.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The manuscript is scientific research with data that supports the conclusions. Statistical analysis has been performed rigorously. The manuscript is written in correct English. Conclusion follows results.</p>
+<p>Reviewer #2: Thank you for the opportunity to review this paper regarding the use of pleural fluid tumour markers and homocysteine to identify malignancy as a cause of the effusion.</p>
+<p>I find the paper generally very sound and the findings of potential clinical importance. I have a number of comments and suggestions.</p>
+<p>Major comments.</p>
+<p>I think a sentence at a reference (at least one of each) is needed to describe the probabilistic model. This could be included in the introduction or with a relevant explanatory reference in the section on statistical analysis. This is important for others who may wish to confirm this work as well as understanding comparisons with other papers where different statistical processes may have been used.</p>
+<p>The authors need to specify that the assays were performed in a sample type for which the assays are not validated. This raises the issue of their use being &#8220;off label&#8221; described in different parts of the world as &#8220;in house in-vitro diagnostic devices&#8221; or &#8220;lab derived tests&#8221;. At the very least this needs to be acknowledged. There should also be a cautionary note that results may be different in different assays and that formal validation of technical aspects may be needed. Specifically Boot et al (Clinical Chemistry 2010;56:8 1351&#8211;1361) have shown non-linear dilution of CEA and CA 19.9 in pancreatic cyst fluid samples using the Roche assay suggesting that measurements in neat samples (other than serum) may suffer some interference. If the authors have validated the analytical performance of these assays in these fluids that would be a benefit.</p>
+<p>A brief consideration of the nature of the reference standard (cytology or biopsy) is suggested. This may include a consideration of possible weaknesses in these reference standards as well as a comment on why the use of tumour markers is advantageous over these standards.</p>
+<p>Minor comments</p>
+<p>Page 4, line 95. I suggest putting a reference for the 1993 declaration of Helsinki rather than the local and date in parentheses.</p>
+<p>Page 6, line 151. If this population includes the members of the population assessed in reference 14 this should be stated so that the data sets are not considered to be separate for meta-analysis or review.</p>
+<p>Page 8 table 2. There appears to be a line missing for the correlation between CA 19.9 and CA 125.</p>
+<p>Page 8, data in line 172 and following. The number of significant figures seems excessive. 2 decimal places should be sufficient for the odds ratios and their CI.</p>
+<p>Page 8, line 171. Should a cutoff be supplied for the odds ratios for HCY and CEA?</p>
+<p>Page 9, line 199. I suspect that he AUC from this paper and the previous paper are not significantly different. I would describe them as similar rather than the previous one being slightly lower (perhaps &#8220;marginally lower&#8221; may be more accurate.</p>
+<p>Page 9. Line 214. The AUC is missing a leading &#8220;0.&#8221;.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Silvana Smojver-Je&#382;ek</p>
+<p>Reviewer #2: Yes: Graham RD Jones</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222616.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222616.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222616" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222616.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">30 Aug 2019</named-content>
+</p>
+<p>Response to Reviewers</p>
+<p>Journal Requirements</p>
+<p>1) As your study includes data from minors under the age of 18, please provide additional details regarding participant consent. In the ethics statement in the Methods and online submission information, please ensure that you have specified whether you obtained consent from the minors' parents or guardians.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients: &#8220;The study was approved by the Research Ethics Committee of Cadiz and all participants signed an informed consent form. In cases of patients under the age of 18 years, informed consent form was obtained from the minor&#8217;s parents or guardians.&#8221;</p>
+<p>2) Please note that according to our submission guidelines (<ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines</ext-link>), outmoded terms and potentially stigmatizing labels should be changed to more current, acceptable terminology. For example: &#8220;Caucasian&#8221; should be changed to &#8220;white&#8221; or &#8220;of [Western] European descent&#8221; (as appropriate).</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients: &#8220;White patients treated from January 2014 to January 2017 at Puerto Real University Hospital were studied.&#8221;</p>
+<p>3) In your Methods section, please provide additional information about the participant recruitment method and the demographic details of your participants. Please ensure you have provided sufficient details to replicate the analyses such as: a) a table of relevant demographic details, b) a statement as to whether your sample can be considered representative of a larger population, c) a description of how participants were recruited, and d) descriptions of where participants were recruited and where the research took place.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients: &#8220;This is a descriptive cross-sectional diagnostic study carried out at Puerto Real University Hospital (C&#225;diz, Spain)&#8230; The sampling method was incidental until the estimated sample size was completed.&#8221;</p>
+<p>Results: &#8220;Table 1 shows the distribution of patients according to the aetiological diagnosis of the pleural effusion and demographic data&#8221; (A table with the demographic data of the patients studied has been added).</p>
+<p>4) We recommend that figure 1 is provided in colour, rather than black and white, so that the individual ROC curves are more easily distinguished.</p>
+<p>Changes in the manuscript:</p>
+<p>Figure 1 in colour</p>
+<p>Review Comments to the Author</p>
+<p>Reviewer #1: The manuscript is scientific research with data that supports the conclusions. Statistical analysis has been performed rigorously. The manuscript is written in correct English. Conclusion follows results.</p>
+<p>Reviewer #2: Thank you for the opportunity to review this paper regarding the use of pleural fluid tumour markers and homocysteine to identify malignancy as a cause of the effusion. I find the paper generally very sound and the findings of potential clinical importance. I have a number of comments and suggestions.</p>
+<p>Major comments.</p>
+<p>1) I think a sentence at a reference (at least one of each) is needed to describe the probabilistic model. This could be included in the introduction or with a relevant explanatory reference in the section on statistical analysis. This is important for others who may wish to confirm this work as well as understanding comparisons with other papers where different statistical processes may have been used.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients: &#8220;The objective was to predict a dichotomous qualitative variable (MPE / BPE) using the values of the independent quantitative variables (pleural fluid biomarkers). This objective can be achieved by the multiple logistic regression study. The logistic regression develops a probabilistic model to predict a dichotomous variable using the combination of independent variables [16].&#8221;</p>
+<p>2) The authors need to specify that the assays were performed in a sample type for which the assays are not validated. This raises the issue of their use being &#8220;off label&#8221; described in different parts of the world as &#8220;in house in-vitro diagnostic devices&#8221; or &#8220;lab derived tests&#8221;. At the very least this needs to be acknowledged. There should also be a cautionary note that results may be different in different assays and that formal validation of technical aspects may be needed. Specifically Boot et al (Clinical Chemistry 2010;56:8 1351&#8211;1361) have shown non-linear dilution of CEA and CA 19.9 in pancreatic cyst fluid samples using the Roche assay suggesting that measurements in neat samples (other than serum) may suffer some interference. If the authors have validated the analytical performance of these assays in these fluids that would be a benefit.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Sample analysis: &#8220;Although the methods used are not validated for this type of sample, there are many papers using these immunoassays for the determination of TMs in pleural fluid, so these methods are widely accepted. In order to validate the method used for the determination of HCY in pleural fluid, a precision study was performed: repeatability (21 consecutive determinations in the same sample) and reproducibility (one determination per day for 21 days in an aliquot of the same sample conserved at -80 &#176;C).&#8221;</p>
+<p>Materials and Methods, Statistical analysis. &#8220;The precision study was performed by calculating the coefficient of variation (CV(%) = 100 x standard deviation / arithmetic mean).&#8221;</p>
+<p>Results: &#8220;In the precision study, the repeatability and reproducibility CVs were 2.54% and 2.98%, respectively.&#8221;</p>
+<p>Discussion: &#8220;In relation to the precision study of the method used for the determination of HCY in pleural fluid, the repeatability and reproducibility CVs were low (&lt;3%), so this method has a very high precision.&#8221;</p>
+<p>3) A brief consideration of the nature of the reference standard (cytology or biopsy) is suggested. This may include a consideration of possible weaknesses in these reference standards as well as a comment on why the use of tumour markers is advantageous over these standards.</p>
+<p>Changes in the manuscript:</p>
+<p>Introduction: &#8220;The gold standards for the diagnosis of DPM are pleural fluid cytology and pleura biopsy. The identification of malignant cells in pleural fluid (cytology) is laborious and subjective and shows highly variable sensitivity (from 11% to 78%) [6-8]. Pleural biopsy can achieve high sensitivity, but the procedure is invasive, requires extensive experience, is technically difficult and may not be appropriate in critically ill patients [9]. In contrast, tumour markers (TMs) in pleural fluid may be measured easily and quickly in automated analyzers, being a minimally invasive technique with high accuracy for the diagnosis of DPM.&#8221;</p>
+<p>Minor comments</p>
+<p>1) Page 4, line 95. I suggest putting a reference for the 1993 declaration of Helsinki rather than the local and date in parentheses.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients:&#8221; This is a descriptive cross-sectional diagnostic study carried out at Puerto Real University Hospital (C&#225;diz, Spain) and adhered to the ethical recommendations of the Declaration of Helsinki [15].&#8221;</p>
+<p>2) Page 6, line 151. If this population includes the members of the population assessed in reference 14 this should be stated so that the data sets are not considered to be separate for meta-analysis or review.</p>
+<p>Changes in the manuscript:</p>
+<p>Materials and Methods, Study design and patients:&#8221; White patients treated from January 2014 to January 2017 at Puerto Real University Hospital were studied. This population includes some members of the population assessed in our previous study [14].&#8221;</p>
+<p>3) Page 8 table 2. There appears to be a line missing for the correlation between CA 19.9 and CA 125.</p>
+<p>Response:</p>
+<p>Correlation between CA 19.9 and CA 125: p&gt;0.05 (in Table 3)</p>
+<p>4) Page 8, data in line 172 and following. The number of significant figures seems excessive. 2 decimal places should be sufficient for the odds ratios and their CI.</p>
+<p>Changes in the manuscript:</p>
+<p>Results: &#8220;The odds ratios were 1.72 [95% confidence interval (CI) = 1.36&#8211;2.18] and 1.46 (95% CI = 1.14&#8211;1.87) for HCY and CEA, respectively.&#8221;</p>
+<p>5) Page 8, line 171. Should a cutoff be supplied for the odds ratios for HCY and CEA?</p>
+<p>Response:</p>
+<p>In order to reduce the number of false positives, the optimal cutoff value was considered to be the one with the highest sensitivity and a specificity &gt; 90%. The ROC curve analysis allows to choose the cut with specificity &gt; 90%.</p>
+<p>6) Page 9, line 199. I suspect that he AUC from this paper and the previous paper are not significantly different. I would describe them as similar rather than the previous one being slightly lower (perhaps &#8220;marginally lower&#8221; may be more accurate.</p>
+<p>Changes in the manuscript:</p>
+<p>Discussion: &#8220;In the recent study evaluating the pleural fluid concentration of HCY as a TM, which included 89 patients, the AUC obtained was 0.833 [14], which is similar than that obtained in this study.&#8221;</p>
+<p>7) Page 9. Line 214. The AUC is missing a leading &#8220;0.&#8221;.</p>
+<p>Changes in the manuscript:</p>
+<p>Discussion: &#8220;Although CA15.3 had a high diagnostic accuracy (AUC = 0.800)&#8230;&#8221;</p>
+<p>All authors are grateful to the editor and reviewers for their contribution in the review of this study.</p>
+<supplementary-material id="pone.0222616.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222616.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.doc</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222616.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222616.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Brcic</surname>
+<given-names>Luka</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Luka Brcic</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222616" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Sep 2019</named-content>
+</p>
+<p>The diagnostic value of pleural fluid homocysteine in malignant pleural effusion</p>
+<p>PONE-D-19-17055R1</p>
+<p>Dear Dr. Santotoribio,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Luka Brcic</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222616.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222616.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Brcic</surname>
+<given-names>Luka</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Luka Brcic</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222616" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">13 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-17055R1 </p>
+<p>The diagnostic value of pleural fluid homocysteine in malignant pleural effusion </p>
+<p>Dear Dr. Santotoribio:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Luka Brcic  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

@@ -1,0 +1,1596 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223257</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-18473</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Heredity</subject><subj-group><subject>Genetic mapping</subject><subj-group><subject>Haplotypes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Asia</subject><subj-group><subject>Thailand</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Evolutionary biology</subject><subj-group><subject>Evolutionary systematics</subject><subj-group><subject>Phylogenetics</subject><subj-group><subject>Phylogenetic analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Taxonomy</subject><subj-group><subject>Evolutionary systematics</subject><subj-group><subject>Phylogenetics</subject><subj-group><subject>Phylogenetic analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Data management</subject><subj-group><subject>Taxonomy</subject><subj-group><subject>Evolutionary systematics</subject><subj-group><subject>Phylogenetics</subject><subj-group><subject>Phylogenetic analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Molluscs</subject><subj-group><subject>Gastropods</subject><subj-group><subject>Snails</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>Non-coding RNA</subject><subj-group><subject>Ribosomal RNA</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Ribosomes</subject><subj-group><subject>Ribosomal RNA</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular structures and organelles</subject><subj-group><subject>Ribosomes</subject><subj-group><subject>Ribosomal RNA</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Artificial gene amplification and extension</subject><subj-group><subject>Polymerase chain reaction</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Artificial gene amplification and extension</subject><subj-group><subject>Polymerase chain reaction</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Life cycles</subject><subj-group><subject>Larvae</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>Nucleotide sequencing</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>Nucleotide sequencing</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Genetic characterization of <italic>Angiostrongylus</italic>&#160;larvae and their intermediate host, <italic>Achatina fulica</italic>, in Thailand</article-title>
+<alt-title alt-title-type="running-head">Genetic characterization of <italic>Angiostrongylus</italic> larvae and <italic>Achatina fulica</italic></alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Dumidae</surname>
+<given-names>Abdulhakam</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Janthu</surname>
+<given-names>Pichamon</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Subkrasae</surname>
+<given-names>Chanakan</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Dekumyoy</surname>
+<given-names>Paron</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Thanwisai</surname>
+<given-names>Aunchalee</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-2483-0100</contrib-id>
+<name name-style="western">
+<surname>Vitta</surname>
+<given-names>Apichat</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Microbiology and Parasitology, Faculty of Medical Science, Naresuan University, Phitsanulok, Thailand</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Helminthology, Faculty of Tropical Medicine, Mahidol University, Ratchavithi Rd, Ratchathewi, Bangkok, Thailand</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Centre of Excellence in Medical Biotechnology (CEMB), Faculty of Medical Science, Naresuan University, Phitsanulok, Thailand</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Sato</surname>
+<given-names>Marcello Otake</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Dokkyo Medical University, JAPAN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">apichatv@nu.ac.th</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>27</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0223257</elocation-id>
+<history>
+<date date-type="received">
+<day>1</day>
+<month>7</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>17</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Dumidae et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0223257" />
+<abstract>
+<p>Angiostrongyliasis is a parasitic disease caused by nematodes of the genus <italic>Angiostrongylus</italic>. Distribution of this worm corresponds to the dispersal of its main intermediate host, the giant African land snail <italic>Achatina fulica</italic>. Genetic characterization can help identify parasitic pathogens and control the spreading of disease. The present study describes infection of <italic>A</italic>. <italic>fulica</italic> by <italic>Angiostrongylus</italic>, and provides a genetic outlook based on sequencing of specific regions. We collected 343 land snails from 22 provinces across six regions of Thailand between May 2017 and July 2018. Artificial digestion and Baermann&#8217;s technique were employed to isolate <italic>Angiostrongylus</italic> larvae. The worm and its intermediate host were identified by sequencing with specific nucleotide regions. Phylogenetic tree was constructed to evaluate the relationship with other isolates. <italic>A</italic>. <italic>fulica</italic> from Chaiyaphum province was infected with <italic>A</italic>. <italic>cantonensis</italic>, whereas snails collected from Phrae and Chiang Rai provinces were infected with <italic>A</italic>. <italic>malaysiensis</italic>. The maximum likelihood tree based on 74 <italic>A</italic>. <italic>fulica</italic> COI sequences revealed monophyletic groups and identified two haplotypes: AF1 and AF2. Only AF1, which is distributed in all regions of Thailand, harbored the larvae of <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>. Two mitochondrial genes (COI and <italic>cytb</italic>) and two nuclear regions (ITS2 and SSU rRNA) were sequenced in 41 <italic>Angiostrongylus</italic> specimens. The COI gene indicated that <italic>A</italic>. <italic>cantonensis</italic> was closely related to the AC10 haplotype; whereas the <italic>cytb</italic> gene revealed two new haplotypes: AC19 and AC20. SSU rRNA was useful for the identification of <italic>A</italic>. <italic>cantonensis</italic>; whereas ITS2 was a good genetic marker for differentiating between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>. This study provides genetic information about the parasite <italic>Angiostrongylus</italic> and its snail intermediate host. The data in this work may be useful for further study on the identification of <italic>Angiostrongylus</italic> spp., the genetic relationship between intermediate host and parasite, and control of parasites.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004944</institution-id>
+<institution>Naresuan University</institution>
+</institution-wrap>
+</funding-source>
+<award-id>Grant number R2562B079</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-2483-0100</contrib-id>
+<name name-style="western">
+<surname>Vitta</surname>
+<given-names>Apichat</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by Naresuan University (Grant number R2562B079) to AV.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6" />
+<table-count count="5" />
+<page-count count="21" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p><italic>Angiostrongylus</italic> is a parasitic nematode from the superfamily Metastrongyloidea [<xref ref-type="bibr" rid="pone.0223257.ref001">1</xref>]. To date, 21 species of this genus have been reported around the world, with <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>costaricensis</italic> being the most notable [<xref ref-type="bibr" rid="pone.0223257.ref002">2</xref>]. <italic>A</italic>. <italic>cantonensis</italic> is the causative agent of human angiostrongyliasis associated with eosinophilic meningitis or meningoencephalitis. Ocular and neuro-angiostrongyliasis are reported as sporadic in Asian counties [<xref ref-type="bibr" rid="pone.0223257.ref003">3</xref>&#8211;<xref ref-type="bibr" rid="pone.0223257.ref005">5</xref>]. <italic>A</italic>. <italic>costaricensis</italic> causes abdominal angiostrongyliasis and most cases are reported in South America [<xref ref-type="bibr" rid="pone.0223257.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0223257.ref007">7</xref>]. Other veterinary-relevant species include <italic>A</italic>. <italic>malaysiensis</italic>, <italic>A</italic>. <italic>mackerrasae</italic>, and <italic>A</italic>. <italic>vasorum</italic>, which act as animal pathogens [<xref ref-type="bibr" rid="pone.0223257.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0223257.ref008">8</xref>]; although, <italic>A</italic>. <italic>malaysiensis</italic>, which is epidemic in Asian countries, may cause also human angiostrongyliasis [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>]. In Thailand, <italic>A</italic>. <italic>cantonensis</italic>, <italic>A</italic>. <italic>siamensis</italic>, <italic>A</italic>. <italic>malaysiensis</italic>, and <italic>Thaistrongylus harinasuti</italic> have been recorded in several hosts [<xref ref-type="bibr" rid="pone.0223257.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0223257.ref010">10</xref>]. <italic>A</italic>. <italic>cantonensis</italic> is the main causative agent of human angiostrongyliasis in Thailand, whereas <italic>A</italic>. <italic>malaysiensis</italic> is reported with increasing extent in the Greater Mekong area. To complete the life cycle, <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> use snails and terrestrial slugs as intermediate hosts, and rodents as their final hosts [<xref ref-type="bibr" rid="pone.0223257.ref011">11</xref>]. Humans are an accidental host, and become infected by ingesting <italic>Angiostrongylus</italic> larvae present in snails, slugs, paratenic hosts or on contaminated vegetables [<xref ref-type="bibr" rid="pone.0223257.ref012">12</xref>&#8211;<xref ref-type="bibr" rid="pone.0223257.ref014">14</xref>]. Clinical manifestations of human angiostrongyliasis include severe headache, and neck stiffness with eosinophilic meningitis or meningoencephalitis. Most cases of the disease are reported in Thailand, Taiwan, and southern China [<xref ref-type="bibr" rid="pone.0223257.ref001">1</xref>].</p>
+<p>The giant African land snail <italic>Achatina fulica</italic> is an important intermediate host for <italic>A</italic>. <italic>cantonensis</italic> [<xref ref-type="bibr" rid="pone.0223257.ref015">15</xref>]. In the 19<sup>th</sup> Century, this land snail was dispersed by humans across the Indian Ocean from Africa to India, Sri Lanka, and Southeast Asia [<xref ref-type="bibr" rid="pone.0223257.ref016">16</xref>]. In Thailand, most snails were accidentally moved across geographic locations on agricultural products or transportation containers. <italic>A</italic>. <italic>fulica</italic> is abundant in tropical climates with warm, mild year-round temperatures and high humidity [<xref ref-type="bibr" rid="pone.0223257.ref017">17</xref>]. The snail causes damage to vegetables and other food crops [<xref ref-type="bibr" rid="pone.0223257.ref018">18</xref>,<xref ref-type="bibr" rid="pone.0223257.ref019">19</xref>]. The spreading of <italic>A</italic>. <italic>fulica</italic> was affected also by dispersal of the rat lungworm, particularly in the Pacific [<xref ref-type="bibr" rid="pone.0223257.ref020">20</xref>]. Not surprisingly, the giant African land snail has been listed among the 100 worst invasive species and is considered the most damaging land snail in the world [<xref ref-type="bibr" rid="pone.0223257.ref017">17</xref>]. However, only a few genetic studies of <italic>A</italic>. <italic>fulica</italic> have been reported to date and none of them in Thailand.</p>
+<p>Genetic characterization is important for the identification of parasitic pathogens, as well as to control the spreading of disease. Sequencing and phylogenetic studies of <italic>A</italic>. <italic>cantonensis</italic> based on mitochondrial or ribosomal genes have been used to identify and study the evolution and distribution of this species. Several genes or nucleotide regions from <italic>A</italic>. <italic>cantonensis</italic> have been used in genetic studies so far: 66-kDa protein [<xref ref-type="bibr" rid="pone.0223257.ref021">21</xref>], ribosomal transcribed spacer (ITS) regions [<xref ref-type="bibr" rid="pone.0223257.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0223257.ref023">23</xref>], small subunit (SSU) ribosomal RNA (18S rRNA) [<xref ref-type="bibr" rid="pone.0223257.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0223257.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0223257.ref025">25</xref>], cytochrome c oxidase subunit I (COI) [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0223257.ref026">26</xref>], and cytochrome b (<italic>cytb</italic>) [<xref ref-type="bibr" rid="pone.0223257.ref027">27</xref>,<xref ref-type="bibr" rid="pone.0223257.ref028">28</xref>]. In comparison, only a few studies have tried to characterize <italic>A</italic>. <italic>malaysiensis</italic> in Thailand [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>]. Therefore, to gain further knowledge about the genetic make-up of <italic>Angiostrongylus</italic> spp. and its natural intermediate host, <italic>A</italic>. <italic>fulica</italic>, in Thailand, the present study sought to observe larval infection by <italic>Angiostrongylus</italic> in <italic>A</italic>. <italic>fulica</italic>. Analysis of <italic>A</italic>. <italic>cantonensis</italic> COI, SSU rRNA, ITS2, and <italic>cytb</italic> gene sequences and the ITS2 region of <italic>A</italic>. <italic>malaysiensis</italic> enabled construction of a phylogenetic tree. Finally, sequencing of the <italic>A</italic>. <italic>fulica</italic> COI gene, allowed for haplotype analysis and genetic structure characterization of this snail species.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec003">
+<title>Ethics statement</title>
+<p>The experimental protocol for the use of animals (snail intermediate host) in this study was approved by the Center for Animal Research of Naresuan University (Project Ethics Approval No: NU-AQ610711). The biosafety protocol was approved by the Naresuan University Institutional Biosafety Committee (Project Approval No: NUIBC MI 61-08-50).</p>
+</sec>
+<sec id="sec004">
+<title>Collection of <italic>Achatina fulica</italic></title>
+<p><italic>Achatina fulica</italic> was randomly collected between May 2017 and July 2018 from 22 provinces across Thailand (Uttaradit, Chiang Rai, Chiang Mai, Nan, Phrae, Phitsanulok, Phetchabun, Bangkok, Lop Buri, Phra Nakhon Si Ayutthaya, Nakhon Sawan, Rayong, Nakhon Ratchasima, Buri Ram, Maha Sarakham, Chaiyaphum, Udon Thani, Nakhon Phanom, Prachuap Khiri Khan, Pattani, Chumphon, and Surat Thani) <bold>(<xref ref-type="fig" rid="pone.0223257.g001">Fig 1</xref> </bold>and <bold><xref ref-type="table" rid="pone.0223257.t001">Table 1</xref>)</bold>. No specific permission was required for sampling snail in public locations. The snails were collected from several habitats (e.g., under leaf litter and under or above dried trees) by hand picking and were placed in a plastic box with air ventilation. The snails were then transported at ambient temperature to the Department of Microbiology and Parasitology, Faculty of Medical Science, Naresuan University, Phitsanulok, Thailand. All specimens were identified through comparison of shell morphology according to previous studies [<xref ref-type="bibr" rid="pone.0223257.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0223257.ref030">30</xref>] Schotman (1989) and Jena et al. (2017); the conical shell of <italic>A</italic>. <italic>fulica</italic> was identified as wider at its operculum and tapering at its apex. The size of the shell was approximately 9.0&#8211;12.0 cm in length and 4.0&#8211;5.0 cm in width. The coloration and vertical stripes were dark brownish, and alternated by a cream tinge.</p>
+<fig id="pone.0223257.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Map of sampling location and distribution of <italic>Achatina fulica</italic>, <italic>Angiostrongylus cantonensis</italic>, and <italic>A</italic>. <italic>malaysiensis</italic> in Thailand.</title>
+<p>Details of collection sites are given in <xref ref-type="table" rid="pone.0223257.t001">Table 1</xref>.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g001" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0223257.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.t001</object-id>
+<label>Table 1</label> <caption><title>Locations in Thailand where <italic>Achatina fulica</italic> was collected and number of corresponding COI haplotypes.</title></caption>
+<alternatives>
+<graphic id="pone.0223257.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Regions</th>
+<th align="left">Location</th>
+<th align="left">Code</th>
+<th align="left">Latitude</th>
+<th align="left">Longitude</th>
+<th align="left">Number of samples</th>
+<th align="left">Haplotype name</th>
+<th align="left">Number of haplotypes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="5">North</td>
+<td align="left">Uttaradit</td>
+<td align="left">UTT</td>
+<td align="left">17.620088</td>
+<td align="left">100.099294</td>
+<td align="center">2</td>
+<td align="center">AF1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="left">Chiang Rai</td>
+<td align="left">CRI</td>
+<td align="left">19.907165</td>
+<td align="left">99.830955</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Chiang Mai</td>
+<td align="left">CMI</td>
+<td align="left">18.706064</td>
+<td align="left">98.981716</td>
+<td align="center">2</td>
+<td align="center">AF1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="left">Nan</td>
+<td align="left">NAN</td>
+<td align="left">18.775631</td>
+<td align="left">100.773041</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Phrae</td>
+<td align="left">PRE</td>
+<td align="left">18.144577</td>
+<td align="left">100.140283</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Central</td>
+<td align="left">Phitsanulok</td>
+<td align="left">PLK</td>
+<td align="left">17.036385</td>
+<td align="left">100.583513</td>
+<td align="center">3</td>
+<td align="center">AF1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left">Phetchabun</td>
+<td align="left">PNB</td>
+<td align="left">16.301669</td>
+<td align="left">101.119280</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Bangkok</td>
+<td align="left">BKK</td>
+<td align="left">13.756330</td>
+<td align="left">100.501765</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Lop Buri</td>
+<td align="left">LRI</td>
+<td align="left">14.799508</td>
+<td align="left">100.653370</td>
+<td align="center">1</td>
+<td align="center">AF1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="left">Phra Nakhon Si Ayutthaya</td>
+<td align="left">AYA</td>
+<td align="left">14.353212</td>
+<td align="left">100.568959</td>
+<td align="center">3</td>
+<td align="center">AF1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left">Nakhon Sawan</td>
+<td align="left">NSN</td>
+<td align="left">15.693007</td>
+<td align="left">100.122559</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">East</td>
+<td align="left">Rayong</td>
+<td align="left">RYG</td>
+<td align="left">12.707434</td>
+<td align="left">101.147351</td>
+<td align="center">3</td>
+<td align="center">AF1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Northeast</td>
+<td align="left">Nakhon Ratchasima</td>
+<td align="left">NMA</td>
+<td align="left">14.979899</td>
+<td align="left">102.097769</td>
+<td align="center">2</td>
+<td align="center">AF1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="left">Buri Ram</td>
+<td align="left">BRM</td>
+<td align="left">14.993001</td>
+<td align="left">103.102919</td>
+<td align="center">3</td>
+<td align="center">AF1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left">Maha Sarakham</td>
+<td align="left">MKM</td>
+<td align="left">16.013201</td>
+<td align="left">103.161516<break /></td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Chaiyaphum</td>
+<td align="left">CPM</td>
+<td align="left">15.806817</td>
+<td align="left">102.031502</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Udon Thani</td>
+<td align="left">UDN</td>
+<td align="left">17.413841</td>
+<td align="left">102.787232</td>
+<td align="center">4</td>
+<td align="center">AF2</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Nakhon Phanom</td>
+<td align="left">NPM</td>
+<td align="left">17.392039</td>
+<td align="left">104.769550</td>
+<td align="center">3</td>
+<td align="center">AF1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">South</td>
+<td align="left">Pattani</td>
+<td align="left">PTN</td>
+<td align="left">6.761830</td>
+<td align="left">101.323254</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Chumphon</td>
+<td align="left">CPN</td>
+<td align="left">10.493049</td>
+<td align="left">99.180019</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">Surat Thani</td>
+<td align="left">SNI</td>
+<td align="left">9.138238</td>
+<td align="left">99.321748</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="left">West</td>
+<td align="left">Prachuap Khiri Khan</td>
+<td align="left">PKN</td>
+<td align="left">11.812367</td>
+<td align="left">99.797327</td>
+<td align="center">4</td>
+<td align="center">AF1</td>
+<td align="center">4</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec005">
+<title>Isolation of <italic>Angiostrongylus</italic> larvae from <italic>Achatina fulica</italic></title>
+<p>The body of <italic>A</italic>. <italic>fulica</italic> was removed from the shell. The mantle and foot of the land snail (approximately 25 mm<sup>3</sup>) were cut by a razor blade and kept at -20&#176;C for further molecular analysis. To isolate <italic>Angiostrongylus</italic> larvae, most of the remaining snail&#8217;s body was mixed with 50&#8211;100 mL of 0.7% pepsin solution (Acros Organics, Geel, Belgium) and minced in a blender. The mixed solution was transferred to a beaker and incubated in a water bath at 37&#176;C until the majority of the tissue was dissolved (1&#8211;2 h). The digested tissue solution was then placed in a Baermann apparatus, which consisted of a grass funnel connected to a short piece of rubber tubing at the outlet. The funnel, supported by a wire mesh, was covered with a layer of gauze and was let stand for 30&#8211;60 min to allow larval migration to the funnel&#8217;s neck. The filtered liquid containing mainly larvae was transferred to a Petri dish. The larvae were identified as described previously [<xref ref-type="bibr" rid="pone.0223257.ref011">11</xref>]. <italic>Angiostrongylus</italic> larvae were collected using a sterile Pasteur pipette under a stereomicroscope, transferred to a 1.5-mL microcentrifuge tube, and stored at -20&#176;C for molecular analysis.</p>
+</sec>
+<sec id="sec006">
+<title>Extraction of genomic DNA</title>
+<p>Genomic DNA from individual land snails and from third-stage larvae of <italic>Angiostrongylus</italic> was extracted using the NucleoSpin<sup>&#174;</sup> Tissue kit (Macherey-Nagel, Duren, Germany) following the manufacturer&#8217;s instructions. The genomic DNA solution was checked by running it on a 0.8% agarose gel in 1&#215; TBE buffer at 100 V. The gel was stained with ethidium bromide, followed by destaining with distilled water and photographed under u.v. light. The DNA solution was kept at -20&#176;C for further use.</p>
+</sec>
+<sec id="sec007">
+<title>PCR and sequencing</title>
+<p>PCR was used to amplify a partial region of the COI gene of <italic>A</italic>. <italic>fulica</italic>. A set of primers, AfCOI_F (<monospace>5&#8242;-TGTGGGTTAGTTGGCACAGG-3&#8242;</monospace>) and AfCOI_R (<monospace>5&#8242;-TTAAGGGCGGGTACACAGTC-3&#8242;</monospace>), was designed based on the deposited GenBank sequence (accession no. KT290318) using the Primer-BLAST program. The primers were used to amplify a 319-bp fragment. The reaction mixture was prepared in a total volume of 30 &#956;L containing 3 &#956;L of 10&#215; buffer (1&#215;), 2.1 &#956;L of 25 mM MgCl<sub>2</sub> (1.75 mM), 0.6 &#956;L of 200 mM dNTPs (4 mM), 1.2 &#956;L of 5 &#956;M of each primer (0.2 &#956;M), 0.3 &#956;L of 5 U/mL Taq DNA polymerase (0.05 U/mL), 18.6 &#956;L of distilled water, and 3 &#956;L of DNA template (20&#8211;200 ng). The PCR conditions included initial denaturation at 95&#176;C for 1 min, followed by 35 cycles of denaturation at 95&#176;C for 1 min, annealing at 50&#176;C for 40 s, extension at 72&#176;C for 1 min, and final extension at 72&#176;C for 5 min. The PCR was performed in a Biometra TOne Thermal cycler (Analytik Jena AG, Jena, Germany). The amplified products were analyzed by 1.2% agarose gel-electrophoresis, stained with ethidium bromide, destained with distilled water, and visualized and photographed under u.v. light. The amplified PCR products were then purified using a NucleoSpin<sup>&#174;</sup> Gel and PCR Clean-up kit (Macherey-Nagel). Two volumes (56 &#956;L) of buffer NTI were added to the tube containing the PCR product solution (28 &#956;L). The mixture was then transferred onto a NucleoSpin<sup>&#174;</sup> Gel and PCR Clean-up Column and centrifuged at 11,000 &#215; <italic>g</italic> for 30 s. Buffer NT3 (700 &#956;L) was added to the tube and this was centrifuged again at 11,000 &#215; <italic>g</italic> for 30 s. The column was transferred to a new 1.5-mL microcentrifuge tube, followed by addition of 30 &#956;L of elution buffer and incubation at room temperature (25&#176;C) for 1 min. The tube was centrifuged at 11,000 &#215; <italic>g</italic> for 1 min. The purified PCR product was checked on a 1.2% agarose gel in 1&#215; TBE buffer at 100 V. The gel was stained with ethidium bromide, followed by destaining with distilled water and photographed under u.v. light. The purified PCR products were shipped to Macrogen Inc., Seoul, Korea, for sequencing in both forward and reverse directions.</p>
+<p>For <italic>Angiostrongylus</italic>, PCR was used to amplify the selected nucleotide regions (COI, ITS2, SSU rRNA, and <italic>cytb</italic> for <italic>A</italic>. <italic>cantonensis</italic> and ITS2 for <italic>A</italic>. <italic>malaysiensis</italic>). Specific primers are listed in <bold><xref ref-type="table" rid="pone.0223257.t002">Table 2</xref></bold>. The reaction mixture was prepared in a total volume of 30 &#956;L, containing 15 &#956;L of EconoTaq<sup>&#174;</sup> PLUS 2&#215; Master mix (1&#215;; Lucigen Corporation, Middleton, WI, USA), 1.5 &#956;L of 5 &#956;M of each primer (0.25 &#956;M), 9 &#956;L of distilled water, and 3 &#956;L of DNA template (20&#8211;200 ng). PCR conditions for amplifying COI, ITS, and SSU rRNA were as described by Rodpai et al. (2016); whereas those for amplifying <italic>cytb</italic> were as described by Dusitsittipon et al. (2015). All PCR amplifications were conducted in a Biometra TOne Thermal cycler. The amplified products were analyzed by 1.2% agarose gel-electrophoresis as mentioned above, and then purified using a NucleoSpin<sup>&#174;</sup> Gel and PCR Clean-up kit as mentioned above. The PCR products were sequenced in both the forward and reverse direction by Macrogen Inc.</p>
+<table-wrap id="pone.0223257.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.t002</object-id>
+<label>Table 2</label> <caption><title>Primers used for amplifying nucleotide regions in <italic>Angiostrongylus</italic>.</title></caption>
+<alternatives>
+<graphic id="pone.0223257.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Gene or region</th>
+<th align="left">Primer/(Reference)</th>
+<th align="left">Approximate amplicon size<break />(bp)</th>
+<th align="left">Target<break />organism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">SSU rRNA</td>
+<td align="left">Angi18S-1_forward<break /><monospace>5&#8242;- AAAGTTAAGCCATGCATG -3&#8242;</monospace><break />Angi18S-2_reverse<break /><monospace>5&#8242;- CATTCTTGGCAAATGCTTTCG -3&#8242;</monospace><break />[<xref ref-type="bibr" rid="pone.0223257.ref031">31</xref>]</td>
+<td align="left">885</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left"><italic>cytb</italic></td>
+<td align="left">Cytb-F<break /><monospace>5&#8242;-TGAATAGACAGAATTTTAAGAG-3&#8242;</monospace><break />Cytb-R<break /><monospace>5&#8242;-ATCAACTTAACATTACAGAAAC-3&#8242;</monospace><break />[<xref ref-type="bibr" rid="pone.0223257.ref027">27</xref>]</td>
+<td align="left">853</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">COI</td>
+<td align="left">AngiCOI_forward<break /><monospace>5&#8242;- TTTTTTGGGCATCCTGAGGTTTAT -3&#8242;</monospace><break />AngiCOI_reverse<break /><monospace>5&#8242;- CGAGGATAACCATGTAAACCAGC -3&#8242;</monospace> [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>]</td>
+<td align="left">605</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">ITS2</td>
+<td align="left">AngiITS2_forward<break /><monospace>5'&#8212;ACATCTGGTTCAGGGTTGTT&#8212;3'</monospace><break />AngiITS2_ reverse<break /><monospace>5'&#8212;AGCATACAAGCACATGATCAC&#8212;3'</monospace><break />[<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>]</td>
+<td align="left">395</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic><break /><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec008">
+<title>Sequence and phylogenetic analysis</title>
+<p>All sequences were edited by viewing the peak of the chromatogram in SeqMan II software (DNASTAR, Madison, WI, USA). Species identification of <italic>Angiostrongylus</italic> and <italic>Achatina</italic> was confirmed by a BLASTN search, whereby similarity with known sequences in the NCBI database (<ext-link ext-link-type="uri" ns0:href="http://blast.ncbi.nlm.nih.gov/Blast.cgi" ns0:type="simple">http://blast.ncbi.nlm.nih.gov/Blast.cgi</ext-link>) was determined. The maximum likelihood (ML), neighbour joining (NJ) and maximum parsimony (MP) phylogenetic trees were constructed based on a Kimura 2-parameter model for SSU rRNA and <italic>cytb</italic> alignment, Tamura 3-parameter model for ITS2 alignment, and the General Time Reversible model for COI alignment with 1,000 bootstrap replicates using MEGA 7 software [<xref ref-type="bibr" rid="pone.0223257.ref032">32</xref>]. Bayesian analysis were performed based on Markov chain Monte Carlo method in MrBayes v3.2 [<xref ref-type="bibr" rid="pone.0223257.ref033">33</xref>&#8211;<xref ref-type="bibr" rid="pone.0223257.ref035">35</xref>]</p>
+<p>Haplotype diversity (<italic>h</italic>) and nucleotide diversity (<italic>&#120587;</italic>) for <italic>A</italic>. <italic>fulica</italic> were calculated in ARLEQUIN, version 3.5.1.2 [<xref ref-type="bibr" rid="pone.0223257.ref036">36</xref>]. Population pairwise <italic>F</italic><sub>ST</sub> (p &lt; 0.05) calculated in ARLEQUIN was used to infer the genetic structure of <italic>A</italic>. <italic>fulica</italic> from the six different sampled regions.</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="results">
+<title>Results</title>
+<sec id="sec010">
+<title>Infection of <italic>Angiostrongylus</italic> in <italic>Achatina fulica</italic></title>
+<p>A total of 1,595 <italic>Angiostrongylus</italic> larvae were isolated from 343 <italic>A</italic>. <italic>fulica</italic> collected in 22 provinces across Thailand. These included 13 and 1,269 <italic>A</italic>. <italic>malaysiensis</italic> larvae isolated from <italic>A</italic>. <italic>fulica</italic> collected in Phrae and Chiang Rai provinces in northern Thailand, respectively; as well as 313 <italic>A</italic>. <italic>cantonensis</italic> larvae from <italic>A</italic>. <italic>fulica</italic> collected in Chaiyaphum province, northeast Thailand (<bold><xref ref-type="supplementary-material" rid="pone.0223257.s002">S1 Table</xref></bold>). A total of 41 <italic>Angiostrongylus</italic> spp. specimens and 74 individual land snails were randomly selected for further genetic studies.</p>
+</sec>
+<sec id="sec011">
+<title>Genetic characterization of <italic>Achatina fulica</italic></title>
+<p>A partial region of the COI gene from 74 individual snails collected in different locations was amplified by PCR and sequenced. PCR amplicons were 319 bp in length. Based on an edited stretch of 291 bp, all sequences showed high similarity (99&#8211;100%) with the known COI sequence of <italic>A</italic>. <italic>fulica</italic> (GenBank accession no. MF415341). All 74 sequences of <italic>A</italic>. <italic>fulica</italic> COI in the present study were deposited in the NCBI database (GenBank accession nos. MK858335-MK858408). The phylogenetic tree of the 74 COI sequences of <italic>A</italic>. <italic>fulica</italic> collected across Thailand revealed a monophyletic cluster with bootstrap and Bayesian posterior probability values (61/62/-/85%). It could be grouped together with <italic>A</italic>. <italic>fulica</italic> from the United Kingdom and the United States (<bold><xref ref-type="fig" rid="pone.0223257.g002">Fig 2</xref></bold>).</p>
+<fig id="pone.0223257.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Maximum likelihood phylogenetic tree generated from 74 sequences of a partial COI sequence (291 bp) of <italic>A</italic>. <italic>fulica</italic> collected across Thailand.</title>
+<p>Support values (ML bootstrap/NJ bootstrap/MP bootstrap/Bayesian posterior probabilities) show above the branches of the phylogenetic tree. At the branches of the tree, a dash (-) instead of a numerical support value indicates that a certain grouping was not seen by that method of analysis. Bold letters indicate sequences obtained in the present study. <italic>Archachatina marginata</italic> was used as the out-group. TH, Thailand; UK, United Kingdom; USA, United States of America; NG, Nigeria.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g002" ns0:type="simple" />
+</fig>
+<p>Two haplotypes were identified and named as AF1 and AF2 <bold>(<xref ref-type="table" rid="pone.0223257.t001">Table 1</xref> </bold>and <bold><xref ref-type="supplementary-material" rid="pone.0223257.s001">S1 Fig</xref>)</bold>. All nucleotides in haplotypes AF1 and AF2 were the same except for the nucleotide at position 161, which corresponded to a &#8220;T&#8221; in AF1 and a &#8220;C&#8221; in AF2. Haplotype AF1 was found in the northern, central, eastern, northeastern, southern, and western regions of Thailand; whereas haplotype AF2 was found in Udon Thani province, northeast Thailand. <bold><xref ref-type="table" rid="pone.0223257.t003">Table 3</xref> </bold>shows the haplotype and nucleotide diversity of <italic>A</italic>. <italic>fulica</italic> COI sequences. In northeastern Thailand, haplotype and nucleotide diversity were found among 20 specimens. Population pairwise <italic>F</italic><sub>ST</sub> analysis revealed no genetic differentiation among populations from northern, central, eastern, northeastern, southern, and western Thailand <bold>(<xref ref-type="table" rid="pone.0223257.t004">Table 4</xref>)</bold>.</p>
+<table-wrap id="pone.0223257.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.t003</object-id>
+<label>Table 3</label> <caption><title>Haplotype diversity (h) and nucleotide diversity (<italic>&#960;</italic>) for six populations of <italic>A</italic>. <italic>fulica</italic> in Thailand based on mitochondrial COI gene sequences.</title></caption>
+<alternatives>
+<graphic id="pone.0223257.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Location</th>
+<th align="left">Number of samples</th>
+<th align="left">Haplotype diversity (<italic>h</italic>), mean&#177;SD</th>
+<th align="left">Nucleotide diversity (<italic>&#960;</italic>), mean&#177;SD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Northern</td>
+<td align="left">16</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">Central</td>
+<td align="left">19</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">Eastern</td>
+<td align="left">3</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">Northeastern</td>
+<td align="left">20</td>
+<td align="left">0.3368&#177;0.1098</td>
+<td align="left">0.0011&#177;0.0013</td>
+</tr>
+<tr>
+<td align="left">Southern</td>
+<td align="left">12</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">Western</td>
+<td align="left">4</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="left">74</td>
+<td align="left">0.1037&#177;0.0469</td>
+<td align="left">0.0003&#177;0.0006</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0223257.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.t004</object-id>
+<label>Table 4</label> <caption><title>Population pairwise <italic>F</italic><sub>ST</sub> from six populations of <italic>A</italic>. <italic>fulica</italic> based on mitochondrial COI gene sequences.</title></caption>
+<alternatives>
+<graphic id="pone.0223257.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Populations</th>
+<th align="left">Northern</th>
+<th align="left">Central</th>
+<th align="left">Eastern</th>
+<th align="left">Northeastern</th>
+<th align="left">Southern</th>
+<th align="left">Western</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Northern</td>
+<td align="left">0.000</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Central</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Eastern</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left" />
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Northeastern</td>
+<td align="left">0.135</td>
+<td align="left">0.152</td>
+<td align="left">-0.064</td>
+<td align="left">0.000</td>
+<td align="left" />
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Southern</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left">0.107</td>
+<td align="left">0.000</td>
+<td align="left" />
+</tr>
+<tr>
+<td align="left">Western</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+<td align="left">-0.012</td>
+<td align="left">0.000</td>
+<td align="left">0.000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec012">
+<title>Genetic characterization of <italic>Angiostrongylus</italic></title>
+<p>Partial sequences of SSU rRNA, COI, <italic>cytb</italic>, and ITS2 regions from 41 <italic>Angiostrongylus</italic> specimens were determined by PCR and sequencing. BLASTN search results relative to these four nucleotide regions are shown in <bold><xref ref-type="table" rid="pone.0223257.t005">Table 5</xref></bold>. Based on 839 bp of the SSU rRNA gene, 14 specimens (GenBank accession nos. MK858285-MK858298) of <italic>Angiostrongylus</italic> showed 100% identity with <italic>A</italic>. <italic>cantonensis</italic> (GenBank accession no. KU528682). The maximum likelihood tree derived from all sequences of SSU rRNA from the present study was grouped together with <italic>A</italic>. <italic>cantonensis</italic> from Thailand (GenBank accession nos. KU528687 and KU528682) and Japan (GenBank accession no. AY295804) <bold>(<xref ref-type="fig" rid="pone.0223257.g003">Fig 3</xref>)</bold>. Phylogenetic tree showed well support values (98/97/95/100%). There was no difference in p-distance for intraspecific divergence within <italic>A</italic>. <italic>cantonensis</italic> <bold>(<xref ref-type="supplementary-material" rid="pone.0223257.s003">S2 Table</xref>)</bold>.</p>
+<fig id="pone.0223257.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Maximum likelihood phylogenetic tree of <italic>A</italic>. <italic>cantonensis</italic> based on a partial SSU rRNA sequence (839 bp).</title>
+<p>Support values (ML bootstrap/NJ bootstrap/MP bootstrap/Bayesian posterior probabilities) show above the branches of the phylogenetic tree. Bold letters indicate sequences obtained in the present study. <italic>Metastrongylus salmi</italic> was used as the out-group. TH, THA, Thailand; JPN, Japan.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g003" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0223257.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.t005</object-id>
+<label>Table 5</label> <caption><title>BLASTN search based on SSU rRNA, ITS2, COI, and <italic>cytb</italic> regions of <italic>Angiostrongylus</italic> spp. (41 specimens) in Thailand.</title></caption>
+<alternatives>
+<graphic id="pone.0223257.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.t005" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Code</th>
+<th align="center" rowspan="2">Host/Location</th>
+<th align="left" rowspan="2">No. of larvae</th>
+<th align="center" colspan="4">BLASTN identity (%)</th>
+<th align="center" rowspan="2">Species identification</th>
+</tr>
+<tr>
+<th align="center">COI</th>
+<th align="center">SSU rRNA</th>
+<th align="center"><italic>cytb</italic></th>
+<th align="center">ITS2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">AngC30CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC31CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC32CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC33CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC35CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="center">99</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC45CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC46CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC47CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">1</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC50CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">5</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC51CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">99</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC52CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">99</td>
+<td align="center">ND</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC53CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC72CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">99</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC73CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC74CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC75CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC76CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">9</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC77CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC78CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC79CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC80CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">8</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC81CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">6</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC83CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC84CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">100</td>
+<td align="center">99</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngC85CPM_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chaiyaphum</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="left"><italic>A</italic>. <italic>cantonensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM107CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM15CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM4CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM14CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM5CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM6CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM7CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM21CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM105CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM70CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM108CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM109CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM110CRI_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Chiang Rai</td>
+<td align="center">10</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM40PRE_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Phrae</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM26PRE_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Phrae</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+<tr>
+<td align="left">AngM39PRE_TH</td>
+<td align="left"><italic>A</italic>. <italic>fulica</italic>/Phrae</td>
+<td align="center">1</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">ND</td>
+<td align="center">100</td>
+<td align="left"><italic>A</italic>. <italic>malaysiensis</italic></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>ND, not determined</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Based on a partial COI sequence (478 bp) of <italic>Angiostrongylus</italic>, 16 sequences (GenBank accession nos. MK734431-MK734446) from this study showed 100% similarity with the known sequence of <italic>A</italic>. <italic>cantonensis</italic> (GenBank accession no. KU532147). The maximum likelihood tree of 16 <italic>Angiostrongylus</italic> COI sequences was grouped together with the identified haplotypes of <italic>A</italic>. <italic>cantonensis</italic> AC10 (GenBank accession no. KU532147) <bold>(<xref ref-type="fig" rid="pone.0223257.g004">Fig 4</xref>)</bold>. All sequences were formed a monophyletic group with support values of 66/64/83/85%. There was no difference in p-distance for intraspecific divergence within <italic>A</italic>. <italic>cantonensis</italic> (<xref ref-type="supplementary-material" rid="pone.0223257.s004">S3 Table</xref>).</p>
+<fig id="pone.0223257.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Maximum likelihood tree based on a partial COI sequence (478 bp) of 16 samples of <italic>A</italic>. <italic>cantonensis</italic> from Thailand, together with <italic>A</italic>. <italic>cantonensis</italic> haplotypes AC1-AC16.</title>
+<p>Support values (ML bootstrap/NJ bootstrap/MP bootstrap/Bayesian posterior probabilities) show above the branches of the phylogenetic tree. At the branches of the tree, a dash (-) instead of a numerical support value indicates that a certain grouping was not seen by that method of analysis. Bold letters indicate sequences obtained in the present study. <italic>A</italic>. <italic>vasorum</italic> and <italic>A</italic>. <italic>costaricensis</italic> were used as out-groups. TH, Thailand.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g004" ns0:type="simple" />
+</fig>
+<p>All ten cytb sequences (853 bp) from the present study (GenBank accession nos. MK858275-MK858284) showed 99&#8211;100% identity to the known sequence of <italic>A</italic>. <italic>cantonensis</italic> (GenBank accession no. KP721446). The phylogenetic tree of the cytb sequence revealed that ten sequences from the present study were closely related to <italic>A</italic>. <italic>cantonensis</italic> AC1 (GenBank accession no. KP721446), AC2 (GenBank accession no. KC995263), AC3 (GenBank accession no. KP721449), AC4 (GenBank accession no. KC995278), AC5 (GenBank accession no. KP721447), AC6 (GenBank accession no. KP721442), AC7 (GenBank accession no. KC995190), and AC8 (GenBank accession no. KC995205) <bold>(<xref ref-type="fig" rid="pone.0223257.g005">Fig 5</xref>)</bold>. Six sequences from this study were similar to <italic>A</italic>. <italic>cantonensis</italic> haplotype AC1. In addition, three sequences were identified as belonging to the new haplotype AC19 with support values of 65/63/-/93% and one to the haplotype AC20 with support values of 62/78/56/-%. Comparison of nucleotide sequences between these two new haplotypes and 18 previously reported haplotypes is presented in <xref ref-type="supplementary-material" rid="pone.0223257.s005">S4 Table</xref>. Intraspecific distances within <italic>A</italic>. <italic>cantonensis</italic> ranged from &lt;0.1% to 0.9% <bold>(<xref ref-type="supplementary-material" rid="pone.0223257.s006">S5 Table</xref>)</bold>.</p>
+<fig id="pone.0223257.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Maximum likelihood phylogenetic tree of <italic>A</italic>. <italic>cantonensis</italic> based on a partial cytb sequence (853 bp).</title>
+<p>Support values (ML bootstrap/NJ bootstrap/MP bootstrap/Bayesian posterior probabilities) show above the branches of the phylogenetic tree. At the branches of the tree, a dash (-) instead of a numerical support value indicates that a certain grouping was not seen by that method of analysis. Bold letters indicate sequences obtained in the present study. <italic>A</italic>. <italic>costaricensis</italic>, <italic>A</italic>. <italic>malaysiensis</italic>, and <italic>A</italic>. <italic>vasorum</italic> are included in the tree. TH, Thailand.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g005" ns0:type="simple" />
+</fig>
+<p>The ITS2 sequences (278 bp) from 20 specimens in the present study (GenBank accession nos. MK858299-MK858318) displayed 100% similarity to <italic>A</italic>. <italic>cantonensis</italic> (GenBank accession no. KU528692). A maximum likelihood tree showed that all 20 sequences fell in the <italic>A</italic>. <italic>cantonensis</italic> groups from Thailand (GenBank accession nos. KU528688 and KU528692), the Philippines (GenBank accession nos. EU636007 and EU636008), China (GenBank accession nos. HQ540546, HQ540549, and HQ540551), United States (GenBank accession no. KU528689), and Spain (GenBank accession no. GQ181112) <bold>(<xref ref-type="fig" rid="pone.0223257.g006">Fig 6</xref>)</bold>. In addition, sixteen ITS2 sequences (268 bp) of <italic>Angiostrongylus</italic> larvae from this study (GenBank accession nos. MK858319-MK858334) showed 100% identity to <italic>A</italic>. <italic>malaysiensis</italic> (GenBank accession no. KU528697). Based on the maximum likelihood tree, all <italic>A</italic>. <italic>malaysiensis</italic> sequences fell in the <italic>A</italic>. <italic>malaysiensis</italic> groups from Thailand (GenBank accession no. KU528695), Laos (GenBank accession no. KU528697), and Myanmar (GenBank accession no. KU528694) (<bold><xref ref-type="fig" rid="pone.0223257.g006">Fig 6</xref></bold>). Two major clades of phylogenetic tree based on ITS2 sequences showed clearly distinguished between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> with support values of 100/97/100/100% and 100/83/100/66%, respectively (<bold><xref ref-type="fig" rid="pone.0223257.g006">Fig 6</xref></bold>). Interspecific distances between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> sequences ranged from 14.8% to 15.5% <bold>(<xref ref-type="supplementary-material" rid="pone.0223257.s007">S6 Table</xref>)</bold>. Intraspecific distances among <italic>A</italic>. <italic>cantonensis</italic> samples were &lt;0.4&#8211;0.7%. There was no difference in p-distance for intraspecific divergence within <italic>A</italic>. <italic>malaysiensis</italic> <bold>(<xref ref-type="supplementary-material" rid="pone.0223257.s008">S7 Table</xref></bold> and <bold><xref ref-type="supplementary-material" rid="pone.0223257.s009">S8 Table</xref>)</bold>.</p>
+<fig id="pone.0223257.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0223257.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Maximum likelihood phylogenetic tree of <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> based on a partial ITS2 sequence (278 bp).</title>
+<p>Support values (ML bootstrap/NJ bootstrap/MP bootstrap/Bayesian posterior probabilities) show above the branches of the phylogenetic tree. At the branches of the tree, a dash (-) instead of a numerical support value indicates that a certain grouping was not seen by that method of analysis. Bold letters indicate sequences obtained in the present study. <italic>A</italic>. <italic>costaricensis</italic>, <italic>A</italic>. <italic>vasorum</italic>, and <italic>A</italic>. <italic>chabaudi</italic> are included in the tree. TH, THA, Thailand; CHN, China; PHL, Philippines; LAO, Laos; MMR, Myanmar; USA, United States of America; ESP, Espa&#241;a.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.g006" ns0:type="simple" />
+</fig>
+</sec>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Discussion</title>
+<p>The present study describes infection of <italic>A</italic>. <italic>fulica</italic> with <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> in Thailand. Earlier studies on the prevalence of <italic>A</italic>. <italic>cantonensis</italic> reported infection rates of up to 90% [<xref ref-type="bibr" rid="pone.0223257.ref037">37</xref>,<xref ref-type="bibr" rid="pone.0223257.ref038">38</xref>]; these estimates were lowered in later studies to 36.4% [<xref ref-type="bibr" rid="pone.0223257.ref039">39</xref>]. Recently, several surveys of <italic>A</italic>. <italic>cantonensis</italic> larvae in <italic>A</italic>. <italic>fulica</italic> were reported from various provinces in Thailand, their infection rates ranging between 1.1% and 7.6% [<xref ref-type="bibr" rid="pone.0223257.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0223257.ref027">27</xref>,<xref ref-type="bibr" rid="pone.0223257.ref040">40</xref>]. Such low infection rates may be ascribed to variability in the presence and abundance of <italic>A</italic>. <italic>cantonensis</italic> in different environments, as well as to abiotic factors, such as humidity and temperature. The distribution of infected rats, the species of rats, and the interactions between gastropods and rats may determine the prevalence of <italic>A</italic>. <italic>cantonensis</italic> in snails [<xref ref-type="bibr" rid="pone.0223257.ref041">41</xref>]. In addition, we found <italic>A</italic>. <italic>fulica</italic> infected with <italic>A</italic>. <italic>malaysiensis</italic> in the north (Phrae and Chiang Rai provinces) of the country; in agreement with a previous report that detected <italic>A</italic>. <italic>malaysiensis</italic> in the northern Mae Hong Sorn and Tak provinces. Because this nematode is found also in the south (Phatthalung and Phang Nga provinces) of the country, close to Malaysia [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0223257.ref028">28</xref>], <italic>A</italic>. <italic>fulica</italic> is a possible intermediate host for <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> throughout Thailand. Moreover, <italic>A</italic>. <italic>fulica</italic> is implicated in an increased distribution of <italic>A</italic>. <italic>cantonensis</italic> in China and Japan [<xref ref-type="bibr" rid="pone.0223257.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0223257.ref042">42</xref>]. At present, most human angiostrongyliasis cases are reported in the northeast of Thailand, but transmission of <italic>Angiostrongylus</italic> species reflects the dispersal of intermediate and definitive hosts. Accordingly, spreading of the African giant land snail can potentially augment the dispersion of angiostrongyliasis cases.</p>
+<p>In the present study, genetic characterization of <italic>A</italic>. <italic>fulica</italic> collected from across Thailand was studied based on sequencing of the COI gene. The phylogenetic tree showed a monophyletic group for <italic>A</italic>. <italic>fulica</italic> in Thailand, suggesting that a single lineage of this snail had been introduced in the country. Interestingly, this lineage was closely related to <italic>A</italic>. <italic>fulica</italic> from the United Kingdom and the United States. Accordingly, these giant African land snail populations may share a common ancestor that was brought to each country by human intervention. In a previous study, <italic>A</italic>. <italic>fulica</italic> from Odisha state in India was closely related to <italic>A</italic>. <italic>fulica</italic> from Bangalore, Kerala, Africa, Cameroon, and China [<xref ref-type="bibr" rid="pone.0223257.ref030">30</xref>]. That result differs from the present one relating the Thai, UK, and USA isolates to a common origin, and demonstrates the existence of multiple lineages of this snail around the world, all originating from the African continent. The population genetic structure of <italic>A</italic>. <italic>fulica</italic> in Thailand revealed no difference between the six sampled regions. This uniformity may be due to gene flow within the <italic>A</italic>. <italic>fulica</italic> population in Thailand. Indeed, <italic>A</italic>. <italic>fulica</italic> was first introduced into Thailand from Malaysia in 1937 [<xref ref-type="bibr" rid="pone.0223257.ref043">43</xref>]. Five years after the first presumed entry, <italic>A</italic>. <italic>fulica</italic> population increased dramatically and expanded to several other parts of the country [<xref ref-type="bibr" rid="pone.0223257.ref044">44</xref>]. By analyzing the COI gene sequence, we identified two haplotypes (AF1 and AF2) of <italic>A</italic>. <italic>fulica</italic>. However, diversity between the two haplotypes was detected only in the northeast of Thailand, possibly as a result of the founder effect [<xref ref-type="bibr" rid="pone.0223257.ref045">45</xref>]. Importantly, in the present study, <italic>A</italic>. <italic>fulica</italic> haplotype AF1 from the northeast and north of Thailand was naturally infected with <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>; whereas haplotype AF2, which is restricted to the northeast of the country, was not infected with any of the two <italic>Angiostrongylus</italic> species. At present, it is difficult to explain why <italic>A</italic>. <italic>fulica</italic> haplotype AF1 seems to be more susceptible to <italic>Angiostrongylus</italic> infection than haplotype AF2.</p>
+<p>Genetic characterization of <italic>A</italic>. <italic>cantonensis</italic> in the present study was achieved through sequencing of SSU rRNA, ITS2, COI, and <italic>cytb</italic> nucleotide regions. Based on the COI maximum likelihood tree, <italic>A</italic>. <italic>cantonensis</italic> (16 specimens) collected from Chaiyaphum province was closely related to <italic>A</italic>. <italic>cantonensis</italic> AC10, which was collected from the closely located Khon Kaen province. Sixteen COI-based haplotypes (AC1-AC16) of <italic>A</italic>. <italic>cantonensis</italic> have been reported from several parts of the world [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0223257.ref031">31</xref>,<xref ref-type="bibr" rid="pone.0223257.ref046">46</xref>]. Haplotypes AC1, AC2, AC3, AC5, and AC7 were reported in Japan; haplotypes AC8 and AC9 were reported in Brazil; and haplotype AC6 was found in China (31, 46). In Thailand, the different haplotypes of <italic>A</italic>. <italic>cantonensis</italic> appeared confined to specific localities: haplotype AC4 to Bangkok in the central part of the country, AC10 and AC11 to Khon Kaen province in the northeast, AC13 to Surat Thani province in the south, AC14 to Kanchanaburi province in the west, AC15 to Trat province in the east, and AC16 to Chanthaburi province in the east. This distribution corresponds to our finding of the AC10 haplotype in Chaiyaphum province in the northeast of Thailand. Therefore, the COI region represents a good marker for studying the genetic evolution and differentiation of <italic>Angiostrongylus</italic> spp. [<xref ref-type="bibr" rid="pone.0223257.ref047">47</xref>], as well as to distinguish geographical isolates of <italic>A</italic>. <italic>cantonensis</italic> [<xref ref-type="bibr" rid="pone.0223257.ref046">46</xref>] and to identify its haplotypes [<xref ref-type="bibr" rid="pone.0223257.ref048">48</xref>].</p>
+<p>In the present study, SSU rRNA sequences of <italic>A</italic>. <italic>cantonensis</italic> isolated from Chaiyaphum province shared a single phylogenetic group. All 14 sequence samples were closely related to the Thai and Japanese isolates. This was confirmed by the lack of difference between intraspecific distances within <italic>A</italic>. <italic>cantonensis</italic> isolates. Previous studies have reported little variation of the nuclear small subunit (SSU) rRNA sequences within a nematode species but substantial divergence among species, allowing for species differentiation [<xref ref-type="bibr" rid="pone.0223257.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0223257.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0223257.ref031">31</xref>]. Therefore, the SSU rRNA gene has been used to identify <italic>A</italic>. <italic>cantonensis</italic> and for the discrimination of <italic>Angiostrongylus</italic> species [<xref ref-type="bibr" rid="pone.0223257.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0223257.ref031">31</xref>].</p>
+<p>In this study, <italic>A</italic>. <italic>cantonensis cytb</italic> sequences (10 specimens) from Chaiyaphum province were closely related to AC1-AC8 <italic>cytb</italic> haplotypes found across several provinces in Thailand. However, most sequences (six specimens) were similar to <italic>cytb</italic> haplotype AC1, suggesting that this may be the dominant haplotype in Thailand. In addition, we identified two new <italic>cytb</italic> haplotypes: AC19 (three sequences) and AC20 (one sequence). Previous studies reported 15 haplotypes (AC1-AC15) based on the <italic>cytb</italic> sequence in Thailand; two haplotypes (AC16 and AC18) were reported in China; and one haplotype (AC17) was reported in Hawaii [<xref ref-type="bibr" rid="pone.0223257.ref027">27</xref>,<xref ref-type="bibr" rid="pone.0223257.ref028">28</xref>]. In Thailand, <italic>cytb</italic> haplotypes were distributed at random throughout the country; AC1 in Phitsanulok and Prachuap Khiri Khan provinces; AC2 in Prachuap Khiri Khan province; AC3 in Chiang Rai province; AC4 in Phitsanulok province; AC5 in Chiang Mai province; AC6 in Samut Prakan province and Bangkok; AC7 in Bangkok; AC8 in Kanchanaburi province; AC9 in Bangkok; AC10 in Nan, Surat Thani, and Nakhon Si Thammarat provinces; AC11 in Khon Kaen province; AC12 in Nan and Lop Buri provinces; AC13 in Maha Sarakham province; AC14 in Lop Buri province; and AC15 in Maha Sarakham province [<xref ref-type="bibr" rid="pone.0223257.ref028">28</xref>]. A larger sample size may reveal a clearer relationship between the <italic>cytb</italic> haplotype of this worm and localization in Thailand.</p>
+<p>ITS2 sequences revealed differences between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>. The genetic distance between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> was 14.8&#8211;15.5%, whereas intraspecific distances among <italic>A</italic>. <italic>cantonensis</italic> were &lt;0.4&#8211;0.7% and there was no intraspecific divergence within <italic>A</italic>. <italic>malaysiensis</italic>. Our findings are similar to those reported previously [<xref ref-type="bibr" rid="pone.0223257.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0223257.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0223257.ref049">49</xref>] and suggest that the ITS2 sequence might be useful for the identification of <italic>Angiostrongylus</italic> species [<xref ref-type="bibr" rid="pone.0223257.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0223257.ref049">49</xref>].</p>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Conclusions</title>
+<p>In summary, we describe here the genetic characterization of <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> isolated from the giant African snail <italic>A</italic>. <italic>fulica</italic> in Thailand. Two haplotypes (AF1 and AF2) of <italic>A</italic>. <italic>fulica</italic> were identified for the first time based on sequencing of the COI gene. Only haplotype AF1 of <italic>A</italic>. <italic>fulica</italic> was infected with <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>. This confirmed that <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> were found across the country. <italic>A</italic>. <italic>fulica</italic> is the main intermediate host for transmission of <italic>Angiostrongylus</italic> spp. in nature. The COI and <italic>cytb</italic> genes of <italic>A</italic>. <italic>cantonensis</italic> are suitable for phylogenetic studies, whereas the SSU rRNA gene is appropriate for identification. The ITS2 nucleotide region represents a good genetic marker for distinguishing between <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic>. Two new additional <italic>cytb</italic> haplotypes of <italic>A</italic>. <italic>cantonensis</italic> (AC19 and AC20) were identified in this study. A larger sample will help future studies on the genetics of this nematode species. This study provides basic genetic information about the parasite <italic>Angiostrongylus</italic> and its snail intermediate host, <italic>A</italic>. <italic>fulica</italic>.</p>
+</sec>
+<sec id="sec015">
+<title>Supporting information</title>
+<supplementary-material id="pone.0223257.s001" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s001" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Mitochondrial DNA genealogy for 78 cytochrome c oxidase I (COI) sequences (74 sequences from Thailand and 4 sequences from other geographical regions) of <italic>A</italic>. <italic>fulica</italic> constructed by median joining network method.</title>
+<p>Each haplotype is represented by a circle. Sizes of circles are relative to number of individuals sharing specific haplotype.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s002" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s002" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Number of <italic>Achatina fulica</italic> used for artificial digestion method collected across Thailand.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s003" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s003" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Pairwise p-distances SSU rRNA gene within <italic>A</italic>. <italic>cantonensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s004" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s004" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Pairwise p-distances COI gene within <italic>A</italic>. <italic>cantonensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s005" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s005" ns0:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Variable nucleotide position within the <italic>cytb</italic> gene of <italic>A</italic>. <italic>cantonensis</italic>.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s006" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s006" ns0:type="simple">
+<label>S5 Table</label>
+<caption>
+<title>Pairwise p-distances <italic>cytb</italic> gene within <italic>A</italic>. <italic>cantonensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s007" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s007" ns0:type="simple">
+<label>S6 Table</label>
+<caption>
+<title>Pairwise p-distances ITS2 within <italic>A</italic>. <italic>cantonensis</italic> and <italic>A</italic>. <italic>malaysiensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s008" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s008" ns0:type="simple">
+<label>S7 Table</label>
+<caption>
+<title>Pairwise p-distances ITS2 within <italic>A</italic>. <italic>cantonensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0223257.s009" mimetype="application/vnd.ms-excel" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s009" ns0:type="simple">
+<label>S8 Table</label>
+<caption>
+<title>Pairwise p-distances ITS2 within <italic>A</italic>. <italic>malaysiensis</italic> samples.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This work was supported by Naresuan University (Grant number R2562B079). We would like to thank Professor Dr. Pairot Pramual, Faculty of Science, Maha Sarakham University for his guidance in analyzing the population genetics of <italic>Achatina fulica</italic>.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0223257.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>QP</given-names></name>, <name name-style="western"><surname>Lai</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>XQ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>XG</given-names></name>, <name name-style="western"><surname>Lun</surname> <given-names>ZR</given-names></name>. <article-title>Human angiostrongyliasis</article-title>. <source>Lancet Infect Dis</source>. <year>2008</year>; <volume>8</volume>: <fpage>621</fpage>&#8211;<lpage>630</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1473-3099(08)70229-9" ns0:type="simple">10.1016/S1473-3099(08)70229-9</ext-link></comment> <object-id pub-id-type="pmid">18922484</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Spratt</surname> <given-names>DM</given-names></name>. <article-title>Species of <italic>Angiostrongylus</italic> (Nematoda: Metastrongyloidea) in wildlife: a review</article-title>. <source>Int J Parasitol Parasites Wildl</source>. <year>2015</year>; <volume>4</volume>: <fpage>178</fpage>&#8211;<lpage>189</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ijppaw.2015.02.006" ns0:type="simple">10.1016/j.ijppaw.2015.02.006</ext-link></comment> <object-id pub-id-type="pmid">25853051</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Prociv</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Spratt</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Carlisle</surname> <given-names>M</given-names></name>.<article-title>S. Neuro-angiostrongyliasis: unresolved issue</article-title>. <source>Int J Parasitol</source>. <year>2000</year>; <volume>30</volume>: <fpage>1295</fpage>&#8211;<lpage>1303</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0020-7519(00)00133-8" ns0:type="simple">10.1016/s0020-7519(00)00133-8</ext-link></comment> <object-id pub-id-type="pmid">11113256</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Diao</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yin</surname> <given-names>C</given-names></name>. <article-title>Human ocular angiostrongyliasis: a literature review</article-title>. <source>Trop Doct</source>. <year>2011</year>; <volume>41</volume>: <fpage>76</fpage>&#8211;<lpage>78</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1258/td.2010.100294" ns0:type="simple">10.1258/td.2010.100294</ext-link></comment> <object-id pub-id-type="pmid">21296846</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Feng</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Nawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Sawanyavisuth</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Lv</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>ZD</given-names></name>. <article-title>Comprehensive review of ocular angiostrongyliasis with special reference to optic neuritis</article-title>. <source>Korean J Parasitol</source>. <year>2013</year>; <volume>51</volume>: <fpage>613</fpage>&#8211;<lpage>619</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3347/kjp.2013.51.6.613" ns0:type="simple">10.3347/kjp.2013.51.6.613</ext-link></comment> <object-id pub-id-type="pmid">24516263</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rodriguez</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dequi</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Peruzzo</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Mesquita</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Fornari</surname> <given-names>F</given-names></name>. <article-title>Abdominal angiostrongyliasis: report of two cases with different clinical presentations</article-title>. <source>Rev Inst Med Trop Sao Paulo</source>. <year>2008</year>; <volume>50</volume>: <fpage>339</fpage>&#8211;<lpage>341</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1590/s0036-46652008000600005" ns0:type="simple">10.1590/s0036-46652008000600005</ext-link></comment> <object-id pub-id-type="pmid">19082375</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Quir&#243;s</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Jim&#233;nez</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bonilla</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Arce</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Hern&#225;ndez</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jim&#233;nez</surname> <given-names>Y</given-names></name>. <article-title>Abdominal angiostrongyliasis with involvement of liver histopathologically confirmed: a case report</article-title>. <source>Rev Inst Med Trop Sao Paulo</source>. <year>2011</year>; <volume>53</volume>: <fpage>219</fpage>&#8211;<lpage>222</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1590/s0036-46652011000400008" ns0:type="simple">10.1590/s0036-46652011000400008</ext-link></comment> <object-id pub-id-type="pmid">21915466</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bhaibulaya</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cross</surname> <given-names>JH</given-names></name>. <article-title><italic>Angiostrongylus malaysiensis</italic> (Nematoda: Metastrongylidae), a new species of rat lung-worm from Malaysia</article-title>. <source>Southeast Asian J Trop Med Public Health</source>. <year>1971</year>; <volume>2</volume>: <fpage>527</fpage>&#8211;<lpage>533</lpage>. <object-id pub-id-type="pmid">5144154</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rodpai</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Intapan</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Thanchomnang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sanpool</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Sadaow</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Laymanivong</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title><italic>Angiostrongylus cantonensis</italic> and <italic>A. malaysiensis</italic> broadly overlap in Thailand, Lao PDR, Cambodia and Myanmar: a molecular survey of larvae in land snails</article-title>. <source>PLoS One</source>. <year>2016</year>; <volume>11</volume>(<issue>8</issue>): <fpage>e0161128</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0161128" ns0:type="simple">https://doi.org/10.1371/journal.pone.0161128</ext-link> <object-id pub-id-type="pmid">27513930</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ohbayashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kamiya</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bhaibulaya</surname> <given-names>M</given-names></name>. <article-title>Studies on parasites fauna of Thailand. I two new metastrongylid nematodes, <italic>Angiostrongylus siamensis</italic> sp. n. and <italic>Thaistrongylus harinasutai</italic> gen. et. sp. n. (Metastrongyloidae): Angiostrongylidae from wild rats</article-title>. <source>Jpn J Vet Res</source>. <year>1979</year>; <volume>27</volume>: <fpage>5</fpage>&#8211;<lpage>10</lpage>. <object-id pub-id-type="pmid">529658</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref011"><label>11</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Eamsohana</surname> <given-names>P.</given-names></name> <source>The rat lungworm <italic>Parastrongylus</italic> (= <italic>Angiostrongylus</italic>) <italic>cantonensis</italic>: parasitology, immunology, eosinophilic meningitis, epidemiology and laboratory diagnosis</source>. <publisher-loc>Bangkok</publisher-loc>: <publisher-name>Wankaew (IQ) Book Center</publisher-name>; <year>2006</year>.</mixed-citation></ref>
+<ref id="pone.0223257.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wan</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Weng</surname> <given-names>WC</given-names></name>. <article-title>2004. Eosinophilic meningitis in a child raising snails as pets</article-title>. <source>Acta Trop</source>. <year>2004</year>; <volume>90</volume>: <fpage>51</fpage>&#8211;<lpage>53</lpage>. <object-id pub-id-type="pmid">14739022</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thiengo</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Sim&#245;es Rde</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Fernande</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Maldonado</surname> <given-names>AJr</given-names></name>. <article-title><italic>Angiostrongylus cantonensis</italic> and rat lungworm disease in Brazil</article-title>. <source>Hawaii J Med Public Health</source>. <year>2013</year>; <volume>72</volume>(<issue>Suppl 2</issue>): <fpage>18</fpage>&#8211;<lpage>22</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tsai</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Yen</surname> <given-names>CM</given-names></name>. <article-title>Human parasitic meningitis caused by <italic>Angiostrongylus cantonensis</italic> infection in Taiwan</article-title>. <source>Hawaii J Med Public Health</source>. <year>2013</year>; <volume>72</volume>(<issue>Suppl 2</issue>): <fpage>26</fpage>&#8211;<lpage>27</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref015"><label>15</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Marquardt</surname> <given-names>WC</given-names></name>, <name name-style="western"><surname>Demaree</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Grieve</surname> <given-names>RB</given-names></name>. <source>Parasitology and vector biology</source>. <edition>2nd edn</edition>. <publisher-loc>California</publisher-loc>: <publisher-name>Academic Press</publisher-name>; <year>2000</year>. p. <fpage>702</fpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref016"><label>16</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Mead</surname> <given-names>AR</given-names></name>. <source>The giant African snail: A problem in economic malacology</source>. <publisher-loc>Chicago</publisher-loc>: <publisher-name>The University of Chicago Press</publisher-name>; <year>1961</year>.</mixed-citation></ref>
+<ref id="pone.0223257.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Venette</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Larson</surname> <given-names>M</given-names></name>. <source>Mini Risk Assessment Giant African Snail, <italic>Achatina fulica</italic> Bowdich [Gastropoda: Achatinidae]</source>. <year>2004</year>. Available from: <ext-link ext-link-type="uri" ns0:href="http://www.aphis.usda.gov/plant_health/plant_pest_info/pest_detection/downloads/pra/afulicapra.pdf" ns0:type="simple">http://www.aphis.usda.gov/plant_health/plant_pest_info/pest_detection/downloads/pra/afulicapra.pdf</ext-link>.</mixed-citation></ref>
+<ref id="pone.0223257.ref018"><label>18</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Mead</surname> <given-names>AR</given-names></name>. <source>Pulmonates, Vol. 2B: Economic malacology with particular reference to <italic>Achatina fulica</italic></source>. <publisher-loc>London</publisher-loc>: <publisher-name>Academic Press</publisher-name>; <year>1979</year>. p. <fpage>150</fpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref019"><label>19</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Raut</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Barker</surname> <given-names>GM</given-names></name>. <chapter-title><italic>Achatina fulica</italic> Bowdich and other Achatinidae as pests in tropical agriculture</chapter-title>. In: <name name-style="western"><surname>Barker</surname> <given-names>G.M.</given-names></name> (Ed.). <source>Molluscs as Crop Pests</source>. <publisher-loc>Hamilton, New Zealand</publisher-loc>: <publisher-name>CABI Publishing</publisher-name>; <year>2002</year>. pp. <fpage>55</fpage>&#8211;<lpage>114</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Alicata</surname> <given-names>J</given-names></name>. <article-title>The presence of <italic>Angiostrongylus cantonensis</italic> in the islands of the Indian Ocean and probable role of the giant African snail, <italic>Achatina fulica</italic>, in the dispersal of the parasite to the Pacific islands</article-title>. <source>Can J Zool</source>. <year>1966</year>; <volume>44</volume>: <fpage>1041</fpage>&#8211;<lpage>1049</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1139/z66-111" ns0:type="simple">10.1139/z66-111</ext-link></comment> <object-id pub-id-type="pmid">5981486</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Eamsobhana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Yong</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Gan</surname> <given-names>XX</given-names></name>, <name name-style="western"><surname>Prasartvit</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tungtrongchitr</surname> <given-names>A</given-names></name>. <article-title>Molecular phylogeography and genetic diversity of <italic>Angiostrongylus cantonensis</italic> and <italic>A. malaysiensis</italic> (Nematoda: Angiostrongylidae) based on 66-kDa protein gene</article-title>. <source>Parasitol Int</source>. <year>2019</year>; <volume>68</volume>: <fpage>24</fpage>&#8211;<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.parint.2018.09.006" ns0:type="simple">10.1016/j.parint.2018.09.006</ext-link></comment> <object-id pub-id-type="pmid">30267903</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Foronda</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lopez-Gonzalez</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Miquel</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Torres</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Segovia</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Abreu-Acosta</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Finding of <italic>Parastrongylus cantonensis</italic> (Chen, 1935) in <italic>Rattus rattus</italic> in Tenerife, Canary Islands (Spain)</article-title>. <source>Acta Trop</source>. <year>2010</year>; <volume>114</volume>: <fpage>123</fpage>&#8211;<lpage>127</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.actatropica.2010.02.004" ns0:type="simple">10.1016/j.actatropica.2010.02.004</ext-link></comment> <object-id pub-id-type="pmid">20153283</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>MX</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ai</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>CY</given-names></name>, <etal>et al</etal>. <article-title>Characterization of <italic>Angiostrongylus cantonensis</italic> isolates from China by sequences of internal transcribed spacers of nuclear ribosomal DNA</article-title>. <source>J Anim Vet Adv</source>. <year>2011</year>; <volume>10</volume>: <fpage>593</fpage>&#8211;<lpage>596</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fontanilla</surname> <given-names>IK</given-names></name>, <name name-style="western"><surname>Wade</surname> <given-names>CM</given-names></name>. <article-title>The small subunit (SSU) ribosomal (r) RNA gene as a genetic marker for identifying infective 3rd juvenile stage <italic>Angiostrongylus cantonensis</italic></article-title>. <source>Acta Trop</source>. <year>2008</year>; <volume>105</volume>: <fpage>181</fpage>&#8211;<lpage>186</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.actatropica.2007.10.007" ns0:type="simple">10.1016/j.actatropica.2007.10.007</ext-link></comment> <object-id pub-id-type="pmid">18061130</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Eamsobhana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Yong</surname> <given-names>HS</given-names></name>. <article-title>Phylogenetics and systematics of <italic>Angiostrongylus</italic> lungworms and related taxa (Nematoda: Metastrongyloidea) inferred from the nuclear small subunit (SSU) ribosomal DNA sequences</article-title>. <source>J Helminthol</source>. <year>2015</year>; <volume>89</volume>: <fpage>317</fpage>&#8211;<lpage>325</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S0022149X14000108" ns0:type="simple">10.1017/S0022149X14000108</ext-link></comment> <object-id pub-id-type="pmid">24622302</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vitta</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Srisongcram</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Thiproaj</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wongma</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Polsut</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Fukruksa</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Phylogeny of <italic>Angiostrongylus cantonensis</italic> in Thailand based on cytochrome c oxidase subunit I gene sequence</article-title>. <source>Southeast Asian J Trop Med Public Health</source>. <year>2016</year>; <volume>47</volume>: <fpage>377</fpage>&#8211;<lpage>386</lpage>. <object-id pub-id-type="pmid">27405119</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dusitsittipon</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Thaenkham</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Watthanakulpanich</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Adisakwattana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Komalamisra</surname> <given-names>C</given-names></name>. <article-title>Genetic differences in the rat lungworm, <italic>Angiostrongylus cantonensis</italic> (Nematoda: Angiostrongylidae), in Thailand</article-title>. <source>J Helminthol</source>. <year>2015</year>; <volume>89</volume>: <fpage>545</fpage>&#8211;<lpage>551</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S0022149X14000388" ns0:type="simple">10.1017/S0022149X14000388</ext-link></comment> <object-id pub-id-type="pmid">24933508</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yong</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Eamsobhana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Prasartvit</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>PE</given-names></name>. <article-title>Molecular phylogeography of <italic>Angiostrongylus cantonensis</italic> (Nematoda: Angiostrongylidae) and genetic relationships with congeners using cytochrome b gene marker</article-title>. <source>Acta Trop</source>. <year>2015</year>; <volume>148</volume>: <fpage>66</fpage>&#8211;<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.actatropica.2015.04.020" ns0:type="simple">10.1016/j.actatropica.2015.04.020</ext-link></comment> <object-id pub-id-type="pmid">25930187</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref029"><label>29</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Schotman</surname> <given-names>CYL</given-names></name>. <source>Data sheet on the Giant African Land Snail <italic>Achatina fulica</italic> Bowdich (Mollusca: Achatinidae)</source>. In: <publisher-name>PROVEG No. 19. FAO Regional Office of Latin America and the Caribbean Plant Quarantine Action Program</publisher-name>. <year>1989</year>. pp. <fpage>16</fpage>&#8211;<lpage>21</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jena</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sarkar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jalaja</surname> <given-names>N</given-names></name>. <article-title>Krupanidhi S. Molecular phylogenetic relations of <italic>Achatina fulica</italic> based on partial sequence of COI gene</article-title>. <source>Natl Acad Sci Lett</source> <year>2017</year>; <volume>40</volume>(<issue>2</issue>). <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s40009-017-0538-5" ns0:type="simple">https://doi.org/10.1007/s40009-017-0538-5</ext-link></mixed-citation></ref>
+<ref id="pone.0223257.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tokiwa</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Harunari</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tanikawa</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Komatsu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Koizumi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Tung</surname> <given-names>KC</given-names></name>, <etal>et al</etal>. <article-title>Phylogenetic relationships of rat lungworm, <italic>Angiostrongylus cantonensis</italic>, isolated from different geographical regions revealed widespread multiple lineages</article-title>. <source>Parasitol Int</source>. <year>2012</year>; <volume>61</volume>: <fpage>431</fpage>&#8211;<lpage>436</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.parint.2012.02.005" ns0:type="simple">10.1016/j.parint.2012.02.005</ext-link></comment> <object-id pub-id-type="pmid">22387862</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kumar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stecher</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Tamura</surname> <given-names>K</given-names></name>. <article-title>MEGA7: Molecular evolutionary genetics analysis version 7.0 for bigger datasets</article-title>. <source>Mol Biol Evol</source>. <year>2016</year>; <volume>33</volume>: <fpage>1870</fpage>&#8211;<lpage>1874</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/molbev/msw054" ns0:type="simple">10.1093/molbev/msw054</ext-link></comment> <object-id pub-id-type="pmid">27004904</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ronquist</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Teslenko</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>van der Mark</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ayres</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Darling</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>H&#246;hna</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space</article-title>. <source>Syst Biol</source>. <year>2012</year>; <volume>61</volume>: <fpage>539</fpage>&#8211;<lpage>542</lpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/sysbio/sys029" ns0:type="simple">https://doi.org/10.1093/sysbio/sys029</ext-link> <object-id pub-id-type="pmid">22357727</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yong</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Eamsobhana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Goh</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>PE</given-names></name>. <article-title>Complete mitochondrial genome reveals genetic diversity of <italic>Angiostrongylus cantonensis</italic> (Nematoda: Angiostrongylidae)</article-title>. <source>Acta Trop</source>. <year>2015</year>; <volume>152</volume>: <fpage>157</fpage>&#8211;<lpage>164</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.actatropica.2015.09.001" ns0:type="simple">10.1016/j.actatropica.2015.09.001</ext-link></comment> <object-id pub-id-type="pmid">26348256</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ayyagari</surname> <given-names>VS</given-names></name>, <name name-style="western"><surname>Sreerama</surname> <given-names>K</given-names></name>. <article-title>Evaluation of haplotype diversity of <italic>Achatina fulica</italic> (Lissachatina) [Bowdich] from Indian sub-continent by means of 16S rDNA sequence and its phylogenetic relationships with other global populations</article-title>. <source>3 Biotech</source>. <year>2017</year>; <volume>7</volume>(<issue>4</issue>): <fpage>252</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13205-017-0877-4" ns0:type="simple">https://doi.org/10.1007/s13205-017-0877-4</ext-link> <object-id pub-id-type="pmid">28721680</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Excoffier</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lischer</surname> <given-names>HE</given-names></name>. <article-title>Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows</article-title>. <source>Mol Ecol Resour</source>. <year>2010</year>; <volume>10</volume>: <fpage>564</fpage>&#8211;<lpage>567</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1755-0998.2010.02847.x" ns0:type="simple">10.1111/j.1755-0998.2010.02847.x</ext-link></comment> <object-id pub-id-type="pmid">21565059</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Harinasuta</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Setasuban</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Radomyos</surname> <given-names>P</given-names></name>. <article-title>Observations on <italic>Angiostrongylus cantonensis</italic> in rats and mollusks in Thailand</article-title>. <source>J Med Assoc Thai</source>. <year>1965</year>; <volume>48</volume>: <fpage>158</fpage>&#8211;<lpage>172</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Setasuban</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Vajrasthira</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Harinasuta</surname> <given-names>C</given-names></name>. <article-title>The preliminary observations on natural infection of rat lungworm (<italic>Angiostrongylus cantonensis</italic>) in rodents and intermediate host in Thailand</article-title>. <source>J Med Assoc Thai</source>. <year>1968</year>; <volume>51</volume>: <fpage>156</fpage>&#8211;<lpage>157</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pipitgool</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Sithithaworn</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Pongmuttasaya</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hinz</surname> <given-names>E</given-names></name>. <article-title><italic>Angiostrongylus</italic> infections in rats and snails in northeast Thailand</article-title>. <source>Southeast Asian J Trop Med Public Health</source>. <year>1997</year>; <volume>28</volume>: <fpage>190</fpage>&#8211;<lpage>193</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tesana</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Srisawangwong</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sithithaworn</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Laha</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Andrews</surname> <given-names>R</given-names></name>. <article-title>Prevalence and intensity of infection with third stage larvae of <italic>Angiostrongylus cantonensis</italic> in mollusks from northeast Thailand</article-title>. <source>Am J Trop Med. Hyg</source>. <year>2009</year>; <volume>80</volume>: <fpage>983</fpage>&#8211;<lpage>987</lpage>. <object-id pub-id-type="pmid">19478262</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Hayes</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Yeung</surname> <given-names>NW</given-names></name>, <name name-style="western"><surname>Cowie</surname> <given-names>RH</given-names></name>. <article-title>Correction: Diverse gastropod hosts of <italic>Angiostrongylus cantonensis</italic>, the rat lungworm, globally and with a focus on the Hawaiian Islands</article-title>. <source>PLOS One</source>. <year>2018</year>; <volume>13</volume>(<issue>2</issue>): <fpage>e0193556</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0193556" ns0:type="simple">https://doi.org/10.1371/journal.pone.0193556</ext-link> <object-id pub-id-type="pmid">29470538</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lv</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>H-X</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Steinmann</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Invasive snails and an emerging infectious disease: eesults from the first national survey on <italic>Angiostrongylus cantonensis</italic> in China</article-title>. <source>PLoS Negl Trop Dis</source>. <year>2009</year>; <volume>3</volume>(<issue>2</issue>): <fpage>e368</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pntd.0000368" ns0:type="simple">https://doi.org/10.1371/journal.pntd.0000368</ext-link> <object-id pub-id-type="pmid">19190771</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kerdpreedee</surname> <given-names>S</given-names></name>. <article-title>The giant African snail</article-title>. <source>Kasikorn</source>. <year>1956</year>; <volume>29</volume>: <fpage>511</fpage>&#8211;<lpage>516</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Upatham</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kruatrachue</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Baidikul</surname> <given-names>V</given-names></name>. <article-title>Cultivation of the giant African snail, <italic>Achatina fulica</italic></article-title>. <source>J Sci Soc. Thailand</source>. <year>1988</year>; <volume>14</volume>: <fpage>25</fpage>&#8211;<lpage>40</lpage>.</mixed-citation></ref>
+<ref id="pone.0223257.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fontanilla</surname> <given-names>IKC</given-names></name>, <name name-style="western"><surname>Sta. Maria</surname> <given-names>IMP</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>JRM</given-names></name>, <name name-style="western"><surname>Ghate</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Naggs</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Wade</surname> <given-names>CM</given-names></name>. <article-title>Restricted genetic variation in populations of <italic>Achatina</italic> (Lissachatina) <italic>fulica</italic> outside of East Africa and the Indian Ocean Islands points to the Indian Ocean Islands as the earliest known common source</article-title>. <source>PLoS One</source>. <year>2014</year>; <volume>9</volume>(<issue>9</issue>): <fpage>e105151</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0105151" ns0:type="simple">https://doi.org/10.1371/journal.pone.0105151</ext-link> <object-id pub-id-type="pmid">25203830</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Monte</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Sim&#245;es</surname> <given-names>RO</given-names></name>, <name name-style="western"><surname>Oliveira</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Novaes</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Thiengo</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Silva</surname> <given-names>AJ</given-names></name>, <etal>et al</etal>. <article-title>Phylogenetic relationship of the Brazilian isolates of the rat lungworm <italic>Angiostrongylus cantonensis</italic> (Nematoda: Metastrongylidae) employing mitochondrial COI gene sequence data</article-title>. <source>Parasit Vectors</source>. <year>2012</year>; <volume>5</volume>: <fpage>248</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1756-3305-5-248" ns0:type="simple">https://doi.org/10.1186/1756-3305-5-248</ext-link>. <object-id pub-id-type="pmid">23130987</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Eamsobhana</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Solano</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gan</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yong</surname> <given-names>HS</given-names></name>. <article-title>Molecular differentiation of <italic>Angiostrongylus</italic> taxa (Nematoda: Angiostrongylidae) by cytochrome c oxidase subunit I (COI) gene sequences</article-title>. <source>Acta Trop</source>. <year>2010</year>; <volume>116</volume>: <fpage>152</fpage>&#8211;<lpage>156</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.actatropica.2010.07.005" ns0:type="simple">10.1016/j.actatropica.2010.07.005</ext-link></comment> <object-id pub-id-type="pmid">20654571</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref048"><label>48</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>&#268;erven&#225;</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Modr&#253;</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Feckov&#225;</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hrazdilov&#225;</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Foronda</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Alonso</surname> <given-names>AM</given-names></name>, <etal>et al</etal>. <article-title>Low diversity of <italic>Angiostrongylus cantonensis</italic> complete mitochondrial DNA sequences from Australia, Hawaii, French Polynesia and the Canary Islands revealed using whole genome next-generation sequencing</article-title>. <source>Parasit Vectors</source>. <year>2019</year>; <volume>12</volume>(<issue>1</issue>): <fpage>241</fpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s13071-019-3491-y" ns0:type="simple">https://doi.org/10.1186/s13071-019-3491-y</ext-link>. <object-id pub-id-type="pmid">31097040</object-id></mixed-citation></ref>
+<ref id="pone.0223257.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jefferies</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Shaw</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Viney</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Morgan</surname> <given-names>ER</given-names></name>. <article-title><italic>Angiostrongylus vasorum</italic> from South America and Europe represent distinct lineages</article-title>. <source>Parasitology</source>. <year>2009</year>; <volume>136</volume>: <fpage>107</fpage>&#8211;<lpage>115</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S0031182008005258" ns0:type="simple">10.1017/S0031182008005258</ext-link></comment> <object-id pub-id-type="pmid">19126274</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0223257.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223257.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Sato</surname>
+<given-names>Marcello Otake</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Marcello Otake Sato</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223257" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">22 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-18473</p>
+<p>Genetic characterization of Angiostrongylus larvae and their natural intermediate host, Achatina fulica, in Thailand</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Vitta,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>The MS brings informative results of the distribution of Angiostrongylus and the snail intermediate host in Thailand.</p>
+<p>The comments and suggestions of the reviewers were complementary and&#160;the authors should address all the items suggested if possible.&#160;&#160;&#160; &#160;</p>
+<p>Improvement on the text&#160;is necessary. Organizing&#160;better the&#160;ideas, specially in the discussion.&#160;The methodology should be written in a more concise manner. The map presented as a supplementary material could be a figure in the article,&#160;with data of snails/haplotypes and Angiostrongylus/haplotypes. Also in the discussion, the correlation of haplotype and final hosts (human infection if possible) would be an interesting and informative point in this MS.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 05 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Marcello Otake Sato, Ph.D., D.V.M.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. In your Methods section, please provide additional information regarding the permits you obtained for the work. Please ensure you have included the full name of the authority that approved the field site access and, if no permits were required, a brief statement explaining why.</p>
+<p>Additional Editor Comments:</p>
+<p>The MS brings informative results of the distribution of Angiostrongylus and the snail intermediate host in Thailand. However, improvement on the text is necessary. The methodology should be written in a more concise manner. The map presented as a supplementary material could be a figure with data of snails/haplotypes and Angiostrongylus/haplotypes. Also in the discussion, the correlation of haplotype and human infection (if possible) would be an interesting and informative point in this MS.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: I Don't Know</p>
+<p>Reviewer #2: N/A</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: PONE-D-19-18473</p>
+<p>This is a very nice set of data, with genetic studies of Angiostrongylus and its intermediate host in a wide an important endemic area.</p>
+<p>The title: what do authors mean by &#8220;natural&#8221;? I can think of two meanings: &#8220;that can be found naturally infected&#8221; and &#8220;well-adapted&#8221;. I suggest to remove this word from the title since it does not add any fundamental information besides the main objective.</p>
+<p>Line 73: As commented above, I see no reason to include &#8220;in nature&#8221;.</p>
+<p>Line 84- Sure that genetic studies are fundamental, but the linkage between this study and &#8220;disease control&#8221; or specifically angiostrongyliasis control is not clear. Perhaps authors may re-write or clarify.</p>
+<p>Line 100- &#8220;&#8230;an invasive land snail..&#8221; is not needed here as this was just addressed in the previous section.</p>
+<p>Tables- formatting shall be revised according to PLoS One instructions.</p>
+<p>Figures- They also need improvement for better quality.</p>
+<p>Figure 1- the map of Thailand showing places where collection was performed. A much nicer presentation would be the indication of collection places with dots corresponding to exact geographic coordinates (geo-referencing). This shall be the informative mode of presenting geographic occurrence data, since just painting the geographic area of province is less informative.</p>
+<p>Results- one very important information is the distribution of individual larvae counts. I strongly suggest authors to provide this information ina suppplementary file or to add it in manuscript and explore it. It gives a very nice opportunity to discuss the degree of parasite-host adaptation. It also enriches the contribution of this nice work.</p>
+<p>Reviewer #2: Comment to MS: MS. No. PONE-D-19-18473 Genetic characterization of Angiostrongylus larvae and their natural intermediate host, Achatina fulica, in Thailand</p>
+<p>This study revealed genetic diversity of Angiostrongylus larvae and Achatina fulica, natural intermediate host. New findings of A. fulica haplotypes were found (AF1 and AF2) based on sequencing of the COI gene. Two new additional cytb haplotypes of A. cantonensis (AC19 and AC20) were also identified in this study. Scientific sound is good. Manuscript is well written. This is useful for more understanding of system study to explore the epidemiology of Angiostrongylus spp. and Achatina fulica intermediate host.</p>
+<p>Specific comment:</p>
+<p>For ensure phylogenetic analysis, in addition to using the maximum-likelihood (ML) method in Phylogenetic analysis of Figures 1, 2 and 3, the authors should also use other methods such as (Bayesian analyses (BI) maximum-parsimony (MP) and neighbour-joining (NJ) analyses implemented as reported by as Ref 9: Rodpai R, Intapan PM, Thanchomnang T, Sanpool O, Sadaow L, Laymanivong S, et al. Angiostrongylus cantonensis and A. malaysiensis Broadly Overlap in Thailand, Lao PDR, Cambodia and Myanmar: A Molecular Survey of Larvae in Land Snails. PLoS One. 2016;11(8): e0161128. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.016112" ns0:type="simple">https://doi.org/10.1371/journal.pone.016112</ext-link>.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Carlos Graeff-Teixeira</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0223257.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223257.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223257" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223257.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">11 Aug 2019</named-content>
+</p>
+<p>We have changed the manuscript as reviewers suggested. Details are in the attached file.</p>
+<supplementary-material id="pone.0223257.s010" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223257.s010" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0223257.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223257.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Sato</surname>
+<given-names>Marcello Otake</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Marcello Otake Sato</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223257" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">18 Sep 2019</named-content>
+</p>
+<p>Genetic characterization of Angiostrongylus larvae and their intermediate host, Achatina fulica, in Thailand</p>
+<p>PONE-D-19-18473R1</p>
+<p>Dear Dr. Vitta,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Marcello Otake Sato, Ph.D., D.V.M.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: I Don't Know</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Authors have adequately answered all questions and comments.</p>
+<p>Reviewer #2: The revised manuscript have been done as standard of the journal and revised as my suggestions. I have no comment again.</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Carlos Graeff-Teixeira</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0223257.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223257.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Sato</surname>
+<given-names>Marcello Otake</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Marcello Otake Sato</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0223257" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">20 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-18473R1 </p>
+<p>Genetic characterization of <italic>Angiostrongylus</italic>&#160;larvae and their intermediate host, <italic>Achatina fulica</italic>, in Thailand </p>
+<p>Dear Dr. Vitta:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Marcello Otake Sato  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

@@ -1,0 +1,58 @@
+<sub-article article-type="author-comment" id="pone.0222263.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222263.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222263" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222263.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">12 Aug 2019</named-content>
+</p>
+<p>Dear reviewers,</p>
+<p>Thank you for providing your review to the article entitled Laboratory Assessment of Alternative Stream Velocity Measurement Methods. The points raised were all helpful and relevant, and I am raising only one minor rebuttal. Otherwise, I addressed each point raised by making the correction or clarification that was suggested. Responses to each point are included below.</p>
+<p>Sincerely,</p>
+<p>Stephen Hundt</p>
+<p>Editorial Review</p>
+<p>1. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p>Noted</p>
+<p>2. We note you have included a table to which you do not refer in the text of your manuscript. Please ensure that you refer to Tables 1,3, &amp; 5 in your text; if accepted, production will need this reference to link the reader to the Table.</p>
+<p>The Microsoft Word links were broken. I have removed those links and manually entered references to all tables.</p>
+<p>Peer Reviewer #1</p>
+<p>Reviewer #1: General comment</p>
+<p>This study evaluates the efficiency and accuracy of four alternative, low-cost, methods to measure the stream velocity under laboratory conditions. The paper is well structured and clearly written, providing all necessary information in the various sections (introduction, methodology, results etc.) in an appropriate and diligent way. In my opinion, the paper may be published after minor revision. Here are my specific comments.</p>
+<p>Thank you</p>
+<p>Specific comments</p>
+<p>Line 30: Please delete &#8220;with the velocity head rod and surface float methods&#8221;</p>
+<p>Done</p>
+<p>Lines 72-79: This paragraph is not appropriate for the Material and Methods Section. Please incorporate the meaning of this paragraph in the Discussion or Conclusion section.</p>
+<p>Done</p>
+<p>Line 154: Please explain how this formula is derived. Based on Bernoulli equation?</p>
+<p>Yes. An explanation was provided.</p>
+<p>Line 190: Please explain or provide a reference how this formula is derived.</p>
+<p>An explanation of the formula&#8217;s derivation was provided.</p>
+<p>Line 201 (also lines 353, 359, 456): Please note that a broken link is appeared (Error! Reference source not found).</p>
+<p>Thank you. These have been fixed.</p>
+<p>Lines 239-241: The meaning in this sentence is not clear. Please consider to revise more clearly.</p>
+<p>I have revised with a clearer explanation.</p>
+<p>Fig. 1: Does the same title should be appeared in both vertical axes? If yes, why are the figures upside down?</p>
+<p>That was a mistake. The left y-axis has been corrected to &#8216;&#8230;height above&#8230;&#8217; The dual y-axes and titles were the suggestion of a prior reviewer.</p>
+<p>Line 337: What is the correlation coefficient for equation 5? Please provide.</p>
+<p>I&#8217;ve included the correlation coefficient (0.95) and RMSE (0.038).</p>
+<p>Lines 339-340: For the smooth substrate, a constant velocity ratio is proposed, obviously for convenience in use. In my opinion, a new formula, similar to equation 5, would describe more accurately the experimental data and should be provided. In every case, the correlation coefficient should be given even for the case of constant velocity ratio (a =0.92) as well as for the new formula.</p>
+<p>I have included the correlation coefficient and RMSE for the smooth substrate depth vs velocity ratio. However, I still chose to apply a constant, and gave justification for this choice in the text. The correlation coefficient doesn&#8217;t make sense for this non-linear model, but I did include the RMSE (just the standard deviation in this case). </p>
+<p>Fig. 4: Please correct the division in the horizontal axes of the upper two diagrams to comply with the horizontal axes of the two lower diagrams.</p>
+<p>Corrected.</p>
+<p>Line 400: How is the velocity ratio estimated in equation 6? Which values of velocity ratio should be used? Please clarify. Also, is it possible to use equation 6 to estimate the surface velocity? If not, please clarify why.</p>
+<p>This section was rewritten to add clarity.</p>
+<p>Line 620: Which are the three methods? Please clarify.</p>
+<p>This has been clarified.</p>
+</body>
+</sub-article>

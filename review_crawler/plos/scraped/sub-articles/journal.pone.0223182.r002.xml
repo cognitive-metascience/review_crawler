@@ -1,0 +1,69 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0223182.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0223182.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0223182" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0223182.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">14 Sep 2019</named-content>
+</p>
+<p>Dear Reviewers and Editors,</p>
+<p>Thank you very much for your useful comments and suggestions on the content and language of our manuscript. Your comments are very valuable and helpful for revising and improving our work. The detailed corrections are written in the file "Response to Reviewers". I copy the contents here.</p>
+<p>Reviewer #1&#65306;</p>
+<p>1) Combining multi-agent synergy theories and genetic algorithm, a multi-agent genetic algorithm (MAGA) is firstly proposed. Furthermore, a multi-agent genetic algorithm based on tabu search (MAGATS) is proposed. This paper only discusses the improvement of optimization performance of the MAGATS from the theoretical level, but lacks case analysis. It is better to compare MAGATS with MAGA and GA to show the difference multi-agent and TS make.</p>
+<p>Thanks for the comments.</p>
+<p>Your comments are very helpful to further improve the logical rigor of our paper. According to your comments, in Section 4.1 of the revised manuscript, we use 11 instances of different sizes to test the performance of MAGATS, GA and MAGA. By calculating the optimal value, average value and variance of the optimization results, the optimization quality and stability of the MAGATS compared with the GA and MAGA is proved. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>2) The structure of the paper can be further improved. For example, Section 2 is too small compared with other major sections.</p>
+<p>Thanks for the comments.</p>
+<p>The contents described in Section 2 of the manuscript is mainly about the model of job shop scheduling. The achievement of MAGA and MAGATS is introduced successively in Section 3. Compared with Section 3, the information provided is relatively litter in Section 2. According to your comments, Section 3 is split two sections, that is, &#8220;The achievement of MAGA&#8221; and &#8220;The achievement of MAGATS&#8221;. Section &#8220;Model of JSSP&#8221; and Section &#8220;The achievement of MAGA&#8221; are merged into one new Section &#8220;The achievement of MAGA&#8221;. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>3) Please check the reference citation format. For example, "Garey M and Sethi J proved that JSSP had non-deterministic polynomial (NP) characteristics [1]. ". --&gt;"Garey and Sethi proved that JSSP had non-deterministic polynomial (NP) characteristics [1]. "</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections and check the references citation format carefully. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>4) Define abbreviations upon first appearance in the text. Please check the abbreviations in the paper. For example, the abbreviations &#8220;GA&#8221; of &#8220;genetic algorithm&#8221; should appear in the abstract.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections and check the abbreviations carefully. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>5) The article is too long and should be condensed. The contents of the paper should mainly reflect its own important research contents.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we cut down the contents of three places in the paper.</p>
+<p>Firstly, in Section 1, the contents about exact methods for solving JSSPs is cut down. The researches about mathematical programming method, branch and bound method are not relevant to our research.</p>
+<p>Secondly, in Section 3.1.1, Table 1 is deleted. The table is a short review about advantages and disadvantages encoding methods of GA used for JSSP. The main purpose of this paper is to choose the most suitable operation-based encoding method by comparing various encoding methods. The table is not necessary in this paper. Pointing out the advantages of the operation-based encoding method is enough. </p>
+<p>Finally, Fig 5 in the manuscript is about the semi-active scheduling solution of 4&#215;4 JSSP in Table 2. Its original purpose is to prove that active scheduling is superior to semi-active scheduling, which is an accepted fact. It is also unnecessary in the paper. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>Reviewer #2&#65306;</p>
+<p>1) It is better to show the mean and standard deviation of 20-run results for all algorithms, which helps to see whether the differences are statistically significant or not.</p>
+<p>Thanks for the comments.</p>
+<p>Table 3 in Section 4 contains the optimization results of 5 algorithms for 43 instances. For other algorithms other than MAGATS in the table, the corresponding paper only provides the optimization results for various instances, but does not provide the mean and standard deviation of the algorithm. Therefore, considering the time cost, it is difficult to implement. However, in the new Section 4.1, the mean and standard deviation of GA, MAGA and MAGATS are calculated, which is used to complete the comparative analysis of three algorithms. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>2) In section 3.2. Fig 14 introduces the flow chart of MAGATS. But the parameters setting and specific steps of TS are introduced below the figure. There is some confusion in logic, so it is better to reorganize it.</p>
+<p>Thanks for the comments.</p>
+<p>MAGATS is a combination of MAGA and TS. Because the flow chart of MAGA has been introduced in Section 3.1.1, this section focuses on the remaining TS in MAGATS. Therefore, below the figure, we only introduce the parameters setting and specific steps of TS. To avoid logical misunderstanding of the content of the paper&#65292;we have made some revisions in the revised manuscript with track changes. &#8220;Specific steps of TS are summarized as follows.&#8221; is modified to &#8220;Specific steps of MAGATS are summarized as follows.&#8221; The corresponding contents of some steps are also modified to some extent. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>3) The tenses in the article are confused, the simple present tense and the simple past tense coexist. The unified tense is helpful to understand the article.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, the tense in our paper is modified to the simple past tense. The main changes are in the abstract and the conclusions. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<p>4) The variables in the text should be italicized, such as variable &#8220;&#955;&#8221; in Row 201 and Row 203.</p>
+<p>Thanks for the comments.</p>
+<p>Per the Reviewer&#8217;s suggestion, we have made corresponding corrections. Detailed changes are in the revised manuscript with track changes.</p>
+<p>Please check.</p>
+<supplementary-material id="pone.0223182.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0223182.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

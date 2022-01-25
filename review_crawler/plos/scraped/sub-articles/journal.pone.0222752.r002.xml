@@ -1,0 +1,59 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222752.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222752.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222752" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222752.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">29 Aug 2019</named-content>
+</p>
+<p>Comments from Reviewer 1</p>
+<p>General comment</p>
+<p>This is an interesting study that examined an association between role model presence and self-regulation using a large sample. Self-regulation is an important in human development process. Clarifying the relationship between role model presence and self-regulation appears to contribute on future education and the relevant intervention. I found the only two revision points and other two discretionary revision points. I listed them below.</p>
+<p>Response the general comment</p>
+<p>Thank you for your comments. We have incorporated the suggested changes into the manuscript to the best of my ability.</p>
+<p>Comment 1</p>
+<p>1. Title, hypothesis, and discussion</p>
+<p>The authors can clarify the primary aim of this study and how hopefulness was treated in the study. The title indicates that the primary aim was to test association between role model presence and self-regulation, although the two hypotheses mentioned hopefulness. Also, the discussion focused mostly on role model and self-regulation, rather than hopefulness. If the hopefulness was important for this study, the authors can add their assumption of the significant results for hopefulness in the section of Discussion.</p>
+<p>Response to the comment 1</p>
+<p>Thank you for your comment. As suggested by the comment 1 and 4, our primary aim was to test association between role model presence and self-regulation. Therefore we have modified abstract, Introduction, Materials and Methods, and Discussion to make the point clear.</p>
+<p>Abstract, page 4 line 49-52: The current study examined the associations between role model presence and self-regulation during early adolescence, controlling for hopefulness, using a large population-based data set from the Tokyo Teen Cohort study.</p>
+<p>Introduction, page 7 line 101-107: Hopeful future expectations have been suggested to play an important role in the development of self-regulation across adolescence [15]. As hopefulness stems from a sense of purpose in life [24], role model presence may precede hopeful future expectations. The associations between role model presence and self-regulation after adjusting for level of hopefulness have not been previously examined in early adolescence.</p>
+<p>Introduction, page 8 line 109-116: The present study aimed to investigate the associations between role model presence and self-regulation, controlling for hopefulness, among adolescents, using a large population-based cohort, the Tokyo Teen Cohort (TTC). We hypothesised that self-regulation would be higher among adolescents who could identify a role model, even after controlling for their level of hopeful future expectations.</p>
+<p>Materials and Methods, page 11 line 173-174: The primary covariate in this study was hopeful future expectations.</p>
+<p>Discussion, page 19 line 262-268: The present study is the first to indicate positive associations between role model presence and self-regulation in early adolescence. Specifically, in case where adolescents identified a role model, higher levels of self-regulation were observed. Hopeful future expectations were also associated with higher self-regulation; however, the association between role model presence and self-regulation remained significant even after adjusting for level of hopeful future expectations.</p>
+<p>Comment 2</p>
+<p>2. Limitation</p>
+<p>It is suggested that the authors mention the validity of scales/measures which assessed main variables in this study.</p>
+<p>Response to the comment 2</p>
+<p>Thank you for the suggestion. As suggested by the editor&#8217;s comment 2, we have explained that the Japanese version of instrument for self-regulation was developed as part of our study in page 10 line 157-158. Thus, we have added the mention regarding validity to limitations.</p>
+<p>Page 21 line 306 - page 22 line 308: Although the Japanese version of instrument for measuring self-regulation was developed based on well-established measures, further examination may be warranted too establish its validity.</p>
+<p>Comment 3</p>
+<p>1. Title</p>
+<p>While the study was part of well-deigned large-scale cohort study in Japan, the present study employed a cross-sectional design. This indicates that the study could not create evidence on direction between exposure and outcome. Therefore, the terms &#8220;shaper&#8221; would not be appropriate. This term problem may apply to the same or similar terms throughout the manuscript. In addition, STROBE guideline (e.g. von Elm et al, BMJ, 2007) recommends the authors to write the study design in the title. The authors can reconsider the title. An example below;</p>
+<p>An association between role model presence and self-regulation in early adolescents: a cross-sectional study.</p>
+<p>Response to the comment 3</p>
+<p>Thank you for the suggestion. We have revised the title as suggested by the comment, and removed all the terms &#8216;shaper&#8217; from the manuscript.</p>
+<p>Comment 4</p>
+<p>2. Statistical analysis</p>
+<p>In the final analysis, it appears that the authors included the variable for hopefulness, like a control variable or a co-variate. If the authors have two clear hypotheses about testing two associations between role model presence and self-regulation and between role model presence and hopefulness, each hypothetical relationship can be separately tested in the different regression models, because each relationship may theoretically have the different potential confounders for which the authors should be adjusted. On the other hand, if the authors want to examine the association between three variables including role model presence, self-regulation and hopefulness, together, structural equation modelling (SEM) would be appropriate as the final modelling analysis.</p>
+<p>Response to the comment 4</p>
+<p>Thank you for the comment. As suggested by the comment 1, we have revised the manuscript to define hopefulness as a covariate.</p>
+<p>We wish to thank the reviewers again for the valuable comments.</p>
+<supplementary-material id="pone.0222752.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222752.s002" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">RevisionNotesR1_PONE-D-19-16626.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

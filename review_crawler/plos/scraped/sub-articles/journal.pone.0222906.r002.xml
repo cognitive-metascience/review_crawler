@@ -1,0 +1,24 @@
+<sub-article article-type="author-comment" id="pone.0222906.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222906.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222906" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222906.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">9 Sep 2019</named-content>
+</p>
+<p>I have the following comment on the Master Equation on page 7 I am not familiar with your way of writing the Master Equation in (3). Is there a specific equation in Van Kampen that you are citing? Maybe you should indicate this. Normally $\\mathbb{E}$ means expectation, so it would be better to use another notation for the step operator.</p>
+<p>Also it is not quite clear what the superscripts of $\\mathbb{E}$ are indicating.</p>
+<p>In general, a few more details are needed here.</p>
+<p>Thank you. The notation used is that used in the third edition of van Kampen&#8217;s textbook; we have added a citation to the precise definition in said textbook, and clarified the use of superscripts as requested. We have additionally changed to use the bbold package to improve the similarity to the step operator as typeset in van Kampen.</p>
+</body>
+</sub-article>

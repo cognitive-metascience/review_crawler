@@ -1,0 +1,1014 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218906</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-16233</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Blood cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject><subj-group><subject>Monocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Neurology</subject><subj-group><subject>Brain damage</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Neurons</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cellular neuroscience</subject><subj-group><subject>Neurons</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell processes</subject><subj-group><subject>Cell death</subject><subj-group><subject>Neuronal death</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Glial cells</subject><subj-group><subject>Macroglial cells</subject><subj-group><subject>Astrocytes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Glial cells</subject><subj-group><subject>Microglial cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Specimen preparation and treatment</subject><subj-group><subject>Staining</subject><subj-group><subject>Cell staining</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Human umbilical cord blood monocytes, but not adult blood monocytes, rescue brain cells from hypoxic-ischemic injury: Mechanistic and therapeutic implications</article-title>
+<alt-title alt-title-type="running-head">Cord blood monocytes protect neurons from OGD</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5080-307X</contrib-id>
+<name name-style="western">
+<surname>Saha</surname>
+<given-names>Arjun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Patel</surname>
+<given-names>Sachit</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<xref ref-type="fn" rid="currentaff001"><sup>&#164;</sup></xref>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Xu</surname>
+<given-names>Li</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Scotland</surname>
+<given-names>Paula</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1379-0529</contrib-id>
+<name name-style="western">
+<surname>Schwartzman</surname>
+<given-names>Jonathan</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Filiano</surname>
+<given-names>Anthony J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kurtzberg</surname>
+<given-names>Joanne</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Balber</surname>
+<given-names>Andrew E.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001" />
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Marcus Center for Cellular Cures (MC3), Duke University School of Medicine, Durham, North Carolina, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Borlongan</surname>
+<given-names>Cesar V.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of South Florida, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff001">
+<label>&#164;</label>
+<p>Current address: Department of Pediatrics, Division of Pediatric Blood and Marrow Transplantation, University of Nebraska Medical Center, Omaha, Nebraska, United States of America</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">arjun.saha@duke.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>4</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0218906</elocation-id>
+<history>
+<date date-type="received">
+<day>7</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>13</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Saha et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0218906" />
+<abstract>
+<p>Cord blood (CB) mononuclear cells (MNC) are being tested in clinical trials to treat hypoxic-ischemic (HI) brain injuries. Although early results are encouraging, mechanisms underlying potential clinical benefits are not well understood. To explore these mechanisms further, we exposed mouse brain organotypic slice cultures to oxygen and glucose deprivation (OGD) and then treated the brain slices with cells from CB or adult peripheral blood (PB). We found that CB-MNCs protect neurons from OGD-induced death and reduced both microglial and astrocyte activation. PB-MNC failed to affect either outcome. The protective activities were largely mediated by factors secreted by CB-MNC, as direct cell-to-cell contact between the injured brain slices and CB cells was not essential. To determine if a specific subpopulation of CB-MNC are responsible for these protective activities, we depleted CB-MNC of various cell types and found that only removal of CB CD14<sup>+</sup> monocytes abolished neuroprotection. We also used positively selected subpopulations of CB-MNC and PB-MNC in this assay and demonstrated that purified CB-CD14<sup>+</sup> cells, but not CB-PB CD14<sup>+</sup> cells, efficiently protected neuronal cells from death and reduced glial activation following OGD. Gene expression microarray analysis demonstrated that compared to PB-CD14<sup>+</sup> monocytes, CB-CD14<sup>+</sup> monocytes over-expressed several secreted proteins with potential to protect neurons. Differential expression of five candidate effector molecules, chitinase 3-like protein-1, inhibin-A, interleukin-10, matrix metalloproteinase-9 and thrombospondin-1, were confirmed by western blotting, and immunofluorescence. These findings suggest that CD14<sup>+</sup> monocytes are a critical cell-type when treating HI with CB-MNC.</p>
+</abstract>
+<funding-group>
+<funding-statement>This work was supported by grants from the Julian Robertson Foundation and the Marcus Foundation.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="1" />
+<page-count count="18" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Mononuclear cell (MNC) prepared from human umbilical cord blood (CB) are candidate therapeutics for treating hypoxic-ischemic (HI) brain injuries. Patients with cerebral palsy [<xref ref-type="bibr" rid="pone.0218906.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref004">4</xref>], neonatal hypoxic-ischemic encephalopathy (HIE) [<xref ref-type="bibr" rid="pone.0218906.ref005">5</xref>], and acute ischemic stroke [<xref ref-type="bibr" rid="pone.0218906.ref006">6</xref>] have been treated with intravenously administered CB-MNC in early safety and feasibility trials. Some signals of efficacy have emerged in a Phase 2 trial in young children with cerebral palsy [<xref ref-type="bibr" rid="pone.0218906.ref007">7</xref>], and additional clinical studies involving treatment of ischemic brain injury with CB are currently listed as open on ClinTrials.gov (stroke, NCT02433509,. NCT0167393, NCT0300497, NCT0143859, NCT02881970; neonatal hypoxic ischemic encephalopathy, NCT0243496, NCT02612155, NCT0225661, NCT0255100, NCT0228707; various conditions, NCT0332746).</p>
+<p>Many preclinical studies suggest that CB-MNC protect the brain after HI by releasing neurotrophic and anti-inflammatory factors that stimulate repair by host cells [<xref ref-type="bibr" rid="pone.0218906.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0218906.ref009">9</xref>]. These studies, using various animal and culture systems, have implicated different CB-MNC subpopulations in contributing to neuroprotection [<xref ref-type="bibr" rid="pone.0218906.ref010">10</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref018">18</xref>]. CB-MNC protect primary astrocytes [<xref ref-type="bibr" rid="pone.0218906.ref019">19</xref>], oligodendrocytes [<xref ref-type="bibr" rid="pone.0218906.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0218906.ref021">21</xref>], and microglia [<xref ref-type="bibr" rid="pone.0218906.ref019">19</xref>], as well as neuronal cell lines [<xref ref-type="bibr" rid="pone.0218906.ref015">15</xref>] from HI-induced injury. However, what factors mediate brain repair, the CB-MNC cell types that contribute, and the host cells with which they interact are unclear. Determining which cell types in CB-MNC enhance brain tissue repair, and the mechanisms by which they do so, will optimize decisions on dosing, route of administration, treatment frequency, and other critical clinical and regulatory parameters. This information may also help in the development of mechanism-based potency assays for advanced clinical testing and, ultimately, for manufacturing and releasing products for clinical use.</p>
+<p>In this paper, we present experiments that address these questions using organotypic mouse brain slice cultures exposed to oxygen-glucose deprivation (OGD) [<xref ref-type="bibr" rid="pone.0218906.ref022">22</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref025">25</xref>]. The brief OGD exposure triggers a neuro-inflammatory cascade involving activation of microglia and astrocytes that leads to the death of neurons over 2 to 3 days. Organotypic slice cultures offer the advantage of preserving the cytoarchitecture of the tissue of origin and connectivity of different anatomical regions, as well as functional relationships and interactions between neighboring cells, such as neurons and astrocytes, keeping the intrinsic synaptic connections found <italic>in vivo</italic>. Because the brain architecture and cell types are preserved in this model, the pathogenic mechanisms induced by OGD in brain slices are similar to those causing HI brain injuries <italic>in vivo</italic> [<xref ref-type="bibr" rid="pone.0218906.ref026">26</xref>]. Thus, this model can be used to test cell therapies for neuroprotection following OGD [<xref ref-type="bibr" rid="pone.0218906.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0218906.ref026">26</xref>]. We report here that CB-MNC protect neurons from death and dampen the activation of astrocyte and microglia in slice cultures exposed to OGD. This neuroprotection was mediated by CD14<sup>+</sup> monocytes in the CB-MNC. Unlike CB monocytes, CD14<sup>+</sup> monocytes from adult peripheral blood (PB) did not confer protection to neurons or reduced glial activation. We identified several candidates upregulated, at the RNA and protein levels, in CB monocytes compared to PB monocytes that may play a role in neuroprotection and repair. These findings will inform late stage clinical development of CB-MNC products for treatment of HI brain injury.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Material and methods</title>
+<sec id="sec003">
+<title>Animals</title>
+<p>All experiments were performed in accordance with Duke University Institutional Animal Care and Use Committee&#8217;s policies and followed approved protocols. The protocol was approved by the Duke IACUC (Protocol Number: A020-17-01) for all the animal related studies described in this paper including mouse organotypic brain slice culture. C57BL/6 mice (The Jackson Laboratory) and CX3CR1-GFP<sup>+</sup>/- mice were maintained in Duke Facilities under direct veterinary supervision. Animals had ad libitum access to food and water in a temperature-controlled room under a 12-hour light: 12-hour dark illumination cycle.</p>
+</sec>
+<sec id="sec004">
+<title>Oxygen-glucose deprivation (OGD) of brain slice cultures</title>
+<p>Organotypic forebrain slice cultures were prepared following the method described by Stoppini <italic>et al</italic>.[<xref ref-type="bibr" rid="pone.0218906.ref022">22</xref>]. Briefly, 300&#956;m thick forebrain sagittal slices from postnatal day-2 mouse pups, sacrificed by decapitation, were sectioned. The sections were cultured under controlled atmospheric conditions on top of cell impermeable membranes in contact with culture medium. Slices were exposed to medium without glucose in an oxygen-free gas mixture for one hour, returned to normoxic, glucose replete conditions, and incubated for 72 hours before further analysis.</p>
+</sec>
+<sec id="sec005">
+<title>Treating slice cultures with cells</title>
+<p>To test the protective activity of human CB or PB cell populations, 2.5 x 10<sup>4</sup> cells were added directly onto each brain slice immediately after OGD shock. Alternatively, to check possible paracrine effect, cell populations were added to the tissue culture medium below the membrane supporting slices. And in this case, to compensate for possible dilution of protective factors by the large volume the culture medium, we added 1.25x10<sup>5</sup> cells below the membrane. Cell death and/or the cellular composition of the slice cultures were compared to control slices not treated with cells 72 hours after OGD treatment.</p>
+</sec>
+<sec id="sec006">
+<title>Evaluation of cell death following OGD</title>
+<p>Slices were transferred to medium containing propidium iodide (PI, 2.0 &#956;g/mL, Sigma) and incubated for 30 minutes to stain late apoptotic and necrotic cells, washed thoroughly with PBS, fixed with 4% paraformaldehyde [PFA] containing <ext-link ext-link-type="uri" ns0:href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwjF88Om1aDWAhVGBoYKHUrUCdsYABAAGgJ2dQ&amp;ohost=www.google.com&amp;cid=CAASEuRolCShbDFusrNlbRa8zJRJvw&amp;sig=AOD64_2iHa_Pv-1eCwV6EQP8P2wBlwh6Cg&amp;q=&amp;ved=0ahUKEwjb8L-m1aDWAhVJYyYKHeIwCsgQ0QwIJA&amp;adurl=" ns0:type="simple">4,6-diamidino-2-phenylindole&#8206;</ext-link> (DAPI). Slides were coded, and percentage of total cells (DAPI staining) that were dead (PI staining) in multiple sequential images of the periventricular region was determined. To minimize regional variation, we kept the region of analysis uniform (periventricular region) between experimental groups. Each slide was analyzed by an investigator blinded to the identity of the experimental material using a Leica SP8 upright confocal microscopy (Leica Microsystems, IL, USA) and ImageJ and Plugin Cell Counter (NIH Image, USA) software.</p>
+</sec>
+<sec id="sec007">
+<title>Immunohistological analysis of cell populations in slice cultures</title>
+<p>Brain slices were fixed in 4% PFA and blocked in phosphate buffered saline (PBS) containing 3% heat-inactivated horse serum, 2% bovine serum albumin (BSA), and 0.25% triton-X-100 overnight. Primary antibody was prepared in 2% BSA, 0.25% triton X-100 in PBS. Slides were incubated in antibody for 24&#8211;48 hours and subsequently washed once for 30 minutes and twice for 1 hour in PBS. Secondary antibody was prepared in 2% BSA in PBS. Slides were incubated 24 hours, subsequently washed once 30 minutes and twice for 1 hour and mounted with Vectashield (Vector Labs, CA, USA). Images were analyzed as described for PI staining. All details concerning antibodies are presented in <xref ref-type="supplementary-material" rid="pone.0218906.s005">S1 Table</xref>.</p>
+</sec>
+<sec id="sec008">
+<title>Sholl analysis method for microglial activation</title>
+<p>We used CX3CR1-GFP<sup>+</sup>/- mice pups to set up the slice culture to do Sholl analysis to quantify microglial projections. Unbiased Sholl analysis was done by selecting 3&#8211;4 representative microglial cells in each max projection image using Fiji (ImageJ). Each image was thresholded by eye to convert each 32-bit grayscale image to a compatible 8-bit image with an inverted LUT. The freehand selection tool was utilized to appropriately select the desired microglial cell and clear the outside. The straight-line tool was used to define the largest Sholl radius, beginning in the center of the cell and arbitrarily extending outward. Sholl analysis was performed under the &#8216;most informative&#8217; normalized profile, which auto-determines whether to use a semi-log or log-log method of analysis [<xref ref-type="bibr" rid="pone.0218906.ref027">27</xref>]. Area was used as the normalizer in each profile. Parameters were set with a beginning radius of 5 microns, an ending radius of 49 microns, and a step size of 2 microns. The enclosing radius cutoff was set at 1 intersection. Sholl analysis data was presented by averaging the number of intersections per step size per group.</p>
+</sec>
+<sec id="sec009">
+<title>Isolation of human umbilical cord and adult peripheral blood mononuclear cells</title>
+<p>Freshly collected human umbilical cord blood was provided by the Carolinas Cord Blood Bank at Duke, an FDA licensed public cord blood bank that accepts donations of cord blood collected after birth from the placentas of healthy term newborns after written informed consent from the baby&#8217;s mother. Also with maternal informed consent, cord blood units not qualifying for banking for transplantation were designated for research and made available for this study. Peripheral blood (PB) was obtained via venipuncture from healthy adult volunteer donors. Procurement of human samples were obtained using protocols approved by the Duke University Institutional Review Board. Mononuclear cells were isolated from CB and PB by density centrifugation using standard Ficoll-Hypaque technique (GE Healthcare) then treated with 0.15M NH<sub>4</sub>Cl to lyse residual erythrocytes and washed in phosphate-buffered saline (PBS).</p>
+</sec>
+<sec id="sec010">
+<title>Immunomagnetic cell isolation of various sub-populations of CB and PB experiments</title>
+<p>Specific sub-populations were isolated or removed from CB-MNC or PB-MNC by immunomagnetic sorting using EasySep cell kits for human CD34<sup>+</sup>, CD3<sup>+</sup>, CD14<sup>+</sup> and CD19<sup>+</sup> cells (Stemcell Technologies, Vancouver, Canada, Catalog #18096, #18051, #18058 and #18054 respectively) following the manufacturer&#8217;s directions. Flow-through fractions from positive selection columns were re-run through the columns to increase the purity of targeted populations. A sample of each cell preparation was analyzed by flow cytometry to determine cellular composition [<xref ref-type="bibr" rid="pone.0218906.ref028">28</xref>]. Immuno-magnetically selected specific sub-population of cells with &#8805;80% purity was used for any experiment. More highly purified populations were obtained by cell sorting as described below for gene expression analysis.</p>
+</sec>
+<sec id="sec011">
+<title>RNA isolation and microarray analysis</title>
+<p>RNA isolation and microarray analysis were carried out exactly as described previously using 54,675 probe set Affymetrix GeneChip Human Transcriptome Array 2.0 microarrays and Partek Genomics Suite 6.6 (Partek Inc., St. Louis, MO) software for analysis [<xref ref-type="bibr" rid="pone.0218906.ref028">28</xref>]. <xref ref-type="supplementary-material" rid="pone.0218906.s005">S1 Table</xref> outlines the experimental methods to prepare cells used for RNA extraction, the number of donors, and the characteristics of the donors used for each chip. Full expression analysis of CB data from Experiment 714 was previously published [<xref ref-type="bibr" rid="pone.0218906.ref028">28</xref>]; comparison of CB to PB-CD14<sup>+</sup> cells was not included in that publication. <xref ref-type="supplementary-material" rid="pone.0218906.s006">S2 Table</xref> provides demographic information on the donors and describes the preparation of CD14<sup>+</sup> cells used for the analysis, and numbers we used to designate the experiments in the text.</p>
+</sec>
+<sec id="sec012">
+<title>Western blotting</title>
+<p>Western blotting was carried out as previously described [<xref ref-type="bibr" rid="pone.0218906.ref028">28</xref>] using antibodies described in <xref ref-type="supplementary-material" rid="pone.0218906.s005">S1 Table</xref>.</p>
+</sec>
+<sec id="sec013">
+<title>Statistical analysis</title>
+<p>Data analysis was performed by calculating the mean of the values for each individual group &#177; standard error of mean and shown, graphically. Statistical analyses were carried out with GraphPad Prism software. All comparisons were performed by one-way analysis of variance (ANOVA) followed by post-hoc analysis with Bonferroni correction. Mean differences were considered significant if p&lt;0.05 was computed.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<sec id="sec015">
+<title>CB-MNC protect organotypic brain slice culture cells from OGD induced damage</title>
+<p>Mouse brain organotypic slice cultures were exposed to OGD for 1-hour and returned to the normoxic condition with media containing glucose for the cell treatment. A schematic diagram of the organotypic brain slice culture system is shown in <xref ref-type="supplementary-material" rid="pone.0218906.s001">S1 Fig</xref>. The extent of damage in the brain slice culture was evaluated by cellular PI uptake after the ischemic insult and following cell treatment. We found a significant number of cells in mouse brain slice cultures became permeable to PI during the three days following OGD shock <xref ref-type="fig" rid="pone.0218906.g001">Fig 1A</xref>. Addition of 25,000 CB-MNC to the surface of each OGD-shocked brain slice reduced the number of PI-stained dead cells significantly compared to the OGD-shocked control slices cultured without CB cells. This decrease in the number of dead cells in OGD-shocked cultures protected by CB-MNC approached background cell death in normoxic cultures. Quantitative analysis of PI-positive cells showed that the protective effect of CB-MNC was dose dependent between 2,500 to 25,000 CB-MNC per slice; only 25,000 CB-MNC/slice gave statistically significant (p&lt;0.01) protection (<xref ref-type="fig" rid="pone.0218906.g001">Fig 1B</xref>). Accordingly, we used this dose of cells for all other subsequent experiments. When we added CSFE-labeled CB-MNC directly onto brain slices, we detected green fluorescent cells on the membrane near to and on the s 72 hours after the cell addition (<xref ref-type="supplementary-material" rid="pone.0218906.s001">S1 Fig</xref>). Staining with antibody to human nuclear antigen confirmed that these CFSE labeled cells were human cells (<xref ref-type="supplementary-material" rid="pone.0218906.s001">S1 Fig</xref>).</p>
+<fig id="pone.0218906.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0218906.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Human cord blood mononuclear cells reduce death of mouse forebrain cells following OGD shock.</title>
+<p>A) Left panel shows slice cultures not exposed to OGD. Slices in other panels were exposed to OGD for one hour, returned to normoxic, glucose replete conditions, and then cultured for 72 hours after which cell viability was assayed by staining with DAPI (blue) and PI (red). Middle panel shows slices cultured without added CB cells. Right panel shows slices cultured with 25,000 CB-MNC added directly onto slice at the end of OGD. B) Protection of brain cells following OGD depends on dose of CB-MNC added to slices. PI-stained cells were counted in contiguous 10X high power fields in the periventricular region. Bar graphs show mean <sup>+</sup>/- SE of PI-stained cells per 10X high-power filed. Only the 25,000 cell dose group showed protection (n = -3, one way ANOVA, * p&#8804;0.001). C) Paracrine factors from CB-MNC protect brain slice cultures after OGD shock. CB MNC were added either onto slice (light blue bar, 2.5x10<sup>4</sup> cells) or in medium below membrane (grey bar, 1.25x10<sup>5</sup> cells; n = 3, one way ANOVA, * p&lt;0.01). D) OGD-shocked slices were co-cultured with CB-MNC that had been immunomagnetically depleted of the specific subpopulations or were co-cultured with immunomagnetically selected subpopulations expressing the surface antigen shown. First column on the left shows normoxic controls. All other data from OGD shocked slices (one-way ANOVA; *p&lt;0.001).</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.g001" ns0:type="simple" />
+</fig>
+<p>To determine if paracrine factors released from CB-MNC contribute to their neuroprotective effects on OGD-shocked brain slices, we added CB-MNC to the medium below the membrane instead of directly onto the OGD-shocked slices. This prevented direct contact between CB-MNC and brain cells, but permitted agents secreted by CB-MNC to access to the cells in the brain slices through the 0.4&#956;m pores. To compensate for possible dilution of protective factors by the large volume the culture medium, we added 1.25x10<sup>5</sup> cells below the membrane. Adding CB-MNC below the membrane, directly into the medium, reduced brain cell death (<xref ref-type="fig" rid="pone.0218906.g001">Fig 1C</xref>). Thus, neuroprotection by CB-MNC after OGD is mediated at least in part through secreted factors.</p>
+<p>To identify what cell-types within CB-MNC mediated neuroprotection following OGD, we tested the ability of CB-MNC depleted of specific cell populations as well as isolating specific populations of cell from CB-MNC in our above organotypic cell death assay. Immunomagnetically enriched CD14<sup>+</sup> monocytes from CB were sufficient to protect slices from OGD, and CB-MNC depleted of CD14<sup>+</sup> monocytes were no longer able to confer protection (<xref ref-type="fig" rid="pone.0218906.g001">Fig 1D</xref>). Depleting other populations, e.g CD3<sup>+</sup> T-lymphocyte or CD19<sup>+</sup> B-lymphocytes or CD34<sup>+</sup> hematopoietic progenitor cells from CB-MNCs did not block protection.</p>
+</sec>
+<sec id="sec016">
+<title>CB CD14<sup>+</sup> monocytes protect neurons and reduce glial activation</title>
+<p>CB-CD14<sup>+</sup> monocytes preserved neurons and dampened microglial and astrocytic activation following OGD. Cell death following OGD was mirrored by a large decrease in the NeuN-positive neuronal nuclei (<xref ref-type="fig" rid="pone.0218906.g002">Fig 2A</xref> and <xref ref-type="fig" rid="pone.0218906.g002">Fig 2B</xref>). Astrocytes in the cultures that were treated with OGD became hypertrophic and extended multiple processes taking on a characteristic activated morphology (<xref ref-type="fig" rid="pone.0218906.g002">Fig 2C</xref>) [<xref ref-type="bibr" rid="pone.0218906.ref029">29</xref>, <xref ref-type="bibr" rid="pone.0218906.ref030">30</xref>]. Astrocytes were less activated in CB-CD14<sup>+</sup> treated slices than CD14-depleted CB-MNC or untreated OGD slices (<xref ref-type="fig" rid="pone.0218906.g002">Fig 2C</xref>). It is well established that microglial change morphology from a highly ramified resting state to a reactive/amoeboid state upon ischemic insult [<xref ref-type="bibr" rid="pone.0218906.ref031">31</xref>]. To visualize the microglial morphological change much easily we initiated the organotypic brain slice cultures using CX3CR1-GFP<sup>+</sup>/- mice P2 pups. Sholl analysis of these morphological changes reflecting microglial activation showed that CB-monocytes prevented microglial proliferation and activation in slices exposed to OGD (<xref ref-type="fig" rid="pone.0218906.g002">Fig 2D</xref>&#8211;<xref ref-type="fig" rid="pone.0218906.g002">Fig 2F</xref>).</p>
+<fig id="pone.0218906.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0218906.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>CB CD14<sup>+</sup> monocytes protect neurons and reduce glial activation following OGD shock.</title>
+<p>(A) Confocal images (40x) of antibody stained neurons (green, anti-NeuN) in the periventricular region of control and cell treated brain slice cultures co-cultured three days with various CB cell populations following OGD shock. Top left panel shows control slices not exposed to OGD and cultured without human cells. All other panels show slices exposed to OGD prior to addition of human cells. Top right panel shows slices co-cultured with selected CB-CD14<sup>+</sup> monocytes; and bottom right panel, with CB MNC depleted of CD14<sup>+</sup> monocytes. (B) The average number of NeuN<sup>+</sup> neurons in 40x high-powered fields (HPF) located along the periventricular region was determined. Values shown are means <sup>+</sup>/- standard deviation. N = 3 slices under each condition. Statistically significant differences (p&lt;0.01) compared to the OGD control are indicated by asterisks. (C) Confocal images (40x) of antibody stained astrocytes [magenta, anti- GFAP] in the periventricular region of control and cell treated brain slice cultures co-cultured three days with various CB cell populations following OGD shock. Top row shows control slices not exposed to OGD and cultured without human cells. All other rows show slices exposed to OGD prior to addition of CB cells. Third row shows slices co-cultured with CB-CD14<sup>+</sup> monocytes; fourth row, with CB MNC depleted of CD14<sup>+</sup> monocytes. (D) Representative confocal images of microglial cells in CX3CR1-GFP<sup>+</sup>/- mouse brain slice cultures and numbers are shown. (E) Sholl profiles of microglial cells in brain slices of normoxic, OGD-shocked and OGD-shocked treated with CBCD14<sup>+</sup> cells. Intersections were counted at 2&#956;m intervals from the soma center to a radius of 5 &#956;m to 50 &#956;m. Curves represent mean intersection values &#177;SEM. (F) Number of microglia in control and OGD-treated brain slice cultures with and without added CB CD14<sup>+</sup> cells.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec017">
+<title>PB-MNC or purified PB-CD14<sup>+</sup> cells failed to protect from OGD induced tissue damage</title>
+<p>Since PB-MNC are plentiful in patients with unresolved HI induced injuries we hypothesized that PB-MNCs would not protect against OGD insult. Unlike CB-MNCs, PB-MNCs, CD14<sup>+</sup> depleted PB-MNC, or isolated CD14<sup>+</sup>-PB monocytes were unable to prevent cell death (<xref ref-type="fig" rid="pone.0218906.g003">Fig 3A</xref>) or loss of neurons (<xref ref-type="fig" rid="pone.0218906.g003">Fig 3B</xref>), following OGD insult.</p>
+<fig id="pone.0218906.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0218906.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>CD14<sup>+</sup> CB, but not PB, monocytes protect neurons following OGD shock.</title>
+<p>(A) CB-MNC, PB-MNC, CD14<sup>+</sup> or CD14 depleted PB cells (25,000cells/slice) were added directly onto OGD shocked brain slice cultures as indicated, and PI-positive cells dead were quantified and graphically represented. Statistically significant differences determined by one-way ANOVA (p&lt;0.001) compared to the OGD control are indicated by asterisks. (B) Confocal images (40x) of antibody stained neurons [green, anti-NeuN] of control and cell treated brain slice cultures co-cultured three days with various PB cell populations following OGD shock. Top left panel shows control slices not exposed to OGD and cultured without human cells. All other panels show slices exposed to OGD prior to addition of human cells. Top right panel shows slices co-cultured with PB-CD14<sup>+</sup> monocytes; bottom right panel, with PB MNC depleted of CD14<sup>+</sup> monocytes. In the right panel bar-graph plot is shown, the average number of NeuN<sup>+</sup> neurons, within sequential 40x high-powered fields located along the periventricular region was determined. Values shown are means <sup>+</sup>/- standard deviation. n = 3 slices under each condition. Statistically significant differences (p&lt;0.01) compared to the OGD control are indicated by asterisks.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.g003" ns0:type="simple" />
+</fig>
+<p>The differences in activity between CB-MNC and PB-MNC provided an approach to begin to explore the mechanisms by which CB-MNC protect brain cells from hypoxic injury. We reasoned that transcripts for mechanistically important factors would be over-expressed in CB-MNC relative to PB-MNC. To identify these transcripts, we compared whole transcriptome microarrays analysis of CB- and PB-MNC. As described in the Supporting Information section, in all, we analyzed seven adult PB donors and seven CB donors in two separate experiments (714 and 1213) and found that CB and PB-CD14<sup>+</sup> monocytes have unique mRNA expression profiles. A heat map presentation of the data analysis of experiment experiments 1213 (<xref ref-type="fig" rid="pone.0218906.g004">Fig 4A</xref>), for example, shows that CB and PB-CD14<sup>+</sup> monocytes differentially expressed 1553 transcripts. Of these, 474 probes detected transcripts expressed only in PB-CD14<sup>+</sup> monocytes, and another 204 probes detected transcript only expressed in CB-CD14<sup>+</sup> monocytes. CB and PB-CD14<sup>+</sup> monocytes fall into discrete populations defined by these differentially expressed transcripts.</p>
+<fig id="pone.0218906.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0218906.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Identification of secretory proteins expressed by CB CD14<sup>+</sup> cells that may mediated protections against OGD.</title>
+<p>(A) Comparative whole transcriptome analysis of CB-CD14<sup>+</sup> and PB-CD14<sup>+</sup> cells. Heat maps from Experiment 1213 showing differentially expressed probes in CB (CB-CD14<sup>+</sup>) and PB (PB-CD14<sup>+</sup>) cells. Up and downregulated genes are displayed in red and blue, respectively. RMA analysis detected significantly (p&lt;0.05) different expression (at least two-fold) of probe sets corresponding to 1553 genes. (B) Gene expression comparisons between CB-CD14<sup>+</sup> and PB-CD14<sup>+</sup> cells by Venn diagram. Genes in overlapping sets show the differential expression in two or three comparison pairs. (C) Protein expression analysis of CB-CD14<sup>+</sup> and PB-CD14<sup>+</sup> cells. a) Lane 1&#8211;3, represent three different samples (n = 3) of CB-CD14<sup>+</sup> cells and Lane 4&#8211;6 represent, three different samples (n = 3) of PB-CD14<sup>+</sup> cells. The results confirmed enrichment of CH3L1, INHBA, IL-10, matrix metalloproteinase-9 (MMP9) and TSP1 in CB-CD14<sup>+</sup> relative to PB-CD14<sup>+</sup> monocyte homogenates. GAPDH was used as loading control. Quantitative expression of each proteins is shown in the table. Statistical significance (p&lt; 0.05) is shown by asterisks.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.g004" ns0:type="simple" />
+</fig>
+<p>Since CB monocytes protect at least in part through secreted factors, we determined which differentially expressed genes (identified in both experimental analyses) encoded secreted proteins or proteins that directly synthesized secreted products. Seven candidates emerged from this analysis (<xref ref-type="table" rid="pone.0218906.t001">Table 1</xref>). We next analyzed these seven candidate proteins in cell lysates from CB and PB CD14<sup>+</sup> monocytes (<xref ref-type="fig" rid="pone.0218906.g004">Fig 4C</xref>). CB monocytes expressed more CHI3L1, INHBA, IL10, MMP9, and TSP1 than PB-CD14<sup>+</sup> monocytes. Cystathionine (CTH) and VEGFA were strongly, but not differentially, expressed by both CB- and PB-MNC (<xref ref-type="supplementary-material" rid="pone.0218906.s003">S3 Fig</xref>). We also used immunocytochemistry to determine how CHI3L1, MMP9 and TSP1 proteins were expressed within CB and PB-CD14<sup>+</sup> monocyte populations. <xref ref-type="supplementary-material" rid="pone.0218906.s002">S2 Fig</xref> shows that CHI3L1 and TSP1 were more strongly expressed in CB than PB-CD14<sup>+</sup> monocytes and that these two proteins were present in virtually all CD14<sup>+</sup> monocytes. CB monocytes also expressed more MMP9 than PB monocytes, but in this case, expression was confined to a subpopulation of CD14<sup>+</sup> monocytes that was less common in PB monocyte populations.</p>
+<table-wrap id="pone.0218906.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0218906.t001</object-id>
+<label>Table 1</label> <caption><title>Seven candidate genes encoding secreted factors over-expressed by CB compared to PB-CD14<sup>+</sup> monocytes.</title> <p><bold>A</bold>ll probes sets detecting each candidate genes in both microarrays are shown. Cord and peripheral blood donors are described in S1 Table. See text for screen used to identify candidates. P values are derived from RMAD analysis. Notes show MS5 analysis and indicate whether transcripts were detected exclusively in CB [CB only] or in both CB and PB-CD14<sup>+</sup> cells [CB&gt;PB].</p></caption>
+<alternatives>
+<graphic id="pone.0218906.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" />
+<th align="center" />
+<th align="center" />
+<th align="center" colspan="3"><underline>Chip Experiment 1213 (n = 4)</underline></th>
+<th align="center" colspan="3"><underline>Chip Experiment 714 (n = 3)</underline></th>
+</tr>
+<tr>
+<th align="center">Gene Symbol</th>
+<th align="center">Gene Title</th>
+<th align="center">Probe set</th>
+<th align="center"><underline>p-value</underline></th>
+<th align="center">Fold-difference</th>
+<th align="center">Note</th>
+<th align="center"><underline>p-value</underline></th>
+<th align="center">Fold-difference</th>
+<th align="center">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">CTH</td>
+<td align="center" rowspan="2">cystathionase</td>
+<td align="left">217127 _at</td>
+<td align="left">5.70E-04</td>
+<td align="left">41.9</td>
+<td align="left">CB only</td>
+<td align="left">1.18E-08</td>
+<td align="left">105.1</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">206085_s_at</td>
+<td align="left">3.44E-03</td>
+<td align="left">14.3</td>
+<td align="left">CB only</td>
+<td align="left">8.14E-08</td>
+<td align="left">26.0</td>
+<td align="left">CB only</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">CHI3L1</td>
+<td align="center" rowspan="2">chitinase 3-like 1</td>
+<td align="left">209395_at</td>
+<td align="left">l.33E-02</td>
+<td align="left">12.6</td>
+<td align="left">CB only</td>
+<td align="left">4.99E-02</td>
+<td align="left">5.0</td>
+<td align="left">CB only</td>
+</tr>
+<tr>
+<td align="left">209396_s_at</td>
+<td align="left">1.83E-02</td>
+<td align="left">10.6</td>
+<td align="left">CB only</td>
+<td align="left">1.75E-01</td>
+<td align="left">2.8</td>
+<td align="left">CB = PB</td>
+</tr>
+<tr>
+<td align="center" rowspan="7">THBS1</td>
+<td align="center" rowspan="7">thrombospondin 1</td>
+<td align="left">215775_at</td>
+<td align="left">6.59E-03</td>
+<td align="left">3.1</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">4.71E-03</td>
+<td align="left">2.6</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">201107 _s_at</td>
+<td align="left">1.74E-02</td>
+<td align="left">3.5</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">5.84E-04</td>
+<td align="left">3.7</td>
+<td align="left">CB only</td>
+</tr>
+<tr>
+<td align="left">201109_s_at</td>
+<td align="left">1.19E-04</td>
+<td align="left">32.1</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">5.56E-02</td>
+<td align="left">9.3</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">20 1108_s_at</td>
+<td align="left">7.37E-04</td>
+<td align="left">20.5</td>
+<td align="left">CB only</td>
+<td align="left">8.98E-03</td>
+<td align="left">8.4</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">201110_s_at</td>
+<td align="left">3.78E-05</td>
+<td align="left">22.2</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">1.98E-Ol</td>
+<td align="left">4.3</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">235086_at</td>
+<td align="left">2.88E-04</td>
+<td align="left">35.0</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">1.78E-02</td>
+<td align="left">8.4</td>
+<td align="left">CB &gt; PB</td>
+</tr>
+<tr>
+<td align="left">239336_at</td>
+<td align="left">2.24E-03</td>
+<td align="left">8.8</td>
+<td align="left">CB only</td>
+<td align="left">4.42E-03</td>
+<td align="left">5.5</td>
+<td align="left">CB only</td>
+</tr>
+<tr>
+<td align="center">MMP9</td>
+<td align="center">matrix metallopeptidase 9</td>
+<td align="left">203936_s_at</td>
+<td align="left">1.18E-03</td>
+<td align="left">13.8</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">1.17E-02</td>
+<td align="left">5.4</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="center">IL10</td>
+<td align="center">interleukin 10</td>
+<td align="left">207433_at</td>
+<td align="left">1.51E-02</td>
+<td align="left">2.5</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">3.44E-03</td>
+<td align="left">2.8</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="center" rowspan="4">VEGF-A</td>
+<td align="center" rowspan="4">vascular endothelial growth factor -A</td>
+<td align="left">210512_s_at</td>
+<td align="left">1.18E-03</td>
+<td align="left">3.6</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">1.91E-Ol</td>
+<td align="left">2.0</td>
+<td align="left">CB = PB</td>
+</tr>
+<tr>
+<td align="left">212171_x_at</td>
+<td align="left">2.77E-04</td>
+<td align="left">4.4</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">3.38E-02</td>
+<td align="left">2.2</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">210513_s_at</td>
+<td align="left">2.09E-03</td>
+<td align="left">4.1</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">4.97E-02</td>
+<td align="left">1.9</td>
+<td align="left">CB = PB</td>
+</tr>
+<tr>
+<td align="left">211527 _x_at</td>
+<td align="left">1.35E-03</td>
+<td align="left">5.1</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">5.31E-02</td>
+<td align="left">2.9</td>
+<td align="left">CB &gt; PB</td>
+</tr>
+<tr>
+<td align="center" rowspan="3">INHBA</td>
+<td align="center" rowspan="3">inhibin, beta A</td>
+<td align="left">227140_at</td>
+<td align="left">6.07E-03</td>
+<td align="left">10.5</td>
+<td align="left">CB only</td>
+<td align="left">4.36E-02</td>
+<td align="left">14.3</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">210511_s_at</td>
+<td align="left">2.28E-02</td>
+<td align="left">2.3</td>
+<td align="left">CB&gt;PB</td>
+<td align="left">6.75E-02</td>
+<td align="left">3.9</td>
+<td align="left">CB&gt;PB</td>
+</tr>
+<tr>
+<td align="left">204926_at</td>
+<td align="center" colspan="3">not detected</td>
+<td align="center" colspan="3">not detected</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Discussion</title>
+<p>We demonstrated that CB-MNC, specifically the CB-CD14<sup>+</sup> cells, protect neurons from death after OGD insult. Depleting CD14<sup>+</sup> cells, but not other cell types, abrogated the neuroprotective effects of CB-MNC. Purified CD34<sup>+</sup> cells also have neuroprotective activity, but given that depleting CD34<sup>+</sup> cells did not alter neuroprotection and that CD14<sup>+</sup> cells are 10-50-fold more abundant in CB MNC than CD34<sup>+</sup> cells, we attribute the neuroprotective activity of CB-MNC in our assay system to CD14<sup>+</sup> cells. Neuroprotection was mediated primarily by soluble factors produced by CD14<sup>+</sup> monocytes. This corroborates previous studies demonstrating that infiltrating monocytes sequestered in the brain meninges modulate brain inflammation and promote repair following HI injuries [<xref ref-type="bibr" rid="pone.0218906.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0218906.ref033">33</xref>]. CB CD14<sup>+</sup> monocytes used as a therapeutic agent may have similar effects whether administered alone as a selected subpopulation or as a component present in the total CB-MNC. These results are consistent with findings of Womble <italic>et al</italic>. [<xref ref-type="bibr" rid="pone.0218906.ref013">13</xref>] showing that purified CB CD14+ monocytes, and none of the other human CB mononuclear cell sub populations tested, were neuroprotective in the rat middle cerebral artery occlusion [MCAO] model.</p>
+<p>Unlike CB monocytes, PB monocytes had little or no impact on glial activation or cell death in the OGD assay. These difference in activities are consistent with the clinical observation that brain damage develops in patients following hypoxic injury even though peripheral blood cells, including peripheral blood monocytes circulate in very high numbers. Indeed, infiltration of peripheral blood monocytes is considered an important part of the pathogenesis of hypoxic brain injury. The same situation pertains to animal models. Bachstetter <italic>et al</italic>. reported that CB-MNC, but not PB-MNC, stimulated neurogenesis in aging rat brains [<xref ref-type="bibr" rid="pone.0218906.ref034">34</xref>]. CB, neonatal peripheral PB, and adult PB express different receptors, secrete different cytokines, and respond differently to inflammatory stimuli [<xref ref-type="bibr" rid="pone.0218906.ref035">35</xref>]. If these differences are reflected in the differential protective activity in the OGD assay remains to be determined.</p>
+<p>We identified differentially expressed genes enriched in CB monocytes compared to PB monocytes. Based on our transwell experiments and other published data [<xref ref-type="bibr" rid="pone.0218906.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0218906.ref014">14</xref>] demonstrating that CB-MNC mediated repair of brain tissue through paracrine factors, we focused on finding secretory molecules over expressed in CB monocytes. Proteins encoded by five (<italic>CHI3L1</italic>, <italic>TSP1</italic>, <italic>MMP9</italic>, <italic>IL10</italic>, and <italic>INHBA</italic>) of the seven candidate genes we initially identified were more abundant in homogenates of CB than PB monocytes. TSP1 [<xref ref-type="bibr" rid="pone.0218906.ref036">36</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref040">40</xref>], CHI3l1 [<xref ref-type="bibr" rid="pone.0218906.ref041">41</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref044">44</xref>]; MMP9 [<xref ref-type="bibr" rid="pone.0218906.ref045">45</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref049">49</xref>], IL10 [<xref ref-type="bibr" rid="pone.0218906.ref050">50</xref>], and INHBA [<xref ref-type="bibr" rid="pone.0218906.ref051">51</xref>, <xref ref-type="bibr" rid="pone.0218906.ref052">52</xref>] can all promote tissue repair, including repair in the brain. TSP1, CHI3l1 and MMP9 showed the largest difference in protein expression, and CB monocytes have more of these three proteins in cytoplasmic granules, presumably secretory granules, than PB monocytes. Thus, CHI3l1, TSP1, and MMP9 may be particularly important in paracrine mechanisms by which CB monocytes reduce glial activation and protect brain neurons from OGD. Furthermore, correlating the biological and clinical activities with expression of these markers may provide a path to a biologically based potency assay for CB products in brain repair indications.</p>
+<p>Though our work suggests that secretory proteins CHI3l1, TSP1, and MMP9 from monocytes might contribute to neuroprotection, other important protective gene products are probably induced by CB monocytes in or near HI-shocked brain tissue. The OGD-shocked brain slice model should be useful in identifying these gene products and elucidating more precisely how CB monocytes intervene in the pathogenic process.</p>
+<p>Finally, we note that although our standard brain slice model preserves many important aspects of brain architecture and neuron-glial interactions in response to OGD stress, the system presented here does not replicate all important aspects influencing cell therapy for HI-brain injury. We have not yet explored whether CB CD14+ monocytes can reverse neural death when added to cultures at longer periods after shock or whether slice cultures from adult brain slices will be protected as efficiently those from neonates. Addressing these issues should be straightforward in this system. Also, the slice culture system in which candidate cell therapy populations are added directly to brain slices, or in a small amount of medium directly below the slices, may not reflect the dosing, biodistribution, or pharmacokinetics associated with any of the routes (intravenous, intrathecal, intra-arterial, intraparenchymal) that have been used to administer CB-MNC and other cell therapies to experimental animals or patients with HI-induced brain injury. How each of these routes impacts dosing or targeting of cells to the brain is not yet clear, even after intravenous injection, the most common route of administration. Animal studies have shown that some unidentified CB cells are present near brain lesions for short periods of time following intravenous treatment of acute stroke [<xref ref-type="bibr" rid="pone.0218906.ref053">53</xref>, <xref ref-type="bibr" rid="pone.0218906.ref054">54</xref>] or neonatal HIE with CB-MNC [<xref ref-type="bibr" rid="pone.0218906.ref055">55</xref>] but the function of these cells is unclear. Some evidence suggests that CB-MNC respond to chemokines by migrating to ischemic brain regions [<xref ref-type="bibr" rid="pone.0218906.ref056">56</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref058">58</xref>]. Womble et al. found that the beneficial activity of intravenously injected CB-MNC in a rat stroke model resided in the CD14<sup>+</sup> monocyte population. How many CB-MNC or monocytes that reach the brain following intravenous injection in patients with HI-induced brain injury is unknown. Indeed, some animal studies have suggested that intravenously injected CB-MNC products [<xref ref-type="bibr" rid="pone.0218906.ref059">59</xref>] do not need to reach the brain in order to promote repair of stroke or other HI brain injury. Instead, cell products reaching the lungs or spleen may induce endogenous cells to produce soluble factors or activated cells that go to the brain and mediate repair [<xref ref-type="bibr" rid="pone.0218906.ref060">60</xref>&#8211;<xref ref-type="bibr" rid="pone.0218906.ref062">62</xref>]. As already noted, our results demonstrating the neuroprotective activity of CB CD14+ correlate strongly with results in the MCAO rat model, and this suggests that studies investigating the biodistribution of CD14+ CB monocytes following different routes in the MCAO model and in neonatal and adult rodent hypoxia models maybe useful in elucidating where interactions important to therapeutic outcome occur. In summary, monocytes in CB, but not PB, protect brain neurons from death and reduce glial activation following HI insult in an <italic>in vitro</italic> OGD model. Soluble factors released from CB monocytes contribute to this protection. We have identified secreted proteins enriched in CB CD14<sup>+</sup> monocytes compared to PB monocytes that may play a role in neuroprotection and repair. This work enables future detailed study of the mechanism of neuroprotection and development of mechanism-based release assays for CB products, and formulation of new strategies for using CB monocytes as therapeutic agents in treatment of HI-induced brain injuries.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0218906.s001" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s001" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title />
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s002" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s002" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title />
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s003" mimetype="image/tiff" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s003" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title />
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s004" ns0:type="simple">
+<label>S1 File</label>
+<caption>
+<title />
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s005" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title />
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s006" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title />
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0218906.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s007" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title />
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors are grateful to Susan Buntz for helping with flow-cytometry, the staff at the Carolinas Cord Blood Bank for providing cord blood units, to Dr. Michael Cook at the Duke Cancer Center Flow Cytometry Facility for sorting cells, and to Zhengzheng Wei at the Duke Institute for Genomic Sciences Microarray Core Facility for performing microarray analyses. This work was supported by grants from the Julian Robertson Foundation and the Marcus Foundation.</p>
+<p>The authors also wish to acknowledge the friendship and the daily advice on both practical and theoretical matters given freely to them by Dr. Bob Storms during the course of this research. Bob died on May 22, 2017.</p>
+</ack>
+<glossary>
+<title>Abbreviations</title>
+<def-list>
+<def-item><term>CB</term>
+<def><p>cord blood</p></def>
+</def-item>
+<def-item><term>HI</term>
+<def><p>hypoxia-ischemia</p></def>
+</def-item>
+<def-item><term>HIE</term>
+<def><p>hypoxic- ischemic encephalopathy</p></def>
+</def-item>
+<def-item><term>MNC</term>
+<def><p>mononuclear cell</p></def>
+</def-item>
+<def-item><term>OGD</term>
+<def><p>oxygen glucose deprivation</p></def>
+</def-item>
+<def-item><term>PB</term>
+<def><p>peripheral blood</p></def>
+</def-item>
+</def-list>
+</glossary>
+<ref-list>
+<title>References</title>
+<ref id="pone.0218906.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Allison</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>McLaughlin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sledge</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Waters-Pick</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wease</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Differences in quality between privately and publicly banked umbilical cord blood units: a pilot study of autologous cord blood infusion in children with acquired neurologic disorders</article-title>. <source>Transfusion</source>. <year>2010</year>;<volume>50</volume>(<issue>9</issue>):<fpage>1980</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1537-2995.2010.02720.x" ns0:type="simple">10.1111/j.1537-2995.2010.02720.x</ext-link></comment> <object-id pub-id-type="pmid">20546200</object-id>; PubMed Central PMCID: PMC3816574.</mixed-citation></ref>
+<ref id="pone.0218906.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bae</surname> <given-names>SH</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Strupp</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Chopp</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Moon</surname> <given-names>J</given-names></name>. <article-title>The levels of pro-inflammatory factors are significantly decreased in cerebral palsy patients following an allogeneic umbilical cord blood cell transplant</article-title>. <source>Int J Stem Cells</source>. <year>2012</year>;<volume>5</volume>(<issue>1</issue>):<fpage>31</fpage>&#8211;<lpage>8</lpage>. <object-id pub-id-type="pmid">24298353</object-id>; PubMed Central PMCID: PMC3840980.</mixed-citation></ref>
+<ref id="pone.0218906.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sharma</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gokulchandran</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Chopra</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Kulkarni</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lohia</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Badhe</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Administration of autologous bone marrow-derived mononuclear cells in children with incurable neurological disorders and injury is safe and improves their quality of life</article-title>. <source>Cell transplantation</source>. <year>2012</year>;<volume>21</volume> <issue>Suppl 1</issue>:<fpage>S79</fpage>&#8211;<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3727/096368912X633798" ns0:type="simple">10.3727/096368912X633798</ext-link></comment> <object-id pub-id-type="pmid">22507683</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Feng</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Qian</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Safety of Allogeneic Umbilical Cord Blood Stem Cells Therapy in Patients with Severe Cerebral Palsy: A Retrospective Study</article-title>. <source>Stem Cells Int</source>. <year>2015</year>;<volume>2015</volume>:<fpage>325652</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1155/2015/325652" ns0:type="simple">10.1155/2015/325652</ext-link></comment> <object-id pub-id-type="pmid">26236347</object-id>; PubMed Central PMCID: PMC4510256.</mixed-citation></ref>
+<ref id="pone.0218906.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cotten</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Murtha</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Goldberg</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Grotegut</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>PB</given-names></name>, <name name-style="western"><surname>Goldstein</surname> <given-names>RF</given-names></name>, <etal>et al</etal>. <article-title>Feasibility of autologous cord blood cells for infants with hypoxic-ischemic encephalopathy</article-title>. <source>The Journal of pediatrics</source>. <year>2014</year>;<volume>164</volume>(<issue>5</issue>):<fpage>973</fpage>&#8211;<lpage>9 e1</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jpeds.2013.11.036" ns0:type="simple">10.1016/j.jpeds.2013.11.036</ext-link></comment> <object-id pub-id-type="pmid">24388332</object-id>; PubMed Central PMCID: PMC3992180.</mixed-citation></ref>
+<ref id="pone.0218906.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cui</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Chopp</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shehadah</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zacharek</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kuzmin-Nichols</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>CD</given-names></name>, <etal>et al</etal>. <article-title>Therapeutic benefit of treatment of stroke with simvastatin and human umbilical cord blood cells: neurogenesis, synaptic plasticity, and axon growth</article-title>. <source>Cell transplantation</source>. <year>2012</year>;<volume>21</volume>(<issue>5</issue>):<fpage>845</fpage>&#8211;<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3727/096368911X627417" ns0:type="simple">10.3727/096368911X627417</ext-link></comment> <object-id pub-id-type="pmid">22405262</object-id>; PubMed Central PMCID: PMC3442771.</mixed-citation></ref>
+<ref id="pone.0218906.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>AW</given-names></name>, <name name-style="western"><surname>Case</surname> <given-names>LE</given-names></name>, <name name-style="western"><surname>Mikati</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Gustafson</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Simmons</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Effect of Autologous Cord Blood Infusion on Motor Function and Brain Connectivity in Young Children with Cerebral Palsy: A Randomized</article-title>, <source>Placebo-Controlled Trial. Stem cells translational medicine</source>. <year>2017</year>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sctm.17-0102" ns0:type="simple">10.1002/sctm.17-0102</ext-link></comment> <object-id pub-id-type="pmid">29080265</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bennet</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Van den Heuij</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Derrick</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Groenendaal</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>van Bel</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Cell therapy for neonatal hypoxia-ischemia and cerebral palsy</article-title>. <source>Ann Neurol</source>. <year>2012</year>;<volume>71</volume>(<issue>5</issue>):<fpage>589</fpage>&#8211;<lpage>600</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ana.22670" ns0:type="simple">10.1002/ana.22670</ext-link></comment> <object-id pub-id-type="pmid">22522476</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Borlongan</surname> <given-names>CV</given-names></name>, <name name-style="western"><surname>Stahl</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Hess</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Ou</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kaneko</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Systemic delivery of umbilical cord blood cells for stroke therapy: a review</article-title>. <source>Restor Neurol Neurosci</source>. <year>2009</year>;<volume>27</volume>(<issue>1</issue>):<fpage>41</fpage>&#8211;<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3233/RNN-2009-0460" ns0:type="simple">10.3233/RNN-2009-0460</ext-link></comment> <object-id pub-id-type="pmid">19164852</object-id>; PubMed Central PMCID: PMC4803064.</mixed-citation></ref>
+<ref id="pone.0218906.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tsuji</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Taguchi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ohshima</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kasahara</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Sato</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Tsuda</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Effects of intravenous administration of umbilical cord blood CD34(+) cells in a mouse model of neonatal stroke</article-title>. <source>Neuroscience</source>. <year>2014</year>;<volume>263</volume>:<fpage>148</fpage>&#8211;<lpage>58</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.neuroscience.2014.01.018" ns0:type="simple">10.1016/j.neuroscience.2014.01.018</ext-link></comment> <object-id pub-id-type="pmid">24444827</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Iskander</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Knight</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>ZG</given-names></name>, <name name-style="western"><surname>Ewing</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Shankar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Varma</surname> <given-names>NR</given-names></name>, <etal>et al</etal>. <article-title>Intravenous administration of human umbilical cord blood-derived AC133+ endothelial progenitor cells in rat stroke model reduces infarct volume: magnetic resonance imaging and histological findings</article-title>. <source>Stem cells translational medicine</source>. <year>2013</year>;<volume>2</volume>(<issue>9</issue>):<fpage>703</fpage>&#8211;<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5966/sctm.2013-0066" ns0:type="simple">10.5966/sctm.2013-0066</ext-link></comment> <object-id pub-id-type="pmid">23934909</object-id>; PubMed Central PMCID: PMC3754470.</mixed-citation></ref>
+<ref id="pone.0218906.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shahaduzzaman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Golden</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gronda</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Adrien</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ahmed</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>A single administration of human umbilical cord blood T cells produces long-lasting effects in the aging hippocampus</article-title>. <source>Age</source>. <year>2013</year>;<volume>35</volume>(<issue>6</issue>):<fpage>2071</fpage>&#8211;<lpage>87</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11357-012-9496-5" ns0:type="simple">10.1007/s11357-012-9496-5</ext-link></comment> <object-id pub-id-type="pmid">23263793</object-id>; PubMed Central PMCID: PMC3825009.</mixed-citation></ref>
+<ref id="pone.0218906.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Womble</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shahaduzzaman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Grieco</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Pennypacker</surname> <given-names>KR</given-names></name>, <etal>et al</etal>. <article-title>Monocytes are essential for the neuroprotective effect of human cord blood cells following middle cerebral artery occlusion in rat</article-title>. <source>Mol Cell Neurosci</source>. <year>2014</year>;<volume>59</volume>:<fpage>76</fpage>&#8211;<lpage>84</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.mcn.2014.01.004" ns0:type="simple">10.1016/j.mcn.2014.01.004</ext-link></comment> <object-id pub-id-type="pmid">24472845</object-id>; PubMed Central PMCID: PMC4008706.</mixed-citation></ref>
+<ref id="pone.0218906.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Boltze</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Reich</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Hau</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Reymann</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Strassburger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lobsien</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Assessment of neuroprotective effects of human umbilical cord blood mononuclear cell subpopulations in vitro and in vivo</article-title>. <source>Cell transplantation</source>. <year>2012</year>;<volume>21</volume>(<issue>4</issue>):<fpage>723</fpage>&#8211;<lpage>37</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3727/096368911X586783" ns0:type="simple">10.3727/096368911X586783</ext-link></comment> <object-id pub-id-type="pmid">21929866</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hau</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Reich</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Scholz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Naumann</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Emmrich</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Kamprad</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Evidence for neuroprotective properties of human umbilical cord blood cells after neuronal hypoxia in vitro</article-title>. <source>BMC neuroscience</source>. <year>2008</year>;<volume>9</volume>:<fpage>30</fpage>. Epub 2008/03/04. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2202-9-30" ns0:type="simple">10.1186/1471-2202-9-30</ext-link></comment> <object-id pub-id-type="pmid">18312640</object-id>; PubMed Central PMCID: PMC2294131.</mixed-citation></ref>
+<ref id="pone.0218906.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Reich</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Hau</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stahl</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Scholz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Naumann</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Emmrich</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Neuronal hypoxia in vitro: investigation of therapeutic principles of HUCB-MNC and CD133+ stem cells</article-title>. <source>BMC neuroscience</source>. <year>2008</year>;<volume>9</volume>:<fpage>91</fpage>. Epub 2008/09/23. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2202-9-91" ns0:type="simple">10.1186/1471-2202-9-91</ext-link></comment> <object-id pub-id-type="pmid">18803816</object-id>; PubMed Central PMCID: PMC2569042.</mixed-citation></ref>
+<ref id="pone.0218906.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McDonald</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Penny</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Paton</surname> <given-names>MCB</given-names></name>, <name name-style="western"><surname>Sutherland</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Nekkanti</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Yawno</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Effects of umbilical cord blood cells, and subtypes, to reduce neuroinflammation following perinatal hypoxic-ischemic brain injury</article-title>. <source>J Neuroinflammation.</source> <year>2018</year>;<volume>15</volume>(<issue>1</issue>):<fpage>47</fpage>. Epub 2018/02/20. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/s12974-018-1089-5" ns0:type="simple">10.1186/s12974-018-1089-5</ext-link></comment> <object-id pub-id-type="pmid">29454374</object-id>; PubMed Central PMCID: PMC5816393.</mixed-citation></ref>
+<ref id="pone.0218906.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shahaduzzaman</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Mehta</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Golden</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Rowe</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tadinada</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Human umbilical cord blood cells induce neuroprotective change in gene expression profile in neurons after ischemia through activation of Akt pathway</article-title>. <source>Cell transplantation</source>. <year>2015</year>;<volume>24</volume>(<issue>4</issue>):<fpage>721</fpage>&#8211;<lpage>35</lpage>. Epub 2014/11/22. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3727/096368914X685311" ns0:type="simple">10.3727/096368914X685311</ext-link></comment> <object-id pub-id-type="pmid">25413246</object-id>; PubMed Central PMCID: PMC4739737.</mixed-citation></ref>
+<ref id="pone.0218906.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Saporta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>A</given-names></name>. <article-title>The effect of human umbilical cord blood cells on survival and cytokine production by post-ischemic astrocytes in vitro</article-title>. <source>Stem Cell Rev</source>. <year>2010</year>;<volume>6</volume>(<issue>4</issue>):<fpage>523</fpage>&#8211;<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s12015-010-9174-x" ns0:type="simple">10.1007/s12015-010-9174-x</ext-link></comment> <object-id pub-id-type="pmid">20680520</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hall</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Guyer</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Leonardo</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Ajmo</surname> <given-names>CT</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Collier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>AE</given-names></name>, <etal>et al</etal>. <article-title>Human umbilical cord blood cells directly suppress ischemic oligodendrocyte cell death</article-title>. <source>J Neurosci Res</source>. <year>2009</year>;<volume>87</volume>(<issue>2</issue>):<fpage>333</fpage>&#8211;<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jnr.21857" ns0:type="simple">10.1002/jnr.21857</ext-link></comment> <object-id pub-id-type="pmid">18924174</object-id>; PubMed Central PMCID: PMC2651744.</mixed-citation></ref>
+<ref id="pone.0218906.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rowe</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Leonardo</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Shahaduzzaman</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Collier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>AE</given-names></name>, <etal>et al</etal>. <article-title>Cord blood administration induces oligodendrocyte survival through alterations in gene expression</article-title>. <source>Brain research</source>. <year>2010</year>;<volume>1366</volume>:<fpage>172</fpage>&#8211;<lpage>88</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.brainres.2010.09.078" ns0:type="simple">10.1016/j.brainres.2010.09.078</ext-link></comment> <object-id pub-id-type="pmid">20883670</object-id>; PubMed Central PMCID: PMC2993822.</mixed-citation></ref>
+<ref id="pone.0218906.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stoppini</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Buchs</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Muller</surname> <given-names>D</given-names></name>. <article-title>A simple method for organotypic cultures of nervous tissue</article-title>. <source>Journal of neuroscience methods</source>. <year>1991</year>;<volume>37</volume>(<issue>2</issue>):<fpage>173</fpage>&#8211;<lpage>82</lpage>. <object-id pub-id-type="pmid">1715499</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sundstrom</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Morrison</surname> <given-names>B</given-names> <suffix>3rd</suffix></name>, <name name-style="western"><surname>Bradley</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pringle</surname> <given-names>A</given-names></name>. <article-title>Organotypic cultures as tools for functional screening in the CNS</article-title>. <source>Drug discovery today</source>. <year>2005</year>;<volume>10</volume>(<issue>14</issue>):<fpage>993</fpage>&#8211;<lpage>1000</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1359-6446(05)03502-6" ns0:type="simple">10.1016/S1359-6446(05)03502-6</ext-link></comment> <object-id pub-id-type="pmid">16023058</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hall</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Leonardo</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Collier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Rowe</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Pennypacker</surname> <given-names>KR</given-names></name>. <article-title>Delayed treatments for stroke influence neuronal death in rat organotypic slice cultures subjected to oxygen glucose deprivation</article-title>. <source>Neuroscience</source>. <year>2009</year>;<volume>164</volume>(<issue>2</issue>):<fpage>470</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.neuroscience.2009.08.051" ns0:type="simple">10.1016/j.neuroscience.2009.08.051</ext-link></comment> <object-id pub-id-type="pmid">19723565</object-id>; PubMed Central PMCID: PMC2761985.</mixed-citation></ref>
+<ref id="pone.0218906.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Noraberg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Poulsen</surname> <given-names>FR</given-names></name>, <name name-style="western"><surname>Blaabjerg</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kristensen</surname> <given-names>BW</given-names></name>, <name name-style="western"><surname>Bonde</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Montero</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Organotypic hippocampal slice cultures for studies of brain damage, neuroprotection and neurorepair.</article-title> <source>Current drug targets CNS and neurological disorders</source>. <year>2005</year>;<volume>4</volume>(<issue>4</issue>):<fpage>435</fpage>&#8211;<lpage>52</lpage>. <object-id pub-id-type="pmid">16101559</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Daviaud</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Garbayo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Schiller</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Perez-Pinzon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Montero-Menei</surname> <given-names>CN</given-names></name>. <article-title>Organotypic cultures as tools for optimizing central nervous system cell therapies</article-title>. <source>Experimental neurology</source>. <year>2013</year>;<volume>248</volume>:<fpage>429</fpage>&#8211;<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.expneurol.2013.07.012" ns0:type="simple">10.1016/j.expneurol.2013.07.012</ext-link></comment> <object-id pub-id-type="pmid">23899655</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ferreira</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Blackman</surname> <given-names>AV</given-names></name>, <name name-style="western"><surname>Oyrer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jayabal</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Watt</surname> <given-names>AJ</given-names></name>, <etal>et al</etal>. <article-title>Neuronal morphometry directly from bitmap images</article-title>. <source>Nat Methods.</source> <year>2014</year>;<volume>11</volume>(<issue>10</issue>):<fpage>982</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nmeth.3125" ns0:type="simple">10.1038/nmeth.3125</ext-link></comment> <object-id pub-id-type="pmid">25264773</object-id>; PubMed Central PMCID: PMC5271921.</mixed-citation></ref>
+<ref id="pone.0218906.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Saha</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Buntz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Scotland</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Noeldner</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>A cord blood monocyte-derived cell therapy product accelerates brain remyelination</article-title>. <source>JCI Insight</source>. <year>2016</year>;<volume>1</volume>(<issue>13</issue>):<fpage>e86667</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1172/jci.insight.86667" ns0:type="simple">10.1172/jci.insight.86667</ext-link></comment> <object-id pub-id-type="pmid">27699230</object-id>; PubMed Central PMCID: PMC5033827.</mixed-citation></ref>
+<ref id="pone.0218906.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pekny</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wilhelmsson</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Pekna</surname> <given-names>M</given-names></name>. <article-title>The dual role of astrocyte activation and reactive gliosis</article-title>. <source>Neuroscience letters</source>. <year>2014</year>;<volume>565</volume>:<fpage>30</fpage>&#8211;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.neulet.2013.12.071" ns0:type="simple">10.1016/j.neulet.2013.12.071</ext-link></comment> <object-id pub-id-type="pmid">24406153</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Ao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Sofroniew</surname> <given-names>MV</given-names></name>. <article-title>Heterogeneity of reactive astrocytes</article-title>. <source>Neuroscience letters</source>. <year>2014</year>;<volume>565</volume>:<fpage>23</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.neulet.2013.12.030" ns0:type="simple">10.1016/j.neulet.2013.12.030</ext-link></comment> <object-id pub-id-type="pmid">24361547</object-id>; PubMed Central PMCID: PMC3984948.</mixed-citation></ref>
+<ref id="pone.0218906.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Karperien</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ahammer</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jelinek</surname> <given-names>HF</given-names></name>. <article-title>Quantitating the subtleties of microglial morphology with fractal analysis</article-title>. <source>Frontiers in cellular neuroscience</source>. <year>2013</year>;<volume>7</volume>:<fpage>3</fpage>. Epub 2013/02/07. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fncel.2013.00003" ns0:type="simple">10.3389/fncel.2013.00003</ext-link></comment> <object-id pub-id-type="pmid">23386810</object-id>; PubMed Central PMCID: PMC3558688.</mixed-citation></ref>
+<ref id="pone.0218906.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lampron</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pimentel-Coelho</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Rivest</surname> <given-names>S</given-names></name>. <article-title>Migration of bone marrow-derived cells into the central nervous system in models of neurodegeneration</article-title>. <source>J Comp Neurol</source>. <year>2013</year>;<volume>521</volume>(<issue>17</issue>):<fpage>3863</fpage>&#8211;<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/cne.23363" ns0:type="simple">10.1002/cne.23363</ext-link></comment> <object-id pub-id-type="pmid">23682015</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Herz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Filiano</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Yogev</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kipnis</surname> <given-names>J</given-names></name>. <article-title>Myeloid Cells in the Central Nervous System</article-title>. <source>Immunity</source>. <year>2017</year>;<volume>46</volume>(<issue>6</issue>):<fpage>943</fpage>&#8211;<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.immuni.2017.06.007" ns0:type="simple">10.1016/j.immuni.2017.06.007</ext-link></comment> <object-id pub-id-type="pmid">28636961</object-id>; PubMed Central PMCID: PMC5657250.</mixed-citation></ref>
+<ref id="pone.0218906.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bachstetter</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Pabon</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Cole</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Hudson</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>AE</given-names></name>, <etal>et al</etal>. <article-title>Peripheral injection of human umbilical cord blood stimulates neurogenesis in the aged rat brain</article-title>. <source>BMC neuroscience</source>. <year>2008</year>;<volume>9</volume>:<fpage>22</fpage>. Epub 2008/02/16. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1471-2202-9-22" ns0:type="simple">10.1186/1471-2202-9-22</ext-link></comment> <object-id pub-id-type="pmid">18275610</object-id>; PubMed Central PMCID: PMC2268935.</mixed-citation></ref>
+<ref id="pone.0218906.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Scotland</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Buntz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Noeldner</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Saha</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gentry</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kurtzberg</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Gene products promoting remyelination are up-regulated in a cell therapy product manufactured from banked human cord blood</article-title>. <source>Cytotherapy</source>. <year>2017</year>;<volume>19</volume>(<issue>6</issue>):<fpage>771</fpage>&#8211;<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jcyt.2017.03.004" ns0:type="simple">10.1016/j.jcyt.2017.03.004</ext-link></comment> <object-id pub-id-type="pmid">28391986</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Risher</surname> <given-names>WC</given-names></name>, <name name-style="western"><surname>Eroglu</surname> <given-names>C</given-names></name>. <article-title>Thrombospondins as key regulators of synaptogenesis in the central nervous system</article-title>. <source>Matrix Biol</source>. <year>2012</year>;<volume>31</volume>(<issue>3</issue>):<fpage>170</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.matbio.2012.01.004" ns0:type="simple">10.1016/j.matbio.2012.01.004</ext-link></comment> <object-id pub-id-type="pmid">22285841</object-id>; PubMed Central PMCID: PMC3961754.</mixed-citation></ref>
+<ref id="pone.0218906.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cheng</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liao</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Xing</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Thrombospondin-1 Gene Deficiency Worsens the Neurological Outcomes of Traumatic Brain Injury in Mice.</article-title> <source>Int J Med Sci</source>. <year>2017</year>;<volume>14</volume>(<issue>10</issue>):<fpage>927</fpage>&#8211;<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7150/ijms.18812" ns0:type="simple">10.7150/ijms.18812</ext-link></comment> <object-id pub-id-type="pmid">28924363</object-id>; PubMed Central PMCID: PMC5599915.</mixed-citation></ref>
+<ref id="pone.0218906.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jayakumar</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Tong</surname> <given-names>XY</given-names></name>, <name name-style="western"><surname>Curtis</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Ruiz-Cordero</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Shamaladevi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Abuzamel</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Decreased astrocytic thrombospondin-1 secretion after chronic ammonia treatment reduces the level of synaptic proteins: in vitro and in vivo studies</article-title>. <source>J Neurochem</source>. <year>2014</year>;<volume>131</volume>(<issue>3</issue>):<fpage>333</fpage>&#8211;<lpage>47</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/jnc.12810" ns0:type="simple">10.1111/jnc.12810</ext-link></comment> <object-id pub-id-type="pmid">25040426</object-id>; PubMed Central PMCID: PMC4364553.</mixed-citation></ref>
+<ref id="pone.0218906.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Sallon</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Callebaut</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Boulay</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Fontaine</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Logeart-Avramoglou</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Henriquet</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Thrombospondin-1 (TSP-1), a new bone morphogenetic protein-2 and -4 (BMP-2/4) antagonist identified in pituitary cells</article-title>. <source>The Journal of biological chemistry</source>. <year>2017</year>;<volume>292</volume>(<issue>37</issue>):<fpage>15352</fpage>&#8211;<lpage>68</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1074/jbc.M116.736207" ns0:type="simple">10.1074/jbc.M116.736207</ext-link></comment> <object-id pub-id-type="pmid">28747434</object-id>; PubMed Central PMCID: PMC5602395.</mixed-citation></ref>
+<ref id="pone.0218906.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Son</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>DW</given-names></name>, <name name-style="western"><surname>Cha</surname> <given-names>MY</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Byun</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ryu</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Thrombospondin-1 prevents amyloid beta-mediated synaptic pathology in Alzheimer's disease</article-title>. <source>Neurobiol Aging</source>. <year>2015</year>;<volume>36</volume>(<issue>12</issue>):<fpage>3214</fpage>&#8211;<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.neurobiolaging.2015.09.005" ns0:type="simple">10.1016/j.neurobiolaging.2015.09.005</ext-link></comment> <object-id pub-id-type="pmid">26452999</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Dela Cruz</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Herzog</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Rosenberg</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Ahangari</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Elias</surname> <given-names>JA</given-names></name>. <article-title>YKL-40, a chitinase-like protein at the intersection of inflammation and remodeling</article-title>. <source>Am J Respir Crit Care Med</source>. <year>2012</year>;<volume>185</volume>(<issue>7</issue>):<fpage>692</fpage>&#8211;<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1164/rccm.201202-0203ED" ns0:type="simple">10.1164/rccm.201202-0203ED</ext-link></comment> <object-id pub-id-type="pmid">22467800</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wiley</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Bonneh-Barkay</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Dixon</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Lesniak</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bissel</surname> <given-names>SJ</given-names></name>, <etal>et al</etal>. <article-title>Role for mammalian chitinase 3-like protein 1 in traumatic brain injury</article-title>. <source>Neuropathology</source>. <year>2015</year>;<volume>35</volume>(<issue>2</issue>):<fpage>95</fpage>&#8211;<lpage>106</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/neup.12158" ns0:type="simple">10.1111/neup.12158</ext-link></comment> <object-id pub-id-type="pmid">25377763</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bonneh-Barkay</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Starkey</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hamilton</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Wiley</surname> <given-names>CA</given-names></name>. <article-title>In vivo CHI3L1 (YKL-40) expression in astrocytes in acute and chronic neurological diseases</article-title>. <source>J Neuroinflammation</source>. <year>2010</year>;<volume>7</volume>:<fpage>34</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1186/1742-2094-7-34" ns0:type="simple">10.1186/1742-2094-7-34</ext-link></comment> <object-id pub-id-type="pmid">20540736</object-id>; PubMed Central PMCID: PMC2892443.</mixed-citation></ref>
+<ref id="pone.0218906.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jingjing</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Nan</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wei</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Qinghe</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Weijuan</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Peng</surname> <given-names>W</given-names></name>, <etal>et al</etal>. <article-title>MicroRNA-24 Modulates Staphylococcus aureus-Induced Macrophage Polarization by Suppressing CHI3L1</article-title>. <source>Inflammation</source>. <year>2017</year>;<volume>40</volume>(<issue>3</issue>):<fpage>995</fpage>&#8211;<lpage>1005</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10753-017-0543-3" ns0:type="simple">10.1007/s10753-017-0543-3</ext-link></comment> <object-id pub-id-type="pmid">28303416</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Singh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Srivastava</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Chaudhuri</surname> <given-names>TK</given-names></name>, <name name-style="western"><surname>Upadhyay</surname> <given-names>G</given-names></name>. <article-title>Multifaceted role of matrix metalloproteinases (MMPs).</article-title> <source>Front Mol Biosci</source>. <year>2015</year>;<volume>2</volume>:<fpage>19</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fmolb.2015.00019" ns0:type="simple">10.3389/fmolb.2015.00019</ext-link></comment> <object-id pub-id-type="pmid">25988186</object-id>; PubMed Central PMCID: PMC4429632.</mixed-citation></ref>
+<ref id="pone.0218906.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ethell</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Ethell</surname> <given-names>DW</given-names></name>. <article-title>Matrix metalloproteinases in brain development and remodeling: synaptic functions and targets</article-title>. <source>J Neurosci Res</source>. <year>2007</year>;<volume>85</volume>(<issue>13</issue>):<fpage>2813</fpage>&#8211;<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jnr.21273" ns0:type="simple">10.1002/jnr.21273</ext-link></comment> <object-id pub-id-type="pmid">17387691</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Luo</surname> <given-names>J.</given-names></name> <article-title>The role of matrix metalloproteinases in the morphogenesis of the cerebellar cortex</article-title>. <source>Cerebellum</source>. <year>2005</year>;<volume>4</volume>(<issue>4</issue>):<fpage>239</fpage>&#8211;<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/14734220500247646" ns0:type="simple">10.1080/14734220500247646</ext-link></comment> <object-id pub-id-type="pmid">16321879</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref048"><label>48</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dziembowska</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wlodarczyk</surname> <given-names>J</given-names></name>. <article-title>MMP9: a novel function in synaptic plasticity</article-title>. <source>Int J Biochem Cell Biol</source>. <year>2012</year>;<volume>44</volume>(<issue>5</issue>):<fpage>709</fpage>&#8211;<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.biocel.2012.01.023" ns0:type="simple">10.1016/j.biocel.2012.01.023</ext-link></comment> <object-id pub-id-type="pmid">22326910</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kelly</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Russo</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Lamantia</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Majewska</surname> <given-names>AK</given-names></name>. <article-title>Proteolytic regulation of synaptic plasticity in the mouse primary visual cortex: analysis of matrix metalloproteinase 9 deficient mice</article-title>. <source>Frontiers in cellular neuroscience</source>. <year>2015</year>;<volume>9</volume>:<fpage>369</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fncel.2015.00369" ns0:type="simple">10.3389/fncel.2015.00369</ext-link></comment> <object-id pub-id-type="pmid">26441540</object-id>; PubMed Central PMCID: PMC4585116.</mixed-citation></ref>
+<ref id="pone.0218906.ref050"><label>50</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Norden</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Fenn</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Dugan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Godbout</surname> <given-names>JP</given-names></name>. <article-title>TGFbeta produced by IL-10 redirected astrocytes attenuates microglial activation</article-title>. <source>Glia</source>. <year>2014</year>;<volume>62</volume>(<issue>6</issue>):<fpage>881</fpage>&#8211;<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/glia.22647" ns0:type="simple">10.1002/glia.22647</ext-link></comment> <object-id pub-id-type="pmid">24616125</object-id>; PubMed Central PMCID: PMC4061706.</mixed-citation></ref>
+<ref id="pone.0218906.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Brackmann</surname> <given-names>FA</given-names></name>, <name name-style="western"><surname>Alzheimer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Trollmann</surname> <given-names>R</given-names></name>. <article-title>Activin A in perinatal brain injury</article-title>. <source>Neuropediatrics</source>. <year>2015</year>;<volume>46</volume>(<issue>2</issue>):<fpage>82</fpage>&#8211;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1055/s-0035-1547345" ns0:type="simple">10.1055/s-0035-1547345</ext-link></comment> <object-id pub-id-type="pmid">25769120</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Lai</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Sirimanne</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Gluckman</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>CE</given-names></name>. <article-title>Expression of the activin axis and neuronal rescue effects of recombinant activin A following hypoxic-ischemic brain injury in the infant rat</article-title>. <source>Brain research</source>. <year>1999</year>;<volume>835</volume>(<issue>2</issue>):<fpage>369</fpage>&#8211;<lpage>78</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0006-8993(99)01638-8" ns0:type="simple">10.1016/s0006-8993(99)01638-8</ext-link></comment> <object-id pub-id-type="pmid">10415398</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref053"><label>53</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vendrame</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cassady</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Newcomb</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Butler</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Pennypacker</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Zigova</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Infusion of human umbilical cord blood cells in a rat model of stroke dose-dependently rescues behavioral deficits and reduces infarct volume</article-title>. <source>Stroke; a journal of cerebral circulation</source>. <year>2004</year>;<volume>35</volume>(<issue>10</issue>):<fpage>2390</fpage>&#8211;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.STR.0000141681.06735.9b" ns0:type="simple">10.1161/01.STR.0000141681.06735.9b</ext-link></comment> <object-id pub-id-type="pmid">15322304</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref054"><label>54</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shiao</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Yuan</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Crane</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Voth</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Juliano</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Stone</surname> <given-names>LLH</given-names></name>, <etal>et al</etal>. <article-title>Immunomodulation with Human Umbilical Cord Blood Stem Cells Ameliorates Ischemic Brain Injury&#8212;A Brain Transcriptome Profiling Analysis.</article-title> <source>Cell transplantation</source>. <year>2019</year>:963689719836763. Epub 2019/05/09. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0963689719836763" ns0:type="simple">10.1177/0963689719836763</ext-link></comment> <object-id pub-id-type="pmid">31066288</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref055"><label>55</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Drobyshevsky</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cotten</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Luo</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Derrick</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Human Umbilical Cord Blood Cells Ameliorate Motor Deficits in Rabbits in a Cerebral Palsy Model</article-title>. <source>Developmental neuroscience</source>. <year>2015</year>;<volume>37</volume>(<issue>4&#8211;5</issue>):<fpage>349</fpage>&#8211;<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1159/000374107" ns0:type="simple">10.1159/000374107</ext-link></comment> <object-id pub-id-type="pmid">25791742</object-id>; PubMed Central PMCID: PMC4908833.</mixed-citation></ref>
+<ref id="pone.0218906.ref056"><label>56</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Newman</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Manresa</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Davis-Sanberg</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>. <article-title>Stroke-induced migration of human umbilical cord blood cells: time course and cytokines</article-title>. <source>Stem Cells Dev</source>. <year>2005</year>;<volume>14</volume>(<issue>5</issue>):<fpage>576</fpage>&#8211;<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1089/scd.2005.14.576" ns0:type="simple">10.1089/scd.2005.14.576</ext-link></comment> <object-id pub-id-type="pmid">16305342</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref057"><label>57</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Newman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Saporta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>, <etal>et al</etal>. <article-title>MIP-1alpha and MCP-1 Induce Migration of Human Umbilical Cord Blood Cells in Models of Stroke.</article-title> <source>Curr Neurovasc Res</source>. <year>2008</year>;<volume>5</volume>(<issue>2</issue>):<fpage>118</fpage>&#8211;<lpage>24</lpage>. <object-id pub-id-type="pmid">18473828</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref058"><label>58</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rosenkranz</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kumbruch</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lebermann</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Marschner</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Jensen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dermietzel</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>The chemokine SDF-1/CXCL12 contributes to the 'homing' of umbilical cord blood cells to a hypoxic-ischemic lesion in the rat brain</article-title>. <source>J Neurosci Res</source>. <year>2010</year>;<volume>88</volume>(<issue>6</issue>):<fpage>1223</fpage>&#8211;<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jnr.22292" ns0:type="simple">10.1002/jnr.22292</ext-link></comment> <object-id pub-id-type="pmid">19937807</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref059"><label>59</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Borlongan</surname> <given-names>CV</given-names></name>, <name name-style="western"><surname>Hadman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>. <article-title>Central nervous system entry of peripherally injected umbilical cord blood cells is not required for neuroprotection in stroke</article-title>. <source>Stroke; a journal of cerebral circulation</source>. <year>2004</year>;<volume>35</volume>(<issue>10</issue>):<fpage>2385</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1161/01.STR.0000141680.49960.d7" ns0:type="simple">10.1161/01.STR.0000141680.49960.d7</ext-link></comment> <object-id pub-id-type="pmid">15345799</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref060"><label>60</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vendrame</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gemma</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Pennypacker</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Bickford</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Davis Sanberg</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sanberg</surname> <given-names>PR</given-names></name>, <etal>et al</etal>. <article-title>Cord blood rescues stroke-induced changes in splenocyte phenotype and function</article-title>. <source>Experimental neurology</source>. <year>2006</year>;<volume>199</volume>(<issue>1</issue>):<fpage>191</fpage>&#8211;<lpage>200</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.expneurol.2006.03.017" ns0:type="simple">10.1016/j.expneurol.2006.03.017</ext-link></comment> <object-id pub-id-type="pmid">16713598</object-id>.</mixed-citation></ref>
+<ref id="pone.0218906.ref061"><label>61</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ajmo</surname> <given-names>CT</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Vernon</surname> <given-names>DO</given-names></name>, <name name-style="western"><surname>Collier</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Garbuzova-Davis</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Willing</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>The spleen contributes to stroke-induced neurodegeneration</article-title>. <source>J Neurosci Res</source>. <year>2008</year>;<volume>86</volume>(<issue>10</issue>):<fpage>2227</fpage>&#8211;<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/jnr.21661" ns0:type="simple">10.1002/jnr.21661</ext-link></comment> <object-id pub-id-type="pmid">18381759</object-id>; PubMed Central PMCID: PMC2680137.</mixed-citation></ref>
+<ref id="pone.0218906.ref062"><label>62</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Seifert</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Leonardo</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Rowe</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Collier</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Benkovic</surname> <given-names>SA</given-names></name>, <etal>et al</etal>. <article-title>The spleen contributes to stroke induced neurodegeneration through interferon gamma signaling</article-title>. <source>Metab Brain Dis</source>. <year>2012</year>;<volume>27</volume>(<issue>2</issue>):<fpage>131</fpage>&#8211;<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11011-012-9283-0" ns0:type="simple">10.1007/s11011-012-9283-0</ext-link></comment> <object-id pub-id-type="pmid">22354752</object-id>; PubMed Central PMCID: PMC4739736.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0218906.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218906.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Borlongan</surname>
+<given-names>Cesar V</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cesar V Borlongan</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0218906" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">11 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-16233</p>
+<p>Human Umbilical Cord blood monocytes, but not adult blood monocytes, rescue brain cells from hypoxic-ischemic injury: Mechanistic and therapeutic implications</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Saha,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 25 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Cesar V Borlongan</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. To comply with PLOS ONE submissions requirements, please provide methods of sacrifice in the Methods section of your manuscript. Additionally, please provide additional details regarding participant consent for providing blood samples. In the ethics statement in the Methods and online submission information, please ensure that you have specified (1) whether consent was informed and (2) what type you obtained (for instance, written or verbal, and if verbal, how it was documented and witnessed). If the need for consent was waived by the ethics committee, please include this information.</p>
+<p>3. Thank you for your ethics statement : "All experiments were performed in accordance with Duke University Institutional Animal Care and Use Committee&#8217;s policies and followed approved protocols."</p>
+<p>Please amend your current ethics statement to confirm that your named ethics committee/IACUC&#160; specifically approved this study.</p>
+<p>For additional information about PLOS ONE submissions requirements for animal ethics, please refer to <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-animal-research" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-animal-research</ext-link> &#160;</p>
+<p>Once you have amended this/these statement(s) in the Methods section of the manuscript, please add the same text to the &#8220;Ethics Statement&#8221; field of the submission form (via &#8220;Edit Submission&#8221;).</p>
+<p>4. We note that you have included the phrase &#8220;data not shown&#8221; in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data.</p>
+<p>5. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>Both reviewers are highly enthusiastic of this paper and only suggested very minor revisions, which can be easily addressed by the authors.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Saha et al used mouse brain organotypic slice cultures that were oxygen and glucose deprived (OGD) and then treated them with cord blood (CB) or adult peripheral blood (PB). They found that CB CD14+ mononuclear cells (MNCs) protected neurons from OGD-induced death and reduced both microglial and astrocyte activation which was not shown with PB mononuclear cells. The authors showed that the protective effect of the CB MNCs was mediated by secreted factors and did not require cell-to-cell contact with the injured brain.</p>
+<p>1. This very interesting data all revolves around the OGD assay. Are there any other in vitro or even in vivo animal assays that could validate this system?</p>
+<p>2. Were dose-response experiments performed with the peripheral blood mononuclear cells (MNCs) to insure that an adequate dose was tested?</p>
+<p>3. Were experiments with peripheral blood MNCs added directly onto the slice vs into the medium below performed as they were for the CB MNCs?</p>
+<p>4. Also were dose response experiments performed with the CB MNCs that were added directly to the medium?</p>
+<p>5. The authors discuss the fact that the commonly employed and most feasible intravenous use of CB may have limitations when trying to correlate results with the direct application OGD assay. Do they believe there is a role for direct intravascular administration of CB into the injured brain?</p>
+<p>6. Are there other models as discussed ni #1 above where these CB CD14+ MNCs could be infused IV to more accurately reflect the clinical situation?</p>
+<p>Reviewer #2: Using in vitro mouse brain organotypic slice cultures after oxygen and glucose deprivation (OGD) as a model for hypoxic-ischemic (HI) brain injuries, the authors have investigated the potential of cord blood versus peripheral blood MNC co-culture to protect neurons from OGD-induced death as well as reduce microglial and astrocyte activation. The authors report several novel findings: cord blood is effective at protection while peripheral blood is not; protection seems to be facilitated by secreted factors as direct contact is not required; and the protective effect is associated with CD14+ monocyte fraction. Differential gene expression studies have identified several candidate secreted factors preferentially produced by cord blood monocytes, future experiments may begin to evaluate whether those factors (alone or in combinations) could substitute for the cell-based co-culture protective responses.</p>
+<p>The authors should provide additional information regarding the following questions and/or discuss why these points are not directly relevant:</p>
+<p>1. Have the authors evaluated peripheral blood CD14+ MNC obtained after G-CSF stimulation/mobilization in their in vitro neuroprotection model (as the monocyte/dendritic cell populations are very different as compared with non-mobilized PBMC).</p>
+<p>2. The authors are using murine slice cultures obtained from very young 2-day old pups, which may have unique brain responses that are more &#8220;embryonic&#8221; in nature. Have similar experiments been attempted with samples from slightly older murine brains, to determine if equivalent neuroprotective activity can be observed in this perhaps more clinically-relevant situation?</p>
+<p>3. Along the same lines, the current model exposes the sliced cultures to MNC therapy immediately after OGD treatment. Have experiments been conducted to evaluate neuroprotection if MNC therapy is delayed for several hours post-OGD?</p>
+<p>4. Were any dose-response experiments above the 25,000 cell level per slice culture performed with the PB-MNC or other cell fractions to assess whether the observed differences in neuroprotective activity could be accounted for by a below threshold phenomena (similar to the CB-MNC dose-response data shown in Figure 1B)? Similarly, were dose-response experiments (above and below 125,000) performed in the below the membrane culture experiments to better assess the indirect secretion neuroprotective activity?</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0218906.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218906.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0218906" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0218906.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">8 Aug 2019</named-content>
+</p>
+<p>Dr. Cesar V Borlongan</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Borlogan:</p>
+<p>Thank you for arranging for the review of our manuscript PONE-D-19-16233 and for forwarding the reviewer&#8217;s comments to us.  With this letter, we are submitting a revised version addressing their comments and, hopefully, positioning the manuscript for publication.  We address each of the comments in detail below; our responses are presented in blue font.  We appreciate the reviewers&#8217; comments and suggestions and feel that the manuscript is better because we have addressed them in this revision.  We hope that you will now find the manuscript acceptable for publication in PLOS ONE.  </p>
+<p>Sincerely,</p>
+<p>Arjun Saha, Ph.D.</p>
+<p>Project Leader</p>
+<p>Marcus Centre for Cellular Cures</p>
+<p>Duke University School of Medicine</p>
+<p>701 West Main Street</p>
+<p>Chesterfield Building, Room 5413</p>
+<p>Durham, NC 27701</p>
+<p>USA</p>
+<p>Ph: 919-684-3934</p>
+<p>Fax:919-681-9760</p>
+<p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>Comments: We followed the journal style while revising the manuscript.</p>
+<p>2. To comply with PLOS ONE submissions requirements, please provide methods of sacrifice in the Methods section of your manuscript. Additionally, please provide additional details regarding participant consent for providing blood samples. In the ethics statement in the Methods and online submission information, please ensure that you have specified (1) whether consent was informed and (2) what type you obtained (for instance, written or verbal, and if verbal, how it was documented and witnessed). If the need for consent was waived by the ethics committee, please include this information.</p>
+<p>Comments: We have added the method of sacrifice in Materials and Methods section, p. 7, line 14.</p>
+<p>3. Thank you for your ethics statement : "All experiments were performed in accordance with Duke University Institutional Animal Care and Use Committee&#8217;s policies and followed approved protocols."</p>
+<p>Please amend your current ethics statement to confirm that your named ethics committee/IACUC  specifically approved this study.</p>
+<p>Comments: We have amended this in p. 7, line 4-6 of the revised manuscript.</p>
+<p>For additional information about PLOS ONE submissions requirements for animal ethics, please refer to <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-animal-research" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-animal-research</ext-link> </p>
+<p>Once you have amended this/these statement(s) in the Methods section of the manuscript, please add the same text to the &#8220;Ethics Statement&#8221; field of the submission form (via &#8220;Edit Submission&#8221;).</p>
+<p>4. We note that you have included the phrase &#8220;data not shown&#8221; in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data.</p>
+<p>Comments: We have added this data in a new supporting figure, S3 Fig, and accordingly changed the main text (p. 15, line 10) and revised supporting info, p. 3, line 6-11.</p>
+<p>5. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>Both reviewers are highly enthusiastic of this paper and only suggested very minor revisions, which can be easily addressed by the authors.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p>Comments to the Author</p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>________________________________________</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>________________________________________</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The PLOS Data policy requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>________________________________________</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>________________________________________</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Saha et al used mouse brain organotypic slice cultures that were oxygen and glucose deprived (OGD) and then treated them with cord blood (CB) or adult peripheral blood (PB). They found that CB CD14+ mononuclear cells (MNCs) protected neurons from OGD-induced death and reduced both microglial and astrocyte activation which was not shown with PB mononuclear cells. The authors showed that the protective effect of the CB MNCs was mediated by secreted factors and did not require cell-to-cell contact with the injured brain.</p>
+<p>1. This very interesting data all revolves around the OGD assay. Are there any other in vitro or even in vivo animal assays that could validate this system?</p>
+<p>Response: We are glad to know that the reviewer found our work interesting. As reviewed in the introduction and discussion of the manuscript, CB mononuclear cells have been tested in several in experimental systems of hypoxic injury, including OGD-induced injury, in animals and in culture, and also used in related clinical trials.   We decided to explore the OGD-brain slice system further because there is no consensus on the type of cells within CB mononuclear cells that mediate neuroprotection.  We believe that the most important results presented in our manuscript are (1) that under defined experimental conditions, cord blood monocytes uniquely protect neurons and dampen glial activation in the brain slices exposed to OGD and (2) that peripheral blood monocytes do not.  </p>
+<p>The reviewer asks how these results compare with results in other experimental systems.  In response, we note that other CB cell types have been implicated in regulating neural and glial cell activities in cell culture systems as reviewed in the manuscript.  In one well established animal model, cerebral artery occlusion in rats, the neuroprotective activity of intravenously administered CB mononuclear cells has been shown to reside in the CD14+ cell population [Reference #13 in the manuscript; Womble TA et al., 2014].  Furthermore, another study demonstrated that rat peripheral blood mononuclear cells alone had no effect in the MCAO model [Wu et al., Cell Transplantation, Vol. 26, pp. 571&#8211;583, 2017]. Thus, our results are consistent with these animal results.  We have cited these references in the revision and emphasized the corroboration [see p. 16, line 18-21 (&#8230;These results are consistent with findings of Womble et al. [13] showing  that purified CB CD14+ monocytes, and none of the other human CB mononuclear cell sub populations tested, were neuroprotective in the rat middle cerebral artery occlusion [MCAO] model&#8230;.)].  </p>
+<p>Beyond the experimental systems, these initial results are also consistent with the clinical setting.  Brain damage develops in patients following hypoxic injury even though peripheral blood cells, including peripheral blood monocytes circulate in very high numbers.  Indeed, infiltration of peripheral blood monocytes is considered an important part of the pathogenesis of hypoxic brain injury.  We note that the same situation pertains to animal models.  In the clinic, infusion of cord blood mononuclear cells (usually including 5-10% monocytes) has been found to be safe and trials of potential therapeutic efficacy, based on observations in animal models, are continuing.  We have added sentences to the discussion to emphasize this point [see p. 16, line 18-21 and p. 19, line14-18(&#8230;.As already noted, our results demonstrating the neuroprotective activity of CB CD14+ correlate strongly with results in the MCAO rat model, and this suggests that studies investigating the biodistribution of CD14+ CB monocytes following different routes in the MCAO model and in neonatal and adult rodent hypoxia models maybe useful in elucidating where interactions important to therapeutic outcome occur..)</p>
+<p>Thus, our results are consistent with other clinical and experimental observations.  Further studies using CD14+ cord blood cells in rodent neonatal hypoxic-ischemic  or adult middle cerebral artery occlusion (MCAO) models could be useful to exploring how closely the results in the brain slice system reproduce clinically relevant results.  We have pointed this out in the penultimate paragraph of the revised discussion [p. 18, line 6-18 (&#8230;.Finally, we note that although our standard brain slice model preserves many important aspects of brain architecture and neuron-glial interactions in response to OGD stress, the system presented here does not replicate all important aspects influencing cell therapy for HI-brain injury.  We have not yet explored whether CB CD14+ monocytes can reverse neural death when added to cultures at longer periods after shock or whether slice cultures from adult brain slices will be protected as efficiently those from neonates.   Addressing these issues should be straightforward in this system.  Also, the slice culture system in which candidate cell therapy populations are added directly to brain slices, or in a small amount of medium directly below the slices, may not reflect the dosing, biodistribution, or pharmacokinetics associated with any of the routes (intravenous, intrathecal, intra-arterial, intraparenchymal) that have been used to administer CB-MNC and other cell therapies to experimental animals or patients with HI-induced brain injury.   How each of these routes impacts dosing or targeting of cells to the brain is not yet clear, even after intravenous injection, the most common route of administration) and p. 19, line 14-18 (&#8230;.As already noted, our results demonstrating the neuroprotective activity of CB CD14+ correlate strongly with results in the MCAO rat model, and this suggests that studies investigating the biodistribution of CD14+ CB monocytes following different routes in the MCAO model and in neonatal and adult rodent hypoxia models maybe useful in elucidating where interactions important to therapeutic outcome occur.)]. Also we edited the introduction section slightly in the revised manuscript [p. 6, line 4-7(&#8230;.Organotypic slice cultures offer the advantage of preserving the cytoarchitecture of the tissue of origin and connectivity of different anatomical regions, as well as functional relationships and interactions between neighboring cells, such as neurons and astrocytes, keeping the intrinsic synaptic connections found in vivo)] to emphasize the advantage of using organotypic slice cultures over other in vitro systems.</p>
+<p>2. Were dose-response experiments performed with the peripheral blood mononuclear cells (MNCs) to insure that an adequate dose was tested?</p>
+<p>Response: At 25,000 cells/slice dose, CB-MNC, were significantly neuroprotective, but PB-MNC were inactive.  As we found that monocyte cells are the active components of CB-MNC and we also know that average monocyte frequencies in cord blood and peripheral blood are similar [Immunology. 2011 May; 133(1): 41&#8211;50] we only tried the same dose for PB-MNC as we used the dose for CB-MNC. When we used isolated monocytes from CB and PB, both at a dose of 25,000cells/slice, in our OGD assay we could not find protective activity from PB-CD14+ monocytes, whereas CB-CD14+ monocytes were significantly effective (fig 3 and 2). And this is one of the major findings of our study presented here; at the same dose CB-CD14+ monocytes are neuroprotective but PB-CD14+ monocytes are not. Since, 25,000 PB-MNCs were not neuroprotective, we did not titrate cell number in the assay system as we did for CB-MNC.  Also, please see our response to question #1.</p>
+<p>3. Were experiments with peripheral blood MNCs added directly onto the slice vs into the medium below performed as they were for the CB MNCs?</p>
+<p>Response:  Since 25,000 PB-MNC did not significantly protect neurons when added directly onto the brain slices, we did not test the effect of PB-MNC added indirectly into the medium as the same paracrine effect would still be possible under the directly added cells on the tissue.</p>
+<p>4. Also were dose response experiments performed with the CB MNCs that were added directly to the medium?</p>
+<p>Response: We thank the reviewer for bringing up this point and edited the method section to make our methods more clear [P. 7, line 22-23 (&#8230;.to check possible paracrine effect&#8230;) and P. 8, line 1-2 (&#8230;And in this case, to compensate for possible dilution of protective factors by the large volume the culture medium, we added 1.25x105 cells below the membrane&#8230;)] and results section [p. 13, line 9 (&#8230;directly into the medium)].</p>
+<p>In principle, both cell to cell contact and paracrine effects could play a role in neuroprotection.   Our goal in this experiment was simply to determine if CB CD14+ cells released neuroprotective soluble factors.  We routinely found significant neuroprotection at 25,000 CB-MNC/slice and used this as a standard condition for direct addition of cells to slice cultures.  When we decided to determine if we could detect paracrine effects, we decided to add 125,000 cells, 5-times more cells than were added directly to the slices, to try to account for the very large dilution of secreted factors in the culture medium [2&#181;L of medium (containing the cells) on top of slice versus 1mL of medium below slice].  Our results show that CB monocytes do secrete protective paracrine factors, which were significantly neuroprotective at 125,000 cells/well dose, and we did not try any other doses.  </p>
+<p>5. The authors discuss the fact that the commonly employed and most feasible intravenous use of CB may have limitations when trying to correlate results with the direct application OGD assay. Do they believe there is a role for direct intravascular administration of CB into the injured brain?</p>
+<p>Response: We thank the reviewer for raising this very important point. We have modified the penultimate paragraph of the discussion [p. 18, line 6-18 and p. 19, line 14-18 (please see response to question #1)] to address these issues more fully. The best route for administering cell therapies to treat brain injury is a field of active investigation. Clinical trials using intravenous, intrathecal, intraarterial, intraparenchymal administration have been completed and are on-going. Comparing these trials is very complex as different agents have been used with different doses and devices.  Another important issue is whether cells delivery to the brain is necessary to effect repair.  Thus, delivery to other tissue may induce changes in those tissues that result in production of soluble proteins or cell populations that go to the brain to mediate repair.  In one example possibly closely related to our work, the neuroprotective effect of CB mononuclear cells in the rat MCAO model was abrogated when animals were splectomized prior to injury, suggesting that the treatment effects depended on activities in the spleen. References are cited in the new paragraph. Further to our response to question 1, our results suggest that tracking biodistribution of CB CD14+ monocytes after infusion into animal models by different routes and how this correlates with neuroprotection may illuminate this issue further. All of these points are incorporated into the revision. </p>
+<p>6. Are there other models as discussed ni #1 above where these CB CD14+ MNCs could be infused IV to more accurately reflect the clinical situation?</p>
+<p>Response: Please see response to questions #1 and #5.  In addition, we note that the OGD-brain slice model that we have now standardized allows us to approach possible mechanisms of action and then to see how these may correspond to animal models and clinical outcomes.  For example, we already have candidate secretory molecules made by CD14+ monocytes that could mediate neuroprotection directly or by regulating other cells.  The culture system lets us explore this directly, and we can then look for the activities of these molecules in animal models.  Soluble molecules can also be measure in patient samples. </p>
+<p>Reviewer #2: Using in vitro mouse brain organotypic slice cultures after oxygen and glucose deprivation (OGD) as a model for hypoxic-ischemic (HI) brain injuries, the authors have investigated the potential of cord blood versus peripheral blood MNC co-culture to protect neurons from OGD-induced death as well as reduce microglial and astrocyte activation. The authors report several novel findings: cord blood is effective at protection while peripheral blood is not; protection seems to be facilitated by secreted factors as direct contact is not required; and the protective effect is associated with CD14+ monocyte fraction. Differential gene expression studies have identified several candidate secreted factors preferentially produced by cord blood monocytes, future experiments may begin to evaluate whether those factors (alone or in combinations) could substitute for the cell-based co-culture protective responses.</p>
+<p>The authors should provide additional information regarding the following questions and/or discuss why these points are not directly relevant:</p>
+<p>1. Have the authors evaluated peripheral blood CD14+ MNC obtained after G-CSF stimulation/mobilization in their in vitro neuroprotection model (as the monocyte/dendritic cell populations are very different as compared with non-mobilized PBMC).</p>
+<p>Response: This is an interesting point as G-CSF mobilized blood cells have been tested as potential stroke therapeutics.  As we found monocytes are the bioactive cells in cord blood and we know that monocyte frequencies are similar in CB and PB, we have not explored this in our system and thank the reviewer for the suggestion.</p>
+<p>2. The authors are using murine slice cultures obtained from very young 2-day old pups, which may have unique brain responses that are more &#8220;embryonic&#8221; in nature. Have similar experiments been attempted with samples from slightly older murine brains, to determine if equivalent neuroprotective activity can be observed in this perhaps more clinically-relevant situation?</p>
+<p>Response: We understand the reviewer&#8217;s concern and as we mentioned in comment #1 of Reviewer-1, that other in vivo models could be used further to test our findings in a more clinically relevant situation but it is beyond the scope of our current proof-of-principle study. We used brain slices from young 2-day old mouse pups as these gives more consistent and reliable organotypic cultures compared to the brain slices from adult mice (Trends Neurosci. 1997 Oct;20(10):471-7). However, we would like to note (as mentioned in the methods section of the manuscript) that these slices were in the culture for about two weeks before we used those for OGD experiments. Here we wanted first know, as a proof of principle, using this ex vivo brain slice culture system, that whether CB-MNC and its various specific subpopulations of cells could be protective after hypoxic-ischemic shock.  In response to this comment we have added how the age of the brain cells in the slice culture impacts response to CD14+ monocytes to a list of issues that can be resolved using the system described in the manuscript in order to further explore the clinical relevance; this appears in the new penultimate paragraph [p. 18, line 6-18 and p. 19, line 14-18 (please see response to question #1)].  </p>
+<p>3. Along the same lines, the current model exposes the sliced cultures to MNC therapy immediately after OGD treatment. Have experiments been conducted to evaluate neuroprotection if MNC therapy is delayed for several hours post-OGD?</p>
+<p>Response: This is an important point raised by the reviewer.  We have not studied the time course of the treatment effect further.  As we mentioned earlier, the main focus of our study described here was to create the most favorable condition for the intervention so that we could see any beneficial effect and we believed that treating immediately after the insult might augment the probability of seeing protective effect. Also neuronal death in our system was very quick, we found significant neuronal deaths by 72-hours after the OGD shock, so we decided to treat these cultures as quickly as possible. Again, we have incorporated this point in the penultimate paragraph [p. 18, line 6-18 and p. 19, line 14-18 (please see response to question #1)] discussing important parameters that can be explored with the system.</p>
+<p>4. Were any dose-response experiments above the 25,000 cell level per slice culture performed with the PB-MNC or other cell fractions to assess whether the observed differences in neuroprotective activity could be accounted for by a below threshold phenomena (similar to the CB-MNC dose-response data shown in Figure 1B)? Similarly, were dose-response experiments (above and below 125,000) performed in the below the membrane culture experiments to better assess the indirect secretion neuroprotective activity?</p>
+<p>Response: Please see response #2, 3 and 4 of Reviewer-1. Furthermore, we found that CB-MNC at 25,000 cells/slice dose, were significantly neuroprotective, but PB-MNC were not.  As we learnt that monocyte cells are the active components of CB-MNC and as it is also known that average monocyte frequencies in cord blood and peripheral blood are similar [Immunology. 2011 May; 133(1): 41&#8211;50], we only tried the same dose for PB-MNC as we used the dose for CB-MNC. This is exactly what we found intriguing in our study that at the same dose CB-MNC or CB-CD14+ monocytes were neuroprotective compared to the PB-MNC or PB-CD14+ monocytes. </p>
+<p>When we decided to determine whether these cells will be functional even if they are not in direct contact with the brain slices, we added cells below the membrane, into the medium and decided to use 125,000 cells, 5-times more cells than were added directly to the slices, to account for the very large dilution of secreted factors in the culture medium [2&#181;L of medium in meniscus on slice versus 1mL of medium below slice].  Our results show that CB monocytes do secrete protective paracrine factors, which were significantly neuroprotective at 125,000 cells/well dose and we did not test any other doses. To make it more explicit we have now edited the method section [p. 7, line 22-23 and p. 8, line 1-2] and results section (p. 13, line 9) to address these issues.</p>
+<p>In the revised manuscript we have also added four new references:</p>
+<p>#18: Shahaduzzaman, M.D., et al., Human umbilical cord blood cells induce neuroprotective change in gene expression profile in neurons after ischemia through activation of Akt pathway. Cell Transplant, 2015. 24(4): p. 721-35.</p>
+<p>#34: Bachstetter, A.D., et al., Peripheral injection of human umbilical cord blood stimulates neurogenesis in the aged rat brain. BMC Neurosci, 2008. 9: p. 22.</p>
+<p>#35: Scotland, P., et al., Gene products promoting remyelination are up-regulated in a cell therapy product manufactured from banked human cord blood. Cytotherapy, 2017. 19(6): p. 771-782.</p>
+<p>#52: Shiao, M.L., et al., Immunomodulation with Human Umbilical Cord Blood Stem Cells Ameliorates Ischemic Brain Injury - A Brain Transcriptome Profiling Analysis. Cell Transplant, 2019: p. 963689719836763.</p>
+<supplementary-material id="pone.0218906.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0218906.s008" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Editor and Reviewrs comments PLOSONE_Saha.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0218906.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218906.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Borlongan</surname>
+<given-names>Cesar V</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cesar V Borlongan</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0218906" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">14 Aug 2019</named-content>
+</p>
+<p>Human Umbilical Cord blood monocytes, but not adult blood monocytes, rescue brain cells from hypoxic-ischemic injury: Mechanistic and therapeutic implications</p>
+<p>PONE-D-19-16233R1</p>
+<p>Dear Dr. Saha,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Cesar V Borlongan</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>The authors have fully addressed the minor suggestions recommended by both reviewers. This revised manuscript is now prime time for publication. -Cesar V Borlongan</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0218906.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0218906.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Borlongan</surname>
+<given-names>Cesar V</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cesar V Borlongan</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0218906" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">21 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-16233R1 </p>
+<p>Human Umbilical Cord blood monocytes, but not adult blood monocytes, rescue brain cells from hypoxic-ischemic injury: Mechanistic and therapeutic implications </p>
+<p>Dear Dr. Saha:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Prof. Cesar V Borlongan  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

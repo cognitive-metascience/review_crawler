@@ -1,0 +1,28 @@
+<sub-article article-type="author-comment" id="pone.0222232.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222232.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222232" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222232.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">22 Aug 2019</named-content>
+</p>
+<p>Dear Handling Editors,</p>
+<p>Thank you very much for the opportunity to revise our manuscript, &#8220;A half-century of changes in migratory landbird numbers along coastal Massachusetts. We have made both of the requested revisions. Our responses and revisions are detailed in the letter below, along with the feedback that prompted them.</p>
+<p>1) I had asked "Check the k values in Table 2. Why are they so different for similar variables between fall and spring?" and your response was "We thank the editor for bringing this to our attention. This was due to an error in data structures, wherein median date of arrival in the spring was stored as a factor with 45 unique levels, rather than as a numeric quantity. This has been corrected, and the model ranks remained</p>
+<p>unchanged. Values in Table 2 have been updated accordingly."</p>
+<p>When I look at Table 2, I see only changes to the delta-AICc values and model weights but not to k. Is this correct? If not, then please correct the values. If yes, then please add a sentence to the caption explaining why.</p>
+<p>Revision made: We have corrected the k values; this was missed in the last round of corrections.</p>
+<p>2) The paper cited by Dorian et al. is not published (listed as "in review"). Is there a pre-print or something else you can cite? If you don't have more information, then this reference should be removed from your manuscript. If there is something more specific to cite, then the numbering for citations would also need to change.</p>
+<p>Revision made: We have removed this reference.</p>
+</body>
+</sub-article>

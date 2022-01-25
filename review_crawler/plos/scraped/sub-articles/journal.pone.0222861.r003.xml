@@ -1,0 +1,44 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="author-comment" id="pone.0222861.r003">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222861.r003</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222861" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj003" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222861.r002" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">18 Aug 2019</named-content>
+</p>
+<p>Reviewer 1</p>
+<p>1. Thank you for the constructive comments to improve our study. We should have mentioned about Pu.1/Ets.2 in the discussion. We added the sentences as below (P17, line 15-21).</p>
+<p> &#8220;... transcriptional regulation of Tspo. In addition to the involvement of AP-1 and Sp1, Rashid et al reported that the Pu.1 and its binding motif, Ets, play an important role in the transactivation of Tspo gene expression. Prediction tools for transcription binding sites were used in this study; however, Pu.1/Ets was not identified as a candidate transcription factor for the regulation of the Tspo gene. Contrary to the prediction results, the Ets sequence (5&#8217;-GGAA-3&#8217;) is located 3 bp from the AP-1 binding site and acts as a transcriptional activator of Tspo in response to LPS stimulation.&#8221;</p>
+<p>2. Thank you for the constructive comments to improve our study. We also wondered the differences between our results and a recent study (Rashid et al, Biochim Biophys Acta. Gene Regul Mech, 2018). Batarseh et al reported that PMA-induced Tspo expression was reduced by the solely knockdown of c-Jun in MA-10 cells and NIH-3T3 cells (ref#.25, Figure 4 and 6), hence, it is thought to be that the expression of Tspo was inhibited by the knockdown of either of c-Fos or c-Jun. In case of our study, the protocols such as cell and its culture condition, the dose or time of LPS stimulation and the measurement of gene expression by qRT-PCR or Western blotting were diffed from previous studies, the results were not completely consistent with those studies.</p>
+<p>3. Thank you for your comments. Rashid et al (Ref. #34) and Batarseh et al (Ref. #26) reported that the enrichment of Sp1, Sp3 and Sp4 were increased at the GC-boxes in the proximal and distal promoter region of Tspo gene and the knockdown experiments of Sp3 or Sp4 significantly reduced the transactivation of Tspo, hence, it is considered to be a certain phenomenon that the involvement of Sp family in the Tspo gene expression.</p>
+<p>Previous studies showed that Sp1 and HDAC1 forms a transcriptional repressor complex at the transcriptional inactive state. Upon the stimulation, the enrichment of Sp1 did not affect, however, HDAC1 was released from Sp1 and replaced to CBP/p300 (Ref. #21 and 27).</p>
+<p>We hypothesized that the same molecular mechanism was occurred in the transcriptional regulation of Tspo gene. Furthermore, since there were few studies that the interaction between HDAC1 and Sp3 or Sp4, we excluded Sp3 and Sp4 from this study. The additional information is shown in the results section as described below. (P14, line1-4)</p>
+<p>&#8220;... a, transcriptionally repressed state [21,27]. Furthermore, since few studies have examined the interaction between HDAC1 and Sp3 or Sp4, we excluded Sp3 and Sp4 from this study and focused on the interaction between Sp1 and HDAC1 in the proximal promoter region of the Tspo gene.&#8221;</p>
+<p>4. Thank you for the constructive comments to improve our study. As you pointed out, we should have mentioned about the activation of microglia during CNS development. We added the sentences in the discussion section with reference (Hanisch UK, Kettenmann H. Microglia: active sensor and versatile effector cells in the normal and pathologic brain. Nat Neurosci. 2007 Nov;10(11):1387-94. Review. PubMed PMID: 17965659) as below. (P19, line2-5)</p>
+<p> &#8220;... for fetal development. In addition, there is a possibility that the increase in TSPO expression during the neural developmental stage might be reflective of activated microglia. During neural development, microglia are activated and maintain CNS homeostasis by removing apoptotic cells, myelin debris and other endogenous redundant debris [40].&#8221;</p>
+<p>Reviewer 2</p>
+<p>1. Thank you for your advice. As you pointed out, the classification of microglia is complicated according to various studies. We described only classical classification of microglia in introduction section and did not mention detailed classification such as M (LPS) and M (IL-4 and IL-13) (previously named as M2a) that reported recently (Michell-Robinson MA et al, Brain. 2015 May;138(Pt 5):1138-59). The objective of this study is clarification of transcriptional mechanism of Tspo gene in mice, hence, we did not intend to mention the classification of microglial cell. LPS and IFN-&#947; were used for induction of activated microglia and Tspo gene expression as pro-inflammatory inducers.</p>
+<p>2. Thank you for your advice. The lists of oligonucleotide sequences and antibodies were transferred to S1 and S2 Table.</p>
+<p>3. Thank you for your advice. We revised the manuscript and was proofread by the Springer Nature Author Services.</p>
+<p>Reviewer 3</p>
+<p>1. Thank you for your advice. The title was replaced as follows. &#8220;Lipopolysaccharide induces mouse translocator protein (18 kDa) expression via the AP-1 complex in the microglial cell line, BV-2.&#8221;</p>
+<p>2. Thank you for your comments. Upon LPS or pro-inflammatory stimulation, various pathways were activated and HDAC1 was released from AP-1 binding site, transcriptional activators were then recruited to the Tspo promoter. Of course, since it is thought that not all HDAC1 molecules were released from AP-1 binding site, some HDAC1 molecules remained at the AP-1 binding site. Furthermore, the enrichment of HDAC1 might gradually returns to normal condition in time-dependent manner after once upon release from AP-1 binding site to inhibit activated gene expression.</p>
+<p>3. Thank you for your advice. We revised the manuscript and was proofread by the Springer Nature Author Services.</p>
+<supplementary-material id="pone.0222861.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222861.s006" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>

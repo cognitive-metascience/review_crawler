@@ -1,0 +1,1064 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-15357</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Annelids</subject><subj-group><subject>Earthworms</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Ecology and environmental sciences</subject><subj-group><subject>Species colonization</subject><subj-group><subject>Invasive species</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Animal studies</subject><subj-group><subject>Experimental organism systems</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Plants</subject><subj-group><subject>Grasses</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Animal studies</subject><subj-group><subject>Experimental organism systems</subject><subj-group><subject>Plant and algal models</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Agricultural soil science</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Ecology and environmental sciences</subject><subj-group><subject>Soil science</subject><subj-group><subject>Agricultural soil science</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbiome</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Microbial genomics</subject><subj-group><subject>Microbiome</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Microbial genomics</subject><subj-group><subject>Microbiome</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Population biology</subject><subj-group><subject>Population metrics</subject><subj-group><subject>Death rates</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title><italic>Pontoscolex corethrurus</italic>: A homeless invasive tropical earthworm?</article-title>
+<alt-title alt-title-type="running-head">Homeless invasive tropical earthworm</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8700-4503</contrib-id>
+<name name-style="western">
+<surname>Ort&#237;z-Ceballos</surname>
+<given-names>Angel I.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-5062-8440</contrib-id>
+<name name-style="western">
+<surname>Ortiz-Gamino</surname>
+<given-names>Diana</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-9387-0483</contrib-id>
+<name name-style="western">
+<surname>Andrade-Torres</surname>
+<given-names>Antonio</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-3202-1784</contrib-id>
+<name name-style="western">
+<surname>P&#233;rez-Rodr&#237;guez</surname>
+<given-names>Paulino</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6484-1798</contrib-id>
+<name name-style="western">
+<surname>L&#243;pez-Ortega</surname>
+<given-names>Maurilio</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Instituto de Biotecnolog&#237;a y Ecolog&#237;a Aplicada (INBIOTECA), Universidad Veracruzana, Col. Emiliano Zapata, Xalapa, Veracruz, M&#233;xico</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Programa de Estad&#237;stica, Campus Montecillo, Colegio de Postgraduados, Montecillo, Estado de M&#233;xico, M&#233;xico</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Bhadauria</surname>
+<given-names>Tunira</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Feroze Gandhi Degree College, INDIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">angortiz@uv.mx</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>20</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222337</elocation-id>
+<history>
+<date date-type="received">
+<day>29</day>
+<month>5</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>27</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Ort&#237;z-Ceballos et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222337" />
+<abstract>
+<p>The presence of earthworm species in crop fields is as old as agriculture itself. The earthworms <italic>Pontoscolex corethrurus</italic> (invasive) and <italic>Balanteodrilus pearsei</italic> (native) are associated with the emergence of agriculture and sedentism in the region Amazon and Maya, respectively. Both species have shifted their preference from their natural habitat to the cropland niche. They contrast in terms of intensification of agricultural land use (anthropic impact to the symbiotic soil microbiome). <italic>P</italic>. <italic>corethrurus</italic> inhabits conventional agroecosystems, while <italic>B</italic>. <italic>pearsei</italic> thrives in traditional agroecosystems, i.e., <italic>P</italic>. <italic>corethrurus</italic> has not yet been recorded in soils where <italic>B</italic>. <italic>pearsei</italic> dwells. The demographic behavior of these two earthworm species was assessed in the laboratory over 100 days, according to their origin (OE; <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic>) food quality (FQ; soil only, maize stubble, <italic>Mucuna pruriens</italic>), and soil moisture (SM; 25, 33, 42%). The results showed that OE, FQ, SM, and the OE x FQ interaction were highly significant for the survival, growth, and reproduction of earthworms. <italic>P</italic>. <italic>corethrurus</italic> showed a lower survival rate (&gt; mortality). <italic>P</italic>. <italic>corethrurus</italic> survivors fed a diet of low-to-intermediate nutritional quality (soil and stubble maize, respectively) showed a greater capacity to grow and reproduce; however, it was surpassed by the native earthworm when fed a high-quality diet (<italic>M</italic>. <italic>pruriens</italic>). Besides, <italic>P</italic>. <italic>corethrurus</italic> displayed a low cocoon hatching (emergence of juveniles). These results suggest that the presence of the invasive species was associated with a negative interaction with the soil microbiota where the native species dwells, and with the absence of natural mutualistic bacteria (gut, nephridia, and cocoons). These results are consistent with the absence of <italic>P</italic>. <italic>corethrurus</italic> in milpa and pasture-type agricultural niches managed by peasants (agroecologists) to grow food regularly through biological soil management. Results reported here suggest that <italic>P</italic>. <italic>corethrurus</italic> is an invasive species that is neither wild nor domesticated, that is, its eco-evolutionary phylogeny needs to be derived based on its symbionts.</p>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4" />
+<table-count count="1" />
+<page-count count="13" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Although humans have produced novel niches prior to the advent of agriculture, the innovation of domestication led to changes in the life cycle of one or a few species, and the local microenvironments were manipulated, especially soil biota [<xref ref-type="bibr" rid="pone.0222337.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref004">4</xref>]. The artificial landscapes that resulted from these practices (anthropocentric ecology) were exported as agricultural packages from the centers of origin [<xref ref-type="bibr" rid="pone.0222337.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref004">4</xref>]. Thus, over a relatively short period in the history of mankind, the expansion of agriculture has brought about the remodeling of biodiversity as one of the most significant anthropogenic impacts on terrestrial ecosystems [<xref ref-type="bibr" rid="pone.0222337.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref005">5</xref>].</p>
+<p>Agriculture has given rise to uniform and predictable disturbed ecological niches (invasible habitats), which have proven highly beneficial for non-domesticated species or weeds [<xref ref-type="bibr" rid="pone.0222337.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref006">6</xref>], and some earthworm species. Blakemore [<xref ref-type="bibr" rid="pone.0222337.ref007">7</xref>] has suggested that the origins of cosmopolitan (invasive) earthworms at family level are associated with domestication centers of plants and animals; that is, the presence of earthworms in crop fields is as old as agriculture itself [<xref ref-type="bibr" rid="pone.0222337.ref007">7</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref009">9</xref>]. The terms of the Millennium Ecosystem Assessment highlight the catalytic role of earthworms regarding two environmental services [<xref ref-type="bibr" rid="pone.0222337.ref010">10</xref>], namely the formation of soil and biogeochemical cycles, both of which are prerequisites for other environmental services [<xref ref-type="bibr" rid="pone.0222337.ref010">10</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref011">11</xref>].</p>
+<p>Most of the studies focused on earthworms have used species adapted to crops, and most of them are currently considered as invasive [<xref ref-type="bibr" rid="pone.0222337.ref011">11</xref>]. It has been documented that 3% of the diversity of earthworms are invasive species [<xref ref-type="bibr" rid="pone.0222337.ref012">12</xref>]. As an example, European earthworms are frequently mentioned as the main cause of an irreversible change in the diversity and functioning of ecosystems in North America (Wisconsin glaciation areas) that were previously free from earthworms 12 thousand years ago [<xref ref-type="bibr" rid="pone.0222337.ref013">13</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref015">15</xref>]. However, there is a deeply rooted positive attitude toward earthworms in human populations in North America, acknowledging their beneficial effects on agricultural soils and urban gardens [<xref ref-type="bibr" rid="pone.0222337.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0222337.ref016">16</xref>].</p>
+<p>Among the invasive tropical earthworms, the endogeic species <italic>Pontoscolex corethrurus</italic> was collected and described in crop fields in Blumenau, Brazil 160 years ago [<xref ref-type="bibr" rid="pone.0222337.ref017">17</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref018">18</xref>]; it has a broad distribution range and is the most studied tropical species [<xref ref-type="bibr" rid="pone.0222337.ref019">19</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref020">20</xref>]. Native species also move across a region in a similar way to invasive species, in addition to natural displacements [<xref ref-type="bibr" rid="pone.0222337.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222337.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0222337.ref021">21</xref>]. The native endogeic earthworm <italic>Balanteodrilus pearsei</italic> was first collected and described from Gongora cave in Okcutzcab, Yucatan 81 years ago [<xref ref-type="bibr" rid="pone.0222337.ref022">22</xref>]; it is distributed in the east and southeast of Mexico and Belize [<xref ref-type="bibr" rid="pone.0222337.ref019">19</xref>]; it dwells in natural and agricultural environments and is the most studied species native to Mexico. Most studies conducted with both species point to a positive influence of their biological activity on soil [<xref ref-type="bibr" rid="pone.0222337.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0222337.ref023">23</xref>], i.e., they do not meet the definition of pest [<xref ref-type="bibr" rid="pone.0222337.ref024">24</xref>]. For this reason, we use the term <italic>invasive</italic> with reference to the biogeographical status of the species, regardless of its impact on soil [<xref ref-type="bibr" rid="pone.0222337.ref024">24</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref025">25</xref>].</p>
+<p>Similar to weeds [<xref ref-type="bibr" rid="pone.0222337.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0222337.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0222337.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0222337.ref026">26</xref>], it can be suggested that <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic> have shifted their preference from their natural habitat to agricultural environments, spreading geographically beyond their place of origin, and are currently key elements of agricultural environments. The presence of <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic> is associated with the development of pre-Columbian cultivation techniques in the Amazon [<xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0222337.ref028">28</xref>, <xref ref-type="bibr" rid="pone.0222337.ref029">29</xref>] and Maya [<xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref030">30</xref>, <xref ref-type="bibr" rid="pone.0222337.ref031">31</xref>] regions, respectively. For example, it is believed that <italic>P</italic>. <italic>corethrurus</italic> facilitated the formation of fertile soils in the Amazon area named "Terra Preta do Indo" [<xref ref-type="bibr" rid="pone.0222337.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0222337.ref033">33</xref>, <xref ref-type="bibr" rid="pone.0222337.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0222337.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0222337.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0222337.ref037">37</xref>]. Both species have adapted to niches that emerged from agriculture [<xref ref-type="bibr" rid="pone.0222337.ref038">38</xref>], but contrast regarding the intensification of agricultural land use and/or the diversion of each from natural habitats (anthropic manipulation of soil). <italic>P</italic>. <italic>corethrurus</italic> is commonly found in conventional agrecosystems (use of fertilizers, herbicides, pesticides, and tillage), as well as in industrial (polluted with heavy metals, petroleum hydrocarbons, and others) and urban areas [<xref ref-type="bibr" rid="pone.0222337.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0222337.ref039">39</xref>, <xref ref-type="bibr" rid="pone.0222337.ref040">40</xref>, <xref ref-type="bibr" rid="pone.0222337.ref041">41</xref>]. <italic>B</italic>. <italic>pearsei</italic> inhabits soils managed under an agroecological approach (little human impact of the soil microbiome), such as traditional agroecosystems (no use of industrial inputs) and in natural ecosystems [<xref ref-type="bibr" rid="pone.0222337.ref040">40</xref>, <xref ref-type="bibr" rid="pone.0222337.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222337.ref043">43</xref>]. <italic>P</italic>. <italic>corethrurus</italic> has been found coexisting with native species in some agroecosystems [<xref ref-type="bibr" rid="pone.0222337.ref041">41</xref>, <xref ref-type="bibr" rid="pone.0222337.ref044">44</xref>, <xref ref-type="bibr" rid="pone.0222337.ref045">45</xref>], but there are no records of its coexistence with <italic>B</italic>. <italic>pearsei</italic> so far [<xref ref-type="bibr" rid="pone.0222337.ref040">40</xref>, <xref ref-type="bibr" rid="pone.0222337.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222337.ref043">43</xref>].</p>
+<p>A previous study of coexistence under controlled conditions showed no competitive interaction between <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic>, i.e., both can coexist [<xref ref-type="bibr" rid="pone.0222337.ref023">23</xref>]. However, the question to address is, why <italic>P</italic>. <italic>corethrurus</italic> has not invaded the agroecological niche of <italic>B</italic>. <italic>pearsei</italic>? Therefore, this work compared the demographic behavior of <italic>P</italic>. <italic>corethrurus</italic> vs. <italic>B</italic>. <italic>pearsei</italic> assuming that the survival rate of the invasive species decreases in soil populated by the native species.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Ethics statement</title>
+<p>No permits were required for the collection and laboratory trials. Soil and earthworms were provided by farmers with free of charge. The experimental procedure used in this study is detailed elsewhere [<xref ref-type="bibr" rid="pone.0222337.ref023">23</xref>].</p>
+</sec>
+<sec id="sec004">
+<title>Soil</title>
+<p>Soil was collected from a maize field (MM) rotated with the tropical legume velvet bean (<italic>Mucuna prurien var</italic>. <italic>utilis</italic>) located near the village Tamult&#233; de las Sabanas (18&#176;08&#180;N, 92&#176;47&#180;W), 30 km east of Villahermosa, Tabasco, Mexico. The silty clay loam soil (41.5% sand; 26.8% clay; 31.6% silt) was air-dried in the shade at room temperature and sieved through a 2 mm mesh. The main chemical characteristics of this soil were: 2.7% organic matter; 0.14% total N; 11.4 C/N; pH (H<sub>2</sub>O) of 6.3.</p>
+</sec>
+<sec id="sec005">
+<title>Earthworms</title>
+<p>Two tropical endogeic earthworm species were used in this study: <italic>B</italic>. <italic>pearsei</italic> (native) and <italic>P</italic>. <italic>corethrurus</italic> (invasive). <italic>B</italic>. <italic>pearsei</italic> was collected from the MM field, whereas <italic>P</italic>. <italic>corethrurus</italic> was collected from pastures at Huimanguillo (79 km southwest Villahermosa, 17&#176;48&#180;N, 93&#176;28&#180;W), given its absence in the former site. All earthworms (120 for each species) were collected two weeks prior to the beginning of the experiment.</p>
+</sec>
+<sec id="sec006">
+<title>Food quality</title>
+<p>The effects of foof quality were assessed by using two different types of plant litter of contrasting nutritional quality: <italic>M</italic>. <italic>pruriens</italic> (52.4% C, 2.25% N, 23.3 C/N, and 9.67% ash) and maize stubble (52% C, 0.84% N, 61.9% C/N, and 10.3% ash). Both materials were obtained from the MM field, oven-dried at 60&#176;C for 48 h, and sieved (1 mm).</p>
+</sec>
+<sec id="sec007">
+<title>Experiment</title>
+<p>Growth, sexual maturity, reproduction (cocoons and juveniles), and mortality of <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> were investigated during 100 days using a factorial design with three factors: origin of earthworms (OE), soil moisture (SM), and food quality (FQ). SM involved 3 levels, corresponding to the permanent wilt point (25%), field capacity (42%), and an intermediate level (33%). FQ included three levels: 300 g soil only (S), 294 g soil + 6 g maize stubble (MS), and 294 g soil + 6g <italic>M</italic>. <italic>pruriens</italic> (MP); the amounts added correspond to those commonly found in both maize monocultures and cultures rotating maize and <italic>M</italic>. <italic>pruriens</italic>. The earthworm species used belong to two different classes based on origin: Native (<italic>B</italic>. <italic>pearsei</italic>) and Invasive (<italic>P</italic>. <italic>corethrurus</italic>).</p>
+<p>The combination of the three factors and three levels produced nine treatments with five replicates per treatment. Each replicate consisted of a plastic container (12&#215;12&#215;8 cm) containing 300 g dried soil of the corresponding food-soil mixture and soil moisture; two individuals of <italic>B</italic>. <italic>pearsei</italic> and two of <italic>P</italic>. <italic>corethrurus</italic> were transferred to each container (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>).</p>
+<table-wrap id="pone.0222337.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222337.t001</object-id>
+<label>Table 1</label> <caption><title><italic>F</italic>-values and significance levels (ANOVA) of the interaction of three factors on growth and reproduction of the tropical endogeic earthworm <italic>Pontoscolex corethrurus</italic> and <italic>Balanteodrilus pearsei</italic> at 100 days of culture in soil with low anthropic impact.</title></caption>
+<alternatives>
+<graphic id="pone.0222337.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="3">Independent variable</th>
+<th align="center" colspan="2" rowspan="2">Biomass adult</th>
+<th align="center" colspan="2" rowspan="2">Sexual maturity</th>
+<th align="center" colspan="4">Cocoon</th>
+<th align="center" colspan="4">Juveniles</th>
+</tr>
+<tr>
+<th align="center" colspan="2">Number</th>
+<th align="center" colspan="2">Biomass</th>
+<th align="center" colspan="2">Number</th>
+<th align="center" colspan="2">Biomass</th>
+</tr>
+<tr>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Origen Earthworm (OE)</bold></td>
+<td align="left">29.7</td>
+<td align="left">0.0000</td>
+<td align="left">22.3</td>
+<td align="left">0.0000</td>
+<td align="left">4.4</td>
+<td align="left">0.0390</td>
+<td align="left">2238.8</td>
+<td align="left">0.0000</td>
+<td align="left">25.1</td>
+<td align="left">0.0000</td>
+<td align="left">836.9</td>
+<td align="left">0.0000</td>
+</tr>
+<tr>
+<td align="center"><bold>Soil Moisture (SM)</bold></td>
+<td align="left">20.4</td>
+<td align="left">0.0000</td>
+<td align="left">9.2</td>
+<td align="left">0.0002</td>
+<td align="left">22.2</td>
+<td align="left">0.0000</td>
+<td align="left">31.7</td>
+<td align="left">0.0000</td>
+<td align="left">14.8</td>
+<td align="left">0.0000</td>
+<td align="left">35.2</td>
+<td align="left">0.0000</td>
+</tr>
+<tr>
+<td align="center"><bold>Food quality (FQ)</bold></td>
+<td align="left">191.7</td>
+<td align="left">0.0000</td>
+<td align="left">299.4</td>
+<td align="left">0.0000</td>
+<td align="left">109.0</td>
+<td align="left">0.0000</td>
+<td align="left">12.5</td>
+<td align="left">0.0004</td>
+<td align="left">67.0</td>
+<td align="left">0.0000</td>
+<td align="left">11.6</td>
+<td align="left">0.0006</td>
+</tr>
+<tr>
+<td align="center"><bold>OE</bold>&#215;<bold>SM</bold></td>
+<td align="left">0.03</td>
+<td align="left">0.9739</td>
+<td align="left">4.2</td>
+<td align="left">0.0164</td>
+<td align="left">4.4</td>
+<td align="left">0.0161</td>
+<td align="left">9.3</td>
+<td align="left">0.0000</td>
+<td align="left">5.0</td>
+<td align="left">0.0095</td>
+<td align="left">13.5</td>
+<td align="left">0.0000</td>
+</tr>
+<tr>
+<td align="center"><bold>OE</bold>&#215;<bold>FQ</bold></td>
+<td align="left">5.2</td>
+<td align="left">0.0068</td>
+<td align="left">3.2</td>
+<td align="left">0.0438</td>
+<td align="left">11.6</td>
+<td align="left">0.0000</td>
+<td align="left">3.5</td>
+<td align="left">0.0609</td>
+<td align="left">25.2</td>
+<td align="left">0.0000</td>
+<td align="left">10.8</td>
+<td align="left">0.0010</td>
+</tr>
+<tr>
+<td align="center"><bold>FQ</bold>&#215;<bold>SM</bold></td>
+<td align="left">7.3</td>
+<td align="left">0.0000</td>
+<td align="left">2.1</td>
+<td align="left">0.0897</td>
+<td align="left">13.4</td>
+<td align="left">0.0000</td>
+<td align="left">5.9</td>
+<td align="left">0.0029</td>
+<td align="left">11.4</td>
+<td align="left">0.0000</td>
+<td align="left">21.7</td>
+<td align="left">0.0000</td>
+</tr>
+<tr>
+<td align="center"><bold>OE</bold>&#215;<bold>FQ</bold>&#215;<bold>SM</bold></td>
+<td align="left">1.1</td>
+<td align="left">0.3626</td>
+<td align="left">2.5</td>
+<td align="left">0.0442</td>
+<td align="left">6.4</td>
+<td align="left">0.0002</td>
+<td align="left">2.5</td>
+<td align="left">0.0859</td>
+<td align="left">6.2</td>
+<td align="left">0.0002</td>
+<td align="left">15.3</td>
+<td align="left">0.0000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Earthworms were washed, dried on paper towels, weighed, and assigned randomly to each treatment. The baseline weight of the 45 replicates from the nine treatments was statistically similar in <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> (76.06 &#177; 26.1 mg, n = 90 and 66.04 &#177; 31.1 mg, n = 90, respectively). Containers were incubated at 26 &#177; 1 &#186;C. Body weight, mortality, clitellum appearance (sexual maturity), and number and biomass of cocoons and juveniles of <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> were recorded at 10-day intervals, and soil was replaced. Before use, fresh soil (including the corresponding food-soil mixture and moisture) was preincubated for 8 days at 26&#176;C in order to trigger litter substrate decomposition. Each cocoon produced was incubated in a petri dish at 26&#176;C; incubation time as well as number and weight of all juveniles hatched were recorded.</p>
+</sec>
+<sec id="sec008">
+<title>Statistical analysis</title>
+<p>Cocoon and juvenile weight, and growth were evaluated through Analysis of Varienace (ANOVA). Mortality, sexual maturity, number of cocoons, and number of juveniles were analyzed using generalized linear models, specifically the Poisson distribution wich is widely used for modelling count data. Differences between means were evaluated with Tukey's HSD. All statistical analyses were perfomed using the Statistica software.</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="results">
+<title>Results</title>
+<p>At 100 days of culture, significant effects were observed between the origin of earthworms (OE), food quality (FQ) and soil moisture (SM), and the interaction between these three factors on sexual maturity, number of cocoons, and number and biomass of juveniles (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>).</p>
+<sec id="sec010">
+<title>Mortality</title>
+<p>At the end of the culture, the invasive earthworm (<italic>P</italic>. <italic>corethrurus</italic>) had a 21.1% mortality rate in the soil treatment (33% and 25% SM), while that of the native earthworm (<italic>B</italic>. <italic>pearsei</italic>) had only a 1.1% mortality rate in the soil treatment (only 42% SM). In the <italic>M</italic>. <italic>pruriens</italic> and maize stubble treatments (25%, 33% and 42% SM) no mortality was observed in both earthworm species.</p>
+</sec>
+<sec id="sec011">
+<title>Growth</title>
+<p>Growth of the endogeic earthworms clearly varied in response to EO, FQ, SM, and the EO&#8838;CF and SM&#8838;CF interactions (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>). At 100 days of culture, the growth of the invasive and native species (<italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic>, respectively) was higher when food quality increased (<xref ref-type="fig" rid="pone.0222337.g001">Fig 1</xref>). In the three FQ levels (soil, maize stubble, and <italic>M</italic>. <italic>pruriens</italic>) the exotic species showed a faster growth (1.6, 9.4, and 12.3 mg/day, respectively) relative to the native species (0.34, 4.8, and 10.4 mg/day).</p>
+<fig id="pone.0222337.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222337.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Biomass of the tropical endogeic earthworms <italic>Pontoscolex corethrurus</italic> (invasive) and <italic>Balanteodrilus pearsei</italic> (native) at 100 days of culture using three diets of different nutritional quality in soil with low anthropic impact.</title>
+<p>Vertical lines represent standard error.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.g001" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec012">
+<title>Reproduction</title>
+<sec id="sec013">
+<title>Sexual maturity (clitellum)</title>
+<p>When fed <italic>M</italic>. <italic>pruriens</italic>, the onset of sexual maturity in <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic> occurred at 30 days; when fed maize stubble, sexual maturity was obseved at 30 and 70 days in <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic>, respectively.</p>
+<p>At 100 days of culture, OE, FQ, SM, and the OE &#8838; CF &#8838; SM interaction significantly affected clitellum development (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>). The invasive and native earthworms reached sexual maturity in the treatments with <italic>M</italic>. <italic>pruriens</italic> (100% and 86.6%) and maize stubble (96.7% and 70.0%), respectively (<xref ref-type="fig" rid="pone.0222337.g002">Fig 2</xref>). No individuals reached sexual maturity after 100 days in the soil treatments; however, in the soil treatment with 33% SM, one earthworm of <italic>P</italic>. <italic>corethrurus</italic> (6.7%) reached sexual maturity at 80 days.</p>
+<fig id="pone.0222337.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222337.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Sexual maturity (formation of the clitellum) in the tropical endogeic earthworms <italic>Pontoscolex corethrurus</italic> (invasive) and <italic>Balanteodrilus pearsei</italic> (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact.</title>
+<p>Vertical lines represent standard error.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.g002" ns0:type="simple" />
+</fig>
+</sec>
+<sec id="sec014">
+<title>Cocoon production</title>
+<p><italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> displayed biparental and uniparental sexual reproduction, respectively. On <italic>M</italic>. <italic>pruriens</italic> treatments (25%, 33% and 42% SM), cocoon production started when <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> reached a mean biomass of 773.5 &#177; 146.8 mg and 644.7 &#177; 71.1 mg (average of 25%, 33% and 42% SM), respectively. On maize stubble treatments, it started when <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> reached a mean body weight of 593.0 &#177; 80.9 mg and 598.5 &#177; 95.2 mg (average of 25%, 33% and 42% SM), respectively. Cocoon production in <italic>P</italic>. <italic>corethrurus</italic> was observed in soil (6.7%), maize stubble (53.3%), and <italic>M</italic>. <italic>pruriens</italic> (86.7%) treatments, but in <italic>B</italic>. <italic>pearsei</italic> it was observed only in maize stubble (33.3%) and <italic>M</italic>. <italic>pruriens</italic> (86.7%) treatments.</p>
+<p>Mean cocoon production was significantly influenced by EO, CF, SM, and the interaction between these three factors (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>). After 100 days of culture, peak mean cocoon production in <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> was observed in <italic>M</italic>. <italic>pruriens</italic> treatments, with 59.7 &#177; 40.8 and 35.5 &#177; 21.5 cocoons (average of 25%, 33% and 42% SM treatments), respectively (<xref ref-type="fig" rid="pone.0222337.g003">Fig 3</xref>). When fed maize stubble, <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrhrus</italic> produced 7.9 &#177; 3.2 and 14.4 &#177; 9.2 cocoons (average of 25%, 33% and 42% SM treatments), respectivelly. Finally, when fed soil only (33% SM), <italic>P</italic>. <italic>corethrurus</italic> (448 mg body weight) produced only two cocoons.</p>
+<fig id="pone.0222337.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222337.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Number of cocoons produced by the tropical endogeic earthworms <italic>Pontoscolex corethrurus</italic> (invasive) and <italic>Balanteodrilus pearsei</italic> (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact.</title>
+<p>Vertical lines represent standard error.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.g003" ns0:type="simple" />
+</fig>
+<p>Cocoon biomass varied significantly in response to EO, FQ, SM and the OE x SM and FQ x SM interactions (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>). Average cocoon biomass produced by <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> with SM treatments (25%, 33% and 42%) was 10.2 &#177; 1.4 mg and 27.7 &#177; 3.7 mg, respectively.</p>
+</sec>
+<sec id="sec015">
+<title>Juvenile production</title>
+<p>The mean cocoon incubation time was similar among treatments (P &gt; 0.05). In general, mean cocoon incubation time was 20.4 &#177; 5.2 days (<italic>B</italic>. <italic>perasei</italic>) and 30.3 &#177; 2.2 days (<italic>P</italic>. <italic>corethrhrus</italic>), with one individual hatching per cocoon in all cases. Of the total number of cocoons produced by <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> in <italic>M</italic>. <italic>pruriens</italic> and corn stubble treatments, the average number of hatched juveniles was 64.7 &#177; 16.6% and 29.5 &#177; 7.0% (average of 25%, 33% and 42% SM treatments) and 59.5 &#177; 24.7 and 24.0 &#177; 10.6 (average of 25%, 33% and 42% SM treatments), respectively.</p>
+<p>The number of hatched juveniles of <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> varied significantly with OE, CF, SM, and the interaction between these three factors (<xref ref-type="table" rid="pone.0222337.t001">Table 1</xref>; <xref ref-type="fig" rid="pone.0222337.g004">Fig 4</xref>). The mean number of hatched juveniles of <italic>B</italic>. <italic>pearsei</italic> and <italic>P</italic>. <italic>corethrurus</italic> increased in adults fed <italic>M</italic>. <italic>pruriens</italic>, as well as with increasing soil moisture (mean 59.7&#177;40.8 and 35.5&#177;21.5 individuals, respectively), and corn stubble (mean 7.9 &#177; 3.3 and 14.6 &#177; 9.2 individuals).</p>
+<fig id="pone.0222337.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222337.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Number of juveniles hatched from cocoons produced by the tropical endogeic earthworms <italic>Pontoscolex corethrurus</italic> (invasive) and <italic>Balanteodrilus pearsei</italic> (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact.</title>
+<p>Vertical lines represent standard error.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.g004" ns0:type="simple" />
+</fig>
+<p>At hatching, in the <italic>M</italic>. <italic>pruriens</italic> and corn stubble treatments, mean biomass of <italic>P</italic>. <italic>corethrurus</italic> juveniles (21.2 &#177; 1.0 and 18.6 &#177; 7.4 mg, respectively) was higher vs. <italic>B</italic>. <italic>pearsei</italic> juveniles (8.5 &#177; 0.7 and 8.5 &#177; 1.3 mg, respectively).</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec016" sec-type="conclusions">
+<title>Discussion</title>
+<p>Domesticated, wild populations respond to changing selective pressures, which are reflected in their adaptation to agricultural niches [<xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref046">46</xref>]. From an ecological perspective, the endogeic earthworm <italic>P</italic>. <italic>corethrurus</italic> resembles non-domesticated species or weeds given its strong profile (invading species) regarding growth rate, fertility, plasticity, interspecific competition, and environmental tolerance [<xref ref-type="bibr" rid="pone.0222337.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0222337.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0222337.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0222337.ref026">26</xref>, ]. This suggests that the four <italic>P</italic>. <italic>corethrurus</italic> ecotypes described by Taheri et al. [<xref ref-type="bibr" rid="pone.0222337.ref047">47</xref>] are likely the result of the selective forces imposed by cultivation, agricultural practices, and industrial and urban activities [<xref ref-type="bibr" rid="pone.0222337.ref020">20</xref>]. In the present study, soil in the habitat for <italic>B</italic>. <italic>pearsei</italic> was observed to restrain the presence of <italic>P</italic>. <italic>corethrurus</italic>.</p>
+<p>The conversion of the Amazon forest to pastures led to the homogenization of soil biota [<xref ref-type="bibr" rid="pone.0222337.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0222337.ref048">48</xref>]. The potential resistance of soil (i.e., predators, low species richness, etc.) to earthworms has been documented [<xref ref-type="bibr" rid="pone.0222337.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0222337.ref049">49</xref>, <xref ref-type="bibr" rid="pone.0222337.ref050">50</xref>]. For instance, the endogeic tropical earthworm <italic>Millsonia anomala</italic> from the savannah was unable to prosper in forest soil [<xref ref-type="bibr" rid="pone.0222337.ref049">49</xref>], similar findings have been reported with <italic>P</italic>. <italic>corethrurus</italic> from fallow (slash-and-burn) to mature forest [<xref ref-type="bibr" rid="pone.0222337.ref035">35</xref>]. Also, the shift in vegetation from grass to woody plants decreaced in the density and biomass of <italic>P</italic>. <italic>corethrurus</italic> [<xref ref-type="bibr" rid="pone.0222337.ref051">51</xref>]. Our results showed that the survival of <italic>P</italic>. <italic>corethrurus</italic> was lower in the environment where <italic>B</italic>. <italic>pearsei</italic> thrives, maybe due to a negative interaction with a more diverse edaphic microbiome [<xref ref-type="bibr" rid="pone.0222337.ref049">49</xref>, <xref ref-type="bibr" rid="pone.0222337.ref050">50</xref>, <xref ref-type="bibr" rid="pone.0222337.ref052">52</xref>], because it has been suggested that <italic>P</italic>. <italic>corethrhrus</italic> has a high ability to utilize soil organic resources as an energy source [<xref ref-type="bibr" rid="pone.0222337.ref039">39</xref>].</p>
+<p>Earthworms harbor symbiotic microbiomes that are essential for their life history in the nephridia (excretory organs), and cocoons in tropical species such as <italic>P</italic>. <italic>corethrurus</italic> is poorly studied [<xref ref-type="bibr" rid="pone.0222337.ref053">53</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref058">58</xref>]. The microbiome is known to improve the nutritional status of low-quality diets [<xref ref-type="bibr" rid="pone.0222337.ref057">57</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref058">58</xref>]. For example, Topoliantz and Ponge [<xref ref-type="bibr" rid="pone.0222337.ref035">35</xref>] observed that the behaviour of two populations of <italic>P</italic>. <italic>corethrurus</italic> separated along the Maroni river (French Guiana, South America) differed significantly: fallow populations produced more cast on charcoal in the presence of forest soil, while the casting activity of the forest population was higher on soil regardless of the soil origin. Our findings show that <italic>P</italic>. <italic>corethrurus</italic> and <italic>B</italic>. <italic>pearsei</italic> differ in their diet preference (<italic>M</italic>. <italic>pruriens</italic>, corn stubble, and control), i.e., the invasive species displayed faster growth than the native species when nutritional quality improved. This suggests that <italic>P</italic>. <italic>corethrurus</italic> consumes and degrades a greater variety of organic materials given its greater ability (efficiency), evidenced by: a) producing endogenous cellulases [<xref ref-type="bibr" rid="pone.0222337.ref059">59</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref062">62</xref>]; b) its association with the gut microbiota [<xref ref-type="bibr" rid="pone.0222337.ref063">63</xref>&#8211;<xref ref-type="bibr" rid="pone.0222337.ref066">66</xref>]; c) gene expression (transcriptome) that contribute to the adaptation of its digestive system [<xref ref-type="bibr" rid="pone.0222337.ref065">65</xref>]; d) improving its digestion efficiency according to the type of cecum [<xref ref-type="bibr" rid="pone.0222337.ref059">59</xref>, <xref ref-type="bibr" rid="pone.0222337.ref067">67</xref>]; and e) its association with nephridial bacteria [<xref ref-type="bibr" rid="pone.0222337.ref050">50</xref>, <xref ref-type="bibr" rid="pone.0222337.ref068">68</xref>, <xref ref-type="bibr" rid="pone.0222337.ref069">69</xref>].</p>
+<p>It is known that in diets of low nutritional quality, mutualistic bacteria residing in earthworm nephridia (in 19 of 23 species studied) provide vitamins to its host, stimulate earlier sexual maturity, and contribute to pesticide detoxification [<xref ref-type="bibr" rid="pone.0222337.ref056">56</xref>, <xref ref-type="bibr" rid="pone.0222337.ref057">57</xref>, <xref ref-type="bibr" rid="pone.0222337.ref058">58</xref>, <xref ref-type="bibr" rid="pone.0222337.ref060">60</xref>, <xref ref-type="bibr" rid="pone.0222337.ref070">70</xref>, <xref ref-type="bibr" rid="pone.0222337.ref071">71</xref>]. The results reported here showed that the invasive species of smaller size (biomass) fed on a lower nutritional diet (<italic>M</italic>. <italic>pruriens</italic> &gt; corn stubble &gt; soil) reached sexual maturity earlier than the native earthworm. This suggests that the nephridial symbionts of <italic>P</italic>. <italic>corethrurus</italic> are generalists, while those of <italic>B</italic>. <italic>pearsei</italic> are specialists.</p>
+<p>Earthworms produce external cocoons that are colonized by bacteria from parents and soil [vertical and horizontal transmission, respectively <xref ref-type="bibr" rid="pone.0222337.ref053">53</xref>, <xref ref-type="bibr" rid="pone.0222337.ref058">58</xref>] and coul be used as biovectors for the introduction of benefical bateria [<xref ref-type="bibr" rid="pone.0222337.ref055">55</xref>]. In a new habitat, cocoons of invasive earthworms may be affected by the native microbiota, but they can survive if they carry a parental microbial inoculum. Our results show that <italic>P</italic>. <italic>corethrurus</italic> produced cocoons when fed either of the three diets, while <italic>B</italic>. <italic>pearsei</italic> fed the control diet (only soil) failed to produce cocoons. In contrast, cocoons of <italic>P</italic>. <italic>corethrurus</italic> had a low hatching rate (births), which was lower (diet with <italic>M</italic>. <italic>pruriens</italic>) compared to <italic>B</italic>. <italic>pearsei</italic>. These results suggest the absence and/or loss of parental symbionts bacteria, i.e., the loss of a parental care strategy to control predators, detoxify nitrogenous wastes, conserve nitrogen, and supply vitamins and essential cofactors to the offspring [<xref ref-type="bibr" rid="pone.0222337.ref055">55</xref>, <xref ref-type="bibr" rid="pone.0222337.ref056">56</xref>, <xref ref-type="bibr" rid="pone.0222337.ref057">57</xref>, <xref ref-type="bibr" rid="pone.0222337.ref068">68</xref>, <xref ref-type="bibr" rid="pone.0222337.ref069">69</xref>, <xref ref-type="bibr" rid="pone.0222337.ref070">70</xref>, <xref ref-type="bibr" rid="pone.0222337.ref072">72</xref>]. Thus, the likely symbiotic evolution of <italic>P</italic>. <italic>corethrurus</italic> with the microbiome (gut, nephridia and cocoons) should be explored as a source of biogeography and phylogenetic information [<xref ref-type="bibr" rid="pone.0222337.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0222337.ref057">57</xref>, <xref ref-type="bibr" rid="pone.0222337.ref068">68</xref>, <xref ref-type="bibr" rid="pone.0222337.ref070">70</xref>, <xref ref-type="bibr" rid="pone.0222337.ref071">71</xref>, <xref ref-type="bibr" rid="pone.0222337.ref073">73</xref>, <xref ref-type="bibr" rid="pone.0222337.ref074">74</xref>]. That is, we could &#8220;&#8230;explain why <italic>P</italic>. <italic>corethrurus</italic> is rare or absent in undisturbed lands&#8221; [<xref ref-type="bibr" rid="pone.0222337.ref039">39</xref>].</p>
+<p>The human-mediated translocation of species dates back to the Late Pleistocene [<xref ref-type="bibr" rid="pone.0222337.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0222337.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222337.ref075">75</xref>]. Invasive plant species are usually divided in two groups according their residence time: archaeophytes were found from 1500 AD, and neophytes are found after this date [<xref ref-type="bibr" rid="pone.0222337.ref076">76</xref>]. This approach can contribute to elucidate the history of the invasion of <italic>P</italic>. <italic>corethrurus</italic> in Mexico. Until now, only two ecotypes have been recorded [<xref ref-type="bibr" rid="pone.0222337.ref047">47</xref>] and the criptic linage used in this study corresponds to L1 (the most widespread). The origin of <italic>P</italic>. <italic>corethrurus</italic> may be related to anthropogenic soil formation (&#8220;terras mulatas&#8221; and &#8220;terras pretas&#8221;). The domestication of manioc (bitter and sweet) and peach palm staple food that facilitated sedentary lifestyles in the Amazon region [<xref ref-type="bibr" rid="pone.0222337.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0222337.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0222337.ref028">28</xref>, <xref ref-type="bibr" rid="pone.0222337.ref029">29</xref>, <xref ref-type="bibr" rid="pone.0222337.ref032">32</xref>] has evolved to the point that we cannot recognize the predecessors of <italic>P</italic>. <italic>corethrurus</italic>, as evidenced by the recent designation of the <italic>P</italic>. <italic>corethrurus</italic> neotype from an anthropogenic environment [<xref ref-type="bibr" rid="pone.0222337.ref018">18</xref>] and temperate climate [<xref ref-type="bibr" rid="pone.0222337.ref077">77</xref>], and by the ambiguity used for assigning its place of origin [<xref ref-type="bibr" rid="pone.0222337.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0222337.ref078">78</xref>].</p>
+<p>Based on the results reported here, we conclude that the invasive tropical earthworm <italic>P</italic>. <italic>corethrurus</italic> had lower survival and cocoons hatching rates (offspring) in the agro-ecological niche of the native endogeic earthworm, i.e., a finding consistent with the absence of <italic>P</italic>. <italic>corethrurus</italic> in parcels where maize- and <italic>M</italic>. <italic>pruriens</italic> crop rotation is practiced, as well as in pastures and other traditional tropical agroecosystems [<xref ref-type="bibr" rid="pone.0222337.ref040">40</xref>, <xref ref-type="bibr" rid="pone.0222337.ref041">41</xref>, <xref ref-type="bibr" rid="pone.0222337.ref042">42</xref>, <xref ref-type="bibr" rid="pone.0222337.ref043">43</xref>, <xref ref-type="bibr" rid="pone.0222337.ref044">44</xref>, <xref ref-type="bibr" rid="pone.0222337.ref045">45</xref>]. This suggests that <italic>P</italic>. <italic>corethrurus</italic> is an invasive species that thrives far from its natural status, i.e., has no wild ancestry in the study area. Therefore, it is important to determine the preference of the four <italic>P</italic>. <italic>corethrurus</italic> ecotypes [<xref ref-type="bibr" rid="pone.0222337.ref047">47</xref>] in terms of soil type, cultivation, response to stressors and climate change.</p>
+</sec>
+<sec id="sec017">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222337.s001" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.s001" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Results fitting linear model of the earthworm biomass.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222337.s002" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.s002" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Results fitting logistic model of sexual maturity of the earthworms.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222337.s003" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.s003" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Results fitting zero inflated poisson of the earthworms cocoons.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank Mario M. Osorio-Arce, Angel Ramos-S&#225;nchez and Efra&#237;n Hern&#225;ndez-Xolocotzi, promoters of agroecology in Mexico. In addition, we are grateful to anomymous reviewers and Diana P&#233;rez-Staples for valuable comments and careful revision of the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222337.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bender</surname> <given-names>SF</given-names></name>, <name name-style="western"><surname>Wagg</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>van der Heijden</surname> <given-names>MGA</given-names></name>. <article-title>An Underground Revolution: Biodiversity and Soil Ecological Engineering for Agricultural Sustainability</article-title>. <source>Trends in Ecology and Evolution</source> <year>2016</year>;<volume>31</volume>(<issue>6</issue>):<fpage>440</fpage>&#8211;<lpage>452</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tree.2016.02.016" ns0:type="simple">10.1016/j.tree.2016.02.016</ext-link></comment> <object-id pub-id-type="pmid">26993667</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Boivin</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Zeder</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Fuller</surname> <given-names>DQ</given-names></name>, <name name-style="western"><surname>Crowther</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Larson</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Erlandson</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Ecological consequences of human niche construction: Examining long-term anthropogenic shaping of global species distributions</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>2016</year>;<volume>113</volume>(<issue>23</issue>):<fpage>6388</fpage>&#8211;<lpage>6396</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1073/pnas.1525200113" ns0:type="simple">10.1073/pnas.1525200113</ext-link></comment> <object-id pub-id-type="pmid">27274046</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>P&#233;rez-Jaramillo</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Mendes</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Raaijmakers</surname> <given-names>JM</given-names></name>. <article-title>Impact of plant domestication on rhizosphere microbiome assembly and functions</article-title>. <source>Plant Molecular Biology</source>. <year>2016</year>; <volume>90</volume>(<issue>6</issue>):<fpage>635</fpage>&#8211;<lpage>644</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11103-015-0337-7" ns0:type="simple">10.1007/s11103-015-0337-7</ext-link></comment> <object-id pub-id-type="pmid">26085172</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref004"><label>4</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Fuller</surname> <given-names>DQ</given-names></name>, <name name-style="western"><surname>Lucas</surname> <given-names>L</given-names></name>. <chapter-title>Adapting crops, landscapes, and food choices: Patterns in the dispersal of domesticated plants across Eurasia</chapter-title>. In: <name name-style="western"><surname>Boivin</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Crassard</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Petraglia</surname> <given-names>M</given-names></name>, editors. <source>Human Dispersal and Species Movement: From Prehistory to the Present</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>; <year>2017</year>. pp. <fpage>304</fpage>&#8211;<lpage>331</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lodge</surname> <given-names>DM</given-names></name>. <article-title>Biological invasions: lessons for ecology</article-title>. <source>Trends in Ecology &amp; Evolution</source>. <year>1993</year>;<volume>8</volume>(<issue>4</issue>):<fpage>133</fpage>&#8211;<lpage>137</lpage></mixed-citation></ref>
+<ref id="pone.0222337.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fuller</surname> <given-names>DQ</given-names></name>, <name name-style="western"><surname>Stevens</surname> <given-names>CJ</given-names></name>. <article-title>Open for Competition: Domesticates, Parasitic Domesticoids and the Agricultural Niche</article-title>. <source>Archaeology International</source>. <year>2017</year>;<volume>20</volume>:<fpage>110</fpage>&#8211;<lpage>121</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5334/ai.359" ns0:type="simple">10.5334/ai.359</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref007"><label>7</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Blakemore</surname> <given-names>RJ</given-names></name>. <chapter-title>Cosmopolitan Earthworms&#8212;A Global and Historical Perspective</chapter-title>. In <name name-style="western"><surname>Shain</surname> <given-names>DH</given-names></name>, editor. <source>Annelids in Modern Biology</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>John Wiley &amp; Sons, Inc.</publisher-name>; <year>2009</year>. pp. <fpage>257</fpage>&#8211;<lpage>283</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vigueira</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Olsen</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Caicedo</surname> <given-names>AL</given-names></name>. <article-title>The red queen in the corn: Agricultural weeds as models of rapid adaptive evolution</article-title>. <source>Heredity</source>. <year>2013</year>;<volume>119</volume>:<fpage>303</fpage>&#8211;<lpage>311</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/hdy.2012.104" ns0:type="simple">10.1038/hdy.2012.104</ext-link></comment> <object-id pub-id-type="pmid">23188175</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mercuri</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Fornaciari</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gallinaro</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vanin</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Di Lernia</surname> <given-names>S</given-names></name>. <article-title>Plant behaviour from human imprints and the cultivation of wild cereals in Holocene Sahara</article-title>. <source>Nature Plants</source>. <year>2018</year>;<volume>4</volume>(<issue>2</issue>):<fpage>71</fpage>&#8211;<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41477-017-0098-1" ns0:type="simple">10.1038/s41477-017-0098-1</ext-link></comment> <object-id pub-id-type="pmid">29379157</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Plaas</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Meyer-Wolfarth</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Banse</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bengtsson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bergmann</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Faber</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Towards valuation of biodiversity in agricultural soils: A case for earthworms</article-title>. <source>Ecological Economics</source>. <year>2019</year>;<volume>159</volume>:<fpage>291</fpage>&#8211;<lpage>300</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ecolecon.2019.02.003" ns0:type="simple">10.1016/j.ecolecon.2019.02.003</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref011"><label>11</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Brussaard</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Aanen</surname> <given-names>DK</given-names></name>, <name name-style="western"><surname>Briones</surname> <given-names>MJI</given-names></name>, <name name-style="western"><surname>Deca&#235;ns</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Deyn</surname> <given-names>GBD</given-names></name>, <name name-style="western"><surname>Fayle</surname> <given-names>TM</given-names></name>, <etal>et al</etal>. <chapter-title>Biogeography and Phylogenetic Community Structure of Soil Invertebrate Ecosystem Engineers: Global to Local Patterns, Implications for Ecosystem Functioning and Services and Global Environmental Change Impacts</chapter-title>. In: <source>Soil Ecology and Ecosystem Services</source>. <name name-style="western"><surname>Wall</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Bardgett</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Behan-Pelletier</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Henrrick</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ritz</surname> <given-names>K</given-names></name>, <etal>et al</etal>. editors. <publisher-loc>Oxford</publisher-loc>: <publisher-name>University Press</publisher-name>; <year>2013</year>. pp. <fpage>201</fpage>&#8211;<lpage>232</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dupont</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Deca&#235;ns</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Lapied</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chassany</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Marichal</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dubs</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Genetic signature of accidental transfer of the peregrine earthworm <italic>Pontoscolex corethrurus</italic> (Clitellata, Glossoscolecidae) in French Guiana</article-title>. <source>European Journal of Soil Biology</source>. <year>2012</year>;<volume>53</volume>:<fpage>70</fpage>&#8211;<lpage>75</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ejsobi.2012.09.001" ns0:type="simple">10.1016/j.ejsobi.2012.09.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Uvarov</surname> <given-names>AV</given-names></name>. <article-title>(Inter- and intraspecific interactions in lumbricid earthworms: Their role for earthworm performance and ecosystem functioning</article-title>. <source>Pedobiologi</source> <year>2009</year>;<volume>53</volume>(<issue>1</issue>):<fpage>1</fpage>&#8211;<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pedobi.2009.05.001" ns0:type="simple">10.1016/j.pedobi.2009.05.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lobe</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Callaham</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Hendrix</surname> <given-names>PF</given-names></name>, <name name-style="western"><surname>Hanula</surname> <given-names>JL</given-names></name>. <article-title>Removal of an invasive shrub (Chinese privet: <italic>Ligustrum sinense</italic> Lour) reduces exotic earthworm abundance and promotes recovery of native North American earthworms</article-title>. <source>Applied Soil Ecology</source>. <year>2014</year>;<volume>83</volume>:<fpage>133</fpage>&#8211;<lpage>139</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.apsoil.2014.03.020" ns0:type="simple">10.1016/j.apsoil.2014.03.020</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vesterg&#229;rd</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>R&#248;nn</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ekelund</surname> <given-names>F</given-names></name>. <article-title>Above-belowground interactions govern the course and impact of biological invasions</article-title>. <source>AoB PLANTS</source>. <year>2015</year>;<volume>7</volume>:<fpage>plv025</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/aobpla/plv025" ns0:type="simple">10.1093/aobpla/plv025</ext-link></comment> <object-id pub-id-type="pmid">25854693</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Simmons</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>D&#225;valos</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Blossey</surname> <given-names>B</given-names></name>. <article-title>Forest successional history and earthworm legacy affect earthworm survival and performance</article-title>. <source>Pedobiologia</source>. <year>2015</year>;<volume>58</volume>(<issue>4</issue>):<fpage>153</fpage>&#8211;<lpage>164</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pedobi.2015.05.001" ns0:type="simple">10.1016/j.pedobi.2015.05.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>M&#252;ller</surname> <given-names>F</given-names></name>. <article-title>II.&#8212;Description of a new species of Earthworm (<italic>Lumbricus corethrurus</italic>)</article-title>. <source>Annals and Magazine of Natural History</source>. <year>1857</year>;<volume>20</volume>(<issue>115</issue>):<fpage>13</fpage>&#8211;<lpage>15</lpage>. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/00222935709487865" ns0:type="simple">https://doi.org/10.1080/00222935709487865</ext-link></mixed-citation></ref>
+<ref id="pone.0222337.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>James</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Bartz</surname> <given-names>MLC</given-names></name>, <name name-style="western"><surname>Stanton</surname> <given-names>DWG</given-names></name>, <name name-style="western"><surname>Conrado</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Dupont</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Taheri</surname> <given-names>S</given-names></name>., <etal>et al</etal>. <article-title>A neotype for <italic>Pontoscolex corethrurus</italic> (M&#252;ller, 1857) (Clitellata)</article-title>. <source>Zootaxa</source>. <year>2019</year>;<volume>4545</volume>(<issue>1</issue>):<fpage>124</fpage>&#8211;<lpage>132</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.11646/zootaxa.4545.1.7" ns0:type="simple">10.11646/zootaxa.4545.1.7</ext-link></comment> <object-id pub-id-type="pmid">30647239</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref019"><label>19</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Fragoso</surname> <given-names>GC</given-names></name>. <source>Importancia de las lombrices de tierra (Oligochaeta) en el monitoreo de &#225;reas prioritarias de conservaci&#243;n del centro, este y sureste de M&#233;xico</source>. <publisher-name>CONABIO</publisher-name>. <year>2018</year>. Available from: <ext-link ext-link-type="uri" ns0:href="https://doi/10.15468/omvnpi" ns0:type="simple">https://doi/10.15468/omvnpi</ext-link> accessed via <ext-link ext-link-type="uri" ns0:href="http://GBIF.org" ns0:type="simple">GBIF.org</ext-link> on 2019-05-01</mixed-citation></ref>
+<ref id="pone.0222337.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Taheri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pelosi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Dupont</surname> <given-names>L</given-names></name>. <article-title>Harmful or useful? A case study of the exotic peregrine earthworm morphospecies <italic>Pontoscolex corethrurus</italic></article-title>. <source>Soil Biology and Biochemistry</source>. <year>2018b</year>;<volume>116</volume>:<fpage>277</fpage>&#8211;<lpage>289</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.soilbio.2017.10.030" ns0:type="simple">10.1016/j.soilbio.2017.10.030</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nackley</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Skowno</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Bond</surname> <given-names>WJ</given-names></name>. <article-title>The Nebulous Ecology of Native Invasions</article-title>. <source>Trends in Ecology and Evolution</source>. <year>2017</year>;<volume>32</volume>(<issue>11</issue>):<fpage>814</fpage>&#8211;<lpage>824</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tree.2017.08.003" ns0:type="simple">10.1016/j.tree.2017.08.003</ext-link></comment> <object-id pub-id-type="pmid">28890126</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref022"><label>22</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Orell</surname> <given-names>T</given-names></name>. <source>NMNH Extant Specimen Records</source>. Version 1.2. <publisher-name>National Museum of Natural History, Smithsonian Institution</publisher-name>. <year>2019</year>. Available from: 10.15468/hnhrg3 accessed via <ext-link ext-link-type="uri" ns0:href="http://GBI.org" ns0:type="simple">GBI.org</ext-link> on 2019-05-01. <ext-link ext-link-type="uri" ns0:href="https://www.gbif.org/occurrence/1318951655" ns0:type="simple">https://www.gbif.org/occurrence/1318951655</ext-link></mixed-citation></ref>
+<ref id="pone.0222337.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ortiz-Ceballos</surname> <given-names>AI</given-names></name>, <name name-style="western"><surname>Fragoso</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Equihua</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>GG</given-names></name>. <article-title>Influence of food quality, soil moisture and the earthworm <italic>Pontoscolex corethrurus</italic> on growth and reproduction of the tropical earthworm <italic>Balanteodrilus pearsei</italic></article-title>. <source>Pedobiologia</source>. <year>2005</year>;<volume>49</volume>(<issue>1</issue>):<fpage>89</fpage>&#8211;<lpage>98</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pedobi.2004.08.006" ns0:type="simple">10.1016/j.pedobi.2004.08.006</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Richardson</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Py&#353;ek</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rejm&#225;nek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Barbour</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Panetta</surname> <given-names>FD</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>CJ</given-names></name>. <article-title>Naturalization and invasion of alien plants: concepts and definitions</article-title>. <source>Diversity and Distributions</source>. <year>2000</year>;<volume>6</volume>(<issue>2</issue>):<fpage>93</fpage>&#8211;<lpage>107</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1472-4642.2000.00083.x" ns0:type="simple">10.1046/j.1472-4642.2000.00083.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ricciardi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>J</given-names></name>. <article-title>The invasiveness of an introduced species does not predict its impact</article-title>. <source>Biological Invasions</source>. <year>2007</year>;<volume>9</volume>(<issue>3</issue>):<fpage>309</fpage>&#8211;<lpage>315</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s10530-006-9034-4" ns0:type="simple">10.1007/s10530-006-9034-4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref026"><label>26</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Willcox</surname> <given-names>G</given-names></name>. <chapter-title>The Beginnings of Cereal Cultivation and Domestication in Southwest Asia</chapter-title>. In: <name name-style="western"><surname>Potts</surname> <given-names>DT</given-names></name>, editor. <source>A Companion to the Archaeology of the Ancient Near East</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Blackwell Publishing Ltd</publisher-name>. <year>2012</year>; pp. <fpage>161</fpage>&#8211;<lpage>180</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/9781444360790.ch9" ns0:type="simple">10.1002/9781444360790.ch9</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Clement</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Denevan</surname> <given-names>WM</given-names></name>, <name name-style="western"><surname>Heckenberger</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Junqueira</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Neves</surname> <given-names>EG</given-names></name>, <name name-style="western"><surname>Teixeira</surname> <given-names>WG</given-names></name>, <etal>et al</etal>. <article-title>The domestication of amazonia before european conquest</article-title>. <source>Proceedings of the Royal Society B: Biological Sciences</source> <year>2015</year>;<volume>282</volume>:<fpage>20150813</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1098/rspb.2015.0813" ns0:type="simple">10.1098/rspb.2015.0813</ext-link></comment> <object-id pub-id-type="pmid">26202998</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Levis</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Flores</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Moreira</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Luize</surname> <given-names>BG</given-names></name>, <name name-style="western"><surname>Alves</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Franco-Moraes</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>How People Domesticated Amazonian Forests</article-title>. <source>Frontiers in Ecology and Evolution</source>. <year>2018</year> <month>Jan</month> <day>17</day>. Available from: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fevo.2017.00171" ns0:type="simple">https://doi.org/10.3389/fevo.2017.00171</ext-link></mixed-citation></ref>
+<ref id="pone.0222337.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Watling</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Shock</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Mongel&#243;</surname> <given-names>GZ</given-names></name>, <name name-style="western"><surname>Almeida</surname> <given-names>FO</given-names></name>, <name name-style="western"><surname>Kater</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>De Oliveira</surname> <given-names>PE</given-names></name>, <etal>et al</etal>. <article-title>Direct archaeological evidence for Southwestern Amazonia as an early plant domestication and food production centre</article-title>. <source>Plos One</source>. <year>2018</year>;<volume>13</volume>(<issue>7</issue>):<fpage>e0199868</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0199868" ns0:type="simple">10.1371/journal.pone.0199868</ext-link></comment> <object-id pub-id-type="pmid">30044799</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ford</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nigh</surname> <given-names>R</given-names></name>. <article-title>Origins of the Maya Forest Garden: Maya Resource Management</article-title>. <source>Journal of Ethnobiology</source>. <year>2009</year>;<volume>29</volume>(<issue>2</issue>):<fpage>213</fpage>&#8211;<lpage>236</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2993/0278-0771-29.2.213" ns0:type="simple">10.2993/0278-0771-29.2.213</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McNeil</surname> <given-names>CL</given-names></name>. <article-title>Deforestation, agroforestry, and sustainable land management practices among the Classic period Maya</article-title>. <source>Quaternary International</source>. <year>2012</year>;<volume>249</volume>:<fpage>19</fpage>&#8211;<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.quaint.2011.06.055" ns0:type="simple">10.1016/j.quaint.2011.06.055</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Glaser</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Balashov</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Haumaier</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Guggenberger</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zech</surname> <given-names>W</given-names></name>. <article-title>Black carbon in density fractions of anthropogenic soils of the Brazilian Amazon region</article-title>. <source>Organic Geochemistry</source>. <year>2000</year>;<volume>31</volume>:<fpage>669</fpage>&#8211;<lpage>678</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0146-6380(00)00044-9" ns0:type="simple">10.1016/S0146-6380(00)00044-9</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lima</surname> <given-names>HN</given-names></name>, <name name-style="western"><surname>Schaefer</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Mello</surname> <given-names>JWV</given-names></name>, <name name-style="western"><surname>Gilkes</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Ker</surname> <given-names>JC</given-names></name>. <article-title>Pedogenesis and pre-Colombian land use of &#8220;Terra Preta Anthrosols&#8221; (&#8220;Indian black earth&#8221;) of Western Amazonia</article-title>. <source>Geoderma</source>. <year>2002</year>;<volume>110</volume>:<fpage>1</fpage>&#8211;<lpage>17</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schaefer CEGR</surname> <given-names>Lima HN</given-names></name>, <name name-style="western"><surname>Gilkes RJ</surname> <given-names>Mello JWV</given-names></name>. <article-title>Micromorphology and electron microprobe analysis of phosphorus and potassium forms of an Indian Black Earth (IBE) Anthrosol form Western Amazonia</article-title>. <source>Australian Journal of Soil Research</source>. <year>2004</year>;<volume>24</volume>(<issue>4</issue>):<fpage>401</fpage>&#8211;<lpage>409</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Topoliantz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ponge</surname> <given-names>JF</given-names></name>. <article-title>Charcoal consumption and casting activity by <italic>Pontoscolex corethrurus</italic> (Glossoscolecidae)</article-title>. <source>Applied Soil Ecology</source>. <year>2005</year>;<volume>28</volume>:<fpage>217</fpage>&#8211;<lpage>224</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ponge</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Topoliantz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ballof</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rossi</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Lavelle</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Betsch</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Ingestion of charcoal by the Amazonian earthworm <italic>Pontoscolex corethrurus</italic>: A potential for tropical soil fertility</article-title>. <source>Soil Biology and Biochemistry</source>. <year>2006</year>;<volume>38</volume>(<issue>7</issue>):<fpage>2008</fpage>&#8211;<lpage>2009</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.soilbio.2005.12.024" ns0:type="simple">10.1016/j.soilbio.2005.12.024</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref037"><label>37</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Sparovek</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Longo</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>de Melo</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Crowley</surname> <given-names>D</given-names></name>. <article-title>Bacterial diversity of terra and pristine forest soil from Western Amazon</article-title>. <source>Soil Biology &amp; Biochemistry</source>. <year>2007</year>;<volume>39</volume>:<fpage>684</fpage>&#8211;<lpage>690</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Laland</surname> <given-names>KN</given-names></name>, <name name-style="western"><surname>Odling-Smee</surname> <given-names>FJ</given-names></name>, <name name-style="western"><surname>Feldman</surname> <given-names>MW</given-names></name>. <article-title>Evolutionary consequences of niche construction and their implications for ecology</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>1999</year>;<volume>96</volume>(<issue>18</issue>):<fpage>10242</fpage>&#8211;<lpage>10247</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lavelle</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Barois</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Cruz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Fragoso</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hernandez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pineda</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rangel</surname> <given-names>P</given-names></name>. <article-title>Adaptive strategies of <italic>Pontoscolex corethrurus</italic> (Glossoscolecidae, Oligochaeta), a peregrine geophagous earthworm of the humid tropics</article-title>. <source>Biology and Fertility of Soils</source>. <year>1987</year>;<volume>5</volume>(<issue>3</issue>):<fpage>188</fpage>&#8211;<lpage>194</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/BF00256899" ns0:type="simple">10.1007/BF00256899</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fragoso</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Leyequi&#233;n</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Garc&#237;a-Robles</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Montero-Mu&#241;oz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rojas</surname> <given-names>P</given-names></name>. <article-title>Dominance of native earthworms in secondary tropical forests derived from slash-and-burn Mayan agricultural practices (Yucat&#225;n, Mexico)</article-title>. <source>Applied Soil Ecology</source>. <year>2016</year>;<volume>104</volume>:<fpage>116</fpage>&#8211;<lpage>124</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.apsoil.2015.12.005" ns0:type="simple">10.1016/j.apsoil.2015.12.005</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Marichal</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Martinez</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Praxedes</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ruiz</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Carvajal</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Oszwald</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Invasion of <italic>Pontoscolex corethrurus</italic> (Glossoscolecidae, Oligochaeta) in landscapes of the Amazonian deforestation arc</article-title>. <source>Applied Soil Ecology</source>. <year>2010</year>;<volume>64</volume>(<issue>3</issue>):<fpage>443</fpage>&#8211;<lpage>449</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.apsoil.2010.09.001" ns0:type="simple">10.1016/j.apsoil.2010.09.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ortiz-Ceballos</surname> <given-names>AI</given-names></name>, <name name-style="western"><surname>Fragoso</surname> <given-names>C</given-names></name>. <article-title>Earthworm populations under tropical maize cultivation: the effect of mulching with Velvetbean</article-title>. <source>Biol. Fert. Soils</source>. <year>2004</year>;<volume>39</volume>:<fpage>438</fpage>&#8211;<lpage>445</lpage></mixed-citation></ref>
+<ref id="pone.0222337.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Huerta</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Fragoso</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rodriguez-Olan</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Evia-Castillo</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Montejo-Meneses</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Cruz-Mondragon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Garc&#237;a-Hern&#225;ndez</surname> <given-names>R</given-names></name>. <article-title>Presence of exotic and native earthworms in principal agro- and natural systems in Central and Southeastern Tabasco, Mexico</article-title>. <source>Caribbean Journal of Science</source>. <year>2006</year>;<volume>42</volume>(<issue>3</issue>):<fpage>359</fpage>&#8211;<lpage>365</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lavelle</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Maury</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>V</given-names></name>. <article-title>Estudio cuantitativo de la fauna del suelo en la regi&#243;n de Laguna Verde, Veracruz</article-title>. <source>Publicaciones Instituto de Ecolog&#237;a (M&#233;xico)</source>. <year>1981</year>;<volume>6</volume>:<fpage>75</fpage>&#8211;<lpage>105</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ortiz-Gamino</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>P&#233;rez-Rodr&#237;guez</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ortiz-Ceballos</surname> <given-names>AI</given-names></name>. <article-title>Invasion of the tropical earthworm <italic>Pontoscolex corethrurus</italic> (Rhinodrilidae, Oligochaeta) in temperate grasslands</article-title>. <source>PeerJ</source>. <year>2016</year>;<volume>4</volume>:<fpage>e2572</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7717/peerj.2572" ns0:type="simple">10.7717/peerj.2572</ext-link></comment> <object-id pub-id-type="pmid">27761348</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stitzer</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Ross-Ibarra</surname> <given-names>J</given-names></name>. <article-title>Maize domestication and gene interaction</article-title>. <source>New Phytologist</source>. <year>2018</year>;<volume>220</volume>:<fpage>395</fpage>&#8211;<lpage>408</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/nph.15350" ns0:type="simple">10.1111/nph.15350</ext-link></comment> <object-id pub-id-type="pmid">30035321</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Taheri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>James</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roy</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Deca&#235;ns</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Willians</surname> <given-names>BW</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Complex taxonomy of the &#8216;brush tail&#8217; peregrine earthworm <italic>Pontoscolex corethrurus</italic></article-title>. <source>Molecular Phylogenetics and Evolution</source>. <year>2018a</year>;<volume>124</volume>:<fpage>60</fpage>&#8211;<lpage>70</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ympev.2018.02.021" ns0:type="simple">10.1016/j.ympev.2018.02.021</ext-link></comment> <object-id pub-id-type="pmid">29501375</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref048"><label>48</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rodrigues</surname> <given-names>JLM</given-names></name>, <name name-style="western"><surname>Pellizari</surname> <given-names>VH</given-names></name>, <name name-style="western"><surname>Mueller</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Baek</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>da</surname> <given-names>C</given-names></name>. <name name-style="western"><surname>Jesus</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Paula</surname> <given-names>FS</given-names></name>, <etal>et al</etal>. <article-title>Conversion of the Amazon rainforest to agriculture results in biotic homogenization of soil bacterial communities</article-title>. <source>PNAS</source>. <year>2013</year>;<volume>110</volume>(<issue>3</issue>):<fpage>988</fpage>&#8211;<lpage>993</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1073/pnas.1220608110" ns0:type="simple">10.1073/pnas.1220608110</ext-link></comment> <object-id pub-id-type="pmid">23271810</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gilot-Villenave</surname> <given-names>C</given-names></name>. <article-title>Determination of the origin of the different growing abilities of two populations of <italic>Millsonia anomala</italic> (Omodeo and Vaillaud), a tropical geophageous earthworm</article-title>. <source>European Journal of Soil Biology</source>. <year>1994</year>;<volume>39</volume>(<issue>3</issue>):<fpage>125</fpage>&#8211;<lpage>131</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref050"><label>50</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>De Menezes</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Prendergast-Miller</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Macdonald</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Toscas</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Farrell</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Earthworm-induce shofts in microbial diversity in soils with rare versus established invasive earthworm populations</article-title>. <source>FEMS Microbiology Ecology</source>. <year>2018</year>;<volume>94</volume>(<issue>5</issue>):<fpage>fiy051</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/femsec/fiy051" ns0:type="simple">10.1093/femsec/fiy051</ext-link></comment> <object-id pub-id-type="pmid">29579181</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>S&#225;nchez-De Le&#243;n</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zou</surname> <given-names>X</given-names></name>. <article-title>Plant influences on native and exotic earthworms during secondary succession in old tropical pastures</article-title>. <source>Pedobiologia</source>. <year>2004</year>;<volume>48</volume>(<issue>3</issue>):<fpage>215</fpage>&#8211;<lpage>226</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pedobi.2003.12.006" ns0:type="simple">10.1016/j.pedobi.2003.12.006</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Philippot</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Raaijmakers</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Lemanceau</surname> <given-names>P</given-names></name> &amp; <name name-style="western"><surname>Van Der Putten</surname> <given-names>WH</given-names></name>. <article-title>Going back to the roots: The microbial ecology of the rhizosphere</article-title>. <source>Nature Reviews Microbiology</source>. <year>2013</year>;<volume>11</volume>:<fpage>789</fpage>&#8211;<lpage>799</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/nrmicro3109" ns0:type="simple">10.1038/nrmicro3109</ext-link></comment> <object-id pub-id-type="pmid">24056930</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref053"><label>53</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zachmann</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Molina</surname> <given-names>JAE</given-names></name>. <article-title>Presence of culturable bacteria in cocoons of the earthworm <italic>Eisenia fetida</italic></article-title>. <source>Applied and Environmental Microbiology</source>. <year>1993</year>;<volume>59</volume>(<issue>6</issue>):<fpage>1904</fpage>&#8211;<lpage>1910</lpage>. <object-id pub-id-type="pmid">16348968</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref054"><label>54</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schramm</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Davidson</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Dodsworth</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Drake</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Stahl</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Dubilier</surname> <given-names>N</given-names></name>. <article-title>Acidovorax-like symbionts in the nephridia of earthworms</article-title>. <source>Environmental Microbiology</source>. <year>2003</year>;<volume>5</volume>(<issue>9</issue>):<fpage>804</fpage>&#8211;<lpage>809</lpage>. <object-id pub-id-type="pmid">12919416</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref055"><label>55</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Daane</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>H&#228;ggblom</surname> <given-names>MM</given-names></name>. <article-title>Earthworm egg capsules as vectors for the environmental introduction of biodegradative bacteria</article-title>. <source>Applied and Environmental Microbiology</source>. <year>1999</year>;<volume>65</volume>:<fpage>2376</fpage>&#8211;<lpage>2381</lpage>. <object-id pub-id-type="pmid">10347016</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref056"><label>56</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lund</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Davidson</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Holmstrup</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>James</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kjeldsen</surname> <given-names>KU</given-names></name>, <name name-style="western"><surname>Stahl</surname> <given-names>DA</given-names></name>, <etal>et al</etal>. <article-title>Diversity and host specificity of the <italic>Verminephrobacter</italic>-earthworm symbiosis</article-title>. <source>Environmental Microbiology</source>. <year>2010a</year>;<volume>12</volume>(<issue>8</issue>):<fpage>2142</fpage>&#8211;<lpage>2151</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1462-2920.2009.02084.x" ns0:type="simple">10.1111/j.1462-2920.2009.02084.x</ext-link></comment> <object-id pub-id-type="pmid">21966909</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref057"><label>57</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lund</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Holmstrup</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lomstein</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Damgaard</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Schramm</surname> <given-names>A</given-names></name>. <article-title>Beneficial effect of <italic>Verminephrobacter</italic> nephridial symbionts on the fitness of the earthworm <italic>Aporrectodea tuberculata</italic></article-title>. <source>Applied and Environmental Microbiology</source>. <year>2010b</year>;<volume>76</volume>(<issue>14</issue>):<fpage>4738</fpage>&#8211;<lpage>4743</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1128/AEM.00108-10" ns0:type="simple">10.1128/AEM.00108-10</ext-link></comment> <object-id pub-id-type="pmid">20511426</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref058"><label>58</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Aira</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>P&#233;rez-Losada</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dom&#237;nguez</surname> <given-names>J</given-names></name>. <article-title>Diversity, structure and sources of bacterial communities in earthworm cocoons</article-title>. <source>Scientific Reports</source>. <year>2018</year>;<volume>8</volume>:<fpage>6632</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/s41598-018-25081-9" ns0:type="simple">10.1038/s41598-018-25081-9</ext-link></comment> <object-id pub-id-type="pmid">29700426</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref059"><label>59</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Nozaki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Miura</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Tozawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Miura</surname> <given-names>T</given-names></name>. <article-title>The contribution of endogenous cellulase to the cellulose digestion in the gut of earthworm (<italic>Pheretima hilgendorfi</italic>: Megascolecidae)</article-title>. <source>Soil Biology and Biochemistry</source>. <year>2009</year>;<volume>41</volume>(<issue>4</issue>):<fpage>762</fpage>&#8211;<lpage>769</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.soilbio.2009.01.016" ns0:type="simple">10.1016/j.soilbio.2009.01.016</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref060"><label>60</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Shweta</surname> <given-names>M</given-names></name>. <article-title>Cellulolysis. A transient property of earthworm or symbiotic/ingested microorganisms?</article-title> <source>International Journal of Scientific and Research Publications</source>. <year>2012</year>;<volume>2</volume>(<issue>11</issue>):<fpage>1</fpage>&#8211;<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0222337.ref061"><label>61</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ueda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ito</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nakazawa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Miyatake</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Sakaguchi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Inouye</surname> <given-names>K</given-names></name>. <article-title>Cloning and expression of the cold-adapted endo-1,4-&#946;-glucanase gene from Eisenia fetida</article-title>. <source>Carbohydrate Polymers</source>. <year>2014</year>;<volume>101</volume>:<fpage>511</fpage>&#8211;<lpage>516</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.carbpol.2013.09.057" ns0:type="simple">10.1016/j.carbpol.2013.09.057</ext-link></comment> <object-id pub-id-type="pmid">24299806</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref062"><label>62</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Park</surname> <given-names>IY</given-names></name>, <name name-style="western"><surname>Cha</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Ok</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Shin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Kwak</surname> <given-names>HJ</given-names></name>, <etal>et al</etal>. <article-title>A new earthworm cellulase and its possible role in the innate immunity</article-title>. <source>Developmental and Comparative Immunology</source>. <year>2017</year>;<volume>67</volume>:<fpage>476</fpage>&#8211;<lpage>480</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.dci.2016.09.003" ns0:type="simple">10.1016/j.dci.2016.09.003</ext-link></comment> <object-id pub-id-type="pmid">27614272</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref063"><label>63</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Thakuria</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Finan</surname> <given-names>D</given-names></name>., <name name-style="western"><surname>Egan</surname> <given-names>D</given-names></name>., &amp; <name name-style="western"><surname>Doohan</surname> <given-names>F.M</given-names></name>. (<year>2010</year>). <article-title>Gut wall bacteria of earthworms: A natural selection process</article-title>. <source><italic>ISME Journal</italic></source> <volume>4</volume>, <fpage>357</fpage><italic>&#8211;</italic><lpage>366</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/ismej.2009.124" ns0:type="simple">10.1038/ismej.2009.124</ext-link></comment> <object-id pub-id-type="pmid">19924156</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref064"><label>64</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lian</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>P</given-names></name>. <article-title>Earthworms&#8217; Transcriptome and Gut Microbiota Response to Mineral Weathering</article-title>. <source>Acta Geologica Sinica&#8212;English Edition</source>. <year>2017</year>;<volume>91</volume>(<issue>1</issue>):<fpage>1</fpage>&#8211;<lpage>2</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/1755-6724.13232" ns0:type="simple">10.1111/1755-6724.13232</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref065"><label>65</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lian</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>P</given-names></name>. <article-title>A comparative study of gut microbiota profiles of earthworms fed in three different substrates</article-title>. <source>Symbiosis</source> <year>2018</year>;<volume>74</volume>(<issue>1</issue>):<fpage>21</fpage>&#8211;<lpage>29</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s13199-017-0491-6" ns0:type="simple">10.1007/s13199-017-0491-6</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref066"><label>66</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gong</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Scheu</surname> <given-names>S</given-names></name>. <article-title>Earthworms differentially modify the microbiome of arable soils varying in residue management</article-title>. <source>Soil Biology and Biochemistry</source>. <year>2018</year>;<volume>121</volume>:<fpage>120</fpage>&#8211;<lpage>129</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.soilbio.2018.03.011" ns0:type="simple">10.1016/j.soilbio.2018.03.011</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref067"><label>67</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ikeda</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fukumori</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Shoda-Kagaya</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Takahashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ito</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Sakai</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Matsumoto</surname> <given-names>K</given-names></name>. <article-title>Evolution of a key trait greatly affects underground community assembly process through habitat adaptation in earthworms</article-title>. <source>Ecology and Evolution</source>. <year>2018</year>;<volume>8</volume>(<issue>3</issue>):<fpage>1726</fpage>&#8211;<lpage>1735</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/ece3.3777" ns0:type="simple">10.1002/ece3.3777</ext-link></comment> <object-id pub-id-type="pmid">29435247</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref068"><label>68</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Davidson</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Powell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>James</surname> <given-names>S</given-names></name>. <article-title>(A global survey of the bacteria within earthworm nephridia</article-title>. <source>Molecular Phylogenetics and Evolution</source> <year>2013</year>;<volume>67</volume>:<fpage>188</fpage>&#8211;<lpage>200</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ympev.2012.12.005" ns0:type="simple">10.1016/j.ympev.2012.12.005</ext-link></comment> <object-id pub-id-type="pmid">23268186</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref069"><label>69</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Davidson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stahl</surname> <given-names>DA</given-names></name>. <article-title>Transmission of nephridial bacteria of the earthworm Eisenia fetida</article-title>. <source>Applied and Environmental Microbiology</source>. <year>2006</year>;<volume>72</volume>(<issue>1</issue>):<fpage>769</fpage>&#8211;<lpage>775</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1128/AEM.72.1.769-775.2006" ns0:type="simple">10.1128/AEM.72.1.769-775.2006</ext-link></comment> <object-id pub-id-type="pmid">16391117</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref070"><label>70</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>M&#248;ller</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lund</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Schramm</surname> <given-names>A</given-names></name>. <article-title>Evolution of the tripartite symbiosis between earthworms, <italic>Verminephrobacter</italic> and <italic>Flexibacter-like</italic> bacteria</article-title>. <source>Frontiers in Microbiology</source>. <year>2015</year>;<volume>6</volume>:<fpage>529</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3389/fmicb.2015.00529" ns0:type="simple">10.3389/fmicb.2015.00529</ext-link></comment> <object-id pub-id-type="pmid">26074907</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref071"><label>71</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ponesakki</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Paul</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mani DK</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rajendiran</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Kanniah</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Sivasubramaniam</surname> <given-names>S</given-names></name>. <article-title>Annotation of nerve cord transcriptome in earthworm <italic>Eisenia fetida</italic></article-title>. <source>Genomics Data</source>. <year>2017</year>;<volume>14</volume>:<fpage>91</fpage>&#8211;<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.gdata.2017.10.002" ns0:type="simple">10.1016/j.gdata.2017.10.002</ext-link></comment> <object-id pub-id-type="pmid">29204349</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref072"><label>72</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ortiz-Ceballos</surname> <given-names>AI</given-names></name>, <name name-style="western"><surname>P&#233;rez-Staples</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>P&#233;rez-Rodr&#237;guez</surname> <given-names>P</given-names></name>. <article-title>Nest site selection and nutritional provision through excreta: a form of parental care in a tropical endogeic earthworm</article-title>. <source>PeerJ</source>. <year>2016</year>;<volume>4</volume>:<fpage>e2032</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7717/peerj.2032" ns0:type="simple">10.7717/peerj.2032</ext-link></comment> <object-id pub-id-type="pmid">27231655</object-id></mixed-citation></ref>
+<ref id="pone.0222337.ref073"><label>73</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schult</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Pittenger</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Davalos</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>McHugh</surname> <given-names>D</given-names></name>. <article-title>Phylogeographic analysis of invasive Asian earthworms (<italic>Amynthas</italic>) in the northeast United States</article-title>. <source>Invertebrate Biology</source>. <year>2016</year>;<volume>135</volume>(<issue>4</issue>):<fpage>314</fpage>&#8211;<lpage>327</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/ivb.12145" ns0:type="simple">10.1111/ivb.12145</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref074"><label>74</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fern&#225;ndez-March&#225;n</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>D&#237;az-Cos&#237;n</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Novo</surname> <given-names>M</given-names></name>. <article-title>Why are we blind to cryptic species? Lessons from the eyeless</article-title>. <source>European Journal of Soil Biology</source>. <year>2018</year>;<volume>86</volume>:<fpage>49</fpage>&#8211;<lpage>51</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ejsobi.2018.03.004" ns0:type="simple">10.1016/j.ejsobi.2018.03.004</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref075"><label>75</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Denevan</surname> <given-names>WM</given-names></name>. <article-title>The Pristine Myth: The Landscape of the Americas in 1492</article-title>. <source>Annals of the Association of American Geographers</source>. <year>1992</year>;<volume>82</volume>(<issue>3</issue>):<fpage>369</fpage>&#8211;<lpage>385</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1467-8306.1992.tb01965.x" ns0:type="simple">10.1111/j.1467-8306.1992.tb01965.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref076"><label>76</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Kowarik</surname> <given-names>I</given-names></name>. <chapter-title>On the role of alien species in urban flora and vegetation</chapter-title>. In: <name name-style="western"><surname>Marzluff</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Shulenberger</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Endlicher</surname> <given-names>w</given-names></name>, <name name-style="western"><surname>Alberti</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bradley</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ryan</surname> <given-names>C</given-names></name>, <etal>et al</etal>. editors. <source>Urban Ecology: An International Perspective on the Interaction Between Humans and Nature</source>. <publisher-loc>USA</publisher-loc>: <publisher-name>Spinger Us</publisher-name>; <year>1995</year>. pp. <fpage>321</fpage>&#8211;<lpage>338</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/978-0-387-73412-5_20" ns0:type="simple">10.1007/978-0-387-73412-5_20</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref077"><label>77</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peel</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Finlayson</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>McMahon</surname> <given-names>TA</given-names></name>. <article-title>Updated world map of the K&#246;ppen-Geiger climate classification</article-title>. <source>Hydrology and Earth System Sciences</source>. <year>2007</year>;<volume>11</volume>(<issue>5</issue>):<fpage>1633</fpage>&#8211;<lpage>1644</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5194/hess-11-1633-2007" ns0:type="simple">10.5194/hess-11-1633-2007</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0222337.ref078"><label>78</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Righi</surname> <given-names>G</given-names></name>. <article-title><italic>Pontoscolex</italic> (Oligochaeta, Glossoscolecidae), a New Evaluation</article-title>. <source>Studies on Neotropical Fauna and Environment</source>. <year>1984</year>;<volume>19</volume>(<issue>3</issue>):<fpage>159</fpage>&#8211;<lpage>177</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/01650528409360653" ns0:type="simple">10.1080/01650528409360653</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222337.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhadauria</surname>
+<given-names>Tunira</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Tunira Bhadauria</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-15357</p>
+<p>Pontoscolex corethrurus: a Homeless Invasive Tropical Earthworm?</p>
+<p>PLOS ONE</p>
+<p>Dear Ceballos</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>1]The authors have done an interesting study determining the reason as to why P. corethrurus is unable to invade the agricultural niche of B. pearsei?</p>
+<p>2]The design of experiment is very appropriate and accurate.</p>
+<p>3]But there are some loop holes that need to be plugged for eg: the figure numbers need to be checked and rectified</p>
+<p>4]English language needs to be checked by someone with good command over language for clarification in the manuscript</p>
+<p>5]Diiscussion should be written more precisely and directly analysing the results obtained in the experiments performed.</p>
+<p>6]Other comments have been high lighted in the manuscript and also by the reviewers ,</p>
+<p>7]All the comments must be answered to and necessary rectifications made in the manuscript based on the reviewers comments</p>
+<p>Therefore manuscript can be accepted for publication only after the major revision.</p>
+<p>We would appreciate receiving your revised manuscript by 25 July 2019. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Tunira Bhadauria, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please upload a copy of Figures 5 and 6, to which you refer in your text on page 11. If the figure is no longer to be included as part of the submission please remove all reference to it within the text.</p>
+<p>3. In your Methods section, please provide additional location information of the collection sites, including geographic coordinates for the data set if available.</p>
+<p>4. In your Methods section, please provide additional information regarding the permits you obtained for the work. Please ensure you have included the full name of the authority that approved the field site access and, if no permits were required, a brief statement explaining why.</p>
+<p>5. Please include your tables as part of your main manuscript and remove the individual files. Please note that supplementary tables (should remain/ be uploaded) as separate "supporting information" files</p>
+<p>Additional Editor Comments:</p>
+<p>1]The authors have done an interesting study determining the reason as to why P. corethrurus is unable to invade the agricultural niche of B. pearsei?</p>
+<p>2]The design of experiment is very appropriate and accurate.</p>
+<p>3]But there are some loop holes that need to be plugged for eg: the figure numbers need to be checked and rectified</p>
+<p>4]English language needs to be checked by someone with good command over language for clarification in the manuscript</p>
+<p>5]Diiscussion should be written more precisely and directly analysing the results obtained in the experiments performed.</p>
+<p>6]Other comments have been high lighted in the manuscript and also by the reviewers ,</p>
+<p>7]All the comments must be answered to and necessary rectifications made in the manuscript based on the reviewers comments</p>
+<p>Therefore manuscript can be accepted for publication only after the major revesion.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Partly</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The study asks an interesting question given at the end of the introduction&#8212;why hasn&#8217;t P. corethrurus invaded the agricultural niche of B. pearsei? The experiment seems well designed. However, there are some items in the test that need to be corrected (e.g. figure numbers), some revisions for clarity are needed, and the Discussion needs revisions to make it more directly relevant to the experiment that was conducted. These are explained below.</p>
+<p>Page 4 line 3, 100-120 of the species?</p>
+<p>Last sentence page 4, confusing&#8212;are you switching back to P. corethrurus here?</p>
+<p>Page 6, second to last line, 61.9 C/N does not have a percent&#8212;it&#8217;s a ratio</p>
+<p>Page 8, mortality, please state the mortality results more systematically, instead of a few selected treatments.</p>
+<p>Page 8-9. Figure 1 does not show growth rates, it shows biomass at 100 days with three food sources. In the second sentence it should say &#8216;At 100 days the biomass of invasive and native species&#8230;&#8217; The last sentence appears to actually present growth rate data. Biomass at 100 days is related to the growth rate, but is not the same thing.</p>
+<p>Middle of page 10. Fig. 4 does not show cocoon biomass.</p>
+<p>Page 10-11, there are no Figs 5 and 6 in the manuscript that I have.</p>
+<p>Discussion:</p>
+<p>First sentence is incomplete; either say what happens when populations respond to domestication, or delete &#8216;When&#8217; at the beginning of the sentence.</p>
+<p>Page 13-14, 275 and 176 species of bacteria?</p>
+<p>Page 15, Levis et al 2018 (not 208).</p>
+<p>Most of the Discussion (although very interesting) is not about what was studied, and connections between the experiment presented in the results section and discussion topics are weak. For example, does your P. corethrurus belong to one of the four agrotypes mentioned on page 16? Do you know which bacterial taxonomic groups are present in your P. corethrurus?</p>
+<p>The statements in the concluding paragraph on page 17 have no direct evidence from your study. Again, it is interesting, and well written, but very speculative as it relates to the study.</p>
+<p>There is almost a review paper about evolutionary/agro-history of the earthworm species embedded in the Discussion. Perhaps the authors should consider expanding this and publishing it separately as a review paper! However, for purposes of the manuscript under review, the connections to the experiment are too weak, and this review material should be greatly shortened to one or two paragraphs. In place of most of this material there should be more discussion points related directly to the experimental evidence&#8212;for example comparison to survival rates, attainment of sexual maturity, biomass and cocoon production from other studies of these two earthworm species. Also, the conclusion should have a succinct summary about how the evidence from the experiment answers the question posed at the end of the introduction.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222337.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222337.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">26 Jul 2019</named-content>
+</p>
+<p>Rebuttal Letter</p>
+<p>General remarks</p>
+<p>All the corrections indicated referees (Reviewer  # 1 and Editorial Board Editor) was incorporated on the manuscript. In green, sentences and words eliminated; in red, sentences, words incorporated, and only in the text of the manuscript. </p>
+<p>Specific points:</p>
+<p>Introduction</p>
+<p>Comments:</p>
+<p>Page 4 line 3, 100-120 of the species? </p>
+<p>Last sentence page 4, confusing&#8212;are you switching back to P. corethrurus here?&#8232; Page Line</p>
+<p>Response: </p>
+<p>We agree with these comments. We include and delete the following information suggested:</p>
+<p>Include:</p>
+<p>It has been documented that 3 % of the diversity of earthworms are invasive species (Dupont et al. 2012).</p>
+<p>Delete:</p>
+<p>It has been documented that 3 % (100-120) of the diversity of earthworms are invasive species (Hendrix 2008), and stating that just a few of them had a negative impact on terrestrial agroecosystems would not be an exaggeration (Simberloff 2009; Hendrix et al. 2006) </p>
+<p>3 </p>
+<p>70-71</p>
+<p>Results</p>
+<p>Comments:</p>
+<p>Page 8, mortality, please state the mortality results more systemaWcally, instead of a few selected treatments.&#8232; Page Line</p>
+<p>Response</p>
+<p>We agree with these comments. We include and delete the following information suggested:</p>
+<p>Include:</p>
+<p>At 100 days of culture, significant effects were observed between the origin of earthworms (OE), food quality (FQ) and soil moisture (SM), and the interaction between these three factors on sexual maturity, number of cocoons, and number and biomass of juveniles (Table 1). </p>
+<p>Mortality</p>
+<p>At the end of the culture, the invasive earthworm (P. corethrurus) had a 21.1 % mortality rate in the soil treatment (33 % and 25 % SM), while that of the native earthworm (B. pearsei) had only a 1.1 % mortality rate in the soil treatment (only 42 % SM). In the M. pruriens and maize stubble treatments (25 %, 33 % and 42 % SM) no mortality was observed in both earthworm species.</p>
+<p>Delete:</p>
+<p>At 100 days of culture, significant effects were observed between the origin of earthworms (OE), food quality (FQ), soil moisture (SM) and mortality, and the interaction between these three factors on sexual maturity, number of cocoons, and number and biomass of juveniles. The invasive earthworm (P. corethrurus) had a 21.1 % mortality rate in the soil treatment (33 % and 25 % SM). In contrast, the native earthworm (B. pearsei) had only a 1.1 % mortality rate in M. pruriens (only 42 % SM).  </p>
+<p>8 </p>
+<p>175-183</p>
+<p>Discussion</p>
+<p>Comments:</p>
+<p>Discussion should be wrigen more precisely and directly analysing the results obtained in the experiments performed.&#8232; Page Line</p>
+<p>Response:</p>
+<p>We agree with these comments. We delete the following information suggested:</p>
+<p>Included:</p>
+<p>This suggets that the four P. corethrurus ecotypes described by Taheri et al. (2018a) are likely the result of the selective forces imposed by cultivation, agricultural practices, and industrial and urban activities (Taheri et al. 2018b).</p>
+<p>Eliminated:</p>
+<p>a finding consistent with the absence of P. corethrurus in parcels where maize- and M. pruriens crop rotation is practiced, as well as in pastures and other traditional tropical agroecosystems (Lavelle et al. 1981; Ortiz- Ceballos et al. 2004; Huerta et al. 2006; Marichal et al. 2010; Fragoso et al. 2016; Ortiz-Gamino et al. 2016). </p>
+<p>Included:</p>
+<p>, similar findings have been reported with P. corethrurus from fallow (slash-and-burn) to mature forest (Topoliantz and Ponge 2005).</p>
+<p>, because it has been suggested that P. corethrhrus has a high ability to utilize soil organic resources as an energy source (Lavelle et al. 1987). </p>
+<p>Delete:</p>
+<p>Also, in a Glenrock soil (southern Australia), the survival of the European endogeic earthworm Aporrectodea trapezoides was found in association with soil bacteria (Davidson et al 2013; Menezes et al. 2018).</p>
+<p>Include:</p>
+<p>For example, Topoliantz and Ponge (2005) observed that the behaviour of two populations of P. corethrurus separated along the Maroni river (French Guiana, South America) differed significantly: fallow populations produced more cast on charcoal in the presence of forest soil, while the casting activity of the forest population was higher on soil regardless of the soil origin.</p>
+<p>Delete:</p>
+<p>Symbiosis, defined as the interaction between two different organisms living in close physical association, has been acknowledged as a source of evolutionary innovation that allows hosts to exploit otherwise inaccessible niches (Laland et al. 1999; Lund et al. 2010b; Aira et al. 2018). The hologenome (sum of the genetic information of the host and its microorganisms) theory of evolution is based on four generalization: a) all animals and plants establish symbiosis with microorganims; b) microorganisms can be transmitted between generations with fidelity; c) symbiosis affects the fitness of holobionts in their environment; d) genetic variation in holobionts can be enhanced by incorporating different symbiont populations and can change rapidly under enviromental stress (Zilber-Rosenberg and Rosenberg 2008). </p>
+<p>Include:</p>
+<p>Thus, the likely symbiotic evolution of P. corethrurus with the microbiome (gut, nephridia and cocoons) should be explored as a source of biogeography and phylogenetic information (Lund et al. 2010a; Brussaard et al. 2012; Davidson et al. 2013; M&#248;ller et al. 2015; Zwarycz et al. 2015; Schult et al. 2016; March&#225;n et al. 2018). That is, we could &#8220;&#8230;explain why P. corethrurus is rare or absent in undisturbed lands&#8221; (Lavelle et al. 1987).</p>
+<p>Delete:</p>
+<p>In Eisenia andrei and E. fetida, 275 and 176 bacteria were observed in their cocoons, respectively (Menezes et al. 2018); however, these were dominated by three vertically transmitted (parental) symbionts: Microbacteriaceae, Verminephrobacter, and Ca. Nephrothrix. For example, in a sterile environment, cocoons of M. anomala failed to develop, suggesting a functional relationship between nephridial bacteria of earthworms and soil microbiota (Gilot-Villenave 1994). Besides, it has been noted that during embryogenesis, the nephridial symbiont Verminephrobacter (Betaprototeobacteria) contributes to the biosynthesis of vitamins and the elimination of nitrogen wastes from cocoons, and conserving nitrogen (Schramm et al. 2003; Davidson and Stahl 2006; Lund et al. 2010b; Davidson et al. 2013; M&#248;ller et al. 2015). </p>
+<p>Include:</p>
+<p>Until now, only two ecotypes have been recorded (Taheri et al. 2018a) and the criptic linage used in this study corresponds to L1 (the most widespread). The origin of P. corethrurus may be related to anthropogenic soil formation (&#8220;terras mulatas&#8221; and &#8220;terras pretas&#8221;). The domestication of manioc (bitter and sweet) and peach palm staple food that facilitated sedentary lifestyles in the Amazon region (Lodge 1993; Glaser et al. 2000; Arroyo-Kalin 2010; Clement et al. 2015; Watling et al. 2018; Levis et al. 2018) has evolved to the point that we cannot recognize the predecessors of P. corethrurus, as evidenced by the recent designation of the P. corethrurus neotype from an anthropogenic environment (James et al. 2019) and temperate climate (Peel 2007), and by the ambiguity used for assigning its place of origin (Righi 1984; Dupont et al. 2012). </p>
+<p>Delete:</p>
+<p>Py&#353;ek et al (2005) observed that archeophyte weeds are common in crops introduced at the beginning of agriculture (cereals), but are poorly represented in crops introduced relatively recently (rape, maize), where neophyte weeds are most numerous. </p>
+<p>It is documented that an exchange of domesticated plants (manioc, maize, cacao and others), as well as recently introduced plants (livestock, pastures, coffee, sugar cane and others), took place between the Amazon area and Mesoamerica through agricultural packages that may have also included P. corethrurus as well as weeds, mice, insects, etc. (Denevan 1992; Boivin et al 2016; Levis et al. 208). </p>
+<p>Delete:</p>
+<p>Therefore, the four P. corethrurus ecotypes described by Taheri et al. (2018b) are likely the result of the selective forces imposed by cultivation, agricultural practices, and industrial and urban activities. That is, this species has evolved to develop resistance to herbicides, pesticides, heavy metals, and hydrocarbons, among others (Taheri et al. 2018b). The above may explain why the paradigm of Beddard (1900) " ...tropical earthworms invade only tropical regions (Neotropical) ..." is no longer valid, as P. corethrurus has been recorded across the five biogeographic regions: Nearctic (Gates 1954, Gates 1972, Blakemore 2009), Palearctic (Omodeo et al. 2003; Blakemore et al. 2006; Reynolds and Jones 2006, Sherlock and Carpenter 2009, Blakemore 2009, Cunha et al. 2014, Rota and Jong 2015; Taheri et al. 2018), Ethiopian (Plisko 2001), Indian (Tsai et al. 2000; Blakemore 2009; Singh et al. 2018; Subedi et al. 2018), and Australian (Blakemore 2009). The tropical microclimatic model of Lavelle et al. (1987) for the growth and development of P. corethrurus (20-30 &#778;C) is also not applicable to all four P. corethrurus agrotypes (James et al. 2019), since a revision of databases and the literature revealed that this species has been collected in Neotropical latitudes with temperate climate (10- 20 &#778;C; 1200 to 2000 m a.s.l.; K&#246;ppen 2011; Peel 2007; Volken and Br&#246;nnimann 2011) from M&#233;xico (Fragoso 2018; Ju&#225;rez-Ram&#243;n and Fragoso 2014, Ortiz-Gamino et al. 2016), Lesser Antilles (Hendrix et al. 2006), Colombia (Guti&#233;rrez-Sarmiento and Cardona 2014), Brasil (M&#252;ller 1857; Bunch et al. 2011; Ferreira et al. 2018; Steffen et al. 2018), Argentina (Mischis and Righi 1999; Mischis 2007), Madagascar (Chapuis-Lardy et al. 2010; Villenave et al. 2010), South &#193;frica (Plisko 2001, Janion-Scheepers et al. 2016) e India (Singh et al. 2018; Subedi et al. 2018). </p>
+<p>The origin of P. corethrurus may be related to anthropogenic soil formation (&#8220;terras mulatas&#8221; and &#8220;terras pretas&#8221;) and the domestication of manioc (bitter and sweet) and peach palm staple food that facilitated sedentary lifestyles in the Amazon region (Lodge 1993; Glaser et al. 2000; Arroyo-Kalin 2010; Clement et al. 2015; Watling et al. 2018; Levis et al. 2018), and has evolved to the point that we cannot recognize their wild predecessors, as evidenced by the recent designation of the P. corethrurus neotype from an anthropogenic environment (M&#252;ller 1857; James et al. 2019), and by the ambiguity used for assigning its place of origin (Righi 1984; Dupont et al. 2012). </p>
+<p>Cryptic invasions occur frequently, often go unnoticed, and are hard to recognize. Also, it is known that cryptic species may display markedly different responses to a given stimulus or stressor (Liebeke et al. 2014; Schult et al. 2016; Morais and Reichard 2018). Therefore, it is important to classify the four P. corethrurus ecotypes (Taheri et al. 2018a; James et al. 2019) as separate evolutionary entities over the residence time, and determine the preference of each ecotype in terms of soil type, culture, and climate, and response to stimulus or stressors (pesticides, herbicides, heavy metals, etc.), among others. To this end, transcriptomes (Rad-Seq) may be used to elucidate the gene flow across cryptic lineages (Puga-Freitas et al. 2015; Schult et al. 2016; Morais and Reichard 2018). In addition, epigenetics could be used to investigate the functional adaptations of P. corethrurus lineages (Kille et al. 2013; Liu et al. 2017; Ponesakki et al. 2017; Fern&#225;ndez-March&#225;n et al. 2018). Last, potential symbionts may be found for each agrotype, including bacteria, nematodes, enchytraeids and other life forms associated with earthworms (Coates 1990; Fern&#225;ndez-March&#225;n et al. 2018). </p>
+<p>Comment: </p>
+<p>the conclusion should have a succinct summary about how the evidence from the experiment answers the question posed at the end of the introduction. </p>
+<p>Response:</p>
+<p>We agree with these comments. We delete the following information suggested</p>
+<p>Include:</p>
+<p>Based on the results reported here, we conclude that the lower survival and hatching rates of P. corethrurus cocoons (offspring) in the agro-ecological niche of B. pearsei; it is, a finding consistent with the absence of P. corethrurus in parcels where maize- and M. pruriens crop rotation is practiced, as well as in pastures and other traditional tropical agroecosystems (Lavelle et al. 1981; Ortiz-Ceballos et al. 2004; Huerta et al. 2006; Marichal et al. 2010; Fragoso et al. 2016; Ortiz-Gamino et al. 2016). This suggests that P. corethrurus is an invasive species that thrives far from its natural status, i.e., has no wild ancestry in the study area. Therefore, it is important to determine the preference the four P. corethrurus ecotypes (Taheri et al. 2018a) in terms of soil type, cultivation, response to stressors and climate change.</p>
+<p>Delete:</p>
+<p>Based on the results reported here, we conclude that the lower survival and hatching rates of P. corethrurus cocoons (offspring) are associated with its symbiotic bacteria, coupled with a higher diversity of the edaphic microbiome in the agro-ecological niche of B. pearsei. This suggests that P. corethrurus is an exotic species that thrives far from its natural status, i.e., has no wild ancestry in the study area. For this reason, the likely symbiotic eco-evolution of P. corethrurus with the microbiome in its gut, nephridia and cocoons should be explored as a source of biogeography and phylogenetic information (Lund et al. 2010a; Brussaard et al. 2012; Davidson et al. 2013; M&#248;ller et al. 2015; Zwarycz et al. 2015; Schult et al. 2016; Fern&#225;ndez- March&#225;n et al. 2018), i.e., going back to the roots (Philippot et al. 2013; P&#233;rez-Jaramillo et al. 2016).  </p>
+<p>11</p>
+<p>11</p>
+<p>12</p>
+<p>12</p>
+<p>13-14</p>
+<p>14</p>
+<p>14-15</p>
+<p>249-251</p>
+<p>259-260</p>
+<p>265-266</p>
+<p>271-275</p>
+<p>305-310</p>
+<p>315-324</p>
+<p>325-333</p>
+<p>Figures</p>
+<p>Figures in the text:</p>
+<p>Comments:</p>
+<p>Page 8-9. Figure 1 does not show growth rates, it shows biomass at 100 days with three food sources. In the second sentence it should say &#8216;At 100 days the biomass of invasive and naWve species...&#8217; </p>
+<p>We agree with these comments. We delete the following information suggested:</p>
+<p>Include:</p>
+<p>Fig. 1. Biomass of the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) at 100 days of culture using three diets of different nutritional quality in soil with low anthropic impact. Vertical lines represent standard error.</p>
+<p>Delete:</p>
+<p>Fig. 1. Growth rate of the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) after 100 days of culture using three diets of different nutritional quality in soil with low anthropic impact. Vertical lines represent standard error. </p>
+<p>Comments:</p>
+<p>Middle of page 10. Fig. 4 does not show cocoon biomass.&#8232;Page 10-11, there are no Figs 5 and 6 in the manuscript that I have. </p>
+<p>We agree with these comments. We delete the following information suggested:</p>
+<p>Include:</p>
+<p>Fig. 1. Biomass of the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) at 100 days of culture using three diets of different nutritional quality in soil with low anthropic impact. Vertical lines represent standard error.</p>
+<p>Fig. 2. Sexual maturity (formation of the clitellum) in the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact. Vertical lines represent standard error.</p>
+<p>Fig. 3. Number of cocoons produced by the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact. Vertical lines represent standard error.</p>
+<p>Fig. 4. Number of juveniles hatched from cocoons produced by the tropical endogeic earthworms Pontoscolex corethrurus (invasive) and Balanteodrilus pearsei (native) at 100 days of culture under the interaction of three diets of different nutritional quality and three moisture content levels in soil with low anthropic impact. Vertical lines represent standard error.</p>
+<p>Delete:</p>
+<p>We remove figures 4 (cocoon biomass) and 6 (juveniles biomass) from the text; that is, there were many figures.</p>
+<p>References</p>
+<p>We included and delete the following references: Page Line</p>
+<p>Include:</p>
+<p>1. Fragoso, G.C. (2018). Importancia de las lombrices de tierra (Oligochaeta) en el monitoreo de &#225;reas prioritarias de conservaci&#243;n del centro, este y sureste de M&#233;xico. CONABIO. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.15468/omvnpi" ns0:type="simple">https://doi.org/10.15468/omvnpi</ext-link> accessed via GBIF.org on 2019-05-01</p>
+<p>2. Kim, J.S., Sparovek, G., Longo, R.M., de Melo, W.J., &amp; Crowley, D. (2007). Bacterial diversity of terra and pristine forest soil from Western Amazon. Soil Biology &amp; Biochemistry 39: 684-690.</p>
+<p>3. Lavelle, P.,  Maury, M.E., &amp; Serrano, V. (1981). Estudio cuantitativo de la fauna del suelo en la regi&#243;n de Laguna Verde, Veracruz. Publicaciones Instituto de Ecolog&#237;a (M&#233;xico) 6:75-105.</p>
+<p>4. Lima H.N., Lima, Schaefer E.R., Mello J.W.V., Gilkes R.J., &amp; Ker J.C. (2002). Pedogenesis and pre-Colombian land use of &#8220;Terra Preta Anthrosols&#8221; (&#8220;Indian black earth&#8221;) of Western Amazonia. Geoderma 110: 1-17.</p>
+<p>5. Lodge, D.M. (1993). Biological invasions: lessons for ecology. Trends in Ecology &amp; Evolution 8(4): 133-137</p>
+<p>6. Ortiz-Ceballos, A.I., Fragoso, C. (2004). Earthworm populations under tropical maize cultivation: the effect of mulching with Velvetbean. Biol. Fert. Soils 39, 438-445.</p>
+<p>7. Schaefer, C.E.G.R., Lima, H.N., Gilkes, R.J., &amp; Mello, J.W.V. (2004). Micromorphology and electron microprobe analysis of phosphorus and potassium forms of an Indian Black Earth (IBE) Anthrosol form Western Amazonia. Australian Journal of Soil Research 24(4): 401-409.</p>
+<p>8. Topoliantz, S., &amp; Ponge, J.F. (2005). Charcoal consumption and casting activity by Pontoscolex corethrurus (Glossoscolecidae). Applied Soil Ecology 28: 217-224.</p>
+<p>Eliminated:</p>
+<p>1. Beddard, F.E. (2011). Earthworms and their allies. Earthworms and their allies. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.5962/bhl.title.17625" ns0:type="simple">https://doi.org/10.5962/bhl.title.17625</ext-link></p>
+<p>2. Chapuis-Lardy, L., Brauman, A., Bernard, L., Pablo, A. L., Toucet, J., Mano, M.J.,  Weber, L., Brunet, D., Razafimbelo, T., Chotte, J.L., &amp; Blanchart, E. (2010). Effect of the endogeic earthworm Pontoscolex corethrurus on the microbial structure and activity related to CO2 and N2O fluxes from a tropical soil (Madagascar). Applied Soil Ecology, 45(3), 201&#8211;208. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.apsoil.2010.04.006" ns0:type="simple">https://doi.org/10.1016/j.apsoil.2010.04.006</ext-link></p>
+<p>3. Coates, K.A. (1990). Redescriptions of Aspidodrilus and Pelmatodrilus, enchytraeids (Annelida, Oligochaeta) ectocommensal on earthworms. Canadian Journal of Zoology, 68(3), 498&#8211;505. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1139/z90-073" ns0:type="simple">https://doi.org/10.1139/z90-073</ext-link></p>
+<p>4. Cunha, L., Montiel, R., Novo, M., Orozco-Terwengel, P., Rodrigues, A., Morgan, A.J., &amp; Kille, P. (2014). Living on a volcano&#8217;s edge: Genetic isolation of an extremophile terrestrial metazoan. Heredity, 112(2), 132&#8211;142. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1038/hdy.2013.84" ns0:type="simple">https://doi.org/10.1038/hdy.2013.84</ext-link></p>
+<p>5. Fragoso, G.C. (2018). Importancia de las lombrices de tierra (Oligochaeta) en el monitoreo de &#225;reas prioritarias de conservaci&#243;n del centro, este y sureste de M&#233;xico. CONABIO. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.15468/omvnpi" ns0:type="simple">https://doi.org/10.15468/omvnpi</ext-link> accessed via GBIF.org on 2019-05-01</p>
+<p>6. Gates, G.E. (1954). Exotic earthworms of the United States. Bulletin of the Museum of Comparitive Zoology at Harvard College, 111(6), 216&#8211;258.</p>
+<p>7. Gates, G.E. (1972). Burmese earthworms. An introduction to the systematics and biology of Megadrile Oligochaetes with special reference to Southeast Asia. Transactions of the American Philosophical Sciety, 62, 1-326</p>
+<p>8. Guti&#233;rrez-Sarmiento, M.C., &amp; Cardona, C.M. (2014). Caracterizaci&#243;n ecol&#243;gica de las lombrices (Pontoscolex corethrurus) como bioindicadoras de suelos compactados bajo condiciones de alta humedad del suelo con diferentes coberturas vegetales (Zipac&#243;n, Cundinamarca). Revista Cient&#237;fica, 2(19), 41. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.14483/23448350.6493" ns0:type="simple">https://doi.org/10.14483/23448350.6493</ext-link></p>
+<p>9. Hendrix, P.F. (2006). Biological invasions belowground-earthworms as invasive species. In Biological Invasions Belowground: Earthworms as Invasive Species (pp. 1&#8211;4). <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/978-1-4020-5429-7_1" ns0:type="simple">https://doi.org/10.1007/978-1-4020-5429-7_1</ext-link></p>
+<p>10. Hendrix, P.F., Callaham MacA., Drake, Jr.J.M., Huang, C.-Y., James, S.W., Snyder, B.A., &amp; Zhang, W. (2008). Pandora&#8217;s Box Contained Bait: The Global Problem of Introduced Earthworms. Annual Review of Ecology, Evolution, and Systematics, 39(1), 593&#8211;613. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1146/annurev.ecolsys.39.110707.173426" ns0:type="simple">https://doi.org/10.1146/annurev.ecolsys.39.110707.173426</ext-link></p>
+<p>11. Janion-Scheepers, C., Measey, J., Braschler, B., Chown, S.L., Coetzee, L., Colville J.F., Dames, J., Davies, A.B., Davies, S.J., Davies, A.L.V.,&#8230;Wilson J.R.U. (2016). Soil biota in a megadiverse country: Current knowledge and future research directions in South Africa. Pedobiologia, 59(3), 129&#8211;174. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.pedobi.2016.03.004" ns0:type="simple">https://doi.org/10.1016/j.pedobi.2016.03.004</ext-link></p>
+<p>12. Kille, P., Andre, J., Anderson, C., Ang, H.N., Bruford, M.W., Bundy, J.G., &#8230; Spurgeon, D. J. (2013). DNA sequence variation and methylation in an arsenic tolerant earthworm population. Soil Biology and Biochemistry 57, 524-532. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.soilbio.2012.10.014" ns0:type="simple">https://doi.org/10.1016/j.soilbio.2012.10.014</ext-link></p>
+<p>13. K&#246;ppen, W., Volken, E., &amp; Br&#246;nnimann, S. (2011). The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift, 20(3), 351&#8211;360. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1127/0941-2948/2011/105" ns0:type="simple">https://doi.org/10.1127/0941-2948/2011/105</ext-link></p>
+<p>14. Laland, K.N., Odling-Smee, F.J., &amp; Feldman, M.W. (1999). Evolutionary consequences of niche construction and their implications for ecology. Proceedings of the National Academy of Sciences, 96(18), 10242&#8211;10247. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1073/pnas.96.18.10242" ns0:type="simple">https://doi.org/10.1073/pnas.96.18.10242</ext-link></p>
+<p>15. Liebeke, M., Bruford, M.W., Donnelly, R.K., Ebbels, T.M.D., Hao, J., Kille, P., &#8230; Bundy, J.G. (2014). Identifying biochemical phenotypic differences between cryptic species. Biology Letters, 10(9), 20140615. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1098/rsbl.2014.0615" ns0:type="simple">https://doi.org/10.1098/rsbl.2014.0615</ext-link></p>
+<p>16. Mischis, C.C. (2007). Cat&#225;logo de las lombrices de tierra de la Argentina (Annelida, Oligocheta). En: Brown G.G. &amp; Fragoso C. (eds.), Minhocas: biodiversidade e ecolog&#237;a na America Latina (pp. 241-246). Embrapa So. Londrina, Brasil.</p>
+<p>17. Morais, P., &amp; Reichard, M. (2018). Cryptic invasions: A review. Science of the Total Environment 613, 1438-1448. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.scitotenv.2017.06.133" ns0:type="simple">https://doi.org/10.1016/j.scitotenv.2017.06.133</ext-link></p>
+<p>18. Omodeo, P., Rota, E., &amp; Baha, M. (2005). The megadrile fauna (Annelida: Oligochaeta) of Maghreb: a biogeographical and ecological characterization. Pedobiologia, 47(5&#8211;6), 458&#8211;465. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1078/0031-4056-00213" ns0:type="simple">https://doi.org/10.1078/0031-4056-00213</ext-link></p>
+<p>19. Plisko, J. (2001). Notes on the occurrence of the introduced earthworm Pontoscolex corethrurus (M&#252;ller, 1857) in South Africa (Oligochaeta: Glossoscolecidae ). African Invertebrates, 42(1), 323&#8211;334. <ext-link ext-link-type="uri" ns0:href="https://hdl.handle.net/10520/EJC84473" ns0:type="simple">https://hdl.handle.net/10520/EJC84473</ext-link></p>
+<p>20. Py&#353;ek, P. , Jaro&#353;&#237;k, V. , Chytr&#253;, M. , Krop&#225;&#269;, Z. , Tich&#253;, L. and Wild, J. (2005). Alien plants in temperate weed communities: Prehistoric and recent invaders occupy different habitats. Ecology, 86(3), 772&#8211;785. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1890/04-0012" ns0:type="simple">https://doi.org/10.1890/04-0012</ext-link></p>
+<p>21. Reynolds, J.W., &amp; Jones, A.G. (2006). The earthworms (Oligochaeta: Acanthodrilidae, Glossoscolecidae, and Lumbricidae) of the Falkland Islands. South Atlantic Ocean. Megadrilogica 10(10), 75-86. </p>
+<p>22. Rota, E., &amp; de Jong, Y. (2015). Fauna Europaea: Annelida - Terrestrial Oligochaeta (Enchytraeidae and Megadrili), Aphanoneura and Polychaeta. Biodiversity Data Journal, 3, e5737. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.3897/bdj.3.e5737" ns0:type="simple">https://doi.org/10.3897/bdj.3.e5737</ext-link></p>
+<p>23. Sherlock, E., &amp; Carpenter, D. (2009). An updated earthworm list for the British Isles and two new &#8220;exotic&#8221; species to Britain from Kew Gardens. European Journal of Soil Biology, 45(5-6), 431&#8211;435. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.ejsobi.2009.07.002" ns0:type="simple">https://doi.org/10.1016/j.ejsobi.2009.07.002</ext-link></p>
+<p>24. Singh, S., Singh, J., Sharma, A., Vig, A.P., &amp; Ahmed, S. (2018). First Report of the Earthworm Pontoscolex corethrurus (M&#252;ller, 1857) from Punjab, India. International Letters of Natural Sciences, 68, 1&#8211;8. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.18052/www.scipress.com/ilns.68.1" ns0:type="simple">https://doi.org/10.18052/www.scipress.com/ilns.68.1</ext-link></p>
+<p>25. Statsoft. (1999). STATISTICA for Windows (Computer Program Manual). Statsoft, Inc.</p>
+<p>26. Steffen, G.P.K., Steffen, R.B., Bartz, M.L.C., James, S.W., Jacques, R.J.S., Brown, G.G., &amp; Antoniolli, Z.I. (2018). Earthworm diversity in Rio Grande do Sul, Brazil. Zootaxa, 4496(1), 562&#8211;575. <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.11646/zootaxa.4496.1.43" ns0:type="simple">https://doi.org/10.11646/zootaxa.4496.1.43</ext-link></p>
+<p>27. Subedi, H.P., Saxena, R.M., &amp; Reynolds, J.W. (2018). New record of an earthworm in the family Glossoscolecidae (Annelida: Oligochaeta) from Sikkim, India. Megadrilogica, 23(2), 51&#8211;56. </p>
+<p>17</p>
+<p>18</p>
+<p>19</p>
+<p>19</p>
+<p>19</p>
+<p>21</p>
+<p>23</p>
+<p>24 </p>
+<p>380</p>
+<p>415</p>
+<p>428</p>
+<p>433</p>
+<p>446</p>
+<p>492</p>
+<p>528</p>
+<p>550</p>
+<supplementary-material id="pone.0222337.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.s004" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222337.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhadauria</surname>
+<given-names>Tunira</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Tunira Bhadauria</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-15357R1</p>
+<p>Pontoscolex corethrurus: a Homeless Invasive Tropical Earthworm?</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Ortiz-Ceballos,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 23 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Tunira Bhadauria, Ph.D</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (if provided):</p>
+<p>The authors need to be congratulated for sincerely incorporating the changes and suggestions in the revised manuscript. However there are some minor changes which further need to be incorporated into the text before manuscript can be accepted for the publication</p>
+<p>1.Line 261 in revised manuscript spelling of which</p>
+<p>2.Line 302 Year of reference 199</p>
+<p>3.Line 332 sentence incomplete changes incorporated in text</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222337.r004">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r004</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 1</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj004" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222337.r003" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">13 Aug 2019</named-content>
+</p>
+<p>August 12, 2019</p>
+<p>PlosOne</p>
+<p>Editor-in-Chief</p>
+<p>Dear Editor:</p>
+<p>Please find enclosed the manuscript titled (Tracked Changues version) Pontoscolex corethrurus: a Homeless Invasive Tropical Earthworm? Below is the rebuttal letter in which we list all the changes (point-by-point) we have made to the manuscript.</p>
+<p>Thank you again your comments and assistance.</p>
+<p>Sincerely yours</p>
+<p>Angel I. Ortiz Ceballos</p>
+<p>&#8195;</p>
+<p>Rebuttal Letter</p>
+<p>General remarks</p>
+<p>All the corrections indicated referees (Editorial Board Editor) was incorporated on the manuscript. In green, sentences and words eliminated; in red, sentences, words incorporated, and only in the text of the manuscript. </p>
+<p>Specific points:</p>
+<p>Discussion</p>
+<p>Comments:</p>
+<p>&#8230;However there are some minor changes which further need to be incorporated into the text before manuscript can be accepted for the publication Page Line</p>
+<p>Response: </p>
+<p>We agree with these comments. We include and delete the following information suggested:</p>
+<p>Delete (Line 261 in revised manuscript spelling of which):</p>
+<p>, wich differ from those in the adjacent forest</p>
+<p>Delete (Line 302 Year of reference 199):</p>
+<p>(Daane et al. 199)</p>
+<p>Include:</p>
+<p>(Daane et al. 1999)</p>
+<p>Delete (Line 332 sentence incomplete changes incorporated in text):</p>
+<p>Based on the results reported here, we conclude that the lower survival and hatching rates of P. corethrurus cocoons (offspring) in the agro-ecological niche of B. pearsei is&#8230; </p>
+<p>Include:</p>
+<p>Based on the results reported here, we conclude that the invasive tropical earthworm P. corethrurus had lower survival and cocoons hatching rates (offspring) in the agro-ecological niche of the native endogeic earthworm, i.e., a finding&#8230;</p>
+<p>Include:</p>
+<p>Acknowledgments</p>
+<p>We thank Mario M. Osorio-Arce, Angel Ramos-S&#225;nchez and Efra&#237;n Hern&#225;ndez-Xolocotzi, promoters of agroecology in Mexico. In addition, we are grateful to anomymous reviewers and Diana P&#233;rez-Staples for valuable comments and careful revision of the manuscript. </p>
+<p>12</p>
+<p>13</p>
+<p>15</p>
+<p>15</p>
+<p>260</p>
+<p>302</p>
+<p>331</p>
+<p>342</p>
+<supplementary-material id="pone.0222337.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222337.s005" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers R1.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222337.r005" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r005</article-id>
+<title-group>
+<article-title>Decision Letter 2</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhadauria</surname>
+<given-names>Tunira</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Tunira Bhadauria</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="article" id="rel-obj005" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">28 Aug 2019</named-content>
+</p>
+<p>Pontoscolex corethrurus: a Homeless Invasive Tropical Earthworm?</p>
+<p>PONE-D-19-15357R2</p>
+<p>Dear Dr. Ortiz-Ceballos,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Tunira Bhadauria, Ph.D.</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>i would like to congratulate the authors for having revised the manuscript as per the suggestions and comments and incorporation of the same at appropriate places in the text. I therefore recommend that the manuscript now can be accepted for publication in the journal.</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222337.r006" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222337.r006</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bhadauria</surname>
+<given-names>Tunira</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Tunira Bhadauria</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222337" document-id-type="doi" document-type="article" id="rel-obj006" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">6 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-15357R2 </p>
+<p><italic>Pontoscolex corethrurus</italic>: a Homeless Invasive Tropical Earthworm? </p>
+<p>Dear Dr. Ortiz-Ceballos:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Tunira Bhadauria  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

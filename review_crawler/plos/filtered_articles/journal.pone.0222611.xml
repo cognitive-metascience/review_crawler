@@ -1,0 +1,1383 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222611</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-16818</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Alkaloids</subject><subj-group><subject>Cocaine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Behavioral pharmacology</subject><subj-group><subject>Recreational drug use</subject><subj-group><subject>Cocaine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Network analysis</subject><subj-group><subject>Social networks</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social networks</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Behavioral pharmacology</subject><subj-group><subject>Recreational drug use</subject><subj-group><subject>Cannabis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Behavioral pharmacology</subject><subj-group><subject>Recreational drug use</subject><subj-group><subject>Heroin</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Network analysis</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Geography</subject><subj-group><subject>Human geography</subject><subj-group><subject>Neighborhoods</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Human geography</subject><subj-group><subject>Neighborhoods</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Discrete mathematics</subject><subj-group><subject>Combinatorics</subject><subj-group><subject>Permutation</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Social and structural factors associated with substance use within the support network of adults living in precarious housing in a socially marginalized neighborhood of Vancouver, Canada</article-title>
+<alt-title alt-title-type="running-head">Social and structural factors associated with substance use</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Knerich</surname>
+<given-names>Verena</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Jones</surname>
+<given-names>Andrea A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Seyedin</surname>
+<given-names>Sam</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Siu</surname>
+<given-names>Christopher</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0457-0142</contrib-id>
+<name name-style="western">
+<surname>Dinh</surname>
+<given-names>Louie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Mostafavi</surname>
+<given-names>Sara</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Barr</surname>
+<given-names>Alasdair M.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Panenka</surname>
+<given-names>William J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Thornton</surname>
+<given-names>Allen E.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-7628-5108</contrib-id>
+<name name-style="western">
+<surname>Honer</surname>
+<given-names>William G.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5661-2063</contrib-id>
+<name name-style="western">
+<surname>Rutherford</surname>
+<given-names>Alexander R.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Departments of Computer Science, and Cultural Anthropology, Ludwig-Maximilians University, Munich, Germany</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Psychiatry, University of British Columbia, Vancouver, BC, Canada</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Computer Science, University of British Columbia, Vancouver, BC, Canada</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Statistics, University of British Columbia, Vancouver, BC, Canada</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Medical Genetics, Department Office, University of British Columbia, Vancouver, BC, Canada</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Department of Anesthesia, Pharmacology and Therapeutics, University of British Columbia, Vancouver, BC, Canada</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Department of Psychology, Simon Fraser University, Burnaby, BC, Canada</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Department of Mathematics, Simon Fraser University, Burnaby, BC, Canada</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Palinkas</surname>
+<given-names>Lawrence</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Southern California, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>I have read the journal's policy and the authors of this manuscript have the following competing interests: AMB has received consulting fees or sat on advisory boards for Bristol- Myers Squibb, Eli Lilly, and Roche. WJP sat on paid advisory boards for Vitality Biopharma, Medipure Pharmaceuticals, and Vinergy Resources; has sat on the board of directors of Abbatis Bioceuticals; and is owner of Translational Life Sciences. WGH received consulting fees or sat on paid advisory boards for: the Canadian Agency for Drugs and Technology in Health, AlphaSights, Guidepoint, In Silico, Translational Life Sciences, Otsuka, Lundbeck, and Newron. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">arruther@sfu.ca</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>23</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222611</elocation-id>
+<history>
+<date date-type="received">
+<day>13</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>9</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Knerich et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222611" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>The structure of a social network as well as peer behaviours are thought to affect personal substance use. Where substance use may create health risks, understanding the contribution of social networks to substance use may be valuable for the design and implementation of harm reduction or other interventions. We examined the social support network of people living in precarious housing in a socially marginalized neighborhood of Vancouver, and analysed associations between social network structure, personal substance use, and supporters&#8217; substance use.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>An ongoing, longitudinal study recruited 246 participants from four single room occupancy hotels, with 201 providing social network information aligned with a 6-month observation period. Use of tobacco, alcohol, cannabis, cocaine (crack and powder), methamphetamine, and heroin was recorded at monthly visits. Ego- and graph-level measures were calculated; the dispersion and prevalence of substances in the network was described. Logistic mixed effects models were used to estimate the association between ego substance use and peer substance use. Permutation analysis was done to test for randomness of substance use dispersion on the social network.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>The network topology corresponded to residence (Hotel) with two clusters differing in demographic characteristics (Cluster 1 &#8211;Hotel A: 94% of members, Cluster 2 &#8211;Hotel B: 95% of members). Dispersion of substance use across the network demonstrated differences according to network topology and specific substance. Methamphetamine use (overall 12%) was almost entirely limited to Cluster 1, and absent from Cluster 2. Different patterns were observed for other substances. Overall, ego substance use did not differ over the six-month period of observation. Ego heroin, cannabis, or crack cocaine use was associated with alter use of the same substances. Ego methamphetamine, powder cocaine, or alcohol use was not associated with alter use, with the exception for methamphetamine in a densely using part of the network. For alters using multiple substances, cannabis use was associated with lower ego heroin use, and lower ego crack cocaine use. Permutation analysis also provided evidence that dispersion of substance use, and the association between ego and alter use was not random for all substances.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>In a socially marginalized neighborhood, social network topology was strongly influenced by residence, and in turn was associated with type(s) of substance use. Associations between personal use and supporter&#8217;s use of a substance differed across substances. These complex associations may merit consideration in the design of interventions to reduce risk and harms associated with substance use in people living in precarious housing.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000024</institution-id>
+<institution>Canadian Institutes of Health Research</institution>
+</institution-wrap>
+</funding-source>
+<award-id>CBG-101827</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-7628-5108</contrib-id>
+<name name-style="western">
+<surname>Honer</surname>
+<given-names>William G.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000024</institution-id>
+<institution>Canadian Institutes of Health Research</institution>
+</institution-wrap>
+</funding-source>
+<award-id>MOP-137103</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-7628-5108</contrib-id>
+<name name-style="western">
+<surname>Honer</surname>
+<given-names>William G.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>VK and ARR were supported in part by the Simon Fraser University Big Data Initiative during this research. The study was funded by Canadian Institutes of Health Research grants CBG-101827 and MOP-137103 (<ext-link ext-link-type="uri" ns0:href="http://www.cihr-irsc.gc.ca/" ns0:type="simple">http://www.cihr-irsc.gc.ca/</ext-link>). Additional support was provided by British Columbia Mental Health and Addictions Services. WGH was supported by the Jack Bell Chair in Schizophrenia at the University of British Columbia. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2" />
+<table-count count="4" />
+<page-count count="16" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Data cannot be made publicly available due to possible privacy breaches and other ethical and legal obligations to the study participants. These restrictions are outlined by the University of British Columbia's Clinical Research Ethics Board and Simon Fraser University's Research Ethics Board. Inquiries regarding data can be made to the Clinical Research Ethics Board of the University of British Columbia (<ext-link ext-link-type="uri" ns0:href="https://ethics.research.ubc.ca" ns0:type="simple">ethics.research.ubc.ca</ext-link>) and the Hotel Study principal investigator at <email ns0:type="simple">william.honer@ubc.ca</email>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Substance use disorders, along with mental and physical illness form the &#8220;tri-morbidity&#8221; affecting socially marginalized people living in precarious housing or homelessness [<xref ref-type="bibr" rid="pone.0222611.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0222611.ref002">2</xref>]. In an impoverished neighborhood of Vancouver, Canada, multiple substances including tobacco, alcohol, cannabis, stimulants (cocaine and methamphetamine) and opioids are easily accessed and commonly used [<xref ref-type="bibr" rid="pone.0222611.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0222611.ref004">4</xref>]. In addition to creating substance use disorders and risk of overdose, psychosis and increased risk of exposure to viral infection are comorbidities associated with premature mortality [<xref ref-type="bibr" rid="pone.0222611.ref003">3</xref>&#8211;<xref ref-type="bibr" rid="pone.0222611.ref006">6</xref>]. Interventions focused on individuals have made impacts on overdose mortality [<xref ref-type="bibr" rid="pone.0222611.ref007">7</xref>], yet poor health remains a problem for many in the community. The complexity of potentially additive or interactive risk factors may create considerable heterogeneity within community members, creating challenges for interventions to improve health. A gap in knowledge of how social network structure influences substance use in the community may have important implications for developing more effective service delivery.</p>
+<p>Personal behaviors including substance use are affected by social contacts [<xref ref-type="bibr" rid="pone.0222611.ref008">8</xref>&#8211;<xref ref-type="bibr" rid="pone.0222611.ref014">14</xref>]. Peer influence has been shown to play an important role in both the initiation and nature of substance use by youth and young adults [<xref ref-type="bibr" rid="pone.0222611.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0222611.ref015">15</xref>&#8211;<xref ref-type="bibr" rid="pone.0222611.ref017">17</xref>]. Recent studies demonstrate that youth who are homeless or unstably housed form clustered social networks with a strong correlation between substance use of peers [<xref ref-type="bibr" rid="pone.0222611.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0222611.ref018">18</xref>]. Individuals centrally located in large clusters also often have higher levels of substance use or other high risk behavior [<xref ref-type="bibr" rid="pone.0222611.ref018">18</xref>]. Similar results were also found for marginalized adults in inner-city neighborhoods [<xref ref-type="bibr" rid="pone.0222611.ref019">19</xref>] and women receiving substance use treatment [<xref ref-type="bibr" rid="pone.0222611.ref020">20</xref>].</p>
+<p>It has been observed in a number of studies that spatial proximity of housing could play an important role in the formation of social ties and social networks may be best examined at the community level [<xref ref-type="bibr" rid="pone.0222611.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0222611.ref021">21</xref>&#8211;<xref ref-type="bibr" rid="pone.0222611.ref023">23</xref>]. In a study of the role of social networks by urban youth, the spatial proximity of homes and locations for socializing was found to be important [<xref ref-type="bibr" rid="pone.0222611.ref024">24</xref>]. An association between social networks and locations for socializing was also found in a study of drug and alcohol use by African American men who have sex with men [<xref ref-type="bibr" rid="pone.0222611.ref025">25</xref>]. The influence of neighborhoods in defining social environments has been liked to risk behaviors for HIV, such as injection drug use [<xref ref-type="bibr" rid="pone.0222611.ref026">26</xref>].</p>
+<p>Social ties, the structure or topology of social networks, and the dynamics of behavioral change or propagation within a network are features that may inform future intervention efforts [<xref ref-type="bibr" rid="pone.0222611.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0222611.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0222611.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0222611.ref027">27</xref>&#8211;<xref ref-type="bibr" rid="pone.0222611.ref032">32</xref>]. It has been proposed that treatment outcomes could be improved by helping patients develop social networks which do not include, or at least minimize the number of substance users [<xref ref-type="bibr" rid="pone.0222611.ref033">33</xref>]. The importance of understanding social networks in the context of 12-step programs for young adults is highlighted in [<xref ref-type="bibr" rid="pone.0222611.ref034">34</xref>].</p>
+<p>A community-based study of substance use, mental and physical health in Vancouver provides an opportunity to learn how these factors are associated [<xref ref-type="bibr" rid="pone.0222611.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0222611.ref004">4</xref>]. The study was designed similarly to the Memory and Aging Project, a community-based longitudinal study that recruited elderly people from retirement communities in Chicago, and identified social network contributions to cognitive reserve [<xref ref-type="bibr" rid="pone.0222611.ref035">35</xref>,<xref ref-type="bibr" rid="pone.0222611.ref036">36</xref>]. The Hotel Study recruits participants from single room occupancy hotels in an impoverished neighborhood in Vancouver. Similar to the Memory and Aging Project, a comprehensive baseline and similar annual assessments are carried out. The Hotel Study also includes assessments allowing social networks to be mapped, and overlaid with monthly assessments of substance use. For the present analyses from this longitudinal study, we investigated how the underlying social network structure contributed to the distribution of substance use in the network, and we sought to understand whether personal substance use was associated with the substance use behaviours of social connections.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec007">
+<title>Participants</title>
+<p>In Canada, precarious housing includes single room occupancy hotels (origin of the &#8220;Hotel Study&#8221; name) if the accommodation is below Canadian standards for adequacy (need for repairs), affordability (rental costs &lt;30% of before-tax income), or suitability (makeup of bedrooms and household) [<xref ref-type="bibr" rid="pone.0222611.ref037">37</xref>]. The Hotel Study is an ongoing longitudinal study of mental and physical health, and substance use of adults living in precarious housing in an impoverished neighbourhood of Vancouver, Canada [<xref ref-type="bibr" rid="pone.0222611.ref038">38</xref>]. Community-based sampling was utilized to approach all residents of four single room occupancy (SRO) hotels located within 0.6 km<sup>2</sup>.</p>
+</sec>
+<sec id="sec008">
+<title>Ethics statement</title>
+<p>Age 18 years or older, ability to communicate in English and provide written informed consent were required. Consent was reaffirmed at each follow up visit. The study was approved by the Research Ethics Boards of the University of British Columbia and Simon Fraser University.</p>
+</sec>
+<sec id="sec009">
+<title>Demographic, social, and clinical descriptive assessments</title>
+<p>Demographic information was collected at study entry. Information included the Arizona Social Support Interview Schedule, a name-generating questionnaire [<xref ref-type="bibr" rid="pone.0222611.ref039">39</xref>,<xref ref-type="bibr" rid="pone.0222611.ref040">40</xref>]. Participants were asked to report the names of all people they could either turn to for social support, or had a negative encounter with in the past month. Social support included intimate interaction, material aid, advice, positive feedback and physical assistance [<xref ref-type="bibr" rid="pone.0222611.ref040">40</xref>]. It was possible to report both a positive and a negative interaction with an individual.</p>
+<p>At baseline, and at each monthly visit thereafter, self-reported use of methamphetamine, heroin, powder cocaine, crack cocaine, cannabis, alcohol and tobacco were obtained. Self-reported substance use in this sample shows a substantial rate of agreement with urine drug screen data (methamphetamine Cohen&#8217;s kappa = 0.66, cannabis kappa = 0.66, cocaine kappa = 0.67, opiates kappa = 0.70) as reported previously [<xref ref-type="bibr" rid="pone.0222611.ref041">41</xref>,<xref ref-type="bibr" rid="pone.0222611.ref042">42</xref>]. Substance use was reported for each of the four weeks prior to the monthly interview and analysed as a binary variable defined as any substance use within the past month. The interval between study visits was four weeks. For the six months following network fixation, we aligned the interview dates with the calendar month for standardisation.</p>
+</sec>
+<sec id="sec010">
+<title>Network construction</title>
+<p>We constructed a sociogram of social support relations between participants using the Arizona Social Support Interview Schedule data. The term ego refers to an individual in the network, connected to one or more alters through support relationships. For each alter named, additional demographic information was gathered. The numbers of alters was not limited, but to be included in the network analysis, egos and alters were required to be Hotel Study participants. Ties to network members within the study were confirmed using four sources of information. First, alter names were compared against names of study participants using a name matching algorithm. If the names matched, demographic information (age, sex, ethnicity, residence address) of study participants was also compared by the algorithm. Third, these linkages were verified against the longitudinal relational data if the alter was named on multiple assessments over time. Lastly, study staff with greater than seven years-experience with the community reviewed and verified all proposed linkages. In unresolved cases, the tie was not included in the network. This approach resembles techniques applied to the study of disease transmission and substance use in social networks [<xref ref-type="bibr" rid="pone.0222611.ref043">43</xref>,<xref ref-type="bibr" rid="pone.0222611.ref044">44</xref>]. A sociogram was constructed based on these inferred ties between study participants (n = 201) in R using the igraph package [<xref ref-type="bibr" rid="pone.0222611.ref045">45</xref>]. A cluster is a group of densely connected nodes. Egos without supporters within the study or not named as supporters are called isolates (n = 83). In our context, positive edges are defined as a supporting relationship with a study participant, while negative edges refer to disagreement. Outgoing ties point towards supporters or negative contacts of the ego. Incoming ties to an ego signify that the ego was named as supporter or negative contact by one of his or her alters. Ties could be reciprocated if reported by both ego and alter.</p>
+</sec>
+<sec id="sec011">
+<title>Network measures</title>
+<p>Gender disparity was calculated as the squared difference between gender of an ego and the gender of all alters divided by the number of supporters of the ego [0; 1]. Larger values are therefore indicative of more gender disparity between supporters. Age disparity was calculated analogously yet the difference was not squared. Therefore, negative values are indicative of an ego being younger than linked alters and positive values are indicative of an ego being older. For further details see <xref ref-type="supplementary-material" rid="pone.0222611.s001">S1 Appendix</xref>.</p>
+<p>At the network node-level, several ego-level measures were estimated from the sociogram, including degree, betweenness centrality and assortativity. Degree is the number of alters for an individual ego, and is reported according to the directionality of the tie (in, out, total). Indegree denotes the number of ingoing ties per ego or how often ego was named as supporter by the alters. Outdegree refers to the number of outgoing edges per ego or how many supporters the ego named. Total degree is the sum of indegree and outdegree. Betweenness centrality was calculated as the total number of shortest paths passing through a vertex. A shortest path is the minimum number of edges traversed to connect a pair of vertices. Assortativity measures the propensity of nodes to connect to similar others by certain features. Positive values for the degree assortativity denote a high propensity for connecting to nodes with a similar degree [<xref ref-type="bibr" rid="pone.0222611.ref046">46</xref>]. In this case, positive values indicate that high degree nodes show a preference for connecting to other high degree nodes. Gender assortativity calculates propensity of vertices connecting to alters of the same gender. It is based on the fraction of edges that connect dissimilar vertices in relation to edges that connect similar ones [<xref ref-type="bibr" rid="pone.0222611.ref046">46</xref>].</p>
+<p>At the network graph-level, network density is calculated as the ratio of the number of edges and the number of possible edges within the network, allowing for loops. Lastly, the true size of ego&#8217;s support network, consisting of all supporters (or negative contacts) named inside and outside the study, was estimated and referred to as alters available.</p>
+</sec>
+<sec id="sec012">
+<title>Statistical analysis</title>
+<p>We inspected the network diagram using the Fruchterman-Rheingold layout [<xref ref-type="bibr" rid="pone.0222611.ref047">47</xref>]. Hotel affiliation, gender, age and type of tie were included as the most relevant attributes. We analysed the full network including the isolates (n = 201), cluster 1 (n = 37), cluster 2 (n = 20), the other small components (n = 61), and in some cases the isolates (n = 83). For each ego, we counted the number of alters using a substance, and divided by the total number of alters for that ego (outdegree). The mean of these values for all egos in the full network, or for all egos in a part of the network (cluster, or small components) was then calculated for each of the seven substances. The same calculation was then repeated, but with the numerator limited to alters using the same substance as the ego.</p>
+<p>All seven substances were mapped to the network (excluding the isolates) for six months and their dispersion was inspected visually. The patterns of substance use dispersion were compared with the descriptive results and verified using mixed effects models. We constructed separate logistic mixed effects models with random intercepts for each substance to estimate the association between alter substance use as the independent variable and ego substance use as the binary dependent variable over six months [<xref ref-type="bibr" rid="pone.0222611.ref048">48</xref>]. Time was included as a covariate, because the data on substance use are longitudinal. Additive models emerged as the best fit, where the total variance is explained by the sum of the covariates [<xref ref-type="bibr" rid="pone.0222611.ref049">49</xref>]. Additional mixed effects models were utilized to estimate these relationships in a subset of individuals injecting each substance to determine if route of administration was relevant. Combinations of different substance use were also considered. These approaches are further described in <xref ref-type="supplementary-material" rid="pone.0222611.s002">S2 Appendix</xref>. We used R lme4 package for the analyses [<xref ref-type="bibr" rid="pone.0222611.ref050">50</xref>].</p>
+<p>To determine whether the dispersion of substance use and the association between ego and alter use was random, we conducted permutation analyses. After randomly reshuffling substance use 10,000 times on the initial network, we recalculated alter substance use and compared them with the observed values (see <xref ref-type="supplementary-material" rid="pone.0222611.s003">S3 Appendix</xref>).</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="results">
+<title>Results</title>
+<sec id="sec014">
+<title>Demographic and descriptive network characteristics</title>
+<p>Staggered recruitment for the core Hotel Study began in November 2008. By the end of September 2010, 246 of approximately 341 potential participants living in the four hotel sites (72%) joined the study. The time window from November 1, 2009 until September 30, 2010 was used to establish the network; 201 of 246 participants (82%) provided network information and were included in subsequent analyses. Networks were considered fixed for the next six months of outcome data collection.</p>
+<p>Demographic and network characteristics are given for the full network (n = 201), Cluster 1 (n = 37), Cluster 2 (n = 20) and the small components (n = 61) in <xref ref-type="table" rid="pone.0222611.t001">Table 1</xref>. Comparison with the demographics of other Canadian studies of homeless and precariously housed samples appears in <xref ref-type="supplementary-material" rid="pone.0222611.s009">S1 Table</xref>. Gender, age, hotel affiliation, type (positive/negative) and directionality of ties between participants are displayed as a graph excluding the isolates in <xref ref-type="fig" rid="pone.0222611.g001">Fig 1</xref>. Participants mainly named residents of their own hotel as supporters or negative connections. Accordingly, Cluster 1 corresponded 94% to Hotel A, and Cluster 2 corresponded 95% to Hotel B.</p>
+<fig id="pone.0222611.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Fruchterman-Rheingold layout of network diagram of SRO tenants (n = 118).</title>
+<p>Ties point towards supporters or negative contacts as perceived by ego. Tie colour indicates relation type (positive, negative, reciprocal). Node colour indicates hotel residence and node shape indicates gender.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.g001" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222611.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.t001</object-id>
+<label>Table 1</label> <caption><title>Demographics and network characteristics of four different graph components.</title></caption>
+<alternatives>
+<graphic id="pone.0222611.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center">Full network<break />(n = 201)<break />mean (SD)</th>
+<th align="center">Cluster 1<break />(n = 37)<break />mean (SD)</th>
+<th align="center">Cluster 2<break />(n = 20)<break />mean (SD)</th>
+<th align="center">Small components<break />(n = 61)<break />mean (SD)</th>
+<th align="center">Isolates<break />(n = 83)<break />mean (SD)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Age</td>
+<td align="center">44.0 (9.4)</td>
+<td align="center">37.3 (7.8)</td>
+<td align="center">47.7 (6.9)</td>
+<td align="center">46.9 (9.6)</td>
+<td align="center">43.9 (9.1)</td>
+</tr>
+<tr>
+<td align="left">Male / female / trans (%)</td>
+<td align="center">75 / 25 / 1</td>
+<td align="center">76 / 24 / 0</td>
+<td align="center">65 / 35 / 0</td>
+<td align="center">67 / 33 / 0</td>
+<td align="center">82 / 17 / 1</td>
+</tr>
+<tr>
+<td align="left">Ethnicity: White / Indigenous / Other (%)</td>
+<td align="center">55 / 32 / 12</td>
+<td align="center">51 / 27 / 21</td>
+<td align="center">60 / 40 / 0</td>
+<td align="center">61 / 30 / 10</td>
+<td align="center">51 / 35 / 14</td>
+</tr>
+<tr>
+<td align="left">Education (grade completed)</td>
+<td align="center">10.0 (2.0)</td>
+<td align="center">10.2 (1.5)</td>
+<td align="center">10.2 (2.3)</td>
+<td align="center">9.5 (2.2)</td>
+<td align="center">10.2 (2.1)</td>
+</tr>
+<tr>
+<td align="left">Time in hotel (months)</td>
+<td align="center">47.1 (44.7)</td>
+<td align="center">53.7 (30.6)</td>
+<td align="center">84.2 (54.2)</td>
+<td align="center">45.9 (45.1)</td>
+<td align="center">36.0 (42.5)</td>
+</tr>
+<tr>
+<td align="left">Hotel: A / B / C / D / Other (%)</td>
+<td align="center">34 / 33 / 15 / 11 / 6</td>
+<td align="center">84 / 0 / 0 / 0 / 16</td>
+<td align="center">0 / 95 / 0 /0 / 5</td>
+<td align="center">13 / 30 / 28 / 20 / 10</td>
+<td align="center">35 / 35 / 17 / 12 / 1</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Network descriptive measures</bold></td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Age disparity</td>
+<td align="center">0.01 (4.75)</td>
+<td align="center">0.04 (4.75)</td>
+<td align="center">0.21 (5.36)</td>
+<td align="center">-0.06 (7.24)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Gender disparity</td>
+<td align="center">0.19 (0.37)</td>
+<td align="center">0.24 (0.36)</td>
+<td align="center">0.32 (0.44)</td>
+<td align="center">0.37 (0.47)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Indegree</td>
+<td align="center">0.78 (1.06)</td>
+<td align="center">1.97 (1.42)</td>
+<td align="center">1.25 (0.91)</td>
+<td align="center">0.95 (0.67)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Outdegree</td>
+<td align="center">0.78 (1.33)</td>
+<td align="center">1.97 (2.19)</td>
+<td align="center">1.25 (1.33)</td>
+<td align="center">0.95 (0.78)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Total degree</td>
+<td align="center">1.55 (2.13)</td>
+<td align="center">3.95 (3.12)</td>
+<td align="center">2.50 (1.61)</td>
+<td align="center">1.90 (1.06)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Positive edges per ego</td>
+<td align="center">0.69 (1.18)</td>
+<td align="center">1.65 (1.99)</td>
+<td align="center">1.20 (1.24)</td>
+<td align="center">0.87 (0.64)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Negative edges per ego</td>
+<td align="center">0.14 (0.49)</td>
+<td align="center">0.38 (0.83)</td>
+<td align="center">0.05 (0.22)</td>
+<td align="center">0.23 (0.56)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Reciprocated edges per ego</td>
+<td align="center">0.36 (0.64)</td>
+<td align="center">0.81 (1.00)</td>
+<td align="center">0.50 (0.61)</td>
+<td align="center">0.52 (0.57)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Betweenness</td>
+<td align="center">3.01 (10.30)</td>
+<td align="center">14.14 (20.48)</td>
+<td align="center">1.90 (3.04)</td>
+<td align="center">0.70 (1.99)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Assortativity degree</td>
+<td align="center">0.36</td>
+<td align="center">0.14</td>
+<td align="center">-0.2</td>
+<td align="center">0.1</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Assortativity gender</td>
+<td align="center">0.07</td>
+<td align="center">0.08</td>
+<td align="center">0.14</td>
+<td align="center">0.01</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Density</td>
+<td align="center">0.01</td>
+<td align="center">0.05</td>
+<td align="center">0.06</td>
+<td align="center">0.02</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Alters available</td>
+<td align="center">3.82 (2.70)</td>
+<td align="center">3.22 (2.70)</td>
+<td align="center">4.90 (2.69)</td>
+<td align="center">4.16 (2.67)</td>
+<td align="center" />
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Participants from Clusters 1 and 2 differed in demographic attributes. Participants in Cluster 1 were a mean of 10.4 years younger than members of Cluster 2. There were 11% more men in Cluster 1 than in Cluster 2, and the former was more ethnically diverse, with residents having lived on average 30.5 fewer months in their residence. Participants in Cluster 1 were prone to connect with supporters of the same gender (gender disparity mean: 0.24, SD: 0.36) even though there were comparatively few women (24% vs. 35% Cluster 2). In general, women seemed to form chains of women supporters. Network characteristics also differed by cluster. Participants in Cluster 1 were densely connected within two subclusters, reported negative interactions frequently and often reciprocated support. Participants in Cluster 2 and the small components had most access to support outside of other study participants (alters available Cluster 2: mean 4.9; small components: 4.2).</p>
+</sec>
+<sec id="sec015">
+<title>Dispersion of ego substance use on the network</title>
+<p>Ego substance use, all substance-using alters regardless of ego use, and all substance-using alters for an ego using the same substance in the first month are displayed in <xref ref-type="fig" rid="pone.0222611.g002">Fig 2</xref>, using the same layout as <xref ref-type="fig" rid="pone.0222611.g001">Fig 1</xref> and a color-coded representation of substance use in the first month. Dispersion across the network differed between substances (<xref ref-type="table" rid="pone.0222611.t002">Table 2</xref>, results for injection substance use in <xref ref-type="supplementary-material" rid="pone.0222611.s010">S2 Table</xref>). Methamphetamine use (overall 12%) was present almost entirely in Cluster 1, with a high representation of connected users (alters for using egos mean 0.4, SD 0.7). Methamphetamine use was completely absent from Cluster 2. In the less dense part of Cluster 1, methamphetamine users also used heroin (Cluster 1 19%), forming chains of users. Powder cocaine users (overall 17%) were dispersed more widely across the network and were infrequently connected with each other. Crack cocaine (overall 43%) was common in Cluster 2 (70%), where almost all users were connected (alters for using egos mean 0.9, SD 0.8). It was noticeably absent from the less dense part of Cluster 1, i.e. among the methamphetamine and heroin users making up this part of the cluster. Cannabis use was also common (overall 29%), mainly found in the dense part of Cluster 1 (46%), generally with 2&#8211;3 connected users. Alcohol was less common, but concentrated in the dense parts of Cluster 1 (14%). Tobacco was highly prevalent in all parts of the network (overall 69%).</p>
+<fig id="pone.0222611.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Network diagram (n = 118) of ego substance use in the first month.</title>
+<p>Graph layout is equivalent to <xref ref-type="fig" rid="pone.0222611.g001">Fig 1</xref>. Node colour indicates substance use type.</p>
+</caption>
+<graphic mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.g002" ns0:type="simple" />
+</fig>
+<table-wrap id="pone.0222611.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.t002</object-id>
+<label>Table 2</label> <caption><title>Substance use in the first month for egos, for all using alters regardless of ego use, and for all using alters for an ego using the same substance.</title></caption>
+<alternatives>
+<graphic id="pone.0222611.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center">MA</th>
+<th align="center">Heroin</th>
+<th align="center">Cocaine powder</th>
+<th align="center">Cocaine crack</th>
+<th align="center">Cannabis</th>
+<th align="center">Alcohol</th>
+<th align="center">Tobacco</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2"><bold>Full network</bold> (n = 201)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Ego (%)<break />user / nonuser / NA</td>
+<td align="center">12 / 62 / 25</td>
+<td align="center">18 / 58 / 24</td>
+<td align="center">17 / 59 / 24</td>
+<td align="center">43 / 33 / 24</td>
+<td align="center">29 / 47 / 24</td>
+<td align="center">26 / 50 / 24</td>
+<td align="center">69 / 7 / 21</td>
+</tr>
+<tr>
+<td align="left">Alter<break />mean (SD)</td>
+<td align="center">0.17 (0.62)</td>
+<td align="center">0.12 (0.40)</td>
+<td align="center">0.07 (0.26)</td>
+<td align="center">0.28 (0.56)</td>
+<td align="center">0.28 (0.80)</td>
+<td align="center">0.20 (0.47)</td>
+<td align="center">0.54 (1.07)</td>
+</tr>
+<tr>
+<td align="left">Alter with ego user mean (SD)</td>
+<td align="center">0.07 (0.35)</td>
+<td align="center">0.05 (0.26)</td>
+<td align="center">0.01 (0.10)</td>
+<td align="center">0.14 (0.38)</td>
+<td align="center">0.17 (0.60)</td>
+<td align="center">0.07 (0.25)</td>
+<td align="center">0.41 (0.94)</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Cluster 1</bold> (n = 37)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Ego (%)<break />user, nonuser, NA</td>
+<td align="center">38 / 43 / 19</td>
+<td align="center">19 / 62 / 19</td>
+<td align="center">3 / 78 / 19</td>
+<td align="center">19 / 62 / 19</td>
+<td align="center">46 / 35 / 19</td>
+<td align="center">14 / 68 / 19</td>
+<td align="center">78 / 3 / 19</td>
+</tr>
+<tr>
+<td align="left">Alter<break />Mean (SD)</td>
+<td align="center">0.86 (1.21)</td>
+<td align="center">0.38 (0.72)</td>
+<td align="center">0.03 (0.16)</td>
+<td align="center">0.24 (0.43)</td>
+<td align="center">1.05 (1.47)</td>
+<td align="center">0.35 (0.68)</td>
+<td align="center">1.54 (1.76)</td>
+</tr>
+<tr>
+<td align="left">Alter with ego user mean (SD)</td>
+<td align="center">0.38 (0.71)</td>
+<td align="center">0.19 (0.41)</td>
+<td align="center">0.00 (0.00)</td>
+<td align="center">0.11 (0.22)</td>
+<td align="center">0.73 (1.08)</td>
+<td align="center">0.11 (0.28)</td>
+<td align="center">1.19 (1.54)</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Cluster 2</bold> (n = 20)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Ego (%)<break />User / nonuser / NA</td>
+<td align="center">0 / 80 / 20</td>
+<td align="center">10 / 70 / 20</td>
+<td align="center">15 / 65 / 20</td>
+<td align="center">70 / 10 / 20</td>
+<td align="center">20 / 60 / 20</td>
+<td align="center">30 / 50 / 20</td>
+<td align="center">70 / 10 / 20</td>
+</tr>
+<tr>
+<td align="left">Alter<break />Mean (SD)</td>
+<td align="center">0.00</td>
+<td align="center">0.15 (0.37)</td>
+<td align="center">0.20 (0.41)</td>
+<td align="center">0.85 (0.81)</td>
+<td align="center">0.25 (0.55)</td>
+<td align="center">0.35 (0.59)</td>
+<td align="center">0.85 (0.93)</td>
+</tr>
+<tr>
+<td align="left">Alter with ego user mean (SD)</td>
+<td align="center">0.00 (0.00)</td>
+<td align="center">0.05 (0.16)</td>
+<td align="center">0.00 (0.00)</td>
+<td align="center">0.55 (0.74)</td>
+<td align="center">0.05 (0.20)</td>
+<td align="center">0.15 (0.28)</td>
+<td align="center">0.55 (0.87)</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Small components</bold> (n = 61)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Ego (%)<break />user / nonuser / NA</td>
+<td align="center">2 / 70 / 28</td>
+<td align="center">18 / 56 / 26</td>
+<td align="center">18 / 56 / 26</td>
+<td align="center">49 / 25 / 26</td>
+<td align="center">30 / 44 / 26</td>
+<td align="center">36 / 38 / 26</td>
+<td align="center">67 / 7 / 26</td>
+</tr>
+<tr>
+<td align="left">Alter<break />mean (SD)</td>
+<td align="center">0.03 (0.18)</td>
+<td align="center">0.13 (0.34)</td>
+<td align="center">0.15 (0.36)</td>
+<td align="center">0.49 (0.67)</td>
+<td align="center">0.21 (0.49)</td>
+<td align="center">0.33 (0.51)</td>
+<td align="center">0.57 (0.81)</td>
+</tr>
+<tr>
+<td align="left">Alter with ego user mean (SD)</td>
+<td align="center">0.00 (0.00)</td>
+<td align="center">0.03 (0.17)</td>
+<td align="center">0.03 (0.17)</td>
+<td align="center">0.21 (0.40)</td>
+<td align="center">0.10 (0.26)</td>
+<td align="center">0.13 (0.29)</td>
+<td align="center">0.44 (0.72)</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Isolates</bold> (n = 83)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Ego (%)<break />user / nonuser / NA</td>
+<td align="center">12 / 60 / 28</td>
+<td align="center">20 / 54 / 25</td>
+<td align="center">23 / 52 / 25</td>
+<td align="center">42 / 33 / 25</td>
+<td align="center">24 / 51 / 25</td>
+<td align="center">24 / 51 / 25</td>
+<td align="center">66 / 8 / 25</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>MA: methamphetamine, NA: not available</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec016">
+<title>Association of ego and alter substance use</title>
+<p><xref ref-type="table" rid="pone.0222611.t003">Table 3</xref> summarizes the results of the additive logistic mixed effects models for ego substance use over time. Since the unadjusted model yielded similar results, only adjusted models including month and ego substance use appear. Overall, ego substance use did not change significantly over the six-month period. Ego heroin use was significantly predicted by alter heroin use. Similar relationships were observed for cannabis use as well as crack cocaine use. In contrast, ego methamphetamine, powder cocaine, and alcohol use were not associated with alter use. These estimates were similar when limited to a subset of participants injecting methamphetamine, heroin or powder cocaine (<xref ref-type="supplementary-material" rid="pone.0222611.s011">S3</xref> and <xref ref-type="supplementary-material" rid="pone.0222611.s012">S4</xref> Tables).</p>
+<table-wrap id="pone.0222611.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.t003</object-id>
+<label>Table 3</label> <caption><title>Logistic mixed effects modelling results for ego substance use association with alter use of the same substance over six months (n = 118).</title> <p>Adjusted models include the two predictors: month, and alter substance use, in one model.</p></caption>
+<alternatives>
+<graphic id="pone.0222611.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Factor</th>
+<th align="center">Odds ratio</th>
+<th align="center">95% confidence interval</th>
+<th align="center">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Alter methamphetamine use</td>
+<td align="center">0.23</td>
+<td align="center">0.02&#8211;2.24</td>
+<td align="center">0.29</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">1.24</td>
+<td align="center">0.89&#8211;1.73</td>
+<td align="center">0.28</td>
+</tr>
+<tr>
+<td align="left">Alter heroin use</td>
+<td align="center">19.06</td>
+<td align="center">4.62&#8211;78.58</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.97</td>
+<td align="center">0.79&#8211;1.20</td>
+<td align="center">0.83</td>
+</tr>
+<tr>
+<td align="left">Alter cannabis use</td>
+<td align="center">4.79</td>
+<td align="center">2.45&#8211;9.38</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.81</td>
+<td align="center">0.69&#8211;0.95</td>
+<td align="center">0.03</td>
+</tr>
+<tr>
+<td align="left">Alter powder cocaine use</td>
+<td align="center">0.06</td>
+<td align="center">0.01&#8211;1.08</td>
+<td align="center">0.11</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">1.15</td>
+<td align="center">0.86&#8211;1.54</td>
+<td align="center">0.44</td>
+</tr>
+<tr>
+<td align="left">Alter crack cocaine use</td>
+<td align="center">5.67</td>
+<td align="center">1.56&#8211;20.59</td>
+<td align="center">0.03</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.85</td>
+<td align="center">0.68&#8211;1.05</td>
+<td align="center">0.21</td>
+</tr>
+<tr>
+<td align="left">Alter alcohol use</td>
+<td align="center">1.56</td>
+<td align="center">0.86&#8211;2.84</td>
+<td align="center">0.22</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.93</td>
+<td align="center">0.81&#8211;1.07</td>
+<td align="center">0.39</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>For alters using multiple substances concurrently (<xref ref-type="table" rid="pone.0222611.t004">Table 4</xref>), alter cannabis use was associated with lower ego heroin use. Alter cannabis use was also associated with lower ego crack cocaine use, and vice versa.</p>
+<table-wrap id="pone.0222611.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222611.t004</object-id>
+<label>Table 4</label> <caption><title>Additive logistic mixed effects modelling results with three predictors for ego substance use (cannabis, crack cocaine) in month 1 (October 2010) (n = 118).</title> <p>The unadjusted models account for the predictors month, alter same substance use and alter different substance use separately whereas the adjusted models combine these three predictors in one model.</p></caption>
+<alternatives>
+<graphic id="pone.0222611.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Factor</th>
+<th align="center" colspan="3">Unadjusted Models</th>
+<th align="center" colspan="3">Adjusted Models</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center">p-value</th>
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Ego cannabis use</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Alter cannabis use</td>
+<td align="center">4.93</td>
+<td align="center">2.54&#8211;9.56</td>
+<td align="center">&lt;0.001</td>
+<td align="center">5.24</td>
+<td align="center">2.66&#8211;10.35</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.78</td>
+<td align="center">0.67&#8211;0.92</td>
+<td align="center">0.01</td>
+<td align="center">0.80</td>
+<td align="center">0.69&#8211;0.94</td>
+<td align="center">0.02</td>
+</tr>
+<tr>
+<td align="left">Alter heroin use</td>
+<td align="center">0.49</td>
+<td align="center">0.20&#8211;1.19</td>
+<td align="center">0.18</td>
+<td align="center">0.35</td>
+<td align="center">0.15&#8211;0.83</td>
+<td align="center">&lt;0.05</td>
+</tr>
+<tr>
+<td align="left">Ego cannabis use</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Alter cannabis use</td>
+<td align="center">4.93</td>
+<td align="center">2.54&#8211;9.56</td>
+<td align="center">&lt;0.001</td>
+<td align="center">6.13</td>
+<td align="center">3.11&#8211;12.05</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.78</td>
+<td align="center">0.67&#8211;0.92</td>
+<td align="center">0.01</td>
+<td align="center">0.80</td>
+<td align="center">0.69&#8211;0.94</td>
+<td align="center">0.02</td>
+</tr>
+<tr>
+<td align="left">Alter crack cocaine use</td>
+<td align="center">0.43</td>
+<td align="center">0.20&#8211;0.96</td>
+<td align="center">0.09</td>
+<td align="center">0.25</td>
+<td align="center">0.11&#8211;0.55</td>
+<td align="center">0.004</td>
+</tr>
+<tr>
+<td align="left">Ego crack cocaine use</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Alter crack cocaine use</td>
+<td align="center">5.83</td>
+<td align="center">1.71&#8211;19.81</td>
+<td align="center">0.02</td>
+<td align="center">10.54</td>
+<td align="center">2.69&#8211;41.24</td>
+<td align="center">0.005</td>
+</tr>
+<tr>
+<td align="left">Month</td>
+<td align="center">0.83</td>
+<td align="center">0.67&#8211;1.02</td>
+<td align="center">0.14</td>
+<td align="center">0.81</td>
+<td align="center">0.64&#8211;1.01</td>
+<td align="center">0.11</td>
+</tr>
+<tr>
+<td align="left">Alter cannabis use</td>
+<td align="center">0.19</td>
+<td align="center">0.07&#8211;0.50</td>
+<td align="center">0.005</td>
+<td align="center">0.10</td>
+<td align="center">0.03&#8211;0.31</td>
+<td align="center">0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Permutation analysis also provided evidence that dispersion of substance use, and the association between ego and alter use was not random for all substances. Neither the dispersion of methamphetamine (ego for using alters p&lt;0.001) nor cannabis (ego for using alters p&lt;0.001) users was random. Since the sample size is relatively small and resulting null distributions may underestimate the size of the tail especially if a hidden structure in the underlying data is neglected, these results need to be considered tentatively. The distributions including p-values for all egos can be found in figures <xref ref-type="supplementary-material" rid="pone.0222611.s005">S1</xref> and <xref ref-type="supplementary-material" rid="pone.0222611.s006">S2</xref> Figs. Results for using egos only are displayed in figures <xref ref-type="supplementary-material" rid="pone.0222611.s007">S3</xref> and <xref ref-type="supplementary-material" rid="pone.0222611.s008">S4</xref> Figs.</p>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>This observational study examined the dispersion of use of different substances among tenant social support networks formed by people living in precarious housing. Social support networks largely corresponded to the place of residence, and were characterized by demographic homogeneity. Dispersion of substance use related to the network topology, and differed according to substance used. Personal use of heroin, crack cocaine, and cannabis, but not powder cocaine, tobacco or alcohol, were associated with use of that substance by alters. Alter and ego methamphetamine use was highly associated, but only in a segment of the social network where use was densely concentrated.</p>
+<p>The observed network topology included clusters linked with residences, and with greater demographic similarity within the cluster. Spatial proximity and similarities in age and gender may give rise to shared substance use patterns. However, the pre-existing use of substances, and the 6-month duration of observation are features that prevent disentangling risk factors. Longer periods of observation may be required to demonstrate a role for spatial proximity, as reported on a greater scale for methamphetamine use on California [<xref ref-type="bibr" rid="pone.0222611.ref022">22</xref>]. Shorter periods such as used here may be sufficient to detect more dramatic consequences such as the introduction of crack cocaine in New York City in the mid-1980s, or following the completion of the present observation period, the introduction of fentanyl in the neighborhood studied here [<xref ref-type="bibr" rid="pone.0222611.ref051">51</xref>,<xref ref-type="bibr" rid="pone.0222611.ref052">52</xref>]. In general, our findings support the role for network topology in the dispersion of potentially harmful behaviors [<xref ref-type="bibr" rid="pone.0222611.ref030">30</xref>].</p>
+<p>Personal and alter substance use were associated for heroin, cannabis and crack cocaine. The observation that personal substance use is affected by the use of the peers is well established [<xref ref-type="bibr" rid="pone.0222611.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0222611.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0222611.ref053">53</xref>,<xref ref-type="bibr" rid="pone.0222611.ref054">54</xref>]. The present observations suggest that this association is dependent on the underlying topology of the network. Full network analyses for methamphetamine did not demonstrate an association with alter substance use. However, a closer look at the network topology revealed that methamphetamine users were almost entirely in Cluster 1, and were indeed highly interconnected. While methamphetamine use may generally not be primarily dependent on alters, they can be relevant given a dense underlying topology. In contrast, for crack cocaine, there was overall evidence for the relevance of alters; yet little support for this finding appeared in Cluster 1. Crack cocaine was the most commonly used substance in Cluster 2&#8212;among the older and more demographically homogeneous residents of Hotel B, suggesting demographic features as well as proximity may play important roles. In other studies, the latter has been found to have a negative impact on ongoing substance use since support was likely to take the form of assisting with substance procurement and less likely to involve encouragement for abstinence [<xref ref-type="bibr" rid="pone.0222611.ref054">54</xref>]. Here, network topology was tied to spatial proximity. At the same time, some personal substance use was associated with alters but only in the context of the network topology. These findings highlight the complex interplay of individual as well as social factors in substance use in socially marginalized people living in precarious housing.</p>
+<p>Concurrent use of substances creates complex pharmacologies that may be of interest as clues to developing substitution therapies, or novel treatments [<xref ref-type="bibr" rid="pone.0222611.ref055">55</xref>]. Beyond the associations between egos and alters for use of the same substance, two reciprocal associations were observed. Cannabis use in alters was associated with lower use of crack cocaine, and lower use of opioids in egos. Steps towards a less harmful ecology of substance use, considering the full range of substances used, the relationships to an individual&#8217;s support network, and the topology of the network itself may be needed for the vexing problems of tri-morbidity in socially marginalized people.</p>
+<p>Limitations of the study include sample size and assessments, of substance use, and of network variables. The sample size is similar to that in other studies, and has the benefit of repeated assessment over time. However, for pragmatic reasons the network was assumed to be fixed over the six-month observation period. Self-report was used to obtain substance use information; although not used for analytic purposes, urine drug screen showed a high concordance with self-report. As with any network study, the network structure may be subject to more changes than were feasible to capture [<xref ref-type="bibr" rid="pone.0222611.ref032">32</xref>]. We limited the focus to study participants. Lack of information on supporters from outside the study is a limitation. The study findings indicate potential interdependencies between the substances used and the mode of administration, such as injection. These and other factors need to be considered in the design of future research [<xref ref-type="bibr" rid="pone.0222611.ref056">56</xref>,<xref ref-type="bibr" rid="pone.0222611.ref057">57</xref>].</p>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The findings highlight the complexity of social influences affecting personal substance use. Geographic proximity of demographically similar residents had a crucial impact on the topology of the support network. Substance use of supporters was found to be relevant to personal substance use, depending on the underlying network topology and the substance consumed. The association between social network clusters, substance use behaviors, and hotels suggests that prevention and harm reduction efforts should be targeted at all of the residents of a hotel and reflect the specifics of substance use in that hotel. This underscores the potential value of collecting social network data for designing effective intervention strategies [<xref ref-type="bibr" rid="pone.0222611.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0222611.ref032">32</xref>,<xref ref-type="bibr" rid="pone.0222611.ref056">56</xref>,<xref ref-type="bibr" rid="pone.0222611.ref058">58</xref>]. Understanding the influence of supporters and peer leaders within the social networks could help in disseminating behaviors to reduce harm. It has been shown that treatment programs for substance use are more successful if the patient&#8217;s social network can be restructured to minimize the number of substance-using peers [<xref ref-type="bibr" rid="pone.0222611.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0222611.ref020">20</xref>,<xref ref-type="bibr" rid="pone.0222611.ref059">59</xref>]. Combined with the results from this study, this suggests that it would be important to find alternate accommodation for individuals seeking treatment. Removing them from the substance-using environments within the hotels would mitigate the risk for future relapse.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222611.s001" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s001" ns0:type="simple">
+<label>S1 Appendix</label>
+<caption>
+<title>Custom-made calculations for age and gender disparity.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s002" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s002" ns0:type="simple">
+<label>S2 Appendix</label>
+<caption>
+<title>Mixed effect modelling and results.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s003" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s003" ns0:type="simple">
+<label>S3 Appendix</label>
+<caption>
+<title>Adapted permutation analysis.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s004" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s004" ns0:type="simple">
+<label>S4 Appendix</label>
+<caption>
+<title>References for supplementary material.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s005" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s005" ns0:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Plots of mean alter substance use for all egos where personal substance use was randomised (10,000 iterations, n = 201).</title>
+<p>The x- axis represents the density, the y-axis represents the mean for all alters. The dotted line indicates observed mean alter substance use for all egos.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s006" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s006" ns0:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Plots of standard deviation of alter substance use for all egos where personal substance use was randomised (10,000 iterations, n = 201).</title>
+<p>The x-axis represents the density, the y-axis represents the standard deviation for all alters. The dotted line indicates observed standard deviation of alter substance use for all egos.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s007" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s007" ns0:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Plots of mean of alter substance use for egos using the same substance where personal substance use was randomised (10,000 iterations, n = 201).</title>
+<p>The x-axis represents the density, the y-axis represents the mean for all alters. The dotted line indicates observed mean alter substance use for egos using the same substance.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s008" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s008" ns0:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Plots of standard deviation of alter substance use for egos using the same substance where personal substance use was randomised (10,000 iterations, n = 201).</title>
+<p>The x-axis represents the density, the y-axis represents the standard deviation for all alters. The dotted line indicates observed standard deviation of alter substance use for egos using the same substance.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s009" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s009" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Demographics and network characteristics of four different graph components.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s010" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s010" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Substance use in the first month for egos, for all using alters regardless of ego use, and for all using alters for an ego using the same substance.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s011" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s011" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Ego and alter same substance injection use.</title>
+<p>Additive mixed effects modelling results for ego injection substance use (methamphetamine, heroin, powdered cocaine) in month 1 (October 2010) (n = 118). The unadjusted models account for the predictors month i.e. the time of six months and alter injection substance use separately whereas the adjusted models combine these two predictors in one model.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222611.s012" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s012" ns0:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Ego and alter injection use.</title>
+<p>Additive logistic mixed effects modelling results with three predictors for ego injection substance use (heroin) in month 1 (October 2010) (n = 118). The unadjusted models account for the predictors month i.e. the time of six months, alter injection substance use and another alter injection substance use separately whereas the adjusted models combine these three predictors in one model.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222611.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Aldridge</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Story</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hwang</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Nordentoft</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Luchenski</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Hartwell</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Morbidity and mortality in homeless individuals, prisoners, sex workers, and individuals with substance use disorders in high-income countries: a systematic review and meta-analysis</article-title>. <source>Lancet</source>. <year>2018</year>;<volume>391</volume>(<issue>10117</issue>): <fpage>241</fpage>&#8211;<lpage>250</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(17)31869-X" ns0:type="simple">10.1016/S0140-6736(17)31869-X</ext-link></comment> <object-id pub-id-type="pmid">29137869</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Luchenski</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Maguire</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Aldridge</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Hayward</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Story</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Perri</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>What works in inclusion health: overview of effective interventions for marginalised and excluded populations</article-title>. <source>Lancet</source>. <year>2018</year>;<volume>391</volume>(<issue>10117</issue>): <fpage>266</fpage>&#8211;<lpage>280</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(17)31959-1" ns0:type="simple">10.1016/S0140-6736(17)31959-1</ext-link></comment> <object-id pub-id-type="pmid">29137868</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Vila-Rodriguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Panenka</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Lang</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Thornton</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Vertinsky</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>The Hotel study: Multimorbidity in a community sample living in marginal housing</article-title>. <source>Am J Psychiatry</source>. <year>2013</year>;<volume>170</volume>(<issue>12</issue>): <fpage>1413</fpage>&#8211;<lpage>1422</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1176/appi.ajp.2013.12111439" ns0:type="simple">10.1176/appi.ajp.2013.12111439</ext-link></comment> <object-id pub-id-type="pmid">23929175</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Honer</surname> <given-names>WG</given-names></name>, <name name-style="western"><surname>Cervantes-Larios</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Vila-Rodriguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Montaner</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Tran</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>The Hotel study-clinical and health service effectiveness in a cohort of homeless or marginally housed persons</article-title>. <source>Can J Psychiatry</source>. <year>2017</year>;<volume>62</volume>(<issue>7</issue>): <fpage>482</fpage>&#8211;<lpage>492</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1177/0706743717693781" ns0:type="simple">10.1177/0706743717693781</ext-link></comment> <object-id pub-id-type="pmid">28199798</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jones</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Vila-Rodriguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Leonova</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Langheimer</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Lang</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Barr</surname> <given-names>AM</given-names></name>, <etal>et al</etal>. <article-title>Mortality from treatable illnesses in marginally housed adults: a prospective cohort study</article-title>. <source>BMJ Open</source>. <year>2015</year>;<volume>5</volume>(<issue>8</issue>): <fpage>e008876</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmjopen-2015-008876" ns0:type="simple">10.1136/bmjopen-2015-008876</ext-link></comment> <object-id pub-id-type="pmid">26297373</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Deans</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Raffa</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Lai</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Krajden</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Amin</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Mortality in a large community-based cohort of inner-city residents in Vancouver, Canada</article-title>. <source>CMAJ Open</source>. <year>2013</year>;<volume>1</volume>(<issue>2</issue>): <fpage>E68</fpage>&#8211;<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.9778/cmajo.20130002" ns0:type="simple">10.9778/cmajo.20130002</ext-link></comment> <object-id pub-id-type="pmid">25077106</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Marshall</surname> <given-names>BDL</given-names></name>, <name name-style="western"><surname>Milloy</surname> <given-names>M-J</given-names></name>, <name name-style="western"><surname>Wood</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Montaner</surname> <given-names>JSG</given-names></name>, <name name-style="western"><surname>Kerr</surname> <given-names>T</given-names></name>. <article-title>Reduction in overdose mortality after the opening of North America's first medically supervised safer injecting facility: a retrospective population-based study</article-title>. <source>Lancet</source>. <year>2011</year>;<volume>377</volume>(<issue>9775</issue>): <fpage>1429</fpage>&#8211;<lpage>1437</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(10)62353-7" ns0:type="simple">10.1016/S0140-6736(10)62353-7</ext-link></comment> <object-id pub-id-type="pmid">21497898</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bassel El</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gilbert</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>M</given-names></name>. <article-title>A social network profile and HIV risk among men on methadone: do social networks matter?</article-title> <source>JUrban Health</source> <year>2006</year>;<volume>83</volume>(<issue>4</issue>): <fpage>602</fpage>&#8211;<lpage>613</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bertholet</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Faouzi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Studer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Daeppen</surname> <given-names>J-B</given-names></name>, <name name-style="western"><surname>Gmel</surname> <given-names>G</given-names></name>. <article-title>Perception of tobacco, cannabis, and alcohol use of others is associated with one's own use</article-title>. <source>Addict Sci Clin Practice</source>. <year>2013</year>;<volume>8</volume>: <fpage>15</fpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Christakis</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Fowler</surname> <given-names>JH</given-names></name>. <article-title>Social contagion theory: examining dynamic social networks and human behavior</article-title>. <source>Stat Med</source>. <year>2013</year>;<volume>32</volume>(<issue>4</issue>): <fpage>556</fpage>&#8211;<lpage>577</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/sim.5408" ns0:type="simple">10.1002/sim.5408</ext-link></comment> <object-id pub-id-type="pmid">22711416</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Lakon</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Ennett</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Norton</surname> <given-names>EC</given-names></name>. <article-title>Mechanisms through which drug, sex partner, and friendship network characteristics relate to risky needle use among high risk youth and young adults</article-title>. <source>Soc Sci Med</source>. <year>2006</year>;<volume>63</volume>(<issue>9</issue>): <fpage>2489</fpage>&#8211;<lpage>2499</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.socscimed.2006.06.015" ns0:type="simple">10.1016/j.socscimed.2006.06.015</ext-link></comment> <object-id pub-id-type="pmid">16875770</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rosenquist</surname> <given-names>JN</given-names></name>, <name name-style="western"><surname>Murabito</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Fowler</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Christakis</surname> <given-names>NA</given-names></name>. <article-title>The spread of alcohol consumption in a large social network</article-title>. <source>Ann Intern Med</source>. <year>2010</year>;<volume>152</volume>(<issue>7</issue>): <fpage>426</fpage>&#8211;<lpage>W141</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.7326/0003-4819-152-7-201004060-00007" ns0:type="simple">10.7326/0003-4819-152-7-201004060-00007</ext-link></comment> <object-id pub-id-type="pmid">20368648</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stone</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jason</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Light</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Stevens</surname> <given-names>EB</given-names></name>. <article-title>The role of ego networks in studies of substance use disorder</article-title>. <source>Alcoholism Treatment Quarterly</source>. <year>2016</year>;<volume>34</volume>(<issue>3</issue>): <fpage>315</fpage>&#8211;<lpage>328</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/07347324.2016.1182818" ns0:type="simple">10.1080/07347324.2016.1182818</ext-link></comment> <object-id pub-id-type="pmid">27594761</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valente</surname> <given-names>TW</given-names></name>, <name name-style="western"><surname>Gallaher</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mouttapa</surname> <given-names>M</given-names></name>. <article-title>Using social networks to understand and prevent substance use: a transdisciplinary perspective</article-title>. <source>Substance Use &amp; Misuse</source>. <year>2004</year>;<volume>39</volume>(<issue>10&#8211;12</issue>): <fpage>1685</fpage>&#8211;<lpage>1712</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barman-Adhikari</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rice</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Winetrobe</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Petering</surname> <given-names>R</given-names></name>. <article-title>Social network correlates of methamphetamine, heroin, and cocaine use in a sociometric network of homeless youth</article-title>. <source>Journal of the Society for Social Work and Research</source>. <year>2015</year>;<volume>6</volume>(<issue>3</issue>): <fpage>433</fpage>&#8211;<lpage>457</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Melander</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Tyler</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Schmitz</surname> <given-names>RM</given-names></name>. <article-title>An inside look at homeless youths&#8217; social networks: perceptions of substance use norms</article-title>. <source>Journal of Child &amp; Adolescent Substance Use</source>. <year>2016</year>;<volume>25</volume>(<issue>1</issue>): <fpage>78</fpage>&#8211;<lpage>88</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rice</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Barman-Adhikari</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Milbum</surname> <given-names>NG</given-names></name>, <name name-style="western"><surname>Monro</surname> <given-names>W</given-names></name>. <article-title>Position-specific HIV risk in a large network of homeless youth</article-title>. <source>Am J Public Health</source>. <year>2012</year>;<volume>102</volume>(<issue>1</issue>): <fpage>141</fpage>&#8211;<lpage>147</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2105/AJPH.2011.300295" ns0:type="simple">10.2105/AJPH.2011.300295</ext-link></comment> <object-id pub-id-type="pmid">22095350</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rice</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Rhoades</surname> <given-names>H</given-names></name>. <article-title>How should network-based prevention for homeless youth be implemented?</article-title> <source>Addiction</source>. <year>2013</year>;<volume>108</volume>(<issue>9</issue>): <fpage>1625</fpage>&#8211;<lpage>1626</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/add.12255" ns0:type="simple">10.1111/add.12255</ext-link></comment> <object-id pub-id-type="pmid">23947732</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Schroeder</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Latkin</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Hoover</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Curry</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Knowlton</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Celentano</surname> <given-names>DD</given-names></name>. <article-title>Illicit drug use in one&#8217;s social network and in one&#8217;s neighbourhood predicts individual heroin and cocaine use</article-title>. <source>Ann Epidemiol</source>. <year>2001</year>;<volume>11</volume>(<issue>6</issue>): <fpage>389</fpage>&#8211;<lpage>394</lpage>. <object-id pub-id-type="pmid">11454498</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tracy</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Min</surname> <given-names>MO</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jun</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Francis</surname> <given-names>MW</given-names></name>. <article-title>Personal network structure and substance use in women 12 months post treatment intake</article-title>. <source>J Subst Abuse Treat</source>. <year>2016</year>;<volume>62</volume>: <fpage>55</fpage>&#8211;<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jsat.2015.11.002" ns0:type="simple">10.1016/j.jsat.2015.11.002</ext-link></comment> <object-id pub-id-type="pmid">26712040</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Latkin</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Tseng</surname> <given-names>T-Y</given-names></name>, <name name-style="western"><surname>Davey-Rothwell</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kennedy</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Moran</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Czaplicki</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>The relationship between neighborhood disorder, social networks, and indoor cigarette smoking among impoverished inner-city residents</article-title>. <source>J Urban Health</source> <year>2017</year>;<volume>94</volume>(<issue>4</issue>): <fpage>534</fpage>&#8211;<lpage>541</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11524-017-0170-1" ns0:type="simple">10.1007/s11524-017-0170-1</ext-link></comment> <object-id pub-id-type="pmid">28560613</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref022"><label>22</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gruenewald</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Ponicki</surname> <given-names>WR</given-names></name>, <name name-style="western"><surname>Remer</surname> <given-names>LG</given-names></name>, <name name-style="western"><surname>Waller</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Gorman</surname> <given-names>DM</given-names></name>. <article-title>Mapping the spread of methamphetamine abuse in California from 1995 to 2008</article-title>. <source>Am J Public Health</source>. <year>2013</year>;<volume>103</volume>(<issue>7</issue>): <fpage>1262</fpage>&#8211;<lpage>1270</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.2105/AJPH.2012.300779" ns0:type="simple">10.2105/AJPH.2012.300779</ext-link></comment> <object-id pub-id-type="pmid">23078474</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref023"><label>23</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Duncan</surname> <given-names>GJ</given-names></name>, <name name-style="western"><surname>Boisjoly</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kremer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Levy</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Eccles</surname> <given-names>J</given-names></name>. <article-title>Peer effects in drug use and sex among college students</article-title>. <source>J Abnorm Child Psychol</source>. <year>2005</year>;<volume>33</volume>(<issue>3</issue>): <fpage>375</fpage>&#8211;<lpage>385</lpage>. <object-id pub-id-type="pmid">15957564</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref024"><label>24</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mason</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cheung</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>L</given-names></name>. <article-title>Substance use, social networks, and the geography of urban adolescents</article-title>. <source>Substance Use &amp; Misuse</source>. <year>2004</year>;<volume>39</volume>(<issue>10&#8211;12</issue>): <fpage>1751</fpage>&#8211;<lpage>1777</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref025"><label>25</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Tobin</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Latkin</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Curriero</surname> <given-names>FC</given-names></name>. <article-title>An examination of places where African American men who have sex with men (MSM) use drugs/drink alcohol: a focus on social and spatial characteristics</article-title>. <source>Int J Drug Policy</source>. <year>2014</year>;<volume>25</volume>(<issue>3</issue>): <fpage>591</fpage>&#8211;<lpage>597</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.drugpo.2013.12.006" ns0:type="simple">10.1016/j.drugpo.2013.12.006</ext-link></comment> <object-id pub-id-type="pmid">24484732</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref026"><label>26</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Latkin</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>German</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vlahov</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Galea</surname> <given-names>S</given-names></name>. <article-title>Neighborhoods and HIV: a social ecological approach to prevention and care</article-title>. <source>Am Psychol</source>. <year>2013</year>;<volume>68</volume>(<issue>4</issue>): <fpage>210</fpage>&#8211;<lpage>224</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1037/a0032704" ns0:type="simple">10.1037/a0032704</ext-link></comment> <object-id pub-id-type="pmid">23688089</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref027"><label>27</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Miller</surname> <given-names>WC</given-names></name>, <name name-style="western"><surname>Hoffman</surname> <given-names>IF</given-names></name>, <name name-style="western"><surname>Hanscom</surname> <given-names>BS</given-names></name>, <name name-style="western"><surname>Ha</surname> <given-names>TV</given-names></name>, <name name-style="western"><surname>Dumchev</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Djoerban</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>A scalable, integrated intervention to engage people who inject drugs in HIV care and medication-assisted treatment (HPTN 074): a randomised, controlled phase 3 feasibility and efficacy study</article-title>. <source>Lancet</source>. <year>2018</year>;<volume>392</volume>(<issue>10149</issue>): <fpage>747</fpage>&#8211;<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S0140-6736(18)31487-9" ns0:type="simple">10.1016/S0140-6736(18)31487-9</ext-link></comment> <object-id pub-id-type="pmid">30191830</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref028"><label>28</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Goehl</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Nunes</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Quitkin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Hilton</surname> <given-names>I</given-names></name>. <article-title>Social networks and methadone treatment outcome: the costs and benefits of social ties</article-title>. <source>Am J Drug Alc Abuse</source>. <year>1993</year>;<volume>19</volume>(<issue>3</issue>): <fpage>251</fpage>&#8211;<lpage>262</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref029"><label>29</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valente</surname> <given-names>T</given-names></name>. <article-title>Social network influences on adolescent substance use: An introduction</article-title>. <source>Connections</source>. <year>2003</year>;<volume>25</volume>: <fpage>11</fpage>&#8211;<lpage>16</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref030"><label>30</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Dombrowski</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Curtis</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Friedman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Khan</surname> <given-names>B</given-names></name>. <article-title>Topological and historical considerations for infectious disease transmission among injecting drug users in Bushwick, Brooklyn (USA)</article-title>. <source>World J AIDS</source>. <year>2013</year>;<volume>3</volume>(<issue>1</issue>): <fpage>1</fpage>&#8211;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.4236/wja.2013.31001" ns0:type="simple">10.4236/wja.2013.31001</ext-link></comment> <object-id pub-id-type="pmid">24672745</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref031"><label>31</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ferrence</surname> <given-names>R</given-names></name>. <article-title>Diffusion theory and drug use</article-title>. <source>Addiction</source>. <year>2001</year>;<volume>96</volume>(<issue>1</issue>): <fpage>165</fpage>&#8211;<lpage>173</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1046/j.1360-0443.2001.96116512.x" ns0:type="simple">10.1046/j.1360-0443.2001.96116512.x</ext-link></comment> <object-id pub-id-type="pmid">11177527</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref032"><label>32</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valente</surname> <given-names>TW</given-names></name>. <article-title>Network interventions</article-title>. <source>Science</source>. <year>2012</year>;<volume>337</volume>(<issue>6090</issue>): <fpage>49</fpage>&#8211;<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1126/science.1217330" ns0:type="simple">10.1126/science.1217330</ext-link></comment> <object-id pub-id-type="pmid">22767921</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref033"><label>33</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McDonald</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Griffin</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Kolodziej</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Fitzmaurice</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>RD</given-names></name>. <article-title>The impact of drug use in social networks of patients with substance use and bipolar disorders</article-title>. <source>Am J Addict</source>. <year>2011</year>;<volume>20</volume>(<issue>2</issue>): <fpage>100</fpage>&#8211;<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/j.1521-0391.2010.00117.x" ns0:type="simple">10.1111/j.1521-0391.2010.00117.x</ext-link></comment> <object-id pub-id-type="pmid">21314751</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref034"><label>34</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kelly</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Stout</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Greene</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Slaymaker</surname> <given-names>V</given-names></name>. <article-title>Young adults, social networks, and addiction recovery: post treatment changes in social ties and their role as a mediator of 12-step participation</article-title>. <source>PLOS ONE</source>. <year>2014</year>;<volume>9</volume>(<issue>6</issue>): <fpage>e100121</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0100121" ns0:type="simple">10.1371/journal.pone.0100121</ext-link></comment> <object-id pub-id-type="pmid">24945357</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref035"><label>35</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bennett</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Schneider</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Buchman</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Mendes de Leon</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bienias</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Wilson</surname> <given-names>RS</given-names></name>. <article-title>The Rush Memory and Aging Project: study design and baseline characteristics of the study cohort</article-title>. <source>Neuroepidemiol</source>. <year>2005</year>;<volume>25</volume>(<issue>4</issue>): <fpage>163</fpage>&#8211;<lpage>175</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref036"><label>36</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bennett</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Schneider</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Arnold</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Wilson</surname> <given-names>RS</given-names></name>. <article-title>The effect of social networks on the relation between Alzheimer's disease pathology and level of cognitive function in old people: a longitudinal cohort study</article-title>. <source>Lancet Neurol</source>. <year>2006</year>;<volume>5</volume>(<issue>5</issue>): <fpage>406</fpage>&#8211;<lpage>412</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S1474-4422(06)70417-3" ns0:type="simple">10.1016/S1474-4422(06)70417-3</ext-link></comment> <object-id pub-id-type="pmid">16632311</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref037"><label>37</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Gaetz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Barr</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Friesen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hill</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kovacs-Burns</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <source>Canadian definition of homelessness</source>. <publisher-name>Canadian Observatory on Homelessness</publisher-name>, <publisher-loc>Toronto</publisher-loc>. <year>2012</year>. Available from: <ext-link ext-link-type="uri" ns0:href="https://www.homelesshub.ca/resource/canadian-definition-homelessness" ns0:type="simple">https://www.homelesshub.ca/resource/canadian-definition-homelessness</ext-link></mixed-citation></ref>
+<ref id="pone.0222611.ref038"><label>38</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Krausz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jang</surname> <given-names>K</given-names></name>. <article-title>Lessons from the creation of Canada's poorest postal code</article-title>. <source>Lancet Psychiatry</source>. <year>2015</year>;<volume>2</volume>(<issue>3</issue>): <fpage>e5</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S2215-0366(15)00045-0" ns0:type="simple">10.1016/S2215-0366(15)00045-0</ext-link></comment> <object-id pub-id-type="pmid">26359906</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref039"><label>39</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barrera</surname> <given-names>M</given-names></name>. <article-title>A method for the assessment of social support networks in community survey research</article-title>. <source>Connections</source>. <year>1980</year>;<volume>3</volume>: <fpage>8</fpage>&#8211;<lpage>13</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref040"><label>40</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barrera</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sandler</surname> <given-names>IN</given-names></name>, <name name-style="western"><surname>Ramsay</surname> <given-names>TB</given-names></name>. <article-title>Preliminary development of a scale of social support: Studies on college students</article-title>. <source>Am J Comm Psychology</source>. <year>1981</year>;<volume>9</volume>(<issue>4</issue>): <fpage>435</fpage>&#8211;<lpage>447</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref041"><label>41</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jones</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Vila-Rodriguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Panenka</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Leonova</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Strehlau</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Lang</surname> <given-names>DJ</given-names></name>, <etal>et al</etal>. <article-title>Personalized risk assessment of drug-related harm is associated with health outcomes</article-title>. <source>PLOS ONE</source>. <year>2013</year>;<volume>8</volume>(<issue>11</issue>): <fpage>e79754</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0079754" ns0:type="simple">10.1371/journal.pone.0079754</ext-link></comment> <object-id pub-id-type="pmid">24223192</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref042"><label>42</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cohen</surname> <given-names>J</given-names></name>. <article-title>Weighted kappa: nominal scale agreement with provision for scaled disagreement or partial credit</article-title>. <source>Psychol Bull</source>. <year>1968</year>;<volume>70</volume>(<issue>4</issue>): <fpage>213</fpage>&#8211;<lpage>220</lpage>. <object-id pub-id-type="pmid">19673146</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref043"><label>43</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Friedman</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Curtis</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Jose</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Neaigus</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zenilman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Culpepper-Morgan</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Sex, drugs, and infections among youth. Parenterally and sexually transmitted diseases in a high-risk neighborhood</article-title>. <source>Sex Transm Dis</source>. <year>1997</year>;<volume>24</volume>(<issue>6</issue>): <fpage>322</fpage>&#8211;<lpage>326</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/00007435-199707000-00003" ns0:type="simple">10.1097/00007435-199707000-00003</ext-link></comment> <object-id pub-id-type="pmid">9243738</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref044"><label>44</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rothenberg</surname> <given-names>RB</given-names></name>, <name name-style="western"><surname>Woodhouse</surname> <given-names>DE</given-names></name>, <name name-style="western"><surname>Potterat</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Muth</surname> <given-names>SQ</given-names></name>, <name name-style="western"><surname>Darrow</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Klovdahl</surname> <given-names>AS</given-names></name>. <article-title>Social networks in disease transmission: the Colorado Springs Study</article-title>. <source>NIDA Res Monogr</source>. <year>1995</year>;<volume>151</volume>: <fpage>3</fpage>&#8211;<lpage>19</lpage>. <object-id pub-id-type="pmid">8742758</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref045"><label>45</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Csardi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Nepusz</surname> <given-names>T</given-names></name>. <article-title>The igraph software package for complex network research</article-title>. <source>InterJournal. Complex Systems</source>. <year>2006</year>: <fpage>1695</fpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref046"><label>46</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Newman</surname> <given-names>MEJ</given-names></name>. <article-title>Assortative mixing in networks</article-title>. <source>Phys Rev Lett</source>. <year>2002</year>;<volume>89</volume>(<issue>20</issue>): <fpage>208701</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1103/PhysRevLett.89.208701" ns0:type="simple">10.1103/PhysRevLett.89.208701</ext-link></comment> <object-id pub-id-type="pmid">12443515</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref047"><label>47</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Fruchterman</surname> <given-names>TMJ</given-names></name>, <name name-style="western"><surname>Reingold</surname> <given-names>EM</given-names></name>. <article-title>Graph drawing by force&#8208;directed placement</article-title>. <source>Software: Practice and Experience</source>. <year>1991</year>;<volume>21</volume>(<issue>11</issue>): <fpage>1129</fpage>&#8211;<lpage>1164</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref048"><label>48</label><mixed-citation publication-type="book" ns0:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>L</given-names></name>. <chapter-title>Mixed Effects Models for Complex Data</chapter-title>. <source>Monographs on Statistics and Probability</source> <volume>113</volume>. <edition>1st ed</edition>. <publisher-loc>Boca Raton</publisher-loc>: <publisher-name>CRC Press</publisher-name>; <year>2019</year>.</mixed-citation></ref>
+<ref id="pone.0222611.ref049"><label>49</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hastie</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tibshirani</surname> <given-names>R</given-names></name>. <article-title>Generalized additive models</article-title>. <source>Stat Sci</source>. <year>1986</year>;<volume>1</volume>: <fpage>297</fpage>&#8211;<lpage>310</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref050"><label>50</label><mixed-citation publication-type="other" ns0:type="simple">Bates DM. lme4: Mixed-effects modeling with R [Internet]. Available from: <ext-link ext-link-type="uri" ns0:href="http://lme4.r-forge.r-project.org/book" ns0:type="simple">http://lme4.r-forge.r-project.org/book</ext-link></mixed-citation></ref>
+<ref id="pone.0222611.ref051"><label>51</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Honer</surname> <given-names>WG</given-names></name>, <name name-style="western"><surname>Gewirtz</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Turey</surname> <given-names>M</given-names></name>. <article-title>Psychosis and violence in cocaine smokers</article-title>. <source>Lancet</source>. <year>1987</year>;<volume>2</volume>(<issue>8556</issue>): <fpage>451</fpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref052"><label>52</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jones</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Jang</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Panenka</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Barr</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>MacEwan</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Thornton</surname> <given-names>AE</given-names></name>, <etal>et al</etal>. <article-title>Rapid change in fentanyl prevalence in a community-based, high-risk sample</article-title>. <source>JAMA Psychiatry</source>. <year>2018</year>;<volume>75</volume>(<issue>3</issue>): <fpage>298</fpage>&#8211;<lpage>300</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/jamapsychiatry.2017.4432" ns0:type="simple">10.1001/jamapsychiatry.2017.4432</ext-link></comment> <object-id pub-id-type="pmid">29387869</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref053"><label>53</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Rice</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Milburn</surname> <given-names>NG</given-names></name>, <name name-style="western"><surname>Monro</surname> <given-names>W</given-names></name>. <article-title>Social networking technology, social network composition, and reductions in substance use among homeless adolescents</article-title>. <source>Prev Sci</source>. <year>2011</year>;<volume>12</volume>(<issue>1</issue>): <fpage>80</fpage>&#8211;<lpage>88</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s11121-010-0191-4" ns0:type="simple">10.1007/s11121-010-0191-4</ext-link></comment> <object-id pub-id-type="pmid">21194011</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref054"><label>54</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Bassel</surname> <given-names>El N</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>D</given-names></name>. <article-title>Social support and social network profiles among women on methadone</article-title>. <source>Soc Serv Rev</source>. <year>1998</year>;<volume>72</volume>(<issue>3</issue>): <fpage>379</fpage>&#8211;<lpage>491</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref055"><label>55</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hurd</surname> <given-names>YL</given-names></name>. <article-title>Cannabidiol: swinging the marijuana pendulum from &#8220;weed&#8221; to medication to treat the opioid epidemic</article-title>. <source>Trends Neurosci</source>. <year>2017</year>;<volume>40</volume>(<issue>3</issue>): <fpage>124</fpage>&#8211;<lpage>127</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.tins.2016.12.006" ns0:type="simple">10.1016/j.tins.2016.12.006</ext-link></comment> <object-id pub-id-type="pmid">28162799</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref056"><label>56</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Valente</surname> <given-names>TW</given-names></name>, <name name-style="western"><surname>Pitts</surname> <given-names>SR</given-names></name>. <article-title>An appraisal of social network theory and analysis as applied to public health: challenges and opportunities</article-title>. <source>Ann Rev Pub Health</source>. <year>2017</year>;<volume>38</volume>(<issue>1</issue>): <fpage>103</fpage>&#8211;<lpage>118</lpage>.</mixed-citation></ref>
+<ref id="pone.0222611.ref057"><label>57</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Latkin</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Knowlton</surname> <given-names>AR</given-names></name>. <article-title>Social network assessments and interventions for health behavior change: a critical review</article-title>. <source>Behav Med</source>. <year>2015</year>;<volume>41</volume>(<issue>3</issue>): <fpage>90</fpage>&#8211;<lpage>97</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/08964289.2015.1034645" ns0:type="simple">10.1080/08964289.2015.1034645</ext-link></comment> <object-id pub-id-type="pmid">26332926</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref058"><label>58</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Christakis</surname> <given-names>NA</given-names></name>. <article-title>Social networks and collateral health effects</article-title>. <source>BMJ</source>. <year>2004</year>;<volume>329</volume>(<issue>7459</issue>): <fpage>184</fpage>&#8211;<lpage>185</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.329.7459.184" ns0:type="simple">10.1136/bmj.329.7459.184</ext-link></comment> <object-id pub-id-type="pmid">15271805</object-id></mixed-citation></ref>
+<ref id="pone.0222611.ref059"><label>59</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Min</surname> <given-names>MO</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jun</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Changes in personal networks of women in residential and outpatient substance abuse treatment</article-title>. <source>J Subst Abuse Treat</source>. <year>2013</year>;<volume>45</volume>(<issue>4</issue>): <fpage>325</fpage>&#8211;<lpage>334</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.jsat.2013.04.006" ns0:type="simple">10.1016/j.jsat.2013.04.006</ext-link></comment> <object-id pub-id-type="pmid">23755971</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222611.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222611.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Palinkas</surname>
+<given-names>Lawrence</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Lawrence Palinkas</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222611" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">18 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-16818</p>
+<p>Social and structural factors associated with substance use within the support network of adults living in precarious housing in a socially marginalized neighborhood of Vancouver, Canada</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Rutherford,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>==============================</p>
+<p>ACADEMIC EDITOR: Please insert comments here and delete this placeholder text when finished. Be sure to:</p>
+<p><list list-type="bullet"><list-item><p>Both reviewers found this to be a well-written and informative study.&#160; However, Reviewer 1 recommended expansion o the introduction if this is to be accepted as a regular research article, and Reviewer 2 recommended expansion of the discussion of implications for interventions.&#160; The editor is in agreement with these two recommendations.&#160;</p></list-item></list></p>
+<p>==============================</p>
+<p>We would appreciate receiving your revised manuscript by Sep 01 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Lawrence Palinkas</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Thank you for stating the following in the Competing Interests section: "I have read the journal's policy and the authors of this manuscript have the following competing interests:</p>
+<p>AMB has received consulting fees or sat on advisory boards for Bristol-Myers Squibb, Eli Lilly, and Roche.</p>
+<p>WJP sat on paid advisory boards for Vitality Biopharma, Medipure Pharmaceuticals, and Vinergy Resources; has sat on the board of directors of Abbatis Bioceuticals; and is owner of Translational Life Sciences.</p>
+<p>WGH received consulting fees or sat on paid advisory boards for: the Canadian Agency for Drugs and Technology in Health, AlphaSights, Guidepoint, In Silico, Translational Life Sciences, Otsuka, Lundbeck, and Newron."</p>
+<p>Please confirm that this does not alter your adherence to all PLOS ONE policies on sharing data and materials, by including the following statement: "This does not alter our adherence to&#160; PLOS ONE policies on sharing data and materials.&#8221; (as detailed online in our guide for authors <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/competing-interests" ns0:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link>).&#160; If there are restrictions on sharing of data and/or materials, please state these. Please note that we cannot proceed with consideration of your article until this information has been declared.</p>
+<p>Please include your updated Competing Interests statement in your cover letter; we will change the online submission form on your behalf.</p>
+<p>Please know it is PLOS ONE policy for corresponding authors to declare, on behalf of all authors, all potential competing interests for the purposes of transparency. PLOS defines a competing interest as anything that interferes with, or could reasonably be perceived as interfering with, the full and objective presentation, peer review, editorial decision-making, or publication of research or non-research articles submitted to one of the journals. Competing interests can be financial or non-financial, professional, or personal. Competing interests can arise in relationship to an organization or another person. Please follow this link to our website for more details on competing interests: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/competing-interests" ns0:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link></p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: In general this is a well-written and clear paper with interesting and meaningful results. In particular the authors do an excellent job of describing their methods and results in a way that will be understood by a broad audience. Any suggestions for edits are only relevant if this paper is not meant to be published as a brief report.</p>
+<p>If this paper is not a brief report, then the introduction needs to be expanded to further explore how existing literature frames the current study. This should include literature that is specific to substance use in networks, homelessness/housing, and the assortativity characteristics you assess. If the introduction is expanded, it would also be helpful to articulate a set of research questions that clearly lead to your analytic plan.</p>
+<p>Methods are extensive, appropriate for the study, and clearly described. The authors do a nice job outlining rigorous methods in a way that will be understandable to a broad audience.</p>
+<p>The discussion is concise, but provides a nice, comprehensible overview of findings and implications. If the paper is expanded, I would like to see more specific recommendations for intervention, housing, and/or practice from the perspective of the authors.</p>
+<p>Reviewer #2: This paper provides a valuable exploration into how the structure of networks and peer relationships impact the substance using behavior of precariously housed individuals recruited single room occupancy hotels in Vancouver. Overall the paper is quite excellent. The methods are well described and the social network analysis is appropriate to the questions raised by the authors.</p>
+<p>My only minor criticism is with the discussion section. The authors make a point in both the abstract and the introduction of framing the importance of this work around the potential to inform interventions. Yet, the discussion of intervention direction is very superficial. Essentially, they say in one sentence on p. 20 line 370-371 &#8220;Concurrent use of substances creates complex phamacologies that may be of interest as clues to developing substitution therapies, or novel treatments.&#8221; This is really insufficient given the frame of the paper. I would recommend several citations below by Rice and his colleagues which explore similar network issues among homeless youth and provide more rigorous direction for interventions.</p>
+<p>Rice, E., &amp; Rhoades, H. (2013). How should network-based prevention for homeless youth be implemented?. Addiction (Abingdon, England), 108(9), 1625.</p>
+<p>Rice, E., Barman-Adhikari, A., Milburn, N. G., &amp; Monro, W. (2012). Position-specific HIV risk in a large network of homeless youths. American journal of public health, 102(1), 141-147.</p>
+<p>Barman-Adhikari, A., Rice, E., Winetrobe, H., &amp; Petering, R. (2015). Social network correlates of methamphetamine, heroin, and cocaine use in a sociometric network of homeless youth. Journal of the Society for Social Work and Research, 6(3), 433-457.</p>
+<p>Rhoades, H., La Motte-Kerr, W., Duan, L., Woo, D., Rice, E., Henwood, B., ... &amp; Wenzel, S. L. (2018). Social networks and substance use after transitioning into permanentsupportive housing. Drug and alcohol dependence, 191, 63-69.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Harmony R Rhoades</p>
+<p>Reviewer #2: Yes: Eric Rice</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222611.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222611.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222611" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222611.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">1 Sep 2019</named-content>
+</p>
+<p>Response to Reviewer 1:</p>
+<p>The introduction has been expanded and a number of references added to better frame the study in the context of previous work on substance use and social network analysis. We have also reviewed previous work on using social network analysis to investigate prevention strategies and improve treatment programs. A conclusion has been added to summarize the implications of our work for prevention, harm reduction, and treatment.</p>
+<p>Response to Reviewer 2:</p>
+<p>As mentioned above, a conclusion has been added to expand on the implications of our work for using social network analysis to improve prevention, harm reduction, and treatment. Furthermore, the references that were suggested have been added, as well as a number of additional references. We thank the reviewer for drawing this body of work to our attention.</p>
+<supplementary-material id="pone.0222611.s013" mimetype="application/pdf" position="float" ns0:href="info:doi/10.1371/journal.pone.0222611.s013" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response_to_Reviewers.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222611.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222611.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Palinkas</surname>
+<given-names>Lawrence</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Lawrence Palinkas</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222611" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">4 Sep 2019</named-content>
+</p>
+<p>Social and structural factors associated with substance use within the support network of adults living in precarious housing in a socially marginalized neighborhood of Vancouver, Canada</p>
+<p>PONE-D-19-16818R1</p>
+<p>Dear Dr. Rutherford,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Lawrence Palinkas</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>The revised manuscript is responsive to the suggestions provided by the viewers. This should make for a fine contribution to the literature.</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222611.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222611.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Palinkas</surname>
+<given-names>Lawrence</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Lawrence Palinkas</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222611" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">9 Sep 2019</named-content>
+</p>
+<p>PONE-D-19-16818R1 </p>
+<p>Social and structural factors associated with substance use within the support network of adults living in precarious housing in a socially marginalized neighborhood of Vancouver, Canada </p>
+<p>Dear Dr. Rutherford:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Lawrence Palinkas  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

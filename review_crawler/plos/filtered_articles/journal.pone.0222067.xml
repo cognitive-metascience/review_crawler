@@ -1,0 +1,1326 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222067</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-18078</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>HIV diagnosis and management</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Preventive medicine</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>HIV infections</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Virology</subject><subj-group><subject>Viral transmission and infection</subject><subj-group><subject>Viral load</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>RNA viruses</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Virology</subject><subj-group><subject>Viral disease diagnosis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject><subj-group><subject>European Union</subject><subj-group><subject>France</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Too fast to stay on track? Shorter time to first anti-retroviral regimen is not associated with better retention in care in the French Dat&#8217;AIDS cohort</article-title>
+<alt-title alt-title-type="running-head">Timing of ART in French newly diagnosed adults</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-6345-497X</contrib-id>
+<name name-style="western">
+<surname>Cuzin</surname>
+<given-names>L.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Cotte</surname>
+<given-names>L.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Delpierre</surname>
+<given-names>C.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Allavena</surname>
+<given-names>C.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Valantin</surname>
+<given-names>M-A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Rey</surname>
+<given-names>D.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Delobel</surname>
+<given-names>P.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Pugliese</surname>
+<given-names>P.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff009"><sup>9</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Raffi</surname>
+<given-names>F.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff010"><sup>10</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Cabi&#233;</surname>
+<given-names>A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff011"><sup>11</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<collab>on behalf of the Dat&#8217;AIDS Study group</collab>
+<xref ref-type="fn" rid="fn001"><sup>&#182;</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Infectious and Tropical Diseases Unit, University Hospital of Martinique, Fort de France, France</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>INSERM UMR1017, Toulouse III University, Toulouse, France</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Infectious Disease Unit, Hospices Civils de Lyon, Lyon, France</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Infectious Diseases Unit, Hotel Dieu University Hospital of Nantes, Nantes, France</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Infectious Diseases Unit, University Hospital of Piti&#233;-Salp&#234;tri&#232;re, Paris, France</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>HIV Infection Care Centre, University Hospital, Strasbourg, France</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Infectious and Tropical Diseases Unit, Purpan University Hospital, Toulouse, France</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>INSERM U1043 - CNRS UMR 5282, Centre de Physiopathologie Toulouse-Purpan, Toulouse, France</addr-line></aff>
+<aff id="aff009"><label>9</label> <addr-line>Infectious Diseases Unit, University Hospital of Nice, Nice, France</addr-line></aff>
+<aff id="aff010"><label>10</label> <addr-line>CIC 1413, INSERM, Nantes, France</addr-line></aff>
+<aff id="aff011"><label>11</label> <addr-line>CIC1424, INSERM, Fort-de-France, France</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Apetrei</surname>
+<given-names>Cristian</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Pittsburgh, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interest exist.</p>
+</fn>
+<fn fn-type="other" id="fn001">
+<p>&#182; Membership of the Dat&#8217;AIDS study group is provided in the Acknowledgments.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">lise.cuzin@chu-martinique.fr</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>6</day>
+<month>9</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>9</issue>
+<elocation-id>e0222067</elocation-id>
+<history>
+<date date-type="received">
+<day>26</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>21</day>
+<month>8</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cuzin et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0222067" />
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Rapid antiretroviral therapy (ART) initiation has been proven beneficial for patients and the community. We aimed to analyze recent changes in timing of ART initiation in France and consequences of early start.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>We selected from a prospective nationwide cohort, on 12/31/2017, patients with HIV-1 infection diagnosed between 01/01/2010 and 12/31/2015. We described time from (1) diagnosis to first specialized medical encounter, (2) from this encounter to ART initiation, (3) from diagnosis to first undetectable HIV viral load (VL). We analyzed the determinants of measured temporal trends. A multivariate logistic regression was performed to assess characteristics related with 1-year retention in care.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>In the 7 245 included patients, median time (1) from HIV diagnosis to first medical encounter was 13 (IQR: 6&#8211;32) days, (2) to ART initiation was 27 (IQR: 9&#8211;91) days, decreasing from 42 (IQR: 13&#8211;272) days in 2010 to 18 (IQR: 7&#8211;42) in 2015 (p&lt;0.0001), (3) to first undetectable VL was 257 (IQR: 151&#8211;496) days, decreasing from 378 (IQR: 201&#8211;810) days in 2010 to 169 (IQR: 97&#8211;281) in 2015. After one year, proportion of patients alive and still in care was significantly lower in those in the lower quartile of time from first encounter to ART (&lt;9 days) than those in the higher quartile (&gt;90 days), 79.9% and 85.2%, respectively (p&lt;0.0001).</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>In a country with unrestricted rapid access to ART, keeping recently diagnosed HIV infected patients in care remains challenging. Starting ART rapidly did not seem to be profitable for all and every patient.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0" />
+<table-count count="5" />
+<page-count count="11" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Early initiation of anti-retroviral therapy (ART) for people living with human immunodeficiency virus (PLWH) reduces individual morbidity and mortality [<xref ref-type="bibr" rid="pone.0222067.ref001">1</xref>&#8211;<xref ref-type="bibr" rid="pone.0222067.ref003">3</xref>]. It also leads to a shortened period of possible HIV transmission by suppressing viral replication [<xref ref-type="bibr" rid="pone.0222067.ref004">4</xref>]. Thus, national and international guidelines recommend ART for all PLWH without any restrictions of CD4 cell counts (<ext-link ext-link-type="uri" ns0:href="https://www.who.int/hiv/topics/treatment/en/" ns0:type="simple">https://www.who.int/hiv/topics/treatment/en/</ext-link>). Most recent guidelines recommend starting ART as soon as possible after diagnosis, including immediately after diagnosis, unless the patient is not ready to commit to starting therapy, or in specific cases such as cryptococcosis or tuberculosis meningitidis&#8212;because of possible immune reconstitution inflammatory syndrome [<xref ref-type="bibr" rid="pone.0222067.ref005">5</xref>]. Same day ART initiation after HIV disclosure has been proven to be feasible,[<xref ref-type="bibr" rid="pone.0222067.ref004">4</xref>] even in very deprived settings [<xref ref-type="bibr" rid="pone.0222067.ref006">6</xref>]. However, structural barriers, patients&#8217; unmet basic needs [<xref ref-type="bibr" rid="pone.0222067.ref007">7</xref>] and patients&#8217; and providers&#8217; attitudes may impede the rapid initiation of ART [<xref ref-type="bibr" rid="pone.0222067.ref004">4</xref>].</p>
+<p>The French national health system allows every PLWH to access ART free of charge with no administrative delay. Nevertheless, it has been described that the timing of initiation was different between geographical regions [<xref ref-type="bibr" rid="pone.0222067.ref008">8</xref>].</p>
+<p>Our aim was, using a nationwide prospectively collected database, to describe determinants of the time from the first encounter with an HIV clinician after HIV diagnosis and the first ART prescription, changes in the recent years and the influence of an early ART start on 1-year retention in care.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Patients and methods</title>
+<p>Information was collected from 23 centers in France (including overseas territories) participating in the Dat&#8217;AIDS cohort (Clinicaltrials.gov ref. NCT02898987). The authors did not have access to any patient identifying information as part of this work. For the purpose of this study, we selected patients who were included in the cohort with a newly diagnosed HIV-1 infection between January the 1<sup>st</sup>, 2010 and December 31, 2015. We collected the date of HIV diagnosis, the date of first medical encounter with an HIV clinician (thereafter &#8220;first encounter&#8221;), the date of first ART prescription, the choice of 3<sup>rd</sup> ART drug (boosted protease inhibitor-bPI, non nucleosidic reverse transcriptase inhibitor-NNRTI, integrase inhibitor-INSTI, or other regimen), the date of last news, CD4 cells counts and plasma HIV viral load (VL) at the time of diagnosis and at the time of ART initiation, age at diagnosis, sex and most probable route of HIV acquisition. During the patients&#8217; follow-up, we collected VL at six and 12 months after ART initiation, date of first non-detectable VL (&lt;50 copies/mL), date of and reason for initial ART modification, and vital status. French recommendations include a clinical visit one and three months after ART initiation, and twice a year thereafter. One-year retention in care was defined as &#8220;yes&#8221; if at least one visit was recorded between 9 and 15 months after ART initiation, otherwise as &#8220;no&#8221;. Because of a strong interaction between sex and the most probable route of HIV acquisition, the patients were classified in four groups for the analyses: men having sex with men (MSM), men having sex with women (MSW), transgender and women.</p>
+<p>Only patients with reliable dates of first encounter, first ART prescription and first non-detectable VL were included in the analysis. Two time lapses were first calculated: time from HIV diagnosis to first encounter with an HIV clinician and time from this first encounter to first ART prescription. Additionally, time from diagnosis to first non-detectable VL was also calculated, with the aim of approaching individual and collective benefits of an early ART.</p>
+<p>Because the time from first encounter to first ART varied in the recent years and may also vary depending on patients&#8217; characteristics, we first described the patients following the year of diagnosis and following CD4 cell counts at diagnosis. The calculated time lapses were also described following patients&#8217; CD4 cell count at diagnosis and year of HIV diagnosis. Patients&#8217; evolution while receiving ART was described following the time from first encounter to first ART prescription, in classes following quartiles. Finally, we performed a multivariate logistic regression looking for characteristics related with 1-year retention in care, in which we included all characteristics significantly (p&lt;0.10) related with 1-year retention in care in the univariate analysis. Data were extracted on December 31, 2017 as to ensure a minimum follow-up, even in patients with long delay to ART initiation.</p>
+<p>Quantitative variables are described by medians and 1<sup>st</sup>-3<sup>rd</sup> quartiles (IQR), and compared by Kruskal-Wallis tests. Qualitative data are described by frequencies and compared by Chi<sup>2</sup> tests. Statistical analyses were performed using R (R.app GUI 1.70, S. Urbanek &amp; H.-J. Bibiko, R Foundation for Statistical Computing, 2016).</p>
+</sec>
+<sec id="sec007" sec-type="results">
+<title>Results</title>
+<p>From 9 680 patients fulfilling the selection criteria, 2 435 were excluded from the analysis because the dates of interest were not reliable. Patients characteristics for both populations are shown in <xref ref-type="table" rid="pone.0222067.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0222067.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222067.t001</object-id>
+<label>Table 1</label> <caption><title>Patients characteristics, with comparison of the included and excluded populations.</title></caption>
+<alternatives>
+<graphic id="pone.0222067.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2" />
+<th align="center">Included<break />N = 7245</th>
+<th align="center">Excluded<break />N = 2435</th>
+<th align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Sex (M/W)</td>
+<td align="center">5300 (72%) / 1945 (28%)</td>
+<td align="center">1672 (68.7%) / 763 (31.3%)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Route of acquisition</td>
+<td align="left">Men having sex with men</td>
+<td align="center">3388 (46.8%)</td>
+<td align="center">981 (40.3%)</td>
+<td align="char" char="." rowspan="4">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Men having sex with women</td>
+<td align="center">3260 (45.0%)</td>
+<td align="center">1132 (46.5%)</td>
+</tr>
+<tr>
+<td align="left">IVDU<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref></td>
+<td align="center">90 (1.2%)</td>
+<td align="center">46 (1.9%)</td>
+</tr>
+<tr>
+<td align="left">Other/unknown</td>
+<td align="center">507 (7%)</td>
+<td align="center">276 (11.3%)</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Diagnosis during Acute HIV infection</td>
+<td align="center">788 (10.8%)</td>
+<td align="center">188 (7.7%)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Age at HIV diagnosis (years, median IQR)</td>
+<td align="center">36 (28&#8211;46)</td>
+<td align="center">34 (28&#8211;43)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Age at ART prescription (years, median IQR)</td>
+<td align="center">40 (32&#8211;50)</td>
+<td align="center">39 (32&#8211;48)</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="left" colspan="2">CD4 cell count at HIV diagnosis (/&#956;L, median IQR)</td>
+<td align="center">362 (198&#8211;537)</td>
+<td align="center">295 (121&#8211;475)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">HIV viral load at HIV diagnosis (log.copies/mL, median IQR)</td>
+<td align="center">4.74 (4.1&#8211;5.3)</td>
+<td align="center">4.9 (4.2&#8211;5.5)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">CD4 cell count at ART prescription (/&#956;L, median IQR)</td>
+<td align="center">352 (197&#8211;505)</td>
+<td align="center">297 (124&#8211;470)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">HIV viral load at ART prescription (log.copies/mL, median, IQR)</td>
+<td align="center">4.7 (4.1&#8211;5.2)</td>
+<td align="center">4.9 (4.3&#8211;5.5)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup>: Intravenous drug use.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>In the analyzed population, the median time from HIV diagnosis to first encounter was 13 (IQR 6&#8211;32) days. Overall the median time from first encounter to first ART prescription was 27 (IQR 9&#8211;91) days, decreasing from 42 (IQR 13&#8211;272) days in 2010 to 18 (IQR 7&#8211;42) days in 2015 (p&lt;0.0001) as shown in <xref ref-type="table" rid="pone.0222067.t002">Table 2</xref>. Meanwhile patients&#8217; characteristics also varied across the study period. CD4 cell counts at the time of first ART prescription increased from 327 (IQR 188&#8211;456) cells/ &#956;L for PLWH diagnosed in 2010 to 356 (IQR 190&#8211;529) cells/ &#956;L for those diagnosed in 2015 (p&lt;0.0001).</p>
+<table-wrap id="pone.0222067.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222067.t002</object-id>
+<label>Table 2</label> <caption><title>Patients characteristics across the study period and studied time lapses, by year of HIV diagnosis.</title></caption>
+<alternatives>
+<graphic id="pone.0222067.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2">Year of HIV diagnosis</th>
+<th align="center">2010<break />N = 1192</th>
+<th align="center">2011<break />N = 1204</th>
+<th align="center">2012<break />N = 1196</th>
+<th align="center">2013<break />N = 1173</th>
+<th align="center">2014<break />N = 1280</th>
+<th align="center">2015<break />N = 1200</th>
+<th align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Age at diagnostic (years; median, IQR)</td>
+<td align="center">36 (29&#8211;44)</td>
+<td align="center">37 (29&#8211;45)</td>
+<td align="center">36 (28&#8211;47)</td>
+<td align="center">36 (28&#8211;47)</td>
+<td align="center">36 (28&#8211;46)</td>
+<td align="center">36 (28&#8211;47)</td>
+<td align="char" char=".">0.95</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Women (%)</td>
+<td align="center">28.4</td>
+<td align="center">26.2</td>
+<td align="center">27.0</td>
+<td align="center">26.9</td>
+<td align="center">26.6</td>
+<td align="center">26</td>
+<td align="char" char=".">0.11</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Men having sex with Men (%)</td>
+<td align="center">42.9</td>
+<td align="center">46.6</td>
+<td align="center">45.2</td>
+<td align="center">47.5</td>
+<td align="center">44.8</td>
+<td align="center">48.8</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Men having sex with Women (%)</td>
+<td align="center">27.4</td>
+<td align="center">26.8</td>
+<td align="center">26.7</td>
+<td align="center">25.1</td>
+<td align="center">27.6</td>
+<td align="center">24.7</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">Transgender Men to Women (%)</td>
+<td align="center">1.3</td>
+<td align="center">0.3</td>
+<td align="center">1.1</td>
+<td align="center">0.5</td>
+<td align="center">1.0</td>
+<td align="center">0.6</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" colspan="2">CD4 Cell count/ &#956;L at diagnosis (median, IQR)</td>
+<td align="center">345 (186&#8211;517)</td>
+<td align="center">356 (190&#8211;541)</td>
+<td align="center">374 (221&#8211;540)</td>
+<td align="center">369 (202&#8211;558)</td>
+<td align="center">373 (203&#8211;539)</td>
+<td align="center">361 (187&#8211;538)</td>
+<td align="char" char=".">0.11</td>
+</tr>
+<tr>
+<td align="left" colspan="2">CD4 Cell count/ &#956;L at first ART initiation (median, IQR)</td>
+<td align="center">327 (188&#8211;456)</td>
+<td align="center">343 (188&#8211;482)</td>
+<td align="center">356 (208&#8211;507)</td>
+<td align="center">362 (198&#8211;532)</td>
+<td align="center">372 (208&#8211;545)</td>
+<td align="center">356 (190&#8211;529)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">ART 3<sup>rd</sup> drug</td>
+<td align="left">bPI<xref ref-type="table-fn" rid="t002fn001"><sup>a</sup></xref> (%)</td>
+<td align="center">58.8</td>
+<td align="center">63.4</td>
+<td align="center">59.5</td>
+<td align="center">59.7</td>
+<td align="center">47.0</td>
+<td align="center">41.2</td>
+<td align="char" char="." rowspan="4">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">NNRTI<xref ref-type="table-fn" rid="t002fn002"><sup>b</sup></xref> (%)</td>
+<td align="center">26.9</td>
+<td align="center">23.2</td>
+<td align="center">24.3</td>
+<td align="center">23.3</td>
+<td align="center">21.4</td>
+<td align="center">13.8</td>
+</tr>
+<tr>
+<td align="left">INSTI<xref ref-type="table-fn" rid="t002fn003"><sup>c</sup></xref> (%)</td>
+<td align="center">7.8</td>
+<td align="center">7.2</td>
+<td align="center">8.5</td>
+<td align="center">10.4</td>
+<td align="center">26.0</td>
+<td align="center">40.7</td>
+</tr>
+<tr>
+<td align="left">Other (%)</td>
+<td align="center">6.5</td>
+<td align="center">6.2</td>
+<td align="center">7.7</td>
+<td align="center">6.6</td>
+<td align="center">5.6</td>
+<td align="center">4.3</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Alive and in care after 12 months of ART (%)</td>
+<td align="center">83.4</td>
+<td align="center">83.2</td>
+<td align="center">83.9</td>
+<td align="center">83.7</td>
+<td align="center">83.8</td>
+<td align="center">85.1</td>
+<td align="char" char=".">0.86</td>
+</tr>
+<tr>
+<td align="left" colspan="2">From diagnosis to first visit (days, median IQR)</td>
+<td align="center">17 (7&#8211;55)</td>
+<td align="center">15 (7&#8211;42)</td>
+<td align="center">14 (6&#8211;36)</td>
+<td align="center">13 (6&#8211;25)</td>
+<td align="center">11 (5&#8211;26)</td>
+<td align="center">10 (4&#8211;24)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">From first visit to ART (days, median IQR)</td>
+<td align="center">42 (13&#8211;272)</td>
+<td align="center">41 (14&#8211;212)</td>
+<td align="center">35 (12&#8211;147)</td>
+<td align="center">25 (8&#8211;72)</td>
+<td align="center">21 (6&#8211;49)</td>
+<td align="center">18 (7&#8211;42)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">From diagnosis to undetectable VL (days, median IQR)</td>
+<td align="center">378 (201&#8211;810)</td>
+<td align="center">339 (195&#8211;734)</td>
+<td align="center">300 (190&#8211;600)</td>
+<td align="center">257 (167&#8211;436)</td>
+<td align="center">198 (125&#8211;330)</td>
+<td align="center">169 (97&#8211;281)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p><sup>a</sup>: boosted protease inhibitor</p></fn>
+<fn id="t002fn002"><p><sup>b</sup>: non-nucleosidic reverse transcriptase inhibitor</p></fn>
+<fn id="t002fn003"><p><sup>c</sup>: integrase inhibitor.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The median time from first encounter to first ART prescription also varied according to CD4 cell count at the time of diagnosis, from a median of 14 days (IQR 7&#8211;27) in patients with less than 200 cells/ &#956;L to 80 days (IQR 18&#8211;363) in those with more than 500 cells/ &#956;L (see <xref ref-type="table" rid="pone.0222067.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0222067.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222067.t003</object-id>
+<label>Table 3</label> <caption><title>Patients characteristics and studied time lapses, by CD4 cell count at the time of HIV diagnosis.</title></caption>
+<alternatives>
+<graphic id="pone.0222067.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2">CD4 cell count at HIV diagnosis/ &#956;L</th>
+<th align="center">&lt;200<break />N = 1594</th>
+<th align="center">200&#8211;350<break />N = 1589</th>
+<th align="center">350&#8211;500<break />N = 1593</th>
+<th align="center">&gt;500<break />N = 1588</th>
+<th align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Age at diagnosis (Years, median, IQR)</td>
+<td align="center">41 (33&#8211;51)</td>
+<td align="center">37 (29&#8211;47)</td>
+<td align="center">34 (27&#8211;44)</td>
+<td align="center">34 (27&#8211;43)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">End of study (%)</td>
+<td align="left">In care</td>
+<td align="center">75.2</td>
+<td align="center">76.4</td>
+<td align="center">75.5</td>
+<td align="center">77.8</td>
+<td align="char" char="." rowspan="4">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Changed place of care</td>
+<td align="center">7.7</td>
+<td align="center">9.2</td>
+<td align="center">10.7</td>
+<td align="center">9.3</td>
+</tr>
+<tr>
+<td align="left">Lost to follow-up</td>
+<td align="center">11.8</td>
+<td align="center">12.6</td>
+<td align="center">12.9</td>
+<td align="center">12.3</td>
+</tr>
+<tr>
+<td align="left">Dead</td>
+<td align="center">5.3</td>
+<td align="center">1.8</td>
+<td align="center">0.9</td>
+<td align="center">0.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Sex and way of acquisition (%)</td>
+<td align="left">MSM<xref ref-type="table-fn" rid="t003fn001"><sup>a</sup></xref></td>
+<td align="center">15.8</td>
+<td align="center">23.8</td>
+<td align="center">29.1</td>
+<td align="center">31.3</td>
+<td align="char" char="." rowspan="4">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">MSW<xref ref-type="table-fn" rid="t003fn002"><sup>b</sup></xref></td>
+<td align="center">37.7</td>
+<td align="center">25.6</td>
+<td align="center">20.1</td>
+<td align="center">16.7</td>
+</tr>
+<tr>
+<td align="left">Women</td>
+<td align="center">29.6</td>
+<td align="center">26.4</td>
+<td align="center">22.4</td>
+<td align="center">21.6</td>
+</tr>
+<tr>
+<td align="left">Trans gender M&gt;W</td>
+<td align="center">19.5</td>
+<td align="center">29.3</td>
+<td align="center">31.7</td>
+<td align="center">19.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">ART 3<sup>rd</sup> drug (%)</td>
+<td align="left">bPI<xref ref-type="table-fn" rid="t003fn003"><sup>c</sup></xref></td>
+<td align="center">69.7</td>
+<td align="center">58.0</td>
+<td align="center">51.2</td>
+<td align="center">44.2</td>
+<td align="char" char="." rowspan="4">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">NNRTI<xref ref-type="table-fn" rid="t003fn004"><sup>d</sup></xref></td>
+<td align="center">8.5</td>
+<td align="center">22.0</td>
+<td align="center">25.7</td>
+<td align="center">30.7</td>
+</tr>
+<tr>
+<td align="left">INSTI<xref ref-type="table-fn" rid="t003fn005"><sup>e</sup></xref></td>
+<td align="center">13.7</td>
+<td align="center">14.5</td>
+<td align="center">17.2</td>
+<td align="center">20.1</td>
+</tr>
+<tr>
+<td align="left">Other</td>
+<td align="center">8.1</td>
+<td align="center">5.5</td>
+<td align="center">5.9</td>
+<td align="center">5.0</td>
+</tr>
+<tr>
+<td align="left" colspan="2">From diagnosis to first visit (days, median IQR)</td>
+<td align="center">9 (3&#8211;19)</td>
+<td align="center">12 (6&#8211;22)</td>
+<td align="center">12 (5&#8211;22)</td>
+<td align="center">13 (6&#8211;27)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Time from first visit to ART (days, median, IQR)</td>
+<td align="center">14 (7&#8211;27)</td>
+<td align="center">21 (7&#8211;56)</td>
+<td align="center">42 (14&#8211;144)</td>
+<td align="center">80 (18&#8211;364)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">From diagnosis to undetectable VL (days, median IQR)</td>
+<td align="center">228 (150&#8211;300)</td>
+<td align="center">212 (132&#8211;336)</td>
+<td align="center">239 (140&#8211;419)</td>
+<td align="center">289 (142&#8211;634)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>a</sup>: Men having sex with men</p></fn>
+<fn id="t003fn002"><p><sup>b</sup>: men having sex with women</p></fn>
+<fn id="t003fn003"><p><sup>c</sup>: boosted protease inhibitor</p></fn>
+<fn id="t003fn004"><p><sup>d</sup>: non-nucleosidic reverse transcriptase inhibitor</p></fn>
+<fn id="t003fn005"><p><sup>e</sup>: integrase inhibitor.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Overall the median time from HIV diagnosis to first VL below 50 copies/mL was 257 (IQR 151&#8211;496) days, decreasing from 378 (IQR 201&#8211;810) in for PLWH diagnosed in 2010 to 169 days (IQR 97&#8211;281) for those diagnosed in 2015 (p&lt;0.0001). Overall, VL was non-detectable for 74.8% and 81.1% of the patients after 6 and 12 months of ART, respectively. Proportion of patients with a non-detectable VL after 6 months of ART increased from 66.8% for patients diagnosed in 2010 to 83.6% for those diagnosed in 2015 (p&lt;0.0001). Similarly, proportion of patients with a non-detectable VL after 12 months of ART increased from 75.4% for patients diagnosed in 2010 to 83.4% for those diagnosed in 2015 (p = 0.04). At month 12, 83.8% of the patients were actively in care, and 2.1% were dead.</p>
+<p>The first ART was modified, after a median time of 18 (IQR 6&#8211;37) months, in 6 985 (96.4%) patients. Reason for modification was simplification (2 036 patients, 28.1%), adverse event (1 347, 18.6%), virological failure (198, 2.7%), patients&#8217; death (147, 2.1%) or other/unknown reasons (1 540, 21.2%). Among patients whose regimen was simplified, 92.4% were retained in care at month 12, as compared to 89.4% of the patients whose regimen was modified due to adverse events (p&lt;0.0001).</p>
+<p>Evolution of the patients after ART initiation, following the quartiles of time from first encounter to first ART prescription, is described in <xref ref-type="table" rid="pone.0222067.t004">Table 4</xref>. One-year retention in care was better for patients with a longer period between first medical encounter and ART initiation (from 79.9% in the first quartile to 85.2% in the 4<sup>th</sup> quartile, p&lt;0.0001). One-year retention in care did not differ according to the choice of third agent: 83.5% with INNTIs, 81.8% with INSTIs, 84.4% wit bPI, 85.8% for other regimens, p = 0.11. At the end of the study period the proportion of patients lost-to-follow-up was higher in patients with rapid ART initiation (from 14.3% in the first quartile to 12.5% in the 4<sup>th</sup> quartile, p&lt;0.0001). The proportion of patients with an undetectable VL 6 months after ART initiation was lower in case of rapid ART initiation (from 72.1% in the first quartile to 79.6% in the 4<sup>th</sup> quartile, p&lt;0.0001).</p>
+<table-wrap id="pone.0222067.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222067.t004</object-id>
+<label>Table 4</label> <caption><title>Patients&#8217; evolution depending on the time from first medical visit to first ART prescription (classes by quartiles).</title></caption>
+<alternatives>
+<graphic id="pone.0222067.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2">Time from first medical visit to first ART (days)</th>
+<th align="center">&lt; 9<break />N = 1881</th>
+<th align="center">9&#8211;27<break />N = 1784</th>
+<th align="center">28&#8211;90<break />N = 1800</th>
+<th align="center">&gt; 90<break />N = 1780</th>
+<th align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">Alive and in care at month 12 after ART prescription (%)</td>
+<td align="center">79.9</td>
+<td align="center">84.5</td>
+<td align="center">85.9</td>
+<td align="center">85.2</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Time from diagnosis to undetectable VL (days; median, IQR)</td>
+<td align="center">194 (108&#8211;351)</td>
+<td align="center">210 (130&#8211;361)</td>
+<td align="center">232 (152&#8211;357)</td>
+<td align="center">527 (311&#8211;924)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Length of first ART (months; median, IQR)</td>
+<td align="center">14 (5&#8211;32)</td>
+<td align="center">17 (7&#8211;35)</td>
+<td align="center">21.5 (7&#8211;39)</td>
+<td align="center">22 (7&#8211;42)</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">End of study situation</td>
+<td align="left">Dead (%)</td>
+<td align="center">2.2</td>
+<td align="center">3.1</td>
+<td align="center">1.9</td>
+<td align="center">0.9</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="left">LTFU (%)</td>
+<td align="center">14.3</td>
+<td align="center">12.4</td>
+<td align="center">13.4</td>
+<td align="center">12.5</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VL &lt; 50 copies/mL after 6 months of ART (%)</td>
+<td align="center">72.1</td>
+<td align="center">69.8</td>
+<td align="center">78.9</td>
+<td align="center">79.6</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VL &lt; 50 copies/mL after 12 months of ART (%)</td>
+<td align="center">78.0</td>
+<td align="center">81.5</td>
+<td align="center">84.1</td>
+<td align="center">81.4</td>
+<td align="char" char=".">0.12</td>
+</tr>
+<tr>
+<td align="left" colspan="2">VL &lt; 50 copies/mL after 18 months of ART (%)</td>
+<td align="center">83.7</td>
+<td align="center">85.5</td>
+<td align="center">86.9</td>
+<td align="center">87.9</td>
+<td align="char" char=".">0.15</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Uni- and multi-variate logistic regressions (see <xref ref-type="table" rid="pone.0222067.t005">Table 5</xref>) showed that higher age at HIV diagnosis and a longer time between first encounter and first ART prescription were associated with a better 1-year retention. On the opposite, MSW were less likely to be retained in care than women. Notably CD4 cell count at diagnosis was not related with retention in care at month 12.</p>
+<table-wrap id="pone.0222067.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0222067.t005</object-id>
+<label>Table 5</label> <caption><title>Baseline characteristics related with one-year retention in care after starting ART (uni and multivariate logistic regression, HR: hazard ratio, aHR: adjusted hazard ratio, CI95%: 95% confidence interval).</title></caption>
+<alternatives>
+<graphic id="pone.0222067.t005g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.t005" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="left" />
+<th align="center">HR</th>
+<th align="center">CI95%</th>
+<th align="center">P</th>
+<th align="center">aHR</th>
+<th align="center">CI95%</th>
+<th align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="4">Age at HIV diagnosis<xref ref-type="table-fn" rid="t005fn001">*</xref></td>
+<td align="left">&lt; 28 y</td>
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">28&#8211;36 y</td>
+<td align="center">1.39</td>
+<td align="center">1.18&#8211;1.65</td>
+<td align="char" char=".">0.0001</td>
+<td align="center">1.44</td>
+<td align="center">1.21&#8211;1.71</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">37&#8211;46 y</td>
+<td align="center">1.56</td>
+<td align="center">1.32&#8211;1.86</td>
+<td align="char" char=".">&lt;0.0001</td>
+<td align="center">1.67</td>
+<td align="center">1.40&#8211;2.00</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">&gt; 46 y</td>
+<td align="center">1.59</td>
+<td align="center">1.33&#8211;1.89</td>
+<td align="char" char=".">&lt;0.0001</td>
+<td align="center">1.78</td>
+<td align="center">1.48&#8211;2.14</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Sex/route of acquisition</td>
+<td align="left">Women</td>
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">MSW<xref ref-type="table-fn" rid="t005fn002"><sup>a</sup></xref></td>
+<td align="center">0.79</td>
+<td align="center">0.67&#8211;0.93</td>
+<td align="char" char=".">0.007</td>
+<td align="center">0.72</td>
+<td align="center">0.61&#8211;0.86</td>
+<td align="char" char=".">0.0001</td>
+</tr>
+<tr>
+<td align="left">MSM<xref ref-type="table-fn" rid="t005fn003"><sup>b</sup></xref></td>
+<td align="center">1.09</td>
+<td align="center">0.93&#8211;1.28</td>
+<td align="char" char=".">0.3</td>
+<td align="center">1.10</td>
+<td align="center">0.94&#8211;1.28</td>
+<td align="char" char=".">0.94</td>
+</tr>
+<tr>
+<td align="left">Trans M&gt;W<xref ref-type="table-fn" rid="t005fn004"><sup>c</sup></xref></td>
+<td align="center">0.60</td>
+<td align="center">0.33&#8211;1.15</td>
+<td align="char" char=".">0.10</td>
+<td align="center">0.62</td>
+<td align="center">0.34&#8211;1.19</td>
+<td align="char" char=".">0.32</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">CD4 cell count at diagnosis<xref ref-type="table-fn" rid="t005fn001">*</xref></td>
+<td align="left">&lt;200</td>
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">200&#8211;350</td>
+<td align="center">1.22</td>
+<td align="center">1.00&#8211;1.50</td>
+<td align="char" char=".">0.04</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">351&#8211;500</td>
+<td align="center">1.13</td>
+<td align="center">0.92&#8211;1.38</td>
+<td align="char" char=".">0.22</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">&gt;500</td>
+<td align="center">0.98</td>
+<td align="center">0.80&#8211;1.19</td>
+<td align="char" char=".">0.85</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" rowspan="6">Year of HIV Diagnosis</td>
+<td align="left">2010</td>
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">2011</td>
+<td align="center">0.98</td>
+<td align="center">0.79&#8211;1.22</td>
+<td align="char" char=".">0.9</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">2012</td>
+<td align="center">1.03</td>
+<td align="center">0.83&#8211;1.29</td>
+<td align="char" char=".">0.7</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">2013</td>
+<td align="center">1.02</td>
+<td align="center">0.82&#8211;1.27</td>
+<td align="char" char=".">0.8</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">2014</td>
+<td align="center">1.03</td>
+<td align="center">0.83&#8211;1.27</td>
+<td align="char" char=".">0.8</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">2015</td>
+<td align="center">1.14</td>
+<td align="center">0.91&#8211;1.42</td>
+<td align="char" char=".">0.2</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left" rowspan="4">Time from first visit to ART (days)<xref ref-type="table-fn" rid="t005fn001">*</xref></td>
+<td align="left">&lt; 9 days</td>
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+<td align="center">Reference</td>
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">9&#8211;27</td>
+<td align="center">1.37</td>
+<td align="center">1.16&#8211;1.63</td>
+<td align="char" char=".">&lt;0.0001</td>
+<td align="center">1.36</td>
+<td align="center">1.14&#8211;1.61</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">28&#8211;90</td>
+<td align="center">1.53</td>
+<td align="center">1.29&#8211;1.82</td>
+<td align="char" char=".">&lt;0.0001</td>
+<td align="center">1.52</td>
+<td align="center">1.28&#8211;1.82</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">&gt; 90</td>
+<td align="center">1.45</td>
+<td align="center">1.22&#8211;1.72</td>
+<td align="char" char=".">&lt;0.0001</td>
+<td align="center">1.48</td>
+<td align="center">1.24&#8211;1.76</td>
+<td align="char" char=".">&lt;0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>*: classes following quartiles</p></fn>
+<fn id="t005fn002"><p><sup>a</sup>: Men having sex with women</p></fn>
+<fn id="t005fn003"><p><sup>b</sup>: men having sex with men</p></fn>
+<fn id="t005fn004"><p><sup>c</sup>: transgender men to women</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec008" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this large nationwide prospectively followed population, we observed that the median time between HIV diagnosis and first encounter with an HIV clinician significantly decreased from a median of 17 days for patients diagnosed in 2010 to 10 days for those diagnosed in 2015. Time between this first encounter and first ART prescription also decreased from a median of 42 to 18 days. This reflects changes in national guidelines that since 2013 have been recommending treatment for all PLWH regardless of CD4 cell counts [<xref ref-type="bibr" rid="pone.0222067.ref009">9</xref>]. Besides historic evolution, the time from first medical encounter to ART prescription also depended on the severity of the disease at the time of diagnosis. Starting early has been described to be related with a decrease in mortality [<xref ref-type="bibr" rid="pone.0222067.ref010">10</xref>], a better CD4 cell count recovery [<xref ref-type="bibr" rid="pone.0222067.ref011">11</xref>] and a better retention in care [<xref ref-type="bibr" rid="pone.0222067.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0222067.ref013">13</xref>]. In these studies, an early start was defined as 1 month [<xref ref-type="bibr" rid="pone.0222067.ref010">10</xref>], 6 months [<xref ref-type="bibr" rid="pone.0222067.ref011">11</xref>] or one day when feasible [<xref ref-type="bibr" rid="pone.0222067.ref012">12</xref>]. Notably in our population diagnosed in 2015, 25% received their first ART prescription before 7 days after first medical encounter, 50% within 18 days and 75% before 42 days.</p>
+<p>Rapid ART initiation also has the potential to bring down the period of possible HIV transmission, and is part of what is needed to reach the goal of curbing the epidemic [<xref ref-type="bibr" rid="pone.0222067.ref014">14</xref>]. Furthermore, French national recommendations have been recommending to use an INSTI-based first regimen since 2014. In addition to more widely use of INSTI in first-line ART, early ART initiation led to shortening by more than half the time between HIV diagnosis and first non-detectable viral load in our population across the study period. This is an important public health finding on a community level, but has to be balanced with the proportion of patients not pursuing care and treatment.</p>
+<p>In our population, initiation of a first anti-retroviral treatment within 9 days was negatively associated both with retention in care 12 months later and with being still in care at the end of the study period. These patients not retained in care will necessarily come back to care, and such care interruptions have been described as detrimental [<xref ref-type="bibr" rid="pone.0222067.ref015">15</xref>]. Other characteristics related with retention in care have already been described by others, such as age and men having sex with men [<xref ref-type="bibr" rid="pone.0222067.ref016">16</xref>&#8211;<xref ref-type="bibr" rid="pone.0222067.ref018">18</xref>]. The poorer retention rate in men having sex with women could be related to some specific factors, more prevalent in this population, such as migration, stigmatization, deny, and/or socio-psychological situation. It is possible that some characteristics not taken in account in our analyses played a significant role, specifically the social and life context of populations, so this question needs further investigation. Absence of improvement in retention in care with early ART start has recently been described with the RAPID initiative in San Francisco [<xref ref-type="bibr" rid="pone.0222067.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0222067.ref014">14</xref>], where retention was not better in patients starting ART on the day of HIV diagnosis. In the Chinese national program, among patients starting ART within 30 days after HIV diagnosis, starting earlier than 30 days was not related with a better retention in care [<xref ref-type="bibr" rid="pone.0222067.ref013">13</xref>]. The French health and social system allows all HIV infected patients to access care free of charge without any delay, so 75% of the studied patients had been starting ART within 90 days. In contrast, in the START study, an early start was defined as starting ART in the first 4 months [<xref ref-type="bibr" rid="pone.0222067.ref019">19</xref>]. We can hypothesize that as our entire cohort has been receiving ART in a relatively short time, going faster than already fast did not bring any advantage regarding retention in care. Indeed, if patients are not prepared, educated and motivated on HIV treatment, advantages and constraints, starting ART too early could be counterproductive, stressing the need for qualitative studies on the reasons for remaining in care. It is possible that some populations, as MSM or women, have more prior personal interest in being treated early because they are aware of the individual and collective benefits of having an undetectable VL. On the contrary, MSW may be less informed before the announcement of their infection, thus less motivated, and in need of a longer time to understand the importance of care and treatment. Thus, they may drop off due to lack of information or interest. In addition, barriers to an early start are present in some patients, in particular the need to exclude latent or active tuberculosis which is prevalent in our cohort that includes patients both from Sub Saharian Africa and the Caribbean Islands [<xref ref-type="bibr" rid="pone.0222067.ref020">20</xref>]. Since ART is initiated for life and since the process of preparing patients to accept such a treatment and address barriers to treatment can vary notably, we consider, based on the results of our study, that an early start of ART should not be a hasty start of ART. Waiting 2 to 4 weeks after first HIV clinician encounter to initiate ART was associated with a significantly better 1-year retention.</p>
+<p>We observed that while the median duration of first ART regimen was of 18 months, 25% of the patients changed their regimen during the first 6 months. The major reason for changing the regimen was treatment simplification, mainly due to the availability of new single tablet regimens. ART simplification was associated with a better retention in care, while changing ART because of intolerance was not. This observation could be explained both ways. Either physicians chose to propose simple treatments to well-adherent patients, or on the other end patients suffering from adverse events may have a negative perception and be discouraged to continue care. Anyhow, the relation between ART modifications and retention in care needs further evaluation.</p>
+<p>The strength of our study is the large prospectively followed population. Nevertheless, we have limitations. First some important patients&#8217; characteristics that may be related with retention in care could not be taken in account in this analysis. Second, it has been reported that in some French areas, natives from sub Saharan Africa had delayed access to care [<xref ref-type="bibr" rid="pone.0222067.ref020">20</xref>]. We could not analyze place of birth because of missing information in more than 25% of the population. Third, the socio-economic status of the patients constituting the cohort is known to be very different between the participating centers [<xref ref-type="bibr" rid="pone.0222067.ref021">21</xref>], but we could not find any association between the geographical region of the care center and one-year retention in care else the already known difference between mainland and overseas territories (See <xref ref-type="supplementary-material" rid="pone.0222067.s002">S1 Table</xref>). The relationship between social deprivation and retention in care in France remains to be studied.</p>
+<p>In conclusion, in a country with unrestricted rapid access to ART, the time from first medical encounter to first ART significantly decreased in the recent years. Evolving recommendations and INSTI-based initial regimens significantly reduced the time from HIV diagnosis to first undetectable viral load. Nonetheless, keeping recently diagnosed HIV infected patients in care still remains challenging. Starting treatment too rapidly does not seem to be profitable for all and every patient.</p>
+</sec>
+<sec id="sec009">
+<title>Supporting information</title>
+<supplementary-material id="pone.0222067.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.s001" ns0:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title />
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0222067.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.s002" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Proportion of patients in care at month 12 by region of care.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>Lise Cuzin designed the research, did the analysis and wrote the first draft, Laurent Cotte, Clotilde Allavena, Marc-Antoine Valantin, David Rey, Pierre Delobel, Pascal Pugliese were responsible for the data quality in the centers, provided advice along the study and participated in the manuscript edition, Cyrille Delpierre provided advice on the analysis and the final presentation of results and discussion, Fran&#231;ois Raffi gave important input on the analysis and the redaction, Andre Cabi&#233; was responsible for the data in his center and gave useful advice during the paper&#8217;s redaction.</p>
+<p>We are indebted to the technical staff of each site for controlling the quality of the data, especially to Thomas Jovelin for data extraction (Nantes, France).</p>
+<p>The prospective database is collected via the Nadis<sup>&#174;</sup> electronic medical record (Fedialis Medica, Advanced Biological Laboratories, France).</p>
+<p>* <bold>Dat&#8217;AIDS Study Group</bold>: <bold>Lead</bold> Pr A. Cabi&#233;, Martinique university Hospital, Fort de France, FWI. <email ns0:type="simple">Andre.cabie@chu-martinique.fr</email>. Members: C. Drobacheff-Thi&#233;baut, A. Foltzer, K. Bouiller, L. Hustache- Mathieu, C. Chirouze, Q. Lepiller, F. Bozon, O Babre, A.S. Brunel, P. Muret (Besan&#231;on University Hospital); H. Laurichesse, O. Lesens, M. Vidal, N. Mrozek, C. Aumeran, O. Baud, V. Corbin, P. Letertre-Gibert, S. Casanova, J. Prouteau, C. Jacomet (Clermont Ferrand University Hospital); I. Lamaury, I. Fabre, E. Curlier, R. Ouissa, C. Herrmann-Storck,B. Tressieres, T. Bonijoly, M.C. Receveur, F. Boulard, C.Daniel, C. Clavel (Guadeloupe University Hospital); D. Merrien, P. Perr&#233;, T. Guimard, O. Bollangier, S. Leautez, M. Morrier, L. Laine (La Roche sur Yon Hospital); F. Ader, A. Becker, F. Biron, A. Boibieux, L. Cotte, T. Ferry, P Miailhes, T. Perpoint, S. Roux, C. Triffault-Fillit, S. Degroodt, C. Brochier, F Valour, C. Chidiac (Lyon University Hospital); A. M&#233;nard, A.Y. Belkhir, P.Colson, C. Dhiver, A.Madrid, M. Martin-Degiovani, L. Meddeb, M. Mokhtari, A.Motte, A.Raoux, I. Ravaux, C.Tamalet, C. Tom&#233;i, H. Tissot Dupont (Marseille IHU M&#233;diterran&#233;e); S. Br&#233;gigeon, O. Zaegel-Faucher, V. Obry-Roguet, H. Laroche, M. Orticoni, M.J. Soavi, P. Geneau de Lamarli&#232;re, E. Ressiot, M.J. Ducassou, I. Jaquet, S. Galie, A. Galinier, P. Martinet, M. Landon, A.S. Ritleng, A. Ivanova, C. Debreux, C. Lions, I. Poizot-Martin (Marseille Ste Marguerite Hospital); O. Cabras, L. Cuzin, K. Guitteaud, M. Illiaquer, S. Pierre-Fran&#231;ois, L. Osei, J. Pasquier, K. Rome, E. Sidani, J.M. Turmel, C. Varache, A. Cabi&#233; (Martinique University Hospital); N. Atoui, M. Bistoquet, E Delaporte, V. Le Moing, A. Makinson, N. Meftah, C. Merle de Boever, B. Montes, A. Montoya Ferrer, E. Tuaillon, J. Reynes (Montpellier University Hospital); M. Andr&#233;, L. Boyer, MP. Bouillon, M. Delestan, C. Rabaud, T. May, B. Hoen (Nancy University Hospital); C. Allavena, C. Bernaud, E. Billaud, C. Biron, B. Bonnet, S. Bouchez, D. Boutoille, C. Brunet-Cartier, C. Deschanvres, B. Gaborti, N. Hall, T. Jovelin, P. Morineau, V. Reliquet, S. S&#233;cher, M. Cavellec, A. Soria, V. Ferr&#233;, E. Andr&#233;-Garnier, A. Rodallec, M. Lefebvre, O. Grossi, O. Aubry, F. Raffi (Nantes University Hospital); P. Pugliese, S. Breaud, C. Ceppi, D. Chirio, E. Cua, P. Dellamonica, E. Demonchy, A. De Monte, J. Durant, C. Etienne, S. Ferrando, R. Garraffo, C. Michelangeli, V. Mondain, A. Naqvi, N. Oran, I. Perbost, S. Pillet, C. Pradier, B. Prouvost-Keller, K. Risso, V. Rio, PM. Roger, E. Rosenthal, S. Sausse, I. Touitou, S. Wehrlen-Pugliese, G. Zouzou (Nice University Hospital); L. Hocqueloux, T. Prazuck, C. Gubavu, A. S&#232;ve, A. Maka, C. Boulard, G. Thomas (Orleans University Hospital); E. Botelho-Nevers, A. Gagneux-Brunon, A. Fr&#233;sard, V. Ronat, F. Lucht (St Etienne); P. Fischer, M. Partisani, C. Cheneau, M Priester, ML Batard, C Bernard-Henry, E. de Mautort, S. Fafi-Kremer, D. Rey (Strasbourg); M. Alvarez, N. Biezunski, A. Debard, C. Delpierre, P. Lansalot, L. Leli&#232;vre, G. Martin-Blondel, M. Piffaut, L. Porte, K. Saune, P. Delobel (Toulouse University Hospital); F. Ajana, E. A&#239;ssi, I. Alcaraz, V. Baclet, L. Bocket, A. Boucher, P. Choisy, T. Huleux, B. Lafon-Desmurs, A. Meybeck, M. Pradier, O. Robineau, N. Viget, M. Valette (Tourcoing); Y. Yazdanpanah, R. Landman, C. Duvivier, M.A. Valantin, R. Agher, C. Katlama, O. Lortholary, V. Avettand-Fenoel, C. Rouzioux, P.H. Consigny, G. Cessot, F. Touam, R. Usubillaga, K. Benhadj (Paris University Hospitals).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0222067.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><collab>Insight Start Study Group</collab>, <name name-style="western"><surname>Lundgren</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Babiker</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Gordin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Emery</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Grund</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Initiation of Antiretroviral Therapy in Early Asymptomatic HIV Infection</article-title>. <source>N Engl J Med</source>. <year>2015</year>;<volume>373</volume>(<issue>9</issue>):<fpage>795</fpage>&#8211;<lpage>807</lpage>. Epub 2015/07/21. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa1506816" ns0:type="simple">10.1056/NEJMoa1506816</ext-link></comment> <object-id pub-id-type="pmid">26192873</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref002"><label>2</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Group</surname> <given-names>TAS</given-names></name>, <name name-style="western"><surname>Danel</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Moh</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gabillard</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Badje</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Le Carrou</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>A Trial of Early Antiretrovirals and Isoniazid Preventive Therapy in Africa</article-title>. <source>N Engl J Med</source>. <year>2015</year>;<volume>373</volume>(<issue>9</issue>):<fpage>808</fpage>&#8211;<lpage>22</lpage>. Epub 2015/07/21. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1056/NEJMoa1507198" ns0:type="simple">10.1056/NEJMoa1507198</ext-link></comment> <object-id pub-id-type="pmid">26193126</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zolopa</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Andersen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Powderly</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Sanchez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sanne</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Suckow</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Early antiretroviral therapy reduces AIDS progression/death in individuals with acute opportunistic infections: a multicenter randomized strategy trial</article-title>. <source>PLoS One</source>. <year>2009</year>;<volume>4</volume>(<issue>5</issue>):<fpage>e5575</fpage>. Epub 2009/05/15. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pone.0005575" ns0:type="simple">10.1371/journal.pone.0005575</ext-link></comment> <object-id pub-id-type="pmid">19440326</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Pilcher</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Ospina-Norvell</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Dasgupta</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hartogensis</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Torres</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>The Effect of Same-Day Observed Initiation of Antiretroviral Therapy on HIV Viral Load and Treatment Outcomes in a US Public Health Setting</article-title>. <source>J Acquir Immune Defic Syndr</source>. <year>2017</year>;<volume>74</volume>(<issue>1</issue>):<fpage>44</fpage>&#8211;<lpage>51</lpage>. Epub 2016/07/20. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/QAI.0000000000001134" ns0:type="simple">10.1097/QAI.0000000000001134</ext-link></comment> <object-id pub-id-type="pmid">27434707</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Saag</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Benson</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Gandhi</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Hoy</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Landovitz</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Mugavero</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>Antiretroviral Drugs for Treatment and Prevention of HIV Infection in Adults: 2018 Recommendations of the International Antiviral Society-USA Panel</article-title>. <source>JAMA</source>. <year>2018</year>;<volume>320</volume>(<issue>4</issue>):<fpage>379</fpage>&#8211;<lpage>96</lpage>. Epub 2018/07/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1001/jama.2018.8431" ns0:type="simple">10.1001/jama.2018.8431</ext-link></comment> <object-id pub-id-type="pmid">30043070</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Koenig</surname> <given-names>SP</given-names></name>, <name name-style="western"><surname>Dorvil</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Devieux</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Hedt-Gauthier</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>Riviere</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Faustin</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Same-day HIV testing with initiation of antiretroviral therapy versus standard care for persons living with HIV: A randomized unblinded trial</article-title>. <source>PLoS Med</source>. <year>2017</year>;<volume>14</volume>(<issue>7</issue>):<fpage>e1002357</fpage>. Epub 2017/07/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1371/journal.pmed.1002357" ns0:type="simple">10.1371/journal.pmed.1002357</ext-link></comment> <object-id pub-id-type="pmid">28742880</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Palar</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Cunningham</surname> <given-names>WE</given-names></name>. <article-title>Competing subsistence needs are associated with retention in care and detectable viral load among people living with HIV</article-title>. <source>J HIV AIDS Soc Serv</source>. <year>2018</year>;<volume>17</volume>(<issue>3</issue>):<fpage>163</fpage>&#8211;<lpage>79</lpage>. Epub 2018/12/07. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/15381501.2017.1407732" ns0:type="simple">10.1080/15381501.2017.1407732</ext-link></comment> <object-id pub-id-type="pmid">30505245</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cuzin</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hoen</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Pugliese</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Abel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pierre-Fran&#231;ois</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jovelin</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Proportion and consequences of late HIV diagnosis in French West Indies</article-title>. <source>Bull Epid&#233;miol Hebd</source>. <year>2018</year>;<volume>40&#8211;41</volume>:<fpage>813</fpage>&#8211;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="pone.0222067.ref009"><label>9</label><mixed-citation publication-type="other" ns0:type="simple">Morlat P. Experts&#8217; recommendations for HIV positive patients&#8217; care. 2013 [cited 2018 December, 5]. French recommendations on HIV treatment and prevention]. <ext-link ext-link-type="uri" ns0:href="https://cns.sante.fr/dossiers/rapport-dexperts-2013/" ns0:type="simple">https://cns.sante.fr/dossiers/rapport-dexperts-2013/</ext-link>.</mixed-citation></ref>
+<ref id="pone.0222067.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>McGoogan</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>CX</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dou</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>Immediate Antiretroviral Therapy Decreases Mortality Among Patients With High CD4 Counts in China: A Nationwide, Retrospective Cohort Study</article-title>. <source>Clinical infectious diseases: an official publication of the Infectious Diseases Society of America</source>. <year>2018</year>;<volume>66</volume>(<issue>5</issue>):<fpage>727</fpage>&#8211;<lpage>34</lpage>. Epub 2017/10/27. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/cix878" ns0:type="simple">10.1093/cid/cix878</ext-link></comment> <object-id pub-id-type="pmid">29069362</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Stirrup</surname> <given-names>OT</given-names></name>, <name name-style="western"><surname>Copas</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Phillips</surname> <given-names>AN</given-names></name>, <name name-style="western"><surname>Gill</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Geskus</surname> <given-names>RB</given-names></name>, <name name-style="western"><surname>Touloumi</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Predictors of CD4 cell recovery following initiation of antiretroviral therapy among HIV-1 positive patients with well-estimated dates of seroconversion</article-title>. <source>HIV Med</source>. <year>2018</year>;<volume>19</volume>(<issue>3</issue>):<fpage>184</fpage>&#8211;<lpage>94</lpage>. Epub 2017/12/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/hiv.12567" ns0:type="simple">10.1111/hiv.12567</ext-link></comment> <object-id pub-id-type="pmid">29230953</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ford</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Migone</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Calmy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kerschberger</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kanters</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nsanzimana</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Benefits and risks of rapid initiation of antiretroviral therapy</article-title>. <source>AIDS</source>. <year>2018</year>;<volume>32</volume>(<issue>1</issue>):<fpage>17</fpage>&#8211;<lpage>23</lpage>. Epub 2017/11/08. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1097/QAD.0000000000001671" ns0:type="simple">10.1097/QAD.0000000000001671</ext-link></comment> <object-id pub-id-type="pmid">29112073</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Zhao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>McGoogan</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Sha</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Nationwide Cohort Study of Antiretroviral Therapy Timing: Treatment Dropout and Virological Failure in China, 2011&#8211;2015</article-title>. <source>Clinical infectious diseases: an official publication of the Infectious Diseases Society of America</source>. <year>2019</year>;<volume>68</volume>(<issue>1</issue>):<fpage>43</fpage>&#8211;<lpage>50</lpage>. Epub 2018/05/18. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/ciy400" ns0:type="simple">10.1093/cid/ciy400</ext-link></comment> <object-id pub-id-type="pmid">29771296</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Scheer</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hsu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Schwarcz</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pipkin</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Havlir</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Buchbinder</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Trends in the San Francisco Human Immunodeficiency Virus Epidemic in the "Getting to Zero" Era</article-title>. <source>Clinical infectious diseases: an official publication of the Infectious Diseases Society of America</source>. <year>2018</year>;<volume>66</volume>(<issue>7</issue>):<fpage>1027</fpage>&#8211;<lpage>34</lpage>. Epub 2017/11/04. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/cix940" ns0:type="simple">10.1093/cid/cix940</ext-link></comment> <object-id pub-id-type="pmid">29099913</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cuzin</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Dellamonica</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Yazdanpanah</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Bouchez</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rey</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hoen</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Characteristics and consequences of medical care interruptions in HIV-infected patients in France</article-title>. <source>Epidemiol Infect</source>. <year>2016</year>;<volume>144</volume>(<issue>11</issue>):<fpage>2363</fpage>&#8211;<lpage>70</lpage>. Epub 2016/04/02. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1017/S0950268816000625" ns0:type="simple">10.1017/S0950268816000625</ext-link></comment> <object-id pub-id-type="pmid">27033595</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Desir</surname> <given-names>FA</given-names></name>, <name name-style="western"><surname>Lesko</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Moore</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Horberg</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Crane</surname> <given-names>HM</given-names></name>, <etal>et al</etal>. <article-title>One Size Fits (n)One: The Influence of Sex, Age, and Sexual Human Immunodeficiency Virus (HIV) Acquisition Risk on Racial/Ethnic Disparities in the HIV Care Continuum in the United States</article-title>. <source>Clinical infectious diseases: an official publication of the Infectious Diseases Society of America</source>. <year>2019</year>;<volume>68</volume>(<issue>5</issue>):<fpage>795</fpage>&#8211;<lpage>802</lpage>. Epub 2018/09/01. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1093/cid/ciy556" ns0:type="simple">10.1093/cid/ciy556</ext-link></comment> <object-id pub-id-type="pmid">30169624</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Giordano</surname> <given-names>TP</given-names></name>, <name name-style="western"><surname>Hartman</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gifford</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Backus</surname> <given-names>LI</given-names></name>, <name name-style="western"><surname>Morgan</surname> <given-names>RO</given-names></name>. <article-title>Predictors of retention in HIV care among a national cohort of US veterans</article-title>. <source>HIV Clin Trials</source>. <year>2009</year>;<volume>10</volume>(<issue>5</issue>):<fpage>299</fpage>&#8211;<lpage>305</lpage>. Epub 2009/11/13. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1310/hct1005-299" ns0:type="simple">10.1310/hct1005-299</ext-link></comment> <object-id pub-id-type="pmid">19906622</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Israelski</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Gore-Felton</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Power</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wood</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Koopman</surname> <given-names>C</given-names></name>. <article-title>Sociodemographic characteristics associated with medical appointment adherence among HIV-seropositive patients seeking treatment in a county outpatient facility</article-title>. <source>Prev Med</source>. <year>2001</year>;<volume>33</volume>(<issue>5</issue>):<fpage>470</fpage>&#8211;<lpage>5</lpage>. Epub 2001/10/26. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1006/pmed.2001.0917" ns0:type="simple">10.1006/pmed.2001.0917</ext-link></comment> <object-id pub-id-type="pmid">11676589</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Molina</surname> <given-names>J-M</given-names></name>, <name name-style="western"><surname>Grund</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Gordin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Schechter</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Losso</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Which HIV-infected adults with high CD4 T-cell counts benefit most from immediate initiation of antiretroviral therapy? A post-hoc subgroup analysis of the START trial</article-title>. <source>The Lancet HIV</source>. <year>2018</year>;<volume>5</volume>(<issue>4</issue>):<fpage>e172</fpage>&#8211;<lpage>e80</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/S2352-3018(18)30003-1" ns0:type="simple">10.1016/S2352-3018(18)30003-1</ext-link></comment> <object-id pub-id-type="pmid">29352723</object-id></mixed-citation></ref>
+<ref id="pone.0222067.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gatey</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Brun</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hamet</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Diamantis</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sellier</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Bouchaud</surname> <given-names>O</given-names></name>, <etal>et al</etal>. <article-title>Does region of origin influence the timing and outcome of first-line antiretroviral therapy in France?</article-title> <source>HIV Med</source>. <year>2019</year>;<volume>20</volume>(<issue>2</issue>):<fpage>175</fpage>&#8211;<lpage>81</lpage>. Epub 2018/12/07. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/hiv.12697" ns0:type="simple">10.1111/hiv.12697</ext-link></comment> <object-id pub-id-type="pmid">30506853</object-id>.</mixed-citation></ref>
+<ref id="pone.0222067.ref021"><label>21</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Cuzin</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Yazdanpanah</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Huleux</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Cotte</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Pugliese</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Allavena</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>No relationship between late HIV diagnosis and social deprivation in newly diagnosed patients in France</article-title>. <source>HIV Med</source>. <year>2018</year>;<volume>19</volume>(<issue>3</issue>):<fpage>238</fpage>&#8211;<lpage>42</lpage>. Epub 2017/08/24. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/hiv.12545" ns0:type="simple">10.1111/hiv.12545</ext-link></comment> <object-id pub-id-type="pmid">28834136</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0222067.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222067.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Apetrei</surname>
+<given-names>Cristian</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cristian Apetrei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222067" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">14 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-18078</p>
+<p>Too fast to stay on track? Shorter time to first anti-retroviral regimen is not associated with better retention in care in the French Dat&#8217;AIDS cohort</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Cuzin,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, by one reviewer and myself, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>Specifically, both myself and the reviewer felt that there was only minimal discussion on the possible reasons for early ART initiation relating to lower retention rates. This may be discussed further with additional speculations.</p>
+<p>We would appreciate receiving your revised manuscript by Sep 28 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Cristian Apetrei, MD, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include captions for your Supporting Information files at the end of your manuscript, and update any in-text citations to match accordingly. Please see our Supporting Information guidelines for more information: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/supporting-information" ns0:type="simple">http://journals.plos.org/plosone/s/supporting-information</ext-link>.</p>
+<p>3. One of the noted authors is a group or consortium: Dat&#8217;AIDS Study group. In addition to naming the author group, please list the individual authors and affiliations within this group in the acknowledgments section of your manuscript. Please also indicate clearly a lead author for this group along with a contact email address.</p>
+<p>4. Please note that all PLOS journals ask authors to adhere to our policies for sharing of data and materials: <ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/data-availability" ns0:type="simple">https://journals.plos.org/plosone/s/data-availability</ext-link>. According to PLOS ONE&#8217;s Data Availability policy, we require that the minimal dataset underlying results reported in the submission must be made immediately and freely available at the time of publication. As such, please remove any instances of 'unpublished data' or 'data not shown' in your manuscript and replace these with either the relevant data (in the form of additional figures, tables or descriptive text, as appropriate), a citation to where the data can be found, or remove altogether any statements supported by data not presented in the manuscript.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: The study titled, &#8220;Too fast to stay on track? Shorter time to first anti-retroviral regimen is not associated with 2 better retention in care in the French Dat&#8217;AIDS cohort&#8221; describes factors affecting time from HIV diagnosis to first medical encounter and first ART prescription and influence of an early ART start on 1-year retention in care. The authors report a decrease in time between HIV diagnosis and first medical encounter as well as first ART prescription between 2010 and 2015. However, interestingly, the authors report that initiation of ART within 9 days negatively correlated with retention in care at the end of one year. As the authors have correctly noted, this study has limitations in that patient characteristics, which may relate to retention in care, have not been taken into account.</p>
+<p>Minor comments</p>
+<p>1. There is only minimal discussion on the possible reasons for early ART initiation relating to lower retention rates. Agreed that qualitative studies are required to identify exact reasons, and the authors have mentioned less time to motivate and prepare the patients as a possible reason. This may be discussed further with additional speculations.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0222067.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222067.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0222067" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0222067.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">20 Aug 2019</named-content>
+</p>
+<p>We did our best to answer yours and the reviewer&#8217;s queries, and in details:</p>
+<p>1. The text was edited to meet PLOS ONE's style requirements</p>
+<p>2. A lead author for the &#8220;Dat&#8217;AIDS Study Group&#8221; along with a contact email address has been added and the affiliation of the authors added</p>
+<p>3. &#8220;Data not shown&#8221; has been removed from the text and a supplementary table has been added, along with a brief explicative sentence (line 245)</p>
+<p>4. We tried to speculate more on the reasons why very fast ART initiation could be related with poor retention, see additional sentences lines 220-225. As we were truly surprised by this result, we do come short to find an explanation, and are planning to investigate this in depth.</p>
+<p>We are willing to make more modifications if necessary.</p>
+<supplementary-material id="pone.0222067.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0222067.s003" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222067.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222067.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Apetrei</surname>
+<given-names>Cristian</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cristian Apetrei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222067" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">22 Aug 2019</named-content>
+</p>
+<p>Too fast to stay on track? Shorter time to first anti-retroviral regimen is not associated with better retention in care in the French Dat&#8217;AIDS cohort</p>
+<p>PONE-D-19-18078R1</p>
+<p>Dear Dr. Cuzin,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Cristian Apetrei, MD, PhD</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0222067.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0222067.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Apetrei</surname>
+<given-names>Cristian</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Cristian Apetrei</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0222067" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">28 Aug 2019</named-content>
+</p>
+<p>PONE-D-19-18078R1 </p>
+<p>Too fast to stay on track? Shorter time to first anti-retroviral regimen is not associated with better retention in care in the French Dat&#8217;AIDS cohort </p>
+<p>Dear Dr. Cuzin:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Cristian Apetrei  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

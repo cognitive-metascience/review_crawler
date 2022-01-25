@@ -1,0 +1,1791 @@
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220417</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-17487</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Exocrine glands</subject><subj-group><subject>Prostate gland</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Exocrine glands</subject><subj-group><subject>Prostate gland</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmaceutics</subject><subj-group><subject>Drug therapy</subject><subj-group><subject>Receptor antagonist therapy</subject><subj-group><subject>Alpha-adrenergic antagonist therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Urology</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Pressure</subject><subj-group><subject>Osmotic pressure</subject><subj-group><subject>Tonicity</subject><subj-group><subject>Hypertonic</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Bladder</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Bladder</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Regression analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Regression analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Professions</subject><subj-group><subject>Medical personnel</subject><subj-group><subject>Medical doctors</subject><subj-group><subject>Physicians</subject><subj-group><subject>General practitioners</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Health care providers</subject><subj-group><subject>Medical doctors</subject><subj-group><subject>Physicians</subject><subj-group><subject>General practitioners</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Symptom improvement and predictors associated with improvement after 6 weeks of alpha-blocker therapy: An exploratory, single-arm, open-label cohort study</article-title>
+<alt-title alt-title-type="running-head">Symptom improvement and predictors associated with improvement after 6 weeks of alpha-blocker therapy</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" ns0:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5545-4155</contrib-id>
+<name name-style="western">
+<surname>van der Worp</surname>
+<given-names>Henk</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; original draft</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Kollen</surname>
+<given-names>Boudewijn J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Vermist</surname>
+<given-names>Tom</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Steffens</surname>
+<given-names>Martijn G.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" ns0:type="simple">
+<name name-style="western">
+<surname>Blanker</surname>
+<given-names>Marco H.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing &#8211; review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of General Practice and Elderly Care Medicine, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Urology, Isala Clinics Zwolle, Zwolle, The Netherlands</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" ns0:type="simple">
+<name name-style="western">
+<surname>Thumbikat</surname>
+<given-names>Praveen</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" />
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Northwestern University, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email ns0:type="simple">h.van.der.worp@umcg.nl</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>25</day>
+<month>7</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>7</issue>
+<elocation-id>e0220417</elocation-id>
+<history>
+<date date-type="received">
+<day>20</day>
+<month>6</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>15</day>
+<month>7</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>van der Worp et al</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" ns0:href="info:doi/10.1371/journal.pone.0220417" />
+<abstract>
+<sec id="sec001">
+<title>Objectives</title>
+<p>Clinicians should not only know how many patients will benefit from alpha-blocker therapy but should also be able to identify who will benefit. We studied the changes in patient symptoms following alpha-blocker therapy and the predictors of symptom improvement in clinical practice.</p>
+</sec>
+<sec id="sec002">
+<title>Design</title>
+<p>This was a single-arm, open-label observational cohort study with a 6-week follow-up.</p>
+</sec>
+<sec id="sec003">
+<title>Setting</title>
+<p>Twenty-two pharmacies in the Netherlands.</p>
+</sec>
+<sec id="sec004">
+<title>Participants</title>
+<p>Patients were eligible for inclusion if they attended a pharmacy with a new prescription for an alpha-blocker from a general practitioner or urologist.</p>
+</sec>
+<sec id="sec005">
+<title>Primary and secondary outcomes</title>
+<p>Outcomes were assessed using the International Prostate Symptom Score (IPSS), Overactive Bladder Questionnaire Short Form (OAB-q SF), and Patient Global Impression of Improvement (PGI-I). Demographic, disease-related, and drug-related information were collected to identify predictors of symptom improvement. These predictors were then assessed by logistic and linear regression analyses of both the original data set and an imputed data set that accounted for the missing variables.</p>
+</sec>
+<sec id="sec006">
+<title>Results</title>
+<p>During the study, 37% of patients with lower urinary tract symptoms perceived clear symptomatic improvement based on the results of the PGI-I. Improvement was more likely in those who still used alpha-blockers at the end of the 6-week study period and in those who used multiple medications. Although symptom scores decreased significantly on the IPSS and OAB-q SF, the only predictor of change was the pretreatment symptom severity.</p>
+</sec>
+<sec id="sec007">
+<title>Conclusions</title>
+<p>Approximately one-third of our cohort perceived symptom improvement on alpha-blocker therapy. However, we identified no clear predictors of who might benefit from alpha-blocker treatment, indicating that alpha-blockers should still be prescribed on a trial basis.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Hein Hogerzeil Foundation</institution>
+</funding-source>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Blanker</surname>
+<given-names>Marco H.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by The Hein Hogerzeil Foundation with an unrestricted grant to MB. The Foundation was not involved in the design of this study, nor in the data collection, data analyses, interpretation of the outcomes, or the writing of this manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0" />
+<table-count count="4" />
+<page-count count="12" />
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec008" sec-type="intro">
+<title>Introduction</title>
+<p>Alpha-blockers are the first step of drug treatment for men with moderate to severe lower urinary tract symptoms (LUTS).[<xref ref-type="bibr" rid="pone.0220417.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0220417.ref002">2</xref>] Current guideline recommendations are based on the efficacy of alpha-blockers assessed by symptom scores in randomized controlled trials.[<xref ref-type="bibr" rid="pone.0220417.ref002">2</xref>&#8211;<xref ref-type="bibr" rid="pone.0220417.ref004">4</xref>] In daily practice, however, patients and clinicians are more interested in achieving symptom improvements that reflect changes in the subjective appraisal of symptoms, which may not be reflected on these symptom scores. Predicting the likelihood of improvement is difficult for clinicians because the randomized controlled trials on which they rely for guidance tend to report mean changes in symptom scores rather than the number of patients who experience improvement. Moreover, the inability to determine who will benefit from alpha-blocker treatment is confounded by the multifactorial origin of LUTS in the male population. Clinicians must therefore rely on the general advice to start alpha-blockers when treatment is requested.[<xref ref-type="bibr" rid="pone.0220417.ref003">3</xref>&#8211;<xref ref-type="bibr" rid="pone.0220417.ref005">5</xref>] Information that helps clinicians to identify those patients who are most likely to experience improvement after alpha-blocker use would be clinically relevant.</p>
+<p>In this study, we aimed to assess symptom improvement following alpha-blocker use and to identify the predictors of that improvement in routine clinical practice.</p>
+</sec>
+<sec id="sec009" sec-type="materials|methods">
+<title>Materials and methods</title>
+<p>We performed a single-arm, open-label, observational cohort study with a 6-week follow-up from January 2016 to April 2018. The primary settings were 22 pharmacies in the Northern part of the Netherlands. Patients were eligible for inclusion if they attended a pharmacy with a new prescription for an alpha-blocker to treat LUTS, provided they had not been prescribed an alpha-blocker in the preceding 12 months. The following exclusion criteria were also checked by the pharmacy: indwelling urinary catheter use, urolithiasis, and status as a first prescription as part of combination therapy (i.e., alpha-blocker combined with an anticholinergic drug or a 5-alpha reductase inhibitor).</p>
+<p>Participants completed a questionnaire at baseline, and we subsequently obtained data from a follow-up questionnaire and from the records of the patient&#8217;s general practitioner (GP) or urologist, depending on the prescriber, as well as the pharmacist. The requirements of the STROBE statement were followed when reporting the study.[<xref ref-type="bibr" rid="pone.0220417.ref006">6</xref>] The Medical Ethical Committee of the University Medical Center Groningen approved the study (METc 2016.122) and all participants provided signed informed consent before inclusion.</p>
+<sec id="sec010">
+<title>Patient questionnaire</title>
+<p>The baseline questionnaire included questions about age, duration of LUTS, and previous surgery for LUTS. It also included the International Prostate Symptom Score (IPSS) and the Overactive Bladder Questionnaire Short Form (OAB-q SF). The IPSS consists of seven questions that assess urinary symptoms,[<xref ref-type="bibr" rid="pone.0220417.ref007">7</xref>] giving total scores of 0&#8211;35, with higher scores indicating worse symptoms. The OAB-q SF assesses how bothersome overactive bladder symptoms are for the patient.[<xref ref-type="bibr" rid="pone.0220417.ref008">8</xref>] It consists of six questions, with total scores ranging from 0 to 100 and higher scores indicating greater bother from symptoms. The follow-up questionnaire included the IPSS, the OAB-q SF, and the Patient Global Impression of Improvement (PGI-I),[<xref ref-type="bibr" rid="pone.0220417.ref009">9</xref>] together with questions about current alpha-blocker use and (if relevant) reasons for discontinuing therapy.</p>
+</sec>
+<sec id="sec011">
+<title>GP, urologist, and pharmacist questionnaires</title>
+<p>GPs and urologists were asked to provide data about comorbidities and physical examinations. Pharmacists were asked to provide a list of concomitant medication, from which we extracted data about the number of drugs currently used. We selected specific drugs with the potential to affect LUTS, using the Anatomical Therapeutic Chemical Classification System for categorization (e.g., antipsychotics, tricyclic antidepressants, selective serotonin reuptake inhibitors, Parkinson&#8217;s disease medication, classic antihistamines, calcium antagonists, and opiates).[<xref ref-type="bibr" rid="pone.0220417.ref004">4</xref>]</p>
+<sec id="sec012">
+<title>Outcomes</title>
+<p>The main outcomes were clear symptom improvement, assessed by the PGI-I, as well as the predictors of that improvement. For this we categorized the responses &#8220;much better&#8221; or &#8220;very much better&#8221; as <italic>clear improvement</italic> and all other categories as <italic>no clear improvement</italic>. Secondary outcomes were the changes in symptoms, assessed by the IPSS and OAB-q, as well as the predictors of those changes. For this, we compared the responses after 6 weeks of therapy with the baseline scores.</p>
+</sec>
+</sec>
+<sec id="sec013">
+<title>Handling of missing data</title>
+<p>Missing value analysis suggested that data were missing at random for approximately 5% of baseline data and 35% of follow-up data. Multiple imputation was performed on this dataset with 35 imputations and 20 iterations, using fully conditional specification and predictive mean matching. Patient characteristics, symptom scores, and medical information were used in the imputation model. Analyses performed on the imputed datasets were pooled. All analyses were performed on both the original complete data and the imputed data.</p>
+</sec>
+<sec id="sec014">
+<title>Statistical analyses</title>
+<p>Baseline characteristics are presented for the original data. Percentages experiencing clear improvement and the change in symptom severity are presented for both the original and imputed data. We assessed the change in symptoms following alpha-blocker use by comparing baseline and follow-up scores on the IPSS and AOB-q, using paired <italic>t</italic>-tests. All analyses were performed using IBM SPSS Statistics for Windows, Version 25.0 (IBM Corp., Armonk, NY, USA). An alpha of &lt;0.05 was considered statistically significant in all analyses, unless otherwise stated.</p>
+<p>To explore the possible predictors of clear improvement, we performed univariable logistic regression, setting clear improvement as the dependent variable. All assumptions for the test were met. We included the following variables as potential predictors: IPSS score, IPSS storage sub-score, IPSS voiding sub-score, OAB-q SF score, age category (i.e., &lt;60, 60&#8211;70, or &gt;70 years), symptom duration (i.e., &lt;6, 6&#8211;24, or &gt;24 months), continued alpha-blocker use, comorbidities (i.e., yes or no), prescriber (i.e., GP or urologist), prostate abnormalities, pelvic floor abnormalities, number of co-medications (i.e., 0&#8211;1, 2&#8211;5, or &#8805;6, based on tertiles), and use of medication with a potential effect on LUTS. Variables with a p-value &lt;0.25 in the univariate analyses were included in the multivariable regression analyses by a non-automated step-wise forward selection strategy. In the multivariable analyses, we used ten events per variable to obtain the maximum number of independent variables for inclusion.[<xref ref-type="bibr" rid="pone.0220417.ref010">10</xref>] Model fit was assessed by the Hosmer&#8211;Lemeshow test, explained variance by the Nagelkerke R<sup>2</sup>, and discrimination was assessed by the area under the receiver operating characteristic curve.</p>
+<p>Linear regression analyses were performed, with the changes in the IPSS and OAB-q scores between baseline and follow-up set as the outcomes of interest, using the predictors and variable selection procedures described above. Dummy variables were created for categorical variables with two or more categories. The assumptions for the test were met and the maximum number of independent variables that could be included was determined based on accepted guidelines.[<xref ref-type="bibr" rid="pone.0220417.ref011">11</xref>] The explained variance was assessed based on the adjusted R<sup>2</sup>. Because a higher IPSS score indicates more symptoms, regression coefficients of improvement will have a negative sign. Subgroup regression analyses were performed for participants who had their therapy prescribed by a GP and had complete data.</p>
+</sec>
+</sec>
+<sec id="sec015" sec-type="results">
+<title>Results</title>
+<p>Of the 258 screened patients, 251 met the inclusion criteria. One patient did not provide informed consent and two died during follow-up, leaving 248 participants for analysis. Complete data were obtained for 119 cases, and their baseline characteristics are presented in <xref ref-type="table" rid="pone.0220417.t001">Table 1</xref>. An overview of the medication that was used by the patients is given in <xref ref-type="supplementary-material" rid="pone.0220417.s002">S1 Table</xref>. Most patients reported moderate or severe symptoms, reported that symptoms had been present for over 24 months, and received their prescription from a GP (84%). Although most were still taking therapy at 6 weeks (n = 89; 75%), several had stopped therapy because of ineffectiveness (n = 12), side effects (n = 9), or lack of awareness that the medication should be continued (n = 9).</p>
+<table-wrap id="pone.0220417.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220417.t001</object-id>
+<label>Table 1</label> <caption><title>Baseline characteristics.</title></caption>
+<alternatives>
+<graphic id="pone.0220417.t001g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.t001" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center">Complete cases<break />(original data)</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">N = 119</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Age, (mean &#177; SD)</td>
+<td align="center">66.3 &#177; 9.3 y</td>
+</tr>
+<tr>
+<td align="left">Age category, N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&lt;60 y</italic></td>
+<td align="center">31 (26.1)</td>
+</tr>
+<tr>
+<td align="right"><italic>60&#8211;70 y</italic></td>
+<td align="center">47 (39.5)</td>
+</tr>
+<tr>
+<td align="right"><italic>&gt;70 y</italic></td>
+<td align="center">41 (34.5)</td>
+</tr>
+<tr>
+<td align="left">Duration of complaints, N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&#8804;6 months</italic></td>
+<td align="center">40 (33.6)</td>
+</tr>
+<tr>
+<td align="right"><italic>&gt;6 months to &#8804;24 months</italic></td>
+<td align="center">15 (12.6)</td>
+</tr>
+<tr>
+<td align="right"><italic>&gt;24 months</italic></td>
+<td align="center">64 (53.8)</td>
+</tr>
+<tr>
+<td align="left">IPSS score (mean &#177; SD)</td>
+<td align="center">19.4 &#177; 6.8</td>
+</tr>
+<tr>
+<td align="left">IPSS category</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Mild</italic></td>
+<td align="center">3 (2.5)</td>
+</tr>
+<tr>
+<td align="right"><italic>Moderate</italic></td>
+<td align="center">61 (51.3)</td>
+</tr>
+<tr>
+<td align="right"><italic>severe</italic></td>
+<td align="center">55 (46.2)</td>
+</tr>
+<tr>
+<td align="left">Storage sub-score (mean &#177; SD)</td>
+<td align="center">8.6 &#177; 3.2</td>
+</tr>
+<tr>
+<td align="left">Voiding sub-score (mean &#177; SD)</td>
+<td align="center">10.8 &#177; 5.1</td>
+</tr>
+<tr>
+<td align="left">OAB-q SF (mean &#177; SD)</td>
+<td align="center">39.7 &#177; 19.9</td>
+</tr>
+<tr>
+<td align="left">Surgery for LUTS (%)</td>
+<td align="center">1 (0.8)</td>
+</tr>
+<tr>
+<td align="left">Comorbidity<xref ref-type="table-fn" rid="t001fn001">*</xref>, N (%)</td>
+<td align="center">35 (29.4)</td>
+</tr>
+<tr>
+<td align="left">Prescriber N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>GP</italic></td>
+<td align="center">100 (84)</td>
+</tr>
+<tr>
+<td align="right"><italic>Urologist</italic></td>
+<td align="center">19 (16)</td>
+</tr>
+<tr>
+<td align="left">Prostate abnormal, N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Normal</italic></td>
+<td align="center">38 (31.9)</td>
+</tr>
+<tr>
+<td align="right"><italic>Increased size</italic></td>
+<td align="center">51 (42.9)</td>
+</tr>
+<tr>
+<td align="right"><italic>Decreased size</italic></td>
+<td align="center">3 (2.5)</td>
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">27 (22.7)</td>
+</tr>
+<tr>
+<td align="left">Examination of pelvic floor, N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Hypertonic</italic></td>
+<td align="center">7 (5.9)</td>
+</tr>
+<tr>
+<td align="right"><italic>Not hypertonic</italic></td>
+<td align="center">54 (45.4)</td>
+</tr>
+<tr>
+<td align="right"><italic>Not determined</italic></td>
+<td align="center">34 (28.6)</td>
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">24 (20.2)</td>
+</tr>
+<tr>
+<td align="left">Number of co-medications, N (%)</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>0&#8211;1</italic></td>
+<td align="center">48 (40.3)</td>
+</tr>
+<tr>
+<td align="right"><italic>2&#8211;5</italic></td>
+<td align="center">49 (41.2)</td>
+</tr>
+<tr>
+<td align="right"><italic>&gt;5</italic></td>
+<td align="center">22 (18.5)</td>
+</tr>
+<tr>
+<td align="left">Co-medication with effect on LUTS, N (%)</td>
+<td align="center">15 (12.6)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>* Comorbidities included diabetes, stroke, myocardial infarction, and heart failure.</p></fn>
+<fn id="t001fn002"><p><italic>Abbreviations</italic>: IPSS, International Prostate Symptom Score; LUTS, Lower Urinary Tract Symptoms; OAB-q SF, Overactive Bladder Questionnaire Short Form; SD, standard deviation.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<sec id="sec016">
+<title>Primary outcome: Clear improvement</title>
+<p>In both the original and imputed data sets, 37% of participants reported clear symptom improvement. For the original data, currently using alpha-blockers and currently using at least six other medications both predicted clear improvement in both the univariate and multivariate analyses (<xref ref-type="table" rid="pone.0220417.t002">Table 2</xref>). However, we found no associations for any other potential predictor. The imputed data analyses also yielded no significant predictors of clear improvement. The multivariate models were similar for the original and imputed data, with explained variances (Nagelkerke R<sup>2</sup>) of 20.6% and 10.9%, respectively. Model fit was better when based on the original data (<xref ref-type="table" rid="pone.0220417.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0220417.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220417.t002</object-id>
+<label>Table 2</label> <caption><title>Predictors of clear PGI-I improvement.</title></caption>
+<alternatives>
+<graphic id="pone.0220417.t002g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.t002" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center" colspan="4">Original data (complete cases)</th>
+<th align="center" colspan="4">Imputed data (pooled outcomes)</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+<th align="center">OR</th>
+<th align="center">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Age (ref = &lt;60 y)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>60&#8211;70 y</italic></td>
+<td align="center">1.70</td>
+<td align="center">(0.66;4.38)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.23</td>
+<td align="center">(0.55;2.71)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&gt;70 y</italic></td>
+<td align="center">0.98</td>
+<td align="center">(0.36;2.65)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.98</td>
+<td align="center">(0.45;2.14)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Duration of complaints (ref = &lt;6 months)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>6&#8211;24 months</italic></td>
+<td align="center">0.55</td>
+<td align="center">(0.16;1.91)</td>
+<td align="center">0.61</td>
+<td align="center">(0.16;2.34)</td>
+<td align="center">0.58</td>
+<td align="center">(0.21;1.62)</td>
+<td align="center">0.59</td>
+<td align="center">(0.20;1.80)</td>
+</tr>
+<tr>
+<td align="right"><italic>&gt; 24 months</italic></td>
+<td align="center">0.50</td>
+<td align="center">(0.22;1.14)</td>
+<td align="center">0.49</td>
+<td align="center">(0.20;1.18)</td>
+<td align="center">0.64</td>
+<td align="center">(0.31;1.32)</td>
+<td align="center">0.66</td>
+<td align="center">(0.31;1.40)</td>
+</tr>
+<tr>
+<td align="left">IPSS sum score</td>
+<td align="center">0.99</td>
+<td align="center">(0.94;1.05)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.99</td>
+<td align="center">(0.94;1.04)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS storage baseline</td>
+<td align="center">0.98</td>
+<td align="center">(0.88;1.10)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.96</td>
+<td align="center">(0.87;1.06)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS voiding baseline</td>
+<td align="center">1.00</td>
+<td align="center">(0.93;1.07)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.99</td>
+<td align="center">(0.93;1.06)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">OAB-q SF baseline</td>
+<td align="center">1.00</td>
+<td align="center">(0.98;1.02)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.00</td>
+<td align="center">(0.99;1.02)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Still using &#945;-blockers at 6 weeks (ref = no)</td>
+<td align="center"><bold>5.31</bold></td>
+<td align="center"><bold>(1.71;16.47)</bold></td>
+<td align="center"><bold>5.70</bold></td>
+<td align="center"><bold>(1.73;18.84)</bold></td>
+<td align="center">2.21</td>
+<td align="center">(0.75;6.52)</td>
+<td align="center">2.42</td>
+<td align="center">(0.80;7.30)</td>
+</tr>
+<tr>
+<td align="left">Comorbidity (ref = no)</td>
+<td align="center">1.20</td>
+<td align="center">(0.53;2.70)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.29</td>
+<td align="center">(0.55;2.98)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Prescriber (ref = GP)</td>
+<td align="center">0.99</td>
+<td align="center">(0.36;2.75)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.98</td>
+<td align="center">(0.41;2.33)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Prostate abnormal (ref = no)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Increased size</italic></td>
+<td align="center">0.94</td>
+<td align="center">(0.39;2.24)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.95</td>
+<td align="center">(0.43;2.08)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Decreased size</italic></td>
+<td align="center">3.43</td>
+<td align="center">(0.28;41.32)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.27</td>
+<td align="center">(0.18;9.01)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">1.01</td>
+<td align="center">(0.36;2.80)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.92</td>
+<td align="center">(0.32;2.64)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Examination of pelvic floor (ref = hypertonic)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not hypertonic</italic></td>
+<td align="center">4.13</td>
+<td align="center">(0.46;36.69)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.36</td>
+<td align="center">(0.17;11.01)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not determined</italic></td>
+<td align="center">3.27</td>
+<td align="center">(0.35;30.46)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.36</td>
+<td align="center">(0.27;9.97)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">3.60</td>
+<td align="center">(0.37;34.93)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.19</td>
+<td align="center">(0.19;10.24)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Number of co-medication (ref = 0&#8211;1)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>2&#8211;5</italic></td>
+<td align="center">1.56</td>
+<td align="center">(0.66;3.70)</td>
+<td align="center">1.27</td>
+<td align="center">(0.51;3.17)</td>
+<td align="center">1.13</td>
+<td align="center">(0.38;3.31)</td>
+<td align="center">1.03</td>
+<td align="center">(0.32;3.29)</td>
+</tr>
+<tr>
+<td align="right"><italic>&#8805;6</italic></td>
+<td align="center"><bold>3.89</bold></td>
+<td align="center"><bold>(1.35;11.25)</bold></td>
+<td align="center"><bold>3.80</bold></td>
+<td align="center"><bold>(1.23;11.70)</bold></td>
+<td align="center">2.19</td>
+<td align="center">(0.80;5.96)</td>
+<td align="center">2.28</td>
+<td align="center">(0.76;6.82)</td>
+</tr>
+<tr>
+<td align="left">Co-medication with an effect on LUTS (ref = no)</td>
+<td align="center">0.83</td>
+<td align="center">(0.27;2.62)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.62</td>
+<td align="center">(0.46&#8211;5.75)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Nagelkerke R<sup>2</sup> = 20.6%<break />HL test = 0.87<break />AUC = 0.73</td>
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Nagelkerke R<sup>2</sup> = 10.9%<break />HL test = 0.77<break />AUC = 0.66</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p><italic>Abbreviations</italic>: AUC, Area Under the Curve; CI, confidence interval; GP, General Practitioner; HL, Hosmer&#8211;Lemeshow; IPSS, International Prostate Symptom Score; LUTS, Lower Urinary Tract Symptoms; NI, Not included; OAB-q SF, Overactive Bladder Questionnaire Short Form; OR, odds ratio; PGI-I, Patient Global Impression of Improvement.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>Secondary outcomes: Change in symptom severity</title>
+<p>The mean improvements in the IPSS were 6.3 points (95%CI 5.1&#8211;7.6) for the original data and 5.4 points (95%CI 4.0&#8211;6.7) for the imputed data. In the multivariate regression, multicollinearity existed between the pretreatment IPSS sub-scores and IPSS total score, so we only included the IPSS total score as a predictor (based on the adjusted R<sup>2</sup>). Univariate regression analysis using the original data showed that men receiving at least six co-medications had greater symptom improvements; but, this was not confirmed in the multivariate regression analysis (<xref ref-type="table" rid="pone.0220417.t003">Table 3</xref>). Multivariate analyses on both datasets showed that higher baseline symptom severity was associated with greater improvements after 6 weeks, but there were no other independent predictors of change in IPSS scores. We included prostate abnormalities in the model using imputed data, but not in the model using original data. The percentages of variance explained by the original and imputed data were 30.0% and 33.5%, respectively.</p>
+<table-wrap id="pone.0220417.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220417.t003</object-id>
+<label>Table 3</label> <caption><title>Predictors of IPSS improvement.</title></caption>
+<alternatives>
+<graphic id="pone.0220417.t003g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.t003" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center" colspan="4">Original data (complete cases)</th>
+<th align="center" colspan="4">Imputed data (pooled outcomes)</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">IPSS change</th>
+<th align="center">95% CI</th>
+<th align="center">IPSS change</th>
+<th align="center">95% CI</th>
+<th align="center">IPSS change</th>
+<th align="center">95% CI</th>
+<th align="center">IPSS change</th>
+<th align="center">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Constant</td>
+<td align="center" />
+<td align="center" />
+<td align="center">0.28</td>
+<td align="center">(-4.58;5.14)</td>
+<td align="center" />
+<td align="center" />
+<td align="center">3.22</td>
+<td align="center">(-1.31;7.75)</td>
+</tr>
+<tr>
+<td align="left">Age (ref = &lt;60 y)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>60&#8211;70 y</italic></td>
+<td align="center">1.13</td>
+<td align="center">(-2.09;4.35)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.92</td>
+<td align="center">(-1.59;3.43)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&gt;70 y</italic></td>
+<td align="center">0.82</td>
+<td align="center">(-2.49;4.14)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.40</td>
+<td align="center">(-1.22;4.02)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Duration of complaints (ref = &lt;6 months)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>6&#8211;24 months</italic></td>
+<td align="center">1.04</td>
+<td align="center">(-3.18;5.26)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.18</td>
+<td align="center">(-3.02;3.37)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&gt;24 months</italic></td>
+<td align="center">0.20</td>
+<td align="center">(-2.61;3.01)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-0.39</td>
+<td align="center">(-2.77;1.99)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS sum score</td>
+<td align="center"><bold>-0.54</bold></td>
+<td align="center"><bold>(-0.70;-0.39)</bold></td>
+<td align="center"><bold>-0.59</bold></td>
+<td align="center"><bold>(-0.79;-0.39)</bold></td>
+<td align="center"><bold>-0.61</bold></td>
+<td align="center"><bold>(-0.74;-0.47)</bold></td>
+<td align="center"><bold>-0.63</bold></td>
+<td align="center"><bold>(-0.79;-0.48)</bold></td>
+</tr>
+<tr>
+<td align="left">IPSS storage baseline</td>
+<td align="center"><bold>-0.77</bold></td>
+<td align="center"><bold>(-1.14;-0.40)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center" />
+<td align="center"><bold>-0.82</bold></td>
+<td align="center"><bold>(-1.13;-0.51)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS voiding baseline</td>
+<td align="center"><bold>-0.67</bold></td>
+<td align="center"><bold>(-0.89;-0.45)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center" />
+<td align="center"><bold>-0.73</bold></td>
+<td align="center"><bold>(-0.91;-0.54)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">OAB-q SF baseline</td>
+<td align="center"><bold>-0.06</bold></td>
+<td align="center"><bold>(-0.13;-0.01)</bold></td>
+<td align="center">0.06</td>
+<td align="center">(-0.01;0.13)</td>
+<td align="center"><bold>-0.09</bold></td>
+<td align="center"><bold>(-0.14;-0.04)</bold></td>
+<td align="center">0.04</td>
+<td align="center">(-0.02;0.09)</td>
+</tr>
+<tr>
+<td align="left">Still using &#945;-blockers at 6 weeks (ref = no)</td>
+<td align="center">-1.03</td>
+<td align="center">(-3.96;1.90)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-0.70</td>
+<td align="center">(-3.99;2.59)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Comorbidity (ref = no)</td>
+<td align="center">-1.99</td>
+<td align="center">(-4.76;0.78)</td>
+<td align="center">-0.12</td>
+<td align="center">(-2.96;2.72)</td>
+<td align="center">0.11</td>
+<td align="center">(-2.61;2.84)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Prescriber (ref = GP)</td>
+<td align="center">2.91</td>
+<td align="center">(-0.53;6.34)</td>
+<td align="center">2.42</td>
+<td align="center">(-0.55;5.38)</td>
+<td align="center">1.92</td>
+<td align="center">(-0.79;4.62)</td>
+<td align="center">1.28</td>
+<td align="center">(-1.10;3.66)</td>
+</tr>
+<tr>
+<td align="left">Prostate abnormal (ref = no)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Increased size</italic></td>
+<td align="center">0.33</td>
+<td align="center">(-2.66;3.31)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.28</td>
+<td align="center">(-2.94;3.49)</td>
+<td align="center">0.24</td>
+<td align="center">(-2.36;2.83)</td>
+</tr>
+<tr>
+<td align="right"><italic>Decreased size</italic></td>
+<td align="center">4.40</td>
+<td align="center">(-3.96;12.77)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">2.94</td>
+<td align="center">(-2.91;8.79)</td>
+<td align="center">1.47</td>
+<td align="center">(-3.66;6.60)</td>
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">0.66</td>
+<td align="center">(-2.84;4.17)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.42</td>
+<td align="center">(-3.06;3.90)</td>
+<td align="center">0.27</td>
+<td align="center">(-2.55;3.08)</td>
+</tr>
+<tr>
+<td align="left">Examination of pelvic floor (ref = hypertonic)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not hypertonic</italic></td>
+<td align="center">1.01</td>
+<td align="center">(-4.60;6.61)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-0.95</td>
+<td align="center">(-5.68;3.77)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not determined</italic></td>
+<td align="center">2.09</td>
+<td align="center">(-3.70;7.88)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.27</td>
+<td align="center">(-5.25;5.80)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">2.32</td>
+<td align="center">(-3.68;8.31)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">0.33</td>
+<td align="center">(-5.17;5.83)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Number of co-medications (ref = 0&#8211;1)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>2&#8211;5</italic></td>
+<td align="center">-0.43</td>
+<td align="center">(-3.13;2.28)</td>
+<td align="center">0.19</td>
+<td align="center">(-2.42;2.80)</td>
+<td align="center">-0.60</td>
+<td align="center">(-3.52;2.32)</td>
+<td align="center">-0.08</td>
+<td align="center">(-2.15;2.31)</td>
+</tr>
+<tr>
+<td align="right"><italic>&#8805;6</italic></td>
+<td align="center"><bold>-5.60</bold></td>
+<td align="center"><bold>(-9.03;-2.18)</bold></td>
+<td align="center">-2.20</td>
+<td align="center">(-6.03;1.62)</td>
+<td align="center">-3.30</td>
+<td align="center">(-7.89;1.28)</td>
+<td align="center">-1.05</td>
+<td align="center">(-4.09;1.99)</td>
+</tr>
+<tr>
+<td align="left">Co-medication with an effect on LUTS (ref = no)</td>
+<td align="center">0.92</td>
+<td align="center">(-2.92;4.75)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">2.00</td>
+<td align="center">(-1.69;5.69)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Adjusted R<sup>2</sup> = 30.0%</td>
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Adjusted R<sup>2</sup> = 33.5%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>Negative regression coefficients indicate improvement of symptoms.</p></fn>
+<fn id="t003fn002"><p>*NI due to multicollinearity.</p></fn>
+<fn id="t003fn003"><p><italic>Abbreviations</italic>: CI, confidence interval; GP, General Practitioner; IPSS, International Prostate Symptom Score; NI, Not included; OAB-q SF, Overactive Bladder Questionnaire Short Form.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Finally, the OAB-q SF score improved by 12.0 points (95%CI 8.8&#8211;15.2) in the original data and by 11.7 points (95%CI 8.2&#8211;15.1) in the imputed data. In both datasets, only pretreatment symptom scores were significant predictors of change in the OAB-q in the univariate regression analyses (<xref ref-type="table" rid="pone.0220417.t004">Table 4</xref>). Greater baseline symptom severity was associated with greater symptom improvements. In the multiple regression analyses, the OAB-q SF pretreatment score remained the only predictor of improvement. The multivariate model using original data included current alpha-blocker use and the model using imputed data included the presence of comorbidities. The percentages of variance explained by the original and imputed data were 28.7% and 36.0%, respectively.</p>
+<table-wrap id="pone.0220417.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0220417.t004</object-id>
+<label>Table 4</label> <caption><title>Predictors of OAB-q SF improvement.</title></caption>
+<alternatives>
+<graphic id="pone.0220417.t004g" mimetype="image" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.t004" ns0:type="simple" />
+<table>
+<colgroup>
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+<col align="left" valign="middle" />
+</colgroup>
+<thead>
+<tr>
+<th align="left" />
+<th align="center" colspan="4">Original data (complete cases)</th>
+<th align="center" colspan="4">Imputed data (pooled outcomes)</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+<th align="center" colspan="2">Univariable analysis</th>
+<th align="center" colspan="2">Multivariable analysis</th>
+</tr>
+<tr>
+<th align="left" />
+<th align="center">OAB-q SF change</th>
+<th align="center">95% CI</th>
+<th align="center">OAB-q SF change</th>
+<th align="center">95% CI</th>
+<th align="center">OAB-q SF change</th>
+<th align="center">95% CI</th>
+<th align="center">OAB-q SF change</th>
+<th align="center">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Constant</td>
+<td align="center" />
+<td align="center" />
+<td align="center">8.53</td>
+<td align="center">(-1.00;18.06)</td>
+<td align="center" />
+<td align="center" />
+<td align="center">8.80</td>
+<td align="center">(0.43;17.17)</td>
+</tr>
+<tr>
+<td align="left">Age (ref = &lt;60 y)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>60&#8211;70 y</italic></td>
+<td align="center">3.59</td>
+<td align="center">(-4.46;11.63)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">2.96</td>
+<td align="center">(-3.82;9.75)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&gt;70 y</italic></td>
+<td align="center">2.16</td>
+<td align="center">(-6.11;10.44)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">3.32</td>
+<td align="center">(-3.99;10.62)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Duration of complaints (ref = &lt;6 months)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>6&#8211;24 months</italic></td>
+<td align="center">3.63</td>
+<td align="center">(-6.90;14.16)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">4.28</td>
+<td align="center">(-5.01;13.56)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>&gt;24 months</italic></td>
+<td align="center">2.68</td>
+<td align="center">(-4.33;9.69)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">3.62</td>
+<td align="center">(-3.01;10.24)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS sum score</td>
+<td align="center"><bold>-0.74</bold></td>
+<td align="center"><bold>(-1.19;-0.30)</bold></td>
+<td align="center">0.18</td>
+<td align="center">(-0.33;0.68)</td>
+<td align="center"><bold>-0.74</bold></td>
+<td align="center"><bold>(-1.17;-0.30)</bold></td>
+<td align="center">0.23</td>
+<td align="center">(-0.23;0.68)</td>
+</tr>
+<tr>
+<td align="left">IPSS storage baseline</td>
+<td align="center"><bold>-1.26</bold></td>
+<td align="center"><bold>(-2.22;-0.31)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center" />
+<td align="center"><bold>-1.31</bold></td>
+<td align="center"><bold>(-2.24;-0.37)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">IPSS voiding baseline</td>
+<td align="center"><bold>-0.83</bold></td>
+<td align="center"><bold>(-1.44;-0.22)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center" />
+<td align="center"><bold>-0.75</bold></td>
+<td align="center"><bold>(-1.30;-0.20)</bold></td>
+<td align="center">NI<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">OAB-q SF baseline</td>
+<td align="center"><bold>-0.49</bold></td>
+<td align="center"><bold>(-0.62;-0.35)</bold></td>
+<td align="center"><bold>-0.50</bold></td>
+<td align="center"><bold>(-0.66;-0.33)</bold></td>
+<td align="center"><bold>-0.58</bold></td>
+<td align="center"><bold>(-0.72;-0.45)</bold></td>
+<td align="center"><bold>-0.61</bold></td>
+<td align="center"><bold>(-0.77;-0.45)</bold></td>
+</tr>
+<tr>
+<td align="left">Still using &#945;-blockers at 6 weeks (ref = no)</td>
+<td align="center">-4.46</td>
+<td align="center">(-11.74;2.83)</td>
+<td align="center">-3.06</td>
+<td align="center">(-9.30;3.18)</td>
+<td align="center">-4.17</td>
+<td align="center">(-11.35;3.01)</td>
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Comorbidity (ref = no)</td>
+<td align="center">0.49</td>
+<td align="center">(-6.50;7.47)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">5.52</td>
+<td align="center">(-2.32;13.36)</td>
+<td align="center">6.82</td>
+<td align="center">(-1.29;14.93)</td>
+</tr>
+<tr>
+<td align="left">Prescriber (ref = GP)</td>
+<td align="center">4.57</td>
+<td align="center">(-4.08;13.22)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">3.65</td>
+<td align="center">(-4.09;11.40)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Prostate abnormal (ref = no)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Increased size</italic></td>
+<td align="center">3.45</td>
+<td align="center">(-4.00;10.90)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">1.28</td>
+<td align="center">(-6.77;9.32)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Decreased size</italic></td>
+<td align="center">11.90</td>
+<td align="center">(-8.95;32.75)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">4.27</td>
+<td align="center">(-11.65;20.18)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">2.02</td>
+<td align="center">(-6.73;10.77)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-0.45</td>
+<td align="center">(-10.13;9.23)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Examination of pelvic floor (ref = hypertonic)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not hypertonic</italic></td>
+<td align="center">-2.02</td>
+<td align="center">(-15.92;11.88)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-3.67</td>
+<td align="center">(-16.63;9.29)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not determined</italic></td>
+<td align="center">4.52</td>
+<td align="center">(-9.84;18.88)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-0.04</td>
+<td align="center">(-13.61;13.53)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>Not examined</italic></td>
+<td align="center">0.26</td>
+<td align="center">(-14.60;15.12)</td>
+<td align="center">NI</td>
+<td align="center" />
+<td align="center">-1.82</td>
+<td align="center">(-15.96;12.33)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left">Number of co-medications (ref = 0&#8211;1)</td>
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+<td align="center" />
+</tr>
+<tr>
+<td align="right"><italic>2&#8211;5</italic></td>
+<td align="center">-4.48</td>
+<td align="center">(-11.44;2.49)</td>
+<td align="center">-1.94</td>
+<td align="center">(-7.98;4.10)</td>
+<td align="center">-3.42</td>
+<td align="center">(-11.27;4.43)</td>
+<td align="center">-3.46</td>
+<td align="center">(-10.07;3.14)</td>
+</tr>
+<tr>
+<td align="right"><italic>&#8805;6</italic></td>
+<td align="center">-8.51</td>
+<td align="center">(-17.34;0.32)</td>
+<td align="center">-3.51</td>
+<td align="center">(-11.68;4.66)</td>
+<td align="center">-5.76</td>
+<td align="center">(-15.00;3.48)</td>
+<td align="center">-5.33</td>
+<td align="center">(-13.94;3.28)</td>
+</tr>
+<tr>
+<td align="left">Co-medication with an effect on LUTS (ref = no)</td>
+<td align="center">-6.87</td>
+<td align="center">(-16.37;2.64)</td>
+<td align="center">-3.18</td>
+<td align="center">(-11.43;5.07)</td>
+<td align="center">1.20</td>
+<td align="center">(-7.44;9.84)</td>
+<td align="center">NI</td>
+<td align="center" />
+</tr>
+<tr>
+<td align="left" />
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Adjusted R<sup>2</sup> = 28.7%</td>
+<td align="center" />
+<td align="center" />
+<td align="center" colspan="2">Adjusted R<sup>2</sup> = 36.0%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Negative regression coefficients indicate improvement of symptoms.</p></fn>
+<fn id="t004fn002"><p>*NI due to multicollinearity.</p></fn>
+<fn id="t004fn003"><p><italic>Abbreviations</italic>: CI, confidence interval; GP, General Practitioner; IPSS, International Prostate Symptom Score; LUTS, Lower Urinary Tract Symptoms; NI, Not included; OAB-q SF, Overactive Bladder Questionnaire Short Form.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec018">
+<title>Subgroup analyses</title>
+<p>Analyses on participants who received their first prescription from a GP (n = 100; 84%) showed similar results to those of the total group (<xref ref-type="supplementary-material" rid="pone.0220417.s003">S2</xref>&#8211;<xref ref-type="supplementary-material" rid="pone.0220417.s005">S4</xref> Tables). Here also 37% of participants reported clear symptom improvement. In this subgroup patients with symptoms for over 24 months were less likely to show clear improvement compared to those with symptoms for less than 6 months (OR 0.36 95% CI 0.13&#8211;0.98).</p>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>The PGI-I results showed that about one in three men with LUTS perceived clear symptom improvement by 6 weeks of starting an alpha-blocker, implying that two in three men experienced no clear improvement. Current use of an alpha-blocker and current use of at least six additional medications predicted clear improvement, but only in the model using original data. Although symptoms measured with the IPSS and OAB-q SF decreased significantly by 6 weeks, only pretreatment symptom severity predicted this change. Measures of explained variance for these models suggested that factors not assessed in this study predicted the observed symptom improvement following alpha-blocker use. We believe that this information is relevant to pretreatment counseling.</p>
+<p>Although currently use of alpha-blockers and six or more medications were both significant predictors of clear improvement in the analysis of original data, they did not remain predictors in the analysis of imputed data, despite there being similar trends in the odds ratios. The increased odds indicated that clear improvement was more likely for those participants who still used alpha-blockers after 6 weeks. However, no such relationship existed between current alpha-blocker use and the more quantitative measures of improvement (i.e., the IPSS and OAB-q SF), suggesting that any observed improvements in symptoms could not be attributed to changes in either the frequency of urination or episodes of incontinence.</p>
+<p>It is difficult to explain why participants who took more medications were more likely to experience clear improvement. One explanation could be that participants who are used to taking medication are more likely to include it in their regimens, improving the effectiveness of alpha-blocker therapy. Supporting this, it has been shown that drug adherence is related to concomitant use of other medications.[<xref ref-type="bibr" rid="pone.0220417.ref012">12</xref>&#8211;<xref ref-type="bibr" rid="pone.0220417.ref014">14</xref>] The present study did not monitor actual intake, however, so we cannot comment with certainty. Another explanation is that other types of medication lead to improvement of LUTS, however this is less likely. First of all, other medication was initiated before baseline, and remained unchanged during the observation period. Secondly, in our analyses we looked at known specific drugs with the potential to affect LUTS and found no relation with change in symptoms, although we cannot rule out that there are other types of drugs that have an influence on LUTS.</p>
+<p>Only pretreatment scores predicted improvements in the IPSS and OAB-q SF, with the data indicating that participants with more severe symptoms had greater benefit from alpha-blocker treatment. Alternatively, we must consider that this may have been caused by a ceiling effect or regression to the mean, which would have a greater influence in participants with higher baseline scores. No other predictors could be identified. Nevertheless, our findings regarding pretreatment scores are consistent with those of similar studies in secondary care,[<xref ref-type="bibr" rid="pone.0220417.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0220417.ref016">16</xref>] which additionally showed that prostate volume predicted outcomes. Another study produced contradictory findings that there was no relationship,[<xref ref-type="bibr" rid="pone.0220417.ref017">17</xref>] instead proposing that intravesical protrusion of the prostate predicted improvement, as reported elsewhere.[<xref ref-type="bibr" rid="pone.0220417.ref018">18</xref>] However, we restricted our data collection to those characteristics that are readily available to GPs, and neither the prostate volume nor the intravesical prostatic protrusion is routinely measured in general practice.</p>
+<p>In many countries, men with LUTS typically consult their GPs first, yet we could find no studies referring to symptom improvement following alpha-blocker use in the primary care setting. We therefore included participants who received their first prescription from either a GP (n = 100; 84%) or a urologist (n = 19; 16%). In the subgroup analysis of participants who were prescribed alpha-blockers by a GP, the results were comparable to those for the total group. Unfortunately, the subgroup of participants receiving prescriptions from a urologist was too small for separate analysis or comparison.</p>
+<p>Finally, we showed that 70% of participants had persevered with their treatment by the end of the study. This finding is consistent with that reported in another study, in which 73% persevered with treatment beyond 6 weeks.[<xref ref-type="bibr" rid="pone.0220417.ref019">19</xref>] Other studies have also indicated that approximately 35%&#8211;40% persist with therapy beyond 12 months, indicating that discontinuation is most likely in the first few weeks or months after initiation.[<xref ref-type="bibr" rid="pone.0220417.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0220417.ref020">20</xref>] Future studies should further assess the reasons for persistence with alpha-blockers.</p>
+<p>A major limitation of this study is the absence of a control group. Another limitation is that the actual intake of medication was not monitored, which makes it impossible to know the true effect of compliance with alpha-blocker therapy. Nevertheless, both results must be interpreted in the context that the study was designed to reflect real-life settings. Only including participants who visited a pharmacy may also have led to selective inclusion by inadvertently excluding housebound participants who were unable to visit the pharmacy. This small population is likely to be older and to have more severe symptoms than our sample, limiting the generalizability of our results. A final limitation is that there was a significant amount of missing data, with follow-up data missing for 35% and incomplete data available for 50%. Although multiple imputation for the missing values allowed us to perform analyses on the complete sample, the results of analyses were comparable for both data sets, albeit with small differences found between factors included in the multivariate model.</p>
+<p>In conclusion, slightly more than one-third of our cohort perceived clear improvement after alpha-blocker therapy. Clinicians can use this information when counseling patients about the risks and benefits of therapy. Overall, however, the study provides little additional information to guide clinicians on who will benefit most from alpha-blocker treatment. As such, advice in existing guidelines should continue to be followed, with alpha-blocker therapy trialed for all men with moderate to severe LUTS who request treatment.</p>
+</sec>
+<sec id="sec020">
+<title>Supporting information</title>
+<supplementary-material id="pone.0220417.s001" mimetype="application/x-spss-sav" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s001" ns0:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title>Minimal dataset.</title>
+<p>(SAV)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220417.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s002" ns0:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Overview of the most used types of medication grouped on ATC-code.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220417.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s003" ns0:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Analyses on patients with a prescription from their GP and complete original data (n = 100).</title>
+<p><bold>Predictors of clear improvement in PGI-I.</bold> AUC = Area Under the Curve; NI = Not included.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220417.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s004" ns0:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Analyses on patients with a prescription from their GP and complete original data (n = 100).</title>
+<p><bold>Predictors of improvement in IPSS.</bold> NI = Not included; *NI due to multicollinearity.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0220417.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s005" ns0:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Analyses on patients with a prescription from their GP and complete original data (n = 100).</title>
+<p><bold>Predictors of improvement in OABq-SF</bold>. NI = Not included; *NI due to multicollinearity.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We are grateful for the assistance of Marjan Roelofs in collecting the data. We also thank Dr Robert Sykes (<ext-link ext-link-type="uri" ns0:href="http://www.doctored.org.uk/" ns0:type="simple">www.doctored.org.uk</ext-link>) for providing editorial services</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0220417.ref001"><label>1</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Jung</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>MacDonald</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Reddy</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Dahm</surname> <given-names>P</given-names></name>. <article-title>Silodosin for the treatment of lower urinary tract symptoms in men with benign prostatic hyperplasia</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2017</year>;<volume>11</volume>: <fpage>CD012615</fpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/14651858.CD012615.pub2" ns0:type="simple">10.1002/14651858.CD012615.pub2</ext-link></comment> <object-id pub-id-type="pmid">29161773</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref002"><label>2</label><mixed-citation publication-type="other" ns0:type="simple">National Clinical Guideline Centre (NICE). The management of lower urinary tract symptoms in men: NICE guideline. 2010;CG97(01/09).</mixed-citation></ref>
+<ref id="pone.0220417.ref003"><label>3</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Gratzke</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bachmann</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Descazeaud</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Drake</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Madersbacher</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mamoulakis</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>EAU Guidelines on the Assessment of Non-neurogenic Male Lower Urinary Tract Symptoms including Benign Prostatic Obstruction</article-title>. <source>Eur Urol</source>. <year>2015</year>;<volume>67</volume>: <fpage>1099</fpage>&#8211;<lpage>1109</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.eururo.2014.12.038" ns0:type="simple">10.1016/j.eururo.2014.12.038</ext-link></comment> <object-id pub-id-type="pmid">25613154</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref004"><label>4</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Blanker</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Klomp</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Donk</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Heide</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Opstelten</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Burgers</surname> <given-names>J</given-names></name>. <article-title>Summary of the NHG practice guideline 'Lower urinary tract symptoms in men'</article-title>. <source>Ned Tijdschr Geneeskd</source>. <year>2013</year>;<volume>157</volume>: <fpage>A6178</fpage>. <object-id pub-id-type="pmid">23635505</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref005"><label>5</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>McVary</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Roehrborn</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Avins</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Barry</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Bruskewitz</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Donnell</surname> <given-names>RF</given-names></name>, <etal>et al</etal>. <article-title>Update on AUA guideline on the management of benign prostatic hyperplasia</article-title>. <source>J Urol</source>. <year>2011</year>;<volume>185</volume>: <fpage>1793</fpage>&#8211;<lpage>1803</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.juro.2011.01.074" ns0:type="simple">10.1016/j.juro.2011.01.074</ext-link></comment> <object-id pub-id-type="pmid">21420124</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref006"><label>6</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>von Elm</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Altman</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Egger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pocock</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Gotzsche</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Vandenbroucke</surname> <given-names>JP</given-names></name>, <etal>et al</etal>. <article-title>Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies</article-title>. <source>BMJ</source>. <year>2007</year>;<volume>335</volume>: <fpage>806</fpage>&#8211;<lpage>808</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1136/bmj.39335.541782.AD" ns0:type="simple">10.1136/bmj.39335.541782.AD</ext-link></comment> <object-id pub-id-type="pmid">17947786</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref007"><label>7</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Barry</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Fowler</surname> <given-names>FJ</given-names> <suffix>Jr</suffix></name>, <name name-style="western"><surname>O'Leary</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Bruskewitz</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Holtgrewe</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Mebust</surname> <given-names>WK</given-names></name>, <etal>et al</etal>. <article-title>The American Urological Association symptom index for benign prostatic hyperplasia. The Measurement Committee of the American Urological Association</article-title>. <source>J Urol</source>. <year>1992</year>;<volume>148</volume>: <fpage>1549</fpage>&#8211;<lpage>57</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/s0022-5347(17)36966-5" ns0:type="simple">10.1016/s0022-5347(17)36966-5</ext-link></comment> <object-id pub-id-type="pmid">1279218</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref008"><label>8</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Coyne</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Lai</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Sexton</surname> <given-names>CC</given-names></name>. <article-title>An overactive bladder symptom and health-related quality of life short-form: validation of the OAB-q SF</article-title>. <source>Neurourol Urodyn</source>. <year>2015</year>;<volume>34</volume>: <fpage>255</fpage>&#8211;<lpage>263</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/nau.22559" ns0:type="simple">10.1002/nau.22559</ext-link></comment> <object-id pub-id-type="pmid">25783168</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref009"><label>9</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Viktrup</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hayes</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>W</given-names></name>. <article-title>Construct validation of patient global impression of severity (PGI-S) and improvement (PGI-I) questionnaires in the treatment of men with lower urinary tract symptoms secondary to benign prostatic hyperplasia</article-title>. <source>BMC Urol</source>. <year>2012</year>;<volume>12</volume>: 30-2490-12-30.</mixed-citation></ref>
+<ref id="pone.0220417.ref010"><label>10</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Peduzzi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Concato</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kemper</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Holford</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Feinstein</surname> <given-names>AR</given-names></name>. <article-title>A simulation study of the number of events per variable in logistic regression analysis</article-title>. <source>J Clin Epidemiol</source>. <year>1996</year>;<volume>49</volume>: <fpage>1373</fpage>&#8211;<lpage>1379</lpage>. <object-id pub-id-type="pmid">8970487</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref011"><label>11</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Green</surname> <given-names>SB</given-names></name>. <article-title>How Many Subjects Does It Take To Do A Regression Analysis</article-title>. <source>Multivariate Behav Res</source>. <year>1991</year>;<volume>26</volume>: <fpage>499</fpage>&#8211;<lpage>510</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1207/s15327906mbr2603_7" ns0:type="simple">10.1207/s15327906mbr2603_7</ext-link></comment> <object-id pub-id-type="pmid">26776715</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref012"><label>12</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Wawruch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zatko</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wimmer</surname> <given-names>G</given-names> <suffix>Jr</suffix></name>, <name name-style="western"><surname>Luha</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wimmerova</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kukumberg</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Non-persistence with antiplatelet therapy in elderly patients after a transient ischemic attack</article-title>. <source>Aging Clin Exp Res</source>. <year>2017</year>;<volume>29</volume>: <fpage>1121</fpage>&#8211;<lpage>1127</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s40520-017-0745-4" ns0:type="simple">10.1007/s40520-017-0745-4</ext-link></comment> <object-id pub-id-type="pmid">28284002</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref013"><label>13</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wallace</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Fahey</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Cahir</surname> <given-names>C</given-names></name>. <article-title>Measuring medication adherence in older community-dwelling patients with multimorbidity</article-title>. <source>Eur J Clin Pharmacol</source>. <year>2018</year>;<volume>74</volume>: <fpage>357</fpage>&#8211;<lpage>364</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00228-017-2388-y" ns0:type="simple">10.1007/s00228-017-2388-y</ext-link></comment> <object-id pub-id-type="pmid">29199370</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref014"><label>14</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Calip</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Xing</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jun</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Hoskins</surname> <given-names>KF</given-names></name>, <name name-style="western"><surname>Ko</surname> <given-names>NY</given-names></name>. <article-title>Polypharmacy and Adherence to Adjuvant Endocrine Therapy for Breast Cancer</article-title>. <source>J Oncol Pract</source>. <year>2017</year>;<volume>13</volume>: <fpage>e451</fpage>&#8211;<lpage>e462</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1200/JOP.2016.018317" ns0:type="simple">10.1200/JOP.2016.018317</ext-link></comment> <object-id pub-id-type="pmid">28287854</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref015"><label>15</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Mochtar</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Kiemeney</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Laguna</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>van Riemsdijk</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Barnett</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Debruyne</surname> <given-names>FM</given-names></name>, <etal>et al</etal>. <article-title>Prognostic role of prostate-specific antigen and prostate volume for the risk of invasive therapy in patients with benign prostatic hyperplasia initially managed with alpha1-blockers and watchful waiting</article-title>. <source>Urology</source>. <year>2005</year>;<volume>65</volume>: <fpage>300</fpage>&#8211;<lpage>305</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.urology.2004.09.030" ns0:type="simple">10.1016/j.urology.2004.09.030</ext-link></comment> <object-id pub-id-type="pmid">15708042</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref016"><label>16</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Masumori</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Hashimoto</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Itoh</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Tsukamoto</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Group</surname> <given-names>TS</given-names></name>. <article-title>Short-term efficacy and long-term compliance/treatment failure of the alpha1 blocker naftopidil for patients with lower urinary tract symptoms suggestive of benign prostatic hyperplasia</article-title>. <source>Scand J Urol Nephrol</source>. <year>2007</year>;<volume>41</volume>: <fpage>422</fpage>&#8211;<lpage>429</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1080/00365590701226036" ns0:type="simple">10.1080/00365590701226036</ext-link></comment> <object-id pub-id-type="pmid">17853040</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref017"><label>17</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Matsukawa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Funahashi</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Majima</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yamamoto</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Gotoh</surname> <given-names>M</given-names></name>. <article-title>What are the predicting factors for the therapeutic effects of dutasteride in male patients with lower urinary tract symptoms? Investigation using a urodynamic study</article-title>. <source>Neurourol Urodyn</source>. <year>2017</year>;<volume>36</volume>: <fpage>1809</fpage>&#8211;<lpage>1815</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1002/nau.23185" ns0:type="simple">10.1002/nau.23185</ext-link></comment> <object-id pub-id-type="pmid">28102554</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref018"><label>18</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Ahmed</surname> <given-names>AF</given-names></name>. <article-title>Sonographic Parameters Predicting the Outcome of Patients With Lower Urinary Tract Symptoms/Benign Prostatic Hyperplasia Treated With Alpha1-Adrenoreceptor Antagonist</article-title>. <source>Urology</source>. <year>2016</year>;<volume>88</volume>: <fpage>143</fpage>&#8211;<lpage>148</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1016/j.urology.2015.11.017" ns0:type="simple">10.1016/j.urology.2015.11.017</ext-link></comment> <object-id pub-id-type="pmid">26607685</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref019"><label>19</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Hordijk</surname> <given-names>IMJ</given-names></name>, <name name-style="western"><surname>Steffens</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Hak</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Blanker</surname> <given-names>MH</given-names></name>. <article-title>Continuation rates of alpha-blockers mono-therapy in adult men, prescribed by urologists or general practitioners: a pharmacy-based study</article-title>. <source>World J Urol</source>. <year>2018</year> <month>Nov</month> <day>13</day>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1007/s00345-018-2557-3" ns0:type="simple">10.1007/s00345-018-2557-3</ext-link></comment> <object-id pub-id-type="pmid">30426194</object-id></mixed-citation></ref>
+<ref id="pone.0220417.ref020"><label>20</label><mixed-citation publication-type="journal" ns0:type="simple"><name name-style="western"><surname>Koh</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JC</given-names></name>. <article-title>Twelve-month medication persistence in men with lower urinary tract symptoms suggestive of benign prostatic hyperplasia</article-title>. <source>Int J Clin Pract</source>. <year>2014</year>;<volume>68</volume>: <fpage>197</fpage>&#8211;<lpage>202</lpage>. <comment>doi: <ext-link ext-link-type="uri" ns0:href="https://doi.org/10.1111/ijcp.12241" ns0:type="simple">10.1111/ijcp.12241</ext-link></comment> <object-id pub-id-type="pmid">24372906</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0220417.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220417.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Thumbikat</surname>
+<given-names>Praveen</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Praveen Thumbikat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220417" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">3 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17487</p>
+<p>Symptom improvement and predictors associated with improvement after 6 weeks of alpha-blocker therapy: An exploratory, single-arm, open-label cohort study</p>
+<p>PLOS ONE</p>
+<p>Dear Dr van der Worp,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>A number of important but minor concerns were raised by the reviewer that requires clarification and a detailed response.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 17 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Praveen Thumbikat</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. Please include additional information regarding the survey or questionnaire used in the study and ensure that you have provided sufficient details that others could replicate the analyses. For instance, if you developed a questionnaire as part of this study and it is not under a copyright more restrictive than CC-BY, please include a copy, in both the original language and English, as Supporting Information.&#160; Moreover, please define the follow-up period for this study.</p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>.</p>
+<p>In your revised cover letter, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information) and who has imposed them (e.g., an ethics committee). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. Please see <ext-link ext-link-type="uri" ns0:href="http://www.bmj.com/content/340/bmj.c181.long" ns0:type="simple">http://www.bmj.com/content/340/bmj.c181.long</ext-link> for guidelines on how to de-identify and prepare clinical data for publication. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: No</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: Authors describe the findings from a single arm, open label clinical study on alpha blocker for male LUTS. The finding of greater benefit from alpha-blocker in participants with more severe symptoms at baseline is highly plausible.</p>
+<p>Following concerns were noted</p>
+<p>1) Need to specify the medications that were consumed by participants but deemed to not have an effect on LUTS by the authors. How many such medications were used by patients</p>
+<p>2) Considering the 3.89 OR for PGI improvement with 6 medications, it is likely that the assumption of medications not having an effect on LUTS is untrue or the medications are affecting urine production.</p>
+<p>3)Table 3 and 4 have negative values as predictors, does the negative sign imply that the variable worsens the LUTS</p>
+<p>4) scores on (i.e., the IPSS and OAB-q SF) are subjective and not objective measures of improvement</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Pradeep Tyagi</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0220417.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220417.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0220417" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0220417.r001" object-id-type="doi" object-type="decision-letter" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">12 Jul 2019</named-content>
+</p>
+<p>Reply to editor comments:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming.</p>
+<p>&gt;&gt;We noted some errors in the manuscript style (capitals in title) and corrected those (Page 3, line 57 and page 9, line 150)</p>
+<p>2. Please include additional information regarding the survey or questionnaire used in the study and ensure that you have provided sufficient details that others could replicate the analyses. For instance, if you developed a questionnaire as part of this study and it is not under a copyright more restrictive than CC-BY, please include a copy, in both the original language and English, as Supporting Information. Moreover, please define the follow-up period for this study.</p>
+<p>&gt;&gt;For this study we used the Dutch versions of the IPSS and the OAB-q that have been referenced in the manuscript. We did not develop a questionnaire but only asked for some demographic and disease specific information, in addition to aforementioned questionnaires. These questions have been described in the manuscript (page 4, lines 73-74 and 83-85). As the questions were in Dutch, we doubt if we needed to make the complete questionnaire available.</p>
+<p>3. We note that you have indicated that data from this study are available upon request. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings as either Supporting Information files or to a stable, public repository.</p>
+<p>&gt;&gt;There are no legal or ethical restrictions on sharing data. We have now added a minimal anonymized dataset as a supporting Information file.</p>
+<p>&#8195;</p>
+<p>Reply to reviewer comments:</p>
+<p>1) Need to specify the medications that were consumed by participants but deemed to not have an effect on LUTS by the authors. How many such medications were used by patients.</p>
+<p>&gt;&gt;We made a frequency table of the other medications that were used. We presented the medications that were used by &#8805;5% percent of the participants in a supplementary file (S1 Table). And we referred to this table in the results section:</p>
+<p>Page 6, line 135: An overview of the medication that was used by the patients is given in supporting file S1 Table.</p>
+<p>2) Considering the 3.89 OR for PGI improvement with 6 medications, it is likely that the assumption of medications not having an effect on LUTS is untrue or the medications are affecting urine production.</p>
+<p>&gt;&gt;We agree that it might be possible that other medications could influence LUTS or urine production, but we do not feel that this is very likely. First of all and most important, the other medication was initiated in the period preceding baseline assessment and had not changed during the observation period. Therefore it is not likely that symptoms improved during follow-up because of that medication. Secondly, we controlled for medication that is known to have an effect on urinary symptoms and we did not find a significant association between this variable and the outcomes. Because of this we feel it is unlikely that other medication affected outcomes. We therefore sought an explanation for the relation between the use of multiple types of medication and improvement of symptoms elsewhere, and found several studies that have shown a link between the use of multiple types of medication and adherence. For transparency we have provided a list of the most used types of medication (S1 Table). We added the following to the Discussion:</p>
+<p>Page 17, lines 221-226: Another explanation is that other types of medication lead to improvement of LUTS, however this is less likely. First of all, other medication was initiated before baseline, and remained unchanged during the observation period. Secondly, in our analyses we looked at known specific drugs with the potential to affect LUTS and found no relation with change in symptoms, although we cannot rule out that there are other types of drugs that have an influence on LUTS.</p>
+<p>3)Table 3 and 4 have negative values as predictors, does the negative sign imply that the variable worsens the LUTS</p>
+<p>&gt;&gt;A lower score on the IPSS means less symptoms and therefore a negative sign in the regression coefficients indicates an improvement of symptoms. To emphasize this we have added this information to the Materials en Methods section and to the footnotes of the two tables.</p>
+<p>Page 6, line 127: Because a higher IPSS score indicates more symptoms, regression coefficients of improvement will have a negative sign.</p>
+<p>Table footnote: Negative regression coefficients indicate improvement of symptoms.</p>
+<p>4) scores on (i.e., the IPSS and OAB-q SF) are subjective and not objective measures of improvement</p>
+<p>&gt;&gt;We agree that both the IPSS and OAB-q SF are not objective measures of symptoms. The point we tried to make is that both questionnaires are more objective than the PGI-I because they ask for measurable events such as the frequency of urination, whereas the PGI-I asks for the more qualitative impression of improvement. We now replaced the term &#8216;objective&#8217; with &#8216;quantitative&#8217; to make this more clear.</p>
+<p>Page 16, line 213: However, no such relationship existed between current alpha-blocker use and the more quantitative measures of improvement (i.e., the IPSS and OAB-q SF), suggesting that any observed improvements in symptoms could not be attributed to changes in either the frequency of urination or episodes of incontinence.</p>
+<supplementary-material id="pone.0220417.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" ns0:href="info:doi/10.1371/journal.pone.0220417.s006" ns0:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0220417.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220417.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Thumbikat</surname>
+<given-names>Praveen</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Praveen Thumbikat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220417" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">16 Jul 2019</named-content>
+</p>
+<p>Symptom improvement and predictors associated with improvement after 6 weeks of alpha-blocker therapy: An exploratory, single-arm, open-label cohort study</p>
+<p>PONE-D-19-17487R1</p>
+<p>Dear Dr. van der Worp,</p>
+<p>We are pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email ns0:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Praveen Thumbikat</p>
+<p>Section Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the &#8220;Comments to the Author&#8221; section, enter your conflict of interest statement in the &#8220;Confidential to Editor&#8221; section, and submit your "Accept" recommendation.</p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>**********</p>
+<p>2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>3. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>**********</p>
+<p>6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: (No Response)</p>
+<p>**********</p>
+<p>7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: Yes: Pradeep Tyagi</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0220417.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0220417.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Thumbikat</surname>
+<given-names>Praveen</given-names>
+</name>
+<role>Section Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Praveen Thumbikat</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0220417" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article" />
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">17 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-17487R1</p>
+<p>Symptom improvement and predictors associated with improvement after 6 weeks of alpha-blocker therapy: An exploratory, single-arm, open-label cohort study</p>
+<p>Dear Dr. van der Worp:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email ns0:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email ns0:type="simple">plosone@plos.org</email>.</p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Praveen Thumbikat</p>
+<p>Section Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

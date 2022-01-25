@@ -1,0 +1,143 @@
+<sub-article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="aggregated-review-documents" id="pone.0221599.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0221599.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Trinidad Segovia</surname>
+<given-names>J E.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>J E. Trinidad Segovia</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/" ns0:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0221599" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article" />
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">17 Jul 2019</named-content>
+</p>
+<p>PONE-D-19-16971</p>
+<p>The conditional Fama-French model and endogenous illiquidity: A robust instrumental variables test</p>
+<p>PLOS ONE</p>
+<p>Dear Dr. Racicot,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE&#8217;s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>Please, pay attention to the major concerns of reviewers 1 and 3 about the use of an illiquidity measure for more robustness of your analysis. I think you will find the rest of reviewer&#8217;s comments very helpfull. To conclude, we would be very grateful&#160;if you can cite any other relevant papers recently published in Plos One.</p>
+<p>We would appreciate receiving your revised manuscript by Aug 31 2019 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" ns0:href="https://www.editorialmanager.com/pone/" ns0:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" ns0:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>J E. Trinidad Segovia</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at</p>
+<p><ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" ns0:href="http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" ns0:type="simple">http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>1. Thank you for including the following funding information within the acknowledgements section of your manuscript; "Financial support from the IPAG Business School is gratefully acknowledged. We also acknowledge financial support from the Social Sciences and Humanities Research Council (SSHRC) of Canada, grant no. 435-2019-0078."</p>
+<p>We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form.</p>
+<p>Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows:</p>
+<p>"no"</p>
+<p>2. Thank you for including your competing interests statement; "No"</p>
+<p>Please complete your Competing Interests on the online submission form to state any Competing Interests. If you have no competing interests, please state "The authors have declared that no competing interests exist.", as detailed online in our guide for authors at <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/submit-now" ns0:type="simple">http://journals.plos.org/plosone/s/submit-now</ext-link></p>
+<p>&#160;This information should be included in your cover letter; we will change the online submission form on your behalf.</p>
+<p>3. In your Data Availability statement, you have not specified where the minimal data set underlying the results described in your manuscript can be found. PLOS defines a study's minimal data set as the underlying data used to reach the conclusions drawn in the manuscript and any additional data required to replicate the reported study findings in their entirety. All PLOS journals require that the minimal data set be made fully available. For more information about our data policy, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability</ext-link>.</p>
+<p>Upon re-submitting your revised manuscript, please upload your study&#8217;s minimal underlying data set as either Supporting Information files or to a stable, public repository and include the relevant URLs, DOIs, or accession numbers within your revised cover letter. For a list of acceptable repositories, please see <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories</ext-link>. Any potentially identifying patient information must be fully anonymized.</p>
+<p>Important: If there are ethical or legal restrictions to sharing your data publicly, please explain these restrictions in detail. Please see our guidelines for more information on what we consider unacceptable restrictions to publicly sharing data: <ext-link ext-link-type="uri" ns0:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions" ns0:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions</ext-link>. Note that it is not acceptable for the authors to be the sole named individuals responsible for ensuring data access.</p>
+<p>We will update your Data Availability statement to reflect the information you provide in your cover letter.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>2. Has the statistical analysis been performed appropriately and rigorously? </p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" ns0:href="http://www.plosone.org/static/policies.action#sharing" ns0:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data&#8212;e.g. participant privacy or use of data from a third party&#8212;those must be specified.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.</p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>**********</p>
+<p>5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)</p>
+<p>Reviewer #1: This article examines a conditional extended Fama-French five-factor asset pricing model using the P&#225;stor-Stambaugh (2003) tradeable liquidity measure. This paper is interesting and well written. Interestingly, the author(s) note that in their empirical section that the Kurtosis measure is related to the Skewness one, and this is one rare article that comments on this important fact, implying that Kurtosis could be proxied via Skewness squared.</p>
+<p>Major Comment</p>
+<p>Since the paper only uses one measure of illiquidity, I would suggest that the author(s) consider another measure of illiquidity such as Amihud (2002) as a robustness check to their result. The author(s) could either open a new section in their paper for this check or place the check in an appendix.</p>
+<p>Minor comments</p>
+<p>I recommend that the author(s) cite the recent papers by P&#225;stor-Stambaugh (2019) and Amihud (2019), where these authors restate their faith in their illiquidity measures.</p>
+<p>The author left yellow highlighting on line 415 and 424.</p>
+<p>References</p>
+<p>Amihud, Y. (2019). Illiquidity and stock returns: A revisit. Working Paper, Stern School of Business, New York University.</p>
+<p>P&#225;stor, L., Stambaugh, R. (2019). Liquidity Risk After 20 Years. Working Paper, SSRN.</p>
+<p>Reviewer #2: This article relies on the Ferson and Schadt&#8217;s (1996) procedure to make time-varying the coefficients alpha and market beta in the Fama and French&#8217;s (2015) five-factor model augmented with an illiquidity factor. The alpha is conditioned by the market risk premium and the term spread, whereas the market beta depends on the market risk premium, the term spread and the illiquidity factor. They experiment with OLS and their IV-GMM using robust instruments since the illiquidity factor is endogenous (Adrian et al., 2017). Their study is run on the Fama and French 12-sector portfolios using monthly returns over the 1968-2016 period. The authors analyze the portfolio responses to illiquidity using two scenarios: (i) a portfolio with high beta versus a portfolio with low beta; (ii) a portfolio which embeds an illiquidity premium versus a more liquid portfolio. They find many cases of misspecifications when using OLS rather than the IV-GMM. Moreover, in each scenario, the alphas and betas of the two portfolios have a fairly different behavior. Finally, they show that the cycles of the portfolios&#8217; alpha and beta are more plausible when using the IV-GMM rather than OLS.</p>
+<p>Comments</p>
+<p>This article is well-written and interesting. I recommend its publication but I have some minor comments that should be addressed.</p>
+<p>(i) At page 10, the authors should provide more details on the HAC matrix, which is crucial in the GMM estimation process. More precisely, they should discuss the roles played by the concepts of kernel and bandwith which are associated with the HAC matrix.</p>
+<p>(ii) At page 6, the authors must tell why they resort to the P&#225;stor and Stambaugh&#8217; s (2003) illiquidity factor which they label IML (illiquid portfolio returns minus liquid portfolio returns) rather than to their two other liquidity factors&#8212;i.e., the level of aggregated liquidity (gamma), and the innovations in aggregate liquidity. There is some explanation at line 339 (p. 15) but it comes too late.</p>
+<p>(iii) Page 6. The authors should specify why a parsimonious model is appropriate in econometrics.</p>
+<p>(iv) Page 8. In equation (9), the authors should remove VIXt-1, which introduces confusion when reading this equation. They should only explain that there are good alternatives to IML like VIX.</p>
+<p>(v) At page 16, the authors contend that the term spread is widely accepted in macroeconomics as a leading indicator of the future state of the economy. They should provide more explanations on the relationship between the term spread and the economic prospects.</p>
+<p>(vi) line 175: replace &#8220;the spread between ten-year federal bonds and 90-day T bills&#8221; by &#8220;the spread between ten-year Treasury constant maturity rate and 90-day Tbill rate&#8221;. Do the same correction in the notes of Table 1b.</p>
+<p>line 182: replace the &#8220;initial results&#8221; by the &#8220;preliminary results&#8221;.</p>
+<p>line 288: replace to &#8220;mitigate&#8221; endogeneity by to &#8220;confront&#8221; endogeneity.</p>
+<p>Line 342: replace &#8220;90-day Tbills&#8221; by &#8220;90-day Tbill rate&#8221;.</p>
+<p>References</p>
+<p>Adrian T, Fleming M, Shachar O, Vogt E. Market liquidity after the financial crisis. Annual Review of Financial Economics. 2017;9:43-83.</p>
+<p>Fama EF, French KR. A five-factor asset pricing model. Journal of Financial Economics. 2015;116:1-22.</p>
+<p>Ferson WE, Schadt RW. Measuring fund strategy and performance in changing economic conditions. Journal of Finance. 1996;51(2):425&#8211;461.</p>
+<p>P&#225;stor L, Stambaugh RF. Liquidity risk and expected stock returns. Journal of Political Economy. 2003;111:642-685.</p>
+<p>Reviewer #3: Question 1: . Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The paper is technically sound as the authors use a robust instrumental variable approach to estimate a financial model based on expected values. More specifically, they apply</p>
+<p>the GMM approach to a fixed and random effects panel data framework. They allow not only for the Jensen &#945; performance measure to vary across sectors but also the &#946; systematic risk measure to vary. The data and their empirical framework support the conclusion that the most significant factor is the market factor, but &#8211; interestingly - illiquidity may be at play too, depending on the state of the economy.</p>
+<p>Question 2: Has the statistical analysis been performed appropriately and rigorously?</p>
+<p>Yes. I would recommend, with the goal of increasing the reliability to the conclusions of the paper, to do a robustness check with Amihud's liquidity indicator (2002, 2019). In other words, this procedure would compare the paper&#8217;s results with Pastor-Stambaugh's indicator to the results that would be obtained with Amihud&#8217;s indicator.</p>
+<p>AMIHUD, Y. (2002). &#8220;Illiquidity and stock returns: Cross-section and time-series effects&#8221;. Journal of Financial Markets, 5: 31-56.</p>
+<p>Amihud, Yakov and Levi, Shai, &#8220;The Effect of Stock Liquidity on the Firm's Investment and Production&#8221; (April 15, 2019). Available at SSRN: <ext-link ext-link-type="uri" ns0:href="https://ssrn.com/abstract=3183091" ns0:type="simple">https://ssrn.com/abstract=3183091</ext-link>.</p>
+<p>Question 3: Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The main source of data is French&#8217;s website. St. Louis Federal Reserve FRED database is source of for the ten-year Treasury bond rate and the three-month T-bill rate. The P&#225;stor-Stambaugh tradable liquidity risk factor available is from the Pastor&#8217;s website. The implied volatility index VIX is available from the CBOE database. It will be helpful if the authors include the links to these publicly available data sources in the text.</p>
+<p>Question 4: Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>Yes. I had no problem reading and understanding the text.</p>
+<p>**********</p>
+<p>6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" ns0:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" ns0:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose &#8220;no&#8221;, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" ns0:href="https://www.plos.org/privacy-policy" ns0:type="simple">Privacy Policy</ext-link>.</p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: Yes: Jos&#233;-Mar&#237;a Montero</p>
+<p>Reviewer #3: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" ns0:href="https://pacev2.apexcovantage.com/" ns0:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email ns0:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
