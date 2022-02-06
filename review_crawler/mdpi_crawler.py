@@ -99,12 +99,12 @@ def parse_article(url, dump_dir=None):
         raise Exception("Invalid url for parse_article.")
 
     metadata = {}
-    logger.info(f"Parsing: {_shorten(url)}.", end=" | ")
+    logger.info(f"Parsing: {url}.")
 
     try:
         soup = _cook(url)
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
-        logger.info(f"Title: {metadata['title']}", end=' | ')
+        logger.info(f"Title: {metadata['title']}")
 
         metadata['url'] = soup.find('meta', {'property': 'og:url'}).get('content').strip()
 
@@ -152,19 +152,24 @@ def parse_article(url, dump_dir=None):
     # todo: more metadata, parse reviews
 
     except Exception as e:
-        logger.warning(f"There was a problem with article from {_shorten(url)}: {e}\narticle metadata: {metadata}")
+        logger.warning(f"There was a problem parsing article from {_shorten(url)}: {e}\narticle metadata: {metadata}")
+        raise e
 
     else:
-        logger.info(f"Parsed {_shorten(url)} succesfully.", end=" | ")
+        logger.info(f"Parsed {_shorten(url)} succesfully.")
         if dump_dir is not None:
-            logger.info("Saving to file.", end=" | ")
-            filename = f"{os.path.join(dump_dir, _shorten(url))}.json"
-            if os.path.exists(filename):
-                logger.warning(f"{_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.", end=" | ")
+            logger.info("Saving to file.")
+            try:
+                filename = f"{os.path.join(dump_dir, _shorten(url))}.json"
+                if os.path.exists(filename):
+                    logger.warning(f"{_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.")
+                else:
+                    with open(filename, 'w+', encoding="utf-8") as fp:
+                        json.dump(metadata, fp, ensure_ascii=False)
+            except Exception as e:
+                logger.exception(f"Problem while saving to file: {filename}.\n{e}")
             else:
-                with open(filename, 'w+', encoding="utf-8") as fp:
-                    json.dump(metadata, fp, ensure_ascii=False)
-                logger.info(f"Saved metadata to file.", end=" | ")
+                logger.info(f"Saved metadata to file.")
     return metadata
 
 
@@ -248,7 +253,7 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
         for future in concurrent.futures.as_completed(futures):
             if future.exception:
                 errors_counter += 1
-                logger.exception(future.exception(), exc_info=False)
+                logger.exception(future.exception(), exc_info=True)
             else:
                 scraped_articles += (future.result())
                 done_pages_counter += 1
@@ -275,7 +280,7 @@ if __name__ == '__main__':
     startime = time.process_time()
     scraped = crawl(dump_dir="mdpi/scraped/articles",
                     max_articles=30,  # delete this line to crawl everything
-                    print_logs=False)
+                    print_logs=True)
     runtime = time.process_time() - startime
     print(f"and it all took {runtime} seconds.")
     # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:
