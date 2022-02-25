@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0262049</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-21-23813</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Sleep</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social systems</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Neurology</subject><subj-group><subject>Sleep deprivation</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Metaanalysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Metaanalysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Behavioral and social aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Economics</subject><subj-group><subject>Labor economics</subject><subj-group><subject>Employment</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Chronobiology</subject><subj-group><subject>Circadian rhythms</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Social jetlag and sleep debts are altered in different rosters of night shift work</article-title>
+<alt-title alt-title-type="running-head">Sleep of shift workers</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0148-8859</contrib-id>
+<name name-style="western">
+<surname>Casjens</surname>
+<given-names>Swaantje</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Brenscheidt</surname>
+<given-names>Frank</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Tisch</surname>
+<given-names>Anita</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Beermann</surname>
+<given-names>Beate</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Brüning</surname>
+<given-names>Thomas</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Behrens</surname>
+<given-names>Thomas</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rabstein</surname>
+<given-names>Sylvia</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Institute of the Ruhr University Bochum (IPA), Bochum, Germany</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Federal Institute for Occupational Safety and Health (BAuA), Dortmund, Germany</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Bullock</surname>
+<given-names>Ben</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Swinburne University of Technology Faculty of Health Arts and Design, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">Swaantje.Casjens@ruhr-uni-bochum.de</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>7</day>
+<month>1</month>
+<year>2022</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2022</year>
+</pub-date>
+<volume>17</volume>
+<issue>1</issue>
+<elocation-id>e0262049</elocation-id>
+<history>
+<date date-type="received">
+<day>3</day>
+<month>8</month>
+<year>2021</year>
+</date>
+<date date-type="accepted">
+<day>15</day>
+<month>12</month>
+<year>2021</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Casjens et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0262049"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Night and shift work are suspected to cause various adverse effects on health and sleep. Sleep deprivation through shift work is assumed to be compensated on free days. So far it is not clear how different shift systems and shift lengths affect sleep structure on work and free days. Especially working night shifts disrupts the circadian rhythm but also extended working hours (12h) might affect sleep characteristics. Hitherto, the magnitude of sleep debt, social jetlag, and Locomotor Inactivity During Sleep (LIDS) in different shift systems is unknown.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>Here, we investigated the impact of five different shift rosters on sleep in 129 industrial workers from Germany. Permanent night work with multiple shift systems with and without night shifts and with different shift lengths were compared. Wrist-activity was monitored over 28 days revealing sleep on- and offsets as well as LIDS as proxy for sleep quality. Overall, 3,865 sleep bouts comprising 22,310 hours of sleep were examined.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>The mean daily age-adjusted sleep duration (including naps) was 6:43h and did not differ between shift workers of different rosters. However, sleep duration on workdays was particularly low in rotational shift systems with 12h-shifts (5:00h), while overall sleep debt was highest. Shift workers showed a median absolute social jetlag of 3:03h, which differed considerably between shift types and rosters (p&lt;0.0001). Permanent night workers had the highest social jetlag (5:08h) and latest mid-sleeps on workdays and free days. Sleep quality was reduced in permanent night shift workers compared with shift workers in other rosters and differed between daytime and nighttime sleep.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Shift work leads to partial sleep deprivation, which particularly affects workers in 12h-shifts and permanent night shifts. Working these shifts resulted in higher sleep debts and larger absolute social jetlag whereas sleep quality was especially reduced in permanent night shift workers compared with shift workers of other rosters.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100006522</institution-id>
+<institution>bundesanstalt für arbeitsschutz und arbeitsmedizin</institution>
+</institution-wrap>
+</funding-source>
+<award-id>F 2409</award-id>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100006254</institution-id>
+<institution>Ruhr-Universität Bochum</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>The study was funded by the Federal Institute for Occupational Safety and Health (Project No.: F 2409). The Open Access Publication Fund of the Ruhr-Universität Bochum contributed to publication costs for this manuscript. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<page-count count="14"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The study was funded by the Federal Institute for Occupational Safety and Health (Project No.: F 2409). This does not alter our compliance with the PLOS ONE policies for sharing data and materials. The data that support the findings of this study cannot be shared publicly. However, data are available at the Federal Institute for Occupational Safety and Health upon reasonable request (Federal Institute for Occupational Safety and Health (BAuA), Friedrich-Henkel-Weg 1-25, 44149 Dortmund, Germany; email <email xlink:type="simple">Fb1.1@baua.bund.de</email>).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>One of the key health consequences of shift work is sleep loss which has been the interest of systematic research for more than thirty years [<xref ref-type="bibr" rid="pone.0262049.ref001">1</xref>]. Especially night shifts forcefully disrupt the circadian rhythm, leading to shorter sleep, increased sleepiness, an accumulation of sleep debt, and fatigue [<xref ref-type="bibr" rid="pone.0262049.ref002">2</xref>]. The uncertainty about the magnitude of sleep debt and social jet lag in different rosters makes it currently difficult to reorganize shift systems. It has been shown that day sleep after night shifts [<xref ref-type="bibr" rid="pone.0262049.ref003">3</xref>] as well as main sleep before early morning or night shifts is often shortened [<xref ref-type="bibr" rid="pone.0262049.ref004">4</xref>]. Specific shift characteristics, such as quick returns, night or irregular work, and morning preference were also associated with shorter sleep duration, poorer sleep quality, and disturbed sleep [<xref ref-type="bibr" rid="pone.0262049.ref005">5</xref>–<xref ref-type="bibr" rid="pone.0262049.ref008">8</xref>]. On the other hand, employees working extended shifts (12h-shifts) might sleep longer and better than employees of 8h-shift schedules because the increased number of work-free days may improve psycho-physical recovery, family and social life [<xref ref-type="bibr" rid="pone.0262049.ref009">9</xref>]. However, doubled risks of occupational accidents towards the end of a 12h-shift compared to 8h-shifts have been reported [<xref ref-type="bibr" rid="pone.0262049.ref010">10</xref>].</p>
+<p>Adequate sleep is essential to maintain physical and mental health. Previous meta-analyses have shown, that short sleep and poor sleep quality can lead to immunological changes, increase the risk of cognitive impairments, obesity, type 2 diabetes, coronary heart disease, stroke, and depression [<xref ref-type="bibr" rid="pone.0262049.ref001">1</xref>] as well as to an increase of all-cause mortality [<xref ref-type="bibr" rid="pone.0262049.ref011">11</xref>]. Furthermore, meta-analyses found associations between sleep quality and occupational accidents and injuries, and falls [<xref ref-type="bibr" rid="pone.0262049.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0262049.ref013">13</xref>] as well as more sleep disturbances in shift workers than in day workers [<xref ref-type="bibr" rid="pone.0262049.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0262049.ref015">15</xref>]. More recent studies showed that long-term exposure to shift work with night shifts was associated with a substantial increase of fatigue and long sleep (≥ 9 hours) during work-free days [<xref ref-type="bibr" rid="pone.0262049.ref016">16</xref>] as well as decreased psychomotor vigilance [<xref ref-type="bibr" rid="pone.0262049.ref017">17</xref>]. Especially, permanent night workers reported poorer health, more absenteeism and less job satisfaction than day workers [<xref ref-type="bibr" rid="pone.0262049.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0262049.ref019">19</xref>] as well as more insomnia on work-free days in comparison to workers in two and three-shift rotations [<xref ref-type="bibr" rid="pone.0262049.ref020">20</xref>]. However, other studies did not find an association between shift work with night shifts and sleep quality [<xref ref-type="bibr" rid="pone.0262049.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0262049.ref022">22</xref>]. Nevertheless, leaving night work in comparison to staying in such work was associated with improved sleep [<xref ref-type="bibr" rid="pone.0262049.ref022">22</xref>].</p>
+<p>The gold standard to assess sleep quality is laboratory polysomnography (PSG) being an all-embracing but time-consuming and expensive technique. However, application of PSG is not feasible in epidemiological studies with many participants. Alternatively, locomotor activity can be recorded continuously with small devices (actigraphy) at home allowing to calculate sleep-wake scores and obtain time and duration of sleep bouts under normal conditions outside the laboratory [<xref ref-type="bibr" rid="pone.0262049.ref023">23</xref>]. With the exception of a few studies [<xref ref-type="bibr" rid="pone.0262049.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>], sleep in shift workers has often only been investigated in far fewer than a hundred subjects using actigraphy [<xref ref-type="bibr" rid="pone.0262049.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0262049.ref025">25</xref>] The duration of sleep measurement using actigraphy also varies between studies, ranging from a few days to several weeks. Regardless of the industry examined, all studies observed impaired sleep among shift workers, such as shorter sleep duration, increased sleepiness, more premature awaking or delayed sleep timing. Furthermore, it was proposed to extract locomotor inactivity during sleep (LIDS) from wrist movements measured by actigraphy [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>]. LIDS has been presented to be closely related with PSG-monitored sleep physiology and hence be able to reveal relevant information about sleep structure and sleep quality.</p>
+<p>Here, we investigate the impact of different shift rosters on sleep in industrial workers over a study period of 28 days. We analyze overall sleep duration, timing of sleep, sleep debt and naps on workdays and free days, as well as characteristics of LIDS considering different shifts. We compare permanent night work with multiple shift systems with and without night shifts and with different shift lengths and provide the first LIDS analysis of shift workers with different shift types.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec007">
+<title>Study population</title>
+<p>In total, 143 shift workers were recruited from two manufacturing companies with partially rotating shift schedules in Germany. The study period was 28 days for each participant and took place in spring 2018 (company 1) and fall 2018 (company 2). All shift-workers of work areas within the two companies who shared similar work tasks were eligible. All participants provided written informed consent. The study was approved by the Ethics Committee of the Ruhr University Bochum, Germany (Reg. No. 17–6205).</p>
+<p>In company 1, shift workers worked in fast-forward rotating 8h-morning, evening, and night shifts each with two equal shifts in succession (transition times: 06:00, 14:00, and 22:00) or in 12h-shifts (transition times: 06:00 and 18:00) with one week consisting of only day shifts followed by a week of night shifts only. Both rosters also included weekend shifts with 42 weekly working hours each. In company 2, three different rosters existed: 1) rotational shift work with morning shifts (06:00 to 14:30) and evening shifts (14:30 to 22:30) without night work and without weekend shifts; 2) 12h-weekend shifts rotating between day and night shift every other weekend (06:00 to 18:00 or 18:00 to 06:00); 3) permanent night work (22:30 to 06:00) without weekend shifts. Detailed shift schedules of the individual rosters are shown in <xref ref-type="supplementary-material" rid="pone.0262049.s001">S1 File</xref>.</p>
+<p>In this study, only participants with recordings of wrist-activity were included (n = 137). Participants were excluded from analyses if they worked less than five days during the study period or worked ten or more additional shifts according to the roster, did not work at least one night shift if night work was part of the roster (n = 3), or if actimetry existed for less than ten days (n = 3). Due to deficient recordings of wrist-activity two participants were further excluded. The remaining study population (n = 129) comprised 90 shift workers in company 1 and 39 shift workers in company 2. For each participant, sociodemographic characteristics, alarm clock use, or other reasons influencing sleep times, e.g. children and medications were assessed by questionnaire. Body height and weight were measured.</p>
+</sec>
+<sec id="sec008">
+<title>Actimetry data processing</title>
+<p>Wrist-activity was monitored using the tri-axial accelerometer ActiGraph GT3X (Actigraph, Pensacola, FL, USA). Activity was sampled in 1s intervals and stored in 30s intervals. Participants wore the devices continuously for four weeks. Additionally, each participant was asked to record information regarding their sleeping and working times and times not wearing the actigraph into a protocol for every day during the study period (sleep diary). With the help of the protocol sick days, holidays, and irregularities in the shift schedule could be identified. Sleep on- and offsets were determined from actimetry data using the algorithm by Cole and Kripke coming with the device’s software [<xref ref-type="bibr" rid="pone.0262049.ref026">26</xref>]. Two authors (SC and SR) have cross-checked all sleep on- and offsets derived from actigraphy and from sleep diaries for each participant for plausibility. Based on expert rating, differences were adjusted or discarded.</p>
+<p>The actigraphs did not automatically adjust for summer and winter time. Hence, sleep bouts ending after the time change were manually adjusted. Times were put forward (winter to summer time) respectively backward (summer to winter time) by one hour. Accordingly, sleep bouts at the time change were reduced respectively extended by one hour to analyze the actual sleep duration.</p>
+</sec>
+<sec id="sec009">
+<title>Primary sleep parameters</title>
+<p>Overall, 3,865 sleep bouts comprising 22,310 hours of sleep were examined. Based on the activity-derived sleep data, duration of main sleep (longest sleep of a day), and naps were calculated. We distinguished between restricted sleep episodes at workdays (sleep before morning shifts, after evening or night shifts), unrestricted sleep episodes following shift (sleep on work-free days after morning, evening or night shifts, between morning and evening/night shifts or between work-free days and evening/night shifts), and subsequent free days (sleep from subsequent work-free days) [<xref ref-type="bibr" rid="pone.0262049.ref027">27</xref>]. Sleep debt was assessed as the absolute difference of sleep duration between workdays and work-free days. Sleep starting and ending between 6am and 8pm was defined as day sleep and sleep between 8pm and 8am as night sleep, respectively. Other sleep episodes were assigned to a third group of unclassified sleep.</p>
+<p>Mid-sleep was calculated for main sleep episodes only. Shift-workers were chronotyped by the mid-sleep between two work-free days following an evening shift (MSF<sup>E</sup><sub>sc</sub>) corrected for oversleep on work-free days [<xref ref-type="bibr" rid="pone.0262049.ref025">25</xref>]. If the shift schedule did not comprise evening shifts, we applied a linear mixed model to estimate MSF<sup>E</sup><sub>sc</sub> from work-free days after night shifts [<xref ref-type="bibr" rid="pone.0262049.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0262049.ref027">27</xref>]. As proposed before [<xref ref-type="bibr" rid="pone.0262049.ref025">25</xref>], we corrected chronotype of the workers from company 2 (+8.98°) to the longitude of the population in company 1 (+7.09°) using the following equation:
+<disp-formula id="pone.0262049.e001">
+<alternatives>
+<graphic id="pone.0262049.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0262049.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mrow><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">S</mml:mi><mml:msup><mml:mi mathvariant="normal">F</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:msup><mml:msub><mml:mrow/><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">S</mml:mi><mml:msup><mml:mi mathvariant="normal">F</mml:mi><mml:mi mathvariant="normal">E</mml:mi></mml:msup><mml:msub><mml:mrow/><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mn>8.98</mml:mn><mml:mo>–</mml:mo><mml:mn>7.09</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">*</mml:mi><mml:mspace width="0.25em"/><mml:mn>4</mml:mn><mml:mo>/</mml:mo><mml:mn>60.</mml:mn></mml:mrow>
+</mml:math>
+</alternatives>
+</disp-formula></p>
+<p>Chronotype was categorized in early, intermediate and late with cutoffs at the first quartile (04:00) and third quartile (04:27).</p>
+<p>Social jetlag describing the difference between mid-sleeps on work and work-free days was used as a proxy for circadian misalignment [<xref ref-type="bibr" rid="pone.0262049.ref028">28</xref>]. To compare individual average social jetlag across shift systems, absolute social jetlag across all shifts was calculated as weighted average of the shift-specific social jetlag [<xref ref-type="bibr" rid="pone.0262049.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0262049.ref025">25</xref>]. Increased social jetlag values indicate a greater disrupted sleep timing between work and work-free days.</p>
+<p>Overall sleep duration was calculated as sum of all sleeps only if the participant had worn actigraphs over the complete study period of 28 days.</p>
+</sec>
+<sec id="sec010">
+<title>Locomotor Inactivity During Sleep (LIDS)</title>
+<p>All activity records were evaluated in bins of 10 minutes (min). For each bin i, locomotor activity was calculated as resultant acceleration (r<sub>i</sub>) of the three acceleration signals in x- y- and z-direction (<inline-formula id="pone.0262049.e002"><alternatives><graphic id="pone.0262049.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0262049.e002" xlink:type="simple"/><mml:math display="inline" id="M2"><mml:msub><mml:mrow><mml:mi mathvariant="normal">r</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">y</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">z</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:math></alternatives></inline-formula>). As proposed by Winnebeck et al., the resultant acceleration signal was inverted non-linearly to inactivity in values from 0 to 100 to enhance the contrast between movement and non-movement during sleep (<inline-formula id="pone.0262049.e003"><alternatives><graphic id="pone.0262049.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0262049.e003" xlink:type="simple"/><mml:math display="inline" id="M3"><mml:msub><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">D</mml:mi><mml:mi mathvariant="normal">S</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>100</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">r</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:math></alternatives></inline-formula>) [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>]. Afterwards inactivity was smoothed via a 30-min centered moving average. We applied the LIDS conversion to all main sleep bouts (n = 3,465) with a length of 3 to 12 hours (n = 3,331). Individual sleep bout timelines were normalized to their LIDS period determined via cosine model fitting. In brief, 1-harmonic cosine models with periods from 30 to 180 min in steps of 5 min were fitted to LIDS iteratively. The best-fit model was the one with maximal Munich Rhymthmicity Index (MRI = range of oscillation x bivariate correlation coefficient) from which the optimal LIDS period (optPer) was derived. The cosine fit was statistically significant for 97% of bouts. In accordance with an earlier study, all bouts with statistically non-significant cosine model fits (n = 110) were excluded from further analyses [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>]. For averaging LIDS across all sleep bouts, external times of bouts were converted to internal times relative to optPer and normalized to 110-min/cycles (t<sub>int</sub> = t<sub>ext</sub>/optPer x 110 min). We chose a cycle length of 110 min in contrast to a 90-min cycle length as proposed before [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>] because here the median of optPer was 110 min (IQR 90–150). Overall, 3,221 out of 3,465 main sleep bouts fulfilled the analysis criteria of duration and quality for LIDS analysis. The difference between the minimum and maximum LIDS level per LIDS cycle (calculated from the raw LIDS values of each cycle) was determined to assess the range of oscillation (= amplitude) per cycle reflecting the strength of the LIDS rhythm. Usually, oscillations with larger amplitudes are more stable than those with lower amplitudes.</p>
+</sec>
+<sec id="sec011">
+<title>Statistics</title>
+<p>Statistical analyses were undertaken using SAS version 9.4 (SAS Institute Inc., Cary, NC, USA) and R version 4.0.3. GraphPad Prism version 7.04 (GraphPad Software, La Jolla California, USA) was used to prepare graphs. Median and inter-quartile range (IQR) were calculated to describe the distribution of continuous variables. Group differences were tested with the Kruskal-Wallis test. Means and 95% confidence intervals (CI) for age-adjusted sleep bout duration and mid-sleeps were assessed with mixed models allowing for repeated measures for subjects with compound symmetry covariance structure. Differences between shift systems were tested with the F test. We fitted linear mixed-effects regression models to LIDS levels and LIDS oscillation with a nested structure. LIDS cycles were nested within sleep bouts which were nested within subjects. As fixed effects, we included shift system, age (per 10 years), sex, sleep duration (h), number of LIDS cycles, and schedule-based sleep characteristics (night sleep <italic>vs</italic>. day sleep, work day <italic>vs</italic>. work-free day). To depict variable-specific declines across LIDS cycles, we modelled interactions of number of LIDS cycles with all included fixed effects. Random intercepts were specified for each nested effect (subjects, sleep bouts, LIDS cycles) and random slopes within each subject accounted for unsystematic variation in LIDS levels and decline. In contrast to the fixed effects, which we expect will have an effect on the dependent variable, random effects are usually grouping factors which we are trying to control for. We have no particular interest in their impact on the response variable. Hence, we focus on the fixed effects parts of the models being comparable to the results of a simple linear model.</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="results">
+<title>Results</title>
+<p>Demographic information on sex, age, body mass index, chronotype, napping behavior, and overall sleep duration during the whole study are shown in <xref ref-type="table" rid="pone.0262049.t001">Table 1</xref>. Most participants were male (90.7%). The median age was 47 years (range 20–64 years). Workers with permanent night shifts were the oldest whereas workers with 8h-shifts with night work had the longest shift work experience. More than every second employee napped at least once on workdays. Permanent night shift workers and workers with 8h-rotating shifts including night work napped the most. The mean age-adjusted chronotype of the overall sample was 4:12 (95% CI 4:00–4:27). The chronotype of shift workers without night shifts was advanced by 51 min compared to the whole study group and by more than 70 min compared to workers with permanent night shifts or weekend shifts only.</p>
+<table-wrap id="pone.0262049.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0262049.t001</object-id>
+<label>Table 1</label> <caption><title>Description of the study population.</title></caption>
+<alternatives>
+<graphic id="pone.0262049.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Characteristics</th>
+<th align="center">Total</th>
+<th align="center" colspan="2">Company 1</th>
+<th align="center" colspan="3">Company 2</th>
+<th align="center"/>
+</tr>
+<tr>
+<th align="center"/>
+<th align="center"/>
+<th align="center">8h-shifts with night work</th>
+<th align="center">12h-shifts (day/night)</th>
+<th align="center">12h-weekend shifts (day/night)</th>
+<th align="center">8h-shifts without night work</th>
+<th align="center">Permanent night shifts</th>
+<th align="center">P value</th>
+</tr>
+<tr>
+<th align="center"/>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center">n (%) / median (IQR<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref>)</th>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">n</td>
+<td align="center">129</td>
+<td align="center">43</td>
+<td align="center">47</td>
+<td align="center">11</td>
+<td align="center">12</td>
+<td align="center">16</td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Men</td>
+<td align="center">117 (90.7)</td>
+<td align="center">41 (95.4)</td>
+<td align="center">45 (95.7)</td>
+<td align="center">8 (72.7)</td>
+<td align="center">11 (91.7)</td>
+<td align="center">12 (75.0)</td>
+<td align="center">0.021<xref ref-type="table-fn" rid="t001fn004"><sup>d</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Age [years]</td>
+<td align="center">47 (41–54)</td>
+<td align="center">48 (35–52)</td>
+<td align="center">45 (37–49)</td>
+<td align="center">46 (43–54)</td>
+<td align="center">51 (39.5–56)</td>
+<td align="center">52 (48.5–54.5)</td>
+<td align="center">0.028<xref ref-type="table-fn" rid="t001fn005"><sup>e</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Body mass index [kg/m<sup>2</sup>]</td>
+<td align="center">28.4 (25.1–31.8)</td>
+<td align="center">28.4 (25.1–33.4)</td>
+<td align="center">27.7 (25.4–31.5)</td>
+<td align="center">26.8 (24.5–30.8)</td>
+<td align="center">29.2 (25.9–29.6)</td>
+<td align="center">29.5 (24.3–32.3)</td>
+<td align="center">0.927<xref ref-type="table-fn" rid="t001fn005"><sup>e</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Years of shift work<xref ref-type="table-fn" rid="t001fn002"><sup>b</sup></xref></td>
+<td align="center">21 (14–28)</td>
+<td align="center">28 (15–31)</td>
+<td align="center">26 (13–28)</td>
+<td align="center">19 (17–21)</td>
+<td align="center">12.5 (2.5–22.5)</td>
+<td align="center">18 (16–21.5)</td>
+<td align="center">0.010<xref ref-type="table-fn" rid="t001fn005"><sup>e</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Subjects doing naps</td>
+<td align="center">88 (68.2)</td>
+<td align="center">36 (83.7)</td>
+<td align="center">28 (59.6)</td>
+<td align="center">6 (54.5)</td>
+<td align="center">6 (50.0)</td>
+<td align="center">12 (75.0)</td>
+<td align="center">0.039<xref ref-type="table-fn" rid="t001fn004"><sup>d</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Subjects doing naps on workdays</td>
+<td align="center">72 (55.8)</td>
+<td align="center">28 (65.1)</td>
+<td align="center">24 (51.1)</td>
+<td align="center">5 (45.5)</td>
+<td align="center">4 (33.3)</td>
+<td align="center">11 (68.8)</td>
+<td align="center">0.207<xref ref-type="table-fn" rid="t001fn004"><sup>d</sup></xref></td>
+</tr>
+<tr>
+<td align="left">Chronotype<xref ref-type="table-fn" rid="t001fn003"><sup>c</sup></xref> [local time]</td>
+<td align="center">4:12 (4:00–4:27)</td>
+<td align="center">4:09 (4:00–4:22)</td>
+<td align="center">4:12 (4:03–4:22)</td>
+<td align="center">4:30 (4:19–4:44)</td>
+<td align="center">3:30 (2:26–3:36)</td>
+<td align="center">4:28 (4:19–4:40)</td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t001fn005"><sup>e</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup>Inter-quartile range</p></fn>
+<fn id="t001fn002"><p><sup>b</sup>Years of shift work could not be determined for all 129 subjects</p></fn>
+<fn id="t001fn003"><p><sup>c</sup>Chronotype was assessed as mid-sleep between two work-free days as described in the method section and could not be determined for seven subjects due to insufficient subsequent free days after shifts (n = 122)</p></fn>
+<fn id="t001fn004"><p><sup>d</sup>Fisher’s exact test</p></fn>
+<fn id="t001fn005"><p><sup>e</sup>Kruskal-Wallis test.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Average values of the main sleep characteristics (time of mid-sleeps, social jetlag, sleep duration, sleep debt) on workdays, work-free days, and subsequent free days are presented in Tables <xref ref-type="table" rid="pone.0262049.t002">2</xref> and <xref ref-type="table" rid="pone.0262049.t003">3</xref>. Mid-sleeps before morning or after evening shifts and on work-free days after morning and evening shifts were similar across groups (<xref ref-type="table" rid="pone.0262049.t002">Table 2</xref>). However, permanent night-shift workers slept latest before night shifts on workdays, on work-free days after night shifts, and on subsequent free days in comparison to the other shift groups. Shift workers showed a median absolute social jetlag of 3:03 h:min, with highest values regarding night shifts (5:27 h:mm). Social jetlag on different shifts did not differ between shift groups. However, absolute social jetlag was highest in permanent night-shift workers. Furthermore, absolute social jetlag was higher in 12h-shift workers (day/night) than in 8h-shift workers with night work (3:43 h:min vs. 1:48 h:min, p&lt;0.0001).</p>
+<table-wrap id="pone.0262049.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0262049.t002</object-id>
+<label>Table 2</label> <caption><title>Age-adjusted mid-sleep of main sleep episodes and social jetlag with 95% confidence intervals (CI) in the whole study population and stratified by roster.</title></caption>
+<alternatives>
+<graphic id="pone.0262049.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2"/>
+<th align="center" rowspan="2">Total</th>
+<th align="center">12h-shifts (day/night)</th>
+<th align="center">8h-shifts with night work</th>
+<th align="center">12h-weekend shifts (day/night)</th>
+<th align="center">8h-shifts without night work</th>
+<th align="center">Permanent night shifts</th>
+<th align="center" rowspan="2">F test</th>
+</tr>
+<tr>
+<th align="center">N = 47</th>
+<th align="center">N = 43</th>
+<th align="center">N = 11</th>
+<th align="center">N = 12</th>
+<th align="center">N = 16</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Workdays</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Morning shifts</td>
+<td align="center">1:34 (1:28–1:40)</td>
+<td align="center">1:39 (1:30–1:48)</td>
+<td align="center">1:30 (1:21–1:39)</td>
+<td align="center">1:45 (1:26–2:04)</td>
+<td align="center">1:22 (1:06–1:39)</td>
+<td align="center">-</td>
+<td align="center">0.1580</td>
+</tr>
+<tr>
+<td align="left">Evening shifts</td>
+<td align="center">4:11 (3:54–4:27)</td>
+<td align="center">-</td>
+<td align="center">4:12 (3:53–4:31)</td>
+<td align="center">-</td>
+<td align="center">4:07 (3:31–4:43)</td>
+<td align="center">-</td>
+<td align="center">0.8124</td>
+</tr>
+<tr>
+<td align="left">Night shifts</td>
+<td align="center">9:57 (9:48–10:06)</td>
+<td align="center">9:51 (9:38–10:05)</td>
+<td align="center">9:39 (9:25–9:54)</td>
+<td align="center">10:07 (9:39–10:36)</td>
+<td align="center">-</td>
+<td align="center">10:41 (10:20–11:02)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Work-free days</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">After morning shifts</td>
+<td align="center">3:25 (3:12–3:39)</td>
+<td align="center">3:31 (3:10–3:52)</td>
+<td align="center">3:19 (2:55–3:42)</td>
+<td align="center">3:35 (2:50–4:20)</td>
+<td align="center">3:13 (2:28–3:57)</td>
+<td align="center">-</td>
+<td align="center">0.7650</td>
+</tr>
+<tr>
+<td align="left">After evening shifts</td>
+<td align="center">4:17 (3:40–4:55)</td>
+<td align="center">-</td>
+<td align="center">4:06 (3:20–4:52)</td>
+<td align="center">-</td>
+<td align="center">4:40 (3:34–5:46)</td>
+<td align="center">-</td>
+<td align="center">0.4010</td>
+</tr>
+<tr>
+<td align="left">After night shifts</td>
+<td align="center">4:34 (4:11–4:57)</td>
+<td align="center">4:11 (3:40–4:41)</td>
+<td align="center">4:03 (3:05–5:00)</td>
+<td align="center">5:14 (4:06–6:22)</td>
+<td align="center">-</td>
+<td align="center">5:47 (4:54–6:41)</td>
+<td align="center">0.0121</td>
+</tr>
+<tr>
+<td align="left">Subsequent free days</td>
+<td align="center">4:05 (3:52–4:18)</td>
+<td align="center">3:53 (3:31–4:14)</td>
+<td align="center">4:00 (3:40–4:20)</td>
+<td align="center">3:20 (2:42–3:59)</td>
+<td align="center">3:57 (3:17–4:37)</td>
+<td align="center">5:33 (4:58–6:08)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Naps</td>
+<td align="center">15:57 (15:21–16:32)</td>
+<td align="center">14:54 (13:57–15:52)</td>
+<td align="center">15:37 (14:46–16:28)</td>
+<td align="center">16:51 (15:01–18:42)</td>
+<td align="center">16:47 (14:46–18:47)</td>
+<td align="center">17:36 (16:25–18:48)</td>
+<td align="center">0.0091</td>
+</tr>
+<tr>
+<td align="left">Social jetlag [h:min]</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Morning shifts</td>
+<td align="center">1:53 (1:31–2:04)</td>
+<td align="center">1:55 (1:36–2:14)</td>
+<td align="center">1:50 (1:31–2:10)</td>
+<td align="center">1:51 (1:13–2:29)</td>
+<td align="center">1:54 (1:17–2:30)</td>
+<td align="center">-</td>
+<td align="center">0.9380</td>
+</tr>
+<tr>
+<td align="left">Evening shifts</td>
+<td align="center">1:07 (0:49–1:26)</td>
+<td align="center">-</td>
+<td align="center">1:06 (0:43–1:28)</td>
+<td align="center">-</td>
+<td align="center">1:10 (0:38–1:33)</td>
+<td align="center">-</td>
+<td align="center">0.8096</td>
+</tr>
+<tr>
+<td align="left">Night shifts</td>
+<td align="center">5:27 (5:05–5:48)</td>
+<td align="center">5:40 (5:12–6:07)</td>
+<td align="center">5:27 (4:32–6:22)</td>
+<td align="center">5:00 (3:55–6:04)</td>
+<td align="center">-</td>
+<td align="center">5:08 (3:57–6:18)</td>
+<td align="center">0.5829</td>
+</tr>
+<tr>
+<td align="left">Absolute</td>
+<td align="center">3:03 (2:44–3:21)</td>
+<td align="center">3:43 (3:25–4:02)</td>
+<td align="center">1:48 (1:24–2:11)</td>
+<td align="center">3:36 (2:54–4:19)</td>
+<td align="center">1:34 (0:59–2:09)</td>
+<td align="center">5:08 (3:57–6:18)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0262049.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0262049.t003</object-id>
+<label>Table 3</label> <caption><title>Mean age-adjusted sleep duration and sleep debt including naps with 95% confidence intervals (CI) assessed with actigraphy.</title></caption>
+<alternatives>
+<graphic id="pone.0262049.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">Total</th>
+<th align="center">12h-shifts (day/night)</th>
+<th align="center">8h-shifts with night work</th>
+<th align="center">12h-weekend shifts (day/night)</th>
+<th align="center">8h-shifts without night work</th>
+<th align="center">Permanent night shifts</th>
+<th align="center"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">N = 129</th>
+<th align="center">N = 47</th>
+<th align="center">N = 43</th>
+<th align="center">N = 11</th>
+<th align="center">N = 12</th>
+<th align="center">N = 16</th>
+<th align="center"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">Mean (95% CI)</th>
+<th align="center">F test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Overall duration [h]<xref ref-type="table-fn" rid="t003fn001"><sup>a</sup></xref></td>
+<td align="center">181 (177–185)</td>
+<td align="center">186 (179–193)</td>
+<td align="center">178 (171–186)</td>
+<td align="center">183 (171–196)</td>
+<td align="center">175 (162–189)</td>
+<td align="center">178 (167–189)</td>
+<td align="center">0.4541</td>
+</tr>
+<tr>
+<td align="left">Daily duration [h:min]</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Overall</td>
+<td align="center">6:26 (6:18–6:34)</td>
+<td align="center">6:34 (6:21–6:47)</td>
+<td align="center">6:19 (6:06–6:33)</td>
+<td align="center">6:39 (6:13–7:06)</td>
+<td align="center">6:16 (5:51–6:42)</td>
+<td align="center">6:20 (5:57–6:42)</td>
+<td align="center">0.3837</td>
+</tr>
+<tr>
+<td align="left">Workdays</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Overall</td>
+<td align="center">5:24 (5:15–5:32)</td>
+<td align="center">5:00 (4:46–5:14)</td>
+<td align="center">5:40 (5:27–5:54)</td>
+<td align="center">5:13 (4:45–5:42)</td>
+<td align="center">5:39 (5:13–6:04)</td>
+<td align="center">5:41 (5:19–6:04)</td>
+<td align="center">0.0005</td>
+</tr>
+<tr>
+<td align="left">Morning shifts</td>
+<td align="center">5:08 (4:59–5:18)</td>
+<td align="center">5:02 (4:47–5:17)</td>
+<td align="center">5:12 (4:56–5:28)</td>
+<td align="center">5:06 (4:34–5:38)</td>
+<td align="center">5:18 (4:50–5:46)</td>
+<td align="center">-</td>
+<td align="center">0.6970</td>
+</tr>
+<tr>
+<td align="left">Evening shifts</td>
+<td align="center">6:54 (6:34–7:13)</td>
+<td align="center">-</td>
+<td align="center">7:06 (6:45–7:27)</td>
+<td align="center">-</td>
+<td align="center">6:13 (5:34–6:51)</td>
+<td align="center">-</td>
+<td align="center">0.0184</td>
+</tr>
+<tr>
+<td align="left">Night shifts</td>
+<td align="center">5:10 (5:00–5:20)</td>
+<td align="center">4:57 (4:41–5:12)</td>
+<td align="center">5:03 (4:47–5:20)</td>
+<td align="center">5:19 (4:47–5:51)</td>
+<td align="center">-</td>
+<td align="center">5:41 (5:19–6:04)</td>
+<td align="center">0.0087</td>
+</tr>
+<tr>
+<td align="left">Work-free days</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Overall</td>
+<td align="center">7:46 (7:33–7:59)</td>
+<td align="center">8:05 (7:45–8:24)</td>
+<td align="center">7:17 (6:54–7:41)</td>
+<td align="center">7:53 (7:10–8:36)</td>
+<td align="center">7:02 (6:17–7:46)</td>
+<td align="center">8:13 (7:36–8:50)</td>
+<td align="center">0.0283</td>
+</tr>
+<tr>
+<td align="left">After morning shifts</td>
+<td align="center">7:34 (7:20–7:49)</td>
+<td align="center">7:44 (7:22–8:06)</td>
+<td align="center">7:23 (6:58–7:47)</td>
+<td align="center">7:40 (6:53–8:27)</td>
+<td align="center">7:22 (6:35–8:09)</td>
+<td align="center">-</td>
+<td align="center">0.6487</td>
+</tr>
+<tr>
+<td align="left">After evening shifts</td>
+<td align="center">6:44 (6:00–7:28)</td>
+<td align="center">-</td>
+<td align="center">6:46 (5:51–7:41)</td>
+<td align="center">-</td>
+<td align="center">6:41 (5:23–7:58)</td>
+<td align="center">-</td>
+<td align="center">0.9063</td>
+</tr>
+<tr>
+<td align="left">After night shifts</td>
+<td align="center">8:10 (7:52–8:27)</td>
+<td align="center">8:20 (7:56–8:44)</td>
+<td align="center">7:20 (6:34–8:06)</td>
+<td align="center">8:15 (7:21–9:08)</td>
+<td align="center">-</td>
+<td align="center">8:13 (7:36–8:50)</td>
+<td align="center">0.1501</td>
+</tr>
+<tr>
+<td align="left">Subsequent free days</td>
+<td align="center">7:01 (6:49–7:12)</td>
+<td align="center">7:23 (7:03–7:43)</td>
+<td align="center">6:53 (6:34–7:12)</td>
+<td align="center">7:10 (6:35–7:46)</td>
+<td align="center">6:55 (6:17–7:33)</td>
+<td align="center">6:19 (5:46–6:52)</td>
+<td align="center">0.0257</td>
+</tr>
+<tr>
+<td align="left">Daily debt [h:min]</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Overall</td>
+<td align="center">2:21 (2:08–2:34)</td>
+<td align="center">3:05 (2:45–3:24)</td>
+<td align="center">1:41 (1:21–2:01)</td>
+<td align="center">2:38 (1:58–3:18)</td>
+<td align="center">1:24 (0:46–2:02)</td>
+<td align="center">2:32 (1:59–3:06)</td>
+<td align="center">&lt;0.0001</td>
+</tr>
+<tr>
+<td align="left">Morning shifts</td>
+<td align="center">2:26 (2:10–2:42)</td>
+<td align="center">2:45 (2:20–3:10)</td>
+<td align="center">2:10 (1:44–2:35)</td>
+<td align="center">2:33 (1:44–3:23)</td>
+<td align="center">2:06 (1:19–2:54)</td>
+<td align="center">-</td>
+<td align="center">0.2013</td>
+</tr>
+<tr>
+<td align="left">Evening shifts</td>
+<td align="center">1:19 (0:51–1:46)</td>
+<td align="center">-</td>
+<td align="center">1:14 (0:39–1:48)</td>
+<td align="center">-</td>
+<td align="center">1:28 (0:39–2:17)</td>
+<td align="center">-</td>
+<td align="center">0.6368</td>
+</tr>
+<tr>
+<td align="left">Night shifts</td>
+<td align="center">3:00 (2:42–3:17)</td>
+<td align="center">3:22 (2:57–3:48)</td>
+<td align="center">2:38 (2:01–3:15)</td>
+<td align="center">2:56 (2:05–3:47)</td>
+<td align="center">-</td>
+<td align="center">2:32 (1:59–3:06)</td>
+<td align="center">0.0818</td>
+</tr>
+<tr>
+<td align="left">Daily nap duration at workdays [h:min]</td>
+<td align="center">2:18 (2:04–2:33)</td>
+<td align="center">1:44 (1:21–2:08)</td>
+<td align="center">2:55 (2:34–3:16)</td>
+<td align="center">1:48 (1:04–2:31)</td>
+<td align="center">1:57 (1:02–2:51)</td>
+<td align="center">2:15 (1:48–2:42)</td>
+<td align="center">0.0005</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>a</sup>Overall sleep duration incl. naps only for subjects with complete actigraphy measurements over the whole study period of 28 days (n = 99).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The mean daily age-adjusted sleep duration (main sleeps and naps) was 6:26 h:min (95% CI 6:18–6:34) and did not differ between groups (<xref ref-type="table" rid="pone.0262049.t003">Table 3</xref>). During workdays, workers with permanent night shifts and workers with 8h-shifts including night work compensated for shorter main sleeps (mean 5:13 h:min, 95% CI 4:51–5:35; mean 5:23 h:min, 95% CI 5:09–5:36) with extensive naps before or after the shifts (mean: 2:15 h:min and 2:55 h:min) in comparison to other study groups. The shortest sleep duration on workdays was observed for workers with 12h-shifts including night work which they compensate with longer sleep during work-free days resulting in a daily sleep debt of more than three hours. The lowest sleep debt was observed in workers without night work (1:24 h:min, 95% CI 0:46–2:02). In the subgroup of 90 shift workers from company 1, the age-adjusted sleep deficit in subjects working extended 12h-shift was higher than in subjects working normal 8h-shifts with night work (p&lt;0.0001).</p>
+<p>Sleep quality was assessed according to LIDS levels and LIDS oscillation which were analyzed with linear mixed models (<xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>). Study groups differed in their overall LIDS levels. Workers with permanent night shifts represented lower LIDS levels (β<sub>Permanent night shifts</sub> = -10.07 LIDS units, <xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>), especially at the beginning of a sleep bout (<xref ref-type="fig" rid="pone.0262049.g001">Fig 1A</xref>). LIDS levels were lower (i.e. more movement) in men (β = -7.65 LIDS units). Sleep at nighttime and workday sleep showed also lower LIDS levels (β<sub>Night sleep</sub> = -6.78 LIDS, β<sub>Work day</sub> = -1.29 LIDS units, <xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>). Furthermore, over the course of a sleep bout decline rates in mean LIDS levels differed between groups. Permanent night-shift workers showed a shallower decline than other shift workers (β<sub>LIDS cycle number*permanent night shifts</sub> = 3.09). A shallower decline of LIDS levels could also be seen for nighttime sleep, workdays, and sleep duration (β<sub>LIDS cycle number*night sleep</sub> = 1.43, β<sub>LIDS cycle number*work day</sub> = 0.94, β<sub>LIDS cycle number*sleep duration</sub> = 0.64). For every hour of additional sleep, rate of decline per LIDS cycle flattens by 0.64 LIDS units. We observed no statistically significant relationship between age and LIDS level (<xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>). Because there were only a few women (n = 12) in the study population, we conducted the analyses also for men only. The results were similar but a little more pronounced regarding the group effect (Table A in <xref ref-type="supplementary-material" rid="pone.0262049.s002">S2 File</xref>). Comparison of sleep quality by LIDS levels between workers with normal and extended shift length from company 1 did not show any differences (Table B in <xref ref-type="supplementary-material" rid="pone.0262049.s002">S2 File</xref>).</p>
+<fig id="pone.0262049.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0262049.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Locomotor inactivity during sleep (LIDS) levels and range of LIDS oscillation per LIDS cycle across groups.</title>
+<p>Average raw LIDS profiles and linear fits assessed with mixed models as described in the method section on the left and range of LIDS oscillation on the right for indicated groups: roster (a/e), daytime and nighttime sleep (b/f), work-free and work day (c/g), sex (d/h).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.g001" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0262049.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0262049.t004</object-id>
+<label>Table 4</label> <caption><title>Linear mixed model analysis for LIDS levels and range of LIDS oscillation.</title></caption>
+<alternatives>
+<graphic id="pone.0262049.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">LIDS level</th>
+<th align="center" colspan="3">LIDS oscillation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Random effects</td>
+<td align="left"/>
+<td align="center">Variance</td>
+<td align="center">SD</td>
+<td align="center"/>
+<td align="center">Variance</td>
+<td align="center">SD</td>
+</tr>
+<tr>
+<td align="left">Subject (Sleep bout)</td>
+<td align="left">Intercept</td>
+<td align="center">76.12</td>
+<td align="center">8.73</td>
+<td align="center"/>
+<td align="center">9.68</td>
+<td align="center">3.11</td>
+</tr>
+<tr>
+<td align="left">Subject</td>
+<td align="left">Intercept</td>
+<td align="center">110.54</td>
+<td align="center">10.51</td>
+<td align="center"/>
+<td align="center">28.33</td>
+<td align="center">5.32</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">LIDS cycle</td>
+<td align="center">9.95</td>
+<td align="center">3.15</td>
+<td align="center"/>
+<td align="center">2.79</td>
+<td align="center">1.67</td>
+</tr>
+<tr>
+<td align="left">Residual</td>
+<td align="center"/>
+<td align="center">630.23</td>
+<td align="center">25.10</td>
+<td align="center"/>
+<td align="center">462.190</td>
+<td align="center">21.499</td>
+</tr>
+<tr>
+<td align="left">Fixed effects</td>
+<td align="center">β</td>
+<td align="center" colspan="2">95% CI</td>
+<td align="center">β</td>
+<td align="center" colspan="2">95% CI</td>
+</tr>
+<tr>
+<td align="left">Intercept</td>
+<td align="center">73.44</td>
+<td align="center">61.55</td>
+<td align="center">85.31</td>
+<td align="center">77.62</td>
+<td align="center">67.60</td>
+<td align="center">87.63</td>
+</tr>
+<tr>
+<td align="left">Age (10 years)</td>
+<td align="center">-1.20</td>
+<td align="center">-3.05</td>
+<td align="center">0.64</td>
+<td align="center">-1.17</td>
+<td align="center">-2.47</td>
+<td align="center">0.13</td>
+</tr>
+<tr>
+<td align="left">Men<xref ref-type="table-fn" rid="t004fn002"><sup>a</sup></xref></td>
+<td align="center">-7.65</td>
+<td align="center">-14.35</td>
+<td align="center">-0.95</td>
+<td align="center">-3.11</td>
+<td align="center">-8.02</td>
+<td align="center">1.78</td>
+</tr>
+<tr>
+<td align="left">Sleep duration (h)</td>
+<td align="center">-0.86</td>
+<td align="center">-1.14</td>
+<td align="center">-0.58</td>
+<td align="center">0.34</td>
+<td align="center">-0.27</td>
+<td align="center">0.95</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number</td>
+<td align="center">-12.63</td>
+<td align="center">-16.25</td>
+<td align="center">-9.00</td>
+<td align="center">-7.38</td>
+<td align="center">-11.24</td>
+<td align="center">-3.51</td>
+</tr>
+<tr>
+<td align="left">Night sleep<xref ref-type="table-fn" rid="t004fn003"><sup>b</sup></xref></td>
+<td align="center">-6.78</td>
+<td align="center">-9.36</td>
+<td align="center">-4.21</td>
+<td align="center">0.16</td>
+<td align="center">-3.57</td>
+<td align="center">3.85</td>
+</tr>
+<tr>
+<td align="left">Work day<xref ref-type="table-fn" rid="t004fn004"><sup>c</sup></xref></td>
+<td align="center">-1.29</td>
+<td align="center">-2.36</td>
+<td align="center">-0.21</td>
+<td align="center">2.42</td>
+<td align="center">-0.05</td>
+<td align="center">4.87</td>
+</tr>
+<tr>
+<td align="left">Roster<xref ref-type="table-fn" rid="t004fn005"><sup>d</sup></xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">    12h-shifts (day/night)</td>
+<td align="center">-5.66</td>
+<td align="center">-12.83</td>
+<td align="center">1.51</td>
+<td align="center">-5.54</td>
+<td align="center">-10.57</td>
+<td align="center">-0.50</td>
+</tr>
+<tr>
+<td align="left">    8h-shifts with night work</td>
+<td align="center">-6.19</td>
+<td align="center">-13.35</td>
+<td align="center">0.99</td>
+<td align="center">-7.55</td>
+<td align="center">-12.60</td>
+<td align="center">-2.50</td>
+</tr>
+<tr>
+<td align="left">    8h-shifts without night work</td>
+<td align="center">-1.32</td>
+<td align="center">-10.06</td>
+<td align="center">7.43</td>
+<td align="center">-5.62</td>
+<td align="center">-11.84</td>
+<td align="center">0.62</td>
+</tr>
+<tr>
+<td align="left">    Permanent night shifts</td>
+<td align="center">-10.07</td>
+<td align="center">-18.23</td>
+<td align="center">-1.91</td>
+<td align="center">-4.76</td>
+<td align="center">-10.66</td>
+<td align="center">1.12</td>
+</tr>
+<tr>
+<td align="left">Interaction effects</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="left">Men<sup>a</sup>*night sleep<sup>b</sup></td>
+<td align="center">3.66</td>
+<td align="center">1.04</td>
+<td align="center">6.29</td>
+<td align="center">2.13</td>
+<td align="center">-1.21</td>
+<td align="center">5.44</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*age</td>
+<td align="center">0.40</td>
+<td align="center">-0.16</td>
+<td align="center">0.96</td>
+<td align="center">-0.01</td>
+<td align="center">-0.47</td>
+<td align="center">0.46</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*men<sup>a</sup></td>
+<td align="center">0.25</td>
+<td align="center">-1.74</td>
+<td align="center">2.24</td>
+<td align="center">1.08</td>
+<td align="center">-0.60</td>
+<td align="center">2.78</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*sleep duration</td>
+<td align="center">0.64</td>
+<td align="center">0.53</td>
+<td align="center">0.75</td>
+<td align="center">0.34</td>
+<td align="center">0.08</td>
+<td align="center">0.61</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*night sleep<sup>b</sup></td>
+<td align="center">1.43</td>
+<td align="center">1.07</td>
+<td align="center">1.79</td>
+<td align="center">-0.44</td>
+<td align="center">-1.32</td>
+<td align="center">0.47</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*work day<sup>c</sup></td>
+<td align="center">0.94</td>
+<td align="center">0.54</td>
+<td align="center">1.35</td>
+<td align="center">-0.79</td>
+<td align="center">-1.85</td>
+<td align="center">0.27</td>
+</tr>
+<tr>
+<td align="left">LIDS cycle number*roster<sup>d</sup></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">    12h-shifts (day/night)</td>
+<td align="center">1.65</td>
+<td align="center">-0.52</td>
+<td align="center">3.81</td>
+<td align="center">0.49</td>
+<td align="center">-1.32</td>
+<td align="center">2.29</td>
+</tr>
+<tr>
+<td align="left">    8h-shifts with night work</td>
+<td align="center">1.59</td>
+<td align="center">-0.57</td>
+<td align="center">3.76</td>
+<td align="center">1.03</td>
+<td align="center">-0.79</td>
+<td align="center">2.85</td>
+</tr>
+<tr>
+<td align="left">    8h-shifts without night work</td>
+<td align="center">-0.06</td>
+<td align="center">-2.71</td>
+<td align="center">2.58</td>
+<td align="center">0.88</td>
+<td align="center">-1.39</td>
+<td align="center">3.15</td>
+</tr>
+<tr>
+<td align="left">    Permanent night shifts</td>
+<td align="center">3.09</td>
+<td align="center">0.61</td>
+<td align="center">5.56</td>
+<td align="center">0.52</td>
+<td align="center">-1.66</td>
+<td align="center">2.70</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>SD = standard deviation; CI = 95% confidence interval</p></fn>
+<fn id="t004fn002"><p><sup>a</sup>reference: women</p></fn>
+<fn id="t004fn003"><p><sup>b</sup>reference: no sleep between 8pm and 8am</p></fn>
+<fn id="t004fn004"><p><sup>c</sup>reference: unrestricted sleep episodes</p></fn>
+<fn id="t004fn005"><p><sup>d</sup>reference: 12h-weekend shifts (day/night).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The most prominent effect on LIDS amplitude is exerted by shift system (<xref ref-type="fig" rid="pone.0262049.g001">Fig 1E</xref>). Workers in 12h-weekend shifts were presented with highest amplitudes implying that their ultradian rhythmicity is especially stable. Similar to LIDS levels, LIDS amplitude showed a systematic decline over the course of the sleep bout (β<sub>LIDS cycle number</sub> = -7.38, <xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>). LIDS amplitude also marginally decreased by age. With every ten years of age, amplitude decreased by 1.17 LIDS units (<xref ref-type="table" rid="pone.0262049.t004">Table 4</xref>). In contrast to LIDS level, LIDS amplitude was neither affected by schedule-based sleep characteristics nor by sex (<xref ref-type="fig" rid="pone.0262049.g001">Fig 1F–1H</xref>).</p>
+<p>Overall, LIDS levels and amplitude did not differ between early, intermediate or late chronotypes (Table C in <xref ref-type="supplementary-material" rid="pone.0262049.s002">S2 File</xref>). However, stratified analysis by chronotype revealed that the effect of permanent night shifts on LIDS levels was strongest in subjects with early chronotype (Table D in <xref ref-type="supplementary-material" rid="pone.0262049.s002">S2 File</xref>). Furthermore, the decline of LIDS amplitude by age but also for different rosters was strongest in subjects with late chronotype (β<sub>age per ten years</sub> = -5.63, 95% CI -8.75 to -2.47, Table E in <xref ref-type="supplementary-material" rid="pone.0262049.s002">S2 File</xref>).</p>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this study, we provide new insights into the sleep characteristics of shift workers in different shift systems and shift types, including permanent night shifts and extended shifts (12h-shifts). Over the long study period of 28 days, we did not observe any sleep differences among shift workers of different rosters. However, partial sleep deprivation was particularly evident in rotational shift systems with 12h-shifts. Here, sleep duration on workdays was particularly low, while overall sleep debt was highest. Additionally, absolute social jetlag was also higher in 12h-shift workers compared with subjects working normal 8h-shifts with night work. Overall, permanent night workers had the highest social jetlag and latest mid-sleeps on workdays and free days. Sleep quality assessed with LIDS was particularly reduced in permanent night shift workers and differed between daytime and nighttime sleep.</p>
+<p>We found a median daily sleep duration of 6:26 h:min which is in the same range as observed in workers in a fast-rotating 12h-shift schedule with an overall sleep duration of 6:49 h:min [<xref ref-type="bibr" rid="pone.0262049.ref027">27</xref>]. We also determined a similar acute sleep loss especially in workers with 12h-shifts including night work who were presented with the shortest main sleep after night shifts (&lt;5h) and suffered from a daily sleep debt of about three hours. In general, sleep debts were highest during night shifts and lowest during evening shifts confirming results from a meta-analysis based on self-reported sleep durations [<xref ref-type="bibr" rid="pone.0262049.ref003">3</xref>]. Nevertheless, extremely short (&lt;6h) but also extremely long (&gt;9h) sleep durations are linked to increased health risks [<xref ref-type="bibr" rid="pone.0262049.ref029">29</xref>] which we have observed for 26% respectively 1% of night sleep bouts within this study.</p>
+<p>In contrast to a recently published study reporting that sleeping during daytime on both workdays and free days was a commonly used sleep strategy during night shifts for about 20% of hospital shift workers [<xref ref-type="bibr" rid="pone.0262049.ref030">30</xref>], we did not observe a general adaption of permanent night shift workers to the imposed work schedule which is consistent with studies examining circadian adaptation to permanent night shifts measured by objective phase markers [<xref ref-type="bibr" rid="pone.0262049.ref031">31</xref>]. Here, social jetlag was largest in permanent night shift workers, who cannot compensate severe social jetlag on night shifts with weaker effects from other shift types. Accordingly, permanent night shift workers have much more pronounced problems adjusting to the overall social time on work-free days than shift workers of other rosters. Hence, they may not benefit over rotating shift systems regarding fewer health and safety problems.</p>
+<p>In this study, midpoint of sleep and chronotype were estimated by actimetry and revealed a mid-sleep between two work-free days at 4:12 being very similar to the general population with 4:14 [<xref ref-type="bibr" rid="pone.0262049.ref032">32</xref>]. Evidence from the current study and from the literature indicate that chronotype differ between rosters [<xref ref-type="bibr" rid="pone.0262049.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0262049.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0262049.ref033">33</xref>]. For instance, we observed the earliest chronotype for workers without night work (mean 3:30, 95% CI 2:26–3:36) which is similar to the reported chronotype of 3:18 for shift workers in a poultry-processing company in Brazil [<xref ref-type="bibr" rid="pone.0262049.ref033">33</xref>]. Closely related to the chronotype concept is social jetlag depicting the difference between social and biological timing [<xref ref-type="bibr" rid="pone.0262049.ref028">28</xref>]. In line with earlier studies [<xref ref-type="bibr" rid="pone.0262049.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0262049.ref033">33</xref>], we observed different social jetlag between rosters and work shifts with highest social jetlag of 5h in permanent night workers.</p>
+<p>We are the first to link chronotype with sleep structure assessed with the LIDS approach. Earlier attempts to elucidate this relationship concentrated on questionnaire data about sleep disturbance or simplistic sleep quality measures such as the percentage of time in bed spent actually sleeping [<xref ref-type="bibr" rid="pone.0262049.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0262049.ref034">34</xref>]. In this study, we observed that extreme chronotypes (early and late) showed a stronger impact of roster on sleep quality than intermediate chronotypes. In detail, early chronotypes showed a stronger decrease of LIDS for workers with 8h-shifts including night work or permanent night shift workers. On the other hand, late chronotypes exhibited less stable LIDS cycles, especially when working permanent night shifts. This is in line with earlier findings of late chronotypes being more affected by poor sleep quality [<xref ref-type="bibr" rid="pone.0262049.ref035">35</xref>]. In general, working in permanent night shifts revealed the lowest LIDS levels. In contrast, working 12h-weekend shifts, i.e. 24 weekly working hours, were presented with highest LIDS amplitudes implying an especially stable ultradian rhythmicity. Furthermore, our findings support previous results that women move less during sleep than men [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>]. This study verifies that this applies also to shift workers. On the contrary to earlier results where age was the most prominent effect [<xref ref-type="bibr" rid="pone.0262049.ref024">24</xref>], we did not observe age specific differences in LIDS levels or LIDS decline which might be due to the small age range of the participants (median 47 years, IQR 41–54, range 20–64).</p>
+<p>Overall, napping was common within this study which confirms earlier observations from a study of shift workers [<xref ref-type="bibr" rid="pone.0262049.ref027">27</xref>]. Here, during workdays, workers with permanent night shifts and workers with 8h-shifts including night work compensated for shorter main sleeps with extensive naps. Hence, sleep debt was reduced which has been reported by an meta-analysis in night-shift workers before [<xref ref-type="bibr" rid="pone.0262049.ref036">36</xref>].</p>
+<p>Some limitations of our study are noteworthy. In spite of the large sample size of this cross-sectional study examining shift workers some rosters were presented only by a few subjects, limiting the statistical power and the drawing of conclusions. Along with residual confounding inherent to field studies the generalizability of our findings might be impaired. It might be possible that shift workers were assigned to a specific shift system so that selection bias cannot be ruled out. We assessed sleep structure with the innovative approach of limb movement during sleep measured via actigraphy, which is easily applicable in a large number of subjects with many sleep episodes per subject. However, we did not verify our results with established methods such as PSG.</p>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Conclusions</title>
+<p>This study confirms that partial sleep deprivation is a common consequence of shift work. Very high daily sleep debts were observed for long working hours in fast-rotating 12h-shifts, especially after night shifts. Additionally, working 12h-shifts or permanent night shifts resulted in strong absolute social jetlag. Sleep quality was especially reduced in permanent night shift workers compared with shift workers of other rosters.</p>
+</sec>
+<sec id="sec015" sec-type="supplementary-material">
+<title>Supporting information</title>
+<supplementary-material id="pone.0262049.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Representation of shift schedules of the different rosters.</title>
+<p>M = morning shift; E = evening shift; N = night shift; D = day shift.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0262049.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.s002" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Additional linear mixed model analysis for LIDS levels and range of LIDS oscillation.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Simone Putzke (IPA) for excellent technical assistance and prudent data management as well as the employees of ars serendi for their field investigations.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0262049.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kecklund</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Axelsson</surname> <given-names>J</given-names></name>. <article-title>Health consequences of shift work and insufficient sleep</article-title>. <source>BMJ</source>. <year>2016</year>; <volume>355</volume>:<fpage>i5210</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.i5210" xlink:type="simple">10.1136/bmj.i5210</ext-link></comment> <object-id pub-id-type="pmid">27803010</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wright</surname> <given-names>KP</given-names></name>, <name name-style="western"><surname>Bogan</surname> <given-names>RK</given-names></name>, <name name-style="western"><surname>Wyatt</surname> <given-names>JK</given-names></name>. <article-title>Shift work and the assessment and management of shift work disorder (SWD).</article-title> <source>Sleep Med Rev</source>. <year>2013</year>; <volume>17</volume>:<fpage>41</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2012.02.002" xlink:type="simple">10.1016/j.smrv.2012.02.002</ext-link></comment> <object-id pub-id-type="pmid">22560640</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pilcher</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Lambert</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Huffcutt</surname> <given-names>AI</given-names></name>. <article-title>Differential effects of permanent and rotating shifts on self-report sleep length: a meta-analytic review</article-title>. <source>Sleep</source>. <year>2000</year>; <volume>23</volume>:<fpage>155</fpage>–<lpage>63</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/sleep/23.2.1b" xlink:type="simple">https://doi.org/10.1093/sleep/23.2.1b</ext-link> <object-id pub-id-type="pmid">10737332</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sallinen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kecklund</surname> <given-names>G</given-names></name>. <article-title>Shift work, sleep, and sleepiness—differences between shift schedules and systems</article-title>. <source>Scand J Work Environ Health</source>. <year>2010</year>; <volume>36</volume>:<fpage>121</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.2900" xlink:type="simple">10.5271/sjweh.2900</ext-link></comment> <object-id pub-id-type="pmid">20119631</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garde</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>Nabe-Nielsen</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Jensen</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Kristiansen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sørensen</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Hansen</surname> <given-names>ÅM</given-names></name>. <article-title>The effects of the number of consecutive night shifts on sleep duration and quality.</article-title> <source>Scand J Work Environ Health</source>. <year>2020</year>; <volume>46</volume>:<fpage>446</fpage>–<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3885" xlink:type="simple">10.5271/sjweh.3885</ext-link></comment> <object-id pub-id-type="pmid">32055864</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Juda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vetter</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>. <article-title>Chronotype modulates sleep duration, sleep quality, and social jet lag in shift-workers</article-title>. <source>J Biol Rhythms</source>. <year>2013</year>; <volume>28</volume>:<fpage>141</fpage>–<lpage>51</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0748730412475042" xlink:type="simple">10.1177/0748730412475042</ext-link></comment> <object-id pub-id-type="pmid">23606613</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reid</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Weng</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ramos</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Zee</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Daviglus</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mossavar-Rahmani</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Impact of shift work schedules on actigraphy-based measures of sleep in Hispanic workers: results from the Hispanic Community Health Study/Study of Latinos ancillary Sueño study</article-title>. <source>Sleep</source>. <year>2018</year>; <volume>41</volume>:<fpage>1</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/sleep/zsy131" xlink:type="simple">10.1093/sleep/zsy131</ext-link></comment> <object-id pub-id-type="pmid">30010969</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vedaa</surname> <given-names>Ø</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bjorvatn</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Waage</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sivertsen</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Tucker</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Systematic review of the relationship between quick returns in rotating shift work and health-related outcomes</article-title>. <source>Ergonomics</source>. <year>2016</year>; <volume>59</volume>:<fpage>1</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00140139.2015.1052020" xlink:type="simple">10.1080/00140139.2015.1052020</ext-link></comment> <object-id pub-id-type="pmid">26072668</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferguson</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Dawson</surname> <given-names>D</given-names></name>. <article-title>12-h or 8-h shifts? It depends</article-title>. <source>Sleep Med Rev</source>. <year>2012</year>; <volume>16</volume>:<fpage>519</fpage>–<lpage>28</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2011.11.001" xlink:type="simple">10.1016/j.smrv.2011.11.001</ext-link></comment> <object-id pub-id-type="pmid">22306236</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wagstaff</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Sigstad Lie</surname> <given-names>J-A</given-names></name>. <article-title>Shift and night work and long working hours—a systematic review of safety implications.</article-title> <source>Scand J Work Environ Health</source>. <year>2011</year>; <volume>37</volume>:<fpage>173</fpage>–<lpage>85</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3146" xlink:type="simple">10.5271/sjweh.3146</ext-link></comment> <object-id pub-id-type="pmid">21290083</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ge</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Guyatt</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Tian</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Insomnia and risk of mortality from all-cause, cardiovascular disease, and cancer: Systematic review and meta-analysis of prospective cohort studies</article-title>. <source>Sleep Med Rev</source>. <year>2019</year>; <volume>48</volume>:<fpage>101215</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2019.101215" xlink:type="simple">10.1016/j.smrv.2019.101215</ext-link></comment> <object-id pub-id-type="pmid">31630016</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kucharczyk</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Morgan</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>AP</given-names></name>. <article-title>The occupational impact of sleep quality and insomnia symptoms</article-title>. <source>Sleep Med Rev</source>. <year>2012</year>; <volume>16</volume>:<fpage>547</fpage>–<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2012.01.005" xlink:type="simple">10.1016/j.smrv.2012.01.005</ext-link></comment> <object-id pub-id-type="pmid">22401983</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uehli</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mehta</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Miedinger</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hug</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Schindler</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Holsboer-Trachsler</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Sleep problems and work injuries: A systematic review and meta-analysis.</article-title> <source>Sleep Med Rev</source>. <year>2014</year>; <volume>18</volume>:<fpage>61</fpage>–<lpage>73</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2013.01.004" xlink:type="simple">10.1016/j.smrv.2013.01.004</ext-link></comment> <object-id pub-id-type="pmid">23702220</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fossum</surname> <given-names>IN</given-names></name>, <name name-style="western"><surname>Bjorvatn</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Waage</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pallesen</surname> <given-names>S</given-names></name>. <article-title>Effects of shift and night work in the offshore petroleum industry: a systematic review</article-title>. <source>Ind Health</source>. <year>2013</year>; <volume>51</volume>:<fpage>530</fpage>–<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2486/indhealth.2013-0054" xlink:type="simple">10.2486/indhealth.2013-0054</ext-link></comment> <object-id pub-id-type="pmid">23803497</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Linton</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Kecklund</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Franklin</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Leissner</surname> <given-names>LC</given-names></name>, <name name-style="western"><surname>Sivertsen</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lindberg</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>The effect of the work environment on future sleep disturbances: a systematic review.</article-title> <source>Sleep Med Rev</source>. <year>2015</year>; <volume>23</volume>:<fpage>10</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2014.10.010" xlink:type="simple">10.1016/j.smrv.2014.10.010</ext-link></comment> <object-id pub-id-type="pmid">25645126</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Härmä</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Karhula</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Puttonen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ropponen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Koskinen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ojajärvi</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Shift work with and without night work as a risk factor for fatigue and changes in sleep length: A cohort study with linkage to records on daily working hours</article-title>. <source>J Sleep Res</source>. <year>2019</year>; <volume>28</volume>:<fpage>e12658</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jsr.12658" xlink:type="simple">10.1111/jsr.12658</ext-link></comment> <object-id pub-id-type="pmid">29383788</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Behrens</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Burek</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Pallapies</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kösters</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lehnert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Beine</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Decreased psychomotor vigilance of female shift workers after working night shifts</article-title>. <source>PLoS ONE</source>. <year>2019</year>; <volume>14</volume>:<fpage>e0219087</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0219087" xlink:type="simple">10.1371/journal.pone.0219087</ext-link></comment> <object-id pub-id-type="pmid">31276523</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brauner</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Müller</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Wöhrmann</surname> <given-names>AM</given-names></name>. <article-title>Permanent Night Work in Germany.</article-title> <source>Sozialpolitik.ch</source>. <year>2018</year>; <volume>2</volume>:<fpage>1</fpage>–<lpage>16</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18753/2297-8224-107" xlink:type="simple">https://doi.org/10.18753/2297-8224-107</ext-link>.</mixed-citation></ref>
+<ref id="pone.0262049.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burch</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Tom</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhai</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Criswell</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Leo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ogoussan</surname> <given-names>K</given-names></name>. <article-title>Shiftwork impacts and adaptation among health care workers.</article-title> <source>Occup Med</source>. <year>2009</year>; <volume>59</volume>:<fpage>159</fpage>–<lpage>66</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/occmed/kqp015" xlink:type="simple">10.1093/occmed/kqp015</ext-link></comment> <object-id pub-id-type="pmid">19270043</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Flo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Pallesen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Åkerstedt</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Magerøy</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Moen</surname> <given-names>BE</given-names></name>, <name name-style="western"><surname>Grønli</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Shift-related sleep problems vary according to work schedule</article-title>. <source>Occup Environ Med</source>. <year>2013</year>; <volume>70</volume>:<fpage>238</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/oemed-2012-101091" xlink:type="simple">10.1136/oemed-2012-101091</ext-link></comment> <object-id pub-id-type="pmid">23343860</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Åkerstedt</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Garefelt</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Richter</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Westerlund</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Magnusson Hanson</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Sverke</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Work and Sleep—A Prospective Study of Psychosocial Work Factors, Physical Work Factors, and Work Scheduling</article-title>. <source>Sleep</source>. <year>2015</year>; <volume>38</volume>:<fpage>1129</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5665/sleep.4828" xlink:type="simple">10.5665/sleep.4828</ext-link></comment> <object-id pub-id-type="pmid">26118559</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thun</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bjorvatn</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Åkerstedt</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Moen</surname> <given-names>BE</given-names></name>, <name name-style="western"><surname>Waage</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Molde</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Trajectories of sleepiness and insomnia symptoms in Norwegian nurses with and without night work and rotational work</article-title>. <source>Chronobiol Int</source>. <year>2016</year>; <volume>33</volume>:<fpage>480</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/07420528.2016.1148045" xlink:type="simple">10.3109/07420528.2016.1148045</ext-link></comment> <object-id pub-id-type="pmid">27030964</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Conley</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Knies</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Batten</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ash</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Miner</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hwang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Agreement between actigraphic and polysomnographic measures of sleep in adults with and without chronic conditions: A systematic review and meta-analysis</article-title>. <source>Sleep Med Rev</source>. <year>2019</year>; <volume>46</volume>:<fpage>151</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2019.05.001" xlink:type="simple">10.1016/j.smrv.2019.05.001</ext-link></comment> <object-id pub-id-type="pmid">31154154</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winnebeck</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Leise</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>. <article-title>Dynamics and Ultradian Structure of Human Sleep in Real Life</article-title>. <source>Curr Biol</source>. <year>2018</year>; <volume>28</volume>:<fpage>49</fpage>–<lpage>59.e5</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cub.2017.11.063" xlink:type="simple">10.1016/j.cub.2017.11.063</ext-link></comment> <object-id pub-id-type="pmid">29290561</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Juda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vetter</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>. <article-title>The Munich ChronoType Questionnaire for Shift-Workers (MCTQShift).</article-title> <source>J Biol Rhythms</source>. <year>2013</year>; <volume>28</volume>:<fpage>130</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0748730412475041" xlink:type="simple">10.1177/0748730412475041</ext-link></comment> <object-id pub-id-type="pmid">23606612</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cole</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Kripke</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>Gruen</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Mullaney</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Gillin</surname> <given-names>JC</given-names></name>. <article-title>Automatic sleep/wake identification from wrist activity</article-title>. <source>Sleep</source>. <year>1992</year>; <volume>15</volume>:<fpage>461</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/sleep/15.5.461" xlink:type="simple">10.1093/sleep/15.5.461</ext-link></comment> <object-id pub-id-type="pmid">1455130</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fischer</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vetter</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Oberlinner</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wegener</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>. <article-title>A unique, fast-forwards rotating schedule with 12-h long shifts prevents chronic sleep debt</article-title>. <source>Chronobiol Int</source>. <year>2016</year>; <volume>33</volume>:<fpage>98</fpage>–<lpage>107</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/07420528.2015.1113986" xlink:type="simple">10.3109/07420528.2015.1113986</ext-link></comment> <object-id pub-id-type="pmid">26745752</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wittmann</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dinich</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Merrow</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>. <article-title>Social jetlag: misalignment of biological and social time</article-title>. <source>Chronobiol Int</source>. <year>2006</year>; <volume>23</volume>:<fpage>497</fpage>–<lpage>509</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07420520500545979" xlink:type="simple">10.1080/07420520500545979</ext-link></comment> <object-id pub-id-type="pmid">16687322</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matricciani</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bin</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Lallukka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kronholm</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Dumuid</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Paquet</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Past, present, and future: trends in sleep duration and implications for public health.</article-title> <source>Sleep Health</source>. <year>2017</year>; <volume>3</volume>:<fpage>317</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sleh.2017.07.006" xlink:type="simple">10.1016/j.sleh.2017.07.006</ext-link></comment> <object-id pub-id-type="pmid">28923186</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harrison</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Easterling</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Yablonsky</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Glickman</surname> <given-names>GL</given-names></name>. <article-title>Sleep-Scheduling Strategies in Hospital Shiftworkers</article-title>. <source>Nat Sci Sleep</source>. <year>2021</year>; <volume>13</volume>:<fpage>1593</fpage>–<lpage>609</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/NSS.S321960" xlink:type="simple">10.2147/NSS.S321960</ext-link></comment> <object-id pub-id-type="pmid">34584475</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garde</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>Begtrup</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bjorvatn</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Bonde</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Hansen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hansen</surname> <given-names>ÅM</given-names></name>, <etal>et al</etal>. <article-title>How to schedule night shift work in order to reduce health and safety risks.</article-title> <source>Scand J Work Environ Health</source>. <year>2020</year>; <volume>46</volume>:<fpage>557</fpage>–<lpage>69</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3920" xlink:type="simple">10.5271/sjweh.3920</ext-link></comment> <object-id pub-id-type="pmid">32895725</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roenneberg</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kuehnle</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Juda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kantermann</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Allebrandt</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gordijn</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Epidemiology of the human circadian clock.</article-title> <source>Sleep Med Rev</source>. <year>2007</year>; <volume>11</volume>:<fpage>429</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2007.07.005" xlink:type="simple">10.1016/j.smrv.2007.07.005</ext-link></comment> <object-id pub-id-type="pmid">17936039</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alves</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Andrade</surname> <given-names>RZ</given-names></name>, <name name-style="western"><surname>Silva</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Mota</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Resende</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Teixeira</surname> <given-names>KR</given-names></name>, <etal>et al</etal>. <article-title>Social Jetlag Among Night Workers is Negatively Associated with the Frequency of Moderate or Vigorous Physical Activity and with Energy Expenditure Related to Physical Activity</article-title>. <source>J Biol Rhythms</source>. <year>2017</year>; <volume>32</volume>:<fpage>83</fpage>–<lpage>93</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0748730416682110" xlink:type="simple">10.1177/0748730416682110</ext-link></comment> <object-id pub-id-type="pmid">28006966</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vitale</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Roveda</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Montaruli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Galasso</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Weydahl</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Caumo</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Chronotype influences activity circadian rhythm and sleep: differences in sleep quality between weekdays and weekend</article-title>. <source>Chronobiol Int</source>. <year>2015</year>; <volume>32</volume>:<fpage>405</fpage>–<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/07420528.2014.986273" xlink:type="simple">10.3109/07420528.2014.986273</ext-link></comment> <object-id pub-id-type="pmid">25469597</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tian</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lei</surname> <given-names>X</given-names></name>. <article-title>Connectivity within the default mode network mediates the association between chronotype and sleep quality</article-title>. <source>J Sleep Res</source>. <year>2019</year>:<fpage>e12948</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jsr.12948" xlink:type="simple">10.1111/jsr.12948</ext-link></comment> <object-id pub-id-type="pmid">31793113</object-id>.</mixed-citation></ref>
+<ref id="pone.0262049.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ruggiero</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Redeker</surname> <given-names>NS</given-names></name>. <article-title>Effects of napping on sleepiness and sleep-related performance deficits in night-shift workers: a systematic review</article-title>. <source>Biol Res Nurs</source>. <year>2014</year>; <volume>16</volume>:<fpage>134</fpage>–<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1099800413476571" xlink:type="simple">10.1177/1099800413476571</ext-link></comment> <object-id pub-id-type="pmid">23411360</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0262049.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0262049.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bullock</surname>
+<given-names>Ben</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Ben Bullock</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0262049" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">7 Oct 2021</named-content>
+</p>
+<p><!-- <div> -->PONE-D-21-23813<!-- </div> --><!-- <div> -->Sleep of shift workers in different shift-work systems assessed with actigraphy<!-- </div> --><!-- <div> -->PLOS ONE</p>
+<p>Dear Dr. Casjens,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>The reviewers have requested some minor revisions and points of clarification. Please respond to all of the reviewers' comments and resubmit a revised manuscript.</p>
+<p>Please submit your revised manuscript by Nov 21 2021 11:59PM. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at <email xlink:type="simple">plosone@plos.org</email>. When you're ready to submit your revision, log on to <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pone/" xlink:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>Please include the following items when submitting your revised manuscript:<!-- </div> --><list list-type="bullet"> <list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.</p></list-item> <list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.</p></list-item> <list-item><p>An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.</p></list-item></list><!-- <div> --></p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter. Guidelines for resubmitting your figure files are available below the reviewer comments at the end of this letter.</p>
+<p>If applicable, we recommend that you deposit your laboratory protocols in protocols.io to enhance the reproducibility of your results. Protocols.io assigns your protocol its own identifier (DOI) so that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" xlink:type="simple">https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link>. Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at <ext-link ext-link-type="uri" xlink:href="https://plos.org/protocols?utm_medium=editorial-email&amp;utm_source=authorletters&amp;utm_campaign=protocols" xlink:type="simple">https://plos.org/protocols?utm_medium=editorial-email&amp;utm_source=authorletters&amp;utm_campaign=protocols</ext-link>.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Ben Bullock</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements.</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. PLOS ONE does not permit references to unpublished data; therefore, we request that you either include the referenced data or remove the instances of "data not shown," "unpublished results," or similar</p>
+<p>3. Please include additional information regarding the survey or questionnaire used in the study and ensure that you have provided sufficient details that others could replicate the analyses. For instance, if you developed a questionnaire as part of this study and it is not under a copyright more restrictive than CC-BY, please include a copy, in both the original language and English, as Supporting Information</p>
+<p>4. We note that the grant information you provided in the ‘Funding Information’ and ‘Financial Disclosure’ sections do not match. </p>
+<p>When you resubmit, please ensure that you provide the correct grant numbers for the awards you received for your study in the ‘Funding Information’ section</p>
+<p>5. Thank you for stating the following in the Acknowledgments Section of your manuscript: </p>
+<p>"We also acknowledge the support by the Open Access Publication Funds of the Ruhr-Universität Bochum."</p>
+<p>We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form. </p>
+<p>Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows: </p>
+<p>"The authors received no specific funding for this work"</p>
+<p>Please include your amended statements within your cover letter; we will change the online submission form on your behalf.</p>
+<p>6. We note that you have included the phrase “data not shown” in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data</p>
+<p>Please review your reference list to ensure that it is complete and correct. If you have cited papers that have been retracted, please include the rationale for doing so in the manuscript text, or remove these references and replace them with relevant current references. Any changes to the reference list should be mentioned in the rebuttal letter that accompanies your revised manuscript. If you need to cite a retracted article, indicate the article’s retracted status in the References list and also include a citation and full reference for the retraction notice.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><!-- <font color="black"> --><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->2. Has the statistical analysis been performed appropriately and rigorously? <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)<!-- </font> --></p>
+<p>Reviewer #1: This paper has focus on the association of different shift systems with sleep length and the structure of sleep both during work and free days, with a long follow-up for an experimental study. It investigated the association of five shift rosters on sleep using wrist actigraphs over 28 days. The paper adds to the current knowledge due to having indeed the scope on the whole shift roster. Up to now most earlier papers focus on shift-dependent associations, but often forget the significance of free days in the rosters for recovery, sleep and the also to the related overall circadian disruption influencing the health effects of shift work. The paper is also valuable due to having several well-established objective outcomes: sleep timing, duration, overall sleep debt, the quality of sleep (LIDS) and social jetlag – the latest giving indications on the circadian disruption that is probably most relevant for the long-term effects of shift work on health. Indeed, the paper has several original and interesting results, as described in the abstract and the first chapter of the discussion.</p>
+<p>The sample is cross-sectional but large enough to study the five rosters – that are used generally also in other countries than Germany, increasing the value of the paper. Especially the results of the permanent night work and those of the quickly and slowly rotating shift rotas are interesting. The rosters are well described in the appendix.</p>
+<p>The paper included many results, but they are comprehensive and instead of publishing each outcome in a different journal, bringing them all to one paper (if the paper limits allow this) supports the overall interpretation of the message.</p>
+<p>Minor issues</p>
+<p>- the title is a bit boring compared to the contents – could reflect more the added value of the paper</p>
+<p>- abstract: methods: normally past tense is used “we investigated…” etc. Some sentences could also benefit from language revision to clarify the meanings</p>
+<p>- did you select the most relevant results to the conclusions here (why focus on 12-hour shifts only)– compare to the conclusions of the main text that gives, I think, a better view of the key results</p>
+<p>- introduction includes relevant literature</p>
+<p>- material and methods: lines 171-172: do the definitions of day sleep and night sleep include all options? For example, how a sleep period starting at 03 am and ending at 11 am is scored?</p>
+<p>- results: line 248 “experienced” hints to subjective data – did it come from a survey” I would say that workers with .. had the shortest shift work experience</p>
+<p>- lines 265-267 explanation for the results (“cannot compensate”) should be in the discussion, not here – an interesting topic to discuss</p>
+<p>- line 343: how did it differ? Please report in a way that we could read in which shift schedule the sleep quality was good, where it was bad. “Differed” is not too informative yet.</p>
+<p>Reviewer #2: Main comments to authors:</p>
+<p>The authors conclude in the abstract that “this study confirms that 12h-shifts are not associated with chronic sleep loss compared to 8h-shifts, when observing long time frames of four weeks”. Then in the main text conclusion “This study confirms that partial sleep deprivation but not chronic sleep loss is a common consequence of shift work”. I do not see where this rather strong conclusion is drawn from. The sleep durations on work days are &lt;7 hours on average in all shift rotation conditions. Both schedules have chronic sleep loss - from the abstract conclusion is the point that both shift schedules are just as bad as each other? There is evidence from numerous laboratory studies that sleep restriction builds over time, and is not sufficiently “repaid” by 1-2 long recovery sleeps, with performance deficits showing a cumulative effect of chronic sleep loss. How, based on the data presented in this manuscript, is there evidence of no chronic sleep loss associated with shift work? This seems to go beyond what the data presented can determine.</p>
+<p>“Circadian misalignment was quantified by social jetlag”. Social jetlag is not necessarily a measure of circadian misalignment, as you have no objective marker rhythms measured (e.g., melatonin). While social jetlag is sometimes used as a proxy, it is important to acknowledge that while it may indicate possible misalignment, it is not a direct measure of the clock, rather a sleep-based marker. Sleep can be misaligned with endogenous circadian rhythms, with wide inter-individual variation, particularly in shift workers. There are multiple reasons why shift workers sleep at different times, that are not all attributable to circadian disruption. I do not see how social jetlag can be an accurate measure of circadian disruption in this context. Rather it is a marker of how disrupted sleep timing is compared to free days.</p>
+<p>During the sleep analysis, were the sleep on- and offsets derived from the device software compared with sleep diaries for any major discrepancies? This is a commonly used process to eliminate any obvious errors that can occur due to non-wear or individuals being still during wake times. Similarly, how were naps measured? Were naps derived using actigraphy only, or alongside sleep diaries? Shorter bouts of inactivity (e.g., watching a movie) can easily be misinterpreted as a nap when relying solely on actigraphy. Given the high rates of naps in this dataset, and the presence of both wrist actigraphy and sleep diaries, I would like more detail on how these were cross-checked.</p>
+<p>Discussion line 365: The observation that permanent night shift workers did not adapt to the schedule in between work days is consistent with other studies examining circadian adaptation to permanent night shift schedules measured via objective phase markers, and also to behavioural/sleep observations similar to this study. I suggest including comparison or reference to this broader literature.</p>
+<p>Discussion line 362: Chronotype is a term that is frequently misattributed, muddying the scientific literature of circadian timing, diurnal preference, and sleep timing. Chronotype does not refer to biological measurements of endogenous circadian timing such as melatonin or body temperature - it is a false equivalency to say that these measures are the same as sleep timing measures such as actigraphy or self-report questionnaires. The studies mentioned in this paragraph of the discussion are chronotype studies reporting sleep-derived metrics, not circadian phase measured via melatonin. The authors should either include studies that have examined changes in circadian timing in shift workers (e.g., Deacon &amp; Arendt, 1996; Gibbs et al., 2007; Hansen et al., 2010; Stone et al 2018) and clarify terminology making the distinction clear, or remove reference to biological measurements in this paragraph.</p>
+<p>Minor suggestions:</p>
+<p>A minor request: could the authors consider reporting sleep durations in hours and minutes rather than minutes? In some places it is in hh:mm and others in minutes. I believe hh:mm is easier to interpret, though it is your choice.</p>
+<p>Table 3 Overall duration [h] - should this be [min]?</p>
+<p>“Earlier attempts to elucidate this relationship concentrated on … naïve sleep quality measures such as the percentage of time in bed spent actually sleeping” Why is this a naïve sleep quality measure? Naïve suggests there's a lack of experience, wisdom, or judgement in using sleep efficiency calculations as sleep quality (which is widely done in the sleep field). I'm curious about this statement? It could be interpreted as inflammatory, which I do not believe is the author's intention. Perhaps a different word might be better? Maybe the word "simplistic" might be a less contentious word choice?</p>
+<p>Does the LIDS measure give any insight into when participants are sleeping between night shifts? For example, are individuals sleeping immediately after a shift, or remaining awake and sleeping before the next shift, are the different phenotypes? This is not critical to examine or include, but if these data are readily available it would be a valuable addition, as this is often assumed but not necessarily well described in the literature.</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.<!-- </font> --></p>
+<p>Reviewer #1: No</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" xlink:href="https://pacev2.apexcovantage.com/" xlink:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email PLOS at <email xlink:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.<!-- </div> --></p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0262049.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0262049.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0262049" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0262049.r001" object-id-type="doi" object-type="decision-letter"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">16 Nov 2021</named-content>
+</p>
+<p>We thank the editor and reviewers for their comments and suggestions. Below you will find our detailed responses, which we have also uploaded in a separate file.</p>
+<p>Journal Requirements:</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>Response: We have checked our manuscript and have made adjustments where necessary.</p>
+<p>2. PLOS ONE does not permit references to unpublished data; therefore, we request that you either include the referenced data or remove the instances of "data not shown," "unpublished results," or similar</p>
+<p>Response: We have removed all references to unpublished data. In two cases we have added supporting information (Tables B and C in S2 File).</p>
+<p>3. Please include additional information regarding the survey or questionnaire used in the study and ensure that you have provided sufficient details that others could replicate the analyses. For instance, if you developed a questionnaire as part of this study and it is not under a copyright more restrictive than CC-BY, please include a copy, in both the original language and English, as Supporting Information</p>
+<p>Response: We did not develop or use a specific questionnaire for this study. In particular, the extensive actigraphy data were used. The other data used for this analysis were age, gender, body mass index, years of shift work, and informatioin on the shift schedule and working hours as described in the method section. As indicated in the data availability statement, the data are available upon reasonable request from the Federal Institute for Occupational Safety and Health. The same applies to further information on the study.</p>
+<p>4. We note that the grant information you provided in the ‘Funding Information’ and ‘Financial Disclosure’ sections do not match. </p>
+<p>When you resubmit, please ensure that you provide the correct grant numbers for the awards you received for your study in the ‘Funding Information’ section</p>
+<p>Response: The support of the Open Access Publication Fund of the Ruhr-Universität Bochum mentioned in the Acknowledgements Section is a partial transfer of the publication costs for this work. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. We have included our amended Financial Disclosure statement in the cover letter. It now reads:</p>
+<p>“The Open Access Publication Fund of the Ruhr-Universität Bochum contributed to publication costs for this manuscript. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.“</p>
+<p>5. Thank you for stating the following in the Acknowledgments Section of your manuscript: </p>
+<p>"We also acknowledge the support by the Open Access Publication Funds of the Ruhr-Universität Bochum."</p>
+<p>We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form. </p>
+<p>Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows: </p>
+<p>"The authors received no specific funding for this work"</p>
+<p>Please include your amended statements within your cover letter; we will change the online submission form on your behalf.</p>
+<p>Response: We have ommitted the funding information in the Acknowledgments Section and have included our amended financial disclosure statement in the cover letter.</p>
+<p>6. We note that you have included the phrase “data not shown” in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data</p>
+<p>Response: We have removed all references to unpublished data. In two cases, we have added supporting information (S2 Table and S3 Table).</p>
+<p>Please review your reference list to ensure that it is complete and correct. If you have cited papers that have been retracted, please include the rationale for doing so in the manuscript text, or remove these references and replace them with relevant current references. Any changes to the reference list should be mentioned in the rebuttal letter that accompanies your revised manuscript. If you need to cite a retracted article, indicate the article’s retracted status in the References list and also include a citation and full reference for the retraction notice.</p>
+<p>Response: We have checked and adjusted our reference list accordingly.</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer #1: This paper has focus on the association of different shift systems with sleep length and the structure of sleep both during work and free days, with a long follow-up for an experimental study. It investigated the association of five shift rosters on sleep using wrist actigraphs over 28 days. The paper adds to the current knowledge due to having indeed the scope on the whole shift roster. Up to now most earlier papers focus on shift-dependent associations, but often forget the significance of free days in the rosters for recovery, sleep and the also to the related overall circadian disruption influencing the health effects of shift work. The paper is also valuable due to having several well-established objective outcomes: sleep timing, duration, overall sleep debt, the quality of sleep (LIDS) and social jetlag – the latest giving indications on the circadian disruption that is probably most relevant for the long-term effects of shift work on health. Indeed, the paper has several original and interesting results, as described in the abstract and the first chapter of the discussion.</p>
+<p>The sample is cross-sectional but large enough to study the five rosters – that are used generally also in other countries than Germany, increasing the value of the paper. Especially the results of the permanent night work and those of the quickly and slowly rotating shift rotas are interesting. The rosters are well described in the appendix.</p>
+<p>The paper included many results, but they are comprehensive and instead of publishing each outcome in a different journal, bringing them all to one paper (if the paper limits allow this) supports the overall interpretation of the message.</p>
+<p>Minor issues</p>
+<p>1. The title is a bit boring compared to the contents – could reflect more the added value of the paper</p>
+<p>Response: In fact, the original title was a bit boring. We have changed it to:</p>
+<p>Social jetlag and sleep debts are altered in different rosters of night shift work</p>
+<p>2. Abstract: </p>
+<p>• Methods: normally past tense is used “we investigated…” etc. Some sentences could also benefit from language revision to clarify the meanings.</p>
+<p>Response: We have changed the tense accordingly.</p>
+<p>• Did you select the most relevant results to the conclusions here (why focus on 12-hour shifts only) - compare to the conclusions of the main text that gives, I think, a better view of the key results.</p>
+<p>Response: We have adjusted the conclusions, taking also the comments of the other reviewer into account. It now reads: </p>
+<p>„Shift work leads to partial sleep deprivation, which particularly affects workers in 12h-shifts or permanent night shifts. Working these shifts resulted in higher sleep debts and larger absolute social jetlag whereas sleep quality was especially reduced in permanent night shift workers compared with shift workers of other rosters.“</p>
+<p>3. Introduction includes relevant literature</p>
+<p>Response: Thank you</p>
+<p>4. Material and methods: Lines 171-172: do the definitions of day sleep and night sleep include all options? For example, how a sleep period starting at 03 am and ending at 11 am is scored?</p>
+<p>Response: In the general analysis of the sleep data, we considered all sleep episodes. When dividing into day and night sleep, we used the mentioned boundaries to have these strictly defined. Hence, a sleep episode starting at 03 am and ending at 11 am felt into a third group of unclassified episodes which we have now also mentioned in the method section.</p>
+<p>5. Results: </p>
+<p>• Line 248 “experienced” hints to subjective data – did it come from a survey” I would say that workers with .. had the shortest shift work experience</p>
+<p>Response: We have adjusted the wording accordingly.</p>
+<p>- Lines 265-267 explanation for the results (“cannot compensate”) should be in the discussion, not here – an interesting topic to discuss</p>
+<p>Response: We have removed the relevant sentence from the results section and inserted it in the associated paragraph in the discussion (lines 375-379 in the version with track changes).</p>
+<p>- Line 343: how did it differ? Please report in a way that we could read in which shift schedule the sleep quality was good, where it was bad. “Differed” is not too informative yet.</p>
+<p>Response: We have adjusted the corresponding sentence as follows: „Sleep quality assessed with LIDS was paricularly reduced in permanent night shift workers and differed between daytime and nighttime sleep.”</p>
+<p>Reviewer #2: Main comments to authors:</p>
+<p>The authors conclude in the abstract that “this study confirms that 12h-shifts are not associated with chronic sleep loss compared to 8h-shifts, when observing long time frames of four weeks”. Then in the main text conclusion “This study confirms that partial sleep deprivation but not chronic sleep loss is a common consequence of shift work”. I do not see where this rather strong conclusion is drawn from. The sleep durations on work days are &lt;7 hours on average in all shift rotation conditions. Both schedules have chronic sleep loss - from the abstract conclusion is the point that both shift schedules are just as bad as each other? There is evidence from numerous laboratory studies that sleep restriction builds over time, and is not sufficiently “repaid” by 1-2 long recovery sleeps, with performance deficits showing a cumulative effect of chronic sleep loss. How, based on the data presented in this manuscript, is there evidence of no chronic sleep loss associated with shift work? This seems to go beyond what the data presented can determine.</p>
+<p>Response: With our statement about chronic sleep loss, we were referring to the nonexistent difference between the rosters in terms of the overall sleep duration over the whole study period of 28 days as well as the overall daily sleep duration as shown in Table 3. We agree that sleep impairment cannot be accommodated by a few long sleep episodes. Hence, we have now ommited the term "chronic sleep loss" throughout the manuscript.</p>
+<p>“Circadian misalignment was quantified by social jetlag”. Social jetlag is not necessarily a measure of circadian misalignment, as you have no objective marker rhythms measured (e.g., melatonin). While social jetlag is sometimes used as a proxy, it is important to acknowledge that while it may indicate possible misalignment, it is not a direct measure of the clock, rather a sleep-based marker. Sleep can be misaligned with endogenous circadian rhythms, with wide inter-individual variation, particularly in shift workers. There are multiple reasons why shift workers sleep at different times, that are not all attributable to circadian disruption. I do not see how social jetlag can be an accurate measure of circadian disruption in this context. Rather it is a marker of how disrupted sleep timing is compared to free days.</p>
+<p>Response: Indeed, the statement that circadian misalignment can be measured by means of social jetlag is too concise. We have taken up your suggestion and have now written in the text that social jetlag is used as a proxy for circadian misalignment and that increased social jetlag values indicate a greater disrupted sleep timing between workdays and work-free days (lines 195-200 in the version with track changes).</p>
+<p>During the sleep analysis, were the sleep on- and offsets derived from the device software compared with sleep diaries for any major discrepancies? This is a commonly used process to eliminate any obvious errors that can occur due to non-wear or individuals being still during wake times. Similarly, how were naps measured? Were naps derived using actigraphy only, or alongside sleep diaries? Shorter bouts of inactivity (e.g., watching a movie) can easily be misinterpreted as a nap when relying solely on actigraphy. Given the high rates of naps in this dataset, and the presence of both wrist actigraphy and sleep diaries, I would like more detail on how these were cross-checked.</p>
+<p>Response: Two authors (SC and SR) have cross-checked all sleep on- and offsets derived from actigraphy and from sleep diaries for each participant. Indeed, there were differences especially concerning naps. By means of expert rating, we decided in individual cases whether sleep was actually present or not. Furthermore, the diaries also documented the discarding of the actigraphs, so that we could also clarify falsely "measured" sleep episodes through the comparison. </p>
+<p>We have edited the corresponding paragraph in the methods section accordingly (lines 158-162 in the version with track changes).</p>
+<p>Discussion line 365: The observation that permanent night shift workers did not adapt to the schedule in between work days is consistent with other studies examining circadian adaptation to permanent night shift schedules measured via objective phase markers, and also to behavioural/sleep observations similar to this study. I suggest including comparison or reference to this broader literature.</p>
+<p>Response: We have added two references to the discussion at this point:</p>
+<p>Garde AH et al. How to schedule night shift work in order to reduce health and safety risks. Scand J Work Environ Health. 2020; 46:557–69. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3920" xlink:type="simple">https://doi.org/10.5271/sjweh.3920</ext-link></p>
+<p>Harrison EM at al. Sleep-Scheduling Strategies in Hospital Shiftworkers. Nat Sci Sleep. 2021; 13:1593–609. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/NSS.S321960" xlink:type="simple">https://doi.org/10.2147/NSS.S321960</ext-link></p>
+<p>Discussion line 362: Chronotype is a term that is frequently misattributed, muddying the scientific literature of circadian timing, diurnal preference, and sleep timing. Chronotype does not refer to biological measurements of endogenous circadian timing such as melatonin or body temperature - it is a false equivalency to say that these measures are the same as sleep timing measures such as actigraphy or self-report questionnaires. The studies mentioned in this paragraph of the discussion are chronotype studies reporting sleep-derived metrics, not circadian phase measured via melatonin. The authors should either include studies that have examined changes in circadian timing in shift workers (e.g., Deacon &amp; Arendt, 1996; Gibbs et al., 2007; Hansen et al., 2010; Stone et al 2018) and clarify terminology making the distinction clear, or remove reference to biological measurements in this paragraph.</p>
+<p>Response: Chronotype is considered only as a secondary factor in this publication. For example, all tables describing a possible association between LIDS and chronotype are in the Supplement. Therefore, we prefer not to clarify terminology at this point, but limit ourselves to studies that record sleep-related measures.</p>
+<p>We have edited the paragraph accordingly.</p>
+<p>Minor suggestions:</p>
+<p>A minor request: could the authors consider reporting sleep durations in hours and minutes rather than minutes? In some places it is in hh:mm and others in minutes. I believe hh:mm is easier to interpret, though it is your choice.</p>
+<p>Table 3 Overall duration [h] - should this be [min]?</p>
+<p>Response: We have adjusted all corresponding data in the manuscript as well as the duration of the social jetlag in Table 2 and the data in Table 3. The overall mean age-adjusted sleep duration in Table 3 depicts the overall sleep duration including naps over the whole study period of 28 days. Therefore, the unit h is correct. This shows that the total sleep over a month does not differ between the shift systems.</p>
+<p>“Earlier attempts to elucidate this relationship concentrated on … naïve sleep quality measures such as the percentage of time in bed spent actually sleeping” Why is this a naïve sleep quality measure? Naïve suggests there's a lack of experience, wisdom, or judgement in using sleep efficiency calculations as sleep quality (which is widely done in the sleep field). I'm curious about this statement? It could be interpreted as inflammatory, which I do not believe is the author's intention. Perhaps a different word might be better? Maybe the word "simplistic" might be a less contentious word choice?</p>
+<p>Response: Indeed, the choice of words was unfavorable and a devaluation was not intended in any respect. We gladly accept your suggestion and have replaced "naive" by "simplistic".</p>
+<p>Does the LIDS measure give any insight into when participants are sleeping between night shifts? For example, are individuals sleeping immediately after a shift, or remaining awake and sleeping before the next shift, are the different phenotypes? This is not critical to examine or include, but if these data are readily available it would be a valuable addition, as this is often assumed but not necessarily well described in the literature.</p>
+<p>Response: The LIDS measure represents a proxy for sleep quality independent of the time of sleep. In our analysis, for example, we were able to show that sleep quality varied between day and night sleep. However, the present analysis did not include whether the participant slept immediately following the shift or just before the next shift. This is indeed an interesting question that should be explored in a future study or possibly in a reanalysis of the present data.</p>
+<supplementary-material id="pone.0262049.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0262049.s003" xlink:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Casjens - Reply to reviewer comments.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0262049.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0262049.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bullock</surname>
+<given-names>Ben</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Ben Bullock</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0262049" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">16 Dec 2021</named-content>
+</p>
+<p>Social jetlag and sleep debts are altered in different rosters of night shift work</p>
+<p>PONE-D-21-23813R1</p>
+<p>Dear Dr. Casjens,</p>
+<p>We’re pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.</p>
+<p>Within one week, you’ll receive an e-mail detailing the required amendments. When these have been addressed, you’ll receive a formal acceptance letter and your manuscript will be scheduled for publication.</p>
+<p>An invoice for payment will follow shortly after the formal acceptance. To ensure an efficient process, please log into Editorial Manager at <ext-link ext-link-type="uri" xlink:href="http://www.editorialmanager.com/pone/" xlink:type="simple">http://www.editorialmanager.com/pone/</ext-link>, click the 'Update My Information' link at the top of the page, and double check that your user information is up-to-date. If you have any billing related questions, please contact our Author Billing department directly at <email xlink:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they’ll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>Kind regards,</p>
+<p>Ben Bullock</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><!-- <font color="black"> --><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the “Comments to the Author” section, enter your conflict of interest statement in the “Confidential to Editor” section, and submit your "Accept" recommendation.<!-- </font> --></p>
+<p>Reviewer #1: All comments have been addressed</p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->3. Has the statistical analysis been performed appropriately and rigorously? <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.<!-- </font> --></p>
+<p>Reviewer #1: (No Response)</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)<!-- </font> --></p>
+<p>Reviewer #1: The authors have addressed the referee comments well.</p>
+<p>Reviewer #2: (No Response)</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.<!-- </font> --></p>
+<p>Reviewer #1: <bold>Yes: </bold>Mikko Härmä</p>
+<p>Reviewer #2: No</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0262049.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0262049.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Bullock</surname>
+<given-names>Ben</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Ben Bullock</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0262049" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article"/>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">31 Dec 2021</named-content>
+</p>
+<p>PONE-D-21-23813R1 </p>
+<p>Social jetlag and sleep debts are altered in different rosters of night shift work </p>
+<p>Dear Dr. Casjens:</p>
+<p>I'm pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please let them know about your upcoming paper now to help maximize its impact. If they'll be preparing press materials, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>If we can help with anything else, please email us at <email xlink:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE and supporting open access. </p>
+<p>Kind regards, </p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Ben Bullock  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

@@ -13,6 +13,8 @@ from bs4 import BeautifulSoup
 import concurrent.futures
 import time
 
+from varyous import *   # ugly. todo: fix
+
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&view=compact"
 
@@ -41,11 +43,6 @@ LOGGER.addHandler(logging_stream_handler)
 logger.setLevel(logging.DEBUG)
 
 
-def _cook(url: str) -> Union[BeautifulSoup, None]:
-    soup = BeautifulSoup(requests.get(url).content, 'lxml')
-    if "403 Forbidden" in soup.getText():
-        raise Exception(f"403: I was forbidden access to this page: {url} ")
-    return soup
 
 
 def _shorten(uri: str) -> str:
