@@ -6,14 +6,10 @@ import logging
 import os
 import json
 import re
-from typing import Union
-
-import requests
-from bs4 import BeautifulSoup
 import concurrent.futures
 import time
 
-from varyous import *   # ugly. todo: fix
+from varyous import _cook   # ugly. todo: fix
 
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&view=compact"
@@ -26,7 +22,7 @@ RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 
 # for logging:
 logs_path = os.path.join(os.path.dirname(__file__), 'logs')
-runtime_dirname = '_'.join(time.ctime().split(' ')[1:4]).replace(':', '_')
+runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
 log_filename = runtime_dirname + ".log"
 if not os.path.exists(logs_path):
     os.makedirs(logs_path)
@@ -250,7 +246,7 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
         for future in concurrent.futures.as_completed(futures):
             if future.exception:
                 errors_counter += 1
-                logger.exception(future.exception(), exc_info=True)
+                logger.error(future.exception())
             else:
                 scraped_articles += (future.result())
                 done_pages_counter += 1
