@@ -149,6 +149,7 @@ def parse_article(url, dump_dir=None):
         raise e
 
     else:
+        # save metadata to file:
         logger.info(f"Parsed {_shorten(url)} succesfully.")
         if dump_dir is not None:
             logger.info("Saving to file.")
@@ -190,7 +191,10 @@ def page_crawl(url, dump_dir=None):
     article_divs = soup.findAll('div', {'class': 'article-content'})
     for div in article_divs:
         a_title = div.find('a', {'class': 'title-link'})
-        scraped_articles.append(parse_article(url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
+        try:
+            scraped_articles.append(parse_article(url=BASE_URL + a_title.get('href'), dump_dir=dump_dir))
+        except Exception as e:
+            raise e # todo: better error handling here
     logger.info(f"Finished with {url.split('&')[-1]}.")
 
     return scraped_articles
@@ -244,9 +248,10 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
                 logger.exception(e)
 
         for future in concurrent.futures.as_completed(futures):
-            if future.exception:
+            e = future.exception()
+            if e:
                 errors_counter += 1
-                logger.error(future.exception())
+                logger.error(e)
             else:
                 scraped_articles += (future.result())
                 done_pages_counter += 1
