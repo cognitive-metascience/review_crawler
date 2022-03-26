@@ -11,7 +11,7 @@ import time
 import zipfile
 import xml.etree.cElementTree as ET
 
-from varyous import _cook
+from utils import _cook
 
 
 # for logging:
@@ -31,6 +31,10 @@ logging_stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s
 LOGGER.setLevel(logging.WARNING)
 LOGGER.addHandler(logging_stream_handler)
 logger.setLevel(logging.DEBUG)
+
+def _shorten(url):
+    if 'plos.org/' in url and 'article' in url: return (url.split('/')[-1])
+    else: return url
 
 
 def parse_article(url, dump_dir=None):

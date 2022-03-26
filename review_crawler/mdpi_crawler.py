@@ -9,7 +9,7 @@ import re
 import concurrent.futures
 import time
 
-from varyous import _cook   # ugly. todo: fix
+from utils import _cook   # ugly. todo: fix
 
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&view=compact"
