@@ -9,10 +9,19 @@ import re
 import concurrent.futures
 import time
 
-from utils import _cook   # ugly. todo: fix
+from utils import cook, getLogger ,clean_log_folder
 
+
+# globals:
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&view=compact"
+
+crawler_dir = os.path.dirname(__file__)
+
+# for logging:
+logs_path = os.path.join(crawler_dir, 'logs')
+logger: logging.Logger
+logger = getLogger("mdpiLogger")
 
 # regex patterns
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
@@ -20,31 +29,12 @@ UNREGISTERED_DOI_PATTERN = re.compile(DOI_PATTERN.pattern + r'\s+\(registering\s
 SEARCH_PAGES_PATTERN = re.compile(r"Displaying article \d+-\d+ on page \d+ of \d+.")
 RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 
-# for logging:
-logs_path = os.path.join(os.path.dirname(__file__), 'logs')
-runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
-log_filename = runtime_dirname + ".log"
-if not os.path.exists(logs_path):
-    os.makedirs(logs_path)
-LOGGER = logging.getLogger("mdpiLogger")
-logger = LOGGER.getChild('stream')
-logging_file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
-logging_file_handler.formatter = logging.Formatter('%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
-logger.addHandler(logging_file_handler)
-logging_stream_handler = logging.StreamHandler()
-logging_stream_handler.setLevel(logging.WARNING)
-logging_stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
-LOGGER.setLevel(logging.WARNING)
-LOGGER.addHandler(logging_stream_handler)
-logger.setLevel(logging.DEBUG)
 
 
-
-
-def _shorten(uri: str) -> str:
-    if DOI_PATTERN.match(uri): return uri.split('/')[-1]
-    elif uri.startswith('https://www.mdpi.com/'): return '_'.join(uri.split('/')[-4:])
-    else: return uri
+def _shorten(url: str) -> str:
+    if DOI_PATTERN.match(url): return url.split('/')[-1]
+    elif url.startswith('https://www.mdpi.com/'): return '_'.join(url.split('/')[-4:])
+    else: return url
 
 
 def learn_search_pages(url):
@@ -55,7 +45,7 @@ def learn_search_pages(url):
     :type url: str
     :rtype: int
     """
-    soup = _cook(url)
+    soup = cook(url)
     if not url.startswith("https://www.mdpi.com/search?"):
         raise Exception("Invalid url for learn_search_pages:", url)
     hit = soup.find(text=SEARCH_PAGES_PATTERN)
@@ -95,7 +85,7 @@ def parse_article(url, dump_dir=None):
     logger.info(f"Parsing: {url}.")
 
     try:
-        soup = _cook(url)
+        soup = cook(url)
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
         logger.info(f"Title: {metadata['title']}")
 
@@ -185,9 +175,10 @@ def page_crawl(url, dump_dir=None):
     scraped_articles = []
 
     logger.info(f"Trying to crawl through search page: {url.split('&')[-1]}.")
-    soup = _cook(url)
+    soup = cook(url)
 
-    # iterate over all article-content divs on the page to find urls
+    # iterate over all article-content divs on the page to find urls 
+    # todo: and DOIs
     article_divs = soup.findAll('div', {'class': 'article-content'})
     for div in article_divs:
         a_title = div.find('a', {'class': 'title-link'})
@@ -216,15 +207,19 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
     """
 
     if print_logs:
-        logger.setLevel(logging.INFO)
-        LOGGER.setLevel(logging.DEBUG)
+        logger.setLevel(logging.DEBUG)
+        logger.parent.setLevel(logging.INFO)
+        logger.parent.handlers[0].setLevel(logging.INFO)
 
     logger.debug(f"Setting up crawler. max_articles={max_articles}, dump_dir={dump_dir}")
+    if dump_dir is None:
+        logger.warning("dump_dir is None. Output is not saved to files.")
 
     if dump_dir is not None and not os.path.exists(os.path.realpath(dump_dir)):
         logger.info("dump_dir does not exist. Will create.")
         os.makedirs(dump_dir)
 
+    max_articles = None
     if max_articles is None:
         pages_count = learn_search_pages(BASE_SEARCH_URL)
     else:
@@ -261,14 +256,7 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
     logger.info(f"Total number of scraped articles: {len(scraped_articles)}")
     logger.info(f"Number of errors while crawling: {errors_counter}")
     logger.debug("Cleaning log folder...".rstrip('\n\n'))
-    for path in os.listdir(logs_path):
-        joined_paths = os.path.join(logs_path, path)
-        if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:
-            os.rmdir(joined_paths)
-        if os.path.getsize(joined_paths) < 64:
-            os.remove(joined_paths)
-    if len(os.listdir(logs_path)) == 0:
-        os.rmdir(logs_path)
+    clean_log_folder(logs_path)
     logger.debug("Done.")
 
     return scraped_articles
@@ -279,9 +267,10 @@ if __name__ == '__main__':
     scraped = crawl(dump_dir="mdpi/scraped/articles",
                     max_articles=30,  # delete this line to crawl everything
                     print_logs=True)
-    runtime = time.process_time() - startime
-    print(f"and it all took {runtime} seconds.")
+   
     # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:
     #     json.dump(scraped, fp)
 
     print(f"Number of reviewed articles found: {len([a for a in scraped if a['has_reviews']])}")
+    runtime = time.process_time() - startime
+    print(f"and it all took {runtime} seconds.")

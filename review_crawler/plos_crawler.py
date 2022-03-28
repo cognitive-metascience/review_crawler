@@ -1,36 +1,25 @@
 
 """test crawler for going through the PLOS website and the "allofplos_xml.zip" file. The zip file should be in the same directory as this .py file.
-Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into filtered_dirname
-Additionally, the sub-articles from each xml are extracted and saved into files in subarticles_dirname
+Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into filtered_path
+Additionally, the sub-articles from each xml are extracted and saved into files in subarticles_path
 """
 
 import json
 import logging
 import os
-import time
 import zipfile
 import xml.etree.cElementTree as ET
+import allofplos
 
-from utils import _cook
+from utils import cook, getLogger
 
+# globals:
+crawler_dir = os.path.dirname(__file__)
 
 # for logging:
-logs_path = os.path.join(os.path.dirname(__file__), 'logs')
-runtime_dirname = '_'.join(time.ctime().split(' ')[1:4]).replace(':', '_')
-log_filename = runtime_dirname + ".log"
-if not os.path.exists(logs_path):
-    os.makedirs(logs_path)
-LOGGER = logging.getLogger("mdpiLogger")
-logger = LOGGER.getChild('stream')
-logging_file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
-logging_file_handler.formatter = logging.Formatter('%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
-logger.addHandler(logging_file_handler)
-logging_stream_handler = logging.StreamHandler()
-logging_stream_handler.setLevel(logging.WARNING)
-logging_stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
-LOGGER.setLevel(logging.WARNING)
-LOGGER.addHandler(logging_stream_handler)
-logger.setLevel(logging.DEBUG)
+logs_path = os.path.join(crawler_dir, 'logs')
+json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
+logger = getLogger("plosLogger", logs_path)
 
 def _shorten(url):
     if 'plos.org/' in url and 'article' in url: return (url.split('/')[-1])
@@ -54,10 +43,12 @@ def parse_article(url, dump_dir=None):
     logger.info(f"Parsing: {url}.")
 
     try:
-        soup = _cook(url)
+        soup = cook(url)
+        
+        raise NotImplementedError()
 
     except Exception as e:
-        logger.warning(f"There was a problem parsing article from {_shorten(url)}: {e}\narticle metadata: {metadata}")
+        logger.warning(f"There was a problem parsing article from {_shorten(url)}: {e}\narticle metadata: {metadata}")  # change?
         raise e
 
     else:
@@ -77,20 +68,29 @@ def parse_article(url, dump_dir=None):
                 logger.info(f"Saved metadata to file.")
     return metadata
 
-if __name__ == '__main__':
-    zipfile_path = os.path.join(os.path.dirname(__file__), 'allofplos_xml.zip')
-    filtered_dirname =    os.path.join(os.path.dirname(__file__), 'plos/filtered_articles')
-    subarticles_dirname = os.path.join(os.path.dirname(__file__), 'plos/scraped/sub-articles')
-    if not os.path.exists(filtered_dirname):
-        os.makedirs(filtered_dirname)
-    if not os.path.exists(subarticles_dirname):
-        os.makedirs(subarticles_dirname)
+def main():
+
+    logger.debug(f"crawler_dir: {crawler_dir}")
+
+    try:
+        zipfile_path = os.path.join(crawler_dir, 'allofplos_xml.zip')
+    except FileNotFoundError:
+        # //allofplos
+        logger.info("allofplos_xml.zip not found in crawler_dir")
+    filtered_path =    os.path.join(crawler_dir, 'plos/scraped/filtered_articles')
+    subarticles_path = os.path.join(crawler_dir, 'plos/scraped/sub-articles')
     
-    logs_path = os.path.join(os.path.dirname(__file__), 'logs')
-    logfile = os.path.join(logs_path, 'plos_lastrun.json')
+
+
+    if not os.path.exists(filtered_path):
+        os.makedirs(filtered_path)
+    if not os.path.exists(subarticles_path):
+        os.makedirs(subarticles_path)    
+    
+    # check how many files were done during last run:
     done_files = 0
-    if os.path.exists(logfile) and os.path.getsize(logfile)>1:
-        with open(logfile, 'r') as fp:
+    if os.path.exists(json_logfile) and os.path.getsize(json_logfile)>1:
+        with open(json_logfile, 'r') as fp:
             lastrun_data = json.load(fp)
             if 'done_files' in lastrun_data.keys():
                 done_files = lastrun_data['done_files']
@@ -105,27 +105,30 @@ if __name__ == '__main__':
                 el: ET.Element
                 for el in root.iter('article-id'):
                     metadata[el.attrib['pub-id-type']] = el.text
-                print(f'Processing {metadata["doi"]}: {metadata["title"]}')
+                logger.info(f'Processing {metadata["doi"]}: {metadata["title"][:4]}')
                 
                 # assuming if sub-articles are present, then there are reviews
                 sub_articles = root.findall('sub-article')
                 for sub_a in sub_articles:
-                    print(f"sub-article: {sub_a.attrib}")
+                    logger.debug(f"sub-article: {sub_a.attrib}")
                     subtree = ET.ElementTree(sub_a)
                     doi = subtree.find('.//article-id').text
-                    path = os.path.join(subarticles_dirname,doi.split('/')[-1]+'.xml')
+                    path = os.path.join(subarticles_path,doi.split('/')[-1]+'.xml')
                     if not os.path.exists(path):
                         subtree.write(path)
                 if len(sub_articles) > 0:
-                    if os.path.exists(os.path.join(filtered_dirname,filename)):
-                        print('This article was already filtered.')
+                    if os.path.exists(os.path.join(filtered_path,filename)):
+                        logger.info('This article was already filtered.')
                     else:
-                        print('This article probably has reviews. Moving it to filtered_dirname.')
-                        root.write(os.path.join(filtered_dirname,filename))
+                        logging.info('This article probably has reviews. Moving it to filtered_path.')
+                        root.write(os.path.join(filtered_path,filename))
                 done_files+=1
     except KeyboardInterrupt:
-        with open(logfile, 'w+') as fp:
+        with open(json_logfile, 'w+') as fp:
             json.dump({'done_files':done_files}, fp)    
     else:
-        with open(logfile, 'w+') as fp:
+        with open(json_logfile, 'w+') as fp:
             json.dump({'done_files':done_files}, fp)    
+
+if __name__ == '__main__':
+    main()
