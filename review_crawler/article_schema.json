@@ -150,73 +150,8 @@
             "type": "array",
             "title": "An array of the reviews of the article",
             "default": [],
-            "examples": [
-                [
-                    {
-                        "reviewer": {
-                            "number": 1
-                        },
-                        "round": 1
-                    },
-                    {
-                        "reviewer": {
-                            "number": 2
-                        },
-                        "round": 1
-                    }
-                ]
-            ],
             "items": {
-                "$id": "#/properties/reviews/items",
-                "type": "object",
-                "title": "A review of the article.",
-                "examples": [
-                    {
-                        "reviewer": {
-                            "number": 1
-                        },
-                        "round": 1
-                    }
-                ],
-                "required": [
-                    "reviewer",
-                    "round"
-                ],
-                "properties": {
-                    "reviewer": {
-                        "$id": "#/properties/reviews/items/properties/reviewer",
-                        "type": "object",
-                        "title": "The author of the review.",
-                        "required": [
-                            "number"
-                        ],
-                        "properties": {
-                            "number": {
-                                "$id": "#/properties/reviews/items/properties/reviewer/properties/number",
-                                "type": "integer",
-                                "title": "The reviewer's number.",
-                                "examples": [
-                                    1
-                                ]
-                            },
-                            "name": {
-                                "$id": "#/properties/reviews/items/properties/reviewer/properties/name",
-                                "type": "string",
-                                "title": "The reviewer's name.",
-                                "examples": ["Jan Łukasiewicz", "Karl Friston"]
-                            }
-                        },
-                        "additionalProperties": true
-                    },
-                    "round": {
-                        "$id": "#/properties/reviews/items/properties/round",
-                        "type": "integer",
-                        "title": "The round of the review.",
-                        "examples": [
-                            1
-                        ]
-                    }
-                }
+                "$ref": "http://example.com/review_schema.json"
             }
         }
     }

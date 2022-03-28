@@ -4,7 +4,7 @@
     "required": [
         "reviewer",
         "round",
-        "original_article"
+        "original_article_doi"
     ],
     "title": "The schema of a review.",
     "type": "object",
@@ -38,11 +38,14 @@
             "type": "integer",
             "title": "The round of the review.",
             "examples": [
-                2
+                1,2
             ]
         },
-        "original_article": {
-            "$ref": "http://example.com/article_schema.json"
+        "original_article_doi":{
+            "$id": "#/properties/reviews/items/properties/original_article_doi",
+            "type": "string",
+            "title": "The DOI of the reviewed article."
         }
+        
     }
 }
