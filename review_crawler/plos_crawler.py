@@ -9,7 +9,7 @@ import logging
 import os
 import zipfile
 import xml.etree.cElementTree as ET
-import allofplos
+# import allofplos
 
 from utils import cook, getLogger
 
