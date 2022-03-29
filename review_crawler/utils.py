@@ -30,7 +30,9 @@ if not os.path.exists(logs_path):
 
 def cook(url: str) -> Union[BeautifulSoup, None]:
     # sleep for some time before a request
-    time.sleep(random.random()*(MAX_TBR - MIN_TBR)+MIN_TBR)
+    sleepytime = random.random()*(MAX_TBR - MIN_TBR)+MIN_TBR
+    logging.debug("cook: Sleeping for "+str(sleepytime)+" seconds...")
+    time.sleep(sleepytime)
     soup = BeautifulSoup(requests.get(url).content, 'lxml')
     if "403 Forbidden" in soup.getText():
         raise Exception(f"403: I was forbidden access to this page: {url} ")
