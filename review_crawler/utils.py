@@ -17,9 +17,6 @@ from typing import Union
 MIN_TBR = 0.5
 MAX_TBR = 4.5
 
-proxies = {'https': "https://10.10.1.11:1080"}
-
-# paths:
 crawler_dir = os.path.dirname(__file__)
 logs_path = os.path.join(crawler_dir, 'logs')
 if not os.path.exists(logs_path):
@@ -36,7 +33,7 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
     sleepytime = random.random()*(MAX_TBR - MIN_TBR)+MIN_TBR
     logging.debug("cook: Sleeping for "+str(sleepytime)+" seconds...")
     time.sleep(sleepytime)
-    soup = BeautifulSoup(requests.get(url, proxies=proxies).content, 'lxml')
+    soup = BeautifulSoup(requests.get(url).content, 'lxml')
     if "403 Forbidden" in soup.getText():
         raise Exception(f"403: I was forbidden access to this page: {url} ")
     return soup
