@@ -1,7 +1,7 @@
 
 """test crawler for going through the PLOS website and the "allofplos_xml.zip" file. The zip file should be in the same directory as this .py file.
-Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into filtered_path
-Additionally, the sub-articles from each xml are extracted and saved into files in all_articles_path
+Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into subdirectories in plos/scraped/reviewed_articles
+Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files in subdirectory 'sub-articles'.
 """
 
 import json
@@ -79,7 +79,14 @@ def get_metadata_from_xml(root: str) -> dict:
     return metadata
 
 
-def process_allofplos_zip(save_all_metadata = True, print_logs=False):
+def process_allofplos_zip(save_all_metadata = False, print_logs=False):
+    """
+    Assumes that 'allofplos_xml.zip' file is present in this script's folder. Goes through the zip file contents and extracts XML files for reviewed articles, as well as some metadata.
+    The XML files and JSON files containing metadata are saved into subdirectories named after the article's DOI.
+    Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
+    If the parameter save_all_metadata is set to True, JSON files containing metadata for each article in the zip file will be saved in a directory.
+    
+    """
     if print_logs:
         logger.setLevel(logging.INFO)
         logger.parent.handlers[0].setLevel(logging.DEBUG)
