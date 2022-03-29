@@ -1,6 +1,7 @@
 import os
 import pytest
-import mdpi_crawler
+
+from .. import mdpi_crawler
 
 dumpdir = os.path.join(os.path.dirname(__file__), 'dumps')
 

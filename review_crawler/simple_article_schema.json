@@ -1,5 +1,5 @@
 {
-    "$id": "http://example.com/article_schema.json",
+    "$id": "./article_schema.json",
     "$schema": "http://json-schema.org/draft-07/schema",
     "required": [
         "title",

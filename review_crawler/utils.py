@@ -5,10 +5,21 @@ import os
 import shutil
 import time
 import requests
+# import jsonschema
+
 from bs4 import BeautifulSoup
 from typing import Union
 
-logs_path = os.path.join(__file__, 'logs')
+crawler_dir = os.path.dirname(__file__)
+logs_path = os.path.join(crawler_dir, 'logs')
+if not os.path.exists(logs_path):
+    os.makedirs(logs_path)
+# _article_schema_path = os.path.join(crawler_dir, "article_schema.json")
+# fp = open(_article_schema_path, 'r')
+# article_schema = json.loads(fp.read())
+# fp.close()
+
+# example_article_path = os.path.join(crawler_dir, "example_article.json")
 
 def cook(url: str) -> Union[BeautifulSoup, None]:
     soup = BeautifulSoup(requests.get(url).content, 'lxml')
@@ -16,12 +27,18 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
         raise Exception(f"403: I was forbidden access to this page: {url} ")
     return soup
 
+# def validate_json(json_data):
+#     try:
+#         jsonschema.validate(json_data, article_schema)
+#     except jsonschema.ValidationError as err:
+#         print(err.args[0])
+#     else:
+#         print("passed.")
 
 def getLogger(logger_name, logs_path=logs_path) -> logging.Logger:
     runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
     log_filename = runtime_dirname + ".log"
-    if not os.path.exists(logs_path):
-        os.makedirs(logs_path)
+    
     _PARENT_LOGGER = logging.getLogger(logger_name)
     logger = _PARENT_LOGGER.getChild('file')
     logging_file_handler = logging.FileHandler(
@@ -37,7 +54,7 @@ def getLogger(logger_name, logs_path=logs_path) -> logging.Logger:
     logger.setLevel(logging.DEBUG)
     return logger
 
-def clean_log_folder(logs_path):
+def clean_log_folder(logs_path=logs_path):
     for path in os.listdir(logs_path):
         joined_paths = os.path.join(logs_path, path)
         if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:
@@ -59,7 +76,7 @@ def filter_articles(src, dest) -> None:
                 shutil.move(filepath, dest)
 
 
-if __name__ == "__main__":
-    articles_dir = "./mdpi/scraped/articles"
-    output_dir = "./mdpi/scraped/filtered"
-    filter_articles(articles_dir, output_dir)
+# if __name__ == "__main__":
+    # articles_dir = "./mdpi/scraped/articles"
+    # output_dir = "./mdpi/scraped/filtered"
+    # filter_articles(articles_dir, output_dir)

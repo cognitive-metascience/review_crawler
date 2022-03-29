@@ -1,17 +1,21 @@
 {
-    "$id": "http://example.com/review_schema.json",
+    "$id": "./review_schema.json",
     "$schema": "http://json-schema.org/draft-07/schema",
     "required": [
         "reviewer",
-        "round",
-        "original_article_doi"
+        "round"
     ],
     "title": "The schema of a review.",
     "type": "object",
     "properties": {
+        "doi": {
+            "$id": "#/properties/reviews/items/properties/doi",
+            "type": "string",
+            "title": "The DOI of the review (optional)."
+        },
         "reviewer": {
             "$id": "#/properties/reviewer",
-            "title": "The author of the review.",
+            "title": "The author of the review (required).",
             "type": "object",
             "examples": [
                 {
@@ -19,6 +23,7 @@
                     "number": 1
                 }
             ],
+            "required": ["name"],
             "properties": {
                 "number": {
                     "$id": "#/properties/reviewer/properties/number",
@@ -28,7 +33,7 @@
                 "name": {
                     "$id": "#/properties/reviews/items/properties/reviewer/properties/name",
                     "type": "string",
-                    "title": "The reviewer's name."
+                    "title": "The reviewer's name (required. 'Anonymous' if it is unknown."
                 }
             },
             "additionalProperties": true
@@ -36,16 +41,16 @@
         "round": {
             "$id": "#/properties/reviews/items/properties/round",
             "type": "integer",
-            "title": "The round of the review.",
+            "title": "The round of the review (required).",
             "examples": [
-                1,2
+                1,
+                2
             ]
         },
-        "original_article_doi":{
+        "original_article_doi": {
             "$id": "#/properties/reviews/items/properties/original_article_doi",
             "type": "string",
-            "title": "The DOI of the reviewed article."
+            "title": "The DOI of the reviewed article (optional)."
         }
-        
     }
 }
