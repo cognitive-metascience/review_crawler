@@ -47,7 +47,7 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
 #         print("passed.")
 
 def getLogger(logger_name, logs_path=logs_path) -> logging.Logger:
-    runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
+    runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')  #TODO: fix this.
     log_filename = runtime_dirname + ".log"
     
     _PARENT_LOGGER = logging.getLogger(logger_name)
