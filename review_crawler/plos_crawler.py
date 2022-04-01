@@ -16,13 +16,17 @@ from utils import cook, getLogger
 # globals:
 crawler_dir = os.path.abspath(os.path.dirname(__file__))
 
+zipfile_path = os.path.join(crawler_dir, 'allofplos_xml.zip')   # NOTE: subject to change
+filtered_path = os.path.join(crawler_dir, 'plos/reviewed_articles')
+all_articles_path = os.path.join(crawler_dir, 'plos/all_articles')
+
 # for logging:
 logs_path = os.path.join(crawler_dir, 'logs')
 json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
 logger = getLogger("plosLogger", logs_path)
 
 
-def _shorten(url):
+def _shorten(url):  # 
     if 'plos.org/' in url and 'article' in url: return (url.split('/')[-1])
     else: return url
 
@@ -74,7 +78,7 @@ def get_metadata_from_xml(root) -> dict:
     metadata = {}
     metadata['title'] = root.find('.//title-group').find('article-title').text
     el: ET.Element
-    for el in root.iter('article-id'):  # this is wrong. todo: fix
+    for el in root.find('front').iter('article-id'): 
         metadata[el.attrib['pub-id-type']] = el.text
     return metadata
 
@@ -90,14 +94,6 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
     if print_logs:
         logger.setLevel(logging.INFO)
         logger.parent.handlers[0].setLevel(logging.DEBUG)
-
-    logger.debug(f"crawler_dir: {crawler_dir}")
-
-    zipfile_path = os.path.join(crawler_dir, 'allofplos_xml.zip')
-        
-        # //allofplos
-    filtered_path = os.path.join(crawler_dir, 'plos/scraped_from_zip/reviewed_articles')
-    all_articles_path = os.path.join(crawler_dir, 'plos/scraped_from_zip/all_articles')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -121,7 +117,7 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
                 fp.close()
                 metadata = get_metadata_from_xml(root)
 
-                # checking for reviews:
+                # checking for sub-articles:
                 sub_articles = root.findall('sub-article')
                 # assuming if sub-articles are present, then there are reviews
                 if len(sub_articles) > 0:
@@ -144,7 +140,7 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
                             os.mkdir(os.path.join(article_dir, "sub-articles"))
                         if not os.path.exists(path):
                             subtree.write(path)
-                
+
                 # finally, save metadata to all_articles
                 if save_all_metadata and not os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
                     with open(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json"), 'w+') as fp:
