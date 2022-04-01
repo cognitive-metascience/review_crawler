@@ -17,10 +17,17 @@ from typing import Union
 MIN_TBR = 0.5
 MAX_TBR = 4.5
 
+# directories:
 crawler_dir = os.path.dirname(__file__)
-logs_path = os.path.join(crawler_dir, 'logs')
-if not os.path.exists(logs_path):
-    os.makedirs(logs_path)
+logsdir_path = os.path.join(crawler_dir, 'logs')
+if not os.path.exists(logsdir_path):
+    os.makedirs(logsdir_path)
+
+# this is time (month and day) as of starting a crawler
+start_monthday = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
+log_default_filename = start_monthday + ".log"    # e.g. Apr_1.log
+
+
 # _article_schema_path = os.path.join(crawler_dir, "article_schema.json")
 # fp = open(_article_schema_path, 'r')
 # article_schema = json.loads(fp.read())
@@ -46,26 +53,26 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
 #     else:
 #         print("passed.")
 
-def getLogger(logger_name, logs_path=logs_path) -> logging.Logger:
-    runtime_dirname = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
-    log_filename = runtime_dirname + ".log"
+def get_logger(logger_name: str, logs_path=logsdir_path, log_filename = log_default_filename,
+            fileh_level=logging.DEBUG, streamh_level=logging.INFO) -> logging.Logger:
     
-    _PARENT_LOGGER = logging.getLogger(logger_name)
-    logger = _PARENT_LOGGER.getChild('file')
-    logging_file_handler = logging.FileHandler(
+    file_handler = logging.FileHandler(
         os.path.join(logs_path, log_filename))
-    logging_file_handler.formatter = logging.Formatter(
+    file_handler.formatter = logging.Formatter(
         '%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
-    logger.addHandler(logging_file_handler)
-    logging_stream_handler = logging.StreamHandler()
-    logging_stream_handler.formatter = logging.Formatter(
-        '|%(levelname)s:%(message)s|')
-    _PARENT_LOGGER.setLevel(logging.WARNING)
-    _PARENT_LOGGER.addHandler(logging_stream_handler)
-    logger.setLevel(logging.DEBUG)
+    file_handler.setLevel(fileh_level)
+
+    stream_handler = logging.StreamHandler()
+    stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
+    stream_handler.setLevel(streamh_level)
+
+    logger = logging.getLogger(logger_name)
+    logger.addHandler(file_handler)
+    logger.addHandler(stream_handler)
+
     return logger
 
-def clean_log_folder(logs_path=logs_path):
+def clean_log_folder(logs_path=logsdir_path):
     for path in os.listdir(logs_path):
         joined_paths = os.path.join(logs_path, path)
         if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:

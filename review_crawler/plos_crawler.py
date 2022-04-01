@@ -11,7 +11,7 @@ import zipfile
 import xml.etree.cElementTree as ET
 # import allofplos
 
-from utils import cook, getLogger
+from utils import cook, get_logger
 
 # globals:
 crawler_dir = os.path.abspath(os.path.dirname(__file__))
@@ -23,7 +23,7 @@ all_articles_path = os.path.join(crawler_dir, 'plos/all_articles')
 # for logging:
 logs_path = os.path.join(crawler_dir, 'logs')
 json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
-logger = getLogger("plosLogger", logs_path)
+logger = get_logger("plosLogger", logs_path)
 
 
 def _shorten(url):  # 

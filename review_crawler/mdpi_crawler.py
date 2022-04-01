@@ -9,7 +9,7 @@ import re
 import concurrent.futures
 import time
 
-from utils import cook, getLogger ,clean_log_folder
+from utils import cook, get_logger ,clean_log_folder
 
 
 # globals:
@@ -21,7 +21,7 @@ crawler_dir = os.path.dirname(__file__)
 # for logging:
 logs_path = os.path.join(crawler_dir, 'logs')
 logger: logging.Logger
-logger = getLogger("mdpiLogger")
+logger = get_logger("mdpiLogger")
 
 # regex patterns
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
