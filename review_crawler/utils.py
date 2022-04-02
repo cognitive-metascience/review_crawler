@@ -92,19 +92,37 @@ def clean_log_folder(logs_path=logsdir_path):
 
 
 def filter_articles(src, dest) -> None:
+    """
+    Given two directories: src and dest, will try to read JSON files from src, and move them to dest if they contain property 'has_reviews' and it's set to True
+
+    """
+
+    
+    if not os.path.exists(dest):
+        os.makedirs(dest)
+    
     for file in os.listdir(os.path.abspath(src)):
         filepath = os.path.join(os.path.abspath(src), file)
         if os.path.isdir(filepath):
             continue
         with open(filepath) as fp:
-            article = json.load(fp)
-            for key in article.keys():
-                print(f"{key}: {article[key]}")
-            if article["has_reviews"]:
-                shutil.move(filepath, dest)
+            try:
+                article = json.load(fp)
+                if 'has_reviews' not in article or not isinstance(article["has_reviews"], bool):
+                    logging.info(f"{file} does not match the expected JSON format for articles: Does not have 'has_reviews' as a property.")
+                    continue
+                if article["has_reviews"]:
+                    if os.path.exists(os.path.join(dest, file)):
+                        logging.info(f"{file} already in {dest}. Will NOT overwrite.")
+                    else:
+                        logging.debug(f"Moving {file} to {dest}")    
+                        shutil.move(filepath, dest)
+            except UnicodeDecodeError as e:
+                logging.info(f"{file} does not contain valid Unicode data.\nFull traceback:{e}")
+            except json.JSONDecodeError as e:
+                logging.info(f"{file} does not contain valid JSON data.\nFull traceback:{e.msg}")
 
 
-# if __name__ == "__main__":
-    # articles_dir = "./mdpi/scraped/articles"
-    # output_dir = "./mdpi/scraped/filtered"
-    # filter_articles(articles_dir, output_dir)
+if __name__ == "__main__":
+    articles_dir, output_dir =  "./mdpi/scraped/sample", "./mdpi/scraped/filtered"
+    filter_articles(articles_dir, output_dir)
