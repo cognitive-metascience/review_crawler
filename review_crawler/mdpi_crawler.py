@@ -207,11 +207,9 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
     """
 
     if print_logs:
-        logger.setLevel(logging.DEBUG)
-        logger.parent.setLevel(logging.INFO)
         logger.parent.handlers[0].setLevel(logging.INFO)
 
-    logger.debug(f"Setting up crawler. max_articles={max_articles}, dump_dir={dump_dir}")
+    logger.debug(f"Setting up a MDPIcrawler. max_articles={max_articles}, dump_dir={dump_dir}")
     if dump_dir is None:
         logger.warning("dump_dir is None. Output is not saved to files.")
 

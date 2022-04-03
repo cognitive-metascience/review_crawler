@@ -92,8 +92,9 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
     
     """
     if print_logs:
-        logger.setLevel(logging.INFO)
-        logger.parent.handlers[0].setLevel(logging.DEBUG)
+        logger.parent.handlers[0].setLevel(logging.INFO)
+
+    logger.debug('setting up a PLOScrawler.')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
