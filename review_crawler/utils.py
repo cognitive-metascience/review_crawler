@@ -4,6 +4,7 @@ import logging
 import os
 import random
 import shutil
+import sys
 import time
 import requests
 # import jsonschema
@@ -54,23 +55,30 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
 #         print("passed.")
 
 def get_logger(logger_name: str, logs_path=logsdir_path, log_filename = log_default_filename,
-            fileh_level=logging.DEBUG, streamh_level=logging.INFO) -> logging.Logger:
+            fileh_level=logging.DEBUG, streamh_level=logging.WARNING) -> logging.Logger:
     
-    file_handler = logging.FileHandler(
-        os.path.join(logs_path, log_filename))
+    file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
     file_handler.formatter = logging.Formatter(
         '%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
     file_handler.setLevel(fileh_level)
 
-    stream_handler = logging.StreamHandler()
+    stream_handler = logging.StreamHandler(stream = sys.stdout)
     stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
     stream_handler.setLevel(streamh_level)
 
-    logger = logging.getLogger(logger_name)
-    logger.addHandler(file_handler)
-    logger.addHandler(stream_handler)
+    _parent_logger = logging.getLogger(logger_name)
+    _logger = _parent_logger.getChild('file')
+    
+    _parent_logger.propagate = False
+    _logger.propagate = True
 
-    return logger
+    _parent_logger.setLevel(streamh_level)
+    _logger.setLevel(fileh_level)
+
+    _logger.addHandler(file_handler)
+    _parent_logger.addHandler(stream_handler)
+
+    return _logger
 
 def clean_log_folder(logs_path=logsdir_path):
     for path in os.listdir(logs_path):
