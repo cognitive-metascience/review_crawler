@@ -9,6 +9,7 @@ import logging
 import os
 import zipfile
 import xml.etree.cElementTree as ET
+from allofplos.allofplos.article import Article
 # import allofplos
 
 from utils import cook, get_logger
@@ -83,18 +84,18 @@ def get_metadata_from_xml(root) -> dict:
     return metadata
 
 
-def process_allofplos_zip(save_all_metadata = False, print_logs=False):
+def process_allofplos_zip(update = False, print_logs=False):
     """
     Assumes that 'allofplos_xml.zip' file is present in this script's folder. Goes through the zip file contents and extracts XML files for reviewed articles, as well as some metadata.
     The XML files and JSON files containing metadata are saved into subdirectories named after the article's DOI.
     Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
-    If the parameter save_all_metadata is set to True, JSON files containing metadata for each article in the zip file will be saved in a directory.
+    If the parameter update is set to True, files in filtered_path will be overwritten.
     
     """
     if print_logs:
         logger.parent.handlers[0].setLevel(logging.INFO)
 
-    logger.debug('setting up a PLOScrawler.')
+    logger.debug('setting up a PLOScrawler to go through allofplos_xml.zip')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -111,28 +112,36 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
 
     try:
         with zipfile.ZipFile(zipfile_path, 'r') as zip:
-            for filename in zip.namelist()[done_files:]:
+            for filename in zip.namelist():
+                if not update and os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
+                    # skipping files that were already parsed
+                    logging.debug(f'Skipping {filename} as it was already parsed.')
+                    continue
+
                 logger.info(f'Processing {filename}')
                 fp = zip.open(filename)
-                root = ET.parse(fp)
+                a = Article.from_xml(fp.read())
                 fp.close()
-                metadata = get_metadata_from_xml(root)
 
-                # checking for sub-articles:
-                sub_articles = root.findall('sub-article')
+                metadata = get_metadata_from_xml(a.root)
+
                 # assuming if sub-articles are present, then there are reviews
-                if len(sub_articles) > 0:
+                if len(a.get_subarticles()) > 0:
                     metadata["has_reviews"] = True
                     article_dir = os.path.join(filtered_path, os.path.splitext(filename)[0])
-                    if os.path.exists(article_dir):
+                    if os.path.exists(article_dir) and not update:
                         logger.info('We already have this article in reviewed_articles.')
                     else:
                         logging.info('This article probably has reviews. Saving it to reviewed_articles.')
-                        os.mkdir(article_dir)
-                        root.write(os.path.join(article_dir, filename))
+                        os.makedirs(article_dir, exist_ok=True)
+                        # save the XML
+                        a.root.write(os.path.join(article_dir, filename))
+                        # save metadata
                         with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
                             json.dump(metadata, fp)
-                    for sub_a in sub_articles:
+                    
+                    # iterate over sub-articles
+                    for sub_a in a.get_subarticles():
                         logger.debug(f"sub-article: {sub_a.attrib}")
                         subtree = ET.ElementTree(sub_a)
                         doi = subtree.find('.//article-id').text
@@ -143,7 +152,7 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
                             subtree.write(path)
 
                 # finally, save metadata to all_articles
-                if save_all_metadata and not os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
+                if update or not os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
                     with open(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json"), 'w+') as fp:
                         json.dump(metadata, fp)
                 done_files += 1
@@ -161,5 +170,5 @@ def process_allofplos_zip(save_all_metadata = False, print_logs=False):
 
 
 if __name__ == '__main__':
-    process_allofplos_zip(save_all_metadata = False,
-                            print_logs = True)
+    process_allofplos_zip(update = False,
+                        print_logs = True)
