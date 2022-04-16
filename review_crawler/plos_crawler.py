@@ -12,7 +12,7 @@ import zipfile
 import lxml.etree as et
 
 from allofplos.allofplos.article import Article
-from allofplos.allofplos.plos_regex import validate_plos_url
+from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
 from utils import cook, get_logger
 
@@ -33,11 +33,23 @@ json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
 logger = get_logger("plosLogger", logs_path)
 
 
-def _shorten(url):  
-    if not validate_plos_url(url):
+def url_to_doi(url):
+    """
+    Produces the same behavior as `allofplos.transformations.url_to_doi`, 
+    but also validates the provided url using the allofplos library.
+
+    :return: unique identifier for a PLOS article, review, or other resource
+    """  
+    if validate_plos_url(url):  return (url.split('?')[1][3:])
+    else: 
         logger.warning(f"{url} was deemed an invalid url.")
-    elif 'article' or 'peerReview' in url: return (url.split('/')[-1])
-    else: return url
+        return url
+
+def _shorten_doi(doi):
+    if validate_doi(doi): return doi.split('/')[-1]
+    else:
+        logger.warning(f"{doi} was deemed an invalid doi.")
+        return doi
 
 
 def get_metadata_from_url(url, dump_dir=None):
@@ -62,7 +74,7 @@ def get_metadata_from_url(url, dump_dir=None):
         raise NotImplementedError() # todo
 
     except Exception as e:
-        logger.warning(f"There was a {e.__class__.__name__} while parsing article {_shorten(url)}: {e}\narticle metadata: {metadata}")
+        logger.warning(f"There was a {e.__class__.__name__} while parsing article {url_to_doi(url)}: {e}\narticle metadata: {metadata}")
 
     else:
         logger.info(f"Parsed {(url)} succesfully.")
@@ -91,7 +103,7 @@ def get_metadata_from_xml(root) -> dict:
     metadata = {}
     metadata['title'] = root.find('.//title-group').find('article-title').text
     front = root.find('front')
-    if not front:
+    if front is None:
         front = root.find('front-stub') # for sub-articles
     el: et.Element
     for el in front.iter('article-id'): 
@@ -131,9 +143,11 @@ def process_allofplos_zip(update = False, print_logs=False):
 
     zipf = zipfile.ZipFile(zipfile_path, 'r')
     for filename in zipf.namelist():
-        if not update and os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
+        a_short_doi = os.path.splitext(filename)[0]
+        metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
+        if metadata_file_exists and not update:
             # skipping files that were already parsed
-            logging.debug(f'Skipping {filename} as it was already parsed.')
+            logger.debug(f'Skipping {filename} as it was already parsed.')
             continue
 
         logger.info(f'Processing {filename}')
@@ -141,37 +155,42 @@ def process_allofplos_zip(update = False, print_logs=False):
         a = Article.from_xml(fp.read())
         fp.close()
 
-        metadata = get_metadata_from_xml(a.root)
+        a_metadata = get_metadata_from_xml(a.root)
 
         # assuming if sub-articles are present, then there are reviews
         if len(a.get_subarticles()) > 0:
-            metadata["has_reviews"] = True
-            article_dir = os.path.join(filtered_path, os.path.splitext(filename)[0])
-            if os.path.exists(article_dir) and not update:
-                logger.info('Skipping because We already have this article in reviewed_articles.')
+            a_metadata["has_reviews"] = True
+            article_dir = os.path.join(filtered_path, a_short_doi)
+            if os.path.exists(article_dir):
+                logger.warning(f"files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
             else:
-                logging.info('This article probably has reviews. Saving it to reviewed_articles.')
-                os.makedirs(article_dir, exist_ok=True)
-                # save the XML
-                a.tree.write(os.path.join(article_dir, filename))
-                # save metadata
-                with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
-                    json.dump(metadata, fp)
-            
-                # iterate over sub-articles
-                for sub_a in a.get_subarticles():
-                    subtree = et.ElementTree(sub_a)
-                    doi = subtree.find('.//article-id').text
-                    path = os.path.join(article_dir, "sub-articles", doi.split('/')[-1]+'.xml')
-                    if not os.path.exists(os.path.join(article_dir, "sub-articles")):
-                        os.mkdir(os.path.join(article_dir, "sub-articles"))
-                    if update or not os.path.exists(path):
-                        subtree.write(path)                
+                logger.info(f'This article probably has reviews. Saving it to {FILTERED_DIR}/{article_dir}.')
+
+            os.makedirs(article_dir, exist_ok=True)
+
+            # save the XML
+            a.tree.write(os.path.join(article_dir, filename))
+            # save metadata
+            with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
+                json.dump(a_metadata, fp)
+        
+            # iterate over sub-articles
+            for sub_a in a.get_subarticles():
+                subtree = et.ElementTree(sub_a)
+                sub_a_metadata = get_metadata_from_xml(sub_a)
+                doi = subtree.find('.//article-id').text
+                path = os.path.join(article_dir, "sub-articles", _shorten_doi(doi) + '.xml')
+                if not os.path.exists(os.path.join(article_dir, "sub-articles")):
+                    os.mkdir(os.path.join(article_dir, "sub-articles"))
+                subtree.write(path)
+                # logger.info(f'sub-article {sub_a_metadata['doi']} saved to {article_dir}')
 
         # finally, save metadata to all_articles
-        if update or not os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
-            with open(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json"), 'w+') as fp:
-                json.dump(metadata, fp)
+        if metadata_file_exists:
+            logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
+        with open(os.path.join(all_articles_path, a_short_doi +".json"), 'w+') as fp:
+            json.dump(a_metadata, fp)
+        logger.debug(f"metadata for {filename} saved succesfully.")
 
 
 if __name__ == '__main__':
