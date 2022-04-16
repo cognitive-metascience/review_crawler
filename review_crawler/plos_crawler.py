@@ -84,10 +84,17 @@ def get_metadata_from_url(url, dump_dir=None):
 
 
 def get_metadata_from_xml(root) -> dict:
+    """
+    TODO: improve this to fit the schema 
+    (possibly use allofplos.corpus_analysis.get_article_metadata)
+    """
     metadata = {}
     metadata['title'] = root.find('.//title-group').find('article-title').text
+    front = root.find('front')
+    if not front:
+        front = root.find('front-stub') # for sub-articles
     el: et.Element
-    for el in root.find('front').iter('article-id'): 
+    for el in front.iter('article-id'): 
         metadata[el.attrib['pub-id-type']] = el.text
     return metadata
 
@@ -141,7 +148,7 @@ def process_allofplos_zip(update = False, print_logs=False):
             metadata["has_reviews"] = True
             article_dir = os.path.join(filtered_path, os.path.splitext(filename)[0])
             if os.path.exists(article_dir) and not update:
-                logger.info('We already have this article in reviewed_articles.')
+                logger.info('Skipping because We already have this article in reviewed_articles.')
             else:
                 logging.info('This article probably has reviews. Saving it to reviewed_articles.')
                 os.makedirs(article_dir, exist_ok=True)
@@ -151,16 +158,15 @@ def process_allofplos_zip(update = False, print_logs=False):
                 with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
                     json.dump(metadata, fp)
             
-            # iterate over sub-articles
-            for sub_a in a.get_subarticles():
-                logger.debug(f"sub-article: {sub_a.attrib}")
-                subtree = et.ElementTree(sub_a)
-                doi = subtree.find('.//article-id').text
-                path = os.path.join(article_dir, "sub-articles", doi.split('/')[-1]+'.xml')
-                if not os.path.exists(os.path.join(article_dir, "sub-articles")):
-                    os.mkdir(os.path.join(article_dir, "sub-articles"))
-                if not os.path.exists(path):
-                    subtree.write(path)                
+                # iterate over sub-articles
+                for sub_a in a.get_subarticles():
+                    subtree = et.ElementTree(sub_a)
+                    doi = subtree.find('.//article-id').text
+                    path = os.path.join(article_dir, "sub-articles", doi.split('/')[-1]+'.xml')
+                    if not os.path.exists(os.path.join(article_dir, "sub-articles")):
+                        os.mkdir(os.path.join(article_dir, "sub-articles"))
+                    if update or not os.path.exists(path):
+                        subtree.write(path)                
 
         # finally, save metadata to all_articles
         if update or not os.path.exists(os.path.join(all_articles_path, os.path.splitext(filename)[0]+".json")):
@@ -169,5 +175,5 @@ def process_allofplos_zip(update = False, print_logs=False):
 
 
 if __name__ == '__main__':
-    process_allofplos_zip(update = False,
+    process_allofplos_zip(update = True,
                         print_logs = True)
