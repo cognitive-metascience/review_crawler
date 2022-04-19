@@ -12,6 +12,7 @@ import zipfile
 import lxml.etree as et
 
 from allofplos.allofplos.article import Article
+from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus, download_check_and_move, get_dois_needed_list
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
 from utils import cook, get_logger
@@ -23,7 +24,9 @@ crawler_dir = os.path.abspath(os.path.dirname(__file__))
 ALL_ARTICLES_DIR = 'plos/all_articles' 
 FILTERED_DIR = 'plos/reviewed_articles'
 
-zipfile_path = os.path.join(crawler_dir, 'allofplos_xml.zip')   # NOTE: subject to change
+zipfile_dir = os.path.join(crawler_dir, 'allofplos')   # NOTE: subject to change
+zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
+
 all_articles_path = os.path.join(crawler_dir, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(crawler_dir, FILTERED_DIR)
 
@@ -35,8 +38,8 @@ logger = get_logger("plosLogger", logs_path)
 
 def url_to_doi(url):
     """
-    Produces the same behavior as `allofplos.transformations.url_to_doi`, 
-    but also validates the provided url using the allofplos library.
+    Produces pretty much the same behavior as `allofplos.transformations.url_to_doi`, 
+    but also validates the provided url using `validate_plos_url`.
 
     :return: unique identifier for a PLOS article, review, or other resource
     """  
@@ -51,6 +54,14 @@ def _shorten_doi(doi):
         logger.warning(f"{doi} was deemed an invalid doi.")
         return doi
 
+def download_allofplos_zip():
+    """
+    Calls `create_local_plos_corpus` to download the entire PLOS database contained in a zip file.
+    The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_path`.
+    """
+    logger.info("Will attempt to download the allofplos_xml.zip file.")
+    create_local_plos_corpus(zipfile_dir, rm_metadata=False, unzip=False)
+        
 
 def get_metadata_from_url(url, dump_dir=None):
     """
@@ -194,5 +205,6 @@ def process_allofplos_zip(update = False, print_logs=False):
 
 
 if __name__ == '__main__':
-    process_allofplos_zip(update = True,
-                        print_logs = True)
+    os.environ['PLOS_CORPUS'] = zipfile_dir
+    download_allofplos_zip()
+    # process_allofplos_zip(update = True, print_logs = True)
