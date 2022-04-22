@@ -60,7 +60,7 @@ def download_allofplos_zip():
     The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_path`.
     """
     logger.info("Will attempt to download the allofplos_xml.zip file.")
-    create_local_plos_corpus(zipfile_dir, rm_metadata=False, unzip=False)
+    create_local_plos_corpus(zipfile_dir, rm_metadata=True, unzip=True, delete_file=False)
         
 
 def get_metadata_from_url(url, dump_dir=None):
@@ -181,12 +181,15 @@ def process_allofplos_zip(update = False, print_logs=False):
     if print_logs:
         logger.parent.handlers[0].setLevel(logging.INFO)
 
-    logger.debug('setting up a PLOScrawler to go through allofplos_xml.zip')
+    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update}, print_logs = {print_logs}')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
     if not os.path.exists(all_articles_path):
         os.makedirs(all_articles_path)
+
+    reviewed_counter = 0
+    errors_counter = 0
 
     allofplos_zip = zipfile.ZipFile(zipfile_path, 'r')
     for filename in allofplos_zip.namelist():
@@ -215,15 +218,16 @@ def process_allofplos_zip(update = False, print_logs=False):
                                           'day': a.pubdate.day}
         a_metadata['authors'] = get_authors_from_article(a.authors)
         a_metadata['retracted'] = False # change to check_if_article_retracted
-
+        
         # assuming if sub-articles are present, then article was reviewed
         if len(a.get_subarticles()) > 0:
+            reviewed_counter += 1
             a_metadata["has_reviews"] = True
             article_dir = os.path.join(filtered_path, a_short_doi)
             if os.path.exists(article_dir):
                 logger.warning(f"files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
             else:
-                logger.info(f'This article probably has reviews. Saving it to {FILTERED_DIR}/{article_dir}.')
+                logger.info(f'{a_short_doi} probably has reviews. Saving it to {FILTERED_DIR}/{article_dir}.')
 
             os.makedirs(article_dir, exist_ok=True)
 
@@ -257,5 +261,6 @@ def process_allofplos_zip(update = False, print_logs=False):
 
 if __name__ == '__main__':
     os.environ['PLOS_CORPUS'] = zipfile_dir
-    # download_allofplos_zip()
-    process_allofplos_zip(update = True, print_logs = True)
+    logger.parent.handlers[0].setLevel(logging.INFO)
+    download_allofplos_zip()
+    process_allofplos_zip(update = False, print_logs = True)
