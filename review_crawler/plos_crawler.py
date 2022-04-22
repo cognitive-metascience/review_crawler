@@ -105,21 +105,57 @@ def get_metadata_from_url(url, dump_dir=None):
                 logger.info(f"Saved metadata to file.")
     return metadata
 
+def check_if_article_retracted(url):
+    # TODO: change this to work on Soups?
+    soup = cook(url)
+    return 'has RETRACTION' in soup.text
+
 
 def get_metadata_from_xml(root) -> dict:
     """
     TODO: improve this to fit the schema 
     (possibly use allofplos.corpus_analysis.get_article_metadata)
+    This function should get the doi right, at the least.
     """
     metadata = {}
-    metadata['title'] = root.find('.//title-group').find('article-title').text
+    # the line below has problems parsing titles that contain HTML tags, instead Article.authors will be used
+    # metadata['title'] = root.find('.//title-group').find('article-title').text    
     front = root.find('front')
     if front is None:
         front = root.find('front-stub') # for sub-articles
     el: et.Element
     for el in front.iter('article-id'): 
         metadata[el.attrib['pub-id-type']] = el.text
+    
+    # get keywords:
+    keywords_set = set()    # using a set because they tend to be duplicated
+    categories = front.find('.//article-categories')
+    if categories is None:
+            return metadata
+
+    for el in categories[1:]:   # skipping the first one because it's a "heading"
+        for subj in el.iterdescendants():
+            if len(subj) == 1:
+                keywords_set.add(subj[0].text)
+    metadata['keywords'] = list(keywords_set)
     return metadata
+
+def get_subarticle_metadata_from_xml(root) -> dict:
+    raise NotImplementedError # TODO
+
+def get_authors_from_article(authors: list) -> list:
+    parsed_authors = []
+    for author in authors:
+        try:
+            if author['given_names'] is None and author['surname'] is None:
+                parsed_authors.append(author['group_name'])
+            else:
+                parsed_authors.append(author['given_names']+ ' ' +author['surname'])
+        except KeyError or TypeError:
+            logger.error(f"Invalid argument passed to function `get_authors_from_article`.\n\
+                Expected a list of dicts containing keys `given_names` and `surname`.")
+    return parsed_authors
+
 
 def parse_zipped_article(fp, update = False):
     """
@@ -152,8 +188,8 @@ def process_allofplos_zip(update = False, print_logs=False):
     if not os.path.exists(all_articles_path):
         os.makedirs(all_articles_path)
 
-    zipf = zipfile.ZipFile(zipfile_path, 'r')
-    for filename in zipf.namelist():
+    allofplos_zip = zipfile.ZipFile(zipfile_path, 'r')
+    for filename in allofplos_zip.namelist():
         a_short_doi = os.path.splitext(filename)[0]
         metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
         if metadata_file_exists and not update:
@@ -162,13 +198,25 @@ def process_allofplos_zip(update = False, print_logs=False):
             continue
 
         logger.info(f'Processing {filename}')
-        fp = zipf.open(filename)
+        fp = allofplos_zip.open(filename)
         a = Article.from_xml(fp.read())
         fp.close()
 
+        # parse some metadata from the xml itself
         a_metadata = get_metadata_from_xml(a.root)
 
-        # assuming if sub-articles are present, then there are reviews
+        # get metadata from Article object:
+        a_metadata['title'] = a.title
+        a_metadata['url'] = a.get_page('article')
+        a_metadata['fulltext_xml_url'] = a.url
+        a_metadata['journal'] = {'title': a.journal, 'volume': a.volume, 'issue': a.issue}
+        a_metadata['publication_date'] = {'year': a.pubdate.year,
+                                          'month': a.pubdate.month, 
+                                          'day': a.pubdate.day}
+        a_metadata['authors'] = get_authors_from_article(a.authors)
+        a_metadata['retracted'] = False # change to check_if_article_retracted
+
+        # assuming if sub-articles are present, then article was reviewed
         if len(a.get_subarticles()) > 0:
             a_metadata["has_reviews"] = True
             article_dir = os.path.join(filtered_path, a_short_doi)
@@ -189,12 +237,15 @@ def process_allofplos_zip(update = False, print_logs=False):
             for sub_a in a.get_subarticles():
                 subtree = et.ElementTree(sub_a)
                 sub_a_metadata = get_metadata_from_xml(sub_a)
-                doi = subtree.find('.//article-id').text
-                path = os.path.join(article_dir, "sub-articles", _shorten_doi(doi) + '.xml')
+                
+                # save XML containing this sub-article
+                path = os.path.join(article_dir, "sub-articles", _shorten_doi(sub_a_metadata['doi']) + '.xml')
                 if not os.path.exists(os.path.join(article_dir, "sub-articles")):
                     os.mkdir(os.path.join(article_dir, "sub-articles"))
                 subtree.write(path)
-                # logger.info(f'sub-article {sub_a_metadata['doi']} saved to {article_dir}')
+                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {article_dir}")
+        else:
+            a_metadata['has_reviews'] = False
 
         # finally, save metadata to all_articles
         if metadata_file_exists:
@@ -202,9 +253,9 @@ def process_allofplos_zip(update = False, print_logs=False):
         with open(os.path.join(all_articles_path, a_short_doi +".json"), 'w+') as fp:
             json.dump(a_metadata, fp)
         logger.debug(f"metadata for {filename} saved succesfully.")
-
+    logger.info('Finished parsing allofplos_xml.zip')
 
 if __name__ == '__main__':
     os.environ['PLOS_CORPUS'] = zipfile_dir
-    download_allofplos_zip()
-    # process_allofplos_zip(update = True, print_logs = True)
+    # download_allofplos_zip()
+    process_allofplos_zip(update = True, print_logs = True)
