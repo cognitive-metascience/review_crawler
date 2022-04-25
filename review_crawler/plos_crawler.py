@@ -1,5 +1,5 @@
 
-"""test crawler for going through the PLOS website and the `allofplos_xml.zip` file. The zip file should be in `allofplos` directory as this .py file.
+"""test crawler for going through the `allofplos_xml.zip` file. The zip file will be downloaded to `allofplos` directory.
 Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into subdirectories in `plos/reviewed_articles`.
 Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files.
 Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory
@@ -9,10 +9,12 @@ import json
 import logging
 import os
 import requests
-import zipfile
 import lxml.etree as et
 
+from zipfile import ZipFile, BadZipFile
+
 from allofplos.allofplos.article import Article
+from allofplos.allofplos.corpus.gdrive import unzip_articles
 from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
@@ -64,15 +66,32 @@ def download_allofplos_zip(unzip=False):
     Calls `create_local_plos_corpus` to download the entire PLOS database contained in a zip file.
     The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_dir`.
 
-    :param unzip: whether to extract article files to corpus dir, or just keep the zip file instead. Defaults to `False`, because
-    after extraction, the folder will be around 30 GB heavy.
+    :param unzip: whether to extract all article files to corpus dir, or just keep the zip file instead. 
+    Defaults to `False`, because after extraction, the folder will be around 30 GB heavy.
     """
-    logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}.")
+    # code below is copied from `download_file_from_google_drive()` function from `allofplos.gdrive`
+    # check for existing incomplete zip download. Delete if invalid zip.
+    if os.path.isfile(zipfile_path) and get_extension_from_str(zipfile_path).lower() == '.zip':
+        logger.info("allofplos_xml.zip already exists. Checking if the archive is corrputed or otherwise invalid. This may take some time.")
+        try:
+            zip_file = ZipFile(zipfile_path)
+            if zip_file.testzip():
+                os.remove(zipfile_path)
+                logger.info("Deleted corrupted previous zip download.")
+        except BadZipFile as e:
+            os.remove(zipfile_path)
+            logger.info("Deleted invalid previous zip download.")
+    if os.path.isfile(zipfile_path):
+        logger.info("Everything OK with the existing zip file.")
+    else:
+        logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}.")
+        create_local_plos_corpus(zipfile_dir, unzip=False, delete_file=False)
+        logger.info(f"Finished with download.")
     if unzip:
-        logger.info(f"After downloading the file, articles will be extracted to default ")
-    create_local_plos_corpus(zipfile_dir, rm_metadata=True, unzip=unzip, delete_file=False)
+        logger.info(f"Articles will now be extracted to default corpus directory in {zipfile_dir}")
+        unzip_articles(file_path=zipfile_path, delete_file=False)
         
-
+        
 def get_metadata_from_url(url, dump_dir=None):
     """
     Parses a PLOS article with the given url. Saves output to a JSON file if dump_dir is specified.
@@ -119,7 +138,6 @@ def check_if_article_retracted(url):
     # TODO: change this to work on Soups?
     soup = cook(url)
     return 'has RETRACTION' in soup.text
-
 
 def get_metadata_from_xml(root) -> dict:
     """
@@ -306,7 +324,7 @@ def process_allofplos_zip(update = False):
     reviewed_counter = 0
     errors_counter = 0 
 
-    allofplos_zip = zipfile.ZipFile(zipfile_path, 'r')
+    allofplos_zip = ZipFile(zipfile_path, 'r')
     for filename in allofplos_zip.namelist():
         try:
             a_short_doi = os.path.splitext(filename)[0]
@@ -335,7 +353,6 @@ def process_allofplos_zip(update = False):
 
 if __name__ == '__main__':
     # set logging:
-    logger.parent.handlers[0].setLevel(logging.DEBUG)
-    
+    logger.parent.handlers[0].setLevel(logging.INFO)
     download_allofplos_zip(unzip = False)
     process_allofplos_zip(update = False)
