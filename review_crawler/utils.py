@@ -46,6 +46,12 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
         raise Exception(f"403: I was forbidden access to this page: {url} ")
     return soup
 
+def get_extension_from_str(text) -> str:
+    if '.' in text:
+        return '.' + text.split('.')[-1]
+    else: return text
+
+
 # def validate_json(json_data):
 #     try:
 #         jsonschema.validate(json_data, article_schema)
@@ -96,8 +102,6 @@ def filter_articles(src, dest) -> None:
     Given two directories: src and dest, will try to read JSON files from src, and move them to dest if they contain property 'has_reviews' and it's set to True
 
     """
-
-    
     if not os.path.exists(dest):
         os.makedirs(dest)
     

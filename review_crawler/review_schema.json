@@ -51,6 +51,11 @@
             "$id": "#/properties/reviews/items/properties/original_article_doi",
             "type": "string",
             "title": "The DOI of the reviewed article (optional)."
+        },
+        "supplementary_materials":{
+            "$id": "#/properties/reviews/items/properties/supplementary_material_ids",
+            "type": "array",
+            "title": "Array containing supplementary materials (text documents containing reviews or other resources)"
         }
     }
 }
