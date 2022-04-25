@@ -1,5 +1,5 @@
 
-"""test crawler for going through the PLOS website and the `allofplos_xml.zip` file. The zip file should be in the same directory as this .py file.
+"""test crawler for going through the PLOS website and the `allofplos_xml.zip` file. The zip file should be in `allofplos` directory as this .py file.
 Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into subdirectories in `plos/reviewed_articles`.
 Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files.
 Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory
@@ -13,10 +13,10 @@ import zipfile
 import lxml.etree as et
 
 from allofplos.allofplos.article import Article
-from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus, download_check_and_move, get_dois_needed_list
+from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
-from utils import cook, get_logger
+from utils import cook, get_extension_from_str, get_logger
 
 # globals:
 crawler_dir = os.path.abspath(os.path.dirname(__file__))
@@ -37,7 +37,7 @@ json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
 logger = get_logger("plosLogger", logs_path)
 
 
-def url_to_doi(url):
+def url_to_doi(url) -> str:
     """
     Produces pretty much the same behavior as `allofplos.transformations.url_to_doi`, 
     but also validates the provided url using `validate_plos_url`.
@@ -49,7 +49,11 @@ def url_to_doi(url):
         logger.warning(f"{url} was deemed an invalid url.")
         return url
 
-def _shorten_doi(doi):
+def shorten_doi(doi) -> str:
+    """
+    Returns the tail element of a doi string (that is, everything after the last slash).
+    The provided DOI is validated using regex from `allofplos` library.
+    """
     if validate_doi(doi): return doi.split('/')[-1]
     else:
         logger.warning(f"{doi} was deemed an invalid doi.")
@@ -58,7 +62,7 @@ def _shorten_doi(doi):
 def download_allofplos_zip():
     """
     Calls `create_local_plos_corpus` to download the entire PLOS database contained in a zip file.
-    The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_path`.
+    The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_dir`.
     """
     logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}.")
     create_local_plos_corpus(zipfile_dir, rm_metadata=True, unzip=True, delete_file=False)
@@ -114,7 +118,7 @@ def check_if_article_retracted(url):
 
 def get_metadata_from_xml(root) -> dict:
     """
-    TODO: improve this to fit the schema 
+    Outputs some metadata from the given Element object.
     This function should get the doi right, at the least.
     """
     metadata = {}
@@ -125,7 +129,7 @@ def get_metadata_from_xml(root) -> dict:
         front = root.find('front-stub') # for sub-articles
     el: et.Element
     for el in front.iter('article-id'): 
-        metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text
+        metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
     
     # get keywords: TODO move this to Article class
     keywords_set = set()    # using a set because they tend to be duplicated
@@ -136,7 +140,7 @@ def get_metadata_from_xml(root) -> dict:
     for el in categories[1:]:   # skipping the first one because it's a "heading"
         for subj in el.iterdescendants():
             if len(subj) == 1:
-                keywords_set.add(subj[0].text)
+                keywords_set.add(subj[0].text.strip())
     metadata['keywords'] = list(keywords_set)
     return metadata
 
@@ -152,12 +156,12 @@ def get_subarticle_metadata_from_xml(root) -> dict:
         pass
 
     if metadata['type'] == 'aggregated-review-documents':
-        metadata['round'] = int(front.find('.//article-title').text.split()[-1])
-    metadata['doi'] = front.find('article-id').text
+        metadata['round'] = int(front.find('.//article-title').text.strip().split()[-1])
+    metadata['doi'] = front.find('article-id').text.strip()
     related_article = front.find('related-object')
-    if related_article and related_article.attrib['link-type'] == 'peer-reviewed-article':
+    if related_article is not None and related_article.attrib['link-type'] == 'peer-reviewed-article':
         metadata['original_article_doi'] = related_article.attrib['document-id']
-    metadata['date'] = body.find('.//named-content').text
+    metadata['date'] = body.find('.//named-content').text.strip()
 
     # find reviewers:
     if metadata['type'] == 'aggregated-review-documents':
@@ -176,10 +180,14 @@ def get_subarticle_metadata_from_xml(root) -> dict:
         metadata['reviewers'] = reviewers
 
     # find supplementary materials:
-    supplementary_ids = []
-    for sm in body.findall('supplementary-material'):
-        supplementary_ids.append('journal.'+sm.attrib['id'])   # these will be in "short" doi format
-    if len(supplementary_ids) > 0: metadata['supplementary_material_ids'] = supplementary_ids
+    supplementary = []
+    for elem in body.findall('supplementary-material'):
+        sm = {'id': ('journal.'+elem.attrib['id']), # these will be in "short" doi format
+              'original_filename': elem.find('.//named-content').text}
+        supplementary.append(sm)
+
+    if len(supplementary) > 0: 
+        metadata['supplementary_materials'] = supplementary
     return metadata
 
 def get_authors_from_article(authors: list) -> list:
@@ -200,27 +208,114 @@ def get_authors_from_article(authors: list) -> list:
     return parsed_authors
 
 
-def parse_zipped_article(fp, update = False):
+def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> dict:
     """
-    Parses a file that's assumed to be inside `allofplos_xml.zip`.
+    Parses an XML string that's assumed to contain a PLOS article.
+    This function relies on the `Article` class from `allofplos` library to extract metadata from XML.
+    
+    JSON files containing parsed metadata are stored in `ALL_ARTICLES_DIR`.
+    Files containing reviewed articles, their sub-articles and supplementary materials are saved to sub-directories in `FILTERED_DIR`. 
+    Metadata in JSON format is also saved there. 
 
-    If parameter `update` is set to `True`, files will be created and overwritten inside `FILTERED_DIR`
-
-    :type fp: file-like (readable object)
+    :param xml_string: XML-encoded string containing a PLOS article.
+    :param update: if set to `True`, existing files will be overwritten.
+    :param skip_supplementary: whether to skip downloading supplementary materials from the PLOS database.
     :return: dictionary object containing parsed metadata
     :rtype: dict
     """
-    raise NotImplementedError() # TODO
+    a = Article.from_xml(xml_string)
+    a_short_doi = shorten_doi(a.doi)
+    # parse some metadata from the xml itself
+    metadata = get_metadata_from_xml(a.root)
+    # get metadata from Article object:
+    metadata['title'] = a.title
+    metadata['url'] = a.get_page('article')
+    metadata['fulltext_xml_url'] = a.url
+    metadata['journal'] = {'title': a.journal, 'volume': a.volume, 'issue': a.issue}
+    metadata['publication_date'] = {'year': a.pubdate.year,
+                                    'month': a.pubdate.month, 
+                                    'day': a.pubdate.day}
+    metadata['authors'] = get_authors_from_article(a.authors)
+    metadata['retracted'] = False # TODO: change to check_if_article_retracted
+    
+    # assuming if sub-articles are present, then article was reviewed
+    if len(a.get_subarticles()) > 0:
+        metadata["has_reviews"] = True
+        metadata['sub_articles'] = []
+        
+        article_dir = os.path.join(filtered_path, a_short_doi)
+        sub_articles_dir = os.path.join(article_dir, "sub-articles")
+        logger.info(f'this article probably has reviews! It will be saved to {FILTERED_DIR}.')
+        write_files = True
+        if not os.path.exists(article_dir):
+            os.makedirs(article_dir, exist_ok=False)
+        elif update:
+            logger.warning(f"files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
+        else:
+            write_files = False
+        logger.debug("Parsing sub-articles...")
+        # iterate over sub-articles
+        for sub_a in a.get_subarticles():
+            subtree = et.ElementTree(sub_a)
+            sub_a_metadata = get_subarticle_metadata_from_xml(sub_a)
+            if 'specific_use' in sub_a_metadata.keys():
+                if sub_a_metadata['specific_use'] == 'acceptance-letter':
+                    # skipping those to save space and time
+                    continue
+            metadata['sub_articles'].append(sub_a_metadata)
+            # find a warning (if any)
+            boxed_text = subtree.find('.//boxed-text')
+            if boxed_text is not None:
+                logger.warning(f"{boxed_text.find('.//title').text.strip()} in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
+            if write_files:
+                # save this sub-article
+                sub_a_path = os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.xml')
+                if not os.path.exists(sub_articles_dir):
+                    os.mkdir(sub_articles_dir)
+                # save the XML:
+                subtree.write(sub_a_path)
+                # save metadata:
+                with open(os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.json'), 'w+') as fp:
+                    json.dump(sub_a_metadata, fp)
+                # download supplementary materials (if any)
+                if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
+                    for sm in sub_a_metadata['supplementary_materials']:
+                        sm_filename = sm['id'] + get_extension_from_str(sm['original_filename'])
+                        with open(os.path.join(sub_articles_dir, sm_filename), 'wb') as fp:
+                            url = 'https://doi.org/' + metadata['doi'] + get_extension_from_str(sm['id'])
+                            logger.debug(f'Downloading supplementary material from {url}')
+                            r = requests.get(url, stream=True)
+                            fp.write(r.content)
+                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
+            
+        if write_files:
+            # save this article's XML
+            a.tree.write(os.path.join(article_dir, a.filename))
+            # save metadata to the same directory
+            with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
+                json.dump(metadata, fp)
+    else:
+        metadata['has_reviews'] = False
+
+    # finally, save metadata to all_articles
+    _filename = os.path.join(all_articles_path, a_short_doi + ".json")
+    if update or not os.path.exists(_filename):
+        with open(_filename, 'w+') as fp:
+            json.dump(metadata, fp)
+        logger.debug(f"metadata for {a_short_doi} saved to {ALL_ARTICLES_DIR}.")
+    return metadata
 
 
 def process_allofplos_zip(update = False, print_logs=False):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
-    For each article in the zip, metadata is extracted and stored in `ALL_ARTICLES_DIR`
-    The XML files and JSON files containing metadata are saved into subdirectories named after the article's DOI.
-    Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
-    If the parameter `update` is set to `True`, files in `FILTERED_DIR` will be overwritten.
+    For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
+    These files will be overwritten if the flag `update` is set to `True`.
     
+    The XML files and JSON files containing reviewed articles and their metadata are saved into subdirectories named after the article's DOI.
+    Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
+    
+    :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
     """
     if print_logs:
         logger.parent.handlers[0].setLevel(logging.INFO)
@@ -233,90 +328,28 @@ def process_allofplos_zip(update = False, print_logs=False):
         os.makedirs(all_articles_path)
 
     reviewed_counter = 0
-    errors_counter = 0  #TODO
+    errors_counter = 0 
 
     allofplos_zip = zipfile.ZipFile(zipfile_path, 'r')
     for filename in allofplos_zip.namelist():
         try:
             a_short_doi = os.path.splitext(filename)[0]
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
-            if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):
-                # skipping files that were already parsed
+            # skipping files that were already parsed:
+            if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):    # NOTE: reviewed articles are NEVER skipped
                 logger.debug(f'Skipping {filename} as it was already parsed.')
                 continue
-
+            elif metadata_file_exists and update: 
+                logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
+            
             logger.info(f'Processing {filename}')
             fp = allofplos_zip.open(filename)
-            a = Article.from_xml(fp.read())
+            a_xml = fp.read()
             fp.close()
 
-            # parse some metadata from the xml itself
-            a_metadata = get_metadata_from_xml(a.root)
-            # get metadata from Article object:
-            a_metadata['title'] = a.title
-            a_metadata['url'] = a.get_page('article')
-            a_metadata['fulltext_xml_url'] = a.url
-            a_metadata['journal'] = {'title': a.journal, 'volume': a.volume, 'issue': a.issue}
-            a_metadata['publication_date'] = {'year': a.pubdate.year,
-                                            'month': a.pubdate.month, 
-                                            'day': a.pubdate.day}
-            a_metadata['authors'] = get_authors_from_article(a.authors)
-            a_metadata['retracted'] = False # change to check_if_article_retracted
+            a_metadata = parse_article_xml(a_xml, update = True, skip_sm_dl = True)
+            if a_metadata['has_reviews']: reviewed_counter += 1
             
-            # assuming if sub-articles are present, then article was reviewed
-            if len(a.get_subarticles()) > 0:
-                reviewed_counter += 1
-                a_metadata["has_reviews"] = True
-                article_dir = os.path.join(filtered_path, a_short_doi)
-                if os.path.exists(article_dir):
-                    logger.warning(f"files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
-                else:
-                    logger.info(f'{a_short_doi} probably has reviews. Saving it to {FILTERED_DIR}/{article_dir}.')
-
-                os.makedirs(article_dir, exist_ok=True)
-
-                # save the XML
-                a.tree.write(os.path.join(article_dir, filename))
-                # save metadata
-                with open(os.path.join(article_dir, "metadata.json"), 'w+') as fp:
-                    json.dump(a_metadata, fp)
-            
-                # iterate over sub-articles
-                for sub_a in a.get_subarticles():
-                    subtree = et.ElementTree(sub_a)
-                    sub_a_metadata = get_subarticle_metadata_from_xml(sub_a)
-                    if 'specific_use' in sub_a_metadata.keys():
-                        if sub_a_metadata['specific_use'] == 'acceptance-letter':
-                            # skipping those to save space and time
-                            continue
-                    
-                    # save this sub-article
-                    sub_articles_dir = os.path.join(article_dir, "sub-articles")
-                    path = os.path.join(sub_articles_dir, _shorten_doi(sub_a_metadata['doi']) + '.xml')
-                    if not os.path.exists(sub_articles_dir):
-                        os.mkdir(os.path.join(article_dir, "sub-articles"))
-                    
-                    # save the XML:
-                    subtree.write(path)
-                    # save metadata:
-                    with open(os.path.join(sub_articles_dir, _shorten_doi(sub_a_metadata['doi']) + '.json'), 'w+') as fp:
-                        json.dump(sub_a_metadata, fp)
-                    # TODO: download supplementary materials (if any)
-                    if 'supplementary_material_ids' in sub_a_metadata.keys():
-                        for id in sub_a_metadata['supplementary_material_ids']:
-                            pass        
-
-                    logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {article_dir}")
-            else:
-                a_metadata['has_reviews'] = False
-
-            # finally, save metadata to all_articles
-            if metadata_file_exists:
-                logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
-            with open(os.path.join(all_articles_path, a_short_doi +".json"), 'w+') as fp:
-                json.dump(a_metadata, fp)
-            logger.debug(f"metadata for {filename} saved succesfully.")
-        
         except Exception as e:
             errors_counter += 1
             logger.warning(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")

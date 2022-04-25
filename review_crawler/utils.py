@@ -46,6 +46,12 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
         raise Exception(f"403: I was forbidden access to this page: {url} ")
     return soup
 
+def get_extension_from_str(text) -> str:
+    if '.' in text:
+        return '.' + text.split('.')[-1]
+    else: return text
+
+
 # def validate_json(json_data):
 #     try:
 #         jsonschema.validate(json_data, article_schema)
