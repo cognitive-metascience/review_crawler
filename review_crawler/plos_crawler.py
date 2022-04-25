@@ -59,13 +59,18 @@ def shorten_doi(doi) -> str:
         logger.warning(f"{doi} was deemed an invalid doi.")
         return doi
 
-def download_allofplos_zip():
+def download_allofplos_zip(unzip=False):
     """
     Calls `create_local_plos_corpus` to download the entire PLOS database contained in a zip file.
     The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_dir`.
+
+    :param unzip: whether to extract article files to corpus dir, or just keep the zip file instead. Defaults to `False`, because
+    after extraction, the folder will be around 30 GB heavy.
     """
     logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}.")
-    create_local_plos_corpus(zipfile_dir, rm_metadata=True, unzip=True, delete_file=False)
+    if unzip:
+        logger.info(f"After downloading the file, articles will be extracted to default ")
+    create_local_plos_corpus(zipfile_dir, rm_metadata=True, unzip=unzip, delete_file=False)
         
 
 def get_metadata_from_url(url, dump_dir=None):
@@ -131,17 +136,6 @@ def get_metadata_from_xml(root) -> dict:
     for el in front.iter('article-id'): 
         metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
     
-    # get keywords: TODO move this to Article class
-    keywords_set = set()    # using a set because they tend to be duplicated
-    categories = front.find('.//article-categories')
-    if categories is None:
-            return metadata
-
-    for el in categories[1:]:   # skipping the first one because it's a "heading"
-        for subj in el.iterdescendants():
-            if len(subj) == 1:
-                keywords_set.add(subj[0].text.strip())
-    metadata['keywords'] = list(keywords_set)
     return metadata
 
 def get_subarticle_metadata_from_xml(root) -> dict:
@@ -190,23 +184,6 @@ def get_subarticle_metadata_from_xml(root) -> dict:
         metadata['supplementary_materials'] = supplementary
     return metadata
 
-def get_authors_from_article(authors: list) -> list:
-    """
-    Transforms a list of dicts produced from Article.authors into a simpler list of author names.
-    TODO move this to Article class
-    """
-    parsed_authors = []
-    for author in authors:
-        try:
-            if author['given_names'] is None and author['surname'] is None:
-                parsed_authors.append(author['group_name'])
-            else:
-                parsed_authors.append(author['given_names']+ ' ' +author['surname'])
-        except KeyError or TypeError:
-            logger.error(f"Invalid argument passed to function `get_authors_from_article`.\n\
-                Expected a list of dicts containing keys `given_names` and `surname`.")
-    return parsed_authors
-
 
 def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> dict:
     """
@@ -235,7 +212,8 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     metadata['publication_date'] = {'year': a.pubdate.year,
                                     'month': a.pubdate.month, 
                                     'day': a.pubdate.day}
-    metadata['authors'] = get_authors_from_article(a.authors)
+    metadata['authors'] = a.get_author_names()
+    metadata['keywords'] = a.categories
     metadata['retracted'] = False # TODO: change to check_if_article_retracted
     
     # assuming if sub-articles are present, then article was reviewed
@@ -306,7 +284,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     return metadata
 
 
-def process_allofplos_zip(update = False, print_logs=False):
+def process_allofplos_zip(update = False):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
     For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
@@ -317,10 +295,8 @@ def process_allofplos_zip(update = False, print_logs=False):
     
     :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
     """
-    if print_logs:
-        logger.parent.handlers[0].setLevel(logging.INFO)
 
-    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update}, print_logs = {print_logs}')
+    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update} ')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -347,7 +323,7 @@ def process_allofplos_zip(update = False, print_logs=False):
             a_xml = fp.read()
             fp.close()
 
-            a_metadata = parse_article_xml(a_xml, update = True, skip_sm_dl = True)
+            a_metadata = parse_article_xml(a_xml, update = update, skip_sm_dl = True)
             if a_metadata['has_reviews']: reviewed_counter += 1
             
         except Exception as e:
@@ -358,5 +334,8 @@ def process_allofplos_zip(update = False, print_logs=False):
     logger.info(f"found {reviewed_counter} reviewed articles.")
 
 if __name__ == '__main__':
-    # download_allofplos_zip()
-    process_allofplos_zip(update = False, print_logs = True)
+    # set logging:
+    logger.parent.handlers[0].setLevel(logging.DEBUG)
+    
+    download_allofplos_zip(unzip = False)
+    process_allofplos_zip(update = False)
