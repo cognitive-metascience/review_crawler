@@ -9,6 +9,9 @@ import re
 import concurrent.futures
 import time
 
+import requests
+from review_crawler.utils import cook_from_html
+
 from utils import cook, get_logger ,clean_log_folder
 
 
@@ -67,6 +70,60 @@ def learn_journals(soup):
     assert journals is not None  # will pass unless perhaps the mdpi changed their website layout
     return journals
 
+def get_metadata_from_html(html: str) -> dict:
+    soup = cook_from_html(html)
+    
+    metadata = {}
+    metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
+
+    metadata['url'] = soup.find('meta', {'property': 'og:url'}).get('content').strip()
+
+    metadata['authors'] = [x.get('content') for x in soup.findAll('meta', {"name": "citation_author"})]
+
+    journal_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
+                    'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
+    issue = soup.find('meta', {'name': "citation_issue"})
+    if issue is not None:
+        journal_dict['issue'] = int(issue.get('content'))
+    metadata['journal'] = journal_dict
+
+    pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
+    metadata['publication_date'] = {'year': int(pubdate_string.split('/')[0]), 'month': int(pubdate_string.split('/')[1])}
+
+    metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
+
+    keywords = soup.find('span', {'itemprop': 'keywords'})
+    if keywords is not None:
+        metadata['keywords'] = keywords.getText().strip().split('; ')
+    else:
+        metadata['keywords'] = []
+
+    pdf_tag = soup.find('meta', {'name': 'fulltext_pdf'})
+    if pdf_tag is not None:
+        metadata['fulltext_pdf_url'] = pdf_tag.get('content')
+    xml_tag = soup.find('meta', {'name': 'fulltext_xml'})
+    if xml_tag is not None:
+        metadata['fulltext_xml_url'] = xml_tag.get('content')
+    html_tag = soup.find('meta', {'name': 'fulltext_html'})
+    if html_tag is not None:
+        metadata['fulltext_html_url'] = html_tag.get('content')
+
+    bib_identity = soup.find('div', {'class': 'bib-identity'})
+    metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
+    metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
+
+    if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
+        # article has no open access reviews
+        metadata['has_reviews'] = False
+    else:
+        metadata['has_reviews'] = True
+        metadata['reviews_url'] = metadata['url'] + "/review_report"
+
+    return metadata
+
+    # todo: parse more metadata, parse reviews
+
+
 
 def parse_article(url, dump_dir=None):
     """
@@ -81,59 +138,11 @@ def parse_article(url, dump_dir=None):
     if not url.startswith("https://www.mdpi.com/"):
         raise Exception("Invalid url for parse_article.")
 
-    metadata = {}
     logger.info(f"Parsing: {url}.")
 
     try:
-        soup = cook(url)
-        metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
-        logger.info(f"Title: {metadata['title']}")
-
-        metadata['url'] = soup.find('meta', {'property': 'og:url'}).get('content').strip()
-
-        metadata['authors'] = [x.get('content') for x in soup.findAll('meta', {"name": "citation_author"})]
-
-        journal_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
-                        'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
-        issue = soup.find('meta', {'name': "citation_issue"})
-        if issue is not None:
-            journal_dict['issue'] = int(issue.get('content'))
-        metadata['journal'] = journal_dict
-
-        pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
-        metadata['publication_date'] = {'year': int(pubdate_string.split('/')[0]), 'month': int(pubdate_string.split('/')[1])}
-
-        metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
-
-        keywords = soup.find('span', {'itemprop': 'keywords'})
-        if keywords is not None:
-            metadata['keywords'] = keywords.getText().strip().split('; ')
-        else:
-            metadata['keywords'] = []
-
-        pdf_tag = soup.find('meta', {'name': 'fulltext_pdf'})
-        if pdf_tag is not None:
-            metadata['fulltext_pdf_url'] = pdf_tag.get('content')
-        xml_tag = soup.find('meta', {'name': 'fulltext_xml'})
-        if xml_tag is not None:
-            metadata['fulltext_xml_url'] = xml_tag.get('content')
-        html_tag = soup.find('meta', {'name': 'fulltext_html'})
-        if html_tag is not None:
-            metadata['fulltext_html_url'] = html_tag.get('content')
-
-        bib_identity = soup.find('div', {'class': 'bib-identity'})
-        metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
-        metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
-
-        if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
-            # article has no open access reviews
-            metadata['has_reviews'] = False
-        else:
-            metadata['has_reviews'] = True
-            metadata['reviews_url'] = url + "/review_report"
-
-    # todo: more metadata, parse reviews
-
+        metadata = get_metadata_from_html(requests.get(url).content)
+        
     except Exception as e:
         logger.warning(f"There was a problem parsing article from {_shorten(url)}: {e}\narticle metadata: {metadata}")
         raise e
