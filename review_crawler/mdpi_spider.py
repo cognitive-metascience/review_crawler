@@ -1,3 +1,5 @@
+import json
+import os
 import re
 from bs4 import BeautifulSoup
 import scrapy
@@ -23,15 +25,21 @@ class MdpiSpider(scrapy.Spider):
     name = 'mdpi'
     allowed_domains = ['www.mdpi.com']
 
-    def __init__(self, start_page=None, name=None, **kwargs):
+    def __init__(self, start_page=None, dump_dir=None, journal=None, name=None, **kwargs):
         super().__init__(name, **kwargs)
+        self.logger.info(f"Setting up a MDPIcrawler. start_page={start_page}, dump_dir={dump_dir}")
+        if dump_dir is None:
+            self.logger.warning("dump_dir is None. Output is not saved to files.")
+
         if start_page is not None:
             self.start_urls = [BASE_SEARCH_URL + str(start_page)]
+            self.start_page = start_page
         else:
             self.start_urls = [BASE_SEARCH_URL + "1"]
-    
+            self.start_page = 1
+
     def parse(self, response):
-        for i in range(self.learn_search_pages(response.text)):
+        for i in range(self.start_page, self.learn_search_pages(response.text)):
             page = BASE_SEARCH_URL + str(i+1)
             yield response.follow(page, callback=self.parse_searchpage)
 
@@ -41,7 +49,44 @@ class MdpiSpider(scrapy.Spider):
         
     def parse_article(self, response):
         metadata = self.get_metadata_from_html(response.text)
+        
+        if metadata['has_reviews']:
+            a_short_doi = response.url.split['/'][-1]
+            self.logger.info(f'Article {a_short_doi} probably has reviews!')
+            yield response.follow(metadata['reviews_url'], self.parse_reviews)
+
+            if self.dump_dir is not None:
+               self.dump_metadata(metadata, a_short_doi)
+
         yield metadata
+
+    def parse_reviews(self, response):
+        # TODO
+        metadata = {}
+
+        if self.dump_dir is not None:
+            a_short_doi = response.url.split['/'][-1]
+            self.dump_metadata(metadata, a_short_doi, 'reviews')
+
+        yield metadata
+
+    def dump_metadata(self, metadata, dirname=None, filename='metadata'):
+        if dirname is None:
+            dirpath = self.dump_dir
+        else:
+            dirpath = os.path.join(self.dump_dir, dirname)
+        os.makedirs(dirpath, exist_ok=True)
+        self.logger.debug(f"Saving metadata to file in {dirpath}.")
+        try:
+            filepath = f"{os.path.join(dirpath, filename)}.json"
+            if os.path.exists(filepath):
+                self.logger.warning(f"metadata already exists in {dirpath}. Will overwrite.")
+            with open(filepath, 'w+', encoding="utf-8") as fp:
+                json.dump(metadata, fp, ensure_ascii=False)
+        except Exception as e:
+            self.logger.exception(f"Problem while saving to file: {filepath}.\n{e}")
+        else:
+            self.logger.debug(f"Saved metadata to file.")
 
     def learn_search_pages(self, html):
         soup = BeautifulSoup(html, 'lxml')
