@@ -30,9 +30,19 @@
             "type": "string"
         },
         "supplementary_materials":{
-            "$id": "#/properties/supplementary_material_ids",
+            "$id": "#properties/supplementary_materials",
             "type": "array",
-            "title": "Array containing supplementary materials (text documents containing reviews or other resources)"
+            "title": "Array containing supplementary materials (text documents containing reviews or other resources)",
+            "items":{
+                "required": ["original_filename"],
+                "properties": {
+                    "original_filename":{
+                        "$id": "#properties/supplementary_materials/items/properties/original_filename",
+                        "title": "File that contains this supplementary material.",
+                        "examples": ["Response to Reviewers.docx"]
+                    }
+                }
+            }
         }
     }
 }
