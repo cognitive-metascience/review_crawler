@@ -1,0 +1,107 @@
+import re
+from bs4 import BeautifulSoup
+import scrapy
+
+
+# regex patterns
+DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+UNREGISTERED_DOI_PATTERN = re.compile(DOI_PATTERN.pattern + r'\s+\(registering\s+DOI\)')  # the sum of two regexes is a regex
+SEARCH_PAGES_PATTERN = re.compile(r"Displaying article \d+-\d+ on page \d+ of \d+.")
+RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
+
+
+# globals:
+BASE_URL = "https://www.mdpi.com"
+BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&page_no="
+
+# regex patterns
+currpg_reg = re.compile(r"page_no=([0-9]+)&?")
+
+
+
+class MdpiSpider(scrapy.Spider):
+    name = 'mdpi'
+    allowed_domains = ['www.mdpi.com']
+
+    def __init__(self, start_page=None, name=None, **kwargs):
+        super().__init__(name, **kwargs)
+        if start_page is not None:
+            self.start_urls = [BASE_SEARCH_URL + str(start_page)]
+        else:
+            self.start_urls = [BASE_SEARCH_URL + "1"]
+    
+    def parse(self, response):
+        for i in range(self.learn_search_pages(response.text)):
+            page = BASE_SEARCH_URL + str(i+1)
+            yield response.follow(page, callback=self.parse_searchpage)
+
+    def parse_searchpage(self, response):
+        articles = response.css('div.article-content a.title-link')
+        yield from response.follow_all(articles, self.parse_article)
+        
+    def parse_article(self, response):
+        metadata = self.get_metadata_from_html(response.text)
+        yield metadata
+
+    def learn_search_pages(self, html):
+        soup = BeautifulSoup(html, 'lxml')
+        hit = soup.find(text=SEARCH_PAGES_PATTERN)
+        if hit is not None:
+            return int(re.findall(r"\d+", hit)[-1])
+        else:
+            return None
+
+    def get_metadata_from_html(self, html: str) -> dict:
+        soup = BeautifulSoup(html, 'lxml')
+        
+        metadata = {}
+        metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
+
+        metadata['url'] = soup.find('meta', {'property': 'og:url'}).get('content').strip()
+
+        metadata['authors'] = [x.get('content') for x in soup.findAll('meta', {"name": "citation_author"})]
+
+        journal_dict = {'abbrev': soup.find('a', {'class': "Var_JournalInfo"}).get('href').split('/')[2],
+                        'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
+        issue = soup.find('meta', {'name': "citation_issue"})
+        if issue is not None:
+            journal_dict['issue'] = int(issue.get('content'))
+        metadata['journal'] = journal_dict
+
+        pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
+        metadata['publication_date'] = {'year': int(pubdate_string.split('/')[0]), 'month': int(pubdate_string.split('/')[1])}
+
+        metadata['retracted'] = RETRACTION_PATTERN.search(soup.getText()) is not None
+
+        keywords = soup.find('span', {'itemprop': 'keywords'})
+        if keywords is not None:
+            metadata['keywords'] = keywords.getText().strip().split('; ')
+        else:
+            metadata['keywords'] = []
+
+        pdf_tag = soup.find('meta', {'name': 'fulltext_pdf'})
+        if pdf_tag is not None:
+            metadata['fulltext_pdf_url'] = pdf_tag.get('content')
+        xml_tag = soup.find('meta', {'name': 'fulltext_xml'})
+        if xml_tag is not None:
+            metadata['fulltext_xml_url'] = xml_tag.get('content')
+        html_tag = soup.find('meta', {'name': 'fulltext_html'})
+        if html_tag is not None:
+            metadata['fulltext_html_url'] = html_tag.get('content')
+
+        bib_identity = soup.find('div', {'class': 'bib-identity'})
+        metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
+        metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
+
+        if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
+            # article has no open access reviews
+            metadata['has_reviews'] = False
+        else:
+            metadata['has_reviews'] = True
+            metadata['reviews_url'] = metadata['url'] + "/review_report"
+
+        return metadata
+
+        # todo: parse more metadata, parse reviews
+
+            
