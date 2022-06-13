@@ -153,6 +153,13 @@
             "items": {
                 "$ref": "./review_schema.json"
             }
+        },
+        "sub_articles": {
+            "$id": "#/properties/sub_articles",
+            "type":"array",
+            "title": "An array of sub_articles of the article",
+            "default":[],
+            "items": {"$ref": "./sub_article_schema.json"}
         }
     }
 }

@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "required": [
+        "original_article_doi",
+        "type"
+    ],
+    "title": "The schema of a sub-article (reviews, decision letters, auhor responses etc.).",
+    "type": "object",
+    "properties": {
+        "doi": {
+            "$id": "#/properties/doi",
+            "type": "string",
+            "title": "The DOI of the sub_article (optional)."
+        },
+        "original_article_doi": {
+            "$id": "#/properties/original_article_doi",
+            "type": "string",
+            "title": "The DOI of the original article."
+        },
+        "type":{
+            "$id": "#/properties/type",
+            "type": "string",
+            "examples":[
+                "editor-report", "author-comment", 
+                "aggregated-review-documents"]
+        },
+        "url": {
+            "$id": "#/properties/url",
+            "title": "Direct URL of the sub-article.",
+            "type": "string"
+        },
+        "supplementary_materials":{
+            "$id": "#/properties/supplementary_material_ids",
+            "type": "array",
+            "title": "Array containing supplementary materials (text documents containing reviews or other resources)"
+        }
+    }
+}
