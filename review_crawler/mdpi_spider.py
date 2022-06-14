@@ -1,8 +1,8 @@
+from io import TextIOWrapper
 import json
 import os
 import re
 from bs4 import BeautifulSoup
-import requests
 import scrapy
 
 
@@ -14,35 +14,43 @@ RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 NUMBERS_PATTERN = re.compile(r"\d+")
 ROUND_NUMBER_PATTERN = re.compile(r"Round \d+")
 REVIEWER_REPPORT_PATTERN = re.compile(r"Reviewer \d+ Report")
-
+CURRPG_REG = re.compile(r"page_no=([0-9]+)&?")
+REPEATING_REVIEWS= "This manuscript is a resubmission of an earlier submission. The following is a list of the peer review reports and author responses from that submission."
 
 # globals:
 BASE_URL = "https://www.mdpi.com"
 BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&page_no="
 
-# regex patterns
-currpg_reg = re.compile(r"page_no=([0-9]+)&?")
 
 
 class MdpiSpider(scrapy.Spider):
     name = 'mdpi'
     allowed_domains = ['www.mdpi.com']
+    shorten_doi = lambda doi: doi.split('/')[-1]
 
-    def __init__(self, start_page=None, dump_dir=None, journal=None, name=None, **kwargs):
+    def __init__(self, dump_dir=None, start_page=None, stop_page=None, journal=None, name=None, **kwargs):
         super().__init__(name, **kwargs)
-        self.logger.info(f"Setting up a MDPIcrawler. start_page={start_page}, dump_dir={dump_dir}")
+        self.logger.info(f"Setting up a MdpiSpider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}")
         if dump_dir is None:
             self.logger.warning("dump_dir is None. Reviews will not be saved!")
         self.dump_dir = dump_dir
+        if journal is not None:
+            pass    # todo     
         if start_page is not None:
             self.start_urls = [BASE_SEARCH_URL + str(start_page)]
             self.start_page = start_page
         else:
             self.start_urls = [BASE_SEARCH_URL + "1"]
             self.start_page = 1
+        self.stop_page = stop_page       
 
     def parse(self, response):
-        for i in range(self.start_page, self.learn_search_pages(response.text)):
+        if self.stop_page is None:
+            stop_page = self.learn_search_pages(response.text)
+        else:
+            stop_page = self.stop_page
+
+        for i in range(self.start_page, stop_page):
             page = BASE_SEARCH_URL + str(i+1)
             yield response.follow(page, callback=self.parse_searchpage)
 
@@ -54,7 +62,7 @@ class MdpiSpider(scrapy.Spider):
         metadata = self.get_metadata_from_html(response.text)
         
         if metadata['has_reviews']:
-            a_short_doi = metadata['doi'].split('/')[-1]
+            a_short_doi = self.shorten_doi(metadata['doi'])
             self.logger.info(f'Article {a_short_doi} probably has reviews!')
             yield response.follow(metadata['reviews_url'], self.parse_reviews)
             metadata['sub_articles'] = []
@@ -66,30 +74,54 @@ class MdpiSpider(scrapy.Spider):
 
     def parse_reviews(self, response):
         
+        if self.dump_dir is not None:
+            sub_a_dir = os.path.join(self.dump_dir, a_short_doi, 'sub-articles')
+            filen=os.path.join(sub_a_dir, a_short_doi)  # file extension to be concatenated later
+        a_short_doi = self.shorten_doi(response.css('div.bib-identity a::text').get())
         reviewers = []
         for div in response.css('div[style="display: block;font-size:14px; line-height:30px;"]'):
             texts = [x.get().strip() for x in div.css('::text')]
-            r = {
+            reviewers.append({
                 'number': re.search(NUMBERS_PATTERN, texts[0]).group(),
-                'name': texts[1].strip()}
-            reviewers.append(r)
+                'name': texts[1].strip()})
+
+        all_metadata = []
+        
+        ard = {}
+        fp: TextIOWrapper
+        flag = True
+        dump  = False
         for p in response.css('div.abstract_div p,ul'):
-            if ROUND_NUMBER_PATTERN.match(p.css('span::text').get()):
-                round_no = NUMBERS_PATTERN.search(p.css('span::text').get())
-            # continue?
-        metadata = {
-            'url': response.url,
-            'original_article_doi': response.css('div.bib-identity a::text').get(),
-            'type': "aggregated-review-documents",
-            'reviewers': reviewers,
-            'round': 1
-            }
-
-        if self.dump_dir is not None:
-            a_short_doi = metadata['original_article_doi'].split('/')[-1]
-            self.dump_metadata(metadata, a_short_doi, 'review')
-
-        yield metadata
+            if not flag: break
+            soup = BeautifulSoup(p.get())
+            text = soup.get_text().strip()
+            if REPEATING_REVIEWS in text:
+                self.logger.warning(
+                    f'Reviews may be duplicated for {a_short_doi}, REPEATING_REVIEWS pattern found in html. Default behavior is to save the whole thing as-is.')
+                # uncomment the line below to try to stop the loop earlier and avoid repeats
+                # break
+            for span in p.css('span[style="font-size: 18px; margin-top:10px;"]'):
+                if ROUND_NUMBER_PATTERN.match(span.css('::text').get()):
+                    round_no = NUMBERS_PATTERN.search(span.css('::text').get()).group()
+                    ard = {
+                            'url': response.url,
+                            'original_article_doi': response.css('div.bib-identity a::text').get(),
+                            'type': "aggregated-review-documents",
+                            'reviewers': reviewers,
+                            'round': round_no
+                        }
+                    if self.dump_dir is not None:
+                        filename = filen+'r'+round_no+'.txt'
+                        ard['supplementary_materials'] = [{'original_filename':filename}]
+                        self.dump_metadata(ard, sub_a_dir, filen+'.json')
+                        if dump:
+                            fp.close()
+                        fp = open(filename, 'x')
+                        dump = True
+                    yield ard
+            if dump:
+                fp.write(text)
+                    
 
     def dump_metadata(self, metadata, dirname=None, filename='metadata'):
         """Takes a dictionary containing article metadata and saves it to a JSON file in `self.dump_dir`.
@@ -120,7 +152,9 @@ class MdpiSpider(scrapy.Spider):
         soup = BeautifulSoup(html, 'lxml')
         hit = soup.find(text=SEARCH_PAGES_PATTERN)
         if hit is not None:
-            return int(re.findall(r"\d+", hit)[-1])
+            res = int(re.findall(r"\d+", hit)[-1])
+            self.log(f'It seems there are {res} search pages for this query.')
+            return res
         else:
             return None
 
