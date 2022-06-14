@@ -2,6 +2,7 @@ import json
 import os
 import re
 from bs4 import BeautifulSoup
+import requests
 import scrapy
 
 
@@ -10,6 +11,9 @@ DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  #
 UNREGISTERED_DOI_PATTERN = re.compile(DOI_PATTERN.pattern + r'\s+\(registering\s+DOI\)')  # the sum of two regexes is a regex
 SEARCH_PAGES_PATTERN = re.compile(r"Displaying article \d+-\d+ on page \d+ of \d+.")
 RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
+NUMBERS_PATTERN = re.compile(r"\d+")
+ROUND_NUMBER_PATTERN = re.compile(r"Round \d+")
+REVIEWER_REPPORT_PATTERN = re.compile(r"Reviewer \d+ Report")
 
 
 # globals:
@@ -20,7 +24,6 @@ BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-articl
 currpg_reg = re.compile(r"page_no=([0-9]+)&?")
 
 
-
 class MdpiSpider(scrapy.Spider):
     name = 'mdpi'
     allowed_domains = ['www.mdpi.com']
@@ -29,8 +32,8 @@ class MdpiSpider(scrapy.Spider):
         super().__init__(name, **kwargs)
         self.logger.info(f"Setting up a MDPIcrawler. start_page={start_page}, dump_dir={dump_dir}")
         if dump_dir is None:
-            self.logger.warning("dump_dir is None. Output is not saved to files.")
-
+            self.logger.warning("dump_dir is None. Reviews will not be saved!")
+        self.dump_dir = dump_dir
         if start_page is not None:
             self.start_urls = [BASE_SEARCH_URL + str(start_page)]
             self.start_page = start_page
@@ -51,30 +54,55 @@ class MdpiSpider(scrapy.Spider):
         metadata = self.get_metadata_from_html(response.text)
         
         if metadata['has_reviews']:
-            a_short_doi = response.url.split['/'][-1]
+            a_short_doi = metadata['doi'].split('/')[-1]
             self.logger.info(f'Article {a_short_doi} probably has reviews!')
             yield response.follow(metadata['reviews_url'], self.parse_reviews)
+            metadata['sub_articles'] = []
 
             if self.dump_dir is not None:
                self.dump_metadata(metadata, a_short_doi)
 
-        yield metadata
+        # yield metadata    # todo: uncomment this later
 
     def parse_reviews(self, response):
-        # TODO
-        metadata = {}
+        
+        reviewers = []
+        for div in response.css('div[style="display: block;font-size:14px; line-height:30px;"]'):
+            texts = [x.get().strip() for x in div.css('::text')]
+            r = {
+                'number': re.search(NUMBERS_PATTERN, texts[0]).group(),
+                'name': texts[1].strip()}
+            reviewers.append(r)
+        for p in response.css('div.abstract_div p,ul'):
+            if ROUND_NUMBER_PATTERN.match(p.css('span::text').get()):
+                round_no = NUMBERS_PATTERN.search(p.css('span::text').get())
+            # continue?
+        metadata = {
+            'url': response.url,
+            'original_article_doi': response.css('div.bib-identity a::text').get(),
+            'type': "aggregated-review-documents",
+            'reviewers': reviewers,
+            'round': 1
+            }
 
         if self.dump_dir is not None:
-            a_short_doi = response.url.split['/'][-1]
-            self.dump_metadata(metadata, a_short_doi, 'reviews')
+            a_short_doi = metadata['original_article_doi'].split('/')[-1]
+            self.dump_metadata(metadata, a_short_doi, 'review')
 
         yield metadata
 
     def dump_metadata(self, metadata, dirname=None, filename='metadata'):
+        """Takes a dictionary containing article metadata and saves it to a JSON file in `self.dump_dir`.
+
+        Args:
+            metadata (dict): dictionary to be saved to file.
+            dirname (str, optional): If specified, a directory inside `self.dump_dir` will be created (if it doesn't exist) and the metadata is saved there. Defaults to None.
+            filename (str, optional): Base file name (without an extension). Defaults to 'metadata'.
+        """
         if dirname is None:
             dirpath = self.dump_dir
         else:
-            dirpath = os.path.join(self.dump_dir, dirname)
+            dirpath = os.path.join(os.path.abspath(self.dump_dir), dirname)
         os.makedirs(dirpath, exist_ok=True)
         self.logger.debug(f"Saving metadata to file in {dirpath}.")
         try:
@@ -146,7 +174,3 @@ class MdpiSpider(scrapy.Spider):
             metadata['reviews_url'] = metadata['url'] + "/review_report"
 
         return metadata
-
-        # todo: parse more metadata, parse reviews
-
-            
