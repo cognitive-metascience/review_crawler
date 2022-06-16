@@ -96,6 +96,7 @@
         "publication_date": {
             "$id": "#/properties/publication_date",
             "title": "Date of the publication of the article.",
+            "$comment": "There are probably better ways of storing date",
             "examples": [
                 {
                     "year": 2020,
@@ -145,6 +146,19 @@
             ],
             "type": "boolean"
         },
+        "has_reviews":{
+            "$id": "#/properties/has_reviews",
+            "type": "boolean",
+            "title": "Does this article have open access reviews? Defaults to false.",
+            "default": false
+        },
+        "reviews_url":{
+            "$id": "#/properties/reviews_url",
+            "type": "string",
+            "title": "URL pointing to a webpage from which reviews are accessible.",
+            "description": "Really should be provided if has_reviews is true",
+            "examples": ["https://journals.plos.org/plosone/article/peerReview?id=10.1371/journal.pone.0262049"]
+        },
         "reviews": {
             "$id": "#/properties/reviews",
             "type": "array",
@@ -159,7 +173,10 @@
             "type":"array",
             "title": "An array of sub_articles of the article",
             "default":[],
-            "items": {"$ref": "./sub_article_schema.json"}
+            "description": "Sub-articles are reviews, publisher notes, author comments and responses to reviews etc.",
+            "items": {
+                "$ref": "./sub_article_schema.json"
+            }
         }
     }
 }
