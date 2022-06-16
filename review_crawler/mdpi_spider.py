@@ -64,7 +64,7 @@ class MdpiSpider(scrapy.Spider):
             if self.dump_dir is not None:
                self.dump_metadata(metadata, a_short_doi)
 
-            yield metadata   
+        yield metadata   
 
 
     def dump_metadata(self, metadata, dirname=None, filename='metadata'):
@@ -117,7 +117,7 @@ class MdpiSpider(scrapy.Spider):
                         'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
         issue = soup.find('meta', {'name': "citation_issue"})
         if issue is not None:
-            journal_dict['issue'] = int(issue.get('content'))
+            journal_dict['issue'] = issue.get('content')
         metadata['journal'] = journal_dict
 
         pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')
@@ -145,11 +145,14 @@ class MdpiSpider(scrapy.Spider):
         metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
         metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
 
-        if soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')}) is None:
+        find = soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')})
+        if find is None:
             # article has no open access reviews
             metadata['has_reviews'] = False
         else:
             metadata['has_reviews'] = True
-            metadata['reviews_url'] = metadata['url'] + "/review_report"
+            # warning: this found url may point to the same url as the article
+            # (it could end with #review_report) in which case reviews should be parsed differently
+            metadata['reviews_url'] = metadata['url'] + find['href']
 
         return metadata
