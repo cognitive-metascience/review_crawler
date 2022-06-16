@@ -34,12 +34,12 @@
             "type": "array",
             "title": "Array containing supplementary materials (text documents containing reviews or other resources)",
             "items":{
-                "required": ["original_filename"],
+                "required": ["filename"],
                 "properties": {
-                    "original_filename":{
-                        "$id": "#properties/supplementary_materials/items/properties/original_filename",
+                    "filename":{
+                        "$id": "#properties/supplementary_materials/items/properties/filename",
                         "title": "File that contains this supplementary material.",
-                        "examples": ["Response to Reviewers.docx"]
+                        "examples": ["Response to Reviewers.docx", "journal.pone.0222067.s003.txt"]
                     }
                 }
             }
