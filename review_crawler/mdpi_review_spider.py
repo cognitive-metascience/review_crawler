@@ -6,6 +6,7 @@ import scrapy
 import os
 
 # patterns
+HARD_SPACE_REGEX = re.compile(r'\xa0')  # cleans up no-break spaces
 REPEATING_REVIEWS= "This manuscript is a resubmission of an earlier submission. The following is a list of the peer review reports and author responses from that submission."
 NUMBERS_PATTERN = re.compile(r"\d+")
 ROUND_NUMBER_PATTERN = re.compile(r"Round \d+")
@@ -14,48 +15,62 @@ DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  #
 
 class MdpiReviewSpider(scrapy.Spider):
     name="mdpi_review"
-    allowed_domains = ['www.mdpi.com']
-    shorten_doi = lambda self, doi: doi.split('/')[-1]
+    allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
+    shorten_doi = lambda s, doi: doi.split('/')[-1]
 
-    def __init__(self, url=None, dump_dir=None, name=None, **kwargs):
+    def __init__(self, url=None, dump_dir=None, update=False, name=None, **kwargs):
         super().__init__(name, **kwargs)
         self.handle_httpstatus_list = [404]
-        self.logger.info(f"Setting up a MdpiReviewSpider. url={url}, dump_dir={dump_dir}")
         self.dump_dir = dump_dir
-        if dump_dir is None:
-            self.start_urls=[url]
-            if url is None:
+        self.files_dumped_counter = 0
+        self.update = update.lower() in ("yes", "true", "t", "1")
+        if url is None:
+            if dump_dir is None:
                 e = "Cannot scrape a review without providing one of: dump_dir or url."
                 self.logger.error(e)
+            else:
+                self.start_urls = self.find_urls()
         else:
-            # find urls containing reviews from article metadata in dump_dir
-            self.start_urls = []
-            for dir in os.listdir(self.dump_dir):
-                # dump_dir should contain directories named after dois
-                # with files named metadata.json
-                if os.path.isfile(dir): 
-                    continue
-                if not os.path.exists(os.path.join(self.dump_dir, dir, 'metadata.json')):
-                     continue
-                if os.path.exists(os.path.join(self.dump_dir, dir, 'sub-articles')):
-                    pass
-                    # continue    # comment this line to overwrite existing files
-                
-                with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r') as fp:
-                    meta = json.load(fp)
-                    if meta['has_reviews']:
-                        self.start_urls.append(meta['reviews_url']) 
+            self.start_urls = [url]
+        self.logger.info("Setting up a MdpiReviewSpider: "+
+         f"len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
+
+            
+    def find_urls(self):
+        """finds urls containing reviews from article metadata in dump_dir"""
+        urls = []
+        for dir in os.listdir(self.dump_dir):
+            # dump_dir should contain directories named after dois
+            # with files named metadata.json
+            if os.path.isfile(dir): 
+                continue
+            if not os.path.exists(os.path.join(self.dump_dir, dir, 'metadata.json')):
+                self.logger.warning(f"Unexpectedly, didn't find file with metadata in dump_dir/{dir}")
+                continue
+            
+            with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r') as fp:
+                meta = json.load(fp)
+                if meta['has_reviews']:
+                    urls.append(meta['reviews_url']) 
+        self.logger.info(f'Found {len(urls)} urls in dump_dir with reviews to scrape.')
+        return urls
 
     def parse(self, response):
         if response.status == 404:
             # ugly fix:
-            # response.url should end with '#review_report', not '/review_report'
+            # response.url should end with '#review_report', not '/review_report' <- this is an issue with mdpispider
             newurl = response.url[::-1].replace('/','#',1)[::-1]
+            self.log('Parsing reviews embedded in article page.')
             yield response.follow(newurl, callback = self.parse_embedded_reviews)
-        else:
-            return self.parse_reviews(response)
+        elif response.url.endswith('#review_report') or not response.url.endswith('review_report'):
+            self.log('Parsing reviews embedded in article page.')
+            yield from self.parse_embedded_reviews(response)
+        elif response.url.endswith('review_report'):
+            self.log('Parsing reviews from subpage: /review_report')
+            yield from self.parse_reviews(response)
 
-    
+    # Remember: D6
+
     def parse_reviews(self, response):
         div = response.css('div.bib-identity')
         original_a_doi = DOI_PATTERN.search(div.get()).group()
@@ -71,20 +86,18 @@ class MdpiReviewSpider(scrapy.Spider):
             reviewers.append({
                 'number': re.search(NUMBERS_PATTERN, texts[0]).group(),
                 'name': texts[1].strip()})
-
         ard = {}
-        flag = True
         dump  = False
-        for p in response.css('div.abstract_div p,ul'):
-            if not flag: break
+        for p in response.css('div.abstract_div p, ul'):
             soup = BeautifulSoup(p.get(), 'lxml')
             text = soup.get_text().strip()
             if REPEATING_REVIEWS in text:
                 break
-            # TODO: find links to files with additional documents
             for span in p.css('span[style="font-size: 18px; margin-top:10px;"]'):
-                if ROUND_NUMBER_PATTERN.match(span.css('::text').get()):
-                    round_no = NUMBERS_PATTERN.search(span.css('::text').get()).group()
+                span_text = HARD_SPACE_REGEX.sub('', span.css('::text').get())  #
+                i = 1
+                if ROUND_NUMBER_PATTERN.match(span_text):
+                    round_no = NUMBERS_PATTERN.search(span_text).group()
                     ard = {
                             'url': response.url,
                             'original_article_doi': original_a_doi,
@@ -94,21 +107,57 @@ class MdpiReviewSpider(scrapy.Spider):
                             'round': round_no,
                             'supplementary_materials': []
                         }
+                    for a in response.css('div#abstract.abstract_div div p a'):
+                        file_url = a.css('::attr(href)').get()
+                        orig_filename = a.css('::text').get().strip()
+                        filex = os.path.splitext(orig_filename)[1]
+                        # arbitrary generaion of id's
+                        sm_id = a_short_doi+'.s'+str(i)
+                        i+=1
+                        try:
+                            sm_type = file_url.split('=')[1][:file_url.split('=')[1].rfind('&')]
+                        except:
+                            sm_type = 'NA'
+                        ard['supplementary_materials'].append({
+                            'id': sm_id, 'filename': sm_id+filex, 'type' :sm_type,
+                            'original_filename': orig_filename, 'url': file_url,
+                            'title': os.path.splitext(orig_filename)[0] 
+                        })
 
                     if self.dump_dir is not None:
+                        # download supplementary materials:
+                        for sm in ard['supplementary_materials']:
+                            sm_path = os.path.join(self.dump_dir, sub_a_dir, sm['filename'])
+                            if os.path.exists(sm_path) and not self.update:
+                                self.logger.info(f"{sm['filename']} already exists. Will NOT overwrite.")
+                            else:
+                                with open(sm_path, 'wb') as f:
+                                    self.logger.debug(f"Downloading supplementary material from {sm['url']}")
+                                    r = requests.get(sm['url'], stream=True)
+                                    f.write(r.content)
+                                    self.files_dumped_counter += 1
+                        # save plaintext to files
                         filen = a_short_doi+'.r'+round_no
                         filename = filen +'.txt'
                         ard['supplementary_materials'].append(
-                            {'filename':filename,'title':"This sub_article in plaintext."})
+                            {'filename':filename,  'id':filen, 
+                            'title':"This sub_article in plaintext."})
                         self.dump_metadata(ard, sub_a_dir, filen)
                         if dump:
                             fp.close()
+                        # open a file for writing plaintext article content
                         fp = open(os.path.join(self.dump_dir, sub_a_dir, filename), 'w+')
+                        self.files_dumped_counter += 1
                         dump = True
+                        
                     yield ard
             if dump:
                 fp.write(text+'\n')
+        
+        if self.dump_dir is not None:
+            self.logger.info(f"Dumped {self.files_dumped_counter} files so far.")
                     
+
 
     def parse_embedded_reviews(self, response):
         """Parses reviews embedd in the original article url. The provided url might end in `#review_report`.
@@ -134,22 +183,27 @@ class MdpiReviewSpider(scrapy.Spider):
                 url = 'https://www.mdpi.com'+ a.css('::attr(href)').extract()[0]
                 filex = p.extract()[1].split(',')[0].strip()[1:].lower()
                 orig_filename = b.get()[:-1] +'.'+ filex
-                id = f"{a_short_doi}.{url[url.rfind('/')+1:url.find('?')]}"
-                filename = f"{id}.{filex}"
-                with open(os.path.join(self.dump_dir, sub_a_dir, filename), 'wb') as fp:
-                    self.logger.debug(f'Downloading supplementary material from {url}')
-                    r = requests.get(url, stream=True)
-                    fp.write(r.content)
+                sm_id = f"{a_short_doi}.{url[url.rfind('/')+1:url.find('?')]}"
+                filename = f"{sm_id}.{filex}"
                 
                 ard['supplementary_materials'].append({
-                        'filename':filename, 'id': id, 
+                        'filename': filename, 'id': sm_id, 
                         'original_filename': orig_filename, 
-                        'title':b.get()[:-1]})
+                        'title': b.get()[:-1], 'url': url})
+                if self.dump_dir is not None:
+                    sm_path = os.path.join(self.dump_dir, sub_a_dir, filename)
+                    if os.path.exists(sm_path) and not self.update:
+                        self.logger.info(f"{filename} already exists. Will NOT overwrite.")
+                    else:
+                        with open(sm_path, 'wb') as fp:
+                            self.logger.debug(f'Downloading supplementary material from {url}')
+                            r = requests.get(url, stream=True)
+                            fp.write(r.content)
+                            self.files_dumped_counter += 1
+        if self.dump_dir is not None:
+            self.dump_metadata(ard, sub_a_dir, a_short_doi+'.r')    # todo: change the naming convention?
         yield ard
                 
-
-
-
     def dump_metadata(self, metadata, dirname=None, filename='metadata'):
         """Takes a dictionary containing article metadata and saves it to a JSON file in `self.dump_dir`.
 
@@ -164,15 +218,21 @@ class MdpiReviewSpider(scrapy.Spider):
         else:
             dirpath = os.path.join(os.path.abspath(self.dump_dir), dirname)
         os.makedirs(dirpath, exist_ok=True)
-        self.logger.debug(f"Saving metadata to file in {dirpath}.")
+        self.logger.debug(f"Saving metadata to file in {'/'.join(dirpath.split('/')[:-5])}.")
         try:
             filepath = f"{os.path.join(dirpath, filename)}.json"
-            if os.path.exists(filepath):
-                self.logger.warning(f"metadata already exists in {dirname}. Will overwrite.")
-            with open(filepath, 'w+', encoding="utf-8") as fp:
-                json.dump(metadata, fp, ensure_ascii=False)
+            if os.path.exists(filepath) and not self.update:
+                self.logger.info(f"metadata already exists in {dirname}. Will NOT overwrite.")
+            else:
+                if os.path.exists(filepath):
+                    self.logger.warning(f"metadata already exists in {dirname}. Will overwrite!")
+                with open(filepath, 'w+', encoding="utf-8") as fp:
+                    json.dump(metadata, fp, ensure_ascii=False)
+
+            
         except Exception as e:
             self.logger.exception(f"Problem while saving to file: {dirname}/{filename}\n{e}")
         else:
             self.logger.info(f"Saved metadata to {dirname}/{filename}.json")
+            self.files_dumped_counter += 1
 
