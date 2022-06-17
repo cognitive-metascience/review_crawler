@@ -46,6 +46,9 @@ def cook(url: str) -> Union[BeautifulSoup, None]:
         raise Exception(f"403: I was forbidden access to this page: {url} ")
     return soup
 
+def cook_from_html(html: str) -> BeautifulSoup:
+    return BeautifulSoup(html, 'lxml')
+
 def get_extension_from_str(text) -> str:
     if '.' in text:
         return '.' + text.split('.')[-1]

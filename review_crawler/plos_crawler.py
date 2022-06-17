@@ -196,6 +196,7 @@ def get_subarticle_metadata_from_xml(root) -> dict:
     for elem in body.findall('supplementary-material'):
         sm = {'id': ('journal.'+elem.attrib['id']), # these will be in "short" doi format
               'original_filename': elem.find('.//named-content').text}
+        sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
 
     if len(supplementary) > 0: 
@@ -237,6 +238,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     # assuming if sub-articles are present, then article was reviewed
     if len(a.get_subarticles()) > 0:
         metadata["has_reviews"] = True
+        # TODO: provide a link to reviews!
         metadata['sub_articles'] = []
         
         article_dir = os.path.join(filtered_path, a_short_doi)
@@ -276,8 +278,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
-                        sm_filename = sm['id'] + get_extension_from_str(sm['original_filename'])
-                        with open(os.path.join(sub_articles_dir, sm_filename), 'wb') as fp:
+                        with open(os.path.join(sub_articles_dir, sm['filename']), 'wb') as fp:
                             url = 'https://doi.org/' + metadata['doi'] + get_extension_from_str(sm['id'])
                             logger.debug(f'Downloading supplementary material from {url}')
                             r = requests.get(url, stream=True)
@@ -355,4 +356,4 @@ if __name__ == '__main__':
     # set logging:
     logger.parent.handlers[0].setLevel(logging.INFO)
     download_allofplos_zip(unzip = False)
-    process_allofplos_zip(update = False)
+    process_allofplos_zip(update = True)

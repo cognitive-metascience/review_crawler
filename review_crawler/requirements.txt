@@ -1,4 +1,5 @@
 bs4
+Scrapy==2.6.1
 
 # from allofplos/requirements.txt
 certifi==2021.10.8
