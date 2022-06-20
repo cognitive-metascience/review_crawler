@@ -117,7 +117,7 @@ class MdpiSpider(scrapy.Spider):
                         'title': soup.find('meta', {'name': "citation_journal_title"}).get('content'), 'volume': int(soup.find('meta', {'name': "citation_volume"}).get('content'))}
         issue = soup.find('meta', {'name': "citation_issue"})
         if issue is not None:
-            journal_dict['issue'] = issue.get('content')
+            journal_dict['issue'] = int(issue.get('content'))
         metadata['journal'] = journal_dict
 
         pubdate_string = soup.find('meta', {'name': 'citation_publication_date'}).get('content')

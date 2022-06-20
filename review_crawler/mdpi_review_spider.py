@@ -86,6 +86,7 @@ class MdpiReviewSpider(scrapy.Spider):
             reviewers.append({
                 'number': re.search(NUMBERS_PATTERN, texts[0]).group(),
                 'name': texts[1].strip()})
+        i = 1
         ard = {}
         dump  = False
         for p in response.css('div.abstract_div p, ul'):
@@ -95,7 +96,6 @@ class MdpiReviewSpider(scrapy.Spider):
                 break
             for span in p.css('span[style="font-size: 18px; margin-top:10px;"]'):
                 span_text = HARD_SPACE_REGEX.sub('', span.css('::text').get())  #
-                i = 1
                 if ROUND_NUMBER_PATTERN.match(span_text):
                     round_no = NUMBERS_PATTERN.search(span_text).group()
                     ard = {
