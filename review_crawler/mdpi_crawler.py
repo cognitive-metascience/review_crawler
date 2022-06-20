@@ -271,9 +271,7 @@ def crawl(max_articles=None, dump_dir=None, print_logs=False):
 
 if __name__ == '__main__':
     startime = time.process_time()
-    scraped = crawl(dump_dir="mdpi/scraped/articles",
-                    max_articles=30,  # delete this line to crawl everything
-                    print_logs=True)
+    scraped = crawl(max_articles=10, print_logs= True)
    
     # with open("scraped_mdpi_articles_metadata.json", 'w+', encoding="utf-8") as fp:
     #     json.dump(scraped, fp)

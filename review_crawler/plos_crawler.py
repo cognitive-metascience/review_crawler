@@ -24,8 +24,8 @@ from utils import cook, get_extension_from_str, get_logger
 crawler_dir = os.path.abspath(os.path.dirname(__file__))
 
 # paths relative to `crawler_dir`, this is where parsed data is saved
-ALL_ARTICLES_DIR = 'plos/all_articles' 
-FILTERED_DIR = 'plos/reviewed_articles'
+ALL_ARTICLES_DIR = 'scraped/plos/all_articles' 
+FILTERED_DIR = 'scraped/plos/reviewed_articles'
 
 zipfile_dir = os.path.join(crawler_dir, 'allofplos')   # NOTE: subject to change
 zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
@@ -238,7 +238,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     # assuming if sub-articles are present, then article was reviewed
     if len(a.get_subarticles()) > 0:
         metadata["has_reviews"] = True
-        # TODO: provide a link to reviews!
+        metadata['reviews_url'] = a.get_page('reviews')
         metadata['sub_articles'] = []
         
         article_dir = os.path.join(filtered_path, a_short_doi)
