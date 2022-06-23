@@ -152,7 +152,11 @@ def get_metadata_from_xml(root) -> dict:
         front = root.find('front-stub') # for sub-articles
     el: et.Element
     for el in front.iter('article-id'): 
-        metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
+        try:
+            metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
+        except Exception as e:
+            logger.error(f"get_metadata_from_xml had a problem with iterating over article-id in front.\n{e}")
+
     
     return metadata
 
@@ -170,6 +174,7 @@ def get_subarticle_metadata_from_xml(root) -> dict:
     if metadata['type'] == 'aggregated-review-documents':
         metadata['round'] = int(front.find('.//article-title').text.strip().split()[-1])
     metadata['doi'] = front.find('article-id').text.strip()
+    metadata['id']  = shorten_doi(metadata['doi']) # id's are the DOI, shortened
     related_article = front.find('related-object')
     if related_article is not None and related_article.attrib['link-type'] == 'peer-reviewed-article':
         metadata['original_article_doi'] = related_article.attrib['document-id']
@@ -196,11 +201,15 @@ def get_subarticle_metadata_from_xml(root) -> dict:
     for elem in body.findall('supplementary-material'):
         sm = {'id': ('journal.'+elem.attrib['id']), # these will be in "short" doi format
               'original_filename': elem.find('.//named-content').text}
+        sm['url'] = "https://doi.org/10.1371/" + sm['id']
         sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
 
-    if len(supplementary) > 0: 
-        metadata['supplementary_materials'] = supplementary
+    supplementary.append({
+        'filename': metadata['id'] + '.xml', 'id': metadata['id'],
+        'title': "This sub-article in XML"
+    })
+    metadata['supplementary_materials'] = supplementary
     return metadata
 
 
@@ -237,12 +246,12 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     
     # assuming if sub-articles are present, then article was reviewed
     if len(a.get_subarticles()) > 0:
-        metadata["has_reviews"] = True
-        metadata['reviews_url'] = a.get_page('reviews')
+        metadata['has_reviews'] = True
+        metadata['reviews_url'] = a.get_page('peerReview')
         metadata['sub_articles'] = []
         
         article_dir = os.path.join(filtered_path, a_short_doi)
-        sub_articles_dir = os.path.join(article_dir, "sub-articles")
+        sub_articles_dir = os.path.join(article_dir, 'sub-articles')
         logger.info(f'this article probably has reviews! It will be saved to {FILTERED_DIR}.')
         write_files = True
         if not os.path.exists(article_dir):
@@ -267,21 +276,22 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                 logger.warning(f"{boxed_text.find('.//title').text.strip()} in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
             if write_files:
                 # save this sub-article
-                sub_a_path = os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.xml')
+                sub_a_path = os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.xml')
                 if not os.path.exists(sub_articles_dir):
                     os.mkdir(sub_articles_dir)
                 # save the XML:
                 subtree.write(sub_a_path)
                 # save metadata:
-                with open(os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.json'), 'w+') as fp:
+                with open(os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.json'), 'w+') as fp:
                     json.dump(sub_a_metadata, fp)
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
+                        if 'url' not in sm.keys():
+                            continue
                         with open(os.path.join(sub_articles_dir, sm['filename']), 'wb') as fp:
-                            url = 'https://doi.org/' + metadata['doi'] + get_extension_from_str(sm['id'])
-                            logger.debug(f'Downloading supplementary material from {url}')
-                            r = requests.get(url, stream=True)
+                            logger.info(f"Downloading supplementary material from {sm['url']}")
+                            r = requests.get(sm['url'], stream=True)
                             fp.write(r.content)
                 logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
             
@@ -303,7 +313,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     return metadata
 
 
-def process_allofplos_zip(update = False):
+def process_allofplos_zip(update = False, reviewed_only = True):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
     For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
@@ -313,9 +323,10 @@ def process_allofplos_zip(update = False):
     Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
     
     :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
+    :param reviewed_only:  if set to `True`, and if `update` is also `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
     """
 
-    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update} ')
+    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update} | reviewed_only = {reviewed_only}')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -331,23 +342,27 @@ def process_allofplos_zip(update = False):
             a_short_doi = os.path.splitext(filename)[0]
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
             # skipping files that were already parsed:
-            if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):    # NOTE: reviewed articles are NEVER skipped
-                logger.debug(f'Skipping {filename} as it was already parsed.')
+            if not reviewed_only:
+                if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):    # NOTE: reviewed articles are NEVER skipped
+                    logger.debug(f'Skipping {filename} as it was already parsed.')
+                    continue
+                elif metadata_file_exists and update:
+                    logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
+            if not os.path.exists(os.path.join(filtered_path, a_short_doi)) and reviewed_only:
+                logger.debug(f'Skipping {filename} as it probably does not have reviews.')
                 continue
-            elif metadata_file_exists and update: 
-                logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
-            
             logger.info(f'Processing {filename}')
             fp = allofplos_zip.open(filename)
             a_xml = fp.read()
             fp.close()
 
-            a_metadata = parse_article_xml(a_xml, update = update, skip_sm_dl = True)
+            a_metadata = parse_article_xml(a_xml, update = update)
             if a_metadata['has_reviews']: reviewed_counter += 1
             
         except Exception as e:
             errors_counter += 1
             logger.warning(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
+            raise e
         
     logger.info(f"Finished parsing allofplos_xml.zip with {errors_counter} errors encountered in the meantime.")
     logger.info(f"found {reviewed_counter} reviewed articles.")
@@ -355,5 +370,5 @@ def process_allofplos_zip(update = False):
 if __name__ == '__main__':
     # set logging:
     logger.parent.handlers[0].setLevel(logging.INFO)
-    download_allofplos_zip(unzip = False)
-    process_allofplos_zip(update = True)
+    # download_allofplos_zip(unzip = False)
+    process_allofplos_zip(update = True, reviewed_only=True)
