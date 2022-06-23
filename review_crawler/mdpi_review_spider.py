@@ -9,9 +9,9 @@ import os
 HARD_SPACE_REGEX = re.compile(r'\xa0')  # cleans up no-break spaces
 REPEATING_REVIEWS= "This manuscript is a resubmission of an earlier submission. The following is a list of the peer review reports and author responses from that submission."
 NUMBERS_PATTERN = re.compile(r"\d+")
-ROUND_NUMBER_PATTERN = re.compile(r"^Round \d+$")
-REVIEWER_REPORT_PATTERN = re.compile(r"^Reviewer \d+ Report$")
-AUTHOR_RESPONSE_PATTERN = re.compile(r"^Author Response$")
+ROUND_NUMBER_PATTERN = re.compile(r"^Round(\s|(&nbsp;))+\d+$")
+REVIEWER_REPORT_PATTERN = re.compile(r"^Reviewer(\s|(&nbsp;))+\d+ Report$")
+AUTHOR_RESPONSE_PATTERN = re.compile(r"^Author(\s|(&nbsp;))+Response$")
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
 
 class MdpiReviewSpider(scrapy.Spider):
@@ -24,7 +24,10 @@ class MdpiReviewSpider(scrapy.Spider):
         self.handle_httpstatus_list = [404]
         self.dump_dir = dump_dir
         self.files_dumped_counter = 0
-        self.update = update.lower() in ("yes", "true", "t", "1")
+        if not update:
+            self.update = update
+        else:
+            self.update = update.lower() in ("yes", "true", "t", "1")
         if url is None:
             if dump_dir is None:
                 e = "Cannot scrape a review without providing one of: dump_dir or url."
@@ -54,7 +57,7 @@ class MdpiReviewSpider(scrapy.Spider):
                     if meta['has_reviews']:
                         urls.append(meta['reviews_url']) 
                 except json.JSONDecodeError:
-                    self.logger.error("Error while reading metadata from "+dir)
+                    self.logger.error("JSONDecodeError while reading metadata from "+dir)
         self.logger.info(f'Found {len(urls)} urls in dump_dir with reviews to scrape.')
         return urls
 
@@ -98,7 +101,7 @@ class MdpiReviewSpider(scrapy.Spider):
         absdiv = response.xpath('.//div[@class="abstract_div"]/div[not(@*)]')
         for p in absdiv.xpath('./p | .//li'):
             soup = BeautifulSoup(p.get(), 'lxml')
-            text = HARD_SPACE_REGEX.sub('', soup.get_text().strip())
+            text = HARD_SPACE_REGEX.sub(' ', soup.get_text().strip())
             if REPEATING_REVIEWS in text:
                 break
             # look for a "Round #" heading 
@@ -106,6 +109,7 @@ class MdpiReviewSpider(scrapy.Spider):
                 round_no = int(NUMBERS_PATTERN.search(text).group())
                 i=1
                 continue
+
             # look for the start of a review
             elif REVIEWER_REPORT_PATTERN.match(text):
                 if len(ard) > 0:
