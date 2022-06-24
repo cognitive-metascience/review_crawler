@@ -17,6 +17,6 @@ Clone the `allofplos` fork:
 ## Usage
 
 Before running, make sure your current working directory is set to `review_crawler`, like above. 
-Scripts `plos_crawler.py` and `mdpi_crawler.py` can be ran from the command line like this:
+Scripts `plos_crawler.py` and `mdpi_crawler.py` can be run from the command line like this:
 
 `>` ```python plos_crawler.py```
