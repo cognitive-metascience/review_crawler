@@ -1,12 +1,7 @@
-from io import TextIOWrapper
-import json
-import os
 import re
+
 from bs4 import BeautifulSoup
-import scrapy
-
 from crawling.spiders.article_spider import ArticlesSpider
-
 
 # regex patterns
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
@@ -15,14 +10,13 @@ SEARCH_PAGES_PATTERN = re.compile(r"Displaying article \d+-\d+ on page \d+ of \d
 RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 CURRPG_REG = re.compile(r"page_no=([0-9]+)&?")
 
-# globals:
-BASE_URL = "https://www.mdpi.com"
-BASE_SEARCH_URL = BASE_URL + "/search?page_count=10&article_type=research-article&page_no="
 
 class MdpiSpider(ArticlesSpider):
     name = "mdpi"
     allowed_domains = ["www.mdpi.com"]
     shorten_doi = lambda self, doi: doi.split('/')[-1]
+    base_url = "https://www.mdpi.com"
+    search_query = "/search?page_count=10&article_type=research-article&page_no="
 
     def __init__(self, dump_dir=None, start_page=None, stop_page=None, journal=None, name=None, **kwargs):
         super().__init__(dump_dir, start_page, stop_page, name, **kwargs)
