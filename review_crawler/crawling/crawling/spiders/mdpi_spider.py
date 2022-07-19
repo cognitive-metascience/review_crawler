@@ -5,7 +5,7 @@ import re
 from bs4 import BeautifulSoup
 import scrapy
 
-from review_crawler.article_spider import ArticlesSpider
+from crawling.spiders.article_spider import ArticlesSpider
 
 
 # regex patterns

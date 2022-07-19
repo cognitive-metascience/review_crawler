@@ -1,7 +1,7 @@
 import re
 import scrapy
 
-from review_crawler.article_spider import ArticlesSpider
+from crawling.spiders.article_spider import ArticlesSpider
 
 SEARCH_PAGES_PATTERN = re.compile(r"of ([\d,]+)")
 CHECKS = lambda a: "Correction:" not in a.get()
