@@ -5,18 +5,20 @@ import requests
 import scrapy
 import os
 
+from crawling.spiders.article_spider import ArticlesSpider
+
 # patterns
 HARD_SPACE_REGEX = re.compile(r'\xa0')  # cleans up no-break spaces
-REPEATING_REVIEWS= "This manuscript is a resubmission of an earlier submission. The following is a list of the peer review reports and author responses from that submission."
+REPEATING_REVIEWS = "This manuscript is a resubmission of an earlier submission. The following is a list of the peer review reports and author responses from that submission."
 NUMBERS_PATTERN = re.compile(r"\d+")
 ROUND_NUMBER_PATTERN = re.compile(r"Round \d+")
 REVIEWER_REPPORT_PATTERN = re.compile(r"Reviewer \d+ Report")
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
 
-class MdpiReviewSpider(scrapy.Spider):
+class MdpiReviewSpider(ArticlesSpider):
     name="mdpi_review"
     allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
-    shorten_doi = lambda s, doi: doi.split('/')[-1]
+    shorten_doi = lambda self, doi: doi.split('/')[-1]
 
     def __init__(self, url=None, dump_dir=None, update=False, name=None, **kwargs):
         super().__init__(name, **kwargs)
@@ -26,7 +28,7 @@ class MdpiReviewSpider(scrapy.Spider):
         self.update = update.lower() in ("yes", "true", "t", "1")
         if url is None:
             if dump_dir is None:
-                e = "Cannot scrape a review without providing one of: dump_dir or url."
+                e = "Cannot scrape a review without providing one of: `dump_dir` or `url`."
                 self.logger.error(e)
             else:
                 self.start_urls = self.find_urls()
