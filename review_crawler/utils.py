@@ -18,6 +18,7 @@ from typing import Union
 MIN_TBR = 0.5
 MAX_TBR = 4.5
 
+
 # directories:
 crawler_dir = os.path.dirname(__file__)
 logsdir_path = os.path.join(crawler_dir, 'logs')
@@ -26,7 +27,7 @@ if not os.path.exists(logsdir_path):
 
 # this is time (month and day) as of starting a crawler
 start_monthday = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
-log_default_filename = start_monthday + ".log"    # e.g. Apr_1.log
+log_default_filename = start_monthday + '_' + str(len(os.listdir(logsdir_path))) + ".log"    # e.g. Apr_1_1.log
 
 
 # _article_schema_path = os.path.join(crawler_dir, "article_schema.json")
