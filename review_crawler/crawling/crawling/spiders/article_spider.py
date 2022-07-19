@@ -1,8 +1,9 @@
 import json
 import os
-import scrapy
 
-class ArticlesSpider(scrapy.Spider):
+from scrapy import Spider
+
+class ArticlesSpider(Spider):
     
     base_url = ""
     search_query = ""
@@ -17,7 +18,7 @@ class ArticlesSpider(scrapy.Spider):
             self.logger.warning("dump_dir is None. JSON files will not be saved!")
         self.dump_dir = dump_dir
         if start_page is not None:
-            self.start_urls = [self.search_url +start_page]
+            self.start_urls = [self.search_url + str(start_page)]
             self.start_page = int(start_page)
         else:
             self.start_urls = [self.search_url + "1"]
