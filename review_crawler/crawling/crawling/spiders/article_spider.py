@@ -1,3 +1,9 @@
+"""
+    Base class for inheritance for Spiders that scrape reviewed articles from paginated search results.
+    `ArticlesSpider` cannot be run on its own, instead other classes should implement it.
+
+"""
+
 import json
 import os
 
@@ -6,27 +12,34 @@ from scrapy import Spider
 class ArticlesSpider(Spider):
     
     base_url = ""
-    search_query = ""
+    search_query = ""   # should end with something like `page_no=`
     
     shorten_doi = lambda self, doi: doi.split('/')[-1]
     
     def __init__(self, dump_dir=None, start_page=None, stop_page=None, name=None, **kwargs):
         super().__init__(name, **kwargs)
         self.search_url = self.base_url + self.search_query
-        self.logger.info(f"Setting up a {self.__class__.__name__}. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}")
+        self.logger.info(f"Setting up a {self.name.capitalize()}Spider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}")
         if dump_dir is None:
             self.logger.warning("dump_dir is None. JSON files will not be saved!")
-        self.dump_dir = dump_dir
+        elif os.path.isdir(dump_dir):
+            self.dump_dir = dump_dir
+        else:
+            self.logger.warning("Invalid dump_dir (the path provided does not exist or is not a directory). Setting dump_dir to None. JSON files will not be saved!")
+            self.dump_dir = None
         if start_page is not None:
-            self.start_urls = [self.search_url + str(start_page)]
+            start_url = self.search_url + str(start_page)
             self.start_page = int(start_page)
         else:
-            self.start_urls = [self.search_url + "1"]
+            start_url = self.search_url + "1"   # starts from page number 1 by default
             self.start_page = 1
         self.stop_page = stop_page
+        self.start_urls = [start_url]
         
     def parse(self, response):
         if self.stop_page is None:
+            # find out how many pages is possible to scrape
+            # NOTE: you will run into errors if it's impossible to find the number of all search pages from the start_url
             stop_page = int(self.learn_search_pages(response))
         else:
             stop_page = int(self.stop_page)
