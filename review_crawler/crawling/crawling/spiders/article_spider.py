@@ -66,10 +66,10 @@ class ArticlesSpider(Spider):
     def parse_searchpage(self, response):
         raise NotImplementedError
     
-    def learn_search_pages(self, response) -> int | None:
+    def parse_metadata(self, response) -> dict:
         raise NotImplementedError
     
-    def get_metadata_from_html(self, html: str) -> dict:
+    def learn_search_pages(self, response) -> int | None:
         raise NotImplementedError
     
     def dump_metadata(self, metadata, dirname=None, filename='metadata'):

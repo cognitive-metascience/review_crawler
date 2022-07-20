@@ -1,3 +1,4 @@
+from importlib.metadata import metadata
 import re
 
 from crawling.spiders.article_spider import ArticlesSpider
@@ -13,13 +14,31 @@ class ELifeSpider(ArticlesSpider):
     search_query = "/search?for=&types[0]=research&sort=date&order=descending&page="
     
     def __init__(self, dump_dir=None, start_page=None, stop_page=None, name=None, **kwargs):
-        if start_page is None:
-            start_page = 2
+        if start_page is None or start_page == '1':
+            start_page = 2  # :)
         super().__init__(dump_dir, start_page, stop_page, name, **kwargs)
         
     def parse_searchpage(self, response):
         articles = filter(CHECKS, response.css('a.teaser__header_text_link'))
         yield from response.follow_all(articles, self.parse_article)
+        
+    def parse_metadata(self, response) -> dict:
+        # TODO:
+        # "journal", 
+        # "publication_date", 
+        # "keywords", 
+        # "retracted", 
+        # "has_reviews" 
+        
+        metadata = {
+            'title' : response.xpath("./head/meta[@name='dc.title']/@content").get(),
+            'authors' : response.xpath("./head/meta[@name='dc.contributor']/@content").getall(),
+            'doi': response.xpath("./head/meta[@name='dc.identifier']/@content").get(),
+            'url' : response.xpath("./head/meta[@property='og:url']/@content").get(),
+        }
+        return metadata
+        
+
         
     def learn_search_pages(self, response):
         t = response.xpath('/html/body/div[1]/div/main/header/div').css('::text').extract_first()
