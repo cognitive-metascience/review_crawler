@@ -1,6 +1,6 @@
 import json
 import re
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 import requests
 import scrapy
 import os

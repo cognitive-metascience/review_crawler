@@ -1,6 +1,6 @@
 import re
 
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 from crawling.spiders.article_spider import ArticlesSpider
 
 # regex patterns
@@ -38,8 +38,8 @@ class MdpiSpider(ArticlesSpider):
         else:
             return None
 
-    def get_metadata_from_html(self, html: str) -> dict:
-        soup = BeautifulSoup(html, 'lxml')
+    def parse_metadata(self, response) -> dict:
+        soup = BeautifulSoup(response.html, 'lxml')
         
         metadata = {}
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
