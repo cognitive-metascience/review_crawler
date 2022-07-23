@@ -1,6 +1,6 @@
 import re
 
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 from crawling.spiders.article_spider import ArticlesSpider
 
 # regex patterns
@@ -39,7 +39,7 @@ class MdpiSpider(ArticlesSpider):
             return None
 
     def parse_metadata(self, response) -> dict:
-        soup = BeautifulSoup(response.html, 'lxml')
+        soup = BeautifulSoup(response.text, 'lxml')
         
         metadata = {}
         metadata['title'] = soup.find('meta', {'name': 'title'}).get('content').strip()
@@ -77,7 +77,7 @@ class MdpiSpider(ArticlesSpider):
             metadata['fulltext_html_url'] = html_tag.get('content')
 
         bib_identity = soup.find('div', {'class': 'bib-identity'})
-        metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()
+        metadata['doi'] = DOI_PATTERN.search(bib_identity.getText()).group()[16:]
         metadata['doi_registered'] = UNREGISTERED_DOI_PATTERN.search(bib_identity.getText()) is None  # unregistered DOI probably means that the article is in early access
 
         find = soup.find('a', {'href': lambda x: x is not None and x.endswith('review_report')})
