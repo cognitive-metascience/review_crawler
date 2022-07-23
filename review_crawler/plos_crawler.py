@@ -17,17 +17,17 @@ from allofplos.allofplos.article import Article
 from allofplos.allofplos.corpus.gdrive import unzip_articles
 from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
+from allofplos.allofplos import ALLOFPLOS_DIR_PATH
 
-from utils import cook, get_extension_from_str, get_logger
+from utils import cook, get_extension_from_str, get_logger, crawler_dir
 
 # globals:
-crawler_dir = os.path.abspath(os.path.dirname(__file__))
 
 # paths relative to `crawler_dir`, this is where parsed data is saved
 ALL_ARTICLES_DIR = 'plos/all_articles' 
 FILTERED_DIR = 'plos/reviewed_articles'
 
-zipfile_dir = os.path.join(crawler_dir, 'allofplos')   # NOTE: subject to change
+zipfile_dir = os.path.dirname(ALLOFPLOS_DIR_PATH)   # NOTE: subject to change
 zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
 
 all_articles_path = os.path.join(crawler_dir, ALL_ARTICLES_DIR)
@@ -92,52 +92,11 @@ def download_allofplos_zip(unzip=False):
         unzip_articles(file_path=zipfile_path, delete_file=False)
         
         
-def get_metadata_from_url(url, dump_dir=None):
-    """
-    Parses a PLOS article with the given url. Saves output to a JSON file if dump_dir is specified.
-
-    :type dump_dir: str
-    :type url: str
-    :return: dict containing scraped metadata
-    :rtype: dict
-    """
-
-    if not validate_plos_url(url):
-        raise Exception("Invalid url for get_metadata_from_url.")
-
-    metadata = {'url': url}
-    logger.info(f"Parsing: {url}.")
-
-    try:
-        soup = cook(url)
-
-        raise NotImplementedError() # todo
-
-    except Exception as e:
-        logger.warning(f"There was a {e.__class__.__name__} while parsing article {url_to_doi(url)}: {e}\narticle metadata: {metadata}")
-
-    else:
-        logger.info(f"Parsed {(url)} succesfully.")
-        if dump_dir is not None:
-            logger.info("Saving to file.")
-            try:
-                filename = f"{os.path.join(dump_dir, _shorten(url))}.json"
-                if os.path.exists(filename):
-                    logger.warning(f"{_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.")
-                else:
-                    with open(filename, 'w+', encoding="utf-8") as fp:
-                        json.dump(metadata, fp, ensure_ascii=False)
-            except Exception as e:
-                logger.exception(
-                    f"Problem while saving to file: {filename}.\n{e}")
-            else:
-                logger.info(f"Saved metadata to file.")
-    return metadata
-
 def check_if_article_retracted(url):
     # TODO: change this to work on Soups?
     soup = cook(url)
     return 'has RETRACTION' in soup.text
+
 
 def get_metadata_from_xml(root) -> dict:
     """
@@ -301,6 +260,13 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
             json.dump(metadata, fp)
         logger.debug(f"metadata for {a_short_doi} saved to {ALL_ARTICLES_DIR}.")
     return metadata
+    
+    
+def get_article_files():
+    allofplos_zip = ZipFile(zipfile_path, 'r')
+    for filename in allofplos_zip.namelist():
+            fp = allofplos_zip.open(filename)
+            yield filename, fp
 
 
 def process_allofplos_zip(update = False):
@@ -325,8 +291,7 @@ def process_allofplos_zip(update = False):
     reviewed_counter = 0
     errors_counter = 0 
 
-    allofplos_zip = ZipFile(zipfile_path, 'r')
-    for filename in allofplos_zip.namelist():
+    for filename, fp in get_article_files():
         try:
             a_short_doi = os.path.splitext(filename)[0]
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
@@ -338,7 +303,6 @@ def process_allofplos_zip(update = False):
                 logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
             
             logger.info(f'Processing {filename}')
-            fp = allofplos_zip.open(filename)
             a_xml = fp.read()
             fp.close()
 
@@ -351,9 +315,10 @@ def process_allofplos_zip(update = False):
         
     logger.info(f"Finished parsing allofplos_xml.zip with {errors_counter} errors encountered in the meantime.")
     logger.info(f"found {reviewed_counter} reviewed articles.")
+    
 
 if __name__ == '__main__':
     # set logging:
     logger.parent.handlers[0].setLevel(logging.INFO)
-    download_allofplos_zip(unzip = False)
+    # download_allofplos_zip(unzip = False)
     process_allofplos_zip(update = True)

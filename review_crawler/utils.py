@@ -10,24 +10,22 @@ import requests
 # import jsonschema
 
 from bs4 import BeautifulSoup
-from typing import Union
 
 # globals:
-
 # Time Between Requests (in seconds):
 MIN_TBR = 0.5
 MAX_TBR = 4.5
 
 
 # directories:
-crawler_dir = os.path.dirname(__file__)
-logsdir_path = os.path.join(crawler_dir, 'logs')
-if not os.path.exists(logsdir_path):
-    os.makedirs(logsdir_path)
+crawler_dir = os.path.abspath(os.path.dirname(__file__))
+logs_dir = os.path.join(crawler_dir, 'logs')
+if not os.path.exists(logs_dir):
+    os.makedirs(logs_dir)
 
 # this is time (month and day) as of starting a crawler
 start_monthday = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
-log_default_filename = start_monthday + '_' + str(len(os.listdir(logsdir_path))) + ".log"    # e.g. Apr_1_1.log
+log_default_filename = start_monthday + '_' + str(len(os.listdir(logs_dir))) + ".log"    # e.g. Apr_1_1.log
 
 
 # _article_schema_path = os.path.join(crawler_dir, "article_schema.json")
@@ -37,7 +35,7 @@ log_default_filename = start_monthday + '_' + str(len(os.listdir(logsdir_path)))
 
 # example_article_path = os.path.join(crawler_dir, "example_article.json")
 
-def cook(url: str) -> Union[BeautifulSoup, None]:
+def cook(url: str) -> BeautifulSoup | None:
     # sleep for some time before a request
     sleepytime = random.random()*(MAX_TBR - MIN_TBR)+MIN_TBR
     logging.debug("cook: Sleeping for "+str(sleepytime)+" seconds...")
@@ -51,9 +49,7 @@ def cook_from_html(html: str) -> BeautifulSoup:
     return BeautifulSoup(html, 'lxml')
 
 def get_extension_from_str(text) -> str:
-    if '.' in text:
-        return '.' + text.split('.')[-1]
-    else: return text
+    return os.path.splitext(text)[-1]
 
 
 # def validate_json(json_data):
@@ -64,7 +60,8 @@ def get_extension_from_str(text) -> str:
 #     else:
 #         print("passed.")
 
-def get_logger(logger_name: str, logs_path=logsdir_path, log_filename = log_default_filename,
+
+def get_logger(logger_name: str, logs_path=logs_dir, log_filename = log_default_filename,
             fileh_level=logging.DEBUG, streamh_level=logging.WARNING) -> logging.Logger:
     
     file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
@@ -76,7 +73,7 @@ def get_logger(logger_name: str, logs_path=logsdir_path, log_filename = log_defa
     stream_handler.formatter = logging.Formatter('|%(levelname)s:%(message)s|')
     stream_handler.setLevel(streamh_level)
 
-    _parent_logger = logging.getLogger(logger_name)
+    _parent_logger = logging.getLogger(__name__).getChild(logger_name)
     _logger = _parent_logger.getChild('file')
     
     _parent_logger.propagate = False
@@ -90,7 +87,8 @@ def get_logger(logger_name: str, logs_path=logsdir_path, log_filename = log_defa
 
     return _logger
 
-def clean_log_folder(logs_path=logsdir_path):
+
+def clean_log_folder(logs_path=logs_dir):
     for path in os.listdir(logs_path):
         joined_paths = os.path.join(logs_path, path)
         if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:
