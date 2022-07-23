@@ -51,7 +51,7 @@ def url_to_doi(url) -> str:
         logger.warning(f"{url} was deemed an invalid url.")
         return url
 
-def shorten_doi(doi) -> str:
+def doi_to_short_doi(doi) -> str:
     """
     Returns the tail element of a doi string (that is, everything after the last slash).
     The provided DOI is validated using regex from `allofplos` library.
@@ -98,24 +98,7 @@ def check_if_article_retracted(url):
     return 'has RETRACTION' in soup.text
 
 
-def get_metadata_from_xml(root) -> dict:
-    """
-    Outputs some metadata from the given Element object.
-    This function should get the doi right, at the least.
-    """
-    metadata = {}
-    # the line below has problems parsing titles that contain HTML tags, instead Article.authors will be used
-    # metadata['title'] = root.find('.//title-group').find('article-title').text    
-    front = root.find('front')
-    if front is None:
-        front = root.find('front-stub') # for sub-articles
-    el: et.Element
-    for el in front.iter('article-id'): 
-        metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
-    
-    return metadata
-
-def get_subarticle_metadata_from_xml(root) -> dict:
+def parse_subarticle_xml(root) -> dict:
     metadata = {}
     front = root.find('front-stub')
     body = root.find('body')
@@ -157,7 +140,6 @@ def get_subarticle_metadata_from_xml(root) -> dict:
               'original_filename': elem.find('.//named-content').text}
         sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
-
     if len(supplementary) > 0: 
         metadata['supplementary_materials'] = supplementary
     return metadata
@@ -174,17 +156,16 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
 
     :param xml_string: XML-encoded string containing a PLOS article.
     :param update: if set to `True`, existing files will be overwritten.
-    :param skip_supplementary: whether to skip downloading supplementary materials from the PLOS database.
+    :param skip_sm_dl: whether to skip downloading supplementary materials from the PLOS database.
     :return: dictionary object containing parsed metadata
     :rtype: dict
     """
     a = Article.from_xml(xml_string)
-    a_short_doi = shorten_doi(a.doi)
-    # parse some metadata from the xml itself
-    metadata = get_metadata_from_xml(a.root)
+    a_short_doi = doi_to_short_doi(a.doi)
+    metadata = {}
     # get metadata from Article object:
     metadata['title'] = a.title
-    metadata['url'] = a.get_page('article')
+    metadata['url'] = a.page
     metadata['fulltext_xml_url'] = a.url
     metadata['journal'] = {'title': a.journal, 'volume': a.volume, 'issue': a.issue}
     metadata['publication_date'] = {'year': a.pubdate.year,
@@ -196,7 +177,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     
     # assuming if sub-articles are present, then article was reviewed
     if len(a.get_subarticles()) > 0:
-        metadata["has_reviews"] = True
+        metadata['has_reviews'] = True
         # TODO: provide a link to reviews!
         metadata['sub_articles'] = []
         
@@ -213,27 +194,17 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         logger.debug("Parsing sub-articles...")
         # iterate over sub-articles
         for sub_a in a.get_subarticles():
-            subtree = et.ElementTree(sub_a)
-            sub_a_metadata = get_subarticle_metadata_from_xml(sub_a)
+            sub_a_metadata = parse_subarticle_xml(sub_a)
             if 'specific_use' in sub_a_metadata.keys():
                 if sub_a_metadata['specific_use'] == 'acceptance-letter':
                     # skipping those to save space and time
                     continue
-            metadata['sub_articles'].append(sub_a_metadata)
+            subtree = et.ElementTree(sub_a)
             # find a warning (if any)
             boxed_text = subtree.find('.//boxed-text')
             if boxed_text is not None:
                 logger.warning(f"{boxed_text.find('.//title').text.strip()} in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
             if write_files:
-                # save this sub-article
-                sub_a_path = os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.xml')
-                if not os.path.exists(sub_articles_dir):
-                    os.mkdir(sub_articles_dir)
-                # save the XML:
-                subtree.write(sub_a_path)
-                # save metadata:
-                with open(os.path.join(sub_articles_dir, shorten_doi(sub_a_metadata['doi']) + '.json'), 'w+') as fp:
-                    json.dump(sub_a_metadata, fp)
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
@@ -242,7 +213,21 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                             logger.debug(f'Downloading supplementary material from {url}')
                             r = requests.get(url, stream=True)
                             fp.write(r.content)
+                 # saving this sub-article:
+                sub_a_id =  doi_to_short_doi(sub_a_metadata['doi'])
+                sub_a_filename = sub_a_id + '.xml'
+                sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
+                if not os.path.exists(sub_articles_dir):
+                    os.mkdir(sub_articles_dir)
+                subtree.write(sub_a_path)
+                sub_a_metadata['supplementary_materials'].append({
+                    'filename': sub_a_filename, 'id': sub_a_id, 'title': "This sub_article in XML."
+                })
+                # save metadata to JSON:
+                with open(os.path.join(sub_articles_dir, sub_a_id + '.json'), 'w+') as fp:
+                    json.dump(sub_a_metadata, fp)
                 logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
+            metadata['sub_articles'].append(sub_a_metadata)
             
         if write_files:
             # save this article's XML
@@ -265,8 +250,8 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
 def get_article_files():
     allofplos_zip = ZipFile(zipfile_path, 'r')
     for filename in allofplos_zip.namelist():
-            fp = allofplos_zip.open(filename)
-            yield filename, fp
+        fp = allofplos_zip.open(filename)
+        yield filename, fp
 
 
 def process_allofplos_zip(update = False):
@@ -293,7 +278,7 @@ def process_allofplos_zip(update = False):
 
     for filename, fp in get_article_files():
         try:
-            a_short_doi = os.path.splitext(filename)[0]
+            a_short_doi = os.path.splitext(filename)[0]     # TODO: find a better, universal way to get identifiers from filenames
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
             # skipping files that were already parsed:
             if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):    # NOTE: reviewed articles are NEVER skipped
