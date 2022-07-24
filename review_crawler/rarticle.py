@@ -332,7 +332,10 @@ class Article:
     @property
     def volume(self):
         """Volume of the article."""
-        return int(self.root.xpath('/article/front/article-meta/volume')[0].text)
+        try:
+            return int(self.root.xpath('/article/front/article-meta/volume')[0].text)
+        except IndexError:
+            print("error: no volume for {}".format(self.doi))
 
     @property
     def issue(self):
@@ -1431,7 +1434,7 @@ class Article:
         keywords_set = set()    # using a set because they tend to be duplicated
         kwds = self.root.xpath('/article/front/article-meta/kwd-group[@kwd-group-type="author-keywords"]/kwd')
         for kwd in kwds:
-            keyword = ' '.join([k.text for k in kwd.iter() if k is not None])
+            keyword = ' '.join([k.text for k in kwd.iter() if k.text is not None])
             keywords_set.add(keyword.strip())
         return list(keywords_set)
 
