@@ -262,7 +262,7 @@ def get_article_files():
         yield filename, fp
 
 
-def process_allofplos_zip(update = False):
+def process_allofplos_zip(update = False, skip_sm_dl = False):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
     For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
@@ -299,7 +299,7 @@ def process_allofplos_zip(update = False):
             a_xml = fp.read()
             fp.close()
 
-            a_metadata = parse_article_xml(a_xml, update = update, skip_sm_dl = True)
+            a_metadata = parse_article_xml(a_xml, update = update, skip_sm_dl = skip_sm_dl)
             if a_metadata['has_reviews']: reviewed_counter += 1
             
         except Exception as e:
@@ -314,4 +314,4 @@ if __name__ == '__main__':
     # set logging:
     logger.handlers[0].setLevel(logging.INFO)
     # download_allofplos_zip(unzip = False)
-    process_allofplos_zip(update = True)
+    process_allofplos_zip(update = True, skip_sm_dl = False)
