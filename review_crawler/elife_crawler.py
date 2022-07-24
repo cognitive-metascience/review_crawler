@@ -51,15 +51,25 @@ def parse_subarticle_xml(root: et.Element) -> dict:
     # in addition to a doi, elife articles have an 'id' (root.attrib['id'])
     # however, we have our own standard for ids
     if metadata['type'] == 'reply':
-        id_str = "{}.a{}"
+        id_str = doi_to_short_doi(orig_doi)+".a{}"
     else:
-        id_str = "{}.r{}"
-    metadata['id'] = id_str.format(doi_to_short_doi(orig_doi), get_extension_from_str(metadata['doi'])[1:])
+        id_str = doi_to_short_doi(orig_doi)+".r{}"
+    metadata['id'] = id_str.format( get_extension_from_str(metadata['doi'])[1:])
     
     # TODO: parse rounds: in eLife they are containd within the same sub-article
     
-    # TODO: find reviewers if possible
     metadata['reviewers'] = []
+    for contrib in front.findall('.//contrib'):
+        if contrib.attrib['contrib-type'] == "reviewer":
+            metadata['reviewers'].append({
+                'name': f"{contrib.find('.//given-names').text.strip()} {contrib.find('.//surname').text.strip()}"
+            })
+        else:
+            metadata[contrib.attrib['contrib-type']] = {
+                'name': f"{contrib.find('.//given-names').text.strip()} {contrib.find('.//surname').text.strip()}"
+            }
+    # TODO: find out reviewer numbers and how many reviewers were anonymous
+    
 
     # TODO: find supplementary materials (if any):
     supplementary = []
@@ -95,7 +105,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     metadata['doi'] = a.doi
     metadata['title'] = a.title
     metadata['url'] = doi_to_url(a.doi)
-    # metadata['fulltext_pdf_url'] = a.url  TODO: some kind of link is available in the XML, but it's relative and I don't the base form
+    # metadata['fulltext_pdf_url'] =  TODO: some kind of link is available in the XML, but it's relative and I don't the base form
     metadata['journal'] = {'title': a.journal, 'volume': a.volume}  # elife journals don't have issues
     metadata['publication_date'] = {'year': a.pubdate.year,
                                     'month': a.pubdate.month, 
@@ -139,19 +149,18 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                             r = requests.get(url, stream=True)
                             fp.write(r.content)
                  # saving this sub-article:
-                sub_a_id =  doi_to_short_doi(sub_a_metadata['doi'])
-                sub_a_filename = sub_a_id + '.xml'
+                sub_a_filename = sub_a_metadata['id'] + '.xml'
                 sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
                 if not os.path.exists(sub_articles_dir):
                     os.mkdir(sub_articles_dir)
                 subtree.write(sub_a_path)
                 sub_a_metadata['supplementary_materials'].append({
-                    'filename': sub_a_filename, 'id': sub_a_id, 'title': "This sub_article in XML."
+                    'filename': sub_a_filename, 'id': sub_a_metadata['id'], 'title': "This sub_article in XML."
                 })
                 # save metadata to JSON:
-                with open(os.path.join(sub_articles_dir, sub_a_id + '.json'), 'w+') as fp:
+                with open(os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.json'), 'w+') as fp:
                     json.dump(sub_a_metadata, fp)
-                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
+                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}{os.path.sep}{a_short_doi}")
             metadata['sub_articles'].append(sub_a_metadata)
             
         if write_files:
@@ -173,8 +182,13 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
 
 
 def get_article_files():
+    """
+    Generator for obtaining the relevant files from eLife corpus: gets only the file with the newest version of a given article.
+
+    Yields:
+        tuple: a tuple: `(filename, fp)` where `fp` is a readable filepointer to the file named `filename` located within `elife_corpus_path`.
+    """
     articles = {}
-    filenames = []
     for filename in os.listdir(elife_corpus_path):
         filen = os.path.splitext(filename)
         # ignore everything that is not an XML
@@ -184,17 +198,25 @@ def get_article_files():
             splat = filen[0].split('-v')
             v_no = int(splat[-1])
             if splat[0] in articles:
-                if v_no < articles[splat[0]]:
+                if v_no < articles[splat[0]][0]:
                     continue
-            articles[splat[0]] = v_no
+            articles[splat[0]] = v_no, filename
         except Exception as e:
             logger.info(f"Surprising filename found: {filename}|Exception caught: {e}")
-        filenames.append(filename)
+            articles[filename] = -1, filename
         
-    for filename in filenames:
-        fp = open(os.path.join(elife_corpus_path, filename), 'rb')
+    for a in articles:
+        v_no, filename = articles[a]
+        fp = open(os.path.join(elife_corpus_path, filename), 'rb')  # using bytes because lxml.etree likes them better
         yield filename, fp
+        
 
+def process_article(a_filename, update = False, skip_sm_dl = False):
+    logger.info(f'Processing {a_filename}')
+    with open(os.path.join(elife_corpus_path, a_filename), 'rb') as fp:
+        a_xml = fp.read()
+    return  parse_article_xml(a_xml, update = update, skip_sm_dl = skip_sm_dl)
+    
 
 def process_elife_corpus(update = False, skip_sm_dl = False):
     """
@@ -239,7 +261,7 @@ def process_elife_corpus(update = False, skip_sm_dl = False):
             
         except Exception as e:
             errors_counter += 1
-            logger.warning(f"There was a {e.__class__.__name__} while parsing {filename}: {str(e)}")
+            logger.error(f"There was a {e.__class__.__name__} while parsing {filename}: {str(e)}")
         
     logger.info(f"Finished parsing the eLife corpus with {errors_counter} errors encountered in the meantime.")
     logger.info(f"found {reviewed_counter} reviewed articles.")
@@ -247,6 +269,5 @@ def process_elife_corpus(update = False, skip_sm_dl = False):
 
 if __name__ == '__main__':
     logger.parent.setLevel("INFO")
-    print(f"eLife corpus path: {os.path.abspath(ELIFE_CORPUS_DIR)}\n"+
-                 f"Number of articles: {len(os.listdir(os.path.abspath(ELIFE_CORPUS_DIR)))}")
-    process_elife_corpus(update = True)
+    process_article('elife-47612-v2.xml', True, False)
+    # process_elife_corpus(update = True)
