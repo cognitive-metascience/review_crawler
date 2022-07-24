@@ -172,6 +172,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     a_short_doi = doi_to_short_doi(a.doi)
     metadata = {}
     # get metadata from Article object:
+    metadata['doi'] = a.doi
     metadata['title'] = a.title
     metadata['url'] = a.page
     metadata['fulltext_xml_url'] = a.url
