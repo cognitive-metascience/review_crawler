@@ -17,24 +17,24 @@ from allofplos.allofplos.article import Article
 from allofplos.allofplos.corpus.gdrive import unzip_articles
 from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
+from allofplos.allofplos import ALLOFPLOS_DIR_PATH
 
-from utils import cook, get_extension_from_str, get_logger
+from utils import cook, get_extension_from_str, get_logger, CRAWLER_DIR, OUTPUT_DIR
 
 # globals:
-crawler_dir = os.path.abspath(os.path.dirname(__file__))
 
-# paths relative to `crawler_dir`, this is where parsed data is saved
-ALL_ARTICLES_DIR = 'scraped/plos/all_articles' 
-FILTERED_DIR = 'scraped/plos/reviewed_articles'
+# paths relative to `CRAWLER_DIR`, this is where parsed data is saved
+ALL_ARTICLES_DIR = 'plos/all_articles' 
+FILTERED_DIR = 'plos/reviewed_articles'
+all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
+filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-zipfile_dir = os.path.join(crawler_dir, 'allofplos')   # NOTE: subject to change
+zipfile_dir = os.path.dirname(ALLOFPLOS_DIR_PATH)   # NOTE: subject to change
 zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
 
-all_articles_path = os.path.join(crawler_dir, ALL_ARTICLES_DIR)
-filtered_path = os.path.join(crawler_dir, FILTERED_DIR)
 
 # for logging:
-logs_path = os.path.join(crawler_dir, 'logs')
+logs_path = os.path.join(CRAWLER_DIR, 'logs')
 json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
 logger = get_logger("plosLogger", logs_path)
 
@@ -51,7 +51,7 @@ def url_to_doi(url) -> str:
         logger.warning(f"{url} was deemed an invalid url.")
         return url
 
-def shorten_doi(doi) -> str:
+def doi_to_short_doi(doi) -> str:
     """
     Returns the tail element of a doi string (that is, everything after the last slash).
     The provided DOI is validated using regex from `allofplos` library.
@@ -92,75 +92,13 @@ def download_allofplos_zip(unzip=False):
         unzip_articles(file_path=zipfile_path, delete_file=False)
         
         
-def get_metadata_from_url(url, dump_dir=None):
-    """
-    Parses a PLOS article with the given url. Saves output to a JSON file if dump_dir is specified.
-
-    :type dump_dir: str
-    :type url: str
-    :return: dict containing scraped metadata
-    :rtype: dict
-    """
-
-    if not validate_plos_url(url):
-        raise Exception("Invalid url for get_metadata_from_url.")
-
-    metadata = {'url': url}
-    logger.info(f"Parsing: {url}.")
-
-    try:
-        soup = cook(url)
-
-        raise NotImplementedError() # todo
-
-    except Exception as e:
-        logger.warning(f"There was a {e.__class__.__name__} while parsing article {url_to_doi(url)}: {e}\narticle metadata: {metadata}")
-
-    else:
-        logger.info(f"Parsed {(url)} succesfully.")
-        if dump_dir is not None:
-            logger.info("Saving to file.")
-            try:
-                filename = f"{os.path.join(dump_dir, _shorten(url))}.json"
-                if os.path.exists(filename):
-                    logger.warning(f"{_shorten(url)}.json already exists in dump_dir. Will NOT overwrite.")
-                else:
-                    with open(filename, 'w+', encoding="utf-8") as fp:
-                        json.dump(metadata, fp, ensure_ascii=False)
-            except Exception as e:
-                logger.exception(
-                    f"Problem while saving to file: {filename}.\n{e}")
-            else:
-                logger.info(f"Saved metadata to file.")
-    return metadata
-
 def check_if_article_retracted(url):
     # TODO: change this to work on Soups?
     soup = cook(url)
     return 'has RETRACTION' in soup.text
 
-def get_metadata_from_xml(root) -> dict:
-    """
-    Outputs some metadata from the given Element object.
-    This function should get the doi right, at the least.
-    """
-    metadata = {}
-    # the line below has problems parsing titles that contain HTML tags, instead Article.authors will be used
-    # metadata['title'] = root.find('.//title-group').find('article-title').text    
-    front = root.find('front')
-    if front is None:
-        front = root.find('front-stub') # for sub-articles
-    el: et.Element
-    for el in front.iter('article-id'): 
-        try:
-            metadata[el.attrib['pub-id-type'].replace('-', '_')] = el.text.strip()
-        except Exception as e:
-            logger.error(f"get_metadata_from_xml had a problem with iterating over article-id in front.\n{e}")
 
-    
-    return metadata
-
-def get_subarticle_metadata_from_xml(root) -> dict:
+def parse_subarticle(root) -> dict:
     metadata = {}
     front = root.find('front-stub')
     body = root.find('body')
@@ -174,7 +112,15 @@ def get_subarticle_metadata_from_xml(root) -> dict:
     if metadata['type'] == 'aggregated-review-documents':
         metadata['round'] = int(front.find('.//article-title').text.strip().split()[-1])
     metadata['doi'] = front.find('article-id').text.strip()
-    metadata['id']  = shorten_doi(metadata['doi']) # id's are the DOI, shortened
+    
+    # create id out of doi:
+    splat = doi_to_short_doi(metadata['doi']).rsplit('.', 1)
+    if metadata['type'] == 'author-comment':
+        id_str = splat[0]+".a{}"
+    else:
+        id_str = splat[0]+".r{}"
+    metadata['id'] = id_str.format(int(splat[1][1:]))
+    
     related_article = front.find('related-object')
     if related_article is not None and related_article.attrib['link-type'] == 'peer-reviewed-article':
         metadata['original_article_doi'] = related_article.attrib['document-id']
@@ -224,17 +170,17 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
 
     :param xml_string: XML-encoded string containing a PLOS article.
     :param update: if set to `True`, existing files will be overwritten.
-    :param skip_supplementary: whether to skip downloading supplementary materials from the PLOS database.
+    :param skip_sm_dl: whether to skip downloading supplementary materials from the PLOS database.
     :return: dictionary object containing parsed metadata
     :rtype: dict
     """
     a = Article.from_xml(xml_string)
-    a_short_doi = shorten_doi(a.doi)
-    # parse some metadata from the xml itself
-    metadata = get_metadata_from_xml(a.root)
+    a_short_doi = doi_to_short_doi(a.doi)
+    metadata = {}
     # get metadata from Article object:
+    metadata['doi'] = a.doi
     metadata['title'] = a.title
-    metadata['url'] = a.get_page('article')
+    metadata['url'] = a.page
     metadata['fulltext_xml_url'] = a.url
     metadata['journal'] = {'title': a.journal, 'volume': a.volume, 'issue': a.issue}
     metadata['publication_date'] = {'year': a.pubdate.year,
@@ -263,37 +209,40 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         logger.debug("Parsing sub-articles...")
         # iterate over sub-articles
         for sub_a in a.get_subarticles():
-            subtree = et.ElementTree(sub_a)
-            sub_a_metadata = get_subarticle_metadata_from_xml(sub_a)
+            sub_a_metadata = parse_subarticle(sub_a)
             if 'specific_use' in sub_a_metadata.keys():
                 if sub_a_metadata['specific_use'] == 'acceptance-letter':
                     # skipping those to save space and time
                     continue
-            metadata['sub_articles'].append(sub_a_metadata)
+            subtree = et.ElementTree(sub_a)
             # find a warning (if any)
             boxed_text = subtree.find('.//boxed-text')
             if boxed_text is not None:
                 logger.warning(f"{boxed_text.find('.//title').text.strip()} in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
             if write_files:
-                # save this sub-article
-                sub_a_path = os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.xml')
-                if not os.path.exists(sub_articles_dir):
-                    os.mkdir(sub_articles_dir)
-                # save the XML:
-                subtree.write(sub_a_path)
-                # save metadata:
-                with open(os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.json'), 'w+') as fp:
-                    json.dump(sub_a_metadata, fp)
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
-                        if 'url' not in sm.keys():
-                            continue
                         with open(os.path.join(sub_articles_dir, sm['filename']), 'wb') as fp:
-                            logger.info(f"Downloading supplementary material from {sm['url']}")
-                            r = requests.get(sm['url'], stream=True)
+                            url = 'https://doi.org/' + metadata['doi'] + get_extension_from_str(sm['id'])
+                            logger.debug(f'Downloading supplementary material from {url}')
+                            r = requests.get(url, stream=True)
                             fp.write(r.content)
+                 # saving this sub-article:
+                sub_a_id =  sub_a_metadata['id']
+                sub_a_filename = sub_a_id + '.xml'
+                sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
+                if not os.path.exists(sub_articles_dir):
+                    os.mkdir(sub_articles_dir)
+                subtree.write(sub_a_path)
+                sub_a_metadata['supplementary_materials'].append({
+                    'filename': sub_a_filename, 'id': sub_a_id, 'title': "This sub_article in XML."
+                })
+                # save metadata to JSON:
+                with open(os.path.join(sub_articles_dir, sub_a_id + '.json'), 'w+') as fp:
+                    json.dump(sub_a_metadata, fp)
                 logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
+            metadata['sub_articles'].append(sub_a_metadata)
             
         if write_files:
             # save this article's XML
@@ -311,9 +260,16 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
             json.dump(metadata, fp)
         logger.debug(f"metadata for {a_short_doi} saved to {ALL_ARTICLES_DIR}.")
     return metadata
+    
+    
+def get_article_files():
+    allofplos_zip = ZipFile(zipfile_path, 'r')
+    for filename in allofplos_zip.namelist():
+        fp = allofplos_zip.open(filename)
+        yield filename, fp
 
 
-def process_allofplos_zip(update = False, reviewed_only = True):
+def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = False):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
     For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
@@ -336,10 +292,9 @@ def process_allofplos_zip(update = False, reviewed_only = True):
     reviewed_counter = 0
     errors_counter = 0 
 
-    allofplos_zip = ZipFile(zipfile_path, 'r')
-    for filename in allofplos_zip.namelist():
+    for filename, fp in get_article_files():
         try:
-            a_short_doi = os.path.splitext(filename)[0]
+            a_short_doi = os.path.splitext(filename)[0]     # TODO: find a better, universal way to get identifiers from filenames
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
             # skipping files that were already parsed:
             if not reviewed_only:
@@ -352,23 +307,22 @@ def process_allofplos_zip(update = False, reviewed_only = True):
                 logger.debug(f'Skipping {filename} as it probably does not have reviews.')
                 continue
             logger.info(f'Processing {filename}')
-            fp = allofplos_zip.open(filename)
             a_xml = fp.read()
             fp.close()
 
-            a_metadata = parse_article_xml(a_xml, update = update)
+            a_metadata = parse_article_xml(a_xml, update = update, skip_sm_dl = skip_sm_dl)
             if a_metadata['has_reviews']: reviewed_counter += 1
             
         except Exception as e:
             errors_counter += 1
-            logger.warning(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
-            raise e
+            logger.error(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
         
     logger.info(f"Finished parsing allofplos_xml.zip with {errors_counter} errors encountered in the meantime.")
     logger.info(f"found {reviewed_counter} reviewed articles.")
+    
 
 if __name__ == '__main__':
     # set logging:
-    logger.parent.handlers[0].setLevel(logging.INFO)
+    logger.handlers[0].setLevel(logging.INFO)
     # download_allofplos_zip(unzip = False)
-    process_allofplos_zip(update = True, reviewed_only=True)
+    process_allofplos_zip(update = True, skip_sm_dl = False)
