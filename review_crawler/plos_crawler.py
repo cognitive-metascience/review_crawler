@@ -19,22 +19,22 @@ from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 from allofplos.allofplos import ALLOFPLOS_DIR_PATH
 
-from utils import cook, get_extension_from_str, get_logger, crawler_dir
+from utils import cook, get_extension_from_str, get_logger, CRAWLER_DIR, OUTPUT_DIR
 
 # globals:
 
-# paths relative to `crawler_dir`, this is where parsed data is saved
+# paths relative to `CRAWLER_DIR`, this is where parsed data is saved
 ALL_ARTICLES_DIR = 'plos/all_articles' 
 FILTERED_DIR = 'plos/reviewed_articles'
+all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
+filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
 zipfile_dir = os.path.dirname(ALLOFPLOS_DIR_PATH)   # NOTE: subject to change
 zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
 
-all_articles_path = os.path.join(crawler_dir, ALL_ARTICLES_DIR)
-filtered_path = os.path.join(crawler_dir, FILTERED_DIR)
 
 # for logging:
-logs_path = os.path.join(crawler_dir, 'logs')
+logs_path = os.path.join(CRAWLER_DIR, 'logs')
 json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
 logger = get_logger("plosLogger", logs_path)
 
@@ -98,7 +98,7 @@ def check_if_article_retracted(url):
     return 'has RETRACTION' in soup.text
 
 
-def parse_subarticle_xml(root) -> dict:
+def parse_subarticle(root) -> dict:
     metadata = {}
     front = root.find('front-stub')
     body = root.find('body')
@@ -112,6 +112,15 @@ def parse_subarticle_xml(root) -> dict:
     if metadata['type'] == 'aggregated-review-documents':
         metadata['round'] = int(front.find('.//article-title').text.strip().split()[-1])
     metadata['doi'] = front.find('article-id').text.strip()
+    
+    # create id out of doi:
+    splat = doi_to_short_doi(metadata['doi']).rsplit('.', 1)
+    if metadata['type'] == 'author-comment':
+        id_str = splat[0]+".a{}"
+    else:
+        id_str = splat[0]+".r{}"
+    metadata['id'] = id_str.format(int(splat[1][1:]))
+    
     related_article = front.find('related-object')
     if related_article is not None and related_article.attrib['link-type'] == 'peer-reviewed-article':
         metadata['original_article_doi'] = related_article.attrib['document-id']
@@ -140,8 +149,7 @@ def parse_subarticle_xml(root) -> dict:
               'original_filename': elem.find('.//named-content').text}
         sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
-    if len(supplementary) > 0: 
-        metadata['supplementary_materials'] = supplementary
+    metadata['supplementary_materials'] = supplementary
     return metadata
 
 
@@ -194,7 +202,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         logger.debug("Parsing sub-articles...")
         # iterate over sub-articles
         for sub_a in a.get_subarticles():
-            sub_a_metadata = parse_subarticle_xml(sub_a)
+            sub_a_metadata = parse_subarticle(sub_a)
             if 'specific_use' in sub_a_metadata.keys():
                 if sub_a_metadata['specific_use'] == 'acceptance-letter':
                     # skipping those to save space and time
@@ -214,7 +222,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                             r = requests.get(url, stream=True)
                             fp.write(r.content)
                  # saving this sub-article:
-                sub_a_id =  doi_to_short_doi(sub_a_metadata['doi'])
+                sub_a_id =  sub_a_metadata['id']
                 sub_a_filename = sub_a_id + '.xml'
                 sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
                 if not os.path.exists(sub_articles_dir):
@@ -296,7 +304,7 @@ def process_allofplos_zip(update = False):
             
         except Exception as e:
             errors_counter += 1
-            logger.warning(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
+            logger.error(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
         
     logger.info(f"Finished parsing allofplos_xml.zip with {errors_counter} errors encountered in the meantime.")
     logger.info(f"found {reviewed_counter} reviewed articles.")
@@ -304,6 +312,6 @@ def process_allofplos_zip(update = False):
 
 if __name__ == '__main__':
     # set logging:
-    logger.parent.handlers[0].setLevel(logging.INFO)
+    logger.handlers[0].setLevel(logging.INFO)
     # download_allofplos_zip(unzip = False)
     process_allofplos_zip(update = True)

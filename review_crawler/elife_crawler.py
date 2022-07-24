@@ -4,23 +4,23 @@ import requests
 import lxml.etree as et
 
 from rarticle import Article
-from utils import get_logger, get_extension_from_str, crawler_dir
+from utils import get_logger, get_extension_from_str, CRAWLER_DIR, OUTPUT_DIR
 
 # globals:
 
-# these paths are relative to `crawler_dir` which should be where this script is located
+# these paths are relative to `CRAWLER_DIR` which should be where this script is located
 ELIFE_CORPUS_DIR = os.path.join("elife-article-xml", "articles")
+elife_corpus_path = os.path.join(CRAWLER_DIR, ELIFE_CORPUS_DIR)
 
 # this is where parsed data is stored:
 ALL_ARTICLES_DIR = os.path.join("elife", "all_articles" )
 FILTERED_DIR = os.path.join("elife", "reviewed_articles")
+all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
+filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-elife_corpus_path = os.path.join(crawler_dir, ELIFE_CORPUS_DIR)
-all_articles_path = os.path.join(crawler_dir, ALL_ARTICLES_DIR)
-filtered_path = os.path.join(crawler_dir, FILTERED_DIR)
 
 # logging:
-logs_path = os.path.join(crawler_dir, 'logs')
+logs_path = os.path.join(CRAWLER_DIR, 'logs')
 json_logfile = os.path.join(logs_path, 'elife_lastrun.json')
 logger = get_logger("plosLogger", logs_path)
 
@@ -37,7 +37,7 @@ def doi_to_url(doi: str) -> str:
     return "https://elifesciences.org/articles/" + doi.split('.')[-1]
 
 
-def parse_subarticle_xml(root: et.Element) -> dict:
+def parse_subarticle(root: et.Element) -> dict:
     metadata = {}
     front = root.find('front-stub')
     body = root.find('body')
@@ -49,7 +49,7 @@ def parse_subarticle_xml(root: et.Element) -> dict:
     metadata['original_article_doi'] = orig_doi
     
     # in addition to a doi, elife articles have an 'id' (root.attrib['id'])
-    # however, we have our own standard for ids
+    # however, we have our own standard for creating ids
     if metadata['type'] == 'reply':
         id_str = doi_to_short_doi(orig_doi)+".a{}"
     else:
@@ -134,7 +134,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         # iterate over sub-articles
         for sub_a in a.get_subarticles():
             subtree = et.ElementTree(sub_a)
-            sub_a_metadata = parse_subarticle_xml(sub_a)
+            sub_a_metadata = parse_subarticle(sub_a)
             # find a warning (if any)
             # boxed_text = subtree.find('.//boxed-text')
             # if boxed_text is not None:
@@ -268,6 +268,6 @@ def process_elife_corpus(update = False, skip_sm_dl = False):
     
 
 if __name__ == '__main__':
-    logger.parent.setLevel("INFO")
+    logger.parent.handlers[0].setLevel("INFO")
     process_article('elife-47612-v2.xml', True, False)
     # process_elife_corpus(update = True)

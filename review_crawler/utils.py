@@ -18,8 +18,10 @@ MAX_TBR = 4.5
 
 
 # directories:
-crawler_dir = os.path.abspath(os.path.dirname(__file__))
-logs_dir = os.path.join(crawler_dir, 'logs')
+CRAWLER_DIR = os.path.abspath(os.path.dirname(__file__))
+OUTPUT_DIR = os.path.join(CRAWLER_DIR, "output")
+
+logs_dir = os.path.join(CRAWLER_DIR, "logs")
 if not os.path.exists(logs_dir):
     os.makedirs(logs_dir)
 
@@ -28,12 +30,12 @@ start_monthday = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
 log_default_filename = start_monthday + '_' + str(len(os.listdir(logs_dir))) + ".log"    # e.g. Apr_1_1.log
 
 
-# _article_schema_path = os.path.join(crawler_dir, "article_schema.json")
+# _article_schema_path = os.path.join(CRAWLER_DIR, "article_schema.json")
 # fp = open(_article_schema_path, 'r')
 # article_schema = json.loads(fp.read())
 # fp.close()
 
-# example_article_path = os.path.join(crawler_dir, "example_article.json")
+# example_article_path = os.path.join(CRAWLER_DIR, "example_article.json")
 
 def cook(url: str) -> BeautifulSoup | None:
     # sleep for some time before a request
@@ -127,8 +129,3 @@ def filter_articles(src, dest) -> None:
                 logging.info(f"{file} does not contain valid Unicode data.\nFull traceback:{e}")
             except json.JSONDecodeError as e:
                 logging.info(f"{file} does not contain valid JSON data.\nFull traceback:{e.msg}")
-
-
-if __name__ == "__main__":
-    articles_dir, output_dir =  "./mdpi/scraped/sample", "./mdpi/scraped/filtered"
-    filter_articles(articles_dir, output_dir)
