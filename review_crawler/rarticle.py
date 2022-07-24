@@ -1040,7 +1040,10 @@ class Article:
         :rtype: {datetime.datetime}
         """
         dates = self.get_dates()
-        return dates['pub']
+        try:
+            return dates['pub']
+        except KeyError:
+            return dates['publication']
 
     @property
     def revdate(self):
@@ -1428,7 +1431,7 @@ class Article:
         keywords_set = set()    # using a set because they tend to be duplicated
         kwds = self.root.xpath('/article/front/article-meta/kwd-group[@kwd-group-type="author-keywords"]/kwd')
         for kwd in kwds:
-            keyword = ' '.join([k.text for k in kwd.iter()])
+            keyword = ' '.join([k.text for k in kwd.iter() if k is not None])
             keywords_set.add(keyword.strip())
         return list(keywords_set)
 
