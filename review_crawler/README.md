@@ -12,7 +12,7 @@ Install required Python packages:
 
 The following command clones the __allofplos__ fork, which is necessary to run `plos_crawler`, and also downloads the entire eLife corpus from the __elife-article-xml__ repo (be warned: this corpus contains nearly 3 GB of data!):
 
-`>` ```git sumbodule update --init```
+`>` ```git submodule update --init```
 
 ## Usage
 
