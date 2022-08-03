@@ -20,14 +20,15 @@ MAX_TBR = 4.5
 # directories:
 CRAWLER_DIR = os.path.abspath(os.path.dirname(__file__))
 OUTPUT_DIR = os.path.join(CRAWLER_DIR, "output")
+INPUT_DIR = os.path.join(CRAWLER_DIR, "input")
 
-logs_dir = os.path.join(CRAWLER_DIR, "logs")
-if not os.path.exists(logs_dir):
-    os.makedirs(logs_dir)
+LOGS_DIR = os.path.join(CRAWLER_DIR, "logs")
+if not os.path.exists(LOGS_DIR):
+    os.makedirs(LOGS_DIR)
 
-# this is time (month and day) as of starting a crawler
-start_monthday = '_'.join(time.ctime().split(' ')[1:3]).replace(':', '_')
-log_default_filename = start_monthday + '_' + str(len(os.listdir(logs_dir))) + ".log"    # e.g. Apr_1_1.log
+# this is time as of starting a crawler
+start_monthday = '_'.join(time.ctime().split(' ')[1:4]).replace(':', '_')
+log_default_filename = f"{start_monthday}_.log"    # e.g. Apr_1_20_12_42.log
 
 
 # _article_schema_path = os.path.join(CRAWLER_DIR, "article_schema.json")
@@ -63,12 +64,12 @@ def get_extension_from_str(text) -> str:
 #         print("passed.")
 
 
-def get_logger(logger_name: str, logs_path=logs_dir, log_filename = log_default_filename,
+def get_logger(logger_name: str, logs_path=LOGS_DIR, log_filename = log_default_filename,
             fileh_level=logging.DEBUG, streamh_level=logging.WARNING) -> logging.Logger:
     
-    file_handler = logging.FileHandler(os.path.join(logs_path, log_filename))
+    file_handler = logging.FileHandler(os.path.join(logs_path, logger_name+'_'+log_filename))
     file_handler.formatter = logging.Formatter(
-        '%(asctime)s|%(module)s.%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
+        '%(asctime)s|%(funcName)s:%(lineno)d|%(levelname)s:%(message)s|', '%H:%M:%S')
     file_handler.setLevel(fileh_level)
 
     stream_handler = logging.StreamHandler(stream = sys.stdout)
@@ -90,7 +91,7 @@ def get_logger(logger_name: str, logs_path=logs_dir, log_filename = log_default_
     return _logger
 
 
-def clean_log_folder(logs_path=logs_dir):
+def clean_log_folder(logs_path=LOGS_DIR):
     for path in os.listdir(logs_path):
         joined_paths = os.path.join(logs_path, path)
         if os.path.isdir(joined_paths) and len(os.listdir(joined_paths)) == 0:
@@ -101,31 +102,38 @@ def clean_log_folder(logs_path=logs_dir):
         os.rmdir(logs_path)
 
 
-def filter_articles(src, dest) -> None:
+def filter_articles(src, dest, key, update = False) -> None:
     """
-    Given two directories: src and dest, will try to read JSON files from src, and move them to dest if they contain property 'has_reviews' and it's set to True
+    Given two directories: src and dest, will try to read JSON files from src, and move them to dest if they contain property `key` and it's set to True
 
     """
     if not os.path.exists(dest):
         os.makedirs(dest)
     
-    for file in os.listdir(os.path.abspath(src)):
+    json_files = [f for f in os.listdir(os.path.abspath(src)) if f.lower().endswith('.json')]
+    for file in json_files:
         filepath = os.path.join(os.path.abspath(src), file)
         if os.path.isdir(filepath):
             continue
         with open(filepath) as fp:
             try:
                 article = json.load(fp)
-                if 'has_reviews' not in article or not isinstance(article["has_reviews"], bool):
-                    logging.info(f"{file} does not match the expected JSON format for articles: Does not have 'has_reviews' as a property.")
+                if key not in article:
+                    logging.info(f"{file} does not match the expected JSON format: Does not have '{key}' as a property.")
                     continue
-                if article["has_reviews"]:
-                    if os.path.exists(os.path.join(dest, file)):
+                if not isinstance(article[key], bool):
+                    logging.info(f"{file} does not match the expected JSON format: '{key}' is not a bool!.")
+                    continue
+                v = article.get(key)
+                if v is not None:
+                    if os.path.exists(os.path.join(dest, file)) and not update:
                         logging.info(f"{file} already in {dest}. Will NOT overwrite.")
                     else:
                         logging.debug(f"Moving {file} to {dest}")    
                         shutil.move(filepath, dest)
+                else:
+                    logging.info(f"{file} does not match the expected JSON format: '{key}' is not a bool!.")
             except UnicodeDecodeError as e:
-                logging.info(f"{file} does not contain valid Unicode data.\nFull traceback:{e}")
+                logging.error(f"{file} does not contain valid Unicode data.\nFull traceback:{e}")
             except json.JSONDecodeError as e:
-                logging.info(f"{file} does not contain valid JSON data.\nFull traceback:{e.msg}")
+                logging.error(f"{file} does not contain valid JSON data.\nFull traceback:{e.msg}")

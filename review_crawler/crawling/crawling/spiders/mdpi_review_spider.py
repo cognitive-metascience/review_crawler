@@ -1,11 +1,11 @@
 import json
 import re
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests
-import scrapy
 import os
 
 from crawling.spiders.article_spider import ArticlesSpider
+from scrapy.exceptions import CloseSpider
 
 # patterns
 HARD_SPACE_REGEX = re.compile(r'\xa0')  # cleans up no-break spaces
@@ -20,22 +20,19 @@ class MdpiReviewSpider(ArticlesSpider):
     allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
     shorten_doi = lambda self, doi: doi.split('/')[-1]
 
-    def __init__(self, url=None, dump_dir=None, update=False, name=None, **kwargs):
-        super().__init__(name, **kwargs)
-        self.handle_httpstatus_list = [404]
-        self.dump_dir = dump_dir
-        self.files_dumped_counter = 0
+    def __init__(self, url=None, dump_dir=None, update='no', name=None, **kwargs):
+        super().__init__(dump_dir=dump_dir, name=name, **kwargs)
         self.update = update.lower() in ("yes", "true", "t", "1")
         if url is None:
-            if dump_dir is None:
+            if self.dump_dir is None:
                 e = "Cannot scrape a review without providing one of: `dump_dir` or `url`."
-                self.logger.error(e)
+                self.logger.critical(e)
+                raise CloseSpider()
             else:
                 self.start_urls = self.find_urls()
         else:
             self.start_urls = [url]
-        self.logger.info("Setting up a MdpiReviewSpider: "+
-         f"len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
+        self.logger.info(f"len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
 
             
     def find_urls(self):
@@ -54,7 +51,6 @@ class MdpiReviewSpider(ArticlesSpider):
                 meta = json.load(fp)
                 if meta['has_reviews']:
                     urls.append(meta['reviews_url']) 
-        self.logger.info(f'Found {len(urls)} urls in dump_dir with reviews to scrape.')
         return urls
 
     def parse(self, response):
@@ -205,36 +201,3 @@ class MdpiReviewSpider(ArticlesSpider):
         if self.dump_dir is not None:
             self.dump_metadata(ard, sub_a_dir, a_short_doi+'.r')    # todo: change the naming convention?
         yield ard
-                
-    def dump_metadata(self, metadata, dirname=None, filename='metadata'):
-        """Takes a dictionary containing article metadata and saves it to a JSON file in `self.dump_dir`.
-
-        Args:
-            metadata (dict): dictionary to be saved to file.
-            dirname (str, optional): If specified, a directory inside `self.dump_dir` will be created (if it doesn't exist) and the metadata is saved there. Defaults to None.
-            filename (str, optional): Base file name (without an extension). Defaults to 'metadata'.
-        """
-        assert self.dump_dir is not None
-        if dirname is None:
-            dirpath = self.dump_dir
-        else:
-            dirpath = os.path.join(os.path.abspath(self.dump_dir), dirname)
-        os.makedirs(dirpath, exist_ok=True)
-        self.logger.debug(f"Saving metadata to file in {'/'.join(dirpath.split('/')[:-5])}.")
-        try:
-            filepath = f"{os.path.join(dirpath, filename)}.json"
-            if os.path.exists(filepath) and not self.update:
-                self.logger.info(f"metadata already exists in {dirname}. Will NOT overwrite.")
-            else:
-                if os.path.exists(filepath):
-                    self.logger.warning(f"metadata already exists in {dirname}. Will overwrite!")
-                with open(filepath, 'w+', encoding="utf-8") as fp:
-                    json.dump(metadata, fp, ensure_ascii=False)
-
-            
-        except Exception as e:
-            self.logger.exception(f"Problem while saving to file: {dirname}/{filename}\n{e}")
-        else:
-            self.logger.info(f"Saved metadata to {dirname}/{filename}.json")
-            self.files_dumped_counter += 1
-

@@ -1,16 +1,32 @@
+from genericpath import isdir
 import json
 import os
+from zipfile import ZipFile
+import zipfile
 import requests
 import lxml.etree as et
 
 from rarticle import Article
-from utils import get_logger, get_extension_from_str, CRAWLER_DIR, OUTPUT_DIR
+from utils import get_logger, get_extension_from_str, CRAWLER_DIR, OUTPUT_DIR, INPUT_DIR
+
+logger = get_logger("elife")
 
 # globals:
 
 # these paths are relative to `CRAWLER_DIR` which should be where this script is located
+
+ELIFE_CORPUS_ZIP = os.path.join(INPUT_DIR,"elife-article-xml-master.zip")
 ELIFE_CORPUS_DIR = os.path.join("elife-article-xml", "articles")
-elife_corpus_path = os.path.join(CRAWLER_DIR, ELIFE_CORPUS_DIR)
+ELIFE_CORPUS_DIR2 =  os.path.join(INPUT_DIR, ELIFE_CORPUS_DIR)
+
+if os.path.exists(ELIFE_CORPUS_ZIP):
+    elife_corpus_path = os.path.join(CRAWLER_DIR, ELIFE_CORPUS_ZIP)
+elif os.path.isdir(ELIFE_CORPUS_DIR):
+	elife_corpus_path = os.path.join(CRAWLER_DIR, ELIFE_CORPUS_DIR)
+elif os.path.isdir(ELIFE_CORPUS_DIR2):
+    elife_corpus_path = os.path.join(CRAWLER_DIR, ELIFE_CORPUS_DIR2)
+else:
+	logger.critical("eLife corpus not found. Consider downloading the zip from https://github.com/elifesciences/elife-article-xml/archive/refs/heads/master.zip\n\tand placing it in the `input` directory")
 
 # this is where parsed data is stored:
 ALL_ARTICLES_DIR = os.path.join("elife", "all_articles" )
@@ -18,11 +34,6 @@ FILTERED_DIR = os.path.join("elife", "reviewed_articles")
 all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-
-# logging:
-logs_path = os.path.join(CRAWLER_DIR, 'logs')
-json_logfile = os.path.join(logs_path, 'elife_lastrun.json')
-logger = get_logger("plosLogger", logs_path)
 
 
 # transformations:
@@ -47,16 +58,17 @@ def parse_subarticle(root: et.Element) -> dict:
     # here ends super code
     orig_doi = metadata['doi'].rsplit('.', 1)[0]
     metadata['original_article_doi'] = orig_doi
+    a_short_doi = doi_to_short_doi(orig_doi)
     
     # in addition to a doi, elife articles have an 'id' (root.attrib['id'])
     # however, we have our own standard for creating ids
     if metadata['type'] == 'reply':
-        id_str = doi_to_short_doi(orig_doi)+".a{}"
+        id_str = a_short_doi+".a{}"
     else:
-        id_str = doi_to_short_doi(orig_doi)+".r{}"
-    metadata['id'] = id_str.format( get_extension_from_str(metadata['doi'])[1:])
+        id_str = a_short_doi+".r{}"
+    metadata['id'] = id_str.format(int(get_extension_from_str(metadata['doi'])[1:]))
     
-    # TODO: parse rounds: in eLife they are containd within the same sub-article
+    # TODO: parse rounds: in eLife they are containd within the same sub-article sometimes
     
     metadata['reviewers'] = []
     for contrib in front.findall('.//contrib'):
@@ -69,12 +81,15 @@ def parse_subarticle(root: et.Element) -> dict:
                 'name': f"{contrib.find('.//given-names').text.strip()} {contrib.find('.//surname').text.strip()}"
             }
     # TODO: find out reviewer numbers and how many reviewers were anonymous
-    
 
-    # TODO: find supplementary materials (if any):
-    supplementary = []
+    # find supplementary materials (if any):
+    supplementary, i = [], 1
+    # TODO: code below was copied directly from PLOS and may not work for eLife supplementary materials (if there are any)
     for elem in body.findall('supplementary-material'):
-        sm = {'id': ('journal.'+elem.attrib['id']), # these will be in "short" doi format
+        # arbitrary generaion of id's
+        sm_id = a_short_doi+'.s'+str(i)
+        i+=1
+        sm = {'id': sm_id, # these will be in "short" doi format
               'original_filename': elem.find('.//named-content').text}
         sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
@@ -140,6 +155,8 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
             # if boxed_text is not None:
             #     logger.warning(f"found boxed_text in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
             if write_files:
+                if not os.path.exists(sub_articles_dir):
+                    os.mkdir(sub_articles_dir)
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
@@ -151,8 +168,6 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                  # saving this sub-article:
                 sub_a_filename = sub_a_metadata['id'] + '.xml'
                 sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
-                if not os.path.exists(sub_articles_dir):
-                    os.mkdir(sub_articles_dir)
                 subtree.write(sub_a_path)
                 sub_a_metadata['supplementary_materials'].append({
                     'filename': sub_a_filename, 'id': sub_a_metadata['id'], 'title': "This sub_article in XML."
@@ -181,15 +196,28 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     return metadata
 
 
-def get_article_files():
+def get_article_files(input_path):
     """
     Generator for obtaining the relevant files from eLife corpus: gets only the file with the newest version of a given article.
 
+    Args:
+        input_path: should point either to a zip file or a directory containing eLife XML articles
+
     Yields:
-        tuple: a tuple: `(filename, fp)` where `fp` is a readable filepointer to the file named `filename` located within `elife_corpus_path`.
+        tuple: a tuple: `(filename, fp)` where `fp` is a readable filepointer to the file named `filename`.
     """
+    
+    if os.path.isdir(input_path):
+        filenames = os.listdir(input_path)
+    else:
+        try:
+            elife_zip = ZipFile(input_path, 'r')
+            filenames = elife_zip.namelist()
+        except:
+            logger.error("The provided path is not a valid archive.")
+        
     articles = {}
-    for filename in os.listdir(elife_corpus_path):
+    for filename in filenames:
         filen = os.path.splitext(filename)
         # ignore everything that is not an XML
         if filen[1].lower() != '.xml':
@@ -207,26 +235,30 @@ def get_article_files():
         
     for a in articles:
         v_no, filename = articles[a]
-        fp = open(os.path.join(elife_corpus_path, filename), 'rb')  # using bytes because lxml.etree likes them better
+        if os.path.isdir(input_path):
+            fp = open(os.path.join(input_path, filename), 'rb')  # using bytes because lxml.etree likes them better
+        else:
+            fp = elife_zip.open(filename)
         yield filename, fp
         
 
 def process_article(a_filename, update = False, skip_sm_dl = False):
     logger.info(f'Processing {a_filename}')
-    with open(os.path.join(elife_corpus_path, a_filename), 'rb') as fp:
+    with open(a_filename, 'rb') as fp:
         a_xml = fp.read()
     return  parse_article_xml(a_xml, update = update, skip_sm_dl = skip_sm_dl)
     
 
-def process_elife_corpus(update = False, skip_sm_dl = False):
+def process_elife_corpus(input_path, update = False, skip_sm_dl = False):
     """
     Goes through the eLife corpus, parses metadata from each article.
-    For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
+    For each article in the corpus, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
     These files will be overwritten if the flag `update` is set to `True`.
     
     The XML files and JSON files containing reviewed articles and their metadata are saved into subdirectories named after the article's DOI.
     Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
     
+    :param input_path: should point either to a zip file or a directory containing eLife XML articles
     :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
     :param skip_sm_dl: whether to skip downloading supplementary materials. 
     
@@ -241,7 +273,7 @@ def process_elife_corpus(update = False, skip_sm_dl = False):
     reviewed_counter = 0
     errors_counter = 0 
     
-    for filename, fp in get_article_files():
+    for filename, fp in get_article_files(input_path):
         try:
             a_short_doi = filename_to_short_doi(filename)     # TODO: find a better, universal way to get identifiers from filenames
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
@@ -268,6 +300,5 @@ def process_elife_corpus(update = False, skip_sm_dl = False):
     
 
 if __name__ == '__main__':
-    logger.parent.handlers[0].setLevel("INFO")
-    process_article('elife-47612-v2.xml', True, False)
-    # process_elife_corpus(update = True)
+    # process_article('elife-47612-v2.xml', True, False)
+    process_elife_corpus(elife_corpus_path, update=True)

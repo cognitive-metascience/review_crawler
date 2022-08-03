@@ -6,7 +6,6 @@ Parsed metadata about each article in the zip file is saved to `plos/all_article
 """
 
 import json
-import logging
 import os
 import requests
 import lxml.etree as et
@@ -17,26 +16,21 @@ from allofplos.allofplos.article import Article
 from allofplos.allofplos.corpus.gdrive import unzip_articles
 from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
-from allofplos.allofplos import ALLOFPLOS_DIR_PATH
 
-from utils import cook, get_extension_from_str, get_logger, CRAWLER_DIR, OUTPUT_DIR
+from utils import cook, get_extension_from_str, get_logger, OUTPUT_DIR, INPUT_DIR
 
 # globals:
 
 # paths relative to `CRAWLER_DIR`, this is where parsed data is saved
-ALL_ARTICLES_DIR = 'plos/all_articles' 
-FILTERED_DIR = 'plos/reviewed_articles'
+ALL_ARTICLES_DIR = os.path.join('plos','all_articles' )
+FILTERED_DIR = os.path.join('plos','reviewed_articles')
 all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-zipfile_dir = os.path.dirname(ALLOFPLOS_DIR_PATH)   # NOTE: subject to change
-zipfile_path = os.path.join(zipfile_dir, 'allofplos_xml.zip') 
+zipfile_path = os.path.join(INPUT_DIR, 'allofplos_xml.zip')
 
 
-# for logging:
-logs_path = os.path.join(CRAWLER_DIR, 'logs')
-json_logfile = os.path.join(logs_path, 'plos_lastrun.json')
-logger = get_logger("plosLogger", logs_path)
+logger = get_logger("plos", fileh_level='DEBUG', streamh_level='WARNING')
 
 
 def url_to_doi(url) -> str:
@@ -151,10 +145,6 @@ def parse_subarticle(root) -> dict:
         sm['filename'] = sm['id'] + get_extension_from_str(sm['original_filename'])
         supplementary.append(sm)
 
-    supplementary.append({
-        'filename': metadata['id'] + '.xml', 'id': metadata['id'],
-        'title': "This sub-article in XML"
-    })
     metadata['supplementary_materials'] = supplementary
     return metadata
 
@@ -220,6 +210,8 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
             if boxed_text is not None:
                 logger.warning(f"{boxed_text.find('.//title').text.strip()} in {sub_a_metadata['doi']}:\n{boxed_text.find('.//p').text.strip()}")
             if write_files:
+                if not os.path.exists(sub_articles_dir):
+                    os.mkdir(sub_articles_dir)
                 # download supplementary materials (if any)
                 if not skip_sm_dl and 'supplementary_materials' in sub_a_metadata.keys():
                     for sm in sub_a_metadata['supplementary_materials']:
@@ -229,19 +221,16 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                             r = requests.get(url, stream=True)
                             fp.write(r.content)
                  # saving this sub-article:
-                sub_a_id =  sub_a_metadata['id']
-                sub_a_filename = sub_a_id + '.xml'
+                sub_a_filename = sub_a_metadata['id'] + '.xml'
                 sub_a_path = os.path.join(sub_articles_dir, sub_a_filename)
-                if not os.path.exists(sub_articles_dir):
-                    os.mkdir(sub_articles_dir)
                 subtree.write(sub_a_path)
                 sub_a_metadata['supplementary_materials'].append({
-                    'filename': sub_a_filename, 'id': sub_a_id, 'title': "This sub_article in XML."
+                    'filename': sub_a_filename, 'id': sub_a_metadata['id'], 'title': "This sub_article in XML."
                 })
                 # save metadata to JSON:
-                with open(os.path.join(sub_articles_dir, sub_a_id + '.json'), 'w+') as fp:
+                with open(os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.json'), 'w+') as fp:
                     json.dump(sub_a_metadata, fp)
-                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}/{a_short_doi}")
+                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}{os.path.sep}{a_short_doi}")
             metadata['sub_articles'].append(sub_a_metadata)
             
         if write_files:
@@ -262,9 +251,14 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     return metadata
     
     
-def get_article_files():
+def get_article_files(reviewed_only=False):
     allofplos_zip = ZipFile(zipfile_path, 'r')
-    for filename in allofplos_zip.namelist():
+    if reviewed_only:
+        reviewed = os.listdir(filtered_path)
+        filenames = filter(lambda f: os.path.splitext(f)[0] in reviewed, allofplos_zip.namelist())
+    else:
+        filenames = allofplos_zip.namelist()
+    for filename in filenames:
         fp = allofplos_zip.open(filename)
         yield filename, fp
 
@@ -279,10 +273,12 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
     
     :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
-    :param reviewed_only:  if set to `True`, and if `update` is also `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
+    :param reviewed_only:  if set to `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
+    :param skip_sm_dl: whether to skip downloading supplementary materials. 
+    
     """
 
-    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update} | reviewed_only = {reviewed_only}')
+    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update}, reviewed_only = {reviewed_only}, skip_sm_dl = {skip_sm_dl}')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -291,21 +287,18 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
 
     reviewed_counter = 0
     errors_counter = 0 
+    
+    reviewed = os.listdir(filtered_path)
 
-    for filename, fp in get_article_files():
+    for filename, fp in get_article_files(reviewed_only = reviewed_only):
         try:
             a_short_doi = os.path.splitext(filename)[0]     # TODO: find a better, universal way to get identifiers from filenames
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
-            # skipping files that were already parsed:
-            if not reviewed_only:
-                if metadata_file_exists and not update and not a_short_doi in os.listdir(filtered_path):    # NOTE: reviewed articles are NEVER skipped
-                    logger.debug(f'Skipping {filename} as it was already parsed.')
-                    continue
-                elif metadata_file_exists and update:
-                    logger.warning(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
-            if not os.path.exists(os.path.join(filtered_path, a_short_doi)) and reviewed_only:
-                logger.debug(f'Skipping {filename} as it probably does not have reviews.')
+            if metadata_file_exists and not update and not a_short_doi in reviewed:    # NOTE: reviewed articles are NEVER skipped
+                logger.debug(f'Skipping {filename} as it was already parsed.')
                 continue
+            elif metadata_file_exists and update:
+                logger.info(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
             logger.info(f'Processing {filename}')
             a_xml = fp.read()
             fp.close()
@@ -322,7 +315,5 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     
 
 if __name__ == '__main__':
-    # set logging:
-    logger.handlers[0].setLevel(logging.INFO)
     # download_allofplos_zip(unzip = False)
-    process_allofplos_zip(update = True, skip_sm_dl = False)
+    process_allofplos_zip(update = True, reviewed_only = False, skip_sm_dl = False)

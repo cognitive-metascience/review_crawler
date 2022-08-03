@@ -38,7 +38,7 @@ class MdpiSpider(ArticlesSpider):
         else:
             return None
 
-    def parse_metadata(self, response) -> dict:
+    def parse_article(self, response) -> dict:
         soup = BeautifulSoup(response.text, 'lxml')
         
         metadata = {}

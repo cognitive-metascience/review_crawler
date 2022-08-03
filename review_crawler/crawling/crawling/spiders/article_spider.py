@@ -20,8 +20,10 @@ class ArticlesSpider(Spider):
         super().__init__(name, **kwargs)
         self.search_url = self.base_url + self.search_query
         self.logger.info(f"Setting up a {self.name.capitalize()}Spider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}")
+        self.files_dumped_counter = 0
         if dump_dir is None:
             self.logger.warning("dump_dir is None. JSON files will not be saved!")
+            self.dump_dir = dump_dir
         elif os.path.isdir(dump_dir):
             self.dump_dir = dump_dir
         else:
@@ -97,5 +99,7 @@ class ArticlesSpider(Spider):
             self.logger.exception(f"Problem while saving to file: {filepath}.\n{e}")
         else:
             self.logger.info(f"Saved metadata to {dirname}/{filename}.json")
+            self.files_dumped_counter += 1
+            
 
     

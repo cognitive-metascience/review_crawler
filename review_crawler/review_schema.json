@@ -61,6 +61,7 @@
                 "properties": {
                     "original_filename":{
                         "$id": "#properties/supplementary_materials/items/properties/original_filename",
+                        "type": "string",
                         "title": "File that contains this supplementary material.",
                         "examples": ["Response to Reviewers.docx"]
                     }

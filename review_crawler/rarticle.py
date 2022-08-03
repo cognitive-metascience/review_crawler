@@ -9,10 +9,10 @@ import requests
 
 from allofplos.allofplos import get_corpus_dir
 from allofplos.allofplos.transformations import (filename_to_doi, _get_base_page, LANDING_PAGE_SUFFIX,
-                              URL_SUFFIX, plos_page_dict, doi_url, doi_to_url, doi_to_path)
+                              URL_SUFFIX, plos_page_dict, doi_url)
 from allofplos.allofplos.plos_regex import validate_doi
 from allofplos.allofplos.elements import (parse_article_date, get_contrib_info,
-                       Journal, License, match_contribs_to_dicts)
+                       License, match_contribs_to_dicts)
 from allofplos.allofplos.utils import dedent
 
 

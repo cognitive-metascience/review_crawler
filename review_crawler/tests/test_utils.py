@@ -9,6 +9,7 @@ from .. import utils
 example_url = "http://www.example.com"
 
 logsdir_path = os.path.join(os.path.dirname(__file__), 'logs')
+# os.remove(os.path.join(logsdir_path, 'test_this_is_a.log'))
 
 
 @pytest.fixture
@@ -24,21 +25,22 @@ def sample_dir(tmpdir):
     return dir
 
 
-def test_get_logger():
-    logger = utils.get_logger("test", logsdir_path, log_filename='test_logger.log',
+def test_get_logger(tmpdir):
+    logger = utils.get_logger("test", logsdir_path, log_filename='this_is_a.log',
                                  fileh_level=logging.DEBUG, streamh_level=logging.DEBUG)
     # debug logging in terminal will most likely be surpressed by settings in pytest.ini                             
     logger.debug('test log')
-    fp = open(os.path.join(logsdir_path, 'test_logger.log'))
+    fp = open(os.path.join(logsdir_path, 'test_this_is_a.log'))   
+    # by default log filenames get the^logger name appended at start
     assert "DEBUG:test log" in fp.readlines()[-1]
     fp.close()
-    os.remove(os.path.join(logsdir_path, 'test_logger.log'))
+    os.remove(os.path.join(logsdir_path, 'test_this_is_a.log'))
     
 def test_filter_articles(tmpdir, sample_dir):
     assert len(os.listdir(sample_dir)) == 4
     filtered_dir = os.path.join(tmpdir, 'filtered')
     os.mkdir(filtered_dir)
-    utils.filter_articles(sample_dir, filtered_dir)
+    utils.filter_articles(sample_dir, filtered_dir, key = 'has_reviews')
     assert len(os.listdir(filtered_dir)) == 2
 
 def test_cook():
