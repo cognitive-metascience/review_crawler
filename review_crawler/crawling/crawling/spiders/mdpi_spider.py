@@ -19,11 +19,11 @@ class MdpiSpider(ArticlesSpider):
     search_query = "/search?page_count=10&article_type=research-article&page_no="
 
     def __init__(self, dump_dir=None, start_page=None, stop_page=None, journal=None, name=None, **kwargs):
+        if journal is not None:
+            self.search_query = "/search?page_count=10&journal="+journal+"&article_type=research-article&page_no="
         super().__init__(dump_dir, start_page, stop_page, name, **kwargs)
 
-        if journal is not None:
-            pass    # todo     
-
+            
     def parse_searchpage(self, response):
         articles = response.css('div.article-content a.title-link')
         yield from response.follow_all(articles, self.parse_article)
@@ -88,6 +88,10 @@ class MdpiSpider(ArticlesSpider):
             metadata['has_reviews'] = True
             # warning: this found url may point to the same url as the article
             # (it could end with #review_report) in which case reviews should be parsed differently
-            metadata['reviews_url'] = metadata['url'] + find['href']
+            
+            # TODO check if all mdpi articles have this url format
+            metadata['reviews_url'] = self.base_url + find['href']
 
+        self.dump_metadata(metadata, self.shorten_doi(metadata['doi']))
+        
         return metadata

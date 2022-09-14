@@ -33,8 +33,8 @@ class ArticlesSpider(Spider):
             start_url = self.search_url + str(start_page)
             self.start_page = int(start_page)
         else:
-            start_url = self.search_url + "1"   # starts from page number 1 by default
-            self.start_page = 1
+            start_url = self.search_url + "0"   # starts from page number 0 by default
+            self.start_page = 0
         self.stop_page = stop_page
         self.start_urls = [start_url]
         
