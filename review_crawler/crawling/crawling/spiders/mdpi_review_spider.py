@@ -47,7 +47,7 @@ class MdpiReviewSpider(ArticlesSpider):
                 self.logger.warning(f"Unexpectedly, didn't find file with metadata in dump_dir/{dir}")
                 continue
             
-            with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r') as fp:
+            with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r', encoding="utf-8") as fp:
                 meta = json.load(fp)
                 if meta['has_reviews']:
                     urls.append(meta['reviews_url']) 
@@ -144,7 +144,7 @@ class MdpiReviewSpider(ArticlesSpider):
                         if dump:
                             fp.close()
                         # open a file for writing plaintext article content
-                        fp = open(os.path.join(self.dump_dir, sub_a_dir, filename), 'w+')
+                        fp = open(os.path.join(self.dump_dir, sub_a_dir, filename), 'w+', encoding="utf-8")
                         self.files_dumped_counter += 1
                         dump = True
                         
