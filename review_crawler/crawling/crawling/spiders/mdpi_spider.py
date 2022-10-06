@@ -11,16 +11,21 @@ RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 CURRPG_REG = re.compile(r"page_no=([0-9]+)&?")
 
 
+# query parameters
+YEAR_FROM = "2005"
+YEAR_TO = "2022
+
 class MdpiSpider(ArticlesSpider):
     name = "mdpi"
     allowed_domains = ["www.mdpi.com"]
     shorten_doi = lambda self, doi: doi.split('/')[-1]
     base_url = "https://www.mdpi.com"
-    search_query = "/search?page_count=10&article_type=research-article&page_no="
+    search_query = "/search?page_count=10&article_type=research-article&year_from=" YEAR_FROM + "&year_to=" + YEAR_TO
 
     def __init__(self, dump_dir=None, start_page=None, stop_page=None, journal=None, name=None, **kwargs):
         if journal is not None:
-            self.search_query = "/search?page_count=10&journal="+journal+"&article_type=research-article&page_no="
+            self.search_query += "&journal=" + journal
+        self.search_query += "&page_no="
         super().__init__(dump_dir, start_page, stop_page, name, **kwargs)
 
             
