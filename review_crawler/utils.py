@@ -102,38 +102,61 @@ def clean_log_folder(logs_path=LOGS_DIR):
         os.rmdir(logs_path)
 
 
-def filter_articles(src, dest, key, update = False) -> None:
+def filter_articles(src, dest, key, 
+                    scan_subdirs = True, update = False) -> None:
     """
     Given two directories: src and dest, will try to read JSON files from src, and move them to dest if they contain property `key` and it's set to True
-
+    The parameter scan_subdirs sets whether the search will go one lever deeper in search for JSON files.
     """
     if not os.path.exists(dest):
         os.makedirs(dest)
     
-    json_files = [f for f in os.listdir(os.path.abspath(src)) if f.lower().endswith('.json')]
-    for file in json_files:
-        filepath = os.path.join(os.path.abspath(src), file)
+    
+    if scan_subdirs:
+        json_files = []
+        for dir in [p for p in os.listdir(src) if os.path.isdir(os.path.join(src, p))]:
+            json_files += [(dir, f) for f in os.listdir(
+                os.path.abspath(os.path.join(src, dir))) if f.lower().endswith('.json')]
+    else:        
+        json_files = [(src, f) for f in os.listdir(os.path.abspath(src)) if f.lower().endswith('.json')]
+    logging.info(f"Loaded {len(json_files)} JSON files.")
+    for dir, file in json_files:
+        if scan_subdirs:
+            filepath = os.path.join(os.path.abspath(src), dir, file)
+        else:
+            filepath = os.path.join(os.path.abspath(src), file)
         if os.path.isdir(filepath):
             continue
-        with open(filepath) as fp:
-            try:
-                article = json.load(fp)
-                if key not in article:
-                    logging.info(f"{file} does not match the expected JSON format: Does not have '{key}' as a property.")
-                    continue
-                if not isinstance(article[key], bool):
-                    logging.info(f"{file} does not match the expected JSON format: '{key}' is not a bool!.")
-                    continue
-                v = article.get(key)
-                if v is not None:
-                    if os.path.exists(os.path.join(dest, file)) and not update:
-                        logging.info(f"{file} already in {dest}. Will NOT overwrite.")
-                    else:
-                        logging.debug(f"Moving {file} to {dest}")    
-                        shutil.move(filepath, dest)
+        fp = open(filepath, 'r', encoding='utf-8')
+        try:
+            article = json.load(fp)
+            fp.close()
+            if key not in article:
+                logging.info(f"{dir}/{file} does not match the expected JSON format: Does not contain the property '{key}'.")
+                continue
+            if not isinstance(article[key], bool):
+                logging.info(f"{dir}/{file} does not match the expected JSON format: '{key}' is not a bool!")
+                continue
+            v = article.get(key)
+            if v is None:
+                logging.info(f"{dir}/{file} does not match the expected JSON format: '{key}' is None!")
+                continue
+            if scan_subdirs:
+                if os.path.exists(os.path.join(dest, dir)) and not update:
+                    logging.info(f"{dir} already in {dest}. Will NOT overwrite.")
                 else:
-                    logging.info(f"{file} does not match the expected JSON format: '{key}' is not a bool!.")
-            except UnicodeDecodeError as e:
-                logging.error(f"{file} does not contain valid Unicode data.\nFull traceback:{e}")
-            except json.JSONDecodeError as e:
-                logging.error(f"{file} does not contain valid JSON data.\nFull traceback:{e.msg}")
+                    logging.debug(f"Moving {dir} to {dest}")    
+                    shutil.move(os.path.join(src, dir), dest)
+            else:
+                if os.path.exists(os.path.join(dest, file)) and not update:
+                    logging.info(f"{file} already in {dest}. Will NOT overwrite.")
+                else:
+                    logging.debug(f"Moving {file} to {dest}")    
+                    shutil.move(filepath, dest)
+        except UnicodeDecodeError as e:
+            logging.error(f"{dir}/{file} does not contain valid Unicode data.\nFull traceback:{e}")
+        except json.JSONDecodeError as e:
+            logging.error(f"{dir}/{file} does not contain valid JSON data.\nFull traceback:{e.msg}")
+        except PermissionError as e:
+            logging.error(f"PermissionError while moving {dir}/{file}:\n{e.msg}")
+            
