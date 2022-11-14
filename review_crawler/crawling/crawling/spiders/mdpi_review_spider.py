@@ -1,5 +1,6 @@
 import json
 import re
+import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import os
@@ -21,8 +22,7 @@ class MdpiReviewSpider(ArticlesSpider):
     shorten_doi = lambda self, doi: doi.split('/')[-1]
 
     def __init__(self, url=None, dump_dir=None, update='no', name=None, **kwargs):
-        super().__init__(dump_dir=dump_dir, name=name, **kwargs)
-        self.update = update.lower() in ("yes", "true", "t", "1")
+        super().__init__(dump_dir=dump_dir, update=update, name=name, **kwargs)
         if url is None:
             if self.dump_dir is None:
                 e = "Cannot scrape a review without providing one of: `dump_dir` or `url`."
@@ -32,25 +32,51 @@ class MdpiReviewSpider(ArticlesSpider):
                 self.start_urls = self.find_urls()
         else:
             self.start_urls = [url]
-        self.logger.info(f"len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
+        self.logger.info(f"[mdpi review spider] len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
 
             
     def find_urls(self):
         """finds urls containing reviews from article metadata in dump_dir"""
         urls = []
-        for dir in os.listdir(self.dump_dir):
-            # dump_dir should contain directories named after dois
-            # with files named metadata.json
-            if os.path.isfile(dir): 
-                continue
-            if not os.path.exists(os.path.join(self.dump_dir, dir, 'metadata.json')):
-                self.logger.warning(f"Unexpectedly, didn't find file with metadata in dump_dir/{dir}")
-                continue
+        self.logger.debug("Attempting to find_urls for mdpi reviews...")
+        
+        if os.path.exists(os.path.join(self.dump_dir, "reviews-urls.csv")):
+            self.logger.debug("Located reviews-urls.csv in dump_dir!")
+            df = pd.read_csv(os.path.join(self.dump_dir, "reviews-urls.csv"))
+            if len(df) == 0:
+                self.logger.debug("But there are no urls to be found...")
+            else:
+                urls = df.reviews_url.to_list()
             
-            with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r', encoding="utf-8") as fp:
-                meta = json.load(fp)
-                if meta['has_reviews']:
-                    urls.append(meta['reviews_url']) 
+        if len(urls) == 0:
+            self.logger.debug("Going through dump_dir to find urls of reviewed articles...")
+            
+            df = pd.DataFrame()
+            for i, dir in enumerate(os.listdir(self.dump_dir)):
+                # dump_dir should contain directories named after dois
+                # with files named metadata.json
+                if os.path.isfile(dir): 
+                    continue
+                if not os.path.exists(os.path.join(self.dump_dir, dir, 'metadata.json')):
+                    self.logger.warning(f"Unexpectedly, didn't find file with metadata in dump_dir/{dir}")
+                    continue
+                if not self.update and os.path.exists(os.path.join(self.dump_dir, dir, 'sub-articles')):
+                    if len(os.listdir(os.path.join(self.dump_dir, dir, 'sub-articles'))) > 0:
+                        self.logger.debug(f"Skipping doi {dir} as it already has a sub-articles folder.")
+                        continue
+                with open(os.path.join(self.dump_dir, dir, 'metadata.json'), 'r', encoding="utf-8") as fp:
+                    meta = json.load(fp)
+                    if meta['has_reviews']:
+                        df = pd.concat([df, pd.DataFrame({
+                            'doi': meta['doi'],
+                            'reviews_url': meta['reviews_url']
+                                }, index={i})])
+                        urls.append(meta['reviews_url']) 
+                if i%10000 == 0:
+                    self.logger.debug(f"{len(urls)} urls with reviews found thus far.")
+            
+            df.to_csv(os.path.join(self.dump_dir, "reviews-urls.csv"), index = False)
+        
         return urls
 
     def parse(self, response):
@@ -75,7 +101,7 @@ class MdpiReviewSpider(ArticlesSpider):
         a_short_doi = self.shorten_doi(original_a_doi)
         
         if self.dump_dir is not None:
-            sub_a_dir =  a_short_doi + '/sub-articles'
+            sub_a_dir =  os.path.join(a_short_doi, 'sub-articles')
             os.makedirs(os.path.join(self.dump_dir, sub_a_dir), exist_ok=True)
         
         reviewers = []
@@ -107,6 +133,9 @@ class MdpiReviewSpider(ArticlesSpider):
                         }
                     for a in response.css('div#abstract.abstract_div div p a'):
                         file_url = a.css('::attr(href)').get()
+                        if file_url.startswith('/'):
+                            # most likely a missing http schema...
+                            file_url = "https:/" + file_url
                         orig_filename = a.css('::text').get().strip()
                         filex = os.path.splitext(orig_filename)[1]
                         # arbitrary generaion of id's
@@ -127,7 +156,9 @@ class MdpiReviewSpider(ArticlesSpider):
                         for sm in ard['supplementary_materials']:
                             sm_path = os.path.join(self.dump_dir, sub_a_dir, sm['filename'])
                             if os.path.exists(sm_path) and not self.update:
-                                self.logger.info(f"{sm['filename']} already exists. Will NOT overwrite.")
+                                self.logger.debug(f"{sm['filename']} already exists. Will NOT overwrite.")
+                            elif "email-protection" in sm['url']:
+                                self.logger.error(f"Impossible to download {sm['filename']} from {sm['url']} due to {sm['original_filename']}")
                             else:
                                 with open(sm_path, 'wb') as f:
                                     self.logger.debug(f"Downloading supplementary material from {sm['url']}")
@@ -140,13 +171,17 @@ class MdpiReviewSpider(ArticlesSpider):
                         ard['supplementary_materials'].append(
                             {'filename':filename,  'id':filen, 
                             'title':"This sub_article in plaintext."})
-                        self.dump_metadata(ard, sub_a_dir, filen)
+                        self.dump_metadata(ard, sub_a_dir, filen, overwrite = self.update)
                         if dump:
                             fp.close()
-                        # open a file for writing plaintext article content
-                        fp = open(os.path.join(self.dump_dir, sub_a_dir, filename), 'w+', encoding="utf-8")
-                        self.files_dumped_counter += 1
-                        dump = True
+                        fp_path = os.path.join(self.dump_dir, sub_a_dir, filename)
+                        if os.path.exists(fp_path) and not self.update:
+                           self.logger.debug(f"{fp_path} already exists. Will NOT overwrite.") 
+                        else:
+                            # open a file for writing plaintext article content
+                            fp = open(fp_path, 'w+', encoding="utf-8")
+                            self.files_dumped_counter += 1
+                            dump = True
                         
                     yield ard
             if dump:
@@ -164,7 +199,7 @@ class MdpiReviewSpider(ArticlesSpider):
         original_a_doi = DOI_PATTERN.search(div.get()).group()
         a_short_doi = self.shorten_doi(original_a_doi)
         if self.dump_dir is not None:
-            sub_a_dir =  a_short_doi + '/sub-articles'
+            sub_a_dir =  os.path.join(a_short_doi, '/sub-articles')
             os.makedirs(os.path.join(self.dump_dir, sub_a_dir), exist_ok=True)
         ard = {
                 'url': response.url + '#review_report',
@@ -191,7 +226,7 @@ class MdpiReviewSpider(ArticlesSpider):
                 if self.dump_dir is not None:
                     sm_path = os.path.join(self.dump_dir, sub_a_dir, filename)
                     if os.path.exists(sm_path) and not self.update:
-                        self.logger.info(f"{filename} already exists. Will NOT overwrite.")
+                        self.logger.debug(f"{filename} already exists. Will NOT overwrite.")
                     else:
                         with open(sm_path, 'wb') as fp:
                             self.logger.debug(f'Downloading supplementary material from {url}')
@@ -199,5 +234,5 @@ class MdpiReviewSpider(ArticlesSpider):
                             fp.write(r.content)
                             self.files_dumped_counter += 1
         if self.dump_dir is not None:
-            self.dump_metadata(ard, sub_a_dir, a_short_doi+'.r')    # todo: change the naming convention?
+            self.dump_metadata(ard, sub_a_dir, a_short_doi+'.r', overwrite=self.update)    # todo: change the naming convention?
         yield ard
