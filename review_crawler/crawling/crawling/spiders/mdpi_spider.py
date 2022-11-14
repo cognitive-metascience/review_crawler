@@ -1,3 +1,4 @@
+import logging
 import re
 
 from bs4 import BeautifulSoup
@@ -11,22 +12,25 @@ RETRACTION_PATTERN = re.compile(r"Retraction published on \d+")
 CURRPG_REG = re.compile(r"page_no=([0-9]+)&?")
 
 
-# query parameters
-YEAR_FROM = "2005"
-YEAR_TO = "2022
-
 class MdpiSpider(ArticlesSpider):
     name = "mdpi"
     allowed_domains = ["www.mdpi.com"]
     shorten_doi = lambda self, doi: doi.split('/')[-1]
     base_url = "https://www.mdpi.com"
-    search_query = "/search?page_count=10&article_type=research-article&year_from=" YEAR_FROM + "&year_to=" + YEAR_TO
+    search_query = "/search?page_count=10&article_type=research-article"
 
-    def __init__(self, dump_dir=None, start_page=None, stop_page=None, journal=None, name=None, **kwargs):
+    def __init__(self, dump_dir=None, year_from=None, year_to=None,
+                       start_page=None, stop_page=None, journal=None,
+                       update = "no",
+                       name=None, **kwargs): 
+        if year_from is not None:
+            self.search_query += "&year_from=" + year_from
+        if year_to is not None:
+            self.search_query += "&year_to=" + year_to
         if journal is not None:
             self.search_query += "&journal=" + journal
         self.search_query += "&page_no="
-        super().__init__(dump_dir, start_page, stop_page, name, **kwargs)
+        super().__init__(dump_dir, start_page, stop_page, update, name, **kwargs)
 
             
     def parse_searchpage(self, response):
@@ -97,6 +101,7 @@ class MdpiSpider(ArticlesSpider):
             # TODO check if all mdpi articles have this url format
             metadata['reviews_url'] = self.base_url + find['href']
 
-        self.dump_metadata(metadata, self.shorten_doi(metadata['doi']))
+        if self.dump_dir is not None:
+            self.dump_metadata(metadata, self.shorten_doi(metadata['doi']))
         
         return metadata
