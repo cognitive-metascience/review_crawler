@@ -70,9 +70,9 @@ class MdpiReviewSpider(ArticlesSpider):
                         df = pd.concat([df, pd.DataFrame({
                             'doi': meta['doi'],
                             'reviews_url': meta['reviews_url']
-                                }, index={i})])
+                                }, index=[i])])
                         urls.append(meta['reviews_url']) 
-                if i%10000 == 0:
+                if (i-1)%1000 == 0:
                     self.logger.debug(f"{len(urls)} urls with reviews found thus far.")
             
             df.to_csv(os.path.join(self.dump_dir, "reviews-urls.csv"), index = False)
@@ -131,7 +131,7 @@ class MdpiReviewSpider(ArticlesSpider):
                             'round': round_no,
                             'supplementary_materials': []
                         }
-                    for a in response.css('div#abstract.abstract_div div p a'):
+                    for a in response.css('div#abstract.abstract_div div p a'):   ### PROBABLY PROBLEMATIC - DON'T DO THE CSS ON RESPONSE, DO IT ON span or p INSTEAD!!!
                         file_url = a.css('::attr(href)').get()
                         if file_url.startswith('/'):
                             # most likely a missing http schema...

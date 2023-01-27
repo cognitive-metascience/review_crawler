@@ -1,5 +1,5 @@
 
-"""test crawler for going through the `allofplos_xml.zip` file. The zip file will be downloaded to `allofplos` directory.
+"""crawler for going through the `allofplos_xml.zip` file. The zip file will be downloaded to `allofplos` directory.
 Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into subdirectories in `plos/reviewed_articles`.
 Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files.
 Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory
@@ -28,6 +28,7 @@ all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
 zipfile_path = os.path.join(INPUT_DIR, 'allofplos_xml.zip')
+zipfile_dir = INPUT_DIR
 
 
 logger = get_logger("plos", fileh_level='DEBUG', streamh_level='WARNING')
@@ -315,5 +316,5 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     
 
 if __name__ == '__main__':
-    # download_allofplos_zip(unzip = False)
+    download_allofplos_zip(unzip = False)
     process_allofplos_zip(update = True, reviewed_only = False, skip_sm_dl = False)
