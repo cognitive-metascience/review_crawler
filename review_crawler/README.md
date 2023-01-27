@@ -52,3 +52,7 @@ In the `output/elife` folder you should find the results, in the same format as 
 ### MDPI crawler
 
 Consists of two dedicated [__Scrapy__](https://scrapy.org) spiders. For usage instructions, consult the [Readme file in the `crawling`](/review_crawler/crawling/) directory which contains the Scrapy project. 
+
+## License
+
+BSD-2-Clause. See the [LICENSE.txt](/review_crawler/LICENSE.txt) file.
