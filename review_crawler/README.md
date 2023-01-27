@@ -10,10 +10,6 @@ Install required Python packages:
 
 ```pip install -r requirements.txt```
 
-The following command clones the __allofplos__ fork, which is necessary to run `plos_crawler`, and also downloads the entire eLife corpus from the __elife-article-xml__ repo (be warned: this corpus contains nearly 3 GB of data!):
-
-```git submodule update --init```
-
 
 
 
@@ -55,4 +51,4 @@ In the `output/elife` folder you should find the results, in the same format as 
 
 ### MDPI crawler
 
-Consists of two dedicated [__Scrapy__](https://scrapy.org) spiders. For usage instructions, consult the [Readme in the `crawling`](/review_crawler/crawling/) directory which contains the Scrapy project. 
+Consists of two dedicated [__Scrapy__](https://scrapy.org) spiders. For usage instructions, consult the [Readme file in the `crawling`](/review_crawler/crawling/) directory which contains the Scrapy project. 
