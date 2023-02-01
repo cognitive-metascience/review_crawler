@@ -1,0 +1,182 @@
+{
+    "$id": "./article_schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "required": [
+        "title",
+        "authors",
+        "doi",
+        "url",
+        "journal",
+        "publication_date",
+        "keywords",
+        "retracted",
+        "has_reviews"
+    ],
+    "title": "The schema of an article.",
+    "type": "object",
+    "properties": {
+        "title": {
+            "$id": "#/properties/title",
+            "examples": [
+                "Sentience and the Origins of Consciousness: From Cartesian Duality to Markovian Monism"
+            ],
+            "title": "Title of the article.",
+            "type": "string"
+        },
+        "authors": {
+            "$id": "#/properties/authors",
+            "title": "Array of authors of the article.",
+            "examples": [
+                [
+                    "Karl J. Friston",
+                    "Wanja Wiese"
+                ]
+            ],
+            "type": "array",
+            "additionalItems": true
+        },
+        "doi": {
+            "$id": "#/properties/doi",
+            "title": "DOI link of the article.",
+            "examples": [
+                "https://doi.org/10.3390/e22050516"
+            ],
+            "type": "string"
+        },
+        "url": {
+            "$id": "#/properties/url",
+            "title": "Direct URL of the article.",
+            "examples": [
+                "https://www.mdpi.com/1099-4300/22/5/516"
+            ],
+            "type": "string"
+        },
+        "journal": {
+            "$id": "#/properties/journal",
+            "title": "Journal in which the article was published.",
+            "examples": [
+                {
+                    "title": "Entropy",
+                    "volume": 22,
+                    "issue": 5
+                }
+            ],
+            "required": [
+                "title",
+                "volume"
+            ],
+            "type": "object",
+            "properties": {
+                "name": {
+                    "$id": "#/properties/journal/properties/name",
+                    "title": "Name of the journal in which the article was published.",
+                    "examples": [
+                        "Entropy"
+                    ],
+                    "type": "string"
+                },
+                "volume": {
+                    "$id": "#/properties/journal/properties/volume",
+                    "title": "Volume of the journal in which the article was published.",
+                    "examples": [
+                        22
+                    ],
+                    "type": "integer"
+                },
+                "issue": {
+                    "$id": "#/properties/journal/properties/issue",
+                    "title": "Issue of the journal in which the article was published.",
+                    "examples": [
+                        5
+                    ],
+                    "type": "integer"
+                }
+            }
+        },
+        "publication_date": {
+            "$id": "#/properties/publication_date",
+            "title": "Date of the publication of the article.",
+            "$comment": "There are probably better ways of storing date",
+            "examples": [
+                {
+                    "year": 2020,
+                    "month": 4,
+                    "day": 30
+                }
+            ],
+            "required": [
+                "year"
+            ],
+            "type": "object",
+            "properties": {
+                "year": {
+                    "$id": "#/properties/publication_date/properties/year",
+                    "type": "integer"
+                },
+                "month": {
+                    "$id": "#/properties/publication_date/properties/month",
+                    "type": "integer"
+                },
+                "day": {
+                    "$id": "#/properties/publication_date/properties/day",
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false
+        },
+        "keywords": {
+            "$id": "#/properties/keywords",
+            "default": [],
+            "title": "Keywords of the article.",
+            "examples": [
+                [
+                    "consciousness",
+                    "information geometry"
+                ]
+            ],
+            "type": "array",
+            "additionalItems": true
+        },
+        "retracted": {
+            "$id": "#/properties/retracted",
+            "default": false,
+            "title": "Whether the article was retracted or not.",
+            "examples": [
+                false
+            ],
+            "type": "boolean"
+        },
+        "has_reviews":{
+            "$id": "#/properties/has_reviews",
+            "type": "boolean",
+            "title": "Does this article have open access reviews? Defaults to false.",
+            "default": false
+        },
+        "reviews_url":{
+            "$id": "#/properties/reviews_url",
+            "type": "string",
+            "title": "URL pointing to a webpage from which reviews are accessible.",
+            "description": "Really should be provided if has_reviews is true",
+            "examples": ["https://journals.plos.org/plosone/article/peerReview?id=10.1371/journal.pone.0262049"]
+        },
+        "reviews": {
+            "$id": "#/properties/reviews",
+            "type": "array",
+            "title": "An array of the reviews of the article",
+            "default": [],
+            "items": {
+                "$ref": "./review_schema.json"
+            }
+        },
+        "sub_articles": {
+            "$id": "#/properties/sub_articles",
+            "type":"array",
+            "title": "An array of sub_articles of the article",
+            "default":[],
+            "description": "Sub-articles are reviews, publisher notes, author comments and responses to reviews etc.",
+            "items": {
+                "$ref": "./sub_article_schema.json"
+            }
+        }
+    }
+}

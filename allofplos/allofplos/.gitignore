@@ -1,0 +1,16 @@
+allofplos_xml/
+*.zip
+*.log
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+*.nxml
+*.txt
+!dois.txt
+*.json
+*.swp
+*.pyc
+*.js
+*.xlsx
+*.csv
+*.iml
+*.gz

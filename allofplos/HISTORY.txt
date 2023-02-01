@@ -1,0 +1,46 @@
+0.11.1
+Fixes
+fix bugs creating journal URLs and getting related article DOIs
+
+0.11.0
+New Features
+– Article class properties: Taxonomy, Creative Commons license, volume, issue, elocation, doi_link
+– Many new Corpus class utilities with tutorial Jupyter Notebook, including `len(Corpus())`,`for article in Corpus()`,`Corpus.random_article`
+– Deprecates allofplos.plos_corpus in favor of allofplos.update
+
+Fixes
+– Removes all reference to PLOS's internal URLs
+– URLs now journal-specific; can construct each type of article link (to XML, to landing page, etc)
+– Tests no longer require internet connection, but do require pytest
+– Update readme and instructions for devs
+– Reorganize corpus code
+– Fixes Article class properties: abstract, figure-count, table-count, journal
+– Fixes bugs in transformations & download functions
+
+0.10.2 Fix updating uncorrected proofs to versions of record
+
+0.10.1 Fix unicode download and print statement
+
+0.10.0 Corpus changes
+- new Corpus class
+- customize location of corpus directory
+- rename seed corpus to starter corpus
+- two new Article class properties: revision date for VORs (revdate) and rich article title that includes HTML markup (rich_title)
+- initialize TravisCI testing
+- update tqdm progress bars to disable if not on command line (i.e. for cron jobs)
+
+0.9.6 This version includes automatic seed data download from pip install
+
+0.9.5 tqdm instead of progressbar2. Seed data. Generate database out of ploscorpus. Several bugfixes.
+
+0.9.0 New Article class and new test data.
+
+0.8.4 Moved transformation methods to new file and changes in the tests.
+
+0.8.3 Filename structure for annotation DOI does not depend on journal name. Improved tests.
+
+0.8.2 Adding a method to generate a CSV file with all PLOS articles.
+
+0.8.1 Adding entry point. Thanks Chris Haumesser.
+
+0.8.0 First public release.
