@@ -112,7 +112,7 @@ class MdpiReviewSpider(ArticlesSpider):
                 'name': texts[1].strip()})
         ard = {}
         dump  = False
-        for p in response.css('div.abstract_div p, ul'):
+        for p in response.css('div.abstract_div p, ul, ol'):
             soup = BeautifulSoup(p.get(), 'lxml')
             text = soup.get_text().strip()
             if REPEATING_REVIEWS in text:
