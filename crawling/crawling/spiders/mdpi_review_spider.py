@@ -21,8 +21,8 @@ class MdpiReviewSpider(ArticlesSpider):
     allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
     shorten_doi = lambda self, doi: doi.split('/')[-1]
 
-    def __init__(self, url=None, dump_dir=None, update='no', name=None, **kwargs):
-        super().__init__(dump_dir=dump_dir, update=update, name=name, **kwargs)
+    def __init__(self, url=None, dump_dir=None, update='no',skip_sm_dl='yes', name=None, **kwargs):
+        super().__init__(dump_dir=dump_dir, update=update,name=name, **kwargs)
         if url is None:
             if self.dump_dir is None:
                 e = "Cannot scrape a review without providing one of: `dump_dir` or `url`."
@@ -32,7 +32,8 @@ class MdpiReviewSpider(ArticlesSpider):
                 self.start_urls = self.find_urls()
         else:
             self.start_urls = [url]
-        self.logger.info(f"[mdpi review spider] len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}")
+        self.skip_sm_dl = skip_sm_dl.lower() not in ("no", "n", "false", "f", "0")
+        self.logger.info(f"[mdpi review spider] len(start_urls)={len(self.start_urls)}, dump_dir={self.dump_dir}, update={self.update}, skip_sm_dl={self.skip_sm_dl}")
 
             
     def find_urls(self):
@@ -152,19 +153,20 @@ class MdpiReviewSpider(ArticlesSpider):
                         })
 
                     if self.dump_dir is not None:
-                        # download supplementary materials:
-                        for sm in ard['supplementary_materials']:
-                            sm_path = os.path.join(self.dump_dir, sub_a_dir, sm['filename'])
-                            if os.path.exists(sm_path) and not self.update:
-                                self.logger.debug(f"{sm['filename']} already exists. Will NOT overwrite.")
-                            elif "email-protection" in sm['url']:
-                                self.logger.error(f"Impossible to download {sm['filename']} from {sm['url']} due to {sm['original_filename']}")
-                            else:
-                                with open(sm_path, 'wb') as f:
-                                    self.logger.debug(f"Downloading supplementary material from {sm['url']}")
-                                    r = requests.get(sm['url'], stream=True)
-                                    f.write(r.content)
-                                    self.files_dumped_counter += 1
+                        if not self.skip_sm_dl:
+                            # download supplementary materials:
+                            for sm in ard['supplementary_materials']:
+                                sm_path = os.path.join(self.dump_dir, sub_a_dir, sm['filename'])
+                                if os.path.exists(sm_path) and not self.update:
+                                    self.logger.debug(f"{sm['filename']} already exists. Will NOT overwrite.")
+                                elif "email-protection" in sm['url']:
+                                    self.logger.error(f"Impossible to download {sm['filename']} from {sm['url']} due to {sm['original_filename']}")
+                                else:
+                                    with open(sm_path, 'wb') as f:
+                                        self.logger.debug(f"Downloading supplementary material from {sm['url']}")
+                                        r = requests.get(sm['url'], stream=True)
+                                        f.write(r.content)
+                                        self.files_dumped_counter += 1
                         # save plaintext to files
                         filen = a_short_doi+'.r'+round_no
                         filename = filen +'.txt'
@@ -227,7 +229,7 @@ class MdpiReviewSpider(ArticlesSpider):
                     sm_path = os.path.join(self.dump_dir, sub_a_dir, filename)
                     if os.path.exists(sm_path) and not self.update:
                         self.logger.debug(f"{filename} already exists. Will NOT overwrite.")
-                    else:
+                    elif not self.skip_sm_dl:
                         with open(sm_path, 'wb') as fp:
                             self.logger.debug(f'Downloading supplementary material from {url}')
                             r = requests.get(url, stream=True)
