@@ -1,4 +1,3 @@
-Uses the [__allofplos__](https://doi.org/10.25080/Majora-4af1f417-009) Python package to parse and extract metadata from articles in PLOS database.
 
 ## Installation & usage
 
@@ -10,10 +9,8 @@ Install required Python packages:
 
 ```pip install -r requirements.txt```
 
-
-
-
 ### PLOS crawler
+> this crawler uses the [__allofplos__](https://doi.org/10.25080/Majora-4af1f417-009) library to parse and extract metadata from articles in PLOS database.
 
 First, make sure your current working directory is set to `/review_crawler`, like above. 
 
@@ -51,7 +48,7 @@ In the `output/elife` folder you should find the results, in the same format as 
 
 ### MDPI crawler
 
-Consists of two dedicated [__Scrapy__](https://scrapy.org) spiders. For usage instructions, consult the [Readme file in the `crawling`](/review_crawler/crawling/) directory which contains the Scrapy project. 
+Consists of two dedicated [__Scrapy__](https://scrapy.org) spiders. For usage instructions, consult the [Readme file in the `crawling`](crawling/) directory which contains the Scrapy project. 
 
 ## License
 
