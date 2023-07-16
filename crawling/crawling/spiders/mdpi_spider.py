@@ -21,7 +21,7 @@ class MdpiSpider(ArticlesSpider):
 
     def __init__(self, dump_dir=None, year_from=None, year_to=None,
                        start_page=None, stop_page=None, journal=None,
-                       update = "no",
+                       save_html = 'no', update = "no",
                        name=None, **kwargs): 
         if year_from is not None:
             self.search_query += "&year_from=" + year_from
@@ -30,7 +30,7 @@ class MdpiSpider(ArticlesSpider):
         if journal is not None:
             self.search_query += "&journal=" + journal
         self.search_query += "&page_no="
-        super().__init__(dump_dir, start_page, stop_page, update, name, **kwargs)
+        super().__init__(dump_dir, start_page, stop_page, update, save_html, name, **kwargs)
 
             
     def parse_searchpage(self, response):

@@ -16,11 +16,12 @@ class ArticlesSpider(Spider):
     
     shorten_doi = lambda self, doi: doi.split('/')[-1]
     
-    def __init__(self, dump_dir=None, start_page=None, stop_page=None, update="no", name=None, **kwargs):
+    def __init__(self, dump_dir=None, start_page=None, stop_page=None, update="no", save_html = 'no', name=None, **kwargs):
+        # TODO add parameter no_metadata (?) to skip saving JSON files
         super().__init__(name, **kwargs)
         self.search_url = self.base_url + self.search_query
-        self.logger.info(f"Setting up a {self.name.capitalize()}Spider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}, update={update}")
-        self.files_dumped_counter = 0
+        self.logger.info(f"Setting up a {self.name.capitalize()}Spider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}, update={update}, save_html={save_html}")
+        self.files_dumped_counter = 0 # TODO find a different way to measure progress
         if dump_dir is None:
             self.logger.warning("dump_dir is None. JSON files will not be saved!")
             self.dump_dir = dump_dir
@@ -37,9 +38,15 @@ class ArticlesSpider(Spider):
             self.start_page = 0
         self.stop_page = stop_page
         self.update = update.lower() in ("yes", "true", "t", "1")
+        self.save_html = self.dump_dir is not None and save_html.lower() in ("yes", "true", "t", "1")
         self.start_urls = [start_url]
         
     def parse(self, response):
+        if self.save_html:
+            # get a filepath for saving the html file - taken from url
+            filepath = os.path.join(self.dump_dir,'html', '-'.join(response.url.split('.',2)[1:]).replace('/','')+".html")
+            with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
+                fp.write(response.text)
         if self.stop_page is None:
             # find out how many pages is possible to scrape
             # NOTE: you will run into errors if it's impossible to find the number of all search pages from the start_url

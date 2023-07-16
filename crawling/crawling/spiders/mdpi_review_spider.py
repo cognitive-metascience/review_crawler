@@ -21,8 +21,8 @@ class MdpiReviewSpider(ArticlesSpider):
     allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
     shorten_doi = lambda self, doi: doi.split('/')[-1]
 
-    def __init__(self, url=None, dump_dir=None, update='no',skip_sm_dl='yes', name=None, **kwargs):
-        super().__init__(dump_dir=dump_dir, update=update,name=name, **kwargs)
+    def __init__(self, url=None, dump_dir=None, update='no', save_html='no', skip_sm_dl='yes', name=None, **kwargs):
+        super().__init__(dump_dir=dump_dir, update=update, save_html=save_html, name=name, **kwargs)
         if url is None:
             if self.dump_dir is None:
                 e = "Cannot scrape a review without providing one of: `dump_dir` or `url`."
@@ -81,6 +81,10 @@ class MdpiReviewSpider(ArticlesSpider):
         return urls
 
     def parse(self, response):
+        if self.save_html:
+            filepath = os.path.join(self.dump_dir, '-'.join(response.url.split('.',2)[1:]).replace('/',''))
+            with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
+                fp.write(response.text)
         if response.status == 404:
             # ugly fix:
             # response.url should end with '#review_report', not '/review_report' <- this is an issue with mdpispider
