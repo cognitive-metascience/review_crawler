@@ -38,8 +38,8 @@ class ArticlesSpider(Spider):
             start_url = self.search_url + "0"   # starts from page number 0 by default
             self.start_page = 0
         self.stop_page = stop_page  # is handled in `parse`
-        self.update = update.lower() in ("yes", "true", "t", "1")
-        self.save_html = self.dump_dir is not None and save_html.lower() in ("yes", "true", "t", "1")
+        self.update = update.lower() in ("yes", "y", "true", "t", "1")
+        self.save_html = self.dump_dir is not None and save_html.lower() in ("yes", "y", "true", "t", "1")
         self.start_urls = [start_url]
         
     def parse(self, response):

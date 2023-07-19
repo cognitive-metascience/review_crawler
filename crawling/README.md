@@ -24,13 +24,20 @@ These spiders have additional arguments that can be specified on the command lin
 
 #### Arguments available for both `mdpi_spider` and `mdpi_review_spider`:
 
-- `dump_dir` - as illustrated above, this directory will be where the output of `mdpi_spider` is saved. This same argument is used as input by `mdpi_review_spider`. If `dump_dir` is not specified, the spider output will not be saved locally, unless you use one of [the `-o/-O` flags](https://docs.scrapy.org/en/latest/topics/commands.html#crawl). It's probably best to not use `-o/-O` flags and the `dump_dir` argument at the same time.
+- `dump_dir` - as illustrated above, this directory will be where the output of `mdpi_spider` is saved. This same argument is used as input by `mdpi_review_spider`. If `dump_dir` is not specified, the **spider output will not be saved locally, unless you use one of [the `-o/-O` flags](https://docs.scrapy.org/en/latest/topics/commands.html#crawl)**. It's probably best to not use `-o/-O` flags and the `dump_dir` argument at the same time unless you have vast amount of free space.
 
-- `update` - whether existing files should be updated (overwritten). Defaults to "no". Override by passing one of ("yes", "true", "t", "1"). 
+- `update` - whether existing files should be updated (overwritten). **The default setting is "no"**. Override by passing one of ("yes", "y", "true", "t", "1"). 
 
   For example:
 
   ```scrapy crawl mdpi -a dump_dir=../output/mdpi -a update=1```
+
+- `save_html` - whether spiders should store on your local drive the html from visited webpages. The `dump_dir` argument needs to be specified in order to save any HTML files. **The default setting is "no"**. Override by passing one of ("yes", "y", "true", "t", "1").
+
+  For example:
+
+  ```scrapy crawl mdpi -a dump_dir=../output/mdpi -a save_html=y```
+
 
 #### Available `mdpi_spider` arguments:
 
@@ -46,7 +53,7 @@ These spiders have additional arguments that can be specified on the command lin
 
   ```scrapy crawl mdpi -a dump_dir=../output/mdpi -a journal=environsciproc```
 
-- `start_page` and `stop_page` - specify how many search pages should be scraped. If not provided, defaults to all search pages.
+- `start_page` and `stop_page` - specify how many search pages should be scraped. **If not provided, the default setting is all search pages**.
 
 
 #### Available `mdpi_review_spider` arguments:
@@ -55,7 +62,9 @@ These spiders have additional arguments that can be specified on the command lin
 
   For example:
 
-  ```scrapy crawl mdpi_review -a url=https://www.mdpi.com/2032-6653/12/4/191```
+  ```scrapy crawl mdpi_review -a url=https://www.mdpi.com/2032-6653/12/4/191/review_report```
+
+- `skip_sm_dl` - whether to skip downloading supplementary materials (PDF, DOC and other files that are often embedded with the reviews, may contain the authors' responses to reviews). **The default setting is "yes"** - meaning that supplementary materials will not be downloaded. Again, make sure that  you have an appropriate amount of free space on your storage available before running.
 
 ### After scraping
 
@@ -66,18 +75,16 @@ See the Jupyter Notebooks located in the `review_crawler` directory for steps on
 
 ## Known issues
 
-Some articles' web pages have a non-standard HTML structure, which the mdpi_review_spider cannot (yet) handle. You may notice AttributeError or KeyError occuring when trying to parse these pages. For these articles, you may find that the 'sub-articles' directory is created, but stays empty.
+Some articles' web pages have a non-standard HTML structure, which the mdpi_review_spider cannot (yet?) handle. You may notice AttributeError or KeyError occuring when trying to parse these pages. For these articles, you may find that the 'sub-articles' directory is created, but stays empty.
 
 In other cases, the spider may have issues extracting the data for all rounds of reviews (e.g. only 2 out of 3).
 ____
 
 
-## Next steps
-
-- finalizing the MDPI corpus by scraping all remaining article metadata files
+## TODO
 
 - use the Crossref API to find which DOIs are missing from the corpus
 
 - handle special cases that cause some articles to be incorrectly scraped (see the 'Known issues' section)
 
-- move some functions that do file management from Jupyter notebooks to the Scrapy project. For example, to handle adding sub-article metadata using [Item Exporters](https://docs.scrapy.org/en/latest/topics/exporters.html) or [Spider Middleware](https://docs.scrapy.org/en/latest/topics/spider-middleware.html)
+- move some functions that do file management, cleaning the metadata, downloading supplementary materials to the Scrapy project using [Item Exporters](https://docs.scrapy.org/en/latest/topics/exporters.html) or [Spider Middleware](https://docs.scrapy.org/en/latest/topics/spider-middleware.html)
