@@ -64,7 +64,11 @@ These spiders have additional arguments that can be specified on the command lin
 
   ```scrapy crawl mdpi_review -a url=https://www.mdpi.com/2032-6653/12/4/191/review_report```
 
-- `skip_sm_dl` - whether to skip downloading supplementary materials (PDF, DOC and other files that are often embedded with the reviews, may contain the authors' responses to reviews). **The default setting is "yes"** - meaning that supplementary materials will not be downloaded. Again, make sure that  you have an appropriate amount of free space on your storage available before running.
+- `skip_sm_dl` - whether to skip downloading supplementary materials (PDF, DOC and other files that are often embedded with the reviews, may contain the authors' responses to reviews). The `dump_dir` argument needs to be specified in order to save any such files. **The default setting is "yes"** - meaning that supplementary materials will not be downloaded. Provide one of ("no", "n", "false", "f", "0") to override. Make sure that you have an appropriate amount of free space on your storage available depending on your search range.
+
+  For example:
+
+  ```scrapy crawl mdpi_review -a skip_sm_dl=no```
 
 ### After scraping
 
