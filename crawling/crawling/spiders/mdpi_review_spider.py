@@ -16,7 +16,9 @@ ROUND_NUMBER_PATTERN = re.compile(r"Round \d+")
 REVIEWER_REPPORT_PATTERN = re.compile(r"Reviewer \d+ Report")
 DOI_PATTERN = re.compile(r"https://doi\.org/10.\d{4,9}/[-._;()/:a-zA-Z0-9]+")  # from https://www.crossref.org/blog/dois-and-matching-regular-expressions/
 
+
 class MdpiReviewSpider(ArticlesSpider):
+    handle_httpstatus_list = [404]
     name="mdpi_review"
     allowed_domains = ['www.mdpi.com', 'susy.mdpi.com']
     shorten_doi = lambda self, doi: doi.split('/')[-1]
@@ -41,21 +43,22 @@ class MdpiReviewSpider(ArticlesSpider):
         urls = []
         self.logger.debug("Attempting to find_urls for mdpi reviews...")
         
-        if os.path.exists(os.path.join(self.dump_dir, "reviews-urls.csv")):
+        # load a file with corpus metadata with urls of reviews
+        if os.path.exists(os.path.join(self.dump_dir, "reviews-urls.csv")):  #  (for now filename is harcoded, possibly could be a spider argument)
             self.logger.debug("Located reviews-urls.csv in dump_dir!")
             df = pd.read_csv(os.path.join(self.dump_dir, "reviews-urls.csv"))
             if len(df) == 0:
                 self.logger.debug("But there are no urls to be found...")
             else:
+                if 'skip' in df:
+                    df = df[~df.skip]  # filter urls that should be skipped
                 urls = df.reviews_url.to_list()
             
         if len(urls) == 0:
             self.logger.debug("Going through dump_dir to find urls of reviewed articles...")
-            
             df = pd.DataFrame()
             for i, dir in enumerate(os.listdir(self.dump_dir)):
-                # dump_dir should contain directories named after dois
-                # with files named metadata.json
+                # dump_dir should contain directories named after dois with files named metadata.json
                 if os.path.isfile(dir): 
                     continue
                 if not os.path.exists(os.path.join(self.dump_dir, dir, 'metadata.json')):
@@ -75,16 +78,11 @@ class MdpiReviewSpider(ArticlesSpider):
                         urls.append(meta['reviews_url']) 
                 if (i-1)%1000 == 0:
                     self.logger.debug(f"{len(urls)} urls with reviews found thus far.")
-            
             df.to_csv(os.path.join(self.dump_dir, "reviews-urls.csv"), index = False)
-        
         return urls
 
+
     def parse(self, response):
-        if self.save_html:
-            filepath = os.path.join(self.dump_dir, '-'.join(response.url.split('.',2)[1:]).replace('/',''))
-            with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
-                fp.write(response.text)
         if response.status == 404:
             # ugly fix:
             # response.url should end with '#review_report', not '/review_report' <- this is an issue with mdpispider
@@ -106,6 +104,7 @@ class MdpiReviewSpider(ArticlesSpider):
         a_short_doi = self.shorten_doi(original_a_doi)
         
         if self.dump_dir is not None:
+            self.dump_html(response, a_short_doi, a_short_doi)
             sub_a_dir =  os.path.join(a_short_doi, 'sub-articles')
             os.makedirs(os.path.join(self.dump_dir, sub_a_dir), exist_ok=True)
         
@@ -136,7 +135,7 @@ class MdpiReviewSpider(ArticlesSpider):
                             'round': round_no,
                             'supplementary_materials': []
                         }
-                    for a in response.css('div#abstract.abstract_div div p a'):   ### PROBABLY PROBLEMATIC - DON'T DO THE CSS ON RESPONSE, DO IT ON span or p INSTEAD!!!
+                    for a in response.css('div#abstract.abstract_div div p a'):   ### PROBABLY PROBLEMATIC - TODO DON'T DO THE CSS ON RESPONSE, DO IT ON span or p INSTEAD!!!
                         file_url = a.css('::attr(href)').get()
                         if file_url.startswith('/'):
                             # most likely a missing http schema...
@@ -200,6 +199,7 @@ class MdpiReviewSpider(ArticlesSpider):
 
     def parse_embedded_reviews(self, response):
         """Parses reviews embedd in the original article url. The provided url might end in `#review_report`.
+            NOTE this function seems to be bugged somewhere
         """        
         div = response.css('div.bib-identity')
         original_a_doi = DOI_PATTERN.search(div.get()).group()

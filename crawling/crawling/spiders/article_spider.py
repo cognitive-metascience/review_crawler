@@ -8,6 +8,7 @@ import json
 import os
 
 from scrapy import Spider
+from scrapy.exceptions import CloseSpider
 
 class ArticlesSpider(Spider):
     
@@ -20,8 +21,8 @@ class ArticlesSpider(Spider):
         # TODO add parameter no_metadata (?) to skip saving JSON files
         super().__init__(name, **kwargs)
         self.search_url = self.base_url + self.search_query
-        self.logger.info(f"Setting up a {self.name.capitalize()}Spider. start_page={start_page}, stop_page={stop_page}, dump_dir={dump_dir}, update={update}, save_html={save_html}")
-        self.files_dumped_counter = 0 # TODO find a different way to measure progress
+        self.logger.info(f"Setting up a {self.name.capitalize()}Spider. params: dump_dir={dump_dir}, update={update}, save_html={save_html}")
+        self.files_dumped_counter = 0   # TODO find a different way to measure progress
         if dump_dir is None:
             self.logger.warning("dump_dir is None. JSON files will not be saved!")
             self.dump_dir = dump_dir
@@ -36,47 +37,45 @@ class ArticlesSpider(Spider):
         else:
             start_url = self.search_url + "0"   # starts from page number 0 by default
             self.start_page = 0
-        self.stop_page = stop_page
+        self.stop_page = stop_page  # is handled in `parse`
         self.update = update.lower() in ("yes", "true", "t", "1")
         self.save_html = self.dump_dir is not None and save_html.lower() in ("yes", "true", "t", "1")
         self.start_urls = [start_url]
         
     def parse(self, response):
-        if self.save_html:
-            # get a filepath for saving the html file - taken from url
-            filepath = os.path.join(self.dump_dir,'html', '-'.join(response.url.split('.',2)[1:]).replace('/','')+".html")
-            with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
-                fp.write(response.text)
+        """Follows on search pages. If `stop_page` is None, calls `learn_search_pages` and iterates over all pages in the range.
+        """        
         if self.stop_page is None:
             # find out how many pages is possible to scrape
-            # NOTE: you will run into errors if it's impossible to find the number of all search pages from the start_url
             stop_page = int(self.learn_search_pages(response))
+            # spider will if not run it's impossible to find the number of all search pages from the start_url!
+            if stop_page is None:
+                e = "stop_page is None -> cannot iterate over searchpages."
+                self.logger.critical(e)
+                raise CloseSpider()
         else:
             stop_page = int(self.stop_page)
-
+        self.logger.info(f"Now starting to crawl through searchpages. start_page={self.start_page}, stop_page={stop_page}")
         for i in range(self.start_page, stop_page):
-            page = self.search_url + str(i+1)
+            page = self.search_url + str(i)   # possibly i+1?
             yield response.follow(page, callback=self.parse_searchpage)
-
-    
-    def parse_article(self, response):
-        metadata = self.get_metadata_from_html(response.text)
-        
-        if metadata['has_reviews']:
-            a_short_doi = self.shorten_doi(metadata['doi'])
-            self.logger.info(f"Article {a_short_doi} probably has reviews!")
-            # yield response.follow(metadata['reviews_url'], self.parse_reviews)
-            metadata['sub_articles'] = []
-
-            if self.dump_dir is not None:
-               self.dump_metadata(metadata, a_short_doi)
-
-        yield metadata  
         
     def parse_searchpage(self, response):
+        """Should find links from a searchpage and then use the other functions
+        
+        for example `yield response.follow(page, callback=self.parse_article)`
+        or `yield response.follow(page, callback=self.parse_metadata)`
+        """
+        raise NotImplementedError
+
+    def parse_article(self, response):
         raise NotImplementedError
     
     def parse_metadata(self, response) -> dict:
+        """Should parse a an article's webpage and return a dictionary with its metadata.
+
+        The result should be a JSON-like dictionary containing keys like 'doi' or 'has_reviews'. See article_schema.json
+        """
         raise NotImplementedError
     
     def learn_search_pages(self, response) -> int | None:
@@ -111,14 +110,52 @@ class ArticlesSpider(Spider):
             elif f_exists and overwrite:
                 self.logger.warning(f"metadata already exists in {dirpath}. Will overwrite.")
             if dump:
-                with open(filepath, 'w+', encoding="utf-8") as fp:
+                with open(filepath, 'w', encoding="utf-8") as fp:
                     json.dump(metadata, fp, ensure_ascii=False)
         except Exception as e:
             self.logger.exception(f"Problem while saving to file: {filepath}.\n{e}")
         else:
             if dump:
-                self.logger.info(f"Saved metadata to {dirname}/{filename}.json")
+                self.logger.info(f"Saved metadata to {dirname}\{filename}.json")
                 self.files_dumped_counter += 1
             
+    def dump_html(self, response, dirname=None, filename=None, overwrite=None):
+        """Save a response in text format to a HTML file in `self.dump_dir`.
+
+        Args:
+            response: 
+            dirname (str, optional): If specified, a directory with the provided name will be created inside `self.dump_dir` (if it doesn't exist) and the metadata is saved there. Defaults to None.
+            filename (str, optional): Base file name (without an extension). Defaults to None, which defaults to the response's url, slightly modified.
+            overwrite (bool, optional): Should file be overwritten if it exists already? Defaults to None, which defaults to `self.update`.
+        """
+        if not self.save_html:
+            return
+        assert self.dump_dir is not None
+        if dirname is None:
+            dirpath = self.dump_dir
+        else:
+            dirpath = os.path.join(os.path.abspath(self.dump_dir), dirname)
+        os.makedirs(dirpath, exist_ok=True)
+        
+        if overwrite is None:
+            overwrite = self.update
+
+        self.logger.debug(f"Saving HTML to text file in {dirpath}.")
+        if filename is None:
+            filename = '-'.join(response.url.split('.',2)[1:]).replace('/',' ')
+        filepath = f"{os.path.join(dirpath, filename)}.html"
+
+        f_exists = os.path.exists(filepath)
+        dump = not f_exists or (f_exists and overwrite)
+        if f_exists and not overwrite:
+            self.logger.debug(f"HTML file already exists in {dirpath}. Will NOT overwrite.")
+        elif f_exists and overwrite:
+            self.logger.info(f"HTML file already exists in {dirpath}. Will overwrite.")
+        # get a filepath for saving the html file - taken from url
+        if dump:
+            with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
+                fp.write(response.text)
+            self.logger.info(f"Saved HTML file to {dirname}\{filename}.json")
+            self.files_dumped_counter += 1
 
     

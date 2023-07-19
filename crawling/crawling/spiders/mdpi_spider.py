@@ -1,4 +1,3 @@
-import logging
 import re
 
 from bs4 import BeautifulSoup
@@ -21,7 +20,7 @@ class MdpiSpider(ArticlesSpider):
 
     def __init__(self, dump_dir=None, year_from=None, year_to=None,
                        start_page=None, stop_page=None, journal=None,
-                       save_html = 'no', update = "no",
+                       update = "no", save_html = 'no', 
                        name=None, **kwargs): 
         if year_from is not None:
             self.search_query += "&year_from=" + year_from
@@ -44,8 +43,7 @@ class MdpiSpider(ArticlesSpider):
             res = int(re.findall(r"\d+", hit)[-1])
             self.log(f"It seems there are {res} search pages for this query.")
             return res
-        else:
-            return None
+        return None
 
     def parse_article(self, response) -> dict:
         soup = BeautifulSoup(response.text, 'lxml')
@@ -103,5 +101,6 @@ class MdpiSpider(ArticlesSpider):
 
         if self.dump_dir is not None:
             self.dump_metadata(metadata, self.shorten_doi(metadata['doi']))
-        
-        return metadata
+            self.dump_html(response, self.shorten_doi(metadata['doi']), self.shorten_doi(metadata['doi']))
+        yield metadata
+    
