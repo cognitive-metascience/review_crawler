@@ -6,6 +6,7 @@
 
 import json
 import os
+from bs4 import BeautifulSoup, Comment
 
 from scrapy import Spider
 from scrapy.exceptions import CloseSpider
@@ -87,7 +88,7 @@ class ArticlesSpider(Spider):
         Args:
             metadata (dict): dictionary to be saved to file.
             dirname (str, optional): If specified, a directory with the provided name will be created inside `self.dump_dir` (if it doesn't exist) and the metadata is saved there. Defaults to None.
-            filename (str, optional): Base file name (without an extension). Defaults to 'metadata'.
+            filename (str, optional): Base file name (without an extension). Defaults to 'metadata', so the output file will be named metadata.json.
             overwrite (bool, optional): Should file be overwritten if it exists already? Defaults to None, which defaults to `self.update`.
         """
         assert self.dump_dir is not None
@@ -104,6 +105,7 @@ class ArticlesSpider(Spider):
         filepath = f"{os.path.join(dirpath, filename)}.json"
         f_exists = os.path.exists(filepath)
         dump = not f_exists or (f_exists and overwrite)
+
         try:
             if f_exists and not overwrite:
                 self.logger.debug(f"metadata already exists in {dirpath}. Will NOT overwrite.")
@@ -119,13 +121,14 @@ class ArticlesSpider(Spider):
                 self.logger.info(f"Saved metadata to {dirname}\{filename}.json")
                 self.files_dumped_counter += 1
             
-    def dump_html(self, response, dirname=None, filename=None, overwrite=None):
+    def dump_html(self, response, dirname=None, filename='webpage', overwrite=None):
         """Save a response in text format to a HTML file in `self.dump_dir`.
 
+        Removes 'script', 'style', 'meta', 'noscript', 'link', 'rect' tags and comments from the HTML.
         Args:
-            response: 
+            response: # NOTE maybe string html should be the argument after all...
             dirname (str, optional): If specified, a directory with the provided name will be created inside `self.dump_dir` (if it doesn't exist) and the metadata is saved there. Defaults to None.
-            filename (str, optional): Base file name (without an extension). Defaults to None, which defaults to the response's url, slightly modified.
+            filename (str, optional): Base file name (without an extension). Defaults to 'webpage', so the output file will be named webpage.html.
             overwrite (bool, optional): Should file be overwritten if it exists already? Defaults to None, which defaults to `self.update`.
         """
         if not self.save_html:
@@ -141,21 +144,25 @@ class ArticlesSpider(Spider):
             overwrite = self.update
 
         self.logger.debug(f"Saving HTML to text file in {dirpath}.")
-        if filename is None:
-            filename = '-'.join(response.url.split('.',2)[1:]).replace('/',' ')
         filepath = f"{os.path.join(dirpath, filename)}.html"
-
         f_exists = os.path.exists(filepath)
         dump = not f_exists or (f_exists and overwrite)
+
         if f_exists and not overwrite:
             self.logger.debug(f"HTML file already exists in {dirpath}. Will NOT overwrite.")
         elif f_exists and overwrite:
             self.logger.info(f"HTML file already exists in {dirpath}. Will overwrite.")
-        # get a filepath for saving the html file - taken from url
         if dump:
+            # clean up the html: code by Kim Hyesung on https://stackoverflow.com/questions/40529848/how-to-write-the-output-to-html-file-with-python-beautifulsoup
+            soup = BeautifulSoup(response.text)
+            [x.extract() for x in soup.find_all('script')]
+            [x.extract() for x in soup.find_all('style')]
+            [x.extract() for x in soup.find_all('meta')]
+            [x.extract() for x in soup.find_all('noscript')]
+            [x.extract() for x in soup.find_all('link')]
+            [x.extract() for x in soup.find_all('rect')]
+            [x.extract() for x in soup.find_all(text=lambda text:isinstance(text, Comment))]
             with open(filepath, mode = 'w', encoding = 'utf-8') as fp:
-                fp.write(response.text)
-            self.logger.info(f"Saved HTML file to {dirname}\{filename}.json")
+                fp.write(str(soup).replace('\n\n','\n'))
+            self.logger.info(f"Saved HTML file to {dirname}\{filename}.html")
             self.files_dumped_counter += 1
-
-    
