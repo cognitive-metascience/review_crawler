@@ -32,9 +32,10 @@ These spiders have additional arguments that can be specified on the command lin
 
   ```scrapy crawl mdpi -a dump_dir=../output/mdpi -a update=1```
 
-- `save_html` - whether spiders should store on your local drive the html from visited webpages. The `dump_dir` argument needs to be specified in order to save any HTML files. **The default setting is "no"**. Override by passing one of ("yes", "y", "true", "t", "1").
+- `save_html` - whether spiders should store on your local drive the html from visited webpages. The `dump_dir` argument needs to be specified in order to save any HTML files. The webpage content is cleaned before storing to a file: specifically, all comments are removed from the document, as well as the following tags: 'script', 'style', 'noscript', 'link', 'rect'.
 
-  For example:
+
+  **The default setting is "no"**. Override by passing one of ("yes", "y", "true", "t", "1"), for example:
 
   ```scrapy crawl mdpi -a dump_dir=../output/mdpi -a save_html=y```
 
