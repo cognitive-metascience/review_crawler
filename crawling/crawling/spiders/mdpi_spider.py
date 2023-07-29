@@ -16,7 +16,7 @@ class MdpiSpider(ArticlesSpider):
     allowed_domains = ["www.mdpi.com"]
     shorten_doi = lambda self, doi: doi.split('/')[-1]
     base_url = "https://www.mdpi.com"
-    search_query = "/search?page_count=10&article_type=research-article"
+    search_query = "/search?page_count=10&article_type=research-article"    # keep this hardcoded 10 and no more
 
     def __init__(self, dump_dir=None, year_from=None, year_to=None,
                        start_page=None, stop_page=None, journal=None,
@@ -29,6 +29,7 @@ class MdpiSpider(ArticlesSpider):
         if journal is not None:
             self.search_query += "&journal=" + journal
         self.search_query += "&page_no="
+        if start_page is None: start_page = 1
         super().__init__(dump_dir, start_page, stop_page, update, save_html, name, **kwargs)
 
             

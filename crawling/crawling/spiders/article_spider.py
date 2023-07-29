@@ -13,7 +13,7 @@ from scrapy.exceptions import CloseSpider
 
 class ArticlesSpider(Spider):
     
-    base_url = ""
+    base_url = ""       # provide this in inheriting sdpiders
     search_query = ""   # should end with something like `page_no=`
     
     shorten_doi = lambda self, doi: doi.split('/')[-1]
@@ -24,14 +24,21 @@ class ArticlesSpider(Spider):
         self.search_url = self.base_url + self.search_query
         self.logger.info(f"Setting up a {self.name.capitalize()}Spider. params: dump_dir={dump_dir}, update={update}, save_html={save_html}")
         self.files_dumped_counter = 0   # TODO find a different way to measure progress
+        
         if dump_dir is None:
-            self.logger.warning("dump_dir is None. JSON files will not be saved!")
+            self.logger.warning("dump_dir is None. JSON/HTML files will not be saved!")
             self.dump_dir = dump_dir
-        elif os.path.isdir(dump_dir):
-            self.dump_dir = dump_dir
+            # NOTE maybe just stop the spider right now? and avoid the trouble of checking it it's None...
+        elif os.path.exists(dump_dir):
+            if os.path.isdir(dump_dir):
+                self.dump_dir = dump_dir
+            else:
+                self.logger.critical("Invalid dump_dir (not a directory). Setting dump_dir to None. JSON/HTML files will not be saved!")
+                self.dump_dir = None
         else:
-            self.logger.warning("Invalid dump_dir (the path provided does not exist or is not a directory). Setting dump_dir to None. JSON files will not be saved!")
-            self.dump_dir = None
+            self.dump_dir = dump_dir
+            os.makedirs(dump_dir)
+
         if start_page is not None:
             start_url = self.search_url + str(start_page)
             self.start_page = int(start_page)
@@ -44,16 +51,15 @@ class ArticlesSpider(Spider):
         self.start_urls = [start_url]
         
     def parse(self, response):
-        """Follows on search pages. If `stop_page` is None, calls `learn_search_pages` and iterates over all pages in the range.
+        """Follows on results for the search query (search pages). 
+        
+        If `stop_page` was not provided by user, it first calls `learn_search_pages` and iterates over all pages in the range.
         """        
         if self.stop_page is None:
             # find out how many pages is possible to scrape
-            stop_page = int(self.learn_search_pages(response))
+            stop_page = self.learn_search_pages(response)
             # spider will if not run it's impossible to find the number of all search pages from the start_url!
-            if stop_page is None:
-                e = "stop_page is None -> cannot iterate over searchpages."
-                self.logger.critical(e)
-                raise CloseSpider()
+            assert stop_page is not None
         else:
             stop_page = int(self.stop_page)
         self.logger.info(f"Now starting to crawl through searchpages. start_page={self.start_page}, stop_page={stop_page}")
@@ -62,7 +68,7 @@ class ArticlesSpider(Spider):
             yield response.follow(page, callback=self.parse_searchpage)
         
     def parse_searchpage(self, response):
-        """Should find links from a searchpage and then use the other functions
+        """Should find links from a searchpage and then use other spider functions
         
         for example `yield response.follow(page, callback=self.parse_article)`
         or `yield response.follow(page, callback=self.parse_metadata)`
@@ -73,13 +79,20 @@ class ArticlesSpider(Spider):
         raise NotImplementedError
     
     def parse_metadata(self, response) -> dict:
-        """Should parse a an article's webpage and return a dictionary with its metadata.
+        """Should parse an article's webpage and return a dictionary with its metadata.
 
         The result should be a JSON-like dictionary containing keys like 'doi' or 'has_reviews'. See article_schema.json
         """
         raise NotImplementedError
     
     def learn_search_pages(self, response) -> int | None:
+        """Should find how many pages of results there are for the search query
+
+        This function is called in `parse` in its default implementation.
+
+        Returns:
+            An integer value or None if unsuccesful.
+        """
         raise NotImplementedError
     
     def dump_metadata(self, metadata, dirname=None, filename='metadata', overwrite=None):
@@ -124,7 +137,7 @@ class ArticlesSpider(Spider):
     def dump_html(self, response, dirname=None, filename='webpage', overwrite=None):
         """Save a response in text format to a HTML file in `self.dump_dir`.
 
-        Removes 'script', 'style', 'meta', 'noscript', 'link', 'rect' tags and comments from the HTML.
+        Removes 'script', 'style', 'noscript', 'link', 'rect' tags and comments from the HTML.
         Args:
             response: # NOTE maybe string html should be the argument after all...
             dirname (str, optional): If specified, a directory with the provided name will be created inside `self.dump_dir` (if it doesn't exist) and the metadata is saved there. Defaults to None.
@@ -157,7 +170,7 @@ class ArticlesSpider(Spider):
             soup = BeautifulSoup(response.text)
             [x.extract() for x in soup.find_all('script')]
             [x.extract() for x in soup.find_all('style')]
-            [x.extract() for x in soup.find_all('meta')]
+            # [x.extract() for x in soup.find_all('meta')]  # actually better to keep meta because it contains some data...
             [x.extract() for x in soup.find_all('noscript')]
             [x.extract() for x in soup.find_all('link')]
             [x.extract() for x in soup.find_all('rect')]
