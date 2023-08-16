@@ -5,6 +5,7 @@ Additionally, the sub-articles (reviews and such) from each xml are extracted an
 Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory
 """
 
+import argparse
 import json
 import os
 import requests
@@ -24,14 +25,15 @@ from utils import cook, get_extension_from_str, get_logger, OUTPUT_DIR, INPUT_DI
 # paths relative to `CRAWLER_DIR`, this is where parsed data is saved
 ALL_ARTICLES_DIR = os.path.join('plos','all_articles' )
 FILTERED_DIR = os.path.join('plos','reviewed_articles')
+
 all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-zipfile_path = os.path.join(INPUT_DIR, 'allofplos_xml.zip')
 zipfile_dir = INPUT_DIR
+zipfile_path = os.path.join(INPUT_DIR, 'allofplos_xml.zip')
 
 
-logger = get_logger("plos", fileh_level='DEBUG', streamh_level='WARNING')
+logger = get_logger("plos", fileh_level='DEBUG', streamh_level='INFO')
 
 
 def url_to_doi(url) -> str:
@@ -79,7 +81,7 @@ def download_allofplos_zip(unzip=False):
     if os.path.isfile(zipfile_path):
         logger.info("Everything OK with the existing zip file.")
     else:
-        logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}.")
+        logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}")
         create_local_plos_corpus(zipfile_dir, unzip=False, delete_file=False)
         logger.info(f"Finished with download.")
     if unzip:
@@ -189,7 +191,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         
         article_dir = os.path.join(filtered_path, a_short_doi)
         sub_articles_dir = os.path.join(article_dir, 'sub-articles')
-        logger.info(f'this article probably has reviews! It will be saved to {FILTERED_DIR}.')
+        logger.info(f'article with doi {a_short_doi} probably has reviews! It will be saved to {FILTERED_DIR}.')
         write_files = True
         if not os.path.exists(article_dir):
             os.makedirs(article_dir, exist_ok=False)
@@ -253,6 +255,9 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     
     
 def get_article_files(reviewed_only=False):
+    if not os.path.exists(zipfile_path):
+        logger.error("Did not find the zip file containing the PLOS corpus! Crawler will shut down.")
+        return
     allofplos_zip = ZipFile(zipfile_path, 'r')
     if reviewed_only:
         reviewed = os.listdir(filtered_path)
@@ -316,5 +321,20 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     
 
 if __name__ == '__main__':
-    download_allofplos_zip(unzip = False)
+    parser = argparse.ArgumentParser()
+    # parser.add_argument('--db', action='store', help=
+    #                     'Name the db', default='ploscorpus.db')
+    # parser.add_argument('--random', action='store', type=int, help=
+    #                     'Number of articles in a random subset. '
+    #                     'By default will use all articles')
+    parser.add_argument('--download-zip', action='store_true', help=
+                        'Download the entire allofplos corpus zip file to the input dir (by default `input`)', dest='download')
+    # parser.add_argument('--input-dir', action='store', help=
+    #                     'Set the input dir', default=zipfile_dir)
+    # TODO: add other arguments for the argparser: unzip, update etc. 
+
+    args = parser.parse_args()
+    
+    if args.download:
+        download_allofplos_zip(unzip = False)
     process_allofplos_zip(update = True, reviewed_only = False, skip_sm_dl = False)
