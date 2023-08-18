@@ -14,8 +14,7 @@ import lxml.etree as et
 from zipfile import ZipFile, BadZipFile
 
 from allofplos.allofplos.article import Article
-from allofplos.allofplos.corpus.gdrive import unzip_articles
-from allofplos.allofplos.corpus.plos_corpus import create_local_plos_corpus
+from allofplos.allofplos.corpus.plos_corpus import download_corpus_zip, unzip_articles
 from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
 from utils import cook, get_extension_from_str, get_logger, OUTPUT_DIR, INPUT_DIR
@@ -30,7 +29,7 @@ all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
 zipfile_dir = INPUT_DIR
-zipfile_path = os.path.join(INPUT_DIR, 'allofplos_xml.zip')
+zipfile_path = os.path.join(INPUT_DIR, 'allofplos.zip')
 
 
 logger = get_logger("plos", fileh_level='DEBUG', streamh_level='INFO')
@@ -58,36 +57,7 @@ def doi_to_short_doi(doi) -> str:
         logger.warning(f"{doi} was deemed an invalid doi.")
         return doi
 
-def download_allofplos_zip(unzip=False):
-    """
-    Calls `create_local_plos_corpus` to download the entire PLOS database contained in a zip file.
-    The zip file will be at least 5 GB heavy, it will be downloaded to directory `zipfile_dir`.
 
-    :param unzip: whether to extract all article files to corpus dir, or just keep the zip file instead. 
-    Defaults to `False`, because after extraction, the folder will be around 30 GB heavy.
-    """
-    # code below is copied from `download_file_from_google_drive()` function from `allofplos.gdrive`
-    # check for existing incomplete zip download. Delete if invalid zip.
-    if os.path.isfile(zipfile_path) and get_extension_from_str(zipfile_path).lower() == '.zip':
-        logger.info("allofplos_xml.zip already exists. Checking if the archive is corrputed or otherwise invalid. This may take some time.")
-        try:
-            zip_file = ZipFile(zipfile_path)
-            if zip_file.testzip():
-                os.remove(zipfile_path)
-                logger.info("Deleted corrupted previous zip download.")
-        except BadZipFile as e:
-            os.remove(zipfile_path)
-            logger.info("Deleted invalid previous zip download.")
-    if os.path.isfile(zipfile_path):
-        logger.info("Everything OK with the existing zip file.")
-    else:
-        logger.info(f"Will attempt to download the allofplos_xml.zip to {os.path.abspath(zipfile_dir)}")
-        create_local_plos_corpus(zipfile_dir, unzip=False, delete_file=False)
-        logger.info(f"Finished with download.")
-    if unzip:
-        logger.info(f"Articles will now be extracted to default corpus directory in {zipfile_dir}")
-        unzip_articles(file_path=zipfile_path, delete_file=False)
-        
         
 def check_if_article_retracted(url):
     # TODO: change this to work on Soups?
@@ -191,7 +161,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         
         article_dir = os.path.join(filtered_path, a_short_doi)
         sub_articles_dir = os.path.join(article_dir, 'sub-articles')
-        logger.info(f'article with doi {a_short_doi} probably has reviews! It will be saved to {FILTERED_DIR}.')
+        logger.info(f'article {a_short_doi} probably has reviews! It will be saved to {FILTERED_DIR}')
         write_files = True
         if not os.path.exists(article_dir):
             os.makedirs(article_dir, exist_ok=False)
@@ -328,7 +298,7 @@ if __name__ == '__main__':
     #                     'Number of articles in a random subset. '
     #                     'By default will use all articles')
     parser.add_argument('--download-zip', action='store_true', help=
-                        'Download the entire allofplos corpus zip file to the input dir (by default `input`)', dest='download')
+                        'Download the entire allofplos corpus zip file to the input dir.', dest='download')
     # parser.add_argument('--input-dir', action='store', help=
     #                     'Set the input dir', default=zipfile_dir)
     # TODO: add other arguments for the argparser: unzip, update etc. 
@@ -336,5 +306,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     if args.download:
-        download_allofplos_zip(unzip = False)
+        zip_path = download_corpus_zip(zipfile_dir)
+    # if args.unzip:
+    #     unzip_articles(zip_path, os.path.join(zipfile_dir, 'allofplos_xml', False))
     process_allofplos_zip(update = True, reviewed_only = False, skip_sm_dl = False)
