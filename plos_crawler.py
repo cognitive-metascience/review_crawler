@@ -1,5 +1,5 @@
 
-"""crawler for going through the `allofplos_xml.zip` file. The zip file will be downloaded to `allofplos` directory.
+"""crawler for going through the `allofplos_xml.zip` file. The zip file will be downloaded to `input` directory if the --download-zip.
 Tries its best to detect which articles had been peer-reviewed, extracts them from the zip into subdirectories in `plos/reviewed_articles`.
 Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files.
 Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory
@@ -10,8 +10,7 @@ import json
 import os
 import requests
 import lxml.etree as et
-
-from zipfile import ZipFile, BadZipFile
+from zipfile import ZipFile
 
 from allofplos.allofplos.article import Article
 from allofplos.allofplos.corpus.plos_corpus import download_corpus_zip, unzip_articles
@@ -19,20 +18,22 @@ from allofplos.allofplos.plos_regex import validate_doi, validate_plos_url
 
 from utils import cook, get_extension_from_str, get_logger, OUTPUT_DIR, INPUT_DIR
 
-# globals:
 
-# paths relative to `CRAWLER_DIR`, this is where parsed data is saved
+logger = get_logger("plos", fileh_level='DEBUG', streamh_level='INFO')
+
+## DEFAULT PATHS ##
+
+# these paths are relative to `CRAWLER_DIR`, which should be where this script is located
+zipfile_dir = INPUT_DIR
+zipfile_path = os.path.join(INPUT_DIR, 'allofplos.zip')
+default_extract_dir = os.path.join(zipfile_dir, 'allofplos_xml')
+
+# names of folders for where data is saved
 ALL_ARTICLES_DIR = os.path.join('plos','all_articles' )
 FILTERED_DIR = os.path.join('plos','reviewed_articles')
-
 all_articles_path = os.path.join(OUTPUT_DIR, ALL_ARTICLES_DIR)
 filtered_path = os.path.join(OUTPUT_DIR, FILTERED_DIR)
 
-zipfile_dir = INPUT_DIR
-zipfile_path = os.path.join(INPUT_DIR, 'allofplos.zip')
-
-
-logger = get_logger("plos", fileh_level='DEBUG', streamh_level='INFO')
 
 
 def url_to_doi(url) -> str:
@@ -47,6 +48,7 @@ def url_to_doi(url) -> str:
         logger.warning(f"{url} was deemed an invalid url.")
         return url
 
+
 def doi_to_short_doi(doi) -> str:
     """
     Returns the tail element of a doi string (that is, everything after the last slash).
@@ -58,7 +60,6 @@ def doi_to_short_doi(doi) -> str:
         return doi
 
 
-        
 def check_if_article_retracted(url):
     # TODO: change this to work on Soups?
     soup = cook(url)
@@ -161,12 +162,12 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
         
         article_dir = os.path.join(filtered_path, a_short_doi)
         sub_articles_dir = os.path.join(article_dir, 'sub-articles')
-        logger.info(f'article {a_short_doi} probably has reviews! It will be saved to {FILTERED_DIR}')
+        logger.info(f'Article {a_short_doi} probably has reviews! Full metatada will be saved to {FILTERED_DIR}')
         write_files = True
         if not os.path.exists(article_dir):
             os.makedirs(article_dir, exist_ok=False)
         elif update:
-            logger.warning(f"files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
+            logger.warning(f"Files for article {a_short_doi} and its sub-articles already exist in {FILTERED_DIR} and will be overwritten.")
         else:
             write_files = False
         logger.debug("Parsing sub-articles...")
@@ -203,7 +204,7 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
                 # save metadata to JSON:
                 with open(os.path.join(sub_articles_dir, sub_a_metadata['id'] + '.json'), 'w+') as fp:
                     json.dump(sub_a_metadata, fp)
-                logger.debug(f"sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}{os.path.sep}{a_short_doi}")
+                logger.debug(f"Sub-article {sub_a_metadata['doi']} saved to {FILTERED_DIR}{os.path.sep}{a_short_doi}")
             metadata['sub_articles'].append(sub_a_metadata)
             
         if write_files:
@@ -220,26 +221,47 @@ def parse_article_xml(xml_string: str, update = False, skip_sm_dl = False) -> di
     if update or not os.path.exists(_filename):
         with open(_filename, 'w+') as fp:
             json.dump(metadata, fp)
-        logger.debug(f"metadata for {a_short_doi} saved to {ALL_ARTICLES_DIR}.")
+        logger.debug(f"Metadata for {a_short_doi} saved to {ALL_ARTICLES_DIR}.")
     return metadata
     
     
-def get_article_files(reviewed_only=False):
+def get_article_files(rescan_reviewed = False):
+    """
+    Generator for obtaining the relevant files from PLOS corpus, either in the zipped or unzipped form.
+
+    :param rescan_reviewed: if set to `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
+
+    :return: a tuple: `(filename, fp)` where `fp` is a readable filepointer to the file named `filename`.
+    :rtype: tuple
+    """
     if not os.path.exists(zipfile_path):
-        logger.error("Did not find the zip file containing the PLOS corpus! Crawler will shut down.")
-        return
-    allofplos_zip = ZipFile(zipfile_path, 'r')
-    if reviewed_only:
+        logger.debug("Did not find the zip file containing the PLOS corpus, will try to look for the unzipped files in the default location.")
+        from_zip = False
+        if not os.path.isdir(default_extract_dir):
+            logger.error("Unable to locate the PLOS corpus! Crawler will shut down.")
+            return
+        else:
+            logger.info("PLOS corpus located in directory" + default_extract_dir)
+    else:
+        from_zip = True
+        allofplos_zip = ZipFile(zipfile_path, 'r')
+    if rescan_reviewed:
         reviewed = os.listdir(filtered_path)
-        filenames = filter(lambda f: os.path.splitext(f)[0] in reviewed, allofplos_zip.namelist())
+        if from_zip:
+            filenames = filter(lambda f: os.path.splitext(f)[0] in reviewed, allofplos_zip.namelist())
+        else:
+            filenames = filter(lambda f: os.path.splitext(f)[0] in reviewed, os.listdir(default_extract_dir))
     else:
         filenames = allofplos_zip.namelist()
     for filename in filenames:
-        fp = allofplos_zip.open(filename)
+        if from_zip:
+            fp = allofplos_zip.open(filename)
+        else:
+            fp = open(os.path.join(input_path, filename), 'rb')  # using bytes because lxml.etree likes them better
         yield filename, fp
 
 
-def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = False):
+def process_allofplos_zip(update = False, rescan_reviewed = False, skip_sm_dl = False):
     """
     Goes through the zip file contents and extracts XML files for reviewed articles, as well as metadata.
     For each article in the zip, metadata is extracted and stored in a JSON file in `ALL_ARTICLES_DIR`. 
@@ -249,12 +271,12 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     Sub-articles (reviews, decision letters etc.) are saved to subdirectories named 'sub-articles'.
     
     :param update: if is set to `True`, already existing files will be overwritten. Otherwise (and by default), files that were already parsed are skipped.
-    :param reviewed_only:  if set to `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
+    :param rescan_reviewed:  if set to `True`, then only articles that already have a directory in `FILTERED_DIR` will be processed
     :param skip_sm_dl: whether to skip downloading supplementary materials. 
     
     """
 
-    logger.debug(f'setting up a PLOScrawler to go through allofplos_xml.zip | update = {update}, reviewed_only = {reviewed_only}, skip_sm_dl = {skip_sm_dl}')
+    logger.debug(f'Setting up a PLOScrawler to go through allofplos_xml.zip | update = {update}, rescan_reviewed = {rescan_reviewed}, skip_sm_dl = {skip_sm_dl}')
 
     if not os.path.exists(filtered_path):
         os.makedirs(filtered_path)
@@ -266,7 +288,7 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
     
     reviewed = os.listdir(filtered_path)
 
-    for filename, fp in get_article_files(reviewed_only = reviewed_only):
+    for filename, fp in get_article_files(rescan_reviewed = rescan_reviewed):
         try:
             a_short_doi = os.path.splitext(filename)[0]     # TODO: find a better, universal way to get identifiers from filenames
             metadata_file_exists = os.path.exists(os.path.join(all_articles_path, a_short_doi +".json"))
@@ -274,8 +296,8 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
                 logger.debug(f'Skipping {filename} as it was already parsed.')
                 continue
             elif metadata_file_exists and update:
-                logger.info(f"file with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
-            logger.info(f'Processing {filename}')
+                logger.info(f"File with metadata for {a_short_doi} already exists in {ALL_ARTICLES_DIR} and will be overwritten.")
+            logger.debug(f'Processing file {filename}')
             a_xml = fp.read()
             fp.close()
 
@@ -287,26 +309,23 @@ def process_allofplos_zip(update = False, reviewed_only = False, skip_sm_dl = Fa
             logger.error(f"There was a {e.__class__.__name__} while parsing {filename} from zip: {str(e)}")
         
     logger.info(f"Finished parsing allofplos_xml.zip with {errors_counter} errors encountered in the meantime.")
-    logger.info(f"found {reviewed_counter} reviewed articles.")
+    logger.info(f"Found {reviewed_counter} reviewed articles.")
     
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    # parser.add_argument('--db', action='store', help=
-    #                     'Name the db', default='ploscorpus.db')
-    # parser.add_argument('--random', action='store', type=int, help=
-    #                     'Number of articles in a random subset. '
-    #                     'By default will use all articles')
-    parser.add_argument('--download-zip', action='store_true', help=
-                        'Download the entire allofplos corpus zip file to the input dir.', dest='download')
+    parser = argparse.ArgumentParser(description = "Find reviewed articles in the allofplos corpus.", epilog="Detects which articles had been peer-reviewed, extracts them from the zip into subdirectories in `plos/reviewed_articles`. Additionally, the sub-articles (reviews and such) from each xml are extracted and saved into files. Parsed metadata about each article in the zip file is saved to `plos/all_articles` directory")
+    parser.add_argument('--download', action='store_true', help=
+                        'Download the entire allofplos corpus zip file to the input dir before starting the crawler.', dest='download')
+    parser.add_argument('--unzip', action='store_true', help=
+                        'Unzip the allofplos corpus before starting the crawler. The zip archive will be removed after extracting the files.', dest='unzip')
     # parser.add_argument('--input-dir', action='store', help=
     #                     'Set the input dir', default=zipfile_dir)
-    # TODO: add other arguments for the argparser: unzip, update etc. 
-
+    # TODO: add other arguments for the argparser: update, rescan etc. 
+    
     args = parser.parse_args()
     
     if args.download:
         zip_path = download_corpus_zip(zipfile_dir)
-    # if args.unzip:
-    #     unzip_articles(zip_path, os.path.join(zipfile_dir, 'allofplos_xml', False))
-    process_allofplos_zip(update = True, reviewed_only = False, skip_sm_dl = False)
+    if args.unzip:
+        unzip_articles(zip_path, extract_directory = default_extract_dir, delete_file = True)
+    process_allofplos_zip(update = True, rescan_reviewed = False, skip_sm_dl = False)
