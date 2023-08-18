@@ -2,3 +2,6 @@
 	branch = crawling
 	path = allofplos
 	url = https://github.com/x-j/allofplos.git
+[submodule "elife-article-xml"]
+	path = elife-article-xml
+	url = https://github.com/elifesciences/elife-article-xml.git
