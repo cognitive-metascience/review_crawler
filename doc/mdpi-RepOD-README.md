@@ -15,6 +15,25 @@ This dataset contains all peer reviews available on mdpi.com as of January 2023,
 
 Additionally, this dataset contains the source HTML for each website from which the text of reviews was extracted, as well as any supplementary materials attached with the reviews. The original files were not enriched with any linguistic annotation or converted to any format (these are predominantly PDF and DOCX files, as uploaded through the MDPI editorial system by authors reviewers).
 
+#### The structure of the dataset
+
+You will find three folder in the corpus dataset. These are:  
+- `review_crawler` - the source code of the crawler,
+- `reviewed_articles` - the review corpus,
+- `schema` - JSON schemas for metadata files (articles and reviews).
+
+The subfolder `reviewed_articles` contains a very large number of subfolders (traversing this folder may require efficient programmatic access to your operating system's file system to be efficient), whose name conventions are as follows:
+
+`<title_abbreviation><short_doi>.<file_type><round>.<file_extension>`
+
+- `<title_abbreviation>` - a short abbreviation of the journal title,
+- `<short_doi>` - the numbers in the DOI used by the MDPI, without their prefix,
+- `<file_type>` - can be 'r' for reviews, 'a' for author responses, 's' for supplementary materials,
+- `<round>` - review round (1, 2, …),
+- `<file_extension>` - txt, html, docx or pdf (for supplementary materials).
+
+The corpus files are found in particular subfolder. Each subfolder features metadata in `metadata.json` file and the subfolder `sub-articles`, which contains corpus files with metadata included in separate standoff JSON files whose names follow the naming convention for corpus files, but with the `.json` extension. 
+
 We are making source code available for the dedicated crawler that was built to scrape the MDPI database. See the GitHub link below:
 - https://github.com/cognitive-metascience/review_crawler/tree/main/crawling
 
