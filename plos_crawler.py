@@ -73,7 +73,7 @@ except OSError as e:
 logger = get_logger("plos_parallel_autocsv", fileh_level='DEBUG', streamh_level='INFO')
 
 # ===============================================
-# Helper Functions (DOI/URL/Names/Subarticles) - Unchanged
+# Helper Functions (DOI/URL/Names/Subarticles)
 # ===============================================
 def url_to_doi(url: str) -> str | None:
     """Extracts DOI from a PLOS URL after validation."""
@@ -144,7 +144,7 @@ def _extract_subarticles_fallback(article_tree: et._ElementTree) -> list:
         return []
 
 # ===============================================
-# XML Parsing Functions - parse_subarticle Unchanged
+# XML Parsing Functions
 # ===============================================
 def parse_subarticle(root) -> dict:
     """Parses an lxml element representing a sub-article."""
@@ -278,6 +278,7 @@ def parse_article_xml(xml_bytes: bytes, update: bool = False, skip_sm_dl: bool =
     extracts metadata, identifies reviews, and handles file saving.
     Saves ONLY review-related content XML for reviewed articles.
     Retraction status is NOT checked here; it's handled by the worker.
+    Saving of reviewed_articles/<doi>/metadata.json is DEFERRED to the worker.
     """
     metadata = {}
     root = None
@@ -368,7 +369,7 @@ def parse_article_xml(xml_bytes: bytes, update: bool = False, skip_sm_dl: bool =
         if os.path.exists(article_dir) and not update:
             write_files = False
         elif not os.path.exists(article_dir):
-            try: os.makedirs(sub_articles_dir, exist_ok=True)
+            try: os.makedirs(sub_articles_dir, exist_ok=True) # Creates parent and sub-dir
             except OSError as e: logger.error(f"Failed create dir {article_dir}: {e}"); write_files = False
         elif update: # Dir exists and update=True
             try: os.makedirs(sub_articles_dir, exist_ok=True) # Ensure sub-dir exists
@@ -388,7 +389,6 @@ def parse_article_xml(xml_bytes: bytes, update: bool = False, skip_sm_dl: bool =
             elements_to_aggregate.append(sub_a_element)
 
             # --- Handle SM Downloads ---
-            # This is still a problem because while it identified SM files, it always fails to download them
             if write_files and not skip_sm_dl and 'supplementary_materials' in sub_a_metadata and sub_a_metadata['supplementary_materials']:
                 for sm in sub_a_metadata['supplementary_materials']:
                     sm_filepath = os.path.join(sub_articles_dir, sm['filename'])
@@ -440,13 +440,6 @@ def parse_article_xml(xml_bytes: bytes, update: bool = False, skip_sm_dl: bool =
                     logger.error(
                         f"Failed write sub-article JSON for original ID '{original_sub_a_id}' (tried filename: '{sub_a_json_filename}'): {e_json}")
 
-        # --- Save Main Article Metadata ---
-        if write_files:
-            main_json_path = os.path.join(article_dir, "metadata.json")
-            try:
-                if 'sub_articles' not in metadata: metadata['sub_articles'] = []
-                with open(main_json_path, 'w', encoding='utf-8') as fp_main_json: json.dump(metadata, fp_main_json, indent=4)
-            except Exception as e_json_main: logger.error(f"Failed write main metadata.json for {a_short_doi}: {e_json_main}")
 
     else: # No sub-articles found
         metadata['has_reviews'] = False
@@ -467,14 +460,13 @@ def parse_article_xml(xml_bytes: bytes, update: bool = False, skip_sm_dl: bool =
     return metadata
 
 # ===============================================
-# Worker Function for Parallel Processing - Uses CSV set
+# Worker Function for Parallel Processing
 # ===============================================
 def process_single_xml_file(filename, input_dir, all_articles_path, filtered_path, options, retracted_dois_set):
     """
     Processes a single XML file. Reads, parses, sets retraction status from CSV set,
-    and triggers saves via parse_article_xml. Re-saves final metadata.
+    and triggers saves via parse_article_xml. Saves final metadata correctly.
     Returns a tuple: (status, doi, has_reviews)
-    This slows things down as it basically performs 2 write operations!
     """
     short_doi = os.path.splitext(os.path.basename(filename))[0]
     full_path = os.path.join(input_dir, filename)
@@ -511,15 +503,35 @@ def process_single_xml_file(filename, input_dir, all_articles_path, filtered_pat
                 logger.debug(f"{log_prefix}Marking {article_doi} as retracted (from CSV).")
             else:
                 metadata['retracted'] = False
+            # --- End Set Retraction Status ---
 
-            # --- Re-save Basic Metadata with Final Retraction Status ---
+            # --- Determine short DOI (used in paths) ---
             a_short_doi = doi_to_short_doi(article_doi) if article_doi else short_doi
-            final_metadata_path = os.path.join(all_articles_path, a_short_doi + ".json")
+
+            # --- Save/Re-save FINAL Metadata to ALL_ARTICLES_DIR ---
+            # Overwrites initial save by parse_article_xml with correct retraction status
+            final_all_metadata_path = os.path.join(all_articles_path, a_short_doi + ".json")
             try:
-                 with open(final_metadata_path, 'w', encoding='utf-8') as fp:
+                 with open(final_all_metadata_path, 'w', encoding='utf-8') as fp:
                     json.dump(metadata, fp, indent=4)
+                 logger.debug(f"{log_prefix}Saved final basic metadata to {final_all_metadata_path}")
             except Exception as e:
-                logger.error(f"{log_prefix}Failed to write/update final basic metadata to {final_metadata_path}: {e}")
+                logger.error(f"{log_prefix}Failed to write/update final basic metadata to {final_all_metadata_path}: {e}")
+
+            # --- Save FINAL Metadata to FILTERED_DIR if article had reviews --- # <<--- ADDED BLOCK
+            if metadata.get('has_reviews'):
+                reviewed_metadata_path = os.path.join(filtered_path, a_short_doi, "metadata.json")
+                try:
+                    # Directory should have been created by parse_article_xml's makedirs call
+                    with open(reviewed_metadata_path, 'w', encoding='utf-8') as fp_rev_meta:
+                       json.dump(metadata, fp_rev_meta, indent=4)
+                    logger.debug(f"{log_prefix}Saved final reviewed metadata to {reviewed_metadata_path}")
+                except FileNotFoundError:
+                     # This might happen if directory creation failed earlier but parsing continued somehow
+                     logger.error(f"{log_prefix}Directory structure for {reviewed_metadata_path} not found. Cannot save reviewed metadata.")
+                except Exception as e_rev:
+                    logger.error(f"{log_prefix}Failed to write final reviewed metadata to {reviewed_metadata_path}: {e_rev}")
+
 
             return ('processed', a_short_doi, metadata.get('has_reviews', False))
         else:
@@ -537,7 +549,7 @@ def process_single_xml_file(filename, input_dir, all_articles_path, filtered_pat
             del xml_bytes
 
 # ===============================================
-# Main Processing Orchestration - Includes Auto-Download
+# Main Processing Orchestration
 # ===============================================
 def process_allofplos(update: bool = False, rescan_reviewed: bool = False, skip_sm_dl: bool = False):
     """Orchestrates the processing of PLOS articles using multiprocessing and auto-updating CSV retraction check."""
